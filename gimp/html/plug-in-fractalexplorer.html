@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>13.17. ഫ്രാക്റ്റലിന് എക്സ്പ്ലോറർ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-render.html" title="13. റെൻഡർ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="script-fu-circuit.html" title="13.16. സർക്യൂട്ട്" />
+    <link rel="next" href="plug-in-gfig.html" title="13.18. Gfig" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">13.17. ഫ്രാക്റ്റലിന് എക്സ്പ്ലോറർ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-circuit.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">13. റെൻഡർ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-gfig.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-fractalexplorer"></a>13.17. ഫ്രാക്റ്റലിന് എക്സ്പ്ലോറർ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925529134960" class="indexterm"></a>
+      <a id="idp46925529136832" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925529137792"></a>13.17.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925529138560"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.323. ഫ്രാക്റ്റലിന് എക്സ്പ്ലോറർ ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/render-taj-fractalexplorer.jpg" alt="ഫ്രാക്റ്റലിന് എക്സ്പ്ലോറർ ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Fractal Explorer</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ ഉപയോഗിച്ച്, fractals യൂസ്നെറ്റുമായി ഉശിരുനൽകി multicolored ചിത്രങ്ങൾ സൃഷ്ടിക്കാൻ കഴിയും. നിങ്ങൾ കൃത്യമായി ഫ്രാക്റ്റലിന് ഘടന പരിഹരിക്കാൻ സാധിക്കും <a class="link" href="plug-in-ifscompose.html" title="13.7. ഐ.എഫ്.എസ് ഫ്രാക്റ്റലിന്">IFS Fractal</a> അരിപ്പ വ്യത്യസ്തമായി, ഈ ഫിൽട്ടർ നിങ്ങൾ ലളിതമായി fractals അവതരിപ്പിക്കാനും അനുവദിക്കുന്നു.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925529144464"></a>13.17.2. ഫിൽട്ടർ ആരംഭിക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Render</span> → <span class="guimenuitem">Fractal Explorer</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925529147088"></a>13.17.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925529147840"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.324. <span class="quote">“<span class="quote">Fractal Explorer</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/render/fractalexplorer.png" alt="“Fractal Explorer” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഫ്രാക്റ്റലിന് എക്സ്പ്ലോറർ വിൻഡോ രണ്ടു പെയിനുകളുണ്ടു്: പരാമീറ്ററുകൾ, വർണ്ണങ്ങൾ, Fractals: ഇടതുവശത്ത് അവിടെ പ്രധാന ഓപ്ഷനുകൾ ടാബുകളിൽ സംഘടിപ്പിച്ച കണ്ടെത്താൻ വലതുഭാഗത്ത് ഒരു സൂം സവിശേഷത പ്രിവ്യൂ പാളി ആണ്.</p>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925529151792"></a>13.17.3.1. പ്രിവ്യൂ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">തൽസമയ പ്രിവ്യൂ</span>
+              </dt>
+              <dd>
+                <p><span class="guilabel">Realtime preview</span> അൺചെക്ക് നിങ്ങളുടെ കമ്പ്യൂട്ടറിൽ സ്ലോ ആണ് മാത്രമേ. ഈ സാഹചര്യത്തിൽ, <span class="guibutton">Redraw preview</span> ബട്ടൺ ക്ളിക്ക് പ്രിവ്യൂ അപ്ഡേറ്റ് ചെയ്യാം.</p>
+                <p>ക്ളിക്ക്-വലിച്ചോ മൌസ് പോയിന്റർ പ്രിവ്യൂ, നിങ്ങൾ സൂം ചെയ്യും ഒരു പ്രദേശം delimiting ഒരു ദീർഘചതുരം വരയ്ക്കാവുന്നതാണ്.</p>
+              </dd>
+              <dt>
+                <span class="term">സൂം</span>
+              </dt>
+              <dd>
+                <p>നിങ്ങൾ സൂം അല്ലെങ്കിൽ സൂം ഔട്ട് അവിടെ ചില രീതികളുണ്ട്. <span class="guibutton">Undo</span> നിങ്ങൾ കുറയാനോ മുമ്പ്, മുൻ സംസ്ഥാന മടങ്ങാൻ അനുവദിക്കുന്നു. <span class="guibutton">Redo</span> നിങ്ങൾ <span class="guibutton">Zoom In</span> അല്ലെങ്കിൽ <span class="guibutton">Zoom Out</span> ബട്ടണുകൾ അതു വീണ്ടും സൃഷ്ടിക്കാൻ ഇല്ലാതെ, പൂർവാവസ്ഥയിലാക്കിയ ചെയ്തിരുന്നു സൂം പുനഃസ്ഥാപിക്കാൻ അനുവദിക്കുന്നു.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925529160880"></a>13.17.3.2. പരാമീറ്ററുകൾ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925529161632"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.325. <span class="quote">“<span class="quote">Fractal Explorer</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (പരാമീറ്ററുകൾ)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/render/fractalexplorer1.png" alt="“Fractal Explorer” ഫിൽട്ടർ ഓപ്ഷനുകൾ (പരാമീറ്ററുകൾ)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഈ ടാബ് ഫ്രാക്റ്റലിന് കണക്കുകൂട്ടൽ സജ്ജമാക്കാനും ഫ്രാക്റ്റലിന് തരം തിരഞ്ഞെടുക്കുന്നതിനായി ചില ഓപ്ഷനുകൾ അടങ്ങിയിരിക്കുന്നു.</p>
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">ഫ്രാക്റ്റലിന് പരാമീറ്ററുകൾ</span>
+              </dt>
+              <dd>
+                <p>ഇവിടെ, ഫ്രാക്റ്റലിന് പടർന്ന, ആവര്ത്തനം ആൻഡ് വശം സജ്ജമാക്കാൻ സ്ലൈഡറുകൾ ഇൻപുട്ട് പെട്ടികൾ.</p>
+                <div class="variablelist">
+                  <dl class="variablelist">
+                    <dt>
+                      <span class="term">ഇടത്തെ, </span>
+                      <span class="term">വലത്, </span>
+                      <span class="term">ടോപ്പ്, </span>
+                      <span class="term">അടിത്തട്ട്</span>
+                    </dt>
+                    <dd>
+                      <p>നിങ്ങൾ തിരശ്ചീന, / അല്ലെങ്കിൽ ലംബമായ ദിശകളിൽ, ഒരു മിനിമം ഒരു പരമാവധി തമ്മിലുള്ള പടരുന്ന ഫ്രാക്റ്റലിന് സജ്ജമാക്കാൻ കഴിയും. മൂല്യങ്ങൾ -3,0 മുതൽ 3.0 ഇരിക്കുന്നു.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">iterations</span>
+                    </dt>
+                    <dd>
+                      <p>ഈ പരാമീറ്റർ ഉപയോഗിച്ച്, ഫ്രാക്റ്റലിന് ആവർത്തന, ആവര്ത്തനം അങ്ങനെ വിശദമായി സജ്ജമാക്കാൻ കഴിയും. മൂല്യങ്ങൾ 0.0 മുതൽ 1000,0 ആകുന്നു</p>
+                    </dd>
+                    <dt>
+                      <span class="term">പേര്ക്ക്, </span>
+                      <span class="term">സൈപ്രസ്സ്</span>
+                    </dt>
+                    <dd>
+                      <p>ഇവ ഉപയോഗിച്ച്, തിരശ്ചീനമായി (എക്സ്) ൽ ഫ്രാക്റ്റലിന് വശം, ഒപ്പം / അല്ലെങ്കിൽ സ്വയസാദൃശ്യം ആൻഡ് Sierpinski തരം ഒഴികെ ലംബമായ (y) ദിശകൾ, മാറ്റാവുന്നതാണ്.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">തുറക്കുക, </span>
+                      <span class="term">റീസെറ്റ്, </span>
+                      <span class="term">രക്ഷിക്കും</span>
+                    </dt>
+                    <dd>
+                      <p>ഈ മൂന്നു ബട്ടണുകൾ ഉപയോഗിച്ച് നിങ്ങൾക്ക്, അതിന്റെ എല്ലാ പരാമീറ്ററുകളുപോഗിച്ച് നിങ്ങളുടെ ജോലി സംരക്ഷിക്കുകയും ഒരു മുമ്പ് സംരക്ഷിച്ച ഫ്രാക്റ്റലിന് തുറക്കുക, അല്ലെങ്കിൽ പരിഷ്ക്കരണങ്ങളെല്ലാം മുമ്പാകെ പ്രാരംഭ സംസ്ഥാന മടങ്ങാൻ കഴിയും.</p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+              <dt>
+                <span class="term">ഫ്രാക്റ്റലിന് ഇനം</span>
+              </dt>
+              <dd>
+                <p>നിങ്ങൾ ഫ്രാക്റ്റലിന് തരം ഉദാഹരണത്തിന് <span class="guilabel">Mandelbrot</span>, <span class="guilabel">Julia</span>, <span class="guilabel">Barnsley</span> അല്ലെങ്കിൽ <span class="guilabel">Sierpinski</span> വേണ്ടി ആയിരിക്കും തിരഞ്ഞെടുക്കാം.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925529185600"></a>13.17.3.3. നിറങ്ങൾ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925529186336"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.326. <span class="quote">“<span class="quote">Fractal Explorer</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (നിറങ്ങൾ)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/render/fractalexplorer2.png" alt="“Fractal Explorer” ഫിൽട്ടർ ഓപ്ഷനുകൾ (നിറങ്ങൾ)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഈ ടാബ് ഫ്രാക്റ്റലിന് നിറം ക്രമീകരണം ഓപ്ഷനുകൾ അടങ്ങിയിരിക്കുന്നു.</p>
+          <div class="variablelist">
+            <p class="title">
+              <strong>കളേഴ്സ് എണ്ണം</strong>
+            </p>
+            <dl class="variablelist">
+              <dt>
+                <span class="term">നിറങ്ങൾ എണ്ണം</span>
+              </dt>
+              <dd>
+                <p>ഈ സ്ലൈഡർ അതിന്റെ ഇൻപുട്ട് ബോക്സുകൾ 2 നും 8192. തമ്മിലുള്ള ഈ നിറങ്ങൾ പാലറ്റ് ടാബ് ചുവടെ പ്രദർശിപ്പിച്ചിരിക്കുന്നു ഫ്രാക്റ്റലിന്, വർണങ്ങൾ എണ്ണം സജ്ജമാക്കാൻ അനുവദിക്കുന്നു. യഥാർത്ഥത്തിൽ, ആ ഫ്രാക്റ്റലിന് വർണ്ണങ്ങൾ തമ്മിൽ ഒരു ഗ്രേഡിയന്റ് മാത്രമാണ്: <span class="quote">“<span class="quote">Color Density</span>”</span> ആൻഡ് <span class="quote">“<span class="quote">Color Function</span>”</span> ഓപ്ഷനുകൾ ഉപയോഗിച്ച് വർണ്ണങ്ങൾ മാറ്റാനാകും. ഫ്രാക്റ്റലിന് നിറങ്ങൾ (അതുപോലെത്തന്നെ fractals ഒരു വെള്ള ചിത്രം ഉപയോഗിക്കാം) യഥാർത്ഥ ചിത്രത്തിന്റെ നിറങ്ങൾ ആശ്രയിക്കുന്നില്ല.</p>
+              </dd>
+              <dt>
+                <span class="term">മൃദുലമാക്കുന്നതിനും loglog ഉപയോഗിക്കുക</span>
+              </dt>
+              <dd>
+                <p>ഈ ഓപ്ഷൻ ചെക്ക് ചെയ്താല്, ബാൻഡ് പ്രഭാവം വിതാനിച്ചവന് ആണ്.</p>
+                <div class="figure">
+                  <a id="idp46925529196160"></a>
+                  <p class="title">
+                    <strong>ചിത്രം 17.327. Loglog മൃദുലമാക്കുന്നതിനും ഉദാഹരണം</strong>
+                  </p>
+                  <div class="figure-contents">
+                    <div class="mediaobject">
+                      <img src="images/filters/examples/render-fractalexpl.png" alt="Loglog മൃദുലമാക്കുന്നതിനും ഉദാഹരണം" />
+                    </div>
+                  </div>
+                </div>
+                <br class="figure-break" />
+              </dd>
+            </dl>
+          </div>
+          <div class="variablelist">
+            <p class="title">
+              <strong>വർണ്ണ സാന്ദ്രത</strong>
+            </p>
+            <dl class="variablelist">
+              <dt>
+                <span class="term">റെഡ്, </span>
+                <span class="term">പച്ചയായ, </span>
+                <span class="term">ബ്ലൂ</span>
+              </dt>
+              <dd>
+                <p>ഈ മൂന്ന് സ്ലൈഡറുകൾ അവരുടെ ടെക്സ്റ്റ്-ബോക്സുകൾ മൂന്ന് കളർ ചാനലുകളിൽ നിറം തീവ്രത വെക്കട്ടെ. മൂല്യങ്ങൾ 0.0 മുതൽ 1.0 വ്യത്യസ്തമാണ്.</p>
+              </dd>
+            </dl>
+          </div>
+          <div class="variablelist">
+            <p class="title">
+              <strong>വർണ്ണ ഫംഗ്ഷൻ</strong>
+            </p>
+            <p><span class="guilabel">Red</span>, <span class="guilabel">Green</span> ആൻഡ് <span class="guilabel">Blue</span> നിറം ചാനലുകൾ, നിങ്ങൾ നിറം ചികിത്സ എങ്ങനെ തിരഞ്ഞെടുക്കാം:</p>
+            <dl class="variablelist">
+              <dt>
+                <span class="term">അതിന്റെ</span>
+              </dt>
+              <dd>
+                <p>വർണ്ണ തലങ്ങളിൽ സൈൻ ഫംഗ്ഷൻ അനുസരിച്ച് മോഡുലേറ്റ് ചെയ്യും.</p>
+              </dd>
+              <dt>
+                <span class="term">കസൈൻ</span>
+              </dt>
+              <dd>
+                <p>കളർ സാന്ദ്രതയുള്ള കൊസൈൻ ഫംഗ്ഷൻ അനുസരിച്ച് വ്യത്യാസപ്പെട്ടിരിക്കും.</p>
+              </dd>
+              <dt>
+                <span class="term">ഒന്നുമില്ല</span>
+              </dt>
+              <dd>
+                <p>കളർ സാന്ദ്രതയുള്ള രേഖകളെ വ്യത്യാസപ്പെട്ടിരിക്കും.</p>
+              </dd>
+              <dt>
+                <span class="term">ഇൻവെർഷൻ</span>
+              </dt>
+              <dd>
+                <p>നിങ്ങൾ ഈ ഐച്ഛികം ചെക്ക് ചെയ്താല്, ഫംഗ്ഷൻ മൂല്യങ്ങൾ വിപരീതമാക്കപ്പെടും.</p>
+              </dd>
+            </dl>
+          </div>
+          <div class="variablelist">
+            <p class="title">
+              <strong>കളർ മോഡ്</strong>
+            </p>
+            <p>ഈ ഉപാധികൾ വർണ്ണ മൂല്യങ്ങൾ നിന്ന് എടുത്ത വേണം നീ എവിടെ സജ്ജമാക്കാൻ അനുവദിക്കുന്നു.</p>
+            <dl class="variablelist">
+              <dt>
+                <span class="term">മുകളിൽ വ്യക്തമാക്കിയ</span>
+              </dt>
+              <dd>
+                <p>വർണ്ണ മൂല്യങ്ങൾ <span class="guilabel">Color Density</span> ഓപ്ഷനുകളിൽ നിന്ന് സ്വീകരിക്കും.</p>
+              </dd>
+              <dt>
+                <span class="term">അവസാന ചിത്രത്തിലേക്ക് സജീവ ഗ്രേഡിയന്റ് പ്രയോഗിക്കുക</span>
+              </dt>
+              <dd>
+                <p>ഉപയോഗിച്ച നിറങ്ങൾ സജീവ ഗ്രേഡിയന്റ് ആ ആയിരിക്കും. നിങ്ങൾ ഗ്രേഡിയന്റ് സോഴ്സ് ബട്ടൺ ക്ളിക്ക് മറ്റൊരു വ്യത്യാസത്തിനു തിരഞ്ഞെടുക്കുക കഴിയണം.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925529220208"></a>13.17.3.4. Fractals</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925529220944"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.328. <span class="quote">“<span class="quote">Fractal Explorer</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (Fractals)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/render/fractalexplorer3.png" alt="“Fractal Explorer” ഫിൽട്ടർ ഓപ്ഷനുകൾ (Fractals)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഈ ടാബ് അവരുടെ പരാമീറ്ററുകളുപോഗിച്ച് fractals ഒരു വലിയ ലിസ്റ്റ് അടങ്ങിയിരിക്കുന്നു നിങ്ങൾ ഒരു മോഡൽ ഉപയോഗിക്കാൻ കഴിയുന്ന: പിടികൂടാനുള്ള ഒന്നു മാത്രം ക്ലിക്ക് ചെയ്യുക.</p>
+          <p><span class="guibutton">Refresh</span> പട്ടികയില് പുതുക്കുന്നതിനായി നിങ്ങൾ വീണ്ടും ആരംഭിക്കുക <acronym class="acronym">GIMP</acronym> അങ്ങോട്ടുമിങ്ങോട്ടും, വർക്ക് സംരക്ഷിച്ചുണ്ടെങ്കിലോ അനുവദിക്കുന്നു. നിങ്ങൾക്ക് <span class="guibutton">Delete</span> ക്ലിക്കുചെയ്ത് പട്ടികയിൽ നിന്നും തിരഞ്ഞെടുത്ത ഫ്രാക്റ്റലിന് ഇല്ലാതാക്കാൻ കഴിയും.</p>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-circuit.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-render.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-gfig.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-circuit.html">13.16. സർക്യൂട്ട്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-gfig.html">13.18. Gfig</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

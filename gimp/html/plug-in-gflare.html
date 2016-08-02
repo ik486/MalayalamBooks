@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>5.2. ഗ്രേഡിയന്റ് .അൽപ്പസമയംകാത്തിരിക്കൂ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-light-and-shadow.html" title="5. വെളിച്ചവും ഷാഡോ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="filters-light-and-shadow.html" title="5. വെളിച്ചവും ഷാഡോ ഫിൽട്ടറുകൾ" />
+    <link rel="next" href="plug-in-flarefx.html" title="5.3. ലെൻസ് വിദൂരസ്ഥമായ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">5.2. ഗ്രേഡിയന്റ് .അൽപ്പസമയംകാത്തിരിക്കൂ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="filters-light-and-shadow.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">5. വെളിച്ചവും ഷാഡോ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-flarefx.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-gflare"></a>5.2. ഗ്രേഡിയന്റ് .അൽപ്പസമയംകാത്തിരിക്കൂ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925524256096" class="indexterm"></a>
+      <a id="idp46925521065296" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925521279824"></a>5.2.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925524136656"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.90. ഗ്രേഡിയന്റ് .അൽപ്പസമയംകാത്തിരിക്കൂ ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="ഗ്രേഡിയന്റ് .അൽപ്പസമയംകാത്തിരിക്കൂ ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/light-taj-gflare.jpg" alt="ഗ്രേഡിയന്റ് .അൽപ്പസമയംകാത്തിരിക്കൂ ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Gradient Flare</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഗ്രേഡിയന്റ് ആളിക്കത്തുക പ്രഭാവം നിങ്ങൾ ഉറവിട ചുറ്റും ഒരു പ്രഭാവലയം ആൻഡ് റേഡിയേഷനും ഉപയോഗിച്ച്, കണ്ണഞ്ചിക്കുന്ന പ്രകാശ സ്രോതസ്സ് ഒരു ഫോട്ടോ എടുക്കും പ്രശ്നമില്ല നിങ്ങള് ഇഫക്ട് ഓർമിപ്പിക്കുന്നു. വൻകിട കേന്ദ്ര Fireball ആണ് <span class="emphasis"><em>Glow</em></span>, <span class="emphasis"><em>Rays</em></span> ആൻഡ് <span class="emphasis"><em>Second Flares</em></span>: ഗ്രേഡിയന്റ് ആളിക്കത്തുക ചിത്രം മൂന്നു ഘടകങ്ങൾ ഉണ്ട്</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523984896"></a>5.2.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Light and Shadow</span> → <span class="guimenuitem">Gradient Flare</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523987424"></a>5.2.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <p><span class="emphasis"><em>Settings</em></span> ടാബ് നിങ്ങൾ <span class="emphasis"><em>Selector</em></span> ടാബ് നിങ്ങൾ ഒരു പട്ടികയിൽ പ്രീസെറ്റുകൾ തിരഞ്ഞെടുക്കുക സമയത്ത് സ്വമേധയാ പാരാമീറ്ററുകൾ സജ്ജീകരിക്കാൻ അനുവദിക്കുന്നു.</p>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p><span class="guilabel">Auto update preview</span> ചെക്കുചെയ്തിട്ടുള്ളപ്പോൾ, പാരാമീറ്റർ ക്രമീകരണം ഫലങ്ങൾ ഇന്ററാക്ടീവ് നിങ്ങൾ <span class="guilabel">OK</span> ബട്ടണില് ക്ലിക്ക് വരെ ചിത്രം വരുത്താതെ പ്രിവ്യൂ പ്രദർശിപ്പിക്കുന്നു.</p>
+            </dd>
+          </dl>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925523992896"></a>5.2.3.1. ക്രമീകരണങ്ങൾ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925523993648"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.91. <span class="quote">“<span class="quote">Gradient Flare</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (ക്രമീകരണം)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/light-and-shadow/gflare-options-1.png" alt="“Gradient Flare” ഫിൽട്ടർ ഓപ്ഷനുകൾ (ക്രമീകരണം)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">കേന്ദ്രം</span>
+              </dt>
+              <dd>
+                <p>നിങ്ങൾ എക്സ് സജ്ജമാക്കാൻ കഴിയും, Y (പിക്സൽ) ഇൻപുട്ട് ബോക്സ് ഉപയോഗിച്ച് സ്വഗൃഹത്തിൽ ഏകോപനങ്ങളും പ്രിവ്യൂ ക്ലിക്ക് വഴി. കോർഡിനേറ്റ് ഉത്ഭവം മുകളിലെ ഇടത് കോണിൽ ആണ്.</p>
+              </dd>
+              <dt>
+                <span class="term">പരാമീറ്ററുകൾ</span>
+              </dt>
+              <dd>
+                <div class="variablelist">
+                  <dl class="variablelist">
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">വാസാര്ദ്ധം</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>പ്രഭാവം ആരത്തിന്. സ്ലൈഡർ സാധ്യമായ വിലകൾ പരിധി പരിമിതപ്പെടുത്തുന്നു, എന്നാൽ നിങ്ങൾ വലിയവൻ മൂല്യങ്ങൾ നൽകാം ഇൻപുട്ട് ബോക്സ് ഉപയോഗിച്ച്.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">റൊട്ടേഷൻ</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>ഇഫക്റ്റ് തിരിയുക.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">ഹ്യൂയേ റൊട്ടേഷൻ</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>പ്രഭാവമുള്ള ടിന്റ് (കളർ) മാറ്റുക.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">വെക്ടര്സൂര്യാസ്തമയം കോൺ</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>രണ്ടാമത്തേത് സൗരജ്വാലകളിലെ തിരിയുക.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">വെക്ടര്സൂര്യാസ്തമയം ദൈർഘ്യം</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>രണ്ടാമത്തേത് സൗരജ്വാലകളിലെ അപേക്ഷിച്ച ദൂരം വ്യത്യാസപ്പെട്ടിരിക്കും.</p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+              <dt>
+                <span class="term">അഡാപ്റ്റീവ് supersampling</span>
+              </dt>
+              <dd>
+                <p>ആഴവും ത്രെഷോൾഡ് തുടങ്ങിയ വിരുദ്ധ-അലിയാസിങ് പരാമീറ്ററുകൾ എന്ന ക്രമീകരണങ്ങൾ. (പുറമേ <a class="xref" href="glossary.html#glossary-supersampling" title="Supersampling">
+      <span class="phrase">Supersampling</span>
+    </a> കാണുക.)</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925524013760"></a>5.2.3.2. സെലക്ടർ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925524014496"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.92. <span class="quote">“<span class="quote">Gradient Flare</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (സെലക്ടർ)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/light-and-shadow/gflare-options-2.png" alt="“Gradient Flare” ഫിൽട്ടർ ഓപ്ഷനുകൾ (സെലക്ടർ)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>സെലക്ടർ ടാബ് അത് മാറ്റുന്നതിന് ഒരു ഗ്രേഡിയന്റ് .അൽപ്പസമയംകാത്തിരിക്കൂ പാറ്റേൺ തിരഞ്ഞെടുത്ത് അത് സംരക്ഷിക്കാൻ അനുവദിക്കുന്നു.</p>
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">പുതിയ</span>
+              </dt>
+              <dd>
+                <p>നിങ്ങൾ ഈ ബട്ടണിൽ ക്ലിക്ക് ചെയ്യുമ്പോൾ, നിങ്ങൾ ഒരു പുതിയ ഗ്രേഡിയന്റ് വിദൂരസ്ഥമായ പാറ്റേൺ സൃഷ്ടിക്കുക. അതു നിങ്ങളുടെ ചോയ്സ് ഒരു പേര് നൽകുക.</p>
+              </dd>
+              <dt>
+                <span class="term">തിരുത്തുക</span>
+              </dt>
+              <dd>
+                <p>ഈ ബട്ടൺ (താഴെ കാണുക) <a class="link" href="plug-in-gflare.html#plug-in-gflare-editor" title="5.2.4. ഗ്രേഡിയന്റ് ഉജ്ജ്വലിക്കും എഡിറ്റർ">Gradient Flare Editor</a> ചെയ്യുന്നു.</p>
+              </dd>
+              <dt>
+                <span class="term">പകര്പ്പ്</span>
+              </dt>
+              <dd>
+                <p>ഈ ബട്ടൺ നിങ്ങൾ തിരഞ്ഞെടുത്ത ഗ്രേഡിയന്റ് ആളിക്കത്തുക പാറ്റേൺ ഡ്യൂപ്ലിക്കേറ്റ് അനുവദിക്കുന്നു. ഒറിജിനലിന്റേത് പന്തിന്റെ ഇല്ലാതെ പകർപ്പ് എഡിറ്റുചെയ്യാനാകും.</p>
+              </dd>
+              <dt>
+                <span class="term">ഇല്ലാതാക്കുക</span>
+              </dt>
+              <dd>
+                <p>ഈ ബട്ടൺ ഗ്രേഡിയന്റ് ആളിക്കത്തുക പാറ്റേൺ ഇല്ലാതാക്കുന്നു.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="plug-in-gflare-editor"></a>5.2.4. ഗ്രേഡിയന്റ് ഉജ്ജ്വലിക്കും എഡിറ്റർ</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഗ്രേഡിയന്റ് ആളിക്കത്തുക എഡിറ്റർ ടാബുകളിൽ പുറമേ സംഘടിപ്പിക്കുന്നത്:</p>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="plug-in-gflare-editor-general"></a>5.2.4.1. പൊതുവായ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925524030496"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.93. <span class="quote">“<span class="quote">Gradient Flare Editor</span>”</span> ഓപ്ഷനുകൾ (പൊതുവായ)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/light-and-shadow/gflare-editor-1.png" alt="“Gradient Flare Editor” ഓപ്ഷനുകൾ (പൊതുവായ)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">പെയിന്റ് ഓപ്ഷനുകൾ ജലിക്കുക</span>
+              </dt>
+              <dd>
+                <div class="variablelist">
+                  <dl class="variablelist">
+                    <dt>
+                      <span class="term">അതാര്യത</span>
+                    </dt>
+                    <dd>
+                      <p>സ്ലൈഡർ ഇൻപുട്ട് ബോക്സ് തിളക്കം അതാര്യത (0-100) കുറയ്ക്കാൻ അനുവദിക്കുന്നു.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">പെയിന്റ് മോഡ്</span>
+                    </dt>
+                    <dd>
+                      <p>നിങ്ങൾ നാലു മോഡുകളിലെ തിരഞ്ഞെടുക്കാം:</p>
+                      <div class="variablelist">
+                        <dl class="variablelist">
+                          <dt>
+                            <span class="term">
+                              <span class="guilabel">സാധാരണ</span>
+                            </span>
+                          </dt>
+                          <dd>
+                            <p>ഈ മോഡിൽ, തിളക്കം കീഴെ എന്താണെന്ന് കണക്കിലെടുത്തുകൊണ്ട് ഇല്ലാത്ത ചിത്രം മൂടുന്നു.</p>
+                          </dd>
+                          <dt>
+                            <span class="term">
+                              <span class="guilabel">ചേർത്ത</span>
+                            </span>
+                          </dt>
+                          <dd>
+                            <p>തിളക്കത്തിന്റെ പിക്സൽ RGB മൂല്യങ്ങൾ സ്വരൂപത്തിൽ പൊരുത്തപ്പെടുന്ന പിക്സൽ ആർജിബി മൂല്യങ്ങൾ ചേർത്തു. നിറങ്ങൾ ഭാരം വെളുത്ത പ്രദേശങ്ങൾ ദൃശ്യമാകും നേടുക.</p>
+                          </dd>
+                          <dt>
+                            <span class="term">
+                              <span class="guilabel">ഓവർലേ</span>
+                            </span>
+                          </dt>
+                          <dd>
+                            <p>തിളക്കത്തിന്റെ ലൈറ്റ് / ഇരുണ്ട പ്രദേശങ്ങൾ ചിത്രം വെളിച്ചം / ഇരുണ്ട പ്രദേശങ്ങൾ പൊരുത്തപ്പെടുന്ന മെച്ചപ്പെടുത്തുക.</p>
+                          </dd>
+                          <dt>
+                            <span class="term">
+                              <span class="guilabel">സ്ക്രീൻ</span>
+                            </span>
+                          </dt>
+                          <dd>
+                            <p>ചിത്രത്തിന്റെ ഇരുണ്ട പ്രദേശങ്ങൾ തിളക്കത്തിന്റെ നേരിയ പ്രദേശങ്ങൾ പൊരുത്തപ്പെടുന്ന വഴി പ്രബുദ്ധതയും. രണ്ട് സ്ലൈഡുകൾ ഒരേ സ്ക്രീനിൽ പ്രൊജക്റ്റ് സങ്കൽപ്പിക്കുക.</p>
+                          </dd>
+                        </dl>
+                      </div>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+              <dt>
+                <span class="term">രശ്മികൾ പെയിന്റ് ഓപ്ഷനുകൾ</span>
+              </dt>
+              <dd>
+                <p>ഓപ്ഷനുകൾ <span class="guilabel">Glow Paint Options</span> സമാനമാണ് നടപടിക്രമം.</p>
+              </dd>
+              <dt>
+                <span class="term">രണ്ടാമത്തേത് .അൽപ്പസമയംകാത്തിരിക്കൂ പെയിന്റ് ഓപ്ഷനുകൾ</span>
+              </dt>
+              <dd>
+                <p>ഓപ്ഷനുകൾ <span class="guilabel">Glow Paint Options</span> സമാനമാണ് നടപടിക്രമം.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="plug-in-gflare-editor-glow"></a>5.2.4.2. ജലിക്കുക</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925524054704"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.94. <span class="quote">“<span class="quote">Gradient Flare Editor</span>”</span> ഓപ്ഷനുകൾ (ഗ്ലോ)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/light-and-shadow/gflare-editor-2.png" alt="“Gradient Flare Editor” ഓപ്ഷനുകൾ (ഗ്ലോ)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">ഘനമായ</span>
+              </dt>
+              <dd>
+                <div class="variablelist">
+                  <p>ചതുരാകൃതിയിലുള്ള ബട്ടണുകൾ ക്ളിക്ക്, നിങ്ങൾ ഘനമായ ഒരു നീണ്ട പട്ടിക കഴിയൂ. <span class="quote">“<span class="quote">%</span>”</span> ഘനമായ എഡിറ്റർ വകയാണ്.</p>
+                  <dl class="variablelist">
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">റേഡിയൽ ഗ്രേഡിയന്റ്</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>തിരഞ്ഞെടുത്ത ഗ്രേഡിയന്റ് കേന്ദ്രത്തിൽ നിന്നും അറ്റം വരെ, അതിനനുസരിച്ച് വരച്ചതാണ്.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">കോണീയ ഗ്രേഡിയന്റ്</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>നേരിയ പ്രദേശങ്ങൾ വർധിപ്പിച്ച വർണ്ണങ്ങളും ചേർത്ത് CMYK നിറം പ്രകാരം: തിരഞ്ഞെടുത്ത ഗ്രേഡിയന്റ് കേന്ദ്രത്തിനു ചുറ്റും, അപ്രദക്ഷിണ, <span class="guilabel">Rotation</span> പാരാമീറ്റർ 0. റേഡിയൽ സജ്ജമാക്കുകയും കോണീയ ഘനമായ പെരുകി മോഡ് തക്കവണ്ണം സംയോജിത എങ്കിൽ മൂന്നു മണിക്ക് മുതലുള്ള വികസിക്കുന്നു സിസ്റ്റം (നിങ്ങളുടെ പ്രിന്റർ ആ).</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">കോണീയവ്യാസം ഗ്രേഡിയന്റ്</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>ഈ angularly വികസിക്കുന്നു ഏത് ആരം വലുപ്പത്തിലുള്ള ഗ്രേഡിയന്റ് ആണ്. റേഡിയസ് ഗ്രേഡിയന്റ് പ്രതല തക്കവണ്ണം നിയന്ത്രിക്കുന്നത്: പ്രതല പൂജ്യം (കറുത്ത) എങ്കിൽ വ്യാസാർദ്ധത്തിൽ 0% ആണ്. പ്രതല 100% (വെള്ള) ആണെങ്കിൽ, ആരം 100% ആണ്.</p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+              <dt>
+                <span class="term">പരാമീറ്ററുകൾ</span>
+              </dt>
+              <dd>
+                <div class="variablelist">
+                  <dl class="variablelist">
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">വലുപ്പം (%)</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>ശതമാനം തിളക്കത്തിന്റെ സെറ്റുകൾ വലുപ്പം (0-200).</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">റൊട്ടേഷൻ</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>കോണീയ ഗ്രേഡിയന്റ് (-180 +180) ഉത്ഭവം സജ്ജമാക്കുന്നു.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">ഹ്യൂയേ റൊട്ടേഷൻ</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>സജ്ജമാക്കുന്നു HSV നിറം സർക്കിൾ (-180 +180) അനുസരിച്ച് നിറം ഗ്ലോയും. (രള <a class="link" href="gimp-dialogs-content.html#gimp-colorselector-triangle">The triangle color selector</a>.)</p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="plug-in-gflare-editor-rays"></a>5.2.4.3. കിരണങ്ങൾ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925523695872"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.95. <span class="quote">“<span class="quote">Gradient Flare Editor</span>”</span> ഓപ്ഷനുകൾ (കിരണങ്ങൾ)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/light-and-shadow/gflare-editor-3.png" alt="“Gradient Flare Editor” ഓപ്ഷനുകൾ (കിരണങ്ങൾ)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">ഘനമായ</span>
+              </dt>
+              <dd>
+                <p>ഓപ്ഷനുകൾ <a class="link" href="">Glow</a> സമാനമാണ് നടപടിക്രമം.</p>
+              </dd>
+              <dt>
+                <span class="term">പരാമീറ്ററുകൾ</span>
+              </dt>
+              <dd>
+                <div class="variablelist">
+                  <p>മൂന്ന് ഉപാധികൾ <a class="link" href="">Glow</a> ഉള്ളതു തന്നെയായിരിക്കും. രണ്ട് പുതിയതും</p>
+                  <dl class="variablelist">
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel"># വ്യതിയാനങ്ങൾ</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>ഈ ഓപ്ഷൻ (1-300) വ്യതിയാനങ്ങൾ എണ്ണം മാത്രമല്ല അവരുടെ ടെക്സ്ചർ നിർണ്ണയിക്കുന്നു.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">സ്പൈക്ക് കനം</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>സ്പൈക്കുകളിൽ ഇരട്ടക്കുട്ടികളുടെ (1-100) ലഭിക്കുമ്പോൾ അവർ പുഷ്പദളങ്ങള് പോലെ.</p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="plug-in-gflare-editor-secondflares"></a>5.2.4.4. രണ്ടാമത്തേത് flares</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925523710400"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.96. <span class="quote">“<span class="quote">Gradient Flare Editor</span>”</span> ഓപ്ഷനുകൾ (രണ്ടാമത്തേത് ചൂടിൽനിന്ന്)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/light-and-shadow/gflare-editor-4.png" alt="“Gradient Flare Editor” ഓപ്ഷനുകൾ (രണ്ടാമത്തേത് ചൂടിൽനിന്ന്)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">ഘനമായ</span>
+              </dt>
+              <dd>
+                <p>ഓപ്ഷനുകൾ <a class="link" href="">Glow</a> സമാനമാണ് നടപടിക്രമം.</p>
+              </dd>
+              <dt>
+                <span class="term">പരാമീറ്ററുകൾ</span>
+              </dt>
+              <dd>
+                <p>ഓപ്ഷനുകൾ <a class="link" href="">Glow</a> ഉള്ളതു തന്നെയായിരിക്കും.</p>
+              </dd>
+              <dt>
+                <span class="term">രണ്ടാമത്തേത് flares ആകൃതിയിൽ</span>
+              </dt>
+              <dd>
+                <p><span class="guilabel">Circle</span> ആൻഡ് <span class="guilabel">Polygon</span>: രണ്ടാം സൗരജ്വാലകളിലെ, പ്രധാന .അൽപ്പസമയംകാത്തിരിക്കൂ ഈ ഉപഗ്രഹങ്ങൾ, രണ്ടു രൂപങ്ങൾ ഉണ്ടാകാം. നിങ്ങൾ <span class="emphasis"><em>Number</em></span> പോളിഗോൺ വശങ്ങളും സജ്ജമാക്കാൻ കഴിയും. ഓപ്ഷൻ 1 വശത്ത് (!) സ്വീകരിക്കുകയുള്ളൂ 2.</p>
+              </dd>
+              <dt>
+                <span class="term">ക്രമരഹിത സന്തതി</span>
+              </dt>
+              <dd>
+                <p>റാൻഡം ജനറേറ്റർ റാൻഡം നമ്പർ സൃഷ്ടിക്കാൻ ഒരു സന്തതി ഈ മൂല്യം ഉപയോഗിക്കും. ഒരേ <span class="quote">“<span class="quote">random</span>”</span> അനുക്രമം നിരവധി തവണ ആവർത്തിക്കുക അതേ മൂല്യം ഉപയോഗിക്കാൻ കഴിയും.</p>
+              </dd>
+              <dt>
+                <span class="term">ക്രമമില്ലാത്ത</span>
+              </dt>
+              <dd>
+                <p>ഈ ബട്ടൺ ക്ലിക്ക് ചെയ്യുമ്പോൾ, റാൻഡം ജനറേറ്റർ ഉപയോഗിക്കേണ്ട ഒരു റാൻഡം സന്തതി ഹാജരാക്കണം. ഇത് ഓരോ തവണയും വ്യത്യസ്തമാണ്.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="filters-light-and-shadow.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-light-and-shadow.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-flarefx.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="filters-light-and-shadow.html">5. വെളിച്ചവും ഷാഡോ ഫിൽട്ടറുകൾ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-flarefx.html">5.3. ലെൻസ് വിദൂരസ്ഥമായ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

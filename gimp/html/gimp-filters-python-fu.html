@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>10.5. The “Python-Fu” Submenu</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-filters-menu.html" title="10. “Filters” മെനു" />
+    <link rel="prev" href="gimp-filter-reset-all.html" title="10.4. Reset All Filters" />
+    <link rel="next" href="gimp-filters-script-fu.html" title="10.6. The “Script-Fu” Submenu" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">10.5. The <span class="quote">“<span class="quote">Python-Fu</span>”</span> Submenu</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-filter-reset-all.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">10. <span class="quote">“<span class="quote">Filters</span>”</span> മെനു</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-filters-script-fu.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-filters-python-fu"></a>10.5. The <span class="quote">“<span class="quote">Python-Fu</span>”</span> Submenu</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925512601424" class="indexterm"></a>
+      <div class="figure">
+        <a id="idp46925512599968"></a>
+        <p class="title">
+          <strong>ചിത്രം 16.202. The <span class="quote">“<span class="quote">Python-Fu</span>”</span> submenu</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/menus/filters/python-fu.png" alt="The “Python-Fu” submenu" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>സ്വതവേ ഈ ഉപമെനുവുണ്ട് വെറും python-ഫു കൺസോൾ അടങ്ങിയിരിക്കുന്നു.</p>
+      <p>പൈത്തൺ-ഫു <acronym class="acronym">GIMP</acronym> വേണ്ടി പ്ലഗിനുകളുടെ എഴുത്തു അനുവദിച്ചുകൊണ്ട് <span class="emphasis"><em>libgimp</em></span> ഒരു റാപ്പർ ആയി പ്രവർത്തിക്കണം <a class="link" href="bibliography.html#bibliography-online-python" title="പൈത്തൺ പ്രോഗ്രാമിംഗ് ഭാഷ">Python</a> ഘടകങ്ങൾ ഒരു കൂട്ടം.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925520343728"></a>10.5.1. Activating the submenu</h4>
+            </div>
+          </div>
+        </div>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+          You can access this command from the image menu through
+          <span class="guimenu">Filters</span> → <span class="guimenuitem">Python-Fu</span>
+        </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="python-fu-console"></a>10.5.2. The Python-Fu Console</h4>
+            </div>
+          </div>
+        </div>
+        <p>പൈത്തൺ-ഫു കൺസോൾ ഒരു <span class="quote">“<span class="quote">Python shell</span>”</span> (ഇന്ററാക്ടീവ് മോഡിൽ ഒരു പൈത്തണ് ഓടി) ഒരു ഡയലോഗ് വിൻഡോ ആണ്. ഈ കൺസോൾ <span class="emphasis"><em>libgimp</em></span> ആന്തരിക <acronym class="acronym">GIMP</acronym> ലൈബ്രറി റൂട്ടീനുകളിലൂടെ ഉപയോഗം വരുത്തുവാൻ സജ്ജീകരിച്ചു.</p>
+        <p>പരസ്പരം പൈത്തൺ കമാൻഡുകൾ പരിശോധിക്കുന്നതിന് python-ഫു കൺസോൾ ഉപയോഗിക്കാം.</p>
+        <p>കൺസോൾ നിങ്ങൾക്ക് പൈഥൺ കമാൻഡുകൾ ടൈപ്പ് കഴിയുന്ന ഒരു വലിയ സ്ക്രോൾ പ്രധാന ഇൻപുട്ട്, ഔട്ട്പുട്ട് വേണ്ടി വിൻഡോ ഉള്ളത്. നിങ്ങൾ തുടർന്ന് <span class="keycap"><strong>Enter</strong></span> കീ അമർത്തുക പൈഥൺ കമാൻഡ് ടൈപ്പ് ചെയ്യുമ്പോൾ, കമാൻഡ് പൈത്തണ് വെടിവച്ച് ആണ്. കമാൻഡ് ന്റെ ഔട്ട്പുട്ട് തന്നെ കമ്പനിയുടെ മടക്കം മൂല്യം (അതിന്റെ പിശക് സന്ദേശം, എന്തെങ്കിലുമുണ്ടെങ്കിൽ) പ്രധാന വിൻഡോയിൽ ദൃശ്യമാകും.</p>
+        <div class="figure">
+          <a id="idp46925513520128"></a>
+          <p class="title">
+            <strong>ചിത്രം 16.203. The Python-Fu Console</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/filters/python-fu-console.png" alt="The Python-Fu Console" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <p class="title">
+            <strong>The Python-Fu Console Buttons</strong>
+          </p>
+          <dl class="variablelist">
+            <dt>
+              <span class="term">രക്ഷിക്കും</span>
+            </dt>
+            <dd>
+              <p>ഈ കമാൻഡ് പ്രധാന ജാലകത്തിന്റെ ഉള്ളടക്കം സംരക്ഷിക്കാൻ അനുവദിക്കുന്നു, ആ python-ഫു കൺസോൾ ഇൻപുട്ട്, ഔട്ട്പുട്ട് (<span class="quote">“<span class="quote"><code class="code">&gt;&gt;&gt;</code></span>”</span> പ്രോംപ്റ്റ് ഉൾപ്പെടെ) ആണ്.</p>
+            </dd>
+            <dt>
+              <span class="term">തെളിഞ്ഞ</span>
+            </dt>
+            <dd>
+              <p>Wenn ഈ ബട്ടൺ ക്ലിക്ക് പ്രധാന വിൻഡോയുടെ ഉള്ളടക്കം നീക്കംചെയ്യും. നിങ്ങൾ <span class="guilabel">Save</span> കമാൻഡ് ഉപയോഗിച്ച് നീക്കംചെയ്ത ഉള്ളടക്കങ്ങൾ തിരികെ ലഭിക്കില്ല എന്ന് ശ്രദ്ധിക്കുക.</p>
+            </dd>
+            <dt>
+              <span class="term">Browse</span>
+            </dt>
+            <dd>
+              <p>ക്ലിക്കുചെയ്യുമ്പോൾ, <a class="link" href="plug-in-dbbrowser.html" title="12.7. The Procedure Browser">procedure browser</a> വിൻഡോയുടെ താഴെയുള്ള അധിക ബട്ടൺ <span class="guibutton">Apply</span> കൂടെ മാറികിട്ടി.</p>
+              <p>നടപടി ബ്രൗസറിൽ ഈ <span class="guibutton">Apply</span> ബട്ടൺ അമർത്തുമ്പോൾ, തിരഞ്ഞെടുത്ത നടപടിക്രമം ഒരു കോൾ പൈഥൺ കമാൻഡ് പോലെ കണ്സോള് ജാലകത്തിൽ ഒട്ടിക്കുകയുള്ളൂ:</p>
+              <div class="mediaobject">
+                <img src="images/menus/filters/python-fu-console-browse-applied.png" />
+                <div class="caption">
+                  <p>അപ്ലൈഡ് <acronym class="acronym">PDB</acronym> നടപടിക്രമം</p>
+                </div>
+              </div>
+              <p>ഉദാ യഥാർത്ഥ മൂല്യങ്ങൾ കൂടെ: ഇപ്പോൾ നിങ്ങൾക്ക് വെറും (<span class="quote">“<span class="quote">width</span>”</span>, <span class="quote">“<span class="quote">height</span>”</span>, ഒപ്പം <span class="quote">“<span class="quote">type</span>”</span> ഇവിടെ) പാരാമീറ്റർ പേരുകൾ മാറ്റിസ്ഥാപിക്കാൻ ഞങ്ങൾക്കുണ്ട്</p>
+              <pre class="programlisting">ചിത്രം = pdb.gimp_image_new (400, 300, ആർജിബി)</pre>
+              <p>അപ്പോൾ കമാൻഡ് നടപ്പിലാക്കുന്നതിനായി <span class="keycap"><strong>Enter</strong></span> അമർത്തുക.</p>
+              <p>നിങ്ങൾ (വേണ്ടത്!) നടപടി ന്റെ മാനദണ്ഡങ്ങളുടെ decription കണ്ടെത്താനും സ്ഥിരാങ്കങ്ങൾ, ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">RGB-IMAGE</span>”</span> അല്ലെങ്കിൽ <span class="quote">“<span class="quote">OVERLAY-MODE</span>”</span> വേണ്ടി ഉപയോഗിക്കാൻ കഴിയും. <code class="code">RGB_IMAGE</code>, <code class="code">OVERLAY_MODE</code>: എന്നാൽ നിങ്ങൾ അടിവരകൾ (<span class="quote">“<span class="quote">_</span>”</span>) ഉപയോഗിച്ച് ഹൈഫനുകളോ (<span class="quote">“<span class="quote">-</span>”</span>) മാറ്റിസ്ഥാപിക്കുക കാര്യം ശ്രദ്ധിക്കുക.</p>
+              <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+                <table border="0" summary="Tip">
+                  <tr>
+                    <td rowspan="2" align="center" valign="top" width="25">
+                      <img alt="[സൂചന]" src="images/tip.png" />
+                    </td>
+                    <th align="left">സൂചന</th>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top">
+                      <p>പൈത്തൺ-ഫു വെറും <a class="link" href="glossary.html#glossary-pdb" title="പലവക"><acronym class="acronym">PDB</acronym></a> (<acronym class="acronym">GIMP</acronym> നടപടിക്രമങ്ങൾ ഡാറ്റാബേസ്) മുതൽ നടപടിക്രമങ്ങൾ വിളിക്കുന്നു പരിമിതപ്പെടുത്താത്തതിൽ. മുകളിലുള്ള ഉദാഹരണം പോലെ ഒരു പുതിയ ഇമേജ് ഒബ്ജക്റ്റ് സൃഷ്ടിക്കാൻ, നിങ്ങൾക്ക് ടൈപ്പ് ചെയ്യാം</p>
+                      <pre class="programlisting">
+              image = gimp.Image(width, height, type)
+            </pre>
+                      <p>(<span class="quote">“<span class="quote">width</span>”</span>, <span class="quote">“<span class="quote">height</span>”</span>, ഒപ്പം <span class="quote">“<span class="quote">type</span>”</span> യഥാർത്ഥ മൂല്യങ്ങൾ ഉപയോഗിച്ച്).</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">Close</span>
+            </dt>
+            <dd>
+              <p>ഈ ബട്ടൺ അമർത്തിയാൽ കൺസോൾ അടയ്ക്കുന്നു.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-filter-reset-all.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-filters-menu.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-filters-script-fu.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-filter-reset-all.html">10.4. Reset All Filters</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-filters-script-fu.html">10.6. The <span class="quote">“<span class="quote">Script-Fu</span>”</span> Submenu</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>2.4. Colormap സംഭാഷണം</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-dialogs-structure.html" title="2. ചിത്രം ഘടന ബന്ധപ്പെട്ട ഡയലോഗുകൾ" />
+    <link rel="prev" href="gimp-path-dialog.html" title="2.3. പാഥുകൾ സംഭാഷണം" />
+    <link rel="next" href="gimp-histogram-dialog.html" title="2.5. ഹിസ്റ്റോഗ്രാം ഡയലോഗ്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">2.4. Colormap സംഭാഷണം</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-path-dialog.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">2. ചിത്രം ഘടന ബന്ധപ്പെട്ട ഡയലോഗുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-histogram-dialog.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-indexed-palette-dialog"></a>2.4. Colormap സംഭാഷണം</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925517027616" class="indexterm"></a>
+      <a id="idp46925517028960" class="indexterm"></a>
+      <div class="figure">
+        <a id="idp46925517029856"></a>
+        <p class="title">
+          <strong>ചിത്രം 15.14. 6 നിറങ്ങളിൽ അതിന്റെ Colormap ഡയലോഗ് ഗണമാണോയെന്നത് ചിത്രം</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/dialogs/examples/cosmos-6.png" alt="6 നിറങ്ങളിൽ അതിന്റെ Colormap ഡയലോഗ് ഗണമാണോയെന്നത് ചിത്രം" />
+          </div>
+          <div class="mediaobject">
+            <img src="images/dialogs/colormap-dialog.png" alt="6 നിറങ്ങളിൽ അതിന്റെ Colormap ഡയലോഗ് ഗണമാണോയെന്നത് ചിത്രം" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>Colormap (സൂചികയിലാക്കിയത് പാലറ്റ് ഒരു മികച്ച പേര് ആണ്) ഡയലോഗ് ഗണമാണോയെന്നത് ചിത്രത്തിന്റെ colormap എഡിറ്റ് അനുവദിക്കുന്നു. (സജീവമായ ചിത്രത്തിന്റെ മോഡ് പകരം ഇൻഡെക്സ് ആർജിബി അല്ലെങ്കിൽ ഗ്രേസ്കെയിൽ ആണെങ്കിൽ, ഡയലോഗ് ശൂന്യമായ ഉപയോഗയോഗ്യമല്ലാതെയായിട്ടുണ്ട്.) ഇതൊരു dockable ഡയലോഗ് ആണ്; അതു കൈകാര്യം ന് സഹായത്തിനായി <a class="link" href="">Dialogs and Docking</a> ന് വിഭാഗം കാണുക.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-indexed-palette-dialog-activate"></a>2.4.1. ഡയലോഗ് സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p><span class="quote">“<span class="quote">Colormap</span>”</span> ഡയലോഗ് ഒരു dockable ഡയലോഗ് ആണ്; അതു കൈകാര്യം ന് സഹായത്തിനായി വിഭാഗം <a class="xref" href="gimp-concepts-docks.html" title="2.3. ഡയലോഗുകൾ, ഡോക്കിങ്">വിഭാഗം 2.3, “ഡയലോഗുകൾ, ഡോക്കിങ്”</a> കാണും.</p>
+        <p>താങ്കൾക്ക് ആക്സസ് ചെയ്യാൻ കഴിയും:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>ചിത്രം മെനുവിൽ നിന്ന്: <span class="guimenu">Windows</span> → <span class="guisubmenu">Dockable Dialogs</span> → <span class="guimenuitem">Colormap</span>;</p>
+            </li>
+            <li class="listitem">
+              <p>ഏതെങ്കിലും dockable ഡയലോഗിൽ ടാബ് മെനുവിൽ നിന്നും <span class="guiicon"><img src="images/dialogs/stock-menu- left-12.png" /></span> ക്ലിക്കുചെയ്ത് <span class="guimenu">Add Tab</span> → <span class="guimenuitem">Colormap</span> തിരഞ്ഞെടുത്ത്.</p>
+            </li>
+          </ul>
+        </div>
+        <p><span class="guimenu">Windows</span> മെനുവിൽ, കുറഞ്ഞത് ഒരു ഡയലോഗ് തുറന്നുതന്നെയിരിക്കുന്ന മാത്രമേ ഉണ്ട് <a class="link" href="gimp-concepts-docks.html#gimp-dockable-menu" title="2.3.2. ടാബ് മെനു">detached windows</a> ഒരു ലിസ്റ്റ് ഉണ്ട്. <span class="guimenu">Windows</span> → <span class="guimenuitem">Colormap</span>: ഈ സാഹചര്യത്തിൽ, ഇമേജ്-മെനുവിൽ നിന്നും <span class="quote">“<span class="quote">Colormap</span>”</span> ഡയലോഗ് ഉണ്ടാകാം.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-indexed-palette-dialog-colormaps"></a>2.4.2. Colormaps സൂജികപത്രവും ചിത്രങ്ങൾ</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഗണമാണോയെന്നത് സ്വരൂപത്തിൽ, പകരം നേരിട്ട് ഓരോ നിറവും ചെയ്തുകൊണ്ടിരിക്കുന്നു (ആർജിബി ചെയ്ത് Grayscale ചിത്രങ്ങൾ സംഭവിക്കുന്നില്ല പോലെ), നിറങ്ങൾ പിക്സൽ പരോക്ഷമായ രീതി, ഒരു <span class="emphasis"><em>colormap</em></span> വിളിച്ചു ലുക്ക് അപ്പ് പട്ടികയിൽ നിർണ്ണയിക്കുന്നത്.</p>
+        <p>ആ പിക്സൽ വേണ്ടി കാണിച്ചിരിക്കണം ആ നിറം നിർണ്ണയിക്കാൻ, ജിമ്പ് ചിത്രം ന്റെ colormap ലെ സൂചിക തോന്നുന്നു. ഓരോ ഇൻഡെക്സ്ഡ് ചിത്രം സ്വന്തം സ്വകാര്യ colormap ഉണ്ട്. ജിമ് ഒരു colormap എൻട്രികളുടെ പരമാവധി എണ്ണം 256. പരമാവധി വലുപ്പത്തിലുള്ള colormap ഉണ്ടു 0 മുതൽ 255 ഓരോ സൂചിക എത്രവേണമെങ്കിലും ആർജിബി നിറങ്ങളുടെ നിയോഗിക്കുന്നു. അവർ ദൃശ്യമാകും സൂചിക അല്ലെങ്കിൽ ഓർഡർ നിയോഗിച്ചിട്ടുള്ള കഴിയുന്ന നിറങ്ങൾ നിയന്ത്രിയ്ക്കാനുള്ള വ്യവസ്ഥകളൊന്നും ഉണ്ട്: ഏതെങ്കിലും ഇന്ഡക്സ് ഏതെങ്കിലും നിറവും കഴിയും.</p>
+        <p>ഇത് colormap വർണ്ണങ്ങൾ ഗണമാണോയെന്നത് ചിത്രത്തിനായുള്ള <span class="emphasis"><em>only colors available</em></span> (നിങ്ങൾ colormap പുതിയ നിറങ്ങൾ ചേർക്കാതിരുന്നാൽ എന്നോ,) ആകുന്നു ഗ്രഹിക്കാൻ പ്രധാനമാണ്. ഈ പല ജിമ്പ് ഓപ്പറേഷൻസ് ഒരു പ്രധാന പ്രഭാവം ഉണ്ട്, ഉദാഹരണത്തിന്: ഒരു പാറ്റേൺ ഫിൽ ലെ ജിമ്പ് സാധാരണയായി colormap കൃത്യമായി ശരിയായ നിറങ്ങൾ കണ്ടെത്താൻ കഴിയില്ല, അങ്ങനെ അത് ലഭ്യമായ അടുത്തുള്ള നിറം ഉപയോഗിച്ച് അവരെ ഏകദേശം ചെയ്യും. ഇത് ചിലപ്പോൾ <a class="link" href="glossary.html#glossary-quantization" title="ക്വാണ്ടൈസേഷൻ">Quantization</a> അറിയപ്പെടുന്നത്. colormap വളരെ പരിമിതമായ അല്ലെങ്കിൽ മോശമായി തിരഞ്ഞെടുക്കപ്പെട്ടവളാണെങ്കിൽ ഈ എളുപ്പത്തിൽ വളരെ പാവപ്പെട്ട ചിത്രത്തിന്റെ നിലവാരം ഉത്പാദിപ്പിക്കാൻ കഴിയും.</p>
+        <p>Colormap ഡയലോഗ് ഒന്നുകിൽ പുതിയ എൻട്രികൾ സൃഷ്ടിച്ചുകൊണ്ട്, അല്ലെങ്കിൽ നിലവിലുള്ള എൻട്രികൾ നിറങ്ങൾ മാറ്റിക്കൊണ്ട്, ഒരു ചിത്രത്തിനായി colormap മാറ്റം അനുവദിക്കുന്നു. തന്നിരിക്കുന്ന ഒരു സൂചിക ബന്ധപ്പെട്ട നിറം മാറ്റുകയും, ആ സൂചിക നിയോഗിച്ചിട്ടുള്ള എല്ലാ പിക്സൽ ഒരു വർണ്ണ ഷിഫ്റ്റ് ആയി, ഇമേജ് മുഴുവൻ പ്രതിഫലിക്കും മാറ്റങ്ങൾ കാണും. എൻട്രികൾ അതിന്റെ മുതലായവ ലേക്ക് മുകളിലെ ഇടത് മൂലയിൽ 0, 1 എണ്ണുന്നു</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-indexed-palette-dialog-using"></a>2.4.3. Colormap ഡയലോഗ് ഉപയോഗിച്ച്</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഇവിടെ നിങ്ങൾക്ക് ഈ ഡയലോഗ് ഉപയോഗിച്ച് നടത്താം തന്നേ:</p>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ഒരു കളർ എൻട്രി ക്ലിക്ക്</span>
+            </dt>
+            <dd>
+              <p>ഈ പണിസഞ്ചി കളർ ഏരിയ കാണുന്നത് പോലെ നിങ്ങൾ ക്ലിക്ക് നിറം ലേക്ക് ജിമ്പ് ന്റെ പുരോതല നിറം സജ്ജീകരിക്കുന്നു. തത്ഫലമായി ഈ നിറം നിങ്ങൾ ചെയ്യുന്ന അടുത്ത പെയിന്റിങ് ഓപ്പറേഷൻ ഉപയോഗിക്കും.</p>
+            </dd>
+            <dt>
+              <span class="term">ഒരു കളർ എൻട്രി ന് <span class="keycap"><strong>Ctrl</strong></span> -click</span>
+            </dt>
+            <dd>
+              <p>ഈ പണിസഞ്ചി കളർ ഏരിയ കാണുന്നത് പോലെ നിങ്ങൾ ന് -click <span class="keycap"><strong>Ctrl</strong></span> നിറം ലേക്ക് <acronym class="acronym">GIMP</acronym> ന്റെ പശ്ചാത്തല നിറം സജ്ജീകരിക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">ഒരു കളർ എൻട്രി ഇരട്ട-ക്ലിക്കുചെയ്യുക</span>
+            </dt>
+            <dd>
+              <p>ഇത് നിങ്ങൾ ക്ലിക്ക് നിറം ലേക്ക് ജിമ്പ് ന്റെ പുരോതല നിറം സജ്ജീകരിക്കുന്നു, ഒപ്പം ഒരു പുതിയ നിറം ആ colormap എൻട്രി മാറ്റാൻ അനുവദിക്കുന്ന ഒരു കളർ എഡിറ്റർ ചെയ്യുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">വർണ്ണ സൂചിക</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾക്ക് ഇവിടെ അതിന്റെ സൂചിക ടൈപ്പുചെയ്യുമ്പോൾ, അല്ലെങ്കിൽ വലതുവശത്ത് spinbutton ക്ലിക്കുചെയ്ത് നിങ്ങൾക്ക് മറ്റൊരു colormap എൻട്രി തിരഞ്ഞെടുക്കാം.</p>
+            </dd>
+            <dt>
+              <span class="term">എച്ച്ടിഎംഎൽ-നൊട്ടേഷൻ</span>
+            </dt>
+            <dd>
+              <p>ഈ പ്രദേശത്ത് നിലവിൽ തിരഞ്ഞെടുത്ത colormap എൻട്രി നിയോഗിച്ചിട്ടുള്ള നിറം ഒരു ഹെക്സാ-കോഡ് പ്രാതിനിധ്യം (പോലുള്ള HTML ൽ ഉപയോഗിക്കുന്നു) കാണിക്കുന്നു. നിങ്ങൾക്ക് കളർ ഇവിടെ, പകരം ഒരു കളർ എഡിറ്റർ ഉപയോഗിച്ച്, നിങ്ങൾക്ക് ചെയ്യണമെങ്കിൽ എഡിറ്റ് കഴിയും. <a class="link" href="glossary.html#glossary-html-notation" title="എച്ച്ടിഎംഎൽ നൊട്ടേഷനാണോ">HTML notation</a> കാണുക</p>
+            </dd>
+            <dt>
+              <span class="term">നിറം എഡിറ്റ്</span>
+            </dt>
+            <dd>
+              <a id="gimp-indexed-palette-edit"></a>
+              <p>ഈ ബട്ടൺ (ഡയലോഗ് താഴത്തെ ഇടത് മൂലയിൽ) നിങ്ങൾ നിലവിൽ തിരഞ്ഞെടുത്ത colormap എൻട്രി നിറം മാറ്റുകയും അനുവദിക്കുന്ന ഒരു കളർ എഡിറ്റർ ചെയ്യുന്നു. ഇഫക്ട് അത് ജിമ്പ് ന്റെ മുൻഭാഗത്തെ വർണ്ണം സജ്ജമാക്കുക ഇല്ല അല്ലാതെ എൻട്രി ഡബിൾ ക്ലിക്ക് സമാനമാണ്.</p>
+            </dd>
+            <dt>
+              <span class="term">
+          <span class="guiicon">
+            <img src="images/dialogs/stock-gtk-add-16.png" />
+          </span>
+          <span class="phrase">വർണം ചേർക്കുക</span>
+        </span>
+            </dt>
+            <dd>
+              <a id="gimp-indexed-palette-add"></a>
+              <p>ഈ ബട്ടൺ (ഡയലോഗ് താഴത്തെ വലത് കോണിലുള്ള) colormap പുതിയ നിറങ്ങൾ ചേർക്കാൻ അനുവദിക്കുന്നു. നിങ്ങൾ ബട്ടൺ, നിലവിലെ മുൻഭാഗത്തെ വർണ്ണം ക്ലിക്ക് ചെയ്താൽ, പണിസഞ്ചി കാണുന്നത് പോലെ colormap അവസാനത്തിലേക്ക് ചെയ്തപ്പോഴാണ് ചെയ്യും. നിങ്ങൾ <span class="keycap"><strong>Ctrl</strong></span> അമർത്തി ക്ലിക്കുചെയ്യുക പകരം പക്ഷം പണിസഞ്ചി നിന്ന് പശ്ചാത്തല നിറം ചേർക്കും. (Colormap 256 എൻട്രികൾ അടങ്ങിയിരിക്കുന്ന, അത് നിറഞ്ഞിരിക്കുന്നു, കൂടുതൽ ചേർക്കുന്നതിന് ശ്രമിക്കുന്ന ഫലമില്ല ഉണ്ടായിരിക്കും.)</p>
+            </dd>
+          </dl>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[സൂചന]" src="images/tip.png" />
+              </td>
+              <th align="left">സൂചന</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>നിങ്ങൾ ഒരു തെറ്റ് ഉണ്ടാക്കുന്നു എങ്കിൽ ആരുടെ colormap നിങ്ങൾ ചിത്രത്തിൽ പോയിന്റർ ഫോക്കസുചെയ്ത് അത് പഴയപടിയാക്കാനുമാകും മാറ്റി, തുടർന്ന് <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>Z</strong></span> പ്രസും അല്ലെങ്കിൽ ഇമേജ് മെനുവിൽ <span class="guimenu">Edit</span> → <span class="guimenuitem">Undo</span> ശേഷമേ.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[കുറിപ്പു്]" src="images/note.png" />
+              </td>
+              <th align="left">കുറിപ്പു്</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>ഈ ഡയലോഗ് ഗണമാണോയെന്നത് ചിത്രത്തിനായുള്ള colormap പന്തിന്റെ ഏറ്റവും കൂടുതലായി ഉപയോഗിക്കുന്ന രീതികൾ നൽകുന്നു. പോലുള്ള തീവ്രത /, ഹ്യൂയേ / സാച്ചുറേഷൻ, തുടങ്ങിയവ നിറം ഉപകരണങ്ങൾ, ഇൻഡെക്സ്ഡ് ചിത്രങ്ങളും ഓപ്പറേറ്റ് ചെയ്യരുത്. അങ്ങനെ ചെയ്യുന്നത് കുറച്ച് plug- ഇന്നുകൾ, <span class="quote">“<span class="quote">Normalize</span>”</span>, <span class="quote">“<span class="quote">VColor Enhance</span>”</span>, ഒപ്പം <span class="quote">“<span class="quote">Stretch Contrast</span>”</span> ഓപ്പറേഷൻസ് ഉൾപ്പെടെ ഉണ്ട്, അതു പോലെ മറ്റുള്ളവരെ സൃഷ്ടിക്കാൻ സാധ്യമാണ്.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[കുറിപ്പു്]" src="images/note.png" />
+              </td>
+              <th align="left">കുറിപ്പു്</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>നിങ്ങൾ Colormap കാര്യമാണ് ഒരു നിറത്തിൽ ഗണമാണോയെന്നത് ചിത്രം വരയ്ക്കാൻ എങ്കിൽ ജിമ്പ് Colormap ഏറ്റവും സമാനമായ നിറം ഉപയോഗിക്കും.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-indexed-palette-dialog-submenu"></a>2.4.4. Colormap സന്ദർഭ മെനു</h4>
+            </div>
+          </div>
+        </div>
+        <p>Colormap ഒരു നിറം വലത്-ക്ലിക്ക് ഈ നിറം തിരഞ്ഞെടുത്ത് ഒരു pop- അപ് ഉപമെനുവുണ്ട് തുറക്കുന്നു:</p>
+        <div class="figure">
+          <a id="idp46925517090384"></a>
+          <p class="title">
+            <strong>ചിത്രം 15.15. Colormap സന്ദർഭ മെനു</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/dialogs/colormap-contextmenu.png" alt="Colormap സന്ദർഭ മെനു" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">നിറം എഡിറ്റ്</span>
+            </dt>
+            <dd>
+              <p>ഈ കമാൻഡ് നിറം പരിഷ്ക്കരിക്കുക അനുവദിക്കുന്ന ഒരു കളർ സെലക്ടർ തുറക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">FG നിന്ന് വർണം ചേർക്കുക</span>
+            </dt>
+            <dd>
+              <p>ഈ കമാൻഡ് പ്രവർത്തനക്ഷമമാക്കി ഇൻഡെക്സ്ഡ് പാലറ്റ് 256 കുറവ് നിറങ്ങൾ അടങ്ങിയിരിക്കുന്നു മാത്രമേ. പണിസഞ്ചി പശ്ചാത്തലം കളർ കളർ മാപ്പ് പ്പെടുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">ബൾഗേറിയ ൽ വർണം ചേർക്കുക</span>
+            </dt>
+            <dd>
+              <p>ഈ കമാൻഡ് പ്രവർത്തനക്ഷമമാക്കി ഇൻഡെക്സ്ഡ് പാലറ്റ് 256 കുറവ് നിറങ്ങൾ അടങ്ങിയിരിക്കുന്നു മാത്രമേ. പണിസഞ്ചി പശ്ചാത്തലം കളർ കളർ ലിസ്റ്റ് പ്പെടുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">Colormap പുനഃക്രമീകരിക്കുക</span>
+            </dt>
+            <dd>
+              <p>Colormap പുനഃക്രമീകരിക്കുക: ഈ കമാൻഡ് <a class="xref" href="">???</a> വിശദീകരിച്ചിട്ടുണ്ട്.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-path-dialog.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-dialogs-structure.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-histogram-dialog.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-path-dialog.html">2.3. പാഥുകൾ സംഭാഷണം</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-histogram-dialog.html">2.5. ഹിസ്റ്റോഗ്രാം ഡയലോഗ്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

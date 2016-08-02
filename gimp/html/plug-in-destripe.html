@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.5. Destripe</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-enhance.html" title="3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക" />
+    <link rel="prev" href="plug-in-despeckle.html" title="3.4. Despeckle" />
+    <link rel="next" href="plug-in-nlfilt.html" title="3.6. ഹോളണ്ട് ഫിൽറ്റർ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.5. Destripe</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-despeckle.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-nlfilt.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-destripe"></a>3.5. Destripe</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925521097024" class="indexterm"></a>
+      <a id="idp46925521098864" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925521099760"></a>3.5.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <p>മോശം നിലവാരമുള്ള സ്കാനറുകൾ മൂലമാണ് ലംബമായ തല്ലും നീക്കം ഉപയോഗിക്കുന്നു. ഇത് ക്രമീകരണം നല്ലതു ചെയ്താൽ തല്ലും നഷ്ടമായതിന്, ഇമേജ് ഇടപെടുന്നു എന്നു ഒരു പാറ്റേൺ ചേർത്ത് പ്രവർത്തിക്കുന്നു. ഈ <span class="quote">“<span class="quote">negative</span>”</span> പാറ്റേൺ ചിത്രത്തിന്റെ ലംബമായ ഘടകങ്ങൾ കണക്കാക്കുന്നതുമല്ല, അതിനാൽ ആരും ഉണ്ട് ഒരു ചിത്രത്തിന്റെ പ്രിവ്യൂ തല്ലും കണ്ടാൽ അത്ഭുതപ്പെട്ടു ചെയ്യരുത്. പിന്നെ പാറ്റേൺ <span class="quote">“<span class="quote">strength</span>”</span> ചെയ്താൽ നിങ്ങളുടെ ചിത്രം വരയുള്ള ചെയ്യും, വളരെ കൂടുതലാണ്.</p>
+        <p>എങ്കിൽ, ഒരു ആദ്യ പാസ് ശേഷം ഒരു വര, (മറ്റെല്ലാ നിരക്കു തരം ഫലം മോശമാക്കുകയും വരാം) നിലനിൽക്കുകയാണെങ്കിൽ ചതുരാകൃതിയിലുള്ള-തിരഞ്ഞെടുക്കുക അതു വീണ്ടും അരിപ്പ ബാധകമാക്കുക.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925521103968"></a>3.5.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Enhance</span> → <span class="guimenuitem">Destripe</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925521106592"></a>3.5.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925521107344"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.24. <span class="quote">“<span class="quote">Destripe</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/enhance/destripe.png" alt="“Destripe” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p>പരിശോധിച്ചാൽ, പരാമീറ്റർ ക്രമീകരണം ഫലങ്ങളിൽ ഇന്ററാക്ടീവ് പ്രിവ്യൂ പ്രദർശിപ്പിക്കുന്നു. സ്ക്രോൾ ബാറുകൾ ചിത്രത്തിൽ ചുറ്റും നീക്കാൻ അനുവദിക്കുക.</p>
+            </dd>
+            <dt>
+              <span class="term">ആമി സൃഷ്ടിക്കുക</span>
+            </dt>
+            <dd>
+              <p>ഈ <span class="quote">“<span class="quote">histogram </span>”</span> കൂടുതൽ പുറംചട്ടയിൽ ഇടപെടലുകളും പാറ്റേൺ കാണിക്കുന്ന ഒരു ബ്ലാക്ക് ആൻഡ് വൈറ്റ് ചിത്രം.</p>
+            </dd>
+            <dt>
+              <span class="term">വീതി</span>
+            </dt>
+            <dd>
+              <p>സ്ലൈഡർ ഇൻപുട്ട് ബോക്സ് ഫിൽട്ടറിന്റെ <span class="quote">“<span class="quote">strength</span>”</span> (2-100) സജ്ജമാക്കാൻ അനുവദിക്കുന്നു: 60 അപൂർവ്വമായി അത്യാവശ്യമാണ് ഒപ്പം അവശിഷ്ടങ്ങളും സൃഷ്ടിക്കാം.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-despeckle.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-enhance.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-nlfilt.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-despeckle.html">3.4. Despeckle</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-nlfilt.html">3.6. ഹോളണ്ട് ഫിൽറ്റർ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

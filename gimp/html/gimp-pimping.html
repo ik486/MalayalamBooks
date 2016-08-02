@@ -1,0 +1,1932 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>പാഠം 12. Enrich my GIMP</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="become-a-gimp-wizard.html" title="ഭാഗം II. ഞാൻ എങ്ങനെയാണ് ഒരു GIMP വിസാര്ഡ് ആകാൻ കഴിയും?" />
+    <link rel="prev" href="gimp-imaging-color-management.html" title="പാഠം 11. ജിമ്പ് നിറം മാനേജ്മെന്റ്" />
+    <link rel="next" href="gimp-concepts-image-grid-and-guides.html" title="2. ഗ്രിഡുകളുടെ ഗൈഡുകൾ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">പാഠം 12. Enrich my GIMP</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-imaging-color-management.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">ഭാഗം II. ഞാൻ എങ്ങനെയാണ് ഒരു <acronym class="acronym">GIMP</acronym> വിസാര്ഡ് ആകാൻ കഴിയും?</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-concepts-image-grid-and-guides.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="chapter">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a id="gimp-pimping"></a>പാഠം 12. Enrich my GIMP</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>ഉള്ളടക്കത്തിന്റെ പട്ടിക</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="sect1">
+              <a href="gimp-pimping.html#gimp-prefs-dialog">1. Preferences Dialog</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#idp46925511352800">1.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-environment">1.2. പരിസ്ഥിതി</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-interface">1.3. ഇന്റര്ഫേസ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-theme">1.4. തീം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-help">1.5. സഹായം സിസ്റ്റം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-tool-options">1.6. ടൂൾ ഓപ്ഷനുകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-toolbox">1.7. പണിസഞ്ചി</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-new-image">1.8. Default Image Preferences</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-default-grid">1.9. സ്ഥിരസ്ഥിതി ഇമേജ് ഗ്രിഡ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-image-window">1.10. വിൻഡോസ് ചിത്രം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-image-window-appearance">1.11. ചിത്രം വിൻഡോ കാഴ്ച</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-image-window-title">1.12. Image Window Title and Statusbar</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-display">1.13. പ്രദർശിപ്പിക്കുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-color-management">1.14. വർണ്ണ മാനേജ്മെന്റ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-input-devices">1.15. ഇൻപുട്ട് ഡിവൈസുകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-input-controllers">1.16. ഇൻപുട്ട് കണ്ട്രോളറുകള്ക്കുള്ള</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-window-management">1.17. വിൻഡോ മാനേജ്മെന്റ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-folders">1.18. ഫോൾഡറുകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-pimping.html#gimp-prefs-folders-data">1.19. Data Folders</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-concepts-image-grid-and-guides.html">2. ഗ്രിഡുകളുടെ ഗൈഡുകൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-concepts-image-grid-and-guides.html#gimp-concepts-image-grid">2.1. ചിത്രം ഗ്രിഡ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-concepts-image-guides.html">2.2. വഴികാട്ടി</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-using-grid.html">3. ഒരു ഗ്രിഡ് റെൻഡർ</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-using-setup-tile-cache.html">4. എങ്ങനെ നിങ്ങളുടെ ടൈൽ കാഷെ സജ്ജമാക്കുക</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-concepts-shortcuts.html">5. മെനു പ്രവർത്തനങ്ങൾ കുറുക്കുവഴികൾ സൃഷ്ടിക്കുന്നു</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="customize-splashscreen.html">6. ഓളമുണ്ടാക്കുന്നു- സ്ക്രീൻ ഇഷ്ടാനുസൃതമാക്കുക</a>
+            </span>
+          </dt>
+        </dl>
+      </div>
+      <div class="sect1">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="gimp-prefs-dialog"></a>1. Preferences Dialog</h2>
+            </div>
+          </div>
+        </div>
+        <a id="idp46925511356832" class="indexterm"></a>
+        <a id="idp46925511352928" class="indexterm"></a>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="idp46925511352800"></a>1.1. അവതാരിക</h3>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925511351904"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.1. List of preference pages</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-list.png" alt="List of preference pages" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>മുൻഗണനകൾ ഡയലോഗ് <span class="guimenu">Edit</span> → <span class="guimenuitem">Preferences</span> വഴി, ഇമേജ് മെനു-ബാറിൽ നിന്നും ആക്സസ് ചെയ്യാം. അതു നിങ്ങൾ വഴി ജിമ് രചനകളിൽ പലതും വശങ്ങൾ ഇച്ഛാനുസൃതമാക്കാൻ അനുവദിക്കുന്നു. തുടർന്നുവരുന്ന വിഭാഗങ്ങളിൽ വിശദമായി നിങ്ങൾ ഇഷ്ടാനുസൃതമാക്കുവാന് സാധിക്കുന്നു ക്രമീകരണങ്ങൾ, അവർ ബാധിക്കും.</p>
+          <p>മുൻഗണനകൾ വിവരങ്ങൾ നിങ്ങളുടെ വ്യക്തിപരമായ ജിമ്പ് ഡയറക്ടറിയിൽ <code class="filename">gimprc</code> എന്ന ഒരു ഫയലിൽ സംഭരിച്ചിരിക്കുന്ന, അതിനാൽ പകരം ഗ്രാഫിക്കൽ ഇന്റർഫെയിസ് അധികം ടെക്സ്റ്റ് എഡിറ്റര് പ്രവർത്തിക്കാൻ ഭാവിക്കുന്ന ഒരു <span class="quote">“<span class="quote">power user</span>”</span> എങ്കിൽ, ആ തിരുത്തി മുൻഗണനകൾ മാറ്റാൻ കഴിയും. നിങ്ങൾ ചെയ്യേണ്ടത്, നിങ്ങൾ ഒരു ലിനക്സ് സിസ്റ്റത്തിൽ ഇല്ലെങ്കിൽ, <span class="command"><strong>man gimprc</strong></span> നിങ്ങൾ ഫയലിന്റെ ഉള്ളടക്കം, അവർ ഉപയോഗിക്കുന്നു കുറിച്ച് സാങ്കേതിക വിവരങ്ങൾ ഒരു തരും.</p>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-environment"></a>1.2. പരിസ്ഥിതി</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511341504" class="indexterm"></a>
+          <a id="idp46925511037616" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511108208"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.2. Environment Preferences</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-environment.png" alt="Environment Preferences" />
+                <div class="caption">
+                  <p>ഈ താൾ വിവിധ ആവശ്യങ്ങൾക്കായി വകയിരുത്തിയത് സിസ്റ്റം മെമ്മറി അളവ് ഇച്ഛാനുസൃതമാക്കാൻ അനുവദിക്കുന്നു. ഇത് നിങ്ങൾ സംരക്ഷിക്കാത്ത ചിത്രങ്ങൾ അടയ്ക്കുമ്പോൾ പ്രത്യക്ഷപ്പെടുന്ന സ്ഥിരീകരണ ഡയലോഗുകൾ അപ്രാപ്തമാക്കുന്നതിനുള്ള ഒപ്പം ജിമ്പ് ഉത്പാദിപ്പിക്കുന്നത് ലഘുചിത്രം ഫയലുകളുടെ വലിപ്പം സജ്ജീകരിക്കാൻ അനുവദിക്കുന്നു.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="idp46925511079088"></a>1.2.1. ഓപ്ഷനുകൾ</h4>
+                </div>
+              </div>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>വിഭവ ഉപഭോഗം</strong>
+              </p>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Minimal number of undo levels</span>
+                </dt>
+                <dd>
+                  <p>ജിമ്പ് ഏത് മെമ്മറി ഒരു പ്രത്യേക തുക അനുവദിക്കുന്നത് ഓരോ ചിത്രവും, ഒരു <span class="quote">“<span class="quote">Undo History</span>”</span> കൈകാര്യം ഏറ്റവും പ്രവർത്തനങ്ങൾ ഇല്ലാതാക്കാന് അനുവദിക്കുന്നു. പരിഗണിക്കാതെ മെമ്മറി ഉപയോഗം എന്നാൽ, ജിമ്പ് എപ്പോഴും തിരുത്താൻസാധിക്കില്ല ഏറ്റവും പുതിയ പ്രവർത്തനങ്ങൾ ചില ചുരുങ്ങിയ എണ്ണം അനുവാദമുണ്ട്: ഈ ഇവിടെ നിർദ്ദിഷ്ട എണ്ണം. ജിമ്പ് ന്റെ പഴയപടിയാക്കൽ മെക്കാനിസം കുറിച്ച് കൂടുതൽ വിവരങ്ങൾക്ക് <a class="xref" href="gimp-concepts-undo.html" title="3. പഴയപടിയാക്കുന്നു">വിഭാഗം 3, “പഴയപടിയാക്കുന്നു”</a> കാണുക.</p>
+                </dd>
+                <dt>
+                  <span class="term">Maximum undo memory</span>
+                </dt>
+                <dd>
+                  <p>ഇത് ഓരോ ചിത്രവും നീക്കിവച്ചിരുന്നു പഴയപടിയാക്കാനുള്ള മെമ്മറി തുക. പൂർവാവസ്ഥയിലാക്കുക ചരിത്രം വലുപ്പം ഇതിലധികമായ എങ്കിൽ ഈ കുറച്ച് പോയിന്റ് മുകളിൽ വ്യക്തമാക്കിയ മിനിമൽ എണ്ണത്തേക്കാൾ സന്നിഹിതരായിക്കൊണ്ട് കാരണമാകുന്നു അല്ലാതെ, ചെന്ന പോയിന്റ് ഇല്ലാതാക്കും.</p>
+                </dd>
+                <dt>
+                  <span class="term">Tile cache size</span>
+                </dt>
+                <dd>
+                  <p>ഈ ജിമ്പ് ഇമേജ് ഡാറ്റ വകയിരുത്തിയത് സിസ്റ്റം റാം തുക. ജിമ്പ് ഇതിനേക്കാൾ കൂടുതൽ മെമ്മറി ആവശ്യമാണ്, അത് ചില സാഹചര്യങ്ങളിൽ മെയ് നാടകീയമായ മാന്ദ്യം കാരണങ്ങളെ, ഡിസ്കിലേക്ക് സ്വാപ്പ് തുടങ്ങുന്നു. നിങ്ങൾ ജിമ്പ് ഇൻസ്റ്റോൾ ഈ നമ്പർ സജ്ജമാക്കാൻ അവസരം, എന്നാൽ അത് ഇവിടെ മാറ്റാനും കഴിയും. കൂടുതൽ വിവരങ്ങൾക്ക് <a class="link" href="gimp-using-setup-tile-cache.html" title="4. എങ്ങനെ നിങ്ങളുടെ ടൈൽ കാഷെ സജ്ജമാക്കുക">How to Set Your Tile Cache</a> കാണുക.</p>
+                </dd>
+                <dt>
+                  <span class="term">Maximum new image size</span>
+                </dt>
+                <dd>
+                  <p>ഇതൊരു പ്രയാസകരമായ നിയന്ത്രണ അല്ല: നിങ്ങൾ സൂചിപ്പിച്ച വലിപ്പം വലുതാണ് ഒരു പുതിയ ഇമേജ് സൃഷ്ടിക്കാൻ ശ്രമിച്ചാൽ, നിങ്ങൾ ശരിക്കും അതു ചെയ്യാൻ സ്ഥിരീകരിക്കുന്നതിനുള്ള ആവശ്യപ്പെട്ടു. ഇത് അബദ്ധത്തിൽ ഇമേജുകൾ ഉദ്ദേശിക്കുന്നില്ല വളരെയധികം വലിപ്പം സൃഷ്ടിക്കുന്നതിൽ നിന്ന് നിങ്ങളെ തടയാൻ ഏത് ജിമ്പ് തുടരേ അല്ലെങ്കിൽ അത് slowwwwwwwwly verrrrrrrry പ്രതികരിക്കാൻ കാരണമാകും ഒന്നുകിൽ ആണ്.</p>
+                </dd>
+                <dt>
+                  <span class="term">Number of processors to use</span>
+                </dt>
+                <dd>
+                  <p>സ്വതേ ഒന്നാണ്. നിങ്ങളുടെ കമ്പ്യൂട്ടർ ഒന്നിൽ കൂടുതൽ പ്രോസസർ ഉണ്ടായിരിക്കാം.</p>
+                </dd>
+              </dl>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>ചിത്രം ലഘുചിത്രങ്ങൾ</strong>
+              </p>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Size of thumbnails</span>
+                </dt>
+                <dd>
+                  <p>ഈ ഓപ്ഷനുകൾ ഫയൽ തുറക്കുന്നതിന് ഡയലോഗ് (ഒപ്പം മറ്റ് പരിപാടികൾ സാധ്യമായ ഉപയോഗത്തിനായി സംരക്ഷിച്ചു) കാണിച്ചിരിക്കുന്നു ലഘുചിത്രങ്ങൾ വലിപ്പം സജ്ജീകരിക്കാൻ അനുവദിക്കുന്നു. ഓപ്ഷനുകൾ <span class="quote">“<span class="quote">None</span>”</span>, <span class="quote">“<span class="quote">Normal (128x128)</span>”</span>, ഒപ്പം <span class="quote">“<span class="quote">Large (256x256)</span>”</span> ആകുന്നു.</p>
+                </dd>
+                <dt>
+                  <span class="term">Maximum filesize for thumbnailing</span>
+                </dt>
+                <dd>
+                  <p>ഒരു ഇമേജ് ഫയൽ വ്യക്തമാക്കിയ പരമാവധി വലിപ്പം വലുതാണ് എങ്കിൽ ജിമ്പ് അതു ഒരു ലഘുചിത്രം സൃഷ്ടിക്കാൻ ചെയ്യും. ഈ ഓപ്ഷനുകൾ നിങ്ങൾക്ക് .സ്പൈഡർ ജിമ്പ് മന്ദഗതിയിലാക്കുന്നു നിന്ന് വളരെ വലിയ ഇമേജ് ഫയലുകളുടെ thumbnailing തടയാൻ അനുവദിക്കുന്നു.</p>
+                </dd>
+              </dl>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>സംരക്ഷിക്കുന്നു ചിത്രങ്ങൾ</strong>
+              </p>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Confirm closing of unsaved images</span>
+                </dt>
+                <dd>
+                  <p>ഒരു ചിത്രം അടയ്ക്കുന്നു സ്ഥിര ജിമ് നിങ്ങളെ ശരിക്കും സംരക്ഷിക്കാത്ത മാറ്റങ്ങൾ നഷ്ടപ്പെട്ടതിനാൽ നയിക്കും എപ്പോഴൊക്കെ, അതു ചെയ്യാൻ അത് സ്ഥിരീകരിക്കാൻ ആവശ്യപ്പെട്ടാൽ അതിനാൽ പഴയപടിയാക്കാനാവില്ല ആണ്. നിങ്ങൾ അത് അലഞ്ഞ് നിങ്ങൾ കണ്ടെത്തിയാൽ ഇത് അപ്രാപ്തമാക്കാനാകും; എന്നാൽ പിന്നീട് കോഴ്സ് നിങ്ങള്ക്ക് സംരക്ഷിച്ച ചെയ്തിട്ടില്ലാത്ത കാര്യത്തിൻറെ ഓർമ്മിപ്പിക്കൽ ഉത്തരവാദിത്തമാണ്.</p>
+                </dd>
+              </dl>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>Document history</strong>
+              </p>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">സമീപകാല പ്രമാണങ്ങൾ പട്ടികയിൽ ഉപയോഗിച്ച ഫയലുകളുടെ റെക്കോർഡ് സൂക്ഷിക്കുക</span>
+                </dt>
+                <dd>
+                  <p>ചെക്കിൻ ചെയ്തപ്പോൾ, നിങ്ങൾ തുറന്ന ഫയലുകൾ പ്രമാണ ചരിത്രം സംരക്ഷിക്കപ്പെടും. <span class="guimenu">File</span> → <span class="guisubmenu">Open Recent</span> → <span class="guimenuitem">Document History</span>: നിങ്ങൾ ഇമേജ് മെനു-ബാറിൽ നിന്നും <a class="link" href="">Document history dialog</a> ഫയലുകൾ പട്ടിക ആക്സസ് ചെയ്യാൻ കഴിയും.</p>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-interface"></a>1.3. ഇന്റര്ഫേസ്</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511370528" class="indexterm"></a>
+          <a id="idp46925511372064" class="indexterm"></a>
+          <a id="idp46925511373216" class="indexterm"></a>
+          <a id="idp46925511374368" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511375520"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.3. Assorted Interface Preferences</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-interface.png" alt="Assorted Interface Preferences" />
+                <div class="caption">
+                  <p>ഈ താളിൽ ഭാഷ, പാളി / ചാനൽ പ്രിവ്യൂകളുമായി കീബോർഡ് കുറുക്കുവഴികൾ ഇച്ഛാനുസൃതമാക്കാൻ അനുവദിക്കുന്നു.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="variablelist">
+            <p class="title">
+              <strong>ഓപ്ഷനുകൾ</strong>
+            </p>
+            <a id="idp46925511380048" class="indexterm"></a>
+            <a id="idp46925511380944" class="indexterm"></a>
+            <a id="idp46925511381856" class="indexterm"></a>
+            <dl class="variablelist">
+              <dt>
+                <span class="term">ഭാഷ</span>
+              </dt>
+              <dd>
+                <p>ജിമ്പ് സ്ഥിര നിങ്ങളുടെ സിസ്റ്റത്തിന്റെ എന്നതാണ്. ഡ്രോപ്-ഡൗൺ ലിസ്റ്റിൽ മറ്റൊരു ഭാഷ തിരഞ്ഞെടുക്കാം. ഈ മാറ്റം ഫലപ്രദമാകാൻ വീണ്ടും ജിമ്പ് തുടങ്ങേണ്ടതാണ്. <a class="xref" href="">???</a> റഫർ ചെയ്യുക.</p>
+              </dd>
+              <dt>
+                <span class="term">പ്രിവ്യൂകൾ</span>
+              </dt>
+              <dd>
+                <p>സ്വതവേ, ജിമ്പ് പാളികൾക്ക് ഡയലോഗ് ഉൾപ്പെടെ പലയിടത്തും ലെയറുകളും ചാനലുകളുടെ ഉള്ളടക്കങ്ങളുടെ മിനിയേച്ചർ പ്രിവ്യൂകളുടേയും കാണിക്കുന്നു. നിങ്ങൾ ഈ അപ്രാപ്തമാക്കുകയാണെങ്കിൽ തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ ചില കാരണങ്ങളാൽ, നിങ്ങൾക്ക് <span class="guilabel">Enable layer and channel previews</span> അൺചെക്കുചെയ്ത് ചെയ്യാൻ കഴിയും. നിങ്ങൾ തിരനോട്ടങ്ങൾ കാണിക്കില്ല ആഗ്രഹിക്കുന്നത്, നിങ്ങൾക്ക് <span class="guilabel">Default layer and channel preview size</span> ആൻഡ് <span class="guilabel">Navigation preview size</span> വേണ്ടി മെനുകൾ ഉപയോഗിച്ച് അവയുടെ വ്യാപ്തി ഇഷ്ടാനുസൃതമാക്കാം.</p>
+              </dd>
+              <dt>
+                <a id="prefs-kbd-shortcuts"></a>
+                <span class="term">കീബോർഡ് കുറുക്കുവഴികൾ</span>
+              </dt>
+              <dd>
+                <p>ഏത് മെനു ഇനം <span class="keycap"><strong>Alt</strong></span> താഴേയ്ക്കാക്കുമ്പോൾ കീകൾ ഒരു കൂട്ടം അമർത്തി സജീവമാക്കാം. സാധാരണ, ഓരോ മെനു എൻട്രി ബന്ധപ്പെട്ട കീ വാചകത്തിൽ ഒരു അടിവരയിട്ട അക്ഷരം, <span class="emphasis"><em> accelerator</em></span> വിളിച്ചു കാണിക്കുന്നു. നിങ്ങൾ അടിവരയിടുന്നു (അവർ വൃത്തികെട്ട മുൻപരിചയം നിങ്ങൾ അവയെ ഏതുവിധേനയും ഉപയോഗിക്കാത്ത കരുതുന്നു ഒരുപക്ഷേ കാരണം) പോകുവാൻ തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ ചില കാരണങ്ങളാൽ, പിന്നെ നിങ്ങൾ ഈ <span class="guilabel">Show menu mnemonics</span> അൺചെക്കുചെയ്ത് സംഭവിക്കുന്നതിന്.</p>
+                <p>ജിമ്പ് നിങ്ങൾ പോയിന്റർ ആവശ്യമുള്ള മെനു എൻട്രി മുകളിലൂടെ സഞ്ചരിക്കുമ്പോൾ സമയത്ത് കീകൾ അമർത്തിയാൽ നാമെന്തു കീബോർഡ് കുറുക്കുവഴികൾ (മെനുവിലെ സജീവമാക്കുന്നതിന് ആ കീ) സൃഷ്ടിക്കാൻ കഴിവ് നൽകാൻ കഴിയും. എന്നാൽ ഈ ശേഷി അത് ആകസ്മികമായി അടിസ്ഥാന കീബോർഡ് കുറുക്കുവഴികൾ മാറ്റണമോ ആണാണോ ഉപയോക്താക്കളെ നയിച്ചേക്കാവുന്ന കാരണം, സ്വതവേ അപ്രാപ്തമാക്കി. അത് തയ്യാറാക്കാൻ ആഗ്രഹമുണ്ടെങ്കിൽ ഇതാ <span class="guilabel">Use dynamics keyboard shortcuts</span> പരിശോധിക്കുക.</p>
+                <p><span class="guilabel">Configure Keyboard Shortcuts</span> ബട്ടൺ അമർത്തിയാൽ നിങ്ങൾ മെനു ഇനങ്ങൾ തിരഞ്ഞെടുത്ത് അവർക്ക് കുറുക്കുവഴികൾ നൽകാതിരിക്കാൻ ഗ്രാഫിക്കൽ ഇന്റർഫെയിസ് തരുന്ന കുറുക്കുവഴി എഡിറ്റർ, ചെയ്യുന്നു.</p>
+                <p>നിങ്ങൾ കുറുക്കുവഴികൾ മാറ്റിയാൽ, ഒരുപക്ഷേ നിങ്ങളുടെ മാറ്റങ്ങൾ ഭാവിയിൽ ജിമ്പ് സെഷനുകളിലായി അപേക്ഷിക്കാൻ തുടരാൻ ആഗ്രഹിക്കുന്നത്. ഇല്ലെങ്കിൽ, <span class="guilabel">Save keyboard shortcuts on exit</span> അൺചെക്ക്. എന്നാൽ, ഈ ചെയ്തതു, അല്ലെങ്കിൽ പിന്നീട് തോൽപിക്കാനാവില്ല ചെയ്തിരിക്കാം ഓർക്കുക. നിങ്ങൾ എക്സിറ്റ് കുറുക്കുവഴികൾ ഓരോ സെഷൻ സംരക്ഷിക്കാൻ താൽപ്പര്യമില്ലെങ്കിൽ, നിങ്ങൾക്ക് <span class="guilabel">Save Keyboard Shortcuts Now</span> ബട്ടൺ ഉപയോഗിച്ച് എപ്പോൾ വേണമെങ്കിലും നിലവിലെ ക്രമീകരണങ്ങൾ സംരക്ഷിക്കാൻ കഴിയും, ഭാവിയിൽ സെഷനുകൾ പ്രയോഗിക്കും. നിങ്ങൾ കുറുക്കുവഴികൾ സംബന്ധിച്ചുള്ള ചില മോശം തീരുമാനങ്ങൾ ഉണ്ടാക്കി തീരുമാനിച്ചാൽ, <span class="guilabel">Reset Saved Keyboard Shortcuts to Default Values</span> അമർത്തി അവരുടെ യഥാർത്ഥ നിലയിലേക്ക് പുനഃസജ്ജീകരിക്കാനാകും.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-theme"></a>1.4. തീം</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511402928" class="indexterm"></a>
+          <a id="idp46925511404752" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511405648"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.4. Theme Preference</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-theme.png" alt="Theme Preference" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഏത്, <span class="guilabel">Default</span>: ഈ പേജ് നിങ്ങൾ ഉപയോഗിക്കുന്ന ഐക്കണുകൾ ഗണം, അവയുടെ വ്യാപ്തി, ഫോണ്ടുകൾ, ഡയലോഗുകൾ അനുവദനീയമായ സ്പെയ്സിംഗ് ഉൾപ്പെടെ ജിമ്പ് വിക്കി കാണുന്ന പല വശങ്ങൾ നിശ്ചയിക്കുന്നത് ഒരു തീം, തിരഞ്ഞെടുക്കുക മുതലായവ രണ്ട് തീമുകൾ ജിമ്പ് വിതരണം റ്റൊയോറ്റ ഒരുപക്ഷേ ചെറിയ അല്ലെങ്കിൽ കുറഞ്ഞ റെസല്യൂഷൻ മോണിറ്ററുകൾ കൂടെയുള്ളവർക്കുള്ള നല്ലത് ഇടയുള്ള, ജനങ്ങളെ മികച്ചതാണ്, <span class="guilabel">Small</span>. ലിസ്റ്റിലെ ഒരു തീം ക്ലിക്കുചെയ്യുന്നത് അത് ഉടനെ തന്നെ കാരണമാകുന്ന, അതിനാൽ നിങ്ങൾ അത് ഇഷ്ടമല്ല എങ്കിൽ അതു ഫലം കാണാൻ നിങ്ങളുടെ മനസ്സ് മാറ്റാൻ എളുപ്പമാണ്.</p>
+          <p>നിങ്ങൾക്ക് ഒന്നുകിൽ വല നിന്ന് ഡൗൺലോഡ് അല്ലെങ്കിൽ വിതരണം പ്രമേയമാണ് പകർത്തുമ്പോൾ അതു തിരുത്തുന്ന, തീമുകൾ ഉപയോഗിക്കാൻ കഴിയും. ഇഷ്ട തീമുകൾ നിങ്ങളുടെ സ്വകാര്യ ജിമ്പ് ഡയറക്ടറിയുടെ <code class="filename">themes</code> സബ് സ്ഥലങ്ങൾ ആയിരിക്കണം: അവർ പേരുണ്ടെങ്കിൽ അവർ ഇവിടെ പട്ടികയിൽ ദൃശ്യമാകും. ഓരോ തീം യഥാർത്ഥത്തിൽ നിങ്ങൾക്ക് എഡിറ്റുചെയ്യാനാകുന്ന ആസ്കി ഫയലുകൾ അടങ്ങുന്ന ഡയറക്ടറി. അവർ പ്രെറ്റി സങ്കീർണ്ണമായ ആകുന്നു, ഉളളടക്കം അർഥം ഈ ഡോക്യുമെന്റേഷൻ പരിമിതപ്പെടുത്തുന്ന അപ്പുറം പോകുന്ന, എന്നാൽ നിങ്ങൾ പരീക്ഷണങ്ങൾ മടിക്കരുത്: ഏറ്റവും മോശം സാഹചര്യത്തിൽ, സമ്പൂർണ്ണമായി മെസ് കാര്യങ്ങൾ എങ്കിൽ അപ്പ്, നിങ്ങൾക്ക് തിരികെ വിതരണം പ്രമേയമാണ് തിരികെപ്പോകാനാകും .</p>
+          <p>നിങ്ങൾ സപ്ലൈ തീമുകൾ എഡിറ്റ് കഴിയില്ല അഡ്മിനിസ്ട്രേറ്റർ അനുമതികൾ ഇല്ലെങ്കിൽ, നിങ്ങൾ പോലും, പാടില്ല: നിങ്ങൾ ഒരു തീം ഇഷ്ടാനുസൃതമാക്കുക നിങ്ങളുടെ വ്യക്തിപരമായ ഡയറക്ടറിയിൽ ഒരു പകർപ്പ് ഉണ്ടാക്കി ജോലിക്ക് ചെയ്യണമെങ്കിൽ. നിങ്ങൾ ഒരു മാറ്റം വരുത്തിയും ഫലം <span class="quote">“<span class="quote">on the fly</span>”</span> കാണാൻ ആഗ്രഹിക്കുന്നു എങ്കിൽ, എഡിറ്റുചെയ്യാനാകുന്ന തീം ഫയൽ സംരക്ഷിക്കുന്നതിൽ തുടർന്ന് <span class="guilabel">Reload Current Theme</span> അമർത്തി അങ്ങനെ ചെയ്യാൻ കഴിയും.</p>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-help"></a>1.5. സഹായം സിസ്റ്റം</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511417648" class="indexterm"></a>
+          <a id="idp46925511419504" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511420416"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.5. Help System Preferences</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-help.png" alt="Help System Preferences" />
+                <div class="caption">
+                  <p>ഈ താളിൽ <acronym class="acronym">GIMP</acronym> സഹായ സിസ്റ്റത്തിന്റെ സ്വഭാവം അനുവദിക്കുന്നു.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="idp46925511424512"></a>1.5.1. ഓപ്ഷനുകൾ</h4>
+                </div>
+              </div>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>പൊതുവായ</strong>
+              </p>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Show tool tips</span>
+                </dt>
+                <dd>
+                  <p>ടൂൾ നുറുങ്ങുകൾ ചെറിയ സഹായം പോയിന്റർ വിനിമയതലത്തിന്റെ ഏതെങ്കിലും ഗ്രൂപ്പിലെ മേൽ ഒരു നിമിഷം സഞ്ചരിക്കുമ്പോൾ പ്രത്യക്ഷപ്പെടുന്ന ഒരു ബട്ടൺ അല്ലെങ്കിൽ ഐക്കൺ പോലുള്ള പോപ്പ്-അപ്പുകൾ ആകുന്നു. ചിലപ്പോൾ അവർ മൂലകത്തിന്റെ ചെയ്യുന്നതു എന്തു വിശദീകരിക്കുക ചിലപ്പോൾ അവർ നിങ്ങൾ അത് ഉപയോഗിക്കാൻ നോൺ-വ്യക്തമായ വഴികളെ സൂചനകൾ. നിങ്ങൾ അവരെ വളരെ തെറ്റിദ്ധരിപ്പിക്കുന്നതും കണ്ടെത്തുകയാണെങ്കിൽ, നിങ്ങൾ ഈ ഓപ്ഷൻ അൺചെക്കുചെയ്ത് അവയെ ഇവിടെ പ്രവർത്തനരഹിതമാക്കാനാകും. ഞങ്ങൾ നിങ്ങൾക്ക് വളരെ വിപുലമായ ഉപയോക്താവ് പക്ഷം പ്രാപ്തമാക്കി അവരെ വിട്ടേക്കുക ശുപാർശ.</p>
+                </dd>
+                <dt>
+                  <span class="term">Show help buttons</span>
+                </dt>
+                <dd>
+                  <p>ഈ ഓപ്ഷൻ സഹായം ബട്ടണുകൾ സഹായം സിസ്റ്റം പ്രാർത്ഥിക്കുവാനായി പകരമായി ഉപയോഗിച്ചേക്കാം ഏതു പ്രയോഗം ഡയലോഗ്, കാണിച്ചിരിക്കുന്ന എന്നത് നിയന്ത്രിക്കുന്നു.</p>
+                </dd>
+                <dt>
+                  <span class="term">User manual</span>
+                </dt>
+                <dd>
+                  <p>ഈ ഡ്രോപ്പ്-ഡൌൺ ലിസ്റ്റ് <span class="guilabel">Use a locally installed copy</span> ആൻഡ് <span class="guilabel">Use the online version</span> തമ്മിലുള്ള തിരഞ്ഞെടുക്കുക അനുവദിക്കുന്നു. <a class="xref" href="gimp-help.html" title="12.2. സഹായിക്കൂ">വിഭാഗം 12.2, “സഹായിക്കൂ”</a> കാണുക.</p>
+                </dd>
+              </dl>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>സഹായം ബ്രൌസർ</strong>
+              </p>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Help browser to use</span>
+                </dt>
+                <dd>
+                  <p>ജിമ്പ് സഹായം, HTML ഫയലുകൾ രൂപത്തിൽ വിതരണം ഞാൻ ആകുന്നു. ഇ., വെബ് പേജുകൾ. നിങ്ങൾക്ക് ഒന്നുകിൽ ഒരു പ്രത്യേക സഹായം ജിമ് വരുന്നു എന്ന് നിങ്ങളുടെ ചോയ്സ് ഒരു വെബ് ബ്രൗസർ ബ്രൗസർ, അല്ലെങ്കിൽ ഉപയോഗിച്ച് അവ കാണാനാകും. ഇവിടെ നിങ്ങൾ ഏത് ഉപയോഗിക്കാൻ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക. സഹായം പേജുകൾ ശ്രദ്ധാപൂർവം അവ ജിമ്പ് ബ്രൗസറിൽ നന്നായി പ്രവർത്തിക്കാൻ ഉണ്ടാക്കുവാൻ പരിശോധിയ്ക്കുന്നു ചെയ്തിട്ടുള്ളതിനാൽ, മറ്റ് വെബ് ബ്രൗസറുകൾ സവിശേഷതകൾ അവരുടെ പിന്തുണ ൽ ഏതാണ്ട് ഭ്രംശമാണ് അതേസമയം സുരക്ഷിതമായ ഓപ്ഷൻ ആന്തരിക ബ്രൗസർ ഉപയോഗിക്കുക എന്നതാണ്; എന്നാൽ ശരിക്കും ഏത് ആധുനിക വെബ് ബ്രൗസർ ഓക്കെ വേണം.</p>
+                  <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+                    <table border="0" summary="Note">
+                      <tr>
+                        <td rowspan="2" align="center" valign="top" width="25">
+                          <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                        </td>
+                        <th align="left">കുറിപ്പു്</th>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top">
+                          <p>
+              Note that the GIMP help browser is not available on all 
+              platforms. If it is missing, this option is hidden and the
+              standard web browser will be used to read the help pages.
+            </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-tool-options"></a>1.6. ടൂൾ ഓപ്ഷനുകൾ</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511443552" class="indexterm"></a>
+          <a id="idp46925511445392" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511446768"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.6. Tool Options Preferences</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-tool-options.png" alt="Tool Options Preferences" />
+                <div class="caption">
+                  <p>ഈ താളിൽ ഉപകരണങ്ങൾ പെരുമാറ്റം നിരവധി വശങ്ങൾ ഇച്ഛാനുസൃതമാക്കാൻ അനുവദിക്കുന്നു.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="idp46925511450528"></a>1.6.1. ഓപ്ഷനുകൾ</h4>
+                </div>
+              </div>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>പൊതുവായ</strong>
+              </p>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Save Tool Options On Exit</span>
+                </dt>
+                <dd>
+                  <p>Self explanatory</p>
+                </dd>
+                <dt>
+                  <span class="term">Save Tool Options Now</span>
+                </dt>
+                <dd>
+                  <p>Self explanatory</p>
+                </dd>
+                <dt>
+                  <span class="term">Reset Saved Tool Options To Default Values</span>
+                </dt>
+                <dd>
+                  <p>Self explanatory</p>
+                </dd>
+              </dl>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>ഗൈഡ്, ഗ്രിഡ് എടുത്തുകൊണ്ടിരിക്കുക</strong>
+              </p>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Snap distance</span>
+                </dt>
+                <dd>
+                  <p>ഗൈഡുകളിലേക്കുള്ള, അല്ലെങ്കിൽ ഒരു ഇമേജ് ഗ്രിഡിലേക്ക് <span class="quote">“<span class="quote">Snapping</span>”</span>, ഒരു ഉപകരണം ഇമേജ് ഡിസ്പ്ലേയിൽ എവിടെയോ ക്ലിക്കുചെയ്ത് ബാധകമാക്കുമ്പോൾ, ക്ലിക്കുചെയ്താൽ പോയിന്റ് ഒരു ഗൈഡ് അല്ലെങ്കിൽ ഗ്രിഡ് മതി അടുത്തിരിക്കുന്നു എങ്കിൽ അത് കൃത്യമായി ഗൈഡ് അല്ലെങ്കിൽ ഗ്രിഡ് വരിഅങ്ങോട്ടു എന്നാണ്. ഗൈഡുകളിലേക്കുള്ള എടുത്തുകൊണ്ടിരിക്കുക ചിത്രം മെനുവിൽ <span class="guimenu">View</span> → <span class="guimenuitem">Snap to Guides</span> ഉപയോഗിച്ച് ചെയ്യുമ്പോൾ കഴിയും; എങ്കിൽ ഗ്രിഡ് <span class="guimenu">View</span> → <span class="guimenuitem">Snap to Grid</span> ഉപയോഗിച്ച് ചെയ്യുമ്പോൾ കഴിയും അതിലേക്കു എടുത്തുകൊണ്ടിരിക്കുക, ഓൺ ആണ്. ഈ മുൻഗണന ഓപ്ഷൻ ഒരു ചേയത് പോയിന്റ്, അതിലേക്കു അറിയിക്കുകയുമുണ്ടായി പിക്സലിൽ ലഭിക്കുന്നതിനായി ഒരു ഗൈഡ് അല്ലെങ്കിൽ ഗ്രിഡിലേക്ക് എത്ര അടയ്ക്കൂ നിർണ്ണയിക്കുന്നു.</p>
+                </dd>
+              </dl>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>സ്വൂത്ത്സ്കേല്ങ്</strong>
+              </p>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Default interpolation</span>
+                </dt>
+                <dd>
+                  <p>നിങ്ങൾ എന്തെങ്കിലും സ്കെയിൽ ചെയ്യുമ്പോൾ, ഫലം ഓരോ പിക്സൽ ഉറവിടത്തിൽ <a class="link" href="glossary.html#glossary-interpolation" title="Interpolation">interpolating</a> നിരവധി പിക്സൽ കണക്കാക്കുന്നത്. ഈ ഉപാധി സ്ഥിര interpolation രീതി നിർണ്ണയിക്കുന്നു: എപ്പോഴും ടൂൾ ഉപാധികൾ ഡയലോഗിൽ എങ്കിലും മാറ്റാൻ സാധിക്കും.</p>
+                  <div class="variablelist">
+                    <p>നാലു തിരഞ്ഞെടുക്കാൻ ഉണ്ട്:</p>
+                    <dl class="variablelist">
+                      <dt>
+                        <span class="term">ഒന്നുമില്ല</span>
+                      </dt>
+                      <dd>
+                        <p>ഈ വേഗമേറിയ രീതി ആണ്, പക്ഷേ അതു തികച്ചും ക്രൂഡ് തുടർന്ന്: നിങ്ങളുടെ മെഷീൻ വളരെ ഗൗരവത്തോടെ സ്പീഡ് കാഴ്ചാവൈകല്യമുള്ളവരുമായ എങ്കിൽ മാത്രമേ അത് പരിഗണിക്കേണ്ടതാണ്.</p>
+                      </dd>
+                      <dt>
+                        <span class="term">ലീനിയർ</span>
+                      </dt>
+                      <dd>
+                        <p>ഈ സ്ഥിര ഉപയോഗിക്കുന്ന മിക്ക ആവശ്യങ്ങൾക്ക് മതി നല്ലതു.</p>
+                      </dd>
+                      <dt>
+                        <span class="term">ക്യൂബിക്</span>
+                      </dt>
+                      <dd>
+                        <p>ഈ മികച്ച ചോയ്സ് (അത് യഥാർത്ഥത്തിൽ ചില ചിത്രങ്ങൾ തരം ലീനിയർ വല്ലാതെ നോക്കും വരാമെങ്കിലും), മാത്രമല്ല പലിശവർധനയും ആണ്. <acronym class="acronym">GIMP</acronym> 2.6 മുതൽ, ഈ രീതി സ്ഥിരസ്ഥിതി.</p>
+                      </dd>
+                      <dt>
+                        <span class="term">Sinc (Lanczos3)</span>
+                      </dt>
+                      <dd>
+                        <p>ഈ രീതി ഒരു ഉയർന്ന നിലവാരമുള്ള interpolation നടത്തുന്നു.</p>
+                      </dd>
+                    </dl>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>പെയിന്റ് ഓപ്ഷനുകൾ ഉപകരണങ്ങൾ തമ്മിലുള്ള പങ്കിട്ടു</strong>
+              </p>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Brush, Pattern, Gradient</span>
+                </dt>
+                <dd>
+                  <p>നിങ്ങൾ ഒരു ഉപകരണം വേണ്ടി ബ്രഷ് തുടങ്ങിയ മാറ്റുന്നതിൽ എല്ലാ ഉപകരണങ്ങൾ ഉപയോഗിക്കുന്ന പുതിയ ഇനം കാരണമാകും അല്ലെങ്കിൽ ഓരോ വ്യക്തിഗത ഉപകരണം (പെൻസിൽ, അന്തസ്സായിത്തന്നെയാണു, എയർബ്രഷ്, തുടങ്ങിയവ) പ്രത്യേകമായി അതു അവസാന ഉപയോഗിച്ച ഇനം ഓർക്കുക വേണ്ടയോ വേണ്ടയോ ഇവിടെ തീരുമാനിക്കാം.</p>
+                </dd>
+              </dl>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>Move tool</strong>
+              </p>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">സജീവമെന്ന് പാളി അല്ലെങ്കിൽ പാത്ത് സജ്ജമാക്കുക</span>
+                </dt>
+                <dd>
+                  <p>നീക്കുന്ന ടൂൾ ഉപയോഗിച്ച് നിലവിലെ പാളി അല്ലെങ്കിൽ വഴി മാറ്റുന്നതിൽ വേണ്ടയോ ഏതെങ്കിലും കീ അമർത്തിയാൽ ഇല്ലാതെ ഇവിടെ തീരുമാനിക്കാം.</p>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-toolbox"></a>1.7. പണിസഞ്ചി</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511486720" class="indexterm"></a>
+          <a id="idp46925511488560" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511489936"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.7. Toolbox Preferences</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-toolbox.png" alt="Toolbox Preferences" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="idp46925511492576"></a>1.7.1. ഓപ്ഷനുകൾ</h4>
+                </div>
+              </div>
+            </div>
+            <div class="figure">
+              <a id="idp46925511493328"></a>
+              <p class="title">
+                <strong>ചിത്രം 12.8. Default Toolbox appearance</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/toolbox-description.png" alt="Default Toolbox appearance" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p>ഈ താളിൽ മൂന്നു <span class="quote">“<span class="quote">context information</span>”</span> പ്രദേശങ്ങൾ ചുവടെ കാണിക്കണോ വേണ്ടയോ തീരുമാനിക്കുന്നതിൽ വഴി, പണിസഞ്ചി രൂപഭാവം ഇഷ്ടാനുസൃതമാക്കുക അനുവദിക്കുന്നു.</p>
+            <div class="variablelist">
+              <p class="title">
+                <strong>കാഴ്ച</strong>
+              </p>
+              <a id="idp46925511497936" class="indexterm"></a>
+              <a id="idp46925511499296" class="indexterm"></a>
+              <a id="idp46925511500672" class="indexterm"></a>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Show foreground and background color</span>
+                </dt>
+                <dd>
+                  <p>ഇടതുവശത്ത് കളർ ഏരിയ എന്നത് നിയന്ത്രിക്കുന്നു (2) പണിസഞ്ചി ലഭ്യമാകുന്നു.</p>
+                </dd>
+                <dt>
+                  <span class="term">Show active brush, pattern, and gradient</span>
+                </dt>
+                <dd>
+                  <p>
+            Controls whether the area in the center (3), with the brush,
+            pattern, and gradient icons, appears in the
+            Toolbox.
+          </p>
+                </dd>
+                <dt>
+                  <span class="term">Show active image</span>
+                </dt>
+                <dd>
+                  <p>നിലവിൽ സജീവമായ ചിത്രം ഒരു തിരനോട്ടം അവകാശം (4) ദൃശ്യമാകുന്നത് എന്നത് നിയന്ത്രിക്കുന്നു.</p>
+                </dd>
+              </dl>
+            </div>
+            <div class="variablelist">
+              <a id="prefs-tools-config"></a>
+              <p class="title">
+                <strong>ഉപകരണങ്ങൾ കോൺഫിഗറേഷൻ</strong>
+              </p>
+              <a id="idp46925511509200" class="indexterm"></a>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term"></span>
+                </dt>
+                <dd>
+                  <p>ഈ ലിസ്റ്റിൽ, കണ്ണിന് കൂടെ ഉപകരണങ്ങൾ പണിസഞ്ചിയിൽ കൂടിയിരിക്കുന്ന. സ്വതവേ, നിറം ടൂളുകൾ കണ്ണ്; നീ ഇതേ ചെക്ക്ബോക്സ് ക്ലിക്കുചെയ്ത് ഉപകരണബോക്സിലേക്ക് അവരെ ചേർക്കാൻ കഴിയും.</p>
+                  <p>നിങ്ങൾക്ക് അമ്പ് ഡയലോഗ് ചുവടെയുള്ള ബട്ടണുകൾ ഇറക്കി ഉപയോഗിച്ച് മുൻഗണനാക്രമത്തിൽ ഉപകരണങ്ങൾ അടുക്കുന്നതിന് കഴിയും.</p>
+                  <p>
+            This option replaces the Tools Dialog of former
+            <acronym class="acronym">GIMP</acronym> versions.
+          </p>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-new-image"></a>1.8. Default Image Preferences</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511516400" class="indexterm"></a>
+          <a id="idp46925511518224" class="indexterm"></a>
+          <a id="gimp-prefs-default-image"></a>
+          <div class="figure">
+            <a id="idp46925511520144"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.9. Default New Image Preferences</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-new-image.png" alt="Default New Image Preferences" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഈ ടാബ് നിങ്ങൾക്ക് പുതിയ ഇമേജ് ഡയലോഗ് സ്ഥിര ക്രമീകരണങ്ങൾ ഇച്ഛാനുസൃതമാക്കാൻ അനുവദിക്കുന്നു. മൂല്യങ്ങൾ ഓരോ അർഥം എന്താണെന്ന് വിശദീകരണത്തിന് <a class="link" href="gimp-file-new.html" title="2.2. പുതിയ">New Image Dialog</a> വിഭാഗം കാണുക.</p>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-default-grid"></a>1.9. സ്ഥിരസ്ഥിതി ഇമേജ് ഗ്രിഡ്</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511526112" class="indexterm"></a>
+          <a id="idp46925511527472" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511528816"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.10. Default Grid Preferences</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-default-grid.png" alt="Default Grid Preferences" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഈ താൾ നിങ്ങൾക്ക് അല്ലെങ്കിൽ ഇമേജ് മെനുവിൽ നിന്ന് <span class="guimenu">View</span> → <span class="guimenuitem">Show Grid</span> ഉപയോഗിച്ച് ഓഫ് ചെയ്യുമ്പോൾ കഴിയുന്ന ജിമ്പ് ന്റെ ഗ്രിഡിന്റെ സ്ഥിര ഉള്ള, ഇച്ഛാനുസൃതമാക്കാൻ അനുവദിക്കുന്നു. ഇവിടെ ക്രമീകരണങ്ങൾ ഇമേജ് മെനുവിൽ നിന്ന് <span class="guimenu">Image</span> → <span class="guimenuitem">Configure Grid</span> തിരഞ്ഞെടുത്തുകൊണ്ട്, നിലവിലുള്ള ഒരു ചിത്രത്തിനായി ഗ്രിഡ് ഇവയെ ഉപയോഗിക്കാം ക്രമീകരിയ്ക്കുക ചിത്രം ഗ്രിഡ് ഡയലോഗ്, ആ പൊരുത്തപ്പെടുന്നില്ല. ക്രമീകരണങ്ങൾ ഓരോ അർഥം വിവരങ്ങൾക്ക് <a class="link" href="">Configure Grid dialog</a> വിഭാഗം കാണുക.</p>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-image-window"></a>1.10. വിൻഡോസ് ചിത്രം</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511537216" class="indexterm"></a>
+          <a id="idp46925511539072" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511540464"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.11. General Image Window Preference</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-image-window.png" alt="General Image Window Preference" />
+                <div class="caption">
+                  <p>ഈ താളിൽ ചിത്രം വിൻഡോകൾ ബിഹേവിയർ നിരവധി വശങ്ങൾ ഇച്ഛാനുസൃതമാക്കാൻ അനുവദിക്കുന്നു.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="idp46925511544240"></a>1.10.1. ഓപ്ഷനുകൾ</h4>
+                </div>
+              </div>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>പൊതുവായ</strong>
+              </p>
+              <a id="idp46925511545744" class="indexterm"></a>
+              <a id="idp46925511546640" class="indexterm"></a>
+              <a id="idp46925511547536" class="indexterm"></a>
+              <a id="idp46925511548432" class="indexterm"></a>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Use <span class="quote">“<span class="quote">Dot for dot</span>”</span> by default</span>
+                </dt>
+                <dd>
+                  <p>1 സൂം, ഓരോ പിക്സൽ ഇമേജ് ഡിസ്പ്ലേയിൽ ഒരു പിക്സൽ സ്കെയിൽ ആണ്: <span class="quote">“<span class="quote">Dot for dot</span>”</span> ഉപയോഗിച്ച് 1 എന്നാണ്. എങ്കിൽ <span class="quote">“<span class="quote">Dot for dot</span>”</span> ഉപയോഗിക്കാറില്ല, പിന്നെ പ്രദർശിപ്പിച്ച ചിത്രം വലുപ്പം ചിത്രത്തിന്റെ X, Y ചിത്രം നിർണ്ണയിക്കുന്നത്. കൂടുതൽ വിവരങ്ങൾക്ക് <a class="link" href="gimp-image-scale.html" title="6.15. സ്കെയിൽ ചിത്രം">Scale Image</a> വിഭാഗം കാണുക.</p>
+                </dd>
+                <dt>
+                  <span class="term">Marching ants speed</span>
+                </dt>
+                <dd>
+                  <p>നിങ്ങൾ ഒരു നിര സൃഷ്ടിക്കുമ്പോൾ, അതു വായ്ത്തലയാൽ അതിർത്തി പതുക്കെ നടകൊള്ളുന്നോരിവൻ നീക്കാൻ ദൃശ്യമാകുന്ന ഡാഷുകളോ ഒരു ഒന്നിടവിട്ട വര കാണിക്കുന്നു അവർ കുണ്ണക്കു <span class="quote">“<span class="quote">marching ants</span>”</span> വിളിക്കുന്നു. ചെറിയ മൂല്യം, ഇവിടെ വേഗത്തിൽ ഉറുമ്പുകൾ March (ഇവയില്ലായിരുന്നുവെങ്കിൽ കൂടുതൽ തെറ്റിദ്ധരിപ്പിക്കുന്നതും അവർ!).</p>
+                </dd>
+              </dl>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>Zoom and Resize Behavior</strong>
+              </p>
+              <a id="idp46925511557632" class="indexterm"></a>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Resize window on zoom</span>
+                </dt>
+                <dd>
+                  <p>ഈ ഐച്ഛികം എങ്കിൽ, ഇമേജ് സൂം ഓരോ തവണ, ഇമേജ് വിൻഡോ സ്വയം അത് പിന്തുടരുക വലുപ്പം ചെയ്യും. അല്ലാത്തപക്ഷം, ഇമേജ് സൂം ചെയ്യുമ്പോൾ ഇമേജ് വിൻഡോ ഒരേ വലിപ്പം തെളിയിക്കും.</p>
+                </dd>
+                <dt>
+                  <span class="term">Resize window on image size change</span>
+                </dt>
+                <dd>
+                  <p>ഈ ഐച്ഛികം, തുടർന്ന് ഓരോ തവണയും ചിത്രത്തിന്റെ വലുപ്പം മാറ്റുക, അതു കത്രിക്കൽ അല്ലെങ്കിൽ വലിപ്പംമാറ്റിക്കൊണ്ടിരിക്കുന്നജാലകങ്ങളിലുള്ളവകാണിയ്ക്കുക വഴി, ഇമേജ് വിൻഡോ സ്വയം പിന്തുടരാൻ വലുപ്പം ചെയ്യും. അല്ലാത്തപക്ഷം, ഇമേജ് വിൻഡോ ഒരേ വലിപ്പം തെളിയിക്കും.</p>
+                </dd>
+                <dt>
+                  <span class="term">Initial zoom ratio</span>
+                </dt>
+                <dd>
+                  <p>ഒന്നുകിൽ നിങ്ങൾ തിരഞ്ഞെടുക്കാൻ ചിത്രങ്ങൾ, അവർ ആദ്യം തുറന്നു വരുമ്പോൾ മുഴുവനും ചിത്രം സ്ക്രീനിൽ ഹൃദ്യമായി അനുയോജ്യമാകും അങ്ങനെ സ്കെയിൽ ഞങ്ങൾക്കുണ്ട്, അല്ലെങ്കിൽ മറ്റാരെങ്കിലും 1 കാണിച്ചിരിക്കുന്ന കഴിയും: 1 സൂം. രണ്ടാമത്തെ ഓപ്ഷൻ തിരഞ്ഞെടുക്കുക, ചിത്രം, സ്ക്രീനിൽ ഉള്ളുവെങ്കിലും വളരെ വലുതാണ് ആണെങ്കിൽ, ചിത്രം ജാലകം അത് ഒരു ഭാഗം മാത്രമേ കാണിക്കും (പക്ഷെ മറ്റ് ഭാഗങ്ങളിൽ സ്ക്രോൾ കഴിയും).</p>
+                </dd>
+              </dl>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>Space bar</strong>
+              </p>
+              <a id="idp46925511567488" class="indexterm"></a>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">While space bar is pressed</span>
+                </dt>
+                <dd>
+                  <div class="itemizedlist">
+                    <ul class="itemizedlist" style="list-style-type: disc; ">
+                      <li class="listitem">
+                        <p><span class="guilabel">Pan view</span> (default) or</p>
+                      </li>
+                      <li class="listitem">
+                        <p>
+                          <span class="guilabel">Toogle to Move Tool</span>
+                        </p>
+                      </li>
+                      <li class="listitem">
+                        <p>
+                          <span class="guilabel">No action</span>
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>Mouse Cursors</strong>
+              </p>
+              <a id="idp46925511574320" class="indexterm"></a>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Show brush outline</span>
+                </dt>
+                <dd>
+                  <p>ഈ ഐച്ഛികം എങ്കിൽ, നിങ്ങൾ ഒരു പെയിന്റ് ഉപയോഗിക്കുമ്പോൾ, ബ്രഷ് രൂപരേഖ ചിത്രത്തിൽ നിങ്ങൾക്ക് ചുറ്റുമുള്ള പോയിന്റർ നീക്കാൻ പോലെ കാണിക്കും. സ്ലോ സിസ്റ്റങ്ങളിൽ, ബ്രഷ് വളരെ വലിയ എങ്കിൽ ഈ പലപ്പോഴും നിങ്ങളുടെ പ്രസ്ഥാനങ്ങൾ പിന്തുടരാൻ ജിമ്പ് കഴിവ് ചില ലാഗ് കാരണമായേക്കും: അങ്ങനെയെങ്കിൽ, ഈ സ്വിച്ച് ഓഫ് സഹായിക്കുന്നു. അല്ലാത്തപക്ഷം, അത് നിങ്ങൾക്ക് തികച്ചും ഉപയോഗപ്രദമായ കണ്ടെത്തും.</p>
+                </dd>
+                <dt>
+                  <span class="term">Show paint tool cursor</span>
+                </dt>
+                <dd>
+                  <p>ഒത്തുനോക്കി, ഒരു കഴ്സർ കാണിക്കും. ബ്രഷ് ഔട്ട്ലൈൻ കാണിച്ചിരിക്കുമ്പോൾ അതാണ് ബ്രഷ് ഔട്ട്ലൈൻ പുറമേ ആണ്. കഴ്സർ തരം അടുത്ത ഓപ്ഷൻ നിർണ്ണയിക്കുന്നത്.</p>
+                </dd>
+                <dt>
+                  <span class="term">Cursor mode</span>
+                </dt>
+                <dd>
+                  <p>ഈ ഓപ്ഷൻ <span class="guilabel">Show paint tool cursor</span> ചെക്കുചെയ്തിട്ടുണ്ടെന്നും ചെയ്തിട്ടില്ലെങ്കിൽ ഫലപ്രദമാകില്ല. അങ്ങനെ എങ്കിൽ നിങ്ങൾ മൂന്ന് മാറ്ഗ്ഗങ്ങളുണ്ട്: <span class="guilabel">Tool icon</span>, കഴ്സർ പുറമെ കാണിക്കുന്നതിനുള്ള നിലവിലെ സജീവ ഉപകരണം ഒരു ചെറിയ വിശ്വപ്രസിദ്ധമായ പ്രാതിനിധ്യം കാരണമാകുന്നു; ഐക്കൺ അതുപോലെ കർസർ കേന്ദ്രത്തിൽ സൂചിപ്പിക്കുന്ന അടയാളസൂചി കാണിക്കുന്ന <span class="guilabel">Tool icon with crosshair</span>; അല്ലെങ്കിൽ <span class="guilabel">Crosshair only</span>.</p>
+                </dd>
+                <dt>
+                  <span class="term">Cursor rendering</span>
+                </dt>
+                <dd>
+                  <p>നിങ്ങൾ ഇവിടെ <span class="quote">“<span class="quote">Fancy</span>”</span> തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, കഴ്സർ ഗ്രേസ്കെയിലിൽ വരച്ചതാണ്. നിങ്ങൾ <span class="quote">“<span class="quote">Black and White</span>”</span> തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, അതിന് നിങ്ങൾ സ്പീഡ് പ്രശ്നങ്ങൾ ഉണ്ടെങ്കിൽ അല്പം അപ്പ് കാര്യങ്ങൾ വേഗത്തിലാക്കാൻ വേണ്ടി ലളിതവും വഴിയിൽ വരച്ചതാണ്.</p>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-image-window-appearance"></a>1.11. ചിത്രം വിൻഡോ കാഴ്ച</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511590224" class="indexterm"></a>
+          <a id="idp46925511592080" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511593472"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.12. Image Window Appearance Defaults</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-image-window-appearance.png" alt="Image Window Appearance Defaults" />
+                <div class="caption">
+                  <p>ഈ താളിൽ സാധാരണ മോഡിൽ വേണ്ടിയും പൂർണ്ണസ്ക്രീൻ മോഡ് ഇമേജ് വിൻഡോകൾ സ്ഥിര ഭാവം, ഇച്ഛാനുസൃതമാക്കാൻ അനുവദിക്കുന്നു. ഇവിടെ ക്രമീകരണങ്ങളും കാണുക മെനു എൻട്രികൾ ഉപയോഗിച്ച് ഒരു ഇമേജ്-നിർദ്ദിഷ്ട അടിസ്ഥാനത്തിൽ അടിമരാജ്യങ്ങളിൽ കഴിയും. എൻട്രികൾ അർഥം വിവരങ്ങൾക്ക് <a class="link" href="gimp-image-window.html" title="2.2. ചിത്രം വിൻഡോ">Image Window</a> വിഭാഗം കാണുക.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>കൂടുതൽ വിശദീകരണങ്ങൾക്ക് വന്നേക്കാം മാത്രമേ ഭാഗങ്ങൾ പാഡിംഗോട് ബന്ധപ്പെട്ട പ്രാപിച്ചവർ. അതു ഡിസ്പ്ലേ പ്രദേശം (ഇവിടെ എല്ലാ കണക്കുകളും വെളിച്ചം ചാര കാണിച്ചിരിക്കുന്നത്) എല്ലാ അളന്ന് ഇല്ല എങ്കിൽ <span class="quote">“<span class="quote">Padding</span>”</span>, ചിത്രം അറ്റങ്ങൾ ചുറ്റും കാണിച്ചിരിക്കുന്ന നിറം. നിങ്ങൾ പാഡിംഗോട് നിറം നാലു നിറങ്ങൾ തിരഞ്ഞെടുക്കാൻ കഴിയും: നിലവിലെ തീം വ്യക്തമാക്കിയിട്ടുള്ള നിറം ഉപയോഗിക്കാൻ; വെളിച്ചം അല്ലെങ്കിൽ പോലുള്ള ചിത്രത്തിന്റെ സുതാര്യമായ ഭാഗങ്ങൾ പ്രതിനിധാനം പരിശോധനകൾ വ്യക്തമാക്കിയ ഇരുണ്ട നിറങ്ങൾ, ഉപയോഗിക്കാൻ; അല്ലെങ്കിൽ <span class="quote">“<span class="quote">Custom padding color</span>”</span> നിറം ബട്ടൺ ഉപയോഗിച്ച് സജ്ജമാക്കാൻ കഴിയുന്ന ഇഷ്ടമുളള നിറം, ഉപയോഗിക്കാൻ.</p>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-image-window-title"></a>1.12. Image Window Title and Statusbar</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511603056" class="indexterm"></a>
+          <a id="idp46925511604880" class="indexterm"></a>
+          <a id="idp46925511606240" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511607600"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.13. Image Window Title and Statusbar formats</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-image-window-title.png" alt="Image Window Title and Statusbar formats" />
+                <div class="caption">
+                  <p>ഒരു ചിത്രത്തിന്റെ ടൈറ്റിൽ ബാർ, നില ബാർ: ഈ പേജ് നിങ്ങൾക്ക് രണ്ടു സ്ഥലങ്ങളിൽ ദൃശ്യമാകുന്ന പാഠം ഇച്ഛാനുസൃതമാക്കാൻ അനുവദിക്കുന്നു. ശീർഷക ബാർ ചിത്രം മുകളിൽ ദൃശ്യമാകണം; എന്നാൽ ഈ വിൻഡോ മാനേജർ നിന്ന് സഹകരണം ആശ്രയിച്ചിരിക്കുന്നു, അതിനാൽ എല്ലാ കേസുകളും പ്രവർത്തിക്കാൻ ഉറപ്പൊന്നുമില്ല. സ്ഥിതിത്തട്ട്, വലത് ഭാഗത്ത് ചിത്രം താഴെയുണ്ടായിരുന്ന ലഭ്യമാകുന്നു. കൂടുതൽ വിവരങ്ങൾക്ക് <a class="link" href="gimp-image-window.html" title="2.2. ചിത്രം വിൻഡോ">Image Window</a> വിഭാഗം കാണുക.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="idp46925511612896"></a>1.12.1. Choosing a Format</h4>
+                </div>
+              </div>
+            </div>
+            <p>നിങ്ങൾ നിരവധി predesigned ഫോർമാറ്റുകൾ തിരഞ്ഞെടുക്കാൻ കഴിയും, അല്ലെങ്കിൽ നിങ്ങൾ എൻട്രി പ്രദേശത്തെ ഒരു <span class="emphasis"><em>format string</em></span> എഴുതിക്കൊണ്ട്, നിങ്ങളുടെ സ്വന്തമായ ഒന്ന് സൃഷ്ടിക്കാൻ കഴിയും. ഇവിടെ ഒരു ഫോർമാറ്റ് സ്ട്രിംഗ് മനസ്സിലാക്കാൻ ഇങ്ങനെ: നിങ്ങൾ ടൈപ്പുചെയ്യുന്നവയെല്ലാം ആരുടെ പേരുകൾ എല്ലാ <span class="quote">“<span class="quote">%</span>”</span> ആരംഭിക്കണം <span class="emphasis"><em>variables</em></span>, ഒഴികെയുള്ള ടൈപ്പ് കൃത്യമായി കാണിക്കുന്നു. ഇവിടെ നിങ്ങൾ ഉപയോഗിക്കാൻ കഴിയും വേരിയബിളുകളുടെ പട്ടികയിലുണ്ട്:</p>
+            <div class="segmentedlist">
+              <table border="0">
+                <thead>
+                  <tr class="segtitle">
+                    <th>Variable</th>
+                    <th>Meaning</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="seglistitem">
+                    <td class="seg">% F</td>
+                    <td class="seg">ചിത്രത്തിന്റെ ബാരെ ഫയൽനാമം അല്ലെങ്കിൽ <span class="quote">“<span class="quote">Untitled</span>”</span></td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">% എഫ്</td>
+                    <td class="seg">ചിത്രം പൂർണ്ണ പാത്ത്, അല്ലെങ്കിൽ <span class="quote">“<span class="quote">Untitled</span>”</span></td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">% പി</td>
+                    <td class="seg">ഇമേജ് ഐഡി നമ്പർ (ഈ അതുല്യമായ ആണ്)</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">% ഞാൻ</td>
+                    <td class="seg">കാണുക നമ്പർ, ഒരു ഇമേജ് ഒന്നിലധികം ഡിസ്പ്ലേ ഉണ്ട് എങ്കിൽ</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">% ടി</td>
+                    <td class="seg">ഇമേജ് തരം (ആർജിബി ഗ്രേസ്കെയിൽ, സൂചികയിലാക്കിയിരിക്കുന്നു)</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">% of</td>
+                    <td class="seg">ശതമാനത്തിൽ സൂം ഘടകം</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">%s</td>
+                    <td class="seg">ഉറവിട സ്കെയിൽ ഘടകം (സൂം നില =% d /% ങ്ങള്)</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">% d</td>
+                    <td class="seg">ലക്ഷ്യ സ്കെയിൽ ഘടകം (സൂം നില =% d /% ങ്ങള്)</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">% Dx</td>
+                    <td class="seg">ചിത്രം വൃത്തിയില്ല, അല്ലെങ്കിൽ ഒന്നും X ലേക്ക് വിപുലീകരിക്കുന്നു</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">% CX</td>
+                    <td class="seg">ചിത്രം നിർമ്മല ആകുന്നു എങ്കിൽ, അല്ലാത്തപക്ഷം ഒന്നും X ലേക്ക് വിപുലീകരിക്കുന്നു</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">L%</td>
+                    <td class="seg">The number of layers</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">എൽ%</td>
+                    <td class="seg">Number of layers (long form)</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">% മീറ്റർ</td>
+                    <td class="seg">ചിത്രം ഉപയോഗിച്ച മെമ്മറി</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">% n</td>
+                    <td class="seg">Name of the active layer/channel</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">% പി</td>
+                    <td class="seg">id of the active layer/channel</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">% ലെ</td>
+                    <td class="seg">Image width in pixels</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">%W</td>
+                    <td class="seg">യഥാർത്ഥ യൂണിറ്റുകളിൽ ചിത്രത്തിന്റെ വീതി</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">% H</td>
+                    <td class="seg">Image height in pixels</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">%H</td>
+                    <td class="seg">യഥാർത്ഥ യൂണിറ്റുകളിൽ ചിത്രത്തിന്റെ ഉയരം</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">% ലെ</td>
+                    <td class="seg">യൂണിറ്റ് ചിഹ്നം (ഉദാ. പിക്സലിനായുള്ള px)</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">% യു</td>
+                    <td class="seg">Unit abbreviation</td>
+                  </tr>
+                  <tr class="seglistitem">
+                    <td class="seg">%%</td>
+                    <td class="seg">അക്ഷരാർഥത്തിൽ <span class="quote">“<span class="quote">%</span>”</span> ചിഹ്നം</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-display"></a>1.13. പ്രദർശിപ്പിക്കുക</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511652624" class="indexterm"></a>
+          <a id="idp46925511654480" class="indexterm"></a>
+          <a id="idp46925511655872" class="indexterm"></a>
+          <a id="idp46925511657232" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511658128"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.14. Display Preferences</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-display.png" alt="Display Preferences" />
+                <div class="caption">
+                  <p>ഈ താളിൽ വഴി ഒരു ചിത്രത്തിന്റെ സുതാര്യമായ ഭാഗങ്ങൾ പ്രതിനിധീകരിക്കുന്നത് ഇച്ഛാനുസൃതമാക്കാന് അനുവദിക്കുന്നു, നിങ്ങൾ നിങ്ങളുടെ മോണിറ്ററിന്റെ ചിത്രം recalibrate അനുവദിക്കുന്നു.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="gimp-prefs-display-options"></a>1.13.1. ഓപ്ഷനുകൾ</h4>
+                </div>
+              </div>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>സുതാര്യത</strong>
+              </p>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Transparency type</span>
+                </dt>
+                <dd>
+                  <p>സ്വതവേ, ജിമ്പ് മിഡ്-ടോൺ പരിശോധനകൾ ഒരു ചെക്കർബോർഡ് പാറ്റേൺ ഉപയോഗിച്ച് സുതാര്യത സൂചിപ്പിക്കുന്നു, എന്നാൽ നിങ്ങൾ ഒന്നുകിൽ ചെക്കർബോർഡ് ഒരു വ്യത്യസ്ത തരത്തിലുള്ള, അല്ലെങ്കിൽ, ഖര കറുപ്പും വെളുപ്പും അല്ലെങ്കിൽ ചാര ലേക്ക് നിങ്ങൾ ആഗ്രഹിക്കുമ്പോൾ മാറ്റാനാകും.</p>
+                </dd>
+                <dt>
+                  <span class="term">Check size</span>
+                </dt>
+                <dd>
+                  <p>
+            Here you can alter the size of the squares in the checkerboard
+            pattern used to indicate transparency.
+          </p>
+                </dd>
+              </dl>
+            </div>
+            <div class="figure">
+              <a id="figure-gimp-prefs-monitor"></a>
+              <p class="title">
+                <strong>ചിത്രം 12.15. The Calibration dialog</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/ui-calibrate.png" alt="The Calibration dialog" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <div class="variablelist">
+              <a id="gimp-prefs-monitor"></a>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">മോണിറ്റർ മിഴിവ്</span>
+                </dt>
+                <dd>
+                  <p>മോണിറ്റർ മിഴിവ് പിക്സൽ അനുപാതം, ഇഞ്ച്, തിരശ്ചീനമായും ലംബമായും ആണ്. നിങ്ങൾക്ക് ഇവിടെ തുടരാൻ മൂന്നു മാർഗങ്ങളുണ്ട്:</p>
+                  <div class="itemizedlist">
+                    <ul class="itemizedlist" style="list-style-type: disc; ">
+                      <li class="listitem">
+                        <p>ജാലക വ്യവസ്ഥ നിന്ന് പ്രമേയം നേടുക. (എളുപ്പമാർഗ്ഗം, ഒരുപക്ഷേ കൃത്യമല്ലാത്ത).</p>
+                      </li>
+                      <li class="listitem">
+                        <p>Set Manually</p>
+                      </li>
+                      <li class="listitem">
+                        <p>കാലിബ്രേറ്റ് ബട്ടൺ അമർത്തുക.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </dd>
+                <dt>
+                  <span class="term">കാലിബ്രേറ്റ് സംഭാഷണം</span>
+                </dt>
+                <dd>
+                  <p>ഞാൻ കാലിബ്രേറ്റ് സംഭാഷണം ശ്രമിച്ചപ്പോൾ എന്റെ മോണിറ്റർ impressively ഓഫ് ആയിരുന്നു. <span class="quote">“<span class="quote">Calibrate Game</span>”</span> കളിക്കാൻ നേരമ്പോക്കാണ്. ഒരു നേർത്ത ഭരണാധികാരി ആവശ്യമാണ്.</p>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-color-management"></a>1.14. വർണ്ണ മാനേജ്മെന്റ്</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511682800" class="indexterm"></a>
+          <a id="idp46925511684656" class="indexterm"></a>
+          <a id="idp46925511685584" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511686512"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.16. Color Management Preferences</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-color-management.png" alt="Color Management Preferences" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="idp46925511689184"></a>1.14.1. ഓപ്ഷനുകൾ</h4>
+                </div>
+              </div>
+            </div>
+            <p>ഈ താളിൽ ജിമ്പ് കളർ മാനേജ്മെന്റ് ഇച്ഛാനുസൃതമാക്കാൻ അനുവദിക്കുന്നു.</p>
+            <p>ഓപ്ഷനുകൾ ചില നിങ്ങൾ ഒരു മെനുവിൽ നിന്ന് ഒരു കളർ പ്രൊഫൈൽ തിരഞ്ഞെടുക്കുക. ഉദ്ദേശിച്ച പ്രൊഫൈൽ മെനു ഇതുവരെ ഇല്ല, നിങ്ങൾ <span class="guimenuitem">Select color profile from disk...</span> ഇനം ക്ലിക്കുചെയ്ത് ചേർക്കാവുന്നതാണ്.</p>
+            <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+              <table border="0" summary="Tip">
+                <tr>
+                  <td rowspan="2" align="center" valign="top" width="25">
+                    <img alt="[സൂചന]" src="images/tip.png" />
+                  </td>
+                  <th align="left">സൂചന</th>
+                </tr>
+                <tr>
+                  <td align="left" valign="top">
+                    <p>നിറം പ്രൊഫൈലുകൾ അടങ്ങിയ ഫയലുകൾ തങ്ങളുടെ <code class="filename">. icc</code> സഫിക്സ് എളുപ്പത്തിൽ തിരിച്ചറിയുന്ന. ഇതോടൊപ്പം അവർ സാധാരണയായി ഏതാനും സ്ഥലങ്ങളിൽ ഒന്നിച്ച് സൂക്ഷിക്കുന്നു. നിങ്ങൾ Mac OS X ലുള്ള ജിമ്പ് പ്രവർത്തിക്കുന്ന എങ്കിൽ, നിങ്ങൾക്ക് <code class="filename">/Library/ColorSync/Profiles/</code> ആൻഡ് <code class="filename">Library/Printers/[manufacturer]/Profiles</code> ശ്രമിക്കണം.</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="variablelist">
+              <a id="idp46925511694976" class="indexterm"></a>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Mode of operation</span>
+                </dt>
+                <dd>
+                  <p>ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് നിങ്ങൾക്ക് ജിമ്പ് നിറം മാനേജ്മെന്റ് പ്രവർത്തന തീരുമാനിക്കാം. താങ്കൾക്ക് തിരഞ്ഞെടുക്കാവുന്നവ മൂന്നു രൂപങ്ങൾ ഉണ്ട്:</p>
+                  <div class="itemizedlist">
+                    <ul class="itemizedlist" style="list-style-type: disc; ">
+                      <li class="listitem">
+                        <p><span class="guimenuitem">No color management</span>: ഈ നിരക്കു ശേഷമേ പൂർണ്ണമായും ജിമില ഇറങ്ങി നിറം മാനേജ്മെന്റ് വായ്പൊത്തുന്നു.</p>
+                      </li>
+                      <li class="listitem">
+                        <p><span class="guimenuitem">Color managed display</span>: ഈ നിരക്കു നിങ്ങളെ ഡിസ്പ്ലേ കൊടുത്താൽ നിറം പ്രൊഫൈൽ തക്കവണ്ണം ചിത്രങ്ങൾ പൂർണ്ണമായി തിരുത്തിക്കൊണ്ട് ഡിസ്പ്ലേ നൽകാൻ ജിമ്പ് നിറം മാനേജ്മെന്റ് പ്രാപ്തമാക്കാൻ കഴിയും.</p>
+                      </li>
+                      <li class="listitem">
+                        <p><span class="guimenuitem">Print simulation</span>: ഈ നിരക്കു ശേഷമേ, നിങ്ങൾ മാത്രമല്ല ഡിസ്പ്ലേ പ്രൊഫൈൽ, മാത്രമല്ല തിരഞ്ഞെടുത്ത പ്രിന്റർ അനുകരണ പ്രൊഫൈൽ അപേക്ഷിക്കാൻ ജിമ്പ് നിറം മാനേജ്മെന്റ് പ്രാപ്തമാക്കാൻ. അങ്ങനെ ചെയ്യുന്നത്, ആ പ്രിന്റർ ഒരു പ്രിന്റ് നിറം ഫലങ്ങളിൽ തിരനോട്ടം നടത്താം.</p>
+                        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+                          <table border="0" summary="Note">
+                            <tr>
+                              <td rowspan="2" align="center" valign="top" width="25">
+                                <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                              </td>
+                              <th align="left">കുറിപ്പു്</th>
+                            </tr>
+                            <tr>
+                              <td align="left" valign="top">
+                                <p>ജിമ്പ് നിറം മാനേജ്മെന്റ് ഇമേജുകളുടെ പ്രദർശനം, ചിത്ര ഫയലുകളിൽ മാത്രം പ്രൊഫൈലുകൾ ഉൾച്ചേർക്കൽ വർധിപ്പിക്കാനായി ഉപയോഗിക്കുന്ന ശ്രദ്ധിക്കുക. പ്രത്യേകിച്ചും ജിമ്പ് ഉള്ളിൽ നിന്ന് അച്ചടിക്കുന്നതിനുള്ള ഉപയോഗിക്കുന്നു വഴി ഒന്നും ഈ ഡയലോഗ് നിങ്ങൾ തിരഞ്ഞെടുത്ത ഓപ്ഷനുകൾ ഉണ്ട്. പ്രിന്റിംഗ് ജിമ് ഭാഗമല്ല ഒരു കൂടുതൽ സ്പെഷ്യലൈസ് പ്രിന്റിംഗ് എഞ്ചിൻ നടക്കുന്ന പ്രത്യേക ദൗത്യ എന്നതാണ്.</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </dd>
+                <dt>
+                  <span class="term">RGB profile</span>
+                </dt>
+                <dd>
+                  <p>
+            Select the default color profile for working with RGB images.
+          </p>
+                </dd>
+                <dt>
+                  <span class="term">CMYK profile</span>
+                </dt>
+                <dd>
+                  <p>
+            Select the default color profile for conversion between RGB 
+            for the screen work and CMYK for printing.
+          </p>
+                </dd>
+                <dt>
+                  <span class="term">Monitor profile</span>
+                </dt>
+                <dd>
+                  <p>ഈ ഐച്ഛികം ഇടപെടലിനായി രണ്ടു ഘടകങ്ങൾ നൽകുന്നു:</p>
+                  <div class="itemizedlist">
+                    <ul class="itemizedlist" style="list-style-type: disc; ">
+                      <li class="listitem">
+                        <p>ഈ ഓപ്ഷൻ ഒരു ഡിസ്പ്ലേ പ്രൊഫൈൽ തിരഞ്ഞെടുക്കാവൂ. തിരഞ്ഞെടുത്ത വർണ്ണം പ്രൊഫൈൽ സ്ക്രീനിൽ ജിമ്പ് പ്രദർശിപ്പിക്കുന്നതിന് ഉപയോഗിക്കുന്ന.</p>
+                      </li>
+                      <li class="listitem">
+                        <p>നിങ്ങൾ <span class="guilabel">Try to use the system monitor profile</span> ഓപ്ഷൻ സജീവമാക്കാൻ എങ്കിൽ ജിമ്പ് ഓപ്പറേറ്റിങ് സിസ്റ്റങ്ങൾ നിറം മാനേജ്മെന്റ് സിസ്റ്റം ഡിസ്പ്ലേകളിലും നൽകിയ നിറം പ്രൊഫൈൽ ഉപയോഗിക്കും.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </dd>
+                <dt>
+                  <span class="term">Display rendering intent</span>
+                </dt>
+                <dd>
+                  <p>നിങ്ങൾ ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് ക്രമീകരിക്കാം പോലെയല്ല ഉദ്ദേശ്യങ്ങളും തർജ്ജമ ഔട്ട്-ഫിലിമിലെ സ്രോതസ്സ് ബഹിരാകാശത്ത് ഇപ്പോഴത്തെ ഡെസ്റ്റിനേഷൻ സ്പേസ് ഉത്പാദക കഴിവ് ആ <a class="xref" href="glossary.html#glossary-gamut" title="പൂർണ്ണവ്യാപ്തി">
+      <span class="phrase">പൂർണ്ണവ്യാപ്തി</span>
+    </a> നിറങ്ങൾ ആകുന്നു നിറങ്ങൾ ഇടപെടുമ്പോൾ വഴികളും. തിരഞ്ഞെടുക്കാൻ നാലു രീതി തർജ്ജമ ഇൻഡന്റുകൾ ഉണ്ട്:</p>
+                  <div class="itemizedlist">
+                    <ul class="itemizedlist" style="list-style-type: disc; ">
+                      <li class="listitem">
+                        <p>
+                <span class="guimenuitem">Perceptual</span>
+              </p>
+                      </li>
+                      <li class="listitem">
+                        <p>
+                <span class="guimenuitem">Relative colorimetric</span>
+              </p>
+                      </li>
+                      <li class="listitem">
+                        <p>
+                <span class="guimenuitem">സാച്ചുറേഷൻ</span>
+              </p>
+                      </li>
+                      <li class="listitem">
+                        <p>
+                <span class="guimenuitem">Absolute colorimetric</span>
+              </p>
+                      </li>
+                    </ul>
+                  </div>
+                  <p>വ്യക്തിഗത രീതികൾ ഒരു വിവരണം <a class="xref" href="glossary.html#glossary-rendering-intent" title="ഇൻഡന്റ് റെൻഡർ">
+      <span class="phrase">ഇൻഡന്റ് റെൻഡർ</span>
+    </a> എന്നതിൽ കണ്ടെത്താനാകും.</p>
+                </dd>
+                <dt>
+                  <span class="term">Print simulation mode</span>
+                </dt>
+                <dd>
+                  <p>ഈ ഓപ്ഷൻ ഒരു പ്രിന്റർ പ്രൊഫൈൽ തിരഞ്ഞെടുക്കാവൂ. തിരഞ്ഞെടുത്ത വർണ്ണം പ്രൊഫൈൽ പ്രിന്റ് അനുകരണ മോഡ് ഉപയോഗിക്കുന്നു.</p>
+                </dd>
+                <dt>
+                  <span class="term">Softproof rendering intent</span>
+                </dt>
+                <dd>
+                  <p>ഈ ഓപ്ഷൻ വീണ്ടും ഇടപെടലിനായി രണ്ട് വ്യത്യസ്ത ഘടകങ്ങൾ ലഭ്യമാക്കുന്നു:</p>
+                  <div class="itemizedlist">
+                    <ul class="itemizedlist" style="list-style-type: disc; ">
+                      <li class="listitem">
+                        <p>നിങ്ങൾക്ക് മൃദുവായ തെളിവ് വേണ്ടി റെൻഡറിംഗ് ഉദ്ദേശത്തോടെ തിരഞ്ഞെടുക്കുന്നതിന് മെനു ഉപയോഗിക്കാം. അവർ ഇതിനകം ഇന്റന്റ് തർജ്ജമ ഡിസ്പ്ലേ പറഞ്ഞിരിക്കുന്ന അതേ ആകുന്നു.</p>
+                      </li>
+                      <li class="listitem">
+                        <p>നിങ്ങൾ <span class="guilabel">Mark out of gamut colors</span> ഓപ്ഷൻ പ്രാപ്തമാക്കുകയാണെങ്കിൽ, അച്ചടിക്കാൻ എന്ന് ഒരു നിറം ഒക്കെയും പിക്സൽ പ്രത്യേക നിറം അടയാളപ്പെടുത്തിയ. നിറം ഈ ഉപയോഗിക്കുന്നു നിങ്ങളോടും തെരഞ്ഞെടുത്തത് കഴിയും. നിങ്ങൾക്ക് ഈ ചെക്ക്ബോക്സ് പുറമെ വലതുഭാഗത്ത് നിറം ഐക്കണിൽ ക്ലിക്കുചെയ്ത് ചെയ്യാൻ കഴിയും.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </dd>
+                <dt>
+                  <span class="term">File Open behaviour</span>
+                </dt>
+                <dd>
+                  <p>നിങ്ങൾ വർക്ക്സ്പെയ്സ് രീതി പൊരുത്തപ്പെടുന്ന ഒരു എംബഡഡ് നിറം പ്രൊഫൈൽ അടങ്ങിയിരിക്കുന്ന ഒരു ഫയൽ തുറക്കുമ്പോൾ ജിമ്പ് എങ്ങനെ നിർണ്ണയിക്കാൻ ഈ മെനു ഉപയോഗിക്കുന്നു. ഇനിപ്പറയുന്ന എൻട്രികൾ നിന്നും തെരഞ്ഞെടുക്കാം:</p>
+                  <div class="itemizedlist">
+                    <ul class="itemizedlist" style="list-style-type: disc; ">
+                      <li class="listitem">
+                        <p><span class="guimenuitem">Ask what to do</span>: തിരഞ്ഞെടുത്ത എങ്കിൽ, ജിമ്പ് എന്തു ചെയ്യാൻ ഓരോ തവണ ചോദിക്കും.</p>
+                      </li>
+                      <li class="listitem">
+                        <p><span class="guimenuitem">Keep embedded profile</span>: നിങ്ങൾ ഈ തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, ജിമ്പ് ഘടിപ്പിച്ചിട്ടുള്ള പ്രൊഫൈൽ പ്രമാണിച്ചു അല്ല വർക്ക്സ്പെയ്സിലേക്ക് ചിത്രം പരിവർത്തനം ചെയ്യും. ഘടിപ്പിച്ചിട്ടുള്ള പ്രൊഫൈൽ ഡിസ്പ്ലേ വേണ്ടി പ്രയോഗിക്കും കാരണം ചിത്രം ശരിയായി ഏതുവിധേനയും പ്രദർശിപ്പിച്ചിരിക്കുന്നു.</p>
+                      </li>
+                      <li class="listitem">
+                        <p><span class="guimenuitem">Convert to RGB workspace</span>: ഈ എൻട്രി തിരഞ്ഞെടുത്തുകൊണ്ട് ജിമ്പ് സ്വയം വർക്ക്സ്പെയ്സിലേക്ക് ചിത്രം പരിവർത്തനം ഘടിപ്പിച്ചിട്ടുള്ള നിറം പ്രൊഫൈൽ ഉപയോഗിക്കും.</p>
+                      </li>
+                    </ul>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+            <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+              <table border="0" summary="Note">
+                <tr>
+                  <td rowspan="2" align="center" valign="top" width="25">
+                    <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                  </td>
+                  <th align="left">കുറിപ്പു്</th>
+                </tr>
+                <tr>
+                  <td align="left" valign="top">
+                    <p>കൂടുതൽ വിശദീകരണങ്ങൾ വേണ്ടി:</p>
+                    <div class="itemizedlist">
+                      <ul class="itemizedlist" style="list-style-type: disc; ">
+                        <li class="listitem">
+                          <p>
+            ICC Profiles are explained in Wikipedia
+            <a class="xref" href="bibliography.html#bibliography-online-wkpd-icc" title="വിക്കിപീഡിയ - ഐസിസി പ്രൊഫൈൽ">[<abbr class="abbrev">WKPD-ഐസിസി</abbr>]</a>.
+          </p>
+                        </li>
+                        <li class="listitem">
+                          <p>OpenICC പദ്ധതി (<a class="xref" href="bibliography.html#bibliography-online-openicc" title="പദ്ധതി OpenICC">[<abbr class="abbrev">OPENICC</abbr>]</a>) ജിമ്പ് മറ്റുള്ളവരും വലിയ സ്വതന്ത്ര infography പേരുകൾ സഹകരിക്കാനാകും എവിടെയാണെന്ന് കാണുക.</p>
+                        </li>
+                      </ul>
+                    </div>
+                    <p>വെബിൽ നിന്ന് ലോഡ് ചെയ്യാൻ നിരവധി പ്രൊഫൈലുകൾ:</p>
+                    <div class="itemizedlist">
+                      <ul class="itemizedlist" style="list-style-type: disc; ">
+                        <li class="listitem">
+                          <p>ഐസിസി ഒഴിവാക്കൽ പ്രവര്ത്തനസ്ഥല: <span class="productname">ICCsRGB</span> <a class="xref" href="bibliography.html#bibliography-online-iccsrgb" title="ഐസിസി ഒഴിവാക്കൽ പ്രൊഫൈലുകൾ">[<abbr class="abbrev">ICCsRGB</abbr>]</a></p>
+                        </li>
+                        <li class="listitem">
+                          <p>മൈക്രോസോഫ്റ്റ് ഒഴിവാക്കൽ പ്രവര്ത്തനസ്ഥല: <span class="productname">MsRGB</span> <a class="xref" href="bibliography.html#bibliography-online-microsoft-srgb" title="മൈക്രോസോഫ്റ്റ് sRVB പ്രവര്ത്തനസ്ഥല">[<abbr class="abbrev">MsRGB</abbr>]</a></p>
+                        </li>
+                        <li class="listitem">
+                          <p>അഡോബി RGB98 പ്രവര്ത്തനസ്ഥല: <span class="productname">Adobe RGB (1998)</span> <a class="xref" href="bibliography.html#bibliography-online-adobrgb" title="അഡോബി rgb (1998) ഐസിസി പ്രൊഫൈൽ">[<abbr class="abbrev">AdobeRGB</abbr>]</a></p>
+                        </li>
+                        <li class="listitem">
+                          <p>ECI (യൂറോപ്യൻ കളർ ഇനിഷ്യേറ്റീവ്) പ്രൊഫൈലുകൾ: <span class="productname">ECI</span> <a class="xref" href="bibliography.html#bibliography-online-eci" title="ECI (യൂറോപ്യൻ കളർ ഇനിഷ്യേറ്റീവ്) പ്രൊഫൈലുകൾ">[<abbr class="abbrev">ECI</abbr>]</a></p>
+                        </li>
+                      </ul>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-input-devices"></a>1.15. ഇൻപുട്ട് ഡിവൈസുകൾ</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511754928" class="indexterm"></a>
+          <a id="idp46925511756320" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511757248"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.17. Input devices preferences</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/input-devices.png" alt="Input devices preferences" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="variablelist">
+            <p class="title">
+              <strong>വിപുലീകരിച്ച ഇൻപുട്ട് ഡിവൈസുകൾ</strong>
+            </p>
+            <dl class="variablelist">
+              <dt>
+                <span class="term">Configure Extended Input Devices</span>
+              </dt>
+              <dd>
+                <p>ഈ വലിയ ബട്ടൺ നിങ്ങൾ കമ്പ്യൂട്ടർ ബന്ധപ്പെട്ട ഉപകരണങ്ങൾ സജ്ജമാക്കാൻ അനുവദിക്കുന്നു: ടാബ്ലെറ്റ്, മിഡി കീബോർഡ് ... നിങ്ങൾ ഒരു ടാബ്ലറ്റ് ഉണ്ടെങ്കിൽ, ഇതുപോലെ ഒരു ഡയലോഗ് കാണും:</p>
+                <div class="figure">
+                  <a id="idp46925511762640"></a>
+                  <p class="title">
+                    <strong>ചിത്രം 12.18. Preferences for a tablet</strong>
+                  </p>
+                  <div class="figure-contents">
+                    <div class="mediaobject">
+                      <img src="images/preferences/input-devices-tablet.png" alt="Preferences for a tablet" />
+                    </div>
+                  </div>
+                </div>
+                <br class="figure-break" />
+              </dd>
+              <dt>
+                <span class="term">Save input device settings on exit</span>
+              </dt>
+              <dd>
+                <p>ഈ ബോക്സ് പരിശോധിക്കുക ചെയ്യുമ്പോൾ, ജിമ്പ് നിങ്ങൾ കഴിഞ്ഞ പ്രാവശ്യം quitted ഉപയോഗിക്കുന്ന ഉപകരണം, നിറം, മാതൃക ബ്രഷ് ഓർക്കുന്നു.</p>
+              </dd>
+              <dt>
+                <span class="term">Save Input Device Settings Now</span>
+              </dt>
+              <dd>
+                <p>Self explanatory.</p>
+              </dd>
+              <dt>
+                <span class="term">
+        Reset Saved Input Device Settings to Default Values
+      </span>
+              </dt>
+              <dd>
+                <p>
+          Delete your settings and restore default settings.
+        </p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-input-controllers"></a>1.16. ഇൻപുട്ട് കണ്ട്രോളറുകള്ക്കുള്ള</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511773504" class="indexterm"></a>
+          <a id="idp46925511774944" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511775920"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.19. Input controllers preferences</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/input-controllers.png" alt="Input controllers preferences" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>
+    This dialog has two lists of additional input controllers:
+    <span class="guilabel">Available Controllers</span> on the left,
+    <span class="guilabel">Active Controllers</span> on the right.
+  </p>
+          <p>ഒരു ഇനത്തിന്റെ ഒരു ക്ലിക്കിൽ ഹൈലൈറ്റുചെയ്യാൻ ഒപ്പം നിങ്ങള് ബന്ധപ്പെട്ട ആരോ കീ ക്ലിക്കുചെയ്ത് മറ്റേ ലിസ്റ്റിൽ നിന്നും കൺട്രോളർ നീക്കാൻ കഴിയൂ. ലഭ്യമായ കണ്ട്രോളുകളിലേക്കും ലേക്ക് സജീവ കണ്ട്രോളറുകൾക്കുള്ള ലിസ്റ്റിൽ നിന്ന് ഒരു കൺട്രോളർ നീക്കാൻ ശ്രമിക്കുക, ഒരു ഡയലോഗ് അപ്പ് ചെയുകയും നിങ്ങൾ കൺട്രോളർ നീക്കം വെറും പ്രവർത്തനം തിരഞ്ഞെടുക്കാൻ കഴിയും.</p>
+          <p>നിങ്ങൾ ഒരു (സാധാരണ സജീവം) കൺട്രോളർ അല്ലെങ്കിൽ പകരമായി ഡബിൾ ക്ലിക്കിൽ ലിസ്റ്റിന്റെ ചുവടെയുള്ള എഡിറ്റ് ബട്ടൺ ക്ലിക്ക് ചെയ്യുമ്പോൾ, ഒരു ഡയലോഗ് വിൻഡോയിൽ ഈ കൺട്രോളർ ക്രമീകരിക്കാം:</p>
+          <div class="variablelist">
+            <p class="title">
+              <strong>മെയിൻ മൌസ് ചക്രം</strong>
+            </p>
+            <p>
+      </p>
+            <div class="figure">
+              <a id="idp46925511783360"></a>
+              <p class="title">
+                <strong>ചിത്രം 12.20. മെയിൻ മൌസ് ചക്രം</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/preferences/input-controllers-wheel.png" alt="മെയിൻ മൌസ് ചക്രം" />
+                </div>
+              </div>
+            </div>
+            <p><br class="figure-break" />
+    </p>
+            <dl class="variablelist">
+              <dt>
+                <span class="term">പൊതുവായ</span>
+              </dt>
+              <dd>
+                <div class="variablelist">
+                  <dl class="variablelist">
+                    <dt>
+                      <span class="term">Dump events from this controller</span>
+                    </dt>
+                    <dd>
+                      <p>നിങ്ങൾക്ക് പ്രാപ്തമായ കണ്ട്രോളുകളിലേക്കും സൃഷ്ടിച്ച ഇവന്റ് എന്ന stdout ലെ ഒരു പ്രിന്റ് വേണമെങ്കിൽ ഈ ഐച്ഛികം ചെക്ക് ചെയ്തിരിക്കണം. നിങ്ങൾ ആ ഇവന്റ് കാണാൻ ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ നിങ്ങൾ ഒരു ടെർമിനലിൽ നിന്നും <acronym class="acronym">GIMP</acronym> ആരംഭിക്കാൻ അല്ലെങ്കിൽ അത് ഷെൽ റീഡയറക്ഷൻ വഴി ഫയൽ ചെയ്യുന്നതിന് stdout അച്ചടിക്കാൻ making വേണം. ഈ ഓപ്ഷൻ പ്രധാന ഉപയോഗം ഡീബഗ് മാത്രമുള്ളതാണ്.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">Enable this controller</span>
+                    </dt>
+                    <dd>
+                      <p>മൌസ് ചക്രം ഒരു പുതിയ പ്രവർത്തനങ്ങൾ ചേർക്കാൻ ആഗ്രഹിക്കുന്നെങ്കിൽ ഈ ഓപ്ഷൻ ചെക്ക് ചെയ്തിരിക്കണം.</p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+              <dt>
+                <span class="term">മൗസ് വീൽ പരിപാടികൾ</span>
+              </dt>
+              <dd>
+                <p>സ്ക്രോൾ ബാറുകൾ ഉപയോഗിച്ച് ഈ വിൻഡോ നിങ്ങൾ ഉണ്ട്: ഇടതുവശത്ത്, മൗസ് വീൽ സംബന്ധിച്ചു സാധ്യത ഇവന്റുകൾ, കൂടുതലോ കുറവോ കണ്ട്രോൾ കീകൾ ബന്ധപ്പെട്ട; വലതുഭാഗത്ത്, പ്രവർത്തനം അതിനെ സംഭവിക്കാൻ ഇവന്റ് ഏൽപ്പിച്ചു. രണ്ട് ബട്ടണുകൾ, തിരഞ്ഞെടുത്ത ഇവന്റിന്റെ നടപടി <span class="guibutton">Cancel</span> മറ്റ്, തിരഞ്ഞെടുത്ത ഇവന്റ് <span class="guibutton">Edit</span> ലേക്ക് ഒന്നു.</p>
+                <p>ചില പ്രവർത്തനങ്ങൾ ഇതുവരെ ഇവന്റുകൾ നിയമിക്കുന്നു. അവർ ഫങ്ഷണൽ അല്ല അവർ ഉദാഹരണങ്ങൾ തോന്നുന്നില്ല.</p>
+              </dd>
+              <dt>
+                <span class="term">ഇവന്റ് നീക്കിവച്ചിരിക്കുന്ന പ്രവർത്തനം തിരഞ്ഞെടുക്കുക</span>
+              </dt>
+              <dd>
+                <p>ഒരു ഇവന്റ് തിരഞ്ഞെടുത്ത് ശേഷം, നിങ്ങൾ <span class="guibutton">Edit</span> ബട്ടൺ ക്ലിക്ക് ചെയ്താൽ, ഇനിപ്പറയുന്ന ഡയലോഗ് തുറക്കും:</p>
+                <div class="figure">
+                  <a id="idp46925511799616"></a>
+                  <p class="title">
+                    <strong>ചിത്രം 12.21. കൺട്രോളർ ഇവന്റ് ആക്ഷൻ തിരഞ്ഞെടുക്കുക</strong>
+                  </p>
+                  <div class="figure-contents">
+                    <div class="mediaobject">
+                      <img src="images/preferences/input-controllers-action.png" alt="കൺട്രോളർ ഇവന്റ് ആക്ഷൻ തിരഞ്ഞെടുക്കുക" />
+                    </div>
+                  </div>
+                </div>
+                <br class="figure-break" />
+                <p>ഒരു പ്രവർത്തനം ഈ ഇവന്റ് ഇതുവരെ നിലവിലുണ്ട്, ജാലകം ഈ പ്രവർത്തനം ന് തുറക്കും. അല്ലെങ്കിലോ, വിൻഡോ പ്രവർത്തനങ്ങൾ കൽപിക്കുന്നത് വിഭാഗങ്ങൾ പ്രദർശിപ്പിക്കും. അത് തിരഞ്ഞെടുക്കുന്നതിന് ഒരു പ്രവർത്തനം ക്ലിക്കുചെയ്യുക.</p>
+              </dd>
+            </dl>
+          </div>
+          <div class="variablelist">
+            <p class="title">
+              <strong>പ്രധാന കീബോർഡിലെ</strong>
+            </p>
+            <dl class="variablelist">
+              <dt>
+                <span class="term"></span>
+              </dt>
+              <dd>
+                <p>മൌസ് ചക്രം അതേ വിധത്തിൽ ഈ ഡയലോഗ് ഉപയോഗിക്കാൻ കഴിയും. ഇവന്റുകൾ, കീബോർഡിന്റെ ആരോ കീകൾ ബന്ധപ്പെട്ട കണ്ട്രോൾ കീകൾ കൂടിച്ചേർന്ന് അല്ലെങ്കിൽ.</p>
+                <div class="figure">
+                  <a id="idp46925511806304"></a>
+                  <p class="title">
+                    <strong>ചിത്രം 12.22. പ്രധാന കീബോർഡിലെ</strong>
+                  </p>
+                  <div class="figure-contents">
+                    <div class="mediaobject">
+                      <img src="images/preferences/input-controllers-keyboard.png" alt="പ്രധാന കീബോർഡിലെ" />
+                    </div>
+                  </div>
+                </div>
+                <br class="figure-break" />
+              </dd>
+            </dl>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                </td>
+                <th align="left">കുറിപ്പു്</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>നിങ്ങൾ <a class="link" href=""> Creating a variable size brush </a> ഈ സങ്കൽപങ്ങളിൽ ഒരു ഉദാഹരണം കണ്ടെത്തും.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-window-management"></a>1.17. വിൻഡോ മാനേജ്മെന്റ്</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511813088" class="indexterm"></a>
+          <a id="idp46925511814912" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511816288"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.23. Window Management Preferences</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-window-management.png" alt="Window Management Preferences" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഈ താളിൽ ജാലകങ്ങൾ ജിമില കൈകാര്യം ഇച്ഛാനുസൃതമാക്കാൻ അനുവദിക്കുന്നു. (.. നിങ്ങൾ ലിനക്സ് ഒരു സാധാരണ ഗ്നോം സെറ്റപ്പ് ഓടുന്നുണ്ട് എങ്കിൽ മെറ്റാസിറ്റിയുടെ ലേക്ക്; തുടങ്ങിയവ ഞാൻ വിൻഡോസ് നിങ്ങളെ വിൻഡോസ് പ്രവർത്തിക്കുകയാണെങ്കിൽ ഇ,) നിങ്ങൾ ജിമ്പ് നേരിട്ട് വിൻഡോസ് കൗശലപൂർവം അല്ലെന്നു പകരം അഭ്യർത്ഥനകൾ വിൻഡോ മാനേജർ അയയ്ക്കുന്ന ശ്രദ്ധിക്കേണ്ടതാണ്. പല വിൻഡോ മാനേജർമാർ ഉണ്ട്, അവയെല്ലാം നന്നായി പെരുമാറി എന്നതിനാൽ അത് ഇവിടെ വിവരിച്ച ഫംഗ്ഷനുകളും യഥാർത്ഥത്തിൽ വിവരിച്ച പോലെ പ്രവർത്തിക്കും ഉറപ്പുനൽകാനാവില്ലെന്ന്. എന്നിരുന്നാലും, നിങ്ങൾ ഒരു ആധുനിക, standards- കംപ്ലൈന്റ് വിൻഡോ മാനേജർ ഉപയോഗിച്ച് ഇവർ മുറപ്രകാരം.</p>
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="idp46925511821024"></a>1.17.1. ഓപ്ഷനുകൾ</h4>
+                </div>
+              </div>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>വിൻഡോ മാനേജർ സൂചനകൾ</strong>
+              </p>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">ഉപകരണബോക്സിലേക്ക് വേണ്ടി ജാലകത്തിന്റെ തരം ആസ്വദിക്കുമെന്ന് തുറയിൽ</span>
+                </dt>
+                <dd>
+                  <p>നിങ്ങളുടെ ഇവിടത്തെ തിരഞ്ഞെടുക്കാൻ പണിസഞ്ചി, ഡയലോഗുകൾ കൈക്കൊള്ളുന്നവർ തുറയിൽ, ചികിത്സ എങ്ങനെ നിർണ്ണയിക്കാൻ. നീ അവരെ മൂന്നു സാധ്യതകളാണ് ഉണ്ട്:</p>
+                  <div class="itemizedlist">
+                    <ul class="itemizedlist" style="list-style-type: disc; ">
+                      <li class="listitem">
+                        <p>നിങ്ങൾ <span class="guilabel">Normal Window</span> തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, മറ്റേതെങ്കിലും ജാലകങ്ങൾ പോലെ പരിഗണിക്കും.</p>
+                      </li>
+                      <li class="listitem">
+                        <p>നിങ്ങൾ <span class="guilabel">Utility Window</span> തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, ടൈറ്റിൽ ബാറിൽ കുറയ്ക്കാൻ ബട്ടൺ അസാന്നിദ്ധ്യം ആണ് തുറയിൽ നിങ്ങളുടെ സ്ക്രീനിൽ ശാശ്വതമായി നിലനിൽക്കും.</p>
+                        <div class="figure">
+                          <a id="idp46925511827904"></a>
+                          <p class="title">
+                            <strong>ചിത്രം 12.24. Utility window title bar</strong>
+                          </p>
+                          <div class="figure-contents">
+                            <div class="mediaobject">
+                              <img src="images/preferences/normal-title-bar.png" alt="Utility window title bar" />
+                              <div class="caption">
+                                <p>
+                        Normal title bar
+                      </p>
+                              </div>
+                            </div>
+                            <div class="mediaobject">
+                              <img src="images/preferences/utility-title-bar.png" alt="Utility window title bar" />
+                              <div class="caption">
+                                <p>ഒരു യൂട്ടിലിറ്റി വിൻഡോയിൽ ടൈറ്റിൽ ബാർ</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <br class="figure-break" />
+                      </li>
+                      <li class="listitem">
+                        <p>നിങ്ങൾ <span class="guilabel">Keep above</span> തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, അവർ എല്ലാസമയത്തും മറ്റെല്ലാ ജാലകം മുന്നിൽ സൂക്ഷിക്കും.</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <p>നിങ്ങളുടെ ഇവിടത്തെ മാറ്റുന്ന കുറിപ്പ് നിങ്ങൾ <acronym class="acronym">GIMP</acronym> ആരംഭിക്കാൻ അടുത്ത തവണ പ്രാബല്യത്തിൽ വരില്ല.</p>
+                </dd>
+              </dl>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>ഫോക്കസ്</strong>
+              </p>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Activate the focused image</span>
+                </dt>
+                <dd>
+                  <p>സാധാരണ, ഒരു ഇമേജ് വിൻഡോ (ഫ്രെയിം നിറം ഒരു മാറ്റം മൂലം സാധാരണയായി സൂചിപ്പിച്ചു) ഫോക്കസ്, അത് ജിമ്പ് വേണ്ടി <span class="quote">“<span class="quote">active image</span>”</span>, നിങ്ങൾ അവതരിപ്പിക്കാനും ഏതെങ്കിലും ചിത്ര അനുബന്ധ പ്രവർത്തനങ്ങൾ അതിനാൽ ടാർഗറ്റ് മാറുന്നു. ചിലർ എങ്കിലും, മിനാരങ്ങൾ നൽകിയ ഏതെങ്കിലും ജാലകം സ്വയം ഫോക്കസുചെയ്യും അത്തരം അവരുടെ വിൻഡോ മാനേജർമാരെ സജ്ജമാക്കാൻ ഇഷ്ടപ്പെടുന്നത്. നിങ്ങൾ ഈ ചെയ്യുകയാണെങ്കിൽ, കേന്ദ്രീകൃതമായ ചിത്രങ്ങൾ യാന്ത്രികമായി സജീവമെന്ന് ആവാൻ, നിങ്ങൾ ഈ ഓപ്ഷൻ അൺചെക്കുചെയ്യുകയാണെങ്കിൽ അംഗീകരിക്കാൻ തക്കവണ്ണം അൻസാരിയുടെ ആണ് കണ്ടെത്തിയേക്കാം.</p>
+                </dd>
+              </dl>
+            </div>
+            <div class="variablelist">
+              <p class="title">
+                <strong>വിൻഡോ നിലപാടുകൾ</strong>
+              </p>
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">Save window positions on exit</span>
+                </dt>
+                <dd>
+                  <p>ഈ ഐച്ഛികം, നിങ്ങൾക്ക് ജിമ്പ് ആരംഭിക്കാൻ അടുത്തതവണ, ഡയലോഗ് വിൻഡോകൾ ഒരേ, ഒരേ സ്ഥാനങ്ങൾ നിങ്ങൾ അവസാനം പുറത്തുകടന്നു വരുമ്പോൾ അവർ അധിനിവേശം കാണും.</p>
+                </dd>
+                <dt>
+                  <span class="term">Save Window Positions Now</span>
+                </dt>
+                <dd>
+                  <p>എങ്കിൽ "പുറത്തുകടക്കുമ്പോൾ വിൻഡോ സ്ഥാനങ്ങൾ സംരക്ഷിക്കുക" പരിശോധിക്കാതെ ആണ് മാത്രമേ ഈ ബട്ടൺ ഉപയോഗപ്പെടുന്നു. അതു നിങ്ങൾ അവർ വഴിയിൽ നിങ്ങൾ ഇഷ്ടപ്പെടുന്ന നിങ്ങളുടെ Windows സജ്ജമാക്കാൻ അപ്പ് ബട്ടൺ ക്ലിക്കുചെയ്യുക, തുടർന്ന് അവരെ നിങ്ങൾ ജിമ്പ് ആരംഭിക്കാൻ ഓരോ തവണയും ആ ക്രമീകരണമായ എത്തിയിരിക്കുന്നു അനുവദിക്കുന്നു.</p>
+                </dd>
+                <dt>
+                  <span class="term">Reset Saved Window Positions to Default Values</span>
+                </dt>
+                <dd>
+                  <p>നിങ്ങൾ നിങ്ങൾ സംരക്ഷിച്ച ജാലകങ്ങൾ വയ്ക്കുന്ന കൂടെ തൃപ്തിയില്ലെങ്കിൽ എന്നു തീരുമാനിക്കുക, പകരം അവരെ ചുറ്റും ചലിക്കുന്ന ചെലവഴിക്കാൻ സമയം സ്ഥിര ഇടപാടുകളിലൂടെ അടുക്കൽ ഒന്നു, ഈ ബട്ടൺ അമർത്തി അങ്ങനെ ചെയ്യാൻ കഴിയും.</p>
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-folders"></a>1.18. ഫോൾഡറുകൾ</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511852352" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511854192"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.25. Basic Folder Preferences</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-folders.png" alt="Basic Folder Preferences" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഈ താളിൽ താത്കാലിക ഫയലുകൾ വേണ്ടി ജിമ്പ് ഉപയോഗിക്കുന്ന രണ്ട് പ്രധാന ഫോൾഡറുകൾ ലൊക്കേഷനുകൾ സജ്ജീകരിക്കാൻ അനുവദിക്കുന്നു. താഴെയുള്ള പേജുകൾ പോലുള്ള നയപ്രഖ്യാപന തുടങ്ങിയവ വിഭവങ്ങൾ തിരഞ്ഞു ലൊക്കേഷനുകൾ യഥേഷ്ടം അനുവദിക്കുക .; അവരെ ബാധകമായ ഒരു വിവരണം വേണ്ടി <a class="link" href="gimp-pimping.html#gimp-prefs-folders-data" title="1.19. Data Folders">Data Folders</a> കാണും. നിങ്ങൾ എൻട്രികൾ വഴി അല്ലെങ്കിൽ ഒരു ഫയൽ തിരഞ്ഞെടുക്കൽ ജാലകം കൊണ്ടുവരുവാൻ വലതുഭാഗത്ത് ബട്ടണുകൾ അമർത്തി ഇവിടെ ഫോൾഡറുകൾ മാറ്റാവുന്നതാണ്.</p>
+          <div class="variablelist">
+            <p class="title">
+              <strong>ഫോൾഡറുകൾ</strong>
+            </p>
+            <a id="idp46925511859808" class="indexterm"></a>
+            <a id="idp46925511860704" class="indexterm"></a>
+            <dl class="variablelist">
+              <dt>
+                <span class="term">Temp folder</span>
+              </dt>
+              <dd>
+                <p>വർക്കിംഗ് ഡാറ്റ താൽക്കാലിക സംഭരണത്തിനായി സൃഷ്ടിച്ച ഫയലുകൾ, തുടർന്ന് ഇതേ ജിമ്പ് സെഷനിൽ ഇല്ലാതാക്കി: ഈ ഫോൾഡറിൽ താത്കാലിക ഫയലുകൾ ഉപയോഗിക്കുന്നു. ഇത് സ്പെയ്സ് അല്ലെങ്കിൽ ഉയർന്ന പ്രകടനം ധാരാളം ആവശ്യമില്ല. സ്ഥിരമായി, നിങ്ങളുടെ സ്വകാര്യ ജിമ്പ് ഡയറക്ടറിയിൽ <code class="filename">tmp</code> വിളിച്ചു ഉപഡയറക്ടറിയിൽ ഉപയോഗിക്കുന്നു, എന്നാൽ ഡിസ്ക് സ്പേസ് വളരെ ഇടുങ്ങിയ, അല്ലെങ്കിൽ ഗുരുതരമായ പ്രകടനം പ്രശ്നങ്ങൾ ഉണ്ട് എങ്കിൽ, ഏതെങ്കിലും ഡയറക്ടറി അത് മാറ്റാൻ കഴിയും. ഡയറക്ടറി നിങ്ങൾ നിലവിലില്ല വേണം എഴുതുവാൻ, അല്ലെങ്കിൽ മോശം കാര്യങ്ങൾ ചെയ്യും.</p>
+              </dd>
+              <dt>
+                <span class="term">Swap folder</span>
+              </dt>
+              <dd>
+                <p>ഈ ജിമ് ഇമേജുകളും ഡാറ്റയും തുറന്ന മൊത്തം വ്യാപ്തി ലഭ്യമായ റാം കവിയുമ്പോൾ ഒരു <span class="quote">“<span class="quote">memory bank</span>”</span> ഉപയോഗിക്കുന്നു ഫോൾഡറാണ്. നിങ്ങൾ വളരെ വലിയ ഇമേജുകൾ, അല്ലെങ്കിൽ പല പാളികൾ ചിത്രങ്ങളുള്ള പ്രവർത്തിക്കുന്നതിനോ നിരവധി ചിത്രങ്ങൾ ഒരേസമയം തുറന്ന് അനുസരിച്ചാണ് ജിമ്പ് സാധ്യതയുള്ള സ്വാപ്പ് സ്ഥലം മെഗാബൈറ്റ് നൂറുകണക്കിന്, അങ്ങനെ ലഭ്യമായ ഡിസ്ക് സ്ഥലവും പ്രകടനം ആവശ്യമായ കഴിയുമെങ്കിൽ തീർച്ചയായും ഈ ഫോൾഡറിനായി ചിന്തിക്കാൻ കാര്യങ്ങൾ. സ്വതവേ, നിങ്ങളുടെ സ്വകാര്യ ജിമ്പ് ഡയറക്ടറി സജ്ജമാക്കുമ്പോൾ, പക്ഷേ കൂടുതൽ സ്വതന്ത്ര സ്ഥലമോ അല്ലെങ്കില് ഗണ്യമായി മികച്ച പ്രകടനം മറ്റൊരു ഡിസ്ക് ഉണ്ടെങ്കിൽ, അവിടെ നിങ്ങളുടെ സ്വാപ്പ് ഫോൾഡർ നീക്കുന്നത് നിന്നും കാര്യമായ ആനുകൂല്യം കണ്ടേക്കാം. ഡയറക്ടറി നിലവിലില്ല നിങ്ങൾ എഴുതുവാൻ ഉണ്ടായിരിക്കണം.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-prefs-folders-data"></a>1.19. Data Folders</h3>
+              </div>
+            </div>
+          </div>
+          <a id="gimp-prefs-folders-brushes"></a>
+          <a id="gimp-prefs-folders-patterns"></a>
+          <a id="gimp-prefs-folders-palettes"></a>
+          <a id="gimp-prefs-folders-gradients"></a>
+          <a id="gimp-prefs-folders-fonts"></a>
+          <a id="gimp-prefs-folders-plug-ins"></a>
+          <a id="gimp-prefs-folders-scripts"></a>
+          <a id="gimp-prefs-folders-modules"></a>
+          <a id="gimp-prefs-folders-environment"></a>
+          <a id="gimp-prefs-folders-themes"></a>
+          <a id="idp46925511876896" class="indexterm"></a>
+          <a id="idp46925511878720" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925511880080"></a>
+            <p class="title">
+              <strong>ചിത്രം 12.26. Preferences: Brush Folders</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/preferences/prefs-folders-brush.png" alt="Preferences: Brush Folders" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>പോലുള്ള നയപ്രഖ്യാപന, പാറ്റേണുകൾ, ഘനമായ മുതലായവ - - ജിമ്പ് പല വിഭവങ്ങളുടെ തരം ഉപയോഗങ്ങൾ ഇൻസ്റ്റാൾ ചെയ്ത ഒരു അടിസ്ഥാന സെറ്റ് ജിമ് വിതരണം, മറ്റുള്ളവരെ ഉപയോക്താവ് സൃഷ്ടിച്ച അല്ലെങ്കിൽ ഡൗൺലോഡ് ചെയ്യാം. ജിമ്പ് ആരംഭിക്കുമ്പോൾ ഏത് നിന്നുള്ള സംശയാസ്പദമായ തരം ഇനങ്ങൾ സ്വയം ലഭ്യമാകുന്നില്ല ഡയറക്ടറികൾ ഗണം: ഓരോ അത്തരം റിസോഴ്സ് തരം, നിങ്ങൾ <span class="emphasis"><em>search path</em></span> വ്യക്തമാക്കാൻ അനുവദിക്കുന്ന ഒരു മുൻഗണന പേജ് ഇല്ല. ഈ താളുകൾ എല്ലാ വളരെ വളരെ ഒരേ നോക്കുന്നു: നയപ്രഖ്യാപന പേജ് ഒരു ഉദാഹരണമായി വലതുവശത്ത് കൊടുത്തിരിക്കുന്നു.</p>
+          <p>സ്വതവേ, തിരയൽ പാത്ത് രണ്ട് ഫോൾഡറുകൾ ഉൾപ്പെടുന്നു: എവിടെ ജിമ്പ് സഹിതം ഇൻസ്റ്റോൾ ഇനങ്ങൾ വയ്ക്കുന്നു ഒരു <span class="emphasis"><em>personal</em></span> ഫോൾഡർ, നിങ്ങൾ ചേർത്തത് ഇനങ്ങൾ കാണിയ്ക്കണമോ എവിടെ നിങ്ങളുടെ സ്വകാര്യ ജിമ് ഡയറക്ടറി, അകത്ത് ഒരു <span class="emphasis"><em>system</em></span> ഫോൾഡർ. സിസ്റ്റം ഫോൾഡർ അടയാളപ്പെടുത്തി പാടില്ല പോലെ റൈറ്റബിൾ, അതിന്റെ ഉള്ളടക്കങ്ങൾ തുനിയുന്ന ശ്രമിക്കരുത്. സ്വകാര്യ ഫോൾഡർ അടയാളപ്പെടുത്തിയിരിക്കണം പോലെ റൈറ്റബിൾ അല്ലെങ്കിൽ നിങ്ങൾ അവിടെ വെച്ചു ഒഴികെ അതിനുള്ളിൽ ഒന്നും ഇല്ല അതു കൂറ്റനാട്.</p>
+          <p>ഡയലോഗ് മുകളിലുള്ള ബട്ടണുകൾ ഉപയോഗിച്ച് പാത്ത് ഇഷ്ടാനുസൃതമാക്കാം.</p>
+          <div class="variablelist">
+            <p class="title">
+              <strong>ഓപ്ഷനുകൾ</strong>
+            </p>
+            <dl class="variablelist">
+              <dt>
+                <span class="term">Select a Folder</span>
+              </dt>
+              <dd>
+                <p>പട്ടികയിൽ ഫോൾഡറുകളിലൊന്നിൽ ക്ലിക്ക്, അത് ഏതൊരു നടപടി അടുത്ത വരുന്നു തിരഞ്ഞെടുത്തിരിക്കുന്നു.</p>
+              </dd>
+              <dt>
+                <span class="term">Add/Replace Folder</span>
+              </dt>
+              <dd>
+                <p>നിങ്ങൾ എൻട്രി ബഹിരാകാശത്ത് ഒരു ഫോൾഡർ പേര് ടൈപ്പ് ചെയ്താൽ, അല്ലെങ്കിൽ വലതുഭാഗത്ത് ഫയൽ തിരഞ്ഞെടുക്കൽ ബട്ടൺ <span class="guiicon"><img src="images/dialogs/ stock-fileopen-16.png" /></span> ഉപയോഗിച്ച് ഇത് നാവിഗേറ്റ്, തുടർന്ന് ഇടത് ബട്ടൺ അമർത്തി ഈ നിങ്ങൾ വ്യക്തമാക്കിയ ഒറ്റ തിരഞ്ഞെടുത്ത ഫോൾഡറിൽ മാറ്റിസ്ഥാപിക്കും. പട്ടികയിൽ ഒന്നും തിരഞ്ഞെടുത്താൽ, നിങ്ങൾ വ്യക്തമാക്കുന്ന ഫോൾഡർ ലിസ്റ്റ് ചേർക്കും. ടെക്സ്റ്റ് എൻട്രി പ്രദേശം ഇടതു വെളിച്ചം-ചിഹ്നം ചുവപ്പ് പകരം പച്ച ആണെങ്കിൽ, അത് നിങ്ങൾ വ്യക്തമാക്കിയ ഫോൾഡർ നിലവിലില്ല എന്നാണ്. ജിമ്പ് അതിനാൽ നിങ്ങൾ ഉടനടി തന്നെ ഈ ചെയ്യണം, നിങ്ങൾക്കു അതു സൃഷ്ടിക്കാൻ ചെയ്യും.</p>
+              </dd>
+              <dt>
+                <span class="term">Move Up/Down</span>
+              </dt>
+              <dd>
+                <p>നിങ്ങൾ മുകളിലേക്കുള്ള അമ്പടയാളം താഴേക്കോ-ആരോ ബട്ടണുകൾ ക്ലിക്ക് ചെയ്താൽ, തിരഞ്ഞെടുത്ത ഫോൾഡറിൽ ലിസ്റ്റിൽ താഴെ അല്ലെങ്കിൽ മുൻ ഒറ്റ മാറ്റും. ഫോൾഡറുകൾ ക്രമത്തിൽ വായിച്ചു, ആ ബട്ടണുകൾ ഉപയോഗിച്ച് ആ ഫോൾഡറുകളിൽ ഇനങ്ങൾ ലോഡ് മുൻഗണന മാറ്റുക.</p>
+              </dd>
+              <dt>
+                <span class="term">Delete Folder</span>
+              </dt>
+              <dd>
+                <p>നിങ്ങൾ ട്രാഷ്-ബട്ടണില് ക്ലിക്ക് ചെയ്താൽ, തിരഞ്ഞെടുത്ത ഫോൾഡറിൽ പട്ടികയിൽ നിന്നും ഇല്ലാതാക്കും. (ഫോൾഡർ സ്വയം ബാധിക്കില്ല. വെറുതെ പാത്ത് നിന്നും നീക്കി) സിസ്റ്റം ഫോൾഡർ ഇല്ലാതാക്കുന്നു ഒരുപക്ഷേ ഒരു മോശം ശീലമാണ് ഒന്നും അതു ചെയ്യുന്നത് നിന്നും നിങ്ങളെ തടയുന്നു.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-imaging-color-management.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="become-a-gimp-wizard.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-concepts-image-grid-and-guides.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-imaging-color-management.html">പാഠം 11. ജിമ്പ് നിറം മാനേജ്മെന്റ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-concepts-image-grid-and-guides.html">2. ഗ്രിഡുകളുടെ ഗൈഡുകൾ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

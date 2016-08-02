@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>13.5. സോളിഡ് നോയ്സ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-render.html" title="13. റെൻഡർ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-plasma.html" title="13.4. പ്ലാസ്മ" />
+    <link rel="next" href="plug-in-flame.html" title="13.6. തീനാളം" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">13.5. സോളിഡ് നോയ്സ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-plasma.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">13. റെൻഡർ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-flame.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-solid-noise"></a>13.5. സോളിഡ് നോയ്സ്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925528509248" class="indexterm"></a>
+      <a id="idp46925528511088" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528512016"></a>13.5.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925528512784"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.285. പ്രക്ഷുബ്ധമായ ഖര ഒച്ചപ്പാടു ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/render-taj-solidnoise.jpg" alt="പ്രക്ഷുബ്ധമായ ഖര ഒച്ചപ്പാടു ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Solid noise</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>സോളിഡ് noise ഒരു വലിയ ടെക്സ്ചർ മേക്കർ ആണ്. (- ഈ ഫിൽട്ടർ പൂർണമായി പ്രയോഗിക്കും പാളിയായി ഏതെങ്കിലും നിലവിലുള്ള പശ്ചാത്തലം ഓവർറൈറ്റ് ഇത് യഥാർത്ഥ ചിത്രം എങ്ങനെയിരിക്കുന്നെന്ന് പ്രശ്നം ഇല്ല) നിങ്ങൾ വളരെ വർണ്ണാഭമായ ചിത്രം അതു പ്രയോഗിച്ചു പോലും, ഈ ആരവം എപ്പോഴും ചാര ശ്രദ്ധിക്കുക. ഇത് "തരംഗ" സജീവ ക്രമീകരണം ഉപയോഗിച്ച്, ഫലങ്ങള് യഥാർത്ഥ മേഘങ്ങളെ പോലെ അൽപ്പം നോക്കൂ <a class="link" href="plug-in-warp.html" title="12.11. റാപ്പ്">Warp</a> പ്ലഗ്-ഇൻ അല്ലെങ്കിൽ <a class="link" href="plug-in-bump-map.html" title="12.2. ബംമ്പ് മാപ്പ്">Bump Map</a> വേണ്ടി plug- ൽ കുടിയൊഴിപ്പിക്കലിന് മാപ്പുകളുണ്ടാക്കാൻ നല്ല ഉപകരണമാണ്..</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528519936"></a>13.5.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Render</span> → <span class="guisubmenu">Clouds</span> → <span class="guimenuitem">Solid noise</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528522896"></a>13.5.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925528523648"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.286. <span class="quote">“<span class="quote">Solid Noise</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/render/solid-noise.png" alt="“Solid Noise” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p>പരിശോധിച്ചാൽ, പരാമീറ്റർ ക്രമീകരണം ഫലങ്ങളിൽ ഇന്ററാക്ടീവ് പ്രിവ്യൂ പ്രദർശിപ്പിക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">ക്രമരഹിത സന്തതി</span>
+            </dt>
+            <dd>
+              <p>ഈ ഓപ്ഷൻ ഫിൽട്ടറിന്റെ ക്രമരഹിതമായ രീതി നിയന്ത്രിക്കുന്നു. ഒരേ സാഹചര്യത്തിൽ ഒരേ റാൻഡം സന്തതി ഉപയോഗിക്കുന്നു എങ്കിൽ, അരിപ്പ കൃത്യമായി ഒരേ ഫലങ്ങള് ഉത്പാദിപ്പിക്കുന്നത്. ഒരു വ്യത്യസ്ത റാൻഡം സന്തതി വ്യത്യസ്ത ഫലങ്ങൾ ഉത്പാദിപ്പിക്കുന്നത്. ക്രമരഹിത സന്തതി മാനുവലായി അല്ലെങ്കിൽ <span class="guibutton">New Seed</span> ബട്ടൺ അമർത്തി ക്രമരഹിതമായി സൃഷ്ടിക്കാൻ കഴിയും.</p>
+              <p><span class="guilabel">Randomize</span> ഓപ്ഷൻ ശരിയടയാളമിട്ടാൽ റാൻഡം സന്തതി മാനുവലായി കഴിയില്ല, എന്നാൽ ക്രമരഹിതമായി ഓരോ തവണയും അരിപ്പ പ്രവർത്തിപ്പിക്കാൻ ജനറേറ്റ്. അതു ചെക്കുചെയ്തിട്ടില്ലെങ്കിൽ, അരിപ്പ അവസാനമായി ഉപയോഗിച്ച റാൻഡം വിത്തു ഓർക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">പക്ഷുബ്ധമായ</span>
+            </dt>
+            <dd>
+              <p>ഈ ചെക്ക്, നിങ്ങൾക്ക് വളരെ രസകരമായ ഇഫക്റ്റുകൾ, പലപ്പോഴും വെള്ളം, അല്ലെങ്കിൽ പുക മേഘങ്ങൾ, അല്ലെങ്കിൽ ജീവനുള്ള കോശം, അല്ലെങ്കിൽ ഒരു Rorschach കറയും വളരെ എണ്ണ പോലെ കാണപ്പെടുന്ന എന്തെങ്കിലും ലഭിക്കും.</p>
+            </dd>
+            <dt>
+              <span class="term">വിശദാംശം</span>
+            </dt>
+            <dd>
+              <p>ഈ മുഴക്കം ടെക്സ്ചർ വിശദമായി തുക നിയന്ത്രിക്കുന്നു. ഹയർ മൂല്യങ്ങൾ വിശദമായി ഉയർന്ന തലത്തിലുള്ള നൽകുകയും, മുഴക്കം ഹാർഡ് മടിക്കേണ്ടതില്ല തിങ്ങുന്ന, സ്പ്രേ അല്ലെങ്കിൽ ചെറിയ കണങ്ങളുടെ ഉണ്ടാക്കി തോന്നുന്നു. ഒരു കുറഞ്ഞ മൂല്യം കൂടുതൽ മൃദുവും മേഘാവൃതമായ ചെയ്യുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">Tileable</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ Tileable പരിശോധിക്കുകയാണെങ്കിൽ, നിങ്ങൾക്ക് ടൈലുകൾ ഉപയോഗിക്കാവുന്നതാണ് ഒരു മുഴക്കം ലഭിക്കും. ഉദാഹരണത്തിന്, ഒരു HTML പേജിൽ ഒരു പശ്ചാത്തലമായി അത് ഉപയോഗിക്കാൻ കഴിയും, ടൈൽ അരികുകളും പരിധികളില്ലാതെ ചേരും.</p>
+            </dd>
+            <dt>
+              <span class="term">എക്സ് വലുപ്പം, </span>
+              <span class="term">വൈ വലുപ്പം</span>
+            </dt>
+            <dd>
+              <p>ഈ എക്സ് ലെ ആരവം രൂപങ്ങൾ (തിരശ്ചീന), Y (ലംബം) ദിശകൾ (പരിധി 0.1 16.0 വരെ) വലിപ്പവും അനുപാതത്തിൽ നിയന്ത്രിക്കാൻ.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-plasma.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-render.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-flame.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-plasma.html">13.4. പ്ലാസ്മ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-flame.html">13.6. തീനാളം</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>8.34. ആൽഫയിലേക്ക് വർണ്ണം</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-colors-menu.html" title="8. “Colors” മെനു" />
+    <link rel="prev" href="plug-in-colorify.html" title="8.33. Colourify" />
+    <link rel="next" href="plug-in-filter-pack.html" title="8.35. Filter Pack" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">8.34. ആൽഫയിലേക്ക് വർണ്ണം</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-colorify.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">8. <span class="quote">“<span class="quote">Colors</span>”</span> മെനു</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-filter-pack.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-colortoalpha"></a>8.34. ആൽഫയിലേക്ക് വർണ്ണം</h3>
+          </div>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523376160"></a>8.34.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925523376928"></a>
+          <p class="title">
+            <strong>ചിത്രം 16.187. Example for <span class="quote">“<span class="quote">Color to Alpha</span>”</span></strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Example for “Color to Alpha”" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/color-taj-colortoalpha.jpg" alt="Example for “Color to Alpha”" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Color to Alpha</span>”</span> നീല ഭാഗങ്ങൾ ന് പ്രയോഗിച്ചു</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ആൽഫാ കമാൻഡ് നിറം ഒരു തിരഞ്ഞെടുത്ത ലഭിച്ചുവോ എന്ന് സജീവ പാളി സുതാര്യ എല്ലാ പിക്സലുകൾ ചെയ്യുന്നു. ആൽഫാ ചാനൽ സൃഷ്ടിക്കപ്പെട്ടാൽ. ഇത് ദുർബലമായ ആൽഫ വിവരങ്ങൾ ഉപയോഗിച്ച് ദുർബലമായ നിറം വിവരങ്ങൾ പകരം ഒരു ഭാഗികമായും ബുദ്ധിയുള്ള പതിവ് ഉപയോഗിച്ച് ആന്റി-അലിയാസിങ് വിവരങ്ങൾ പരിപാലിക്കും ശ്രമിക്കും. ഈ രീതിയിൽ, തിരഞ്ഞെടുത്ത നിറം ഒരു ഘടകത്തെ അടങ്ങിയിരിക്കുന്ന പ്രദേശങ്ങൾ അവരുടെ ചുറ്റുമുള്ള പിക്സൽ ഒരു സവാളും ഭാവം തെളിയിക്കും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523385488"></a>8.34.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      This filter is found in the image window menu under
+      <span class="guimenu">Colors</span> → <span class="guimenuitem">Color to Alpha</span>.
+    </p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523388224"></a>8.34.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925523388976"></a>
+          <p class="title">
+            <strong>ചിത്രം 16.188. <span class="quote">“<span class="quote">Color to Alfa</span>”</span> കമാൻഡ് ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/colors/colortoalpha.png" alt="“Color to Alfa” കമാൻഡ് ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">വർണ്ണ</span>
+            </dt>
+            <dd>
+              <p><span class="guilabel">From</span> നിറം Swatch ക്ലിക്കുചെയ്താൽ ഒരു വർണ്ണം തിരഞ്ഞെടുക്കുക കഴിയുന്ന ഒരു കളർ നിരക്കു ഡയലോഗ് ലഭ്യമാക്കുന്നു. എങ്കിൽ ഒരു കൃത്യമായ നിറം നിരക്കു ആവശ്യമാണ്, കളർ പിക്കറിലെ തുടർന്ന് നിന്ന് വർണ്ണം Swatch നിറം പിക്കറിൽ നിന്ന് ഡ്രാഗ് തിരഞ്ഞെടുത്ത വർണ്ണ ഡ്രോപ്പ് ഉപയോഗിക്കുക. വലത് നിറം മേലെ ക്ലിക്ക് മുൻവശം അല്ലെങ്കിൽ പശ്ചാത്തല വർണങ്ങൾ, വൈറ്റ് അല്ലെങ്കിൽ ബ്ലാക്ക് തിരഞ്ഞെടുക്കുക കഴിയുന്ന ഒരു മെനു പ്രദർശിപ്പിക്കും.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-colorify.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-colors-menu.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-filter-pack.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-colorify.html">8.33. Colourify</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-filter-pack.html">8.35. Filter Pack</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

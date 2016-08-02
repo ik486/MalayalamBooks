@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>4.7. IWarp</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-distort.html" title="4. ഫിൽട്ടറുകൾ വളച്ചൊടിച്ച്" />
+    <link rel="prev" href="script-fu-erase-rows.html" title="4.6. മറ്റെല്ലാ വരി മായ്ക്കുക" />
+    <link rel="next" href="plug-in-lens-distortion.html" title="4.8. ലെൻസ് വക്രീകരിക്കൽ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">4.7. IWarp</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-erase-rows.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">4. ഫിൽട്ടറുകൾ വളച്ചൊടിച്ച്</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-lens-distortion.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-iwarp"></a>4.7. IWarp</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925524466080" class="indexterm"></a>
+      <a id="idp46925524467920" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524468816"></a>4.7.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925524469584"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.46. IWarp ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="IWarp ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/distort-taj-iwarp.jpg" alt="IWarp ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">IWarp</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ, ചിത്രത്തിന്റെ ഇന്ററാക്ടീവ് ചില ഭാഗങ്ങൾ മടക്കുകൾ അതിന്റെ ആനിമേറ്റ് ഓപ്ഷൻ നന്ദി, / യഥാർത്ഥ ചിത്രവും വിരൂപ തമ്മിലുള്ള ആനിമേഷൻ പുറത്തു മങ്ങുകയും ഒരു പുഴയാണ് ഘടകങ്ങൾ സൃഷ്ടിക്കാൻ അനുവദിക്കുകയാണെങ്കിൽ നിങ്ങൾ ഒരു വെബ് പ്ലേ ഉപയോഗിക്കാൻ കഴിയുന്ന പേജ്.</p>
+        <p>ഒരു മടക്കുകൾ തരം തിരഞ്ഞെടുക്കുക, അത് ഉപയോഗിക്കുന്ന ആദ്യ തുടർന്ന് തിരനോട്ടം ക്ലിക്ക് മൌസ് പോയിന്റർ വലിച്ചിടുക.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524478208"></a>4.7.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Distort</span> → <span class="guimenuitem">Iwarp</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524480832"></a>4.7.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ ഓപ്ഷനുകൾ അവർ രണ്ടു ടാബുകൾ വരും അങ്ങനെ കുറേ. ആദ്യത്തെ ടാബ് ജനറൽ ഓപ്ഷനുകൾ അടങ്ങിയിരിക്കുന്നു. രണ്ടാം ടാബ് ആനിമേഷൻ ഓപ്ഷനുകൾ പേരിലുണ്ട്.</p>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925524482400"></a>4.7.3.1. ക്രമീകരണങ്ങൾ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925524483152"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.47. <span class="quote">“<span class="quote">IWarp</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (ക്രമീകരണം ടാബ്)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/distort/iwarp-options-1.png" alt="“IWarp” ഫിൽട്ടർ ഓപ്ഷനുകൾ (ക്രമീകരണം ടാബ്)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ക്രമീകരണങ്ങൾ ടാബ് നിങ്ങൾക്കും പ്രവർത്തിക്കുകയാണ് പ്രിവ്യൂ ബാധിക്കും പാരാമീറ്ററുകളും സജ്ജീകരിക്കാൻ അനുവദിക്കുന്നു. അതിനാൽ, പ്രിവ്യൂ വിവിധ ഭാഗങ്ങളിൽ വ്യത്യസ്ത മടക്കുകൾ മോഡുകൾ അപേക്ഷിക്കാം.</p>
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">പ്രിവ്യൂ</span>
+              </dt>
+              <dd>
+                <p>ഇവിടെ പ്രിവ്യൂ നിങ്ങളുടെ ഔദ്യോഗിക ഇടം: നിങ്ങൾക്ക് തിരനോട്ടം ഡ്രാഗ് മൗസ് സൂചികയെ ക്ലിക്ക് ചെയ്യുക. ചിത്രം ഗണവും ഭാഗമാണ് നിങ്ങൾ തിരഞ്ഞെടുത്ത ക്രമീകരണങ്ങൾ അനുസരിച്ച് രൂപഭേദം ചെയ്യും. നിങ്ങളുടെ ജോലി സുഖ ഇല്ല എങ്കിൽ, <span class="emphasis"><em>Reset</em></span> ബട്ടൺ അമർത്തുക.</p>
+              </dd>
+              <dt>
+                <span class="term">മോഡ് മടക്കുകൾ</span>
+              </dt>
+              <dd>
+                <div class="variablelist">
+                  <dl class="variablelist">
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">നീങ്ങുക</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>നിങ്ങൾ ചിത്രത്തിന്റെ <span class="emphasis"><em>stretch</em></span> ഭാഗങ്ങൾ അനുവദിക്കുന്നു.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">നീക്കംചെയ്യുക</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>ഇത് ഭാഗികമായോ പൂർണ്ണമായോ, മൌസ് ഡ്രാഗ് എവിടെ വളച്ചൊടിക്കൽ നീക്കം. ഈ മുഴുവൻ ചിത്രം പ്രവർത്തിക്കുന്ന റീസെറ്റ് ബട്ടൺ അമർത്തിയാൽ ഒഴിവാക്കാൻ അനുവദിക്കുന്നു. ഒരു ആനിമേഷൻ ജോലിചെയ്യുമ്പോൾ ശ്രദ്ധിക്കുക: ഈ ഓപ്ഷൻ ഒരേയൊരു ഫ്രെയിം ബാധിക്കും.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">വളരുക</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>ഈ ഓപ്ഷൻ കൂർത്തതും പാറ്റേൺ വിലക്കയറ്റം.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">ചുരുങ്ങുക</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>സ്വയം വിശദീകരണ.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">ചിരിപ്പിക്കുന്നു CCW</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>ഒരു ചുഴിയിൽ എതിർഘടികാരദിശ സൃഷ്ടിക്കുക.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">ചിരിപ്പിക്കുന്നു CW</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>ഒരു ചുഴിയിൽ ഘടികാരദിശയിൽ സൃഷ്ടിക്കുക.</p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+              <dt>
+                <span class="term">ആരം മടക്കുകൾ</span>
+              </dt>
+              <dd>
+                <p>മൗസ് വഴി ചൂണ്ടിക്കാട്ടി പിക്സൽ ചുറ്റും അരിപ്പ നടപടി സർക്കിൾ, ആരം നിർവചിക്കുന്നു പിക്സൽ (5-100) ൽ.</p>
+              </dd>
+              <dt>
+                <span class="term">തുക മടക്കുകൾ</span>
+              </dt>
+              <dd>
+                <p>നിങ്ങളുടെ ഇമേജ് എങ്ങനെ ആകൃതി നിന്നു അനവധി വെച്ചു ചെയ്യും സെറ്റുകൾ (0.0-1.0).</p>
+              </dd>
+              <dt>
+                <span class="term">ബൈലീനിയര്</span>
+              </dt>
+              <dd>
+                <p>ഈ ഓപ്ഷൻ IWarp പ്രഭാവം smooths.</p>
+              </dd>
+              <dt>
+                <span class="term">അഡാപ്റ്റീവ് supersample</span>
+              </dt>
+              <dd>
+                <p>ഈ ഓപ്ഷൻ വർദ്ധിച്ചു കണക്കുകൂട്ടലിന്റെ ചെലവിൽ ഒരു നല്ല ചിത്ര റെൻഡർ.</p>
+                <div class="variablelist">
+                  <dl class="variablelist">
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">പരമാവധി ആഴം</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>ഈ മൂല്യം ഓരോ പിക്സൽ വിൽ നടത്തുന്ന പരമാവധി ഒരുപറ്റം CONCURRENT എന്ന പരിമിതപ്പെടുത്തുന്നു.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">ഉമ്മറം</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>ഒരു പിക്സൽ അടുത്ത തമ്മിലുള്ള മൂല്യം വ്യത്യാസം ഈ ഉമ്മരപ്പടി കവിയുമ്പോൾ ഒരു പുതിയ ഒരുപറ്റം ആവർത്തന പിക്സൽ ന് നടപ്പാകും.</p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925524518208"></a>4.7.3.2. അനിമേറ്റഡ്</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925524518960"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.48. <span class="quote">“<span class="quote">IWarp</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (ആനിമേഷൻ ടാബ്)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/distort/iwarp-options-2.png" alt="“IWarp” ഫിൽട്ടർ ഓപ്ഷനുകൾ (ആനിമേഷൻ ടാബ്)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഈ ടാബ് യഥാർത്ഥ ചിത്രം ഈ ചിത്രത്തിന്റെ അവസാന ശ്രമമല്ലിത് ഇടയ്ക്ക് ഇന്റർമീഡിയറ്റ് ഇമേജുകൾ സൃഷ്ടിക്കുന്നതിന് അനുവദിക്കുന്നു. ഈ ആനിമേഷൻ <a class="link" href="plug-in-animationplay.html" title="15.8. പ്ലേബാക്ക്">Playback</a> ലേക്ക് plug- സ്തോത്രം കളിക്കാൻ കഴിയും.</p>
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">ഫ്രെയിമുകൾ എണ്ണം</span>
+              </dt>
+              <dd>
+                <p>അത് നിങ്ങളുടെ ആനിമേഷൻ (2-100) ചിത്രങ്ങളുടെ നമ്പർ ഇതാ. ഈ ഫ്രെയിമുകൾ നിങ്ങളുടെ ചിത്രം അറ്റാച്ച് പാളികൾ സൂക്ഷിച്ചിരിക്കുന്നു. അതു സംരക്ഷിക്കുമ്പോൾ എക്സ്.സി.എഫ് ഫോർമാറ്റ് ഉപയോഗിക്കുക.</p>
+              </dd>
+              <dt>
+                <span class="term">റിവേഴ്സ്</span>
+              </dt>
+              <dd>
+                <p>ഈ ഓപ്ഷൻ പുറകോട്ടു്തെരയുക ആനിമേഷൻ അവതരിപ്പിക്കുന്നത്.</p>
+              </dd>
+              <dt>
+                <span class="term">പിങ് പോങ്ങ്</span>
+              </dt>
+              <dd>
+                <p>ആനിമേഷൻ ഒരു വഴിയായി അവസാനിക്കുമ്പോൾ, അതു വിമുഖരായി പോകുന്നു.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-erase-rows.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-distort.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-lens-distortion.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-erase-rows.html">4.6. മറ്റെല്ലാ വരി മായ്ക്കുക</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-lens-distortion.html">4.8. ലെൻസ് വക്രീകരിക്കൽ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

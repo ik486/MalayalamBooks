@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>2.2. Rectangle Selection</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-tools-selection.html" title="2. തിരഞ്ഞെടുക്കൽ ഉപകരണങ്ങൾ" />
+    <link rel="prev" href="gimp-tools-selection.html" title="2. തിരഞ്ഞെടുക്കൽ ഉപകരണങ്ങൾ" />
+    <link rel="next" href="gimp-tool-ellipse-select.html" title="2.3. Ellipse Selection" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">2.2. Rectangle Selection</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-tools-selection.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">2. തിരഞ്ഞെടുക്കൽ ഉപകരണങ്ങൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-tool-ellipse-select.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-tool-rect-select"></a>2.2. Rectangle Selection</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925512839280" class="indexterm"></a>
+      <a id="idp46925512840432" class="indexterm"></a>
+      <div class="figure">
+        <a id="idp46925512841584"></a>
+        <p class="title">
+          <strong>ചിത്രം 14.10. Rectangle Select icon in the Toolbox</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/toolbox/toolbox-rectsel.png" alt="Rectangle Select icon in the Toolbox" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>ചതുരം തിരഞ്ഞെടുക്കൽ പ്രയോഗം സജീവ പാളി ദീർഘചതുരാകൃതിയിൽ പ്രദേശങ്ങളും തിരഞ്ഞെടുക്കുക രൂപകല്പന അതു നിരക്കു പ്രയോഗങ്ങളുടെ ഏറ്റവും അടിസ്ഥാന ആണ്, പക്ഷേ വളരെ സാധാരണയായി ഉപയോഗിക്കുന്ന. തിരഞ്ഞെടുക്കലുകൾ വിവരങ്ങൾക്ക് അവർ എങ്ങനെ ജിമ് <a class="link" href="gimp-painting.html#gimp-concepts-selection" title="1. തിരഞ്ഞെടുക്കൽ">Selections</a> കാണാൻ ഉപയോഗിക്കുന്നു; എല്ലാ നിരക്കു ഉപകരണങ്ങൾ പൊതുവായുള്ള സവിശേഷതകൾ വിവരങ്ങൾക്ക് <a class="link" href="gimp-tools-selection.html#gimp-tool-select" title="2.1. സാധാരണ സവിശേഷതകൾ">Selection Tools</a> കാണുന്നു.</p>
+      <p>ഈ ഉപകരണം പുറമേ ഒരു ഇമേജിൽ ഒരു ദീർഘചതുരം തർജ്ജമ ഉപയോഗിക്കുന്നു. ഒരു നിറഞ്ഞു ദീർഘചതുരം റെൻഡർ ചതുരാകൃതിയിലുള്ള നിര സൃഷ്ടിക്കുക, തുടർന്ന് <a class="link" href="gimp-tool-bucket-fill.html" title="3.4. ബക്കറ്റ് നിറയാൻ">Bucket Fill tool</a> ഉപയോഗിച്ച് ഫിൽ ചെയ്യുക. ചതുരാകൃതിയിലുള്ള ഔട്ട്ലൈൻ സൃഷ്ടിക്കുന്നതിന്, ലളിതവും ഏറ്റവും ഇഷ്ടാനുസരണം സമീപനം ചതുരാകൃതിയിലുള്ള നിര സൃഷ്ടിക്കുക എന്നതാണ് പിന്നെ അത് <a class="link" href="">stroke</a>.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512849120"></a>2.2.1. Activating the tool</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can access the Selection Tool in different ways:
+    </p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+          from the image menu bar
+          <span class="guimenu">Tools</span> → <span class="guisubmenu">Selection Tools</span> → <span class="guimenuitem">Rectangle Select</span>,
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          by clicking on the tool icon
+          <span class="guiicon"><img src="images/toolbox/stock-tool-rect-select-22.png" />
+          </span>
+          in the ToolBox,
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          by using the keyboard shortcut <span class="keycap"><strong>R</strong></span>.
+        </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512856880"></a>2.2.2. Key modifiers</h4>
+            </div>
+          </div>
+        </div>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[കുറിപ്പു്]" src="images/note.png" />
+              </td>
+              <th align="left">കുറിപ്പു്</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>അതേ വഴിയിൽ ഈ എല്ലാ ഉപകരണങ്ങൾ ബാധിക്കുന്ന മോഡിഫയർ കീകൾ സഹായത്തിന് <a class="link" href="gimp-tools-selection.html#gimp-tool-select" title="2.1. സാധാരണ സവിശേഷതകൾ">Selection Tools</a> കാണുക. ഈ ഉപകരണം മാത്രമായുള്ള മാത്രം ഇഫക്റ്റുകൾ ഓപ്ഷനുകൾ വിശദമായി ഇവിടെ ചെയ്യുന്നു.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">
+          <span class="keycap"><strong>Ctrl,</strong></span>
+        </span>
+            </dt>
+            <dd>
+              <p>നിങ്ങളുടെ നിരക്കു തുടങ്ങുന്ന, പൂർത്തിയാകുമ്പോൾ വരെ ഇത് താഴേയ്ക്കാക്കുമ്പോൾ ശേഷം <span class="keycap"><strong>Ctrl</strong></span> കീ അമർത്തുന്നത് ആരംഭ പോയിന്റിൽ പകരം ഒരു കോണിൽ തിരഞ്ഞെടുത്ത ദീർഘചതുരം കേന്ദ്രത്തിൽ, ഉപയോഗിക്കാൻ കാരണമാകുന്നു. നിങ്ങൾ തിരഞ്ഞെടുപ്പ് നടത്താൻ തുടങ്ങുന്ന <span class="keycap"><strong>Ctrl</strong></span> കീ <span class="emphasis"><em>before</em></span> അമർത്തുക, ലഭിക്കുന്ന നിരക്കു നിലവിലുള്ള നിരക്കു നിന്ന് കുറയ്ക്കപ്പെടുന്ന ശ്രദ്ധിക്കുക. കഴ്സർ <span class="guiicon"><img src="images/toolbox/cursor-select-rect-minus.png" /></span> മാറുന്നു</p>
+            </dd>
+            <dt>
+              <span class="term">
+          <span class="keycap"><strong>മാറ്റം</strong></span>
+        </span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ നിരക്കു തുടങ്ങുന്ന <span class="keycap"><strong>Shift</strong></span> കീ <span class="emphasis"><em>before</em></span> അമർത്തുക, ലഭിക്കുന്ന നിരക്കു നിലവിലുള്ളതിൽ ചേർക്കും. കഴ്സർ <span class="guiicon"><img src="images/ toolbox/cursor-select-rect-plus.png" /></span> മാറുന്നു</p>
+              <p>നിങ്ങളുടെ നിരക്കു തുടങ്ങുന്ന <span class="keycap"><strong>Shift</strong></span> കീ <span class="emphasis"><em>after </em></span> അമർത്തുന്നത് <span class="guilabel">Fixed </span> ഓപ്ഷൻ ടോഗിൾചെയ്യുന്നു, പൂർത്തിയാകുമ്പോൾ വരെ ഇത് താഴേയ്ക്കാക്കുമ്പോൾ, ഇത് നിങ്ങളുടെ ആദ്യത്തെ നിരക്കു ആണെങ്കിൽ, ഒരു സ്ക്വയറിലേക്ക് നിരക്കു അതിടയാക്കും. പിന്നീട്, സ്ഥിര <span class="guilabel">Aspect Ratio </span> നിങ്ങളുടെ നിരക്കു മുൻ നിര വീക്ഷണാനുപാതത്തിൽ ബഹുമാനിക്കും.</p>
+            </dd>
+            <dt>
+              <span class="term">
+          <span class="keycap"><strong>Ctrl,</strong></span>+<span class="keycap"><strong>മാറ്റം</strong></span>
+        </span>
+            </dt>
+            <dd>
+              <p>നിങ്ങളുടെ നിരക്കു ആരംഭിച്ചതിന് ശേഷം ഇരുവരും കീകൾ അമർത്തിയാൽ ഒരു സ്ക്വയർ സെലക്ഷനും ആരംഭ പോയിന്റിൽ കേന്ദ്രമാക്കി നൽകുന്ന രണ്ടു ഇഫക്റ്റുകൾ കൂടിച്ചേർന്നുണ്ടായ. നിങ്ങളുടെ നിരക്കു ആരംഭിക്കുന്നതിന് മുമ്പ് ഈ അമർത്തുന്നത് അതിനനുസരിച്ച് നിലവിലുള്ള ഒന്ന് പോയിന്റർ മാറ്റം ആകൃതി ഫലമായുണ്ടാകുന്ന നിരക്കു വിഭജിക്കുന്ന ശ്രദ്ധിക്കുക: <span class="guiicon"><img src="images/toolbox/cursor-select-rect- intersect.png" /></span></p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="tool-rect-select-manip"></a>2.2.3. Tool manipulation</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925512878432"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.11. Example of Rectangle Selection.</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/rectangle-selection.png" alt="Example of Rectangle Selection." />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഉടൻ അത് ചിത്രത്തിന്റെ മീതെ പോലെ <span class="guiicon"><img src="images/toolbox/cross-pt.png" /></span>: ഈ ഉപകരണം തെരഞ്ഞെടുക്കുമ്പോഴും മൌസ് പോയിന്റർ ഈ പോലെ പ്രദർശിപ്പിച്ചിരിക്കുന്നു. ഒരു ഇഴച്ചിടുക ചതുരാകൃതിയിലുള്ള (ചതുര) ആകാരം നേടുകയും അനുവദിക്കുന്നു. മൗസ് ബട്ടൺ വിശ്രമിക്കുന്ന, ഒരു അതിനെക്കുറിച്ച് (<span class="quote">“<span class="quote">marching ants</span>”</span>) നിരക്കു നൽകിയിട്ടുണ്ട്. അതു ശ്രദ്ധയോടെ നിരക്കു ക്രമീകരിക്കുന്നതിന് ആവശ്യമായ അല്ല; നിങ്ങൾ പിന്നീട് എളുപ്പത്തിൽ വലുപ്പം മാറ്റാൻ കഴിയും.</p>
+        <p>പോയിന്റർ കാൻവാസിൽ മാറുമ്പോൾ, പോയിന്റർ, നിരക്കു വശങ്ങൾ മാറ്റാൻ:</p>
+        <p>- നിരക്കു മുമ്പ് പോലെ കാണപ്പെടുന്നു പുറത്ത്; ഈ ഒരു പുതിയ നിര രൂപകൽപ്പന അനുവദിക്കുന്നു എന്നാൽ ഈ മുൻ ഖണ്ഡിക വിവരിച്ച പോലെ ചേർക്കാനോ കുറയ്ക്കേണ്ട മറ്റൊരു നിരക്കു പ്രസക്തമായ കീ നടപടി കൂടിച്ചേർന്ന് പക്ഷം നിലവിലുള്ള ഒന്ന് മായ്ക്കും.</p>
+        <p>- ചതുരാകൃതിയിലുള്ള സെൻസിറ്റീവ് വ്യക്തമായി അടയാളപ്പെടുത്തിയിട്ടുള്ള പ്രദേശങ്ങൾ overflying സമയത്ത് വിവിധ ആകൃതികളിൽ നിരക്കു പെരിഫറൽ ഭാഗങ്ങൾ, മൌസ് പോയിന്റർ മാറ്റങ്ങൾ ഉള്ളിൽ. ഈ <span class="emphasis"><em>handles</em></span> നിങ്ങൾ നിരക്കു വലുപ്പം അനുവദിക്കുക. സന്ദർഭ തക്കവണ്ണം നിരക്കു കോണിലും പോയിന്റർ മാറ്റങ്ങൾ ഒരു ആകൃതിയിൽ ൽ; ഉദാഹരണത്തിന് കുറഞ്ഞ വലത് കോണിലുള്ള അതു മാറുന്നു: <span class="guiicon"><img src="images/toolbox/corner-pt.png" /></span>. അതുകൊണ്ട് ക്ലിക്കിൽ-ആൻഡ്-വലിച്ചോ ഈ മേഖലകളിലെ, നിങ്ങൾ മഹത്വപ്പെടുത്തുകയും വ്യാപ്തിയിൽ കഴിയും നിരക്കു വലുപ്പം. മീഡിയൻ നിരക്കു ഭാഗങ്ങൾ, ലാറ്ററൽ കുറഞ്ഞ അല്ലെങ്കിൽ കയറി, പോയിന്റർ സന്ദർഭ തക്കവണ്ണം ഉചിതമായ ആകൃതികളിൽ മാറുന്നു. <span class="guiicon"><img src="images/toolbox/side-pt.png" /></span>: ഉദാഹരണത്തിന്, മൌസ് പോയിന്റർ ഷേപ്പിലുള്ള വലതുവശത്തെ കഴിയുമ്പോൾ പോയിന്റർ പോലെ കാണപ്പെടുന്നു. അതിനാൽ നിങ്ങൾ ക്ലിക്ക്-പരേതരായ കഴിയും വലിയവനാക്കുവാൻ അല്ലെങ്കിൽ തിരഞ്ഞെടുത്ത അതിർത്തി നീക്കി നിരക്കു വ്യാപ്തി വലിച്ചു.</p>
+        <p>- നിരക്കു Central പ്രദേശത്തെ അകത്ത് മൌസ് പോയിന്റർ ഒബ്ജക്റ്റ് കൃത്രിമത്വം, അതായത് .: <span class="guiicon"><img src="images/toolbox/ pointer.png" /></span> സാധാരണ പോലെ കാണപ്പെടുന്നു. അതിനാൽ നിങ്ങൾ ഒരു click- ആൻഡ്-വലിച്ചു മുഴുവനും നിരക്കു നീക്കാൻ കഴിയൂ.</p>
+        <p>മാത്രമല്ല, നിങ്ങൾ <span class="guilabel">Highlight</span> ഓപ്ഷൻ തന്നിഷ്ടങ്ങൾക്കനുസരിച്ച് ഇല്ല എങ്കിൽ നിങ്ങളുടെ ജോലി ലളിതവും എന്താണ് നിരക്കു പുറത്തിറങ്ങി നിരക്കു ഉള്ളതു അധികം ഇരുട്ടിലും കാരണം ആയിരിക്കും, തുടർന്ന് നിരക്കു പ്രമുഖമാക്കിയ തോന്നുന്നു.</p>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[സൂചന]" src="images/tip.png" />
+              </td>
+              <th align="left">സൂചന</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>ബീഡി കീകൾ ഉപയോഗിക്കുക എങ്കിൽ നിരക്കു നീക്കുകയോ ഒരു പിക്സൽ പടിപടിയായി അതിന്റെ വലുപ്പം പരിഷ്കരിക്കുക കഴിയും. നിങ്ങൾ <span class="keycap"><strong>Shift</strong></span> സംയുക്തമായും ഉപയോഗിക്കുകയാണെങ്കിൽ നിങ്ങൾ ഒരു 25 പിക്സൽ പടിപടിയായി നീക്കാനാകും.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="figure">
+          <a id="idp46925512894528"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.12. Sensitive selection areas</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/select-area.png" alt="Sensitive selection areas" />
+              <div class="caption">
+                <p>നിരക്കു പ്രദേശം ബന്ധപ്പെട്ട് അവരുടെ പ്രാദേശികവത്കരണ എന്ന ചടങ്ങിൽ എല്ലാ പോയിന്ററുകളിലെപ്പോലെ പ്രദർശിപ്പിക്കുക.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>നിരക്കു സൃഷ്ടിക്കുന്നത് പരിഷ്ക്കരിക്കുന്നതും ശേഷം, ഈ മോഡില് നിന്നും പുറത്ത് (ഏതെങ്കിലും മാറ്റങ്ങൾ നടപ്പിലാക്കി) വരും. നിങ്ങൾ നിരക്കു അകത്തോ <span class="keycap"><strong>Enter</strong></span> കീ അമർത്തിയാൽ ഒറ്റ ക്ലിക്കിൽ ചെയ്യാൻ കഴിയും. അല്ലെങ്കിൽ നിങ്ങൾക്ക് വെറും ഒരു നോൺ-നിരക്കു ടൂൾ ഉപയോഗിക്കാൻ കഴിയും ഉദാഹരണത്തിന്, പൂരിപ്പിക്കുക അല്ലെങ്കിൽ നിരക്കു വരയ്ക്കാൻ.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="tool-rect-select-options"></a>2.2.4. ടൂൾ ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925512901296"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.13. Tool Options for the Rectangle Select tool</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/tool-options-rectsel.png" alt="Tool Options for the Rectangle Select tool" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>സാധാരണ, ഉപകരണം ഓപ്ഷനുകൾ ഉടൻ ഒരു ഉപകരണം സജീവമാക്കാൻ പോലെ പണിസഞ്ചി കീഴിൽ ഘടിപ്പിച്ചിട്ടുള്ള ഒരു ജാലകം പ്രദർശിപ്പിക്കും. അഥവാ അങ്ങനെയല്ലെങ്കിൽ, നിങ്ങൾ തിരഞ്ഞെടുത്ത ഉപകരണം ഓപ്ഷൻ വിൻഡോ തുറക്കുന്ന <span class="guimenu">Windows</span> → <span class="guisubmenu">Dockable Windows</span> → <span class="guimenuitem">Tool Options</span> വഴി ഇമേജ് ബാറില് നിന്നും ആക്സസ് ചെയ്യാൻ കഴിയും.</p>
+        <div class="variablelist">
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                </td>
+                <th align="left">കുറിപ്പു്</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>ഈ എല്ലാ ഉപകരണങ്ങൾ സാധാരണമാണ് ഉപാധികൾക്ക് സഹായത്തിന് <a class="link" href="gimp-tools-selection.html#gimp-tool-select" title="2.1. സാധാരണ സവിശേഷതകൾ">Selection Tools</a> കാണുക. ഈ ഉപകരണം മാത്രമായുള്ള ഓപ്ഷനുകൾ മാത്രം ഇവിടെ വിശദീകരിച്ചു ചെയ്യുന്നു.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <dl class="variablelist">
+            <dt>
+              <span class="term">മോഡ്; ആന്റിഎലിയാസിംഗ്; തൂവല് അറ്റങ്ങൾ</span>
+            </dt>
+            <dd>
+              <p>Common select options.</p>
+            </dd>
+            <dt>
+              <span class="term">വൃത്തത്തിലുള്ള കോണിലും</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ ഈ ഐച്ഛികം ചെക്ക് ചെയ്താല് ഒരു സ്ലൈഡർ ലഭ്യമാകുന്നു. നിങ്ങൾ നിരക്കു മൂലകൾ റൗണ്ട് ഉപയോഗിച്ച ആരം ക്രമീകരിക്കാൻ ഇത് ഉപയോഗിക്കാം.</p>
+            </dd>
+            <dt>
+              <span class="term">കേന്ദ്രത്തിൽ നിന്ന് വിപുലീകരിക്കുക</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ ഈ ഓപ്ഷൻ പ്രാപ്തമാക്കുകയാണെങ്കിൽ, നിരക്കു മൌസ് ബട്ടൺ അമർത്തി തുടങ്ങിയതാണെങ്കിലും പോയിന്റ് തിരഞ്ഞെടുത്ത പ്രദേശത്ത് കേന്ദ്രത്തിൽ ഉപയോഗിക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">Fixed</span>
+            </dt>
+            <dd>
+              <p>ഈ മെനു വ്യത്യസ്ത വഴികളിൽ ദീർഘചതുരം ആകൃതി നിർബന്ധിക്കയും ഓപ്ഷൻ അനുവദിക്കുന്നു.</p>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">വീക്ഷണ അനുപാതം</span>
+                  </dt>
+                  <dd>
+                    <p>ഈ ഐച്ഛികം വീക്ഷണ അനുപാതം സ്ഥിര പ്രസക്തമായ ബോക്സ് എഴുതിയ നിലനിർത്തിക്കൊണ്ടുതന്നെ രൂപകൽപ്പനയും വലുപ്പം നിരക്കു അനുവദിക്കുന്നു. സ്വതവേ അനുപാതം 1: 1 (അങ്ങനെ ഞങ്ങൾ ഒരു സ്ക്വയർ ഉണ്ടായിരിക്കും) എന്നാൽ അത് മാറ്റാൻ കഴിയും. രണ്ടു ചെറിയ ലാൻഡ്സ്കേപ്പ് ചിത്രവും ഐക്കണുകൾ ഉപയോഗിച്ച്, ഈ അനുപാതം വിപരീത കഴിയും.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">വീതി</span>
+                  </dt>
+                  <dd>
+                    <p>
+                  With this choice you can fix the width of the selection.
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">പൊക്കം</span>
+                  </dt>
+                  <dd>
+                    <p>
+                  With this choice you can fix the height of the selection.
+                </p>
+                  </dd>
+                  <dt>
+                    <span class="term">വലുപ്പം</span>
+                  </dt>
+                  <dd>
+                    <p>ഈ ചോയ്സ് ഉപയോഗിച്ച് നിരക്കു വീതി ഉയരവും പരിഹരിക്കാൻ കഴിയും.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">സ്ഥാനം</span>
+            </dt>
+            <dd>
+              <p>ഈ രണ്ടു വാചക ഫീൽഡുകളുടെ നിരക്കു മുകളിലെ ഇടത് കോണിൽ നിലവിലുള്ള തിരശ്ചീന, ലംബ നിർദ്ദേശാങ്കങ്ങൾ അടങ്ങിയിട്ടുണ്ട്. നിങ്ങൾ കൃത്യമായി നിരക്കു സ്ഥാനം ക്രമീകരിക്കുക ഈ ഫീൽഡുകൾ ഉപയോഗിക്കാം.</p>
+            </dd>
+            <dt>
+              <span class="term">വലുപ്പം</span>
+            </dt>
+            <dd>
+              <p>ഈ രണ്ടു വാചക ഫീൽഡുകളുടെ നിരക്കു നിലവിലെ വീതി ഉയരവും അടങ്ങിയിട്ടുണ്ട്. നിങ്ങൾ കൃത്യമായി നിരക്കു വലിപ്പം ക്രമീകരിക്കാൻ ഈ ഫീൽഡുകൾ ഉപയോഗിക്കാം.</p>
+            </dd>
+            <dt>
+              <span class="term">ഹൈലൈറ്റ്</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ ഈ ഓപ്ഷൻ പ്രാപ്തമാക്കുകയാണെങ്കിൽ, തിരഞ്ഞെടുത്ത പ്രദേശത്ത് വിഷ്വൽ നിരക്കു വളരെ എളുപ്പത്തിലാക്കുന്നതിനായി ചുറ്റുമുള്ള മാസ്ക് വഴി ഊന്നിപ്പറയുന്നുണ്ട്.</p>
+            </dd>
+            <dt>
+              <a id="composition-guides"></a>
+              <span class="term">വഴികാട്ടി</span>
+            </dt>
+            <dd>
+              <a id="idp46925512934496" class="indexterm"></a>
+              <a id="idp46925512935856" class="indexterm"></a>
+              <p>ഈ മെനു ഉപയോഗിച്ച് നിങ്ങൾക്ക് <span class="emphasis"><em>Photo composition rules</em></span> മാനിച്ചും, ഒരു നിരക്കു സൃഷ്ടിക്ക് എളുപ്പമാക്കുന്നതിന് സെലക്ഷനിൽ ദൃശ്യമാകുന്ന ഗൈഡിന്റെ തരം തിരഞ്ഞെടുക്കാം.</p>
+              <p>ആറു ഓപ്ഷനുകളും ലഭ്യമാണ്: PLACEHOLDER,-105643</p>
+            </dd>
+            <dt>
+              <span class="term">ഓട്ടോ ചുരുക്കുക തിരഞ്ഞെടുക്കൽ</span>
+            </dt>
+            <dd>
+              <p><span class="guilabel">Auto Shrink Selection</span> ചെക്ക്-ബോക്സ് നിങ്ങളുടെ അടുത്ത നിരക്കു സ്വയം ഇമേജ് പാളി ഏറ്റവുമടുത്ത ചതുരാകൃതിയിലുള്ള ലഭ്യമായ രൂപത്തിൽ അകലുകയും ആക്കും. ചുരുക്കുക മികച്ച ദീർഘചതുരം കണ്ടെത്തുന്നതിനായി അൽഗോരിതം <span class="quote">“<span class="quote">intelligent</span>”</span>, ഈ കേസിൽ മാർഗങ്ങൾ ചിലപ്പോൾ അത്ഭുതകരവും ഡ്രീംലൈനറിന്റെ കാര്യങ്ങൾ ചെയ്യുന്ന, ചിലപ്പോൾ അത്ഭുതമെന്നു അപൂർവ്വ കാര്യങ്ങളെ ചെയ്യുന്നവൻ ആണ്. ഏതെങ്കിലും സാഹചര്യത്തിൽ, നിങ്ങൾ തിരഞ്ഞെടുക്കാൻ ആഗ്രഹിക്കുന്ന മേഖലയിൽ ഒരു സോളിഡ്-നിറമുള്ള സറൗണ്ട് ഉണ്ട്, യാന്ത്രിക ചുരുക്കുന്നത് എല്ലായ്പ്പോഴും ഇത് ശരിയായി എടുക്കുന്നതാണ്. തത്ഫലമായുണ്ടാകുന്ന നിരക്കു നീ പുറത്തു തൂത്തുവാരും അതേ ആകാരം ഞങ്ങൾക്കുണ്ട് ആവശ്യമില്ല ശ്രദ്ധിക്കുക.</p>
+            </dd>
+            <dt>
+              <span class="term">ലയിപ്പിച്ച ചുരുക്കുക</span>
+            </dt>
+            <dd>
+              <p>
+            If <span class="guilabel">Sample Merged</span>
+            is also enabled, then Auto Shrink will use the pixel information
+            from the visible display of the image, rather than just from the
+            active layer. For further information regarding Sample Merge, see
+            the glossary entry
+            <a class="link" href="glossary.html#glossary-samplemerge" title="സാമ്പിൾ ലയനം">Sample Merge</a>.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-tools-selection.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-tools-selection.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-tool-ellipse-select.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-tools-selection.html">2. തിരഞ്ഞെടുക്കൽ ഉപകരണങ്ങൾ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tool-ellipse-select.html">2.3. Ellipse Selection</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

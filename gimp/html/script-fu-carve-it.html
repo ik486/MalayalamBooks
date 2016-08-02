@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>11.9. സീരിയോലിത്തോഗ്രാഫ് രൂപംകൊള്ളുക</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-decor.html" title="11. അലങ്കാര ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="script-fu-slide.html" title="11.8. സ്ലൈഡ്" />
+    <link rel="next" href="script-fu-sota-chrome-it.html" title="11.10. സീരിയോലിത്തോഗ്രാഫ് ക്രോം" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">11.9. സീരിയോലിത്തോഗ്രാഫ് രൂപംകൊള്ളുക</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-slide.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">11. അലങ്കാര ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="script-fu-sota-chrome-it.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-carve-it"></a>11.9. സീരിയോലിത്തോഗ്രാഫ് രൂപംകൊള്ളുക</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925527055968" class="indexterm"></a>
+      <a id="idp46925527057856" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925527058832"></a>11.9.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925527059600"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.239. <span class="quote">“<span class="quote">Stencil Carve</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_grayscale.jpg" alt="“Stencil Carve” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/decor-taj-carve-it.jpg" alt="“Stencil Carve” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Stencil Carve</span>”</span> പ്രയോഗിച്ചു</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ രണ്ടു ചിത്രങ്ങൾ, ഉറവിട, ടാർഗെറ്റ് പ്രവർത്തിക്കുന്നു. ഉറവിട ചിത്രം ഒരൊറ്റ പാളി ആൽഫ ചാനൽ അടങ്ങുന്ന ഒരു ഗ്രേസ്കെയിലില് ഇമേജ് ആയിരിക്കണം. ഈ പാളി നിരക്കു മാസ്ക് ഉപയോഗിക്കുന്നു ഒപ്പം സാമർത്ഥ്യവും ഇഫക്റ്റിനായി സീരിയോലിത്തോഗ്രാഫ് ശ്രമിക്കുന്നതാണ്. കൊത്തിയെടുത്ത ചെയ്യേണ്ട ചിത്രം (ടാർഗറ്റ് ഇമേജ്) ഒരേ പാളി, ഒരു ആർജിബി നിറങ്ങളുടെ അല്ലെങ്കിൽ ഗ്രേസ്കെയിലില് ചിത്രം ആകാം. ഈ ടാർഗെറ്റ് ചിത്രം ഉറവിടം ഇമേജ് അതേ വലിപ്പം ഉണ്ടായിരിക്കണം.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925527068240"></a>11.9.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Decor</span> → <span class="guimenuitem">Stencil Carve</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[സൂചന]" src="images/tip.png" />
+              </td>
+              <th align="left">സൂചന</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>ചിത്രം ഗ്രേസ്കെയിലാക്കി ആണെങ്കിലും ഈ കമാൻഡ് ഗ്രേ ഔട്ട് തുടരുകയാണെങ്കിൽ, ആൽഫാ ചാനലിനായി പരിശോധിച്ച് അത് ഇല്ലാതാക്കുക.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925527072112"></a>11.9.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925527072864"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.240. <span class="quote">“<span class="quote">Stencil Carve</span>”</span> ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/decor/carve-it.png" alt="“Stencil Carve” ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">.സാഹചര്യം ചിത്രം</span>
+            </dt>
+            <dd>
+              <p>ഇവിടെ ടാർജറ്റ് ചിത്രം, കൊത്തുപണികൾ പ്രാബല്യത്തിൽ പ്രയോഗിക്കുന്നത് അതായത് ചിത്രം തിരഞ്ഞെടുക്കാം. ഡ്രോപ്പ്-ഡൌൺ ലിസ്റ്റ് ഏത് കൊത്തിയെടുത്ത ചെയ്യാം തുറന്നു ചിത്രങ്ങൾ ഒരു ലിസ്റ്റ് കാണിക്കും.</p>
+            </dd>
+            <dt>
+              <span class="term">വെളുത്ത പ്രദേശങ്ങൾ രൂപംകൊള്ളുക</span>
+            </dt>
+            <dd>
+              <p>(സ്ഥിരം) പരിശോധിച്ചാൽ, ഉറവിട ചിത്രം മുകളിൽ വിവരിച്ച പോലെ സീരിയോലിത്തോഗ്രാഫ് ഉപയോഗിക്കുന്നു. ചെക്കുചെയ്തിട്ടില്ലെങ്കിൽ, <span class="emphasis"><em>inverted</em></span> സോഴ്സ് ഇമേജ് സീരിയോലിത്തോഗ്രാഫ്, ഉദാ ഉപയോഗിക്കാറുണ്ട് .:</p>
+              <div class="figure">
+                <a id="idp46925527080896"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.241. കൊത്തുപണി മാസ്കുകൾ</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/carve-it-mask.jpg" alt="കൊത്തുപണി മാസ്കുകൾ" />
+                    <div class="caption">
+                      <p>സാധാരണ മാസ്ക്</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/carve-it-invmask.jpg" alt="കൊത്തുപണി മാസ്കുകൾ" />
+                    <div class="caption">
+                      <p>വിപരീത മാസ്ക്</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <p>ചുവടെയുള്ള ഉദാഹരണത്തിൽ, സോഴ്സ് ഒരു ഗ്രേസ്കെയിൽ ചിത്രം. ടാർഗറ്റ് ഒരു മരം പാറ്റേൺ ചിത്രമാണ്.</p>
+              <p>ഇടതുവശത്ത്, <span class="guilabel">Carve white areas</span> പ്രാപ്തമാക്കി. ടാർഗെറ്റ് ചിത്രം (ടെക്സ്റ്റ് ചുറ്റും) സീരിയോലിത്തോഗ്രാഫ് വെളുത്ത പിക്സൽ പൊരുത്തപ്പെടുന്ന എന്ന പിക്സലുകൾ കൊത്തിയ ചെയ്തു. ഫലം ഒരു എംബോസുചെയ്തത് വാചകമാണ്.</p>
+              <p>വലതുവശത്ത്, <span class="guilabel">Carve white areas</span> അപ്രാപ്തമാക്കി. ടാർഗെറ്റ് ഇമേജ് സീരിയോലിത്തോഗ്രാഫ് (ടെക്സ്റ്റ്) കറുത്ത പിക്സൽ പൊരുത്തപ്പെടുന്ന എന്ന പിക്സലുകൾ കൊത്തിയ ചെയ്തു. ഫലം പൊള്ളയായ ഒരു വാചകമാണ്.</p>
+              <div class="figure">
+                <a id="idp46925527090544"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.242. <span class="quote">“<span class="quote">Carve white areas</span>”</span> ഉദാഹരണത്തിന്</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/carve-it-normal.png" alt="“Carve white areas” ഉദാഹരണത്തിന്" />
+                    <div class="caption">
+                      <p>കൊത്തിയെടുത്ത വൈറ്റ് പ്രദേശങ്ങൾ</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/carve-it-stencil.png" alt="“Carve white areas” ഉദാഹരണത്തിന്" />
+                    <div class="caption">
+                      <p>സീരിയോലിത്തോഗ്രാഫ്</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/carve-it-invers.png" alt="“Carve white areas” ഉദാഹരണത്തിന്" />
+                    <div class="caption">
+                      <p>കൊത്തിയെടുത്ത കറുത്ത പ്രദേശങ്ങൾ</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <p>ഈ ഫിൽട്ടർ സൃഷ്ടിച്ച പല പാളികൾ കുറിച്ച് വിവരം <a class="xref" href="bibliography.html#bibliography-books-grokking" title="ജിമ്പ് Grokking">[<abbr class="abbrev">GROKKING</abbr>]</a> കണ്ടെത്താൻ കഴിയും.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-slide.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-decor.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="script-fu-sota-chrome-it.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-slide.html">11.8. സ്ലൈഡ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="script-fu-sota-chrome-it.html">11.10. സീരിയോലിത്തോഗ്രാഫ് ക്രോം</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

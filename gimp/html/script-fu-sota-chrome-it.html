@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>11.10. സീരിയോലിത്തോഗ്രാഫ് ക്രോം</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-decor.html" title="11. അലങ്കാര ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="script-fu-carve-it.html" title="11.9. സീരിയോലിത്തോഗ്രാഫ് രൂപംകൊള്ളുക" />
+    <link rel="next" href="filters-map.html" title="12. മാപ്പ് ഫിൽട്ടറുകൾ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">11.10. സീരിയോലിത്തോഗ്രാഫ് ക്രോം</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-carve-it.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">11. അലങ്കാര ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="filters-map.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-sota-chrome-it"></a>11.10. സീരിയോലിത്തോഗ്രാഫ് ക്രോം</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925527103504" class="indexterm"></a>
+      <a id="idp46925527105376" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925527106336"></a>11.10.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="script-fu-sota-chrome-it-example"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.243. <span class="quote">“<span class="quote">Stencil Chrome</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_grayscale.jpg" alt="“Stencil Chrome” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/decor/taj-chrome-it.jpg" alt="“Stencil Chrome” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Stencil Chrome</span>”</span> പ്രയോഗിച്ചു</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ ആർട്ട് ക്രോം പ്രഭാവമുള്ള ഒരു സംസ്ഥാന നൽകുന്നു. ഉറവിട ഇമേജ് ആൽഫാ ചാനൽ ഇല്ലാത്ത ഒരു പാളി അടങ്ങുന്ന ഗ്രേസ്കെയിൽ മോഡിൽ ഒരു ചിത്രം ആയിരിക്കണം. ഈ പാളി ക്രോം ഇഫക്റ്റിനായി മാസ്ക് (<span class="quote">“<span class="quote">stencil</span>”</span>) ഉപയോഗിക്കുന്നു.</p>
+        <p>ഫിൽട്ടർ സോഴ്സ് ചിത്രം (ഒരു നല്ല പശ്ചാത്തലം വളരെ ചേർത്തു) നിരക്കു ലേക്ക്, ഉറവിട ചിത്രം പ്രയോഗിച്ചു അല്ലെങ്കിൽ ഒരു നിര നിലനിൽക്കുന്നുണ്ടെങ്കിൽ ക്രോം പ്രാബല്യത്തോടെ ഒരു പുതിയ ഇമേജ് ഉണ്ടാക്കുന്നു.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925527116800"></a>11.10.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Decor</span> → <span class="guimenuitem">Stencil Chrome</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[സൂചന]" src="images/tip.png" />
+              </td>
+              <th align="left">സൂചന</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>ഈ കമാൻഡ് തുടരുകയാണെങ്കിൽ ചിത്രം ഗ്രേസ്കെയിലാക്കി മോഡിൽ ആണെങ്കിലും, ആൽഫാ ചാനൽ പരിശോധിക്കുക ഇല്ലാതാക്കുകയും ഗ്രേ ഔട്ട്.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925527120688"></a>11.10.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925527121440"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.244. <span class="quote">“<span class="quote">Stencil Chrome</span>”</span> ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/decor/chrome-it.png" alt="“Stencil Chrome” ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ക്രോം സാച്ചുറേഷൻ, </span>
+              <span class="term">ക്രോം ചാപല്യം</span>
+            </dt>
+            <dd>
+              <p><span class="quote">“<span class="quote">Chrome</span>”</span> പാളി <a class="link" href="">saturation and lightness</a> ക്രമീകരിച്ചു നിയന്ത്രിക്കുവാൻ ഈ ഓപ്ഷൻ ഉപയോഗിക്കുക. നെഗറ്റീവ് മൂല്യങ്ങൾ യഥാക്രമം സാച്ചുറേഷനും ചാപല്യം കുറക്കാനോ.</p>
+            </dd>
+            <dt>
+              <span class="term">ക്രോം ഘടകം</span>
+            </dt>
+            <dd>
+              <p>ഈ ഘടകം നിങ്ങളെ ഓഫ്സെറ്റുകളുടെ തൂവലുകളുടെ ആരം ഒപ്പം (പോലെ നന്നായി <span class="quote">“<span class="quote">Drop Shadow</span>”</span>) <span class="quote">“<span class="quote">Chrome</span>”</span> ആൻഡ് <span class="quote">“<span class="quote">Highlight</span>”</span> പാളി നിർമ്മിക്കാൻ ഉപയോഗിച്ച ബ്രഷ് സൈസ് അനുവദിക്കുന്നു.</p>
+              <p>കുറഞ്ഞതും ഈ മൂല്യം ക്രോം പ്രഭാവം മോശമായ വരുത്താം, കരുതലോടെ മാറ്റുക. സ്ഥിര ഘടകം 0.75 ഒരു നല്ല തോന്നുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">പരിസ്ഥിതി മാപ്പ്</span>
+            </dt>
+            <dd>
+              <p>പരിസ്ഥിതി മാപ്പ് സ്രോതസ്സിലേക്ക് <span class="quote">“<span class="quote">noise</span>”</span> ചില തരം ചേർത്തു ഒരു ചിത്രം. പ്രഭാവം ചില വ്യക്തമായ ആകൃതിയിലുള്ള ഒരു ലളിതമായ മാപ്പ് ഉപയോഗിക്കുകയാണെങ്കിൽ കാണാൻ നല്ലത്:</p>
+              <div class="mediaobject">
+                <img src="images/filters/decor/chrome-it-env-example.png" />
+                <div class="caption">
+                  <p>ഒരു ലളിതമായ പരിസ്ഥിതി മാപ്പ് ഉപയോഗിക്കുന്നു</p>
+                </div>
+              </div>
+              <p>പരിസ്ഥിതി മാപ്പ് വളരെ ഗ്രേസ്കെയിലാക്കി മോഡിൽ ഒരു ചിത്രം ആയിരിക്കണം. വലിപ്പം പ്രശ്നമല്ല, പരിസ്ഥിതി മാപ്പ് ഉറവിട ചിത്രത്തിന്റെ വലുപ്പം സ്കെയിൽ ആണ്.</p>
+            </dd>
+            <dt>
+              <span class="term">ഹൈലൈറ്റ് ബാലൻസ്</span>
+            </dt>
+            <dd>
+              <p>ഈ നിറം <span class="quote">“<span class="quote">Highlight</span>”</span> പാളിയുടെ <a class="link" href="">color balance</a> പരിഷ്ക്കരിക്കുക ഉപയോഗിക്കുന്നു: ചുവപ്പ്, പച്ച, നീല നിറങ്ങൾ തുക വ്യക്തമാക്കിയ ഓപ്ഷൻ ഇതേ മൂല്യങ്ങൾ പ്രകാരം വർദ്ധിപ്പിക്കുന്നു.</p>
+              <p>ചുവപ്പ് പച്ച, നീല മൂല്യം &gt; 230 ഉപയോഗിച്ച് വർണ്ണങ്ങൾ ഒഴിവാക്കുക.</p>
+            </dd>
+            <dt>
+              <span class="term">ക്രോം ബാലൻസ്</span>
+            </dt>
+            <dd>
+              <p>മുകളിലത്തെ, പക്ഷേ <span class="quote">“<span class="quote">Chrome</span>”</span> പാളിയുടെ <a class="link" href="">color balance</a> മാറ്റം.</p>
+            </dd>
+            <dt>
+              <span class="term">ക്രോം വെളുത്ത പ്രദേശങ്ങൾ</span>
+            </dt>
+            <dd>
+              <p>(ഈ സ്വതവേ) പരിശോധിച്ചാൽ, ഉറവിട ചിത്ര മാസ്ക് ഉപയോഗിക്കുന്നു. ചെക്കുചെയ്തിട്ടില്ലെങ്കിൽ, <span class="emphasis"><em>inverted</em></span> സോഴ്സ് ചിത്രം ഉപയോഗിക്കുന്നു.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925527149376"></a>11.10.4. എങ്ങനെ ക്രോം ഇഫക്റ്റ് സൃഷ്ടിക്കാൻ</h4>
+            </div>
+          </div>
+        </div>
+        <p>താഴെ വിഭാഗം എങ്ങനെ സ്ക്രിപ്റ്റ് (യഥാർത്ഥത്തിൽ ഈ ഫിൽട്ടർ ഒരു സ്ക്രിപ്റ്റ്-ഫു ആണ്) ക്രോം പ്രഭാവം സൃഷ്ടിക്കുന്നു ഒരു സംക്ഷിപ്ത ലളിതവൽക്കരിച്ചതുമായ വിവരണം നൽകുന്നു.</p>
+        <p><span class="quote">“<span class="quote">Chrome</span>”</span> പാളി <span class="quote">“<span class="quote">Highlight</span>”</span> പാളി: നിങ്ങളുടെ ഉറവിട ചിത്രങ്ങൾ ഫിൽട്ടർ പ്രയോഗിക്കാൻ തുടർന്ന് കാരണമാകുന്നു ചിത്രത്തിന്റെ <a class="link" href="gimp-dialogs-structure.html#gimp-layer-dialog" title="2.1. പാളികൾ സംഭാഷണം">layer dialog</a> നോക്കിയാൽ, Chrome പ്രഭാവം ഉണ്ടാക്കുന്നത് രണ്ട് പ്രധാന പാളികൾ ഉണ്ട് കാണും. താഴെ ഈ പാളികൾ സൃഷ്ടിക്കപ്പെടുന്നു;</p>
+        <div class="procedure">
+          <ol class="procedure" type="1">
+            <li class="step">
+              <p>സ്ക്രിപ്റ്റ് സോഴ്സ് ചിത്രം (വിപരീതമാക്കപ്പെടും സ്രോതസ്സ് ചിത്രം <span class="guilabel">Chrome  white areas</span> പരിശോധിക്കാതെ എങ്കിൽ നിന്ന്) നിന്നും ഒരു അല്പമെങ്കിലും ലളിതവും മങ്ങിയ പാളി നിര്മ്മിക്കുന്നുണ്ട്.</p>
+              <div class="mediaobject">
+                <img src="images/filters/decor/chrome-it-step1.png" />
+              </div>
+              <p><span class="guilabel">Chrome factor</span> ഈ പാളി രൂപം നിയന്ത്രിക്കുന്നു.</p>
+            </li>
+            <li class="step">
+              <p>(സ്കെയിൽ) പരിസ്ഥിതി മാപ്പ് മങ്ങിക്കുന്നതിനുള്ള 50% അതാര്യതയോടെ മുകളിൽ പാളി ലയിപ്പിക്കും ആണ്. (നിങ്ങൾ പരിചയപ്പെടുത്തുന്ന <a class="link" href="">example</a> പൂച്ച ഒന്നടക്കം ചെയ്യുന്നുണ്ടോ?)</p>
+              <div class="mediaobject">
+                <img src="images/filters/decor/chrome-it-step2.png" />
+                <div class="caption">
+                  <p>പരിസ്ഥിതി മാപ്പ് ലയിപ്പിക്കുന്നത്</p>
+                </div>
+              </div>
+            </li>
+            <li class="step">
+              <p>പാളി തെളിച്ചം (മൂല്യം) ഒരു spline അധിഷ്ഠിത തീവ്രത കർവ് പ്രകാരം പരിഷ്ക്കരിച്ചു.</p>
+              <div class="mediaobject">
+                <img src="images/filters/decor/chrome-it-step3.png" />
+                <div class="caption">
+                  <p>തീവ്രത കർവ് പരിഷ്ക്കരിക്കുന്നത്</p>
+                </div>
+              </div>
+            </li>
+            <li class="step">
+              <p>ഒരു ലെയർ മാസ്ക് സോഴ്സ് ചിത്രം (<span class="quote">“<span class="quote">Chrome Stencil</span>”</span>) കൂടെ സമാരംഭിച്ചിട്ടില്ല, ചേർത്തു. ഈ അന്തിമ ഘട്ടം മുമ്പിൽ <span class="quote">“<span class="quote">Chrome</span>”</span> പാളിയാണ്.</p>
+              <p><span class="quote">“<span class="quote">Highlight</span>”</span> പാളി പാളികളുടെ മാസ്ക് ഒരു വെളുത്ത ബ്രഷ് ഉപയോഗിച്ച് എന്തേ ആണ് <span class="quote">“<span class="quote">Chrome</span>”</span> പാളി ഒരു പകർപ്പാണ്.</p>
+              <div class="mediaobject">
+                <img src="images/filters/decor/chrome-it-step4.png" />
+                <div class="caption">
+                  <p>Chrome, ഹൈലൈറ്റ് ബേസ്</p>
+                </div>
+              </div>
+            </li>
+            <li class="step">
+              <p>ഇരു പാളികൾ നിറം ബാലൻസ് (<span class="guilabel">Highlight balance</span> ആൻഡ് <span class="guilabel">Chrome  balance</span> പ്രകാരം), ചുവന്ന പച്ച, നീല അളവ് വർധിപ്പിക്കുകയും ഹൈലൈറ്റുകൾ ഊന്നൽ കൂടെ പുതുക്കപ്പെട്ടത്.</p>
+              <p>കൂടാതെ, <span class="quote">“<span class="quote">Chrome</span>”</span> പാളിയുടെ സാച്ചുറേഷനും ചാപല്യം (<span class="guilabel">Chrome saturation</span> ആൻഡ് <span class="guilabel">Chrome lightness</span> നിയന്ത്രണത്തിലുള്ള) പരിഷ്കരിച്ചു.</p>
+              <div class="mediaobject">
+                <img src="images/filters/decor/chrome-it-step5.png" />
+                <div class="caption">
+                  <p>Chrome, ഹൈലൈറ്റ് പാളി</p>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <p>ഇപ്പോൾ ഒരു ഡ്രോപ്പ് ഷാഡോ, ഒരു പശ്ചാത്തല പാളി ചേർക്കാൻ നിങ്ങൾ <span class="quote">“<span class="quote">Stencil Chrome</span>”</span> ഫിൽട്ടർ <a class="link" href="script-fu-sota-chrome-it.html#script-fu-sota-chrome-it-example" title="ചിത്രം 17.243. “Stencil Chrome” ഫിൽട്ടർ ഉദാഹരണം">Example image</a> നേടുക.</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-carve-it.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-decor.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="filters-map.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-carve-it.html">11.9. സീരിയോലിത്തോഗ്രാഫ് രൂപംകൊള്ളുക</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="filters-map.html">12. മാപ്പ് ഫിൽട്ടറുകൾ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

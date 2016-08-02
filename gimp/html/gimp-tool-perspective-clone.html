@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.13. കാഴ്ചപ്പാട് ക്ലോൺ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-tools-paint.html" title="3. പെയിന്റ് ഉപകരണങ്ങൾ" />
+    <link rel="prev" href="gimp-tool-heal.html" title="3.12. സൌഖ്യമാക്കേണമേ" />
+    <link rel="next" href="gimp-tool-convolve.html" title="3.14. Blur/Sharpen" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.13. കാഴ്ചപ്പാട് ക്ലോൺ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-tool-heal.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. പെയിന്റ് ഉപകരണങ്ങൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-tool-convolve.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-tool-perspective-clone"></a>3.13. കാഴ്ചപ്പാട് ക്ലോൺ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925514896128" class="indexterm"></a>
+      <a id="idp46925514897520" class="indexterm"></a>
+      <div class="figure">
+        <a id="idp46925514898448"></a>
+        <p class="title">
+          <strong>ചിത്രം 14.90. The <span class="quote">“<span class="quote">Perspective Clone</span>”</span> tool in the Toolbox</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/toolbox/toolbox-perspective-clone.png" alt="The “Perspective Clone” tool in the Toolbox" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>ഈ ഉപകരണം നിങ്ങൾ ആഗ്രഹിക്കുന്ന കാഴ്ചപ്പാട് തക്കവണ്ണം ക്ലോൺ അനുവദിക്കുന്നു. ആദ്യം, <a class="link" href="gimp-tool-perspective.html" title="4.8. കാഴ്ചപ്പാട്">Perspective</a> ഉപകരണം ഉപയോഗിച്ച് ഒരേ ആഗ്രഹിച്ചു അപ്രത്യക്ഷമായി വരികൾ നിർത്തി. അപ്പോൾ <a class="link" href="gimp-tool-clone.html" title="3.11. ക്ലോൺ">Clone</a> ഉപകരണം ഉപയോഗിച്ച് ഒരേ സ്രോതസ്സ് പ്രദേശം പകർത്തുക.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925514903952"></a>3.13.1. ടൂൾ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഉപകരണം സജീവമാക്കുന്നതിന് വിവിധ സാധ്യതകളും ഉണ്ട്:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+          From the image-menu:
+          <span class="guimenu">Tools</span> → <span class="guisubmenu">Paint tools</span> → <span class="guimenuitem">Perspective Clone</span>.
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          The Tool can also be called by clicking the tool icon:
+          <span class="guiicon">
+            <img src="images/toolbox/stock-tool-perspective-clone-22.png" />
+          </span>
+          in the Toolbox.
+        </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925514910624"></a>3.13.2. കീ മോഡിഫയറുകൾ (സ്ഥിരസ്ഥിതികളിലേക്ക്)</h4>
+            </div>
+          </div>
+        </div>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">
+          <span class="keycap"><strong>Ctrl,</strong></span>
+        </span>
+            </dt>
+            <dd>
+              <p>
+            <span class="keycap"><strong>Ctrl</strong></span>-click allows you to select a new clone source.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">
+          <span class="keycap"><strong>മാറ്റം</strong></span>
+        </span>
+            </dt>
+            <dd>
+              <p>ഉറവിടം സജ്ജമാക്കുകയും ഈ കീ പ്രസ് ചെയ്താൽ നേർത്ത ലൈൻ നിലവിലെ പോയിന്റർ ലൊക്കേഷൻ ബന്ധിപ്പിയ്ക്കുന്ന മുമ്പ് ക്ലിക്കുചെയ്ത പോയിന്റ് കാണും. നിങ്ങൾ വീണ്ടും ക്ലിക്ക് ചെയ്താൽ, <span class="keycap"><strong>Shift</strong></span> കീ പിടിക്കുക തുടരുന്നതിന് സമയത്ത്, ഉപകരണം ഈ ലൈനിലാണ് ക്ലോൺ ചെയ്യും. ഒരു പാറ്റേൺ നിന്ന് ക്ലോണിങ് വരുമ്പോൾ തരംഗങ്ങൾ പ്രയോജനപ്പെടുന്നത്.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925514918288"></a>3.13.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925514919040"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.91. Perspective Clone tool options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/tool-options-perspective-clone.png" alt="Perspective Clone tool options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>സാധാരണ, ഉപകരണം ഓപ്ഷനുകൾ ഉടൻ ഒരു ഉപകരണം സജീവമാക്കാൻ പോലെ പണിസഞ്ചി കീഴിൽ ഘടിപ്പിച്ചിട്ടുള്ള ഒരു ജാലകം പ്രദർശിപ്പിക്കും. അഥവാ അങ്ങനെയല്ലെങ്കിൽ, നിങ്ങൾ തിരഞ്ഞെടുത്ത ഉപകരണം ഓപ്ഷൻ വിൻഡോ തുറക്കുന്ന <span class="guimenu">Windows</span> → <span class="guisubmenu">Dockable Windows</span> → <span class="guimenuitem">Tool Options</span> വഴി ഇമേജ് ബാറില് നിന്നും ആക്സസ് ചെയ്യാൻ കഴിയും.</p>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">Operating mode</span>
+            </dt>
+            <dd>
+              <p>ഈ ഉപകരണം ഉപയോഗിച്ച് ആദ്യം നിങ്ങൾ <span class="guilabel">Modify Perspective</span> തിരഞ്ഞെടുക്കണം. ഈ ഉപകരണം <a class="link" href="">perspective</a> പോലെ പ്രവർത്തിക്കുന്നു. അപ്പോൾ നിങ്ങൾ <span class="guilabel">Perspective Clone</span> തിരഞ്ഞെടുക്കുന്നതിനായി <a class="link" href="">Clone</a> ഉപകരണം പോലെ ഇത് ഉപയോഗിക്കാം.</p>
+            </dd>
+            <dt>
+              <span class="term">
+          Mode; Opacity; Brush; Dynamics; Dynamics Options; Fade Options; 
+					Apply Jitter; Smooth Stroke; Hard Edge
+        </span>
+            </dt>
+            <dd>പല അല്ലെങ്കിൽ എല്ലാ പെയിന്റ് ഉപകരണങ്ങൾ ബാധകമായ ഉപകരണം ഓപ്ഷനുകൾ ഒരു വിവരണം വേണ്ടി <a class="link" href="gimp-tools-paint.html#gimp-tools-paint-options" title="3.1.2. ടൂൾ ഓപ്ഷനുകൾ">Common Paint Tool Options</a> കാണുക.</dd>
+            <dt>
+              <span class="term">Source, Alignment</span>
+            </dt>
+            <dd>
+              <p>
+            This are the same as in the tool
+            <a class="link" href="gimp-tool-clone.html" title="3.11. ക്ലോൺ">Clone</a>.
+          </p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925514935472"></a>3.13.4. Example</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925514936208"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.92. <span class="quote">“<span class="quote">Perspective Clone</span>”</span> example</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/perspective-clone-ex1.png" alt="“Perspective Clone” example" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Modify Perspective Plane</span>”</span> പരിശോധിയ്ക്കുന്നു. അപ്രത്യക്ഷമായി വരികൾ ചുമക്കുന്നതു.</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/toolbox/perspective-clone-ex2.png" alt="“Perspective Clone” example" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Perspective Clone</span>”</span> ഓപ്ഷൻ പരിശോധിക്കുന്നു. വെളുത്ത സമകോണചതുർഭുജം തട്ടിപ്പിനിരയായി ചെയ്തു. താങ്കൾക്ക് പോകുന്നു ചെറിയ പോകുന്നു കാണുന്നു.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-tool-heal.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-tools-paint.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-tool-convolve.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-tool-heal.html">3.12. സൌഖ്യമാക്കേണമേ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tool-convolve.html">3.14. Blur/Sharpen</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

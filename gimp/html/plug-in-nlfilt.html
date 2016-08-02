@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.6. ഹോളണ്ട് ഫിൽറ്റർ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-enhance.html" title="3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക" />
+    <link rel="prev" href="plug-in-destripe.html" title="3.5. Destripe" />
+    <link rel="next" href="plug-in-red-eye-removal.html" title="3.7. റെഡ് ഐ നീക്കംചെയ്യൽ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.6. ഹോളണ്ട് ഫിൽറ്റർ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-destripe.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-red-eye-removal.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-nlfilt"></a>3.6. ഹോളണ്ട് ഫിൽറ്റർ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925520190192" class="indexterm"></a>
+      <a id="idp46925520192016" class="indexterm"></a>
+      <a id="idp46925520192944" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925520193808"></a>3.6.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925520194576"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.25. ഹോളണ്ട്-ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="ഹോളണ്ട്-ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/enhance-taj-nl-filter.jpg" alt="ഹോളണ്ട്-ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">NL Filter</span>”</span> പ്രയോഗിച്ചു</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഹോളണ്ട് <span class="quote">“<span class="quote">Non Linear</span>”</span> എന്നാണ്. യുണിക്സ് <span class="command"><strong>pnmnlfilt</strong></span> പ്രോഗ്രാം കടപ്പെട്ടിരിക്കുന്നു അതു നിരപ്പാക്കുകയും despeckle പരിഷ്കരണ ഫംഗ്ഷനുകളും മൂർച്ച ചേരുന്നു. അതു മുഴുവൻ പാളി, അല്ലാതെ നിരക്കു പ്രവർത്തിക്കുന്നു.</p>
+        <p>ഇത് ഒരു സ്വിസ് സൈന്യം കത്തി ഫിൽട്ടറിന്റെ എന്തോ. 3 വ്യത്യസ്തമായ ഓപ്പറേറ്റിങ് മോഡുകൾ ഉണ്ട്. മോഡുകൾ എല്ലാ ചിത്രം ഓരോ പിക്സൽ വിസ്തരിച്ചു സംസ്കരിക്കപ്പെട്ട അതു അതിന്റെ ചുറ്റുമുള്ള പിക്സൽ മൂല്യങ്ങൾ അനുസരിച്ച്. മറിച്ച് ഒരു 3X3 ബ്ലോക്കിൽ 9 പിക്സൽ ഉപയോഗിച്ച്, അത് ആരുടെ വലിപ്പം റേഡിയസ് ഓപ്ഷനുള്ള സജ്ജമാക്കാൻ കഴിയില്ല ഒരു ഷഡ്ഭുജ ബ്ലോക്ക് ഉപയോഗിക്കുന്നു.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925520204464"></a>3.6.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Enhance</span> → <span class="guimenuitem">NL Filter</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും.</p>
+        <p>സജീവ പാളി ഒരു ആല്ഫാ ചാനൽ ഉണ്ട് എങ്കിൽ ഫിൽട്ടർ പ്രവർത്തിക്കുന്നില്ല. അപ്പോൾ മെനു എൻട്രി കൈമാറ്റം ചെയ്ത് ആവശ്യം തന്നെയാണ്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925520207856"></a>3.6.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925520208608"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.26. <span class="quote">“<span class="quote">NL Filter</span>”</span> ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/enhance/nlfilter.png" alt="“NL Filter” ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p>ചെക്കിൻ ചെയ്തപ്പോൾ, പാരാമീറ്റർ ക്രമീകരണം ഫലങ്ങളിൽ ഇന്ററാക്ടീവ് പ്രിവ്യൂ പ്രദർശിപ്പിക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">അരിപ്പ</span>
+            </dt>
+            <dd>
+              <p><a class="link" href="plug-in-nlfilt.html#plug-in-nlfilt-mode" title="3.6.4. ഓപ്പറേറ്റിംഗ് മോഡുകൾ">Operating Mode</a> താഴെ വിവരിക്കുന്നത്.</p>
+            </dd>
+            <dt>
+              <span class="term">ആൽഫ</span>
+            </dt>
+            <dd>
+              <p>അരിപ്പ തുക പ്രയോഗിക്കാൻ നിയന്ത്രിക്കുന്നു. സാധുവായ ശ്രേണി 0.00-1.00 ആണ്. ഈ മൂല്യം കൃത്യമായ അർഥം തിരഞ്ഞെടുത്ത ഓപ്പറേറ്റിങ് രീതി ആശ്രയിച്ചിരിക്കുന്നു. ഈ പരാമീറ്റർ ബന്ധപ്പെട്ട എന്നും ശ്രദ്ധിക്കുക <span class="command"><strong>pnmnlfilt</strong></span> പ്രോഗ്രാമിൽ ഉപയോഗിക്കുന്ന <em class="parameter"><code>alpha</code></em> പരാമീറ്റർ സമാനമല്ല.</p>
+            </dd>
+            <dt>
+              <span class="term">വാസാര്ദ്ധം</span>
+            </dt>
+            <dd>
+              <p>ഓരോ പിക്സൽ ചുറ്റും ഫലപ്രദമായ ഒരുപറ്റം മേഖലയുടെ വലുപ്പം നിയന്ത്രിക്കുന്നു. എവിടെ 0.33 അർത്ഥമാക്കുന്നത് പിക്സൽ സ്വയം (അതുവഴി അരിപ്പ ഫലമില്ല ലഭിക്കും) ഈ മൂല്യം പരിധി, 0.33-1.00 ആണ്, 1.00 3X3 ഗ്രിഡിലെ എല്ലാ പിക്സൽ സാമ്പിളുകൾ എന്നാണ്.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="plug-in-nlfilt-mode"></a>3.6.4. ഓപ്പറേറ്റിംഗ് മോഡുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ വ്യത്യസ്തങ്ങളായ പ്രവർത്തനങ്ങൾ നടത്തുന്നു കഴിയും:</p>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ആൽഫ മാധ്യത്തിൽ ട്രിം</span>
+            </dt>
+            <dd>
+              <p>സെന്റര് പിക്സൽ മൂല്യം 7 സമഷഡഭജം മൂല്യങ്ങൾ ശരാശരി പകരം, പക്ഷേ 7 മൂല്യങ്ങൾ വലുപ്പം വേർതിരിച്ചിരിക്കുന്നതിനാൽ ഉം 7 മുകളിലും താഴെയുമുള്ള <em class="parameter"><code>Alpha</code></em> ഓഹരിയും മധ്യമത്തിൽ നിന്ന് ഒഴിവാക്കിയിട്ടുണ്ട്. ഈ 0.0 ഒരു <em class="parameter"><code>Alpha</code></em> മൂല്യം <em class="parameter"><code>Radius</code></em> ഫിൽട്ടറിന്റെ <span class="quote">“<span class="quote">strength</span>”</span> ദൃഢതയാണ് ഒരു സാധാരണ കോൺവൊല്യൂഷൻ (അതായത് ശരാശരിയാക്കല് ​​അല്ലെങ്കിൽ മൃദുലമാക്കുന്നതിനും അരിപ്പ), ഔട്ട്പുട്ട് അതേ നൽകുന്നു സൂചിപ്പിക്കുന്നു. തന്ത്രപൂർവം ഫിൽറ്ററിങിനുളള നിന്ന് ആരംഭിക്കാൻ ഏറ്റവും നല്ല മൂല്യം, <em class="parameter"><code>Radius</code></em> <em class="parameter"><code>Alpha</code></em> = 0.0 ആണ് = 0.55. കൂടുതൽ നഗ്നമായ ഇഫക്റ്റിനായി, <em class="parameter"><code>Alpha</code></em> = 0.0 ഉം <em class="parameter"><code>Radius</code></em> = 1.0 ശ്രമിക്കുക.</p>
+              <p>1.0 ന്റെ ഒരു <em class="parameter"><code>Alpha</code></em> മൂല്യം സെന്റര് പിക്സൽ മൂല്യം മാറ്റി പകരം ഉപയോഗിക്കുന്ന 7 hexagons ശരാശരി മൂല്യം ഇടയാക്കും. അരിപ്പ ഈ അടുക്കുക ശബ്ദം പടരുന്ന ചിത്രത്തേയോ സവിശേഷതകൾ smudging ഇല്ലാതെ ഒരു ചിത്രത്തിൽ നിന്ന് <span class="quote">“<span class="quote">pop</span>”</span> അല്ലെങ്കില് ഒറ്റ പിക്സൽ മുഴക്കം ഒഴിവാക്കിയോ നല്ലതാണ്. <em class="parameter"><code>Radius</code></em> പരാമീറ്റർ ചക്രം ട്യൂൺ ഫിൽട്ടറിംഗ് പിഴ ചെയ്യും.</p>
+              <p><em class="parameter"><code>Alpha</code></em> എന്ന മദ്ധ്യമതല മൂല്യങ്ങൾ മൃദുലമാക്കുന്നതിനും "പോപ്പ്" നോയ്സ് റിഡക്ഷൻ ഇടയ്ക്ക് ഇഫക്റ്റുകൾ തരും. തന്ത്രപൂർവം ഫിൽറ്ററിങിനുളള <em class="parameter"><code>Alpha</code></em> = 0.8, <em class="parameter"><code>Radius</code></em> = 0.6 മൂല്യങ്ങൾ തുടങ്ങുന്ന ശ്രമിക്കുക. കൂടുതൽ നഗ്നമായ ഇഫക്റ്റിനായി <em class="parameter"><code>Alpha</code></em> = 1.0, <em class="parameter"><code>Radius</code></em> = 1.0 ശ്രമിക്കുക.</p>
+            </dd>
+            <dt>
+              <span class="term">ഉചിതമായ മതിപ്പു</span>
+            </dt>
+            <dd>
+              <p>അരിപ്പ ഈ തരം ചിത്രം മേൽ adaptively ഒരു മാർദ്ദവപ്പെടുത്തൽ ഫിൽട്ടർ ബാധകമാണ്. ഓരോ പിക്സലിനായുള്ള ചുറ്റുമുള്ള സമഷഡഭജം മൂല്യങ്ങൾ വേരിയൻസ് കണക്കു, ഒപ്പം മാർദ്ദവപ്പെടുത്തൽ അളവിനോളം വിപരീതമായാണ് ഉണ്ടാക്കിയ. ആശയം പിന്നീട് അത്, ചിത്രം ആരവം കാരണം ഭിന്നിച്ചു വലിയ എങ്കിൽ സമയത്ത് അത് <span class="quote">“<span class="quote">wanted</span>”</span> ഇമേജ് സവിശേഷതകൾ ആണ് ഭിന്നിച്ചു ചെറുതാണെങ്കിൽ എന്നതാണ്. പതിവുപോലെ <em class="parameter"><code>Radius</code></em> പാരാമീറ്റർ ഫലപ്രദമായ ആരം നിയന്ത്രിക്കുന്നു, എന്നാൽ അതു ഒരുപക്ഷേ .ഞാനിപ്പൊ 0.8 നും 1.0 നും ആരം വിടാൻ ഭിന്നിച്ചു കണക്കാക്കുന്നതിനായി അഭികാമ്യം. <em class="parameter"><code>Alpha</code></em> പാരാമീറ്റർ കുറവ് മാർദ്ദവപ്പെടുത്തൽ ചെയ്യപ്പെടും ഏത് മുഴക്കം ദൂരമാണു സജ്ജമാക്കുന്നു. ഈ വലിയ മൂല്യങ്ങൾ ചിത്രത്തിന്റെ എല്ലാ ഭാഗങ്ങളും സ്മൂത് പ്രവണത സമയത്ത് <em class="parameter"><code>Alpha</code></em> ചെറിയ മൂല്യങ്ങൾ, ഏറ്റവും തന്ത്രപൂർവം ഫിൽട്ടറിംഗ് പ്രാബല്യത്തിൽ തരും എന്നാണ്. നിങ്ങൾ <em class="parameter"><code>Alpha</code></em> = 0.2, <em class="parameter"><code>Radius</code></em> പോലുള്ള മൂല്യങ്ങൾ = 1.0 കൂടെ തുടങ്ങിവെച്ചു, ആവശ്യമുള്ള പ്രതീതി ലഭിക്കാൻ വർദ്ധിപ്പിക്കുക, കുറയുകയും <em class="parameter"><code>Alpha</code></em> പാരാമീറ്റർ ശ്രമിക്കുക. അരിപ്പ ഈ തരം ബിറ്റ്മാപ്പ് നിറവും ചിത്രങ്ങൾ രണ്ട് ആരവം വി.എസിന്റെ ഫിൽറ്റർ ഉത്തമം.</p>
+            </dd>
+            <dt>
+              <span class="term">എഡ്ജ് മെച്ചപ്പെടുത്തൽ</span>
+            </dt>
+            <dd>
+              <p>ഈ മാർദ്ദവപ്പെടുത്തൽ അരിപ്പ ഫിൽട്ടർ എതിർ തരം. ഇത് അറ്റങ്ങൾ കേസായി. <em class="parameter"><code>Alpha</code></em> പരാമീറ്റർ തന്ത്രപൂർവം (0.1) മുതൽ നഗ്നമായ (0.9) ലേക്ക്, എഡ്ജ് മെച്ചപ്പെടുത്തൽ തുക നിയന്ത്രിക്കുന്നു. <em class="parameter"><code>Radius</code></em> പാരാമീറ്റർ സാധാരണപോലെ ഫലപ്രദമായ ആരം നിയന്ത്രിക്കുന്നു, പക്ഷേ ഉപയോഗപ്രദമായ മൂല്യങ്ങൾ 0.5, 0.9 ഇടയിലാണ്. <em class="parameter"><code>Alpha</code></em> = 0.3, <em class="parameter"><code>Radius</code></em> = 0.8 മൂല്യങ്ങൾ തുടങ്ങുന്ന ശ്രമിക്കുക.</p>
+            </dd>
+          </dl>
+        </div>
+        <div class="simplesect">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925520248096"></a>കോമ്പിനേഷൻ ഉപയോഗം</h5>
+              </div>
+            </div>
+          </div>
+          <p>വിവിധ ഓപ്പറേറ്റിങ് മോഡുകൾ ആവശ്യമുള്ള ഫലം ലഭിക്കുന്നതിനു തുടരെത്തുടരെ ഉപയോഗിക്കാൻ കഴിയും. ഉദാഹരണത്തിന് ഒരു ചെന്നൈയില് തിരിക്കാൻ നിങ്ങൾ മാർദ്ദവപ്പെടുത്തൽ അരിപ്പ ഒന്നോ രണ്ടോ പാസുകൾ, സമുചിതമായ മതിപ്പു അരിപ്പ ഒരു പാസ്, പിന്നെ ചില സൂക്ഷ്മമായ എഡ്ജ് മെച്ചപ്പെടുത്തൽ പിന്നാലെ പരീക്ഷിക്കാം ഗ്രേസ്കെയിലാക്കി ചിത്രം ചിത്രം മടിച്ചുനിന്നപ്പോൾ. എഡ്ജ് മെച്ചപ്പെടുത്തൽ മാർദ്ദവപ്പെടുത്തൽ നേരിട്ട് വിപരീതമാണ് പോലെ എഡ്ജ് മെച്ചപ്പെടുത്തൽ ഉപയോഗിക്കുന്ന ലീനിയർ അരിപ്പയിൽ ശേഷം ഉപയോഗപ്പെടും മാത്രമായിരിയ്ക്കും ശ്രദ്ധിക്കുക (ആൽഫ ശരാശരിയോ സമുചിതമായ മതിപ്പു ഫിൽട്ടർ ട്രിം).</p>
+          <p>ചിത്രങ്ങളിൽ നിറം ക്വാണ്ടൈസേഷൻ ആരവം കുറയ്ക്കുന്നതിനുള്ള (അതായത് തവിട്ടുനിറമുള്ള പിന്നിൽ 24 ബിറ്റ് ഫയലുകൾ ഫയലുകൾ തിരിഞ്ഞു) നിങ്ങൾ സമുചിതമായ മതിപ്പു ഫിൽട്ടർ (<em class="parameter"><code>Alpha</code></em> = 0.2, <em class="parameter"><code>Radius</code></em> = 1.0) ഒരു പാസ്, മീഡിയൻ അരിപ്പ (<em class="parameter"><code>Alpha</code></em> = 1.0 ഒരു പാസ് പരീക്ഷിക്കാം, <em class="parameter"><code>Radius</code></em> = 0.55), ഒരുപക്ഷേ എഡ്ജ് മെച്ചപ്പെടുത്തൽ അരിപ്പ ഒരു പാസ്. കുറയുന്ന <em class="parameter"><code>Alpha</code></em> മൂല്യങ്ങൾ ഉപയോഗിച്ച് സമുചിതമായ മതിപ്പു അരിപ്പ പല പാസുകൾ ഒരു വലിയ <em class="parameter"><code>Alpha</code></em> മൂല്യം ഉപയോഗിച്ച് ഒരു പാസ് അധികം ഫലപ്രദമാണ്. പതിവുപോലെ, ഫലപ്രാപ്തി ഫിൽറ്റർ വിശദമായി നഷ്ടപ്പെടുന്നത് തമ്മിൽ കച്ചവടം-ഓഫ് ഇല്ല. പരീക്ഷണങ്ങളും നിർദ്ദേശിക്കുന്നത്.</p>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-destripe.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-enhance.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-red-eye-removal.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-destripe.html">3.5. Destripe</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-red-eye-removal.html">3.7. റെഡ് ഐ നീക്കംചെയ്യൽ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>2.3. പാഥുകൾ സംഭാഷണം</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-dialogs-structure.html" title="2. ചിത്രം ഘടന ബന്ധപ്പെട്ട ഡയലോഗുകൾ" />
+    <link rel="prev" href="gimp-channel-dialog.html" title="2.2. ചാനലുകൾ സംഭാഷണം" />
+    <link rel="next" href="gimp-indexed-palette-dialog.html" title="2.4. Colormap സംഭാഷണം" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">2.3. പാഥുകൾ സംഭാഷണം</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-channel-dialog.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">2. ചിത്രം ഘടന ബന്ധപ്പെട്ട ഡയലോഗുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-indexed-palette-dialog.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-path-dialog"></a>2.3. പാഥുകൾ സംഭാഷണം</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925516864464" class="indexterm"></a>
+      <a id="idp46925516865808" class="indexterm"></a>
+      <p>നിങ്ങൾ ഒരു പാത എന്താണെന്ന് അറിയില്ലെങ്കിൽ ദയവായി <a class="xref" href="gimp-using-paths.html" title="5.  പാഥുകൾ">വിഭാഗം 5, “
+    
+    <span class="phrase">പാഥുകൾ</span>
+  ”</a> കാണുക.</p>
+      <div class="figure">
+        <a id="idp46925516868272"></a>
+        <p class="title">
+          <strong>ചിത്രം 15.12. <span class="quote">“<span class="quote">Paths</span>”</span> ഡയലോഗ്</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/dialogs/paths-dialog.png" alt="“Paths” ഡയലോഗ്" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p><span class="quote">“<span class="quote">Paths</span>”</span> ഡയലോഗ് പാതകൾ നിയന്ത്രിക്കാൻ, നിങ്ങൾ സൃഷ്ടിച്ചപ്പോൾ ഇല്ലാതാക്കാനോ അനുവദിച്ചുകൊണ്ട്, രക്ഷിക്കും നിന്നും തിരഞ്ഞെടുക്കലുകൾ മുതലായവ നല്കുന്നു ഉപയോഗിക്കുന്നു</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-path-dialog-activate"></a>2.3.1. ഡയലോഗ് സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p><span class="quote">“<span class="quote">Paths</span>”</span> ഡയലോഗ് ഒരു dockable ഡയലോഗ് ആണ്; അതു കൈകാര്യം ന് സഹായത്തിനായി വിഭാഗം <a class="xref" href="gimp-concepts-docks.html" title="2.3. ഡയലോഗുകൾ, ഡോക്കിങ്">വിഭാഗം 2.3, “ഡയലോഗുകൾ, ഡോക്കിങ്”</a> കാണും.</p>
+        <p>താങ്കൾക്ക് ആക്സസ് ചെയ്യാൻ കഴിയും:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p><span class="guimenu">Windows</span> → <span class="guisubmenu">Dockable Dialogs</span> → <span class="guimenuitem">Paths</span>: ഇമേജ് മെനുവിൽ നിന്ന്.</p>
+            </li>
+            <li class="listitem">
+              <p>ഏതെങ്കിലും dockable ഡയലോഗിൽ ടാബ് മെനുവിൽ നിന്നും <span class="guiicon"><img src="images/dialogs/stock-menu- left-12.png" /></span> ക്ലിക്കുചെയ്ത് <span class="guimenu">Add Tab</span> → <span class="guimenuitem">Paths</span> തിരഞ്ഞെടുത്ത്,</p>
+            </li>
+          </ul>
+        </div>
+        <p><span class="guimenu">Windows</span> മെനുവിൽ, കുറഞ്ഞത് ഒരു ഡയലോഗ് തുറന്നുതന്നെയിരിക്കുന്ന മാത്രമേ ഉണ്ട് <a class="link" href="gimp-concepts-docks.html#gimp-dockable-menu" title="2.3.2. ടാബ് മെനു">detached windows</a> ഒരു ലിസ്റ്റ് ഉണ്ട്. <span class="guimenu">Windows</span> → <span class="guimenuitem">Paths</span>: ഈ സാഹചര്യത്തിൽ, ഇമേജ്-മെനുവിൽ നിന്നും <span class="quote">“<span class="quote">Paths</span>”</span> ഡയലോഗ് ഉണ്ടാകാം.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-path-dialog-using"></a>2.3.2. പാഥുകൾ ഡയലോഗ് ഉപയോഗിച്ച്</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഓരോ പാത്ത് ഒറ്റ ചിത്രം ഉൾപ്പെടുന്നത്: പാതകളെ വെറും പാളികൾ പോലെ ചിത്രങ്ങൾ ഘടകങ്ങൾ ഉണ്ട്. വഴികളിലേക്ക് ഡയലോഗ് നിലവിൽ സജീവ ചിത്രം പെടുന്ന എല്ലാ പാതകളെ ഒരു ലിസ്റ്റ് കാണിക്കുന്നു: മാറുന്നതിൽ ചിത്രങ്ങൾ ഡയലോഗ് പാതകളുടെ ഒരു വ്യത്യസ്ത ലിസ്റ്റ് കാണിക്കാൻ കാരണമാകുന്നു. വഴികളിലേക്ക് ഡയലോഗ് ഒരു <span class="quote">“<span class="quote">Layers, Channels, and Paths</span>”</span> ഡോക്കിൽ എംബഡഡ് എങ്കിൽ, ഡോക്ക് മുകളിൽ ചിത്രം മെനു സജീവ ചിത്രത്തിന്റെ പേര് കാണാൻ കഴിയും. (അല്ലെങ്കിൽ, നിങ്ങൾ ഒരു ഇമേജ് മെനു ഡോക്കിലേയ്ക്ക് ടാബ് മെനുവിൽ നിന്ന് <span class="quote">“<span class="quote">Show Image Menu</span>”</span> തിരഞ്ഞെടുത്തുകൊണ്ട് ചേർക്കാൻ കഴിയും.)</p>
+        <p>നിങ്ങൾ ലയർ ഡയലോഗ് പരിചയമുണ്ട്, നിങ്ങൾക്ക് പാഥുകൾ ഡയലോഗ് നിരവധി മാർഗത്തിൽ സമാനമായ കാരണം, ഒരു തല ആരംഭം. ഓരോ പാത നാലു ഇനങ്ങൾ കൂടെ, ചിത്രം നിലനിൽക്കുന്ന എല്ലാ പാതകളെ ഒരു ലിസ്റ്റ് കാണിക്കുന്നു:</p>
+        <div class="variablelist">
+          <div class="mediaobject">
+            <img src="images/dialogs/path-list-entry.png" />
+          </div>
+          <dl class="variablelist">
+            <dt>
+              <span class="term">
+          <span class="guiicon">
+            <img src="images/dialogs/stock-eye-20.png" />
+          </span>
+          <span class="phrase">പാത ദൃശ്യപരത</span>
+        </span>
+            </dt>
+            <dd>
+              <p>ഒരു <span class="quote">“<span class="quote">open eye</span>”</span> ഐക്കൺ ഇത് അല്ലെങ്കിൽ പാത്ത് കാണാവുന്ന, ശൂന്യമായ ഇടമോ എങ്കിൽ. <span class="quote">“<span class="quote">Visible</span>”</span> പാത്ത് ഒരു പോറൽ ചിത്രം ഡിസ്പ്ലേ പാത്രമായി എന്നാണ്. അതു എന്തേ അല്ലെങ്കിൽ മറ്റുതരത്തിൽ റെൻഡർ അല്ലാതെ പാത്ത് യഥാർത്ഥത്തിൽ ചിത്രം പിക്സൽ ഡാറ്റ കാണിക്കില്ല. കണ്ണ്-symbol- ബഹിരാകാശത്ത് ക്ലിക്കുചെയ്യുന്നത് പാത ദൃശ്യപരത ടോഗിൾ ചെയ്യുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">
+          <span class="guiicon">
+            <img src="images/dialogs/stock-vchain-24.png" />
+          </span>
+          <span class="phrase">ചെയിൻ പാതകൾ</span>
+        </span>
+            </dt>
+            <dd>
+              <p>ഇത് അല്ലെങ്കിൽ പാത രൂപാന്തരപ്പെടുത്തിയോ-ലോക്ക് ശൂന്യമായ ഇടമോ, ഒരു <span class="quote">“<span class="quote">chain</span>”</span> ചിഹ്നം കണ്ണ്-ചിഹ്നം-സ്പേസ് വലത് കൊടുത്തിരിക്കുന്നു. <span class="quote">“<span class="quote">Transform-locked</span>”</span> അത് എല്ലാ രൂപാന്തരണങ്ങളെ (തോതൊപ്പിക്കലോടൊത്ത്, ഭ്രമണം, തുടങ്ങിയവ) ഒരേ വിധത്തിൽ ബാധിച്ചു എന്ന് ഘടകങ്ങൾ (പാളികൾ, ചാനലുകൾ തുടങ്ങിയവ) ഒരു സെറ്റ് ഫോമിന്റെ ഭാഗമായ എന്നാണ് അവരിൽ ആരെങ്കിലും പ്രയോഗിച്ചു. ചെയിൻ-ചിഹ്നം-ബഹിരാകാശത്ത് ക്ലിക്കുചെയ്യുന്നത് പാതയുടെ രൂപാന്തരപ്പെടുത്തിയോ-ലോക്ക് നില ടോഗിൾ ചെയ്യുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">പ്രിവ്യൂ ചിത്രം</span>
+            </dt>
+            <dd>
+              <p>പാത ഒരു സ്കെച്ച് കാണിക്കുന്ന ഒരു ചെറിയ പ്രിവ്യൂ-ഐക്കൺ. നിങ്ങൾ ഐക്കൺ ക്ലിക്ക് ചെയ്ത് ഒരു ഇമേജ് കയറി ഡ്രാഗ് ഉണ്ടെങ്കിൽ, ഇത് ആ സ്വരൂപത്തിൽ പാത്ത് ഒരു പകർപ്പ് സൃഷ്ടിക്കും.</p>
+            </dd>
+            <dt>
+              <span class="term">പാത പേര്</span>
+            </dt>
+            <dd>
+              <p>ചിത്രം അദ്വിതീയ ആയിരിക്കണം പാത്ത് പേര്. പേര് ഇരട്ട ക്ലിക്ക് നിങ്ങൾ അതു എഡിറ്റ് അനുവദിക്കും. നിങ്ങൾ സൃഷ്ടിക്കുന്ന പേര് ഇതിനകം നിലവിലുണ്ട് എങ്കിൽ, ഒരു നമ്പർ സവിശേഷമാക്കുന്നതിനായി കൂട്ടിച്ചേർക്കാനുള്ള (ഉദാ <span class="quote">“<span class="quote">#1</span>”</span>) ചെയ്യും.</p>
+            </dd>
+          </dl>
+        </div>
+        <p>ലിസ്റ്റ് നോൺ-ശൂന്യമാണെങ്കിൽ, ഏതു നിമിഷത്തിലും അവയവങ്ങളിൽ ഒന്നു അടിയിലായി ഡയലോഗ് മെനു അല്ലെങ്കിൽ ബട്ടണുകൾ ഉപയോഗിച്ച് അവതരിപ്പിക്കാനും ഏതെങ്കിലും ഓപ്പറേഷൻസ് വിഷയമാകും ഏത് ചിത്രം ന്റെ <span class="emphasis"><em>active path</em></span>, ഇതാണ്: സജീവ പാതയിൽ എടുത്തുകാട്ടിയ കാണിച്ചിരിക്കുന്നു ലിസ്റ്റ്. എൻട്രികൾ ഏതെങ്കിലും ക്ലിക്കുചെയ്യുന്നത് സജീവ പാത ആക്കും.</p>
+        <p>ലിസ്റ്റിൽ ഏതെങ്കിലും എൻട്രി വലത്-ക്ലിക്ക് <a class="link" href="">Paths Menu</a> ചെയ്യുന്നു. നിങ്ങൾക്ക് ഡയലോഗ് ടാബ് മെനുവിൽ നിന്നും വഴികളിലേക്ക് മെനു ആക്സസ് ചെയ്യാൻ കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-path-dialog-buttons"></a>2.3.3. ബട്ടണുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <p>എല്ലാ ഡയലോഗ് പാതകൾ ചുവടെയുള്ള ബട്ടണുകൾ വഴികളിലേക്ക് മെനു (വലത്-ക്ലിക്കുചെയ്ത് ആക്സസ് ഒരു പാത ലിസ്റ്റ് എൻട്രി) തുടർന്നും എൻട്രികൾ രൂപീകരിച്ചിരിക്കുന്നത് എന്നാൽ അവരിൽ ചിലരെ നിങ്ങൾ ബട്ടൺ അമർത്തിയാൽ സമയത്ത് മോഡിഫയർ കീകൾ ഇറക്കി പിടിച്ച് സംന്വാദിക്കാവുന്ന അധിക ഓപ്ഷനുകൾ ഉണ്ട്.</p>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പുതിയ പാത</span>
+            </dt>
+            <dd>
+              <p><a class="link" href="gimp-path-dialog.html#gimp-path-new">New Path</a> കാണുക. <span class="keycap"><strong>Shift</strong></span> കീ അമർത്തിപ്പിടിക്കുക നിങ്ങൾ പുതിയ (ശൂന്യം) പാത്ത് ഒരു പേര് നൽകുക അനുവദിക്കുന്ന ഒരു ഡയലോഗ് ചെയ്യുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">പാത ഉന്നയിക്കുക</span>
+            </dt>
+            <dd>
+              <p><a class="link" href="gimp-path-dialog.html#gimp-path-raise">Raise Path</a> കാണുക.</p>
+            </dd>
+            <dt>
+              <span class="term">ലോവർ പാത</span>
+            </dt>
+            <dd>
+              <p><a class="link" href="gimp-path-dialog.html#gimp-path-lower">Lower Path</a> കാണുക.</p>
+            </dd>
+            <dt>
+              <span class="term">പാത ഡ്യൂപ്ലിക്കേറ്റ്</span>
+            </dt>
+            <dd>
+              <p><a class="link" href="gimp-path-dialog.html#gimp-path-duplicate">Duplicate Path</a> കാണുക.</p>
+            </dd>
+            <dt>
+              <span class="term">തിരഞ്ഞെടുക്കുന്നതിലേക്ക് പാത</span>
+            </dt>
+            <dd>
+              <p>ഒരു നിരക്കു കടന്നു പാത പരിവർത്തനം; ഒരു മുഴുവൻ വിശദീകരണത്തിനും <a class="link" href=""> Path to Selection </a> കാണും. നിങ്ങൾ പുതിയ നിരക്കു നിലവിലുള്ള നിരക്കു ഇടപെടുകയോ വഴി സജ്ജമാക്കാൻ മോഡിഫയർ കീകൾ ഉപയോഗിക്കാം:</p>
+              <div class="segmentedlist">
+                <table border="0">
+                  <thead>
+                    <tr class="segtitle">
+                      <th>മോഡിഫയറുകൾ</th>
+                      <th>ആക്ഷൻ</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="seglistitem">
+                      <td class="seg">ഒന്നുമില്ല</td>
+                      <td class="seg">നിലവിലുള്ള തിരഞ്ഞെടുക്കൽ പകരം</td>
+                    </tr>
+                    <tr class="seglistitem">
+                      <td class="seg">
+                <span class="keycap"><strong>മാറ്റം</strong></span>
+              </td>
+                      <td class="seg">നിരക്കു ചേർക്കുക</td>
+                    </tr>
+                    <tr class="seglistitem">
+                      <td class="seg">
+                <span class="keycap"><strong>Ctrl,</strong></span>
+              </td>
+                      <td class="seg">നിരക്കു നിന്ന് കുറയ്ക്കേണ്ട</td>
+                    </tr>
+                    <tr class="seglistitem">
+                      <td class="seg">
+                <span class="keycap"><strong>മാറ്റം</strong></span>+<span class="keycap"><strong>Ctrl,</strong></span>
+              </td>
+                      <td class="seg">നിരക്കു കൂടെ കൂട്ടിമുട്ടുന്ന.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">പാതയിലേക്കും തിരഞ്ഞെടുക്കൽ</span>
+            </dt>
+            <dd>
+              <p><span class="keycap"><strong>Shift</strong></span> കീ അമർത്തിപ്പിടിക്കുക <span class="guilabel">Advanced Options</span> ഡയലോഗ്, സാധാരണരീതിയിൽ ജിമ്പ് ഡെവലപ്പർമാർക്ക് മാത്രമേ ഉപയോഗപ്രദമായിരിക്കും ചെയ്യുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">പാതയിലൂടെ പെയിന്റ്</span>
+            </dt>
+            <dd>
+              <p><a class="link" href="gimp-path-stroke.html" title="3.18. സ്ട്രോക്ക് പാത">Stroke Path</a> കാണുക.</p>
+            </dd>
+            <dt>
+              <span class="term">പാത ഇല്ലാതാക്കുക</span>
+            </dt>
+            <dd>
+              <p><span class="guilabel">Delete Path</span> നിലവിലെ തിരഞ്ഞെടുത്ത പാതയിൽ ഇല്ലാതാക്കുന്നു.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-concepts-paths-menu"></a>2.3.4. <span class="quote">“<span class="quote">Paths</span>”</span> സന്ദർഭ മെനു</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925516944160"></a>
+          <p class="title">
+            <strong>ചിത്രം 15.13. <span class="quote">“<span class="quote">Paths</span>”</span> സന്ദർഭ മെനു</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/dialogs/paths-menu.png" alt="“Paths” സന്ദർഭ മെനു" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>വഴികളിലേക്ക് മെനു വഴികളിലേക്ക് ഡയലോഗിൽ പട്ടികയിൽ ഒരു പാഥ് എൻട്രി ന്, അല്ലെങ്കിൽ പാതയിൽ ഡയലോഗ് ടാബ് മെനുവിൽ നിന്ന് മികച്ച എൻട്രി ( "വഴികളിലേക്ക് മെനു") തിരഞ്ഞെടുത്താൻ വലത്-ക്ലിക്കുചെയ്ത് കൊണ്ടുവന്ന കഴിയും. ഈ മെനു നിങ്ങൾ പാതകൾ ബാധിക്കുന്ന ഓപ്പറേഷൻസ് ഏറ്റവും ആക്സസ് നൽകുന്നു.</p>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പാത ടൂൾ</span>
+            </dt>
+            <dd>
+              <p><span class="guilabel">Path Tool</span> പാതകൾ സൃഷ്ടിക്കുന്നതും കൃത്രിമം ഉപയോഗിക്കുന്ന <a class="link" href="gimp-tool-path.html" title="6.2. പാഥുകൾ">Path tool</a>, സജീവമാക്കുന്നതിനായി, ഒരു ബദൽ മാർഗ്ഗം. ഇത് പണിസഞ്ചി നിന്ന്, അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <span class="keycap"><strong>B</strong></span> (<span class="emphasis"><em>Bézier</em></span> വേണ്ടി) ഉപയോഗിച്ച് സജീവമാക്കാം.</p>
+            </dd>
+            <dt>
+              <span class="term">വഴി പ്രത്യേകതകൾ തിരഞ്ഞെടുക്കുക</span>
+            </dt>
+            <dd>
+              <a id="gimp-path-edit"></a>
+              <p><span class="guilabel">Edit Path Attributes</span> നിങ്ങൾ പാത്ത് പേര് മാറ്റാൻ അനുവദിക്കുന്ന ഒരു ചെറിയ ഡയലോഗ് ചെയ്യുന്നു. നിങ്ങൾക്ക് ഈ double- ക്ലിക്ക് ചെയ്ത് നാമം പട്ടികയിൽ വഴികളിലേക്ക് ഡയലോഗിൽ ചെയ്യാൻ കഴിയും.</p>
+            </dd>
+            <dt>
+              <span class="term">പുതിയ പാത</span>
+            </dt>
+            <dd>
+              <a id="gimp-path-new"></a>
+              <p><span class="guilabel">New Path</span>, ഒരു പുതിയ പാത സൃഷ്ടിക്കുന്നു വഴികളിലേക്ക് ഡയലോഗിൽ ലിസ്റ്റിൽ ചേർക്കുന്നു, അതു ഇമേജ് സജീവ പാത ചെയ്യുന്നു. അതു നിങ്ങൾക്കു പാത്ത് ഒരു പേര് അനുവദിക്കുന്ന ഒരു ഡയലോഗ് ചെയ്യുന്നു. നിങ്ങൾ ഒന്നും അത് ഉപയോഗിക്കാൻ കഴിയും കുറച്ച് നൽകാൻ പാത ഉപകരണം ഉപയോഗിക്കേണ്ടി വരും പുതിയ പാത, യാതൊരു നങ്കൂരം പോയിന്റുമായി സൃഷ്ടിക്കപ്പെട്ടിരിക്കുന്നത്.</p>
+            </dd>
+            <dt>
+              <span class="term">പാത ഉന്നയിക്കുക</span>
+            </dt>
+            <dd>
+              <a id="gimp-path-raise"></a>
+              <p><span class="guilabel">Raise Path</span> വഴികളിലേക്ക് ഡയലോഗിൽ പട്ടികയിൽ ഒറ്റ സ്ലോട്ട് കൂടുതൽ പാത നീക്കുന്നു. പട്ടികയിൽ ഒരു പാതയുടെ സ്ഥാനം യാതൊരു ഫങ്ഷണൽ പ്രാധാന്യമുള്ള, അതിനാൽ ഈ ലളിതമായി നിങ്ങൾ ഓർഗനൈസ് കാര്യങ്ങൾ സൂക്ഷിക്കാൻ സഹായിക്കുന്നതിന് സൗകര്യമാണ്.</p>
+            </dd>
+            <dt>
+              <span class="term">ലോവർ പാത</span>
+            </dt>
+            <dd>
+              <a id="gimp-path-lower"></a>
+              <p><span class="guilabel">Lower Path</span> വഴികളിലേക്ക് ഡയലോഗിൽ പട്ടികയിൽ ഒറ്റ സ്ലോട്ട് താഴത്തെ പാത നീക്കുന്നു. പട്ടികയിൽ ഒരു പാതയുടെ സ്ഥാനം യാതൊരു ഫങ്ഷണൽ പ്രാധാന്യമുള്ള, അതിനാൽ ഈ ലളിതമായി നിങ്ങൾ ഓർഗനൈസ് കാര്യങ്ങൾ സൂക്ഷിക്കാൻ സഹായിക്കുന്നതിന് സൗകര്യമാണ്.</p>
+            </dd>
+            <dt>
+              <span class="term">പാത ഡ്യൂപ്ലിക്കേറ്റ്</span>
+            </dt>
+            <dd>
+              <a id="gimp-path-duplicate"></a>
+              <p><span class="quote">“<span class="quote">Duplicate Path</span>”</span>, സജീവ പാത ഒരു പകർപ്പ് സൃഷ്ടിക്കുന്നു അതിന് തനതായ പേര് നൽകുന്നു, വഴികൾ ഡയലോഗിൽ ലിസ്റ്റിൽ ചേർക്കുന്നു, അതു ഇമേജ് സജീവ പാത ചെയ്യുന്നു. പകർപ്പ് യഥാർത്ഥ പാത പ്രകടമായിരുന്നു മാത്രമേ ദൃശ്യമാകൂ.</p>
+            </dd>
+            <dt>
+              <span class="term">പാത ഇല്ലാതാക്കുക</span>
+            </dt>
+            <dd>
+              <a id="gimp-path-delete"></a>
+              <p><span class="guilabel">Delete Path</span> നിലവിലെ തിരഞ്ഞെടുത്ത പാതയിൽ ഇല്ലാതാക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">ദൃശ്യം പാഥുകൾ ലയിപ്പിക്കുക</span>
+            </dt>
+            <dd>
+              <p><span class="guilabel">Merge Visible Paths</span> ദൃശ്യമാകുന്ന ചിത്രം എല്ലാ പാതകൾ എടുക്കും (ആ, വഴികൾ ഡയലോഗിൽ <span class="quote">“<span class="quote">open eye</span>”</span> ചിഹ്നങ്ങൾ കാണിക്കാൻ എല്ലാം), ഒരേ പാതയുടെ ഘടകങ്ങൾ അവരെ തിരിക്കുക. നിങ്ങൾ സ്ട്രോക്ക് അവരെ എല്ലാവരും അങ്ങനെ തന്നേ മുതലായവ ചെയ്യണമെങ്കിൽ ഈ അസൗകര്യം വരാം</p>
+            </dd>
+            <dt>
+              <span class="term">തിരഞ്ഞെടുക്കുന്നതിലേക്ക് പാത; തിരഞ്ഞെടുക്കലിലേക്ക് ചേർക്കുക; തിരഞ്ഞെടുത്തതിന്റെ നിന്ന് കുറയ്ക്കേണ്ട; തിരഞ്ഞെടുക്കൽ ഉപയോഗിച്ച് കൂട്ടിമുട്ടുന്ന</span>
+            </dt>
+            <dd>
+              <a id="gimp-path-selection-add"></a>
+              <a id="gimp-path-selection-subtract"></a>
+              <a id="gimp-path-selection-intersect"></a>
+              <p>ഈ കമാൻഡുകൾ എല്ലാം ഒരു നിര സജീവ പാത പരിവർത്തനം, തുടർന്ന് വ്യക്തമാക്കിയ വഴികളിൽ നിലവിലുള്ള നിരക്കു അത് സംയോജിപ്പിക്കുക. (<span class="quote">“<span class="quote">Path to Selection</span>”</span> നിലവിലുള്ള നിരക്കു ഉപേക്ഷിച്ച് മാർഗത്തിൽ നിന്ന് രൂപം ഒറ്റ അതിന് പകരം.) ആവശ്യമെങ്കിൽ, മാർഗ്ഗത്തിൽ ഏതൊരു അടയ്ക്കാത്ത ഘടകങ്ങൾ ഒരു വര ആദ്യ ആങ്കർ പോയിന്റ് അവസാന ആങ്കർ പോയിന്റ് ബന്ധിപ്പിച്ചുകൊണ്ട് അടച്ചുകഴിഞ്ഞു. തത്ഫലമായുണ്ടാകുന്ന നിരക്കു വേണ്ടി <span class="quote">“<span class="quote">marching ants</span>”</span> അടുത്തുനിന്ന് പാത പിന്തുടരുക, എന്നാൽ എഴുത്തുകുത്തുകളും തികഞ്ഞ പ്രതീക്ഷിക്കുന്നില്ല.</p>
+            </dd>
+            <dt>
+              <span class="term">പാതയിലേക്കും തിരഞ്ഞെടുക്കൽ</span>
+            </dt>
+            <dd>
+              <a id="selection-to-path"></a>
+              <p>ഈ പ്രവർത്തനം നിരവധി വഴികളിൽ ആക്സസ് ചെയ്യാം:</p>
+              <div class="itemizedlist">
+                <ul class="itemizedlist" style="list-style-type: disc; ">
+                  <li class="listitem">
+                    <p>, ഒരു ഇമേജ് മെനുബാർ നിന്നും <span class="guimenu">Select</span> → <span class="guimenuitem">To Path</span> ആയി</p>
+                  </li>
+                  <li class="listitem">
+                    <p>, വഴികൾ ഡയലോഗ് മെനുവിൽ നിന്നും <span class="guimenuitem">Selection to Path</span> ആയി.</p>
+                  </li>
+                  <li class="listitem">
+                    <p>വഴികളിലേക്ക് ഡയലോഗ് താഴെയുള്ള <span class="guilabel">Selection to Path</span> ബട്ടൺ <span class="guiicon"><img src="images/dialogs/stock-selection-to-path-16. png" /></span> നിന്ന്.</p>
+                  </li>
+                </ul>
+              </div>
+              <p><span class="guilabel">Selection to Path</span> ചിത്രം ൻറെ നിരക്കു നിന്ന് ഒരു പുതിയ പാത സൃഷ്ടിക്കുന്നു. മിക്കപ്പോഴും ഫലമായുണ്ടാകുന്ന പാത്ത് അടുത്തുനിന്ന് തിരഞ്ഞെടുപ്പിന്റെ <span class="quote">“<span class="quote">marching ants</span>”</span> പിന്തുടരും; എങ്കിലും കത്തുകളിൽ സാധാരണയായി തികഞ്ഞ കഴിയില്ല.</p>
+              <p>ഒരു ഏകമാന പാതയിലേക്ക് ഒരു ദ്വിമാന നിരക്കു മാസ്ക് മാറ്റുമ്പോൾ ചില പകരം മാറിമറിഞ്ഞത് അൽഗോരിതങ്ങൾ കേന്ദ്രീകരിക്കുന്നു: നിങ്ങൾ ചുവടെയുള്ള <span class="guilabel">Selection to Path</span> ബട്ടൺ <span class="guiicon"><img src="images/dialogs/stock-selection-to-path-16.png" /></span> അമർത്തിക്കൊണ്ട് <span class="keycap"><strong>Shift</strong></span> കീ പിടിച്ച് ലഭ്യമാക്കുന്ന അതു <span class="guilabel">Advanced Options</span> ഉപയോഗിച്ച് നടക്കുന്ന വഴി, ഭേദഗതി പാഥുകൾ ഡയലോഗ്. നിങ്ങൾക്ക് എല്ലാ നിഗൂഢ പേരുകൾ, 20 വ്യത്യസ്ത ഓപ്ഷനുകൾ ചരങ്ങളും സജ്ജമാക്കാൻ അനുവദിക്കുന്ന വിപുലമായ ഓപ്ഷനുകൾ ഡയലോഗ്, ചെയ്യുന്നു. വിപുലമായ ഓപ്ഷനുകൾ ശരിക്കും ഡെവലപ്പർമാർക്ക് മാത്രമേ ഉദ്ദേശിച്ചിട്ടുള്ള, അവരോട് സഹായിക്കാൻ ഈ ഡോക്യുമെന്റേഷൻ പാഠത്ത് പോകുന്നു. പൊതുവെ പറഞ്ഞാൽ, <span class="guilabel">Selection to Path</span> അതിൽ നിങ്ങൾ പ്രതീക്ഷിക്കുന്നില്ല എന്തു ചെയ്യും, നിങ്ങൾ (നിങ്ങൾ ആഗ്രഹിക്കുന്ന പക്ഷം) എങ്ങനെ അതു ചെയ്തു വിഷമിക്കേണ്ടതില്ല ആവശ്യമില്ല.</p>
+            </dd>
+            <dt>
+              <span class="term">സ്ട്രോക്ക് പാത</span>
+            </dt>
+            <dd>
+              <a id="gimp-path-dialog-stroke"></a>
+              <p>ഈ പ്രവർത്തനം നിരവധി വഴികളിൽ ആക്സസ് ചെയ്യാം:</p>
+              <div class="itemizedlist">
+                <ul class="itemizedlist" style="list-style-type: disc; ">
+                  <li class="listitem">
+                    <p>, ഒരു ഇമേജ് മെനുബാർ നിന്നും <span class="guimenu">Edit</span> → <span class="guimenuitem">Stroke Path</span> ആയി</p>
+                  </li>
+                  <li class="listitem">
+                    <p>, വഴികൾ ഡയലോഗ് മെനുവിൽ നിന്നും <span class="guimenuitem">Stroke Path</span> ആയി.</p>
+                  </li>
+                  <li class="listitem">
+                    <p>വഴികളിലേക്ക് ഡയലോഗ് താഴെയുള്ള <span class="guilabel">Paint along the path</span> ബട്ടൺ <span class="guiicon"><img src="images/dialogs/stock-path-stroke-16.png" /></span> നിന്ന്.</p>
+                  </li>
+                  <li class="listitem">
+                    <p>പാത ടൂളിനായി ടൂൾ ഓപ്ഷനുകൾ ൽ <span class="guilabel">Stroke Path</span> ബട്ടണിൽ നിന്ന്.</p>
+                  </li>
+                </ul>
+              </div>
+              <p><span class="quote">“<span class="quote">Stroke Path</span>”</span> ലൈൻ ശൈലികളും അതാണെന്ന് ഓപ്ഷനുകൾ വൈവിധ്യമാർന്ന അനുമതി, ചിത്രത്തിന്റെ സജീവ പാളി സജീവമായ പാത റെൻഡർ. കൂടുതൽ വിവരങ്ങൾക്ക് <a class="link" href="gimp-selection-stroke.html" title="3.17. സ്ട്രോക്ക് തിരഞ്ഞെടുക്കൽ">Stroking</a> വിഭാഗം കാണുക.</p>
+            </dd>
+            <dt>
+              <span class="term">വഴിയും പകർത്തുക</span>
+            </dt>
+            <dd>
+              <a id="gimp-path-copy"></a>
+              <p><span class="guilabel">Copy Path</span> പകർപ്പുകൾ വഴികളിലേക്ക് ക്ലിപ്ബോർഡ് ലേക്ക് സജീവ പാത്ത്, മറ്റൊരു ചിത്രം ഒട്ടിക്കുകയും പ്രാപ്തരാക്കുകയെന്ന.</p>
+              <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+                <table border="0" summary="Tip">
+                  <tr>
+                    <td rowspan="2" align="center" valign="top" width="25">
+                      <img alt="[സൂചന]" src="images/tip.png" />
+                    </td>
+                    <th align="left">സൂചന</th>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top">
+                      <p>നിങ്ങൾക്ക് പകർത്തി ടാർഗെറ്റ് ചിത്രം പ്രദർശന കടന്നു വഴികളിലേക്ക് ഡയലോഗ് നിന്ന് അതിന്റെ ഐക്കൺ ഇഴച്ച് ഒരു പാത്ത് ഒട്ടിക്കാൻ കഴിയും.</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+                <table border="0" summary="Note">
+                  <tr>
+                    <td rowspan="2" align="center" valign="top" width="25">
+                      <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                    </td>
+                    <th align="left">കുറിപ്പു്</th>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top">
+                      <p>നിങ്ങൾ ഒരു ഇമേജ് ഒരു വഴിയും പകർത്തുക, അത് കാണാൻ കഴിയില്ല. നിങ്ങൾ പാത ഡയലോഗിൽ ദൃശ്യമാക്കാൻ ഞങ്ങൾക്കുണ്ട്.</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">ഒട്ടിക്കുക പാത</span>
+            </dt>
+            <dd>
+              <a id="gimp-path-paste"></a>
+              <p><span class="guilabel">Paste Path</span> പാത ക്ലിപ്ബോർഡ് ഉളളടക്കം നിന്ന് ഒരു പുതിയ പാത സൃഷ്ടിക്കുന്നു, വഴികൾ ഡയലോഗിൽ ലിസ്റ്റിൽ ചേർക്കുന്നു, അതു ഇമേജ് സജീവ പാത ചെയ്യുന്നു. പാതയൊന്നും മുമ്പ് ക്ലിപ്പ്ബോർഡിലേക്ക് പകർത്തി എങ്കിൽ, മെനു എൻട്രി സംവേദനക്ഷമരഹിത ആയിരിക്കും.</p>
+            </dd>
+            <dt>
+              <span class="term">ഇംപോർട്ട് പാത</span>
+            </dt>
+            <dd>
+              <a id="gimp-path-import"></a>
+              <p><span class="guilabel">Import Path</span> എസ്.വി.ജി. ഫയലിൽ നിന്നും ഒരു പുതിയ പാത സൃഷ്ടിക്കുന്നു: അത് നിങ്ങൾക്ക് ഫയൽ നാവിഗേറ്റ് അനുവദിക്കുന്ന ഒരു ഫയൽ തിരഞ്ഞെടുക്കൽ ഡയലോഗ് മാറികിട്ടി. എസ്.വി.ജി. ഫയലുകൾ വിവരങ്ങൾ അവർ എങ്ങനെ ജിമ്പ് പാതകൾ നൽകിക്കൊണ്ടിരിക്കുന്നത് വേണ്ടി <a class="link" href="gimp-using-paths.html#gimp-concepts-paths">Paths </a> വിഭാഗം കാണുക.</p>
+            </dd>
+            <dt>
+              <span class="term">കയറ്റുമതി പാത</span>
+            </dt>
+            <dd>
+              <p><span class="guilabel">Export Path</span> ഒരു ഫയൽ പാത്ത് സംരക്ഷിക്കാൻ അനുവദിക്കുന്നു: അതു നിങ്ങൾ ഫയൽ പേരും സ്ഥലവും വ്യക്തമാക്കാൻ അനുവദിക്കുന്ന ഡയലോഗ് സംരക്ഷിക്കുക ഒരു ഫയൽ മാറികിട്ടി. നിങ്ങൾക്ക് പിന്നീട് <span class="guilabel">Import Path</span> കമാൻഡ് ഉപയോഗിച്ച് ഏത് ജിമ്പ് ഇമേജ് ഈ പാത ചേർക്കാൻ കഴിയും. പാതകൾ സംരക്ഷിക്കുന്നത് ഉപയോഗിക്കുന്ന ഫോർമാറ്റ് എസ്.വി.ജി.; ഈ അത്തരം <span class="application">Sodipodi</span> അല്ലെങ്കിൽ <span class="application">Inkscape</span> വെക്റ്റർ-ഗ്രാഫിക്സ് പ്രോഗ്രാമുകളും നിങ്ങൾ സംരക്ഷിക്കുക പാതകളെ ഇംപോർട്ട് കഴിയും എന്നാണ്. എങ്ങനെയാണ് അവർ ജിമ്പ് പാതകളെ നൽകിക്കൊണ്ടിരിക്കുന്നത് എസ്.വി.ജി. ഫയലുകൾ കൂടുതൽ വിവരങ്ങൾക്ക് <a class="link" href="">Paths</a> വിഭാഗം കാണുക.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-channel-dialog.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-dialogs-structure.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-indexed-palette-dialog.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-channel-dialog.html">2.2. ചാനലുകൾ സംഭാഷണം</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-indexed-palette-dialog.html">2.4. Colormap സംഭാഷണം</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

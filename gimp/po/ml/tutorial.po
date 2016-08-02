@@ -1,0 +1,1829 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP-Help 2.8.0\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
+"PO-Revision-Date: 2012-06-01 12:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:56(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-scale-example.jpg'; "
+"md5=ff3357282cec1d50fd9cd93466cdb033"
+msgstr ""
+"@@image: 'images/tutorials/quickie-scale-example.jpg'; "
+"md5=ff3357282cec1d50fd9cd93466cdb033"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:79(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-scale-menu.png'; "
+"md5=7dd684a488ee68beeb31810d6db99ab1"
+msgstr ""
+"@@image: 'images/tutorials/quickie-scale-menu.png'; "
+"md5=7dd684a488ee68beeb31810d6db99ab1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:99(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-scale-dialog.png'; "
+"md5=143ada1e8f2fd173d211240c5bb8871e"
+msgstr ""
+"@@image: 'images/tutorials/quickie-scale-dialog.png'; "
+"md5=143ada1e8f2fd173d211240c5bb8871e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:179(None)
+msgid ""
+"@@image: 'images/menus/image/print-size.png'; "
+"md5=5586f708f5f46b043bbeab776f0b4f22"
+msgstr ""
+"@@image: 'images/menus/image/print-size.png'; "
+"md5=5586f708f5f46b043bbeab776f0b4f22"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:199(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-jpeg-example.jpg'; "
+"md5=33fbc8be360de62af1a9132bd49ba639"
+msgstr ""
+"@@image: 'images/tutorials/quickie-jpeg-example.jpg'; "
+"md5=33fbc8be360de62af1a9132bd49ba639"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:226(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-save-image-dialog-file-type.png'; "
+"md5=9c0e39c75fda265c73c822d3bbdf27b9"
+msgstr ""
+"@@image: 'images/tutorials/quickie-save-image-dialog-file-type.png'; "
+"md5=9c0e39c75fda265c73c822d3bbdf27b9"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:253(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-jpeg-dialog.png'; "
+"md5=5ec04fb0b23c86df90ebba3b97a1293f"
+msgstr ""
+"@@image: 'images/tutorials/quickie-jpeg-dialog.png'; "
+"md5=5ec04fb0b23c86df90ebba3b97a1293f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:273(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-jpeg-dialog2.png'; "
+"md5=b3d3b09a714347b6778782ecd7bfae7e"
+msgstr ""
+"@@image: 'images/tutorials/quickie-jpeg-dialog2.png'; "
+"md5=b3d3b09a714347b6778782ecd7bfae7e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:286(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-jpeg-010.jpg'; "
+"md5=e02624e2e374144e66e950547c9f8f3d"
+msgstr ""
+"@@image: 'images/tutorials/quickie-jpeg-010.jpg'; "
+"md5=e02624e2e374144e66e950547c9f8f3d"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:295(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-jpeg-040.jpg'; "
+"md5=74f1e95a71d6f39e1ba8561753d32e89"
+msgstr ""
+"@@image: 'images/tutorials/quickie-jpeg-040.jpg'; "
+"md5=74f1e95a71d6f39e1ba8561753d32e89"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:307(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-jpeg-070.jpg'; "
+"md5=f5a33f42be5135e4f393ceb91e67c84e"
+msgstr ""
+"@@image: 'images/tutorials/quickie-jpeg-070.jpg'; "
+"md5=f5a33f42be5135e4f393ceb91e67c84e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:316(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-jpeg-100.jpg'; "
+"md5=33fbc8be360de62af1a9132bd49ba639"
+msgstr ""
+"@@image: 'images/tutorials/quickie-jpeg-100.jpg'; "
+"md5=33fbc8be360de62af1a9132bd49ba639"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:340(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-crop-example-source.jpg'; "
+"md5=405173022a4087a9cda63b358acda509"
+msgstr ""
+"@@image: 'images/tutorials/quickie-crop-example-source.jpg'; "
+"md5=405173022a4087a9cda63b358acda509"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:349(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-crop-example-result.jpg'; "
+"md5=c36352f2c96136520fab8ec2dbc60f47"
+msgstr ""
+"@@image: 'images/tutorials/quickie-crop-example-result.jpg'; "
+"md5=c36352f2c96136520fab8ec2dbc60f47"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:364(None)
+msgid ""
+"@@image: 'images/toolbox/stock-tool-crop-22.png'; "
+"md5=148a156af4095f15ee36da5be9adf061"
+msgstr ""
+"@@image: 'images/toolbox/stock-tool-crop-22.png'; "
+"md5=148a156af4095f15ee36da5be9adf061"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:381(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-crop-step1.png'; "
+"md5=bbfb4ce042a4c32d51eb3eb9416c3719"
+msgstr ""
+"@@image: 'images/tutorials/quickie-crop-step1.png'; "
+"md5=bbfb4ce042a4c32d51eb3eb9416c3719"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:395(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-crop-options.png'; "
+"md5=88309cff99bee6d975c400bf7b9561c3"
+msgstr ""
+"@@image: 'images/tutorials/quickie-crop-options.png'; "
+"md5=88309cff99bee6d975c400bf7b9561c3"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:401(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-crop-step2.png'; "
+"md5=d8d5eb7a7901fce26b96addc722cde4b"
+msgstr ""
+"@@image: 'images/tutorials/quickie-crop-step2.png'; "
+"md5=d8d5eb7a7901fce26b96addc722cde4b"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:444(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-info-menu.png'; "
+"md5=6c6db7e2bc28487f9971519d620a7a57"
+msgstr ""
+"@@image: 'images/tutorials/quickie-info-menu.png'; "
+"md5=6c6db7e2bc28487f9971519d620a7a57"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:462(None)
+msgid ""
+"@@image: 'images/menus/image/properties.png'; "
+"md5=61b3bf928e9a255ba42c0090a3886c1a"
+msgstr ""
+"@@image: 'images/menus/image/properties.png'; "
+"md5=61b3bf928e9a255ba42c0090a3886c1a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:492(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-mode-menu.png'; "
+"md5=1d726532f7e258175d2cc6bcc8c9bdd1"
+msgstr ""
+"@@image: 'images/tutorials/quickie-mode-menu.png'; "
+"md5=1d726532f7e258175d2cc6bcc8c9bdd1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:520(None)
+msgid ""
+"@@image: 'images/dialogs/image-mode-indexed.png'; "
+"md5=58dfaf3a53485abad08eab635cf83d56"
+msgstr ""
+"@@image: 'images/dialogs/image-mode-indexed.png'; "
+"md5=58dfaf3a53485abad08eab635cf83d56"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:544(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-mode-alpha.png'; "
+"md5=a515007b922f7d5b2c71b3988633046f"
+msgstr ""
+"@@image: 'images/tutorials/quickie-mode-alpha.png'; "
+"md5=a515007b922f7d5b2c71b3988633046f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:580(None)
+msgid ""
+"@@image: 'images/toolbox/stock-tool-flip-22.png'; "
+"md5=62e64c8d29f95337512d3a8b20871ab2"
+msgstr ""
+"@@image: 'images/toolbox/stock-tool-flip-22.png'; "
+"md5=62e64c8d29f95337512d3a8b20871ab2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:593(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-flip-menu.png'; "
+"md5=669a211b1843add05c9e485f404f3f0e"
+msgstr ""
+"@@image: 'images/tutorials/quickie-flip-menu.png'; "
+"md5=669a211b1843add05c9e485f404f3f0e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:613(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-flip-example-source.jpg'; "
+"md5=a3c8c8e97a05b904db85a5ef483a4949"
+msgstr ""
+"@@image: 'images/tutorials/quickie-flip-example-source.jpg'; "
+"md5=a3c8c8e97a05b904db85a5ef483a4949"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:622(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-flip-example-horizontal.jpg'; "
+"md5=c4225e2be88d9af0fef853d29c48ccc1"
+msgstr ""
+"@@image: 'images/tutorials/quickie-flip-example-horizontal.jpg'; "
+"md5=c4225e2be88d9af0fef853d29c48ccc1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:633(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-flip-example-vertical.jpg'; "
+"md5=e57eebe1a12f8c94a9ff9d9421cf8a03"
+msgstr ""
+"@@image: 'images/tutorials/quickie-flip-example-vertical.jpg'; "
+"md5=e57eebe1a12f8c94a9ff9d9421cf8a03"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:642(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-flip-example-horizontal-and-vertical."
+"jpg'; md5=ccd9e437b681930a441509e77742ded9"
+msgstr ""
+"@@image: 'images/tutorials/quickie-flip-example-horizontal-and-vertical."
+"jpg'; md5=ccd9e437b681930a441509e77742ded9"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:668(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-rotate-menu.png'; "
+"md5=d8f5c101350e858912ffefdbe16b5812"
+msgstr ""
+"@@image: 'images/tutorials/quickie-rotate-menu.png'; "
+"md5=d8f5c101350e858912ffefdbe16b5812"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:688(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-rotate-example-source.jpg'; "
+"md5=17221b2ad520163207b40dfc9b2f06f8"
+msgstr ""
+"@@image: 'images/tutorials/quickie-rotate-example-source.jpg'; "
+"md5=17221b2ad520163207b40dfc9b2f06f8"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:697(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-rotate-example-90-CCW.jpg'; "
+"md5=7077898e7b762cce8a6e5a48a4e8d675"
+msgstr ""
+"@@image: 'images/tutorials/quickie-rotate-example-90-CCW.jpg'; "
+"md5=7077898e7b762cce8a6e5a48a4e8d675"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:717(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-remove-background-source.jpg'; "
+"md5=d5511e921aea308c573ecee67b5c2889"
+msgstr ""
+"@@image: 'images/tutorials/quickie-remove-background-source.jpg'; "
+"md5=d5511e921aea308c573ecee67b5c2889"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:738(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-lasso.png'; "
+"md5=417ef9ff0b6df339426b006afe6f2b23"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-lasso.png'; "
+"md5=417ef9ff0b6df339426b006afe6f2b23"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:744(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-background-free-select.jpg'; "
+"md5=37dc6fea0a5854228d41fe580cef1c50"
+msgstr ""
+"@@image: 'images/tutorials/quickie-background-free-select.jpg'; "
+"md5=37dc6fea0a5854228d41fe580cef1c50"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:760(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-scissor.png'; "
+"md5=e9cc77ef13ef76cd8dbec23e6368b3fe"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-scissor.png'; "
+"md5=e9cc77ef13ef76cd8dbec23e6368b3fe"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:766(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-background-scissors.jpg'; "
+"md5=5072fff513efb00af2db905dda7b9731"
+msgstr ""
+"@@image: 'images/tutorials/quickie-background-scissors.jpg'; "
+"md5=5072fff513efb00af2db905dda7b9731"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:781(None)
+msgid ""
+"@@image: 'images/toolbox/FG-select-toolbox.png'; "
+"md5=b9b912bf0ed432330dbdb5e45d203c6e"
+msgstr ""
+"@@image: 'images/toolbox/FG-select-toolbox.png'; "
+"md5=b9b912bf0ed432330dbdb5e45d203c6e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:787(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-background-foreground-select.jpg'; "
+"md5=45c41f17d30147a85c472f3d5ba851d3"
+msgstr ""
+"@@image: 'images/tutorials/quickie-background-foreground-select.jpg'; "
+"md5=45c41f17d30147a85c472f3d5ba851d3"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:815(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-background-color-result.png'; "
+"md5=35239efb8b100aac8aa5e206ae5b9813"
+msgstr ""
+"@@image: 'images/tutorials/quickie-background-color-result.png'; "
+"md5=35239efb8b100aac8aa5e206ae5b9813"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:841(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-background-alpha-result.png'; "
+"md5=b570436e2a6b442464e6ea90a6a56f4a"
+msgstr ""
+"@@image: 'images/tutorials/quickie-background-alpha-result.png'; "
+"md5=b570436e2a6b442464e6ea90a6a56f4a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:862(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-background-desaturate-result.png'; "
+"md5=609a6ee80ada28aa22a5ce34207aa6eb"
+msgstr ""
+"@@image: 'images/tutorials/quickie-background-desaturate-result.png'; "
+"md5=609a6ee80ada28aa22a5ce34207aa6eb"
+
+#: src/tutorial/quickies.xml:10(title)
+msgid "Common Tasks"
+msgstr ""
+"സാധാരണ ജോലികൾ"
+
+#: src/tutorial/quickies.xml:12(primary) src/tutorial/quickies.xml:40(primary)
+#: src/tutorial/quickies.xml:139(primary)
+#: src/tutorial/quickies.xml:188(primary)
+#: src/tutorial/quickies.xml:328(primary)
+#: src/tutorial/quickies.xml:432(primary)
+#: src/tutorial/quickies.xml:471(primary)
+#: src/tutorial/quickies.xml:563(primary)
+#: src/tutorial/quickies.xml:655(primary)
+#: src/tutorial/quickies.xml:709(primary)
+#: src/tutorial/straight-lines.xml:15(primary)
+msgid "Tutorial"
+msgstr ""
+"ട്യൂട്ടോറിയൽ"
+
+#: src/tutorial/quickies.xml:14(para)
+msgid ""
+"This tutorial is based on text Copyright © 2004 Carol Spears. The original "
+"tutorial can be found online: <xref linkend=\"bibliography-online-"
+"tutorial02\"/>."
+msgstr ""
+"ഈ ട്യൂട്ടോറിയൽ ടെക്സ്റ്റ് പകർപ്പവകാശം © 2004 കരോൾ കുന്തം അടിസ്ഥാനമാക്കിയു"
+"ള്ളതാണ്. യഥാർത്ഥ ട്യൂട്ടോറിയൽ ഓൺലൈനിൽ കാണാനായി: <xref linkend=\"bibliograp"
+"hy-online- tutorial02\" />."
+
+#: src/tutorial/quickies.xml:18(title)
+#: src/tutorial/straight-lines.xml:28(title)
+msgid "Intention"
+msgstr ""
+"ഉദ്ദേശം"
+
+#: src/tutorial/quickies.xml:19(para)
+msgid ""
+"<acronym>GIMP</acronym> is a powerful image editing program with many "
+"options and tools. However, it is also well suited for smaller tasks. The "
+"following tutorials are meant for those who want to achieve these common "
+"tasks without having to learn all the intricacies of <acronym>GIMP</acronym> "
+"and computer graphics in general."
+msgstr ""
+"<acronym>GIMP</acronym> നിരവധി ഓപ്ഷനുകൾ ഉപകരണങ്ങളും ഉള്ള ശക്തമായ ഇമേജ് എഡിറ"
+"്റിംഗ് പ്രോഗ്രാം ആണ്. എന്നിരുന്നാലും, ചെറിയ ചെറിയ ചുമതലകൾ വളരെ ഉചിതമാകുന്ന"
+"ു. താഴെ ട്യൂട്ടോറിയലുകൾ പൊതുവെ <acronym>GIMP</acronym> എല്ലാ െൻ കമ്പ്യൂട്"
+"ടർ ഗ്രാഫിക്സ് പഠിക്കാൻ ഇല്ലാതെ പൊതുവായ ഈ ചുമതലകൾ നേടാൻ ആഗ്രഹിക്കുന്നവർക്ക്"
+" നടപ്പിലാക്കുന്നത്."
+
+#: src/tutorial/quickies.xml:25(para)
+msgid ""
+"Hopefully, these tutorials will not only help you with your current task, "
+"but also get you ready to learn more complex tools and methods later, when "
+"you have the time and inspiration."
+msgstr ""
+"ഭാഗ്യവശാൽ ഈ ട്യൂട്ടോറിയലുകൾ നിങ്ങളുടെ നിലവിലെ ദൗത്യം നിങ്ങളെ സഹായിക്കും മാ"
+"ത്രമല്ല, മാത്രമല്ല നിങ്ങളുടെ സമയം പ്രചോദനവും ഉണ്ടെങ്കിൽ, നിങ്ങൾ പിന്നീട് സ"
+"ങ്കീർണ്ണമായ ഉപകരണങ്ങളും രീതികളും പഠിക്കാൻ തയ്യാറാവുക."
+
+#: src/tutorial/quickies.xml:29(para)
+msgid ""
+"All you need to know to start this tutorial, is how to find and open your "
+"image. ( <menuchoice moreinfo=\"none\"><guimenu moreinfo=\"none\">File</"
+"guimenu><guimenuitem moreinfo=\"none\">Open</guimenuitem></menuchoice> from "
+"the Image window)."
+msgstr ""
+"ഈ ട്യൂട്ടോറിയൽ ആരംഭിക്കുക അറിയേണ്ടതെല്ലാം എല്ലാ കണ്ടെത്താനും തുറക്കാൻ എങ്ങ"
+"നെ നിങ്ങളുടെ ചിത്രം. (ചിത്രം വിൻഡോയിൽ നിന്ന് <menuchoice moreinfo=\"none\""
+"><guimenu moreinfo=\"none\">File</guimenu><guimenuitem moreinfo=\"none\">Op"
+"en</guimenuitem></menuchoice>)."
+
+#: src/tutorial/quickies.xml:38(title)
+msgid "Change the Size of an Image for the screen"
+msgstr ""
+"സ്ക്രീൻ ഒരു ചിത്രത്തിന്റെ വലുപ്പം മാറ്റുക"
+
+#: src/tutorial/quickies.xml:43(primary)
+#: src/tutorial/quickies.xml:142(primary)
+#: src/tutorial/quickies.xml:191(primary)
+#: src/tutorial/quickies.xml:331(primary)
+#: src/tutorial/quickies.xml:435(primary)
+#: src/tutorial/quickies.xml:474(primary)
+#: src/tutorial/quickies.xml:566(primary)
+#: src/tutorial/quickies.xml:658(primary)
+msgid "Image"
+msgstr ""
+"ചിത്രം"
+
+#: src/tutorial/quickies.xml:44(secondary)
+msgid "Scale"
+msgstr ""
+"സ്കെയിൽ"
+
+#: src/tutorial/quickies.xml:47(para)
+msgid ""
+"You have a huge image, possibly from a digital camera, and you want to "
+"resize it so that it displays nicely on a web page, online board or email "
+"message."
+msgstr ""
+"നിങ്ങൾ സാദ്ധ്യമാകുന്ന ഡിജിറ്റൽ ക്യാമറയിൽ നിന്നും വൻ ചിത്രം, ഉണ്ട്, കൂടാതെ ന"
+"ിങ്ങൾ ഒരു വെബ് പേജ്, ഓൺലൈൻ ബോർഡ് അല്ലെങ്കിൽ ഇമെയിൽ സന്ദേശം അത് നന്നായി പ്ര"
+"ദർശിപ്പിക്കുന്ന അങ്ങനെ അത് വലുപ്പം ആഗ്രഹിക്കുന്നു."
+
+#: src/tutorial/quickies.xml:52(title)
+msgid "Example Image for Scaling"
+msgstr ""
+"സ്കേലിങ് ഉദാഹരണത്തിന് ചിത്രം"
+
+#: src/tutorial/quickies.xml:61(para)
+msgid ""
+"The first thing that you might notice after opening the image, is that "
+"<acronym>GIMP</acronym> opens the image at a logical size for viewing. If "
+"your image is very large, like the sample image, <acronym>GIMP</acronym> "
+"sets the zoom so that it displays nicely on the screen. The zoom level is "
+"shown in the status area at the bottom of the Image window. This does not "
+"change the actual image."
+msgstr ""
+"ഇമേജ് തുടങ്ങിയതിനു ശേഷം ശ്രദ്ധിച്ചിരിക്കാനിടയുണ്ട് ആദ്യം കാര്യം, <acronym>G"
+"IMP</acronym> കാണുന്നതിനായി ഒരു ലോജിക്കൽ വലുപ്പത്തിൽ ഇമേജ് തുറക്കുന്നു ആണ്"
+". നിങ്ങളുടെ ഇമേജ് സാമ്പിൾ ചിത്രം പോലെ, വളരെ വലിയ ആണെങ്കിൽ, അത് സ്ക്രീൻ അത്"
+" നന്നായി പ്രദർശിപ്പിക്കുന്ന അങ്ങനെ <acronym>GIMP</acronym> സൂം സജ്ജമാക്കുന്"
+"നു. സൂം നില ഇമേജ് വിൻഡോയുടെ താഴെയുള്ള സ്റ്റാറ്റസ് ഏരിയയിൽ കൊടുത്തിരിക്കുന"
+"്നു. ഈ യഥാർത്ഥ ചിത്രം മാറ്റാൻ ഇല്ല."
+
+#: src/tutorial/quickies.xml:69(para)
+msgid ""
+"The other thing to look at in the title-bar is the mode. If the mode shows "
+"as RGB in the title bar, you are fine. If the mode says <guilabel> Indexed</"
+"guilabel> or <guilabel>Grayscale</guilabel>, read the <xref linkend=\"gimp-"
+"tutorial-quickie-change-mode\"/>."
+msgstr ""
+"ശീർഷകം-ബാറിലെ നോക്കണം മറ്റൊരു കാര്യം മോഡ്. മോഡിൽ ശീർഷകം ബാറിൽ ആർജിബി കാ"
+"ണിക്കുന്ന പക്ഷം ഗദ. മോഡ് <guilabel> Indexed</guilabel> അല്ലെങ്കിൽ <guilabe"
+"l>Grayscale</guilabel> പറയുന്നു എങ്കിൽ, <xref linkend=\"gimp- tutorial-quic"
+"kie-change-mode\" /> വായിക്കുക."
+
+#: src/tutorial/quickies.xml:75(title)
+msgid "GIMP Used for Image Scaling"
+msgstr ""
+"ജിമ്പ് ഇമേജ് സ്കേലിങ് ഉപയോഗിച്ചു"
+
+#: src/tutorial/quickies.xml:84(para)
+msgid ""
+"Use <menuchoice moreinfo=\"none\"><guimenu moreinfo=\"none\">Image</"
+"guimenu><guimenuitem moreinfo=\"none\">Scale Image</guimenuitem></"
+"menuchoice> to open the <quote>Scale Image</quote> dialog. You can right "
+"click on the image to open the menu, or use the menu along the top of the "
+"Image window. Notice that the <quote>Scale Image</quote> menu item contains "
+"three dots, which is a hint that a dialog will be opened."
+msgstr ""
+"<quote>Scale Image</quote> ഡയലോഗ് തുറക്കാൻ <menuchoice moreinfo=\"none\"><"
+"guimenu moreinfo=\"none\">Image</guimenu><guimenuitem moreinfo=\"none\">Sca"
+"le Image</guimenuitem></menuchoice> ഉപയോഗിക്കുക. നിങ്ങൾ മെനു തുറക്കുന്നതിന"
+"് ഇമേജിൽ ക്ലിക്ക് അല്ലെങ്കിൽ ചിത്രത്തിന്റെ വിൻഡോയുടെ മുകളിൽ സഹിതം മെനു ഉപയ"
+"ോഗിക്കുക കഴിയും. <quote>Scale Image</quote> മെനു ഇനം ഒരു ഡയലോഗ് തുറക്കും "
+"ഒരു സൂചന മാത്രമാണ് മൂന്നു കുത്തുകൾ, അടങ്ങുന്ന ശ്രദ്ധിക്കുക."
+
+#: src/tutorial/quickies.xml:95(title)
+msgid "Dialog for Image Scaling in Pixels"
+msgstr ""
+"പിക്സലിൽ ചിത്രം സ്കേലിങ് ഡയലോഗ്"
+
+#: src/tutorial/quickies.xml:104(para)
+msgid ""
+"The unit of size for the purpose of displaying an image on a screen is the "
+"pixel. You can see the dialog has two sections: one for <guilabel moreinfo="
+"\"none\">width</guilabel> and <guilabel moreinfo=\"none\">height</guilabel> "
+"and another for <guilabel moreinfo=\"none\">resolution</guilabel>. "
+"Resolution applies to printing only and has no effect on the image's size "
+"when it is displayed on a monitor or a mobile device. The reason is that "
+"different devices have different pixels sizes and so, an image that displays "
+"on one device (such as a smartphone) with a certain physical size, might "
+"display on other devices (such as an LCD projector) in another size "
+"altogether. For the purpose of displaying an image on a screen, you can "
+"ignore the resolution parameter. For the same reason, do not use any size "
+"unit other than the pixel in the height / width fields."
+msgstr ""
+"ഒരു സ്ക്രീനിൽ ഒരു ചിത്രം പ്രദർശിപ്പിക്കുന്നത് ഉദ്ദേശ്യം വലിപ്പം യൂണിറ്റ് പി"
+"ക്സലാണെന്നും. <guilabel moreinfo=\"none\">width</guilabel> ആൻഡ് <guilabel m"
+"oreinfo=\"none\">height</guilabel> ഒന്ന് <guilabel moreinfo=\"none\">resolu"
+"tion</guilabel> മറ്റൊരു: ഡയലോഗ് രണ്ടു വിഭാഗങ്ങളുണ്ട് കാണാൻ കഴിയും. മിഴിവ്"
+" മാത്രം അച്ചടിക്കുന്നതിനുള്ള ബാധകമാണ് അത് ഒരു മോണിറ്റർ അല്ലെങ്കിൽ ഒരു മൊബ"
+"ൈൽ ഉപകരണത്തിൽ പ്രദർശിപ്പിക്കുമ്പോഴല്ല ചിത്രം വലിപ്പത്തിന് ബാധകമാകുന്നില്ല."
+" കാരണം വ്യത്യസ്ത ഉപകരണങ്ങൾ വ്യത്യസ്ത പിക്സൽ വലുപ്പങ്ങളാണുള്ളത് അങ്ങനെ, ഒരു "
+"ഫിസിക്കൽ വലിപ്പം (ഒരു സ്മാർട്ട്ഫോൺ പോലുള്ള) ഒരു ഉപകരണത്തിൽ പ്രദർശിപ്പിക്ക"
+"ുന്ന ഒരു ചിത്രം, (പോലുള്ള ഒരു എൽസിഡി പ്രൊജക്ടർ) മറ്റ് ഉപകരണങ്ങളിൽ മറ്റൊര"
+"ു വലിപ്പം വേണ്ടുംവണ്ണം പ്രദർശിപ്പിക്കാം എന്നതാണ്. ഒരു സ്ക്രീനിൽ ഒരു ചിത്രം "
+"പ്രദർശിപ്പിക്കുന്നത് ആവശ്യത്തിലേക്കായി, നിങ്ങൾ ചിത്രം പരാമീറ്റർ അവഗണിക്കാനാ"
+"വില്ല. അതേ കാരണം, ഉയരം / വീതി മേഖലകളിലെ പിക്സൽ അധികം ഏതെങ്കിലും വലിപ്പം യൂണ"
+"ിറ്റ് ഉപയോഗിക്കരുത്."
+
+#: src/tutorial/quickies.xml:118(para)
+msgid ""
+"If you know the desired width, enter it in the dialog at the top where it "
+"says <guilabel moreinfo=\"none\">Width</guilabel>. This is shown in the "
+"figure above. If you don't have such a number in mind, choose an appropriate "
+"width for the desired use. Common screen sizes range between 320 pixels for "
+"simpler phones, 1024 pixels for a netbook, 1440 for a wide-screen PC display "
+"and 1920 pixels for an HD screen. for the purpose of displaying an image on-"
+"line, a width of 600 to 800 pixels offers a good compromise."
+msgstr ""
+"ആഗ്രഹിച്ച വീതി തോന്നുകയാണെങ്കിൽ, അത് <guilabel moreinfo=\"none\">Width</gu"
+"ilabel> പറയുന്നത് മുകളിൽ ഡയലോഗിൽ നൽകുക. മേല്പറഞ്ഞ കണക്കുകൾ കാണിച്ചിരിക്കുന"
+"്നു. നിങ്ങൾ മനസ്സിൽ അത്തരം ഒരു നമ്പർ ഇല്ലെങ്കിൽ, ആവശ്യമുള്ള ഉപയോഗത്തിന് ഉച"
+"ിതമായ വീതി തിരഞ്ഞെടുക്കുക. കോമൺ സ്ക്രീൻ വലിപ്പത്തിലും ഒരു വിശാല സ്ക്രീൻ പി"
+".സി. ഡിസ്പ്ലേ ഒരു എച്ച്ഡി സ്ക്രീൻ വേണ്ടി 1920 പിക്സൽ എളുപ്പം ഫോണുകളിൽ 320 "
+"പിക്സൽ, ഒരു നെറ്റ്ബുക്ക് 1024 പിക്സൽ, 1440 നും കൂടുന്നു. ഒരു ഇമേജ് ഗോസ് ലൈ"
+"ൻ പ്രദർശിപ്പിക്കുന്നത് ഉദ്ദേശ്യം, 600 800 ലേക്ക് പിക്സൽ വീതി ഒരു നല്ല ഒത്തു"
+"തീർപ്പ് പ്രദാനം ചെയ്യുന്നു."
+
+#: src/tutorial/quickies.xml:128(para)
+msgid ""
+"When you change one of the image's dimensions, <acronym>GIMP</acronym> "
+"changes the other dimension proportionally. To change the other dimension, "
+"see <xref linkend=\"gimp-tutorial-quickie-crop\"/>. Bear in mind that when "
+"you change the two dimensions arbitrarily, the image might become stretched "
+"or squashed."
+msgstr ""
+"നിങ്ങൾ ചിത്രത്തിന്റെ അളവുകൾ ഒന്ന് മാറ്റുമ്പോൾ, <acronym>GIMP</acronym> ആനു"
+"പാതികമായി മറ്റ് മാനങ്ങൾ മാറ്റുന്നു. മറ്റ് മാനം മാറ്റുന്നതിന്, <xref linkend"
+"=\"gimp-tutorial-quickie-crop\" /> കാണുക. നിങ്ങൾ ഏകപക്ഷീയമായി രണ്ടു അളവുകൾ "
+"മാറ്റുക, ചിത്രം നീട്ടി അല്ലെങ്കിൽ squashed ആകേണ്ടതിന്നു മനസ്സിൻറെ."
+
+#: src/tutorial/quickies.xml:137(title)
+msgid "Change the Size of an Image for print"
+msgstr ""
+"പ്രിന്റ് ഒരു ചിത്രത്തിന്റെ വലുപ്പം മാറ്റുക"
+
+#: src/tutorial/quickies.xml:143(secondary)
+msgid "scale"
+msgstr ""
+"സ്കെയിൽ"
+
+#: src/tutorial/quickies.xml:146(para)
+msgid ""
+"As discussed before, pixels don't have a set size in the real world. When "
+"you set out to print an image on paper, <acronym>GIMP</acronym> needs to "
+"know how big each pixels is. We use a parameter called resolution to set the "
+"ratio between pixels and real-world units such as inches."
+msgstr ""
+"മുമ്പ് ചർച്ച ചെയ്തതുപോലെ, പിക്സലുകൾ യഥാർത്ഥ ലോകത്തിൽ ഒരു കൂട്ടം വലിപ്പം ഇ"
+"ല്ല. പേപ്പറോ ഒരു ഇമേജ് പ്രിന്റ് തയ്യാറായപ്പോൾ, <acronym>GIMP</acronym> ഓര"
+"ോ പിക്സൽ എത്ര വലിയ അറിയേണ്ടതാവശ്യമാണ്. നാം പിക്സൽ പോലുള്ള ഇഞ്ച് യഥാർത്ഥ യ"
+"ൂണിറ്റ് അനുപാതം സജ്ജമാക്കാൻ ചിത്രം എന്ന ഒരു പരാമീറ്റർ ഉപയോഗിയ്ക്കുക."
+
+#: src/tutorial/quickies.xml:151(para)
+msgid ""
+"By default, most images open with the resolution set to 72. This number was "
+"chosen for historical reasons as it was the resolution of screens in the "
+"past, and means that when printed, every pixel is 1/72 of an inch wide. When "
+"printing images are taken with modern digital cameras, this produces very "
+"large but chunky images with visible pixels. What we want to do is tell "
+"<acronym>GIMP</acronym> to print it with the size we have in mind, but not "
+"alter the pixel data so as not to lose quality."
+msgstr ""
+"അതു മുൻകാലങ്ങളിൽ സ്ക്രീനുകളിലും ചിത്രം ആയിരുന്നു സ്വതവേ മിക്ക ചിത്രങ്ങളും 7"
+"2. സജ്ജമാക്കുമ്പോൾ റെസല്യൂഷനുള്ള തുറക്കാൻ ഈ നമ്പർ ചരിത്രപരമായ കാരണങ്ങളാൽ ത"
+"ിരഞ്ഞെടുത്തിരിക്കുന്നതു എന്നു അച്ചടിച്ച ഓരോ പിക്സൽ ഇഞ്ച് 1/72 എന്നാണ് ചെയ്"
+"തു. അച്ചടിക്കുമ്പോൾ ചിത്രങ്ങൾ ആധുനിക ഡിജിറ്റൽ ക്യാമറകൾ വഴി എടുത്ത ചെയ്യുമ്"
+"പോൾ, ഈ കാണാവുന്ന പിക്സൽ വളരെ വലിയ എന്നാൽ ചങ്കി ചിത്രങ്ങൾ ഉത്പാദിപ്പിക്കുന്"
+"നത്. ഞങ്ങൾ എന്തു ചെയ്യണമെന്ന് ഞങ്ങളുടെ മനസിലുണ്ട് വലിപ്പം അതു അച്ചടിക്കാൻ <"
+"acronym>GIMP</acronym> പറയുന്നു, എന്നാൽ ഗുണമേന്മയുള്ള നഷ്ടപ്പെടാൻ നിലയിൽ പി"
+"ക്സൽ ഡാറ്റ മാറ്റം ആണ്."
+
+#: src/tutorial/quickies.xml:159(para)
+msgid ""
+"To change the print size use <menuchoice moreinfo=\"none\"><guimenu moreinfo="
+"\"none\">Image</guimenu><guimenuitem moreinfo=\"none\">Print Size</"
+"guimenuitem></menuchoice> to open the <quote>Print Size</quote> dialog. "
+"Select a size unit you are comfortable with, such as <quote>inches</quote>. "
+"Set one dimension, and let <acronym>GIMP</acronym> change the other one "
+"proportionally. Now examine the change in resolution. If the resolution is "
+"300 pixels per Inch or over, the printed image's quality will be very high "
+"and pixels will not be noticeable. With a resolution of between 200 and 150 "
+"ppi, pixels will be somewhat noticeable, but the image will be fine as long "
+"as its not inspected too closely. Values lower than 100 are visibly coarse "
+"and should only be used for material that is seen from a distance, such as "
+"signs or large posters."
+msgstr ""
+"<quote>Print Size</quote> ഡയലോഗ് തുറക്കാൻ പ്രിന്റ് വലിപ്പം ഉപയോഗിക്കുക <m"
+"enuchoice moreinfo=\"none\"><guimenu moreinfo=\"none\">Image</guimenu><guim"
+"enuitem moreinfo=\"none\">Print Size</guimenuitem></menuchoice> മാറ്റുന്നതി"
+"ന്. അത്തരം <quote>inches</quote> പോലെ നിങ്ങൾക്ക് അനുയോജ്യമായ ഒരു വലുപ്പം "
+"യൂണിറ്റ്, തിരഞ്ഞെടുക്കുക. ഒരു അളവെങ്കിലും സജ്ജമാക്കുക, <acronym>GIMP</acron"
+"ym> ആനുപാതികമായി മറ്റ് ഒരു മാറ്റുക. ഇപ്പോൾ ചിത്രം മാറ്റം പരിശോധിക്കാം. ചി"
+"ത്രം മേൽ ഇഞ്ച് 300 പിക്സൽ അല്ലെങ്കിൽ ആണെങ്കിൽ, അച്ചടിച്ച ചിത്രം ഗുണത്തിലും "
+"വളരെ ഉയർന്ന ആയിരിക്കും പിക്സൽ ഒരുപിടി കഴിയില്ല. 200 150 നും ppi റസല്യൂഷനിലു"
+"ള്ള, പിക്സൽ അല്പമെങ്കിലും ഒരുപിടി, എന്നാൽ ചിത്രം നീളം കൂടുതലായതിനാൽ വളരെ അട"
+"ുത്തുനിന്ന് സന്ദർശിച്ചു അല്ല ശരിയായിരിക്കും. 100 കുറവാണ് മൂല്യങ്ങൾ കണ്ണുതുറ"
+"പ്പിക്കത്തക്ക നാടൻ മാത്രമാണ് അടയാളങ്ങളും അല്ലെങ്കിൽ വലിയ പോസ്റ്ററുകൾ പോലു"
+"ള്ള അകലെ നിന്ന് കാണുന്ന വസ്തുക്കൾ ഉപയോഗിക്കണം."
+
+#: src/tutorial/quickies.xml:175(title)
+msgid "Dialog for Setting Print Size"
+msgstr ""
+"പ്രിന്റ് വലിപ്പം സജ്ജീകരിക്കുന്നു ഡയലോഗ്"
+
+#: src/tutorial/quickies.xml:186(title)
+msgid "Compressing Images"
+msgstr ""
+"കംപ്രസ്സുചെയ്യുന്നു ചിത്രങ്ങൾ"
+
+#: src/tutorial/quickies.xml:192(secondary)
+msgid "save"
+msgstr ""
+"രക്ഷിക്കും"
+
+#: src/tutorial/quickies.xml:195(title)
+msgid "Example Image for JPEG Saving"
+msgstr ""
+"ജെപ്പെഗ് സംരക്ഷിക്കുന്നു ഉദാഹരണത്തിന് ചിത്രം"
+
+#: src/tutorial/quickies.xml:204(para)
+msgid ""
+"If you have images that take up a large space on disk, you can reduce that "
+"space even without changing the image dimensions. The best image compression "
+"is achieved by using the <acronym>JPG</acronym> format, but even if the "
+"image is already in this format, you can usually still make it take up less "
+"space, as the JPG format has an adaptive compression scheme that allows "
+"saving in varying levels of compression. The trade-off is that the less "
+"space an image takes, the more detail from the original image you lose. You "
+"should also be aware that repeated saving in the JPG format causes more and "
+"more image degradation."
+msgstr ""
+"നിങ്ങൾ ഡിസ്കിൽ ഒരു വലിയ സ്ഥലം എടുക്കും ഇമേജുകൾ ഉണ്ടെങ്കിൽ, പോലും ഇമേജ് അളവ"
+"ുകൾ മാറ്റുന്നതിൽ ഇല്ലാതെ ആ സ്ഥലത്ത് കുറയ്ക്കാൻ കഴിയും. മികച്ച ചിത്രം <acron"
+"ym>JPG</acronym> ഫോർമാറ്റ് ഉപയോഗിച്ച് നേടാവുന്നതാണ്, എന്നാൽ ചിത്രം ഇതിനകം"
+" ഈ ഫോർമാറ്റിൽ പോലും, നിങ്ങൾക്ക് സാധാരണയായി ഇപ്പോഴും അത് JPG ഫോർമാറ്റ് വ"
+"്യത്യസ്ത തലങ്ങളിൽ സംരക്ഷിക്കുന്ന അനുവദിക്കുന്ന ഒരു അഡാപ്റ്റീവ് കംപ്രഷൻ പോല"
+"െ നീ കുറച്ചു സ്ഥലം ആക്കുന്നതിന് കംപ്രഷൻ. നിലവരുത്തലാണ് ഒരു ചിത്രം എടുക്കും "
+"കുറച്ചു സ്ഥലം എന്നു നിങ്ങൾ തോൽക്കും യഥാർത്ഥ ചിത്രം നിന്ന് കൂടുതൽ വിശദമായി "
+"ആണ്. നിങ്ങൾക്ക് JPG ഫോർമാറ്റിൽ ആവർത്തിച്ചു സംരക്ഷിക്കുന്നതിൽ കൂടുതൽ കൂടുതൽ"
+" ഇമേജ് ഡീഗ്രഡേഷനുള്ള കാരണമാകുന്ന ബോധവാനായിരിക്കണം."
+
+#: src/tutorial/quickies.xml:215(para)
+msgid ""
+"To save you image as a JPG file, therefore, use <menuchoice moreinfo=\"none"
+"\"><guimenu moreinfo=\"none\">File</guimenu><guimenuitem moreinfo=\"none"
+"\">Save As</guimenuitem></menuchoice> to open the <quote>Save As</quote> "
+"dialog."
+msgstr ""
+"നിങ്ങൾക്ക് ഒരു JPG ഫയലായി ചിത്രം സംരക്ഷിക്കുന്നതിന്, അതിനാൽ, <quote>Save As"
+"</quote> ഡയലോഗ് തുറക്കുന്നതിന് <menuchoice moreinfo=\"none \"><guimenu mor"
+"einfo=\"none\">File</guimenu><guimenuitem moreinfo=\"none \">Save As</guime"
+"nuitem></menuchoice> ഉപയോഗിക്കുക."
+
+#: src/tutorial/quickies.xml:222(title)
+msgid "<quote>Save As</quote> Dialog"
+msgstr ""
+"<quote>Save As</quote> സംഭാഷണം"
+
+#: src/tutorial/quickies.xml:231(para)
+msgid ""
+"The dialog opens with the file name already typed in the Name box. If the "
+"image is not a <acronym>JPG</acronym> image, delete the existing extension "
+"and type JPG instead, and <acronym>GIMP</acronym> will determine the file "
+"type from the file extension. Use the file extension list, circled in the "
+"figure above, to see the types supported by <acronym>GIMP</acronym>. The "
+"supported extensions change depending on your installed libraries. If "
+"<acronym>GIMP</acronym> complains, or if <quote>JPEG</quote> is grayed out "
+"in the Extensions menu, cancel out of everything and step through the <xref "
+"linkend=\"gimp-tutorial-quickie-change-mode\"/>. Once you have done this, "
+"click <guibutton>Save</guibutton>. This opens the <quote>Save as\" </quote> "
+"JPEG dialog that contains the quality control."
+msgstr ""
+"ഡയലോഗ് ഫയൽ പേര് ഇതിനകം പേര് ബോക്സിൽ ടൈപ്പ് ചെയ്ത തുടങ്ങുന്നു. ഇമേജ് <acro"
+"nym>JPG</acronym> ചിത്രമല്ല, പകരം നിലവിലുള്ള വിപുലീകരണവും തരം JPG ഇല്ലാതാക്"
+"കുക, <acronym>GIMP</acronym> ഫയൽ എക്സ്റ്റൻഷൻ നിന്ന് ഫയൽ തരം തീരുമാനിക്കും. "
+"ഫയൽ എക്സ്റ്റൻഷൻ ലിസ്റ്റ് ഉപയോഗിക്കുക, <acronym>GIMP</acronym> പിന്തുണയ്ക്ക"
+"ുന്ന തരത്തിലുള്ള കാണാൻ, മുകളിൽ കണക്കുകൾ ലെ സർക്കിൾ. നിങ്ങളുടെ ഇൻസ്റ്റാൾ ലൈബ"
+"്രറികൾ അനുസരിച്ച് പിന്തുണയ്ക്കുന്ന വിപുലീകരണങ്ങൾ മാറ്റുക. <acronym>GIMP</ac"
+"ronym> പരാതി, അല്ലെങ്കിൽ <quote>JPEG</quote> വിപുലീകരണങ്ങൾ മെനുവിൽ ഗ്രേ ഔട്"
+"ട് എങ്കിൽ <xref linkend=\"gimp-tutorial-quickie-change-mode\" /> വഴി എല്ലാം"
+" പടി നിന്നു റദ്ദാക്കുകയാണെങ്കിൽ. നിങ്ങൾ ഇത് പൂർത്തിയാക്കി കഴിഞ്ഞാൽ, <guibut"
+"ton>Save</guibutton> ക്ലിക്ക് ചെയ്യുക. ഈ ഗുണനിലവാര നിയന്ത്രണം അടങ്ങുന്ന <qu"
+"ote>Save as\" </quote> ജെപെഗ് ഡയലോഗ് തുറക്കുന്നു."
+
+#: src/tutorial/quickies.xml:244(para)
+msgid ""
+"The <quote>Save as JPEG</quote> dialog uses default values that reduce size "
+"while retaining good visual quality; this is the safest and quickest thing "
+"to do."
+msgstr ""
+"<quote>Save as JPEG</quote> ഡയലോഗ് നല്ല ദൃശ്യ നിലവാരം നിലനിർത്തുന്നതോടൊപ"
+"്പം വലിപ്പം കുറയ്ക്കാനും സഹജമായി മൂല്യങ്ങൾ ഉപയോഗിക്കുന്നു; ഈ ഏറ്റവും സുരക്"
+"ഷിതമായ ദ്രുതഗതിയിലുമുള്ള കാര്യം."
+
+#: src/tutorial/quickies.xml:249(title)
+msgid "<quote>Save as JPEG</quote> dialog with poor quality."
+msgstr ""
+"ഗുണമേൻമ കൂടെ <quote>Save as JPEG</quote> ഡയലോഗ്."
+
+#: src/tutorial/quickies.xml:258(para)
+msgid ""
+"Reduce the image <guilabel>Quality</guilabel> to make the image even "
+"smaller. Reduced quality degrades the image, so be certain to check "
+"<quote>Show preview in image window</quote> to visually gauge the "
+"degradation. As shown in the figure above, a <guilabel>Quality</guilabel> "
+"setting of 10 produces a very poor quality image that uses very little disk "
+"space. The figure below shows a more reasonable image. A quality of 75 "
+"produces a reasonable image using much less disk space, which will, in turn, "
+"load much faster on a web page. Although the image is somewhat degraded, it "
+"is acceptable for the intended purpose."
+msgstr ""
+"ചിത്രം പോലും ചെറിയ മാറ്റാൻ ഇമേജ് <guilabel>Quality</guilabel> കുറയ്ക്കുക. "
+"കുറച്ചു ഗുണമേന്മയുള്ള ചിത്രം ബാധിയ്ക്കുന്നു, അങ്ങനെ <quote>Show preview in "
+"image window</quote> പരിശോധിക്കാൻ ദൃശ്യപരമായി ശോഷണ കണക്കാക്കുന്നതിനുള്ള അ"
+"റിയും. മുകളിൽ കണക്കുകൾ കാണിച്ചിരിക്കുന്നതുപോലെ, 10 <guilabel>Quality</guil"
+"abel> ക്രമീകരണം വളരെ കുറച്ച് ഡിസ്ക് സ്പേസ് ഉപയോഗിക്കുന്ന വളരെ ഗുണമേൻമ ചിത്"
+"രം ഉത്പാദിപ്പിക്കുന്നത്. താഴെ കണക്കുകൾ കൂടുതൽ ന്യായമായ ചിത്രം കാണിക്കുന്നു."
+" 75 ഒരു ഗുണമേന്മയുള്ള ചെയ്യുന്നതല്ല അതാകട്ടെ, വളരെ വേഗത്തിൽ ഒരു വെബ് പേജ് ല"
+"ോഡ് വളരെ കുറവ് ഡിസ്ക് സ്പേസ് ഉപയോഗിച്ച് ന്യായമായ ചിത്രം, ഉത്പാദിപ്പിക്കുന"
+"്നത്. ചിത്രം അല്പമെങ്കിലും അപചയം ആണെങ്കിലും, ലക്ഷ്യങ്ങളിൽ പ്രസാദം."
+
+#: src/tutorial/quickies.xml:269(title)
+msgid "Dialog for Image Saving as JPEG"
+msgstr ""
+"ജെപിഇജി ചിത്രം സംരക്ഷിക്കുന്നു ഡയലോഗ്"
+
+#: src/tutorial/quickies.xml:278(para)
+msgid ""
+"Finally, here is a comparison of the same picture with varying degrees of "
+"compression:"
+msgstr ""
+"അവസാനമായി, ഇവിടെ കംപ്രഷൻ വിവിധ അതേ ചിത്രം ഒരു ബോധ്യമായി:"
+
+#: src/tutorial/quickies.xml:282(title)
+msgid "Example for High JPEG Compression"
+msgstr ""
+"ഹൈ ജെപ്പെഗ് കംപ്രഷനിനായി ഉദാഹരണം"
+
+#: src/tutorial/quickies.xml:289(para)
+msgid "Quality: 10; Size: 3.4 KiloBytes"
+msgstr ""
+"ഗുണനിലവാരം: 10; വലിപ്പം: 3.4 കിലോബൈറ്റുകളുടെ"
+
+#: src/tutorial/quickies.xml:298(para)
+msgid "Quality: 40; Size: 9.3 KiloBytes"
+msgstr ""
+"ഗുണനിലവാരം: 40; വലിപ്പം: 9.3 കിലോബൈറ്റുകളുടെ"
+
+#: src/tutorial/quickies.xml:303(title)
+msgid "Example for Moderate JPEG Compression"
+msgstr ""
+"മോഡറേറ്റ് ജെപ്പെഗ് കംപ്രഷനിനായി ഉദാഹരണം"
+
+#: src/tutorial/quickies.xml:310(para)
+msgid "Quality: 70; Size: 15.2 KiloBytes"
+msgstr ""
+"ഗുണനിലവാരം: 70; വലിപ്പം: 15.2 കിലോബൈറ്റുകളുടെ"
+
+#: src/tutorial/quickies.xml:319(para)
+msgid "Quality: 100; Size: 72.6 KiloBytes"
+msgstr ""
+"ഗുണനിലവാരം: 100; വലിപ്പം: 72.6 കിലോബൈറ്റുകളുടെ"
+
+#: src/tutorial/quickies.xml:326(title)
+msgid "Crop An Image"
+msgstr ""
+"ഒരു ചിത്രം വിള"
+
+#: src/tutorial/quickies.xml:332(secondary)
+msgid "crop"
+msgstr ""
+"വിള"
+
+#: src/tutorial/quickies.xml:336(title)
+msgid "Example Image for Cropping"
+msgstr ""
+"ക്രോപ്പ്ചെയുന്നതിനായി ഉദാഹരണ ചിത്രം"
+
+#: src/tutorial/quickies.xml:343(para) src/tutorial/quickies.xml:616(para)
+msgid "Source image"
+msgstr ""
+"ഉറവിട ചിത്രം"
+
+#: src/tutorial/quickies.xml:352(para)
+msgid "Image after cropping"
+msgstr ""
+"മാറ്റൽ ശേഷം ചിത്രം"
+
+#: src/tutorial/quickies.xml:357(para)
+msgid ""
+"There are many reasons to crop an image; for example, fitting an image to "
+"fill a frame, removing a portion of the background to emphasize the subject, "
+"etc. There are two methods to activate the crop tool. Click the "
+"<placeholder-1/> button in the Toolbox, or use <menuchoice moreinfo=\"none"
+"\"><guimenu moreinfo=\"none\">Tools</guimenu><guisubmenu moreinfo=\"none"
+"\">Transform Tools</guisubmenu><guimenuitem moreinfo=\"none\">Crop</"
+"guimenuitem></menuchoice> in the image window. This changes the cursor and "
+"allow you to click and drag a rectangular shape. The button in the toolbox "
+"is the easiest way to get to any of the tools."
+msgstr ""
+"ഒരു ചിത്രം മുറിക്കുന്നതിന് പല കാരണങ്ങളുണ്ട്; ഉദാഹരണത്തിന്, ഒരു ഫ്രെയിം നിറയ"
+"്ക്കാൻ ഒരു ചിത്രം ഫിറ്റിംഗ്, വിഷയം ഊന്നുന്നതിന് പശ്ചാത്തല ഒരു ഭാഗം നഷ്ടമായത"
+"ിന് മുതലായവ ഉണ്ട് ക്രോപ്പ് ഉപകരണം സജീവമാക്കുന്നതിന് രണ്ടു രീതികൾ. പണിസഞ്ചി"
+"യിൽ PLACEHOLDER,-101872 ബട്ടൺ ക്ലിക്ക്, അല്ലെങ്കിൽ ചിത്രം ജാലകത്തിൽ <menuch"
+"oice moreinfo=\"none \"><guimenu moreinfo=\"none\">Tools</guimenu><guisubme"
+"nu moreinfo=\"none \">Transform Tools</guisubmenu><guimenuitem moreinfo=\"n"
+"one\">Crop</guimenuitem></menuchoice> ഉപയോഗിക്കുക. ഈ കഴ്സർ തിരുത്തി ക്ലിക്"
+"കുചെയ്ത് നിങ്ങളെ ചതുരാകൃതിയിലുള്ള ആകാരം ഡ്രാഗ് അനുവദിക്കുക. പണിസഞ്ചിയിൽ ബട്"
+"ടൺ ഉപകരണങ്ങൾ ഏതെങ്കിലും ലേക്ക് എളുപ്പമാർഗ്ഗം ആണ്."
+
+#: src/tutorial/quickies.xml:377(title)
+msgid "Select a Region to Crop"
+msgstr ""
+"വിള ഒരു പ്രദേശം തിരഞ്ഞെടുക്കുക"
+
+#: src/tutorial/quickies.xml:386(para)
+msgid ""
+"Click on one corner of the desired crop area and drag your mouse to create "
+"the crop rectangle. You don't have to be accurate as you can change the "
+"exact shape of the rectangle later."
+msgstr ""
+"ആവശ്യമുള്ള ക്രോപ്പ് ഏരിയ ഒരു കോണിലാണ് ക്ലിക്ക് ചെയ്ത് ക്രോപ്പ് സൃഷ്ടിക്ക"
+"ാൻ നിങ്ങളുടെ മൗസ് വലിച്ചിടുക. നിങ്ങൾക്ക് പിന്നീട് ദീർഘചതുരം കൃത്യമായ ആകൃതി "
+"മാറ്റാൻ കഴിയുമെന്നതിനാൽ കൃത്യമായിത്തോന്നുന്നു ഇല്ല."
+
+#: src/tutorial/quickies.xml:391(title)
+msgid "Dialog for Cropping"
+msgstr ""
+"ക്രോപ്പ്ചെയുന്നതിനായി സംഭാഷണം"
+
+#: src/tutorial/quickies.xml:406(para)
+msgid ""
+"After completing the click and drag motion, a rectangle with special regions "
+"is shown on the canvas. As the cursor is moved over the different areas of "
+"the selected crop area, the cursor changes. You can then drag the "
+"rectangle's corners or edges to change the dimensions of the selected area. "
+"As shown in the figure above, as the crop area is resized, the dimensions "
+"and ratio are shown in the status bar. See <xref linkend=\"gimp-tool-crop\"/"
+"> for more information on cropping in <acronym>GIMP</acronym>. If you would "
+"like to crop the image in a specific aspect ratio, such as a square, make "
+"sure the tool options are visible ( <menuchoice moreinfo=\"none\"><guimenu "
+"moreinfo=\"none\">Windows</guimenu><guisubmenu moreinfo=\"none\">Dockable "
+"Dialogs</guisubmenu><guimenuitem moreinfo=\"none\">Tool Options</"
+"guimenuitem></menuchoice>). In the Tool Options dockable, check the mark "
+"next to <guilabel>Fixed</guilabel> and make sure the drop-down box next to "
+"it is set to <guilabel>Aspect Ratio</guilabel>. You can now type the desired "
+"aspect ratio on the text box below, such as <quote>1:1</quote>. You also "
+"have controls to change the aspect from landscape to portrait. After you set "
+"the aspect ratio, drag one of the corners of the crop rectangle to update "
+"it. The rectangle changes to the chosen ratio, and when you drag it should "
+"maintain that ratio."
+msgstr ""
+"ക്ലിക്ക് ചെയ്ത് ഡ്രാഗ് ചലനം പൂർത്തിയാക്കിയ ശേഷം, പ്രത്യേക പ്രദേശങ്ങളും ഒരു "
+"ദീർഘചതുരം കാൻവാസിൽ കാണിച്ചിരിക്കുന്നു. കഴ്സർ തിരഞ്ഞെടുത്ത ക്രോപ്പ് ഏരിയ വി"
+"വിധ പ്രദേശങ്ങൾ മേൽ നീങ്ങുന്പോൾ, കഴ്സർ മാറുന്നു. നിങ്ങൾ തെരഞ്ഞെടുത്ത പ്രദേശ"
+"ത്തെ തലങ്ങളും മാറ്റാൻ ദീർഘചതുരം ന്റെ കോണിലും അല്ലെങ്കിൽ വേണമങ്കിലും ഇഴയ്ക്"
+"കാം. മുകളിൽ കണക്കുകൾ കാണിച്ചിരിക്കുന്നതുപോലെ, വിള പ്രദേശം വലുപ്പം ആണ്, തലങ"
+"്ങളും അനുപാതം സ്റ്റാറ്റസ് ബാറിൽ കാണിച്ചിരിക്കുന്നു. <acronym>GIMP</acronym>"
+" ൽ കത്രിക്കൽ കൂടുതൽ വിവരങ്ങൾക്കായി <xref linkend=\"gimp-tool-crop\" /> കാണു"
+"ക. ഒരു സ്ക്വയർ പോലുള്ള ഒരു പ്രത്യേക വീക്ഷണാനുപാതത്തിൽ ചിത്രം മുറിക്കുന്നതി"
+"ന് താൽപ്പര്യമുണ്ടെങ്കിൽ, ഉപകരണം ഓപ്ഷനുകൾ ദൃശ്യമാണ് (<menuchoice moreinfo=\""
+"none\"><guimenu moreinfo=\"none\">Windows</guimenu><guisubmenu moreinfo=\"n"
+"one\">Dockable Dialogs</guisubmenu><guimenuitem moreinfo=\"none\">Tool Opti"
+"ons</guimenuitem></menuchoice>) ഉറപ്പുവരുത്തുക. ടൂൾ ഓപ്ഷനുകൾ dockable ൽ <gu"
+"ilabel>Fixed</guilabel> അടുത്ത മാര്ക്ക് പരിശോധിച്ച് ഉറപ്പു അടുത്ത അതു <gui"
+"label>Aspect Ratio</guilabel> സജ്ജമാക്കുമ്പോൾ ഡ്രോപ്-ഡൗൺ ബോക്സ് ഉണ്ടാക്ക"
+"േണം. ഇപ്പോൾ ശരിയായ <quote>1:1</quote> താഴെ ടെക്സ്റ്റ് ബോക്സിൽ ആവശ്യമുള്ള "
+"വീക്ഷണ അനുപാതം, ടൈപ്പ് ചെയ്യാം. നിങ്ങൾക്ക് ലാൻഡ്സ്കേപ്പ് നിന്ന് പോർട്രെയ്റ"
+"്റിലേക്ക് വശം മാറ്റാൻ നിയന്ത്രണങ്ങൾ ഉണ്ടായിരിക്കും. നിങ്ങൾ വീക്ഷണ അനുപാതം സ"
+"ജ്ജമാക്കാൻ ശേഷം, പുതുക്കുന്നതിനായി ക്രോപ്പ് മൂലകൾ ഒന്ന് ഡ്രാഗ്. തിരഞ്ഞെടുത"
+"്ത അനുപാതം ദീർഘചതുരം മാറ്റങ്ങൾ, എപ്പോഴാണ് നിങ്ങൾക്ക് ആ അനുപാതം നിലനിർത്താൻ"
+" വേണം വലിച്ചിടുക."
+
+#: src/tutorial/quickies.xml:430(title)
+msgid "Find Info About Your Image"
+msgstr ""
+"വിവരങ്ങളും നിങ്ങളുടെ ചിത്രം കുറിച്ച് കണ്ടെത്തുക"
+
+#: src/tutorial/quickies.xml:436(secondary)
+msgid "information"
+msgstr ""
+"വിവരം"
+
+#: src/tutorial/quickies.xml:440(title)
+msgid "Finding Info"
+msgstr ""
+"വിവരങ്ങളും കണ്ടെത്തുന്നു"
+
+#: src/tutorial/quickies.xml:449(para)
+msgid ""
+"When you need to find out information about your image, Use <menuchoice "
+"moreinfo=\"none\"><guimenu moreinfo=\"none\">Image</guimenu><guimenuitem "
+"moreinfo=\"none\">Image Properties</guimenuitem></menuchoice> to open the "
+"<quote>Image Properties</quote> dialog, which contains information about the "
+"image size, resolution, mode and much more."
+msgstr ""
+"നിങ്ങളുടെ ചിത്രത്തിന്റെ കുറിച്ചുള്ള വിവരങ്ങൾ കണ്ടെത്താൻ ആവശ്യമുള്ളപ്പോൾ, <"
+"menuchoice moreinfo=\"none\"><guimenu moreinfo=\"none\">Image</guimenu><gui"
+"menuitem moreinfo=\"none\">Image Properties</guimenuitem></menuchoice> ഉപയേ"
+"ാഗിക്കുക ഇമേജ് വലുപ്പം, ചിത്രം, മോഡ് വളരെ കൂടുതൽ കുറിച്ചുള്ള വിവരങ്ങൾ അടങ്"
+"ങുന്ന <quote>Image Properties</quote> ഡയലോഗ് തുറക്കുന്നതിന്."
+
+#: src/tutorial/quickies.xml:458(title)
+msgid "<quote>Image Properties</quote> Dialog"
+msgstr ""
+"<quote>Image Properties</quote> സംഭാഷണം"
+
+#: src/tutorial/quickies.xml:469(title)
+msgid "Change the Mode"
+msgstr ""
+"മോഡ് മാറ്റുക"
+
+#: src/tutorial/quickies.xml:475(secondary)
+msgid "change Mode"
+msgstr ""
+"മോഡ് മാറ്റുക"
+
+#: src/tutorial/quickies.xml:478(para)
+msgid ""
+"As with anything else, images come in different kinds and serve different "
+"purposes. Sometimes, a small size is important (for web sites) and at other "
+"times, retaining a high color depth (e.g., a family portrait) is what you "
+"want. <acronym>GIMP</acronym> can handle all of this, and more, primarily by "
+"converting between three fundamental modes, as seen in this menu. In order "
+"to switch your image to one of these modes, you open it and follow that menu "
+"and click the mode you want."
+msgstr ""
+"മറ്റെന്തെങ്കിലും പോലെ, ചിത്രങ്ങൾ പല തരത്തിലുള്ള വന്നു വിവിധ ആവശ്യങ്ങൾക്കായ"
+"ി സേവിക്കും. ചിലപ്പോൾ, ഒരു ചെറിയ വലിപ്പം (വെബ് സൈറ്റുകളിലും) പ്രധാനമാണ് മറ"
+"്റ് സമയങ്ങളിൽ, ഉയർന്ന നിറം ഡെപ്ത് നിലനിർത്താനും (ഉദാ കുടുംബചിത്രങ്ങൾ) നിങ്ങ"
+"ൾ ആഗ്രഹിക്കുന്ന എന്താണ്. ഈ മെനുവിൽ കാണുന്ന പോലുളള പ്രാഥമികമായി മൂന്ന് അടിസ"
+"്ഥാന മോഡുകൾ തമ്മിലുള്ള പരിവർത്തനം <acronym>GIMP</acronym> ഇത് എല്ലാം, കൂടു"
+"തൽ കൈകാര്യം ചെയ്യാൻ കഴിയും. ഈ മോഡുകൾ ഒന്നിലേക്ക് നിങ്ങളുടെ ഇമേജ് മാറുന്നതി"
+"ന്, നിങ്ങൾ അത് തുറന്ന് ആ മെനു നിങ്ങൾ പിന്തുടരുന്നത് ആഗ്രഹിക്കുന്ന മോഡ് ക്ല"
+"ിക്ക് ചെയ്യുക."
+
+#: src/tutorial/quickies.xml:488(title)
+msgid "Dialog for changing the mode"
+msgstr ""
+"മോഡ് മാറ്റുന്നതിൽ ഡയലോഗ്"
+
+#: src/tutorial/quickies.xml:497(para)
+msgid ""
+"<emphasis>RGB</emphasis>- This is the default mode, used for high-quality "
+"images, and able to display millions of colors. This is also the mode for "
+"most of your image work including scaling, cropping, and even flipping. In "
+"RGB mode, each pixel consists of three different components: R-&gt;Red, G-"
+"&gt;Green, B-&gt;Blue. Each of these in turn can have an intensity value of "
+"0-255. What you see at every pixel is an additive combination of these three "
+"components."
+msgstr ""
+"<emphasis>RGB</emphasis> - ഇത് ഡീഫോൾട്ട് മോഡ്, ഉയർന്ന നിലവാരമുള്ള ചിത്രങ്"
+"ങളും ഉപയോഗിക്കുന്നു, വർണ്ണങ്ങൾ ദശലക്ഷക്കണക്കിന് പ്രദർശിപ്പിക്കാൻ കഴിയും. അ"
+"തും, ഉടന്തന്നെ കത്രിക്കൽ പോലും ഒന്നല്ല ഉൾപ്പെടെ നിങ്ങളുടെ ചിത്രത്തിന്റെ ഏറ"
+"്റവും മോഡ്. R- &gt; റെഡ്, G- &gt; ഗ്രീൻ, ടേബിളുകളെ &gt; ബ്ലൂ: ആർജിബി മോഡി"
+"ൽ, ഓരോ പിക്സൽ മൂന്ന് വ്യത്യസ്ത ഘടകങ്ങളാണ്. ഇവയിൽ ഓരോ അതാകട്ടെ 0-255 ഒരു ത"
+"ീവ്രത മൂല്യം കഴിയും. എന്താണ് നിങ്ങൾ ഏതു പിക്സൽ കാണുന്നു ഈ മൂന്നു ഘടകങ്ങൾ സങ"
+"്കലനരിതിയിൽ സംയോജനമാണ്."
+
+#: src/tutorial/quickies.xml:506(para)
+msgid ""
+"<emphasis>Indexed</emphasis>- This is the mode usually used when file size "
+"is of concern, or when you are working with images with few colors. It "
+"involves using a fixed number of colors (256 or less) for the entire image "
+"to represent colors. By default, when you change an image to a palleted "
+"image, <acronym>GIMP</acronym> generates an <quote>optimum palette</quote> "
+"to best represent your image."
+msgstr ""
+"<emphasis>Indexed</emphasis> - ഈ ഫയൽ വലുപ്പം ആശങ്ക വരുമ്പോൾ അല്ലെങ്കിൽ നിങ"
+"്ങൾ കുറച്ച് നിറങ്ങൾ ചിത്രങ്ങളുള്ള പ്രവർത്തിക്കുമ്പോൾ സാധാരണയായി ഉപയോഗിക്ക"
+"ുന്ന മോഡ്. ഇത് നിറങ്ങൾ പ്രതിനിധീകരിക്കാൻ ചിത്രം മുഴുവനായും നിറങ്ങൾ നിശ്ചിത"
+" എണ്ണം (256 മിനിട്ടുവരെ) ഉപയോഗിച്ച് കേന്ദ്രീകരിക്കുന്നു. സ്വതവേ, നിങ്ങൾ ഒര"
+"ു palleted ചിത്രം ഒരു ഇമേജ് മാറ്റം വരുമ്പോള്, <acronym>GIMP</acronym> മികച"
+"്ച നിങ്ങളുടെ ഇമേജ് പ്രതിനിധീകരിക്കാൻ ഒരു <quote>optimum palette</quote> സൃഷ"
+"്ടിക്കുന്നു."
+
+#: src/tutorial/quickies.xml:515(title)
+msgid "Dialog <quote>Change to Indexed Colors</quote>"
+msgstr ""
+"സംഭാഷണം <quote>Change to Indexed Colors</quote>"
+
+#: src/tutorial/quickies.xml:525(para)
+msgid ""
+"As you might expect, since the information needed to represent the color at "
+"each pixel is less, the file size is smaller. However, sometimes, there are "
+"options in the various menus that are grayed-out for no apparent reason. "
+"This usually means that the filter or option cannot be applied when your "
+"image is in its current mode. Changing the mode to RGB, as outlined above, "
+"should solve this issue. If RGB mode doesn't work either, perhaps the option "
+"you're trying requires your layer to have the ability to be transparent. "
+"This can be done just as easily via <menuchoice moreinfo=\"none\"><guimenu "
+"moreinfo=\"none\">Layer</guimenu><guimenuitem moreinfo=\"none"
+"\">Transparency</guimenuitem><guimenuitem moreinfo=\"none\">Add Alpha "
+"Channel</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ പ്രതീക്ഷിക്കും പോലെ, ഓരോ പിക്സൽ കളർ പ്രതിനിധാനം ആവശ്യമായ വിവരങ്ങൾ "
+"കുറവ് കാരണം, പ്രമാണത്തിന്റെ വലിപ്പം ചെറുതാണ്. എന്നിരുന്നാലും, ചിലപ്പോഴൊക്"
+"കെ, ഉണ്ട് ആവശ്യം-ഔട്ട് എന്നു മൂര്ച്ചിച്ചു വിവിധ മെനുകളിൽ ഉപാധികൾ. ഇത് സാധാര"
+"ണയായി നിങ്ങളുടെ ഇമേജ് അതിന്റെ നിലവിലെ മോഡിൽ ആയിരിക്കുമ്പോൾ ഫിൽട്ടർ അല്ലെങ"
+"്കിൽ ഓപ്ഷൻ നടപ്പിലാക്കാൻ കഴിയില്ല എന്നാണ്. ആർജിബി ലേക്കുള്ള മോഡ് മാറ്റുന്ന"
+"ു, മുകളിൽ വിവരിച്ചിട്ടുള്ളതു പോലെ, ഈ പ്രശ്നം പരിഹരിക്കാൻ വേണം. ആർജിബി മോഡ"
+"് ഒന്നുകിൽ പ്രവർത്തിക്കുന്നില്ലെങ്കിൽ, ഒരുപക്ഷേ ശ്രമിക്കുന്ന ഓപ്ഷൻ സുതാര്യമ"
+"ാക്കുക കഴിവ് ഉണ്ട് നിങ്ങളുടെ പാളി ആവശ്യമാണ്. ഈ <menuchoice moreinfo=\"none"
+"\"><guimenu moreinfo=\"none\">Layer</guimenu><guimenuitem moreinfo=\"none "
+"\">Transparency</guimenuitem><guimenuitem moreinfo=\"none\">Add Alpha Chann"
+"el</guimenuitem></menuchoice> വഴി പോലെ എളുപ്പത്തിൽ ചെയ്യാം."
+
+#: src/tutorial/quickies.xml:540(title)
+msgid "Add Alpha Channel"
+msgstr ""
+"ആൽഫ ചാനൽ ചേർക്കുക"
+
+#: src/tutorial/quickies.xml:548(para)
+msgid ""
+"<emphasis>Grayscale</emphasis>- Grayscale images have only shades of gray. "
+"This mode has some specific uses and takes less space on the hard drive in "
+"some formats, but is not recommended for general use as reading it is not "
+"supported by many applications."
+msgstr ""
+"<emphasis>Grayscale</emphasis> - ഗ്രേസ്കെയിൽ ചിത്രങ്ങൾ ചാര മാത്രം ഷേഡുകൾ ഞങ"
+"്ങൾക്കുണ്ട്. ഈ മോഡ് ചില പ്രത്യേക ഉപയോഗങ്ങൾ ഉണ്ട് ചില ഫോർമാറ്റുകളിൽ ഹാർഡ്"
+" ഡ്രൈവിൽ കുറച്ചു സ്ഥലം മതി പക്ഷേ വായിക്കാൻ അത് പല പ്രയോഗങ്ങളെ പിന്തുണയ്ക്ക"
+"ുന്നില്ല പോലെ ജനറൽ ഉപയോഗം ശുപാർശ ചെയ്തിട്ടില്ല."
+
+#: src/tutorial/quickies.xml:555(para)
+msgid ""
+"There is no need to convert an image to a specific mode before saving it in "
+"your favorite format, as <acronym>GIMP</acronym> is smart enough to properly "
+"export the image."
+msgstr ""
+"<acronym>GIMP</acronym> ശരിയായി ചിത്രം കയറ്റുമതി ചെയ്യാൻ മാത്രം സ്മാർട്ട് പ"
+"ോലെ അവിടെ നിങ്ങളുടെ പ്രിയപ്പെട്ട ഫോർമാറ്റിൽ സംരക്ഷിച്ച് മുമ്പ് ഒരു പ്രത്യ"
+"േക മോഡ് ഒരു ചിത്രം പരിവർത്തനം ആവശ്യവുമില്ല."
+
+#: src/tutorial/quickies.xml:561(title)
+msgid "Flip An Image"
+msgstr ""
+"ഒരു ചിത്രം ഫ്ലിപ്പ്ചെയ്യുക"
+
+#: src/tutorial/quickies.xml:567(secondary)
+msgid "Flip"
+msgstr ""
+"ഫ്ലിപ്"
+
+#: src/tutorial/quickies.xml:570(para)
+msgid ""
+"Use this option when you need the person in the photo looking in the other "
+"direction, or you need the top of the image to be the bottom. Use "
+"<menuchoice moreinfo=\"none\"><guimenu moreinfo=\"none\">Tools</"
+"guimenu><guisubmenu moreinfo=\"none\">Transform Tools</"
+"guisubmenu><guimenuitem moreinfo=\"none\">Flip</guimenuitem></menuchoice> , "
+"or use the <placeholder-1/> button on the toolbox. After selecting the flip "
+"tool from the toolbox, click inside the canvas. Controls in the Tool Options "
+"dockable let you switch between Horizontal and Vertical modes."
+msgstr ""
+"മറ്റ് ദിശയിൽ നോക്കി ഫോട്ടോയിൽ വ്യക്തി വേണമെങ്കിൽ ഈ ഓപ്ഷൻ ഉപയോഗിക്കുക, അ"
+"ല്ലെങ്കിൽ നിങ്ങൾ ചുവടെ ആയിരിക്കാൻ ചിത്രം മുകളിൽ വേണം. <menuchoice moreinfo="
+"\"none\"><guimenu moreinfo=\"none\">Tools</guimenu><guisubmenu moreinfo=\"n"
+"one\">Transform Tools</guisubmenu><guimenuitem moreinfo=\"none\">Flip</guim"
+"enuitem></menuchoice> ഉപയോഗിക്കുക, അല്ലെങ്കിൽ ഉപകരണബോക്സിലേക്ക് ന് PLACEH"
+"OLDER,-101896 ബട്ടൺ ഉപയോഗിക്കുക. ഉപകരണബോക്സിലേക്ക് നിന്ന് ഫ്ലിപ്പ് ഉപകരണം"
+" തിരഞ്ഞെടുത്ത് ശേഷം, ക്യാൻവാസ് അകത്ത് ക്ലിക്ക് ചെയ്യുക. ടൂൾ ഓപ്ഷനുകൾ നിയന്ത"
+"്രണങ്ങൾ നിങ്ങളെ തിരശ്ചീനവും ലംബ മോഡുകൾക്കിടയിൽ മാറാൻ ചെയ്യട്ടെ dockable."
+
+#: src/tutorial/quickies.xml:588(title)
+msgid "Dialog <quote>Flip an Image</quote>"
+msgstr ""
+"സംഭാഷണം <quote>Flip an Image</quote>"
+
+#: src/tutorial/quickies.xml:598(para)
+msgid ""
+"After selecting the flip tool from the toolbox, click inside the canvas. The "
+"tool flips the image horizontally. Use the options dialog to switch between "
+"horizontal and vertical. If it is not already displayed in the dock under "
+"the toolbox, double click the toolbox button. You can also use the <keycap "
+"moreinfo=\"none\">Ctrl</keycap> key to switch between horizontal and "
+"vertical."
+msgstr ""
+"ഉപകരണബോക്സിലേക്ക് നിന്ന് ഫ്ലിപ്പ് ഉപകരണം തിരഞ്ഞെടുത്ത് ശേഷം, ക്യാൻവാസ് അകത"
+"്ത് ക്ലിക്ക് ചെയ്യുക. പ്രയോഗം ചിത്രം തിരശ്ചീനമായി ഫ്ലിപ്. തിരശ്ചീന, ലംബ മാ"
+"റാൻ ഓപ്ഷൻ ഡയലോഗ് ഉപയോഗിക്കുക. ഇത് ഇതിനകം പണിസഞ്ചിയിൽ കീഴിൽ ഡോക്കിൽ പ്രദർ"
+"ശിപ്പിച്ച എങ്കിൽ, പണിസഞ്ചി ബട്ടണിൽ ഇരട്ട ക്ലിക്ക്. നിങ്ങൾക്ക് തിരശ്ചീന, ലംബ"
+" മാറാൻ <keycap moreinfo=\"none\">Ctrl</keycap> കീ ​​ഉപയോഗിക്കാം."
+
+#: src/tutorial/quickies.xml:605(para)
+msgid "In the images below, all possible flips are demonstrated:"
+msgstr ""
+"താഴെ ചിത്രങ്ങളിൽ എല്ലാ പ്രതിഫലനം പ്രകടമാക്കിയ ചെയ്യുന്നു:"
+
+#: src/tutorial/quickies.xml:608(title)
+msgid "Example Image to Flip"
+msgstr ""
+"ഫ്ലിപ്പ് ഉദാഹരണ ചിത്രം"
+
+#: src/tutorial/quickies.xml:625(para)
+msgid "Horizontal flipped image"
+msgstr ""
+"തിരശ്ചീന ഫ്ലിപ്പ് ചിത്രം"
+
+#: src/tutorial/quickies.xml:636(para)
+msgid "Vertical flipped image"
+msgstr ""
+"ലംബ ചിത്രം ഫ്ലിപ്പ്"
+
+#: src/tutorial/quickies.xml:645(para)
+msgid "Horizontal and vertical flipped image"
+msgstr ""
+"തിരശ്ചീന, ലംബ ഫ്ലിപ്പ് ചിത്രം"
+
+#: src/tutorial/quickies.xml:653(title)
+msgid "Rotate An Image"
+msgstr ""
+"ഒരു ചിത്രം തിരിക്കുക"
+
+#: src/tutorial/quickies.xml:659(secondary)
+msgid "Rotate"
+msgstr ""
+"തിരിക്കുക"
+
+#: src/tutorial/quickies.xml:663(title)
+msgid "Menu for <quote>Rotate An Image</quote>"
+msgstr ""
+"<quote>Rotate An Image</quote> വേണ്ടി മെനു"
+
+#: src/tutorial/quickies.xml:673(para)
+msgid ""
+"Images that are taken with digital cameras sometimes need to be rotated. To "
+"do this, use <menuchoice moreinfo=\"none\"><guimenu moreinfo=\"none\">Image</"
+"guimenu><guisubmenu moreinfo=\"none\">Transform</guisubmenu><guimenuitem "
+"moreinfo=\"none\">Rotate 90° clockwise</guimenuitem></menuchoice> (or "
+"counter-clockwise). The images below demonstrate a 90 degrees CCW rotation."
+msgstr ""
+"ഡിജിറ്റൽ ക്യാമറകൾ വഴി എടുത്ത ചിത്രങ്ങളും ചിലപ്പോൾ കറക്കണോ ചെയ്യേണ്ടതുണ്ട്"
+". ഇത് ചെയ്യുന്നതിന്, <menuchoice moreinfo=\"none\"><guimenu moreinfo=\"none"
+"\">Image</guimenu><guisubmenu moreinfo=\"none\">Transform</guisubmenu><guim"
+"enuitem moreinfo=\"none\">Rotate 90&#176; clockwise</guimenuitem></menuchoi"
+"ce> (അല്ലെങ്കിൽ അപ്രദക്ഷിണ) ഉപയോഗിക്കുക. താഴെ ചിത്രങ്ങളിൽ 90 ഡിഗ്രി CCW റെ"
+"ാട്ടേഷൻ പ്രകടമാക്കിയത്."
+
+#: src/tutorial/quickies.xml:683(title)
+msgid "Example for <quote>Rotate An Image</quote>"
+msgstr ""
+"<quote>Rotate An Image</quote> ഉദാഹരണത്തിന്"
+
+#: src/tutorial/quickies.xml:691(para)
+msgid "Source Image"
+msgstr ""
+"ഉറവിട ഇമേജ്"
+
+#: src/tutorial/quickies.xml:700(para)
+msgid "Rotated image 90 degree CCW"
+msgstr ""
+"തിരിച്ച ചിത്രം 90 ഡിഗ്രി CCW"
+
+#: src/tutorial/quickies.xml:707(title)
+msgid "Separating an Object From Its Background"
+msgstr ""
+"ഇതിന്റെ പശ്ചാത്തലത്തിൽ ഒരു വസ്തുവിന്റെ വേർതിരിക്കുന്ന"
+
+#: src/tutorial/quickies.xml:713(title)
+msgid "Object with Background"
+msgstr ""
+"പശ്ചാത്തലവും ഒബ്ജക്റ്റ്"
+
+#: src/tutorial/quickies.xml:722(para)
+msgid ""
+"Sometimes you need to separate the subject of an image from its background. "
+"You may want to have the subject on a flat color, or keep the background "
+"transparent so you can use it on an existing background, or any other thing "
+"you have in mind. To do this, you must first use <acronym>GIMP</acronym>'s "
+"selection tools to draw a selection around your subject. This is not an easy "
+"task, and selecting the correct tool is crucial. You have several tools to "
+"accomplish this."
+msgstr ""
+"ചിലപ്പോൾ നിങ്ങൾ അതിന്റെ പശ്ചാത്തലത്തിൽ നിന്ന് ഒരു ചിത്രത്തിന്റെ വിഷയം വേർത"
+"ിരിച്ചു വേണം. നിങ്ങൾ ഒരു ഫ്ലാറ്റ് നിറം വിഷയം ആഗ്രഹിക്കുന്നില്ല, അല്ലെങ്കിൽ "
+"പശ്ചാത്തല സുതാര്യമായ സൂക്ഷിക്കാൻ ഇതുവഴി നിലവിലുള്ള പശ്ചാത്തലം, അല്ലെങ്കിൽ ന"
+"ിങ്ങൾ മനസിലുണ്ട് മറ്റു അത് ഉപയോഗിക്കാൻ കഴിയും ചെയ്യാം. ഇത് ചെയ്യുന്നതിന്, "
+"ആദ്യം നിങ്ങളുടെ സബ്ജക്റ്റിനുചുറ്റും ഒരു നിര വരയ്ക്കാൻ <acronym>GIMP</acrony"
+"m> ന്റെ നിരക്കു ഉപകരണങ്ങൾ ഉപയോഗിക്കണം. ഈ എളുപ്പമുള്ള ഒരു കാര്യമല്ല, ശരിയായ"
+" ഉപകരണം തിരഞ്ഞെടുത്ത് നിർണായകമാണ്. ഈ നിവർത്തിക്കും ധാരാളം ഉപകരണങ്ങൾ ഞങ്ങൾക്"
+"കുണ്ട്."
+
+#: src/tutorial/quickies.xml:729(para)
+msgid ""
+"The <quote>Free Select Tool</quote> allows you to draw a border using either "
+"freehand or straight lines. Use this when the subject has a relatively "
+"simple shape. Read more about this tool here: <xref linkend=\"gimp-tool-free-"
+"select\"/>"
+msgstr ""
+"<quote>Free Select Tool</quote> നിങ്ങൾ freehand അല്ലെങ്കിൽ രേഖാഖണ്ഡം ഉപയോഗ"
+"ിച്ച് ഒരു അതിർത്തി വരയ്ക്കാൻ അനുവദിക്കുന്നു. വിഷയം താരതമ്യേന ലളിതമായ ആകൃതിയ"
+"ുള്ള ഇത് ഉപയോഗിക്കുക. <xref linkend=\"gimp-tool-free- select\" />: ഇവിടെ ഈ"
+" ഉപകരണം കുറിച്ച് കൂടുതൽ വായിക്കൂ"
+
+#: src/tutorial/quickies.xml:735(title)
+msgid "Free Select Tool"
+msgstr ""
+"സൗജന്യ തിരഞ്ഞെടുക്കുക ടൂൾ"
+
+#: src/tutorial/quickies.xml:749(para)
+msgid ""
+"The <quote>Intelligent Scissors Select Tool</quote> lets you select a "
+"freehand border and uses edge-recognition algorithms to better fit the "
+"border around the object. Use this when the subject is complex but distinct "
+"enough against its current background. Read more about this tool here: <xref "
+"linkend=\"gimp-tool-iscissors\"/>"
+msgstr ""
+"<quote>Intelligent Scissors Select Tool</quote> നിങ്ങൾ ഒരു freehand അതിർത്ത"
+"ി തിരഞ്ഞെടുക്കുക അനുവദിക്കുന്നു മെച്ചപ്പെട്ട ഒബ്ജക്റ്റ് ചുറ്റും ബോർഡർ fit "
+"അറ്റത്തേക്ക്-തിരിച്ചറിയൽ അൽഗോരിതങ്ങൾ ഉപയോഗിക്കുന്നു. വിഷയം സങ്കീർണമായ മതി"
+" അതിന്റെ നിലവിലെ പശ്ചാത്തലത്തിലാണ് പ്രത്യേകമായി ഇത് ഉപയോഗിക്കുക. <xref lin"
+"kend=\"gimp-tool-iscissors\" />: ഇവിടെ ഈ ഉപകരണം കുറിച്ച് കൂടുതൽ വായിക്കൂ"
+
+#: src/tutorial/quickies.xml:756(title)
+msgid "Intelligent Scissors Select Tool"
+msgstr ""
+"ഇന്റലിജന്റ് കത്രിക തിരഞ്ഞെടുക്കുക ടൂൾ"
+
+#: src/tutorial/quickies.xml:771(para)
+msgid ""
+"The <quote>Foreground Select Tool</quote> lets you mark areas as "
+"<quote>Foreground</quote> or <quote>Background</quote> and refines the "
+"selection automatically. Read more about this tool here: <xref linkend="
+"\"gimp-tool-foreground-select\"/>"
+msgstr ""
+"<quote>Foreground Select Tool</quote> നിങ്ങൾ <quote>Foreground</quote> അല്ല"
+"െങ്കിൽ <quote>Background</quote> ആയി പ്രദേശങ്ങൾ അടയാളപ്പെടുത്തുക അനുവദിക്കു"
+"ന്നു യാന്ത്രികമായി നിരക്കു refines. <xref linkend=\"gimp-tool-foreground-se"
+"lect\" />: ഇവിടെ ഈ ഉപകരണം കുറിച്ച് കൂടുതൽ വായിക്കൂ"
+
+#: src/tutorial/quickies.xml:777(title)
+msgid "Foreground Select Tool"
+msgstr ""
+"മുൻവശം തിരഞ്ഞെടുക്കുക ടൂൾ"
+
+#: src/tutorial/quickies.xml:792(para)
+msgid ""
+"Once you have selected your subject successfully, use <menuchoice moreinfo="
+"\"none\"><guimenu moreinfo=\"none\">Select</guimenu><guimenuitem moreinfo="
+"\"none\">Invert</guimenuitem></menuchoice>. Now, instead of the subject, the "
+"background is selected. What you do now depends on what you intended to do "
+"with the background."
+msgstr ""
+"നിങ്ങൾ വിജയകരമായി വിഷയം തിരഞ്ഞെടുത്ത ശേഷം, <menuchoice moreinfo=\"none\"><g"
+"uimenu moreinfo=\"none\">Select</guimenu><guimenuitem moreinfo=\"none\">Inv"
+"ert</guimenuitem></menuchoice> ഉപയോഗിക്കുക. ഇപ്പോൾ, പകരം വിഷയം പശ്ചാത്തല "
+"തിരഞ്ഞെടുത്തു. എന്തു ഇപ്പോൾ നിങ്ങൾ പശ്ചാത്തല തമ്മിൽ എന്തു ഉദ്ദേശിച്ചത് ആശ്"
+"രയിച്ചിരിക്കുന്നു."
+
+#: src/tutorial/quickies.xml:802(para)
+msgid "To fill the background with a single color:"
+msgstr ""
+"ഒരൊറ്റ നിറം പശ്ചാത്തലം പൂരിപ്പിക്കുന്നു"
+
+#: src/tutorial/quickies.xml:803(para)
+msgid ""
+"Click the foreground color swatch (the top left of the two overlapping "
+"colored rectangles) in the toolbox and select the desired color. Next, use "
+"<xref linkend=\"gimp-tool-bucket-fill\"/> to replace the background with "
+"your chosen color."
+msgstr ""
+"പണിസഞ്ചിയിൽ പുരോതല നിറം Swatch (രണ്ട് ഓവർലാപ്പുചെയ്യുമ്പോൾ നിറമുള്ള വരയ്ക"
+"്കുന്ന മുകളിൽ ഇടത്) ക്ലിക്കുചെയ്ത് ആവശ്യമുള്ള നിറം തിരഞ്ഞെടുക്കുക. അടുത്തതാ"
+"യി, നിങ്ങളുടെ തിരഞ്ഞെടുത്ത നിറം പശ്ചാത്തലം പുനഃസ്ഥാപനം <xref linkend=\"gimp"
+"-tool-bucket-fill\" /> ഉപയോഗിക്കുക."
+
+#: src/tutorial/quickies.xml:811(title)
+msgid "Result of Adding a Plain Color Background"
+msgstr ""
+"ഒരു പ്ലെയിൻ കളർ പശ്ചാത്തലം ചേർക്കുന്നു ഫലം"
+
+#: src/tutorial/quickies.xml:822(para)
+msgid "To make a transparent background:"
+msgstr ""
+"സുതാര്യമായ പശ്ചാത്തലമുള്ള നടത്താന്:"
+
+#: src/tutorial/quickies.xml:823(para)
+msgid ""
+"Use <menuchoice moreinfo=\"none\"><guimenu moreinfo=\"none\">Layer</"
+"guimenu><guisubmenu moreinfo=\"none\">Transparence</guisubmenu><guimenuitem "
+"moreinfo=\"none\">Add Alpha Channel</guimenuitem></menuchoice> to add an "
+"alpha channel. Next, use <guimenu moreinfo=\"none\">Edit</"
+"guimenu><guimenuitem moreinfo=\"none\">Clear</guimenuitem> or hit the "
+"<keycap moreinfo=\"none\">Del</keycap> key on the keyboard to remove the "
+"background. Please note that only a small subset of file formats support "
+"transparent areas. Your best bet is to save your image as PNG."
+msgstr ""
+"ഒരു ആല്ഫാ ചാനൽ ചേർക്കാൻ <menuchoice moreinfo=\"none\"><guimenu moreinfo=\"n"
+"one\">Layer</guimenu><guisubmenu moreinfo=\"none\">Transparence</guisubmenu"
+"><guimenuitem moreinfo=\"none\">Add Alpha Channel</guimenuitem></menuchoice"
+"> ഉപയോഗിക്കുക. അടുത്തതായി, <guimenu moreinfo=\"none\">Edit</guimenu> <guim"
+"enuitem moreinfo=\"none\">Clear</guimenuitem> ഉപയോഗിക്കുക പശ്ചാത്തലത്തിൽ ന"
+"ീക്കം കീബോർഡിലെ <keycap moreinfo=\"none\">Del</keycap> കീ അമർത്തുക. ഫയൽ ഫേ"
+"ാർമാറ്റുകൾ മാത്രമേ ഒരു ചെറിയ ഉപഗണം സുതാര്യമായ പ്രദേശങ്ങൾ പിന്തുണയ്ക്കുന്ന ശ"
+"്രദ്ധിക്കുക. നിങ്ങളുടെ ഏറ്റവും മികച്ച പന്തയം പിഎൻജി പോലെ നിങ്ങളുടെ ഇമേജ് സ"
+"ംരക്ഷിക്കാൻ ആണ്."
+
+#: src/tutorial/quickies.xml:837(title)
+msgid "Result of Adding a Transparent Background"
+msgstr ""
+"സുതാര്യമായ പശ്ചാത്തലമുള്ള ചേർക്കുന്നു ഫലം"
+
+#: src/tutorial/quickies.xml:848(para)
+msgid ""
+"To make a black-and-white background while keeping the subject in color:"
+msgstr ""
+"നിറം വിഷയം നിലനിർത്തിക്കൊണ്ടുതന്നെ ഒരു ബ്ലാക്ക് ആന്റ് വൈറ്റ് പശ്ചാത്തലം നട"
+"ത്താന്:"
+
+#: src/tutorial/quickies.xml:850(para)
+msgid ""
+"Use <menuchoice moreinfo=\"none\"><guimenu moreinfo=\"none\">Colors</"
+"guimenu><guimenuitem moreinfo=\"none\">Desaturate</guimenuitem></"
+"menuchoice>. In the dialog that opens, cycle between the modes and select "
+"the best-looking one, then click OK."
+msgstr ""
+"<menuchoice moreinfo=\"none\"><guimenu moreinfo=\"none\">Colors</guimenu><g"
+"uimenuitem moreinfo=\"none\">Desaturate</guimenuitem></menuchoice> ഉപയോഗിക"
+"്കുക. , തുറക്കുന്ന ഡയലോഗ് ൽ മോഡുകൾ തമ്മിലുള്ള സൈക്കിൾ മികച്ച-തിരയുന്ന തെര"
+"ഞ്ഞെടുക്കൂ, ശരി ക്ലിക്ക് ചെയ്യുക."
+
+#: src/tutorial/quickies.xml:858(title)
+msgid "Result of Desaturating the Background"
+msgstr ""
+"പശ്ചാത്തലം Desaturating ഫലം"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:34(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-intro.png'; "
+"md5=f61df560f016864ee4793b74b6b2627d"
+msgstr ""
+"@@image: 'images/tutorials/straight-lines-intro.png'; "
+"md5=f61df560f016864ee4793b74b6b2627d"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:55(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-1.png'; "
+"md5=6871511a768320fb3eaff6a6e5869395"
+msgstr ""
+"@@image: 'images/tutorials/straight-lines-1.png'; "
+"md5=6871511a768320fb3eaff6a6e5869395"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:61(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-1b.png'; "
+"md5=eecc016664e2f88855fe1aca1c6354f4"
+msgstr ""
+"@@image: 'images/tutorials/straight-lines-1b.png'; "
+"md5=eecc016664e2f88855fe1aca1c6354f4"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:82(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-2.png'; "
+"md5=cc057126b7a6634b87f30962c801923e"
+msgstr ""
+"@@image: 'images/tutorials/straight-lines-2.png'; "
+"md5=cc057126b7a6634b87f30962c801923e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:102(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-3.png'; "
+"md5=f4974753d775d039663c18d2c4709340"
+msgstr ""
+"@@image: 'images/tutorials/straight-lines-3.png'; "
+"md5=f4974753d775d039663c18d2c4709340"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:117(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-4.png'; "
+"md5=f4250f506831a1a67ae2c0a991880173"
+msgstr ""
+"@@image: 'images/tutorials/straight-lines-4.png'; "
+"md5=f4250f506831a1a67ae2c0a991880173"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:138(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-5.png'; "
+"md5=9718486edb49969114d228116ae777e4"
+msgstr ""
+"@@image: 'images/tutorials/straight-lines-5.png'; "
+"md5=9718486edb49969114d228116ae777e4"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:159(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-6.png'; "
+"md5=f8e9f231af333e7aebe02da1d2c66014"
+msgstr ""
+"@@image: 'images/tutorials/straight-lines-6.png'; "
+"md5=f8e9f231af333e7aebe02da1d2c66014"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:181(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-example1.png'; "
+"md5=c2f6fc5221a1bc0cd8972b7f86c5945b"
+msgstr ""
+"@@image: 'images/tutorials/straight-lines-example1.png'; "
+"md5=c2f6fc5221a1bc0cd8972b7f86c5945b"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:192(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-example3.png'; "
+"md5=31baded6d15c1bf15ef05a713cf0fdb7"
+msgstr ""
+"@@image: 'images/tutorials/straight-lines-example3.png'; "
+"md5=31baded6d15c1bf15ef05a713cf0fdb7"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:207(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-example2.png'; "
+"md5=e8e7c32ad05e6021d1b9094f79aebf10"
+msgstr ""
+"@@image: 'images/tutorials/straight-lines-example2.png'; "
+"md5=e8e7c32ad05e6021d1b9094f79aebf10"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:226(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-example4.png'; "
+"md5=ea48a5637c7a84fed31131becd0dd765"
+msgstr ""
+"@@image: 'images/tutorials/straight-lines-example4.png'; "
+"md5=ea48a5637c7a84fed31131becd0dd765"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:248(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-example5.png'; "
+"md5=ab5509684e99f8c008334bcc1d711ca9"
+msgstr ""
+"@@image: 'images/tutorials/straight-lines-example5.png'; "
+"md5=ab5509684e99f8c008334bcc1d711ca9"
+
+#: src/tutorial/straight-lines.xml:12(title)
+msgid "How to Draw Straight Lines"
+msgstr ""
+"എങ്ങനെ രേഖാഖണ്ഡം വരയ്ക്കുന്നതിന്"
+
+#: src/tutorial/straight-lines.xml:18(primary)
+msgid "Draw"
+msgstr ""
+"വര്ണിക്കുക"
+
+#: src/tutorial/straight-lines.xml:21(para)
+msgid ""
+"This tutorial is based on Text and images Copyright © 2002 Seth Burgess. The "
+"original tutorial can be found in the Internet <xref linkend=\"bibliography-"
+"online-tutorial01\"/>."
+msgstr ""
+"ഈ ട്യൂട്ടോറിയൽ വാചകങ്ങളും ചിത്രങ്ങളും പകർപ്പവകാശം © 2002 സേഥ് Burgess അടിസ"
+"്ഥാനമാക്കിയുള്ളതാണ്. യഥാർത്ഥ ട്യൂട്ടോറിയൽ ഇന്റർനെറ്റ് <xref linkend=\"bibl"
+"iography- online-tutorial01\" /> കണ്ടെത്താൻ കഴിയും."
+
+#: src/tutorial/straight-lines.xml:30(title)
+msgid "Example of straight lines"
+msgstr ""
+"രേഖാഖണ്ഡം ഉദാഹരണം"
+
+#: src/tutorial/straight-lines.xml:38(para)
+msgid ""
+"This tutorial shows you how to draw straight lines with <acronym>GIMP</"
+"acronym>. Forcing a line to be straight is a convenient way to deal with the "
+"imprecision of a mouse or tablet, and to take advantage of the power of a "
+"computer to make things look neat and orderly. This tutorial doesn't use "
+"Straight Lines for complex tasks; its intended to show how you can use it to "
+"create quick and easy straight lines."
+msgstr ""
+"ഈ ട്യൂട്ടോറിയൽ <acronym>GIMP</acronym> കൂടെ രേഖാഖണ്ഡം എങ്ങനെ വരയ്ക്കാം നിങ"
+"്ങൾക്ക് കാണിക്കുന്നു. ഒരു ലൈൻ നിർബന്ധിച്ച് നേരായ ഒരു മൗസ് അല്ലെങ്കിൽ ടാബ്ലറ"
+"്റ് imprecision കൈകാര്യം, കാര്യങ്ങൾ വിലങ്ങുതടിയായി പറയാനായി നോക്കി ഒരു കമ്"
+"പ്യൂട്ടറിൽ ശക്തി മുതലെടുക്കാൻ സുഖ മാർഗമാണ്. ഈ ട്യൂട്ടോറിയൽ സങ്കീർണ്ണമായ ടാ"
+"സ്ക്കുകൾക്കായും രേഖാഖണ്ഡം ഉപയോഗിക്കുന്നില്ല; അതിന്റെ നിങ്ങൾ വേഗത്തിലും എളു"
+"പ്പത്തിലും രേഖാഖണ്ഡം സൃഷ്ടിക്കാൻ ഇത് ഉപയോഗിക്കാം എങ്ങനെ ഉദ്ദേശിച്ചുള്ള."
+
+#: src/tutorial/straight-lines.xml:49(title)
+msgid "Preparations"
+msgstr ""
+"തയ്യാറെടുപ്പുകൾ"
+
+#: src/tutorial/straight-lines.xml:51(title)
+msgid "Introducing the <keycap>Shift</keycap>-key"
+msgstr ""
+"<keycap>Shift</keycap> -key അവതരിപ്പിക്കുന്നു"
+
+#: src/tutorial/straight-lines.xml:65(para)
+msgid ""
+"The invention called the typewriter introduced the <keycap>Shift</keycap> "
+"Key. You generally have 2 of them on your keyboard. They look something like "
+"the figure above. The keys are located on the left and right sides of your "
+"keyboard. The mouse was invented by Douglas C. Engelbart in 1970. These come "
+"in different varieties, but always have at least one button."
+msgstr ""
+"കണ്ടുപിടുത്തവും ടൈപ്പ്റൈറ്റർ <keycap>Shift</keycap> കീ അവതരിപ്പിച്ചു വിളിച്"
+"ചു. സാധാരണ നിങ്ങളുടെ കീബോർഡിൽ അവരിൽ 2 ഞങ്ങൾക്കുണ്ട്. അവർ മുകളിൽ കണക്കുകൾ പ"
+"ോലെ കാണപ്പെടും. കീകൾ നിങ്ങളുടെ കീബോർഡ് ഇടതും വലതും വശങ്ങളിൽ സ്ഥിതി. മൌസ്"
+" 1970 ഡഗ്ലസ് സി ഷെയേർഡ് വഴി കണ്ടുപിടിച്ച ഈ പല തരത്തിലുള്ള വരും, എപ്പോഴും ക"
+"ുറഞ്ഞത് ഒരു ബട്ടൺ ഉണ്ട്."
+
+#: src/tutorial/straight-lines.xml:76(title)
+msgid "Creating a Blank Drawable"
+msgstr ""
+"ഒരു ശൂന്യമായ വരയ്ക്കാനാകുന്നത് സൃഷ്ടിക്കുന്നു"
+
+#: src/tutorial/straight-lines.xml:78(title)
+msgid "New image"
+msgstr ""
+"പുതിയ ചിത്രം"
+
+#: src/tutorial/straight-lines.xml:86(para)
+msgid ""
+"First, create a new image. Any size will do. Use <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>New</guimenuitem></menuchoice> to create a new image."
+msgstr ""
+"ആദ്യം, ഒരു പുതിയ ചിത്രം സൃഷ്ടിക്കുക. ഏത് വലുപ്പം ചെയ്യും. ഒരു പുതിയ ഇമേജ് സ"
+"ൃഷ്ടിക്കാൻ <menuchoice><guimenu>File</guimenu><guimenuitem>New</guimenuitem"
+"></menuchoice> ഉപയോഗിക്കുക."
+
+#: src/tutorial/straight-lines.xml:96(title)
+msgid "Choose a Tool"
+msgstr ""
+"ഒരു ടൂൾ തിരഞ്ഞെടുക്കുക"
+
+#: src/tutorial/straight-lines.xml:98(title)
+msgid "Paint tools in the toolbox"
+msgstr ""
+"പെയിന്റ് പണിസഞ്ചിയിൽ ഉപകരണങ്ങൾ"
+
+#: src/tutorial/straight-lines.xml:106(para)
+msgid "Any of the red-highlighted tools on the above toolbox can do lines."
+msgstr ""
+"മുകളിൽ ഉപകരണബോക്സിലേക്ക് ചുവന്ന-എടുത്തുകാണിച്ചിരിക്കുന്ന ഉപകരണങ്ങൾ ഏതെങ്കി"
+"ലും വരികൾ ചെയ്യാൻ കഴിയും."
+
+#: src/tutorial/straight-lines.xml:111(title)
+msgid "Create a Starting Point"
+msgstr ""
+"ഒരു ആരംഭിക്കുന്നയിടം സൃഷ്ടിക്കുക"
+
+#: src/tutorial/straight-lines.xml:113(title)
+msgid "Starting point"
+msgstr ""
+"ആരംഭ സ്ഥാനം"
+
+#: src/tutorial/straight-lines.xml:121(para)
+msgid ""
+"Click on the paintbrush in the toolbox. Click in the image where you want a "
+"line to start or end. A single dot will appear on the screen. The size of "
+"this dot represents the current brush size, which you can change in the "
+"Brush Dialog (see <xref linkend=\"gimp-brush-dialog\"/>).Now, lets start "
+"drawing a line. Hold down the <keycap>Shift</keycap> key, and keep it down."
+msgstr ""
+"പണിസഞ്ചിയിൽ അന്തസ്സായിത്തന്നെയാണു ക്ലിക്ക് ചെയ്യുക. നിങ്ങൾ തുടങ്ങാനോ അവസാന"
+"ിപ്പിക്കാനോ ഒരു വരി ആഗ്രഹിക്കുന്ന എവിടെ ഇമേജിൽ ക്ലിക്ക്. ഒരൊറ്റ ഡോട്ട് സ"
+"്ക്രീനിൽ ദൃശ്യമാകും. ഈ ഡോട്ട് വലുപ്പത്തെ നിങ്ങൾ ബ്രഷ് ഡയലോഗിൽ മാറ്റാൻ കഴി"
+"യും നിലവിലെ ബ്രഷ് സൈസ്, (<xref linkend=\"gimp-brush-dialog\" /> കാണുക) .എന്"
+"നാല്, ഒരു ലൈൻ വരയ്ക്കുന്നത് ആരംഭിക്കാൻ അനുവദിക്കുന്നു പ്രതിനിധീകരിക്കുന്നു."
+" <keycap>Shift</keycap> കീ അമർത്തിപ്പിടിക്കുക, അതു ശ്രദ്ധിക്കാറുണ്ട്."
+
+#: src/tutorial/straight-lines.xml:132(title)
+msgid "Drawing the Line"
+msgstr ""
+"ലൈൻ ഡ്രോയിംഗ്"
+
+#: src/tutorial/straight-lines.xml:134(title)
+msgid "Drawing the line"
+msgstr ""
+"ലൈൻ ഡ്രോയിംഗ്"
+
+#: src/tutorial/straight-lines.xml:142(para)
+msgid ""
+"After you have a starting point and while pressing the <keycap>Shift</"
+"keycap>, you will see a straight line that follows the cursor. Press the "
+"first button on the Mouse (the leftmost one usually) and let it go. During "
+"that whole <quote>click</quote> of the <mousebutton>Mouse button</"
+"mousebutton>, you need to keep the <keycap>Shift</keycap> Key held down."
+msgstr ""
+"ഒരു ആരംഭ പോയിന്റ് എനിക്കുണ്ട് <keycap>Shift</keycap> അമർത്തിക്കൊണ്ട് ശേഷം"
+" കഴ്സറിൻറെ പിന്തുടരുന്ന ഒരു വര കാണും. അമർത്തുക മൌസ് ആദ്യത്തെ ബട്ടൺ (ഇടത്തേ"
+"യറ്റത്തെ സാധാരണയായി) അതു വിട്ടയച്ചു. <mousebutton>Mouse button</mousebutton"
+"> ആ മുഴുവൻ <quote>click</quote> സമയത്ത്, <keycap>Shift</keycap> കീ അമർത്തിപ"
+"്പിടിച്ചു തുടരേണ്ട ആവശ്യമുണ്ട്."
+
+#: src/tutorial/straight-lines.xml:153(title)
+msgid "Final"
+msgstr ""
+"ഫൈനൽ"
+
+#: src/tutorial/straight-lines.xml:155(title)
+msgid "Final Image"
+msgstr ""
+"അന്തിമ ഇമേജ്"
+
+#: src/tutorial/straight-lines.xml:163(para)
+msgid ""
+"This is a powerful feature. You can draw straight lines with any of the draw "
+"tools. You can even draw more lines at the end of this one. Our last step is "
+"to let go of the <keycap>Shift</keycap> key. And there you have it. Some "
+"more examples are shown below. Happy <acronym>GIMP</acronym>ing!"
+msgstr ""
+"ഇത് ഒരു ശക്തമായ ഫീച്ചർ ആണ്. നിങ്ങൾ സമനിലയിൽ ഉപകരണങ്ങൾ ഏതെങ്കിലും രേഖാഖണ്ഡം "
+"കഴിയും. നിങ്ങൾ പോലും ഈ ഒരു അവസാനം കൂടുതൽ ലൈനുകൾ വരയ്ക്കുക കഴിയും. നമ്മുടെ "
+"അവസാന ഘട്ട <keycap>Shift</keycap> കീ വിട്ടയക്കേണം. അവിടെ നിങ്ങൾ അത്. ചില കൂ"
+"ടുതൽ ഉദാഹരണങ്ങൾ താഴെ കൊടുത്തിരിക്കുന്നു. ഹാപ്പി <acronym>GIMP</acronym> .മ"
+"െംന്പറാകുക!"
+
+#: src/tutorial/straight-lines.xml:175(title)
+msgid "Examples"
+msgstr ""
+"ഉദാഹരണങ്ങൾ"
+
+#: src/tutorial/straight-lines.xml:177(title)
+msgid "Examples I"
+msgstr ""
+"ഉദാഹരണങ്ങൾ ഞാൻ"
+
+#: src/tutorial/straight-lines.xml:184(para)
+msgid "Check Use color from gradient."
+msgstr ""
+"ഗ്രേഡിയന്റ് നിന്ന് ഉപയോഗിക്കുക നിറം പരിശോധിക്കുക."
+
+#: src/tutorial/straight-lines.xml:195(para)
+msgid ""
+"Select the Clone tool and set the source to <quote>Maple Leaves</quote> "
+"pattern."
+msgstr ""
+"ക്ലോൺ സെലക്റ്റ് <quote>Maple Leaves</quote> മാതൃക ഉറവിടം വെച്ചു."
+
+#: src/tutorial/straight-lines.xml:203(title)
+msgid "Examples II"
+msgstr ""
+"ഉദാഹരണങ്ങൾ രണ്ടാം"
+
+#: src/tutorial/straight-lines.xml:210(para)
+msgid ""
+"Use <menuchoice><guimenu>Filters</guimenu><guimenuitem>Render</"
+"guimenuitem><guimenuitem>Pattern</guimenuitem><guimenuitem>Grid</"
+"guimenuitem></menuchoice> to create a grid. Use the Smudge Tool to draw a "
+"line with a slightly larger brush."
+msgstr ""
+"ഒരു ഗ്രിഡ് സൃഷ്ടിക്കാൻ <menuchoice><guimenu>Filters</guimenu><guimenuitem>R"
+"ender</guimenuitem><guimenuitem>Pattern</guimenuitem><guimenuitem>Grid</gui"
+"menuitem></menuchoice> ഉപയോഗിക്കുക. ഞാന് ഒരു വലിയ ബ്രഷ് കൊണ്ട് ഒരു ലൈൻ വര"
+"യ്ക്കാൻ സ്മഡ്ജ് ടൂൾ ഉപയോഗിക്കുക."
+
+#: src/tutorial/straight-lines.xml:229(para)
+msgid ""
+"Use <menuchoice><guimenu>Filters</guimenu><guimenuitem>Render</"
+"guimenuitem><guimenuitem>Clouds</guimenuitem><guimenuitem>Plasma</"
+"guimenuitem></menuchoice> to create the cool plasma cloud. Use the Erase "
+"Tool with a square brush to draw a line."
+msgstr ""
+"തണുത്ത പ്ലാസ്മ ക്ലൗഡ് സൃഷ്ടിക്കാൻ <menuchoice><guimenu>Filters</guimenu><gu"
+"imenuitem>Render</guimenuitem><guimenuitem>Clouds</guimenuitem><guimenuitem"
+">Plasma</guimenuitem></menuchoice> ഉപയോഗിക്കുക. ഒരു ലൈൻ ഒരു സ്ക്വയർ ബ്രഷ് "
+"ഉപയോഗിച്ച് മായ്കൽ ടൂൾ ഉപയോഗിക്കുക."
+
+#: src/tutorial/straight-lines.xml:244(title)
+msgid "Example III"
+msgstr ""
+"ഉദാഹരണം മൂന്നാമൻ"
+
+#: src/tutorial/straight-lines.xml:251(para)
+msgid ""
+"Use the rectangle select tool to select a rectangle, and then fill the "
+"selection with a light blue color. Select the dodge/burn tool. Set the type "
+"to Dodge and paint along the top and left side using an appropriately sized "
+"brush. Set the type to Burn and paint along the right and bottom."
+msgstr ""
+"പിന്നീട് ഒരു ദീർഘചതുരം തിരഞ്ഞെടുക്കുന്നതിന് ദീർഘചതുരം തിരഞ്ഞെടുത്ത ഉപകരണം ഉ"
+"പയോഗിക്കുക, പ്രകാശം നീല നിറം നിരക്കു പൂരിപ്പിക്കുക. ഡോഡ്ജ് / ബേൺ ടൂൾ തിരഞ"
+"്ഞെടുക്കുക. ഡാഡ്ജ് ലേക്കുള്ള തരം സജ്ജമാക്കുക ആവശ്യം വലിപ്പത്തിലുള്ള ബ്രഷ് ഉ"
+"പയോഗിച്ച് മുകളിൽ ഇടത് വശത്ത് വരക്കുന്നത്. വലത്തോട്ടും ചുവടെ ചുട്ടെരിച്ച് "
+"കളയുകയും, വരയ്ക്കാൻ തരം സജ്ജമാക്കുക."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/tutorial/straight-lines.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"

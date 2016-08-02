@@ -1,0 +1,1012 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gimp-help>
+  <help-item id="gimp-main" ref="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" parent="" sort="1"/>
+  <help-item id="preface" ref="preface.html" title="ആമുഖം" parent="gimp-main" sort="1.0.3"/>
+  <help-item id="gimp-team" ref="preface.html#gimp-team" title="1. ജിമ്പ് ഉപയോക്തൃ മാനുവൽ രചയിതാക്കളും സംഭാവനാകർത്താക്കൾ" parent="preface" sort="1"/>
+  <help-item id="getting-started" ref="getting-started.html" title="I. ആമുഖം" parent="gimp-main" sort="66.1"/>
+  <help-item id="introduction" ref="introduction.html" title="1. അവതാരിക" parent="getting-started" sort="1"/>
+  <help-item id="introduction-gimp" ref="introduction.html#introduction-gimp" title="1. ജിമ്പ് സ്വാഗതം" parent="introduction" sort="1"/>
+  <help-item id="authors" ref="introduction.html#authors" title="1.1. എഴുത്തുകാർ" parent="introduction-gimp" sort="1.1"/>
+  <help-item id="introduction-help" ref="introduction.html#introduction-help" title="1.2. ജിമ്പ് സഹായം സിസ്റ്റം" parent="introduction-gimp" sort="1.2"/>
+  <help-item id="introduction-features" ref="introduction.html#introduction-features" title="1.3. ഫീച്ചറുകൾ കഴിവുകളും" parent="introduction-gimp" sort="1.3"/>
+  <help-item id="gimp-introduction-whats-new" ref="gimp-introduction-whats-new.html" title="2. ജിമ്പ് 2.8 പുതുതായി എന്താണുള്ളത്?" parent="introduction" sort="2"/>
+  <help-item id="gimp-fire-up" ref="gimp-fire-up.html" title="2. ജിമ്പ് കാര്യക്ഷമമായി" parent="getting-started" sort="2"/>
+  <help-item id="gimp-concepts-running" ref="gimp-fire-up.html#gimp-concepts-running" title="1. ജിമ്പ് പ്രവർത്തിയ്ക്കുന്നു" parent="gimp-fire-up" sort="1"/>
+  <help-item id="introduction-platforms" ref="gimp-fire-up.html#introduction-platforms" title="1.1. അറിയപ്പെടുന്ന പ്ലാറ്റ്ഫോമുകൾ" parent="gimp-concepts-running" sort="1.1"/>
+  <help-item id="gimp-concepts-running-language" ref="gimp-fire-up.html#gimp-concepts-running-language" title="1.2. ഭാഷ" parent="gimp-concepts-running" sort="1.2"/>
+  <help-item id="gimp-concepts-running-command-line" ref="gimp-fire-up.html#gimp-concepts-running-command-line" title="1.3. കമാൻഡ് ലൈൻ ആർഗ്യുമെന്റുകൾ" parent="gimp-concepts-running" sort="1.3"/>
+  <help-item id="gimp-concepts-setup" ref="gimp-concepts-setup.html" title="2. ജിമ്പ് ആദ്യമായി ആരംഭിക്കുന്നു" parent="gimp-fire-up" sort="2"/>
+  <help-item id="gimp-first-steps" ref="gimp-first-steps.html" title="3. Wilber കൂടെ ആദ്യ ചുവടുകൾ" parent="getting-started" sort="3"/>
+  <help-item id="gimp-concepts-basic" ref="gimp-first-steps.html#gimp-concepts-basic" title="1. അടിസ്ഥാന ആശയങ്ങൾ" parent="gimp-first-steps" sort="1"/>
+  <help-item id="gimp-concepts-channels" ref="gimp-first-steps.html#gimp-concepts-channels" title="(ചാനലുകൾ)" parent="gimp-concepts-basic" sort="1.0.4"/>
+  <help-item id="gimp-concepts-main-windows" ref="gimp-concepts-main-windows.html" title="2. മെയിൻ വിൻഡോസ്" parent="gimp-first-steps" sort="2"/>
+  <help-item id="gimp-concepts-usage" ref="gimp-concepts-main-windows.html#gimp-concepts-usage" title="(വിഭാഗം 2, “മെയിൻ വിൻഡോസ്”)" parent="gimp-concepts-main-windows" sort="2.0.3"/>
+  <help-item id="gimp-concepts-toolbox" ref="gimp-concepts-main-windows.html#gimp-concepts-toolbox" title="2.1. പണിസഞ്ചി" parent="gimp-concepts-main-windows" sort="2.1"/>
+  <help-item id="gimp-image-window" ref="gimp-image-window.html" title="2.2. ചിത്രം വിൻഡോ" parent="gimp-concepts-main-windows" sort="2.2"/>
+  <help-item id="gimp-image-window-origin" ref="gimp-image-window.html#gimp-image-window-origin" title="(3)" parent="gimp-image-window" sort="2.2.0.5"/>
+  <help-item id="gimp-image-window-ruler" ref="gimp-image-window.html#gimp-image-window-ruler" title="(4)" parent="gimp-image-window" sort="2.2.0.6"/>
+  <help-item id="gimp-image-window-zoom" ref="gimp-image-window.html#gimp-image-window-zoom" title="(8)" parent="gimp-image-window" sort="2.2.0.8"/>
+  <help-item id="gimp-image-window-status-bar" ref="gimp-image-window.html#gimp-image-window-status-bar" title="(9)" parent="gimp-image-window" sort="2.2.0.9"/>
+  <help-item id="gimp-image-window-nav-button" ref="gimp-image-window.html#gimp-image-window-nav-button" title="(11)" parent="gimp-image-window" sort="2.2.0.10"/>
+  <help-item id="gimp-image-window-zoom-follow-button" ref="gimp-image-window.html#gimp-image-window-zoom-follow-button" title="(14)" parent="gimp-image-window" sort="2.2.0.12"/>
+  <help-item id="gimp-concepts-docks" ref="gimp-concepts-docks.html" title="2.3. ഡയലോഗുകൾ, ഡോക്കിങ്" parent="gimp-concepts-main-windows" sort="2.3"/>
+  <help-item id="gimp-dockable-dock-bars" ref="gimp-concepts-docks.html#gimp-dockable-dock-bars" title="2.3.1. സംഘടിപ്പിക്കുക ഡയലോഗുകൾ" parent="gimp-concepts-docks" sort="2.3.1"/>
+  <help-item id="gimp-dockable-menu" ref="gimp-concepts-docks.html#gimp-dockable-menu" title="2.3.2. ടാബ് മെനു" parent="gimp-concepts-docks" sort="2.3.2"/>
+  <help-item id="gimp-dock-tab-add" ref="gimp-concepts-docks.html#gimp-dock-tab-add" title="(ടാബ് ചേർക്കുക)" parent="gimp-dockable-menu" sort="2.3.2.0.5"/>
+  <help-item id="gimp-dock-tab-close" ref="gimp-concepts-docks.html#gimp-dock-tab-close" title="(ടാബ് അടയ്ക്കുക)" parent="gimp-dockable-menu" sort="2.3.2.0.7"/>
+  <help-item id="gimp-dock-tab-detach" ref="gimp-concepts-docks.html#gimp-dock-tab-detach" title="(ടാബ് പറിച്ചെടുക്കുക)" parent="gimp-dockable-menu" sort="2.3.2.0.8"/>
+  <help-item id="gimp-dock-tab-lock" ref="gimp-concepts-docks.html#gimp-dock-tab-lock" title="(ഡോക്ക് ലേക്കുള്ള ടാബ് ലോക്കുചെയ്യുക)" parent="gimp-dockable-menu" sort="2.3.2.0.9"/>
+  <help-item id="gimp-dock-preview-size" ref="gimp-concepts-docks.html#gimp-dock-preview-size" title="(പ്രിവ്യൂ വലിപ്പം)" parent="gimp-dockable-menu" sort="2.3.2.0.10"/>
+  <help-item id="gimp-dock-tab-style" ref="gimp-concepts-docks.html#gimp-dock-tab-style" title="(ടാബ് സ്റ്റൈൽ)" parent="gimp-dockable-menu" sort="2.3.2.0.12"/>
+  <help-item id="gimp-dock-view-as-list" ref="gimp-concepts-docks.html#gimp-dock-view-as-list" title="(പട്ടിക ആയി കാണുക; ഗ്രിഡായി കാണുക)" parent="gimp-dockable-menu" sort="2.3.2.0.14"/>
+  <help-item id="gimp-dock-view-as-grid" ref="gimp-concepts-docks.html#gimp-dock-view-as-grid" title="(ഗ്രിഡായി കാണുക)" parent="gimp-dockable-menu" sort="2.3.2.0.15"/>
+  <help-item id="gimp-dock-show-button-bar" ref="gimp-concepts-docks.html#gimp-dock-show-button-bar" title="(ബട്ടൺ ബാർ കാണിക്കുക)" parent="gimp-dockable-menu" sort="2.3.2.0.16"/>
+  <help-item id="gimp-concepts-undo" ref="gimp-concepts-undo.html" title="3. പഴയപടിയാക്കുന്നു" parent="gimp-first-steps" sort="3"/>
+  <help-item id="gimp-tutorial-quickies" ref="gimp-tutorial-quickies.html" title="4. സാധാരണ ജോലികൾ" parent="gimp-first-steps" sort="4"/>
+  <help-item id="gimp-tutorial-quickie-scale" ref="gimp-tutorial-quickie-scale.html" title="4.2. സ്ക്രീൻ ഒരു ചിത്രത്തിന്റെ വലുപ്പം മാറ്റുക" parent="gimp-tutorial-quickies" sort="4.2"/>
+  <help-item id="gimp-tutorial-quickie-scale-print" ref="gimp-tutorial-quickie-scale-print.html" title="4.3. പ്രിന്റ് ഒരു ചിത്രത്തിന്റെ വലുപ്പം മാറ്റുക" parent="gimp-tutorial-quickies" sort="4.3"/>
+  <help-item id="gimp-tutorial-quickie-jpeg" ref="gimp-tutorial-quickie-jpeg.html" title="4.4. കംപ്രസ്സുചെയ്യുന്നു ചിത്രങ്ങൾ" parent="gimp-tutorial-quickies" sort="4.4"/>
+  <help-item id="gimp-tutorial-quickie-crop" ref="gimp-tutorial-quickie-crop.html" title="4.5. ഒരു ചിത്രം വിള" parent="gimp-tutorial-quickies" sort="4.5"/>
+  <help-item id="gimp-tutorial-quickie-info" ref="gimp-tutorial-quickie-info.html" title="4.6. വിവരങ്ങളും നിങ്ങളുടെ ചിത്രം കുറിച്ച് കണ്ടെത്തുക" parent="gimp-tutorial-quickies" sort="4.6"/>
+  <help-item id="gimp-tutorial-quickie-change-mode" ref="gimp-tutorial-quickie-change-mode.html" title="4.7. മോഡ് മാറ്റുക" parent="gimp-tutorial-quickies" sort="4.7"/>
+  <help-item id="gimp-tutorial-quickie-flip" ref="gimp-tutorial-quickie-flip.html" title="4.8. ഒരു ചിത്രം ഫ്ലിപ്പ്ചെയ്യുക" parent="gimp-tutorial-quickies" sort="4.8"/>
+  <help-item id="gimp-tutorial-quickie-rotate" ref="gimp-tutorial-quickie-rotate.html" title="4.9. ഒരു ചിത്രം തിരിക്കുക" parent="gimp-tutorial-quickies" sort="4.9"/>
+  <help-item id="gimp-tutorial-quickie-separate" ref="gimp-tutorial-quickie-separate.html" title="4.10. ഇതിന്റെ പശ്ചാത്തലത്തിൽ ഒരു വസ്തുവിന്റെ വേർതിരിക്കുന്ന" parent="gimp-tutorial-quickies" sort="4.10"/>
+  <help-item id="gimp-tutorial-straight-lines" ref="gimp-tutorial-straight-lines.html" title="5. എങ്ങനെ രേഖാഖണ്ഡം വരയ്ക്കുന്നതിന്" parent="gimp-first-steps" sort="5"/>
+  <help-item id="gimp-tutorial-straight-lines-intention" ref="gimp-tutorial-straight-lines.html#gimp-tutorial-straight-lines-intention" title="5.1. ഉദ്ദേശം" parent="gimp-tutorial-straight-lines" sort="5.1"/>
+  <help-item id="gimp-tutorial-straight-lines-examples" ref="gimp-tutorial-straight-lines-examples.html" title="5.2. ഉദാഹരണങ്ങൾ" parent="gimp-tutorial-straight-lines" sort="5.2"/>
+  <help-item id="gimp-getting-unstuck" ref="gimp-getting-unstuck.html" title="4. Unstuck നേടുന്നു" parent="getting-started" sort="4"/>
+  <help-item id="gimp-using-getting-unstuck" ref="gimp-getting-unstuck.html#gimp-using-getting-unstuck" title="1. Unstuck നേടുന്നു" parent="gimp-getting-unstuck" sort="1"/>
+  <help-item id="gimp-using-getting-unstuck-general" ref="gimp-getting-unstuck.html#gimp-using-getting-unstuck-general" title="1.1. കുടുങ്ങിപ്പോയി!" parent="gimp-using-getting-unstuck" sort="1.1"/>
+  <help-item id="gimp-using-getting-unstuck-common-causes" ref="gimp-getting-unstuck.html#gimp-using-getting-unstuck-common-causes" title="1.2. ജിമ്പ് നോൺ-പ്രതികരണവും സാധാരണ കാരണങ്ങൾ" parent="gimp-using-getting-unstuck" sort="1.2"/>
+  <help-item id="become-a-gimp-wizard" ref="become-a-gimp-wizard.html" title="II. ഞാൻ എങ്ങനെയാണ് ഒരു GIMP വിസാര്ഡ് ആകാൻ കഴിയും?" parent="gimp-main" sort="66.2"/>
+  <help-item id="gimp-images-in" ref="gimp-images-in.html" title="5. കടന്നു ജിമ്പ് ഇമേജുകൾ നേടുന്നു" parent="become-a-gimp-wizard" sort="5"/>
+  <help-item id="gimp-concepts-image-types" ref="gimp-images-in.html#gimp-concepts-image-types" title="1. ചിത്ര തരങ്ങൾ" parent="gimp-images-in" sort="1"/>
+  <help-item id="gimp-using-fileformats-creating" ref="gimp-using-fileformats-creating.html" title="2. പുതിയ ഫയലുകൾ സൃഷ്ടിക്കുന്നു" parent="gimp-images-in" sort="2"/>
+  <help-item id="gimp-using-fileformats-opening" ref="gimp-using-fileformats-opening.html" title="3. ഫയലുകൾ തുറക്കുന്നു" parent="gimp-images-in" sort="3"/>
+  <help-item id="gimp-using-open-file" ref="gimp-using-fileformats-opening.html#gimp-using-open-file" title="3.1. ഫയൽ തുറക്കുക" parent="gimp-using-fileformats-opening" sort="3.1"/>
+  <help-item id="gimp-using-open-location" ref="gimp-using-open-location.html" title="3.2. സ്ഥാനം തുറക്കുക" parent="gimp-using-fileformats-opening" sort="3.2"/>
+  <help-item id="gimp-using-open-recent" ref="gimp-using-open-recent.html" title="3.3. സമീപകാലത്തെ തുറക്കുക" parent="gimp-using-fileformats-opening" sort="3.3"/>
+  <help-item id="gimp-using-external-programs" ref="gimp-using-external-programs.html" title="3.4. പുറത്തേക്കുള്ള പ്രോഗ്രാമുകൾ ഉപയോഗിക്കുന്നു" parent="gimp-using-fileformats-opening" sort="3.4"/>
+  <help-item id="gimp-using-file-manager" ref="gimp-using-file-manager.html" title="3.5. ഫയൽ മാനേജർ" parent="gimp-using-fileformats-opening" sort="3.5"/>
+  <help-item id="gimp-using-drag-and-drop" ref="gimp-using-drag-and-drop.html" title="3.6. വലിച്ചിടുക" parent="gimp-using-fileformats-opening" sort="3.6"/>
+  <help-item id="gimp-using-open-copy-and-paste" ref="gimp-using-open-copy-and-paste.html" title="3.7. പകര്ത്തി ഒട്ടിക്കുക" parent="gimp-using-fileformats-opening" sort="3.7"/>
+  <help-item id="gimp-using-image-browser" ref="gimp-using-image-browser.html" title="3.8. ഇമേജ്ബ്രൌസര്" parent="gimp-using-fileformats-opening" sort="3.8"/>
+  <help-item id="gimp-images-out" ref="gimp-images-out.html" title="6. ജിമ് നിന്നു ചിത്രങ്ങൾ നേടുന്നു" parent="become-a-gimp-wizard" sort="6"/>
+  <help-item id="gimp-using-fileformats" ref="gimp-images-out.html#gimp-using-fileformats" title="1. ഫയലുകൾ" parent="gimp-images-out" sort="1"/>
+  <help-item id="save-export-image" ref="gimp-images-out.html#save-export-image" title="1.1. സംരക്ഷിക്കുക / കയറ്റുമതി ചിത്രങ്ങൾ" parent="gimp-using-fileformats" sort="1.1"/>
+  <help-item id="gimp-using-fileformats-export-dialog" ref="gimp-images-out.html#gimp-using-fileformats-export-dialog" title="1.2. ഫയൽ ഫോർമാറ്റുകൾ" parent="gimp-using-fileformats" sort="1.2"/>
+  <help-item id="file-gif-save" ref="gimp-images-out.html#file-gif-save" title="1.2.1. ജിഫ് ആയിലഭ്യമാക്കുക ചിത്രം" parent="gimp-using-fileformats-export-dialog" sort="1.2.1"/>
+  <help-item id="file-jpeg-save" ref="gimp-images-out.html#file-jpeg-save" title="1.2.2. ജെപിഇജി കയറ്റുമതി ചിത്രം" parent="gimp-using-fileformats-export-dialog" sort="1.2.2"/>
+  <help-item id="file-png-save" ref="gimp-images-out.html#file-png-save" title="1.2.3. പിഎൻജി ആയിലഭ്യമാക്കുക ചിത്രം" parent="gimp-using-fileformats-export-dialog" sort="1.2.3"/>
+  <help-item id="file-tiff-save" ref="gimp-images-out.html#file-tiff-save" title="1.2.4. ടിഫ് ആയി കയറ്റുമതി ചിത്രം" parent="gimp-using-fileformats-export-dialog" sort="1.2.4"/>
+  <help-item id="file-mng-export" ref="gimp-images-out.html#file-mng-export" title="1.2.5. എഎന്ജി ആയിലഭ്യമാക്കുക ചിത്രം" parent="gimp-using-fileformats-export-dialog" sort="1.2.5"/>
+  <help-item id="gimp-using-web" ref="gimp-using-web.html" title="2. വെബ് നിങ്ങളുടെ ചിത്രങ്ങൾ തയ്യാറെടുക്കുന്നു" parent="gimp-images-out" sort="2"/>
+  <help-item id="gimp-using-web-size-vs-quality" ref="gimp-using-web.html#gimp-using-web-size-vs-quality" title="2.1. ഒരു തലോടല് വലിപ്പം / ക്വാളിറ്റി അനുപാതത്തിൽ ചിത്രങ്ങൾ" parent="gimp-using-web" sort="2.1"/>
+  <help-item id="gimp-using-web-reducing-file-size" ref="gimp-using-web-reducing-file-size.html" title="2.2. ഇനിയും കൂടുതൽ ഫയൽ വലിപ്പം കുറയ്ക്കൽ" parent="gimp-using-web" sort="2.2"/>
+  <help-item id="gimp-using-web-transparency" ref="gimp-using-web-transparency.html" title="2.3. സുതാര്യതയോടെ സംരക്ഷിക്കുന്നു ചിത്രങ്ങൾ" parent="gimp-using-web" sort="2.3"/>
+  <help-item id="gimp-painting" ref="gimp-painting.html" title="7. ജിമ്പ് ചിത്രകല" parent="become-a-gimp-wizard" sort="7"/>
+  <help-item id="gimp-concepts-selection" ref="gimp-painting.html#gimp-concepts-selection" title="1. തിരഞ്ഞെടുക്കൽ" parent="gimp-painting" sort="1"/>
+  <help-item id="gimp-concepts-selection-feathering" ref="gimp-painting.html#gimp-concepts-selection-feathering" title="1.1. ഭദ്രമാക്കുന്ന" parent="gimp-concepts-selection" sort="1.1"/>
+  <help-item id="gimp-concepts-selection-transparent" ref="gimp-painting.html#gimp-concepts-selection-transparent" title="1.2. ഒരു തിരഞ്ഞെടുപ്പ് ഭാഗികമായി സുതാര്യമായ ഉണ്ടാക്കുന്നു" parent="gimp-concepts-selection" sort="1.2"/>
+  <help-item id="gimp-using-selections" ref="gimp-using-selections.html" title="2. തിരഞ്ഞെടുപ്പുകൾ സൃഷ്ടിക്കുകയും ഉപയോഗിക്കുന്നു" parent="gimp-painting" sort="2"/>
+  <help-item id="gimp-using-selections-moving" ref="gimp-using-selections.html#gimp-using-selections-moving" title="2.1. ഒരു തിരഞ്ഞെടുപ്പ് നീക്കുന്നു" parent="gimp-using-selections" sort="2.1"/>
+  <help-item id="gimp-using-selections-add" ref="gimp-using-selections-add.html" title="2.2. തിരഞ്ഞെടുക്കലുകൾ ചേർക്കുന്നു അല്ലെങ്കിൽ കുറച്ചാണ്" parent="gimp-using-selections" sort="2.2"/>
+  <help-item id="gimp-image-window-qmask-button" ref="gimp-image-window-qmask-button.html" title="3. QuickMask" parent="gimp-painting" sort="3"/>
+  <help-item id="gimp-image-window-qmask-overview" ref="gimp-image-window-qmask-button.html#gimp-image-window-qmask-overview" title="3.1. പൊതു അവലോകനം" parent="gimp-image-window-qmask-button" sort="3.1"/>
+  <help-item id="gimp-image-window-qmask-properties" ref="gimp-image-window-qmask-properties.html" title="3.2. ഗുണഗണങ്ങള്" parent="gimp-image-window-qmask-button" sort="3.2"/>
+  <help-item id="gimp-using-quickmask" ref="gimp-using-quickmask.html" title="4. QuickMask മോഡ് ഉപയോഗിച്ച്" parent="gimp-painting" sort="4"/>
+  <help-item id="gimp-using-paths" ref="gimp-using-paths.html" title="5. പാഥുകൾ" parent="gimp-painting" sort="5"/>
+  <help-item id="gimp-concepts-paths" ref="gimp-using-paths.html#gimp-concepts-paths" title="(പാഥുകൾ)" parent="gimp-using-paths" sort="5.0.3"/>
+  <help-item id="gimp-using-paths-creating" ref="gimp-using-paths.html#gimp-using-paths-creating" title="5.1. പാത ക്രിയേഷൻ" parent="gimp-using-paths" sort="5.1"/>
+  <help-item id="gimp-using-paths-properties" ref="gimp-using-paths-properties.html" title="5.2. പാത പ്രോപ്പർട്ടീസ്" parent="gimp-using-paths" sort="5.2"/>
+  <help-item id="gimp-using-paths-and-selections" ref="gimp-using-paths-and-selections.html" title="5.3. പാത എന്നിവയും തിരഞ്ഞെടുപ്പുകൾ" parent="gimp-using-paths" sort="5.3"/>
+  <help-item id="gimp-using-paths-transforming" ref="gimp-using-paths-transforming.html" title="5.4. രൂപാന്തരപ്പെടുത്തി പാഥുകൾ" parent="gimp-using-paths" sort="5.4"/>
+  <help-item id="gimp-using-paths-stroking" ref="gimp-using-paths-stroking.html" title="5.5. ഒരു പാത അതാണെന്ന്" parent="gimp-using-paths" sort="5.5"/>
+  <help-item id="gimp-using-paths-and-text" ref="gimp-using-paths-and-text.html" title="5.6. പാത എന്നിവയും ടെക്സ്റ്റ്" parent="gimp-using-paths" sort="5.6"/>
+  <help-item id="gimp-using-paths-and-svg" ref="gimp-using-paths-and-svg.html" title="5.7. പാത എന്നിവയും SVG ഫയലുകൾ" parent="gimp-using-paths" sort="5.7"/>
+  <help-item id="gimp-concepts-brushes" ref="gimp-concepts-brushes.html" title="6. നയപ്രഖ്യാപന" parent="gimp-painting" sort="6"/>
+  <help-item id="gimp-using-brushes" ref="gimp-using-brushes.html" title="7. പുതിയ Brushes ചേർക്കുന്നു" parent="gimp-painting" sort="7"/>
+  <help-item id="gimp-using-animated-brushes" ref="gimp-using-animated-brushes.html" title="8. GIH ഡയലോഗ് ബോക്സ്" parent="gimp-painting" sort="8"/>
+  <help-item id="gimp-using-variable-size-brush" ref="gimp-using-variable-size-brush.html" title="9. വ്യത്യസ്ത ബ്രഷ് സൈസ്" parent="gimp-painting" sort="9"/>
+  <help-item id="gimp-using-variable-size-brush-varying" ref="gimp-using-variable-size-brush.html#gimp-using-variable-size-brush-varying" title="9.1. എങ്ങനെ ഒരു ബ്രഷ് ഉയരം വ്യത്യാസപ്പെടാൻ" parent="gimp-using-variable-size-brush" sort="9.1"/>
+  <help-item id="gimp-using-variable-size-brush-creating" ref="gimp-using-variable-size-brush-creating.html" title="9.2. വേഗത്തിൽ ഒരു ബ്രഷ് തയ്യാറാക്കുന്നു" parent="gimp-using-variable-size-brush" sort="9.2"/>
+  <help-item id="gimp-concepts-gradients" ref="gimp-concepts-gradients.html" title="10. ഘനമായ" parent="gimp-painting" sort="10"/>
+  <help-item id="gimp-concepts-patterns" ref="gimp-concepts-patterns.html" title="11. പാറ്റേണുകൾ" parent="gimp-painting" sort="11"/>
+  <help-item id="gimp-concepts-palettes" ref="gimp-concepts-palettes.html" title="12. പാലറ്റുകൾ" parent="gimp-painting" sort="12"/>
+  <help-item id="gimp-tools-presets" ref="gimp-tools-presets.html" title="13. പ്രീസെറ്റുകളിൽ" parent="gimp-painting" sort="13"/>
+  <help-item id="gimp-using-simpleobjects" ref="gimp-using-simpleobjects.html" title="14. ലളിത വസ്തുക്കൾ ഡ്രോയിംഗ്" parent="gimp-painting" sort="14"/>
+  <help-item id="gimp-using-line" ref="gimp-using-simpleobjects.html#gimp-using-line" title="14.1. നേരായ ലൈൻ ഡ്രോയിംഗ്" parent="gimp-using-simpleobjects" sort="14.1"/>
+  <help-item id="gimp-using-rectangular" ref="gimp-using-rectangular.html" title="14.2. ഒരു അടിസ്ഥാന ആകാരം സൃഷ്ടിക്കുന്നത്" parent="gimp-using-simpleobjects" sort="14.2"/>
+  <help-item id="gimp-image-combining" ref="gimp-image-combining.html" title="8. സംയോജിത ചിത്രങ്ങൾ" parent="become-a-gimp-wizard" sort="8"/>
+  <help-item id="gimp-concepts-layers" ref="gimp-image-combining.html#gimp-concepts-layers" title="1. ലെയറുകൾ ആമുഖം" parent="gimp-image-combining" sort="1"/>
+  <help-item id="gimp-layer-properties" ref="gimp-image-combining.html#gimp-layer-properties" title="1.1. ലെയർ പ്രോപ്പർട്ടീസ്" parent="gimp-concepts-layers" sort="1.1"/>
+  <help-item id="gimp-concepts-layer-modes" ref="gimp-concepts-layer-modes.html" title="2. ലെയർ മോഡുകൾ" parent="gimp-image-combining" sort="2"/>
+  <help-item id="gimp-using-layers" ref="gimp-using-layers.html" title="3. പുതിയ തലങ്ങളെ ഉണ്ടാക്കുന്നു" parent="gimp-image-combining" sort="3"/>
+  <help-item id="gimp-layer-groups" ref="gimp-layer-groups.html" title="4. ലെയർ ഗ്രൂപ്പുകൾ" parent="gimp-image-combining" sort="4"/>
+  <help-item id="gimp-image-text-management" ref="gimp-image-text-management.html" title="9. ടെക്സ്റ്റ് മാനേജ്മെന്റ്" parent="become-a-gimp-wizard" sort="9"/>
+  <help-item id="gimp-text-management" ref="gimp-image-text-management.html#gimp-text-management" title="1. ടെക്സ്റ്റ് മാനേജ്മെന്റ്" parent="gimp-image-text-management" sort="1"/>
+  <help-item id="gimp-input-methods" ref="gimp-image-text-management.html#gimp-input-methods" title="FIXME TITLE: gimp-input-methods" parent="gimp-text-management" sort="1.0.10"/>
+  <help-item id="gimp-text-tool-box" ref="gimp-text-tool-box.html" title="2. ടെക്സ്റ്റ് ടൂൾ ബോക്സ്" parent="gimp-image-text-management" sort="2"/>
+  <help-item id="gimp-using-text" ref="gimp-using-text.html" title="3. ടെക്സ്റ്റ്" parent="gimp-image-text-management" sort="3"/>
+  <help-item id="gimp-using-fonts" ref="gimp-using-fonts.html" title="3.2. ഫോണ്ടുകൾ ചേർക്കുന്നത്" parent="gimp-using-text" sort="3.2"/>
+  <help-item id="font-problems" ref="font-problems.html" title="3.3. ഫോണ്ട് പ്രശ്നങ്ങൾ" parent="gimp-using-text" sort="3.3"/>
+  <help-item id="gimp-imaging-photos" ref="gimp-imaging-photos.html" title="10. മെച്ചപ്പെടുത്തുന്നു ഫോട്ടോഗ്രാഫുകൾ" parent="become-a-gimp-wizard" sort="10"/>
+  <help-item id="gimp-using-photography" ref="gimp-imaging-photos.html#gimp-using-photography" title="1. ഡിജിറ്റൽ ക്യാമറ ഫോട്ടോകൾ ഉപയോഗിച്ച് പ്രവർത്തനം" parent="gimp-imaging-photos" sort="1"/>
+  <help-item id="gimp-using-photography-introduction" ref="gimp-imaging-photos.html#gimp-using-photography-introduction" title="1.1. അവതാരിക" parent="gimp-using-photography" sort="1.1"/>
+  <help-item id="gimp-using-photography-improving" ref="gimp-imaging-photos.html#gimp-using-photography-improving" title="1.2. രചന വർധിപ്പിക്കുക" parent="gimp-using-photography" sort="1.2"/>
+  <help-item id="gimp-using-photography-rotating" ref="gimp-imaging-photos.html#gimp-using-photography-rotating" title="1.2.1. ഒരു ഇമേജ് തിരിക്കുന്നു" parent="gimp-using-photography-improving" sort="1.2.1"/>
+  <help-item id="gimp-using-photography-cropping" ref="gimp-imaging-photos.html#gimp-using-photography-cropping" title="1.2.2. ക്രോപ്പ്ചെയ്യൽ" parent="gimp-using-photography-improving" sort="1.2.2"/>
+  <help-item id="gimp-using-photography-colors" ref="gimp-imaging-photos.html#gimp-using-photography-colors" title="1.3. നിറങ്ങൾ വർധിപ്പിക്കുക" parent="gimp-using-photography" sort="1.3"/>
+  <help-item id="gimp-using-photography-automatic" ref="gimp-imaging-photos.html#gimp-using-photography-automatic" title="1.3.1. യാന്ത്രികമാക്കിയ ഉപകരണങ്ങൾ" parent="gimp-using-photography-colors" sort="1.3.1"/>
+  <help-item id="gimp-using-photography-exposure" ref="gimp-imaging-photos.html#gimp-using-photography-exposure" title="1.3.2. എക്സ്പോഷർ പ്രശ്നങ്ങൾ" parent="gimp-using-photography-colors" sort="1.3.2"/>
+  <help-item id="gimp-using-photography-hue-saturation" ref="gimp-imaging-photos.html#gimp-using-photography-hue-saturation" title="1.3.3. ഹ്യൂയേ ആൻഡ് സാച്ചുറേഷൻ ക്രമീകരിക്കൽ" parent="gimp-using-photography-colors" sort="1.3.3"/>
+  <help-item id="gimp-using-photography-sharpness" ref="gimp-imaging-photos.html#gimp-using-photography-sharpness" title="1.4. ഷാർപ്നെസ് ക്രമീകരിക്കൽ" parent="gimp-using-photography" sort="1.4"/>
+  <help-item id="gimp-using-photography-unblurring" ref="gimp-imaging-photos.html#gimp-using-photography-unblurring" title="1.4.1. Unblurring" parent="gimp-using-photography-sharpness" sort="1.4.1"/>
+  <help-item id="gimp-using-photography-graininess" ref="gimp-imaging-photos.html#gimp-using-photography-graininess" title="1.4.2. Graininess കുറയ്ക്കാൻ" parent="gimp-using-photography-sharpness" sort="1.4.2"/>
+  <help-item id="gimp-using-photography-softening" ref="gimp-imaging-photos.html#gimp-using-photography-softening" title="1.4.3. ഇടിവും" parent="gimp-using-photography-sharpness" sort="1.4.3"/>
+  <help-item id="gimp-using-photography-retouching" ref="gimp-imaging-photos.html#gimp-using-photography-retouching" title="1.5. ഒരു ചിത്രത്തിൽ നിന്ന് അനാവശ്യമായി വസ്തുക്കളുടെ നീക്കംചെയ്യുന്നു" parent="gimp-using-photography" sort="1.5"/>
+  <help-item id="gimp-using-photography-despeckling" ref="gimp-imaging-photos.html#gimp-using-photography-despeckling" title="1.5.1. Despeckling" parent="gimp-using-photography-retouching" sort="1.5.1"/>
+  <help-item id="gimp-using-photography-garbage" ref="gimp-imaging-photos.html#gimp-using-photography-garbage" title="1.5.2. മാലിന്യം നീക്കംചെയ്യൽ" parent="gimp-using-photography-retouching" sort="1.5.2"/>
+  <help-item id="gimp-using-photography-red-eye" ref="gimp-imaging-photos.html#gimp-using-photography-red-eye" title="1.5.3. ചുവന്ന-കണ്ണ് നീക്കംചെയ്യുന്നത്" parent="gimp-using-photography-retouching" sort="1.5.3"/>
+  <help-item id="gimp-using-photography-saving" ref="gimp-imaging-photos.html#gimp-using-photography-saving" title="1.6. നിങ്ങളുടെ ഫലങ്ങൾ സംരക്ഷിക്കുന്നു" parent="gimp-using-photography" sort="1.6"/>
+  <help-item id="gimp-using-photography-files" ref="gimp-imaging-photos.html#gimp-using-photography-files" title="1.6.1. ഫയലുകൾ" parent="gimp-using-photography-saving" sort="1.6.1"/>
+  <help-item id="gimp-using-photography-printing" ref="gimp-imaging-photos.html#gimp-using-photography-printing" title="1.6.2. നിങ്ങളുടെ ഫോട്ടോകൾ പ്രിന്റിംഗ്" parent="gimp-using-photography-saving" sort="1.6.2"/>
+  <help-item id="gimp-using-photography-exif" ref="gimp-imaging-photos.html#gimp-using-photography-exif" title="1.6.3. EXIF ഡാറ്റ" parent="gimp-using-photography-saving" sort="1.6.3"/>
+  <help-item id="gimp-imaging-color-management" ref="gimp-imaging-color-management.html" title="11. ജിമ്പ് നിറം മാനേജ്മെന്റ്" parent="become-a-gimp-wizard" sort="11"/>
+  <help-item id="gimp-concepts-color-management" ref="gimp-imaging-color-management.html#gimp-concepts-color-management" title="1. ജിമ് കളർ മാനേജ്മെന്റ്" parent="gimp-imaging-color-management" sort="1"/>
+  <help-item id="plug-in-icc-profile-set" ref="gimp-imaging-color-management.html#plug-in-icc-profile-set" title="1.2. നിയന്ത്രിത വർക്ക്ഫ്ലോ ഒരു കളര് ആമുഖം" parent="gimp-concepts-color-management" sort="1.2"/>
+  <help-item id="plug-in-icc-profile-apply" ref="gimp-imaging-color-management.html#plug-in-icc-profile-apply" title="1.2.1. ഇൻപുട്ട്" parent="plug-in-icc-profile-set" sort="1.2.1"/>
+  <help-item id="gimp-concepts-cm-display" ref="gimp-imaging-color-management.html#gimp-concepts-cm-display" title="1.2.2. പ്രദർശിപ്പിക്കുക" parent="plug-in-icc-profile-set" sort="1.2.2"/>
+  <help-item id="gimp-concepts-cm-display-profiling" ref="gimp-imaging-color-management.html#gimp-concepts-cm-display-profiling" title="1.2.2.1. പ്രദർശിപ്പിക്കുക കാലിബ്രേഷൻ ആൻഡ് പ്രോഫില്ലിംഗ്" parent="gimp-concepts-cm-display" sort="1.2.2.1"/>
+  <help-item id="gimp-pimping" ref="gimp-pimping.html" title="12. Enrich my GIMP" parent="become-a-gimp-wizard" sort="12"/>
+  <help-item id="gimp-prefs-dialog" ref="gimp-pimping.html#gimp-prefs-dialog" title="1. Preferences Dialog" parent="gimp-pimping" sort="1"/>
+  <help-item id="gimp-prefs-environment" ref="gimp-pimping.html#gimp-prefs-environment" title="1.2. പരിസ്ഥിതി" parent="gimp-prefs-dialog" sort="1.2"/>
+  <help-item id="gimp-prefs-interface" ref="gimp-pimping.html#gimp-prefs-interface" title="1.3. ഇന്റര്ഫേസ്" parent="gimp-prefs-dialog" sort="1.3"/>
+  <help-item id="gimp-prefs-theme" ref="gimp-pimping.html#gimp-prefs-theme" title="1.4. തീം" parent="gimp-prefs-dialog" sort="1.4"/>
+  <help-item id="gimp-prefs-help" ref="gimp-pimping.html#gimp-prefs-help" title="1.5. സഹായം സിസ്റ്റം" parent="gimp-prefs-dialog" sort="1.5"/>
+  <help-item id="gimp-prefs-tool-options" ref="gimp-pimping.html#gimp-prefs-tool-options" title="1.6. ടൂൾ ഓപ്ഷനുകൾ" parent="gimp-prefs-dialog" sort="1.6"/>
+  <help-item id="gimp-prefs-toolbox" ref="gimp-pimping.html#gimp-prefs-toolbox" title="1.7. പണിസഞ്ചി" parent="gimp-prefs-dialog" sort="1.7"/>
+  <help-item id="gimp-prefs-new-image" ref="gimp-pimping.html#gimp-prefs-new-image" title="1.8. Default Image Preferences" parent="gimp-prefs-dialog" sort="1.8"/>
+  <help-item id="gimp-prefs-default-image" ref="gimp-pimping.html#gimp-prefs-default-image" title="(വിഭാഗം 1.8, “Default Image Preferences”)" parent="gimp-prefs-new-image" sort="1.8.0.3"/>
+  <help-item id="gimp-prefs-default-grid" ref="gimp-pimping.html#gimp-prefs-default-grid" title="1.9. സ്ഥിരസ്ഥിതി ഇമേജ് ഗ്രിഡ്" parent="gimp-prefs-dialog" sort="1.9"/>
+  <help-item id="gimp-prefs-image-window" ref="gimp-pimping.html#gimp-prefs-image-window" title="1.10. വിൻഡോസ് ചിത്രം" parent="gimp-prefs-dialog" sort="1.10"/>
+  <help-item id="gimp-prefs-image-window-appearance" ref="gimp-pimping.html#gimp-prefs-image-window-appearance" title="1.11. ചിത്രം വിൻഡോ കാഴ്ച" parent="gimp-prefs-dialog" sort="1.11"/>
+  <help-item id="gimp-prefs-image-window-title" ref="gimp-pimping.html#gimp-prefs-image-window-title" title="1.12. Image Window Title and Statusbar" parent="gimp-prefs-dialog" sort="1.12"/>
+  <help-item id="gimp-prefs-display" ref="gimp-pimping.html#gimp-prefs-display" title="1.13. പ്രദർശിപ്പിക്കുക" parent="gimp-prefs-dialog" sort="1.13"/>
+  <help-item id="gimp-prefs-display-options" ref="gimp-pimping.html#gimp-prefs-display-options" title="1.13.1. ഓപ്ഷനുകൾ" parent="gimp-prefs-display" sort="1.13.1"/>
+  <help-item id="gimp-prefs-monitor" ref="gimp-pimping.html#gimp-prefs-monitor" title="(Calibration)" parent="gimp-prefs-display-options" sort="1.13.1.0.4"/>
+  <help-item id="gimp-prefs-color-management" ref="gimp-pimping.html#gimp-prefs-color-management" title="1.14. വർണ്ണ മാനേജ്മെന്റ്" parent="gimp-prefs-dialog" sort="1.14"/>
+  <help-item id="gimp-prefs-input-devices" ref="gimp-pimping.html#gimp-prefs-input-devices" title="1.15. ഇൻപുട്ട് ഡിവൈസുകൾ" parent="gimp-prefs-dialog" sort="1.15"/>
+  <help-item id="gimp-prefs-input-controllers" ref="gimp-pimping.html#gimp-prefs-input-controllers" title="1.16. ഇൻപുട്ട് കണ്ട്രോളറുകള്ക്കുള്ള" parent="gimp-prefs-dialog" sort="1.16"/>
+  <help-item id="gimp-prefs-window-management" ref="gimp-pimping.html#gimp-prefs-window-management" title="1.17. വിൻഡോ മാനേജ്മെന്റ്" parent="gimp-prefs-dialog" sort="1.17"/>
+  <help-item id="gimp-prefs-folders" ref="gimp-pimping.html#gimp-prefs-folders" title="1.18. ഫോൾഡറുകൾ" parent="gimp-prefs-dialog" sort="1.18"/>
+  <help-item id="gimp-prefs-folders-data" ref="gimp-pimping.html#gimp-prefs-folders-data" title="1.19. Data Folders" parent="gimp-prefs-dialog" sort="1.19"/>
+  <help-item id="gimp-prefs-folders-brushes" ref="gimp-pimping.html#gimp-prefs-folders-brushes" title="(വിഭാഗം 1.19, “Data Folders”)" parent="gimp-prefs-folders-data" sort="1.19.0.3"/>
+  <help-item id="gimp-prefs-folders-patterns" ref="gimp-pimping.html#gimp-prefs-folders-patterns" title="(വിഭാഗം 1.19, “Data Folders”)" parent="gimp-prefs-folders-data" sort="1.19.0.4"/>
+  <help-item id="gimp-prefs-folders-palettes" ref="gimp-pimping.html#gimp-prefs-folders-palettes" title="(വിഭാഗം 1.19, “Data Folders”)" parent="gimp-prefs-folders-data" sort="1.19.0.5"/>
+  <help-item id="gimp-prefs-folders-gradients" ref="gimp-pimping.html#gimp-prefs-folders-gradients" title="(വിഭാഗം 1.19, “Data Folders”)" parent="gimp-prefs-folders-data" sort="1.19.0.6"/>
+  <help-item id="gimp-prefs-folders-fonts" ref="gimp-pimping.html#gimp-prefs-folders-fonts" title="(വിഭാഗം 1.19, “Data Folders”)" parent="gimp-prefs-folders-data" sort="1.19.0.7"/>
+  <help-item id="gimp-prefs-folders-plug-ins" ref="gimp-pimping.html#gimp-prefs-folders-plug-ins" title="(വിഭാഗം 1.19, “Data Folders”)" parent="gimp-prefs-folders-data" sort="1.19.0.8"/>
+  <help-item id="gimp-prefs-folders-scripts" ref="gimp-pimping.html#gimp-prefs-folders-scripts" title="(വിഭാഗം 1.19, “Data Folders”)" parent="gimp-prefs-folders-data" sort="1.19.0.9"/>
+  <help-item id="gimp-prefs-folders-modules" ref="gimp-pimping.html#gimp-prefs-folders-modules" title="(വിഭാഗം 1.19, “Data Folders”)" parent="gimp-prefs-folders-data" sort="1.19.0.10"/>
+  <help-item id="gimp-prefs-folders-environment" ref="gimp-pimping.html#gimp-prefs-folders-environment" title="(വിഭാഗം 1.19, “Data Folders”)" parent="gimp-prefs-folders-data" sort="1.19.0.11"/>
+  <help-item id="gimp-prefs-folders-themes" ref="gimp-pimping.html#gimp-prefs-folders-themes" title="(വിഭാഗം 1.19, “Data Folders”)" parent="gimp-prefs-folders-data" sort="1.19.0.12"/>
+  <help-item id="gimp-concepts-image-grid-and-guides" ref="gimp-concepts-image-grid-and-guides.html" title="2. ഗ്രിഡുകളുടെ ഗൈഡുകൾ" parent="gimp-pimping" sort="2"/>
+  <help-item id="gimp-concepts-image-grid" ref="gimp-concepts-image-grid-and-guides.html#gimp-concepts-image-grid" title="2.1. ചിത്രം ഗ്രിഡ്" parent="gimp-concepts-image-grid-and-guides" sort="2.1"/>
+  <help-item id="gimp-concepts-image-guides" ref="gimp-concepts-image-guides.html" title="2.2. വഴികാട്ടി" parent="gimp-concepts-image-grid-and-guides" sort="2.2"/>
+  <help-item id="gimp-using-grid" ref="gimp-using-grid.html" title="3. ഒരു ഗ്രിഡ് റെൻഡർ" parent="gimp-pimping" sort="3"/>
+  <help-item id="gimp-using-setup-tile-cache" ref="gimp-using-setup-tile-cache.html" title="4. എങ്ങനെ നിങ്ങളുടെ ടൈൽ കാഷെ സജ്ജമാക്കുക" parent="gimp-pimping" sort="4"/>
+  <help-item id="gimp-concepts-shortcuts" ref="gimp-concepts-shortcuts.html" title="5. മെനു പ്രവർത്തനങ്ങൾ കുറുക്കുവഴികൾ സൃഷ്ടിക്കുന്നു" parent="gimp-pimping" sort="5"/>
+  <help-item id="customize-splashscreen" ref="customize-splashscreen.html" title="6. ഓളമുണ്ടാക്കുന്നു- സ്ക്രീൻ ഇഷ്ടാനുസൃതമാക്കുക" parent="gimp-pimping" sort="6"/>
+  <help-item id="gimp-scripting" ref="gimp-scripting.html" title="13. സ്ക്രിപ്റ്റിങ്" parent="become-a-gimp-wizard" sort="13"/>
+  <help-item id="gimp-concepts-plugins" ref="gimp-scripting.html#gimp-concepts-plugins" title="1. പ്ലഗിനുകള്തെരയുക" parent="gimp-scripting" sort="1"/>
+  <help-item id="gimp-plugins-install" ref="gimp-scripting.html#gimp-plugins-install" title="1.3. ന്യൂ പ്ലഗിനുകള്ക്കായി ഇൻസ്റ്റോൾ" parent="gimp-concepts-plugins" sort="1.3"/>
+  <help-item id="plugins-write" ref="gimp-scripting.html#plugins-write" title="1.4. പ്ലഗിനുകള്തെരയുക എഴുതേണ്ട" parent="gimp-concepts-plugins" sort="1.4"/>
+  <help-item id="gimp-concepts-script-fu" ref="gimp-concepts-script-fu.html" title="2. സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റുകൾ ഉപയോഗിക്കുന്നതിന്" parent="gimp-scripting" sort="2"/>
+  <help-item id="install-script-fu" ref="install-script-fu.html" title="2.2. സ്ക്രിപ്റ്റ്-Fus ഇൻസ്റ്റോൾ" parent="gimp-concepts-script-fu" sort="2.2"/>
+  <help-item id="common-script-fu-errors" ref="common-script-fu-errors.html" title="2.3. ചെയ്യേണ്ടതും ചെയ്യേണ്ടാത്തതും" parent="gimp-concepts-script-fu" sort="2.3"/>
+  <help-item id="kinds-of-script-fu" ref="kinds-of-script-fu.html" title="2.4. സ്ക്രിപ്റ്റ്-Fus വിവിധ തരത്തിലുള്ള" parent="gimp-concepts-script-fu" sort="2.4"/>
+  <help-item id="standalone-script-fu" ref="standalone-script-fu.html" title="2.5. ഹ്രസ്വമായ സ്ക്രിപ്റ്റുകൾ" parent="gimp-concepts-script-fu" sort="2.5"/>
+  <help-item id="image-independent-script-fu" ref="image-independent-script-fu.html" title="2.6. ചിത്രം-ആശ്രിത സ്ക്രിപ്റ്റുകൾ" parent="gimp-concepts-script-fu" sort="2.6"/>
+  <help-item id="gimp-using-script-fu-tutorial" ref="gimp-using-script-fu-tutorial.html" title="3. ഒരു സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ" parent="gimp-scripting" sort="3"/>
+  <help-item id="gimp-using-script-fu-tutorial-scheme" ref="gimp-using-script-fu-tutorial.html#gimp-using-script-fu-tutorial-scheme" title="3.1. പദ്ധതി സൂക്ഷ്മമായി Getting" parent="gimp-using-script-fu-tutorial" sort="3.1"/>
+  <help-item id="gimp-using-script-fu-tutorial-console" ref="gimp-using-script-fu-tutorial.html#gimp-using-script-fu-tutorial-console" title="3.1.4. സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ വിൻഡോ" parent="gimp-using-script-fu-tutorial-scheme" sort="3.1.4"/>
+  <help-item id="gimp-using-script-fu-tutorial-identifier" ref="gimp-using-script-fu-tutorial-identifier.html" title="3.2. വേര്യബിൾ പ്രവർത്തനങ്ങൾ" parent="gimp-using-script-fu-tutorial" sort="3.2"/>
+  <help-item id="gimp-using-script-fu-tutorial-lists" ref="gimp-using-script-fu-tutorial-lists.html" title="3.3. ലിസ്റ്റുകൾ, ലിസ്റ്റുകൾ, ടിപ്പണി" parent="gimp-using-script-fu-tutorial" sort="3.3"/>
+  <help-item id="gimp-using-script-fu-tutorial-first-script" ref="gimp-using-script-fu-tutorial-first-script.html" title="3.4. നിങ്ങളുടെ ആദ്യ സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ്" parent="gimp-using-script-fu-tutorial" sort="3.4"/>
+  <help-item id="gimp-using-script-fu-api" ref="gimp-using-script-fu-tutorial-first-script.html#gimp-using-script-fu-api" title="3.4.8. സ്ക്രിപ്റ്റ്-ഫു പാരാമീറ്റർ എപിഐ, &lt;placeholder-1&gt;&lt;/placeholder-1&gt;" parent="gimp-using-script-fu-tutorial-first-script" sort="3.4.8"/>
+  <help-item id="gimp-using-script-fu-tutorial-script" ref="gimp-using-script-fu-tutorial-script.html" title="3.5. നമ്മുടെ സ്ക്രിപ്റ്റ് നൽകൽ ചില Guts" parent="gimp-using-script-fu-tutorial" sort="3.5"/>
+  <help-item id="gimp-using-script-fu-tutorial-extending-text-box" ref="gimp-using-script-fu-tutorial-extending-text-box.html" title="3.6. വാചക ബോക്സ് സ്ക്രിപ്റ്റ് വികസിപ്പിക്കുന്നു" parent="gimp-using-script-fu-tutorial" sort="3.6"/>
+  <help-item id="gimp-using-script-fu-tutorial-result" ref="gimp-using-script-fu-tutorial-result.html" title="3.7. നിങ്ങളുടെ സ്ക്രിപ്റ്റ് അതിന്റെ ജോലി" parent="gimp-using-script-fu-tutorial" sort="3.7"/>
+  <help-item id="gimp-function-reference" ref="gimp-function-reference.html" title="III. ഫംഗ്ഷൻ റഫറൻസ്" parent="gimp-main" sort="66.3"/>
+  <help-item id="gimp-tools" ref="gimp-tools.html" title="14. ഉപകരണങ്ങൾ" parent="gimp-function-reference" sort="14"/>
+  <help-item id="gimp-toolbox" ref="gimp-tools.html#gimp-toolbox" title="1. പണിസഞ്ചി" parent="gimp-tools" sort="1"/>
+  <help-item id="gimp-toolbox-introduction" ref="gimp-tools.html#gimp-toolbox-introduction" title="1.1. അവതാരിക" parent="gimp-toolbox" sort="1.1"/>
+  <help-item id="gimp-toolbox-icons" ref="gimp-tools.html#gimp-toolbox-icons" title="1.2. ടൂൾ ഐക്കണുകൾ" parent="gimp-toolbox" sort="1.2"/>
+  <help-item id="gimp-toolbox-areas" ref="gimp-tools.html#gimp-toolbox-areas" title="1.3. നിറത്തിലും സൂചകം ഏരിയ" parent="gimp-toolbox" sort="1.3"/>
+  <help-item id="gimp-toolbox-color-area" ref="gimp-tools.html#gimp-toolbox-color-area" title="1.3.1. കളർ ഏരിയ" parent="gimp-toolbox-areas" sort="1.3.1"/>
+  <help-item id="gimp-toolbox-default-colors" ref="gimp-tools.html#gimp-toolbox-default-colors" title="(സ്വതേ നിറങ്ങൾ)" parent="gimp-toolbox-color-area" sort="1.3.1.0.4"/>
+  <help-item id="gimp-toolbox-swap-colors" ref="gimp-tools.html#gimp-toolbox-swap-colors" title="(സ്വാപ്പ് FG / ബി.ജി. നിറങ്ങൾ)" parent="gimp-toolbox-color-area" sort="1.3.1.0.5"/>
+  <help-item id="gimp-toolbox-indicator-area" ref="gimp-tools.html#gimp-toolbox-indicator-area" title="1.3.2. ഉപകരണങ്ങൾ സൂചകം ഏരിയ" parent="gimp-toolbox-areas" sort="1.3.2"/>
+  <help-item id="gimp-toolbox-image-area" ref="gimp-tools.html#gimp-toolbox-image-area" title="1.3.3. സജീവ ഇമേജ് ഏരിയ" parent="gimp-toolbox-areas" sort="1.3.3"/>
+  <help-item id="gimp-tool-options-dialog" ref="gimp-tools.html#gimp-tool-options-dialog" title="1.4. ടൂൾ ഓപ്ഷനുകൾ" parent="gimp-toolbox" sort="1.4"/>
+  <help-item id="gimp-tools-selection" ref="gimp-tools-selection.html" title="2. തിരഞ്ഞെടുക്കൽ ഉപകരണങ്ങൾ" parent="gimp-tools" sort="2"/>
+  <help-item id="gimp-tool-select" ref="gimp-tools-selection.html#gimp-tool-select" title="2.1. സാധാരണ സവിശേഷതകൾ" parent="gimp-tools-selection" sort="2.1"/>
+  <help-item id="gimp-tools-select-modifiers" ref="gimp-tools-selection.html#gimp-tools-select-modifiers" title="2.1.1. കീ മോഡിഫയറുകൾ (സ്ഥിരസ്ഥിതികളിലേക്ക്)" parent="gimp-tool-select" sort="2.1.1"/>
+  <help-item id="gimp-tool-select-options" ref="gimp-tools-selection.html#gimp-tool-select-options" title="2.1.2. ഓപ്ഷനുകൾ" parent="gimp-tool-select" sort="2.1.2"/>
+  <help-item id="gimp-tool-rect-select" ref="gimp-tool-rect-select.html" title="2.2. Rectangle Selection" parent="gimp-tools-selection" sort="2.2"/>
+  <help-item id="tool-rect-select-manip" ref="gimp-tool-rect-select.html#tool-rect-select-manip" title="2.2.3. Tool manipulation" parent="gimp-tool-rect-select" sort="2.2.3"/>
+  <help-item id="tool-rect-select-options" ref="gimp-tool-rect-select.html#tool-rect-select-options" title="2.2.4. ടൂൾ ഓപ്ഷനുകൾ" parent="gimp-tool-rect-select" sort="2.2.4"/>
+  <help-item id="gimp-tool-ellipse-select" ref="gimp-tool-ellipse-select.html" title="2.3. Ellipse Selection" parent="gimp-tools-selection" sort="2.3"/>
+  <help-item id="tool-ellipse-select-manip" ref="gimp-tool-ellipse-select.html#tool-ellipse-select-manip" title="2.3.3. Tool handling" parent="gimp-tool-ellipse-select" sort="2.3.3"/>
+  <help-item id="gimp-tool-free-select" ref="gimp-tool-free-select.html" title="2.4. Free Selection (Lasso)" parent="gimp-tools-selection" sort="2.4"/>
+  <help-item id="gimp-tool-fuzzy-select" ref="gimp-tool-fuzzy-select.html" title="2.5. അവ്യക്തമായ നിരക്കു (മാന്ത്രികനായാണ്)" parent="gimp-tools-selection" sort="2.5"/>
+  <help-item id="tool-fuzzy-select-options" ref="gimp-tool-fuzzy-select.html#tool-fuzzy-select-options" title="2.5.4. ഓപ്ഷനുകൾ" parent="gimp-tool-fuzzy-select" sort="2.5.4"/>
+  <help-item id="gimp-tool-by-color-select" ref="gimp-tool-by-color-select.html" title="2.6. വർണ്ണ മാർഗം തിരഞ്ഞെടുക്കുക" parent="gimp-tools-selection" sort="2.6"/>
+  <help-item id="gimp-tool-iscissors" ref="gimp-tool-iscissors.html" title="2.7. Intelligent Scissors" parent="gimp-tools-selection" sort="2.7"/>
+  <help-item id="gimp-tool-foreground-select" ref="gimp-tool-foreground-select.html" title="2.8. മുൻവശം തിരഞ്ഞെടുക്കുക" parent="gimp-tools-selection" sort="2.8"/>
+  <help-item id="tool-fg-select-usage" ref="gimp-tool-foreground-select.html#tool-fg-select-usage" title="2.8.1. Directions for use" parent="gimp-tool-foreground-select" sort="2.8.1"/>
+  <help-item id="gimp-tools-paint" ref="gimp-tools-paint.html" title="3. പെയിന്റ് ഉപകരണങ്ങൾ" parent="gimp-tools" sort="3"/>
+  <help-item id="gimp-tool-brush" ref="gimp-tools-paint.html#gimp-tool-brush" title="3.1. സാധാരണ സവിശേഷതകൾ" parent="gimp-tools-paint" sort="3.1"/>
+  <help-item id="gimp-tools-paint-modifiers" ref="gimp-tools-paint.html#gimp-tools-paint-modifiers" title="3.1.1. Key modifiers" parent="gimp-tool-brush" sort="3.1.1"/>
+  <help-item id="gimp-tools-paint-options" ref="gimp-tools-paint.html#gimp-tools-paint-options" title="3.1.2. ടൂൾ ഓപ്ഷനുകൾ" parent="gimp-tool-brush" sort="3.1.2"/>
+  <help-item id="gimp-tool-painting-modes" ref="gimp-tools-paint.html#gimp-tool-painting-modes" title="(Painting Modes)" parent="gimp-tools-paint-options" sort="3.1.2.0.4"/>
+  <help-item id="gimp-tool-brush-dynamics" ref="gimp-tools-paint.html#gimp-tool-brush-dynamics" title="(Brush Dynamics)" parent="gimp-tools-paint-options" sort="3.1.2.0.5"/>
+  <help-item id="gimp-paint-mode-examples" ref="gimp-tools-paint.html#gimp-paint-mode-examples" title="3.1.3. Paint Mode Examples" parent="gimp-tool-brush" sort="3.1.3"/>
+  <help-item id="gimp-tool-dynamics" ref="gimp-tool-dynamics.html" title="3.2. Dynamics" parent="gimp-tools-paint" sort="3.2"/>
+  <help-item id="gimp-tool-dynamic-options" ref="gimp-tool-dynamics.html#gimp-tool-dynamic-options" title="3.2.6. Dynamics Options" parent="gimp-tool-dynamics" sort="3.2.6"/>
+  <help-item id="gimp-tools-brush" ref="gimp-tools-brush.html" title="3.3. ബ്രഷ് ഉപകരണങ്ങൾ (പെൻസിൽ, അന്തസ്സായിത്തന്നെയാണു, എയർബ്രഷ്)" parent="gimp-tools-paint" sort="3.3"/>
+  <help-item id="gimp-tool-bucket-fill" ref="gimp-tool-bucket-fill.html" title="3.4. ബക്കറ്റ് നിറയാൻ" parent="gimp-tools-paint" sort="3.4"/>
+  <help-item id="gimp-tool-blend" ref="gimp-tool-blend.html" title="3.5. കൂട്ടിക്കലര്ത്തുക" parent="gimp-tools-paint" sort="3.5"/>
+  <help-item id="gimp-tool-pencil" ref="gimp-tool-pencil.html" title="3.6. പെന്സില്" parent="gimp-tools-paint" sort="3.6"/>
+  <help-item id="gimp-tool-paintbrush" ref="gimp-tool-paintbrush.html" title="3.7. അന്തസ്സായിത്തന്നെയാണു" parent="gimp-tools-paint" sort="3.7"/>
+  <help-item id="gimp-tool-eraser" ref="gimp-tool-eraser.html" title="3.8. തുടച്ചുമാറ്റുന്നവന്" parent="gimp-tools-paint" sort="3.8"/>
+  <help-item id="gimp-tool-airbrush" ref="gimp-tool-airbrush.html" title="3.9. എയർബ്രഷ്" parent="gimp-tools-paint" sort="3.9"/>
+  <help-item id="gimp-tool-ink" ref="gimp-tool-ink.html" title="3.10. മച്ചി" parent="gimp-tools-paint" sort="3.10"/>
+  <help-item id="gimp-tool-clone" ref="gimp-tool-clone.html" title="3.11. ക്ലോൺ" parent="gimp-tools-paint" sort="3.11"/>
+  <help-item id="filter-and-history-brushes" ref="gimp-tool-clone.html#filter-and-history-brushes" title="3.11.4. Further Information" parent="gimp-tool-clone" sort="3.11.4"/>
+  <help-item id="gimp-tool-heal" ref="gimp-tool-heal.html" title="3.12. സൌഖ്യമാക്കേണമേ" parent="gimp-tools-paint" sort="3.12"/>
+  <help-item id="gimp-tool-perspective-clone" ref="gimp-tool-perspective-clone.html" title="3.13. കാഴ്ചപ്പാട് ക്ലോൺ" parent="gimp-tools-paint" sort="3.13"/>
+  <help-item id="gimp-tool-convolve" ref="gimp-tool-convolve.html" title="3.14. Blur/Sharpen" parent="gimp-tools-paint" sort="3.14"/>
+  <help-item id="gimp-tool-smudge" ref="gimp-tool-smudge.html" title="3.15. സ്മഡ്ജ്" parent="gimp-tools-paint" sort="3.15"/>
+  <help-item id="gimp-tool-dodge-burn" ref="gimp-tool-dodge-burn.html" title="3.16. ഡോഡ്ജ് / ബേൺ" parent="gimp-tools-paint" sort="3.16"/>
+  <help-item id="gimp-tools-transform" ref="gimp-tools-transform.html" title="4. ഉപകരണങ്ങൾ പരിവർത്തനംചെയ്യൂ" parent="gimp-tools" sort="4"/>
+  <help-item id="gimp-tool-transform" ref="gimp-tools-transform.html#gimp-tool-transform" title="4.1. സാധാരണ സവിശേഷതകൾ" parent="gimp-tools-transform" sort="4.1"/>
+  <help-item id="gimp-tool-transform-options" ref="gimp-tools-transform.html#gimp-tool-transform-options" title="4.1.1. ടൂൾ ഓപ്ഷനുകൾ" parent="gimp-tool-transform" sort="4.1.1"/>
+  <help-item id="gimp-tool-interpolation-methods" ref="gimp-tools-transform.html#gimp-tool-interpolation-methods" title="(Interpolation)" parent="gimp-tool-transform-options" sort="4.1.1.0.4"/>
+  <help-item id="gimp-tool-transform-guides" ref="gimp-tools-transform.html#gimp-tool-transform-guides" title="(വഴികാട്ടി)" parent="gimp-tool-transform-options" sort="4.1.1.0.9"/>
+  <help-item id="gimp-tool-align" ref="gimp-tool-align.html" title="4.2. അണിനിരത്തുക" parent="gimp-tools-transform" sort="4.2"/>
+  <help-item id="gimp-tool-move" ref="gimp-tool-move.html" title="4.3. നീങ്ങുക" parent="gimp-tools-transform" sort="4.3"/>
+  <help-item id="gimp-tool-crop" ref="gimp-tool-crop.html" title="4.4. വിള" parent="gimp-tools-transform" sort="4.4"/>
+  <help-item id="gimp-tool-rotate" ref="gimp-tool-rotate.html" title="4.5. തിരിക്കുക" parent="gimp-tools-transform" sort="4.5"/>
+  <help-item id="gimp-tool-scale" ref="gimp-tool-scale.html" title="4.6. സ്കെയിൽ" parent="gimp-tools-transform" sort="4.6"/>
+  <help-item id="gimp-tool-shear" ref="gimp-tool-shear.html" title="4.7. അറുക്കുക" parent="gimp-tools-transform" sort="4.7"/>
+  <help-item id="gimp-tool-perspective" ref="gimp-tool-perspective.html" title="4.8. കാഴ്ചപ്പാട്" parent="gimp-tools-transform" sort="4.8"/>
+  <help-item id="gimp-tool-flip" ref="gimp-tool-flip.html" title="4.9. ഫ്ലിപ്" parent="gimp-tools-transform" sort="4.9"/>
+  <help-item id="gimp-tool-cage" ref="gimp-tool-cage.html" title="4.10. The Cage Tool" parent="gimp-tools-transform" sort="4.10"/>
+  <help-item id="gimp-tools-color" ref="gimp-tools-color.html" title="5. വർണ്ണ ഉപകരണങ്ങൾ" parent="gimp-tools" sort="5"/>
+  <help-item id="gimp-tools-color-overview" ref="gimp-tools-color.html#gimp-tools-color-overview" title="5.1. പൊതു അവലോകനം" parent="gimp-tools-color" sort="5.1"/>
+  <help-item id="color-tool-presets" ref="gimp-tools-color.html#color-tool-presets" title="5.1.1. Color Tool Presets" parent="gimp-tools-color-overview" sort="5.1.1"/>
+  <help-item id="gimp-tool-color-balance" ref="gimp-tool-color-balance.html" title="5.2. കളർ ബാലൻസ്" parent="gimp-tools-color" sort="5.2"/>
+  <help-item id="gimp-tool-hue-saturation" ref="gimp-tool-hue-saturation.html" title="5.3. ഹ്യൂയേ-സാച്ചുറേഷൻ" parent="gimp-tools-color" sort="5.3"/>
+  <help-item id="gimp-tool-colorize" ref="gimp-tool-colorize.html" title="5.4. Colourise" parent="gimp-tools-color" sort="5.4"/>
+  <help-item id="gimp-tool-brightness-contrast" ref="gimp-tool-brightness-contrast.html" title="5.5. മിഴിവ്-തീവ്രത" parent="gimp-tools-color" sort="5.5"/>
+  <help-item id="gimp-tool-threshold" ref="gimp-tool-threshold.html" title="5.6. ഉമ്മറം" parent="gimp-tools-color" sort="5.6"/>
+  <help-item id="gimp-tool-levels" ref="gimp-tool-levels.html" title="5.7. ലെവലുകൾ" parent="gimp-tools-color" sort="5.7"/>
+  <help-item id="gimp-tool-curves" ref="gimp-tool-curves.html" title="5.8. കർവ്സ്" parent="gimp-tools-color" sort="5.8"/>
+  <help-item id="gimp-tool-posterize" ref="gimp-tool-posterize.html" title="5.9. Posterise" parent="gimp-tools-color" sort="5.9"/>
+  <help-item id="gimp-tool-desaturate" ref="gimp-tool-desaturate.html" title="5.10. Desaturate" parent="gimp-tools-color" sort="5.10"/>
+  <help-item id="gimp-tool-desaturate-luminosity" ref="gimp-tool-desaturate.html#gimp-tool-desaturate-luminosity" title="(Luminosity)" parent="gimp-tool-desaturate" sort="5.10.2.0.4"/>
+  <help-item id="gimp-tools-other" ref="gimp-tools-other.html" title="6. മറ്റു" parent="gimp-tools" sort="6"/>
+  <help-item id="gimp-tools-other-overview" ref="gimp-tools-other.html#gimp-tools-other-overview" title="6.1. പൊതു അവലോകനം" parent="gimp-tools-other" sort="6.1"/>
+  <help-item id="gimp-tool-path" ref="gimp-tool-path.html" title="6.2. പാഥുകൾ" parent="gimp-tools-other" sort="6.2"/>
+  <help-item id="gimp-tool-color-picker" ref="gimp-tool-color-picker.html" title="6.3. വർണ്ണം പിക്കർ" parent="gimp-tools-other" sort="6.3"/>
+  <help-item id="gimp-tool-zoom" ref="gimp-tool-zoom.html" title="6.4. സൂം" parent="gimp-tools-other" sort="6.4"/>
+  <help-item id="gimp-tool-measure" ref="gimp-tool-measure.html" title="6.5. അളവ്" parent="gimp-tools-other" sort="6.5"/>
+  <help-item id="gimp-tool-text" ref="gimp-tool-text.html" title="6.6. ടെക്സ്റ്റ്" parent="gimp-tools-other" sort="6.6"/>
+  <help-item id="text-tool-popup" ref="gimp-tool-text.html#text-tool-popup" title="6.6.3. Text tool സന്ദർഭ മെനു" parent="gimp-tool-text" sort="6.6.3"/>
+  <help-item id="gimp-text-editor-dialog" ref="gimp-tool-text.html#gimp-text-editor-dialog" title="6.6.4. ടെക്സ്റ്റ് എഡിറ്റർ" parent="gimp-tool-text" sort="6.6.4"/>
+  <help-item id="gimp-tool-gegl" ref="gimp-tool-gegl.html" title="6.7. GEGL ഓപ്പറേഷൻ" parent="gimp-tools-other" sort="6.7"/>
+  <help-item id="dialogs" ref="dialogs.html" title="15. ഡയലോഗുകൾ" parent="gimp-function-reference" sort="15"/>
+  <help-item id="gimp-dialogs-introduction" ref="dialogs.html#gimp-dialogs-introduction" title="1. സംഭാഷണം ആമുഖം" parent="dialogs" sort="1"/>
+  <help-item id="gimp-dialogs-structure" ref="gimp-dialogs-structure.html" title="2. ചിത്രം ഘടന ബന്ധപ്പെട്ട ഡയലോഗുകൾ" parent="dialogs" sort="2"/>
+  <help-item id="gimp-layer-dialog" ref="gimp-dialogs-structure.html#gimp-layer-dialog" title="2.1. പാളികൾ സംഭാഷണം" parent="gimp-dialogs-structure" sort="2.1"/>
+  <help-item id="gimp-layer-dialog-activate" ref="gimp-dialogs-structure.html#gimp-layer-dialog-activate" title="2.1.1. ഡയലോഗ് സജീവമാക്കുന്നു" parent="gimp-layer-dialog" sort="2.1.1"/>
+  <help-item id="gimp-layer-dialog-using" ref="gimp-dialogs-structure.html#gimp-layer-dialog-using" title="2.1.2. ലെയർ ഡയലോഗ് ഉപയോഗിച്ച്" parent="gimp-layer-dialog" sort="2.1.2"/>
+  <help-item id="gimp-layer-attributes" ref="gimp-dialogs-structure.html#gimp-layer-attributes" title="(ലെയർ ആട്രിബ്യൂട്ടുകൾ)" parent="gimp-layer-dialog-using" sort="2.1.2.0.3"/>
+  <help-item id="gimp-layer-visible" ref="gimp-dialogs-structure.html#gimp-layer-visible" title="(ദൃശ്യം പാളി)" parent="gimp-layer-dialog-using" sort="2.1.2.0.4"/>
+  <help-item id="gimp-layer-linked" ref="gimp-dialogs-structure.html#gimp-layer-linked" title="(ലിങ്ക്ഡ് പാളികൾ)" parent="gimp-layer-dialog-using" sort="2.1.2.0.5"/>
+  <help-item id="gimp-layer-characteristics" ref="gimp-dialogs-structure.html#gimp-layer-characteristics" title="(പാളികൾ സ്വഭാവസവിശേഷതകൾ)" parent="gimp-layer-dialog-using" sort="2.1.2.0.6"/>
+  <help-item id="gimp-layer-dialog-paint-mode-menu" ref="gimp-dialogs-structure.html#gimp-layer-dialog-paint-mode-menu" title="(മോഡ്)" parent="gimp-layer-dialog-using" sort="2.1.2.0.7"/>
+  <help-item id="gimp-layer-dialog-opacity-scale" ref="gimp-dialogs-structure.html#gimp-layer-dialog-opacity-scale" title="(അതാര്യത)" parent="gimp-layer-dialog-using" sort="2.1.2.0.8"/>
+  <help-item id="gimp-layer-dialog-lock-alpha-button" ref="gimp-dialogs-structure.html#gimp-layer-dialog-lock-alpha-button" title="(ലോക്ക്)" parent="gimp-layer-dialog-using" sort="2.1.2.0.9"/>
+  <help-item id="gimp-layer-dialog-new" ref="gimp-dialogs-structure.html#gimp-layer-dialog-new" title="(പുതിയ ലെയർ)" parent="gimp-layer-dialog-using" sort="2.1.2.0.11"/>
+  <help-item id="gimp-layer-mask" ref="gimp-dialogs-structure.html#gimp-layer-mask" title="2.1.3. ലെയർ മാസ്കുകൾ" parent="gimp-layer-dialog" sort="2.1.3"/>
+  <help-item id="gimp-channel-dialog" ref="gimp-channel-dialog.html" title="2.2. ചാനലുകൾ സംഭാഷണം" parent="gimp-dialogs-structure" sort="2.2"/>
+  <help-item id="gimp-channel-dialog-calling" ref="gimp-channel-dialog.html#gimp-channel-dialog-calling" title="2.2.1. ഡയലോഗ് സജീവമാക്കുന്നു" parent="gimp-channel-dialog" sort="2.2.1"/>
+  <help-item id="gimp-channel-dialog-using" ref="gimp-channel-dialog.html#gimp-channel-dialog-using" title="2.2.2. ചാനൽ ഡയലോഗ് ഉപയോഗിച്ച്" parent="gimp-channel-dialog" sort="2.2.2"/>
+  <help-item id="gimp-channel-dialog-using-overview" ref="gimp-channel-dialog.html#gimp-channel-dialog-using-overview" title="2.2.2.1. പൊതു അവലോകനം" parent="gimp-channel-dialog-using" sort="2.2.2.1"/>
+  <help-item id="gimp-channel-dialog-using-attributes" ref="gimp-channel-dialog.html#gimp-channel-dialog-using-attributes" title="2.2.2.2. ചാനൽ ആട്റിബ്യൂട്ടുകൾക്ക്" parent="gimp-channel-dialog-using" sort="2.2.2.2"/>
+  <help-item id="gimp-channel-dialog-using-managing" ref="gimp-channel-dialog.html#gimp-channel-dialog-using-managing" title="2.2.2.3. ചാനലുകൾ കൈകാര്യം" parent="gimp-channel-dialog-using" sort="2.2.2.3"/>
+  <help-item id="gimp-channel-edit" ref="gimp-channel-dialog.html#gimp-channel-edit" title="(ചാനൽ എഡിറ്റ് ഗുണവിശേഷതകൾ)" parent="gimp-channel-dialog-using-managing" sort="2.2.2.3.0.3"/>
+  <help-item id="gimp-channel-new" ref="gimp-channel-dialog.html#gimp-channel-new" title="(പുതിയ ചാനൽ)" parent="gimp-channel-dialog-using-managing" sort="2.2.2.3.0.4"/>
+  <help-item id="gimp-channel-raise" ref="gimp-channel-dialog.html#gimp-channel-raise" title="(ചാനൽ ഉന്നയിക്കുക)" parent="gimp-channel-dialog-using-managing" sort="2.2.2.3.0.5"/>
+  <help-item id="gimp-channel-lower" ref="gimp-channel-dialog.html#gimp-channel-lower" title="(ലോവർ ചാനൽ)" parent="gimp-channel-dialog-using-managing" sort="2.2.2.3.0.6"/>
+  <help-item id="gimp-channel-duplicate" ref="gimp-channel-dialog.html#gimp-channel-duplicate" title="(തനിപ്പകർപ്പ് ചാനൽ)" parent="gimp-channel-dialog-using-managing" sort="2.2.2.3.0.7"/>
+  <help-item id="gimp-channel-selection-replace" ref="gimp-channel-dialog.html#gimp-channel-selection-replace" title="(തിരഞ്ഞെടുക്കുന്നതിലേക്ക് ചാനൽ)" parent="gimp-channel-dialog-using-managing" sort="2.2.2.3.0.8"/>
+  <help-item id="gimp-channel-selection-add" ref="gimp-channel-dialog.html#gimp-channel-selection-add" title="(തിരഞ്ഞെടുക്കൽ ചേർക്കുക)" parent="gimp-channel-dialog-using-managing" sort="2.2.2.3.0.9"/>
+  <help-item id="gimp-channel-selection-subtract" ref="gimp-channel-dialog.html#gimp-channel-selection-subtract" title="(തിരഞ്ഞെടുക്കൽ നിന്ന് കുറയ്ക്കേണ്ട)" parent="gimp-channel-dialog-using-managing" sort="2.2.2.3.0.10"/>
+  <help-item id="gimp-channel-selection-intersect" ref="gimp-channel-dialog.html#gimp-channel-selection-intersect" title="(തിരഞ്ഞെടുക്കൽ ഉപയോഗിച്ച് കൂട്ടിമുട്ടുന്ന)" parent="gimp-channel-dialog-using-managing" sort="2.2.2.3.0.11"/>
+  <help-item id="gimp-channel-selection-delete" ref="gimp-channel-dialog.html#gimp-channel-selection-delete" title="(ചാനൽ ഇല്ലാതാക്കുക)" parent="gimp-channel-dialog-using-managing" sort="2.2.2.3.0.12"/>
+  <help-item id="gimp-channel-menu" ref="gimp-channel-dialog.html#gimp-channel-menu" title="2.2.2.4. ചാനലുകൾ സന്ദർഭ മെനു" parent="gimp-channel-dialog-using" sort="2.2.2.4"/>
+  <help-item id="gimp-channel-mask" ref="gimp-channel-dialog.html#gimp-channel-mask" title="2.2.3. തിരഞ്ഞെടുക്കൽ മാസ്കുകൾ" parent="gimp-channel-dialog" sort="2.2.3"/>
+  <help-item id="gimp-qmask" ref="gimp-channel-dialog.html#gimp-qmask" title="2.2.4. പെട്ടെന്ന് മാസ്ക്" parent="gimp-channel-dialog" sort="2.2.4"/>
+  <help-item id="gimp-path-dialog" ref="gimp-path-dialog.html" title="2.3. പാഥുകൾ സംഭാഷണം" parent="gimp-dialogs-structure" sort="2.3"/>
+  <help-item id="gimp-path-dialog-activate" ref="gimp-path-dialog.html#gimp-path-dialog-activate" title="2.3.1. ഡയലോഗ് സജീവമാക്കുന്നു" parent="gimp-path-dialog" sort="2.3.1"/>
+  <help-item id="gimp-path-dialog-using" ref="gimp-path-dialog.html#gimp-path-dialog-using" title="2.3.2. പാഥുകൾ ഡയലോഗ് ഉപയോഗിച്ച്" parent="gimp-path-dialog" sort="2.3.2"/>
+  <help-item id="gimp-path-dialog-buttons" ref="gimp-path-dialog.html#gimp-path-dialog-buttons" title="2.3.3. ബട്ടണുകൾ" parent="gimp-path-dialog" sort="2.3.3"/>
+  <help-item id="gimp-concepts-paths-menu" ref="gimp-path-dialog.html#gimp-concepts-paths-menu" title="2.3.4. “Paths” സന്ദർഭ മെനു" parent="gimp-path-dialog" sort="2.3.4"/>
+  <help-item id="gimp-path-edit" ref="gimp-path-dialog.html#gimp-path-edit" title="FIXME TITLE: gimp-path-edit" parent="gimp-concepts-paths-menu" sort="2.3.4.0.4"/>
+  <help-item id="gimp-path-new" ref="gimp-path-dialog.html#gimp-path-new" title="FIXME TITLE: gimp-path-new" parent="gimp-concepts-paths-menu" sort="2.3.4.0.5"/>
+  <help-item id="gimp-path-raise" ref="gimp-path-dialog.html#gimp-path-raise" title="FIXME TITLE: gimp-path-raise" parent="gimp-concepts-paths-menu" sort="2.3.4.0.6"/>
+  <help-item id="gimp-path-lower" ref="gimp-path-dialog.html#gimp-path-lower" title="FIXME TITLE: gimp-path-lower" parent="gimp-concepts-paths-menu" sort="2.3.4.0.7"/>
+  <help-item id="gimp-path-duplicate" ref="gimp-path-dialog.html#gimp-path-duplicate" title="FIXME TITLE: gimp-path-duplicate" parent="gimp-concepts-paths-menu" sort="2.3.4.0.8"/>
+  <help-item id="gimp-path-delete" ref="gimp-path-dialog.html#gimp-path-delete" title="FIXME TITLE: gimp-path-delete" parent="gimp-concepts-paths-menu" sort="2.3.4.0.9"/>
+  <help-item id="gimp-path-selection-add" ref="gimp-path-dialog.html#gimp-path-selection-add" title="FIXME TITLE: gimp-path-selection-add" parent="gimp-concepts-paths-menu" sort="2.3.4.0.10"/>
+  <help-item id="gimp-path-selection-subtract" ref="gimp-path-dialog.html#gimp-path-selection-subtract" title="FIXME TITLE: gimp-path-selection-subtract" parent="gimp-concepts-paths-menu" sort="2.3.4.0.11"/>
+  <help-item id="gimp-path-selection-intersect" ref="gimp-path-dialog.html#gimp-path-selection-intersect" title="FIXME TITLE: gimp-path-selection-intersect" parent="gimp-concepts-paths-menu" sort="2.3.4.0.12"/>
+  <help-item id="gimp-path-dialog-stroke" ref="gimp-path-dialog.html#gimp-path-dialog-stroke" title="FIXME TITLE: gimp-path-dialog-stroke" parent="gimp-concepts-paths-menu" sort="2.3.4.0.14"/>
+  <help-item id="gimp-path-copy" ref="gimp-path-dialog.html#gimp-path-copy" title="FIXME TITLE: gimp-path-copy" parent="gimp-concepts-paths-menu" sort="2.3.4.0.15"/>
+  <help-item id="gimp-path-paste" ref="gimp-path-dialog.html#gimp-path-paste" title="FIXME TITLE: gimp-path-paste" parent="gimp-concepts-paths-menu" sort="2.3.4.0.16"/>
+  <help-item id="gimp-path-import" ref="gimp-path-dialog.html#gimp-path-import" title="FIXME TITLE: gimp-path-import" parent="gimp-concepts-paths-menu" sort="2.3.4.0.17"/>
+  <help-item id="gimp-indexed-palette-dialog" ref="gimp-indexed-palette-dialog.html" title="2.4. Colormap സംഭാഷണം" parent="gimp-dialogs-structure" sort="2.4"/>
+  <help-item id="gimp-indexed-palette-dialog-activate" ref="gimp-indexed-palette-dialog.html#gimp-indexed-palette-dialog-activate" title="2.4.1. ഡയലോഗ് സജീവമാക്കുന്നു" parent="gimp-indexed-palette-dialog" sort="2.4.1"/>
+  <help-item id="gimp-indexed-palette-dialog-colormaps" ref="gimp-indexed-palette-dialog.html#gimp-indexed-palette-dialog-colormaps" title="2.4.2. Colormaps സൂജികപത്രവും ചിത്രങ്ങൾ" parent="gimp-indexed-palette-dialog" sort="2.4.2"/>
+  <help-item id="gimp-indexed-palette-dialog-using" ref="gimp-indexed-palette-dialog.html#gimp-indexed-palette-dialog-using" title="2.4.3. Colormap ഡയലോഗ് ഉപയോഗിച്ച്" parent="gimp-indexed-palette-dialog" sort="2.4.3"/>
+  <help-item id="gimp-indexed-palette-edit" ref="gimp-indexed-palette-dialog.html#gimp-indexed-palette-edit" title="FIXME TITLE: gimp-indexed-palette-edit" parent="gimp-indexed-palette-dialog-using" sort="2.4.3.0.3"/>
+  <help-item id="gimp-indexed-palette-add" ref="gimp-indexed-palette-dialog.html#gimp-indexed-palette-add" title="FIXME TITLE: gimp-indexed-palette-add" parent="gimp-indexed-palette-dialog-using" sort="2.4.3.0.4"/>
+  <help-item id="gimp-indexed-palette-dialog-submenu" ref="gimp-indexed-palette-dialog.html#gimp-indexed-palette-dialog-submenu" title="2.4.4. Colormap സന്ദർഭ മെനു" parent="gimp-indexed-palette-dialog" sort="2.4.4"/>
+  <help-item id="gimp-histogram-dialog" ref="gimp-histogram-dialog.html" title="2.5. ഹിസ്റ്റോഗ്രാം ഡയലോഗ്" parent="gimp-dialogs-structure" sort="2.5"/>
+  <help-item id="gimp-navigation-dialog" ref="gimp-navigation-dialog.html" title="2.6. നാവിഗേഷൻ സംഭാഷണം" parent="gimp-dialogs-structure" sort="2.6"/>
+  <help-item id="gimp-undo-dialog" ref="gimp-undo-dialog.html" title="2.7. പഴയപടിയാക്കൽ ചരിത്രം സംഭാഷണം" parent="gimp-dialogs-structure" sort="2.7"/>
+  <help-item id="gimp-dialogs-content" ref="gimp-dialogs-content.html" title="3. ചിത്രം-ഉള്ളടക്കം ബന്ധപ്പെട്ട ഡയലോഗുകൾ" parent="dialogs" sort="3"/>
+  <help-item id="gimp-color-dialog" ref="gimp-dialogs-content.html#gimp-color-dialog" title="3.1. FG / ബി.ജി. കളർ സംഭാഷണം" parent="gimp-dialogs-content" sort="3.1"/>
+  <help-item id="gimp-colorselectors" ref="gimp-dialogs-content.html#gimp-colorselectors" title="3.1.2. “FG/BG color” ഡയലോഗ് ഉപയോഗിച്ച്" parent="gimp-color-dialog" sort="3.1.2"/>
+  <help-item id="gimp-colorselector-gimp" ref="gimp-dialogs-content.html#gimp-colorselector-gimp" title="(ജിമ്പ് സെലക്ടർ)" parent="gimp-colorselectors" sort="3.1.2.0.3"/>
+  <help-item id="gimp-colorselector-cmyk" ref="gimp-dialogs-content.html#gimp-colorselector-cmyk" title="(CMYK)" parent="gimp-colorselectors" sort="3.1.2.0.4"/>
+  <help-item id="gimp-colorselector-triangle" ref="gimp-dialogs-content.html#gimp-colorselector-triangle" title="(തികോണം)" parent="gimp-colorselectors" sort="3.1.2.0.6"/>
+  <help-item id="gimp-colorselector-watercolor" ref="gimp-dialogs-content.html#gimp-colorselector-watercolor" title="(Watercolor)" parent="gimp-colorselectors" sort="3.1.2.0.8"/>
+  <help-item id="gimp-colorselector-palette" ref="gimp-dialogs-content.html#gimp-colorselector-palette" title="(പാലറ്റ്)" parent="gimp-colorselectors" sort="3.1.2.0.10"/>
+  <help-item id="gimp-colorselector-scales" ref="gimp-dialogs-content.html#gimp-colorselector-scales" title="(സ്കെയിൽ)" parent="gimp-colorselectors" sort="3.1.2.0.12"/>
+  <help-item id="gimp-colorselector-picker" ref="gimp-dialogs-content.html#gimp-colorselector-picker" title="(വർണ്ണ ചേർക്കൽ)" parent="gimp-colorselectors" sort="3.1.2.0.14"/>
+  <help-item id="gimp-colorselector-html" ref="gimp-dialogs-content.html#gimp-colorselector-html" title="(എച്ച്ടിഎംഎൽ നൊട്ടേഷൻ)" parent="gimp-colorselectors" sort="3.1.2.0.15"/>
+  <help-item id="gimp-brush-dialog" ref="gimp-brush-dialog.html" title="3.2. നയപ്രഖ്യാപന സംഭാഷണം" parent="gimp-dialogs-content" sort="3.2"/>
+  <help-item id="gimp-brush-dialog-activate" ref="gimp-brush-dialog.html#gimp-brush-dialog-activate" title="3.2.1. ഡയലോഗ് സജീവമാക്കുന്നു" parent="gimp-brush-dialog" sort="3.2.1"/>
+  <help-item id="gimp-brush-dialog-using" ref="gimp-brush-dialog.html#gimp-brush-dialog-using" title="3.2.2. “Brushes” ഡയലോഗ് ഉപയോഗിച്ച്" parent="gimp-brush-dialog" sort="3.2.2"/>
+  <help-item id="gimp-brush-dialog-previews" ref="gimp-brush-dialog.html#gimp-brush-dialog-previews" title="3.2.2.2. ബ്രഷ് തിരനോട്ടങ്ങൾ" parent="gimp-brush-dialog-using" sort="3.2.2.2"/>
+  <help-item id="gimp-brush-dialog-tags" ref="gimp-brush-dialog.html#gimp-brush-dialog-tags" title="3.2.2.3. ടാഗ്ചെയ്യൽ" parent="gimp-brush-dialog-using" sort="3.2.2.3"/>
+  <help-item id="gimp-brush-dialog-buttons" ref="gimp-brush-dialog.html#gimp-brush-dialog-buttons" title="3.2.2.4. ചുവടെയുള്ള ബട്ടണുകൾ" parent="gimp-brush-dialog-using" sort="3.2.2.4"/>
+  <help-item id="gimp-brush-new" ref="gimp-brush-dialog.html#gimp-brush-new" title="FIXME TITLE: gimp-brush-new" parent="gimp-brush-dialog-buttons" sort="3.2.2.4.0.3"/>
+  <help-item id="gimp-brush-duplicate" ref="gimp-brush-dialog.html#gimp-brush-duplicate" title="FIXME TITLE: gimp-brush-duplicate" parent="gimp-brush-dialog-buttons" sort="3.2.2.4.0.4"/>
+  <help-item id="gimp-brush-delete" ref="gimp-brush-dialog.html#gimp-brush-delete" title="FIXME TITLE: gimp-brush-delete" parent="gimp-brush-dialog-buttons" sort="3.2.2.4.0.5"/>
+  <help-item id="gimp-brush-refresh" ref="gimp-brush-dialog.html#gimp-brush-refresh" title="FIXME TITLE: gimp-brush-refresh" parent="gimp-brush-dialog-buttons" sort="3.2.2.4.0.6"/>
+  <help-item id="gimp-brush-editor-dialog" ref="gimp-brush-dialog.html#gimp-brush-editor-dialog" title="3.2.3. ബ്രഷ് എഡിറ്റർ" parent="gimp-brush-dialog" sort="3.2.3"/>
+  <help-item id="clipboard-brush" ref="gimp-brush-dialog.html#clipboard-brush" title="3.2.4. ക്ലിപ്ബോർഡ് ബ്രഷ്" parent="gimp-brush-dialog" sort="3.2.4"/>
+  <help-item id="gimp-pattern-dialog" ref="gimp-pattern-dialog.html" title="3.3. പാറ്റേണുകൾ സംഭാഷണം" parent="gimp-dialogs-content" sort="3.3"/>
+  <help-item id="gimp-pattern-dialog-activate" ref="gimp-pattern-dialog.html#gimp-pattern-dialog-activate" title="3.3.1. ഡയലോഗ് സജീവമാക്കുന്നു" parent="gimp-pattern-dialog" sort="3.3.1"/>
+  <help-item id="gimp-pattern-dialog-using" ref="gimp-pattern-dialog.html#gimp-pattern-dialog-using" title="3.3.2. പാറ്റേൺ ഡയലോഗ് ഉപയോഗിച്ച്" parent="gimp-pattern-dialog" sort="3.3.2"/>
+  <help-item id="gimp-pattern-delete" ref="gimp-pattern-dialog.html#gimp-pattern-delete" title="FIXME TITLE: gimp-pattern-delete" parent="gimp-pattern-dialog-using" sort="3.3.2.0.4"/>
+  <help-item id="gimp-pattern-refresh" ref="gimp-pattern-dialog.html#gimp-pattern-refresh" title="FIXME TITLE: gimp-pattern-refresh" parent="gimp-pattern-dialog-using" sort="3.3.2.0.5"/>
+  <help-item id="gimp-pattern-open-as-image" ref="gimp-pattern-dialog.html#gimp-pattern-open-as-image" title="FIXME TITLE: gimp-pattern-open-as-image" parent="gimp-pattern-dialog-using" sort="3.3.2.0.6"/>
+  <help-item id="gimp-patterns-dialog-tags" ref="gimp-pattern-dialog.html#gimp-patterns-dialog-tags" title="3.3.3. ടാഗ്ചെയ്യൽ" parent="gimp-pattern-dialog" sort="3.3.3"/>
+  <help-item id="clipboard-pattern" ref="gimp-pattern-dialog.html#clipboard-pattern" title="3.3.5. ക്ലിപ്ബോർഡ് പാറ്റേൺ" parent="gimp-pattern-dialog" sort="3.3.5"/>
+  <help-item id="gimp-gradient-dialog" ref="gimp-gradient-dialog.html" title="3.4. ഘനമായ സംഭാഷണം" parent="gimp-dialogs-content" sort="3.4"/>
+  <help-item id="gimp-gradient-dialog-activate" ref="gimp-gradient-dialog.html#gimp-gradient-dialog-activate" title="3.4.1. ഡയലോഗ് സജീവമാക്കുന്നു" parent="gimp-gradient-dialog" sort="3.4.1"/>
+  <help-item id="gimp-gradient-dialog-using" ref="gimp-gradient-dialog.html#gimp-gradient-dialog-using" title="3.4.2. “Gradients” ഡയലോഗ് ഉപയോഗിച്ച്" parent="gimp-gradient-dialog" sort="3.4.2"/>
+  <help-item id="gimp-gradient-new" ref="gimp-gradient-dialog.html#gimp-gradient-new" title="FIXME TITLE: gimp-gradient-new" parent="gimp-gradient-dialog-using" sort="3.4.2.0.3"/>
+  <help-item id="gimp-gradient-duplicate" ref="gimp-gradient-dialog.html#gimp-gradient-duplicate" title="FIXME TITLE: gimp-gradient-duplicate" parent="gimp-gradient-dialog-using" sort="3.4.2.0.4"/>
+  <help-item id="gimp-gradient-delete" ref="gimp-gradient-dialog.html#gimp-gradient-delete" title="FIXME TITLE: gimp-gradient-delete" parent="gimp-gradient-dialog-using" sort="3.4.2.0.5"/>
+  <help-item id="gimp-gradient-refresh" ref="gimp-gradient-dialog.html#gimp-gradient-refresh" title="FIXME TITLE: gimp-gradient-refresh" parent="gimp-gradient-dialog-using" sort="3.4.2.0.6"/>
+  <help-item id="gimp-gradient-save-as-pov" ref="gimp-gradient-dialog.html#gimp-gradient-save-as-pov" title="(എന്നതൊക്കെയാണു-റേ ആയി സംരക്ഷിക്കുക ...)" parent="gimp-gradient-dialog-using" sort="3.4.2.0.8"/>
+  <help-item id="gimp-gradient-copy-location" ref="gimp-gradient-dialog.html#gimp-gradient-copy-location" title="(പകർത്തുക ഗ്രേഡിയന്റ് സ്ഥലം)" parent="gimp-gradient-dialog-using" sort="3.4.2.0.9"/>
+  <help-item id="script-fu-gradient-example" ref="gimp-gradient-dialog.html#script-fu-gradient-example" title="(കസ്റ്റം ഗ്രേഡിയന്റ് ...)" parent="gimp-gradient-dialog-using" sort="3.4.2.0.10"/>
+  <help-item id="gimp-gradient-dialog-tags" ref="gimp-gradient-dialog.html#gimp-gradient-dialog-tags" title="3.4.2.1. ടാഗ്ചെയ്യൽ" parent="gimp-gradient-dialog-using" sort="3.4.2.1"/>
+  <help-item id="gimp-gradient-editor-dialog" ref="gimp-gradient-dialog.html#gimp-gradient-editor-dialog" title="3.4.3. ഗ്രേഡിയന്റ് എഡിറ്റർ" parent="gimp-gradient-dialog" sort="3.4.3"/>
+  <help-item id="gimp-gradient-edit" ref="gimp-gradient-dialog.html#gimp-gradient-edit" title="(വിഭാഗം 3.4.3, “ഗ്രേഡിയന്റ് എഡിറ്റർ”)" parent="gimp-gradient-editor-dialog" sort="3.4.3.0.3"/>
+  <help-item id="gimp-gradient-editor-dialog-activate" ref="gimp-gradient-dialog.html#gimp-gradient-editor-dialog-activate" title="3.4.3.1. എങ്ങനെ ഗ്രേഡിയന്റ് എഡിറ്റർ സജീവമാക്കുക" parent="gimp-gradient-editor-dialog" sort="3.4.3.1"/>
+  <help-item id="gimp-gradient-editor-dialog-using" ref="gimp-gradient-dialog.html#gimp-gradient-editor-dialog-using" title="3.4.3.2. പ്രദർശിപ്പിക്കുക" parent="gimp-gradient-editor-dialog" sort="3.4.3.2"/>
+  <help-item id="gimp-gradient-editor-zoom-out" ref="gimp-gradient-dialog.html#gimp-gradient-editor-zoom-out" title="FIXME TITLE: gimp-gradient-editor-zoom-out" parent="gimp-gradient-editor-dialog-using" sort="3.4.3.2.0.3"/>
+  <help-item id="gimp-gradient-editor-zoom-in" ref="gimp-gradient-dialog.html#gimp-gradient-editor-zoom-in" title="FIXME TITLE: gimp-gradient-editor-zoom-in" parent="gimp-gradient-editor-dialog-using" sort="3.4.3.2.0.4"/>
+  <help-item id="gimp-gradient-editor-zoom-all" ref="gimp-gradient-dialog.html#gimp-gradient-editor-zoom-all" title="FIXME TITLE: gimp-gradient-editor-zoom-all" parent="gimp-gradient-editor-dialog-using" sort="3.4.3.2.0.5"/>
+  <help-item id="gimp-gradient-editor-dialog-menu" ref="gimp-gradient-dialog.html#gimp-gradient-editor-dialog-menu" title="3.4.3.3. ഗ്രേഡിയന്റ് എഡിറ്റർ പോപ്പ്-അപ്പ് മെനു" parent="gimp-gradient-editor-dialog" sort="3.4.3.3"/>
+  <help-item id="gimp-gradient-editor-left-color" ref="gimp-gradient-dialog.html#gimp-gradient-editor-left-color" title="FIXME TITLE: gimp-gradient-editor-left-color" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.5"/>
+  <help-item id="gimp-gradient-editor-right-color" ref="gimp-gradient-dialog.html#gimp-gradient-editor-right-color" title="FIXME TITLE: gimp-gradient-editor-right-color" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.6"/>
+  <help-item id="gimp-gradient-editor-left-load" ref="gimp-gradient-dialog.html#gimp-gradient-editor-left-load" title="FIXME TITLE: gimp-gradient-editor-left-load" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.7"/>
+  <help-item id="gimp-gradient-editor-right-load" ref="gimp-gradient-dialog.html#gimp-gradient-editor-right-load" title="FIXME TITLE: gimp-gradient-editor-right-load" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.8"/>
+  <help-item id="gimp-gradient-editor-left-save" ref="gimp-gradient-dialog.html#gimp-gradient-editor-left-save" title="FIXME TITLE: gimp-gradient-editor-left-save" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.10"/>
+  <help-item id="gimp-gradient-editor-right-save" ref="gimp-gradient-dialog.html#gimp-gradient-editor-right-save" title="FIXME TITLE: gimp-gradient-editor-right-save" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.11"/>
+  <help-item id="gimp-gradient-editor-blending" ref="gimp-gradient-dialog.html#gimp-gradient-editor-blending" title="FIXME TITLE: gimp-gradient-editor-blending" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.12"/>
+  <help-item id="gimp-gradient-editor-coloring" ref="gimp-gradient-dialog.html#gimp-gradient-editor-coloring" title="FIXME TITLE: gimp-gradient-editor-coloring" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.14"/>
+  <help-item id="gimp-gradient-editor-flip" ref="gimp-gradient-dialog.html#gimp-gradient-editor-flip" title="FIXME TITLE: gimp-gradient-editor-flip" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.16"/>
+  <help-item id="gimp-gradient-editor-replicate" ref="gimp-gradient-dialog.html#gimp-gradient-editor-replicate" title="FIXME TITLE: gimp-gradient-editor-replicate" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.17"/>
+  <help-item id="gimp-gradient-editor-split-midpoint" ref="gimp-gradient-dialog.html#gimp-gradient-editor-split-midpoint" title="FIXME TITLE: gimp-gradient-editor-split-midpoint" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.18"/>
+  <help-item id="gimp-gradient-editor-split-uniform" ref="gimp-gradient-dialog.html#gimp-gradient-editor-split-uniform" title="FIXME TITLE: gimp-gradient-editor-split-uniform" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.19"/>
+  <help-item id="gimp-gradient-editor-delete" ref="gimp-gradient-dialog.html#gimp-gradient-editor-delete" title="FIXME TITLE: gimp-gradient-editor-delete" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.20"/>
+  <help-item id="gimp-gradient-editor-recenter" ref="gimp-gradient-dialog.html#gimp-gradient-editor-recenter" title="FIXME TITLE: gimp-gradient-editor-recenter" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.21"/>
+  <help-item id="gimp-gradient-editor-redistribute" ref="gimp-gradient-dialog.html#gimp-gradient-editor-redistribute" title="FIXME TITLE: gimp-gradient-editor-redistribute" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.22"/>
+  <help-item id="gimp-gradient-editor-blend-color" ref="gimp-gradient-dialog.html#gimp-gradient-editor-blend-color" title="FIXME TITLE: gimp-gradient-editor-blend-color" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.23"/>
+  <help-item id="gimp-gradient-editor-blend-opacity" ref="gimp-gradient-dialog.html#gimp-gradient-editor-blend-opacity" title="FIXME TITLE: gimp-gradient-editor-blend-opacity" parent="gimp-gradient-editor-dialog-menu" sort="3.4.3.3.0.24"/>
+  <help-item id="gimp-palette-dialog" ref="gimp-palette-dialog.html" title="3.5. പാലറ്റുകൾ സംഭാഷണം" parent="gimp-dialogs-content" sort="3.5"/>
+  <help-item id="gimp-palette-activate" ref="gimp-palette-dialog.html#gimp-palette-activate" title="3.5.1. ഡയലോഗ് സജീവമാക്കുന്നു" parent="gimp-palette-dialog" sort="3.5.1"/>
+  <help-item id="gimp-palette-dialog-using" ref="gimp-palette-dialog.html#gimp-palette-dialog-using" title="3.5.2. പാലറ്റുകൾ ഡയലോഗ് ഉപയോഗിച്ച്" parent="gimp-palette-dialog" sort="3.5.2"/>
+  <help-item id="gimp-palettes-dialog-tags" ref="gimp-palette-dialog.html#gimp-palettes-dialog-tags" title="FIXME TITLE: gimp-palettes-dialog-tags" parent="gimp-palette-dialog-using" sort="3.5.2.0.4"/>
+  <help-item id="gimp-concepts-palettes-menu" ref="gimp-palette-dialog.html#gimp-concepts-palettes-menu" title="3.5.3. “Palettes” പോപ്പ്-മെനു" parent="gimp-palette-dialog" sort="3.5.3"/>
+  <help-item id="gimp-palette-edit" ref="gimp-palette-dialog.html#gimp-palette-edit" title="(പാലറ്റ് എഡിറ്റ്)" parent="gimp-concepts-palettes-menu" sort="3.5.3.0.4"/>
+  <help-item id="gimp-palette-new" ref="gimp-palette-dialog.html#gimp-palette-new" title="(പുതിയ പാലറ്റ്)" parent="gimp-concepts-palettes-menu" sort="3.5.3.0.5"/>
+  <help-item id="gimp-palette-import" ref="gimp-palette-dialog.html#gimp-palette-import" title="(ഇംപോർട്ട് പാലറ്റ്)" parent="gimp-concepts-palettes-menu" sort="3.5.3.0.6"/>
+  <help-item id="gimp-palette-duplicate" ref="gimp-palette-dialog.html#gimp-palette-duplicate" title="(തനിപ്പകർപ്പ് പാലറ്റ്)" parent="gimp-concepts-palettes-menu" sort="3.5.3.0.8"/>
+  <help-item id="gimp-palette-merge" ref="gimp-palette-dialog.html#gimp-palette-merge" title="(പാലറ്റുകൾ ലയിപ്പിക്കുക)" parent="gimp-concepts-palettes-menu" sort="3.5.3.0.9"/>
+  <help-item id="gimp-palette-location" ref="gimp-palette-dialog.html#gimp-palette-location" title="(പകർത്തുക പാലറ്റ് സ്ഥലം)" parent="gimp-concepts-palettes-menu" sort="3.5.3.0.10"/>
+  <help-item id="gimp-palette-delete" ref="gimp-palette-dialog.html#gimp-palette-delete" title="(പാലറ്റ് ഇല്ലാതാക്കുക)" parent="gimp-concepts-palettes-menu" sort="3.5.3.0.11"/>
+  <help-item id="gimp-palette-refresh" ref="gimp-palette-dialog.html#gimp-palette-refresh" title="(പാലറ്റുകൾ പുതുക്കുക)" parent="gimp-concepts-palettes-menu" sort="3.5.3.0.12"/>
+  <help-item id="gimp-palette-offset" ref="gimp-palette-dialog.html#gimp-palette-offset" title="(പാലറ്റ് ഓഫ്സെറ്റ് ...)" parent="gimp-concepts-palettes-menu" sort="3.5.3.0.13"/>
+  <help-item id="gimp-palette-to-gradient" ref="gimp-palette-dialog.html#gimp-palette-to-gradient" title="(ഗ്രേഡിയന്റ് ലേക്ക് പാലറ്റ്)" parent="gimp-concepts-palettes-menu" sort="3.5.3.0.16"/>
+  <help-item id="gimp-palette-to-repeat-gradient" ref="gimp-palette-dialog.html#gimp-palette-to-repeat-gradient" title="(ഗ്രേഡിയന്റ് ആവർത്തിക്കുന്നത് ലേക്ക് വര്ണ്ണഫലകം)" parent="gimp-concepts-palettes-menu" sort="3.5.3.0.17"/>
+  <help-item id="gimp-palette-sort" ref="gimp-palette-dialog.html#gimp-palette-sort" title="(അടുക്കുക പാലറ്റ് ...)" parent="gimp-concepts-palettes-menu" sort="3.5.3.0.19"/>
+  <help-item id="gimp-palette-editor-dialog" ref="gimp-palette-dialog.html#gimp-palette-editor-dialog" title="3.5.4. പാലറ്റ് എഡിറ്റർ" parent="gimp-palette-dialog" sort="3.5.4"/>
+  <help-item id="gimp-palette-editor-menu" ref="gimp-palette-dialog.html#gimp-palette-editor-menu" title="3.5.5. പാലറ്റ് എഡിറ്റർ പോപ്പ്-മെനു" parent="gimp-palette-dialog" sort="3.5.5"/>
+  <help-item id="gimp-palette-editor-edit" ref="gimp-palette-dialog.html#gimp-palette-editor-edit" title="(എഡിറ്റ് കളർ)" parent="gimp-palette-editor-menu" sort="3.5.5.0.4"/>
+  <help-item id="gimp-palette-editor-new" ref="gimp-palette-dialog.html#gimp-palette-editor-new" title="(FG നിന്ന് ന്യൂ കളർ; ബൾഗേറിയ ൽ നിന്ന് ന്യൂ കളർ)" parent="gimp-palette-editor-menu" sort="3.5.5.0.5"/>
+  <help-item id="gimp-palette-editor-delete" ref="gimp-palette-dialog.html#gimp-palette-editor-delete" title="(കളർ ഇല്ലാതാക്കുക)" parent="gimp-palette-editor-menu" sort="3.5.5.0.6"/>
+  <help-item id="gimp-palette-editor-zoom-out" ref="gimp-palette-dialog.html#gimp-palette-editor-zoom-out" title="(സൂം ഔട്ട്)" parent="gimp-palette-editor-menu" sort="3.5.5.0.7"/>
+  <help-item id="gimp-palette-editor-zoom-in" ref="gimp-palette-dialog.html#gimp-palette-editor-zoom-in" title="(വലുതാക്കുക)" parent="gimp-palette-editor-menu" sort="3.5.5.0.8"/>
+  <help-item id="gimp-palette-editor-zoom-all" ref="gimp-palette-dialog.html#gimp-palette-editor-zoom-all" title="(സൂം എല്ലാ)" parent="gimp-palette-editor-menu" sort="3.5.5.0.9"/>
+  <help-item id="gimp-palette-editor-active" ref="gimp-palette-dialog.html#gimp-palette-editor-active" title="(സജീവ പാലറ്റ് എഡിറ്റുചെയ്യുക)" parent="gimp-palette-editor-menu" sort="3.5.5.0.10"/>
+  <help-item id="gimp-tagging" ref="gimp-tagging.html" title="3.6. ടാഗ്ചെയ്യൽ" parent="gimp-dialogs-content" sort="3.6"/>
+  <help-item id="gimp-font-dialog" ref="gimp-font-dialog.html" title="3.7. ഫോണ്ടുകൾ സംഭാഷണം" parent="gimp-dialogs-content" sort="3.7"/>
+  <help-item id="gimp-font-dialog-activate" ref="gimp-font-dialog.html#gimp-font-dialog-activate" title="3.7.1. ഡയലോഗ് സജീവമാക്കുന്നു" parent="gimp-font-dialog" sort="3.7.1"/>
+  <help-item id="gimp-font-dialog-using" ref="gimp-font-dialog.html#gimp-font-dialog-using" title="3.7.2. ഫോണ്ടുകൾ ഡയലോഗ് ഉപയോഗിച്ച്" parent="gimp-font-dialog" sort="3.7.2"/>
+  <help-item id="gimp-font-refresh" ref="gimp-font-dialog.html#gimp-font-refresh" title="(ഫോണ്ട് ലിസ്റ്റ് പുതുക്കുക)" parent="gimp-font-dialog-using" sort="3.7.2.0.4"/>
+  <help-item id="gimp-dialogs-management" ref="gimp-dialogs-management.html" title="4. ചിത്രം മാനേജ്മെന്റ് ബന്ധപ്പെട്ട ഡയലോഗുകൾ" parent="dialogs" sort="4"/>
+  <help-item id="gimp-buffer-dialog" ref="gimp-dialogs-management.html#gimp-buffer-dialog" title="4.1. ബഫറുകൾ സംഭാഷണം" parent="gimp-dialogs-management" sort="4.1"/>
+  <help-item id="gimp-buffer-dialog-activate" ref="gimp-dialogs-management.html#gimp-buffer-dialog-activate" title="4.1.1. ഡയലോഗ് സജീവമാക്കുന്നു" parent="gimp-buffer-dialog" sort="4.1.1"/>
+  <help-item id="gimp-buffer-dialog-using" ref="gimp-dialogs-management.html#gimp-buffer-dialog-using" title="4.1.2. ബഫറുകൾ ഡയലോഗ് ഉപയോഗിച്ച്" parent="gimp-buffer-dialog" sort="4.1.2"/>
+  <help-item id="gimp-buffer-dialog-buttons" ref="gimp-dialogs-management.html#gimp-buffer-dialog-buttons" title="4.1.2.1. ചുവടെയുള്ള ബട്ടണുകൾ" parent="gimp-buffer-dialog-using" sort="4.1.2.1"/>
+  <help-item id="gimp-buffer-paste" ref="gimp-dialogs-management.html#gimp-buffer-paste" title="FIXME TITLE: gimp-buffer-paste" parent="gimp-buffer-dialog-buttons" sort="4.1.2.1.0.3"/>
+  <help-item id="gimp-buffer-paste-into" ref="gimp-dialogs-management.html#gimp-buffer-paste-into" title="FIXME TITLE: gimp-buffer-paste-into" parent="gimp-buffer-dialog-buttons" sort="4.1.2.1.0.4"/>
+  <help-item id="gimp-buffer-paste-as-new" ref="gimp-dialogs-management.html#gimp-buffer-paste-as-new" title="FIXME TITLE: gimp-buffer-paste-as-new" parent="gimp-buffer-dialog-buttons" sort="4.1.2.1.0.5"/>
+  <help-item id="gimp-buffer-delete" ref="gimp-dialogs-management.html#gimp-buffer-delete" title="FIXME TITLE: gimp-buffer-delete" parent="gimp-buffer-dialog-buttons" sort="4.1.2.1.0.6"/>
+  <help-item id="gimp-buffer-dialog-menu" ref="gimp-dialogs-management.html#gimp-buffer-dialog-menu" title="4.1.2.2. സന്ദർഭ മെനു" parent="gimp-buffer-dialog-using" sort="4.1.2.2"/>
+  <help-item id="gimp-image-dialog" ref="gimp-image-dialog.html" title="4.2. ചിത്രങ്ങൾ സംഭാഷണം" parent="gimp-dialogs-management" sort="4.2"/>
+  <help-item id="gimp-document-dialog" ref="gimp-document-dialog.html" title="4.3. പ്രമാണ ചരിത്രം സംഭാഷണം" parent="gimp-dialogs-management" sort="4.3"/>
+  <help-item id="gimp-template-dialog" ref="gimp-template-dialog.html" title="4.4. ടെംപ്ലേറ്റുകൾ സംഭാഷണം" parent="gimp-dialogs-management" sort="4.4"/>
+  <help-item id="edit-template-dialog" ref="gimp-template-dialog.html#edit-template-dialog" title="4.4.3. ഫലകം എഡിറ്റ്" parent="gimp-template-dialog" sort="4.4.3"/>
+  <help-item id="gimp-dialogs-misc" ref="gimp-dialogs-misc.html" title="5. പലവക. ഡയലോഗുകൾ" parent="dialogs" sort="5"/>
+  <help-item id="gimp-presets-dialog" ref="gimp-dialogs-misc.html#gimp-presets-dialog" title="5.1. ടൂൾ പ്രീസെറ്റുകളിൽ സംഭാഷണം" parent="gimp-dialogs-misc" sort="5.1"/>
+  <help-item id="tool-preset-editor" ref="tool-preset-editor.html" title="5.2. ടൂൾ പ്രീസെറ്റ് എഡിറ്റർ" parent="gimp-dialogs-misc" sort="5.2"/>
+  <help-item id="gimp-device-status-dialog" ref="gimp-device-status-dialog.html" title="5.3. ഉപകരണ നില ഡയലോഗ്" parent="gimp-dialogs-misc" sort="5.3"/>
+  <help-item id="gimp-errors-dialog" ref="gimp-errors-dialog.html" title="5.4. പിശക് കൺസോൾ" parent="gimp-dialogs-misc" sort="5.4"/>
+  <help-item id="gimp-save-dialog" ref="gimp-save-dialog.html" title="5.5. ഫയൽ സംരക്ഷിക്കുക" parent="gimp-dialogs-misc" sort="5.5"/>
+  <help-item id="gimp-export-dialog" ref="gimp-export-dialog.html" title="5.6. കയറ്റുമതി ഫയൽ" parent="gimp-dialogs-misc" sort="5.6"/>
+  <help-item id="exporting-image" ref="gimp-export-dialog.html#exporting-image" title="5.6.2. എക്സ്പോർട്ടുചെയ്യുന്നു" parent="gimp-export-dialog" sort="5.6.2"/>
+  <help-item id="gimp-sample-point-dialog" ref="gimp-sample-point-dialog.html" title="5.7. സാമ്പിൾ പോയിന്റുകൾ സംഭാഷണം" parent="gimp-dialogs-misc" sort="5.7"/>
+  <help-item id="gimp-pointer-info-dialog" ref="gimp-pointer-info-dialog.html" title="5.8. Pointer Dialog" parent="gimp-dialogs-misc" sort="5.8"/>
+  <help-item id="menus" ref="menus.html" title="16. വിഭവസൂചികകള്" parent="gimp-function-reference" sort="16"/>
+  <help-item id="gimp-menus-introduction" ref="menus.html#gimp-menus-introduction" title="1. സിനിമചെയ്യേണ്ട ആമുഖം" parent="menus" sort="1"/>
+  <help-item id="context-menus" ref="menus.html#context-menus" title="1.2. സന്ദർഭ മെനുകൾ" parent="gimp-menus-introduction" sort="1.2"/>
+  <help-item id="tear-off-menus" ref="menus.html#tear-off-menus" title="1.3. മുറിച്ചെടുക്കാവുന്ന മെനുകൾ" parent="gimp-menus-introduction" sort="1.3"/>
+  <help-item id="tab-menus" ref="menus.html#tab-menus" title="1.4. ടാബ് മെനുകൾ" parent="gimp-menus-introduction" sort="1.4"/>
+  <help-item id="gimp-file-menu" ref="gimp-file-menu.html" title="2. “File” മെനു" parent="menus" sort="2"/>
+  <help-item id="gimp-file-introduction" ref="gimp-file-menu.html#gimp-file-introduction" title="2.1. പൊതു അവലോകനം" parent="gimp-file-menu" sort="2.1"/>
+  <help-item id="gimp-file-new" ref="gimp-file-new.html" title="2.2. പുതിയ" parent="gimp-file-menu" sort="2.2"/>
+  <help-item id="gimp-file-create" ref="gimp-file-create.html" title="2.3. സൃഷ്ടിക്കാൻ" parent="gimp-file-menu" sort="2.3"/>
+  <help-item id="gimp-file-create-clipboard" ref="gimp-file-create.html#gimp-file-create-clipboard" title="2.3.2. ക്ലിപ്ബോർഡ് നിന്നും" parent="gimp-file-create" sort="2.3.2"/>
+  <help-item id="plug-in-screenshot" ref="gimp-file-create.html#plug-in-screenshot" title="2.3.4. സ്ക്രീൻഷോട്ട്" parent="gimp-file-create" sort="2.3.4"/>
+  <help-item id="gimp-file-open" ref="gimp-file-open.html" title="2.4. തുറക്കുക" parent="gimp-file-menu" sort="2.4"/>
+  <help-item id="gimp-file-open-as-layer" ref="gimp-file-open-as-layer.html" title="2.5. Open as Layers" parent="gimp-file-menu" sort="2.5"/>
+  <help-item id="gimp-file-open-location" ref="gimp-file-open-location.html" title="2.6. സ്ഥാനം തുറക്കുക" parent="gimp-file-menu" sort="2.6"/>
+  <help-item id="gimp-file-open-recent" ref="gimp-file-open-recent.html" title="2.7. Open Recent" parent="gimp-file-menu" sort="2.7"/>
+  <help-item id="gimp-file-save" ref="gimp-file-save.html" title="2.8. രക്ഷിക്കും" parent="gimp-file-menu" sort="2.8"/>
+  <help-item id="gimp-file-save-by-extension" ref="gimp-file-save.html#gimp-file-save-by-extension" title="(വിഭാഗം 2.8, “രക്ഷിക്കും”)" parent="gimp-file-save" sort="2.8.0.3"/>
+  <help-item id="gimp-file-save-overwrite" ref="gimp-file-save.html#gimp-file-save-overwrite" title="(വിഭാഗം 2.8, “രക്ഷിക്കും”)" parent="gimp-file-save" sort="2.8.0.4"/>
+  <help-item id="gimp-file-save-as" ref="gimp-file-save-as.html" title="2.9. Save as" parent="gimp-file-menu" sort="2.9"/>
+  <help-item id="gimp-file-save-a-copy" ref="gimp-file-save-a-copy.html" title="2.10. Save a Copy" parent="gimp-file-menu" sort="2.10"/>
+  <help-item id="gimp-file-revert" ref="gimp-file-revert.html" title="2.11. തിരിച്ചയയ്ക്കുക" parent="gimp-file-menu" sort="2.11"/>
+  <help-item id="gimp-file-export-to" ref="gimp-file-export-to.html" title="2.12. Export" parent="gimp-file-menu" sort="2.12"/>
+  <help-item id="gimp-file-export" ref="gimp-file-export.html" title="2.13. Export As..." parent="gimp-file-menu" sort="2.13"/>
+  <help-item id="gimp-file-create-template" ref="gimp-file-create-template.html" title="2.14. Create Template" parent="gimp-file-menu" sort="2.14"/>
+  <help-item id="file-print-gtk" ref="file-print-gtk.html" title="2.15. Print" parent="gimp-file-menu" sort="2.15"/>
+  <help-item id="gimp-file-close" ref="gimp-file-close.html" title="2.16. Close" parent="gimp-file-menu" sort="2.16"/>
+  <help-item id="gimp-file-close-confirm" ref="gimp-file-close.html#gimp-file-close-confirm" title="(വിഭാഗം 2.16, “Close”)" parent="gimp-file-close" sort="2.16.0.3"/>
+  <help-item id="gimp-file-close-all" ref="gimp-file-close-all.html" title="2.17. Close all" parent="gimp-file-menu" sort="2.17"/>
+  <help-item id="gimp-file-quit" ref="gimp-file-quit.html" title="2.18. Quit" parent="gimp-file-menu" sort="2.18"/>
+  <help-item id="gimp-file-quit-confirm" ref="gimp-file-quit.html#gimp-file-quit-confirm" title="(വിഭാഗം 2.18, “Quit”)" parent="gimp-file-quit" sort="2.18.0.3"/>
+  <help-item id="gimp-edit-menu" ref="gimp-edit-menu.html" title="3. “Edit” മെനു" parent="menus" sort="3"/>
+  <help-item id="gimp-edit-introduction" ref="gimp-edit-menu.html#gimp-edit-introduction" title="3.1. “Edit” മെനു എൻട്രികൾ" parent="gimp-edit-menu" sort="3.1"/>
+  <help-item id="gimp-edit-undo" ref="gimp-edit-undo.html" title="3.2. പഴയപടിയാക്കുക" parent="gimp-edit-menu" sort="3.2"/>
+  <help-item id="gimp-edit-redo" ref="gimp-edit-redo.html" title="3.3. തയ്യാറായ" parent="gimp-edit-menu" sort="3.3"/>
+  <help-item id="gimp-edit-fade" ref="gimp-edit-fade.html" title="3.4. മങ്ങുക" parent="gimp-edit-menu" sort="3.4"/>
+  <help-item id="gimp-edit-undo-history" ref="gimp-edit-undo-history.html" title="3.5. മുമ്പ്ചെയ്തതു്തിരിച്ചു്ചെയ്യുക" parent="gimp-edit-menu" sort="3.5"/>
+  <help-item id="gimp-edit-cut" ref="gimp-edit-cut.html" title="3.6. മുറിക്കുക" parent="gimp-edit-menu" sort="3.6"/>
+  <help-item id="gimp-edit-copy" ref="gimp-edit-copy.html" title="3.7. പകര്പ്പ്" parent="gimp-edit-menu" sort="3.7"/>
+  <help-item id="gimp-edit-copy-visible" ref="gimp-edit-copy-visible.html" title="3.8. ദൃശ്യം പകർത്തുക" parent="gimp-edit-menu" sort="3.8"/>
+  <help-item id="gimp-edit-paste" ref="gimp-edit-paste.html" title="3.9. പേസ്റ്റ്" parent="gimp-edit-menu" sort="3.9"/>
+  <help-item id="gimp-edit-paste-into" ref="gimp-edit-paste-into.html" title="3.10. ഒട്ടിക്കുക" parent="gimp-edit-menu" sort="3.10"/>
+  <help-item id="gimp-edit-paste-as" ref="gimp-edit-paste-as.html" title="3.11. ഒട്ടിക്കുക" parent="gimp-edit-menu" sort="3.11"/>
+  <help-item id="gimp-edit-paste-as-new" ref="gimp-edit-paste-as.html#gimp-edit-paste-as-new" title="3.11.1. പുതിയ ഇമേജ് ഒട്ടിക്കുക" parent="gimp-edit-paste-as" sort="3.11.1"/>
+  <help-item id="gimp-edit-paste-as-new-layer" ref="gimp-edit-paste-as.html#gimp-edit-paste-as-new-layer" title="3.11.2. പുതിയ ലെയർ ഒട്ടിക്കുക" parent="gimp-edit-paste-as" sort="3.11.2"/>
+  <help-item id="script-fu-paste-as-brush" ref="gimp-edit-paste-as.html#script-fu-paste-as-brush" title="3.11.3. ന്യൂ ബ്രഷ് ഒട്ടിക്കുക" parent="gimp-edit-paste-as" sort="3.11.3"/>
+  <help-item id="script-fu-paste-as-pattern" ref="gimp-edit-paste-as.html#script-fu-paste-as-pattern" title="3.11.4. പുതിയ മാതൃക ഒട്ടിക്കുക" parent="gimp-edit-paste-as" sort="3.11.4"/>
+  <help-item id="gimp-edit-buffer-dialog" ref="gimp-edit-buffer-dialog.html" title="3.12. ബഫർ" parent="gimp-edit-menu" sort="3.12"/>
+  <help-item id="gimp-edit-clear" ref="gimp-edit-clear.html" title="3.13. തെളിഞ്ഞ" parent="gimp-edit-menu" sort="3.13"/>
+  <help-item id="gimp-edit-fill-fg" ref="gimp-edit-fill-fg.html" title="3.14. FG വർണ്ണ നിറക്കുക" parent="gimp-edit-menu" sort="3.14"/>
+  <help-item id="gimp-edit-fill-bg" ref="gimp-edit-fill-bg.html" title="3.15. ബി.ജി. വർണ്ണ നിറക്കുക" parent="gimp-edit-menu" sort="3.15"/>
+  <help-item id="gimp-edit-fill-pattern" ref="gimp-edit-fill-pattern.html" title="3.16. ശ്രേണി നിറക്കുക" parent="gimp-edit-menu" sort="3.16"/>
+  <help-item id="gimp-selection-stroke" ref="gimp-selection-stroke.html" title="3.17. സ്ട്രോക്ക് തിരഞ്ഞെടുക്കൽ" parent="gimp-edit-menu" sort="3.17"/>
+  <help-item id="gimp-path-stroke" ref="gimp-path-stroke.html" title="3.18. സ്ട്രോക്ക് പാത" parent="gimp-edit-menu" sort="3.18"/>
+  <help-item id="gimp-file-preferences" ref="gimp-file-preferences.html" title="3.19. “Preferences” കമാൻഡ്" parent="gimp-edit-menu" sort="3.19"/>
+  <help-item id="gimp-help-keyboard-shortcuts" ref="gimp-help-keyboard-shortcuts.html" title="3.20. കീബോർഡ് കുറുക്കുവഴികൾ" parent="gimp-edit-menu" sort="3.20"/>
+  <help-item id="gimp-module-dialog" ref="gimp-module-dialog.html" title="3.21. മൊഡ്യൂളുകൾ" parent="gimp-edit-menu" sort="3.21"/>
+  <help-item id="plug-in-unit-editor" ref="plug-in-unit-editor.html" title="3.22. യൂണിറ്റുകൾ" parent="gimp-edit-menu" sort="3.22"/>
+  <help-item id="gimp-select-menu" ref="gimp-select-menu.html" title="4. “Select” മെനു" parent="menus" sort="4"/>
+  <help-item id="gimp-selection-all" ref="gimp-selection-all.html" title="4.2. എല്ലാം തിരഞ്ഞെടുക്കുക" parent="gimp-select-menu" sort="4.2"/>
+  <help-item id="gimp-selection-none" ref="gimp-selection-none.html" title="4.3. ഒന്നുമില്ല" parent="gimp-select-menu" sort="4.3"/>
+  <help-item id="gimp-selection-invert" ref="gimp-selection-invert.html" title="4.4. വിപരീതം" parent="gimp-select-menu" sort="4.4"/>
+  <help-item id="gimp-selection-float" ref="gimp-selection-float.html" title="4.5. Float" parent="gimp-select-menu" sort="4.5"/>
+  <help-item id="gimp-selection-by_color" ref="gimp-selection-by_color.html" title="4.6. By Color" parent="gimp-select-menu" sort="4.6"/>
+  <help-item id="gimp-path-selection-replace" ref="gimp-path-selection-replace.html" title="4.7. From Path" parent="gimp-select-menu" sort="4.7"/>
+  <help-item id="gimp-selection-from-path" ref="gimp-path-selection-replace.html#gimp-selection-from-path" title="(വിഭാഗം 4.7, “From Path”)" parent="gimp-path-selection-replace" sort="4.7.0.3"/>
+  <help-item id="gimp-selection-dialog" ref="gimp-selection-dialog.html" title="4.8. തിരഞ്ഞെടുക്കൽ എഡിറ്റർ" parent="gimp-select-menu" sort="4.8"/>
+  <help-item id="advanced-settings-for-selection-to-path" ref="gimp-selection-dialog.html#advanced-settings-for-selection-to-path" title="4.8.3. The “Selection to Path Advanced Settings” dialog" parent="gimp-selection-dialog" sort="4.8.3"/>
+  <help-item id="gimp-selection-feather" ref="gimp-selection-feather.html" title="4.9. തൂവല്" parent="gimp-select-menu" sort="4.9"/>
+  <help-item id="gimp-selection-sharpen" ref="gimp-selection-sharpen.html" title="4.10. മൂര്ച്ചവരുത്തുക" parent="gimp-select-menu" sort="4.10"/>
+  <help-item id="gimp-selection-shrink" ref="gimp-selection-shrink.html" title="4.11. Shrink" parent="gimp-select-menu" sort="4.11"/>
+  <help-item id="gimp-selection-grow" ref="gimp-selection-grow.html" title="4.12. Grow" parent="gimp-select-menu" sort="4.12"/>
+  <help-item id="gimp-selection-border" ref="gimp-selection-border.html" title="4.13. അതിർത്തി" parent="gimp-select-menu" sort="4.13"/>
+  <help-item id="script-fu-distress-selection" ref="script-fu-distress-selection.html" title="4.14. Distort" parent="gimp-select-menu" sort="4.14"/>
+  <help-item id="script-fu-selection-rounded-rectangle" ref="script-fu-selection-rounded-rectangle.html" title="4.15. Rounded Rectangle" parent="gimp-select-menu" sort="4.15"/>
+  <help-item id="gimp-quick-mask-toggle" ref="gimp-quick-mask-toggle.html" title="4.16. Toggle QuickMask" parent="gimp-select-menu" sort="4.16"/>
+  <help-item id="gimp-selection-to-channel" ref="gimp-selection-to-channel.html" title="4.17. Save to Channel" parent="gimp-select-menu" sort="4.17"/>
+  <help-item id="gimp-selection-to-path" ref="gimp-selection-to-path.html" title="4.18. To Path" parent="gimp-select-menu" sort="4.18"/>
+  <help-item id="gimp-view-menu" ref="gimp-view-menu.html" title="5. “View” മെനു" parent="menus" sort="5"/>
+  <help-item id="gimp-view-introduction" ref="gimp-view-menu.html#gimp-view-introduction" title="5.1. Introduction to the “View” Menu" parent="gimp-view-menu" sort="5.1"/>
+  <help-item id="gimp-view-new" ref="gimp-view-new.html" title="5.2. New View" parent="gimp-view-menu" sort="5.2"/>
+  <help-item id="gimp-view-dot-for-dot" ref="gimp-view-dot-for-dot.html" title="5.3. Dot for Dot" parent="gimp-view-menu" sort="5.3"/>
+  <help-item id="gimp-view-zoom" ref="gimp-view-zoom.html" title="5.4. സൂം" parent="gimp-view-menu" sort="5.4"/>
+  <help-item id="gimp-view-zoom-revert" ref="gimp-view-zoom.html#gimp-view-zoom-revert" title="FIXME TITLE: gimp-view-zoom-revert" parent="gimp-view-zoom" sort="5.4.2.0.3"/>
+  <help-item id="gimp-view-zoom-out" ref="gimp-view-zoom.html#gimp-view-zoom-out" title="FIXME TITLE: gimp-view-zoom-out" parent="gimp-view-zoom" sort="5.4.2.0.4"/>
+  <help-item id="gimp-view-zoom-in" ref="gimp-view-zoom.html#gimp-view-zoom-in" title="FIXME TITLE: gimp-view-zoom-in" parent="gimp-view-zoom" sort="5.4.2.0.5"/>
+  <help-item id="gimp-view-zoom-fit-in" ref="gimp-view-zoom.html#gimp-view-zoom-fit-in" title="(Fit Image in Window)" parent="gimp-view-zoom" sort="5.4.2.0.6"/>
+  <help-item id="gimp-view-zoom-fill" ref="gimp-view-zoom.html#gimp-view-zoom-fill" title="(Fit Image to Window)" parent="gimp-view-zoom" sort="5.4.2.0.7"/>
+  <help-item id="gimp-view-zoom-100" ref="gimp-view-zoom.html#gimp-view-zoom-100" title="FIXME TITLE: gimp-view-zoom-100" parent="gimp-view-zoom" sort="5.4.2.0.8"/>
+  <help-item id="gimp-view-zoom-other" ref="gimp-view-zoom.html#gimp-view-zoom-other" title="FIXME TITLE: gimp-view-zoom-other" parent="gimp-view-zoom" sort="5.4.2.0.9"/>
+  <help-item id="gimp-view-shrink-wrap" ref="gimp-view-shrink-wrap.html" title="5.5. Shrink Wrap" parent="gimp-view-menu" sort="5.5"/>
+  <help-item id="gimp-view-fullscreen" ref="gimp-view-fullscreen.html" title="5.6. Full Screen" parent="gimp-view-menu" sort="5.6"/>
+  <help-item id="gimp-view-navigation" ref="gimp-view-navigation.html" title="5.7. Navigation Window" parent="gimp-view-menu" sort="5.7"/>
+  <help-item id="gimp-display-filter-dialog" ref="gimp-display-filter-dialog.html" title="5.8. Display Filters" parent="gimp-view-menu" sort="5.8"/>
+  <help-item id="gimp-deficient-vision" ref="gimp-display-filter-dialog.html#gimp-deficient-vision" title="5.8.3. കളർ പകുതിയിലേറെ വിഷൻ" parent="gimp-display-filter-dialog" sort="5.8.3"/>
+  <help-item id="gimp-gamma-dialog" ref="gimp-display-filter-dialog.html#gimp-gamma-dialog" title="5.8.4. ഗാമാ" parent="gimp-display-filter-dialog" sort="5.8.4"/>
+  <help-item id="gimp-contrast-dialog" ref="gimp-display-filter-dialog.html#gimp-contrast-dialog" title="5.8.5. അന്തരം" parent="gimp-display-filter-dialog" sort="5.8.5"/>
+  <help-item id="gimp-display-filter-color-management" ref="gimp-display-filter-dialog.html#gimp-display-filter-color-management" title="5.8.6. വർണ്ണ മാനേജ്മെന്റ്" parent="gimp-display-filter-dialog" sort="5.8.6"/>
+  <help-item id="gimp-color-proof" ref="gimp-display-filter-dialog.html#gimp-color-proof" title="5.8.7. വർണ്ണ രേഖകൾ" parent="gimp-display-filter-dialog" sort="5.8.7"/>
+  <help-item id="gimp-view-show-selection" ref="gimp-view-show-selection.html" title="5.9. Show Selection" parent="gimp-view-menu" sort="5.9"/>
+  <help-item id="gimp-view-show-layer-boundary" ref="gimp-view-show-layer-boundary.html" title="5.10. Show Layer Boundary" parent="gimp-view-menu" sort="5.10"/>
+  <help-item id="gimp-view-show-guides" ref="gimp-view-show-guides.html" title="5.11. Show Guides" parent="gimp-view-menu" sort="5.11"/>
+  <help-item id="gimp-view-show-grid" ref="gimp-view-show-grid.html" title="5.12. Show Grid" parent="gimp-view-menu" sort="5.12"/>
+  <help-item id="gimp-view-show-sample-points" ref="gimp-view-show-sample-points.html" title="5.13. Show Sample Points" parent="gimp-view-menu" sort="5.13"/>
+  <help-item id="gimp-view-snap-to-guides" ref="gimp-view-snap-to-guides.html" title="5.14. Snap to Guides" parent="gimp-view-menu" sort="5.14"/>
+  <help-item id="gimp-view-snap-to-grid" ref="gimp-view-snap-to-grid.html" title="5.15. Snap to Grid" parent="gimp-view-menu" sort="5.15"/>
+  <help-item id="gimp-view-snap-to-canvas" ref="gimp-view-snap-to-canvas.html" title="5.16. Snap to Canvas" parent="gimp-view-menu" sort="5.16"/>
+  <help-item id="gimp-view-snap-to-vectors" ref="gimp-view-snap-to-vectors.html" title="5.17. Snap to Active Path" parent="gimp-view-menu" sort="5.17"/>
+  <help-item id="gimp-view-padding-color" ref="gimp-view-padding-color.html" title="5.18. Padding Color" parent="gimp-view-menu" sort="5.18"/>
+  <help-item id="gimp-view-show-menubar" ref="gimp-view-show-menubar.html" title="5.19. Show Menubar" parent="gimp-view-menu" sort="5.19"/>
+  <help-item id="gimp-view-show-rulers" ref="gimp-view-show-rulers.html" title="5.20. Show Rulers" parent="gimp-view-menu" sort="5.20"/>
+  <help-item id="gimp-view-show-scrollbars" ref="gimp-view-show-scrollbars.html" title="5.21. Show Scrollbars" parent="gimp-view-menu" sort="5.21"/>
+  <help-item id="gimp-view-show-statusbar" ref="gimp-view-show-statusbar.html" title="5.22. Show Statusbar" parent="gimp-view-menu" sort="5.22"/>
+  <help-item id="gimp-image-menu" ref="gimp-image-menu.html" title="6. “Image” മെനു" parent="menus" sort="6"/>
+  <help-item id="gimp-image-menu-overview" ref="gimp-image-menu.html#gimp-image-menu-overview" title="6.1. പൊതു അവലോകനം" parent="gimp-image-menu" sort="6.1"/>
+  <help-item id="gimp-image-duplicate" ref="gimp-image-duplicate.html" title="6.2. Duplicate" parent="gimp-image-menu" sort="6.2"/>
+  <help-item id="gimp-image-mode" ref="gimp-image-mode.html" title="6.3. മോഡ്" parent="gimp-image-menu" sort="6.3"/>
+  <help-item id="gimp-image-convert-rgb" ref="gimp-image-convert-rgb.html" title="6.4. RGB mode" parent="gimp-image-menu" sort="6.4"/>
+  <help-item id="gimp-image-convert-grayscale" ref="gimp-image-convert-grayscale.html" title="6.5. Grayscale mode" parent="gimp-image-menu" sort="6.5"/>
+  <help-item id="gimp-image-convert-indexed" ref="gimp-image-convert-indexed.html" title="6.6. Indexed mode" parent="gimp-image-menu" sort="6.6"/>
+  <help-item id="gimp-image-transform" ref="gimp-image-transform.html" title="6.7. Transform" parent="gimp-image-menu" sort="6.7"/>
+  <help-item id="gimp-image-flip-horizontal" ref="gimp-image-flip-horizontal.html" title="6.8. Flip Horizontally; Flip Vertically" parent="gimp-image-menu" sort="6.8"/>
+  <help-item id="gimp-image-flip-vertical" ref="gimp-image-flip-horizontal.html#gimp-image-flip-vertical" title="(വിഭാഗം 6.8, “Flip Horizontally; Flip Vertically”)" parent="gimp-image-flip-horizontal" sort="6.8.0.3"/>
+  <help-item id="gimp-image-rotate-90" ref="gimp-image-rotate-90.html" title="6.9. റൊട്ടേഷൻ" parent="gimp-image-menu" sort="6.9"/>
+  <help-item id="gimp-image-rotate-180" ref="gimp-image-rotate-90.html#gimp-image-rotate-180" title="(വിഭാഗം 6.9, “റൊട്ടേഷൻ”)" parent="gimp-image-rotate-90" sort="6.9.0.3"/>
+  <help-item id="gimp-image-rotate-270" ref="gimp-image-rotate-90.html#gimp-image-rotate-270" title="(വിഭാഗം 6.9, “റൊട്ടേഷൻ”)" parent="gimp-image-rotate-90" sort="6.9.0.4"/>
+  <help-item id="plug-in-guillotine" ref="plug-in-guillotine.html" title="6.10. ഗില്ലറ്റിൻ" parent="gimp-image-menu" sort="6.10"/>
+  <help-item id="gimp-image-resize" ref="gimp-image-resize.html" title="6.11. കാൻവാസ് വലിപ്പം" parent="gimp-image-menu" sort="6.11"/>
+  <help-item id="gimp-image-resize-to-layers" ref="gimp-image-resize-to-layers.html" title="6.12. Fit Canvas to Layers" parent="gimp-image-menu" sort="6.12"/>
+  <help-item id="gimp-image-resize-to-selection" ref="gimp-image-resize-to-selection.html" title="6.13. Fit Canvas to Selection" parent="gimp-image-menu" sort="6.13"/>
+  <help-item id="gimp-image-print-size" ref="gimp-image-print-size.html" title="6.14. പ്രിന്റ് വലിപ്പം" parent="gimp-image-menu" sort="6.14"/>
+  <help-item id="gimp-image-scale" ref="gimp-image-scale.html" title="6.15. സ്കെയിൽ ചിത്രം" parent="gimp-image-menu" sort="6.15"/>
+  <help-item id="gimp-image-scale-warning" ref="gimp-image-scale.html#gimp-image-scale-warning" title="(വിഭാഗം 6.15, “സ്കെയിൽ ചിത്രം”)" parent="gimp-image-scale" sort="6.15.0.3"/>
+  <help-item id="gimp-image-crop" ref="gimp-image-crop.html" title="6.16. Crop to Selection" parent="gimp-image-menu" sort="6.16"/>
+  <help-item id="plug-in-autocrop" ref="plug-in-autocrop.html" title="6.17. Autocrop Image" parent="gimp-image-menu" sort="6.17"/>
+  <help-item id="plug-in-zealouscrop" ref="plug-in-zealouscrop.html" title="6.18. Zealous Crop" parent="gimp-image-menu" sort="6.18"/>
+  <help-item id="gimp-image-merge-layers" ref="gimp-image-merge-layers.html" title="6.19. ദൃശ്യം ലെയറുകൾ ലയിപ്പിക്കുക" parent="gimp-image-menu" sort="6.19"/>
+  <help-item id="gimp-image-flatten" ref="gimp-image-flatten.html" title="6.20. ചിത്രം പരത്തുക" parent="gimp-image-menu" sort="6.20"/>
+  <help-item id="plug-in-align-layers" ref="plug-in-align-layers.html" title="6.21. ദൃശ്യം ലെയറുകൾ വിന്യസിക്കുക" parent="gimp-image-menu" sort="6.21"/>
+  <help-item id="gimp-image-guides" ref="gimp-image-guides.html" title="6.22. വഴികാട്ടി" parent="gimp-image-menu" sort="6.22"/>
+  <help-item id="script-fu-guide-new" ref="script-fu-guide-new.html" title="6.23. New Guide" parent="gimp-image-menu" sort="6.23"/>
+  <help-item id="script-fu-guide-new-percent" ref="script-fu-guide-new-percent.html" title="6.24. New Guide (by Percent)" parent="gimp-image-menu" sort="6.24"/>
+  <help-item id="script-fu-guides-from-selection" ref="script-fu-guides-from-selection.html" title="6.25. New Guides from Selection" parent="gimp-image-menu" sort="6.25"/>
+  <help-item id="script-fu-guides-remove" ref="script-fu-guides-remove.html" title="6.26. Remove all guides" parent="gimp-image-menu" sort="6.26"/>
+  <help-item id="gimp-image-configure-grid" ref="gimp-image-configure-grid.html" title="6.27. ഗ്രിഡ് ക്രമീകരിക്കുക" parent="gimp-image-menu" sort="6.27"/>
+  <help-item id="gimp-configure-grid-dialog" ref="gimp-image-configure-grid.html#gimp-configure-grid-dialog" title="(വിഭാഗം 6.27, “ഗ്രിഡ് ക്രമീകരിക്കുക”)" parent="gimp-image-configure-grid" sort="6.27.0.3"/>
+  <help-item id="gimp-image-properties" ref="gimp-image-properties.html" title="6.28. ചിത്രം പ്രോപ്പർട്ടീസ്" parent="gimp-image-menu" sort="6.28"/>
+  <help-item id="gimp-layer-menu" ref="gimp-layer-menu.html" title="7. “Layer” മെനു" parent="menus" sort="7"/>
+  <help-item id="gimp-layer-introduction" ref="gimp-layer-menu.html#gimp-layer-introduction" title="7.1. Introduction to the “Layer” Menu" parent="gimp-layer-menu" sort="7.1"/>
+  <help-item id="gimp-layer-new" ref="gimp-layer-new.html" title="7.2. പുതിയ ലെയർ" parent="gimp-layer-menu" sort="7.2"/>
+  <help-item id="gimp-new-layer-dialog" ref="gimp-layer-new.html#gimp-new-layer-dialog" title="7.2.2. Description of the “New Layer” Dialog" parent="gimp-layer-new" sort="7.2.2"/>
+  <help-item id="gimp-layer-new-layer-group" ref="gimp-layer-new-layer-group.html" title="7.3. New Layer Group" parent="gimp-layer-menu" sort="7.3"/>
+  <help-item id="gimp-layer-new-from-visible" ref="gimp-layer-new-from-visible.html" title="7.4. New From Visible" parent="gimp-layer-menu" sort="7.4"/>
+  <help-item id="gimp-layer-duplicate" ref="gimp-layer-duplicate.html" title="7.5. പാളി ഡ്യൂപ്ലിക്കേറ്റ്" parent="gimp-layer-menu" sort="7.5"/>
+  <help-item id="gimp-layer-anchor" ref="gimp-layer-anchor.html" title="7.6. Anchor layer" parent="gimp-layer-menu" sort="7.6"/>
+  <help-item id="gimp-layer-merge-down" ref="gimp-layer-merge-down.html" title="7.7. Merge Down" parent="gimp-layer-menu" sort="7.7"/>
+  <help-item id="gimp-layer-delete" ref="gimp-layer-delete.html" title="7.8. Delete Layer" parent="gimp-layer-menu" sort="7.8"/>
+  <help-item id="gimp-layer-text-commands" ref="gimp-layer-text-commands.html" title="7.9. ലെയർ മെനു എഴുത്തുകൾ കമാൻഡുകൾ" parent="gimp-layer-menu" sort="7.9"/>
+  <help-item id="gimp-layer-text-along-path" ref="gimp-layer-text-commands.html#gimp-layer-text-along-path" title="(Text along Path)" parent="gimp-layer-text-commands" sort="7.9.1.0.3"/>
+  <help-item id="gimp-layer-text-selection-replace" ref="gimp-layer-text-commands.html#gimp-layer-text-selection-replace" title="(Text to Selection)" parent="gimp-layer-text-commands" sort="7.9.1.0.4"/>
+  <help-item id="gimp-layer-text-selection-add" ref="gimp-layer-text-commands.html#gimp-layer-text-selection-add" title="(Add to Selection)" parent="gimp-layer-text-commands" sort="7.9.1.0.5"/>
+  <help-item id="gimp-layer-text-selection-subtract" ref="gimp-layer-text-commands.html#gimp-layer-text-selection-subtract" title="(Subtract from Selection)" parent="gimp-layer-text-commands" sort="7.9.1.0.6"/>
+  <help-item id="gimp-layer-text-selection-intersect" ref="gimp-layer-text-commands.html#gimp-layer-text-selection-intersect" title="(Intersect with Selection)" parent="gimp-layer-text-commands" sort="7.9.1.0.7"/>
+  <help-item id="gimp-layer-text-discard" ref="gimp-layer-text-discard.html" title="7.10. ടെക്സ്റ്റ് വിവരം നിരസിക്കുക" parent="gimp-layer-menu" sort="7.10"/>
+  <help-item id="gimp-layer-stack-menu" ref="gimp-layer-stack-menu.html" title="7.11. “Stack” Submenu" parent="gimp-layer-menu" sort="7.11"/>
+  <help-item id="gimp-layer-previous" ref="gimp-layer-previous.html" title="7.12. Select Previous Layer" parent="gimp-layer-menu" sort="7.12"/>
+  <help-item id="gimp-layer-next" ref="gimp-layer-next.html" title="7.13. Select Next Layer" parent="gimp-layer-menu" sort="7.13"/>
+  <help-item id="gimp-layer-top" ref="gimp-layer-top.html" title="7.14. Select Top Layer" parent="gimp-layer-menu" sort="7.14"/>
+  <help-item id="gimp-layer-bottom" ref="gimp-layer-bottom.html" title="7.15. Select Bottom Layer" parent="gimp-layer-menu" sort="7.15"/>
+  <help-item id="gimp-layer-raise" ref="gimp-layer-raise.html" title="7.16. Raise Layer" parent="gimp-layer-menu" sort="7.16"/>
+  <help-item id="gimp-layer-lower" ref="gimp-layer-lower.html" title="7.17. Lower Layer" parent="gimp-layer-menu" sort="7.17"/>
+  <help-item id="gimp-layer-raise-to-top" ref="gimp-layer-raise-to-top.html" title="7.18. Layer to Top" parent="gimp-layer-menu" sort="7.18"/>
+  <help-item id="gimp-layer-lower-to-bottom" ref="gimp-layer-lower-to-bottom.html" title="7.19. Layer to Bottom" parent="gimp-layer-menu" sort="7.19"/>
+  <help-item id="script-fu-reverse-layers" ref="script-fu-reverse-layers.html" title="7.20. The “Reverse Layer Order” command" parent="gimp-layer-menu" sort="7.20"/>
+  <help-item id="gimp-layer-mask-menu" ref="gimp-layer-mask-menu.html" title="7.21. The “Mask” Submenu" parent="gimp-layer-menu" sort="7.21"/>
+  <help-item id="gimp-layer-mask-add" ref="gimp-layer-mask-add.html" title="7.22. ലെയർ മാസ്ക് ചേർക്കുക" parent="gimp-layer-menu" sort="7.22"/>
+  <help-item id="gimp-layer-mask-apply" ref="gimp-layer-mask-apply.html" title="7.23. Apply Layer Mask" parent="gimp-layer-menu" sort="7.23"/>
+  <help-item id="gimp-layer-mask-delete" ref="gimp-layer-mask-delete.html" title="7.24. Delete Layer Mask" parent="gimp-layer-menu" sort="7.24"/>
+  <help-item id="gimp-layer-mask-show" ref="gimp-layer-mask-show.html" title="7.25. Show Layer Mask" parent="gimp-layer-menu" sort="7.25"/>
+  <help-item id="gimp-layer-mask-show-activate" ref="gimp-layer-mask-show.html#gimp-layer-mask-show-activate" title="7.25.1. കമാൻഡ് സജീവമാക്കുന്നു" parent="gimp-layer-mask-show" sort="7.25.1"/>
+  <help-item id="gimp-layer-mask-edit" ref="gimp-layer-mask-edit.html" title="7.26. Edit Layer Mask" parent="gimp-layer-menu" sort="7.26"/>
+  <help-item id="gimp-layer-mask-edit-activate" ref="gimp-layer-mask-edit.html#gimp-layer-mask-edit-activate" title="7.26.1. കമാൻഡ് സജീവമാക്കുന്നു" parent="gimp-layer-mask-edit" sort="7.26.1"/>
+  <help-item id="gimp-layer-mask-disable" ref="gimp-layer-mask-disable.html" title="7.27. Disable Layer Mask" parent="gimp-layer-menu" sort="7.27"/>
+  <help-item id="gimp-layer-mask-disable-activate" ref="gimp-layer-mask-disable.html#gimp-layer-mask-disable-activate" title="7.27.1. കമാൻഡ് സജീവമാക്കുന്നു" parent="gimp-layer-mask-disable" sort="7.27.1"/>
+  <help-item id="gimp-layer-mask-selection-replace" ref="gimp-layer-mask-selection-replace.html" title="7.28. Mask to Selection" parent="gimp-layer-menu" sort="7.28"/>
+  <help-item id="gimp-layer-mask-selection-add" ref="gimp-layer-mask-selection-add.html" title="7.29. Add Layer Mask to Selection" parent="gimp-layer-menu" sort="7.29"/>
+  <help-item id="gimp-layer-mask-selection-subtract" ref="gimp-layer-mask-selection-subtract.html" title="7.30. Subtract Layer Mask from Selection" parent="gimp-layer-menu" sort="7.30"/>
+  <help-item id="gimp-layer-mask-selection-intersect" ref="gimp-layer-mask-selection-intersect.html" title="7.31. Intersect Layer Mask with Selection" parent="gimp-layer-menu" sort="7.31"/>
+  <help-item id="gimp-layer-transparency-menu" ref="gimp-layer-transparency-menu.html" title="7.32. The “Transparency” Submenu of the “Layer” menu" parent="gimp-layer-menu" sort="7.32"/>
+  <help-item id="gimp-layer-alpha-add" ref="gimp-layer-alpha-add.html" title="7.33. ആൽഫ ചാനൽ ചേർക്കുക" parent="gimp-layer-menu" sort="7.33"/>
+  <help-item id="gimp-layer-alpha-remove" ref="gimp-layer-alpha-remove.html" title="7.34. Remove Alpha Channel" parent="gimp-layer-menu" sort="7.34"/>
+  <help-item id="gimp-layer-color-to-alpha" ref="gimp-layer-color-to-alpha.html" title="7.35. ആൽഫയിലേക്ക് വർണ്ണം" parent="gimp-layer-menu" sort="7.35"/>
+  <help-item id="gimp-layer-alpha-semi-flatten" ref="gimp-layer-alpha-semi-flatten.html" title="7.36. Semi-flatten" parent="gimp-layer-menu" sort="7.36"/>
+  <help-item id="plug-in-threshold-alpha" ref="plug-in-threshold-alpha.html" title="7.37. ത്രെഷോൾഡ് ആൽഫ" parent="gimp-layer-menu" sort="7.37"/>
+  <help-item id="gimp-layer-alpha-selection-replace" ref="gimp-layer-alpha-selection-replace.html" title="7.38. Alpha to Selection" parent="gimp-layer-menu" sort="7.38"/>
+  <help-item id="gimp-layer-alpha-selection-add" ref="gimp-layer-alpha-selection-add.html" title="7.39. Add Alpha channel to Selection" parent="gimp-layer-menu" sort="7.39"/>
+  <help-item id="gimp-layer-alpha-selection-subtract" ref="gimp-layer-alpha-selection-subtract.html" title="7.40. Subtract from Selection" parent="gimp-layer-menu" sort="7.40"/>
+  <help-item id="gimp-layer-alpha-selection-intersect" ref="gimp-layer-alpha-selection-intersect.html" title="7.41. Intersect Alpha channel with Selection" parent="gimp-layer-menu" sort="7.41"/>
+  <help-item id="gimp-layer-transform-menu" ref="gimp-layer-transform-menu.html" title="7.42. The “Transform” Submenu" parent="gimp-layer-menu" sort="7.42"/>
+  <help-item id="gimp-layer-flip-horizontal" ref="gimp-layer-flip-horizontal.html" title="7.43. Flip Horizontally" parent="gimp-layer-menu" sort="7.43"/>
+  <help-item id="gimp-layer-flip-vertical" ref="gimp-layer-flip-vertical.html" title="7.44. Flip Vertically" parent="gimp-layer-menu" sort="7.44"/>
+  <help-item id="gimp-layer-rotate-90" ref="gimp-layer-rotate-90.html" title="7.45. Rotate 90° clockwise" parent="gimp-layer-menu" sort="7.45"/>
+  <help-item id="gimp-layer-rotate-270" ref="gimp-layer-rotate-270.html" title="7.46. Rotate 90° counter-clockwise" parent="gimp-layer-menu" sort="7.46"/>
+  <help-item id="gimp-layer-rotate-180" ref="gimp-layer-rotate-180.html" title="7.47. Rotate 180°" parent="gimp-layer-menu" sort="7.47"/>
+  <help-item id="gimp-layer-rotate-arbitrary" ref="gimp-layer-rotate-arbitrary.html" title="7.48. Arbitrary Rotation" parent="gimp-layer-menu" sort="7.48"/>
+  <help-item id="gimp-layer-offset" ref="gimp-layer-offset.html" title="7.49. ഓഫ്സെറ്റ്" parent="gimp-layer-menu" sort="7.49"/>
+  <help-item id="gimp-layer-resize" ref="gimp-layer-resize.html" title="7.50. Layer Boundary Size" parent="gimp-layer-menu" sort="7.50"/>
+  <help-item id="gimp-layer-resize-to-image" ref="gimp-layer-resize-to-image.html" title="7.51. Layer to Image Size" parent="gimp-layer-menu" sort="7.51"/>
+  <help-item id="gimp-layer-scale" ref="gimp-layer-scale.html" title="7.52. സ്കെയിൽ ലെയർ" parent="gimp-layer-menu" sort="7.52"/>
+  <help-item id="gimp-layer-crop" ref="gimp-layer-crop.html" title="7.53. Crop to Selection" parent="gimp-layer-menu" sort="7.53"/>
+  <help-item id="plug-in-autocrop-layer" ref="plug-in-autocrop-layer.html" title="7.54. Autocrop Layer" parent="gimp-layer-menu" sort="7.54"/>
+  <help-item id="gimp-colors-menu" ref="gimp-colors-menu.html" title="8. “Colors” മെനു" parent="menus" sort="8"/>
+  <help-item id="gimp-colors-introduction" ref="gimp-colors-menu.html#gimp-colors-introduction" title="8.1. Introduction to the “Colors” Menu" parent="gimp-colors-menu" sort="8.1"/>
+  <help-item id="gimp-colors-tools-menu" ref="gimp-colors-tools-menu.html" title="8.2. Colors Tools" parent="gimp-colors-menu" sort="8.2"/>
+  <help-item id="gimp-layer-invert" ref="gimp-layer-invert.html" title="8.3. വിപരീതം" parent="gimp-colors-menu" sort="8.3"/>
+  <help-item id="plug-in-vinvert" ref="plug-in-vinvert.html" title="8.4. മൂല്യം വിപരീതം" parent="gimp-colors-menu" sort="8.4"/>
+  <help-item id="gimp-config-use-gegl" ref="gimp-config-use-gegl.html" title="8.5. Use GEGL" parent="gimp-colors-menu" sort="8.5"/>
+  <help-item id="gimp-colors-auto-menu" ref="gimp-colors-auto-menu.html" title="8.6. The “Auto” Submenu" parent="gimp-colors-menu" sort="8.6"/>
+  <help-item id="gimp-color-stretch-commands" ref="gimp-colors-auto-menu.html#gimp-color-stretch-commands" title="8.6.2. Automatic Color-Stretching" parent="gimp-colors-auto-menu" sort="8.6.2"/>
+  <help-item id="gimp-layer-equalize" ref="gimp-layer-equalize.html" title="8.7. തുല്യമായരീതിയിൽ" parent="gimp-colors-menu" sort="8.7"/>
+  <help-item id="gimp-layer-white-balance" ref="gimp-layer-white-balance.html" title="8.8. വൈറ്റ് ബാലൻസ്" parent="gimp-colors-menu" sort="8.8"/>
+  <help-item id="plug-in-color-enhance" ref="plug-in-color-enhance.html" title="8.9. കളർ മെച്ചപ്പെടുത്തുക" parent="gimp-colors-menu" sort="8.9"/>
+  <help-item id="plug-in-normalize" ref="plug-in-normalize.html" title="8.10. സാധാരണവത്കരിക്കാനും" parent="gimp-colors-menu" sort="8.10"/>
+  <help-item id="plug-in-c-astretch" ref="plug-in-c-astretch.html" title="8.11. സ്ട്രെച്ച് കോൺട്രാസ്റ്റ്" parent="gimp-colors-menu" sort="8.11"/>
+  <help-item id="plug-in-autostretch-hsv" ref="plug-in-autostretch-hsv.html" title="8.12. HSV നീട്ടുക" parent="gimp-colors-menu" sort="8.12"/>
+  <help-item id="gimp-colors-components-menu" ref="gimp-colors-components-menu.html" title="8.13. The “Components” Submenu" parent="gimp-colors-menu" sort="8.13"/>
+  <help-item id="plug-in-colors-channel-mixer" ref="plug-in-colors-channel-mixer.html" title="8.14. ചാനൽ ശബ്ദക്രമീകാരി" parent="gimp-colors-menu" sort="8.14"/>
+  <help-item id="plug-in-compose" ref="plug-in-compose.html" title="8.15. രചിക്കുക" parent="gimp-colors-menu" sort="8.15"/>
+  <help-item id="plug-in-decompose-registered" ref="plug-in-decompose-registered.html" title="8.16. വിഘടിപ്പിക്കുന്നു" parent="gimp-colors-menu" sort="8.16"/>
+  <help-item id="plug-in-decompose" ref="plug-in-decompose-registered.html#plug-in-decompose" title="(വിഭാഗം 8.16, “ വിഘടിപ്പിക്കുന്നു ”)" parent="plug-in-decompose-registered" sort="8.16.0.3"/>
+  <help-item id="plug-in-decompose-to-layers" ref="plug-in-decompose-registered.html#plug-in-decompose-to-layers" title="(ലെയറുകൾ വിഘടിപ്പിക്കുന്നു)" parent="plug-in-decompose-registered" sort="8.16.3.0.4"/>
+  <help-item id="plug-in-recompose" ref="plug-in-recompose.html" title="8.17. Recompose" parent="gimp-colors-menu" sort="8.17"/>
+  <help-item id="gimp-colors-map-menu" ref="gimp-colors-map-menu.html" title="8.18. The “Map” Submenu" parent="gimp-colors-menu" sort="8.18"/>
+  <help-item id="plug-in-colormap-remap" ref="plug-in-colormap-remap.html" title="8.19. Colormap പുനഃക്രമീകരിക്കുക" parent="gimp-colors-menu" sort="8.19"/>
+  <help-item id="script-fu-set-cmap" ref="script-fu-set-cmap.html" title="8.20. Colormap സജ്ജമാക്കുക" parent="gimp-colors-menu" sort="8.20"/>
+  <help-item id="plug-in-alienmap2" ref="plug-in-alienmap2.html" title="8.21. ഏലിയൻ മാപ്പ്" parent="gimp-colors-menu" sort="8.21"/>
+  <help-item id="plug-in-exchange" ref="plug-in-exchange.html" title="8.22. വർണ്ണ എക്സ്ചേഞ്ച്" parent="gimp-colors-menu" sort="8.22"/>
+  <help-item id="plug-in-gradmap" ref="plug-in-gradmap.html" title="8.23. ഗ്രേഡിയന്റ് മാപ്പ്" parent="gimp-colors-menu" sort="8.23"/>
+  <help-item id="plug-in-palettemap" ref="plug-in-palettemap.html" title="8.24. പാലറ്റ് മാപ്പ്" parent="gimp-colors-menu" sort="8.24"/>
+  <help-item id="plug-in-rotate-colormap" ref="plug-in-rotate-colormap.html" title="8.25. നിറങ്ങൾ തിരിക്കുക" parent="gimp-colors-menu" sort="8.25"/>
+  <help-item id="plug-in-rotate-colormap-units" ref="plug-in-rotate-colormap.html#plug-in-rotate-colormap-units" title="8.25.6. യൂണിറ്റുകൾ" parent="plug-in-rotate-colormap" sort="8.25.6"/>
+  <help-item id="plug-in-sample-colorize" ref="plug-in-sample-colorize.html" title="8.26. സാമ്പിൾ വർണ്ണാഭമാക്കുക" parent="gimp-colors-menu" sort="8.26"/>
+  <help-item id="gimp-colors-info-menu" ref="gimp-colors-info-menu.html" title="8.27. The “Info” Submenu" parent="gimp-colors-menu" sort="8.27"/>
+  <help-item id="gimp-colors-info-histogram" ref="gimp-colors-info-histogram.html" title="8.28. ഹിസ്റ്റോഗ്രാം" parent="gimp-colors-menu" sort="8.28"/>
+  <help-item id="plug-in-borderaverage" ref="plug-in-borderaverage.html" title="8.29. ബോർഡർ ശരാശരി" parent="gimp-colors-menu" sort="8.29"/>
+  <help-item id="plug-in-ccanalyze" ref="plug-in-ccanalyze.html" title="8.30. Colorcube അനാലിസിസ്" parent="gimp-colors-menu" sort="8.30"/>
+  <help-item id="plug-in-smooth-palette" ref="plug-in-smooth-palette.html" title="8.31. സുഗമമായ പാലറ്റ്" parent="gimp-colors-menu" sort="8.31"/>
+  <help-item id="gimp-colors-filters" ref="gimp-colors-filters.html" title="8.32. The Color Filters" parent="gimp-colors-menu" sort="8.32"/>
+  <help-item id="plug-in-colorify" ref="plug-in-colorify.html" title="8.33. Colourify" parent="gimp-colors-menu" sort="8.33"/>
+  <help-item id="plug-in-colortoalpha" ref="plug-in-colortoalpha.html" title="8.34. ആൽഫയിലേക്ക് വർണ്ണം" parent="gimp-colors-menu" sort="8.34"/>
+  <help-item id="plug-in-filter-pack" ref="plug-in-filter-pack.html" title="8.35. Filter Pack" parent="gimp-colors-menu" sort="8.35"/>
+  <help-item id="plug-in-hot" ref="plug-in-hot.html" title="8.36. ചൂടുള്ള" parent="gimp-colors-menu" sort="8.36"/>
+  <help-item id="plug-in-max-rgb" ref="plug-in-max-rgb.html" title="8.37. മാക്സ് ആർജിബി" parent="gimp-colors-menu" sort="8.37"/>
+  <help-item id="plug-in-retinex" ref="plug-in-retinex.html" title="8.38. Retinex" parent="gimp-colors-menu" sort="8.38"/>
+  <help-item id="gimp-tools-menu" ref="gimp-tools-menu.html" title="9. “Tools” മെനു" parent="menus" sort="9"/>
+  <help-item id="gimp-tools-menu-introduction" ref="gimp-tools-menu.html#gimp-tools-menu-introduction" title="9.1. “Tools” മെനു ആമുഖം" parent="gimp-tools-menu" sort="9.1"/>
+  <help-item id="gimp-filters-menu" ref="gimp-filters-menu.html" title="10. “Filters” മെനു" parent="menus" sort="10"/>
+  <help-item id="gimp-menu-filters-introduction" ref="gimp-filters-menu.html#gimp-menu-filters-introduction" title="10.1. Introduction to the “Filters” Menu" parent="gimp-filters-menu" sort="10.1"/>
+  <help-item id="gimp-filter-repeat" ref="gimp-filter-repeat.html" title="10.2. അവസാനം ആവർത്തിക്കുക" parent="gimp-filters-menu" sort="10.2"/>
+  <help-item id="gimp-filter-reshow" ref="gimp-filter-reshow.html" title="10.3. Re-show Last" parent="gimp-filters-menu" sort="10.3"/>
+  <help-item id="gimp-filter-reset-all" ref="gimp-filter-reset-all.html" title="10.4. Reset All Filters" parent="gimp-filters-menu" sort="10.4"/>
+  <help-item id="gimp-filters-python-fu" ref="gimp-filters-python-fu.html" title="10.5. The “Python-Fu” Submenu" parent="gimp-filters-menu" sort="10.5"/>
+  <help-item id="python-fu-console" ref="gimp-filters-python-fu.html#python-fu-console" title="10.5.2. The Python-Fu Console" parent="gimp-filters-python-fu" sort="10.5.2"/>
+  <help-item id="gimp-filters-script-fu" ref="gimp-filters-script-fu.html" title="10.6. The “Script-Fu” Submenu" parent="gimp-filters-menu" sort="10.6"/>
+  <help-item id="script-fu-refresh" ref="gimp-filters-script-fu.html#script-fu-refresh" title="10.6.2. Refresh Scripts" parent="gimp-filters-script-fu" sort="10.6.2"/>
+  <help-item id="plug-in-script-fu-console" ref="gimp-filters-script-fu.html#plug-in-script-fu-console" title="10.6.3. സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ" parent="gimp-filters-script-fu" sort="10.6.3"/>
+  <help-item id="plug-in-script-fu-server" ref="gimp-filters-script-fu.html#plug-in-script-fu-server" title="10.6.4. Start Server" parent="gimp-filters-script-fu" sort="10.6.4"/>
+  <help-item id="gimp-windows" ref="gimp-windows.html" title="11. “Windows” Menu" parent="menus" sort="11"/>
+  <help-item id="gimp-windows-open-recent-dock" ref="gimp-windows.html#gimp-windows-open-recent-dock" title="(1)" parent="gimp-windows" sort="1"/>
+  <help-item id="gimp-raise-toolbox" ref="gimp-windows.html#gimp-raise-toolbox" title="(3)" parent="gimp-windows" sort="3"/>
+  <help-item id="gimp-image-list" ref="gimp-windows.html#gimp-image-list" title="(4)" parent="gimp-windows" sort="4"/>
+  <help-item id="gimp-windows-show-dock" ref="gimp-windows.html#gimp-windows-show-dock" title="(5)" parent="gimp-windows" sort="5"/>
+  <help-item id="gimp-windows-hide-docks" ref="gimp-windows.html#gimp-windows-hide-docks" title="(6)" parent="gimp-windows" sort="6"/>
+  <help-item id="gimp-windows-use-single-window-mode" ref="gimp-windows.html#gimp-windows-use-single-window-mode" title="(7)" parent="gimp-windows" sort="7"/>
+  <help-item id="gimp-help-menu" ref="gimp-help-menu.html" title="12. “Help” മെനു" parent="menus" sort="12"/>
+  <help-item id="gimp-help-introduction" ref="gimp-help-menu.html#gimp-help-introduction" title="12.1. “Help” മെനു ആമുഖം" parent="gimp-help-menu" sort="12.1"/>
+  <help-item id="gimp-help" ref="gimp-help.html" title="12.2. സഹായിക്കൂ" parent="gimp-help-menu" sort="12.2"/>
+  <help-item id="gimp-help-context" ref="gimp-help-context.html" title="12.3. Context Help" parent="gimp-help-menu" sort="12.3"/>
+  <help-item id="gimp-tips-dialog" ref="gimp-tips-dialog.html" title="12.4. Tip of the Day" parent="gimp-help-menu" sort="12.4"/>
+  <help-item id="gimp-about-dialog" ref="gimp-about-dialog.html" title="12.5. കുറിച്ച്" parent="gimp-help-menu" sort="12.5"/>
+  <help-item id="plug-in-plug-in-details" ref="plug-in-plug-in-details.html" title="12.6. പ്ലഗ് ഇൻ ബ്രൌസറിൽ" parent="gimp-help-menu" sort="12.6"/>
+  <help-item id="plug-in-dbbrowser" ref="plug-in-dbbrowser.html" title="12.7. The Procedure Browser" parent="gimp-help-menu" sort="12.7"/>
+  <help-item id="gimp-help-online" ref="gimp-help-online.html" title="12.8. GIMP online" parent="gimp-help-menu" sort="12.8"/>
+  <help-item id="filters" ref="filters.html" title="17. ഫിൽട്ടറുകൾ" parent="gimp-function-reference" sort="17"/>
+  <help-item id="filter-introduction" ref="filters.html#filter-introduction" title="1. അവതാരിക" parent="filters" sort="1"/>
+  <help-item id="filters-blur" ref="filters-blur.html" title="2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ" parent="filters" sort="2"/>
+  <help-item id="filters-blur-introduction" ref="filters-blur.html#filters-blur-introduction" title="2.1. അവതാരിക" parent="filters-blur" sort="2.1"/>
+  <help-item id="plug-in-blur" ref="plug-in-blur.html" title="2.2. ഇഫക്റ്റ്" parent="filters-blur" sort="2.2"/>
+  <help-item id="plug-in-gauss" ref="plug-in-gauss.html" title="2.3. ഗോഷ്യൻ ഇഫക്റ്റ്" parent="filters-blur" sort="2.3"/>
+  <help-item id="plug-in-sel-gauss" ref="plug-in-sel-gauss.html" title="2.4. സെലക്ടീവ് ഗോഷ്യൻ ഇഫക്റ്റ്" parent="filters-blur" sort="2.4"/>
+  <help-item id="plug-in-mblur" ref="plug-in-mblur.html" title="2.5. മോഷൻ ബ്ലർ" parent="filters-blur" sort="2.5"/>
+  <help-item id="plug-in-pixelize" ref="plug-in-pixelize.html" title="2.6. പിക്സൽ" parent="filters-blur" sort="2.6"/>
+  <help-item id="script-fu-tile-blur" ref="script-fu-tile-blur.html" title="2.7. Tileable ഇഫക്റ്റ്" parent="filters-blur" sort="2.7"/>
+  <help-item id="filters-enhance" ref="filters-enhance.html" title="3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക" parent="filters" sort="3"/>
+  <help-item id="filters-enhance-introduction" ref="filters-enhance.html#filters-enhance-introduction" title="3.1. അവതാരിക" parent="filters-enhance" sort="3.1"/>
+  <help-item id="plug-in-antialias" ref="plug-in-antialias.html" title="3.2. Antialias" parent="filters-enhance" sort="3.2"/>
+  <help-item id="plug-in-deinterlace" ref="plug-in-deinterlace.html" title="3.3. ഡീഇന്റര്ലെയിസിങ്" parent="filters-enhance" sort="3.3"/>
+  <help-item id="plug-in-despeckle" ref="plug-in-despeckle.html" title="3.4. Despeckle" parent="filters-enhance" sort="3.4"/>
+  <help-item id="plug-in-destripe" ref="plug-in-destripe.html" title="3.5. Destripe" parent="filters-enhance" sort="3.5"/>
+  <help-item id="plug-in-nlfilt" ref="plug-in-nlfilt.html" title="3.6. ഹോളണ്ട് ഫിൽറ്റർ" parent="filters-enhance" sort="3.6"/>
+  <help-item id="plug-in-nlfilt-mode" ref="plug-in-nlfilt.html#plug-in-nlfilt-mode" title="3.6.4. ഓപ്പറേറ്റിംഗ് മോഡുകൾ" parent="plug-in-nlfilt" sort="3.6.4"/>
+  <help-item id="plug-in-red-eye-removal" ref="plug-in-red-eye-removal.html" title="3.7. റെഡ് ഐ നീക്കംചെയ്യൽ" parent="filters-enhance" sort="3.7"/>
+  <help-item id="plug-in-sharpen" ref="plug-in-sharpen.html" title="3.8. മൂര്ച്ചവരുത്തുക" parent="filters-enhance" sort="3.8"/>
+  <help-item id="plug-in-unsharp-mask" ref="plug-in-unsharp-mask.html" title="3.9. അൺഷാർപ്പ് മാസ്ക്" parent="filters-enhance" sort="3.9"/>
+  <help-item id="filters-distort" ref="filters-distort.html" title="4. ഫിൽട്ടറുകൾ വളച്ചൊടിച്ച്" parent="filters" sort="4"/>
+  <help-item id="filters-distort-introduction" ref="filters-distort.html#filters-distort-introduction" title="4.1. അവതാരിക" parent="filters-distort" sort="4.1"/>
+  <help-item id="plug-in-blinds" ref="plug-in-blinds.html" title="4.2. മറച്ചുവയ്ക്കുന്നു" parent="filters-distort" sort="4.2"/>
+  <help-item id="plug-in-curve-bend" ref="plug-in-curve-bend.html" title="4.3. കർവ് ബെംഡ്" parent="filters-distort" sort="4.3"/>
+  <help-item id="plug-in-emboss" ref="plug-in-emboss.html" title="4.4. എംബോസ്സ്" parent="filters-distort" sort="4.4"/>
+  <help-item id="plug-in-engrave" ref="plug-in-engrave.html" title="4.5. കൊത്തുക" parent="filters-distort" sort="4.5"/>
+  <help-item id="script-fu-erase-rows" ref="script-fu-erase-rows.html" title="4.6. മറ്റെല്ലാ വരി മായ്ക്കുക" parent="filters-distort" sort="4.6"/>
+  <help-item id="plug-in-iwarp" ref="plug-in-iwarp.html" title="4.7. IWarp" parent="filters-distort" sort="4.7"/>
+  <help-item id="plug-in-lens-distortion" ref="plug-in-lens-distortion.html" title="4.8. ലെൻസ് വക്രീകരിക്കൽ" parent="filters-distort" sort="4.8"/>
+  <help-item id="plug-in-mosaic" ref="plug-in-mosaic.html" title="4.9. മൊസൈക്ക്" parent="filters-distort" sort="4.9"/>
+  <help-item id="plug-in-newsprint" ref="plug-in-newsprint.html" title="4.10. Newsprint" parent="filters-distort" sort="4.10"/>
+  <help-item id="plug-in-pagecurl" ref="plug-in-pagecurl.html" title="4.11. പേജ് കേൾ" parent="filters-distort" sort="4.11"/>
+  <help-item id="plug-in-polar-coords" ref="plug-in-polar-coords.html" title="4.12. പോളാർ Coords" parent="filters-distort" sort="4.12"/>
+  <help-item id="plug-in-ripple" ref="plug-in-ripple.html" title="4.13. റിപ്പിൾ" parent="filters-distort" sort="4.13"/>
+  <help-item id="plug-in-shift" ref="plug-in-shift.html" title="4.14. മാറ്റം" parent="filters-distort" sort="4.14"/>
+  <help-item id="plug-in-vpropagate" ref="plug-in-vpropagate.html" title="4.15. മൂല്യം പ്രചരിപ്പിക്കാൻ" parent="filters-distort" sort="4.15"/>
+  <help-item id="plug-in-video" ref="plug-in-video.html" title="4.16. വീഡിയോ" parent="filters-distort" sort="4.16"/>
+  <help-item id="plug-in-waves" ref="plug-in-waves.html" title="4.17. വേവ്സ്" parent="filters-distort" sort="4.17"/>
+  <help-item id="plug-in-whirl-pinch" ref="plug-in-whirl-pinch.html" title="4.18. അദ്ദേഹവും ആൻഡ് പിഞ്ചുചെയ്യുന്നത്" parent="filters-distort" sort="4.18"/>
+  <help-item id="plug-in-wind" ref="plug-in-wind.html" title="4.19. കാറ്റ്" parent="filters-distort" sort="4.19"/>
+  <help-item id="filters-light-and-shadow" ref="filters-light-and-shadow.html" title="5. വെളിച്ചവും ഷാഡോ ഫിൽട്ടറുകൾ" parent="filters" sort="5"/>
+  <help-item id="filters-light-and-shadow-introduction" ref="filters-light-and-shadow.html#filters-light-and-shadow-introduction" title="5.1. അവതാരിക" parent="filters-light-and-shadow" sort="5.1"/>
+  <help-item id="plug-in-gflare" ref="plug-in-gflare.html" title="5.2. ഗ്രേഡിയന്റ് .അൽപ്പസമയംകാത്തിരിക്കൂ" parent="filters-light-and-shadow" sort="5.2"/>
+  <help-item id="plug-in-gflare-editor" ref="plug-in-gflare.html#plug-in-gflare-editor" title="5.2.4. ഗ്രേഡിയന്റ് ഉജ്ജ്വലിക്കും എഡിറ്റർ" parent="plug-in-gflare" sort="5.2.4"/>
+  <help-item id="plug-in-gflare-editor-general" ref="plug-in-gflare.html#plug-in-gflare-editor-general" title="5.2.4.1. പൊതുവായ" parent="plug-in-gflare-editor" sort="5.2.4.1"/>
+  <help-item id="plug-in-gflare-editor-glow" ref="plug-in-gflare.html#plug-in-gflare-editor-glow" title="5.2.4.2. ജലിക്കുക" parent="plug-in-gflare-editor" sort="5.2.4.2"/>
+  <help-item id="plug-in-gflare-editor-rays" ref="plug-in-gflare.html#plug-in-gflare-editor-rays" title="5.2.4.3. കിരണങ്ങൾ" parent="plug-in-gflare-editor" sort="5.2.4.3"/>
+  <help-item id="plug-in-gflare-editor-secondflares" ref="plug-in-gflare.html#plug-in-gflare-editor-secondflares" title="5.2.4.4. രണ്ടാമത്തേത് flares" parent="plug-in-gflare-editor" sort="5.2.4.4"/>
+  <help-item id="plug-in-flarefx" ref="plug-in-flarefx.html" title="5.3. ലെൻസ് വിദൂരസ്ഥമായ" parent="filters-light-and-shadow" sort="5.3"/>
+  <help-item id="plug-in-lighting" ref="plug-in-lighting.html" title="5.4. ലൈറ്റിംഗ് ഇഫക്ട്സ്" parent="filters-light-and-shadow" sort="5.4"/>
+  <help-item id="plug-in-sparkle" ref="plug-in-sparkle.html" title="5.5. തിളക്കവും" parent="filters-light-and-shadow" sort="5.5"/>
+  <help-item id="plug-in-nova" ref="plug-in-nova.html" title="5.6. സൂപ്പർനോവ" parent="filters-light-and-shadow" sort="5.6"/>
+  <help-item id="script-fu-drop-shadow" ref="script-fu-drop-shadow.html" title="5.7. ഡ്രോപ്പ് ഷാഡോ" parent="filters-light-and-shadow" sort="5.7"/>
+  <help-item id="script-fu-perspective-shadow" ref="script-fu-perspective-shadow.html" title="5.8. കാഴ്ചപ്പാട്" parent="filters-light-and-shadow" sort="5.8"/>
+  <help-item id="script-fu-xach-effect" ref="script-fu-xach-effect.html" title="5.9. Xach-പ്രഭാവം" parent="filters-light-and-shadow" sort="5.9"/>
+  <help-item id="plug-in-applylens" ref="plug-in-applylens.html" title="5.10. ലെൻസ് പ്രയോഗിക്കുക" parent="filters-light-and-shadow" sort="5.10"/>
+  <help-item id="plug-in-glasstile" ref="plug-in-glasstile.html" title="5.11. ഗ്ലാസ് ടൈൽ" parent="filters-light-and-shadow" sort="5.11"/>
+  <help-item id="filters-noise" ref="filters-noise.html" title="6. നോയ്സ് ഫിൽട്ടറുകൾ" parent="filters" sort="6"/>
+  <help-item id="filters-noise-introduction" ref="filters-noise.html#filters-noise-introduction" title="6.1. അവതാരിക" parent="filters-noise" sort="6.1"/>
+  <help-item id="plug-in-hsv-noise" ref="plug-in-hsv-noise.html" title="6.2. HSV നോയ്സ്" parent="filters-noise" sort="6.2"/>
+  <help-item id="plug-in-randomize-hurl" ref="plug-in-randomize-hurl.html" title="6.3. എറിയുന്നു" parent="filters-noise" sort="6.3"/>
+  <help-item id="plug-in-randomize-pick" ref="plug-in-randomize-pick.html" title="6.4. തിരഞ്ഞെടുത്തത്" parent="filters-noise" sort="6.4"/>
+  <help-item id="plug-in-rgb-noise" ref="plug-in-rgb-noise.html" title="6.5. ആർജിബി നോയ്സ്" parent="filters-noise" sort="6.5"/>
+  <help-item id="plug-in-randomize-slur" ref="plug-in-randomize-slur.html" title="6.6. ബിഗിൻ" parent="filters-noise" sort="6.6"/>
+  <help-item id="plug-in-spread" ref="plug-in-spread.html" title="6.7. വിരിക്കുക" parent="filters-noise" sort="6.7"/>
+  <help-item id="filters-edge" ref="filters-edge.html" title="7. അഗ്രം-തിരിച്ചറിയൽ ഫിൽട്ടറുകൾ" parent="filters" sort="7"/>
+  <help-item id="filters-edges-introduction" ref="filters-edge.html#filters-edges-introduction" title="7.1. അവതാരിക" parent="filters-edge" sort="7.1"/>
+  <help-item id="plug-in-dog" ref="plug-in-dog.html" title="7.2. Gaussians എന്ന വ്യത്യാസം" parent="filters-edge" sort="7.2"/>
+  <help-item id="plug-in-edge" ref="plug-in-edge.html" title="7.3. അറ്റം" parent="filters-edge" sort="7.3"/>
+  <help-item id="plug-in-laplace" ref="plug-in-laplace.html" title="7.4. .പരിപൂർണ്ണ" parent="filters-edge" sort="7.4"/>
+  <help-item id="plug-in-neon" ref="plug-in-neon.html" title="7.5. നിയോൺ" parent="filters-edge" sort="7.5"/>
+  <help-item id="plug-in-sobel" ref="plug-in-sobel.html" title="7.6. സോബൽ" parent="filters-edge" sort="7.6"/>
+  <help-item id="filters-generic" ref="filters-generic.html" title="8. സാമാന്യ ഫിൽട്ടറുകൾ" parent="filters" sort="8"/>
+  <help-item id="filters-generic-introduction" ref="filters-generic.html#filters-generic-introduction" title="8.1. അവതാരിക" parent="filters-generic" sort="8.1"/>
+  <help-item id="plug-in-convmatrix" ref="plug-in-convmatrix.html" title="8.2. കോൺവൊല്യൂഷൻ മാട്രിക്സ്" parent="filters-generic" sort="8.2"/>
+  <help-item id="plug-in-dilate" ref="plug-in-dilate.html" title="8.3. Dilate" parent="filters-generic" sort="8.3"/>
+  <help-item id="plug-in-erode" ref="plug-in-erode.html" title="8.4. ഈറോഡ്" parent="filters-generic" sort="8.4"/>
+  <help-item id="filters-combine" ref="filters-combine.html" title="9. ഫിൽട്ടറുകൾ സംയോജിപ്പിക്കുക" parent="filters" sort="9"/>
+  <help-item id="filters-combine-introduction" ref="filters-combine.html#filters-combine-introduction" title="9.1. അവതാരിക" parent="filters-combine" sort="9.1"/>
+  <help-item id="plug-in-depth-merge" ref="plug-in-depth-merge.html" title="9.2. ആഴത്തിൽ ലയനം" parent="filters-combine" sort="9.2"/>
+  <help-item id="plug-in-film" ref="plug-in-film.html" title="9.3. ഫിലിം" parent="filters-combine" sort="9.3"/>
+  <help-item id="filters-artistic" ref="filters-artistic.html" title="10. കലാപരമായ ഫിൽട്ടറുകൾ" parent="filters" sort="10"/>
+  <help-item id="filters-artistic-introduction" ref="filters-artistic.html#filters-artistic-introduction" title="10.1. അവതാരിക" parent="filters-artistic" sort="10.1"/>
+  <help-item id="plug-in-apply-canvas" ref="plug-in-apply-canvas.html" title="10.2. കാൻവാസ് പ്രയോഗിക്കുക" parent="filters-artistic" sort="10.2"/>
+  <help-item id="plug-in-cartoon" ref="plug-in-cartoon.html" title="10.3. ഹാസചിതം" parent="filters-artistic" sort="10.3"/>
+  <help-item id="script-fu-clothify" ref="script-fu-clothify.html" title="10.4. Clothify" parent="filters-artistic" sort="10.4"/>
+  <help-item id="plug-in-cubism" ref="plug-in-cubism.html" title="10.5. ക്യൂബിസം" parent="filters-artistic" sort="10.5"/>
+  <help-item id="plug-in-gimpressionist" ref="plug-in-gimpressionist.html" title="10.6. GIMPressionist" parent="filters-artistic" sort="10.6"/>
+  <help-item id="gimpressionist-orientation-options" ref="plug-in-gimpressionist.html#gimpressionist-orientation-options" title="10.6.3.5. വിന്യാസം ടാബ്" parent="plug-in-gimpressionist" sort="10.6.3.5"/>
+  <help-item id="gimpressionist-size-options" ref="plug-in-gimpressionist.html#gimpressionist-size-options" title="10.6.3.6. വലിപ്പം ടാബ്" parent="plug-in-gimpressionist" sort="10.6.3.6"/>
+  <help-item id="gimpressionist-orient-map-editor" ref="plug-in-gimpressionist.html#gimpressionist-orient-map-editor" title="10.6.4. വിന്യാസം മാപ്പ് എഡിറ്റർ" parent="plug-in-gimpressionist" sort="10.6.4"/>
+  <help-item id="gimpressionist-size-map-editor" ref="plug-in-gimpressionist.html#gimpressionist-size-map-editor" title="10.6.5. വലിപ്പം മാപ്പ് എഡിറ്റർ" parent="plug-in-gimpressionist" sort="10.6.5"/>
+  <help-item id="plug-in-oilify" ref="plug-in-oilify.html" title="10.7. Oilify" parent="filters-artistic" sort="10.7"/>
+  <help-item id="plug-in-photocopy" ref="plug-in-photocopy.html" title="10.8. പകർപ്പുകൾ" parent="filters-artistic" sort="10.8"/>
+  <help-item id="script-fu-predator" ref="script-fu-predator.html" title="10.9. മെയ്വഴക്കത്തോടെ" parent="filters-artistic" sort="10.9"/>
+  <help-item id="plug-in-softglow" ref="plug-in-softglow.html" title="10.10. Softglow" parent="filters-artistic" sort="10.10"/>
+  <help-item id="plug-in-lic" ref="plug-in-lic.html" title="10.11. വാൻ ഗോഗ് (എൽഐസി)" parent="filters-artistic" sort="10.11"/>
+  <help-item id="script-fu-weave" ref="script-fu-weave.html" title="10.12. നെയ്യുക" parent="filters-artistic" sort="10.12"/>
+  <help-item id="filters-decor" ref="filters-decor.html" title="11. അലങ്കാര ഫിൽട്ടറുകൾ" parent="filters" sort="11"/>
+  <help-item id="filters-decor-introduction" ref="filters-decor.html#filters-decor-introduction" title="11.1. അവതാരിക" parent="filters-decor" sort="11.1"/>
+  <help-item id="script-fu-add-bevel" ref="script-fu-add-bevel.html" title="11.2. ബിവെൽ ചേർക്കുക" parent="filters-decor" sort="11.2"/>
+  <help-item id="script-fu-addborder" ref="script-fu-addborder.html" title="11.3. ബോർഡർ ചേർക്കുക" parent="filters-decor" sort="11.3"/>
+  <help-item id="script-fu-coffee-stain" ref="script-fu-coffee-stain.html" title="11.4. കോഫി കറ" parent="filters-decor" sort="11.4"/>
+  <help-item id="script-fu-fuzzy-border" ref="script-fu-fuzzy-border.html" title="11.5. അവ്യക്തമായ ബോർഡർ" parent="filters-decor" sort="11.5"/>
+  <help-item id="script-fu-old-photo" ref="script-fu-old-photo.html" title="11.6. പഴയ ഫോട്ടോ" parent="filters-decor" sort="11.6"/>
+  <help-item id="script-fu-round-corners" ref="script-fu-round-corners.html" title="11.7. റൌണ്ട് കോർണറുകൾ" parent="filters-decor" sort="11.7"/>
+  <help-item id="script-fu-slide" ref="script-fu-slide.html" title="11.8. സ്ലൈഡ്" parent="filters-decor" sort="11.8"/>
+  <help-item id="script-fu-carve-it" ref="script-fu-carve-it.html" title="11.9. സീരിയോലിത്തോഗ്രാഫ് രൂപംകൊള്ളുക" parent="filters-decor" sort="11.9"/>
+  <help-item id="script-fu-sota-chrome-it" ref="script-fu-sota-chrome-it.html" title="11.10. സീരിയോലിത്തോഗ്രാഫ് ക്രോം" parent="filters-decor" sort="11.10"/>
+  <help-item id="filters-map" ref="filters-map.html" title="12. മാപ്പ് ഫിൽട്ടറുകൾ" parent="filters" sort="12"/>
+  <help-item id="filters-map-introduction" ref="filters-map.html#filters-map-introduction" title="12.1. അവതാരിക" parent="filters-map" sort="12.1"/>
+  <help-item id="plug-in-bump-map" ref="plug-in-bump-map.html" title="12.2. ബംമ്പ് മാപ്പ്" parent="filters-map" sort="12.2"/>
+  <help-item id="plug-in-displace" ref="plug-in-displace.html" title="12.3. സ്ഥാനം മാറ്റുക" parent="filters-map" sort="12.3"/>
+  <help-item id="plug-in-displace-general-options" ref="plug-in-displace.html#plug-in-displace-general-options" title="12.3.3. ഓപ്ഷനുകൾ" parent="plug-in-displace" sort="12.3.3"/>
+  <help-item id="plug-in-displace-cartesian" ref="plug-in-displace.html#plug-in-displace-cartesian" title="12.3.3.1. കാര്ട്ടീഷ്യന്പ്ലോട്ട് displacement മോഡ്" parent="plug-in-displace-general-options" sort="12.3.3.1"/>
+  <help-item id="plug-in-displace-polar" ref="plug-in-displace.html#plug-in-displace-polar" title="12.3.3.2. പോളാർ displacement മോഡ്" parent="plug-in-displace-general-options" sort="12.3.3.2"/>
+  <help-item id="plug-in-displace-calculation" ref="plug-in-displace.html#plug-in-displace-calculation" title="12.3.5. displacement കണക്കുകൂട്ടല്" parent="plug-in-displace" sort="12.3.5"/>
+  <help-item id="plug-in-fractal-trace" ref="plug-in-fractal-trace.html" title="12.4. ഫ്രാക്റ്റലിന് ട്രെയ്സ്" parent="filters-map" sort="12.4"/>
+  <help-item id="plug-in-illusion" ref="plug-in-illusion.html" title="12.5. മിഥാബോധം" parent="filters-map" sort="12.5"/>
+  <help-item id="plug-in-make-seamless" ref="plug-in-make-seamless.html" title="12.6. അനന്തമായ നടത്തുക" parent="filters-map" sort="12.6"/>
+  <help-item id="plug-in-map-object" ref="plug-in-map-object.html" title="12.7. മാപ്പ് ഒബ്ജക്റ്റ്" parent="filters-map" sort="12.7"/>
+  <help-item id="plug-in-papertile" ref="plug-in-papertile.html" title="12.8. പേപ്പർ ടൈൽ" parent="filters-map" sort="12.8"/>
+  <help-item id="plug-in-small-tiles" ref="plug-in-small-tiles.html" title="12.9. ചെറിയ ടൈലുകൾ" parent="filters-map" sort="12.9"/>
+  <help-item id="plug-in-tile" ref="plug-in-tile.html" title="12.10. ടൈൽ" parent="filters-map" sort="12.10"/>
+  <help-item id="plug-in-warp" ref="plug-in-warp.html" title="12.11. റാപ്പ്" parent="filters-map" sort="12.11"/>
+  <help-item id="filters-render" ref="filters-render.html" title="13. റെൻഡർ ഫിൽട്ടറുകൾ" parent="filters" sort="13"/>
+  <help-item id="filters-render-introduction" ref="filters-render.html#filters-render-introduction" title="13.1. അവതാരിക" parent="filters-render" sort="13.1"/>
+  <help-item id="script-fu-difference-clouds" ref="script-fu-difference-clouds.html" title="13.2. വ്യത്യാസം മേഘങ്ങൾ" parent="filters-render" sort="13.2"/>
+  <help-item id="python-fu-foggify" ref="python-fu-foggify.html" title="13.3. പല്ല്" parent="filters-render" sort="13.3"/>
+  <help-item id="plug-in-plasma" ref="plug-in-plasma.html" title="13.4. പ്ലാസ്മ" parent="filters-render" sort="13.4"/>
+  <help-item id="plug-in-solid-noise" ref="plug-in-solid-noise.html" title="13.5. സോളിഡ് നോയ്സ്" parent="filters-render" sort="13.5"/>
+  <help-item id="plug-in-flame" ref="plug-in-flame.html" title="13.6. തീനാളം" parent="filters-render" sort="13.6"/>
+  <help-item id="plug-in-ifscompose" ref="plug-in-ifscompose.html" title="13.7. ഐ.എഫ്.എസ് ഫ്രാക്റ്റലിന്" parent="filters-render" sort="13.7"/>
+  <help-item id="plug-in-ifsfractal" ref="plug-in-ifscompose.html#plug-in-ifsfractal" title="(ഐ.എഫ്.എസ് ഫ്രാക്റ്റലിന്)" parent="plug-in-ifscompose" sort="13.7.0.3"/>
+  <help-item id="plug-in-checkerboard" ref="plug-in-checkerboard.html" title="13.8. ചെക്ക്ബോർഡ്" parent="filters-render" sort="13.8"/>
+  <help-item id="plug-in-cml-explorer" ref="plug-in-cml-explorer.html" title="13.9. സിഎംഎൽ എക്സ്പ്ലോറർ" parent="filters-render" sort="13.9"/>
+  <help-item id="plug-in-diffraction" ref="plug-in-diffraction.html" title="13.10. diffraction പാറ്റേണുകൾ" parent="filters-render" sort="13.10"/>
+  <help-item id="plug-in-grid" ref="plug-in-grid.html" title="13.11. ഗ്രിഡ്" parent="filters-render" sort="13.11"/>
+  <help-item id="plug-in-jigsaw" ref="plug-in-jigsaw.html" title="13.12. jigsaw" parent="filters-render" sort="13.12"/>
+  <help-item id="plug-in-maze" ref="plug-in-maze.html" title="13.13. സങ്കീർണ്ണമായ" parent="filters-render" sort="13.13"/>
+  <help-item id="plug-in-qbist" ref="plug-in-qbist.html" title="13.14. മിസ്ഡ്" parent="filters-render" sort="13.14"/>
+  <help-item id="plug-in-sinus" ref="plug-in-sinus.html" title="13.15. എല്ലിന്റെ ഉള്ളിലെ സുഷിരം" parent="filters-render" sort="13.15"/>
+  <help-item id="script-fu-circuit" ref="script-fu-circuit.html" title="13.16. സർക്യൂട്ട്" parent="filters-render" sort="13.16"/>
+  <help-item id="plug-in-fractalexplorer" ref="plug-in-fractalexplorer.html" title="13.17. ഫ്രാക്റ്റലിന് എക്സ്പ്ലോറർ" parent="filters-render" sort="13.17"/>
+  <help-item id="plug-in-gfig" ref="plug-in-gfig.html" title="13.18. Gfig" parent="filters-render" sort="13.18"/>
+  <help-item id="plug-in-gfig-options" ref="plug-in-gfig.html#plug-in-gfig-options" title="13.18.3. ഓപ്ഷനുകൾ" parent="plug-in-gfig" sort="13.18.3"/>
+  <help-item id="plug-in-gfig-toolbar" ref="plug-in-gfig.html#plug-in-gfig-toolbar" title="13.18.3.1. Gfig ടൂൾ ബാർ" parent="plug-in-gfig-options" sort="13.18.3.1"/>
+  <help-item id="plug-in-gfig-mainwindow" ref="plug-in-gfig.html#plug-in-gfig-mainwindow" title="13.18.3.2. Gfig പ്രധാന ജാലകം" parent="plug-in-gfig-options" sort="13.18.3.2"/>
+  <help-item id="script-fu-lava" ref="script-fu-lava.html" title="13.19. ദവശില" parent="filters-render" sort="13.19"/>
+  <help-item id="script-fu-line-nova" ref="script-fu-line-nova.html" title="13.20. ലൈൻ നോവ" parent="filters-render" sort="13.20"/>
+  <help-item id="plug-in-spheredesigner" ref="plug-in-spheredesigner.html" title="13.21. പനോരമ ഡിസൈനർ" parent="filters-render" sort="13.21"/>
+  <help-item id="script-fu-spyrogimp" ref="script-fu-spyrogimp.html" title="13.22. Spyrogimp" parent="filters-render" sort="13.22"/>
+  <help-item id="filters-web" ref="filters-web.html" title="14. വെബ് ഫിൽട്ടറുകൾ" parent="filters" sort="14"/>
+  <help-item id="filters-web-introduction" ref="filters-web.html#filters-web-introduction" title="14.1. അവതാരിക" parent="filters-web" sort="14.1"/>
+  <help-item id="plug-in-imagemap" ref="plug-in-imagemap.html" title="14.2. ImageMap" parent="filters-web" sort="14.2"/>
+  <help-item id="plug-in-semiflatten" ref="plug-in-semiflatten.html" title="14.3. സെമി പരത്തുക" parent="filters-web" sort="14.3"/>
+  <help-item id="python-fu-slice" ref="python-fu-slice.html" title="14.4. പൂളുക" parent="filters-web" sort="14.4"/>
+  <help-item id="filters-animation" ref="filters-animation.html" title="15. ആനിമേഷൻ ഫിൽട്ടറുകൾ" parent="filters" sort="15"/>
+  <help-item id="filters-animation-introduction" ref="filters-animation.html#filters-animation-introduction" title="15.1. അവതാരിക" parent="filters-animation" sort="15.1"/>
+  <help-item id="script-fu-blend-anim" ref="script-fu-blend-anim.html" title="15.2. കൂട്ടിക്കലര്ത്തുക" parent="filters-animation" sort="15.2"/>
+  <help-item id="script-fu-burn-in-anim" ref="script-fu-burn-in-anim.html" title="15.3. ബേൺ ഇൻ" parent="filters-animation" sort="15.3"/>
+  <help-item id="script-fu-ripply-anim" ref="script-fu-ripply-anim.html" title="15.4. ഓളമിളകുന്ന" parent="filters-animation" sort="15.4"/>
+  <help-item id="script-fu-spinning-globe" ref="script-fu-spinning-globe.html" title="15.5. സ്പിന്നിംഗ് ഗ്ലോബ്" parent="filters-animation" sort="15.5"/>
+  <help-item id="script-fu-waves-anim" ref="script-fu-waves-anim.html" title="15.6. വേവ്സ്" parent="filters-animation" sort="15.6"/>
+  <help-item id="plug-in-optimize" ref="plug-in-optimize.html" title="15.7. ഒപ്റ്റിമൈസുചെയ്യുക" parent="filters-animation" sort="15.7"/>
+  <help-item id="plug-in-animationoptimize" ref="plug-in-optimize.html#plug-in-animationoptimize" title="((GIF വേണ്ടി) അനുരൂപമാക്കുക)" parent="plug-in-optimize" sort="15.7.0.3"/>
+  <help-item id="plug-in-animationoptimize-diff" ref="plug-in-optimize.html#plug-in-animationoptimize-diff" title="((വ്യത്യാസം) ഒപ്റ്റിമൈസുചെയ്യുക)" parent="plug-in-optimize" sort="15.7.0.4"/>
+  <help-item id="plug-in-animationunoptimize" ref="plug-in-optimize.html#plug-in-animationunoptimize" title="15.7.4. Unoptimize" parent="plug-in-optimize" sort="15.7.4"/>
+  <help-item id="plug-in-animationplay" ref="plug-in-animationplay.html" title="15.8. പ്ലേബാക്ക്" parent="filters-animation" sort="15.8"/>
+  <help-item id="plug-in-playback" ref="plug-in-animationplay.html#plug-in-playback" title="(പ്ലേബാക്ക്)" parent="plug-in-animationplay" sort="15.8.0.3"/>
+  <help-item id="filters-alpha-to-logo" ref="filters-alpha-to-logo.html" title="16. ലോഗോ ഫിൽട്ടറുകൾ ആൽഫ" parent="filters" sort="16"/>
+  <help-item id="filters-alpha-to-logo-introduction" ref="filters-alpha-to-logo.html#filters-alpha-to-logo-introduction" title="16.1. അവതാരിക" parent="filters-alpha-to-logo" sort="16.1"/>
+  <help-item id="script-fu-3d-outline-logo-alpha" ref="script-fu-3d-outline-logo-alpha.html" title="16.2. 3D ഔട്ട്ലൈൻ" parent="filters-alpha-to-logo" sort="16.2"/>
+  <help-item id="script-fu-alien-glow-logo-alpha" ref="script-fu-alien-glow-logo-alpha.html" title="16.3. ഏലിയൻ ഗ്ലോ" parent="filters-alpha-to-logo" sort="16.3"/>
+  <help-item id="script-fu-alien-neon-logo-alpha" ref="script-fu-alien-neon-logo-alpha.html" title="16.4. ഏലിയൻ നിയോൺ" parent="filters-alpha-to-logo" sort="16.4"/>
+  <help-item id="script-fu-basic-logo-alpha" ref="script-fu-basic-logo-alpha.html" title="16.5. അടിസ്ഥാന ഞാൻ &lt;char&gt;amp&lt;/char&gt; രണ്ടാമൻ" parent="filters-alpha-to-logo" sort="16.5"/>
+  <help-item id="script-fu-basic1-logo-alpha" ref="script-fu-basic-logo-alpha.html#script-fu-basic1-logo-alpha" title="(അടിസ്ഥാന ഞാൻ)" parent="script-fu-basic-logo-alpha" sort="16.5.0.3"/>
+  <help-item id="script-fu-basic2-logo-alpha" ref="script-fu-basic-logo-alpha.html#script-fu-basic2-logo-alpha" title="(അടിസ്ഥാന രണ്ടാമൻ)" parent="script-fu-basic-logo-alpha" sort="16.5.0.4"/>
+  <help-item id="script-fu-blended-logo-alpha" ref="script-fu-blended-logo-alpha.html" title="16.6. സവാളും" parent="filters-alpha-to-logo" sort="16.6"/>
+  <help-item id="script-fu-bovinated-logo-alpha" ref="script-fu-bovinated-logo-alpha.html" title="16.7. Bovination" parent="filters-alpha-to-logo" sort="16.7"/>
+  <help-item id="script-fu-chalk-logo-alpha" ref="script-fu-chalk-logo-alpha.html" title="16.8. ചോക്ക്" parent="filters-alpha-to-logo" sort="16.8"/>
+  <help-item id="script-fu-chip-away-logo-alpha" ref="script-fu-chip-away-logo-alpha.html" title="16.9. അകലെ ചിപ്പ്" parent="filters-alpha-to-logo" sort="16.9"/>
+  <help-item id="script-fu-chrome-logo-alpha" ref="script-fu-chrome-logo-alpha.html" title="16.10. ക്രോം" parent="filters-alpha-to-logo" sort="16.10"/>
+  <help-item id="script-fu-chrome-logo-alpha-offset" ref="script-fu-chrome-logo-alpha.html#script-fu-chrome-logo-alpha-offset" title="(ഓഫ്സെറ്റ് (2 പിക്സലുകൾ *))" parent="script-fu-chrome-logo-alpha" sort="16.10.3.0.4"/>
+  <help-item id="script-fu-comic-logo-alpha" ref="script-fu-comic-logo-alpha.html" title="16.11. കോമിക് ബുക്ക്" parent="filters-alpha-to-logo" sort="16.11"/>
+  <help-item id="script-fu-cool-metal-logo-alpha" ref="script-fu-cool-metal-logo-alpha.html" title="16.12. കൂൾ ലോഹ" parent="filters-alpha-to-logo" sort="16.12"/>
+  <help-item id="script-fu-frosty-logo-alpha" ref="script-fu-frosty-logo-alpha.html" title="16.13. മരവിച്ച" parent="filters-alpha-to-logo" sort="16.13"/>
+  <help-item id="script-fu-glossy-logo-alpha" ref="script-fu-glossy-logo-alpha.html" title="16.14. മിനുക്കമുള്ള" parent="filters-alpha-to-logo" sort="16.14"/>
+  <help-item id="script-fu-glowing-logo-alpha" ref="script-fu-glowing-logo-alpha.html" title="16.15. ഹോട്ട് തിളങ്ങുന്ന" parent="filters-alpha-to-logo" sort="16.15"/>
+  <help-item id="script-fu-gradient-bevel-logo-alpha" ref="script-fu-gradient-bevel-logo-alpha.html" title="16.16. ഗ്രേഡിയന്റ് ബിവെൽ" parent="filters-alpha-to-logo" sort="16.16"/>
+  <help-item id="script-fu-neon-logo-alpha" ref="script-fu-neon-logo-alpha.html" title="16.17. നിയോൺ" parent="filters-alpha-to-logo" sort="16.17"/>
+  <help-item id="script-fu-t-o-p-logo-alpha" ref="script-fu-t-o-p-logo-alpha.html" title="16.18. കണം ട്രെയ്സ്" parent="filters-alpha-to-logo" sort="16.18"/>
+  <help-item id="script-fu-textured-logo-alpha" ref="script-fu-textured-logo-alpha.html" title="16.19. ടെക്സ്ചർ" parent="filters-alpha-to-logo" sort="16.19"/>
+  <help-item id="key-reference" ref="key-reference.html" title="I. കീകൾക്കും മൗസ് റഫറൻസ്" parent="gimp-function-reference" sort="66.1"/>
+  <help-item id="key-reference-help" ref="key-reference-help.html" title="സഹായിക്കൂ" parent="key-reference" sort="66.1.0.3"/>
+  <help-item id="key-reference-tools" ref="key-reference-tools.html" title="ഉപകരണങ്ങൾ" parent="key-reference" sort="66.1.0.4"/>
+  <help-item id="key-reference-file" ref="key-reference-file.html" title="ഫയല്" parent="key-reference" sort="66.1.0.5"/>
+  <help-item id="key-reference-dialogs" ref="key-reference-dialogs.html" title="ഡയലോഗുകൾ" parent="key-reference" sort="66.1.0.6"/>
+  <help-item id="key-reference-view" ref="key-reference-view.html" title="കാണുക" parent="key-reference" sort="66.1.0.7"/>
+  <help-item id="key-reference-edit" ref="key-reference-edit.html" title="തിരുത്തുക" parent="key-reference" sort="66.1.0.8"/>
+  <help-item id="key-reference-layer" ref="key-reference-layer.html" title="ലെയർ" parent="key-reference" sort="66.1.0.9"/>
+  <help-item id="key-reference-select" ref="key-reference-select.html" title="തെരഞ്ഞെടുക്കുക" parent="key-reference" sort="66.1.0.10"/>
+  <help-item id="key-reference-filters" ref="key-reference-filters.html" title="ഫിൽട്ടറുകൾ" parent="key-reference" sort="66.1.0.11"/>
+  <help-item id="key-reference-zoom" ref="key-reference-zoom.html" title="സൂം ഉപകരണം" parent="key-reference" sort="66.1.0.12"/>
+  <help-item id="bibliography" ref="bibliography.html" title="ബിബ്ലിയോഗ്രഫി" parent="gimp-main" sort="88"/>
+  <help-item id="bibliography-books" ref="bibliography.html#bibliography-books" title="പുസ്തകങ്ങൾ" parent="bibliography" sort="88.0.3"/>
+  <help-item id="bibliography-online" ref="bibliography.html#bibliography-online" title="ഓൺലൈൻ ഉറവിടങ്ങൾ" parent="bibliography" sort="88.0.4"/>
+  <help-item id="gimp-introduction-history" ref="gimp-introduction-history.html" title="A. ജിമ്പ് ചരിത്രം" parent="gimp-main" sort="77.1"/>
+  <help-item id="gimp-introduction-history-beginning" ref="gimp-introduction-history.html#gimp-introduction-history-beginning" title="1. തുടക്കം" parent="gimp-introduction-history" sort="1"/>
+  <help-item id="gimp-introduction-history-early-days" ref="gimp-introduction-history-early-days.html" title="2. ജിമ് തുടക്കത്തിലെ" parent="gimp-introduction-history" sort="2"/>
+  <help-item id="gimp-introduction-history-1-0" ref="gimp-introduction-history-1-0.html" title="3. ലോക മാറ്റുക വൺ" parent="gimp-introduction-history" sort="3"/>
+  <help-item id="gimp-introduction-history-2-0" ref="gimp-introduction-history-2-0.html" title="4. പതിപ്പ് 2.0" parent="gimp-introduction-history" sort="4"/>
+  <help-item id="gimp-introduction-history-2-2" ref="gimp-introduction-history-2-2.html" title="5. ജിമ്പ് 2.2 പുതുതായി എന്താണുള്ളത്?" parent="gimp-introduction-history" sort="5"/>
+  <help-item id="gimp-introduction-history-2-4" ref="gimp-introduction-history-2-4.html" title="6. ജിമ്പ് 2.4 പുതുതായി എന്താണുള്ളത്?" parent="gimp-introduction-history" sort="6"/>
+  <help-item id="gimp-introduction-history-2-6" ref="gimp-introduction-history-2-6.html" title="7. ജിമ്പ് 2.6 പുതുതായി എന്താണുള്ളത്?" parent="gimp-introduction-history" sort="7"/>
+  <help-item id="gimp-introduction-bugs" ref="gimp-introduction-bugs.html" title="B. പിശകുകൾ ചൂണ്ടിക്കാണിക്കാൻ മെച്ചപ്പെടുത്തലുകളെപ്പറ്റിയും അഭ്യർത്ഥിക്കുന്നു" parent="gimp-main" sort="77.2"/>
+  <help-item id="gimp-bug-confirm" ref="gimp-introduction-bugs.html#gimp-bug-confirm" title="1. ഇതൊരു ബഗ് തുടർന്ന് ഉണ്ടാക്കുന്നു" parent="gimp-introduction-bugs" sort="1"/>
+  <help-item id="gimp-bug-report" ref="gimp-bug-report.html" title="2. ബഗ്" parent="gimp-introduction-bugs" sort="2"/>
+  <help-item id="gimp-bug-submitted" ref="gimp-bug-submitted.html" title="3. നിങ്ങൾ ഇത് സമർപ്പിച്ചുകഴിഞ്ഞാൽ എന്തു ബഗ് റിപ്പോർട്ട് വരെ വരുന്നു" parent="gimp-introduction-bugs" sort="3"/>
+  <help-item id="legal" ref="legal.html" title="C. ഗ്നു സ്വതന്ത്ര പ്രമാണ അനുമതി" parent="gimp-main" sort="77.3"/>
+  <help-item id="gfdl-0" ref="legal.html#gfdl-0" title="1. ആമുഖത്തിൽ" parent="legal" sort="1"/>
+  <help-item id="gfdl-1" ref="gfdl-1.html" title="2. ഉപയോഗക്ഷമതയും നിർവചനങ്ങളും" parent="legal" sort="2"/>
+  <help-item id="gfdl-2" ref="gfdl-2.html" title="3. പദാനുപദ പകർപ്പും" parent="legal" sort="3"/>
+  <help-item id="gfdl-3" ref="gfdl-3.html" title="4. അളവിലുള്ള പകർത്തലുകൾ" parent="legal" sort="4"/>
+  <help-item id="gfdl-4" ref="gfdl-4.html" title="5. പരിഷ്കരണങ്ങൾ" parent="legal" sort="5"/>
+  <help-item id="gfdl-5" ref="gfdl-5.html" title="6. പ്രമാണങ്ങളുടെ സംയോജനം" parent="legal" sort="6"/>
+  <help-item id="gfdl-6" ref="gfdl-6.html" title="7. പ്രമാണങ്ങളുടെ സമാഹാരം" parent="legal" sort="7"/>
+  <help-item id="gfdl-7" ref="gfdl-7.html" title="8. സ്വതന്ത്ര രചനകളുടെ സഞ്ചികാവത്കരണം" parent="legal" sort="8"/>
+  <help-item id="gfdl-8" ref="gfdl-8.html" title="9. വിവർത്തനം" parent="legal" sort="9"/>
+  <help-item id="gfdl-9" ref="gfdl-9.html" title="10. നിർത്തലാക്കൽ" parent="legal" sort="10"/>
+  <help-item id="gfdl-10" ref="gfdl-10.html" title="11. ഈ അനുമതിയുടെ ഭാവി പുനരവലോകനങ്ങൾ" parent="legal" sort="11"/>
+  <help-item id="gfdl-addendum" ref="gfdl-addendum.html" title="12. എങ്ങിനെ പ്രമാണങ്ങളിൽ ഈ അനുമതി ഉപയോഗിക്കാൻ" parent="legal" sort="12"/>
+  <help-missing ref="help-missing.html"/>
+  <help-item id="gimp-help-index" ref="gimp-help-index.html" title="(സൂചിക)" parent="gimp-main" sort="99"/>
+</gimp-help>

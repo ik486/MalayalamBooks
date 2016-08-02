@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>പാഠം 11. ജിമ്പ് നിറം മാനേജ്മെന്റ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="become-a-gimp-wizard.html" title="ഭാഗം II. ഞാൻ എങ്ങനെയാണ് ഒരു GIMP വിസാര്ഡ് ആകാൻ കഴിയും?" />
+    <link rel="prev" href="gimp-imaging-photos.html" title="പാഠം 10. മെച്ചപ്പെടുത്തുന്നു ഫോട്ടോഗ്രാഫുകൾ" />
+    <link rel="next" href="gimp-pimping.html" title="പാഠം 12. Enrich my GIMP" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">പാഠം 11. ജിമ്പ് നിറം മാനേജ്മെന്റ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-imaging-photos.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">ഭാഗം II. ഞാൻ എങ്ങനെയാണ് ഒരു <acronym class="acronym">GIMP</acronym> വിസാര്ഡ് ആകാൻ കഴിയും?</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-pimping.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="chapter">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a id="gimp-imaging-color-management"></a>പാഠം 11. ജിമ്പ് നിറം മാനേജ്മെന്റ്</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>ഉള്ളടക്കത്തിന്റെ പട്ടിക</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="sect1">
+              <a href="gimp-imaging-color-management.html#gimp-concepts-color-management">1. ജിമ് കളർ മാനേജ്മെന്റ്</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-imaging-color-management.html#idp46925509910416">1.1. നിയന്ത്രിത വർക്ക്ഫ്ലോ നോൺ കളർ പ്രശ്നങ്ങൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-imaging-color-management.html#plug-in-icc-profile-set">1.2. നിയന്ത്രിത വർക്ക്ഫ്ലോ ഒരു കളര് ആമുഖം</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+      <div class="sect1">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="gimp-concepts-color-management"></a>1. ജിമ് കളർ മാനേജ്മെന്റ്</h2>
+            </div>
+          </div>
+        </div>
+        <a id="idp46925510739872" class="indexterm"></a>
+        <a id="idp46925510017376" class="indexterm"></a>
+        <p>ഡിജിറ്റല് ഫോട്ടോ ക്യാമറകൾ, സ്കാനറുകൾ പ്രദർശനങ്ങളും പ്രിന്ററുകൾ തുടങ്ങിയ നിങ്ങളുടെ ഡിസൈൻ അല്ലെങ്കിൽ ഫോട്ടോഗ്രാഫി ന്യൂനതകളുണ്ടായിരുന്നു ലെ ഉപയോഗം നിരവധി ഉപകരണങ്ങൾ, സ്വന്തം വർണ്ണ പുനർനിർമാണം വിശേഷലക്ഷണങളുണ്ട്. ആ ഓപ്പണിംഗ്, എഡിറ്റിംഗ്, സംരക്ഷിക്കുന്നത് സമയത്ത് അക്കൗണ്ടിലേക്ക് കൈക്കൊണ്ടില്ലെങ്കിൽ, ദോഷകരമായ പൊരുത്തപ്പെടുത്തലുകൾ ചിത്രങ്ങൾ ഭവിക്കട്ടെ കഴിയും. <acronym class="acronym">GIMP</acronym> ഉപയോഗിച്ച് വെബ് അച്ചടിക്കുകയും ഇരുവരും വേണ്ടി വിശ്വസനീയമായ ഔട്ട്പുട്ട് ഞങ്ങൾക്കുണ്ട് കഴിയും.</p>
+        <div class="figure">
+          <a id="idp46925510162512"></a>
+          <p class="title">
+            <strong>ചിത്രം 11.1. ചിത്ര പ്രക്രിയ വർക്ക്ഫ്ലോ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/using/colormanagement-workflow1.png" alt="ചിത്ര പ്രക്രിയ വർക്ക്ഫ്ലോ" />
+              <div class="caption">
+                <p>കളർ മാനേജുമെന്റ് ഇല്ലാതെ വർക്ക്ഫ്ലോ</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/using/colormanagement-workflow2.png" alt="ചിത്ര പ്രക്രിയ വർക്ക്ഫ്ലോ" />
+              <div class="caption">
+                <p>കളർ മാനേജ്മെന്റ് പ്രോസസ്സ്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="idp46925509910416"></a>1.1. നിയന്ത്രിത വർക്ക്ഫ്ലോ നോൺ കളർ പ്രശ്നങ്ങൾ</h3>
+              </div>
+            </div>
+          </div>
+          <p>നിറം മാനേജ്മെന്റ് ഇല്ലാതെ ചിത്രം കൃത്രിമത്വം അടിസ്ഥാന പ്രശ്നം നിങ്ങൾ ലളിതമായി നിങ്ങൾ പ്രവർത്തിക്കുന്നതിനെ കാണുന്നില്ല എന്നതാണ്. ഈ രണ്ടു വ്യത്യസ്ത പ്രദേശങ്ങൾ ബാധിക്കുന്നു:</p>
+          <div class="orderedlist">
+            <ol class="orderedlist" type="1">
+              <li class="listitem">
+                <p>ക്യാമറകൾ, സ്കാനറുകൾ, പ്രദർശിപ്പിക്കുകയോ അല്ലെങ്കിൽ പ്രിന്ററുകൾ വിവിധ ഉപകരണങ്ങളുടെ വ്യത്യസ്ത നിറം സ്വഭാവസവിശേഷതകൾ മൂലമാണ് നിറങ്ങളിലും വ്യത്യാസങ്ങൾ ഉണ്ട്</p>
+              </li>
+              <li class="listitem">
+                <p>colorspace പരിമിതികൾ മൂലമാണ് നിറങ്ങളിലും വ്യത്യാസങ്ങൾ ഉണ്ട് ഒരു പ്രത്യേക ഉപകരണം കൈകാര്യം ശക്തൻ</p>
+              </li>
+            </ol>
+          </div>
+          <p>നിറം മാനേജ്മെന്റ് പ്രധാന ഉദ്ദേശ്യം ഇത്തരം പ്രശ്നങ്ങൾ ഒഴിവാക്കുക എന്നതാണ്. അങ്ങനെ ചെയ്യാൻ എടുത്ത സമീപനം ഒരു ചിത്രം അല്ലെങ്കിൽ ഉപകരണങ്ങളിലേക്ക് സ്വഭാവം നിറം ഒരു വിവരണത്തിന്റെ പുറമേ കേന്ദ്രീകരിക്കുന്നു.</p>
+          <p>ഈ വിവരണങ്ങൾ <span class="emphasis"><em>color profile</em></span> വിളിക്കുന്നു. തൊഴിലാളി-സ്പേസ് അങ്ങനെ വിളിച്ചു - ഒരു നിറം പ്രൊഫൈൽ അടിസ്ഥാനപരമായി ഒരു ഉപകരണം-സ്വതന്ത്ര കളർ സ്പേസ് ഒരു ഉപകരണത്തിന്റെ നിർദ്ദിഷ്ട വർണ്ണ സ്വഭാവം വിവർത്തനം ചെയ്യാൻ ലുക്ക് അപ്പ് മേശ. എല്ലാ ഇമേജ് കൃത്രിമത്വം പ്രവർത്തിക്കുന്നുണ്ടെന്ന്-ബഹിരാകാശത്ത് ചിത്രങ്ങൾ ചെയ്തു. ഇതോടൊപ്പം ഒരു ഉപകരണം നിറം പ്രൊഫൈൽ നിറങ്ങൾ ആ ഉപകരണത്തിൽ നോക്കും എങ്ങനെ ഒക്കെ ഉപയോഗിക്കാൻ കഴിയും.</p>
+          <p>നിറം പ്രൊഫൈലുകൾ സൃഷ്ടിക്ക് ഏറ്റവും പലപ്പോഴും ഉപകരണങ്ങൾ തങ്ങളെ നിർമാതാവ് നടക്കുന്ന. പ്ലാറ്റ്ഫോം ഓപ്പറേറ്റിംഗ് സിസ്റ്റത്തിന്റെ ഈ പ്രൊഫൈലുകൾ ജാലകസംവിധാനങ്ങൾ സ്വതന്ത്ര വരുത്തുന്നതിനായി, ഐസിസി (ഇന്റർനാഷണൽ കളർ കൺസോർഷ്യം) നിറം പ്രൊഫൈലുകൾ ഫയലുകൾ ശേഖരിച്ചിരിക്കുന്ന ചിത്രങ്ങളും എംബഡ് അവ എങ്ങനെ വിവരിക്കുന്ന ഐസിസി-പ്രൊഫൈൽ എന്ന ഒരു സാധാരണ സൃഷ്ടിച്ചു.</p>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="plug-in-icc-profile-set"></a>1.2. നിയന്ത്രിത വർക്ക്ഫ്ലോ ഒരു കളര് ആമുഖം</h3>
+              </div>
+            </div>
+          </div>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[സൂചന]" src="images/tip.png" />
+                </td>
+                <th align="left">സൂചന</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>ഇവിടെ വിവരിച്ച പാരാമീറ്ററുകൾ പ്രൊഫൈലുകളും മിക്ക <acronym class="acronym">GIMP</acronym> മുൻഗണനകൾ സെറ്റ് ചെയ്യാം. വിശദാംശങ്ങൾക്കായി ദയവായി <a class="xref" href="">???</a> കാണും.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="plug-in-icc-profile-apply"></a>1.2.1. ഇൻപുട്ട്</h4>
+                </div>
+              </div>
+            </div>
+            <p>ഏറ്റവും ഡിജിറ്റൽ ക്യാമറകൾ ഉപയോക്തൃ ഇടപെടൽ ഇല്ലാതെ വ്യക്തിഗത ഫോട്ടോ ഫയലുകളിൽ ഒരു കളർ പ്രൊഫൈൽ ഉൾക്കൊള്ളിക്കുക. ഡിജിറ്റൽ സ്കാനറുകൾ സാധാരണയായി അവർ സ്കാൻ ചിത്രങ്ങൾ ഘടിപ്പിയ്ക്കുന്നവ ഒരു കളർ പ്രൊഫൈൽ, വരും.</p>
+            <div class="figure">
+              <a id="idp46925510037104"></a>
+              <p class="title">
+                <strong>ചിത്രം 11.2. ഐസിസി-പ്രൊഫൈൽ ബാധകമാക്കുന്നത്</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/icc-apply.png" alt="ഐസിസി-പ്രൊഫൈൽ ബാധകമാക്കുന്നത്" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p>ഒരു എംബഡഡ് നിറം പ്രൊഫൈൽ ഉപയോഗിച്ച് ഒരു ചിത്രം തുറക്കുമ്പോൾ, <acronym class="acronym">GIMP</acronym> ആർജിബി അധ്വാനിക്കുന്ന കളർ സ്പേസ് ഫയൽ പരിവർത്തനം പ്രദാനം ചെയ്യുന്നു. ഈ സ്വതവേ രീതി അത് എല്ലാ വേലയും കളർ സ്പേസ് നടക്കുന്ന ഉചിതം. എന്നിരുന്നാലും എംബഡഡ് നിറം സൂക്ഷിക്കാൻ തീരുമാനിക്കുകയാണെങ്കില് ഇമേജ് എന്നിരുന്നാലും ഇപ്പോഴും ശരിയായി ദൃശ്യമാകും.</p>
+            <p>ചില കാരണങ്ങളാൽ കേസിൽ ഒരു നിറം പ്രൊഫൈൽ ചിത്രം ഉൾച്ചേത്തിരിക്കുന്നതിന് അല്ല നിങ്ങൾ അറിയുന്നു (അല്ലെങ്കിൽ ഒരു നല്ല ഊഹം ഉണ്ട്) അത് ആയിരിക്കണം ഒന്നു, നിങ്ങൾ സ്വയം ആ ചിത്രം അത് നിർണയിക്കാൻ കഴിയും.</p>
+          </div>
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="gimp-concepts-cm-display"></a>1.2.2. പ്രദർശിപ്പിക്കുക</h4>
+                </div>
+              </div>
+            </div>
+            <p>മികച്ച ഫലങ്ങൾക്ക്, നിങ്ങളുടെ മോണിറ്റർ വർണ പ്രൊഫൈൽ ആവശ്യമാണ്. ഒരു മോണിറ്ററിന്റെ പ്രൊഫൈൽ, കോൺഫിഗർ സിസ്റ്റം-അല്ലെങ്കിൽ <acronym class="acronym">GIMP</acronym> മുൻഗണനകൾ ഡയലോഗ് നിറം മാനേജ്മെന്റ് വിഭാഗത്തിൽ, ഇമേജ് നിറങ്ങൾ ഏറ്റവും കൃത്യമായി ദൃശ്യമാകും.</p>
+            <p>ഏറ്റവും പ്രധാനപ്പെട്ട <acronym class="acronym">GIMP</acronym> ഒരുത്തൻ കളർ മാനേജ്മെന്റ് പ്രവർത്തിക്കുന്നതിനുള്ള ആജ്ഞകൾ <a class="xref" href="">???</a> വിശദീകരിച്ചിട്ടുണ്ട്.</p>
+            <p>നിങ്ങളുടെ മോണിറ്റർ വർണ പ്രൊഫൈൽ ഇല്ലെങ്കിൽ, നിങ്ങൾ ഹാർഡ്വെയർ കാലിബ്രേഷൻ, അളക്കാനുള്ള ഉപകരണങ്ങൾ ഉപയോഗിച്ച് ഉണ്ടാക്കുന്നു. ന് യുണിക്സ് സംവിധാനങ്ങൾ നിങ്ങൾക്ക് നിറം പ്രൊഫൈലുകൾ സൃഷ്ടിക്കാൻ <span class="productname">Argyll Color Management System</span> <a class="xref" href="bibliography.html#bibliography-online-argyllcms" title="Argyll കളർ മാനേജ്മെന്റ് സിസ്റ്റം ഹോം പേജ്">[<abbr class="abbrev">ARGYLLCMS</abbr>]</a> / അല്ലെങ്കിൽ <span class="productname">LProf</span> <a class="xref" href="bibliography.html#bibliography-online-lprof" title="ഐസിസി പ്രൊഫൈലർ LPROF">[<abbr class="abbrev">LPROF</abbr>]</a> ആവശ്യമാണ്.</p>
+            <div class="sect4">
+              <div class="titlepage">
+                <div>
+                  <div>
+                    <h5 class="title"><a id="gimp-concepts-cm-display-profiling"></a>1.2.2.1. പ്രദർശിപ്പിക്കുക കാലിബ്രേഷൻ ആൻഡ് പ്രോഫില്ലിംഗ്</h5>
+                  </div>
+                </div>
+              </div>
+              <a id="idp46925510592752" class="indexterm"></a>
+              <a id="idp46925510593616" class="indexterm"></a>
+              <p>ഡിസ്പ്ലേകളിലും ഉൾപ്പെട്ട രണ്ടു ഘട്ടങ്ങൾ ഇവയാണ്. വൺ കാലിബ്രേഷൻ വിളിക്കുന്നു മറ്റ് പ്രൊഫൈലിംഗ് വിളിക്കുന്നു. എതിരെ, കാലിബ്രേഷൻ സാധാരണയായി രണ്ടു ഘട്ടങ്ങൾ ഉൾപ്പെട്ടിരിക്കുന്നു. ആദ്യ പോലുള്ള തീവ്രത, തെളിച്ചം, കളർ താപനില തുടങ്ങിയവ ബാഹ്യ മോണിറ്റർ നിയന്ത്രണങ്ങൾ ക്രമീകരിച്ചുകൊണ്ട് കേന്ദ്രീകരിക്കുന്നു, ഒപ്പം നിർദ്ദിഷ്ട മോണിറ്ററിൽ അനുസരിച്ചിരിക്കും ആണ്. കൂടാതെ കഴിയുന്നത്ര ഒരു സാധാരണ നിലയിലേക്ക് അടുത്തുവരെ മോണിറ്റർ കൊണ്ടുവരാൻ വീഡിയോ കാർഡ് മെമ്മറി ലോഡ് എന്ന് കൂടുതൽ അഡ്ജസ്റ്റ്മെന്റ് ഉണ്ട്. ഈ വിവരം vgct ടാഗ് വിളിച്ചു so- നിരീക്ഷിക്കുന്നതിനായി പ്രൊഫൈൽ ശേഖരിക്കും. ഒരുപക്ഷെ വിൻഡോസ് XP അല്ലെങ്കിൽ മാക് ഒഎസ്, ഓപ്പറേറ്റിങ് സിസ്റ്റം കീഴിൽ ഈ വിവരങ്ങൾ (ലൂത്വ്) നിങ്ങളുടെ കമ്പ്യൂട്ടറിൽ തുടങ്ങുന്ന പ്രക്രിയയിൽ വീഡിയോ കാർഡ്. ലിനക്സ് കീഴിൽ ഇപ്പോൾ പോലുള്ള xcalib അല്ലെങ്കിൽ dispwin ഒരു ബാഹ്യ പ്രോഗ്രാം ഉപയോഗിക്കേണ്ടതുണ്ട്. (ഒറ്റ അത്തരം നോർമൻ Koren പോലെ ഒരു വെബ് സൈറ്റ് ഉപയോഗിച്ച് ഒരു ലളിതമായ വിഷ്വൽ കാലിബ്രേഷൻ ചെയ്താൽ മാത്രമേ xgamma ഗാമാ മൂല്യം ലോഡുചെയ്യാൻ ഉപയോഗിച്ചേക്കാം.)</p>
+              <p>രണ്ടാമത്തെ ഘട്ടം പ്രൊഫൈലിങിനുള്ള, <acronym class="acronym">GIMP</acronym> സ്ക്രീനിൽ ഉചിതമായ നിറങ്ങൾ ചിത്രം ഫയലിൽ ആർജിബി മൂല്യങ്ങൾ വിവർത്തനം അനുവദിക്കുന്നു ഒരു കൂട്ടം നിയമങ്ങളാണ് ലഭിച്ചത്. ഇതും മോണിറ്റർ പ്രൊഫൈൽ ശേഖരിക്കും. ഇത് ഇമേജിൽ ആർജിബി മൂല്യങ്ങൾ മാറില്ല, എന്നാൽ അത് മൂല്യങ്ങൾ വീഡിയോ കാർഡ് (ഇതിനകം vgct ലൂത്വിൻറെ അടങ്ങുന്ന) അയച്ചിരിക്കുന്ന മാറ്റാൻ ചെയ്യുന്നു.</p>
+            </div>
+          </div>
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="idp46925510599584"></a>1.2.3. പ്രിന്റ് സിമുലേഷൻ</h4>
+                </div>
+              </div>
+            </div>
+            <p><acronym class="acronym">GIMP</acronym> ഉപയോഗിക്കുന്നു, എളുപ്പത്തിൽ നിങ്ങളുടെ ഇമേജ് പേപ്പറിൽ പോലെയുള്ള കാര്യങ്ങളുടെ ഒരു പ്രിവ്യൂ ലഭിക്കും. നിങ്ങളുടെ പ്രിന്റർ വർണ പ്രൊഫൈൽ കിട്ടിയ ഡിസ്പ്ലേ സോഫ്റ്റ് പ്രൂഫ് മോഡിലേക്ക് കഴിയും. അത്തരം ഒരു കൃത്രിമ പ്രിന്റ്ഔട്ടിൽ ൽ പുനർനിർമ്മിക്കാവുന്നതാണ് കഴിയാത്ത നിറങ്ങൾ ഓപ്ഷണലായി നിഷ്പക്ഷ ചാര നിറവും, നിങ്ങൾ പ്രിന്ററിന്റെ നിങ്ങളുടെ ചിത്രങ്ങൾ അയയ്ക്കുന്നതിന് മുമ്പ് ഇത്തരം തെറ്റുകൾ തിരുത്താൻ അനുവദിച്ചുകൊണ്ട് അടയാളപ്പെടുത്തും.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-imaging-photos.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="become-a-gimp-wizard.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-pimping.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-imaging-photos.html">പാഠം 10. മെച്ചപ്പെടുത്തുന്നു ഫോട്ടോഗ്രാഫുകൾ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-pimping.html">പാഠം 12. Enrich my GIMP</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

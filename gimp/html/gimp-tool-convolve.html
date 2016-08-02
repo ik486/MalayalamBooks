@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.14. Blur/Sharpen</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-tools-paint.html" title="3. പെയിന്റ് ഉപകരണങ്ങൾ" />
+    <link rel="prev" href="gimp-tool-perspective-clone.html" title="3.13. കാഴ്ചപ്പാട് ക്ലോൺ" />
+    <link rel="next" href="gimp-tool-smudge.html" title="3.15. സ്മഡ്ജ്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.14. Blur/Sharpen</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-tool-perspective-clone.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. പെയിന്റ് ഉപകരണങ്ങൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-tool-smudge.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-tool-convolve"></a>3.14. Blur/Sharpen</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925514946336" class="indexterm"></a>
+      <a id="idp46925514947696" class="indexterm"></a>
+      <div class="figure">
+        <a id="idp46925514948592"></a>
+        <p class="title">
+          <strong>ചിത്രം 14.93. Blur/Sharpen tool icon in the Toolbox</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/toolbox/toolbox-blur.png" alt="Blur/Sharpen tool icon in the Toolbox" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>ഇഫക്റ്റ് / മൂര്ച്ചകൂട്ടല്പ്രഭാവംടോഗിള്ചെയ്യുക പ്രയോഗം പ്രാദേശികമായി മങ്ങിക്കുന്നതോ നിങ്ങളുടെ ചിത്രം മൂർച്ച നിലവിലെ ബ്രഷ് ഉപയോഗിക്കുന്നു. നിങ്ങളുടെ ചിത്രത്തിൻറെ ഏതെങ്കിലും ഗ്രൂപ്പിലെ വളരെയധികം നിലകൊള്ളുന്നു, നിങ്ങൾ അത് ഹാർഡ്നെസ്സ് ആഗ്രഹിക്കുന്നുവെങ്കിൽ അത് കൊണ്ട് ബ്ലറിംഗോ ഉപയോഗപ്പെടും. നിങ്ങൾ ഒരു മുഴുവൻ പാളി, ഒന്നോ ഒരു വലിയ ഭാഗം ബ്ലർ ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, നിങ്ങൾ ഒരുപക്ഷേ <a class="link" href="filters-blur.html" title="2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ">Blur Filters</a> ഒന്ന് ഉപയോഗിച്ച് നല്ലത് ചെയ്യും. ഒരു brushstroke ദിശയിൽ ഫലമില്ല: നിങ്ങൾ ദിശയിലുമുള്ള മങ്ങിക്കലിന് ആഗ്രഹിക്കുന്നുവെങ്കിൽ, ഉപയോഗിക്കാൻ സ്മഡ്ജ് ടൂൾ.</p>
+      <p><span class="quote">“<span class="quote">Sharpen</span>”</span> മോഡിൽ, ഉപകരണം എവിടെ ബ്രഷ് പ്രയോഗിക്കുന്നു തീവ്രത വർദ്ധിച്ചുവരുന്ന പ്രവർത്തിക്കുന്നു. ഈ കുറച്ചു പ്രയോജനപ്പെടുന്നത്, പക്ഷേ over- അപ്ലിക്കേഷൻ മുഴക്കം താനേ വന്നുകൊള്ളും. <a class="link" href="">Enhancement Filters</a> ചില പ്രത്യേകിച്ച് <a class="link" href="">Unsharp Mask</a>, ഒരു പാളി മേഖലകളിലെ മൂർച്ച വളരെ ക്ലീനറും ജോലി ചെയ്യാൻ.</p>
+      <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+        <table border="0" summary="Tip">
+          <tr>
+            <td rowspan="2" align="center" valign="top" width="25">
+              <img alt="[സൂചന]" src="images/tip.png" />
+            </td>
+            <th align="left">സൂചന</th>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <p>നിങ്ങൾ ക്ലോൺ ഉപകരണം ഉപയോഗിച്ച് ഒരു വഴക്കങ്ങൾ ഷാർപ്പെനിംഗോ ബ്രഷ് സൃഷ്ടിക്കാൻ കഴിയും. ഇത് ചെയ്യുന്നതിന്, നിങ്ങൾ പ്രവർത്തിക്കുന്ന ഒരു ഷാർപ്പെനിംഗോ ഫിൽട്ടർ പ്രവർത്തിപ്പിക്കാൻ ആഗ്രഹമുണ്ടോ പാളി പകർപ്പിൽ, അൺഷാർപ്പ് മാസ്ക് പോലുള്ള തനിപ്പകർപ്പാക്കുന്നത് ആരംഭിക്കുക. അപ്പോൾ ക്ലോൺ ഉപകരണം സജീവമാക്കുന്നതിന്, അതിന്റെ ടൂൾ ഓപ്ഷനുകൾ ലെ <span class="quote">“<span class="quote">Registered</span>”</span> ലേക്ക് <span class="quote">“<span class="quote">Image source</span>”</span> ആൻഡ് അലൈന്മെന്റ് ലേക്ക് ഉറവിടം സജ്ജമാക്കി. പോലുള്ള സ്രോതസ്സ് ചിത്രം ഉണ്ടാക്കുവാൻ പകർപ്പിൽ അപ്പോൾ 10. <span class="keycap"><strong>Ctrl</strong></span> -click, കഴിയാൻ മൂല്യം ചുമർചിത്രത്തിന്റെ സജ്ജമാക്കുക. ഇപ്പോൾ യഥാർത്ഥ പാളി ന് പെയിന്റ്, നിങ്ങൾ ഒരുമിച്ചു, ബ്രഷ് എവിടെ പ്രയോഗിക്കപ്പെടുന്നതിനെത്തുടർന്ന് unsharpened പതിപ്പുമായി മൂർച്ചകൂട്ടി പതിപ്പ് ഇളക്കുക, ചെയ്യും.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <p>രണ്ടും മങ്ങിക്കലും വർദ്ധനവനുസരിച്ച് പണി മൂർച്ച: വിസ്തൃതിയിൽ ആവർത്തിച്ച് ബ്രഷ് കൊണ്ട് പരസ്പരം അധിക പാസ് ഉപയോഗിച്ച് പ്രാബല്യത്തിൽ വർദ്ധിപ്പിക്കും. നിരക്ക് നിയന്ത്രണം താങ്കൾ കൈവരിക്കും എങ്ങനെ വേഗത്തിൽ നിർണ്ണയിക്കാൻ അനുവദിക്കുന്നു. അതാര്യത നിയന്ത്രണം എന്നിരുന്നാലും, പരിഗണിക്കാതെ തീർത്തതു എത്ര പാസുകൾ, ഒരു ഒറ്റ brushstroke നിർമ്മിക്കുന്ന കഴിയും ബ്ലറിംഗ് അളവ് പരിമിതപ്പെടുത്താൻ ഉപയോഗിക്കാൻ കഴിയും.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925514962080"></a>3.14.1. ടൂൾ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഉപകരണം സജീവമാക്കുന്നതിന് വിവിധ സാധ്യതകളും ഉണ്ട്:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+          From the image-menu:
+          <span class="guimenu">Tools</span> → <span class="guisubmenu">Paint tools</span> → <span class="guimenuitem">Blur/Sharpen</span>.
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          The Tool can also be called by clicking the tool icon:
+          <span class="guiicon">
+            <img src="images/toolbox/stock-tool-blur-22.png" />
+          </span>
+          in the Toolbox.
+        </p>
+            </li>
+            <li class="listitem">
+              <p>കീബോർഡ് കുറുക്കുവഴി <span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>U</strong></span> ഉപയോഗിക്കുന്നതിലൂടെ.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925514970432"></a>3.14.2. കീ മോഡിഫയറുകൾ (സ്ഥിരസ്ഥിതികളിലേക്ക്)</h4>
+            </div>
+          </div>
+        </div>
+        <p>എല്ലാ പെയിന്റ് പ്രയോഗങ്ങളിൽ അതേ പ്രതീതി കീ മോഡിഫയറുകൾക്കുള്ളകീബോർഡ് ഒരു വിവരണം വേണ്ടി <a class="link" href="gimp-tools-paint.html#gimp-tool-brush" title="3.1. സാധാരണ സവിശേഷതകൾ">Paint Tools' Common Features</a> കാണുക.</p>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">
+                <span class="keycap">
+                  <strong>Ctrl,</strong>
+                </span>
+              </span>
+            </dt>
+            <dd>
+              <p>ഇഫക്റ്റ്, മോഡുകൾ മൂർച്ച തമ്മിലുള്ള <span class="keycap"><strong>Ctrl</strong></span> കീ ടോഗിൾ താഴേയ്ക്കാക്കുമ്പോൾ; അതു ടൂൾ ഓപ്ഷനുകൾ കാണിച്ചിരിക്കുന്ന ക്രമീകരണം ദിശമാറുന്നതുമായ.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925514975952"></a>3.14.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925514976704"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.94. Tool Options for the Blur/Sharpen tool</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/tool-options-blur-sharpen.png" alt="Tool Options for the Blur/Sharpen tool" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>സാധാരണ, ഉപകരണം ഓപ്ഷനുകൾ ഉടൻ ഒരു ഉപകരണം സജീവമാക്കാൻ പോലെ പണിസഞ്ചി കീഴിൽ ഘടിപ്പിച്ചിട്ടുള്ള ഒരു ജാലകം പ്രദർശിപ്പിക്കും. അഥവാ അങ്ങനെയല്ലെങ്കിൽ, നിങ്ങൾ തിരഞ്ഞെടുത്ത ഉപകരണം ഓപ്ഷൻ വിൻഡോ തുറക്കുന്ന <span class="guimenu">Windows</span> → <span class="guisubmenu">Dockable Windows</span> → <span class="guimenuitem">Tool Options</span> വഴി ഇമേജ് ബാറില് നിന്നും ആക്സസ് ചെയ്യാൻ കഴിയും.</p>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">
+          Opacity; Brush; Dynamics; Dynamics Options; 
+					Apply Jitter; Hard Edges
+        </span>
+            </dt>
+            <dd>പല അല്ലെങ്കിൽ എല്ലാ പെയിന്റ് ഉപകരണങ്ങൾ ബാധകമായ ഉപകരണം ഓപ്ഷനുകൾ ഒരു വിവരണം വേണ്ടി <a class="link" href="gimp-tools-paint.html#gimp-tools-paint-options" title="3.1.2. ടൂൾ ഓപ്ഷനുകൾ">Common Paint Tool Options</a> കാണുക.</dd>
+            <dt>
+              <span class="term">Convolve Type</span>
+            </dt>
+            <dd>
+              <p><span class="emphasis"><em>Blur</em></span> മോഡ് അതുവഴി brushstroke ഏരിയയ്ക്ക് ഉള്ളിൽ പിക്സൽ സാമ്യം വർധിപ്പിക്കുകയും അയൽ പിക്സലുകൾ ഉള്ള ശക്തരോ ചെയ്യേണ്ട ബ്രഷ് ബാധിച്ച ഓരോ പിക്സൽ കാരണമാകുന്നു. <span class="emphasis"><em>Sharpen</em></span> മോഡ് ഓരോ പിക്സൽ മുമ്പ് ആയിരുന്നു അതിൻറെ കൂട്ടുകാരെ കൂടുതൽ വ്യത്യസ്ത ആകാൻ കാരണമായ: അതു brushstroke പ്രദേശത്ത് അകത്ത് തീവ്രത വർദ്ധിപ്പിക്കുന്നു. വളരെയധികം മൂര്ച്ചകൂട്ടല്പ്രഭാവംടോഗിള്ചെയ്യുക ഒരു വൃത്തികെട്ട flocculation വശം അവസാനിക്കുന്നത്. നിങ്ങൾ ഇവിടെ തിരഞ്ഞെടുക്കുന്ന സജ്ജീകരിക്കുന്നത് എന്തുമാകട്ടെ, <span class="keycap"><strong>Ctrl</strong></span> കീ പിടിച്ച് മടങ്ങാം ഞൊടിയിടയിൽ.</p>
+              <p><span class="quote">“<span class="quote">Convolve</span>”</span> മാട്രിക്സ് ഉപയോഗിച്ച് ഒരു ഗണിത രീതി സൂചിപ്പിക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">നിരക്ക്</span>
+            </dt>
+            <dd>
+              <p><span class="guilabel">Rate</span> സ്ലൈഡർ ഇഫക്റ്റ് / മൂര്ച്ചകൂട്ടല്പ്രഭാവംടോഗിള്ചെയ്യുക ബലം സജ്ജമാക്കുന്നു.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-tool-perspective-clone.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-tools-paint.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-tool-smudge.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-tool-perspective-clone.html">3.13. കാഴ്ചപ്പാട് ക്ലോൺ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tool-smudge.html">3.15. സ്മഡ്ജ്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>8.2. കോൺവൊല്യൂഷൻ മാട്രിക്സ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-generic.html" title="8. സാമാന്യ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="filters-generic.html" title="8. സാമാന്യ ഫിൽട്ടറുകൾ" />
+    <link rel="next" href="plug-in-dilate.html" title="8.3. Dilate" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">8.2. കോൺവൊല്യൂഷൻ മാട്രിക്സ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="filters-generic.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">8. സാമാന്യ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-dilate.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-convmatrix"></a>8.2. കോൺവൊല്യൂഷൻ മാട്രിക്സ്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925523830944" class="indexterm"></a>
+      <a id="idp46925517492752" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925520053552"></a>8.2.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഇവിടെ ഒരു ഗണിതശാസ്ത്രം ന്റെ ഡൊമെയ്ൻ. ഫിൽട്ടറുകൾ മിക്ക കോൺവൊല്യൂഷൻ മെട്രിക്സ് ഉപയോഗിക്കുന്നത്. കോൺവൊല്യൂഷൻ മാട്രിക്സ് അരിപ്പ, ഫാൻസി നിങ്ങളെ എടുക്കുന്നു, നിങ്ങൾ ഒരു കസ്റ്റം ഫിൽട്ടർ പണിയും കഴിയും.</p>
+        <p>ഒരു കോൺവൊല്യൂഷൻ മാട്രിക്സ് എന്താണ്? ഇതിന് ഏതാനും പശുക്കൾ അറിയുന്ന ഗണിതശാസ്ത്ര ഉപകരണങ്ങൾ ഉപയോഗിച്ച് ഇല്ലാതെ അത് ഒരു പരുക്കൻ ആശയം ലഭിക്കാൻ സാധ്യതയുണ്ട്. കോൺവൊല്യൂഷൻ <span class="quote">“<span class="quote">kernel</span>”</span> എന്ന മറ്റൊരു ഒരാൾ ഒരു മാട്രിക്സ് ചികിത്സ ആണ്.</p>
+        <p>കോൺവൊല്യൂഷൻ മെട്രിക്സ് ഫിൽട്ടർ ഇടപെടാൻ ചിത്രം ഒരു ആദ്യ മെട്രിക്സ് ഉപയോഗിക്കുന്നു. ചിത്രം ചതുരാകൃതിയിലുള്ള നിർദ്ദേശാങ്കത്തിൽ പിക്സൽ നക്കീരൻ ദ്വിമാന ശേഖരമാണ്. ഉപയോഗിച്ച കേർണൽ നിങ്ങൾ ആഗ്രഹിക്കുന്ന പ്രാബല്യത്തിൽ ആശ്രയിച്ചിരിക്കുന്നു.</p>
+        <p>ജിമ്പ് 5x5 അല്ലെങ്കിൽ 3X3 മെട്രിക്സ് ഉപയോഗിക്കുന്നു. നാം ഏറ്റവും ഉപയോഗിക്കുന്നു അവർ നിങ്ങൾക്ക് ആവശ്യമുള്ള എല്ലാ ഇഫക്റ്റുകൾ മതിയെന്നും മാത്രം 3X3 മെട്രിക്സ് ചിന്തിക്കും. ഒരു കേർണൽ എല്ലാ അതിർത്തി മൂല്യങ്ങൾ പൂജ്യമായി സജ്ജമാക്കി എങ്കിൽ, സിസ്റ്റം ഒരു 3X3 മാട്രിക്സ് കണക്കാക്കുന്നത് ചെയ്യും.</p>
+        <p>ഫിൽട്ടർ പഠനങ്ങൾ ചിത്രത്തിന്റെ തുടർച്ചയായി ഓരോ പിക്സൽ. ഞങ്ങൾ <span class="quote">“<span class="quote">initial pixel</span>”</span> വിളിക്കും അവരിൽ ഓരോ, അതു ഈ പിക്സൽ പൊരുത്തപ്പെടുന്ന മൂല്യം കേർണൽ 8 ചുറ്റുമുള്ള പിക്സൽ മൂല്യങ്ങളുടെ മൂല്യം വർദ്ധിപ്പിക്കുന്നു. അപ്പോൾ അതു ഫലങ്ങളുടെ ചേർക്കുന്നു, പ്രാരംഭ പിക്സൽ ഈ അന്തിമ ഫലം മൂല്യം സജ്ജമാക്കിയിരിക്കുന്നു.</p>
+        <p>ഒരു ഉദാഹരണം:</p>
+        <div class="mediaobject">
+          <img src="images/filters/examples/convolution-calculate.png" />
+        </div>
+        <p>ഇടത്തും ഇമേജ് മാട്രിക്സ് ആണ്: ഓരോ പിക്സൽ അതിന്റെ മൂല്യം കൊണ്ട് അടയാളപ്പെടുത്തി. പ്രാരംഭ പിക്സൽ ചുവന്ന അതിർത്തി ഉണ്ട്. കേർണൽ ആക്ഷൻ പ്രദേശം ഒരു പച്ച ബോർഡർ ഉണ്ട്. നടുവിൽ കെർണലാണു് വലതുഭാഗത്തും കോൺവൊല്യൂഷൻ ഫലമാണ്.</p>
+        <p>തുടർച്ചയായി വായിച്ചു ഫിൽട്ടർ, ഇടത്ത് നിന്ന് വലത്തേയ്ക്ക് മുകളിൽ നിന്നും താഴേക്ക്, കേർണൽ നടപടി പ്രദേശത്തെ എല്ലാ പിക്സലുകൾ: ഇവിടെ സംഭവിച്ചത്. ഇത് കെർണൽ പൊരുത്തപ്പെടുന്ന മൂല്യം അവരിൽ ഓരോ മൂല്യം വർദ്ധിപ്പിച്ചു ഫലങ്ങളും ചേർത്തു. (40 * 0) + (42 * 1) + (46 * 0) + (46 * 0) + (50 * 0) + (55 * 0) + (52 * 0) + (: പ്രാരംഭ പിക്സൽ 42 മാറിയിരിക്കുന്നു 56 * 0) + (58 * 0) = 42. (ഫിൽട്ടർ ചിത്രത്തിൽ എന്നാൽ ഒരു പകർപ്പ് പ്രവർത്തിക്കാത്ത). ഒരു ഗ്രാഫിക്കൽ ഫലമായി, പ്രാരംഭ പിക്സൽ താഴേക്ക് ഒരു പിക്സൽ നീക്കി.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524259216"></a>8.2.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Generic</span> → <span class="guimenuitem">Convolution Matrix</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524261808"></a>8.2.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925524262560"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.150. <span class="quote">“<span class="quote">Convolution matrix</span>”</span> ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/generic/convolution.png" alt="“Convolution matrix” ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">മാട്രിക്സ്</span>
+            </dt>
+            <dd>
+              <p>ഈ 5x5 കേർണൽ മാട്രിക്സ്: നിങ്ങൾ നേരിട്ട് ബോക്സുകൾ കടന്നു മൂല്യങ്ങൾ നൽകുക.</p>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">ഡിവിസര്</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>മുൻ കണക്കുകൂട്ടലിന്റെ ഫലം ഈ ഡിവൈസർ വഴി വേർതിരിച്ചിട്ടുണ്ട്. നിങ്ങൾ പ്രയാസം പിക്സൽ മൂല്യങ്ങളുടെ ശരാശരി തരുന്ന മാട്രിക്സ് വലുപ്പം, തക്കവണ്ണം ഫലം മാറ്റമില്ലാതെ, 9 അല്ലെങ്കിൽ 25 അനുവദിക്കുന്നു, ഉപയോഗിക്കും 1.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">ഓഫ്സെറ്റ്</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>ഈ മൂല്യം ഡിവിഷൻ ഫലം ചേർത്തു. ഫലം നെഗറ്റീവ് ആയിരിക്കാം ഇത് ഉപകാരപ്പെടുന്നതാണ്. ഈ നെഗറ്റീവ് ആയിരിക്കാം ഓഫ്സെറ്റ്.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">അതിർത്തി</span>
+            </dt>
+            <dd>
+              <p>പ്രാരംഭ പിക്സൽ ഒരു അതിർത്തി ഓൺ ആകുമ്പോൾ, കേർണൽ ഒരു ഭാഗം ചിത്രം പുറത്താണ്. നീ ചെയ്യേണ്ടത് എന്തെന്ന് ഫിൽട്ടർ തീരുമാനിക്കുക:</p>
+              <p>
+            <span class="inlinemediaobject"><img src="images/filters/generic/convolution-milord.png" /></span>
+            <span class="inlinemediaobject"><img src="images/filters/generic/convolution-extend.png" /></span>
+            <span class="inlinemediaobject"><img src="images/filters/generic/convolution-wrap.png" /></span>
+            <span class="inlinemediaobject"><img src="images/filters/generic/convolution-crop.png" /></span>
+          </p>
+              <p>ഉറവിട ചിത്രം, <span class="guilabel">Extend</span> അതിർത്തിയിൽ <span class="guilabel">Wrap</span> അതിർത്തിയിൽ <span class="guilabel">Crop</span> അതിർത്തി: ഇടതുവശത്ത് നിന്ന്</p>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">നീട്ടുക</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>കേർണൽ ഈ ഭാഗം അക്കൌണ്ടിലേക്ക് എടുത്തിട്ടില്ലെങ്കിൽ.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">പൊതിയുക</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>അങ്ങനെ ഒരു വശത്ത് കാണാതാവുന്നത് പിക്സലുകൾ ഇപ്പുറത്തു .ശൂന്യമായ കേർണൽ ഈ ഭാഗം, സമ്മുഖ അതിർത്തിയിൽ പിക്സലുകൾ പഠിക്കാം.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">വിള</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>അതിർത്തികളിൽ പിക്സൽ പുതുക്കപ്പെട്ടത് അല്ല, എന്നാൽ അവ വലുപ്പം ചെയ്യുന്നു.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">ചാനലുകൾ</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ അവിടെ ഒന്നോ നിരവധി ചാനലുകൾ അരിപ്പ പ്രവർത്തിക്കും തിരഞ്ഞെടുക്കാം.</p>
+            </dd>
+            <dt>
+              <span class="term">നോർമലൈസ്</span>
+            </dt>
+            <dd>
+              <p>ഈ ഓപ്ഷൻ ചെക്ക് ചെയ്താല്, ഡിവൈസർ കോൺവൊല്യൂഷൻ ഫലമായിരുന്നു മൂല്യം എടുക്കുന്നു. ഈ ഫലം പൂജ്യമായി തുല്യമാണ് എങ്കിൽ (അത് പൂജ്യം ഹരിക്കേണ്ട സാധ്യമല്ല), പിന്നീട് ഗ്രീനിച്ച് 128 പ്രയോഗിക്കുന്നു. നെഗറ്റീവ് എങ്കിൽ (നെഗറ്റീവ് നിറം സാധ്യമല്ല), ഗ്രീനിച്ച് 255 പ്രയോഗിക്കപ്പെടുന്നതിനെത്തുടർന്ന് (inverts ഫലം).</p>
+            </dd>
+            <dt>
+              <span class="term">ആൽഫ-വെയ്റ്റേജിനു</span>
+            </dt>
+            <dd>
+              <p>എങ്കിൽ ഈ ഓപ്ഷൻ ചെക്കുചെയ്തിട്ടില്ലെങ്കിൽ, അരിപ്പ അക്കൗണ്ട് സുതാര്യതയും എടുത്തു ഇല്ല ബ്ലറിംഗ് ചെയ്യുമ്പോൾ ഈ ചില അതിശയിപ്പിക്കുന്ന വ്യവഹാരം ആയിരിക്കാം.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524168496"></a>8.2.4. ഉദാഹരണങ്ങൾ</h4>
+            </div>
+          </div>
+        </div>
+        <p>കേറ്ണലുകൾ ഡിസൈൻ ഉയർന്ന തലങ്ങളിൽ മാത്തമാറ്റിക്സ് അടിസ്ഥാനമാക്കിയുള്ളതാണ്. നിങ്ങൾ ready- വെബിൽ കേർണലുകൾ ഉണ്ടാക്കി കണ്ടെത്താനാകും. ഇവിടെ ഏതാനും ഉദാഹരണങ്ങൾ ഇതാ:</p>
+        <div class="figure">
+          <a id="idp46925524170096"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.151. മൂര്ച്ചവരുത്തുക</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/convolution-sharpen.png" alt="മൂര്ച്ചവരുത്തുക" />
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/generic-taj-convmatrix-sharpen.jpg" alt="മൂര്ച്ചവരുത്തുക" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="figure">
+          <a id="idp46925524174560"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.152. ഇഫക്റ്റ്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/convolution-blur.png" alt="ഇഫക്റ്റ്" />
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/generic-taj-convmatrix-blur.jpg" alt="ഇഫക്റ്റ്" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="figure">
+          <a id="idp46925524178992"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.153. അഗ്രം വർദ്ധിപ്പിക്കാനും</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/convolution-edge.png" alt="അഗ്രം വർദ്ധിപ്പിക്കാനും" />
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/generic-taj-convmatrix-edge-enhance.jpg" alt="അഗ്രം വർദ്ധിപ്പിക്കാനും" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="figure">
+          <a id="idp46925524183472"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.154. അഗ്രം കണ്ടുപിടിക്കൽ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/convolution-edge-detect1.png" alt="അഗ്രം കണ്ടുപിടിക്കൽ" />
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/generic-taj-convmatrix-edge-detect.jpg" alt="അഗ്രം കണ്ടുപിടിക്കൽ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="figure">
+          <a id="idp46925524187936"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.155. എംബോസ്സ്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/convolution-emboss.png" alt="എംബോസ്സ്" />
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/generic-taj-convmatrix-emboss.jpg" alt="എംബോസ്സ്" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="filters-generic.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-generic.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-dilate.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="filters-generic.html">8. സാമാന്യ ഫിൽട്ടറുകൾ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-dilate.html">8.3. Dilate</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

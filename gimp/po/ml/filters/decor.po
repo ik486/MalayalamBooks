@@ -1,0 +1,2140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP-Help 2.8.0\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
+"PO-Revision-Date: 2012-06-01 12:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/fuzzyborder.xml:29(None)
+#: src/filters/decor/coffee.xml:29(None)
+#: src/filters/decor/round-corners.xml:29(None)
+#: src/filters/decor/addborder.xml:29(None)
+#: src/filters/decor/old-photo.xml:29(None)
+#: src/filters/decor/slide.xml:29(None)
+msgid ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
+msgstr ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/fuzzyborder.xml:38(None)
+msgid ""
+"@@image: 'images/filters/examples/decor-taj-fuzzyborder.jpg'; "
+"md5=e1c8616c18bfa8cb4948765e546344b6"
+msgstr ""
+"@@image: 'images/filters/examples/decor-taj-fuzzyborder.jpg'; "
+"md5=e1c8616c18bfa8cb4948765e546344b6"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/fuzzyborder.xml:71(None)
+msgid ""
+"@@image: 'images/filters/decor/fuzzyborder.png'; "
+"md5=cb437dd59f9e88f97fd7ca28adc828ff"
+msgstr ""
+"@@image: 'images/filters/decor/fuzzyborder.png'; "
+"md5=cb437dd59f9e88f97fd7ca28adc828ff"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/fuzzyborder.xml:106(None)
+msgid ""
+"@@image: 'images/filters/examples/fuzzyborder-blur.png'; "
+"md5=573a17db4ab01f59589e83106b554956"
+msgstr ""
+"@@image: 'images/filters/examples/fuzzyborder-blur.png'; "
+"md5=573a17db4ab01f59589e83106b554956"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/fuzzyborder.xml:115(None)
+msgid ""
+"@@image: 'images/filters/examples/fuzzyborder-noblur.png'; "
+"md5=76f2a8e68406da076216116de68d327f"
+msgstr ""
+"@@image: 'images/filters/examples/fuzzyborder-noblur.png'; "
+"md5=76f2a8e68406da076216116de68d327f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/fuzzyborder.xml:127(None)
+msgid ""
+"@@image: 'images/filters/examples/fuzzyborder-blurx16.png'; "
+"md5=28eacae4912acd5e327735c6b9ec2786"
+msgstr ""
+"@@image: 'images/filters/examples/fuzzyborder-blurx16.png'; "
+"md5=28eacae4912acd5e327735c6b9ec2786"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/fuzzyborder.xml:136(None)
+msgid ""
+"@@image: 'images/filters/examples/fuzzyborder-noblurx16.png'; "
+"md5=3f845a5fcb1508c008198fa0b1b887cf"
+msgstr ""
+"@@image: 'images/filters/examples/fuzzyborder-noblurx16.png'; "
+"md5=3f845a5fcb1508c008198fa0b1b887cf"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/fuzzyborder.xml:157(None)
+msgid ""
+"@@image: 'images/filters/examples/fuzzyborder-gran1.png'; "
+"md5=53bfd2db2e5776c920ef1de5c0b691f9"
+msgstr ""
+"@@image: 'images/filters/examples/fuzzyborder-gran1.png'; "
+"md5=53bfd2db2e5776c920ef1de5c0b691f9"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/fuzzyborder.xml:166(None)
+msgid ""
+"@@image: 'images/filters/examples/fuzzyborder-gran4.png'; "
+"md5=f3532096fb20f5969dad2eac34375cda"
+msgstr ""
+"@@image: 'images/filters/examples/fuzzyborder-gran4.png'; "
+"md5=f3532096fb20f5969dad2eac34375cda"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/fuzzyborder.xml:175(None)
+msgid ""
+"@@image: 'images/filters/examples/fuzzyborder-gran16.png'; "
+"md5=e2ac4eecb2968589c8718a0919b99a27"
+msgstr ""
+"@@image: 'images/filters/examples/fuzzyborder-gran16.png'; "
+"md5=e2ac4eecb2968589c8718a0919b99a27"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/fuzzyborder.xml:195(None)
+msgid ""
+"@@image: 'images/filters/examples/fuzzyborder-shadow100.png'; "
+"md5=22df77b7fca08fd0986bea3755392b68"
+msgstr ""
+"@@image: 'images/filters/examples/fuzzyborder-shadow100.png'; "
+"md5=22df77b7fca08fd0986bea3755392b68"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/fuzzyborder.xml:207(None)
+msgid ""
+"@@image: 'images/filters/examples/fuzzyborder-shadow10.png'; "
+"md5=0166b366ca72cfcb3ca604fee41f5136"
+msgstr ""
+"@@image: 'images/filters/examples/fuzzyborder-shadow10.png'; "
+"md5=0166b366ca72cfcb3ca604fee41f5136"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/fuzzyborder.xml:218(None)
+msgid ""
+"@@image: 'images/filters/examples/fuzzyborder-noshadow.png'; "
+"md5=1cead351bf0ded0bd1c8f869a78790d3"
+msgstr ""
+"@@image: 'images/filters/examples/fuzzyborder-noshadow.png'; "
+"md5=1cead351bf0ded0bd1c8f869a78790d3"
+
+#: src/filters/decor/fuzzyborder.xml:11(title)
+#: src/filters/decor/fuzzyborder.xml:16(tertiary)
+#: src/filters/decor/fuzzyborder.xml:19(primary)
+msgid "Fuzzy Border"
+msgstr ""
+"അവ്യക്തമായ ബോർഡർ"
+
+#: src/filters/decor/fuzzyborder.xml:14(primary)
+#: src/filters/decor/carve-it.xml:16(primary)
+#: src/filters/decor/coffee.xml:14(primary)
+#: src/filters/decor/add-bevel.xml:15(primary)
+#: src/filters/decor/chrome-it.xml:9(primary)
+#: src/filters/decor/round-corners.xml:14(primary)
+#: src/filters/decor/addborder.xml:15(primary)
+#: src/filters/decor/old-photo.xml:14(primary)
+#: src/filters/decor/introduction.xml:15(primary)
+#: src/filters/decor/slide.xml:14(primary)
+msgid "Filters"
+msgstr ""
+"ഫിൽട്ടറുകൾ"
+
+#: src/filters/decor/fuzzyborder.xml:15(secondary)
+#: src/filters/decor/carve-it.xml:17(secondary)
+#: src/filters/decor/coffee.xml:15(secondary)
+#: src/filters/decor/chrome-it.xml:10(secondary)
+#: src/filters/decor/round-corners.xml:15(secondary)
+#: src/filters/decor/old-photo.xml:15(secondary)
+#: src/filters/decor/introduction.xml:16(secondary)
+#: src/filters/decor/introduction.xml:20(primary)
+#: src/filters/decor/slide.xml:15(secondary)
+msgid "Decor"
+msgstr ""
+"അലങ്കാര"
+
+#: src/filters/decor/fuzzyborder.xml:23(title)
+#: src/filters/decor/carve-it.xml:25(title)
+#: src/filters/decor/coffee.xml:23(title)
+#: src/filters/decor/add-bevel.xml:23(title)
+#: src/filters/decor/chrome-it.xml:18(title)
+#: src/filters/decor/round-corners.xml:23(title)
+#: src/filters/decor/addborder.xml:23(title)
+#: src/filters/decor/old-photo.xml:23(title)
+#: src/filters/decor/slide.xml:23(title)
+msgid "Overview"
+msgstr ""
+"പൊതു അവലോകനം"
+
+#: src/filters/decor/fuzzyborder.xml:25(title)
+msgid "Example for the <quote>Fuzzy Border</quote> filter"
+msgstr ""
+"<quote>Fuzzy Border</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/decor/fuzzyborder.xml:32(para)
+#: src/filters/decor/carve-it.xml:34(para)
+#: src/filters/decor/coffee.xml:32(para)
+#: src/filters/decor/add-bevel.xml:60(para)
+#: src/filters/decor/chrome-it.xml:27(para)
+#: src/filters/decor/round-corners.xml:32(para)
+#: src/filters/decor/addborder.xml:32(para)
+#: src/filters/decor/old-photo.xml:32(para)
+#: src/filters/decor/slide.xml:32(para)
+msgid "Original image"
+msgstr ""
+"യഥാർത്ഥ ചിത്രം"
+
+#: src/filters/decor/fuzzyborder.xml:41(para)
+msgid "<quote>Fuzzy Border</quote> applied"
+msgstr ""
+"<quote>Fuzzy Border</quote> പ്രയോഗിച്ചു"
+
+#: src/filters/decor/fuzzyborder.xml:45(para)
+msgid ""
+"This filter adds a cool fading border to an image. The border will look "
+"jagged and fuzzy, and you can specify color and thickness of the fading "
+"border. Optionally you may add a shadow to the image."
+msgstr ""
+"ഈ ഫിൽട്ടർ ഒരു ചിത്രം ഒരു തണുത്ത പുഷ്പമായ അതിർത്തി ചേർക്കുന്നു. അതിർത്തി പല്"
+"ലുള്ള അസ്പഷ്ടമായ നോക്കും, നിങ്ങൾ പുഷ്പമായ അതിർത്തിയിൽ നിറം വ്യാസവും വ്യക്ത"
+"മാക്കാൻ കഴിയും. ഓപ്ഷണൽ ചിത്രം ഒരു നിഴൽ ചേർക്കാം."
+
+#: src/filters/decor/fuzzyborder.xml:53(title)
+#: src/filters/decor/coffee.xml:58(title)
+#: src/filters/decor/add-bevel.xml:85(title)
+#: src/filters/decor/round-corners.xml:58(title)
+#: src/filters/decor/addborder.xml:57(title)
+#: src/filters/decor/old-photo.xml:53(title)
+#: src/filters/decor/slide.xml:64(title)
+msgid "Activate the filter"
+msgstr ""
+"ഫിൽട്ടർ സജീവമാക്കുക"
+
+#: src/filters/decor/fuzzyborder.xml:54(para)
+msgid ""
+"You can find this filter in the image window menu through "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
+"guisubmenu><guimenuitem>Fuzzy Border</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu>"
+"<guimenuitem>Fuzzy Border</guimenuitem></menuchoice> വഴി ഇമേജ് വിൻഡോ മെനുവ"
+"ിലെ ഈ ഫിൽട്ടർ കണ്ടെത്താം."
+
+#: src/filters/decor/fuzzyborder.xml:65(title)
+#: src/filters/decor/carve-it.xml:76(title)
+#: src/filters/decor/coffee.xml:70(title)
+#: src/filters/decor/add-bevel.xml:97(title)
+#: src/filters/decor/chrome-it.xml:72(title)
+#: src/filters/decor/round-corners.xml:70(title)
+#: src/filters/decor/addborder.xml:69(title)
+#: src/filters/decor/old-photo.xml:65(title)
+#: src/filters/decor/slide.xml:76(title)
+msgid "Options"
+msgstr ""
+"ഓപ്ഷനുകൾ"
+
+#: src/filters/decor/fuzzyborder.xml:67(title)
+msgid "<quote>Fuzzy Border</quote> options"
+msgstr ""
+"<quote>Fuzzy Border</quote> ഓപ്ഷനുകൾ"
+
+#: src/filters/decor/fuzzyborder.xml:77(term)
+msgid "Color"
+msgstr ""
+"നിറം"
+
+#: src/filters/decor/fuzzyborder.xml:79(para)
+msgid ""
+"Clicking on this button brings up the color selector dialog that allows you "
+"to choose the border color."
+msgstr ""
+"ഈ ബട്ടൺ ക്ലിക്കുചെയ്താൽ ബോർഡർ വർണം തിരഞ്ഞെടുക്കാൻ അനുവദിക്കുന്ന നിറം സെലക്"
+"ടർ ഡയലോഗിന് നൽകുന്നു."
+
+#: src/filters/decor/fuzzyborder.xml:86(term)
+#: src/filters/decor/old-photo.xml:107(term)
+msgid "Border size"
+msgstr ""
+"ബോർഡർ വലുപ്പം"
+
+#: src/filters/decor/fuzzyborder.xml:88(para)
+msgid ""
+"Here you can set the thickness of the fuzzy border, in pixels. Maximum is "
+"300 pixels, regardless of the image width or height."
+msgstr ""
+"ഇവിടെ നിങ്ങൾ പിക്സലിൽ, വ്യക്തമല്ലാത്ത അതിർത്തി കനം സജ്ജമാക്കാൻ കഴിയും. പരമാ"
+"വധി പരിഗണിക്കാതെ ചിത്ര വീതി അല്ലെങ്കിൽ ഉയരം 300 പിക്സൽ ആണ്."
+
+#: src/filters/decor/fuzzyborder.xml:95(term)
+msgid "Blur border"
+msgstr ""
+"ഇഫക്റ്റ് അതിർത്തി"
+
+#: src/filters/decor/fuzzyborder.xml:97(para)
+msgid ""
+"If checked, the border will be blurred. The example below shows the effect "
+"of blurring:"
+msgstr ""
+"പരിശോധിച്ചാൽ, അതിർത്തി മങ്ങിക്കപ്പെടും. ചുവടെയുള്ള ഉദാഹരണം ബ്ലറിംഗ് പ്രഭാവ"
+"ം കാണിക്കുന്നു:"
+
+#: src/filters/decor/fuzzyborder.xml:102(title)
+msgid "<quote>Blur border</quote> example"
+msgstr ""
+"<quote>Blur border</quote> ഉദാഹരണം"
+
+#: src/filters/decor/fuzzyborder.xml:109(para)
+#: src/filters/decor/fuzzyborder.xml:130(para)
+msgid "<quote>Blur</quote> checked"
+msgstr ""
+"<quote>Blur</quote> ചെക്കുചെയ്തു"
+
+#: src/filters/decor/fuzzyborder.xml:118(para)
+#: src/filters/decor/fuzzyborder.xml:139(para)
+msgid "<quote>Blur</quote> unchecked"
+msgstr ""
+"<quote>Blur</quote> അൺചെക്കുചെയ്തു"
+
+#: src/filters/decor/fuzzyborder.xml:123(title)
+msgid "<quote>Blur border</quote> zoomed (1600%)"
+msgstr ""
+"<quote>Blur border</quote> സൂം (1600%)"
+
+#: src/filters/decor/fuzzyborder.xml:146(term)
+msgid "Granularity"
+msgstr ""
+"ഗ്രാനുലാരിറ്റിയുടെ"
+
+#: src/filters/decor/fuzzyborder.xml:148(para)
+msgid ""
+"The border's granularity is almost the size of pixel blocks spread to create "
+"the effect of a jagged and fuzzy border."
+msgstr ""
+"അതിർത്തി ന്റെ ഗ്രാനുലാരിറ്റി ഏതാണ്ട് പിക്സൽ ബ്ളോക്കുകൾ പല്ലുള്ള അസ്പഷ്ടമായ"
+" അതിർത്തിയിൽ പ്രഭാവം സൃഷ്ടിക്കാൻ പ്രചരിച്ച വ്യാപ്തി."
+
+#: src/filters/decor/fuzzyborder.xml:153(title)
+msgid "Granularity example (without blurring)"
+msgstr ""
+"ഗ്രാനുലാരിറ്റിയുടെ ഉദാഹരണത്തിന് (ബ്ലറിംഗ് ഇല്ലാതെ)"
+
+#: src/filters/decor/fuzzyborder.xml:160(para)
+msgid "Granularity 1 (min)"
+msgstr ""
+"ഗ്രാനുലാരിറ്റിയുടെ 1 (മി)"
+
+#: src/filters/decor/fuzzyborder.xml:169(para)
+msgid "Granularity 4 (default)"
+msgstr ""
+"ഗ്രാനുലാരിറ്റിയുടെ 4 (സ്ഥിരസ്ഥിതി)"
+
+#: src/filters/decor/fuzzyborder.xml:178(para)
+msgid "Granularity 16 (max)"
+msgstr ""
+"ഗ്രാനുലാരിറ്റിയുടെ 16 (പരമാവധി)"
+
+#: src/filters/decor/fuzzyborder.xml:185(term)
+msgid "Add shadow"
+msgstr ""
+"നിഴൽ ചേർക്കുക"
+
+#: src/filters/decor/fuzzyborder.xml:187(para)
+msgid "If checked, the filter will also create a shadow at the border."
+msgstr ""
+"പരിശോധിച്ചാൽ, അരിപ്പ പുറമേ അതിർത്തിയിൽ ഒരു നിഴൽ സൃഷ്ടിക്കും."
+
+#: src/filters/decor/fuzzyborder.xml:191(title)
+msgid "<quote>Add shadow</quote> example"
+msgstr ""
+"<quote>Add shadow</quote> ഉദാഹരണം"
+
+#: src/filters/decor/fuzzyborder.xml:198(para)
+msgid ""
+"<quote>Add shadow</quote> checked, shadow weight 100% (default shadow "
+"weight)."
+msgstr ""
+"<quote>Add shadow</quote> ഭാരം 100% (സ്ഥിര നിഴൽ വെയിറ്റ്) ഷാഡോ, പരിശോധിച്"
+"ചു."
+
+#: src/filters/decor/fuzzyborder.xml:210(para)
+msgid "<quote>Add shadow</quote> with shadow weight 10%."
+msgstr ""
+"നിഴൽ ഭാരം 10% <quote>Add shadow</quote>."
+
+#: src/filters/decor/fuzzyborder.xml:221(para)
+msgid "<quote>Add shadow</quote> unchecked (default)"
+msgstr ""
+"<quote>Add shadow</quote> (സ്ഥിരം) തന്നിഷ്ടങ്ങൾക്കനുസരിച്ച്"
+
+#: src/filters/decor/fuzzyborder.xml:230(term)
+msgid "Shadow weight"
+msgstr ""
+"ഷാഡോ ഭാരം"
+
+#: src/filters/decor/fuzzyborder.xml:232(para)
+msgid ""
+"If <guilabel>Add shadow</guilabel> is checked, you may set the shadow "
+"opacity here. Defaults to 100% (full opacity)."
+msgstr ""
+"<guilabel>Add shadow</guilabel> ചെക്കുചെയ്തിട്ടുണ്ടെന്നും, ഇവിടെ ഒപാസിറ്റി "
+"സെറ്റ് ചെയ്യാം. 100% (പൂർണ്ണ അതാര്യത) സ്ഥിര."
+
+#: src/filters/decor/fuzzyborder.xml:240(term)
+#: src/filters/decor/add-bevel.xml:118(term)
+#: src/filters/decor/round-corners.xml:211(term)
+#: src/filters/decor/old-photo.xml:156(term)
+#: src/filters/decor/slide.xml:126(term)
+msgid "Work on copy"
+msgstr ""
+"പകർപ്പിൽ ഔദ്യോഗിക"
+
+#: src/filters/decor/fuzzyborder.xml:242(para)
+#: src/filters/decor/add-bevel.xml:120(para)
+#: src/filters/decor/round-corners.xml:213(para)
+#: src/filters/decor/old-photo.xml:158(para)
+#: src/filters/decor/slide.xml:128(para)
+msgid ""
+"If checked, the filter creates a new window containing a copy of the image "
+"with the filter applied. The original image remains unchanged."
+msgstr ""
+"പരിശോധിച്ചാൽ, പ്രയോഗിച്ച ഫിൽട്ടർ അരിപ്പ ചിത്രത്തിന്റെ ഒരു പകർപ്പ് അടങ്ങുന"
+"്ന ഒരു പുതിയ വിൻഡോ സൃഷ്ടിക്കുന്നു. യഥാർത്ഥ ചിത്രം മാറ്റമില്ല."
+
+#: src/filters/decor/fuzzyborder.xml:250(term)
+msgid "Flatten image"
+msgstr ""
+"ചിത്രം പരത്തുക"
+
+#: src/filters/decor/fuzzyborder.xml:252(para)
+msgid ""
+"If unchecked, the filter keeps the additional layers it used to create the "
+"border and the shadow (if demanded). Default is to merge down all layers."
+msgstr ""
+"ചെക്കുചെയ്തിട്ടില്ലെങ്കിൽ, ഫിൽട്ടർ അതിർത്തിയിലുള്ള നിഴൽ സൃഷ്ടിക്കാൻ ഉപയോഗി"
+"ച്ച (ആവശ്യപ്പെട്ടു എങ്കിൽ) അധിക പാളികൾ നിലനിർത്തുന്നു. സ്വതേ എല്ലാ പാളികൾ ഇ"
+"റങ്ങി ലയിപ്പിക്കാൻ ആണ്."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/carve-it.xml:31(None)
+#: src/filters/decor/chrome-it.xml:24(None)
+msgid ""
+"@@image: 'images/filters/examples/taj_grayscale.jpg'; "
+"md5=c79e63396ac6779a397cb69b163363b0"
+msgstr ""
+"@@image: 'images/filters/examples/taj_grayscale.jpg'; "
+"md5=c79e63396ac6779a397cb69b163363b0"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/carve-it.xml:40(None)
+msgid ""
+"@@image: 'images/filters/examples/decor-taj-carve-it.jpg'; "
+"md5=773eda4466ccde9a1d1a5613426f9734"
+msgstr ""
+"@@image: 'images/filters/examples/decor-taj-carve-it.jpg'; "
+"md5=773eda4466ccde9a1d1a5613426f9734"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/carve-it.xml:82(None)
+msgid ""
+"@@image: 'images/filters/decor/carve-it.png'; "
+"md5=0280485e1da5df08bf85e98220a2f791"
+msgstr ""
+"@@image: 'images/filters/decor/carve-it.png'; "
+"md5=0280485e1da5df08bf85e98220a2f791"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/carve-it.xml:110(None)
+msgid ""
+"@@image: 'images/filters/examples/carve-it-mask.jpg'; "
+"md5=fc0c338bc8d19dbd9a41061f5a90cc75"
+msgstr ""
+"@@image: 'images/filters/examples/carve-it-mask.jpg'; "
+"md5=fc0c338bc8d19dbd9a41061f5a90cc75"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/carve-it.xml:119(None)
+msgid ""
+"@@image: 'images/filters/examples/carve-it-invmask.jpg'; "
+"md5=d62e3899aeb063dd610c058b3bbf75b1"
+msgstr ""
+"@@image: 'images/filters/examples/carve-it-invmask.jpg'; "
+"md5=d62e3899aeb063dd610c058b3bbf75b1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/carve-it.xml:147(None)
+msgid ""
+"@@image: 'images/filters/examples/carve-it-normal.png'; "
+"md5=ca24a4ba100bbeded0ffe541d3c096a2"
+msgstr ""
+"@@image: 'images/filters/examples/carve-it-normal.png'; "
+"md5=ca24a4ba100bbeded0ffe541d3c096a2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/carve-it.xml:156(None)
+msgid ""
+"@@image: 'images/filters/examples/carve-it-stencil.png'; "
+"md5=874864468819cb795b7b1cb7e4800eaf"
+msgstr ""
+"@@image: 'images/filters/examples/carve-it-stencil.png'; "
+"md5=874864468819cb795b7b1cb7e4800eaf"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/carve-it.xml:165(None)
+msgid ""
+"@@image: 'images/filters/examples/carve-it-invers.png'; "
+"md5=3f66d89d3cda2bbef11974b251579977"
+msgstr ""
+"@@image: 'images/filters/examples/carve-it-invers.png'; "
+"md5=3f66d89d3cda2bbef11974b251579977"
+
+#: src/filters/decor/carve-it.xml:13(title)
+#: src/filters/decor/carve-it.xml:18(tertiary)
+#: src/filters/decor/carve-it.xml:21(primary)
+msgid "Stencil Carve"
+msgstr ""
+"സീരിയോലിത്തോഗ്രാഫ് രൂപംകൊള്ളുക"
+
+#: src/filters/decor/carve-it.xml:27(title)
+msgid "Example for the <quote>Stencil Carve</quote> filter"
+msgstr ""
+"<quote>Stencil Carve</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/decor/carve-it.xml:43(para)
+msgid "<quote>Stencil Carve</quote> applied"
+msgstr ""
+"<quote>Stencil Carve</quote> പ്രയോഗിച്ചു"
+
+#: src/filters/decor/carve-it.xml:47(para)
+msgid ""
+"This filter works with two images, source and target. The source image must "
+"be a grayscale image containing a single layer and no Alpha channel. This "
+"layer is used as selection mask and will work as stencil for the carving "
+"effect. The image to be carved (the target image) can be an RGB color or "
+"grayscale image, also with a single layer. This target image must have the "
+"same size as the source image."
+msgstr ""
+"ഈ ഫിൽട്ടർ രണ്ടു ചിത്രങ്ങൾ, ഉറവിട, ടാർഗെറ്റ് പ്രവർത്തിക്കുന്നു. ഉറവിട ചിത്രം"
+" ഒരൊറ്റ പാളി ആൽഫ ചാനൽ അടങ്ങുന്ന ഒരു ഗ്രേസ്കെയിലില് ഇമേജ് ആയിരിക്കണം. ഈ പാള"
+"ി നിരക്കു മാസ്ക് ഉപയോഗിക്കുന്നു ഒപ്പം സാമർത്ഥ്യവും ഇഫക്റ്റിനായി സീരിയോലിത"
+"്തോഗ്രാഫ് ശ്രമിക്കുന്നതാണ്. കൊത്തിയെടുത്ത ചെയ്യേണ്ട ചിത്രം (ടാർഗറ്റ് ഇമേജ"
+"്) ഒരേ പാളി, ഒരു ആർജിബി നിറങ്ങളുടെ അല്ലെങ്കിൽ ഗ്രേസ്കെയിലില് ചിത്രം ആകാം. ഈ"
+" ടാർഗെറ്റ് ചിത്രം ഉറവിടം ഇമേജ് അതേ വലിപ്പം ഉണ്ടായിരിക്കണം."
+
+#: src/filters/decor/carve-it.xml:58(title)
+#: src/filters/decor/chrome-it.xml:54(title)
+msgid "Activating the filter"
+msgstr ""
+"ഫിൽട്ടർ സജീവമാക്കുന്നു"
+
+#: src/filters/decor/carve-it.xml:59(para)
+msgid ""
+"This filter is found in the image window menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
+"guisubmenu><guimenuitem>Stencil Carve</guimenuitem></menuchoice>."
+msgstr ""
+"ഈ ഫിൽട്ടർ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubme"
+"nu><guimenuitem>Stencil Carve</guimenuitem></menuchoice> കീഴിൽ ഇമേജ് വിൻഡോ"
+" മെനുവിലെ കാണപ്പെടുന്നത്."
+
+#: src/filters/decor/carve-it.xml:68(para)
+msgid ""
+"If this command remains grayed out although the image is grayscale, check "
+"for an Alpha channel and delete it."
+msgstr ""
+"ചിത്രം ഗ്രേസ്കെയിലാക്കി ആണെങ്കിലും ഈ കമാൻഡ് ഗ്രേ ഔട്ട് തുടരുകയാണെങ്കിൽ, ആൽഫ"
+"ാ ചാനലിനായി പരിശോധിച്ച് അത് ഇല്ലാതാക്കുക."
+
+#: src/filters/decor/carve-it.xml:78(title)
+msgid "<quote>Stencil Carve</quote> options"
+msgstr ""
+"<quote>Stencil Carve</quote> ഓപ്ഷനുകൾ"
+
+#: src/filters/decor/carve-it.xml:88(term)
+msgid "Image to carve"
+msgstr ""
+".സാഹചര്യം ചിത്രം"
+
+#: src/filters/decor/carve-it.xml:90(para)
+msgid ""
+"Here you may select the target image, i.e. the image the carving effect is "
+"applied to. The drop-down list will show you a list of opened images which "
+"may be carved."
+msgstr ""
+"ഇവിടെ ടാർജറ്റ് ചിത്രം, കൊത്തുപണികൾ പ്രാബല്യത്തിൽ പ്രയോഗിക്കുന്നത് അതായത് "
+"ചിത്രം തിരഞ്ഞെടുക്കാം. ഡ്രോപ്പ്-ഡൌൺ ലിസ്റ്റ് ഏത് കൊത്തിയെടുത്ത ചെയ്യാം ത"
+"ുറന്നു ചിത്രങ്ങൾ ഒരു ലിസ്റ്റ് കാണിക്കും."
+
+#: src/filters/decor/carve-it.xml:98(term)
+msgid "Carve white areas"
+msgstr ""
+"വെളുത്ത പ്രദേശങ്ങൾ രൂപംകൊള്ളുക"
+
+#: src/filters/decor/carve-it.xml:100(para)
+msgid ""
+"If checked (default), the source image is used as stencil as described "
+"above. If unchecked, the <emphasis>inverted</emphasis> source image is used "
+"as stencil, e.g.:"
+msgstr ""
+"(സ്ഥിരം) പരിശോധിച്ചാൽ, ഉറവിട ചിത്രം മുകളിൽ വിവരിച്ച പോലെ സീരിയോലിത്തോഗ്"
+"രാഫ് ഉപയോഗിക്കുന്നു. ചെക്കുചെയ്തിട്ടില്ലെങ്കിൽ, <emphasis>inverted</emphas"
+"is> സോഴ്സ് ഇമേജ് സീരിയോലിത്തോഗ്രാഫ്, ഉദാ ഉപയോഗിക്കാറുണ്ട് .:"
+
+#: src/filters/decor/carve-it.xml:106(title)
+msgid "Engraving Masks"
+msgstr ""
+"കൊത്തുപണി മാസ്കുകൾ"
+
+#: src/filters/decor/carve-it.xml:113(para)
+msgid "Normal mask"
+msgstr ""
+"സാധാരണ മാസ്ക്"
+
+#: src/filters/decor/carve-it.xml:122(para)
+msgid "Inverted mask"
+msgstr ""
+"വിപരീത മാസ്ക്"
+
+#: src/filters/decor/carve-it.xml:126(para)
+msgid ""
+"In the example below, the source is a grayscale image. The target is an "
+"image with a wood pattern."
+msgstr ""
+"ചുവടെയുള്ള ഉദാഹരണത്തിൽ, സോഴ്സ് ഒരു ഗ്രേസ്കെയിൽ ചിത്രം. ടാർഗറ്റ് ഒരു മരം പാ"
+"റ്റേൺ ചിത്രമാണ്."
+
+#: src/filters/decor/carve-it.xml:130(para)
+msgid ""
+"On the left, <guilabel>Carve white areas</guilabel> is enabled. The pixels "
+"of the target image corresponding to white pixels in the stencil (around the "
+"text) have been carved. The result is an embossed text."
+msgstr ""
+"ഇടതുവശത്ത്, <guilabel>Carve white areas</guilabel> പ്രാപ്തമാക്കി. ടാർഗെറ്റ്"
+" ചിത്രം (ടെക്സ്റ്റ് ചുറ്റും) സീരിയോലിത്തോഗ്രാഫ് വെളുത്ത പിക്സൽ പൊരുത്തപ്"
+"പെടുന്ന എന്ന പിക്സലുകൾ കൊത്തിയ ചെയ്തു. ഫലം ഒരു എംബോസുചെയ്തത് വാചകമാണ്."
+
+#: src/filters/decor/carve-it.xml:136(para)
+msgid ""
+"On the right, <guilabel>Carve white areas</guilabel> is disabled. The pixels "
+"of the target image corresponding to the black pixels in the stencil (the "
+"text) have been carved. The result is a hollow text."
+msgstr ""
+"വലതുവശത്ത്, <guilabel>Carve white areas</guilabel> അപ്രാപ്തമാക്കി. ടാർഗെറ്റ"
+"് ഇമേജ് സീരിയോലിത്തോഗ്രാഫ് (ടെക്സ്റ്റ്) കറുത്ത പിക്സൽ പൊരുത്തപ്പെടുന്ന എ"
+"ന്ന പിക്സലുകൾ കൊത്തിയ ചെയ്തു. ഫലം പൊള്ളയായ ഒരു വാചകമാണ്."
+
+#: src/filters/decor/carve-it.xml:143(title)
+msgid "Example for <quote>Carve white areas</quote>"
+msgstr ""
+"<quote>Carve white areas</quote> ഉദാഹരണത്തിന്"
+
+#: src/filters/decor/carve-it.xml:150(para)
+msgid "White areas carved"
+msgstr ""
+"കൊത്തിയെടുത്ത വൈറ്റ് പ്രദേശങ്ങൾ"
+
+#: src/filters/decor/carve-it.xml:159(para)
+msgid "Stencil"
+msgstr ""
+"സീരിയോലിത്തോഗ്രാഫ്"
+
+#: src/filters/decor/carve-it.xml:168(para)
+msgid "Black areas carved"
+msgstr ""
+"കൊത്തിയെടുത്ത കറുത്ത പ്രദേശങ്ങൾ"
+
+#: src/filters/decor/carve-it.xml:172(para)
+msgid ""
+"Information about the many layers created by this filter can be found in "
+"<xref linkend=\"bibliography-books-grokking\"/>."
+msgstr ""
+"ഈ ഫിൽട്ടർ സൃഷ്ടിച്ച പല പാളികൾ കുറിച്ച് വിവരം <xref linkend=\"bibliography-b"
+"ooks-grokking\" /> കണ്ടെത്താൻ കഴിയും."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/coffee.xml:38(None)
+msgid ""
+"@@image: 'images/filters/examples/decor-taj-coffee.jpg'; "
+"md5=bb05618f70f3aca7ba08c9ec7eaf0cbd"
+msgstr ""
+"@@image: 'images/filters/examples/decor-taj-coffee.jpg'; "
+"md5=bb05618f70f3aca7ba08c9ec7eaf0cbd"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/coffee.xml:76(None)
+msgid ""
+"@@image: 'images/filters/decor/coffee.png'; "
+"md5=4f6a2e718d4641c74dbcd9927bcfe602"
+msgstr ""
+"@@image: 'images/filters/decor/coffee.png'; "
+"md5=4f6a2e718d4641c74dbcd9927bcfe602"
+
+#: src/filters/decor/coffee.xml:11(title)
+#: src/filters/decor/coffee.xml:16(tertiary)
+#: src/filters/decor/coffee.xml:19(primary)
+msgid "Coffee Stain"
+msgstr ""
+"കോഫി കറ"
+
+#: src/filters/decor/coffee.xml:25(title)
+msgid "Example for the <quote>Coffee Stain</quote> filter"
+msgstr ""
+"<quote>Coffee Stain</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/decor/coffee.xml:41(para)
+msgid "<quote>Coffee Stain</quote> applied"
+msgstr ""
+"<quote>Coffee Stain</quote> പ്രയോഗിച്ചു"
+
+#: src/filters/decor/coffee.xml:45(para)
+msgid "This filter adds realistic looking coffee stains to the image."
+msgstr ""
+"ഈ ഫിൽട്ടർ ചിത്രം യാഥാർഥ്യത്തിനു തിരയുന്ന കോഫി സ്റ്റെയിൻസ് ചേർക്കുന്നു."
+
+#: src/filters/decor/coffee.xml:48(para)
+msgid ""
+"Every stain is created in a layer of its own. The stain layers are randomly "
+"moved to let the stains spread out (at the end you may see the boundary of "
+"the moved top layer). So after applying the filter you can easily edit (e."
+"g., move, scale, remove) the coffee stains, or create additional stains "
+"using the filter again."
+msgstr ""
+"ഓരോ കറ അതിന്റേതായ ഒരു പാളി സൃഷ്ടിക്കും. കറ പാളികൾ ക്രമരഹിതമായി സ്റ്റെയിൻസ്"
+" (അവസാനം നിങ്ങൾ നീക്കി മുകളിലെ പാളി അതിർ കണ്ടേക്കാം) വിരിച്ചു ചെയ്യട്ടെ നീക"
+"്കി. അങ്ങനെ അരിപ്പ പ്രയോഗിച്ച ശേഷം എളുപ്പത്തിൽ (ഇ, നീക്കം. ഗ്രാം., നീക്കുക"
+" അളവിലുള്ള) എഡിറ്റുചെയ്യാനാകും കോഫി സ്റ്റെയിൻസ്, അല്ലെങ്കിൽ വീണ്ടും അരിപ്പ"
+" ഉപയോഗിച്ച് അധിക സ്റ്റെയിൻസ് സൃഷ്ടിക്കുക."
+
+#: src/filters/decor/coffee.xml:59(para)
+msgid ""
+"The filter is found in the image window menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
+"guisubmenu><guimenuitem>Coffee Stain</guimenuitem></menuchoice>."
+msgstr ""
+"ഫിൽട്ടർ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu"
+"><guimenuitem>Coffee Stain</guimenuitem></menuchoice> കീഴിൽ ഇമേജ് വിൻഡോ മെ"
+"നുവിലെ കാണപ്പെടുന്നത്."
+
+#: src/filters/decor/coffee.xml:72(title)
+msgid "<quote>Coffee Stain</quote> options"
+msgstr ""
+"<quote>Coffee Stain</quote> ഓപ്ഷനുകൾ"
+
+#: src/filters/decor/coffee.xml:82(term)
+msgid "Stains"
+msgstr ""
+"സ്റ്റെയിൻസ്"
+
+#: src/filters/decor/coffee.xml:84(para)
+msgid "The number of the coffee stains (1-10)."
+msgstr ""
+"കോഫി സ്റ്റെയിൻസ് എണ്ണം (1-10)."
+
+#: src/filters/decor/coffee.xml:88(term)
+msgid "Darken only"
+msgstr ""
+"മാത്രം ഇരുണ്ട്"
+
+#: src/filters/decor/coffee.xml:90(para)
+msgid ""
+"Since every stain is created in a layer of its own, all layers have to be "
+"merged to make the appearance of the image. If this option is checked, the "
+"relevant <link linkend=\"gimp-concepts-layer-modes\">layer mode</link> is "
+"set to <quote>Darken only</quote>, otherwise it is set to <quote>Normal</"
+"quote>."
+msgstr ""
+"ഓരോ കറ സ്വന്തം ഒരു പാളി സൃഷ്ടിക്കുന്നതാണ് എന്നതിനാൽ എല്ലാ പാളികൾ ചിത്രം രൂ"
+"പം ഉണ്ടാക്കുവാൻ ലയിപ്പിക്കും ഞങ്ങൾക്കുണ്ട്. ഈ ഓപ്ഷൻ ചെക്ക് ചെയ്താല്, പ്രസക്"
+"തമായ <link linkend=\"gimp-concepts-layer-modes\">layer mode</link> <quote>D"
+"arken only</quote> സജ്ജമാക്കുമ്പോൾ, അത് <quote>Normal</quote> സജ്ജമാക്കിയി"
+"രിക്കുന്നു."
+
+#: src/filters/decor/coffee.xml:98(para)
+msgid ""
+"The layer mode determines how the pixels of the layers are combined. In "
+"<quote>Normal</quote> mode, every coffee stain covers the pixels of the "
+"layers below. As a rule of thumb, if layer mode <quote>Darken only</quote> "
+"is set, coffee stains covers the corresponding pixels of the layers below "
+"them only if these pixels are lighter."
+msgstr ""
+"പാളി മോഡ് പാളികൾ പിക്സലുകൾ കൂട്ടിച്ചേർക്കാം നിർണ്ണയിക്കുന്നത്. <quote>Norm"
+"al</quote> മോഡിൽ, ഓരോ കോഫി കറ താഴെ പാളികൾ പിക്സലുകൾ മൂടുന്നു. ഏതളവുവരെ ഒ"
+"രു ഭരണം, ലേയർ മോഡ് <quote>Darken only</quote> സജ്ജമാക്കിയ, കോഫി സ്റ്റെയിൻ"
+"സ് അവരെ താഴെ പാളികൾ പൊരുത്തപ്പെടുന്ന പിക്സൽ ഈ പിക്സലുകൾ ലഘുവാകുന്നു മാത്രമ"
+"േ മൂടുന്നു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/add-bevel.xml:29(None)
+msgid ""
+"@@image: 'images/filters/examples/decor-add-bevel20.png'; "
+"md5=52b49e5bae2b4d9e4ff4d431bdea2dff"
+msgstr ""
+"@@image: 'images/filters/examples/decor-add-bevel20.png'; "
+"md5=52b49e5bae2b4d9e4ff4d431bdea2dff"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/add-bevel.xml:40(None)
+msgid ""
+"@@image: 'images/filters/examples/decor-add-bevel21.png'; "
+"md5=8f09b747dc660c62b15ca822625964c6"
+msgstr ""
+"@@image: 'images/filters/examples/decor-add-bevel21.png'; "
+"md5=8f09b747dc660c62b15ca822625964c6"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/add-bevel.xml:57(None)
+msgid ""
+"@@image: 'images/filters/examples/decor-add-bevel10.png'; "
+"md5=6458e691714810031db22551391fca91"
+msgstr ""
+"@@image: 'images/filters/examples/decor-add-bevel10.png'; "
+"md5=6458e691714810031db22551391fca91"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/add-bevel.xml:66(None)
+msgid ""
+"@@image: 'images/filters/examples/decor-add-bevel12.png'; "
+"md5=5b3f2f42725a2c4acd3d7557d6025b2d"
+msgstr ""
+"@@image: 'images/filters/examples/decor-add-bevel12.png'; "
+"md5=5b3f2f42725a2c4acd3d7557d6025b2d"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/add-bevel.xml:75(None)
+msgid ""
+"@@image: 'images/filters/examples/decor-add-bevel11.png'; "
+"md5=852e74774370ea76ec0de1ba40f23622"
+msgstr ""
+"@@image: 'images/filters/examples/decor-add-bevel11.png'; "
+"md5=852e74774370ea76ec0de1ba40f23622"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/add-bevel.xml:103(None)
+msgid ""
+"@@image: 'images/filters/decor/add-bevel.png'; "
+"md5=6c7a9d8947c98d6fed42f9667e9a34ec"
+msgstr ""
+"@@image: 'images/filters/decor/add-bevel.png'; "
+"md5=6c7a9d8947c98d6fed42f9667e9a34ec"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/add-bevel.xml:137(None)
+msgid ""
+"@@image: 'images/filters/examples/decor-add-bevel23.png'; "
+"md5=042e83414562dac841238be141bf585f"
+msgstr ""
+"@@image: 'images/filters/examples/decor-add-bevel23.png'; "
+"md5=042e83414562dac841238be141bf585f"
+
+#: src/filters/decor/add-bevel.xml:12(title)
+#: src/filters/decor/add-bevel.xml:16(secondary)
+#: src/filters/decor/add-bevel.xml:19(primary)
+msgid "Add Bevel"
+msgstr ""
+"ബിവെൽ ചേർക്കുക"
+
+#: src/filters/decor/add-bevel.xml:25(title)
+msgid "Example for the <quote>Add Bevel</quote> filter"
+msgstr ""
+"<quote>Add Bevel</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/decor/add-bevel.xml:32(para)
+msgid "Original image, the colored rectangle is selected"
+msgstr ""
+"യഥാർത്ഥ ചിത്രം, നിറമുള്ള ദീർഘചതുരം തിരഞ്ഞെടുത്തിരിക്കുന്നു"
+
+#: src/filters/decor/add-bevel.xml:43(para)
+msgid "<quote>Add Bevel</quote> applied"
+msgstr ""
+"<quote>Add Bevel</quote> പ്രയോഗിച്ചു"
+
+#: src/filters/decor/add-bevel.xml:47(para)
+msgid ""
+"This filter adds a slight bevel to an image using a <link linkend=\"plug-in-"
+"bump-map\">bump map</link> (see below). If there is a selection, it is "
+"bevelled, otherwise the filter has no effect."
+msgstr ""
+"ഈ ഫിൽട്ടർ ഒരു <link linkend=\"plug-in- bump-map\">bump map</link> (താഴെ കാണ"
+"ുക) ഉപയോഗിച്ച് ഒരു ചിത്രത്തിൽ ഒരു ചെറിയ ബെവൽ ചേർക്കുന്നു. ഒരു നിരക്കു ഉണ്ട"
+"െങ്കിൽ അത് അരിപ്പ ഫലമില്ല bevelled ആണ്."
+
+#: src/filters/decor/add-bevel.xml:53(title)
+msgid "Another <quote>Add Bevel</quote> example, with bumpmap"
+msgstr ""
+"bumpmap മറ്റൊരു <quote>Add Bevel</quote> ഉദാഹരണത്തിന്,"
+
+#: src/filters/decor/add-bevel.xml:69(para)
+msgid "Bumpmap"
+msgstr "Bumpmap"
+
+#: src/filters/decor/add-bevel.xml:78(para)
+msgid "Filter applied"
+msgstr ""
+"ഫിൽറ്റർ പ്രയോഗിച്ചു"
+
+#: src/filters/decor/add-bevel.xml:86(para)
+msgid ""
+"You can find this filter in the image window menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
+"guisubmenu><guimenuitem>Add Bevel</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu>"
+"<guimenuitem>Add Bevel</guimenuitem></menuchoice> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവി"
+"ലെ ഈ ഫിൽട്ടർ കണ്ടെത്താം."
+
+#: src/filters/decor/add-bevel.xml:99(title)
+msgid "<quote>Add Bevel</quote> options"
+msgstr ""
+"<quote>Add Bevel</quote> ഓപ്ഷനുകൾ"
+
+#: src/filters/decor/add-bevel.xml:109(term)
+msgid "Thickness"
+msgstr ""
+"വണ്ണം"
+
+#: src/filters/decor/add-bevel.xml:111(para)
+msgid ""
+"You can specify the thickness of the bevel, in pixels. Maximal thickness is "
+"30 pixels."
+msgstr ""
+"നിങ്ങൾ പിക്സലിൽ, ബെവൽ കനം വ്യക്തമാക്കാൻ കഴിയും. ഏറ്റവുംകൂടിയപ്രധാനഛേദം കനം "
+"30 പിക്സൽ ആണ്."
+
+#: src/filters/decor/add-bevel.xml:128(term)
+msgid "Keep bump layer"
+msgstr ""
+"ബംമ്പ് പാളി നിലനിർത്തുക"
+
+#: src/filters/decor/add-bevel.xml:130(para)
+msgid ""
+"When checked, you will keep the generated bumpmap as a new, not visible "
+"layer (below the layer dialog):"
+msgstr ""
+"ചെക്കിൻ ചെയ്തപ്പോൾ, നിങ്ങൾ ഒരു പുതിയ, ദൃശ്യമല്ല പാളി (പാളി ഡയലോഗ് താഴെ) പ"
+"ോലെ bumpmap ജനറേറ്റ് കാക്കും:"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/chrome-it.xml:33(None)
+msgid ""
+"@@image: 'images/filters/examples/decor/taj-chrome-it.jpg'; "
+"md5=5d3cafbf777b9e1979315b19ec9d75f5"
+msgstr ""
+"@@image: 'images/filters/examples/decor/taj-chrome-it.jpg'; "
+"md5=5d3cafbf777b9e1979315b19ec9d75f5"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/chrome-it.xml:78(None)
+msgid ""
+"@@image: 'images/filters/decor/chrome-it.png'; "
+"md5=0226b96a33a5a4d787577f2a12aac7ce"
+msgstr ""
+"@@image: 'images/filters/decor/chrome-it.png'; "
+"md5=0226b96a33a5a4d787577f2a12aac7ce"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/chrome-it.xml:123(None)
+msgid ""
+"@@image: 'images/filters/decor/chrome-it-env-example.png'; "
+"md5=0b7925b90319f8ac25398db069053a20"
+msgstr ""
+"@@image: 'images/filters/decor/chrome-it-env-example.png'; "
+"md5=0b7925b90319f8ac25398db069053a20"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/chrome-it.xml:199(None)
+msgid ""
+"@@image: 'images/filters/decor/chrome-it-step1.png'; "
+"md5=af1a392e2bc85138891aa5fcfdf62720"
+msgstr ""
+"@@image: 'images/filters/decor/chrome-it-step1.png'; "
+"md5=af1a392e2bc85138891aa5fcfdf62720"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/chrome-it.xml:216(None)
+msgid ""
+"@@image: 'images/filters/decor/chrome-it-step2.png'; "
+"md5=419de82eb2b8dba22a6b69da60de3298"
+msgstr ""
+"@@image: 'images/filters/decor/chrome-it-step2.png'; "
+"md5=419de82eb2b8dba22a6b69da60de3298"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/chrome-it.xml:231(None)
+msgid ""
+"@@image: 'images/filters/decor/chrome-it-step3.png'; "
+"md5=c6399c39d7bd76f3fa09ceb19aced1e2"
+msgstr ""
+"@@image: 'images/filters/decor/chrome-it-step3.png'; "
+"md5=c6399c39d7bd76f3fa09ceb19aced1e2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/chrome-it.xml:252(None)
+msgid ""
+"@@image: 'images/filters/decor/chrome-it-step4.png'; "
+"md5=63c56909c3a6d10f17ac17b9adb21aa1"
+msgstr ""
+"@@image: 'images/filters/decor/chrome-it-step4.png'; "
+"md5=63c56909c3a6d10f17ac17b9adb21aa1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/chrome-it.xml:275(None)
+msgid ""
+"@@image: 'images/filters/decor/chrome-it-step5.png'; "
+"md5=22ae575f63063b20d7613ac343b1a90f"
+msgstr ""
+"@@image: 'images/filters/decor/chrome-it-step5.png'; "
+"md5=22ae575f63063b20d7613ac343b1a90f"
+
+#: src/filters/decor/chrome-it.xml:6(title)
+#: src/filters/decor/chrome-it.xml:11(tertiary)
+#: src/filters/decor/chrome-it.xml:14(primary)
+msgid "Stencil Chrome"
+msgstr ""
+"സീരിയോലിത്തോഗ്രാഫ് ക്രോം"
+
+#: src/filters/decor/chrome-it.xml:20(title)
+msgid "Example for the <quote>Stencil Chrome</quote> filter"
+msgstr ""
+"<quote>Stencil Chrome</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/decor/chrome-it.xml:36(para)
+msgid "<quote>Stencil Chrome</quote> applied"
+msgstr ""
+"<quote>Stencil Chrome</quote> പ്രയോഗിച്ചു"
+
+#: src/filters/decor/chrome-it.xml:40(para)
+msgid ""
+"This filter provides a state of the art chrome effect. The source image must "
+"be an image in grayscale mode, containing a single layer without alpha "
+"channel. This layer is used as mask (<quote>stencil</quote>) for the chrome "
+"effect."
+msgstr ""
+"ഈ ഫിൽട്ടർ ആർട്ട് ക്രോം പ്രഭാവമുള്ള ഒരു സംസ്ഥാന നൽകുന്നു. ഉറവിട ഇമേജ് ആൽഫാ "
+"ചാനൽ ഇല്ലാത്ത ഒരു പാളി അടങ്ങുന്ന ഗ്രേസ്കെയിൽ മോഡിൽ ഒരു ചിത്രം ആയിരിക്കണം. "
+"ഈ പാളി ക്രോം ഇഫക്റ്റിനായി മാസ്ക് (<quote>stencil</quote>) ഉപയോഗിക്കുന്നു."
+
+#: src/filters/decor/chrome-it.xml:46(para)
+msgid ""
+"The filter creates a new image with the chrome effect applied to the source "
+"image or, if a selection exists, to the selection of the source image (a "
+"nice background is added too)."
+msgstr ""
+"ഫിൽട്ടർ സോഴ്സ് ചിത്രം (ഒരു നല്ല പശ്ചാത്തലം വളരെ ചേർത്തു) നിരക്കു ലേക്ക്, ഉ"
+"റവിട ചിത്രം പ്രയോഗിച്ചു അല്ലെങ്കിൽ ഒരു നിര നിലനിൽക്കുന്നുണ്ടെങ്കിൽ ക്രോം "
+"പ്രാബല്യത്തോടെ ഒരു പുതിയ ഇമേജ് ഉണ്ടാക്കുന്നു."
+
+#: src/filters/decor/chrome-it.xml:55(para)
+msgid ""
+"This filter is found in the image window menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
+"guisubmenu><guimenuitem>Stencil Chrome</guimenuitem></menuchoice>."
+msgstr ""
+"ഈ ഫിൽട്ടർ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubme"
+"nu><guimenuitem>Stencil Chrome</guimenuitem></menuchoice> കീഴിൽ ഇമേജ് വിൻഡേ"
+"ാ മെനുവിലെ കാണപ്പെടുന്നത്."
+
+#: src/filters/decor/chrome-it.xml:64(para)
+msgid ""
+"If this command remains grayed out although the image is in grayscale mode, "
+"check for an Alpha channel and delete it."
+msgstr ""
+"ഈ കമാൻഡ് തുടരുകയാണെങ്കിൽ ചിത്രം ഗ്രേസ്കെയിലാക്കി മോഡിൽ ആണെങ്കിലും, ആൽഫാ ചാ"
+"നൽ പരിശോധിക്കുക ഇല്ലാതാക്കുകയും ഗ്രേ ഔട്ട്."
+
+#: src/filters/decor/chrome-it.xml:74(title)
+msgid "<quote>Stencil Chrome</quote> options"
+msgstr ""
+"<quote>Stencil Chrome</quote> ഓപ്ഷനുകൾ"
+
+#: src/filters/decor/chrome-it.xml:84(term)
+msgid "Chrome saturation"
+msgstr ""
+"ക്രോം സാച്ചുറേഷൻ"
+
+#: src/filters/decor/chrome-it.xml:85(term)
+msgid "Chrome lightness"
+msgstr ""
+"ക്രോം ചാപല്യം"
+
+#. TRANSLATORS: <quote>d "Chrome", "Highlight" and
+#. "Drop Shadow" are the layer names set by the script.
+#: src/filters/decor/chrome-it.xml:89(para)
+msgid ""
+"Use this option to control how <link linkend=\"gimp-tool-hue-saturation"
+"\">saturation and lightness</link> of the <quote>Chrome</quote> layer are "
+"adjusted. Negative values decrease saturation and lightness respectively."
+msgstr ""
+"<quote>Chrome</quote> പാളി <link linkend=\"gimp-tool-hue-saturation \">satu"
+"ration and lightness</link> ക്രമീകരിച്ചു നിയന്ത്രിക്കുവാൻ ഈ ഓപ്ഷൻ ഉപയോഗിക്"
+"കുക. നെഗറ്റീവ് മൂല്യങ്ങൾ യഥാക്രമം സാച്ചുറേഷനും ചാപല്യം കുറക്കാനോ."
+
+#: src/filters/decor/chrome-it.xml:98(term)
+msgid "Chrome factor"
+msgstr ""
+"ക്രോം ഘടകം"
+
+#: src/filters/decor/chrome-it.xml:100(para)
+msgid ""
+"This factor lets you adjust offsets, feather radius, and brush size used to "
+"construct the <quote>Chrome</quote> and <quote>Highlight</quote> layer (and "
+"the <quote>Drop Shadow</quote> as well)."
+msgstr ""
+"ഈ ഘടകം നിങ്ങളെ ഓഫ്സെറ്റുകളുടെ തൂവലുകളുടെ ആരം ഒപ്പം (പോലെ നന്നായി <quote>Dr"
+"op Shadow</quote>) <quote>Chrome</quote> ആൻഡ് <quote>Highlight</quote> പാളി"
+" നിർമ്മിക്കാൻ ഉപയോഗിച്ച ബ്രഷ് സൈസ് അനുവദിക്കുന്നു."
+
+#: src/filters/decor/chrome-it.xml:106(para)
+msgid ""
+"Change with caution, decreasing this value may make the chrome effect worse. "
+"The default factor 0.75 seems to be a good choice."
+msgstr ""
+"കുറഞ്ഞതും ഈ മൂല്യം ക്രോം പ്രഭാവം മോശമായ വരുത്താം, കരുതലോടെ മാറ്റുക. സ്ഥി"
+"ര ഘടകം 0.75 ഒരു നല്ല തോന്നുന്നു."
+
+#: src/filters/decor/chrome-it.xml:113(term)
+msgid "Environment map"
+msgstr ""
+"പരിസ്ഥിതി മാപ്പ്"
+
+#: src/filters/decor/chrome-it.xml:115(para)
+msgid ""
+"The environment map is an image that is added as some kind of <quote>noise</"
+"quote> to the source. The effect is best to see if you use a simple map with "
+"some obvious shapes:"
+msgstr ""
+"പരിസ്ഥിതി മാപ്പ് സ്രോതസ്സിലേക്ക് <quote>noise</quote> ചില തരം ചേർത്തു ഒരു "
+"ചിത്രം. പ്രഭാവം ചില വ്യക്തമായ ആകൃതിയിലുള്ള ഒരു ലളിതമായ മാപ്പ് ഉപയോഗിക്കുകയ"
+"ാണെങ്കിൽ കാണാൻ നല്ലത്:"
+
+#: src/filters/decor/chrome-it.xml:126(para)
+msgid "Using a simple environment map"
+msgstr ""
+"ഒരു ലളിതമായ പരിസ്ഥിതി മാപ്പ് ഉപയോഗിക്കുന്നു"
+
+#: src/filters/decor/chrome-it.xml:129(para)
+msgid ""
+"The environment map must be an image in grayscale mode too. Size doesn't "
+"matter, the environment map is scaled to the size of the source image."
+msgstr ""
+"പരിസ്ഥിതി മാപ്പ് വളരെ ഗ്രേസ്കെയിലാക്കി മോഡിൽ ഒരു ചിത്രം ആയിരിക്കണം. വലിപ്പ"
+"ം പ്രശ്നമല്ല, പരിസ്ഥിതി മാപ്പ് ഉറവിട ചിത്രത്തിന്റെ വലുപ്പം സ്കെയിൽ ആണ്."
+
+#: src/filters/decor/chrome-it.xml:137(term)
+msgid "Highlight balance"
+msgstr ""
+"ഹൈലൈറ്റ് ബാലൻസ്"
+
+#: src/filters/decor/chrome-it.xml:139(para)
+msgid ""
+"This color is used to modify the <link linkend=\"gimp-tool-color-balance"
+"\">color balance</link> of the <quote>Highlight</quote> layer: the amount of "
+"red, green, and blue colors is increased according to the corresponding "
+"values of the specified option."
+msgstr ""
+"ഈ നിറം <quote>Highlight</quote> പാളിയുടെ <link linkend=\"gimp-tool-color-ba"
+"lance \">color balance</link> പരിഷ്ക്കരിക്കുക ഉപയോഗിക്കുന്നു: ചുവപ്പ്, പച്"
+"ച, നീല നിറങ്ങൾ തുക വ്യക്തമാക്കിയ ഓപ്ഷൻ ഇതേ മൂല്യങ്ങൾ പ്രകാരം വർദ്ധിപ്പിക്കു"
+"ന്നു."
+
+#. cf. bug #624761
+#: src/filters/decor/chrome-it.xml:147(para)
+msgid "Avoid colors with red, green or blue value &gt; 230."
+msgstr ""
+"ചുവപ്പ് പച്ച, നീല മൂല്യം &gt; 230 ഉപയോഗിച്ച് വർണ്ണങ്ങൾ ഒഴിവാക്കുക."
+
+#: src/filters/decor/chrome-it.xml:153(term)
+msgid "Chrome balance"
+msgstr ""
+"ക്രോം ബാലൻസ്"
+
+#: src/filters/decor/chrome-it.xml:155(para)
+msgid ""
+"Same as above, but modifies the <link linkend=\"gimp-tool-color-balance"
+"\">color balance</link> of the <quote>Chrome</quote> layer."
+msgstr ""
+"മുകളിലത്തെ, പക്ഷേ <quote>Chrome</quote> പാളിയുടെ <link linkend=\"gimp-tool-"
+"color-balance \">color balance</link> മാറ്റം."
+
+#: src/filters/decor/chrome-it.xml:163(term)
+msgid "Chrome white areas"
+msgstr ""
+"ക്രോം വെളുത്ത പ്രദേശങ്ങൾ"
+
+#: src/filters/decor/chrome-it.xml:165(para)
+msgid ""
+"If checked (this is the default), the source image is used as mask. If "
+"unchecked, the <emphasis>inverted</emphasis> source image is used."
+msgstr ""
+"(ഈ സ്വതവേ) പരിശോധിച്ചാൽ, ഉറവിട ചിത്ര മാസ്ക് ഉപയോഗിക്കുന്നു. ചെക്കുചെയ്തിട"
+"്ടില്ലെങ്കിൽ, <emphasis>inverted</emphasis> സോഴ്സ് ചിത്രം ഉപയോഗിക്കുന്നു."
+
+#: src/filters/decor/chrome-it.xml:176(title)
+msgid "How to create the chrome effect"
+msgstr ""
+"എങ്ങനെ ക്രോം ഇഫക്റ്റ് സൃഷ്ടിക്കാൻ"
+
+#: src/filters/decor/chrome-it.xml:177(para)
+msgid ""
+"The following section provides a brief and simplified description of how the "
+"script (actually this filter is a Script-Fu) creates the chrome effect."
+msgstr ""
+"താഴെ വിഭാഗം എങ്ങനെ സ്ക്രിപ്റ്റ് (യഥാർത്ഥത്തിൽ ഈ ഫിൽട്ടർ ഒരു സ്ക്രിപ്റ്റ്-ഫു"
+" ആണ്) ക്രോം പ്രഭാവം സൃഷ്ടിക്കുന്നു ഒരു സംക്ഷിപ്ത ലളിതവൽക്കരിച്ചതുമായ വിവരണ"
+"ം നൽകുന്നു."
+
+#: src/filters/decor/chrome-it.xml:182(para)
+msgid ""
+"If you apply the filter to your source images and then look at the <link "
+"linkend=\"gimp-layer-dialog\">layer dialog</link> of the resulting image, "
+"you will see that there are two main layers which make up the chrome effect: "
+"the <quote>Chrome</quote> layer and the <quote>Highlight</quote> layer. "
+"These layers are created as follows:"
+msgstr ""
+"<quote>Chrome</quote> പാളി <quote>Highlight</quote> പാളി: നിങ്ങളുടെ ഉറവിട ച"
+"ിത്രങ്ങൾ ഫിൽട്ടർ പ്രയോഗിക്കാൻ തുടർന്ന് കാരണമാകുന്നു ചിത്രത്തിന്റെ <link li"
+"nkend=\"gimp-layer-dialog\">layer dialog</link> നോക്കിയാൽ, Chrome പ്രഭാവം "
+"ഉണ്ടാക്കുന്നത് രണ്ട് പ്രധാന പാളികൾ ഉണ്ട് കാണും. താഴെ ഈ പാളികൾ സൃഷ്ടിക്കപ്പെ"
+"ടുന്നു;"
+
+#: src/filters/decor/chrome-it.xml:191(para)
+msgid ""
+"The script constructs a somewhat simplified and blurred layer from the "
+"source image (from the inverted source image if <guilabel>Chrome&nbsp;"
+"white&nbsp;areas</guilabel> is unchecked)."
+msgstr ""
+"സ്ക്രിപ്റ്റ് സോഴ്സ് ചിത്രം (വിപരീതമാക്കപ്പെടും സ്രോതസ്സ് ചിത്രം <guilabel"
+">Chrome  white areas</guilabel> പരിശോധിക്കാതെ എങ്കിൽ നിന്ന്) നിന്നും ഒരു അ"
+"ല്പമെങ്കിലും ലളിതവും മങ്ങിയ പാളി നിര്മ്മിക്കുന്നുണ്ട്."
+
+#: src/filters/decor/chrome-it.xml:202(para)
+msgid ""
+"The <guilabel>Chrome factor</guilabel> controls the appearance of this layer."
+msgstr ""
+"<guilabel>Chrome factor</guilabel> ഈ പാളി രൂപം നിയന്ത്രിക്കുന്നു."
+
+#: src/filters/decor/chrome-it.xml:208(para)
+msgid ""
+"The (scaled) environment map is blurred and merged into the above layer with "
+"50% opacity. (Do you spot the cat in the introducing <link linkend=\"script-"
+"fu-sota-chrome-it-example\">example</link>?)"
+msgstr ""
+"(സ്കെയിൽ) പരിസ്ഥിതി മാപ്പ് മങ്ങിക്കുന്നതിനുള്ള 50% അതാര്യതയോടെ മുകളിൽ പാളി"
+" ലയിപ്പിക്കും ആണ്. (നിങ്ങൾ പരിചയപ്പെടുത്തുന്ന <link linkend=\"script- fu-so"
+"ta-chrome-it-example\">example</link> പൂച്ച ഒന്നടക്കം ചെയ്യുന്നുണ്ടോ?)"
+
+#: src/filters/decor/chrome-it.xml:219(para)
+msgid "Merging the environment map"
+msgstr ""
+"പരിസ്ഥിതി മാപ്പ് ലയിപ്പിക്കുന്നത്"
+
+#: src/filters/decor/chrome-it.xml:224(para)
+msgid ""
+"The brightness (value) of the layer is modified according to a spline-based "
+"intensity curve."
+msgstr ""
+"പാളി തെളിച്ചം (മൂല്യം) ഒരു spline അധിഷ്ഠിത തീവ്രത കർവ് പ്രകാരം പരിഷ്ക്കരിച്"
+"ചു."
+
+#: src/filters/decor/chrome-it.xml:234(para)
+msgid "Modifying the intensity curve"
+msgstr ""
+"തീവ്രത കർവ് പരിഷ്ക്കരിക്കുന്നത്"
+
+#: src/filters/decor/chrome-it.xml:239(para)
+msgid ""
+"A layer mask is added, initialized with the source image (the <quote>Chrome "
+"Stencil</quote>). This is the <quote>Chrome</quote> layer before the final "
+"step."
+msgstr ""
+"ഒരു ലെയർ മാസ്ക് സോഴ്സ് ചിത്രം (<quote>Chrome Stencil</quote>) കൂടെ സമാരംഭി"
+"ച്ചിട്ടില്ല, ചേർത്തു. ഈ അന്തിമ ഘട്ടം മുമ്പിൽ <quote>Chrome</quote> പാളിയാണ്"
+"."
+
+#: src/filters/decor/chrome-it.xml:244(para)
+msgid ""
+"The <quote>Highlight</quote> layer is a copy of the <quote>Chrome</quote> "
+"layer where the layer mask is stroked with a white brush."
+msgstr ""
+"<quote>Highlight</quote> പാളി പാളികളുടെ മാസ്ക് ഒരു വെളുത്ത ബ്രഷ് ഉപയോഗിച്ച"
+"് എന്തേ ആണ് <quote>Chrome</quote> പാളി ഒരു പകർപ്പാണ്."
+
+#: src/filters/decor/chrome-it.xml:255(para)
+msgid "Chrome and Highlight base"
+msgstr ""
+"Chrome, ഹൈലൈറ്റ് ബേസ്"
+
+#: src/filters/decor/chrome-it.xml:260(para)
+msgid ""
+"For both layers the color balance is modified (according to "
+"<guilabel>Highlight&nbsp;balance</guilabel> and <guilabel>Chrome&nbsp;"
+"balance</guilabel>), increasing the amount of red, green, and blue, with "
+"emphasis on highlights."
+msgstr ""
+"ഇരു പാളികൾ നിറം ബാലൻസ് (<guilabel>Highlight balance</guilabel> ആൻഡ് <guilab"
+"el>Chrome  balance</guilabel> പ്രകാരം), ചുവന്ന പച്ച, നീല അളവ് വർധിപ്പിക്കുക"
+"യും ഹൈലൈറ്റുകൾ ഊന്നൽ കൂടെ പുതുക്കപ്പെട്ടത്."
+
+#: src/filters/decor/chrome-it.xml:266(para)
+msgid ""
+"Additionally, saturation and lightness of the <quote>Chrome</quote> layer "
+"are modified (controlled by <guilabel>Chrome&nbsp;saturation</guilabel> and "
+"<guilabel>Chrome&nbsp;lightness</guilabel>)."
+msgstr ""
+"കൂടാതെ, <quote>Chrome</quote> പാളിയുടെ സാച്ചുറേഷനും ചാപല്യം (<guilabel>Chro"
+"me saturation</guilabel> ആൻഡ് <guilabel>Chrome lightness</guilabel> നിയന്ത്"
+"രണത്തിലുള്ള) പരിഷ്കരിച്ചു."
+
+#: src/filters/decor/chrome-it.xml:278(para)
+msgid "Chrome and Highlight layer"
+msgstr ""
+"Chrome, ഹൈലൈറ്റ് പാളി"
+
+#: src/filters/decor/chrome-it.xml:283(para)
+msgid ""
+"Now add a drop shadow and a background layer and you get the <link linkend="
+"\"script-fu-sota-chrome-it-example\">Example image</link> for the "
+"<quote>Stencil Chrome</quote> filter."
+msgstr ""
+"ഇപ്പോൾ ഒരു ഡ്രോപ്പ് ഷാഡോ, ഒരു പശ്ചാത്തല പാളി ചേർക്കാൻ നിങ്ങൾ <quote>Sten"
+"cil Chrome</quote> ഫിൽട്ടർ <link linkend=\"script-fu-sota-chrome-it-example"
+"\">Example image</link> നേടുക."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/round-corners.xml:38(None)
+msgid ""
+"@@image: 'images/filters/examples/decor-taj-round-corners.png'; "
+"md5=f6577bb2fb5697398158b010eb21568f"
+msgstr ""
+"@@image: 'images/filters/examples/decor-taj-round-corners.png'; "
+"md5=f6577bb2fb5697398158b010eb21568f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/round-corners.xml:76(None)
+msgid ""
+"@@image: 'images/filters/decor/round-corners.png'; "
+"md5=b8544045a8a9930b6406ad8df35f6a12"
+msgstr ""
+"@@image: 'images/filters/decor/round-corners.png'; "
+"md5=b8544045a8a9930b6406ad8df35f6a12"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/round-corners.xml:102(None)
+msgid ""
+"@@image: 'images/filters/examples/round-corners-rad15.png'; "
+"md5=dad9038e5795f083a3af51c3870090b1"
+msgstr ""
+"@@image: 'images/filters/examples/round-corners-rad15.png'; "
+"md5=dad9038e5795f083a3af51c3870090b1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/round-corners.xml:113(None)
+msgid ""
+"@@image: 'images/filters/examples/round-corners-rad35.png'; "
+"md5=d8ba6e07a5eb3e78c985a97922a4c8c7"
+msgstr ""
+"@@image: 'images/filters/examples/round-corners-rad35.png'; "
+"md5=d8ba6e07a5eb3e78c985a97922a4c8c7"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/round-corners.xml:122(None)
+msgid ""
+"@@image: 'images/filters/examples/round-corners-rad50.png'; "
+"md5=d5604620fe79184229088088c01f14d1"
+msgstr ""
+"@@image: 'images/filters/examples/round-corners-rad50.png'; "
+"md5=d5604620fe79184229088088c01f14d1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/round-corners.xml:131(None)
+msgid ""
+"@@image: 'images/filters/examples/round-corners-rad65.png'; "
+"md5=7ac72b1017f2c8e174db7454c825a13a"
+msgstr ""
+"@@image: 'images/filters/examples/round-corners-rad65.png'; "
+"md5=7ac72b1017f2c8e174db7454c825a13a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/round-corners.xml:163(None)
+msgid ""
+"@@image: 'images/filters/examples/round-corners-shadow1.png'; "
+"md5=dad9038e5795f083a3af51c3870090b1"
+msgstr ""
+"@@image: 'images/filters/examples/round-corners-shadow1.png'; "
+"md5=dad9038e5795f083a3af51c3870090b1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/round-corners.xml:174(None)
+msgid ""
+"@@image: 'images/filters/examples/round-corners-shadow2.png'; "
+"md5=131cadb293db64e06c80eabd6ce927ec"
+msgstr ""
+"@@image: 'images/filters/examples/round-corners-shadow2.png'; "
+"md5=131cadb293db64e06c80eabd6ce927ec"
+
+#: src/filters/decor/round-corners.xml:11(title)
+#: src/filters/decor/round-corners.xml:16(tertiary)
+#: src/filters/decor/round-corners.xml:19(primary)
+msgid "Round Corners"
+msgstr ""
+"റൌണ്ട് കോർണറുകൾ"
+
+#: src/filters/decor/round-corners.xml:25(title)
+msgid "Example for the <quote>Round Corners</quote> filter"
+msgstr ""
+"<quote>Round Corners</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/decor/round-corners.xml:41(para)
+msgid "<quote>Round Corners</quote> applied"
+msgstr ""
+"<quote>Round Corners</quote> പ്രയോഗിച്ചു"
+
+#: src/filters/decor/round-corners.xml:45(para)
+msgid ""
+"This filter rounds the corners of an image, optionally adding a drop-shadow "
+"and a background layer."
+msgstr ""
+"ഈ ഫിൽട്ടർ ഓപ്ഷണലായി ഒരു ഡ്രോപ്പ്-നിഴൽ ഒരു പശ്ചാത്തല പാളി ചേർത്ത് ഒരു രൂപത്"
+"തിന്റെ കോണിലും മത്സരക്രമം."
+
+#: src/filters/decor/round-corners.xml:49(para)
+msgid ""
+"The filter works on RGB and grayscale images that contain only one layer. It "
+"creates a copy of the image or can optionally work on the original. It uses "
+"the current background color to create a background layer."
+msgstr ""
+"അരിപ്പ ആർജിബി മാത്രമാണ് പാളി അടങ്ങിയിരിക്കുന്ന ഗ്രേസ്കെയിലാക്കി ചിത്രങ്ങൾ പ"
+"്രവർത്തിക്കുന്നു. ഇത് ചിത്രത്തിന്റെ ഒരു പകർപ്പ് സൃഷ്ടിക്കുന്നു അല്ലെങ്കിൽ യ"
+"ഥാർത്ഥ പണി ഓപ്ഷണലായി. ഒരു പശ്ചാത്തല പാളി സൃഷ്ടിക്കാൻ നിലവിലെ പശ്ചാത്തല നിറം"
+" ഉപയോഗിക്കുന്നു."
+
+#: src/filters/decor/round-corners.xml:59(para)
+msgid ""
+"This filter is found in the image window menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
+"guisubmenu><guimenuitem>Round Corners</guimenuitem></menuchoice>."
+msgstr ""
+"ഈ ഫിൽട്ടർ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubme"
+"nu><guimenuitem>Round Corners</guimenuitem></menuchoice> കീഴിൽ ഇമേജ് വിൻഡോ"
+" മെനുവിലെ കാണപ്പെടുന്നത്."
+
+#: src/filters/decor/round-corners.xml:72(title)
+msgid "<quote>Round Corners</quote> options"
+msgstr ""
+"<quote>Round Corners</quote> ഓപ്ഷനുകൾ"
+
+#: src/filters/decor/round-corners.xml:82(term)
+msgid "Edge radius"
+msgstr ""
+"എഡ്ജ് ആരം"
+
+#: src/filters/decor/round-corners.xml:84(para)
+msgid ""
+"Rounding corners is done by selecting a quarter of a circle at every corner "
+"and removing the area not covered by this selection. The <quote>edge radius</"
+"quote> is the radius of the constructing circle."
+msgstr ""
+"ഓരോ കോണിലും ഒരു സർക്കിളിന്റെ ഒരു പാദത്തിൽ തിരഞ്ഞെടുത്ത് ഈ നിരക്കു ഉൾപ്പെട"
+"ുന്നില്ല പ്രദേശം നീക്കം ചെയ്ത് മികച്ചതാക്കൽ കോണിലും നടക്കുന്ന. <quote>edge"
+" radius</quote> നിർമിക്കുന്നതിനുള്ള സർക്കിൾ ആരം ആണ്."
+
+#: src/filters/decor/round-corners.xml:90(para)
+msgid ""
+"In the examples below, the filter was applied to a 100x100 pixels image, "
+"with varying edge radius. For radius = 50, the four quadrants just form a "
+"circle with diameter = 100, which exactly fits into the original image "
+"outline. A radius greater than 50 is possible, but look what happens..."
+msgstr ""
+"താഴെ പറയുന്ന ഉദാഹരണങ്ങളിൽ, അരിപ്പ എഡ്ജ് റേഡിയസ് വ്യത്യസ്ത കൂടെ ഒരു 100x100 "
+"പിക്സൽ ഇമേജ് ചലനങ്ങളെ. ആരം = 50 നാലും quadrants വെറും യഥാർത്ഥ ചിത്രം ഔട്ട്ല"
+"ൈൻ കടന്നു കൃത്യമായി ക്കുള്ളിലുള്ള വ്യാസം = 100, ഒരു സർക്കിൾ നിലകൊള്ളുന്നു."
+" 50 വലുതായ ഒരു ആരം സാധ്യമാണ്, എന്നാൽ എന്ത് സംഭവിച്ചാലും നോക്കൂ ..."
+
+#: src/filters/decor/round-corners.xml:98(title)
+msgid "Edge radius examples"
+msgstr ""
+"എഡ്ജ് ആരം ഉദാഹരണങ്ങൾ"
+
+#: src/filters/decor/round-corners.xml:105(para)
+msgid "A 100x100 pixels image, edge radius: 15 (default)."
+msgstr ""
+"ഒരു 100x100 പിക്സൽ ചിത്രം, എഡ്ജ് റേഡിയസ്: 15 (സ്ഥിരസ്ഥിതി)."
+
+#: src/filters/decor/round-corners.xml:116(para)
+msgid "Edge radius: 35."
+msgstr ""
+"അഗ്രം റേഡിയസ്: 35."
+
+#: src/filters/decor/round-corners.xml:125(para)
+msgid "Edge radius: 50."
+msgstr ""
+"അഗ്രം റേഡിയസ്: 50."
+
+#: src/filters/decor/round-corners.xml:134(para)
+msgid "Edge radius: 65. Ouch!"
+msgstr ""
+"അഗ്രം ആരം: 65. ജീ!"
+
+#: src/filters/decor/round-corners.xml:141(term)
+msgid "Add drop-shadow"
+msgstr ""
+"ഡ്രോപ്പ്-നിഴൽ ചേർക്കുക"
+
+#: src/filters/decor/round-corners.xml:143(para)
+msgid ""
+"When this option is checked, the filter will cast a shadow behind your image "
+"after rounding the image corners."
+msgstr ""
+"ഈ ഓപ്ഷൻ എപ്പോഴാണ് ചെക്കുചെയ്തിട്ടുണ്ടെന്നും, അരിപ്പ ഇമേജ് കോണിലും റൗണ്ട് "
+"ശേഷം നിങ്ങളുടെ ഇമേജ് പിന്നിൽ നിഴൽ തള്ളിക്കളയും."
+
+#: src/filters/decor/round-corners.xml:150(term)
+msgid "Shadow X/Y offset"
+msgstr ""
+"ഷാഡോ എക്സ് / Y ഓഫ്സെറ്റ്"
+
+#: src/filters/decor/round-corners.xml:152(para)
+msgid ""
+"X and Y offset determine where the shadow will be placed in relation to the "
+"image. Offset is measured in pixels. High values make the shadow look like "
+"it's far away, and low values will make it look closer to the image."
+msgstr ""
+"X, Y നിഴൽ ചിത്രം ബന്ധപ്പെട്ട് സ്ഥാപിക്കപ്പെടും എവിടെ നിർണ്ണയിക്കാൻ ഓഫ്സെറ്റ"
+"്. ഓഫ്സെറ്റ് പിക്സലിൽ അളക്കുന്നത്. ഉയർന്ന മൂല്യങ്ങൾ അതു ബഹുദൂരം പോലെ നിഴൽ "
+"നോക്കി, കുറഞ്ഞ മൂല്യങ്ങൾ അത് ചിത്രത്തിന്റെ ആത്മബന്ധവും ഉണ്ടാക്കാം."
+
+#: src/filters/decor/round-corners.xml:159(title)
+msgid "Shadow offset examples"
+msgstr ""
+"ഷാഡോ ഉദാഹരണങ്ങൾ ഓഫ്സെറ്റ്"
+
+#: src/filters/decor/round-corners.xml:166(para)
+msgid "Shadow X offset: 8, Y offset: 8 (default)."
+msgstr ""
+"ഷാഡോ X ഓഫ്സെറ്റ്: 8, Y ഓഫ്സെറ്റ്: 8 (സ്ഥിരസ്ഥിതി)."
+
+#: src/filters/decor/round-corners.xml:177(para)
+msgid "Shadow X offset: 16, Y offset: 4."
+msgstr ""
+"ഷാഡോ X ഓഫ്സെറ്റ്: 16, Y ഓഫ്സെറ്റ്: 4."
+
+#: src/filters/decor/round-corners.xml:181(para)
+msgid ""
+"Note that the shadow offsets as well as the blur radius are limited to "
+"background area."
+msgstr ""
+"നിഴൽ ഓഫ്സെറ്റുകളുടെ അതുപോലെ മങ്ങൽ ആരം പശ്ചാത്തല ഏരിയയിൽ പരിമിതപ്പെടുത്തിയി"
+"രിക്കുന്നു ശ്രദ്ധിക്കുക."
+
+#: src/filters/decor/round-corners.xml:188(term)
+msgid "Blur radius"
+msgstr ""
+"റേഡിയസ് മങ്ങിക്കുക"
+
+#: src/filters/decor/round-corners.xml:190(para)
+msgid ""
+"When <guilabel>Add drop-shadow</guilabel> is checked, you may select a blur "
+"radius, which will be used by the <link linkend=\"script-fu-drop-shadow"
+"\">Drop Shadow</link> filter. The image will be enlarged in both dimensions "
+"depending on the blur radius and the shadow offsets."
+msgstr ""
+"<guilabel>Add drop-shadow</guilabel> ശരിയടയാളമിട്ടാൽ നിങ്ങൾ <link linkend="
+"\"script-fu-drop-shadow \">Drop Shadow</link> ഫിൽറ്റർ ഉപയോഗിക്കുന്ന ഒരു മങ"
+"്ങൽ ആരം തിരഞ്ഞെടുക്കാം. ചിത്രം മങ്ങൽ റേഡിയസ് നിഴലിലും ഓഫ്സെറ്റുകളുടെ അനുസരി"
+"ച്ച് ഇരു പരിമാണങ്ങൾക്കും വലുതായ ചെയ്യും."
+
+#: src/filters/decor/round-corners.xml:200(term)
+msgid "Add background"
+msgstr ""
+"പശ്ചാത്തലം ചേർക്കുക"
+
+#: src/filters/decor/round-corners.xml:202(para)
+msgid ""
+"When you check this option (it is checked by default), the filter will add a "
+"background layer below the existing layer, filled with the current "
+"background color. The size of this new layer depends on the blur radius and "
+"the shadow offsets."
+msgstr ""
+"ഈ ഓപ്ഷന്റെ ചെയ്യുമ്പോൾ (അത് സ്ഥിരസ്ഥിതിയായി ചെക്ക്), അരിപ്പ നിലവിലെ പശ്ചാത"
+"്തല നിറം നിറഞ്ഞു, നിലവിലുള്ള താഴെയായി ഒരു പശ്ചാത്തല പാളി ചേർക്കും. ഈ പുതിയ "
+"പാളി വലിപ്പം മങ്ങൽ ആരം നിഴലിലും ഓഫ്സെറ്റുകളുടെ ആശ്രയിച്ചിരിക്കുന്നു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/addborder.xml:38(None)
+msgid ""
+"@@image: 'images/filters/examples/decor-taj-addborder.jpg'; "
+"md5=6de726815377184a6271f86393265bd8"
+msgstr ""
+"@@image: 'images/filters/examples/decor-taj-addborder.jpg'; "
+"md5=6de726815377184a6271f86393265bd8"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/addborder.xml:75(None)
+msgid ""
+"@@image: 'images/filters/decor/addborder.png'; "
+"md5=a83413778fa2b30fa89a34503ccee721"
+msgstr ""
+"@@image: 'images/filters/decor/addborder.png'; "
+"md5=a83413778fa2b30fa89a34503ccee721"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/addborder.xml:136(None)
+msgid ""
+"@@image: 'images/filters/examples/addborder-delta.png'; "
+"md5=19a7ddc1552bcc9e253cfe2d0168ade7"
+msgstr ""
+"@@image: 'images/filters/examples/addborder-delta.png'; "
+"md5=19a7ddc1552bcc9e253cfe2d0168ade7"
+
+#: src/filters/decor/addborder.xml:12(title)
+#: src/filters/decor/addborder.xml:16(secondary)
+#: src/filters/decor/addborder.xml:19(primary)
+msgid "Add Border"
+msgstr ""
+"ബോർഡർ ചേർക്കുക"
+
+#: src/filters/decor/addborder.xml:25(title)
+msgid "Example for the <quote>Add Border</quote> filter"
+msgstr ""
+"<quote>Add Border</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/decor/addborder.xml:41(para)
+msgid "Border added"
+msgstr ""
+"ബോർഡർ ചേർത്തു"
+
+#: src/filters/decor/addborder.xml:45(para)
+msgid ""
+"This filter just does what its name says: it adds a border to the image. You "
+"can specify the thickness of the border as well as the color. The four sides "
+"of the border are colored in different shades, so the image area will appear "
+"raised."
+msgstr ""
+"ഈ ഫിൽട്ടർ വെറും പേര് പറയുന്നത് ചെയ്യുന്നു അത് ചിത്രത്തിന്റെ ഒരു ബോർഡർ ചേർക"
+"്കുന്നു. നിങ്ങൾ അതിർ കനം അതുപോലെ നിറം വ്യക്തമാക്കാൻ കഴിയും. അതിർത്തിയിൽ നാ"
+"ലു ഭാഗത്തും വിവിധ തണലുകളിൽ നിറത്തിലുള്ള, അതിനാൽ ഇമേജ് പ്രദേശം ഉയിർത്തെഴുന്ന"
+"േൽക്കയും ദൃശ്യമാകും."
+
+#: src/filters/decor/addborder.xml:51(para)
+msgid ""
+"The image will be enlarged by the border size, it won't be painted over."
+msgstr ""
+"ചിത്രം വക്കുകളുടെ വലിപ്പം വലുതായ ചെയ്യും അതു മാത്രമേ ചായം ചെയ്യില്ല."
+
+#: src/filters/decor/addborder.xml:58(para)
+msgid ""
+"This filter is found in the image window menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
+"guisubmenu><guimenuitem>Add Border</guimenuitem></menuchoice>."
+msgstr ""
+"ഈ ഫിൽട്ടർ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubme"
+"nu><guimenuitem>Add Border</guimenuitem></menuchoice> കീഴിൽ ഇമേജ് വിൻഡോ മെ"
+"നുവിലെ കാണപ്പെടുന്നത്."
+
+#: src/filters/decor/addborder.xml:71(title)
+msgid "<quote>Add Border</quote> options"
+msgstr ""
+"<quote>Add Border</quote> ഓപ്ഷനുകൾ"
+
+#: src/filters/decor/addborder.xml:81(term)
+msgid "Border X size"
+msgstr ""
+"ബോർഡർ എക്സ് വലുപ്പം"
+
+#: src/filters/decor/addborder.xml:82(term)
+msgid "Border Y size"
+msgstr ""
+"ബോർഡർ വൈ വലുപ്പം"
+
+#: src/filters/decor/addborder.xml:84(para)
+msgid ""
+"Here you can select the thickness of the added border, in pixels. X size "
+"(left an right) and Y size (top and bottom) may be different. Maximum is 250 "
+"pixels."
+msgstr ""
+"ഇവിടെ നിങ്ങൾ പിക്സലിൽ, ചേർത്തു അതിർത്തിയിൽ കനം തിരഞ്ഞെടുക്കാം. എക്സ് വലുപ്പ"
+"ം (ഒരു ഇടത് വലത്), Y വലുപ്പം (മുകളിൽ താഴെ) വ്യത്യസ്തമായിരിക്കും. പരമാവധി 25"
+"0 പിക്സൽ ആണ്."
+
+#: src/filters/decor/addborder.xml:92(term)
+msgid "Border color"
+msgstr ""
+"ബോർഡർ വർണ്ണം"
+
+#: src/filters/decor/addborder.xml:94(para)
+msgid ""
+"Clicking on this button brings up the color selector dialog that allows you "
+"to choose an <quote>average</quote> border color (see below, <guilabel>Delta "
+"value on color</guilabel>)."
+msgstr ""
+"ഈ ബട്ടൺ ക്ലിക്കുചെയ്താൽ ഒരു <quote>average</quote> അതിർത്തിയിൽ നിറം (താഴെ ക"
+"ാണുന്ന, <guilabel>Delta value on color</guilabel>) തിരഞ്ഞെടുക്കാൻ അനുവദിക്ക"
+"ുന്ന നിറം സെലക്ടർ ഡയലോഗിന് നൽകുന്നു."
+
+#: src/filters/decor/addborder.xml:102(term)
+msgid "Delta value on color"
+msgstr ""
+"നിറം ഡെൽറ്റ മൂല്യം"
+
+#: src/filters/decor/addborder.xml:109(para)
+msgid ""
+"See <link linkend=\"gimp-concepts-image-types\">image types</link> or <xref "
+"linkend=\"glossary-rgb\"/>."
+msgstr ""
+"<link linkend=\"gimp-concepts-image-types\">image types</link> അല്ലെങ്കിൽ <"
+"xref linkend=\"glossary-rgb\" /> കാണുക."
+
+#: src/filters/decor/addborder.xml:104(para)
+msgid ""
+"This option makes the border sides to be colored in different shades and "
+"thus makes the image to appear raised. The actual color of the respective "
+"border side is computed for every color component red, green, and "
+"blue<placeholder-1/> from the <quote>average</quote><guilabel>Border color</"
+"guilabel> as follows (resulting values less than 0 are set to 0, values "
+"greater than 255 are set to 255):"
+msgstr ""
+"ഈ ഓപ്ഷൻ അതിർത്തി വശങ്ങളും വ്യത്യസ്ത തണലുകളിൽ നിറത്തിലുള്ള നൽകുന്നു അതുവഴി ച"
+"ിത്രം ഉയിർത്തെഴുന്നേൽക്കയും ദൃശ്യമാകാൻ ചെയ്യുന്നു. താഴെ അതത് അതിർത്തി വശത്ത"
+"ു യഥാർത്ഥ നിറം <quote>average</quote> <guilabel>Border color</guilabel> നിന"
+"്ന് നിറത്തിൽ ഘടകം, ചുവന്ന പച്ച, നീല, <placeholder-1 /> വേണ്ടി കണക്കുകൂട്ടുന"
+"്നത് (തത്ഫലമായുണ്ടാകുന്ന അകൗണ്ട് 0 0 സജ്ജമാക്കി മൂല്യങ്ങൾ, 255 ശ്രേഷ്ഠ 255 "
+"സജ്ജമാക്കി മൂല്യങ്ങൾ):"
+
+#: src/filters/decor/addborder.xml:119(para)
+msgid "Top shade = Border color + Delta"
+msgstr ""
+"ടോപ്പ് തണൽ = ബോർഡർ വർണ്ണം + ഡെൽറ്റ"
+
+#: src/filters/decor/addborder.xml:122(para)
+msgid "Right shade = Border color - &frac12; Delta"
+msgstr ""
+"വലത് തണൽ = ബോർഡർ വർണ്ണം - &frac12; ഡെൽറ്റ"
+
+#: src/filters/decor/addborder.xml:125(para)
+msgid "Bottom shade = Border color - Delta"
+msgstr ""
+"താഴെയുള്ള തണൽ = ബോർഡർ വർണ്ണം - ഡെൽറ്റ"
+
+#: src/filters/decor/addborder.xml:128(para)
+msgid "Left shade = Border color + &frac12; Delta"
+msgstr ""
+"ഇടത് തണൽ = ബോർഡർ വർണ്ണം + &frac12; ഡെൽറ്റ"
+
+#: src/filters/decor/addborder.xml:132(title)
+msgid "Delta examples"
+msgstr ""
+"ഡെൽറ്റ ഉദാഹരണങ്ങൾ"
+
+#: src/filters/decor/addborder.xml:139(para)
+msgid ""
+"<quote>Add Border</quote> filter applied with <guilabel>Delta value</"
+"guilabel> 25, then with 75, 125, 175, and 225."
+msgstr ""
+"<quote>Add Border</quote> അരിപ്പ 75, 125, 175, 225, തുടർന്ന്, <guilabel>Del"
+"ta value</guilabel> 25 പ്രയോഗിച്ചു."
+
+#: src/filters/decor/addborder.xml:147(para)
+msgid ""
+"Example: the default color is blue (38,31,207), default delta is 25. So the "
+"shades of the borders are: top: (38,31,207) + (25,25,25) = (63,56,232), "
+"right: (38,31,207) + (-13,-13,-13) = (25,18,194), etc."
+msgstr ""
+"ഉദാഹരണം: default നിറം നീല (38,31,207) ആണ്, സ്ഥിര ഡെൽറ്റാ 25. ആണ് അങ്ങനെ അതി"
+"രുകളിൽ തണലുകൾ: മുകളിൽ: (38,31,207) + (25,25,25) = (63,56,232), വലത്: (38,31"
+",207) + (-13, -13, -13) = (25,18,194) മുതലായവ"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/old-photo.xml:38(None)
+msgid ""
+"@@image: 'images/filters/examples/decor-taj-old-photo.jpg'; "
+"md5=1ec97d5505efa048bddfeb749304476e"
+msgstr ""
+"@@image: 'images/filters/examples/decor-taj-old-photo.jpg'; "
+"md5=1ec97d5505efa048bddfeb749304476e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/old-photo.xml:71(None)
+msgid ""
+"@@image: 'images/filters/decor/old-photo.png'; "
+"md5=65de0ed40debc1faa63c16bebdfab91e"
+msgstr ""
+"@@image: 'images/filters/decor/old-photo.png'; "
+"md5=65de0ed40debc1faa63c16bebdfab91e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/old-photo.xml:88(None)
+msgid ""
+"@@image: 'images/filters/examples/old-photo-defocus.png'; "
+"md5=f8842c9806c22f7a82ef019c986a8ee2"
+msgstr ""
+"@@image: 'images/filters/examples/old-photo-defocus.png'; "
+"md5=f8842c9806c22f7a82ef019c986a8ee2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/old-photo.xml:97(None)
+msgid ""
+"@@image: 'images/filters/examples/old-photo-focus.png'; "
+"md5=e62f2704a8d75922f7a31a5cd8377c00"
+msgstr ""
+"@@image: 'images/filters/examples/old-photo-focus.png'; "
+"md5=e62f2704a8d75922f7a31a5cd8377c00"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/old-photo.xml:144(None)
+msgid ""
+"@@image: 'images/filters/examples/old-photo-mottle.png'; "
+"md5=d2033beee3ec9fd9bd77c30dcc199be0"
+msgstr ""
+"@@image: 'images/filters/examples/old-photo-mottle.png'; "
+"md5=d2033beee3ec9fd9bd77c30dcc199be0"
+
+#: src/filters/decor/old-photo.xml:11(title)
+#: src/filters/decor/old-photo.xml:16(tertiary)
+#: src/filters/decor/old-photo.xml:19(primary)
+msgid "Old Photo"
+msgstr ""
+"പഴയ ഫോട്ടോ"
+
+#: src/filters/decor/old-photo.xml:25(title)
+msgid "Example for the <quote>Old Photo</quote> filter"
+msgstr ""
+"<quote>Old Photo</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/decor/old-photo.xml:41(para)
+msgid "<quote>Old Photo</quote> applied"
+msgstr ""
+"<quote>Old Photo</quote> പ്രയോഗിച്ചു"
+
+#: src/filters/decor/old-photo.xml:45(para)
+msgid ""
+"This filter makes an image look like an old photo: blurred, with a jagged "
+"border, toned with a brown shade, and marked with spots."
+msgstr ""
+"ഒരു പല്ലുള്ള അതിർനാടും, മങ്ങിക്കുന്നതിനുള്ള ഒരു തവിട്ട് നിഴലിൽ നറിഷിംഗ്, പെ"
+"ാട്ടുകളും അടയാളപ്പെടുത്തിയിട്ടുള്ള: ഈ ഫിൽട്ടർ ഒരു പഴയ ഫോട്ടോ പോലെ ഒരു ചി"
+"ത്രം നിറയുന്നു."
+
+#: src/filters/decor/old-photo.xml:54(para)
+msgid ""
+"The filter is found in the image window menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
+"guisubmenu><guimenuitem>Old Photo</guimenuitem></menuchoice>."
+msgstr ""
+"ഫിൽട്ടർ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu"
+"><guimenuitem>Old Photo</guimenuitem></menuchoice> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവ"
+"ിലെ കാണപ്പെടുന്നത്."
+
+#: src/filters/decor/old-photo.xml:67(title)
+msgid "<quote>Old Photo</quote> options"
+msgstr ""
+"<quote>Old Photo</quote> ഓപ്ഷനുകൾ"
+
+#: src/filters/decor/old-photo.xml:77(term)
+msgid "Defocus"
+msgstr "Defocus"
+
+#: src/filters/decor/old-photo.xml:79(para)
+msgid ""
+"If checked, a <link linkend=\"plug-in-gauss\">Gaussian blur</link> will be "
+"applied to the image, making it less clear."
+msgstr ""
+"പരിശോധിച്ചതാണെങ്കിൽ, ഒരു <link linkend=\"plug-in-gauss\">Gaussian blur</li"
+"nk> അതു വ്യക്തമല്ല making, ഇമേജ് ബാധകമാകും."
+
+#: src/filters/decor/old-photo.xml:84(title)
+msgid "Example for the <quote>Defocus</quote> option"
+msgstr ""
+"<quote>Defocus</quote> ഓപ്ഷൻ ഉദാഹരണത്തിന്"
+
+#: src/filters/decor/old-photo.xml:91(para)
+msgid "Defocus enabled"
+msgstr ""
+"Defocus പ്രവർത്തനക്ഷമമാക്കി"
+
+#: src/filters/decor/old-photo.xml:100(para)
+msgid "Defocus disabled"
+msgstr ""
+"Defocus പ്രവർത്തനരഹിതമാക്കി"
+
+#: src/filters/decor/old-photo.xml:109(para)
+msgid ""
+"When you choose a border size &gt; 0, the <link linkend=\"script-fu-fuzzy-"
+"border\">Fuzzy Border</link> filter will be applied to the image, adding a "
+"white, jagged border."
+msgstr ""
+"നിങ്ങൾ ഒരു അതിർത്തി വലിപ്പം &gt; 0 തെരഞ്ഞെടുക്കുമ്പോൾ, <link linkend=\"scr"
+"ipt-fu-fuzzy- border\">Fuzzy Border</link> അരിപ്പ വെളുത്ത പല്ലുള്ള അതിർത്തി"
+" ചേർത്ത്, ഇമേജ് ബാധകമാകും."
+
+#: src/filters/decor/old-photo.xml:117(term)
+msgid "Sepia"
+msgstr ""
+"സെപിയ"
+
+#: src/filters/decor/old-photo.xml:122(para)
+msgid "See Wikipedia <xref linkend=\"bibliography-online-wkpd-sepia\"/>."
+msgstr ""
+"വിക്കിപീഡിയ <xref linkend=\"bibliography-online-wkpd-sepia\" /> കാണുക."
+
+#: src/filters/decor/old-photo.xml:127(para)
+msgid "Compare <xref linkend=\"gimp-tool-color-balance\"/>."
+msgstr ""
+"<xref linkend=\"gimp-tool-color-balance\" /> താരതമ്യം."
+
+#: src/filters/decor/old-photo.xml:119(para)
+msgid ""
+"If checked, the filter reproduces the effect of aging in old, traditional "
+"black-and-white photographs, toned with sepia (shades of brown)."
+"<placeholder-1/> To achieve this effect, the filter desaturates the image, "
+"reduces brightness and contrast, and modifies the color balance."
+"<placeholder-2/>"
+msgstr ""
+"പരിശോധിച്ചാൽ, അരിപ്പ പഴയ പരമ്പരാഗത ബ്ലാക്ക് ആന്റ് വൈറ്റ് ചിത്രങ്ങളും, സെപി"
+"യ (തവിട്ട് ഷേഡുകൾ) ഉപയോഗിച്ച് നറിഷിംഗ് വാർധക്യബാധ പ്രഭാവം ആവർത്തിക്കുകയും."
+" PLACEHOLDER,-107153 ഈ പ്രഭാവം സാധിക്കാനായി, അരിപ്പ ചിത്രം desaturates, മിഴ"
+"ിവും കോൺട്രാസ്റ്റ് കുറയ്ക്കുന്നു, നിറം ബാലൻസ് മാറ്റം. PLACEHOLDER,-207154"
+
+#: src/filters/decor/old-photo.xml:134(term)
+msgid "Mottle"
+msgstr "Mottle"
+
+#: src/filters/decor/old-photo.xml:136(para)
+msgid "When you check this option, the image will be marked with spots."
+msgstr ""
+"ഈ ഓപ്ഷന്റെ, ചിത്രം പാടുകൾ അടയാളപ്പെടുത്തും."
+
+#: src/filters/decor/old-photo.xml:140(title)
+msgid "Example for the <quote>Mottle</quote> option"
+msgstr ""
+"<quote>Mottle</quote> ഓപ്ഷൻ ഉദാഹരണത്തിന്"
+
+#: src/filters/decor/old-photo.xml:147(para)
+msgid "A plain white image mottled (without Defocus or Sepia)"
+msgstr ""
+"ഒരു പ്ലെയിൻ വെളുത്ത ചിത്രം (Defocus അല്ലെങ്കിൽ സെപിയ ഇല്ലാതെ) പൂശാറുണ്ട്"
+
+#: src/filters/decor/introduction.xml:12(title)
+#: src/filters/decor/introduction.xml:17(tertiary)
+msgid "Introduction"
+msgstr ""
+"അവതാരിക"
+
+#: src/filters/decor/introduction.xml:22(para)
+msgid ""
+"These filters are image-dependent Script-Fu scripts. They create decorative "
+"borders, and some of them add some nice special effects to the image."
+msgstr ""
+"ഈ ഫിൽട്ടറുകൾ ചിത്രം-ആശ്രിത സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റുകൾ ആകുന്നു. അവർ അലങ്"
+"കാര ബോർഡറുകൾ സൃഷ്ടിക്കുക, അവരിൽ ചിലരെ ഇമേജിലേക്ക് ചില നല്ല പ്രത്യേക ഇഫക്റ്"
+"റുകൾ ചേർക്കുക."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/slide.xml:38(None)
+msgid ""
+"@@image: 'images/filters/examples/decor-taj-slide.jpg'; "
+"md5=d0de0d2396ce54020d1b714becb3e1fb"
+msgstr ""
+"@@image: 'images/filters/examples/decor-taj-slide.jpg'; "
+"md5=d0de0d2396ce54020d1b714becb3e1fb"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/decor/slide.xml:82(None)
+msgid ""
+"@@image: 'images/filters/decor/slide.png'; "
+"md5=e5a02058389e1dc28733bb78a44baec2"
+msgstr ""
+"@@image: 'images/filters/decor/slide.png'; "
+"md5=e5a02058389e1dc28733bb78a44baec2"
+
+#: src/filters/decor/slide.xml:11(title)
+#: src/filters/decor/slide.xml:16(tertiary)
+#: src/filters/decor/slide.xml:19(primary)
+msgid "Slide"
+msgstr ""
+"സ്ലൈഡ്"
+
+#: src/filters/decor/slide.xml:25(title)
+msgid "Example for the <quote>Slide</quote> filter"
+msgstr ""
+"<quote>Slide</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/decor/slide.xml:41(para)
+msgid "<quote>Slide</quote> applied"
+msgstr ""
+"<quote>Slide</quote> പ്രയോഗിച്ചു"
+
+#: src/filters/decor/slide.xml:45(para)
+msgid ""
+"This filter makes your image look like a slide, by adding a slide-film like "
+"black frame, sprocket holes, and labels."
+msgstr ""
+"ഈ ഫിൽട്ടർ നിങ്ങളുടെ ചിത്രം കറുത്ത ഫ്രെയിം, sprocket കുഴികളും ലേബലുകൾ പോലുള"
+"്ള ഒരു സ്ലൈഡ്-സിനിമ ചേർത്ത് ഒരു സ്ലൈഡ് പോലെ നിറയുന്നു."
+
+#: src/filters/decor/slide.xml:49(para)
+msgid ""
+"If necessary, the image will be cropped to fit into an aspect ratio of "
+"width : height = 3:2. If image width is greater than image height, black "
+"frames will be added at the top and the bottom of the image, else the frames "
+"will be added on the left and right sides. You may select the color as well "
+"as the font of the text appearing on the frames. The current background "
+"color will be used for drawing the holes."
+msgstr ""
+"ഉയരം = 3: 2 ആവശ്യമെങ്കിൽ, ചിത്ര വീതി ഒരു വശത്തെക്കുറിച്ച് അനുപാതം കടന്നു ഉള"
+"്ളുവെങ്കിലും ക്രോപ്പുചെയ്യും. ചിത്രത്തിന്റെ വീതി ഇമേജ് ഉയരം വലിയവൻ എങ്കിൽ,"
+" കറുത്ത ഫ്രെയിമുകൾ മുകളിലും ചിത്രം ചുവടെ ചേർക്കും മറ്റെല്ലാവർക്കും ഫ്രെയിമു"
+"കൾ ഇടത് വലത് വശങ്ങളിൽ ചേർക്കും. നിങ്ങൾക്ക് കളർ അതുപോലെ ഫ്രെയിമുകൾ പ്രത്യക്"
+"ഷപ്പെടുന്നത് ടെക്സ്റ്റ് ഫോണ്ട് തിരഞ്ഞെടുക്കാം. നിലവിലെ പശ്ചാത്തല നിറം ദ്വാ"
+"രങ്ങൾ ഡ്രോയിംഗ് ഉപയോഗിക്കും."
+
+#: src/filters/decor/slide.xml:57(para)
+msgid ""
+"The script only works on RGB and grayscale images that contain one layer. "
+"Otherwise the menu entry is insensitive and grayed out."
+msgstr ""
+"സ്ക്രിപ്റ്റ് മാത്രമേ ആർജിബി ഒരുവൻ പാളി അടങ്ങിയിരിക്കുന്ന ഗ്രേസ്കെയിലാക്കി ച"
+"ിത്രങ്ങൾ പ്രവർത്തിക്കുന്നു. അല്ലാത്തപക്ഷം മെനു എൻട്രി കൈമാറ്റം ചെയ്ത് ആവശ്യ"
+"ം തന്നെയാണ്."
+
+#: src/filters/decor/slide.xml:65(para)
+msgid ""
+"The filter is found in the image window menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</"
+"guisubmenu><guimenuitem>Slide</guimenuitem></menuchoice>."
+msgstr ""
+"ഫിൽട്ടർ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Decor</guisubmenu"
+"><guimenuitem>Slide</guimenuitem></menuchoice> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ "
+"കാണപ്പെടുന്നത്."
+
+#: src/filters/decor/slide.xml:78(title)
+msgid "<quote>Slide</quote> options"
+msgstr ""
+"<quote>Slide</quote> ഓപ്ഷനുകൾ"
+
+#: src/filters/decor/slide.xml:88(term)
+msgid "Text"
+msgstr ""
+"ടെക്സ്റ്റ്"
+
+#: src/filters/decor/slide.xml:90(para)
+msgid ""
+"A short label that will be displayed in the top and bottom (or the left and "
+"right) of the frame. The text must be really short."
+msgstr ""
+"ഫ്രെയിം മുകളിലും താഴെയുമുള്ള പ്രദർശിപ്പിച്ച (അല്ലെങ്കിൽ ഇടത് വലത്); ആ ഒരു ഹ"
+"്രസ്വ ലേബൽ. ടെക്സ്റ്റ് ശരിക്കും ഹ്രസ്വ ആയിരിക്കണം."
+
+#: src/filters/decor/slide.xml:97(term)
+msgid "Number"
+msgstr ""
+"അക്കം"
+
+#: src/filters/decor/slide.xml:99(para)
+msgid ""
+"Here you may enter a text for simulating consecutive numbers. Two numbers "
+"will be displayed: this number and this number with the character <quote>A</"
+"quote> appended."
+msgstr ""
+"ഇവിടെ നിങ്ങൾക്ക് തുടർച്ചയായി നമ്പറുകൾ സിമുലേഷനും വേണ്ടിയുള്ള ഒരു ടെക്സ്റ്റ്"
+" നൽകാം. രണ്ട് സംഖ്യകളുടെ പ്രദർശിപ്പിക്കും: ഈ നമ്പറും കൂട്ടിച്ചേർത്ത പ്രതീകം"
+" <quote>A</quote> ഈ നമ്പറിൽ."
+
+#: src/filters/decor/slide.xml:107(term)
+msgid "Font"
+msgstr ""
+"ഫോണ്ട്"
+
+#: src/filters/decor/slide.xml:109(para)
+msgid ""
+"Clicking on this button opens the <link linkend=\"gimp-font-dialog\">Font "
+"dialog</link>, where you can choose a font for the text on the frame."
+msgstr ""
+"ഈ ബട്ടൺ ക്ലിക്കുചെയ്താൽ ഫ്രെയിമിലോ എഴുത്തിനുള്ള ഫോണ്ട് തിരഞ്ഞെടുക്കുക കഴി"
+"യുന്ന <link linkend=\"gimp-font-dialog\">Font dialog</link> തുറക്കുന്നു."
+
+#: src/filters/decor/slide.xml:117(term)
+msgid "Fontcolor"
+msgstr ""
+"FONTCOLOR"
+
+#: src/filters/decor/slide.xml:119(para)
+msgid ""
+"Clicking on this button brings up a color selection dialog that allows you "
+"to choose the color of the text."
+msgstr ""
+"ഈ ബട്ടൺ ക്ലിക്കുചെയ്താൽ വാചകത്തിന്റെ നിറം തിരഞ്ഞെടുക്കാൻ അനുവദിക്കുന്ന ഒരു "
+"കളർ നിരക്കു ഡയലോഗിന് നൽകുന്നു."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/filters/decor/slide.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"

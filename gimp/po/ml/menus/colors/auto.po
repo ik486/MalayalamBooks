@@ -1,0 +1,600 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP-Help 2.8.0\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
+"PO-Revision-Date: 2012-06-01 12:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/auto/equalize.xml:71(None)
+#: src/menus/colors/auto/autostretch-hsv.xml:57(None)
+#: src/menus/colors/auto/white-balance.xml:72(None)
+#: src/menus/colors/auto/normalize.xml:55(None)
+#: src/menus/colors/auto/color-enhance.xml:59(None)
+#: src/menus/colors/auto/c-astretch.xml:72(None)
+msgid ""
+"@@image: 'images/menus/colors/auto/alice.png'; "
+"md5=a33d190d14dbff2cc22559afe586614b"
+msgstr ""
+"@@image: 'images/menus/colors/auto/alice.png'; "
+"md5=a33d190d14dbff2cc22559afe586614b"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/auto/equalize.xml:86(None)
+msgid ""
+"@@image: 'images/menus/colors/auto/equalize.png'; "
+"md5=2000746549b6f65af80e17d64ff69021"
+msgstr ""
+"@@image: 'images/menus/colors/auto/equalize.png'; "
+"md5=2000746549b6f65af80e17d64ff69021"
+
+#: src/menus/colors/auto/equalize.xml:14(title)
+#: src/menus/colors/auto/equalize.xml:18(secondary)
+#: src/menus/colors/auto/equalize.xml:21(primary)
+msgid "Equalize"
+msgstr ""
+"തുല്യമായരീതിയിൽ"
+
+#: src/menus/colors/auto/equalize.xml:17(primary)
+#: src/menus/colors/auto/autostretch-hsv.xml:16(primary)
+#: src/menus/colors/auto/white-balance.xml:17(primary)
+#: src/menus/colors/auto/normalize.xml:16(primary)
+#: src/menus/colors/auto/color-enhance.xml:16(primary)
+#: src/menus/colors/auto/c-astretch.xml:16(primary)
+msgid "Colors"
+msgstr ""
+"നിറങ്ങൾ"
+
+#: src/menus/colors/auto/equalize.xml:23(para)
+msgid ""
+"The <guimenuitem>Equalize</guimenuitem> command automatically adjusts the "
+"brightness of colors across the active layer so that the histogram for the "
+"Value channel is as nearly flat as possible, that is, so that each possible "
+"brightness value appears at about the same number of pixels as every other "
+"value. You can see this in the histograms in the example below, in that "
+"pixel colors which occur frequently in the image are stretched further apart "
+"than pixel colors which occur only rarely. The results of this command can "
+"vary quite a bit. Sometimes <quote>Equalize</quote> works very well to "
+"enhance the contrast in an image, bringing out details which were hard to "
+"see before. Other times, the results look very bad. It is a very powerful "
+"operation and it is worth trying to see if it will improve your image. It "
+"works on layers from RGB and Grayscale images. If the image is Indexed, the "
+"menu entry is insensitive and grayed out."
+msgstr ""
+"<guimenuitem>Equalize</guimenuitem> കമാൻഡ് സ്വയം അങ്ങനെ ഓരോ സാധ്യത തെളിച്ച"
+"ം മൂല്യം മറ്റെല്ലാ മൂല്യം പിക്സൽ അതേ എണ്ണം കുറിച്ച് ദൃശ്യമാകുന്ന മൂല്യം ചാന"
+"ലിന് വേണ്ടി ഹിസ്റ്റോഗ്രാം എന്നുവെച്ചാൽ കഴിയുന്നത്ര ഏതാണ്ട് ഫ്ലാറ്റ് അങ്ങനെ"
+" സജീവ പാളി ഉടനീളം നിറങ്ങൾ തെളിച്ചം മറക്കുക. നിങ്ങൾക്ക് ചുവടെ ഉദാഹരണത്തിൽ hi"
+"stograms ഈ കാണാൻ കഴിയുന്ന പിക്സൽ ലെ സ്വരൂപത്തിൽ പതിവായി സംഭവിക്കുന്നുണ്ട് ന"
+"ിറങ്ങൾ കൂടുതൽ പുറമെ വിരളമായേ സംഭവിക്കുന്നുണ്ട് പിക്സൽ നിറങ്ങൾ അധികം വീണിരിക"
+"്കുന്നു. ഈ കമാൻഡ് ഫലങ്ങൾ അൽപ്പം വ്യത്യാസപ്പെട്ടിരിക്കും. ചിലപ്പോൾ <quote>E"
+"qualize</quote> വളരെ നന്നായി മുമ്പ് കാണാൻ ഹാർഡ് ഉണ്ടായിരുന്ന വിശദാംശങ്ങൾ പു"
+"റത്തു കൊണ്ടുവന്നു ഒരു സ്വരൂപത്തിൽ തീവ്രത മെച്ചപ്പെടുത്തുന്നതിനായി പ്രവർത്ത"
+"ിക്കുന്നു. മറ്റ് ചിലപ്പോൾ ഫലങ്ങള് വളരെ മോശമായ നോക്കി. ഇത് ഒരു ശക്തമായ ഓപ"
+"്പറേഷൻ ആണ് അത് നിങ്ങളുടെ ചിത്രം മെച്ചപ്പെടുത്താൻ കാണുന്നതിന് ശ്രമിക്കുന്ന ര"
+"ൂപയുടെ. ഇത് ആർജിബി ചെയ്ത് Grayscale ചിത്രങ്ങൾ നിന്ന് പാളികൾ പ്രവർത്തിക്കുന്"
+"നു. ചിത്രം ഇൻഡെക്സ് എങ്കിൽ, മെനു എൻട്രി കൈമാറ്റം ചെയ്ത് ആവശ്യം തന്നെയാണ്."
+
+#: src/menus/colors/auto/equalize.xml:41(title)
+#: src/menus/colors/auto/autostretch-hsv.xml:35(title)
+#: src/menus/colors/auto/white-balance.xml:50(title)
+#: src/menus/colors/auto/normalize.xml:33(title)
+#: src/menus/colors/auto/c-astretch.xml:50(title)
+msgid "Activate the Command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുക"
+
+#: src/menus/colors/auto/equalize.xml:44(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
+"guisubmenu><guimenuitem>Equalize</guimenuitem></menuchoice>"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Colors</guimenu><guisubmen"
+"u>Auto</guisubmenu><guimenuitem>Equalize</guimenuitem></menuchoice> മുഖേന ഈ"
+" കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും"
+
+#: src/menus/colors/auto/equalize.xml:54(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>Page_Down</keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Shift</keycap><keycap>Pag"
+"e_Down</keycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/colors/auto/equalize.xml:65(title)
+msgid "<quote>Equalize</quote> example"
+msgstr ""
+"<quote>Equalize</quote> ഉദാഹരണം"
+
+#: src/menus/colors/auto/equalize.xml:67(title)
+#: src/menus/colors/auto/autostretch-hsv.xml:53(title)
+#: src/menus/colors/auto/white-balance.xml:68(title)
+#: src/menus/colors/auto/normalize.xml:51(title)
+#: src/menus/colors/auto/c-astretch.xml:68(title)
+msgid "Original image"
+msgstr ""
+"യഥാർത്ഥ ചിത്രം"
+
+#: src/menus/colors/auto/equalize.xml:74(para)
+msgid ""
+"The active layer and its Red, Green, Blue histograms before <quote>Equalize</"
+"quote>."
+msgstr ""
+"<quote>Equalize</quote> മുമ്പാകെ സജീവ പാളി അതിന്റെ റെഡ്, ഗ്രീൻ, ബ്ലൂ histog"
+"rams."
+
+#: src/menus/colors/auto/equalize.xml:82(title)
+#: src/menus/colors/auto/autostretch-hsv.xml:68(title)
+#: src/menus/colors/auto/white-balance.xml:83(title)
+#: src/menus/colors/auto/normalize.xml:66(title)
+#: src/menus/colors/auto/c-astretch.xml:83(title)
+msgid "Image after the command"
+msgstr ""
+"കമാൻഡ് ശേഷം ചിത്രം"
+
+#: src/menus/colors/auto/equalize.xml:89(para)
+msgid "The active layer and its Red, Green, Blue histograms after treatment."
+msgstr ""
+"ചികിത്സയ്ക്കു ശേഷം സജീവ പാളി അതിന്റെ റെഡ്, ഗ്രീൻ, ബ്ലൂ histograms."
+
+#: src/menus/colors/auto/equalize.xml:93(para)
+msgid ""
+"Histogram stretching creates gaps between pixel columns giving it a striped "
+"look."
+msgstr ""
+"ആമി നീട്ടിവെച്ചിരിക്കുകയാണ് പിക്സൽ നിരകൾ തമ്മിൽ വിടവുകൾ അത് ഒരു വരയൻ ലുക്ക്"
+" നൽകുന്ന സൃഷ്ടിക്കുന്നു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/auto/autostretch-hsv.xml:72(None)
+msgid ""
+"@@image: 'images/menus/colors/auto/stretch-hsv.png'; "
+"md5=fb016a380256c6bbf3a302281a432904"
+msgstr ""
+"@@image: 'images/menus/colors/auto/stretch-hsv.png'; "
+"md5=fb016a380256c6bbf3a302281a432904"
+
+#: src/menus/colors/auto/autostretch-hsv.xml:13(title)
+#: src/menus/colors/auto/autostretch-hsv.xml:20(primary)
+msgid "Stretch HSV"
+msgstr ""
+"HSV നീട്ടുക"
+
+#: src/menus/colors/auto/autostretch-hsv.xml:17(secondary)
+msgid "Stretch colors in HSV space"
+msgstr ""
+"HSV സ്പേസ് വർണ്ണങ്ങൾ നീട്ടുക"
+
+#: src/menus/colors/auto/autostretch-hsv.xml:23(para)
+msgid ""
+"The <guimenuitem>Stretch HSV</guimenuitem> command does the same thing as "
+"the <link linkend=\"plug-in-c-astretch\">Stretch Contrast</link> command, "
+"except that it works in HSV color space, rather than RGB color space, and it "
+"preserves the Hue. Thus, it independently stretches the ranges of the Hue, "
+"Saturation and Value components of the colors. Occasionally the results are "
+"good, often they are a bit odd. <quote>Stretch HSV</quote> operates on "
+"layers from RGB and Indexed images. If the image is Grayscale, the menu "
+"entry is insensitive and grayed out."
+msgstr ""
+", മറിച്ച് ആർജിബി നിറങ്ങളുടെ സ്പേസ് അധികം HSV കളർ സ്പേസ് പ്രവർത്തിക്കുന്നുവെ"
+"ന്ന് ഒഴികെ <guimenuitem>Stretch HSV</guimenuitem> കമാൻഡ് <link linkend=\"pl"
+"ug-in-c-astretch\">Stretch Contrast</link> കമാൻഡ് പോലെ തന്നെ കാര്യം,, അത് "
+"ഹ്യൂയേ പാലിക്കുന്നു. അങ്ങനെ അത് സ്വതന്ത്രമായി നിറങ്ങൾ ഹ്യൂയേ, കളർ, മൂല്യം ഘ"
+"ടകങ്ങളുടെ ശ്രേണികൾ വിരിക്കുന്നു. ഇടയ്ക്കിടെ ഫലങ്ങൾ പലപ്പോഴും അവർ ഒരു ബിറ്റ"
+"് ഒറ്റയായി ആകുന്നു നല്ലതാണ്. <quote>Stretch HSV</quote> ആർജിബി സൂജികപത്രവും"
+" ചിത്രങ്ങളിൽ നിന്നും പാളികൾ പ്രവർത്തിക്കുന്ന. ചിത്രം ഗ്രേസ്കെയിൽ ആണെങ്കിൽ, "
+"മെനു എൻട്രി കൈമാറ്റം ചെയ്ത് ആവശ്യം തന്നെയാണ്."
+
+#: src/menus/colors/auto/autostretch-hsv.xml:38(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
+"guisubmenu><guimenuitem>Stretch HSV</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Colors</guimenu><guisubmen"
+"u>Auto</guisubmenu><guimenuitem>Stretch&#160;HSV</guimenuitem></menuchoice>"
+" മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും."
+
+#: src/menus/colors/auto/autostretch-hsv.xml:51(title)
+msgid "<quote>Stretch HSV</quote> example"
+msgstr ""
+"<quote>Stretch HSV</quote> ഉദാഹരണം"
+
+#: src/menus/colors/auto/autostretch-hsv.xml:60(para)
+msgid ""
+"The active layer and its Red, Green and Blue histograms before "
+"<quote>Stretch HSV</quote>."
+msgstr ""
+"<quote>Stretch HSV</quote> മുമ്പാകെ സജീവ പാളി അതിന്റെ റെഡ്, പച്ച, നീല histo"
+"grams."
+
+#: src/menus/colors/auto/autostretch-hsv.xml:75(para)
+msgid ""
+"The active layer and its Red, Green and Blue histograms after <quote>Stretch "
+"HSV</quote>. Contrast, luminosity and hues are enhanced."
+msgstr ""
+"<quote>Stretch HSV</quote> ശേഷം സജീവ പാളി അതിന്റെ റെഡ്, പച്ച, നീല histogram"
+"s. തീവ്രത, തേജസ്സ് ആൻഡ് ഹ്യൂസ് മെച്ചപ്പെടുത്തുന്നു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/auto/white-balance.xml:87(None)
+msgid ""
+"@@image: 'images/menus/colors/auto/white-balance.png'; "
+"md5=047e4fec700babd6f8a2f9a3be6b8c6f"
+msgstr ""
+"@@image: 'images/menus/colors/auto/white-balance.png'; "
+"md5=047e4fec700babd6f8a2f9a3be6b8c6f"
+
+#: src/menus/colors/auto/white-balance.xml:14(title)
+#: src/menus/colors/auto/white-balance.xml:21(primary)
+msgid "White Balance"
+msgstr ""
+"വൈറ്റ് ബാലൻസ്"
+
+#: src/menus/colors/auto/white-balance.xml:18(secondary)
+msgid "White balance"
+msgstr ""
+"വൈറ്റ് ബാലൻസ്"
+
+#: src/menus/colors/auto/white-balance.xml:24(para)
+msgid ""
+"The <guimenuitem>White Balance</guimenuitem> command automatically adjusts "
+"the colors of the active layer by stretching the Red, Green and Blue "
+"channels separately. To do this, it discards pixel colors at each end of the "
+"Red, Green and Blue histograms which are used by only 0.05% of the pixels in "
+"the image and stretches the remaining range as much as possible. The result "
+"is that pixel colors which occur very infrequently at the outer edges of the "
+"histograms (perhaps bits of dust, etc.) do not negatively influence the "
+"minimum and maximum values used for stretching the histograms, in comparison "
+"with <link linkend=\"plug-in-c-astretch\">Stretch Contrast</link>. Like "
+"<quote>Stretch Contrast</quote>, however, there may be hue shifts in the "
+"resulting image."
+msgstr ""
+"<guimenuitem>White Balance</guimenuitem> കമാൻഡ് സ്വയം വെവ്വേറെ റെഡ്, പച്ച, "
+"നീല ചാനലുകൾ നീട്ടിവെച്ചിരിക്കുകയാണ് വഴി സജീവ പാളി നിറങ്ങൾക്ക് മറക്കുക. ഇത് "
+"ചെയ്യുന്നതിന്, അതു സ്വരൂപത്തിൽ പിക്സൽ മാത്രം 0.05% ഉപയോഗിക്കുന്ന ഏത് റെഡ്,"
+" പച്ച, നീല histograms ഓരോ അവസാനം പിക്സൽ നിറങ്ങൾ ഉപേക്ഷിച്ച് കഴിയുന്നത്ര ബാ"
+"ക്കി പരിധി വിരിക്കുന്നു. ഫലം (മുതലായവ പൊടിയും ഒരുപക്ഷേ ബിറ്റുകൾ,) histogra"
+"ms പുറം നാനാഭാഗങ്ങളിലുമുണ്ടായിരിക്കും വളരെ അപൂർവ്വമായി സംഭവിക്കുന്നുണ്ട് ആ "
+"പിക്സൽ നിറങ്ങൾ വിപരീതമായി <link linkend=\"plug-in-c-astretch\">Stretch Cont"
+"rast</link> താരതമ്യത്തിൽ, histograms നീട്ടിവെച്ചിരിക്കുകയാണ് ഉപയോഗിക്കുന്ന"
+" കൂടിയതുമായ മൂല്യങ്ങൾ സ്വാധീനിക്കുന്നില്ലെങ്കിൽപ്പോലും ആണ്. <quote>Stretch"
+" Contrast</quote> പോലെ എന്നിരുന്നാലും ചെഞ്ചായം ഷിഫ്റ്റുകൾ കാരണമാകുന്നു സ്വ"
+"രൂപത്തിൽ ആയിരിക്കാം."
+
+#: src/menus/colors/auto/white-balance.xml:38(para)
+msgid ""
+"This command suits images with poor white or black. Since it tends to create "
+"pure white (and black), it may be useful e.g. to enhance photographs."
+msgstr ""
+"ഈ കമാൻഡ് പാവപ്പെട്ട വെളുത്ത അല്ലെങ്കിൽ കറുത്ത ചിത്രങ്ങൾ അനുയോജ്യമായ. ഇത് ശ"
+"ുദ്ധമായ വെള്ള (കറുത്ത) സൃഷ്ടിക്കാൻ കുറവുമാണ് എന്നതിനാൽ ഉപയോഗപ്രദമായ ഉദാ ആയ"
+"ിരിക്കാം ഫോട്ടോഗ്രാഫുകൾ മെച്ചപ്പെടുത്തുന്നതിനായി."
+
+#: src/menus/colors/auto/white-balance.xml:43(para)
+msgid ""
+"<guimenuitem>White Balance</guimenuitem> operates on layers from RGB images. "
+"If the image is Indexed or Grayscale, the menu item is insensitive and "
+"grayed out."
+msgstr ""
+"<guimenuitem>White Balance</guimenuitem> ആർജിബി ചിത്രങ്ങളിൽ നിന്ന് ലേയറുകളി"
+"ൽ പ്രവർത്തിക്കുന്നു. ചിത്രം ഇൻഡെക്സ്ഡ് അല്ലെങ്കിൽ ഗ്രേസ്കെയിൽ ആണെങ്കിൽ, മെന"
+"ു ഇനം കൈമാറ്റം ചെയ്ത് ആവശ്യം തന്നെയാണ്."
+
+#: src/menus/colors/auto/white-balance.xml:53(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
+"guisubmenu><guimenuitem>White Balance</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Colors</guimenu><guisubmen"
+"u>Auto</guisubmenu><guimenuitem>White&#160;Balance</guimenuitem></menuchoic"
+"e> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും."
+
+#: src/menus/colors/auto/white-balance.xml:66(title)
+msgid "<quote>White Balance</quote> example"
+msgstr ""
+"<quote>White Balance</quote> ഉദാഹരണം"
+
+#: src/menus/colors/auto/white-balance.xml:75(para)
+msgid ""
+"The active layer and its Red, Green and Blue histograms before <quote>White "
+"Balance</quote>."
+msgstr ""
+"<quote>White Balance</quote> മുമ്പാകെ സജീവ പാളി അതിന്റെ റെഡ്, പച്ച, നീല his"
+"tograms."
+
+#: src/menus/colors/auto/white-balance.xml:90(para)
+msgid ""
+"The active layer and its Red, Green and Blue histograms after <quote>White "
+"Balance</quote>. Poor white areas in the image became pure white."
+msgstr ""
+"<quote>White Balance</quote> ശേഷം സജീവ പാളി അതിന്റെ റെഡ്, പച്ച, നീല histogr"
+"ams. ചിത്രം പാവപ്പെട്ട വെളുത്ത പ്രദേശങ്ങൾ ശുദ്ധമായ വെള്ള മാറി."
+
+#: src/menus/colors/auto/white-balance.xml:95(para)
+#: src/menus/colors/auto/normalize.xml:78(para)
+msgid ""
+"Histogram stretching creates gaps between the pixel columns, giving it a "
+"striped look."
+msgstr ""
+"ആമി നീട്ടിവെച്ചിരിക്കുകയാണ് അതു വരയൻ ലുക്ക് നൽകുന്ന പിക്സൽ നിരകൾ തമ്മിൽ വിട"
+"വുകൾ സൃഷ്ടിക്കുന്നു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/auto/normalize.xml:70(None)
+msgid ""
+"@@image: 'images/menus/colors/auto/normalize.png'; "
+"md5=4465af0091f3e4475ac0ee38959197cb"
+msgstr ""
+"@@image: 'images/menus/colors/auto/normalize.png'; "
+"md5=4465af0091f3e4475ac0ee38959197cb"
+
+#: src/menus/colors/auto/normalize.xml:13(title)
+#: src/menus/colors/auto/normalize.xml:17(secondary)
+#: src/menus/colors/auto/normalize.xml:20(primary)
+msgid "Normalize"
+msgstr ""
+"സാധാരണവത്കരിക്കാനും"
+
+#: src/menus/colors/auto/normalize.xml:23(para)
+msgid ""
+"The <guimenuitem>Normalize</guimenuitem> command scales the brightness "
+"values of the active layer so that the darkest point becomes black and the "
+"brightest point becomes as bright as possible, without altering its hue. "
+"This is often a <quote>magic fix</quote> for images that are dim or washed "
+"out. <quote>Normalize</quote> works on layers from RGB, Grayscale, and "
+"Indexed images."
+msgstr ""
+"കറുത്ത പോയിന്റ് കറുത്ത മാറുന്നു തിളക്കമുള്ള അതിന്റെ ചെഞ്ചായം പന്തിന്റെ ഇല്"
+"ലാതെ, കഴിയുന്നത്ര മിനുക്കിയ മാറുന്നു അങ്ങനെ <guimenuitem>Normalize</guimenu"
+"item> കമാൻഡ് സജീവ പാളി തെളിച്ചം മൂല്യങ്ങൾ കയറിയ. ഇത് പലപ്പോഴും മങ്ങിയ അല്ല"
+"െങ്കിൽ മഴമൂലം ചിത്രങ്ങളിലെ ഒരു <quote>magic fix</quote> ആണ്. <quote>Normali"
+"ze</quote> ആർജിബി, ഗ്രേസ്കെയിലിൽ, സൂജികപത്രവും ചിത്രങ്ങളിൽ നിന്നും പാളികൾ പ"
+"്രവർത്തിക്കുന്നു."
+
+#: src/menus/colors/auto/normalize.xml:36(para)
+msgid ""
+"You can access this command from the image menu bar through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
+"guisubmenu><guimenuitem>Normalize</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് ബാറില് നിന്നും <menuchoice><guimenu>Colors</guimenu><guisubmen"
+"u>Auto</guisubmenu><guimenuitem>Normalize</guimenuitem></menuchoice> മുഖേന "
+"ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും."
+
+#: src/menus/colors/auto/normalize.xml:49(title)
+msgid "<quote>Normalize</quote>Example"
+msgstr ""
+"<quote>Normalize</quote> ഉദാഹരണം"
+
+#: src/menus/colors/auto/normalize.xml:58(para)
+msgid ""
+"The active layer and its Red, Green and Blue histograms before "
+"<quote>Normalize</quote>."
+msgstr ""
+"<quote>Normalize</quote> മുമ്പാകെ സജീവ പാളി അതിന്റെ റെഡ്, പച്ച, നീല histogr"
+"ams."
+
+#: src/menus/colors/auto/normalize.xml:73(para)
+msgid ""
+"The active layer and its Red, Green and Blue histograms after "
+"<quote>Normalize</quote>. The contrast is enhanced."
+msgstr ""
+"<quote>Normalize</quote> ശേഷം സജീവ പാളി അതിന്റെ റെഡ്, പച്ച, നീല histograms."
+" തീവ്രത ഉയർത്തുന്നു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/auto/color-enhance.xml:76(None)
+msgid ""
+"@@image: 'images/menus/colors/auto/color-enhance.png'; "
+"md5=2f419878c979c9438078646bd21d8f53"
+msgstr ""
+"@@image: 'images/menus/colors/auto/color-enhance.png'; "
+"md5=2f419878c979c9438078646bd21d8f53"
+
+#: src/menus/colors/auto/color-enhance.xml:13(title)
+#: src/menus/colors/auto/color-enhance.xml:20(primary)
+msgid "Color Enhance"
+msgstr ""
+"കളർ മെച്ചപ്പെടുത്തുക"
+
+#: src/menus/colors/auto/color-enhance.xml:17(secondary)
+msgid "Color enhance"
+msgstr ""
+"കളർ വർദ്ധിപ്പിക്കാനും"
+
+#: src/menus/colors/auto/color-enhance.xml:23(para)
+msgid ""
+"The <guimenuitem>Color Enhance</guimenuitem> command increases the "
+"saturation range of the colors in the layer, without altering brightness or "
+"hue. It does this by converting the colors to HSV space, measuring the range "
+"of saturation values across the image, then stretching this range to be as "
+"large as possible, and finally converting the colors back to RGB. It is "
+"similar to <link linkend=\"plug-in-c-astretch\">Stretch Contrast</link>, "
+"except that it works in the HSV color space, so it preserves the hue. It "
+"works on layers from RGB and Indexed images. If the image is Grayscale, the "
+"menu entry is insensitive and grayed out."
+msgstr ""
+"<guimenuitem>Color Enhance</guimenuitem> കമാൻഡ് തെളിച്ചം അല്ലെങ്കിൽ ചെഞ്ചായ"
+"ം പന്തിന്റെ ഇല്ലാതെ, പാളിയായി നിറങ്ങൾ സാച്ചുറേഷൻ പരിധി വർദ്ധിപ്പിക്കുന്നു. "
+"ഇത് നിറങ്ങൾ പിന്നീട്, HSV സ്പേസ് പരിവർത്തനം ചെയ്യാൻ ചിത്രം ഉടനീളം സാച്ചുറേഷ"
+"ൻ മൂല്യങ്ങളുടെ ശ്രേണി അളന്നു കഴിയുന്നത്ര വലിയ ആയിരിക്കാൻ ഈ ശ്രേണി നീട്ടിക്ക"
+"ൊണ്ട്, ഒടുവിൽ നിറങ്ങൾ തിരികെ ആർജിബി ലേക്ക് പരിവർത്തനം ചെയ്യുന്നു. അതു HSV "
+"നിറം സ്പേസ് പ്രവർത്തിക്കുന്നുവെന്ന് ഒഴികെ അതു, <link linkend=\"plug-in-c-as"
+"tretch\">Stretch Contrast</link> സമാനമായ, അങ്ങനെ അത് ചെഞ്ചായം പാലിക്കുന്നു."
+" ഇത് ആർജിബി സൂജികപത്രവും ചിത്രങ്ങളിൽ നിന്നും പാളികൾ പ്രവർത്തിക്കുന്നു. ചിത്"
+"രം ഗ്രേസ്കെയിൽ ആണെങ്കിൽ, മെനു എൻട്രി കൈമാറ്റം ചെയ്ത് ആവശ്യം തന്നെയാണ്."
+
+#: src/menus/colors/auto/color-enhance.xml:37(title)
+msgid "Activate the command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുക"
+
+#: src/menus/colors/auto/color-enhance.xml:40(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
+"guisubmenu><guimenuitem>Color Enhance</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Colors</guimenu><guisubmen"
+"u>Auto</guisubmenu><guimenuitem>Color&#160;Enhance</guimenuitem></menuchoic"
+"e> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും."
+
+#: src/menus/colors/auto/color-enhance.xml:53(title)
+msgid "<quote>Color Enhance</quote> example"
+msgstr ""
+"<quote>Color Enhance</quote> ഉദാഹരണം"
+
+#: src/menus/colors/auto/color-enhance.xml:55(title)
+msgid "<quote>Color Enhance</quote> example (Original image)"
+msgstr ""
+"<quote>Color Enhance</quote> ഉദാഹരണത്തിന് (യഥാർത്ഥ ചിത്രം)"
+
+#: src/menus/colors/auto/color-enhance.xml:62(para)
+msgid ""
+"The active layer and its Red, Green and Blue histograms before <quote>Color "
+"Enhance</quote>."
+msgstr ""
+"<quote>Color Enhance</quote> മുമ്പാകെ സജീവ പാളി അതിന്റെ റെഡ്, പച്ച, നീല his"
+"tograms."
+
+#: src/menus/colors/auto/color-enhance.xml:70(title)
+msgid "<quote>Color Enhance</quote> example (Image after the command)"
+msgstr ""
+"<quote>Color Enhance</quote> ഉദാഹരണത്തിന് (കമാൻഡിന് ശേഷം ഇമേജ്)"
+
+#: src/menus/colors/auto/color-enhance.xml:79(para)
+msgid ""
+"The active layer and its Red, Green and Blue histograms after <quote>Color "
+"Enhance</quote>. The result may not always be what you expect."
+msgstr ""
+"<quote>Color Enhance</quote> ശേഷം സജീവ പാളി അതിന്റെ റെഡ്, പച്ച, നീല histogr"
+"ams. ഫലം എപ്പോഴും നിങ്ങൾ പ്രതീക്ഷ വന്നേക്കാം."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/auto/c-astretch.xml:87(None)
+msgid ""
+"@@image: 'images/menus/colors/auto/c-stretch.png'; "
+"md5=7af9a55590071580eef4731b51cef312"
+msgstr ""
+"@@image: 'images/menus/colors/auto/c-stretch.png'; "
+"md5=7af9a55590071580eef4731b51cef312"
+
+#: src/menus/colors/auto/c-astretch.xml:13(title)
+#: src/menus/colors/auto/c-astretch.xml:20(primary)
+msgid "Stretch Contrast"
+msgstr ""
+"സ്ട്രെച്ച് കോൺട്രാസ്റ്റ്"
+
+#: src/menus/colors/auto/c-astretch.xml:17(secondary)
+msgid "Stretch contrast"
+msgstr ""
+"സ്ട്രെച്ച് തീവ്രത"
+
+#: src/menus/colors/auto/c-astretch.xml:23(primary)
+msgid "Contrast"
+msgstr ""
+"അന്തരം"
+
+#: src/menus/colors/auto/c-astretch.xml:26(para)
+msgid ""
+"The <guimenuitem>Stretch Contrast</guimenuitem> command automatically "
+"stretches the histogram values in the active layer. For each channel of the "
+"active layer, it finds the minimum and maximum values and uses them to "
+"stretch the Red, Green and Blue histograms to the full contrast range. The "
+"bright colors become brighter and the dark colors become darker, which "
+"increases the contrast. This command produces a somewhat similar effect to "
+"the <link linkend=\"plug-in-normalize\">Normalize</link> command, except "
+"that it works on each color channel of the layer individually. This usually "
+"leads to color shifts in the image, so it may not produce the desired "
+"result. <quote>Stretch Contrast</quote> works on layers of RGB, Grayscale "
+"and Indexed images. Use <quote>Stretch Contrast</quote> only if you want to "
+"remove an undesirable color tint from an image which should contain pure "
+"white and pure black."
+msgstr ""
+"<guimenuitem>Stretch Contrast</guimenuitem> കമാൻഡ് യാന്ത്രികമായി സജീവമെന്ന്"
+" പാളി ഹിസ്റ്റോഗ്രാം മൂല്യങ്ങൾ വിരിക്കുന്നു. സജീവ പാളി ഓരോ ചാനലിന്റെയും അത"
+"ു കൂടിയതുമായ മൂല്യങ്ങൾ കണ്ടെത്തുന്നു ഫുൾ തീവ്രത പരിധി വരെ റെഡ്, പച്ച, നീല h"
+"istograms നീട്ടി ഉപയോഗിച്ചത്. നിറങ്ങളില് തുനിയാതെ മാറി ഇരുണ്ട നിറങ്ങൾ തീവ്"
+"രത വർദ്ധിപ്പിക്കുന്നു ഇരുണ്ട തീർന്നിരിക്കുന്നു. ഈ കമാൻഡ് അത് വ്യക്തിപരമായി "
+"പാളി ഓരോ നിറം ചാനലിൽ പ്രവർത്തിക്കുന്ന അല്ലാതെ <link linkend=\"plug-in-norm"
+"alize\">Normalize</link> കമാൻഡിന് ഏതാണ്ട് ഇതേ പ്രഭാവം ഉത്പാദിപ്പിക്കുന്നത്."
+" ഇത് സാധാരണയായി ചിത്രം നിറം ഷിഫ്റ്റുകൾ നയിക്കുന്നു, അതിനാൽ ആവശ്യമുള്ള ഫലം സ"
+"ൃഷ്ടിക്കാനാവില്ല ചെയ്യാം. <quote>Stretch Contrast</quote> ആർജിബി, ഗ്രേസ്കെയ"
+"ിലിൽ, ഇൻഡെക്സ് ചിത്രങ്ങൾ പാളികൾ പ്രവർത്തിക്കുന്നു. നിങ്ങൾ ശുദ്ധമായ വെള്ള നി"
+"ർമ്മലമായ കറുത്ത ഉൾക്കൊള്ളണം ഏത് ഒരു ചിത്രത്തിൽ നിന്ന് അഭികാമ്യമല്ലാത്ത ഒരു"
+" വർണ്ണ ടിന്റ് നീക്കം ചെയ്യണമെന്ന് മാത്രമേ <quote>Stretch Contrast</quote> ഉ"
+"പയോഗിക്കുക."
+
+#: src/menus/colors/auto/c-astretch.xml:42(para)
+msgid ""
+"This command is also similar to the <link linkend=\"gimp-layer-white-balance"
+"\">Color Balance</link> command, but it does not reject any of the very dark "
+"or very bright pixels, so the white might be impure."
+msgstr ""
+"ഈ കമാൻഡ് <link linkend=\"gimp-layer-white-balance \">Color Balance</link> ക"
+"മാൻഡ് സമാനമാണ്, എന്നാൽ അതു വളരെ ഇരുണ്ട അല്ലെങ്കിൽ വളരെ ശോഭയുള്ള പിക്സൽ ഏതെ"
+"ങ്കിലും നിരസിക്കുന്നില്ലെങ്കിൽ, അതിനാൽ വെളുത്ത ദുഷിച്ച ആകേണ്ടതിന്നു."
+
+#: src/menus/colors/auto/c-astretch.xml:53(para)
+msgid ""
+"This command can be accessed from an image menubar as "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
+"guisubmenu><guimenuitem>Stretch Contrast</guimenuitem></menuchoice>."
+msgstr ""
+"ഈ കമാൻഡ് <menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</guisubmenu>"
+"<guimenuitem>Stretch&#160;Contrast</guimenuitem></menuchoice> ആയി ഒരു ചിത്ര"
+"ം മെനുബാർ നിന്നും ആക്സസ് ചെയ്യാം."
+
+#: src/menus/colors/auto/c-astretch.xml:66(title)
+msgid "<quote>Stretch Contrast</quote> Example"
+msgstr ""
+"<quote>Stretch Contrast</quote> ഉദാഹരണം"
+
+#: src/menus/colors/auto/c-astretch.xml:75(para)
+msgid ""
+"The layer and its Red, Green and Blue histograms before <quote>Stretch "
+"Contrast</quote>."
+msgstr ""
+"<quote>Stretch Contrast</quote> മുമ്പിൽ പാളി അതിന്റെ റെഡ്, പച്ച, നീല histog"
+"rams."
+
+#: src/menus/colors/auto/c-astretch.xml:90(para)
+msgid ""
+"The layer and its Red and Green and Blue histograms after <quote>Stretch "
+"Contrast</quote>. The pixel columns do not reach the right end of the "
+"histogram (255) because of a few very bright pixels, unlike <quote>White "
+"Balance</quote>."
+msgstr ""
+"<quote>Stretch Contrast</quote> ശേഷം പാളി അതിന്റെ റെഡ്, പച്ച, നീല histogram"
+"s. പിക്സൽ നിരകൾ <quote>White Balance</quote> വ്യത്യസ്തമായി കാരണം ഏതാനും വളര"
+"െ മിനുക്കിയ പിക്സൽ ഹിസ്റ്റോഗ്രാം (255) വലത്തേ അറ്റത്തെ എത്താൻ ചെയ്യരുത്."
+
+#: src/menus/colors/auto/c-astretch.xml:97(para)
+msgid ""
+"Histogram stretching creates gaps between the pixel columns, giving it a "
+"stripped look."
+msgstr ""
+"ആമി നീട്ടിവെച്ചിരിക്കുകയാണ് അതു ഊരിയെടുത്തു ലുക്ക് നൽകുന്ന പിക്സൽ നിരകൾ തമ്"
+"മിൽ വിടവുകൾ സൃഷ്ടിക്കുന്നു."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/colors/auto/c-astretch.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>13.3. പല്ല്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-render.html" title="13. റെൻഡർ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="script-fu-difference-clouds.html" title="13.2. വ്യത്യാസം മേഘങ്ങൾ" />
+    <link rel="next" href="plug-in-plasma.html" title="13.4. പ്ലാസ്മ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">13.3. പല്ല്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-difference-clouds.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">13. റെൻഡർ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-plasma.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="python-fu-foggify"></a>13.3. പല്ല്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925528166496" class="indexterm"></a>
+      <a id="idp46925526048240" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925526323136"></a>13.3.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925526322752"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.281. <span class="quote">“<span class="quote">Fog</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="“Fog” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/render/taj-fog.jpg" alt="“Fog” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Fog</span>”</span> പ്രയോഗിച്ചു</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ അൽപ്പം പുതിയ പാളി മൂടൽമഞ്ഞ് അല്ലെങ്കിൽ പുക തോന്നാം ചിത്രത്തിലേക്ക് ചേർക്കുന്നു. മേഘങ്ങൾ <a class="link" href="">Plasma</a> ടെക്സ്ചർ സൃഷ്ടിച്ചിരിക്കുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925526066096"></a>13.3.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Render</span> → <span class="guisubmenu">Clouds</span> → <span class="guimenuitem">Fog</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528467216"></a>13.3.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925528467920"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.282. <span class="quote">“<span class="quote">Fog</span>”</span> ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/render/fog.png" alt="“Fog” ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <p>ഏതാനും അരിപ്പ ഐച്ഛികങ്ങളിൽ മാത്രം <span class="quote">“<span class="quote">Turbulence</span>”</span> പിന്നീട് നിങ്ങൾക്ക് മാറ്റാൻ ഫലം നിങ്ങളുടെ ആഗ്രഹം യുക്തമല്ലെങ്കിൽ റദ്ദാക്കാനും ഫിൽട്ടർ ആവർത്തിക്കാൻ ഇല്ല കാരണം കഴിയും കരുതില്ല പ്രധാനമാണ്.</p>
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ലെയർ പേര്</span>
+            </dt>
+            <dd>
+              <p>പാളി പേര്. നിങ്ങൾക്ക് പിന്നീട് <a class="link" href="">Layers Dialog</a> ഇത് മാറ്റാം.</p>
+            </dd>
+            <dt>
+              <span class="term">ഫോഗ് നിറം</span>
+            </dt>
+            <dd>
+              <p>മണൽ തവിട്ട് (240, 180, 70) ചില സ്ഥിര. ആ മൂടൽമഞ്ഞ് സ്വാഭാവിക നിറം അല്ല കരുതുന്നുവെങ്കിൽ ഈ മാറ്റാൻ നിറം ബട്ടണിൽ ക്ലിക്ക് ചെയ്യുക.</p>
+            </dd>
+            <dt>
+              <span class="term">പക്ഷുബ്ധത</span>
+            </dt>
+            <dd>
+              <p>ഈ യഥാർത്ഥത്തിൽ <a class="link" href="">Plasma</a> ഫിൽട്ടറിന്റെ ഉച്ച ഓപ്ഷൻ: അത് മൃദു (താഴ്ന്ന മൂല്യങ്ങൾ) നിന്ന് ഹാർഡ് (ഉയർന്ന മൂല്യങ്ങൾ) ലേക്ക് മേഘങ്ങളും സങ്കീർണ്ണത നിയന്ത്രിക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">അതാര്യത</span>
+            </dt>
+            <dd>
+              <p>പാളിയുടെ അതാര്യത. നിങ്ങൾക്ക് പിന്നീട് <a class="link" href="gimp-dialogs-structure.html#gimp-layer-dialog-opacity-scale">Layers Dialog</a> ഇത് മാറ്റാം.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-difference-clouds.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-render.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-plasma.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-difference-clouds.html">13.2. വ്യത്യാസം മേഘങ്ങൾ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-plasma.html">13.4. പ്ലാസ്മ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

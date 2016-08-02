@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>2.4. സെലക്ടീവ് ഗോഷ്യൻ ഇഫക്റ്റ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-blur.html" title="2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-gauss.html" title="2.3. ഗോഷ്യൻ ഇഫക്റ്റ്" />
+    <link rel="next" href="plug-in-mblur.html" title="2.5. മോഷൻ ബ്ലർ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">2.4. സെലക്ടീവ് ഗോഷ്യൻ ഇഫക്റ്റ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-gauss.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-mblur.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-sel-gauss"></a>2.4. സെലക്ടീവ് ഗോഷ്യൻ ഇഫക്റ്റ്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925522428656" class="indexterm"></a>
+      <a id="idp46925522430448" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522431312"></a>2.4.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925522432080"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.11. സെലക്ടീവ് ഗോഷ്യൻ അതിനായി filter</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="സെലക്ടീവ് ഗോഷ്യൻ അതിനായി filter" />
+              <div class="caption">
+                <p>യഥാർത്ഥ</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/blur-taj-selective.jpg" alt="സെലക്ടീവ് ഗോഷ്യൻ അതിനായി filter" />
+              <div class="caption">
+                <p>ഇഫക്റ്റ് പ്രയോഗിച്ചു</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>മറ്റ് മങ്ങൽ പ്ലഗ്-ഇന്നുകളെ വിരുദ്ധമായി സെലക്ടീവ് ഗോഷ്യൻ ഇഫക്റ്റ് പ്ലഗ്-ഇൻ എല്ലാ പിക്സൽ പ്രവർത്തിക്കാൻ ഇല്ല: ഇഫക്റ്റ് ഇതിന്റെ മൂല്യം ചുറ്റുമുള്ള പിക്സൽ മൂല്യം തമ്മിലുള്ള വ്യത്യാസം ഒരു നിർവചിക്കപ്പെട്ട ഡെൽറ്റ മൂല്യം കുറവാണ് മാത്രമേ പ്രയോഗിക്കുന്നു. വ്യത്യാസം തീവ്രത പരിധികൾ ഉയർന്ന കാരണം അങ്ങനെ, അതിന് ഭദ്രമായിരിക്കും. ഇത് അങ്ങനെ മുൻവശത്തുള്ള വിഷയം മെച്ചപ്പെട്ട ഔട്ട് നിലക്കും ഒരു പശ്ചാത്തല ബ്ലർ ഉപയോഗിക്കുന്നു. ഇത് മാത്രം സിംഗിൾ ഓപ്പറേഷൻ ഉപയോഗിച്ച് ഇമേജ് .ബൗളിങില് പ്രതീതി ചേർക്കുക.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522440128"></a>2.4.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Blur</span> → <span class="guimenuitem">Selective Gaussian Blur</span> കീഴിൽ ഇമേജ് മെനുവിൽ ഈ ഫിൽട്ടർ കണ്ടെത്താനാകും</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522442768"></a>2.4.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925522443520"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.12. <span class="quote">“<span class="quote">Selective Gaussian</span>”</span> ഫിൽട്ടർ പാരാമീറ്ററുകൾ ക്രമീകരണങ്ങൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/blur/sel-gauss.png" alt="“Selective Gaussian” ഫിൽട്ടർ പാരാമീറ്ററുകൾ ക്രമീകരണങ്ങൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">റേഡിയസ് മങ്ങിക്കുക</span>
+            </dt>
+            <dd>
+              <p>ഇവിടെ നിങ്ങൾ പിക്സലിൽ, മങ്ങൽ തീവ്രത സജ്ജമാക്കാൻ കഴിയും.</p>
+            </dd>
+            <dt>
+              <span class="term">മാക്സ്. ഡെൽറ്റാ</span>
+            </dt>
+            <dd>
+              <p>ഇവിടെ നിങ്ങൾ പരമാവധി വ്യത്യാസത്തിൽ (0-255) പിക്സൽ മൂല്യം ചുറ്റുമുള്ള പിക്സൽ മൂല്യങ്ങൾ തമ്മിലുള്ള സജ്ജമാക്കാൻ കഴിയും. ഈ ഡെൽറ്റ മുകളിൽ, മങ്ങൽ ആ പിക്സൽ പ്രയോഗിക്കാൻ ചെയ്യില്ല.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-gauss.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-blur.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-mblur.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-gauss.html">2.3. ഗോഷ്യൻ ഇഫക്റ്റ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-mblur.html">2.5. മോഷൻ ബ്ലർ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

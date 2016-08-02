@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>2.2. ഇഫക്റ്റ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-blur.html" title="2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="filters-blur.html" title="2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ" />
+    <link rel="next" href="plug-in-gauss.html" title="2.3. ഗോഷ്യൻ ഇഫക്റ്റ്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">2.2. ഇഫക്റ്റ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="filters-blur.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-gauss.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-blur"></a>2.2. ഇഫക്റ്റ്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925520300208" class="indexterm"></a>
+      <a id="idp46925521261040" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925521261952"></a>2.2.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925516100784"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.8. ഒരു ഫോട്ടോഗ്രാഫ് പ്രയോഗിച്ചു ഇഫക്റ്റ് അരിപ്പ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="ഒരു ഫോട്ടോഗ്രാഫ് പ്രയോഗിച്ചു ഇഫക്റ്റ് അരിപ്പ" />
+              <div class="caption">
+                <p>യഥാർത്ഥ</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/blur-taj-blur.jpg" alt="ഒരു ഫോട്ടോഗ്രാഫ് പ്രയോഗിച്ചു ഇഫക്റ്റ് അരിപ്പ" />
+              <div class="caption">
+                <p>ഇഫക്റ്റ് പ്രയോഗിച്ചു</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ലളിതമായ ഇഫക്റ്റ് അരിപ്പ ഫോക്കസ് ക്യാമറ ഷോട്ട് പുറത്തുള്ള സമാനമായ ഒരു ഇഫക്റ്റ് ഉത്പാദിപ്പിക്കുന്നത്. ഈ മങ്ങൽ പ്രഭാവം ഹാജരാക്കണം, അരിപ്പ ഇപ്പോഴത്തെ പിക്സൽ മൂല്യം അടുത്ത പിക്സൽ മൂല്യം ശരാശരി എടുക്കും ആ ശരാശരി മൂല്യം ഇപ്പോഴത്തെ പിക്സൽ സജ്ജമാക്കുന്നു.</p>
+        <p>ഫിൽറ്റർ മെച്ചം അതിന്റെ കണക്കുകൂട്ടൽ വേഗത. വലിയ ചിത്രങ്ങൾ അനുയോജ്യമായ.</p>
+        <p>ഫിൽറ്റർ നിരാശരാക്കി അതിന്റെ പ്രവർത്തനം വലിയ ചിത്രങ്ങളും പ്രയാസം പതക്ഷമായ, പക്ഷേ ചെറിയ ചിത്രങ്ങളും വളരെ ശക്തമാണ് എന്നതാണ്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925521323568"></a>2.2.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p><span class="guimenu">Filters</span> → <span class="guisubmenu">Blur</span> → <span class="guimenuitem">Blur</span>: നിങ്ങൾ മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താനാകും</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="filters-blur.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-blur.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-gauss.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="filters-blur.html">2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-gauss.html">2.3. ഗോഷ്യൻ ഇഫക്റ്റ്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>11.3. ബോർഡർ ചേർക്കുക</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-decor.html" title="11. അലങ്കാര ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="script-fu-add-bevel.html" title="11.2. ബിവെൽ ചേർക്കുക" />
+    <link rel="next" href="script-fu-coffee-stain.html" title="11.4. കോഫി കറ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">11.3. ബോർഡർ ചേർക്കുക</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-add-bevel.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">11. അലങ്കാര ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="script-fu-coffee-stain.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-addborder"></a>11.3. ബോർഡർ ചേർക്കുക</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925525779904" class="indexterm"></a>
+      <a id="idp46925525778016" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525777024"></a>11.3.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925525596272"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.218. <span class="quote">“<span class="quote">Add Border</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="“Add Border” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/decor-taj-addborder.jpg" alt="“Add Border” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>ബോർഡർ ചേർത്തു</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ വെറും പേര് പറയുന്നത് ചെയ്യുന്നു അത് ചിത്രത്തിന്റെ ഒരു ബോർഡർ ചേർക്കുന്നു. നിങ്ങൾ അതിർ കനം അതുപോലെ നിറം വ്യക്തമാക്കാൻ കഴിയും. അതിർത്തിയിൽ നാലു ഭാഗത്തും വിവിധ തണലുകളിൽ നിറത്തിലുള്ള, അതിനാൽ ഇമേജ് പ്രദേശം ഉയിർത്തെഴുന്നേൽക്കയും ദൃശ്യമാകും.</p>
+        <p>ചിത്രം വക്കുകളുടെ വലിപ്പം വലുതായ ചെയ്യും അതു മാത്രമേ ചായം ചെയ്യില്ല.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525879824"></a>11.3.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Decor</span> → <span class="guimenuitem">Add Border</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525814144"></a>11.3.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925525879696"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.219. <span class="quote">“<span class="quote">Add Border</span>”</span> ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/decor/addborder.png" alt="“Add Border” ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ബോർഡർ എക്സ് വലുപ്പം, </span>
+              <span class="term">ബോർഡർ വൈ വലുപ്പം</span>
+            </dt>
+            <dd>
+              <p>ഇവിടെ നിങ്ങൾ പിക്സലിൽ, ചേർത്തു അതിർത്തിയിൽ കനം തിരഞ്ഞെടുക്കാം. എക്സ് വലുപ്പം (ഒരു ഇടത് വലത്), Y വലുപ്പം (മുകളിൽ താഴെ) വ്യത്യസ്തമായിരിക്കും. പരമാവധി 250 പിക്സൽ ആണ്.</p>
+            </dd>
+            <dt>
+              <span class="term">ബോർഡർ വർണ്ണം</span>
+            </dt>
+            <dd>
+              <p>ഈ ബട്ടൺ ക്ലിക്കുചെയ്താൽ ഒരു <span class="quote">“<span class="quote">average</span>”</span> അതിർത്തിയിൽ നിറം (താഴെ കാണുന്ന, <span class="guilabel">Delta value on color</span>) തിരഞ്ഞെടുക്കാൻ അനുവദിക്കുന്ന നിറം സെലക്ടർ ഡയലോഗിന് നൽകുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">നിറം ഡെൽറ്റ മൂല്യം</span>
+            </dt>
+            <dd>
+              <p>ഈ ഓപ്ഷൻ അതിർത്തി വശങ്ങളും വ്യത്യസ്ത തണലുകളിൽ നിറത്തിലുള്ള നൽകുന്നു അതുവഴി ചിത്രം ഉയിർത്തെഴുന്നേൽക്കയും ദൃശ്യമാകാൻ ചെയ്യുന്നു. താഴെ അതത് അതിർത്തി വശത്തു യഥാർത്ഥ നിറം <span class="quote">“<span class="quote">average</span>”</span> <span class="guilabel">Border color</span> നിന്ന് നിറത്തിൽ ഘടകം, ചുവന്ന പച്ച, നീല, <span style="color: red">&lt;placeholder-1&gt;&lt;/placeholder-1&gt;</span> വേണ്ടി കണക്കുകൂട്ടുന്നത് (തത്ഫലമായുണ്ടാകുന്ന അകൗണ്ട് 0 0 സജ്ജമാക്കി മൂല്യങ്ങൾ, 255 ശ്രേഷ്ഠ 255 സജ്ജമാക്കി മൂല്യങ്ങൾ):</p>
+              <div class="itemizedlist">
+                <ul class="itemizedlist" style="list-style-type: disc; ">
+                  <li class="listitem">
+                    <p>ടോപ്പ് തണൽ = ബോർഡർ വർണ്ണം + ഡെൽറ്റ</p>
+                  </li>
+                  <li class="listitem">
+                    <p>വലത് തണൽ = ബോർഡർ വർണ്ണം -  ഡെൽറ്റ</p>
+                  </li>
+                  <li class="listitem">
+                    <p>താഴെയുള്ള തണൽ = ബോർഡർ വർണ്ണം - ഡെൽറ്റ</p>
+                  </li>
+                  <li class="listitem">
+                    <p>ഇടത് തണൽ = ബോർഡർ വർണ്ണം +  ഡെൽറ്റ</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="figure">
+                <a id="idp46925526067216"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.220. ഡെൽറ്റ ഉദാഹരണങ്ങൾ</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/addborder-delta.png" alt="ഡെൽറ്റ ഉദാഹരണങ്ങൾ" />
+                    <div class="caption">
+                      <p><span class="quote">“<span class="quote">Add Border</span>”</span> അരിപ്പ 75, 125, 175, 225, തുടർന്ന്, <span class="guilabel">Delta value</span> 25 പ്രയോഗിച്ചു.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <p>ഉദാഹരണം: default നിറം നീല (38,31,207) ആണ്, സ്ഥിര ഡെൽറ്റാ 25. ആണ് അങ്ങനെ അതിരുകളിൽ തണലുകൾ: മുകളിൽ: (38,31,207) + (25,25,25) = (63,56,232), വലത്: (38,31,207) + (-13, -13, -13) = (25,18,194) മുതലായവ</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-add-bevel.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-decor.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="script-fu-coffee-stain.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-add-bevel.html">11.2. ബിവെൽ ചേർക്കുക</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="script-fu-coffee-stain.html">11.4. കോഫി കറ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>പാഠം 7. ജിമ്പ് ചിത്രകല</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="become-a-gimp-wizard.html" title="ഭാഗം II. ഞാൻ എങ്ങനെയാണ് ഒരു GIMP വിസാര്ഡ് ആകാൻ കഴിയും?" />
+    <link rel="prev" href="gimp-using-web-transparency.html" title="2.3. സുതാര്യതയോടെ സംരക്ഷിക്കുന്നു ചിത്രങ്ങൾ" />
+    <link rel="next" href="gimp-using-selections.html" title="2. തിരഞ്ഞെടുപ്പുകൾ സൃഷ്ടിക്കുകയും ഉപയോഗിക്കുന്നു" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">പാഠം 7. ജിമ്പ് ചിത്രകല</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-using-web-transparency.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">ഭാഗം II. ഞാൻ എങ്ങനെയാണ് ഒരു <acronym class="acronym">GIMP</acronym> വിസാര്ഡ് ആകാൻ കഴിയും?</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-using-selections.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="chapter">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a id="gimp-painting"></a>പാഠം 7. ജിമ്പ് ചിത്രകല</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>ഉള്ളടക്കത്തിന്റെ പട്ടിക</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="sect1">
+              <a href="gimp-painting.html#gimp-concepts-selection">1. തിരഞ്ഞെടുക്കൽ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-painting.html#gimp-concepts-selection-feathering">1.1. ഭദ്രമാക്കുന്ന</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-painting.html#gimp-concepts-selection-transparent">1.2. ഒരു തിരഞ്ഞെടുപ്പ് ഭാഗികമായി സുതാര്യമായ ഉണ്ടാക്കുന്നു</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-using-selections.html">2. തിരഞ്ഞെടുപ്പുകൾ സൃഷ്ടിക്കുകയും ഉപയോഗിക്കുന്നു</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-selections.html#gimp-using-selections-moving">2.1. ഒരു തിരഞ്ഞെടുപ്പ് നീക്കുന്നു</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-selections-add.html">2.2. തിരഞ്ഞെടുക്കലുകൾ ചേർക്കുന്നു അല്ലെങ്കിൽ കുറച്ചാണ്</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-image-window-qmask-button.html">3. QuickMask</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-image-window-qmask-button.html#gimp-image-window-qmask-overview">3.1. പൊതു അവലോകനം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-image-window-qmask-properties.html">3.2. ഗുണഗണങ്ങള്</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-using-quickmask.html">4. QuickMask മോഡ് ഉപയോഗിച്ച്</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-using-paths.html">5. 
+    
+    <span class="phrase">പാഥുകൾ</span>
+  </a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-paths.html#gimp-using-paths-creating">5.1. പാത ക്രിയേഷൻ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-paths-properties.html">5.2. പാത പ്രോപ്പർട്ടീസ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-paths-and-selections.html">5.3. പാത എന്നിവയും തിരഞ്ഞെടുപ്പുകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-paths-transforming.html">5.4. രൂപാന്തരപ്പെടുത്തി പാഥുകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-paths-stroking.html">5.5. ഒരു പാത അതാണെന്ന്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-paths-and-text.html">5.6. പാത എന്നിവയും ടെക്സ്റ്റ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-paths-and-svg.html">5.7. പാത എന്നിവയും <acronym class="acronym">SVG</acronym> ഫയലുകൾ</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-concepts-brushes.html">6. നയപ്രഖ്യാപന</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-using-brushes.html">7. പുതിയ Brushes ചേർക്കുന്നു</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-using-animated-brushes.html">8. GIH ഡയലോഗ് ബോക്സ്</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-using-variable-size-brush.html">9. വ്യത്യസ്ത ബ്രഷ് സൈസ്</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-variable-size-brush.html#gimp-using-variable-size-brush-varying">9.1. എങ്ങനെ ഒരു ബ്രഷ് ഉയരം വ്യത്യാസപ്പെടാൻ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-variable-size-brush-creating.html">9.2. വേഗത്തിൽ ഒരു ബ്രഷ് തയ്യാറാക്കുന്നു</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-concepts-gradients.html">10. ഘനമായ</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-concepts-patterns.html">11. പാറ്റേണുകൾ</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-concepts-palettes.html">12. പാലറ്റുകൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-concepts-palettes.html#idp46925509720208">12.1. Colormap</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-tools-presets.html">13. പ്രീസെറ്റുകളിൽ</a>
+            </span>
+          </dt>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-using-simpleobjects.html">14. ലളിത വസ്തുക്കൾ ഡ്രോയിംഗ്</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-simpleobjects.html#gimp-using-line">14.1. നേരായ ലൈൻ ഡ്രോയിംഗ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-rectangular.html">14.2. ഒരു അടിസ്ഥാന ആകാരം സൃഷ്ടിക്കുന്നത്</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+      <div class="sect1">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="gimp-concepts-selection"></a>1. തിരഞ്ഞെടുക്കൽ</h2>
+            </div>
+          </div>
+        </div>
+        <a id="idp46925509120640" class="indexterm"></a>
+        <p>നിങ്ങൾ ഒരു ഇമേജിൽ ഓപ്പറേറ്റ് ചിലപ്പോൾ മാത്രമായി ഭാഗമായി ബാധിക്കില്ല ആഗ്രഹിക്കുന്നു. <acronym class="acronym">GIMP</acronym> ൽ, ഈ <span class="emphasis"><em>selecting</em></span> സംഭവിക്കണം ഭാഗം വ്യക്തമാക്കുന്നു. ഓരോ ചിത്ര ഇതുമായി ബന്ധപ്പെട്ട ഒരു <span class="emphasis"><em>selection</em></span> ഉണ്ട്. ഏറ്റവും, പക്ഷെ എല്ലാ, <acronym class="acronym">GIMP</acronym> ഓപ്പറേഷൻസ് ചിത്രത്തിന്റെ തിരഞ്ഞെടുത്ത ഭാഗങ്ങളിലേക്കും മാത്രം പ്രവർത്തിക്കാൻ.</p>
+        <div class="figure">
+          <a id="idp46925508861984"></a>
+          <p class="title">
+            <strong>ചിത്രം 7.1. എങ്ങനെ വൃക്ഷം അകത്താക്കി ആഗ്രഹിക്കുന്നത്?</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/using/fog-tree-example.png" alt="എങ്ങനെ വൃക്ഷം അകത്താക്കി ആഗ്രഹിക്കുന്നത്?" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ശരിയായ നിരക്കു സൃഷ്ടിക്കുന്നത് എവിടെ നിങ്ങൾ ആഗ്രഹിക്കുന്ന ഫലം ലഭിക്കുന്നത് താക്കോലാണ്, പലപ്പോഴും അതു ചെയ്യാൻ എളുപ്പമല്ല ഒട്ടനേകം സാഹചര്യങ്ങൾ ഉണ്ട്. ഉദാഹരണത്തിന്, മുകളിൽ ചിത്രത്തിൽ ഞാൻ അതിന്റെ പശ്ചാത്തലത്തിൽ നിന്ന് വൃക്ഷം മുറിച്ച് ആഗ്രഹിക്കുന്ന കരുതുക, മറ്റൊരു ചിത്രം ഒട്ടിക്കുക. ഇത് ചെയ്യുന്നതിന്, ഞാൻ വൃക്ഷം മരത്തിന്റെ മാത്രമാകുന്നു അടങ്ങിയിരിക്കുന്ന ഒരു നിര സൃഷ്ടിക്കേണ്ടതുണ്ട്. വൃക്ഷം ഒരു സങ്കീർണ്ണമായ ആകൃതിയുള്ള കാരണം പ്രയാസമാണ്, നിരവധി പാടുകൾ അതു വ്യക്തമായി വസ്തുക്കളിൽ നിന്നും വേർതിരിച്ചറിയാൻ ബുദ്ധിമുട്ടാണ്.</p>
+        <div class="figure">
+          <a id="idp46925508866464"></a>
+          <p class="title">
+            <strong>ചിത്രം 7.2. തിരഞ്ഞെടുക്കൽ ഒന്നിടവിട്ട വര കൊണ്ട് പതിവുപോലെ കാണിച്ചിരിക്കുന്നു.</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/using/select-outline.png" alt="തിരഞ്ഞെടുക്കൽ ഒന്നിടവിട്ട വര കൊണ്ട് പതിവുപോലെ കാണിച്ചിരിക്കുന്നു." />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഇപ്പോൾ ഇവിടെ വളരെ പ്രധാനപ്പെട്ട പോയിന്റ്, അത് മനസ്സിലാക്കാന് നിർണായകമാണ്. സാധാരണ നിങ്ങൾ ഒരു നിര സൃഷ്ടിക്കുമ്പോൾ, നിങ്ങൾക്ക് ചിത്രത്തിന്റെ ഒരു ഭാഗം കുമിഴ് ഒന്നിടവിട്ട വര കാണുന്നു. ഈ നിന്നുള്ള ലഭിക്കും സാധാരണ, പൂർണമായും ശരിയല്ലെങ്കിൽ, ഐഡിയ, നിരക്കു അകത്ത് ചിത്രത്തിന്റെ തിരഞ്ഞെടുത്ത ഭാഗങ്ങൾ വെളിയിൽ തിരഞ്ഞെടുത്തത് ഭാഗങ്ങൾ കണ്ടെയ്നർ ഒരു തരത്തിൽ ആണ്. നിരക്കു ഈ ആശയം പല കാര്യങ്ങൾക്കും കുഴപ്പമില്ല ആണെങ്കിലും, പൂർണ്ണമായും ശരിയല്ല.</p>
+        <p>യഥാർത്ഥത്തിൽ നിരക്കു ഒരു <span class="emphasis"><em>channel</em></span> ആയി നടപ്പിലാക്കുന്നത്. അതിന്റെ ആന്തരിക ഘടന പറഞ്ഞാൽ അത് ഒരു ചിത്രത്തിന്റെ ചുവപ്പ് പച്ച, നീല, ആൽഫ ചാനലുകൾ സമാനമാണ്. ഇപ്രകാരം, നിരക്കു 0 (തിരഞ്ഞെടുത്തില്ല) ഉം (പൂർണ്ണമായി തിരഞ്ഞെടുത്തു) തമ്മിലുള്ള 255 വരെയുള്ള, ചിത്രത്തിന്റെ ഓരോ പിക്സൽ ചെയ്തത് നിഷ്കർഷിച്ച മൂല്യമുണ്ട്. ഈ സമീപനത്തിന്റെ പ്രയോജനം ചില പിക്സൽ <span class="emphasis"><em>partially selected</em></span> അനുവദിക്കുന്ന നിങ്ങൾ കാണാൻ പോകുന്നതുപോലെ അവരെ 0-255. തമ്മിലുള്ള ഇന്റർമീഡിയറ്റ് മൂല്യങ്ങൾ നൽകിക്കൊണ്ട്, അതു തിരഞ്ഞെടുത്തതും തിരഞ്ഞെടുത്തത് പ്രദേശങ്ങളും തമ്മിലുള്ള സംക്രമണം ഞങ്ങൾക്കുണ്ട് അവസരങ്ങളുണ്ട് പല സാഹചര്യങ്ങൾ ഉണ്ട് ആണ്.</p>
+        <p>അങ്ങനെയെങ്കിൽ, നിങ്ങൾ ഒരു നിര സൃഷ്ടിക്കുമ്പോൾ ദൃശ്യമാകുന്ന ഒന്നിടവിട്ട വര ആണ്?</p>
+        <p>ഒന്നിടവിട്ട വര പകുതി തിരഞ്ഞെടുത്ത താഴെയാണ് പ്രദേശങ്ങളിൽ നിന്ന് പകുതിയിലധികം തിരഞ്ഞെടുത്ത പ്രദേശങ്ങളിൽ ഹരിച്ചാൽ ഒരു <span class="emphasis"><em>contour line</em></span> ആണ്.</p>
+        <div class="figure">
+          <a id="idp46925508875456"></a>
+          <p class="title">
+            <strong>ചിത്രം 7.3. QuickMask മോഡിൽ ഇതേ നിരക്കു.</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/using/select-outline-qmask.png" alt="QuickMask മോഡിൽ ഇതേ നിരക്കു." />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>നിരക്കു പ്രതിനിധീകരിക്കുന്ന തകർത്തുകളഞ്ഞു ലൈനിൽ നോക്കുന്നതിനിടെ, എപ്പോഴും ലൈൻ കഥ ഭാഗം മാത്രം പറയുന്നു ഓർക്കുക. നിങ്ങൾ പൂർണ്ണമായ വിശദമായി നിരക്കു കാണാൻ ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, എളുപ്പത്തിലുള്ള വഴി ഇമേജ് വിൻഡോയുടെ താഴെ ഇടത് മൂലയിൽ QuickMask ബട്ടൺ ക്ലിക്കുചെയ്യുക എന്നതാണ്. ഈ തിരഞ്ഞെടുപ്പ് ചിത്രം മുകളിൽ ഒരു അർദ്ധസുതാര്യ ഓവർലേയായി കാണിച്ചിരിക്കുന്ന കാരണമാകുന്ന. തിരഞ്ഞെടുത്ത പ്രദേശങ്ങൾ ബാധിക്കില്ല; തിരഞ്ഞെടുത്തത് പ്രദേശങ്ങൾ വാലിനു ചെയ്യുന്നു. കൂടുതൽ പൂർണ്ണമായും ഒരു പ്രദേശത്തെ തിരഞ്ഞെടുത്ത, അത് പ്രത്യക്ഷപ്പെടുമ്പോൾ കുറവ് ഉപഭോഗം.</p>
+        <p>പല ഓപ്പറേഷനുകൾ <a class="link" href="gimp-image-window-qmask-button.html#gimp-image-window-qmask-overview" title="3.1. പൊതു അവലോകനം">QuickMask overview</a> പരാമർശിച്ചു പോലെ QuickMask മോഡിൽ വ്യത്യസ്തമായി പ്രവർത്തിക്കും. ഓണും QuickMask മോഡ് ടോഗിൾ ഇമേജ് വിൻഡോയുടെ താഴെ ഇടത് മൂലയിൽ QuickMask ബട്ടൺ ഉപയോഗിക്കുക.</p>
+        <div class="figure">
+          <a id="idp46925508881472"></a>
+          <p class="title">
+            <strong>ചിത്രം 7.4. ഭദ്രമാക്കുന്ന ശേഷം QuickMask മോഡിൽ ഇതേ നിരക്കു.</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/using/select-outline-qmask-feather.png" alt="ഭദ്രമാക്കുന്ന ശേഷം QuickMask മോഡിൽ ഇതേ നിരക്കു." />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-concepts-selection-feathering"></a>1.1. ഭദ്രമാക്കുന്ന</h3>
+              </div>
+            </div>
+          </div>
+          <p>സ്ഥിരസ്ഥിതി ക്രമീകരണങ്ങൾ ഉപയോഗിച്ച്, പോലുള്ള ചതുരം തിരഞ്ഞെടുക്കുക പ്രയോഗം അടിസ്ഥാന ഉപകരണങ്ങൾ, മൂർച്ചയുള്ള തിരഞ്ഞെടുക്കലുകൾ സൃഷ്ടിക്കുക. ഒന്നിടവിട്ട വര അകത്ത് പിക്സൽ പൂർണ്ണമായി തിരഞ്ഞെടുത്ത പുറത്തു പിക്സൽ പൂർണ്ണമായും തിരഞ്ഞെടുത്തത് ചെയ്യുന്നു. നിങ്ങൾ QuickMask ഓണാക്കാനും വഴി ഈ പരിശോധിക്കാൻ കഴിയും: നിങ്ങൾ മൂർച്ചയുള്ള വേണമങ്കിലും, യൂണിഫോം ചുവന്ന വലയം മായി ഒരു വ്യക്തമായ ദീർഘചതുരം കാണുന്നു. ബിരുദം തിരഞ്ഞെടുക്കലുകളും മൂർച്ചയുള്ള തിരഞ്ഞെടുക്കലുകൾ തമ്മിൽ ടോഗിൾ ചെയ്യുന്നതിന് ടൂൾ ഓപ്ഷനുകൾ ലെ <span class="quote">“<span class="quote">Feather edges</span>”</span> ചെക്ക്ബോക്സ് ഉപയോഗിക്കുക. നിങ്ങൾ ക്രമീകരിക്കാൻ കഴിയുന്ന തൂവൽ ആരം, സംക്രമണം സംഭവിക്കുന്നത് ഏത് ദൂരം തീരുമാനിക്കുന്നു.</p>
+          <p>നിങ്ങൾ സഹിതം താഴെ എങ്കിൽ, ചതുരം തിരഞ്ഞെടുക്കുക പ്രയോഗം ഇത് പരീക്ഷിക്കാൻ, തുടർന്ന് ടോഗിൾ QuickMask. നിങ്ങൾ വ്യക്തമായ സമകോണചതുർഭുജം ഒരു ഫസി എഡ്ജ് ഉണ്ട് എന്ന് കാണും.</p>
+          <p>ഭദ്രമാക്കുന്ന ഒട്ടിച്ചു ഒബ്ജക്റ്റ് അതിന്റെ ചുറ്റുപാടിൽ കൂടെ സുഗമമായി ഒപ്പം കുറെക്കാലമായി രാജശില്പി അങ്ങനെ നിങ്ങൾ cutting ഒട്ടിക്കലും ചെയ്യുമ്പോൾ തരംഗങ്ങൾ പ്രയോജനപ്പെടുന്നത്.</p>
+          <p>അത് യഥാർത്ഥത്തിൽ മൂർച്ചയുള്ള സെലക്ഷനും സൃഷ്ടിച്ചതാണോ പോലും, ഏത് സമയത്തും ഒരു നിര തൂവലാണ് സാധ്യമാണ്. ഫെദർ തിരഞ്ഞെടുക്കൽ ഡയലോഗ് തുറക്കാൻ ചിത്രം മെനുവിൽ നിന്ന് <span class="guimenu">Select</span> → <span class="guimenuitem">Feather</span> ഉപയോഗിക്കുക. തൂവൽ റേഡിയസ് സജ്ജമാക്കുക <span class="guibutton">OK</span> ക്ലിക്ക് ചെയ്യുക. ചെയ്യാൻ എല്ലാ-അല്ലെങ്കിൽ-ഒന്നും നിരക്കു ഒരു ബിരുദം നിരക്കു സമ്മുഖ-മൂർച്ച <span class="guimenu">Select</span> → <span class="guimenuitem">Sharpen</span> ഉപയോഗിക്കുക.</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                </td>
+                <th align="left">കുറിപ്പു്</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>വ്യക്തമാക്കിയ ബ്ലറിംഗ് വ്യാസാർദ്ധം നിരക്കു ചാനലിലെ ഒരു ഗോഷ്യൻ ഇഫക്റ്റ് പ്രയോഗിച്ചാണ് ഭദ്രമാക്കുന്ന പ്രവൃത്തികൾ: സാങ്കേതികമായി ഓറിയന്റഡ് വായനക്കാർക്ക്.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-concepts-selection-transparent"></a>1.2. ഒരു തിരഞ്ഞെടുപ്പ് ഭാഗികമായി സുതാര്യമായ ഉണ്ടാക്കുന്നു</h3>
+              </div>
+            </div>
+          </div>
+          <p>നിങ്ങൾ ഒപാസിറ്റി സജ്ജമാക്കാൻ കഴിയും, പക്ഷെ, ഒരു നിരക്കു നേരിട്ട് അത് ചെയ്യാനാവില്ല. വീഥി ഒരു ഗ്ലാസ് ഉണ്ടാക്കുവാൻ വളരെ ഉപകാരപ്രദമാണ്. ഒപാസിറ്റി സജ്ജമാക്കാൻ താഴെ രീതികൾ ഉപയോഗിക്കുന്നു:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>ലളിതമായ തിരഞ്ഞെടുപ്പുകളെ, ആവശ്യമുള്ള അതാര്യതയോടെ ഉപയോഗിക്കാൻ ഇറേസർ ടൂൾ.</p>
+              </li>
+              <li class="listitem">
+                <p>സങ്കീർണ്ണമായ തിരഞ്ഞെടുപ്പുകളെ: ഒരു ഫ്ലോട്ടിംഗ് നിരക്കു സൃഷ്ടിക്കാൻ <span class="guimenu">Selection</span> → <span class="guimenuitem">Floating</span> ഉപയോഗിക്കുക. ഈ <span class="quote">“<span class="quote">Floating Selection</span>”</span> വിളിച്ചു നിരക്കു ഒരു പുതിയ പാളി സൃഷ്ടിക്കുന്നു. ലെയർ ഡയലോഗ് ആവശ്യമുള്ള ഒപാസിറ്റി ഒപാസിറ്റി സ്ലൈഡർ സജ്ജമാക്കുക. അപ്പോൾ നിരക്കു ആങ്കർ: നിരക്കു പുറത്തു മൌസ് പോയിന്റർ ഒരു ആങ്കർ ഉൾപ്പെടുന്നു. മൗസ് പോയിന്റർ ആങ്കർ ഉൾപ്പെടുന്നു സമയത്ത് ക്ലിക്ക് ചെയ്യുമ്പോൾ, ഫ്ലോട്ടിംഗ് നിരക്കു ലെയർ ഡയലോഗ് നിന്ന് പ്രവൃത്തികൾ ഒരു നിര ഉപകരണം സജീവമാകുമ്പോൾ മാത്രമേ ഈ വഴി ആങ്കറിംഗ് അപ്രത്യക്ഷമാകുകയും നിരക്കു ശരിയായ സ്ഥലത്ത് ആണ് ഭാഗികമായെങ്കിലും സുതാര്യമായ (: നിങ്ങള്ക്ക് ആങ്കർ ലെയർ ഉപയോഗിക്കാം പാളി ഡയലോഗിൽ തിരഞ്ഞെടുത്ത ലെയർ റൈറ്റ് ക്ലിക്ക് സന്ദർഭ മെനുവിൽ കമാൻഡ്).</p>
+                <p>പിന്നെ, നിങ്ങൾ പതിവായി ഈ ഫംഗ്ഷൻ ഉപയോഗിച്ചാൽ: പുതിയ ലെയറിലേക്ക് നിരക്കു തിരിക്കാൻ ഒരു ഫ്ലോട്ടിംഗ് നിരക്കു ക്ലിപ്ബോർഡിൽ ഒട്ടിക്കാൻ നിരക്കു പകർത്താനും <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>C</strong></span>, <span class="keycap"><strong>Ctrl</strong></span>-<span class="keycap"><strong>V</strong></span>, ഒപ്പം <span class="guimenu">Layer</span> → <span class="guimenuitem">New Layer</span>. നിങ്ങളുടെ മുമ്പിലും അല്ലെങ്കിൽ പുതിയ പാളി സൃഷ്ടിക്കുന്നത് ശേഷം ഒപാസിറ്റി ക്രമീകരിക്കാൻ കഴിയും.</p>
+              </li>
+              <li class="listitem">
+                <p>മറ്റൊരു വഴി:, നിരക്കു കൂടെ പാളി ഒരു ലെയർ മാസ്ക് ചേർക്കാൻ <span class="guimenu">Layer</span> → <span class="guisubmenu">Mask</span> → <span class="guimenuitem">Add Layer Mask</span> ഉപയോഗിക്കുക നിരക്കു അതു ആരംഭിക്കുന്നു. അപ്പോൾ ഒരു ബ്രഷ് ആവശ്യമുള്ള അതാര്യതയോടെ അതായത് സുതാര്യതയോടെ പെയിന്റ്, കറുത്ത ഉപയോഗിച്ച് തിരഞ്ഞെടുപ്പ് വരയ്ക്കാൻ ഉപയോഗിക്കുക. അപ്പോൾ ലേയർ / മാസ്ക് / സാധാരണ സംഭവം. <a class="xref" href="gimp-dialogs-structure.html#gimp-layer-mask" title="2.1.3. ലെയർ മാസ്കുകൾ">വിഭാഗം 2.1.3, “ലെയർ മാസ്കുകൾ”</a> കാണുക.</p>
+              </li>
+              <li class="listitem">
+                <p><span class="emphasis"><em>make the solid background of an image transparent</em></span>, ഒരു ആൽഫ ചാനൽ ചേർക്കുക, പശ്ചാത്തല തിരഞ്ഞെടുക്കുന്നതിന് മാന്ത്രികനായാണ് ഉപയോഗിക്കുക. പിന്നെ, ഉപയോഗിക്കാൻ കളർ പിക്കറിലെ ടൂൾ പണിസഞ്ചിയിൽ മുന്ഭാഗത്തെ വളർന്നു പശ്ചാത്തല നിറം, തിരഞ്ഞെടുക്കുന്നതിന്. തിരഞ്ഞെടുത്ത നിറം ബക്കറ്റ് നിറയാൻ ഉപകരണം ഉപയോഗിക്കുക. തിരഞ്ഞെടുത്ത നിറം പിക്സൽ മായ്ക്കുന്നു ഏത് <span class="quote">“<span class="quote">Color Erase</span>”</span>, ലേക്കുള്ള മോഡ് നിറയ്ക്കുക ബക്കറ്റ് സജ്ജമാക്കുക; മറ്റ് പിക്സൽ ഭാഗികമായും മായ്ച്ചു ഇവരുടെ നിറം മാറുന്നു.</p>
+                <p>ലളിതമായ രീതി ഒരു നിര പൂർണമായ സുതാര്യത തരുന്ന <span class="guimenu">Edit</span> → <span class="guimenuitem">Clear</span>, ഉപയോഗിക്കുക എന്നതാണ്.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-using-web-transparency.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="become-a-gimp-wizard.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-using-selections.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-web-transparency.html">2.3. സുതാര്യതയോടെ സംരക്ഷിക്കുന്നു ചിത്രങ്ങൾ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-selections.html">2. തിരഞ്ഞെടുപ്പുകൾ സൃഷ്ടിക്കുകയും ഉപയോഗിക്കുന്നു</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>10.11. വാൻ ഗോഗ് (എൽഐസി)</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-artistic.html" title="10. കലാപരമായ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-softglow.html" title="10.10. Softglow" />
+    <link rel="next" href="script-fu-weave.html" title="10.12. നെയ്യുക" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">10.11. വാൻ ഗോഗ് (എൽഐസി)</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-softglow.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">10. കലാപരമായ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="script-fu-weave.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-lic"></a>10.11. വാൻ ഗോഗ് (എൽഐസി)</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925526897232" class="indexterm"></a>
+      <a id="idp46925526899072" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925526900000"></a>10.11.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925526900768"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.201. ഇടതു നിന്നും വലത്തോട്ട്: യഥാർത്ഥ ചിത്രം, മാപ്പ്, ലഭിക്കുന്ന ചിത്രം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/map-lic-s.png" alt="ഇടതു നിന്നും വലത്തോട്ട്: യഥാർത്ഥ ചിത്രം, മാപ്പ്, ലഭിക്കുന്ന ചിത്രം" />
+              <div class="caption">
+                <p>ഒരു സോളിഡ് കറുത്ത പ്രദേശം, ഒരു ലംബമായ ഗ്രേഡിയന്റ് പ്രദേശത്ത്, ഒരു സോളിഡ് വെളുത്ത ഏരിയ: മാപ്പ് മൂന്നു തല്ലും ഉണ്ട്. ഒന്ന്, കാരണമാകുന്നു ഇമേജിൽ കാണാം മങ്ങിയ അല്ല, ആ ഇമേജ് സോണുകൾ മാപ്പിന്റെ ഖര പ്രദേശങ്ങൾ പൊരുത്തപ്പെടുന്ന. ഇമേജ് സോൺ മാപ്പിന്റെ വ്യത്യാസത്തിനു പ്രദേശം പൊരുത്തപ്പെടുന്ന മങ്ങിയ ആണ്.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p><span class="quote">“<span class="quote">LIC</span>”</span> ലൈൻ ഇന്റഗ്രൽ കോൺവൊല്യൂഷൻ, ഒരു ഗണിത രീതി സൂചിപ്പിക്കുന്നു. പ്ലഗ്-ഇൻ രചയിതാവ് തന്റെ ഓപ്ഷനുകൾ പേരുനൽകേണ്ടതും ഗണിത ഉപയോഗിക്കുന്നു ... ഈ ഫിൽട്ടർ പരിശ്രമങ്ങളുടെ സൃഷ്ടിക്കാൻ ഒരു ചിത്രം ഒരു ദിശയിലുമുള്ള മങ്ങൽ പ്രയോഗിക്കാൻ ഉപയോഗിക്കുന്ന, അല്ലെങ്കിൽ. അത് ചിത്രത്തിന്റെ ചില ദിശകൾ മങ്ങിച്ചാൽ പോലെ അതു <span class="quote">“<span class="quote">Astigmatism</span>”</span> വിളിക്കപ്പെടും കഴിഞ്ഞില്ല.</p>
+        <p>ഒരു മങ്ങൽ മാപ്പ് ഉപയോഗിക്കുന്നു. മറ്റ് മാപ്പുകൾ വ്യത്യസ്തമായി, ഈ ഫിൽട്ടർ ഈ മങ്ങൽ മാപ്പിന്റെ ചാര അളവ് ഉപയോഗിക്കുന്നില്ല. <span class="emphasis"><em>Filter takes in account only gradient direction (s)</em></span>. മാപ്പ് ഉറപ്പുള്ള പ്രദേശങ്ങൾ പൊരുത്തപ്പെടുന്ന ചിത്രം പിക്സലുകൾ അവഗണിക്കപ്പെടുന്നു.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925526908912"></a>10.11.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Artistic</span> → <span class="guimenuitem">Van Gogh (LIC)</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925526911520"></a>10.11.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925526912272"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.202. <span class="quote">“<span class="quote">Van Gogh (LIC)</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/artistic/vangogh.png" alt="“Van Gogh (LIC)” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[സൂചന]" src="images/tip.png" />
+              </td>
+              <th align="left">സൂചന</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <div class="itemizedlist">
+                  <ul class="itemizedlist" style="list-style-type: disc; ">
+                    <li class="listitem">
+                      <p>ഒരു മങ്ങൽ സൃഷ്ടിക്കുന്നതിന്, <span class="guilabel">With Source Image</span> പരിശോധിക്കുക. ദൈർഘ്യം സ്ലൈഡർ ഒരുപക്ഷേ ഇന്റഗ്രേഷൻ നടപടികൾ സ്ലൈഡർ മാത്രമേ അരിപ്പ, ഗുണകരമാകുന്നത്.</p>
+                    </li>
+                    <li class="listitem">
+                      <p>ഒരു ടെക്സ്ചർ സൃഷ്ടിക്കുന്നതിന്, <span class="guilabel">With White Noise</span> പരിശോധിക്കുക. എല്ലാ സ്ലൈഡറുകൾ ഉപയോഗപ്പെടും.</p>
+                    </li>
+                  </ul>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പ്രഭാവം ചാനൽ</span>
+            </dt>
+            <dd>
+              <p><span class="guilabel">Hue</span>, <span class="guilabel">Saturation </span> അല്ലെങ്കിൽ <span class="guilabel">Brightness (=Value)</span> തിരഞ്ഞെടുക്കുന്നതിലൂടെ, അരിപ്പ ചിത്രം പെരുമാറണം ഈ ചാനൽ ഉപയോഗിക്കും.</p>
+            </dd>
+            <dt>
+              <span class="term">ഇഫക്റ്റ് ഓപ്പറേറ്റർ</span>
+            </dt>
+            <dd>
+              <p><span class="quote">“<span class="quote">Derivative</span>”</span> ഓപ്ഷൻ <span class="quote">“<span class="quote">Gradient </span>”</span> ദിശമാറുന്നതുമായ:</p>
+              <div class="figure">
+                <a id="idp46925526925072"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.203. ഡെറിവേറ്റീവ് ഓപ്ഷൻ ഉദാഹരണം</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-deriv.png" alt="ഡെറിവേറ്റീവ് ഓപ്ഷൻ ഉദാഹരണം" />
+                    <div class="caption">
+                      <p>ഒരു സ്ക്വയർ ഗ്രേഡിയന്റ് ഭൂപടം ഉപയോഗിച്ച്, പ്രഭാവം ഓപ്പറേറ്റർ <span class="quote">“<span class="quote">Gradient</span>”</span> ഇടത്തുവശത്തുള്ള, <span class="quote">“<span class="quote">Derivative</span>”</span> ന് വലതുഭാഗത്ത്: WHAT മൂർച്ചയുള്ള ആയിരുന്നു മങ്ങിയ ആൻഡ് അതുപോലെ ആണ്.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">Convolve</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ കോൺവൊല്യൂഷൻ രണ്ടു തരം ഉപയോഗിക്കാം. അത് നിങ്ങൾക്ക് സജ്ജമാക്കാൻ ഞങ്ങൾക്കുണ്ട് ആദ്യമായി ഇവിടെയുണ്ട്:</p>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">വെളുത്ത സ്വരവുമായി</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>വൈറ്റ് കലഹം ശബ്ദശാസ്ത്രം നാമം. അത് എല്ലാ ആവൃത്തിയിലുള്ള ഒരേ കഴിവുമുള്ളവർ എവിടെ ഒരു മുഴക്കം തുടർന്ന്. ഇവിടെ, ഈ ഓപ്ഷൻ പാറ്റേണുകൾ ഉണ്ടാക്കുന്നതിനായി ഉപയോഗിക്കുന്നു.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">ഉറവിട ചിത്രം കൂടി</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>ഉറവിട ചിത്രം മങ്ങിക്കപ്പെടും.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">ഇഫക്റ്റ് ചിത്രം</span>
+            </dt>
+            <dd>
+              <p>ആ മങ്ങൽ അല്ലെങ്കിൽ പാറ്റേൺ മാർഗനിർദേശത്തിനായി മാപ്പ് ആണ്. ഈ മാപ്പിൽ യഥാർത്ഥ ചിത്രം അതേ തലങ്ങളും ഉണ്ടായിരിക്കണം. ഇത് വെയിലത്ത് ഒരു ഗ്രേസ്കെയിലാക്കി ചിത്രം ആയിരിക്കണം. ഡ്രോപ്-പട്ടികയിൽ തിരഞ്ഞെടുക്കാൻ കഴിയും അങ്ങനെ നിങ്ങൾ ഫിൽട്ടർ വിളിക്കുമ്പോൾ അത് നിങ്ങളുടെ സ്ക്രീനിൽ ഉണ്ടായിരിക്കണം.</p>
+              <div class="figure">
+                <a id="idp46925526939456"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.204. ലംബമായ ഗ്രേഡിയന്റ് മാപ്പുമൊത്ത് ബ്ലറിംഗോ</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-vert-blur.png" alt="ലംബമായ ഗ്രേഡിയന്റ് മാപ്പുമൊത്ത് ബ്ലറിംഗോ" />
+                    <div class="caption">
+                      <p>ഒരു ലംബമായ ഗ്രേഡിയന്റ് ഭൂപടം വച്ച് ലംബമായ വരികൾ മാഞ്ഞു പോകുന്നു.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <div class="figure">
+                <a id="idp46925526943280"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.205. ഒരു സ്ക്വയർ ഗ്രേഡിയന്റ് മാപ്പുമൊത്ത് ബ്ലറിംഗോ</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-sq-blur.png" alt="ഒരു സ്ക്വയർ ഗ്രേഡിയന്റ് മാപ്പുമൊത്ത് ബ്ലറിംഗോ" />
+                    <div class="caption">
+                      <p>ഗ്രേഡിയന്റ് മാപ്പ് നാല് വ്യത്യാസത്തിനു ത്രികോണങ്ങൾ തിരിച്ചിട്ടുണ്ട്: അവരിൽ ഓരോ സ്വന്തം ഗ്രേഡിയന്റ് ദിശ ഉണ്ട്. ത്രികോണങ്ങൾ വ്യത്യാസത്തിനു പൊരുത്തപ്പെടുന്ന ചിത്രത്തിന്റെ ഓരോ പരിസരത്ത് ഗ്രേഡിയന്റ് അതേ ദിശയിൽ കൂടെ മാത്രമേ വരികൾ മാഞ്ഞു പോകുന്നു.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <div class="figure">
+                <a id="idp46925526947616"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.206. ടെക്സ്ചർ ഉദാഹരണം</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-vert-pat.png" alt="ടെക്സ്ചർ ഉദാഹരണം" />
+                    <div class="caption">
+                      <p><span class="quote">“<span class="quote">With white noise</span>”</span> ഓപ്ഷൻ പരിശോധിക്കുന്നു. മറ്റുള്ളവ സ്ഥിര ആകുന്നു. ഒരു ലംബമായ ഗ്രേഡിയന്റ് ഭൂപടം വച്ച് ടെക്സ്ചർ <span class="quote">“<span class="quote">fibres</span>”</span> തിരശ്ചീനമായി പോകുന്നു.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">ഫിൽറ്റർ ദൈർഘ്യം</span>
+            </dt>
+            <dd>
+              <p>മങ്ങൽ പ്രയോഗിക്കുമ്പോൾ ഈ ഓപ്ഷൻ ഇഫക്റ്റ് എത്ര പ്രധാനം നിയന്ത്രിക്കുന്നു. ഒരു ടെക്സ്ചർ സൃഷ്ടിക്കുമ്പോൾ, അതു പരുക്കൻ ടെക്സ്ചർ നിയന്ത്രിക്കുന്ന: കുറഞ്ഞ മൂല്യങ്ങൾ മിനുസമുള്ള ഉപരിതലത്തിൽ കാരണമാകാം; ഇളം ഉയർന്ന മൂല്യങ്ങൾ.</p>
+              <div class="figure">
+                <a id="idp46925526954624"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.207. മങ്ങൽ ഫിൽറ്റർ വെട്ടം ആക്ഷൻ ഉദാഹരണം</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-blur-lg.png" alt="മങ്ങൽ ഫിൽറ്റർ വെട്ടം ആക്ഷൻ ഉദാഹരണം" />
+                    <div class="caption">
+                      <p>ഇടത്തും: ഒരു ലംബരേഖ, ഒരു പിക്സൽ വൈഡ് (സൂം 800%). വലത്: ഒരേ വരിയിൽ, 3. ഒരു ഫിൽട്ടർ ദൈർഘ്യം ലംബ ബ്ലർ പ്രയോഗിച്ച ശേഷം നിങ്ങൾ ആ മങ്ങൽ വീതിയിൽ 6 പിക്സൽ, ഇരുഭാഗത്തും 3 പിക്സൽ കാണാം.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <div class="figure">
+                <a id="idp46925526958672"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.208. ടെക്സ്ചർ ഫിൽറ്റർ ദൈർഘ്യം ഉദാഹരണം</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-text-lg.png" alt="ടെക്സ്ചർ ഫിൽറ്റർ ദൈർഘ്യം ഉദാഹരണം" />
+                    <div class="caption">
+                      <p>ഫിൽറ്റർ ദൈർഘ്യം = 3 ഒരു ടെക്സ്ചർ: ഇടത്തും. വലതു, ഫിൽറ്റർ ദൈർഘ്യം = 24 ഒരേ ടെക്സ്ചർ ന്.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">നോയ്സ് റിക്ടർ</span>
+            </dt>
+            <dd>
+              <p>ഈ ഓപ്ഷനുകൾ വൈറ്റ് നോയ്സ് അളവും വലുപ്പം നിയന്ത്രിക്കുന്നത്. കുറഞ്ഞ മൂല്യങ്ങൾ നന്നായി അസംസ്കൃതമായ പ്രതലങ്ങളിൽ ഉത്പാദിപ്പിക്കുന്നു. ഉയർന്ന മൂല്യങ്ങൾ നാടൻ നിഷ്കർഷിച്ചുകൊണ്ടു് ടെക്സ്ചറുകളും ഉത്പാദിപ്പിക്കുന്നു.</p>
+              <div class="figure">
+                <a id="idp46925526964880"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.209. ടെക്സ്ചർ ന് വോയ്സ് തീവ്രത രേഖപ്പെടുത്തിയ ആക്ഷൻ ഉദാഹരണം</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-vp-nm4.png" alt="ടെക്സ്ചർ ന് വോയ്സ് തീവ്രത രേഖപ്പെടുത്തിയ ആക്ഷൻ ഉദാഹരണം" />
+                    <div class="caption">
+                      <p>വോയ്സ് റിക്ടർ = 4</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">ഇന്റഗ്രേഷൻ ഘട്ടങ്ങൾ</span>
+            </dt>
+            <dd>
+              <p>ഈ ഓപ്ഷനുകൾ ടെക്സ്ചർ ന് വ്യത്യാസത്തിനു മാപ്പ് സ്വാധീനം നിയന്ത്രിക്കുന്നു.</p>
+              <div class="figure">
+                <a id="idp46925526970624"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.210. ടെക്സ്ചർ ന് ഇന്റഗ്രേഷൻ നടപടികൾ ആക്ഷൻ ഉദാഹരണം</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-is.png" alt="ടെക്സ്ചർ ന് ഇന്റഗ്രേഷൻ നടപടികൾ ആക്ഷൻ ഉദാഹരണം" />
+                    <div class="caption">
+                      <p>ഇന്റഗ്രേഷൻ നടപടികൾ = 2. വലതുവശത്ത്: ഇന്റഗ്രേഷൻ നടപടികൾ = 4 ഇടത്തും.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">കുറഞ്ഞ മൂല്യം, </span>
+              <span class="term">പരമാവധി മൂല്യം</span>
+            </dt>
+            <dd>
+              <p>മൂല്യങ്ങൾ ടെക്സ്ചർ തീവ്രത നിയന്ത്രിയ്ക്കാനുള്ള ഒരു ശ്രേണി നിർണ്ണയിക്കാൻ: ഉയർന്ന തീവ്രത കുറഞ്ഞ വ്യത്യസ്തമായി വിശാലമായിരിക്കുന്നു പരിധി ഫലങ്ങളിൽ ചുരുങ്ങി റേഞ്ച് ഫലങ്ങൾ.</p>
+              <div class="figure">
+                <a id="idp46925526977168"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.211. ടെക്സ്ചർ ന് ചുരുങ്ങിയത് / പരമാവധി മൂല്യങ്ങളുടെ ആക്ഷൻ ഉദാഹരണം</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/map-lic-mm.png" alt="ടെക്സ്ചർ ന് ചുരുങ്ങിയത് / പരമാവധി മൂല്യങ്ങളുടെ ആക്ഷൻ ഉദാഹരണം" />
+                    <div class="caption">
+                      <p>കുറഞ്ഞ മൂല്യം = -4,0. പരമാവധി മൂല്യം = 5.0.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-softglow.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-artistic.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="script-fu-weave.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-softglow.html">10.10. Softglow</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="script-fu-weave.html">10.12. നെയ്യുക</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

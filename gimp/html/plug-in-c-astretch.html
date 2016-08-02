@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>8.11. സ്ട്രെച്ച് കോൺട്രാസ്റ്റ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-colors-menu.html" title="8. “Colors” മെനു" />
+    <link rel="prev" href="plug-in-normalize.html" title="8.10. സാധാരണവത്കരിക്കാനും" />
+    <link rel="next" href="plug-in-autostretch-hsv.html" title="8.12. HSV നീട്ടുക" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">8.11. സ്ട്രെച്ച് കോൺട്രാസ്റ്റ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-normalize.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">8. <span class="quote">“<span class="quote">Colors</span>”</span> മെനു</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-autostretch-hsv.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-c-astretch"></a>8.11. സ്ട്രെച്ച് കോൺട്രാസ്റ്റ്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925522670480" class="indexterm"></a>
+      <a id="idp46925522671856" class="indexterm"></a>
+      <a id="idp46925522672816" class="indexterm"></a>
+      <p><span class="guimenuitem">Stretch Contrast</span> കമാൻഡ് യാന്ത്രികമായി സജീവമെന്ന് പാളി ഹിസ്റ്റോഗ്രാം മൂല്യങ്ങൾ വിരിക്കുന്നു. സജീവ പാളി ഓരോ ചാനലിന്റെയും അതു കൂടിയതുമായ മൂല്യങ്ങൾ കണ്ടെത്തുന്നു ഫുൾ തീവ്രത പരിധി വരെ റെഡ്, പച്ച, നീല histograms നീട്ടി ഉപയോഗിച്ചത്. നിറങ്ങളില് തുനിയാതെ മാറി ഇരുണ്ട നിറങ്ങൾ തീവ്രത വർദ്ധിപ്പിക്കുന്നു ഇരുണ്ട തീർന്നിരിക്കുന്നു. ഈ കമാൻഡ് അത് വ്യക്തിപരമായി പാളി ഓരോ നിറം ചാനലിൽ പ്രവർത്തിക്കുന്ന അല്ലാതെ <a class="link" href="plug-in-normalize.html" title="8.10. സാധാരണവത്കരിക്കാനും">Normalize</a> കമാൻഡിന് ഏതാണ്ട് ഇതേ പ്രഭാവം ഉത്പാദിപ്പിക്കുന്നത്. ഇത് സാധാരണയായി ചിത്രം നിറം ഷിഫ്റ്റുകൾ നയിക്കുന്നു, അതിനാൽ ആവശ്യമുള്ള ഫലം സൃഷ്ടിക്കാനാവില്ല ചെയ്യാം. <span class="quote">“<span class="quote">Stretch Contrast</span>”</span> ആർജിബി, ഗ്രേസ്കെയിലിൽ, ഇൻഡെക്സ് ചിത്രങ്ങൾ പാളികൾ പ്രവർത്തിക്കുന്നു. നിങ്ങൾ ശുദ്ധമായ വെള്ള നിർമ്മലമായ കറുത്ത ഉൾക്കൊള്ളണം ഏത് ഒരു ചിത്രത്തിൽ നിന്ന് അഭികാമ്യമല്ലാത്ത ഒരു വർണ്ണ ടിന്റ് നീക്കം ചെയ്യണമെന്ന് മാത്രമേ <span class="quote">“<span class="quote">Stretch Contrast</span>”</span> ഉപയോഗിക്കുക.</p>
+      <p>ഈ കമാൻഡ് <a class="link" href="">Color Balance</a> കമാൻഡ് സമാനമാണ്, എന്നാൽ അതു വളരെ ഇരുണ്ട അല്ലെങ്കിൽ വളരെ ശോഭയുള്ള പിക്സൽ ഏതെങ്കിലും നിരസിക്കുന്നില്ലെങ്കിൽ, അതിനാൽ വെളുത്ത ദുഷിച്ച ആകേണ്ടതിന്നു.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522679616"></a>8.11.1. കമാൻഡ് സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>ഈ കമാൻഡ് <span class="guimenu">Colors</span> → <span class="guisubmenu">Auto</span> → <span class="guimenuitem">Stretch Contrast</span> ആയി ഒരു ചിത്രം മെനുബാർ നിന്നും ആക്സസ് ചെയ്യാം.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522683152"></a>8.11.2. <span class="quote">“<span class="quote">Stretch Contrast</span>”</span> ഉദാഹരണം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925522684176"></a>
+          <p class="title">
+            <strong>ചിത്രം 16.140. യഥാർത്ഥ ചിത്രം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/colors/auto/alice.png" alt="യഥാർത്ഥ ചിത്രം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Stretch Contrast</span>”</span> മുമ്പിൽ പാളി അതിന്റെ റെഡ്, പച്ച, നീല histograms.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="figure">
+          <a id="idp46925522688128"></a>
+          <p class="title">
+            <strong>ചിത്രം 16.141. കമാൻഡ് ശേഷം ചിത്രം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/colors/auto/c-stretch.png" alt="കമാൻഡ് ശേഷം ചിത്രം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Stretch Contrast</span>”</span> ശേഷം പാളി അതിന്റെ റെഡ്, പച്ച, നീല histograms. പിക്സൽ നിരകൾ <span class="quote">“<span class="quote">White Balance</span>”</span> വ്യത്യസ്തമായി കാരണം ഏതാനും വളരെ മിനുക്കിയ പിക്സൽ ഹിസ്റ്റോഗ്രാം (255) വലത്തേ അറ്റത്തെ എത്താൻ ചെയ്യരുത്.</p>
+                <p>ആമി നീട്ടിവെച്ചിരിക്കുകയാണ് അതു ഊരിയെടുത്തു ലുക്ക് നൽകുന്ന പിക്സൽ നിരകൾ തമ്മിൽ വിടവുകൾ സൃഷ്ടിക്കുന്നു.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-normalize.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-colors-menu.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-autostretch-hsv.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-normalize.html">8.10. സാധാരണവത്കരിക്കാനും</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-autostretch-hsv.html">8.12. HSV നീട്ടുക</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

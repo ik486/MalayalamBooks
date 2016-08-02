@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.4. നിങ്ങളുടെ ആദ്യ സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-using-script-fu-tutorial.html" title="3. ഒരു സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ" />
+    <link rel="prev" href="gimp-using-script-fu-tutorial-lists.html" title="3.3. ലിസ്റ്റുകൾ, ലിസ്റ്റുകൾ, ടിപ്പണി" />
+    <link rel="next" href="gimp-using-script-fu-tutorial-script.html" title="3.5. നമ്മുടെ സ്ക്രിപ്റ്റ് നൽകൽ ചില Guts" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.4. നിങ്ങളുടെ ആദ്യ സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-using-script-fu-tutorial-lists.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. ഒരു സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-using-script-fu-tutorial-script.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-using-script-fu-tutorial-first-script"></a>3.4. നിങ്ങളുടെ ആദ്യ സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ്</h3>
+          </div>
+        </div>
+      </div>
+      <p>നിങ്ങളുടെ ശ്വാസം നിർത്താൻ മനസ്സിലാവുന്നതും ആവശ്യമില്ല? ഇല്ല? നിങ്ങളുടെ ആദ്യ സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ് - പിന്നെ നിങ്ങളുടെ നാലാമത്തെ പാഠം മുന്നോട്ടുപോകും ചെയ്യട്ടെ.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512243856"></a>3.4.1. ഒരു ടെക്സ്റ്റ് ബോക്സ് സ്ക്രിപ്റ്റ് സൃഷ്ടിക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഞാൻ <acronym class="acronym">GIMP</acronym> പ്രകടനം ഏറ്റവും സാധാരണമായ ഓപ്പറേഷൻസ് ഒന്ന് ഒരു വെബ് പേജ് അതിൽ ചില ടെക്സ്റ്റ്, ഒരു ലോഗോ അല്ലെങ്കിൽ ഒരു പെട്ടിക്ക് സൃഷ്ടിക്കുന്നു. എന്നിരുന്നാലും, നിങ്ങൾ തികച്ചും നിങ്ങളെ പുറത്തു ആരംഭിക്കുമ്പോൾ പ്രാരംഭ ഇമേജുകൾ എങ്ങനെ വലിയ അറിയില്ല. ടെക്സ്റ്റ് നിങ്ങൾ ആഗ്രഹിക്കുന്ന ഫോണ്ട്, ഫോണ്ട് വലുപ്പം എത്ര സ്ഥലം നിറെക്കും അറിയില്ല.</p>
+        <p>സ്ക്രിപ്റ്റ്-ഫു മാസ്റ്റർ (വിദ്യാർത്ഥി) വേഗത്തിൽ ഈ പ്രശ്നം എളുപ്പത്തിൽ സ്ക്രിപ്റ്റ്-ഫു പരിഹരിച്ചിട്ടുണ്ട് ഒപ്പം ഓട്ടോമേറ്റഡ് എന്നു തിരിച്ചറിയണം ചെയ്യും.</p>
+        <p>നാം അതുകൊണ്ട് ശരിയായി ഉപയോക്തൃ ചെലവായ ടെക്സ്റ്റ് ഒരു വരി ചുറ്റും കേബിളിന്റെ fit വലുപ്പംമാറ്റിയത് ഒരു ചിത്രം സൃഷ്ടിക്കുന്ന സ്ക്രിപ്റ്റും വിളിച്ചു ടെക്സ്റ്റ് ബോക്സ്, സൃഷ്ടിക്കും. ഞങ്ങൾ ഉപയോക്തൃ ഫോണ്ട്, ഫോണ്ട് സൈസ്, ടെക്സ്റ്റ് നിറം തിരഞ്ഞെടുക്കാൻ അനുവദിക്കും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512248640"></a>3.4.2. എഡിറ്റിംഗ് നിങ്ങളുടെ സ്ക്രിപ്റ്റുകൾ സംഭരിക്കാൻ</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഇപ്പോൾ വരെ, ഞങ്ങൾ സ്ക്രിപ്റ്റ്-ഫു കൺസോളിൽ പ്രവർത്തിക്കുന്നതാണ്. എന്നാൽ, ഞങ്ങൾ എഡിറ്റിംഗ് സ്ക്രിപ്റ്റ് ടെക്സ്റ്റ് ഫയലുകൾ മാറുക പോകുന്നു.</p>
+        <p>നിങ്ങളുടെ സ്ക്രിപ്റ്റുകൾ സ്ഥാപിക്കുക എവിടെ മുൻഗണന ഒരു കാര്യം - നിങ്ങൾ <acronym class="acronym">GIMP</acronym> ന്റെ സ്ഥിര സ്ക്രിപ്റ്റ് ഡയറക്ടറി ആക്സസ് ഇല്ലെങ്കിൽ, നിങ്ങൾ അവിടെ സ്ക്രിപ്റ്റുകൾ സ്ഥാപിക്കാൻ കഴിയും. എന്നിരുന്നാലും, ഞാൻ ഫാക്ടറി-ഇൻസ്റ്റാൾ സ്ക്രിപ്റ്റുകളിൽ നിന്നും വേർതിരിച്ചു അവരെ പ്രമാണിച്ചു എന്റെ സ്വന്തം സ്ക്രിപ്റ്റ് ഡയറക്ടറിയിൽ എന്റെ വ്യക്തിപരമായ സ്ക്രിപ്റ്റുകൾ സൂക്ഷിക്കുന്നതിനുമുള്ള ഇഷ്ടപ്പെടുന്നത്.</p>
+        <p>
+        In the <code class="filename">.gimp-2.8</code> directory that
+        <acronym class="acronym">GIMP</acronym> made off of your home directory, you should
+        find a directory called <code class="filename">scripts</code>.
+        <acronym class="acronym">GIMP</acronym> will automatically look in your
+        <code class="filename">.gimp-2.8</code> directory for a
+        <code class="filename">scripts</code> directory, and add the
+        scripts in this directory to the
+        Script-Fu database. You should place your personal scripts here.
+      </p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512256848"></a>3.4.3. ബാരെ എസ്സൻഷ്യൽസ്</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഓരോ സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ് ഏത് സ്ക്രിപ്റ്റിന്റെ പ്രധാന പ്രവർത്തനമല്ല കുറഞ്ഞത് ഒരു ഫംഗ്ഷൻ, നിഷ്കർഷിക്കുന്നു. നിങ്ങൾ ജോലി ചെയ്യാൻ ഇവിടെയാണ്.</p>
+        <p>ഓരോ സ്ക്രിപ്റ്റ് അതിലൂടെ <acronym class="acronym">GIMP</acronym> അത് ആക്സസ് ചെയ്യാൻ കഴിയും, നടപടിക്രമങ്ങൾ ഡാറ്റാ രജിസ്റ്റർ ചെയ്യണം.</p>
+        <p>ആദ്യം നാം പ്രധാന നിര്വ്വചിക്കുമ്പോള് കാണാം:</p>
+        <pre class="programlisting">
+        (define (script-fu-text-box inText inFont inFontSize inTextColor))
+      </pre>
+        <p>ഇവിടെ നാം പിന്നീട് ചില ടെക്സ്റ്റ് അനുയോജ്യമായി നാല് പരാമീറ്ററുകൾ, ഒരു ഫോണ്ട്, ഫോണ്ട് വലുപ്പം, ടെക്സ്റ്റ് കളർ എടുക്കും എന്നും <code class="function">script-fu-text-box</code> എന്ന ഒരു പുതിയ ഫങ്ഷൻ നിർവ്വചിക്കുകയുംഎന്നിട്ട് ഞങ്ങൾ. ഫങ്ഷൻ നിലവിൽ ശൂന്യമാണ് അപ്രകാരം ഒന്നും. ഇതുവരെ വളരെ നല്ല - ഒന്നും പുതിയ ഒന്നും ഫാൻസി.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512262384"></a>3.4.4. കൺവെൻഷനുകൾ പേരുനൽകുന്നത്</h4>
+            </div>
+          </div>
+        </div>
+        <p>പദ്ധതി ന്റെ പേരിടൽ കൺവെൻഷനുകൾ ഞാൻ ധർമ്മ നാമകരണ നിങ്ങൾ പിന്തുടർന്ന ഏത് ഹൈഫനുകളോ, കൂടെ ചെറിയ അക്ഷരങ്ങൾ താൽപര്യം തോന്നുന്ന. എങ്കിലും, ഞാൻ പരാമീറ്ററുകളുപോഗിച്ച് കൺവെൻഷനിൽ വിട്ടുമാറി ഞങ്ങൾ. ഞാൻ എന്റെ പാരാമീറ്ററുകൾ ചരങ്ങളും കൂടുതൽ വിവരണാത്മക പേരുകൾ ഇഷ്ടമായി, അങ്ങനെ ഞാൻ വേഗം അതിൽ സൃഷ്ടിച്ചു പകരം അവർ സ്ക്രിപ്റ്റ് കടന്നുപോയോരു മൂല്യങ്ങൾ മുൻപരിചയം കാണാം ഇങ്ങനെ പാരാമീറ്ററുകൾ വരെ പ്രിഫിക്സ് "ലെ" ചേർക്കുക. ഞാൻ സ്ക്രിപ്റ്റ് ഉള്ളിൽ നിർവചിക്കപ്പെട്ട വേരിയബിളുകള്ക്കായി പ്രിഫിക്സ് ഉപയോഗിക്കുന്ന "".</p>
+        <p>ഇത് വന്നതുകൊണ്ടു അവർ നടപടിക്രമങ്ങൾ ഡാറ്റാബേസ് ലിസ്റ്റുചെയ്ത കാണുമ്പോൾ എല്ലാവരും സ്ക്രിപ്റ്റ്-ഫു കീഴിൽ നിങ്ങൾക്ക് ഫംഗ്ഷനുകളും ലിസ്റ്റിംഗ് ഉള്ളപ്പോൾ കാണിക്കും, NAME നിങ്ങളുടെ സ്ക്രിപ്റ്റ് പ്രവർത്തിക്കുന്നു <code class="function">script-fu-abc</code> <acronym class="acronym">GIMP</acronym> കൺവെൻഷൻ തുടർന്ന്. ഇത് പ്ലഗ്-ഇന്നുകളെ നിന്ന് അവരെ വേർതിരിച്ചറിയാൻ സഹായിക്കുന്നു.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512267216"></a>3.4.5. ഫംഗ്ഷൻ രജിസ്റ്റർചെയ്യുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഇപ്പോൾ, <acronym class="acronym">GIMP</acronym> കൂടെ ചടങ്ങിൽ രജിസ്റ്റർ ചെയ്യട്ടെ. ഈ ഫങ്ഷൻ <code class="function">script-fu-register</code> വിളിക്കുന്നു ഇത് ചെയ്തത്. <acronym class="acronym">GIMP</acronym> ഒരു ലിപിയിലുള്ള വായിക്കപ്പെടുന്നു, അത് നടപടിക്രമങ്ങൾ ഡാറ്റാ സ്ക്രിപ്റ്റ് രജിസ്റ്റർ ചെയ്ത, ഈ ഫംഗ്ഷൻ നടത്തും. നിങ്ങളുടെ സ്ക്രിപ്റ്റിലെ ഇഷ്ടമുള്ളേടത്ത് ഈ ഫംഗ്ഷൻ കോൾ കഴിയില്ല, എന്നാൽ സാധാരണയായി അത് എന്റെ മറ്റ് കോഡ് ശേഷം അവസാനം സ്ഥാപിക്കുക.</p>
+        <p>ഇവിടെ (ഞാൻ ഒരു മിനിറ്റിനകം അതിന്റെ എല്ലാ പരാമീറ്ററുകൾ വിശദീകരിക്കും) ഈ ചടങ്ങിൽ രജിസ്റ്റര് ലിസ്റ്റിംഗ് ഇവിടെയുണ്ട്:</p>
+        <pre class="programlisting">
+  (script-fu-register
+    "script-fu-text-box"                        ;func name
+    "Text Box"                                  ;menu label
+    "Creates a simple text box, sized to fit\
+      around the user's choice of text,\
+      font, font size, and color."              ;description
+    "Michael Terry"                             ;author
+    "copyright 1997, Michael Terry;\
+      2009, the GIMP Documentation Team"        ;copyright notice
+    "October 27, 1997"                          ;date created
+    ""                     ;image type that the script works on
+    SF-STRING      "Text"          "Text Box"   ;a string variable
+    SF-FONT        "Font"          "Charter"    ;a font variable
+    SF-ADJUSTMENT  "Font size"     '(50 1 1000 1 10 0 1)
+                                                ;a spin-button
+    SF-COLOR       "Color"         '(0 0 0)     ;color variable
+  )
+  (script-fu-menu-register "script-fu-text-box" "&lt;Image&gt;/File/Create/Text")
+      </pre>
+        <p>നിങ്ങളുടെ സ്ക്രിപ്റ്റ് ഡയറക്ടറിയിൽ ഒരു <code class="filename">.scm</code> സഫിക്സ് ഉപയോഗിച്ച് ഒരു ടെക്സ്റ്റ് ഫയലിൽ ഈ ഫംഗ്ഷനുകൾ സംരക്ഷിക്കാൻ എങ്കിൽ, <span class="guimenu">Filters</span> → <span class="guisubmenu">Script-Fu</span> → <span class="guimenuitem">Refresh Scripts</span> തിരഞ്ഞെടുക്കാൻ ഈ പുതിയ സ്ക്രിപ്റ്റ് <span class="guimenu">File</span> → <span class="guisubmenu">Create</span> → <span class="guisubmenu">Text</span> → <span class="guimenuitem">Text Box</span> ദൃശ്യമാകും.</p>
+        <p>നിങ്ങൾ ഈ പുതിയ സ്ക്രിപ്റ്റ് പ്രാർത്ഥിക്കുന്ന പക്ഷം അതു തീർച്ചയായും, ഒന്നും ചെയ്യില്ല, എന്നാൽ നിങ്ങൾ സ്ക്രിപ്റ്റ് രജിസ്റ്റർ ചെയ്യുമ്പോൾ നിങ്ങൾ സൃഷ്ടിച്ച നിർദ്ദേശങ്ങൾ കാണാൻ കഴിയും (ഞങ്ങൾ ചെയ്തു എന്നതിനെക്കുറിച്ചുള്ള കൂടുതൽ വിവരങ്ങൾ അടുത്ത മൂടിയിരിക്കുന്നു).</p>
+        <p>അവസാനമായി, നടപടിക്രമം ബ്രൌസർ (<span class="guimenu">Help</span> → <span class="guimenuitem">Procedure Browser</span>) പ്രാർത്ഥിക്കുന്ന പക്ഷം നിങ്ങൾ ഞങ്ങളുടെ സ്ക്രിപ്റ്റ് ഇപ്പോൾ ഡാറ്റാബേസ് പ്രത്യക്ഷപ്പെടുന്ന ശ്രദ്ധിക്കണം.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512279840"></a>3.4.6. സ്ക്രിപ്റ്റ് രജിസ്റ്റർ നടപടികൾ</h4>
+            </div>
+          </div>
+        </div>
+        <p><acronym class="acronym">GIMP</acronym> നമ്മുടെ സ്ക്രിപ്റ്റ് രജിസ്റ്റർ ചെയ്യുന്നതിന്, ഞങ്ങൾ ഫങ്ഷൻ <code class="function">script-fu-register</code>, ഓരോ പാരാമീറ്റർ ഒരു വിവരണം, സ്ഥിര മൂല്യം സഹിതം വിളിക്കും ഏഴ് ആവശ്യമായ പാരാമീറ്ററുകൾ പൂരിപ്പിക്കുക ഞങ്ങളുടെ സ്ക്രിപ്റ്റിന്റെ സ്വന്തം പാരാമീറ്ററുകൾ ചേർക്കുക.</p>
+        <div class="itemizedlist">
+          <p class="title">
+            <strong>ആവശ്യമായ പാരാമീറ്ററുകൾ</strong>
+          </p>
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>നിർവ്വചിച്ചിരിക്കുന്നത് ഫംഗ്ഷൻ <span class="emphasis"><em>name</em></span>. ഇത് ഞങ്ങളുടെ സ്ക്രിപ്റ്റ് അഭ്യർത്ഥിച്ചു ചെയ്യുമ്പോൾ വിളിച്ചു ചടങ്ങിൽ (ഞങ്ങളുടെ സ്ക്രിപ്റ്റ് പ്രവേശനം-പോയിന്റ്) ആണ്. ഞങ്ങൾ ഒരേ ഫയൽ ഉള്ളിൽ അധിക പ്രവർത്തനങ്ങൾ define കാരണം അത്യാവശ്യമാണ്, ഒപ്പം <acronym class="acronym">GIMP</acronym> ഈ നിര്വഹിക്കുന്ന ഏത് വിളിക്കാൻ അറിയേണ്ടതാവശ്യമാണ്. ഞങ്ങളുടെ ഉദാഹരണത്തിൽ, നമ്മൾ രജിസ്റ്റർ ചെയ്ത ഒറ്റ ഫംഗ്ഷൻ, ടെക്സ്റ്റ് ബോക്സ് നിർവചിച്ചിരിക്കുന്നത്.</p>
+            </li>
+            <li class="listitem">
+              <p>സ്ക്രിപ്റ്റ് ചേർക്കപ്പെടുന്ന എവിടെ മെനുവിൽ <span class="emphasis"><em>location</em></span>. സ്ക്രിപ്റ്റ് കൃത്യമായ സ്ഥലം പാതയുടെ റൂട്ട് <code class="code">&lt;Image&gt;</code> ചിത്രം മെനു ഉപയോഗിച്ചുള്ള യൂണിക്സ് ഒരു പാത പോലെ വ്യക്തമാക്കുന്നത്. PLACEHOLDER,-102955</p>
+              <p>നിങ്ങൾ ഇമേജ് വിൻഡോ മെനുവിലെ ഉൾപ്പെടുത്തുന്നതിനായി, നിങ്ങൾ, ഇമേജ് മെനു ബാർ വഴി ആക്സസ് ചെയ്യാവുന്ന ആഗ്രഹമുണ്ടാകും നിങ്ങളുടെ സ്ക്രിപ്റ്റ് (ഞങ്ങളുടെ വാചക ബോക്സ് സ്ക്രിപ്റ്റ് പോലെ അങ്ങനെ ഒരു പുതിയ ഇമേജ് തയ്യാറാക്കുന്നു) നിലവിലുള്ള ഒരു ചിത്രത്തിൽ ഓപ്പറേറ്റ് എങ്കിൽ ഇല്ല കൈവാക്കിന്റെ, ഇമേജ് വിൻഡോയുടെ ഇടതു-മുകളിലെ മൂലയിലെ മെനു ബട്ടൺ ഐക്കൺ ക്ലിക്കുചെയ്ത്, അല്ലെങ്കിൽ <span class="keycap"><strong>F10</strong></span> അമർത്തി ചിത്രം വിൻഡോ ക്ളിക്ക്.</p>
+              <p>നിങ്ങളുടെ സ്ക്രിപ്റ്റ് എഡിറ്റുചെയ്തുകൊണ്ടിരിക്കുന്നു ഒരു ഇമേജിൽ പ്രവർത്തിക്കാൻ ഉദ്ദേശിക്കുന്ന പക്ഷം നിങ്ങൾക്ക് ഇമേജ് വിൻഡോ മെനുവിലെ തിരുകാൻ ആഗ്രഹമുണ്ടാകും. പാത ബാക്കി മെനു ലിസ്റ്റുകൾ, മെനുകൾ സബ്-മെനുകൾ ചൂണ്ടുന്നു. ഇപ്രകാരം, നാം <span class="guimenu">File</span> മെനുവിന്റെ <span class="guisubmenu">Create</span> മെനുവിന്റെ <span class="guisubmenu">Text</span> മെനുവിൽ ഞങ്ങളുടെ വാചക ബോക്സ് സ്ക്രിപ്റ്റ് രജിസ്റ്റർ. PLACEHOLDER,-102961 (<span class="guimenu">File</span> → <span class="guisubmenu">Create</span> → <span class="guisubmenu">Text</span> → <span class="guimenuitem">Text Box</span>).</p>
+              <p>നിങ്ങൾ പ്രമാണം, വാചക ഉപ-മെനു ശ്രദ്ധയിൽപ്പെട്ടാൽ / മെനു സൃഷ്ടിക്കുക ഞങ്ങൾ തുടങ്ങിയപ്പോൾ ഉണ്ടായിരുന്നില്ല - <acronym class="acronym">GIMP</acronym> സ്വയം നിലവിലുളള ഏതെങ്കിലും മെനുകൾ സൃഷ്ടിക്കുന്നു.</p>
+            </li>
+            <li class="listitem">
+              <p>നിങ്ങളുടെ സ്ക്രിപ്റ്റിന്റെ <span class="emphasis"><em>description</em></span>, നടപടിക്രമം ബ്രൌസർ പ്രദർശിക്കേണ്ടതായ.</p>
+            </li>
+            <li class="listitem">
+              <p><span class="emphasis"><em>Your name</em></span> (സ്ക്രിപ്റ്റിന്റെ രചയിതാവ്).</p>
+            </li>
+            <li class="listitem">
+              <p><span class="emphasis"><em>Copyright</em></span> വിവരങ്ങൾ.</p>
+            </li>
+            <li class="listitem">
+              <p><span class="emphasis"><em>date</em></span> സ്ക്രിപ്റ്റ് ഉണ്ടാക്കി, അല്ലെങ്കിൽ സ്ക്രിപ്റ്റ് അവസാന താളിന്റെ ചെയ്തു.</p>
+            </li>
+            <li class="listitem">
+              <p>ചിത്രങ്ങളുടെ <span class="emphasis"><em>types</em></span> സ്ക്രിപ്റ്റ് പ്രവർത്തിക്കുന്നു. ആർജിബി, RGBA, ചാര, GRAYA, സൂചികയിലാക്കിയത്, INDEXEDA: ഈ താഴെ ഏതെങ്കിലും വരാം. ഞങ്ങളുടെ കാര്യത്തിൽ, നാം ഒരു ഇമേജ് സൃഷ്ടിക്കുകയാണെന്ന്, തന്മൂലം ഞങ്ങൾ പണി ഇമേജ് തരം നിർവചിക്കാനുള്ള ആവശ്യമില്ല - അതോ ആരും ആയിരിക്കാം.</p>
+            </li>
+          </ul>
+        </div>
+        <div class="figure">
+          <a id="idp46925512302864"></a>
+          <p class="title">
+            <strong>ചിത്രം 13.4. ഞങ്ങളുടെ സ്ക്രിപ്റ്റിന്റെ മെനു.</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/using/script-fu-menu.png" alt="ഞങ്ങളുടെ സ്ക്രിപ്റ്റിന്റെ മെനു." />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512305728"></a>3.4.7. സ്ക്രിപ്റ്റ് പരാമീറ്ററുകൾ റജിസ്റ്റര്</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഞങ്ങൾ ആവശ്യമായ പാരാമീറ്ററുകൾ ലിസ്റ്റ് ഒരിക്കൽ ഞങ്ങൾ പരാമീറ്ററുകൾ ഞങ്ങളുടെ സ്ക്രിപ്റ്റ് ആവശ്യമാണ് തത്തുല്ല്യമായിരിക്കും പാരാമീറ്ററുകൾ ലിസ്റ്റിലേക്ക് വേണം. ഞങ്ങൾ ഈ ചരങ്ങൾ പട്ടികപ്പെടുത്തുന്ന, ഞങ്ങൾ അവരുടെ തരം എന്താണു സൂചനകൾ. ഈ ഉപയോക്താവ് ഞങ്ങളുടെ സ്ക്രിപ്റ്റ് തിരഞ്ഞെടുക്കുന്നത് വരുമ്പോൾ മാറികിട്ടി ഏത് ഡയലോഗ് ആകുന്നു. ഞങ്ങൾ ഒരു സ്ഥിര മൂല്യം നൽകുന്നു.</p>
+        <p>രജിസ്ട്രേഷൻ പ്രക്രിയയുടെ ഈ ഭാഗം താഴെ ഫോർമാറ്റിലാണ്:</p>
+        <div class="informaltable">
+          <table class="informaltable" border="1">
+            <colgroup>
+              <col />
+              <col />
+              <col />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>
+                <p>പരം ഇനം</p>
+              </th>
+                <th>
+                <p>വിവരണം</p>
+              </th>
+                <th>
+                <p>ഉദാഹരണം</p>
+              </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                <p><code class="constant">എസ്.എഫ്-image</code></p>
+              </td>
+                <td>
+                <p>നിങ്ങളുടെ സ്ക്രിപ്റ്റ് ഒരു തുറന്ന ചിത്രം പ്രവർത്തിക്കുന്ന എങ്കിൽ, ഈ ആവശ്യമായ പാരാമീറ്ററുകൾ ശേഷം ആദ്യമായി ആയിരിക്കണം. <acronym class="acronym">GIMP</acronym> ഈ പാരാമീറ്ററിൽ ചിത്രത്തിൽ ഒരു പരാമർശമാണ് കടന്നുപോകും.</p>
+              </td>
+                <td>
+                <p>3</p>
+              </td>
+              </tr>
+              <tr>
+                <td>
+                <p><code class="constant">എസ്.എഫ്-വരയ്ക്കാനാകുന്നത്</code></p>
+              </td>
+                <td>
+                <p>നിങ്ങളുടെ സ്ക്രിപ്റ്റ് ഒരു തുറന്ന ചിത്രം പ്രവർത്തിക്കുന്ന എങ്കിൽ, ഈ <code class="constant">SF-IMAGE</code> പാരം ശേഷം രണ്ടാമത്തെ പാരാമീറ്റർ ആയിരിക്കണം. അത് സജീവ പാളി പരാമർശിക്കുന്നു. <acronym class="acronym">GIMP</acronym> ഈ പരാമീറ്റർ സജീവ പാളി ഒരു പരാമർശമാണ് കടന്നുപോകും.</p>
+              </td>
+                <td>
+                <p>17</p>
+              </td>
+              </tr>
+              <tr>
+                <td>
+                <p><code class="constant">എസ്.എഫ് മൂല്യം</code></p>
+              </td>
+                <td>
+                <p>നമ്പറുകളും സ്ട്രിംഗുകൾ അംഗീകരിക്കുന്നു. അതിനാൽ മെച്ചപ്പെട്ട ഉപയോഗം <code class="constant">SF-STRING</code> ഉദ്ധരണികൾ സ്ഥിര എഴുത്തിനും രക്ഷപ്പെട്ടു ശ്രദ്ധിക്കുക.</p>
+              </td>
+                <td>
+                <p>42</p>
+              </td>
+              </tr>
+              <tr>
+                <td>
+                <p><code class="constant">എസ്.എഫ്-STRING,</code></p>
+              </td>
+                <td>
+                <p>സ്ട്രിംഗുകൾ അംഗീകരിക്കുന്നു.</p>
+              </td>
+                <td>
+                <p>"ചില ടെക്സ്റ്റ്"</p>
+              </td>
+              </tr>
+              <tr>
+                <td>
+                <p><code class="constant">എസ്.എഫ് നിറം</code></p>
+              </td>
+                <td>
+                <p>ഒരു നിറം ഈ പാരാമീറ്ററിൽ അഭ്യർത്ഥിച്ച സൂചിപ്പിക്കുന്നു.</p>
+              </td>
+                <td>
+                <p>'(0 102 255)</p>
+              </td>
+              </tr>
+              <tr>
+                <td>
+                <p><code class="constant">എസ്.എഫ്-ടോഗിൾ</code></p>
+              </td>
+                <td>
+                <p>ഒരു ചെക്ക്ബോക്സ് ഒരു ബൂളിയൻ മൂല്യം ലഭിക്കാൻ, പ്രദർശിപ്പിച്ചിരിക്കുന്നു.</p>
+              </td>
+                <td>
+                <p>ശരിയോ തെറ്റോ</p>
+              </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-using-script-fu-api"></a>3.4.8. സ്ക്രിപ്റ്റ്-ഫു പാരാമീറ്റർ എപിഐ, <span style="color: red">&lt;placeholder-1&gt;&lt;/placeholder-1&gt;</span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[കുറിപ്പു്]" src="images/note.png" />
+              </td>
+              <th align="left">കുറിപ്പു്</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>പുറമെ മുകളിൽ പാരാമീറ്റർ തരം അവരിൽ ഓരോ നിയന്ത്രണം ഡയലോഗിൽ ഒരു വിഡ്ജറ്റ് സൃഷ്ടിക്കും ഇന്ററാക്ടീവ് മോഡ് കൂടുതൽ തരം ഉണ്ട്. നിങ്ങൾ <acronym class="acronym">GIMP</acronym> സോഴ്സ് കോഡ് ലുള്ള ടെസ്റ്റ് സ്ക്രിപ്റ്റ് <code class="filename">plug-ins/script-fu/scripts/test-sphere.scm</code> ലെ വിവരണങ്ങളും ഉദാഹരണസഹിതം ഈ പരാമീറ്ററുകൾ ഒരു ലിസ്റ്റ് കണ്ടെത്തും.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="informaltable">
+          <table class="informaltable" border="1">
+            <colgroup>
+              <col />
+              <col />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>
+            <p>പരം ഇനം</p>
+          </th>
+                <th>
+            <p>വിവരണം</p>
+          </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+            <p><code class="constant">എസ്.എഫ്-അഡ്ജസ്റ്റ്മെന്റ് എന്ന</code></p>
+          </td>
+                <td>
+            <p>ഡയലോഗിൽ ഒരു അഡ്ജസ്റ്റ്മെന്റ് വിഡ്ജെറ്റ് സൃഷ്ടിക്കുന്നു.</p>
+            <p>എസ്.എഫ്-അഡ്ജസ്റ്റ്മെന്റ് എന്ന "ലേബൽ" '(ലോവറ് മുകളിലെ step_inc page_inc അക്കങ്ങൾ ടൈപ്പ്)</p>
+            <div class="segmentedlist"><div class="title"><strong><span class="title">വിഡ്ജെറ്റ് വാദങ്ങൾ ലിസ്റ്റ്</span></strong></div><table border="0"><thead><tr class="segtitle"><th>മൂലകം</th><th>വിവരണം</th></tr></thead><tbody><tr class="seglistitem"><td class="seg">"ലേബൽ"</td><td class="seg">ടെക്സ്റ്റ് മുമ്പ് അച്ചടിച്ച.</td></tr><tr class="seglistitem"><td class="seg">വില</td><td class="seg">മൂല്യം ആരംഭത്തിൽ പ്രിന്റ്.</td></tr><tr class="seglistitem"><td class="seg">താഴത്തെ / അപ്പർ</td><td class="seg">താഴത്തെ / അപ്പർ മൂല്യങ്ങൾ (ഇച്ഛാനുസരണം പരിധി).</td></tr><tr class="seglistitem"><td class="seg">step_inc</td><td class="seg">വര്ദ്ധനവു് / ഡിക്രിമെന്റ് മൂല്യം.</td></tr><tr class="seglistitem"><td class="seg">page_inc</td><td class="seg">പേജ് കീ ഉപയോഗിച്ച് വർദ്ധന / ഡിക്രിമെന്റ് മൂല്യം.</td></tr><tr class="seglistitem"><td class="seg">അക്കങ്ങൾ</td><td class="seg">പോയിന്റ് (ദശാംശ ഭാഗം) ശേഷം അക്കങ്ങൾ.</td></tr><tr class="seglistitem"><td class="seg">ടൈപ്പ് ചെയ്യുക</td><td class="seg">എസ്.എഫ്-സ്ലൈഡർ അല്ലെങ്കിൽ 0, എസ്.എഫ് സ്പിന്നർ അല്ലെങ്കിൽ 1: ഒരാൾ</td></tr></tbody></table></div>
+          </td>
+              </tr>
+              <tr>
+                <td>
+            <p><code class="constant">എസ്.എഫ് നിറം</code></p>
+          </td>
+                <td>
+            <p>ഡയലോഗിൽ ഒരു കളർ ബട്ടൺ സൃഷ്ടിക്കുന്നു.</p>
+            <p>എസ്.എഫ്-വർണ്ണ "ലേബൽ" '(ചുവപ്പ് പച്ച നീല)</p>
+            <p>അഥവാ</p>
+            <p>എസ്.എഫ്-വർണ്ണ "ലേബൽ" "നിറം"</p>
+            <div class="segmentedlist"><div class="title"><strong><span class="title">വിഡ്ജെറ്റ് വാദങ്ങൾ ലിസ്റ്റ്</span></strong></div><table border="0"><thead><tr class="segtitle"><th>മൂലകം</th><th>വിവരണം</th></tr></thead><tbody><tr class="seglistitem"><td class="seg">"ലേബൽ"</td><td class="seg">ടെക്സ്റ്റ് മുമ്പ് അച്ചടിച്ച.</td></tr><tr class="seglistitem"><td class="seg">'(ചുവപ്പ് പച്ച നീല)</td><td class="seg">ചുവപ്പ്, പച്ച, നീല ഘടകങ്ങൾ മൂന്നു മൂല്യങ്ങളുടെ പട്ടിക.</td></tr><tr class="seglistitem"><td class="seg">"നിറം"</td><td class="seg">സി.എസ്.എസ് notatation ലെ കളർ പേര്.</td></tr></tbody></table></div>
+          </td>
+              </tr>
+              <tr>
+                <td>
+            <p><code class="constant">എസ്.എഫ്-അആഇഈഉഊഎഏഒഓഔഅംഅഃക്കച്ചട്ടത്തപ്പ</code></p>
+          </td>
+                <td>
+            <p>ഡയലോഗിൽ ഒരു ഫോണ്ട്-നിരക്കു വിഡ്ജെറ്റ് സൃഷ്ടിക്കുന്നു. ഇത് ഒരു സ്ട്രിംഗായുള്ള fontname നൽകുന്നു. ഈ മടക്കം പരാമീറ്റർ ഉപയോഗം കുറയുമെന്നാണ് രണ്ടു പുതിയ GIMP-ടെക്സ്റ്റ് നടപടിക്രമങ്ങൾ ഉണ്ട്:</p>
+            <p>(GIMP-ടെക്സ്റ്റ്-fontname ചിത്രം വരയ്ക്കാനാകുന്നത് X-POS ക-POS ടെക്സ്റ്റ് അതിർത്തിയിൽ antialias വലിപ്പം യൂണിറ്റ് ഫോണ്ട്)</p>
+            <p>(GIMP-ടെക്സ്റ്റ്-get-extents-fontname വാചക വലുപ്പം യൂണിറ്റ് ഫോണ്ട്)</p>
+            <p>എവിടെ ഫോണ്ട് നിങ്ങൾ നേടുകയും fontname ആണ്. fontname വ്യക്തമാക്കിയ വലിപ്പം നിശബ്ദമായി ഉപേക്ഷിക്കുന്നു. അതു മാത്രം ഫോണ്ട്-സെലക്ടർ ഉപയോഗിക്കുന്നു. അങ്ങനെ നിങ്ങൾ ഉപയോഗപ്രദമായ മൂല്യം (24 പിക്സൽ ഒരു നല്ല കാര്യം ആണ്) അത് സജ്ജമാക്കാൻ ആവശ്യപ്പെട്ടു.</p>
+            <p>എസ്.എഫ്-അആഇഈഉഊഎഏഒഓഔഅംഅഃക്കച്ചട്ടത്തപ്പ "ലേബൽ" "fontname"</p>
+            <div class="segmentedlist"><div class="title"><strong><span class="title">വിഡ്ജെറ്റ് വാദങ്ങൾ ലിസ്റ്റ്</span></strong></div><table border="0"><thead><tr class="segtitle"><th>മൂലകം</th><th>വിവരണം</th></tr></thead><tbody><tr class="seglistitem"><td class="seg">"ലേബൽ"</td><td class="seg">ടെക്സ്റ്റ് മുമ്പ് അച്ചടിച്ച.</td></tr><tr class="seglistitem"><td class="seg">"Fontname"</td><td class="seg">ഫോണ്ട് പേര്.</td></tr></tbody></table></div>
+          </td>
+              </tr>
+              <tr>
+                <td>
+            <p><code class="constant">എസ്.എഫ്-ബ്രഷ്</code></p>
+          </td>
+                <td>
+            <p>ഇത് നിയന്ത്രണം ഡയലോഗിൽ ഒരു വിഡ്ജറ്റ് സൃഷ്ടിക്കും. വിഡ്ജറ്റ് (അസഹ്യപ്പെടുത്തി പോപപ്പ് പ്രിവ്യൂ താനേ ഏത്) ഒരു പ്രിവ്യൂ പ്രദേശത്തു "..." ലേബലുള്ള ഒരു ബട്ടൺ അടങ്ങിയിരിക്കുന്നു. ബട്ടൺ നയപ്രഖ്യാപന തിരഞ്ഞെടുത്ത ബ്രഷ് ഇതിൻറെ ഓരോ പരിഷ്കരിക്കാൻ കഴിയും കഴിയുന്ന ഒരു ഡയലോഗ് പോപപ്പ് ചെയ്യും.</p>
+            <p>എസ്.എഫ്-ബ്രഷ് "ബ്രഷ്" '( "സർക്കിൾ (03)" 100 44 0)</p>
+            <p>ഇവിടെ ബ്രഷ് ഡയലോഗ് സർക്കിൾ സാധാരണം വിശദീകരണം (03) അതാര്യത 100 സ്പേസിംഗ് 44 പെയിന്റ് മോഡ് (മൂല്യം 0) ഒരു സ്ഥിര ബ്രഷ് ഉപയോഗിച്ച് കാണിച്ചു ചെയ്യും.</p>
+            <p>ഈ നിരക്കു മാറ്റമില്ലാതെ ആയിരുന്നു എങ്കിൽ ഒരു പാരാമീറ്റർ ആയി പ്രവർത്തനത്തിലേക്ക് നൽകിയ മൂല്യം ( "സർക്കിൾ (03)" 100 44 0) തന്നെ '.</p>
+          </td>
+              </tr>
+              <tr>
+                <td>
+            <p><code class="constant">എസ്.എഫ്-പാറ്റേണിനൊപ്പം</code></p>
+          </td>
+                <td>
+            <p>ഇത് നിയന്ത്രണം ഡയലോഗിൽ ഒരു വിഡ്ജറ്റ് സൃഷ്ടിക്കും. വിഡ്ജറ്റ് (അസഹ്യപ്പെടുത്തി പോപപ്പ് പ്രിവ്യൂ താനേ ഏത്) ഒരു പ്രിവ്യൂ പ്രദേശത്തു "..." ലേബലുള്ള ഒരു ബട്ടൺ അടങ്ങിയിരിക്കുന്നു. ബട്ടൺ പാറ്റേണുകൾ തിരഞ്ഞെടുക്കുന്നതാണ് കഴിയുന്ന ഒരു ഡയലോഗ് പോപപ്പ് ചെയ്യും.</p>
+            <p>എസ്.എഫ്-PATTERN "പാറ്റേൺ" "മാപ്പിൾ ഇലകൾ"</p>
+            <p>സ്ക്രിപ്റ്റ് അഭ്യർത്ഥിക്കുമ്പോൾ തിരികെ മൂല്യം പാറ്റേൺ പേര് ഉൾക്കൊള്ളുന്ന ഒരു സ്ട്രിംഗ് ആണ്. മുകളിലെ നിരക്കു വരുത്തിയിട്ടുണ്ടെന്നാണ് അല്ല സ്ട്രിംഗ് "മേപ്പിൾ ഇലകൾ" ഒതുങ്ങുകയില്ല.</p>
+          </td>
+              </tr>
+              <tr>
+                <td>
+            <p><code class="constant">എസ്.എഫ്-വിതറുക</code></p>
+          </td>
+                <td>
+            <p>ഇത് നിയന്ത്രണം ഡയലോഗിൽ ഒരു വിഡ്ജറ്റ് സൃഷ്ടിക്കും. വിഡ്ജറ്റ് തിരഞ്ഞെടുത്ത ഗ്രേഡിയന്റ് ഒരു പ്രിവ്യൂ അടങ്ങുന്ന ഒരു ബട്ടൺ അടങ്ങിയിരിക്കുന്നു.</p>
+            <p>ബട്ടൺ അമർത്തുമ്പോൾ എങ്കിൽ ഒരു ഗ്രേഡിയന്റ് നിരക്കു ഡയലോഗ് പോപപ്പ് ചെയ്യും.</p>
+            <p>എസ്.എഫ്-വിതറുക "വിതറുക" "ഡീപ് സീ"</p>
+            <p>സ്ക്രിപ്റ്റ് അഭ്യർത്ഥിക്കുമ്പോൾ തിരികെ മൂല്യം ഗ്രേഡിയന്റ് പേര് ഉൾക്കൊള്ളുന്ന ഒരു സ്ട്രിംഗ് ആണ്. മുകളിലെ നിരക്കു വരുത്തിയിട്ടുണ്ടെന്നാണ് അല്ല സ്ട്രിംഗ് "ഡീപ് സീ" ഒതുങ്ങുകയില്ല.</p>
+          </td>
+              </tr>
+              <tr>
+                <td>
+            <p><code class="constant">എസ്.എഫ് പാലറ്റ്</code></p>
+          </td>
+                <td>
+            <p>ഇത് നിയന്ത്രണം ഡയലോഗിൽ ഒരു വിഡ്ജറ്റ് സൃഷ്ടിക്കും. വിഡ്ജറ്റ് തിരഞ്ഞെടുത്ത പാലറ്റ് പേര് അടങ്ങുന്ന ഒരു ബട്ടൺ അടങ്ങിയിരിക്കുന്നു.</p>
+            <p>ബട്ടൺ അമർത്തുമ്പോൾ എങ്കിൽ ഒരു പാലറ്റ് നിരക്കു ഡയലോഗ് പോപപ്പ് ചെയ്യും.</p>
+            <p>എസ്.എഫ് പാലറ്റ് "പാലറ്റ്" "പേരുള്ളനിറങ്ങള്"</p>
+            <p>സ്ക്രിപ്റ്റ് അഭ്യർത്ഥിക്കുമ്പോൾ തിരികെ മൂല്യം പാലറ്റ് പേര് ഉൾക്കൊള്ളുന്ന ഒരു സ്ട്രിംഗ് ആണ്. മുകളിലെ നിരക്കു വരുത്തിയിട്ടുണ്ടെന്നാണ് അല്ല സ്ട്രിംഗ് "പേരുള്ളനിറങ്ങള്" ഒതുങ്ങുകയില്ല.</p>
+          </td>
+              </tr>
+              <tr>
+                <td>
+            <p><code class="constant">എസ്.എഫ്-ഫയൽനെയിം</code></p>
+          </td>
+                <td>
+            <p>ഇത് നിയന്ത്രണം ഡയലോഗിൽ ഒരു വിഡ്ജറ്റ് സൃഷ്ടിക്കും. വിഭാഗത്തിനും ഒരു ഫയലിന്റെ പേര് ഉൾക്കൊള്ളുന്ന ഒരു ബട്ടൺ അടങ്ങിയിരിക്കുന്നു.</p>
+            <p>ബട്ടൺ അമർത്തുമ്പോൾ എങ്കിൽ ഫയൽ തെരഞ്ഞെടുപ്പ് ഡയലോഗിനെ പോപപ്പ് ചെയ്യും.</p>
+            <p>എസ്.എഫ്-ഫയൽനെയിം "ലേബൽ" (സ്ട്രിംഗ്-APPEND "" GIMP-ഡാറ്റ-ഡയറക്ടറി "/ സ്ക്രിപ്റ്റുകൾ / beavis.jpg")</p>
+            <p>സ്ക്രിപ്റ്റ് അഭ്യർത്ഥിക്കുമ്പോൾ തിരികെ മൂല്യം ഫയൽനാമം അടങ്ങുന്ന ഒരു സ്ട്രിംഗ് ആണ്.</p>
+          </td>
+              </tr>
+              <tr>
+                <td>
+            <p><code class="constant">എസ്.എഫ്-DIRNAME</code></p>
+          </td>
+                <td>
+            <p>ഇന്ററാക്ടീവ് മോഡിൽ മാത്രമേ ഉപയോഗപ്രദമായ. എസ്.എഫ്-ഫയൽനെയിം സമാനമായ പക്ഷേ സൃഷ്ടിച്ച വിഡ്ജറ്റ് പകരം ഒരു ഫയലിന്റെ ഒരു ഡയറക്ടറി തിരഞ്ഞെടുക്കുക അനുവദിക്കുന്നു.</p>
+            <p>എസ്.എഫ്-DIRNAME "ലേബൽ" "/ var / tmp / ചിത്രങ്ങൾ"</p>
+            <p>സ്ക്രിപ്റ്റ് അഭ്യർത്ഥിക്കുമ്പോൾ തിരികെ മൂല്യം dirname അടങ്ങുന്ന ഒരു സ്ട്രിംഗ് ആണ്.</p>
+          </td>
+              </tr>
+              <tr>
+                <td>
+            <p><code class="constant">എസ്.എഫ് ആപ്ശന്</code></p>
+          </td>
+                <td>
+            <p>ഇത് നിയന്ത്രണം ഡയലോഗിൽ ഒരു വിഡ്ജറ്റ് സൃഷ്ടിക്കും. വിഭാഗത്തിനും ഒരു ലിസ്റ്റ് ആയി കടന്നു പോകുന്നു ഉപാധികൾ കാണിക്കുന്ന ഒരു കോംബോ-ബോക്സ് ആണ്.</p>
+            <p>ആദ്യ സ്വതവേ ചോയ്സ്.</p>
+            <p>എസ്.എഫ്-"ഓപ്ഷൻ ലേബൽ" '( "OPTION1" "OPTION2")</p>
+            <p>സ്ക്രിപ്റ്റ് അഭ്യർത്ഥിക്കുമ്പോൾ തിരികെ മൂല്യം എവിടെ ഓപ്ഷൻ ആദ്യം 0 എന്നത് തിരഞ്ഞെടുത്ത ഓപ്ഷൻ, എണ്ണം.</p>
+          </td>
+              </tr>
+              <tr>
+                <td>
+            <p><code class="constant">എസ്.എഫ്-ENUM</code></p>
+          </td>
+                <td>
+            <p>ഇത് നിയന്ത്രണം ഡയലോഗിൽ ഒരു വിഡ്ജറ്റ് സൃഷ്ടിക്കും. വിഡ്ജറ്റ് തന്നിരിക്കുന്ന enum തരം എല്ലാ enum മൂല്യങ്ങൾ കാണിക്കുന്ന ഒരു കോംബോ-ബോക്സ് ആണ്. ഈ "ജിമ്പ്" പ്രിഫിക്സ് ഇല്ലാതെ രജിസ്റ്റർ ചെയ്ത enum നാമം ആയിരിക്കണം. രണ്ടാമത്തെ പാരാമീറ്റർ enum മൂല്യത്തിന്റെ മണാലി ഉപയോഗിച്ച്, സ്ഥിര മൂല്യം speficies.</p>
+            <p>എസ്.എഫ്-ENUM "Interpolation" '( "InterpolationType" "ലീനിയർ")</p>
+            <p>സ്ക്രിപ്റ്റ് enum മൂല്യം തിരഞ്ഞെടുത്ത അനുബന്ധഘടകങ്ങളെ അഭ്യർത്ഥിച്ചു ചെയ്യുമ്പോൾ മൂല്യം മടങ്ങിപ്പോയി.</p>
+          </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-using-script-fu-tutorial-lists.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-using-script-fu-tutorial.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-using-script-fu-tutorial-script.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-script-fu-tutorial-lists.html">3.3. ലിസ്റ്റുകൾ, ലിസ്റ്റുകൾ, ടിപ്പണി</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-script-fu-tutorial-script.html">3.5. നമ്മുടെ സ്ക്രിപ്റ്റ് നൽകൽ ചില Guts</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

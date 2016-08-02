@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.5. നമ്മുടെ സ്ക്രിപ്റ്റ് നൽകൽ ചില Guts</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-using-script-fu-tutorial.html" title="3. ഒരു സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ" />
+    <link rel="prev" href="gimp-using-script-fu-tutorial-first-script.html" title="3.4. നിങ്ങളുടെ ആദ്യ സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ്" />
+    <link rel="next" href="gimp-using-script-fu-tutorial-extending-text-box.html" title="3.6. വാചക ബോക്സ് സ്ക്രിപ്റ്റ് വികസിപ്പിക്കുന്നു" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.5. നമ്മുടെ സ്ക്രിപ്റ്റ് നൽകൽ ചില Guts</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-using-script-fu-tutorial-first-script.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. ഒരു സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-using-script-fu-tutorial-extending-text-box.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-using-script-fu-tutorial-script"></a>3.5. നമ്മുടെ സ്ക്രിപ്റ്റ് നൽകൽ ചില Guts</h3>
+          </div>
+        </div>
+      </div>
+      <p>ഞങ്ങളുടെ പരിശീലനം തുടരാൻ ഞങ്ങളുടെ സ്ക്രിപ്റ്റ് ചില പ്രവർത്തനം ചേർക്കാൻ അനുവദിക്കുക.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512420224"></a>3.5.1. ഒരു പുതിയ ഇമേജ് ഉണ്ടാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>മുൻ പാഠം, നാം ഒരു ശൂന്യമായഫങ്ഷന് സൃഷ്ടിക്കുകയും <acronym class="acronym">GIMP</acronym> അതു രജിസ്റ്റർ. ഈ പാഠം, ഞങ്ങൾ ഞങ്ങളുടെ സ്ക്രിപ്റ്റ് പ്രവർത്തനം ലഭ്യമാക്കുന്നതിനായി ആഗ്രഹിക്കുന്നു - ഞങ്ങൾ ഒരു പുതിയ ഇമേജ് സൃഷ്ടിക്കാൻ അതിലേക്ക് ഉപയോക്താവിന്റെ പാഠം ചേർക്കണമെങ്കിൽ കൃത്യമായി ടെക്സ്റ്റ് യുക്തമാക്കുന്നതിനായി ഇമേജ് വലുപ്പം ആഗ്രഹിക്കുന്നു.</p>
+        <p>നിങ്ങൾ, വേരിയബിളുകൾ സജ്ജമാക്കാൻ എങ്ങനെ ഫംഗ്ഷനുകളും ആക്സസ് ലിസ്റ്റ് അംഗങ്ങൾ define അറിയുന്നു ഒരിക്കൽ, ബാക്കി എല്ലാ ഇറക്കത്തിൽ - നിങ്ങൾ ചെയ്യേണ്ടത് <acronym class="acronym">GIMP</acronym> ന്റെ നടപടിക്രമങ്ങൾ ഡാറ്റാബേസ് ലഭ്യമാണ് നിര്വഹിക്കുന്ന പരിചിതമാകുന്നതിനെ നേരിട്ട് അത്തരം പ്രവർത്തനങ്ങൾ വിളിക്കും ആണ്. അങ്ങനെ <a class="xref" href="plug-in-dbbrowser.html" title="12.7. The Procedure Browser">വിഭാഗം 12.7, “The Procedure Browser”</a> കാര്യക്ഷമമായി ഒപ്പം cookin 'ആരംഭിക്കൂ!</p>
+        <p>ന്റെ ഒരു പുതിയ ഇമേജ് നടത്തുന്നതിലൂടെ നമുക്ക് തുടങ്ങാം. ഞങ്ങൾ ഒരു പുതിയ വേരിയബിൾ, <code class="varname">theImage</code>, <acronym class="acronym">GIMP</acronym> ന്റെ ബിൽറ്റ്-ൽ ഫംഗ്ഷൻ <code class="function">gimp-image-new</code> വിളിക്കുന്നു ഫലവുമായി സജ്ജമാക്കാൻ സൃഷ്ടിക്കും.</p>
+        <p>ചിത്രം വീതി, ഉയരം, ഇമേജ് തരം - നിങ്ങൾ ഡിബി ബ്രൌസർ നിന്ന് കാണാൻ കഴിയുന്നതുപോലെ, ഫംഗ്ഷൻ <code class="function">gimp-image-new</code> മൂന്നു ഘടകങ്ങളെ എടുക്കും. ഞങ്ങൾ പിന്നീട് വാചകം യുക്തമാക്കുന്നതിനായി ഇമേജ് വലുപ്പം കാണാം, ഞങ്ങൾ ഒരു 10x10 പിക്സലുകൾ <acronym class="acronym">RGB</acronym> ചിത്രം മാറ്റും. ഞങ്ങൾ ഇമേജ് വീതി വലുപ്പവും ചില ചരങ്ങൾ, വളരെ നാം കാണുക പിന്നീട് സ്ക്രിപ്റ്റിൽ അവരെ കൃത്രിമം വരുമെന്നതിനാൽ സംഭരിക്കാൻ കാണാം.</p>
+        <pre class="programlisting">
+        (define (script-fu-text-box inText inFont inFontSize inTextColor)
+        (let*
+              (
+                 ; define our local variables
+                 ; create a new image:
+                 (theImageWidth  10)
+                 (theImageHeight 10)
+                 (theImage (car
+                                (gimp-image-new
+                                 theImageWidth
+                                 theImageHeight
+                                 RGB
+                                )
+                           )
+                 )
+                 (theText)     ;a declaration for the text
+                               ;we create later
+      </pre>
+        <p>കുറിപ്പ്: ഞങ്ങൾ ഇമേജ് ഒരു <acronym class="acronym">RGB</acronym> ചിത്രമാണെന്ന് വ്യക്തമാക്കാൻ മൂല്യം <code class="code">RGB</code> ഉപയോഗിച്ചു. ഞങ്ങൾ <code class="code">0</code> ഉപയോഗിച്ചിട്ടുണ്ട് കഴിഞ്ഞില്ല, എന്നാൽ ഞങ്ങൾ കോഡ് പാളിനോക്കി വരുമ്പോൾ <acronym class="acronym">RGB</acronym> വിശദീകരിക്കുന്ന ആണ്.</p>
+        <p>നിങ്ങൾക്ക് നാം ഫംഗ്ഷൻ കോളിന്റെ ഫലം തല എടുത്തു എന്ന് പരിശോധിക്കേണ്ടതാണ്. പുതുതായി സൃഷ്ടിച്ച ചിത്രത്തിന്റെ ഐഡി - ഡാറ്റാബേസ് വ്യക്തമായി മാത്രമേ ഒരു മൂല്യം നൽകുന്നു നമ്മോടു പറയുന്നു ഇത് വിചിത്രമായ തോന്നിയേക്കാം. എന്നിരുന്നാലും, എല്ലാ <acronym class="acronym">GIMP</acronym> പ്രവർത്തനങ്ങൾ, ഒരു list പട്ടികയിൽ ഒരേയൊരു മൂലകം പോലും, അങ്ങനെ ഞങ്ങൾ പട്ടികയിൽ തല വേണ്ട.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512434944"></a>3.5.2. ചിത്രത്തിൽ ഒരു പുതിയ ലെയർ ചേർക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഇപ്പോൾ ഞങ്ങൾ ഒരു ചിത്രം ഉണ്ടു എന്നു ഞങ്ങൾ അതു ഒരു ലെയർ ചേർക്കേണ്ടതുണ്ട്. ഞങ്ങൾ ഇപ്പോൾ സൃഷ്ടിച്ച ചിത്രത്തിന്റെ ഐഡി കടന്നു, പാളി സൃഷ്ടിക്കാൻ <code class="function">gimp-layer-new</code> ഫംഗ്ഷൻ വിളിക്കാം. (ഇപ്പോൾ മുതൽ, പകരം പൂർണ്ണമായ ചടങ്ങിൽ ലിസ്റ്റിംഗ് ഞങ്ങൾ മാത്രമേ ഞങ്ങൾ അതു ചേർക്കുന്നു വരികൾ ലിസ്റ്റുചെയ്യും. നിങ്ങൾ പൂർണ്ണമായ സ്ക്രിപ്റ്റ് <a class="link" href="">here</a> കാണാൻ കഴിയും.) നാം ഉപയോഗിക്കും ലോക്കൽ വേരിയബിളുകൾ എല്ലാ പ്രഖ്യാപിച്ചു നൽകിയിരുന്നതിനാൽ, ഞങ്ങൾക്ക് ഞങ്ങളുടെ വേരിയബിൾ പ്രഖ്യാപനങ്ങളാണ് അവസാനം marking ബ്രാക്കറ്റിൽ അടയ്ക്കുക കാണാം:</p>
+        <pre class="programlisting">
+        ;create a new layer for the image:
+           (theLayer
+                     (car
+                          (gimp-layer-new
+                           theImage
+                           theImageWidth
+                           theImageHeight
+                           RGB-IMAGE
+                           "layer 1"
+                           100
+                           NORMAL
+                          )
+                      )
+            )
+         ) ;end of our local variables
+      </pre>
+        <p>ഞങ്ങൾ പുതിയ പാളി കഴിഞ്ഞാൽ, ഞങ്ങൾ ചിത്രത്തിലേക്ക് ചേർക്കേണ്ടതുണ്ട്:</p>
+        <pre class="programlisting">
+        (gimp-image-add-layer theImage theLayer 0)
+      </pre>
+        <p>ഇപ്പോൾ, തമാശക്ക് വേണ്ടി, ന്റെ ഈ പോയിന്റ് വരെ ഞങ്ങളുടെ അളവില്ലാതെ പഴങ്ങൾ അപ്പ് കാണും, പുതിയ ഒഴിഞ്ഞ ചിത്രം കാണിക്കാൻ ഈ ലൈൻ പറയട്ടെ</p>
+        <pre class="programlisting">(GIMP-ഡിസ്പ്ലേ-പുതിയ theImage)</pre>
+        <p>, നിങ്ങളുടെ ജോലി സംരക്ഷിക്കുകയും, <span class="guimenu">Filters</span> → <span class="guisubmenu">Script-Fu</span> → <span class="guimenuitem">Refresh Scripts</span> തിരഞ്ഞെടുക്കുക സ്ക്രിപ്റ്റ് പ്രവർത്തിച്ച് പുതിയ ചിത്രം പോപ്പ് വേണം. ഇത് ഒരുപക്ഷേ ഞങ്ങൾ അതു മായ്ച്ചു കാരണം, ചപ്പുചവറുകളും (റാൻഡം നിറങ്ങൾ) അടങ്ങിയിരിക്കും. നാം രണ്ടാം ആ ബന്ധപ്പെടാം.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512444272"></a>3.5.3. ടെക്സ്റ്റ് ചേർക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>മുന്നോട്ട് പോയി ചിത്രം പ്രദർശിപ്പിക്കാൻ ലൈൻ നീക്കം (അല്ലെങ്കിൽ (<code class="code">;</code> അതു കമന്റ്) വരിയുടെ ആദ്യ പ്രതീകമായി).</p>
+        <p>ചിത്രം വാചകം ചേർക്കുക മുമ്പ്, ടെക്സ്റ്റ് നിറം വ്യക്തമാക്കിയ ഉപയോക്താവിന്റെ ദൃശ്യമാവും പശ്ചാത്തലവും മുൻഭാഗത്തെ നിറങ്ങൾ സജ്ജമാക്കേണ്ടതുണ്ട്. നാം GIMP-സന്ദർഭ-സെറ്റ്-ബാക്ക് / മുൻഭാഗത്തെ നിര്വഹിക്കുന്ന ഉപയോഗിക്കും:</p>
+        <pre class="programlisting">
+        (gimp-context-set-background '(255 255 255) )
+        (gimp-context-set-foreground inTextColor)
+      </pre>
+        <p>ശരിയായി സജ്ജമാക്കാൻ നിറങ്ങൾ, ഇപ്പോൾ പശ്ചാത്തലം നിറം വരയ്ക്കാനാകുന്നത് പൂരിപ്പിച്ച് നിലവിൽ സ്വരൂപത്തിൽ ചപ്പുചവറുകളും വൃത്തിയാക്കാൻ ചെയ്യട്ടെ:</p>
+        <pre class="programlisting">
+        (gimp-drawable-fill theLayer BACKGROUND-FILL)
+      </pre>
+        <p>ചിത്രം മായ്ച്ചു ഉപയോഗിച്ച്, ചില ടെക്സ്റ്റ് ചേർക്കാൻ തയ്യാറായിക്കഴിഞ്ഞു:</p>
+        <pre class="programlisting">
+        (set! theText
+                      (car
+                           (gimp-text-fontname
+                            theImage theLayer
+                            0 0
+                            inText
+                            0
+                            TRUE
+                            inFontSize PIXELS
+                            "Sans")
+                       )
+        )
+      </pre>
+        <p>ഒരു നീണ്ട ഫംഗ്ഷൻ കോൾ എങ്കിലും, ഡി.ബി. ബ്രൗസറിലെ ചടങ്ങിൽ എൻട്രി നോക്കുന്നതായി സമയത്ത് നിങ്ങൾ പരാമീറ്ററുകൾ മേൽ പോയാൽ ഗംഭീരമായി നേരേചൊവ്വേ തുടർന്ന്. അടിസ്ഥാനപരമായി, ഞങ്ങൾ ഒരു പുതിയ ടെക്സ്റ്റ് പാളി സൃഷ്ടിച്ചും വേരിയബിൾ <code class="varname">theText</code> അതു നിയോഗിക്കുകയും ചെയ്യുന്നു.</p>
+        <p>ഇപ്പോൾ ഞങ്ങൾ പാഠം ഉണ്ട്, ഞങ്ങൾ അതിന്റെ വീതിയും ഉയരവും പിടിച്ചെടുക്കാൻ, ടെക്സ്റ്റ് ന്റെ വലുപ്പം ചിത്രം ഇമേജിൻറെ പാളി വലുപ്പം കഴിയും:</p>
+        <pre class="programlisting">
+        (set! theImageWidth   (car (gimp-drawable-width  theText) ) )
+        (set! theImageHeight  (car (gimp-drawable-height theText) ) )
+
+        (gimp-image-resize theImage theImageWidth theImageHeight 0 0)
+
+        (gimp-layer-resize theLayer theImageWidth theImageHeight 0 0)
+      </pre>
+        <p>നിങ്ങൾ എന്നെ പോലെ ആണെങ്കിൽ, നിങ്ങൾ ഒരുപക്ഷേ ഒരു പാളി താരതമ്യം ചെയ്യുമ്പോൾ വരയ്ക്കാനാകുന്നത് എന്താണെന്ന് ചിന്തിക്കുകയായിരുന്നു നിങ്ങൾ. രണ്ടു തമ്മിലുള്ള വ്യത്യാസം ഒരു വരയ്ക്കാനാകുന്നത് മാത്രമല്ല നിരക്കു പാളികൾ ഉൾപ്പെടെ ആകർഷിക്കപ്പെടുമ്പോൾ കഴിയുന്ന എന്തും, ചാനലുകൾ, പാളി മുഖംമൂടികൾ, തുടങ്ങിയവ എന്നതാണ്; ഒരു പാളി ഒരു വരയ്ക്കാനാകുന്നത് കൂടുതൽ വ്യക്തമായ പതിപ്പ്. മിക്കപ്പോഴും, വ്യത്യാസം പ്രാധാന്യമുള്ള കാര്യമല്ല.</p>
+        <p>പോകാൻ തയ്യാറാണ് ചിത്രം കൂടി, നാം ഇപ്പോൾ വീണ്ടും ചേർക്കാൻ കഴിയും ഞങ്ങളുടെ ഡിസ്പ്ലേ വരി:</p>
+        <pre class="programlisting">
+        (gimp-display-new theImage)
+      </pre>
+        <p>നിങ്ങളുടെ ജോലി സംരക്ഷിക്കുകയും, ഡാറ്റാബേസ് പുതുക്കി നിങ്ങളുടെ ആദ്യ സ്ക്രിപ്റ്റ് ഒരു റൺ കൊടുക്കും!</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512457184"></a>3.5.4. ഡേർട്ടി ഫ്ലാഗ് മായ്ക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ ആദ്യം ഫയൽ സംരക്ഷിക്കാതെ സൃഷ്ടിച്ച ചിത്രം ക്ലോസ് ശ്രമിച്ചാൽ, നിങ്ങൾ ഇമേജ് അടയ്ക്കുക മുമ്പ് നിങ്ങളുടെ ജോലി സംരക്ഷിക്കുകയും ചെയ്യണമെങ്കിൽ <acronym class="acronym">GIMP</acronym> ആവശ്യപ്പെടും. അത് ചിത്രത്തിന്റെ വൃത്തികെട്ട, അല്ലെങ്കിൽ സംരക്ഷിക്കാത്ത അടയാളപ്പെടുത്തി കാരണം ഈ ചോദിക്കുന്നു. അതായത് നമ്മുടെ പ്രവൃത്തിയിലും അത്തരം ഒരു ലളിതമായ സ്ക്രിപ്റ്റിൽ എളുപ്പത്തിൽ reproducible, അതിനാൽ - ഞങ്ങളുടെ സ്ക്രിപ്റ്റ് സാഹചര്യത്തിൽ, ഈ ഞങ്ങൾ അത് ഒരു ടെസ്റ്റ് റൺ നൽകുകയും തത്ഫലമായി സ്വരൂപത്തിൽ ചേർക്കാൻ അല്ലെങ്കിൽ എന്തെങ്കിലും മാറ്റം സമയങ്ങളിൽ ഒരു ഉപദവം ആണ് ഈ വൃത്തികെട്ട പതാക മുക്തി നേടാനുള്ള അർത്ഥത്തിൽ.</p>
+        <p>ഇത് ചെയ്യുന്നതിന്, ഞങ്ങൾ ചിത്രം പ്രദർശിപ്പിക്കുന്നതിൽ ശേഷം വൃത്തികെട്ട പതാക മായ്ക്കാൻ കഴിയും:</p>
+        <pre class="programlisting">
+        (gimp-image-clean-all theImage)
+      </pre>
+        <p>ഇത് അതിന്റെ ഒരു <span class="quote">“<span class="quote">clean</span>”</span> ഇമേജ് തോന്നുന്നില്ല making, 0 വൃത്തികെട്ട എണ്ണം സ്ഥാപിക്കും.</p>
+        <p>ഈ ലൈൻ ചേർക്കാൻ വേണ്ടയോ വ്യക്തിപരമായ രുചി ഒരു കാര്യം. ഞാൻ ഈ കേസിൽ ഫലങ്ങൾക്കൊപ്പം ബാലിശമായ എവിടെയാണെന്ന് പുതിയ ചിത്രങ്ങളും, നിർമ്മിക്കുന്ന സ്ക്രിപ്റ്റിൽ അത് ഉപയോഗിക്കാൻ. നിങ്ങളുടെ സ്ക്രിപ്റ്റ് വളരെ സങ്കീർണ്ണമായ ആണ്, അല്ലെങ്കിൽ നിലവിലുള്ള ഒരു ചിത്രം പ്രവർത്തിക്കുന്നു എങ്കിൽ, ഒരുപക്ഷേ നിങ്ങൾ ഈ പ്രവർത്തനം ഉപയോഗിക്കാൻ ആഗ്രഹിക്കുന്നില്ല ചെയ്യും.</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-using-script-fu-tutorial-first-script.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-using-script-fu-tutorial.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-using-script-fu-tutorial-extending-text-box.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-script-fu-tutorial-first-script.html">3.4. നിങ്ങളുടെ ആദ്യ സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-script-fu-tutorial-extending-text-box.html">3.6. വാചക ബോക്സ് സ്ക്രിപ്റ്റ് വികസിപ്പിക്കുന്നു</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

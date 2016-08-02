@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.3. ലിസ്റ്റുകൾ, ലിസ്റ്റുകൾ, ടിപ്പണി</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-using-script-fu-tutorial.html" title="3. ഒരു സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ" />
+    <link rel="prev" href="gimp-using-script-fu-tutorial-identifier.html" title="3.2. വേര്യബിൾ പ്രവർത്തനങ്ങൾ" />
+    <link rel="next" href="gimp-using-script-fu-tutorial-first-script.html" title="3.4. നിങ്ങളുടെ ആദ്യ സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.3. ലിസ്റ്റുകൾ, ലിസ്റ്റുകൾ, ടിപ്പണി</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-using-script-fu-tutorial-identifier.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. ഒരു സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-using-script-fu-tutorial-first-script.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-using-script-fu-tutorial-lists"></a>3.3. ലിസ്റ്റുകൾ, ലിസ്റ്റുകൾ, ടിപ്പണി</h3>
+          </div>
+        </div>
+      </div>
+      <p>നമുക്ക് വേരിയബിളുകള്ക്കായി പ്രവർത്തനങ്ങളും നിങ്ങളെ പരിശീലനം, ഇനി പദ്ധതി ന്റെ ലിസ്റ്റുകളുടെ വെള്ളവും ചതുപ്പുകൾക്ക് നൽകുക.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512181472"></a>3.3.1. ഒരു ലിസ്റ്റ് നിർവചിക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഞങ്ങൾ എന്നിവയെ കുറിച്ചുള്ള കൂടുതൽ സംസാരിക്കാൻ മുമ്പ്, നിങ്ങൾ ആറ്റോമിക മൂല്യങ്ങളും ലിസ്റ്റുകൾ തമ്മിലുള്ള വ്യത്യാസം അറിയുന്നു ഒരാവശ്യമാണ്.</p>
+        <p>ഞങ്ങൾ മുമ്പത്തെ പാഠം ചരങ്ങൾ സമാരംഭിച്ചിട്ടില്ല നിങ്ങൾ ഇതിനകം ആറ്റോമിക മൂല്യങ്ങൾ കണ്ട. ആണവോർജ മൂല്യം ഒരു മൂല്യം ആണ്. ഉദാഹരണത്തിന്, ഞങ്ങൾ വേരിയബിൾ <span class="quote">“<span class="quote"><code class="varname">x</code></span>”</span> 8 മൂല്യം താഴെ പ്രസ്താവനയിൽ കഴിയുന്ന:</p>
+        <pre class="programlisting">(X ചെയ്യട്ടെ * ((X 8)))</pre>
+        <p>(നാം പദപ്രയോഗം <code class="varname">x</code> അവസാനം <code class="code">let*</code> വെറും ഒരു ചടങ്ങിൽ പോലെ പ്രവർത്തന ശ്രദ്ധിക്കുക <code class="varname">x</code> നിയോഗിച്ചിട്ടുള്ള മൂല്യം പ്രിന്റുചെയ്യാനോ -normally നിങ്ങൾ ഇത് ചെയ്യാൻ ആവശ്യമില്ല ചേർത്തു:.. കഴിഞ്ഞ പ്രസ്താവന മൂല്യം മൂല്യം തിരികെ ആണ്)</p>
+        <p>ഒരു ചരം പുറമേ മൂല്യങ്ങളുടെ ലിസ്റ്റിൽ, പകരം ഒരു മൂല്യം റഫർ ചെയ്യാം. വേരിയബിൾ <code class="varname">x</code> മൂല്യങ്ങൾ 1, 3, 5 ലിസ്റ്റ് നൽകുന്നതിനായി, നമ്മൾ ടൈപ്പ് ആഗ്രഹിക്കുന്നു:</p>
+        <pre class="programlisting">(* ((X '(1 3 5) അനുവദിക്കുക)) നീളവും)</pre>
+        <p>സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ രണ്ട് പ്രസ്താവനകൾ ടൈപ്പുചെയ്യാൻ ശ്രമിക്കുക അതു മറുപടികൾ എങ്ങനെ ശ്രദ്ധിക്കുക. നിങ്ങളിൽ ആദ്യ പ്രസ്താവന ടൈപ്പ്, ഇത് ലളിതമായി ഫലം മറുപടികളും:</p>
+        <pre class="programlisting">8</pre>
+        <p>എന്നിരുന്നാലും, മറ്റ് പ്രസ്താവനയിൽ ടൈപ്പുചെയ്യുമ്പോൾ അതു താഴെ ഫലം മറുപടികളും:</p>
+        <pre class="programlisting">(1 3 5)</pre>
+        <p>അതു മൂല്യം 8 മറുപടികളും ചെയ്യുമ്പോൾ അത് <code class="varname">x</code> എന്നിരുന്നാലും ആറ്റോമിക മൂല്യം 8. അടങ്ങുന്ന നിങ്ങളെ അറിയിക്കാതെ, അത് <code class="computeroutput">(1 3 5)</code> മറുപടികളും, അത് പിന്നീട് നിങ്ങളെ അറിയിക്കാതെ <code class="varname">x</code> ഒരു മൂല്യം അല്ല അടങ്ങിയിരിക്കുന്നു, എന്നാൽ മൂല്യങ്ങളുടെ ലിസ്റ്റിൽ ആണ്. യാതൊരു കോമ ലിസ്റ്റ് ഞങ്ങളുടെ പ്രഖ്യാപനം അല്ലെങ്കിൽ നിയമനം അല്ല അച്ചടിച്ച ഫലത്തിലൊരു നിരീക്ഷിക്കുന്നു.</p>
+        <p>ഒരു ലിസ്റ്റ് നിർവ്വചിക്കുന്നതിന് സിന്റാക്സ്:</p>
+        <pre class="programlisting">'(എ ബി സി)</pre>
+        <p><code class="varname">a</code>, <code class="varname">b</code>, ഒപ്പം <code class="varname">c</code> literals എവിടെയാണെന്ന്. നാം എന്തു ബ്രാക്കറ്റിൽ പിന്തുടരുന്ന പകരം ചടങ്ങിൽ അല്ലെങ്കിൽ പദപ്രയോഗം അധികം അക്ഷരീയ മൂല്യങ്ങളുടെ ലിസ്റ്റിൽ എന്ന് സൂചിപ്പിക്കാൻ വിശ്ലേഷം (<code class="code">'</code>) ഉപയോഗിക്കുക.</p>
+        <p>ഒരു ശൂന്യമായ ലിസ്റ്റ് പോലുള്ള നിർവചിക്കാം:</p>
+        <pre class="programlisting">'()</pre>
+        <p>അല്ലെങ്കിൽ:</p>
+        <pre class="programlisting">()</pre>
+        <p>ലിസ്റ്റുകൾ ആറ്റോമിക മൂല്യങ്ങൾ, അതുപോലെ മറ്റ് ലിസ്റ്റുകൾ ഉൾക്കൊള്ളാനാകും:</p>
+        <pre class="programlisting">
+(let*
+   (
+        (x
+           '("GIMP" (1 2 3) ("is" ("great" () ) ) )
+        )
+    )
+    x
+)
+      </pre>
+        <p>ആദ്യ അക്ഷരലോപചിഹ്നം ശേഷം, നിങ്ങൾക്ക് ഇനി അകത്തെ ലിസ്റ്റുകൾ ക്റമീകരിക്കുന്പോൾ ഒരു വിശ്ലേഷം ഉപയോഗിക്കേണ്ടതുണ്ട് ശ്രദ്ധിക്കുക. മുന്നോട്ട് പോയി സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ കടന്നു പ്രസ്താവന കോപ്പി തിരിച്ചെത്തി എന്തു കാണുന്നു.</p>
+        <p>നിങ്ങൾ മടങ്ങി ഫലം ഒറ്റ ആണവോർജ്ജ മൂല്യങ്ങളുടെ ഒരു ലിസ്റ്റ് അല്ല എന്ന് പരിശോധിക്കേണ്ടതാണ്; മറിച്ച്, അക്ഷരാർഥത്തിൽ <code class="code">("The GIMP")</code>, ലിസ്റ്റ് <code class="code">(1 2 3)</code> മുതലായവ ഒരു പട്ടികയിലുണ്ട്</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512203664"></a>3.3.2. പട്ടികകളും എങ്ങനെ തോന്നുന്നു?</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഒരു <span class="quote">“<span class="quote">head</span>”</span> ഒരു <span class="quote">“<span class="quote">tail</span>”</span> വിന്യസിക്കപ്പെട്ട പോലെ ലിസ്റ്റുകളുടെ ചിന്തിക്കാൻ ഉപകാരപ്രദവുമായ. തല ലിസ്റ്റ് ആദ്യ മൂലകം, വാൽ ലിസ്റ്റ് ആശ്വാസം. ഞങ്ങൾ ലിസ്റ്റുകൾ ചേർക്കുക എങ്ങനെ പട്ടികയിൽ ഘടകങ്ങൾ ആക്സസ് എങ്ങനെ ചർച്ച ചെയ്യുമ്പോൾ ഈ പ്രധാനമാണ് നീ എന്തുകൊണ്ട് കാണും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512206592"></a>3.3.3. ശൃംഖല (ബാക്ക്ട്രെയിസ്കൊണ്ടു് ഫംഗ്ഷൻ) വഴി ലിസ്റ്റുകൾ ഉണ്ടാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ നേരിടും കൂടുതൽ സാധാരണ നിര്വഹിക്കുന്ന ഒന്ന് ക്കണ്ടത് പ്രവർത്തനമല്ല. ഇത് ഒരു മൂല്യം എടുത്ത് അതിന്റെ രണ്ടാമത്തെ വാദഗതി, ഒരു ലിസ്റ്റിൽ മതിയാവില്ല. മുമ്പത്തെ വിഭാഗത്തിൽ നിന്ന്, ഞാൻ നിങ്ങൾക്ക് ഒരു ഘടകം (തല) ഉം ലിസ്റ്റ് (വാൽ) ബാക്കി ഊർട്ട് ആയി ഒരു ലിസ്റ്റ് ചിന്തിക്കുന്നത് നിർദ്ദേശിച്ചു. അതു ഒരു ലിസ്റ്റ് തല ഒരു ഘടകം ചേർക്കുന്നു - ഇത് കൃത്യമായി എങ്ങനെ ചീത്തയുമായ ഫങ്ഷനുകളെ ആണ്. താഴെ അതിനാൽ, നിങ്ങൾ ഒരു ലിസ്റ്റ് സൃഷ്ടിക്കാൻ കഴിഞ്ഞില്ല:</p>
+        <pre class="programlisting">(ചീത്തയുമായ 1 '(2 3 4))</pre>
+        <p>ഫലം ലിസ്റ്റ് <code class="code">(1 2 3 4)</code> ആണ്.</p>
+        <p>നിങ്ങൾക്ക് ഒരു വസ്തുത ഒരു ലിസ്റ്റ് സൃഷ്ടിക്കാൻ കഴിഞ്ഞില്ല:</p>
+        <pre class="programlisting">(ചീത്തയുമായ 1 ())</pre>
+        <p>നിങ്ങൾ മുമ്പ് ഏതെങ്കിലും literals പകരം വേരിയബിളുകൾ പ്രഖ്യാപിച്ചു നിങ്ങൾ പ്രതീക്ഷിക്കുന്നത് പോലെ ഉപയോഗിക്കാൻ കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512212448"></a>3.3.4. <code class="code">list</code> ഫംഗ്ഷൻ ഉപയോഗിച്ച് ഒരു ലിസ്റ്റ് നിർവചിക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>അല്ലെങ്കിൽ literals വിന്യസിക്കപ്പെട്ട ഒരു ലിസ്റ്റ് define മുമ്പ് വേരിയബിളുകൾ ഡിക്ലയർ, <code class="function">list</code> പ്രവർത്തനം ഉപയോഗിക്കുന്നതിന്:</p>
+        <pre class="programlisting">(പട്ടിക 5 4 3 എ ബി സി)</pre>
+        <p>ഈ രചിക്കുക മടങ്ങിവരും വേരിയബിളുകൾ <code class="varname">a</code>, <code class="varname">b</code> ആൻഡ് <code class="varname">c</code> കൈവശമുള്ള മൂല്യങ്ങൾ ഉൾക്കൊള്ളുന്ന ഒരു ലിസ്റ്റ്. ഉദാഹരണത്തിന്:</p>
+        <pre class="programlisting">
+        (let*  (
+                  (a 1)
+                  (b 2)
+                  (c 3)
+               )
+
+               (list 5 4 3 a b c)
+        )
+      </pre>
+        <p>ഈ കോഡ് ലിസ്റ്റ് <code class="code">(5 4 3 1 2 3)</code> സൃഷ്ടിക്കുന്നു.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512218960"></a>3.3.5. ലിസ്റ്റിലെ മൂല്യങ്ങൾ ആക്സസ് ചെയ്യുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ലിസ്റ്റിലെ മൂല്യങ്ങൾ ആക്സസ് യഥാക്രമം, ലിസ്റ്റ് ലിസ്റ്റ് ബാക്കി ആദ്യ മൂലകം നൽകുന്ന ഫങ്ഷനുകളെ <code class="function">car</code> ആൻഡ് <code class="function">cdr</code> ഉപയോഗിക്കുക. ഈ ഫംഗ്ഷനുകൾ ഇറങ്ങി ഞാൻ നേരത്തെ സൂചിപ്പിച്ച തല :: വാൽ പരവലയങ്ങൾക്കു് കയറി ലിസ്റ്റ് പൊട്ടി.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512221792"></a>3.3.6. <code class="function">car</code> ഫംഗ്ഷൻ</h4>
+            </div>
+          </div>
+        </div>
+        <p><code class="function">car</code> ലിസ്റ്റ് (പട്ടിക തല) ആദ്യ ഘടകം നൽകുന്നു. ലിസ്റ്റ് അസാധുവായിരിക്കാൻ ആവശ്യമാണ്. ഇപ്രകാരം, താഴെ ലിസ്റ്റ് ആദ്യ ഘടകം നൽകുന്നു:</p>
+        <pre class="programlisting">(കാർ '( "ആദ്യം" 2 "മൂന്നാം"))</pre>
+        <p>അതായത്</p>
+        <pre class="programlisting">"ആദ്യ"</pre>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512225408"></a>3.3.7. <code class="function">cdr</code> ഫംഗ്ഷൻ</h4>
+            </div>
+          </div>
+        </div>
+        <p><code class="function">cdr</code> ആദ്യ ഘടകം (ലിസ്റ്റിന്റെ വാൽ) ശേഷം ലിസ്റ്റ് ബാക്കി നൽകുന്നു. പട്ടികയിലുള്ള ഒരേയൊരു മൂലകം ഉണ്ടെങ്കിൽ, ഇത് ഒരു ശൂന്യമായ ലിസ്റ്റ് നൽകുന്നു.</p>
+        <pre class="programlisting">(CDR '( "ആദ്യം" 2 "മൂന്നാം"))</pre>
+        <p>റിട്ടേണുകൾ:</p>
+        <pre class="programlisting">(2 "മൂന്നാം")</pre>
+        <p>താഴെ അതേസമയം:</p>
+        <pre class="programlisting">(CDR '( "ഒരേയൊരു"))</pre>
+        <p>റിട്ടേണുകൾ:</p>
+        <pre class="programlisting">()</pre>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512230928"></a>3.3.8. ലിസ്റ്റിലെ മറ്റ് ഘടകങ്ങൾ ആക്സസ് ചെയ്യുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ശരി, കൊള്ളാം, ഞങ്ങൾ ഒരു പട്ടികയിലുള്ള ആദ്യത്തെ മൂലകം, അതുപോലെ ലിസ്റ്റ് ബാക്കി ലഭിക്കും, എന്നാൽ നമുക്ക് എങ്ങനെ ഒരു ലിസ്റ്റ് രണ്ടാം മൂന്നാം അല്ലെങ്കിൽ മറ്റ് ഘടകങ്ങൾ ആക്സസ് ചെയ്യും? നിരവധി "സൗകര്യം" പ്രവർത്തനങ്ങളായ ഉദാഹരണത്തിന് മുതലായവ ആക്സസ് നിലവിലുണ്ട്, ഒരു ലിസ്റ്റ് (<code class="code">caadr</code>) എന്ന വാൽ തല തലയും ഒരു ലിസ്റ്റിന്റെ വാല് വാൽ (<code class="code">cddr</code>),</p>
+        <p>അങ്ങനെ ഒരു ആൻഡ് ഷൈനിങിലെ ലിസ്റ്റുകൾ തലവന്മാരും വാലുകൾ പ്രതിനിധാനം: അടിസ്ഥാന പേരിടൽ എളുപ്പമാണ്</p>
+        <pre class="programlisting">(കാർ (CDR (കാർ X)))</pre>
+        <p>ആയി എഴുതിയ കഴിഞ്ഞേക്കും:</p>
+        <pre class="programlisting">(മൂടുപടം X)</pre>
+        <p>ലിസ്റ്റ്-ആക്സസ് ചെയ്യുന്നതിൽ ഫംഗ്ഷനുകൾ കുറച്ച് പരിശീലനം ലഭിക്കാൻ, (ഒരു വരിയിൽ ഒഴികെ കൺസോൾ ഉപയോഗിക്കുന്നതെങ്കിൽ) താഴെ ടൈപ്പുചെയ്യുന്നതിലൂടെ ശ്രമിക്കുക; ലിസ്റ്റ് വിവിധ ഘടകങ്ങൾ ആക്സസ് <code class="function">car</code> ആൻഡ് <code class="function">cdr</code> വിവിധ വ്യതിയാനങ്ങൾ ഉപയോഗിക്കുക:</p>
+        <pre class="programlisting">
+        (let* (
+                 (x  '( (1 2 (3 4 5) 6)  7  8  (9 10) )
+                 )
+              )
+              ; place your car/cdr code here
+        )
+      </pre>
+        <p>രണ്ടു ഫംഗ്ഷൻ കോളുകൾ ഉപയോഗിച്ച് പട്ടികയിൽ എണ്ണം 3 ആക്സസ്സുചെയ്യാൻ ശ്രമിക്കുക. ആ ചെയ്യാൻ കഴിയും, നിങ്ങൾ ഒരു സ്ക്രിപ്റ്റ്-ഫു മാസ്റ്റർ ഏറിയകൂറും യാത്രയ്ക്ക് തയ്യാറായിക്കഴിഞ്ഞു!</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[കുറിപ്പു്]" src="images/note.png" />
+              </td>
+              <th align="left">കുറിപ്പു്</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>പദ്ധതി ഒരു അർദ്ധവിരാമം (<code class="code">;</code>) അഭിപ്രായം അടയാളപ്പെടുത്തുന്നു. ഇത് ഒരേ വരിയിൽ ദുന്യവിയ്യായതും ഒന്നും, അതിനാൽ നിങ്ങൾക്ക് പിന്നീട് സ്ക്രിപ്റ്റ് നോക്കുമ്പോൾ നിങ്ങളുടെ മെമ്മറി ജോഗ് അഭിപ്രായങ്ങൾ ചേർക്കുക ഇത് ഉപയോഗിക്കാം, സ്ക്രിപ്റ്റ് ദ്വിഭാഷിയായിരുന്ന അവഗണിക്കുകയും ചെയ്യും.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-using-script-fu-tutorial-identifier.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-using-script-fu-tutorial.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-using-script-fu-tutorial-first-script.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-script-fu-tutorial-identifier.html">3.2. വേര്യബിൾ പ്രവർത്തനങ്ങൾ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-script-fu-tutorial-first-script.html">3.4. നിങ്ങളുടെ ആദ്യ സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

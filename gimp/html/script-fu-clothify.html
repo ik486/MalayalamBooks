@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>10.4. Clothify</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-artistic.html" title="10. കലാപരമായ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-cartoon.html" title="10.3. ഹാസചിതം" />
+    <link rel="next" href="plug-in-cubism.html" title="10.5. ക്യൂബിസം" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">10.4. Clothify</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-cartoon.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">10. കലാപരമായ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-cubism.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-clothify"></a>10.4. Clothify</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925526348800" class="indexterm"></a>
+      <a id="idp46925526350336" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925526351104"></a>10.4.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925526351744"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.171. Clothify ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/artistic-taj-clothify.jpg" alt="Clothify ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Clothify</span>”</span> (നിരക്കു ൽ) ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p><span class="guimenuitem">Clothify</span> കമാൻഡ് തിരഞ്ഞെടുത്ത പ്രദേശത്തെ അഥവാ ആൽഫാ ലേക്ക് ടെക്സ്ചർ പോലുള്ള ഒരു cloth- ചേർക്കുന്നു ഒരു സ്ക്രിപ്റ്റ് ആണ്.</p>
+        <p>ചിത്രം ഇൻഡെക്സ്ഡ് നിറങ്ങളിൽ ആണെങ്കിൽ, ഈ മെനു എൻട്രി ഗ്രേ ഔട്ട് ചെയ്ത് ലഭ്യമല്ല.</p>
+        <p>ഈ പ്രഭാവം താഴെ ഘട്ടങ്ങളിലൂടെ കൈവരിക്കുന്നു:</p>
+        <div class="procedure">
+          <ol class="procedure" type="1">
+            <li class="step">
+              <p>വരം യഥാർത്ഥ ചിത്രം, അല്ലെങ്കിൽ ആൽഫയിലെ നിരക്കു അല്ലെങ്കിൽ ഭാഗത്തിന്റെ അതേ വലിപ്പത്തിൽ ഒരു ഇമേജ് സൃഷ്ടിക്കുക, തുടർന്ന് ശക്തമായി വെള്ള <a class="link" href="plug-in-rgb-noise.html" title="6.5. ആർജിബി നോയ്സ്">noisified</a> നിറഞ്ഞു ഈ ചിത്രം ഒരു ലെയർ ചേർക്കുക.</p>
+            </li>
+            <li class="step">
+              <p>സമീപകാലത്ത് ചേർത്തു പാളി നിന്ന് ഒരു പാളി പുനർനിർമ്മിക്കുന്നതിനോ <a class="link" href="gimp-concepts-layer-modes.html#layer-mode-multiply">Multiply</a> ലേക്ക് മുകളിലെ പാളി മോഡ് സജ്ജമാക്കാൻ.</p>
+            </li>
+            <li class="step">
+              <p>തിരശ്ചീനമായി ആരം നൽകിയിരിക്കുന്നു പരാമീറ്റർ <span class="guilabel">Blur X</span> കുറഞ്ഞു പാളി മേലും ലംബമായി <span class="guilabel">Blur Y</span> മുകളിലും പാളി ന് വിവിധ ദിശകളിൽ <a class="link" href="plug-in-gauss.html" title="2.3. ഗോഷ്യൻ ഇഫക്റ്റ്">Gaussian blur</a> പ്രയോഗിക്കുക.</p>
+            </li>
+            <li class="step">
+              <p>ഒരു ചിത്രം ഈ രണ്ട് പാളികൾ ലയിപ്പിക്കുക ഈ അധ്വാനിക്കുന്ന ചിത്രത്തിൽ പിന്നീട് ചെറുതായി noisify വീണ്ടും അതിന്റെ തീവ്രത <a class="link" href="plug-in-c-astretch.html" title="8.11. സ്ട്രെച്ച് കോൺട്രാസ്റ്റ്">expanded as possibly</a> ഉണ്ടാക്കേണം.</p>
+            </li>
+            <li class="step">
+              <p>ഒടുവിൽ പാരാമീറ്ററുകൾ <span class="guilabel">Azimuth</span>, <span class="guilabel">Elevation</span>, ഒപ്പം <span class="guilabel">Depth</span> പ്രവർത്തിച്ചും ചിത്രം യഥാർത്ഥ ചിത്രത്തിൽ <a class="link" href="plug-in-bump-map.html" title="12.2. ബംമ്പ് മാപ്പ്">bump map</a> ചെയ്യാൻ.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925526369936"></a>10.4.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Artistic</span> → <span class="guimenuitem">Clothify...</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925526372592"></a>10.4.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925526373344"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.172. <span class="quote">“<span class="quote">Clothify</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/artistic/clothify.png" alt="“Clothify” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p><span class="guilabel">Azimuth</span>, <span class="guilabel">Elevation</span>, ഒപ്പം <span class="guilabel">Depth</span> <a class="link" href="plug-in-bump-map.html" title="12.2. ബംമ്പ് മാപ്പ്">Bump Map</a> അരിപ്പ നിന്നും വരുന്നു.</p>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ഇഫക്റ്റ് എക്സ്, </span>
+              <span class="term">വൈ ബ്ലർ</span>
+            </dt>
+            <dd>
+              <p>ഈ പാരാമീറ്ററുകൾ തിരശ്ചീനമായി <span class="guilabel">Blur X</span> കൊണ്ടും ലംബമായി <span class="guilabel">Blur Y</span> വഴി, ടെക്സ്ചർ എന്ന നാരുകൾ ദീർഘായുസ്സും. മൂല്യം പരിധി 100 ലേക്ക് 3 തമ്മിലുള്ള.</p>
+            </dd>
+            <dt>
+              <span class="term">Azimuth</span>
+            </dt>
+            <dd>
+              <p><span class="guilabel">Azimuth</span> സ്ലൈഡർ വെളിച്ചം കോമ്പസ് പോയിന്റ് പ്രകാരം എവിടെനിന്നു സ്ഥിതി നിയന്ത്രിക്കുന്നു. ഇരുവരും കുറഞ്ഞ മൂല്യം (0.00), മാക്സിമം മൂല്യം (360.00) ഒരു അനലോഗ് ക്ലോക്കിന്റെ ഡയൽ പാനലിൽ മൂന്നു മണിക്ക് ദിശ ആകുന്നു. ഉയരുന്ന മൂല്യം എതിർഘടികാരദിശയിൽ പോകുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">ഉയരത്തിലുമുള്ള</span>
+            </dt>
+            <dd>
+              <p><span class="guilabel">Elevation</span> സ്ലൈഡർ വെളിച്ചം എവിടെനിന്നു ഉയരം നിയന്ത്രിക്കുന്നു. ചുരുങ്ങിയ മൂല്യം (0.50) പ്രകാശം ചക്രവാളത്തിൽ വരുന്ന പരമാവധി മൂല്യം (90.0) ലൈറ്റ് ശക്തമായിരുന്ന നിന്ന് വരുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">ആഴം</span>
+            </dt>
+            <dd>
+              <p>കരീനയെ ഉയരവും തടം ആഴം തമ്മിലുള്ള <span class="guilabel">Depth</span> സ്ലൈഡർ നിയന്ത്രണങ്ങൾ ദൂരം. ഉയരുന്ന മൂല്യം കൂടുതല് കാടും സവിശേഷതകൾ കാരണമാകുന്നു. മൂല്യങ്ങൾ 1 മുതൽ 65 വ്യത്യസ്തമാണ്.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-cartoon.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-artistic.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-cubism.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-cartoon.html">10.3. ഹാസചിതം</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-cubism.html">10.5. ക്യൂബിസം</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

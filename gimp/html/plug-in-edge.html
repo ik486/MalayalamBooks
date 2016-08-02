@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>7.3. അറ്റം</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-edge.html" title="7. അഗ്രം-തിരിച്ചറിയൽ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-dog.html" title="7.2. Gaussians എന്ന വ്യത്യാസം" />
+    <link rel="next" href="plug-in-laplace.html" title="7.4. .പരിപൂർണ്ണ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">7.3. അറ്റം</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-dog.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">7. അഗ്രം-തിരിച്ചറിയൽ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-laplace.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-edge"></a>7.3. അറ്റം</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925524098864" class="indexterm"></a>
+      <a id="idp46925524100640" class="indexterm"></a>
+      <a id="idp46925524101536" class="indexterm"></a>
+      <a id="idp46925524102432" class="indexterm"></a>
+      <a id="idp46925524103344" class="indexterm"></a>
+      <a id="idp46925524104256" class="indexterm"></a>
+      <a id="idp46925524105168" class="indexterm"></a>
+      <a id="idp46925524106080" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524106992"></a>7.3.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925524107760"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.140. അഗ്രം ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="അഗ്രം ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/edge-taj-edge-sobel.jpg" alt="അഗ്രം ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p>ഫിൽട്ടർ (സോബൽ ഓപ്ഷൻ) പ്രയോഗിച്ച ശേഷം</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="figure">
+          <a id="idp46925524114144"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.141. അഗ്രം അരിപ്പ അപേക്ഷിക്കുന്ന ഉദാഹരണങ്ങൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/edge-taj-edge-prewitt.jpg" alt="അഗ്രം അരിപ്പ അപേക്ഷിക്കുന്ന ഉദാഹരണങ്ങൾ" />
+              <div class="caption">
+                <p>ഫിൽട്ടർ (Prewitt കോമ്പസ് ഓപ്ഷൻ) പ്രയോഗിച്ച ശേഷം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/edge-taj-edge-gradient.jpg" alt="അഗ്രം അരിപ്പ അപേക്ഷിക്കുന്ന ഉദാഹരണങ്ങൾ" />
+              <div class="caption">
+                <p>ഫിൽട്ടർ (ഗ്രേഡിയന്റ് ഓപ്ഷൻ) പ്രയോഗിച്ച ശേഷം</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="figure">
+          <a id="idp46925524120656"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.142. അഗ്രം ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/edge-taj-edge-roberts.jpg" alt="അഗ്രം ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p>ഫിൽട്ടർ (റോബർട്സ് ഓപ്ഷൻ) പ്രയോഗിച്ച ശേഷം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/edge-taj-edge-differential.jpg" alt="അഗ്രം ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p>ഫിൽട്ടർ (ഡിഫറൻഷ്യൽ ഓപ്ഷൻ) പ്രയോഗിച്ച ശേഷം</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="figure">
+          <a id="idp46925524127136"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.143. അഗ്രം ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/edge-taj-edge-laplace.jpg" alt="അഗ്രം ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p>ഫിൽട്ടർ (.പരിപൂർണ്ണ ഓപ്ഷൻ) പ്രയോഗിച്ച ശേഷം</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523916912"></a>7.3.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Edge-Detect</span> → <span class="guimenuitem">Edge...</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523919456"></a>7.3.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925523920208"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.144. എഡ്ജ് ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/edge-detect/edge.png" alt="എഡ്ജ് ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">അല്ഗോരിതം</span>
+            </dt>
+            <dd>
+              <div class="variablelist">
+                <p>അഗ്രം ഡിറ്റക്ടർ നിരവധി കണ്ടെത്തൽ രീതികൾ പ്രദാനം:</p>
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">സോബൽ</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>ഇവിടെ, ഈ രീതി ഒരു ഉപാധികളും ഉണ്ട് അങ്ങനെ നിർദ്ദിഷ്ട സോബൽ കുറവാണ് രസകരമാണ്.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Prewitt കോമ്പസ്</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>ഫലം സോബൽ നിന്ന് വ്യത്യസ്തമായ തോന്നുന്നില്ല.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">ഗ്രേഡിയന്റ്</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>പാനലുമായും കട്ടി കുറവ് പ്രതികൂലമായ ഒപ്പം സോബൽ കൂടുതൽ മാഞ്ഞു പോകുന്നു.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">റോബർട്സ്</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>സോബൽ നിന്ന് യാതൊരു വ്യത്യാസം.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">ഡിഫറൻഷ്യൽ</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>കുറവ് മിനുക്കിയ അരികുകളും.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">.പരിപൂർണ്ണ</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>നിർദ്ദിഷ്ട ഒറ്റ കുറവ് രസകരമായ.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">തുക</span>
+            </dt>
+            <dd>
+              <p>നേർത്ത അറ്റങ്ങൾ കറുത്ത, ഉയർന്ന പ്രതികൂലമായ സ്വരൂപത്തിൽ ഒരു താഴ്ന്ന മൂല്യം ഫലങ്ങൾ. താഴ്ന്ന ദൃശ്യ ഇരുണ്ട മേഖലകളില് ധാരാളം നിറങ്ങളിലുള്ള കട്ടിയുള്ള വേണമങ്കിലും ഒരു ഉയർന്ന മൂല്യം ഫലങ്ങൾ.</p>
+            </dd>
+            <dt>
+              <span class="term">പൊതിയുക, </span>
+              <span class="term">പൂശുക, </span>
+              <span class="term">കറുത്ത</span>
+            </dt>
+            <dd>
+              <p>അത് ചിത്രത്തിന്റെ അതിരുകൾ പ്രവർത്തിക്കുന്നു വരുമ്പോൾ എഡ്ജ് ഡിറ്റക്ടർ അതിന്റെ കണക്കുകൂട്ടലുകൾ വേണ്ടി സമീപപ്രദേശങ്ങളിലും ചെയ്യും എവിടെ പിക്സലുകൾ. ഈ ഓപ്ഷൻ മാത്രം ഫലം (ഉണ്ടെങ്കിൽ) അതിർത്തികളിൽ കാര്യമായി ബാധിക്കുക. <span class="guilabel">Smear</span> സ്ഥിര, മികച്ച ചോയ്സ്.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-dog.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-edge.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-laplace.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-dog.html">7.2. Gaussians എന്ന വ്യത്യാസം</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-laplace.html">7.4. .പരിപൂർണ്ണ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

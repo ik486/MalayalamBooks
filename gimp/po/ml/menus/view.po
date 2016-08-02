@@ -1,0 +1,2434 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP-Help 2.8.0\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
+"PO-Revision-Date: 2012-06-01 12:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/menus/view/show-scrollbars.xml:10(title)
+#: src/menus/view/show-scrollbars.xml:17(primary)
+#, fuzzy
+msgid "Show Scrollbars"
+msgstr ""
+"Scroll_bars കാണിക്കുക"
+
+#: src/menus/view/show-scrollbars.xml:13(primary)
+#, fuzzy
+msgid "Scroll-bars"
+msgstr ""
+"scroll_bars കാണിക്കുക"
+
+#: src/menus/view/show-scrollbars.xml:14(secondary)
+#, fuzzy
+msgid "Show/Mask scrollbars"
+msgstr ""
+"scroll_bars കാണിക്കുക"
+
+#: src/menus/view/show-scrollbars.xml:20(para)
+msgid ""
+"The <guimenuitem>Show Scrollbars</guimenuitem> command enables and disables "
+"displaying the scrollbars. It may be useful to disable them if you are "
+"working in <link linkend=\"gimp-view-fullscreen\">full-screen mode</link>."
+msgstr ""
+"<guimenuitem>Show Scrollbars</guimenuitem> കമാൻഡ് പ്രാപ്തരാക്കുകയും സ്ക്രോ"
+"ൾബാറുകൾ പ്രദർശിപ്പിക്കുന്നത് നിഷ്ക്രിയമാക്കുന്നു. നിങ്ങൾ <link linkend=\"gi"
+"mp-view-fullscreen\">full-screen mode</link> പ്രവര്ത്തിക്കുന്നയാളാണെങ്കില് "
+"അതു അവരെ അപ്രാപ്തമാക്കാൻ ഉപയോഗപ്പെടുന്നു."
+
+#: src/menus/view/show-scrollbars.xml:26(para)
+msgid ""
+"You can set the default for the scrollbars in the <link linkend=\"gimp-prefs-"
+"image-window\">Image Window Appearance</link> dialog."
+msgstr ""
+"നിങ്ങൾ <link linkend=\"gimp-prefs- image-window\">Image Window Appearance</"
+"link> ഡയലോഗിൽ സ്ക്രോൾബാറുകൾ സ്ഥിര സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/menus/view/show-scrollbars.xml:33(title)
+#: src/menus/view/show-guides.xml:32(title)
+#: src/menus/view/show-rulers.xml:32(title)
+#: src/menus/view/show-selection.xml:34(title)
+#: src/menus/view/fullscreen.xml:46(title)
+#: src/menus/view/snap-to-guides.xml:30(title)
+#: src/menus/view/snap-to-path.xml:27(title)
+#: src/menus/view/show-grid.xml:41(title)
+#: src/menus/view/snap-to-canvas.xml:38(title)
+#: src/menus/view/display-filters.xml:30(title)
+#: src/menus/view/snap-to-grid.xml:30(title)
+#: src/menus/view/navigwindow.xml:27(title) src/menus/view/new.xml:38(title)
+#: src/menus/view/shrink-wrap.xml:37(title)
+#: src/menus/view/show-layer-boundary.xml:34(title)
+#: src/menus/view/show-statusbar.xml:33(title)
+#: src/menus/view/show-sample-points.xml:24(title)
+#: src/menus/view/show-menubar.xml:34(title)
+#: src/menus/view/dot-for-dot.xml:69(title)
+msgid "Activating the Command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/view/show-scrollbars.xml:36(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Show Scrollbars</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/view/show-guides.xml:10(title)
+#: src/menus/view/show-guides.xml:17(primary)
+#, fuzzy
+msgid "Show Guides"
+msgstr ""
+"_Guides കാണിക്കുക"
+
+#: src/menus/view/show-guides.xml:13(primary)
+#: src/menus/view/snap-to-guides.xml:13(primary)
+msgid "Guides"
+msgstr ""
+"വഴികാട്ടി"
+
+#: src/menus/view/show-guides.xml:14(secondary)
+#, fuzzy
+msgid "Show/Mask Guides"
+msgstr ""
+"_Guides കാണിക്കുക"
+
+#: src/menus/view/show-guides.xml:20(para)
+msgid ""
+"The <guimenuitem>Show Guides</guimenuitem> command enables and disables "
+"displaying of <link linkend=\"glossary-guides\">Guides</link> in the image "
+"window."
+msgstr ""
+"<guimenuitem>Show Guides</guimenuitem> കമാൻഡ് പ്രാപ്തമാക്കുന്നു ഇമേജ് ജാലകത"
+"്തിൽ <link linkend=\"glossary-guides\">Guides</link> പ്രദർശിപ്പിക്കുകയുണ്ടാ"
+"യതായി നിഷ്ക്രിയമാക്കുന്നു."
+
+#: src/menus/view/show-guides.xml:25(para)
+msgid ""
+"You can set the default for the guides in the <link linkend=\"gimp-prefs-"
+"image-window\">Image Window Appearance</link> dialog."
+msgstr ""
+"നിങ്ങൾ <link linkend=\"gimp-prefs- image-window\">Image Window Appearance</"
+"link> ഡയലോഗിൽ ഗൈഡുകൾ സ്ഥിര സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/menus/view/show-guides.xml:35(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Show Guides</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/view/show-guides.xml:44(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap><keycap>T</keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Shift</keycap><keycap>Ctr"
+"l</keycap><keycap>T</keycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/view/show-rulers.xml:10(title)
+#: src/menus/view/show-rulers.xml:17(primary)
+#, fuzzy
+msgid "Show Rulers"
+msgstr ""
+"R_ulers കാണിക്കുക"
+
+#: src/menus/view/show-rulers.xml:13(primary)
+#, fuzzy
+msgid "Rulers"
+msgstr ""
+"ചട്ടം"
+
+#: src/menus/view/show-rulers.xml:14(secondary)
+#, fuzzy
+msgid "Show/Mask rulers"
+msgstr ""
+"_rulers കാണിക്കുക"
+
+#: src/menus/view/show-rulers.xml:20(para)
+msgid ""
+"The <guimenuitem>Show Rulers</guimenuitem> command enables and disables "
+"displaying the rulers. It may be useful to disable them if you are working "
+"in <link linkend=\"gimp-view-fullscreen\">full-screen mode</link>."
+msgstr ""
+"<guimenuitem>Show Rulers</guimenuitem> കമാൻഡ് പ്രാപ്തരാക്കുകയും ഭരണാധികാരിക"
+"ൾ പ്രദർശിപ്പിക്കുന്നത് നിഷ്ക്രിയമാക്കുന്നു. നിങ്ങൾ <link linkend=\"gimp-vie"
+"w-fullscreen\">full-screen mode</link> പ്രവര്ത്തിക്കുന്നയാളാണെങ്കില് അതു അവ"
+"രെ അപ്രാപ്തമാക്കാൻ ഉപയോഗപ്പെടുന്നു."
+
+#: src/menus/view/show-rulers.xml:25(para)
+msgid ""
+"You can set the default for the rulers in the <link linkend=\"gimp-prefs-"
+"image-window\">Image Window Appearance</link> dialog."
+msgstr ""
+"നിങ്ങൾ <link linkend=\"gimp-prefs- image-window\">Image Window Appearance</"
+"link> ഡയലോഗിൽ ഭരണാധികാരികൾ സ്ഥിര സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/menus/view/show-rulers.xml:35(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Show Rulers</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/view/show-rulers.xml:44(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap><keycap>R</keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Shift</keycap><keycap>Ctr"
+"l</keycap><keycap>R</keycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/view/show-selection.xml:10(title)
+#: src/menus/view/show-selection.xml:18(primary)
+#, fuzzy
+msgid "Show Selection"
+msgstr ""
+"_Selection കാണിക്കുക"
+
+#: src/menus/view/show-selection.xml:13(primary)
+msgid "Selection"
+msgstr ""
+"തിരഞ്ഞെടുക്കൽ"
+
+#: src/menus/view/show-selection.xml:14(secondary)
+#, fuzzy
+msgid "Selection boundary"
+msgstr ""
+"തിരഞ്ഞെടുക്കൽ എഡിറ്റർ"
+
+#: src/menus/view/show-selection.xml:15(tertiary)
+#, fuzzy
+msgid "Show/Mask selection boundary"
+msgstr ""
+"തിരഞ്ഞെടുപ്പ് ചുരുക്കുക"
+
+#: src/menus/view/show-selection.xml:21(para)
+msgid ""
+"The <guimenuitem>Show Selection</guimenuitem> command enables and disables "
+"displaying the dotted line surrounding the selection in the image window. "
+"Please note that the selection still exists, even if displaying this line is "
+"disabled."
+msgstr ""
+"<guimenuitem>Show Selection</guimenuitem> കമാൻഡ് പ്രാപ്തമാക്കുന്നു ഇമേജ് വി"
+"ൻഡോയിൽ നിരക്കു ചുറ്റുമുള്ള അതിനെക്കുറിച്ച് പ്രദർശിപ്പിക്കുന്നത് നിഷ്ക്രിയമ"
+"ാക്കുന്നു. ഈ ലൈൻ പ്രദർശിപ്പിക്കുമ്പോൾ അപ്രാപ്തമാക്കിയാൽ പോലും, നിരക്കു ഇപ"
+"്പോഴും നിലവിലുണ്ട് ദയവായി ശ്രദ്ധിക്കുക."
+
+#: src/menus/view/show-selection.xml:27(para)
+msgid ""
+"You can set the default for displaying the selection in the <link linkend="
+"\"gimp-prefs-image-window\">Image Window Appearance</link> dialog."
+msgstr ""
+"നിങ്ങൾ <link linkend=\"gimp-prefs-image-window\">Image Window Appearance</l"
+"ink> ഡയലോഗിൽ പ്രദർശിപ്പിക്കുന്നു സ്ഥിര സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/menus/view/show-selection.xml:37(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Show Selection</"
+"guimenuitem></menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/view/show-selection.xml:46(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>T</"
+"keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>T</k"
+"eycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/view/fullscreen.xml:11(title)
+#: src/menus/view/fullscreen.xml:14(secondary)
+#: src/menus/view/fullscreen.xml:17(primary)
+#, fuzzy
+msgid "Full Screen"
+msgstr "Fullscr_een"
+
+#: src/menus/view/fullscreen.xml:13(primary)
+#: src/menus/view/dot-for-dot.xml:13(primary)
+msgid "Display"
+msgstr ""
+"പ്രദർശിപ്പിക്കുക"
+
+#: src/menus/view/fullscreen.xml:19(para)
+msgid ""
+"The <guimenuitem>Fullscreen</guimenuitem> command enables and disables "
+"displaying the image window on the entire screen. When it is enabled, the "
+"image window takes up the whole screen, but the image stays the same size. "
+"When you enable full-screen mode, the menubar may not be displayed, but if "
+"this happens, you can right-click on the image to access the image menu. You "
+"can set the default appearance for full-screen mode in the <link linkend="
+"\"gimp-prefs-image-window-appearance\">Preferences</link> menu."
+msgstr ""
+"<guimenuitem>Fullscreen</guimenuitem> കമാൻഡ് പ്രാപ്തമാക്കുന്നു മുഴുവൻ സ്ക്ര"
+"ീനിൽ ചിത്രം വിൻഡോ പ്രദർശിപ്പിക്കുന്നത് നിഷ്ക്രിയമാക്കുന്നു. അത് പ്രാപ്തമാക"
+"്കുകയും, ചിത്രം വിൻഡോ മുഴുവൻ സ്ക്രീൻ പിടിച്ചിട്ടു, എന്നാൽ ഇമേജ് സ്റ്റേ ഒരേ"
+" വലിപ്പം. നിങ്ങൾ പൂർണ്ണ സ്ക്രീൻ മോഡിൽ പ്രാപ്തമാക്കുമ്പോൾ, മെനുബാർ പ്രദർശി"
+"പ്പിക്കാൻ ചെയ്യാം, എന്നാൽ ഇങ്ങനെ സംഭവിക്കുകയാണെങ്കിൽ, നിങ്ങൾ ചിത്രത്തിൽ ഇമേ"
+"ജ് മെനു ആക്സസ് റൈറ്റ് ക്ലിക്ക് ചെയ്യാം. നിങ്ങൾ <link linkend=\"gimp-prefs-i"
+"mage-window-appearance\">Preferences</link> മെനുവിൽ പൂർണ്ണ സ്ക്രീൻ മോഡിൽ സ"
+"്ഥിര ഭാവം സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/menus/view/fullscreen.xml:30(para)
+msgid ""
+"Pressing <keycap>TAB</keycap> key toggles the visibility of all present "
+"docks."
+msgstr ""
+"<keycap>TAB</keycap> കീ അമർത്തിയാൽ എല്ലാ ഇന്നത്തെ തുറയിൽ ദൃശ്യപരത ടോഗിൾ ചെ"
+"യ്യുന്നു."
+
+#: src/menus/view/fullscreen.xml:36(para)
+msgid ""
+"If you use <acronym>GIMP</acronym> on an Apple computer, full-screen mode "
+"may not work, since Apple doesn't provide the necessary functionality. "
+"Instead, you can maximize the image window by clicking on the "
+"<emphasis>Green Button</emphasis>, so the image occupies most of the screen."
+msgstr ""
+"നിങ്ങൾ ഒരു ആപ്പിൾ കമ്പ്യൂട്ടറിൽ <acronym>GIMP</acronym> ഉപയോഗിക്കുകയാണെങ്ക"
+"ിൽ, പൂർണ്ണ സ്ക്രീൻ ആപ്പിൾ ആവശ്യമായ പ്രവർത്തനക്ഷമത നൽകുന്നില്ല ശേഷം, പ്രവർത്"
+"തിക്കാനിടയില്ല. പകരം, <emphasis>Green Button</emphasis> മാകാം ചിത്രം ജാലകം "
+"പരമാവധി അതിനാൽ ചിത്രം സ്ക്രീനിന്റെ ഏറ്റവും ത്രിപുര."
+
+#: src/menus/view/fullscreen.xml:49(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Full Screen</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/view/fullscreen.xml:58(para)
+msgid "or by using the keyboard shortcut <keycap>F11</keycap>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycap>F11</keycap> ഉപയോഗിച്ച്."
+
+#: src/menus/view/fullscreen.xml:63(para)
+msgid ""
+"In multi-window mode, you can also get it by double-clicking on the title "
+"bar of the image window."
+msgstr ""
+"മൾട്ടി വിൻഡോ മോഡ്, നിങ്ങൾക്ക് ചിത്രം വിൻഡോയുടെ ടൈറ്റിൽ ബാറിൽ ഡബിൾ ക്ലിക്"
+"ക് ചെയ്ത് ലഭിക്കും."
+
+#: src/menus/view/snap-to-guides.xml:10(title)
+#: src/menus/view/snap-to-guides.xml:14(secondary)
+#: src/menus/view/snap-to-guides.xml:17(primary)
+#, fuzzy
+msgid "Snap to Guides"
+msgstr ""
+"ഗൈഡുകളിലേക്കുള്ള Sn_ap"
+
+#: src/menus/view/snap-to-guides.xml:20(para)
+msgid ""
+"The <guimenuitem>Snap to Guides</guimenuitem> command enables and disables "
+"snap to guides. When snap to guides is enabled, the guides you set (see "
+"<link linkend=\"gimp-view-show-guides\">Show Guides</link>) almost seems "
+"magnetic; when you move a layer or selection, the guides appear to pull on "
+"it when it approaches. This is enormously useful for accurate placement of "
+"image elements."
+msgstr ""
+"<guimenuitem>Snap to Guides</guimenuitem> കമാൻഡ് പ്രാപ്തമാക്കുന്നു ഗൈഡുകൾ സ"
+"്നാപ്പ് അപ്രാപ്തമാക്കുന്നു. എപ്പോൾ ഗൈഡുകളിലേക്കുള്ള സ്നാപ്പ് പ്രവർത്തനക്ഷമ"
+"മാണ്, (<link linkend=\"gimp-view-show-guides\">Show Guides</link> കാണുക) സജ"
+"്ജമാക്കാൻ ഗൈഡുകൾ ഏതാണ്ട് കാന്തിക തോന്നും; നിങ്ങൾ ഒരു പാളി അല്ലെങ്കിൽ സെലക്"
+"ഷനും നീക്കുമ്പോൾ, വഴികാട്ടികൾ അതു ആസന്നമാവുമ്പോൾ അത് വലിക്കുക തോന്നുന്നി"
+"ല്ല. ഈ ചിത്രം മൂലകങ്ങളുടെ കൃത്യതയാർന്ന പ്ലേസ്മെന്റിനായി ബൃഹത്തായ ഉപയോഗപ്പെ"
+"ടുന്നു."
+
+#: src/menus/view/snap-to-guides.xml:33(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Snap to Guides</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/view/snap-to-path.xml:10(title)
+#, fuzzy
+msgid "Snap to Active Path"
+msgstr ""
+"t_o സജീവ പാത സ്നാപ്പ്"
+
+#: src/menus/view/snap-to-path.xml:14(primary)
+msgid "Path"
+msgstr ""
+"പാത"
+
+#: src/menus/view/snap-to-path.xml:15(secondary)
+#: src/menus/view/snap-to-path.xml:18(primary)
+#, fuzzy
+msgid "Snap to active path"
+msgstr ""
+"t_o സജീവ പാത സ്നാപ്പ്"
+
+#: src/menus/view/snap-to-path.xml:20(para)
+msgid ""
+"If this option is enabled, when you move a selection or a layer, they appear "
+"to pull on the next anchor point of the active path when it approaches. This "
+"is useful for accurate placement of image elements."
+msgstr ""
+"ഈ ഓപ്ഷൻ പ്രാപ്തമാക്കി, നിങ്ങൾ ഒരു നിര അല്ലെങ്കിൽ ഒരു പാളി നീക്കാൻ അവരത് ആസന"
+"്നമാവുമ്പോൾ സജീവ പാതയുടെ അടുത്ത ആങ്കർ പോയിന്റ് വലിക്കുക തോന്നുന്നില്ല. ഈ"
+" ചിത്രം മൂലകങ്ങളുടെ കൃത്യതയാർന്ന പ്ലേസ്മെന്റ് ഉപയോഗപ്രദമാണ്."
+
+#: src/menus/view/snap-to-path.xml:30(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Snap to Path</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/view/show-grid.xml:10(title)
+#: src/menus/view/show-grid.xml:17(primary)
+#, fuzzy
+msgid "Show Grid"
+msgstr ""
+"S_how ഗ്രിഡ്"
+
+#: src/menus/view/show-grid.xml:13(primary)
+#: src/menus/view/snap-to-grid.xml:13(primary)
+msgid "Grid"
+msgstr ""
+"ഗ്രിഡ്"
+
+#: src/menus/view/show-grid.xml:14(secondary)
+#, fuzzy
+msgid "Show/Mask Grid"
+msgstr ""
+"S_how ഗ്രിഡ്"
+
+#: src/menus/view/show-grid.xml:20(para)
+msgid ""
+"By using the <guimenuitem>Show Grid</guimenuitem> command, you can enable "
+"and disable displaying the grid. When you enable it, the grid overlays the "
+"image and makes it easier for you to line up selected image elements."
+msgstr ""
+"<guimenuitem>Show Grid</guimenuitem> കമാൻഡ് ഉപയോഗിച്ച് പ്രാപ്തമാക്കും, ഗ്ര"
+"ിഡ് പ്രദർശിപ്പിക്കുന്നത് പ്രവർത്തനരഹിതമാക്കാനാകും. അത് തയ്യാറാക്കാൻ ചെയ്യുമ"
+"്പോൾ, ഗ്രിഡ് ചിത്രം ഓവർലേകളും നിങ്ങൾ തിരഞ്ഞെടുത്ത ചിത്രം ഘടകങ്ങൾ ച്ചുകൊണ്"
+"ട് ലേക്ക് സുഗമമാക്കുന്നു."
+
+#: src/menus/view/show-grid.xml:26(para)
+msgid ""
+"You can set the default for the grid in the <link linkend=\"gimp-prefs-image-"
+"window\">Image Window Appearance</link> dialog."
+msgstr ""
+"നിങ്ങൾ <link linkend=\"gimp-prefs-image- window\">Image Window Appearance</"
+"link> ഡയലോഗിൽ ഗ്രിഡ് സ്ഥിര സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/menus/view/show-grid.xml:32(para)
+msgid ""
+"See also the <link linkend=\"gimp-image-configure-grid\">Configure Grid</"
+"link> command and the <link linkend=\"gimp-view-snap-to-grid\">Snap to Grid</"
+"link> command."
+msgstr ""
+"പുറമേ <link linkend=\"gimp-image-configure-grid\">Configure Grid</link> കമാ"
+"ൻഡും <link linkend=\"gimp-view-snap-to-grid\">Snap to Grid</link> കമാൻഡ് കാ"
+"ണുക."
+
+#: src/menus/view/show-grid.xml:44(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Show Grid</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/view/snap-to-canvas.xml:10(title)
+#, fuzzy
+msgid "Snap to Canvas"
+msgstr ""
+"_Canvas അരികുകളിൽ സ്നാപ്പ്"
+
+#: src/menus/view/snap-to-canvas.xml:14(primary)
+#: src/menus/view/padding-color.xml:17(primary)
+#, fuzzy
+msgid "Canvas"
+msgstr ""
+"കാൻവാസ് വലിപ്പം"
+
+#: src/menus/view/snap-to-canvas.xml:15(secondary)
+#: src/menus/view/snap-to-canvas.xml:18(primary)
+#, fuzzy
+msgid "Snap to canvas"
+msgstr ""
+"_Canvas അരികുകളിൽ സ്നാപ്പ്"
+
+#: src/menus/view/snap-to-canvas.xml:21(para)
+msgid ""
+"If this option is enabled, when you move a selection or a layer, they appear "
+"to pull on the canvas edges when it approaches. This is useful for accurate "
+"placement of image elements."
+msgstr ""
+"ഈ ഓപ്ഷൻ പ്രാപ്തമാക്കി, നിങ്ങൾ ഒരു നിര അല്ലെങ്കിൽ ഒരു പാളി നീക്കാൻ അവരത് ആസന"
+"്നമാവുമ്പോൾ കാൻവാസ് വേണമങ്കിലും പിൻമാറുമെന്ന് ദൃശ്യമാകും. ഈ ചിത്രം മൂലകങ്ങ"
+"ളുടെ കൃത്യതയാർന്ന പ്ലേസ്മെന്റ് ഉപയോഗപ്രദമാണ്."
+
+#: src/menus/view/snap-to-canvas.xml:27(para)
+msgid ""
+"Canvas edges are usually mingled with image edges: the canvas has, then, the "
+"same size as the image. But you can change canvas size in "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Canvas Size</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"ചിത്രം പോലെ ക്യാൻവാസ് ഉണ്ട്, ഒരേ വലിപ്പം: കാൻവാസ് വേണമങ്കിലും സാധാരണയായി ഇ"
+"മേജ് അറ്റങ്ങൾ കലർത്തിയ ചെയ്യുന്നു. എന്നാൽ നിങ്ങൾ <menuchoice><guimenu>Image"
+"</guimenu><guimenuitem>Canvas Size</guimenuitem></menuchoice> ൽ ക്യാൻവാസ് വ"
+"ലിപ്പം മാറ്റാൻ കഴിയും."
+
+#: src/menus/view/snap-to-canvas.xml:41(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Snap to Canvas</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/view/display-filters.xml:49(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/view/display-filters.png'; "
+"md5=11f1864162de4a77f014d0e9a4f2769c"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/view/display-filters.xml:109(None)
+msgid ""
+"@@image: 'images/menus/view/display-filters/color-deficient-vision.png'; "
+"md5=3a03f732788cef3fb567abc5902d9412"
+msgstr ""
+"@@image: 'images/menus/view/display-filters/color-deficient-vision.png'; "
+"md5=3a03f732788cef3fb567abc5902d9412"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/view/display-filters.xml:187(None)
+msgid ""
+"@@image: 'images/menus/view/display-filters/protanopia-normal.png'; "
+"md5=7a74f89c8d582059b6ac62c362c1efce"
+msgstr ""
+"@@image: 'images/menus/view/display-filters/protanopia-normal.png'; "
+"md5=7a74f89c8d582059b6ac62c362c1efce"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/view/display-filters.xml:196(None)
+msgid ""
+"@@image: 'images/menus/view/display-filters/protanopia-filtered.png'; "
+"md5=3333eb4cb13e28d5765c4c8f106b7516"
+msgstr ""
+"@@image: 'images/menus/view/display-filters/protanopia-filtered.png'; "
+"md5=3333eb4cb13e28d5765c4c8f106b7516"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/view/display-filters.xml:218(None)
+msgid ""
+"@@image: 'images/menus/view/display-filters/sight-defects_normal-view.png'; "
+"md5=d27cd811b508c5bb1cb47bb6e4fb5822"
+msgstr ""
+"@@image: 'images/menus/view/display-filters/sight-defects_normal-view.png'; "
+"md5=d27cd811b508c5bb1cb47bb6e4fb5822"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/view/display-filters.xml:227(None)
+msgid ""
+"@@image: 'images/menus/view/display-filters/sight-defects_protanopia.png'; "
+"md5=39a67703e8f3054c17f385b456e2caab"
+msgstr ""
+"@@image: 'images/menus/view/display-filters/sight-defects_protanopia.png'; "
+"md5=39a67703e8f3054c17f385b456e2caab"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/view/display-filters.xml:236(None)
+msgid ""
+"@@image: 'images/menus/view/display-filters/sight-defects_deuteranopia.png'; "
+"md5=5588c44964bbb5af53c5294252e9d62d"
+msgstr ""
+"@@image: 'images/menus/view/display-filters/sight-defects_deuteranopia.png'; "
+"md5=5588c44964bbb5af53c5294252e9d62d"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/view/display-filters.xml:247(None)
+msgid ""
+"@@image: 'images/menus/view/display-filters/sight-defects_tritanopia.png'; "
+"md5=a87acfce1e2aaa0c0537e4a1b845854f"
+msgstr ""
+"@@image: 'images/menus/view/display-filters/sight-defects_tritanopia.png'; "
+"md5=a87acfce1e2aaa0c0537e4a1b845854f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/view/display-filters.xml:271(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/view/display-filters/gamma.png'; "
+"md5=c2f74a123809770b4598b8db2236e4cf"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/view/display-filters.xml:306(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/view/display-filters/contrast.png'; "
+"md5=d626ca130c329eb68b27f94842659065"
+msgstr "@@image: 'images/menus/help.png'; md5=166c3b733e8d1c03b26206812c7c44a9"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/view/display-filters.xml:358(None)
+msgid ""
+"@@image: 'images/menus/view/display-filters/color-management.png'; "
+"md5=38a33086118e8c96c3868f80b63438af"
+msgstr ""
+"@@image: 'images/menus/view/display-filters/color-management.png'; "
+"md5=38a33086118e8c96c3868f80b63438af"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/view/display-filters.xml:405(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/view/display-filters/color-proof.png'; "
+"md5=070af45f937176a0ebcdbe60127fbb2c"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#: src/menus/view/display-filters.xml:12(title)
+#, fuzzy
+msgid "Display Filters"
+msgstr ""
+"_Filters പ്രദർശിപ്പിക്കുക ..."
+
+#: src/menus/view/display-filters.xml:15(primary)
+#: src/menus/view/display-filters.xml:92(primary)
+#: src/menus/view/padding-color.xml:24(primary)
+msgid "Color"
+msgstr ""
+"വർണ്ണ"
+
+#: src/menus/view/display-filters.xml:16(secondary)
+#, fuzzy
+msgid "Color display"
+msgstr ""
+"വർണ്ണ നിയന്ത്രിത ഡിസ്പ്ലേ"
+
+#: src/menus/view/display-filters.xml:18(para)
+msgid ""
+"This command shows a dialog window when executed. This window can be used to "
+"manage the display filters and their options. Display filters are not to be "
+"confused with the filters in the <guimenu>filters</guimenu>-menu. Display "
+"filters do not alter the image data, but only one display of it. You can "
+"imagine display filters like big panes before your screen. They change your "
+"perception of the image. This can be useful for things like soft proofing "
+"prints, controlling the color management but also simulation of color "
+"deficient vision."
+msgstr ""
+"വധിക്കപ്പെട്ട ഈ കമാൻഡ് ഒരു ഡയലോഗ് ജാലകം കാണിക്കുന്നു. ഈ വിൻഡോ ഡിസ്പ്ലേ ഫി"
+"ൽട്ടറുകൾ അവരുടെ ഓപ്ഷനുകൾ മാനേജ് ഉപയോഗിക്കാൻ കഴിയും. പ്രദർശിപ്പിക്കുക ഫിൽട്"
+"ടറുകൾ <guimenu>filters</guimenu> -menu ലെ ഫിൽട്ടറുകൾ ഉപയോഗിച്ച് തെറ്റിദ്ധര"
+"ിക്കരുത് ചെയ്യരുത്. പ്രദർശിപ്പിക്കുക ഫിൽട്ടറുകൾ ഇമേജ് ഡാറ്റ മാറ്റം; അതു ഒരാ"
+"ൾ മാത്രമേ കാണാം. നിങ്ങളുടെ സ്ക്രീൻ മുമ്പിൽ വലിയ പാനുകൾ പോലെ ഡിസ്പ്ലേ ഫിൽട്"
+"ടറുകൾ ഊഹിക്കാവുന്നതേയുള്ളൂ. അവർ ചിത്രത്തിന്റെ നിങ്ങളുടെ മാറ്റണം. ഈ നിറം മാന"
+"േജ്മെന്റ് മാത്രമല്ല നിറം കുറവ് ദർശനം അനുകരിക്കുന്ന നിയന്ത്രിക്കൽ, സോഫ്റ്റ്"
+" നിവാരണരീതികള് പ്രിന്റുകൾ കാര്യങ്ങൾ ഉപയോഗപ്പെടും."
+
+#: src/menus/view/display-filters.xml:31(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Display Filters…</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/view/display-filters.xml:41(title)
+msgid "Description of the <quote>Display Filters</quote> Dialog"
+msgstr ""
+"<quote>Display Filters</quote> സംഭാഷണം വിവരണം"
+
+#: src/menus/view/display-filters.xml:43(title)
+#, fuzzy
+msgid "The <quote>Configure Color Display Filters</quote> dialog"
+msgstr ""
+"വർണ്ണ പ്രദർശിപ്പിക്കുക അരിപ്പകൾ ക്രമീകരിയ്ക്കുക"
+
+#: src/menus/view/display-filters.xml:53(para)
+msgid ""
+"This dialog has two small selectboxes. The left selectbox displays the "
+"<guilabel>Available Filters</guilabel>. You can move a filter to the right "
+"selectbox by selecting it and clicking on the <guibutton>right arrow</"
+"guibutton> button. The <guilabel>Active Filters</guilabel> window on the "
+"right displays filters you have chosen and which will be applied if the "
+"adjacent box is checked. You can move filters from the right selectbox to "
+"the left selectbox by using the <guibutton>left arrow</guibutton> button. If "
+"you select a filter by clicking on its name, its options are displayed below "
+"the two selectboxes, in the <guilabel>Configure Selected Filter</guilabel> "
+"area."
+msgstr ""
+"ഈ ഡയലോഗ് രണ്ടു ചെറിയ selectboxes ഉണ്ട്. അവശേഷിക്കുന്നു selectbox <guilabel"
+">Available Filters</guilabel> പ്രദർശിപ്പിക്കുന്നു. നിങ്ങൾ <guibutton>right "
+"arrow</guibutton> ബട്ടൺ അതു ക്ലിക്കു തിരഞ്ഞെടുത്ത് ശരിയായ selectbox ഒരു ഫിൽ"
+"ട്ടർ നീക്കാൻ കഴിയും. നിങ്ങൾ തിരഞ്ഞെടുത്തു ബോക്സുകൾ പരിശോധിയ്ക്കുന്നു എങ്ക"
+"ിൽ പ്രയോഗിക്കും അനുസരിച്ചാണ് പ്രദർശിപ്പിക്കുന്നു ഫിൽട്ടറുകൾ ന് <guilabel>A"
+"ctive Filters</guilabel> വിൻഡോ. നിങ്ങൾ <guibutton>left arrow</guibutton> ബ"
+"ട്ടൺ ഉപയോഗിച്ച് ഇടത് selectbox അവകാശം selectbox നിന്ന് ഫിൽട്ടറുകൾ നീക്കാം."
+" നിങ്ങൾ അതിന്റെ പേരിൽ ക്ലിക്കുചെയ്ത് ഒരു ഫില്റ്റര്, അതിന്റെ ഓപ്ഷനുകൾ <guila"
+"bel>Configure Selected Filter</guilabel> പ്രദേശത്തെ രണ്ടു selectboxes ചുവടെ"
+" പ്രദർശിപ്പിച്ചിരിക്കുന്നു."
+
+#: src/menus/view/display-filters.xml:68(para)
+msgid ""
+"<phrase>Simulation of deficient vision</phrase> (<xref linkend=\"gimp-"
+"deficient-vision\"/>; <xref linkend=\"gimp-contrast-dialog\"/>)"
+msgstr ""
+"<phrase>Simulation of deficient vision</phrase> (<xref linkend=\"gimp- defi"
+"cient-vision\" />; <xref linkend=\"gimp-contrast-dialog\" />)"
+
+#: src/menus/view/display-filters.xml:75(para)
+msgid ""
+"<phrase>Color Management</phrase> (<xref linkend=\"gimp-display-filter-color-"
+"management\"/>; <xref linkend=\"gimp-color-proof\"/>)"
+msgstr ""
+"<phrase>Color Management</phrase> (<xref linkend=\"gimp-display-filter-colo"
+"r- management\" />; <xref linkend=\"gimp-color-proof\" />)"
+
+#: src/menus/view/display-filters.xml:82(para)
+msgid "<phrase>Others</phrase> (<xref linkend=\"gimp-gamma-dialog\"/>)"
+msgstr ""
+"<phrase>Others</phrase> (<xref linkend=\"gimp-gamma-dialog\" />)"
+
+#: src/menus/view/display-filters.xml:90(title)
+msgid "Color Deficient Vision"
+msgstr ""
+"കളർ പകുതിയിലേറെ വിഷൻ"
+
+#: src/menus/view/display-filters.xml:93(secondary)
+#, fuzzy
+msgid "Deficient vision"
+msgstr ""
+"കളർ പകുതിയിലേറെ വിഷൻ"
+
+#: src/menus/view/display-filters.xml:95(para)
+msgid ""
+"The images you create, we hope, will be seen by many people on many "
+"different systems. The image which looks so wonderful on your screen may "
+"look somewhat different to people with sight deficiencies or on a screen "
+"with different settings from yours. Some information might not even be "
+"visible."
+msgstr ""
+"നിങ്ങൾ സൃഷ്ടിക്കുന്ന ചിത്രങ്ങൾ, ഞങ്ങൾ പ്രതീക്ഷിക്കുന്നു, പല വ്യത്യസ്ത സിസ്റ"
+"്റങ്ങളിൽ പലരും കാണും. നിങ്ങളുടെ സ്ക്രീനിൽ അങ്ങനെ കാര്യമായി ചിത്രത്തിന്റെ കാ"
+"ഴ്ച അപര്യാപ്തതകൾ കൊണ്ട് ടെയോ നിന്ന് വ്യത്യസ്ത ക്രമീകരണങ്ങളിൽ ഒരു സ്ക്രീൻ "
+"മനുഷ്യരോട് കുറച്ച് വ്യത്യസ്തമാണ് കാണപ്പെടാം. ചില വിവരങ്ങൾ പോലും നാടാണ് വര"
+"ില്ല."
+
+#: src/menus/view/display-filters.xml:103(title)
+msgid "Description of the <quote>Color Deficient Vision</quote> dialog"
+msgstr ""
+"<quote>Color Deficient Vision</quote> ഡയലോഗിന്റെ വിവരണം"
+
+#: src/menus/view/display-filters.xml:115(title)
+#: src/menus/view/display-filters.xml:327(title)
+#: src/menus/view/display-filters.xml:369(title)
+msgid "Options"
+msgstr ""
+"ഓപ്ഷനുകൾ"
+
+#: src/menus/view/display-filters.xml:118(term)
+#, fuzzy
+msgid "Color Deficiency Type"
+msgstr ""
+"വർണ്ണ _deficiency തരം:"
+
+#: src/menus/view/display-filters.xml:120(para)
+msgid "In this drop-down menu you can select from among:"
+msgstr ""
+"നിങ്ങളുടെ ഇടയിൽ നിന്നു തിരഞ്ഞെടുക്കാം ഈ ഡ്രോപ്പ്-ഡൌൺ മെനുവിൽ:"
+
+#: src/menus/view/display-filters.xml:127(para)
+msgid ""
+"Greek: <foreignphrase>proto</foreignphrase>: first (color in the <link "
+"linkend=\"glossary-colormodel\">RGB Color System</link>): <foreignphrase>an</"
+"foreignphrase>: negation; <foreignphrase>op</foreignphrase>: eye, vision."
+msgstr ""
+"ഗ്രീക്ക്: <foreignphrase>proto</foreignphrase>: ആദ്യം (<link linkend=\"glos"
+"sary-colormodel\">RGB Color System</link> നിറം): <foreignphrase>an</foreign"
+"phrase>: negation; <foreignphrase>op</foreignphrase>: കണ്ണ്, ദർശനം."
+
+#: src/menus/view/display-filters.xml:125(term)
+#, fuzzy
+msgid "Protanopia<placeholder-1/> (insensitivity to red)"
+msgstr ""
+"പ്രോട്ടാനോപ്പിയ (ചുവപ്പ് ലേക്ക് insensitivity)"
+
+#: src/menus/view/display-filters.xml:138(para)
+msgid ""
+"Protanopia is a visual deficiency of the color red. It's the well-known "
+"daltonism (red-green color blindness). Daltonism occurs fairly frequently in "
+"the population."
+msgstr ""
+"പ്രോട്ടാനോപ്പിയ നിറം ചുവപ്പ് ഒരു ദൃശ്യ കുറവ് ആണ്. അതു നന്നായി അറിയപ്പെടുന"
+"്ന daltonism (ചുവപ്പ്-പച്ച നിറം അന്ധത) തുടർന്ന്. Daltonism ജനസംഖ്യ പരിഗണിക്"
+"കുന്നു പതിവായി സംഭവിക്കുന്നത്."
+
+#: src/menus/view/display-filters.xml:143(para)
+msgid ""
+"Protanopia is actually more complex than this; a person with this problem "
+"cannot see either red or green, although he is still sensitive to yellow and "
+"blue. In addition, he has a loss of luminance perception and the hues shift "
+"toward the short wavelengths."
+msgstr ""
+"പ്രോട്ടാനോപ്പിയ അതിനെക്കാൾ യഥാർത്ഥത്തിൽ കൂടുതൽ സങ്കീർണമായ; അവൻ ഇപ്പോഴും "
+"മഞ്ഞ, നീല സെൻസിറ്റീവ് ആണെങ്കിലും ഈ പ്രശ്നം ഒരു വ്യക്തി, ചുവപ്പ്, പച്ച ഒന്നു"
+"കിൽ കാണാൻ കഴിയില്ല. പുറമേ, luminance പറച്ചിലിന് ഒരു നഷ്ടം ഉണ്ട് ആൻഡ് ഹ്യൂസ്"
+" ഹ്രസ്വ തരംഗങ്ങളെ നേരെ shift."
+
+#: src/menus/view/display-filters.xml:153(term)
+#, fuzzy
+msgid "Deuteranopia (insensivity to green)"
+msgstr ""
+"ഡ്യൂട്ടെറാനോപ്പിയ (പച്ച ലേക്ക് insensitivity)"
+
+#: src/menus/view/display-filters.xml:155(para)
+msgid ""
+"With deuteranopia, the person has a deficiency in green vision. Deuteranopia "
+"is actually like protanopia, because the person has a loss of red and green "
+"perception, but he has no luminance loss or hue shift."
+msgstr ""
+"ഡ്യൂട്ടെറാനോപ്പിയ വ്യക്തിയുടെ പച്ച ദർശനത്തിൽ ഒരു കുറവ് ഉണ്ട്. ഡ്യൂട്ടെറാനേ"
+"ാപ്പിയ വ്യക്തി ചുവപ്പും പച്ചയും പറച്ചിലിന് ഒരു നഷ്ടം ഉള്ളതിനാൽ പ്രോട്ടാനോ"
+"പ്പിയ യല്ലേയുള്ളൂ, അവൻ യാതൊരു luminance നഷ്ടമോ ചെഞ്ചായം ഷിഫ്റ്റ് ഉണ്ട്."
+
+#: src/menus/view/display-filters.xml:164(term)
+msgid "Tritanopia (insensitivity to blue)"
+msgstr ""
+"ട്രിട്ടാനോപ്പിയ (നീല insensitivity)"
+
+#: src/menus/view/display-filters.xml:166(para)
+msgid ""
+"With tritanopia, the person is deficient in blue and yellow perception, "
+"although he is still sensitive to red and green. He lacks some perception of "
+"luminance, and the hues shift toward the long wavelengths."
+msgstr ""
+"ട്രിട്ടാനോപ്പിയ വ്യക്തിയുടെ അവൻ ഇപ്പോഴും ചുവപ്പ്, പച്ച സെൻസിറ്റീവ് ധാരണ ന"
+"ീല, മഞ്ഞ ആവേഗം പകുതിയിലേറെ ആണ്. അവൻ luminance ചില ആവേഗം പോയിട്ടില്ല, ആൻഡ് "
+"ഹ്യൂസ് നീണ്ട തരംഗങ്ങളെ നേരെ shift."
+
+#: src/menus/view/display-filters.xml:181(title)
+#, fuzzy
+msgid "Examples"
+msgstr ""
+"സാമ്പിൾ:"
+
+#: src/menus/view/display-filters.xml:183(title)
+msgid "Example of protanopia"
+msgstr ""
+"പ്രോട്ടാനോപ്പിയ ഉദാഹരണം"
+
+#: src/menus/view/display-filters.xml:190(para)
+#, fuzzy
+msgid "Original image"
+msgstr ""
+"യഥാർത്ഥ"
+
+#. As you can see, a red-blind person cannot see the red (255,0,0)
+#.               text on a black (0,0,0) background. You have to change the text
+#.               color. Daltonism occurs fairly frequently in the population.
+#: src/menus/view/display-filters.xml:204(para)
+msgid ""
+"A red-blind person cannot see the red (255,0,0) text on a black (0,0,0) "
+"background."
+msgstr ""
+"ഒരു ചുവന്ന-അന്ധനായ വ്യക്തി ഒരു കറുത്ത (0,0,0) പശ്ചാത്തലത്തിൽ ചുവന്ന (255,0,"
+"0) ടെക്സ്റ്റ് കാണാൻ കഴിയില്ല."
+
+#: src/menus/view/display-filters.xml:212(title)
+msgid "Examples of the three types of vision deficiencies in one image"
+msgstr ""
+"ഒറ്റ സ്വരൂപത്തിൽ ദർശനം അപര്യാപ്തതകൾ മൂന്നു തരം ഉദാഹരണങ്ങൾ"
+
+#: src/menus/view/display-filters.xml:221(para)
+#, fuzzy
+msgid "Normal vision"
+msgstr "Normalising"
+
+#: src/menus/view/display-filters.xml:230(para)
+msgid "Protanopia"
+msgstr ""
+"പ്രോട്ടാനോപ്പിയ"
+
+#: src/menus/view/display-filters.xml:239(para)
+msgid "Deuteranopia; in deuteranopia, yellow is shifted toward red."
+msgstr ""
+"ഡ്യൂട്ടെറാനോപ്പിയ; ഡ്യൂട്ടെറാനോപ്പിയ യെല്ലോ ചുവപ്പ് നേരെ ബോര്ഡിന്."
+
+#: src/menus/view/display-filters.xml:250(para)
+msgid ""
+"Tritanopia; in tritanopia, green is slightly represented in the blue range."
+msgstr ""
+"ട്രിട്ടാനോപ്പിയ; ട്രിട്ടാനോപ്പിയ ലെ, പച്ച ചെറുതായി നീല പരിധി കാണിക്കുന്നു"
+"."
+
+#: src/menus/view/display-filters.xml:261(title)
+#: src/menus/view/display-filters.xml:263(primary)
+msgid "Gamma"
+msgstr ""
+"ഗാമാ"
+
+#: src/menus/view/display-filters.xml:267(title)
+#, fuzzy
+msgid "The <quote>Gamma</quote> dialog"
+msgstr ""
+"<quote>Image</quote> മെനു"
+
+#: src/menus/view/display-filters.xml:276(para)
+msgid ""
+"The correspondence between electrical intensity and color brightness is not "
+"exact and it depends upon the device (the camera, the scanner, the monitor, "
+"etc.). <quote>Gamma</quote> is a coefficient used to correct this "
+"correspondence. Your image must be visible in both dark and bright areas, "
+"even if it is displayed on a monitor with too much luminence or not enough. "
+"The <quote>Gamma</quote> Display Filter allows you to get an idea of the "
+"appearance of your image under these conditions."
+msgstr ""
+"ഇലക്ട്രിക്കൽ ഗാഢത നിറം തെളിച്ചം തമ്മിലുള്ള കറസ്പോണ്ടൻസ് തോല്പിക്കയില്ല അത"
+"ു ഉപകരണം (ക്യാമറ, സ്കാനർ, മോണിറ്റർ മുതലായവ) ആശ്രയിച്ചിരിക്കുന്നു. <quote>G"
+"amma</quote> ഈ എഴുത്തുകുത്തുകളും തിരുത്താൻ ഉപയോഗിക്കുന്ന ഒരു ഗുണകമായ ആണ്. "
+"നിങ്ങളുടെ ചിത്രം വളരെയധികം luminence അല്ലെങ്കിൽ പോരാ ഒരു മോണിറ്ററിൽ പ്രദർ"
+"ശിപ്പിച്ചിരിക്കുന്നു പോലും, ഇരുണ്ട ചുറ്റിത്തിരിയുന്ന ഇരുവരും മേഖലകളിൽ ദൃശ്"
+"യമാകും ആയിരിക്കണം. <quote>Gamma</quote> പ്രദർശിപ്പിക്കുക ഫിൽറ്റർ ഈ വ്യവസ്ഥക"
+"ൾ പ്രകാരം നിങ്ങളുടെ ചിത്രത്തിന്റെ രൂപം ധാരണ അനുവദിക്കുന്നു."
+
+#: src/menus/view/display-filters.xml:287(para)
+msgid ""
+"In case you want not only to change the gamma of the current display, but "
+"the change the gamma within the image itself, you can find a description in "
+"<xref linkend=\"gimp-tool-levels\"/>."
+msgstr ""
+"നിലവിലെ ഡിസ്പ്ലേ ഗാമാ, എന്നാൽ മാറ്റം ചിത്രം തന്നെ ഗാമ മാറ്റാൻ മാത്രമല്ല ആഗ്"
+"രഹിക്കുന്ന സാഹചര്യത്തിൽ, <xref linkend=\"gimp-tool-levels\" /> ഒരു വിവരണം ക"
+"ണ്ടെത്താൻ കഴിയും."
+
+#: src/menus/view/display-filters.xml:296(title)
+#: src/menus/view/display-filters.xml:298(primary)
+msgid "Contrast"
+msgstr ""
+"അന്തരം"
+
+#: src/menus/view/display-filters.xml:302(title)
+#, fuzzy
+msgid "The <quote>Contrast</quote> dialog"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/view/display-filters.xml:311(para)
+msgid ""
+"Here, we are back in the medical domain. <quote>Contrast Sensitivity</quote> "
+"is the capacity of the visual system to distinguish slight differences in "
+"contrast. Some people with cataracts (which means that the lens has opaque "
+"crystals that scatter light over the retina) or retinal disease (for "
+"instance, due to diabetes, which destroys the rods and cones) have a "
+"deficiency in sensitivity to contrast: for example, they would have "
+"difficulties distinguishing spots on a dress."
+msgstr ""
+"ഇവിടെ, ഞങ്ങൾ തിരികെ മെഡിക്കൽ പൊതുസഞ്ചയത്തിലായിത്തീരുന്നതാണ്. <quote>Contra"
+"st Sensitivity</quote> വിപരീതമാണ് ചെറുതായി വ്യത്യാസങ്ങൾ വേർതിരിച്ചറിയാൻ വിഷ"
+"്വൽ സിസ്റ്റം ശേഷി ആണ്. (അന്താഴം, അതോടൊപ്പം നശിപ്പിച്ച്, കാരണം പ്രമേഹം ഉദാ"
+"ഹരണത്തിന്,) തിമിരം ചില ആളുകളെ അല്ലെങ്കിൽ നശിച്ചുകൊണ്ടിരുന്നു (ഏത് ലെൻസ് റെ"
+"റ്റിനയിൽ മേൽ വെളിച്ചം ചിതറിക്കയും സുതാര്യമല്ല പരലുകൾ ഉണ്ട് എന്നാണ്) എന്നാൽ "
+"സംവേദനക്ഷമത ഒരു കുറവ് ഉണ്ട്: ഉദാഹരണത്തിന്, ഡ്രസ് ന് പാടുകൾ വേർതിരിച്ചറിഞ്ഞു"
+"കൊണ്ടു ബുദ്ധിമുട്ടുകൾ തന്നെ."
+
+#: src/menus/view/display-filters.xml:321(para)
+msgid ""
+"If you are interested in this subject, you can browse the Web for "
+"<quote>contrast sensitivity</quote>."
+msgstr ""
+"ഈ വിഷയത്തിൽ താൽപ്പര്യമില്ലെങ്കിൽ, നിങ്ങൾക്ക് <quote>contrast sensitivity</q"
+"uote> വെബ് ബ്രൗസ് ചെയ്യാൻ കഴിയും."
+
+#: src/menus/view/display-filters.xml:330(term)
+#, fuzzy
+msgid "Contrast Cycles"
+msgstr ""
+"c_ycles കോണ്ട്രാസ്റ്റ്:"
+
+#: src/menus/view/display-filters.xml:332(para)
+msgid ""
+"With the <quote>Contrast</quote> Filter, you can see the image as if you "
+"were suffering from cataracts. You may have to increase the contrast of the "
+"image so that your grandmother can see it well. In most cases, only very low "
+"values of the <guilabel>Contrast Cycles</guilabel> parameter are of "
+"interest. Higher values create a side-effect which doesn't interest us here: "
+"if you increase the luminosity value above 255, the complementary color "
+"appears."
+msgstr ""
+"<quote>Contrast</quote> അരിപ്പ, നിങ്ങൾ തിമിരം ബുദ്ധിമുട്ടുന്ന പോലെ കാണാൻ ക"
+"ഴിയും. നിങ്ങളുടെ മുത്തശ്ശിക്ക് നന്നായി കാണാൻ കഴിയും അങ്ങനെ ചിത്രത്തിന്റെ തീ"
+"വ്രത വർദ്ധിപ്പിക്കാൻ ഉണ്ടായേക്കാം. മിക്കപ്പോഴും, <guilabel>Contrast Cycles"
+"</guilabel> പരാമീറ്റർ മാത്രം വളരെ കുറഞ്ഞ മൂല്യങ്ങൾ ശ്രദ്ധിക്കപ്പെട്ടിട്ടുണ്"
+"ട്. ഹയർ മൂല്യങ്ങൾ ഇവിടെ യു.എസ് താൽപ്പര്യം ഇല്ലാത്ത ഒരു വശത്ത് പ്രഭാവം സൃഷ്ട"
+"ിക്കാൻ: നിങ്ങൾ 255 മുകളിൽ പ്രതല മൂല്യം വർദ്ധിച്ചാൽ, തീർക്കുന്ന നിറം ലഭ്യമാക"
+"ുന്നു."
+
+#: src/menus/view/display-filters.xml:349(title)
+msgid "Color Management"
+msgstr ""
+"വർണ്ണ മാനേജ്മെന്റ്"
+
+#: src/menus/view/display-filters.xml:351(primary)
+#, fuzzy
+msgid "Color management"
+msgstr ""
+"വർണ്ണ മാനേജ്മെന്റ്"
+
+#: src/menus/view/display-filters.xml:354(title)
+#, fuzzy
+msgid "The <quote>Color Management</quote> dialog"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/view/display-filters.xml:362(para)
+msgid ""
+"This filter allows to enable the GIMP color management for each image "
+"window. To learn more about the color management in GIMP, please read <xref "
+"linkend=\"gimp-concepts-color-management\"/>."
+msgstr ""
+"ഈ ഫിൽട്ടർ ഓരോ ചിത്രവും വിൻഡോ വേണ്ടി ജിമ്പ് നിറം മാനേജ്മെന്റ് പ്രവർത്തനക്ഷ"
+"മമാക്കാൻ അനുവദിക്കുന്നു. ജിമ് നിറം മാനേജ്മെന്റ് കുറിച്ച് കൂടുതലറിയാൻ, <xref"
+" linkend=\"gimp-concepts-color-management\" /> വായിക്കുക."
+
+#: src/menus/view/display-filters.xml:370(para)
+msgid ""
+"All the customizing for the color management in GIMP has to be done in the "
+"GIMP preferences. You can find detailed information about this in <xref "
+"linkend=\"gimp-prefs-color-management\"/>."
+msgstr ""
+"ജിമ് നിറം മാനേജ്മെന്റ് എല്ലാ ഇഷ്ടാനുസൃതമാക്കുന്നതിനെക്കുറിച്ച് ജിമ് മുൻഗണനക"
+"ളിൽ ചെയ്യണമെന്ന. താങ്കൾക്ക് <xref linkend=\"gimp-prefs-color-management\" /"
+"> കണ്ടെത്താൻ കഴിയും ഈ വിശദമായ വിവരങ്ങൾ."
+
+#: src/menus/view/display-filters.xml:379(title)
+msgid "Color Proof"
+msgstr ""
+"വർണ്ണ രേഖകൾ"
+
+#: src/menus/view/display-filters.xml:381(primary)
+#, fuzzy
+msgid "Color proof"
+msgstr ""
+"വർണ്ണ രേഖകൾ"
+
+#: src/menus/view/display-filters.xml:384(primary)
+msgid "Soft proof"
+msgstr ""
+"സോഫ്റ്റ് തെളിവ്"
+
+#: src/menus/view/display-filters.xml:386(para)
+msgid ""
+"The various systems for reproducing colors cannot represent the infinity of "
+"colors available. Even if there are many colors in common between the "
+"various systems and nature, some of the colors will not be the same. The "
+"<quote>gamut</quote> is the color range of a system. <emphasis>Color "
+"Profiles</emphasis> allow you to compensate for these differences."
+msgstr ""
+"നിറങ്ങൾ പുനരുൽപ്പാദിപ്പിക്കുന്നതിനായുമുള്ള വിവിധ സിസ്റ്റങ്ങൾ നിറങ്ങള് അനന്ത"
+"മായി പ്രതിനിധാനം കഴിയില്ല. വിവിധ സിസ്റ്റങ്ങളിൽ പ്രകൃതിയും തമ്മിലുള്ള പൊതുവ"
+"ായി പല നിറങ്ങൾ ഉണ്ട് പോലും, നിറങ്ങൾ ചില പോലെയായിരിക്കയില്ല. <quote>gamut<"
+"/quote> ഒരു സിസ്റ്റം നിറം സ്ഥിതിചെയ്യുന്നത്. <emphasis>Color Profiles</emph"
+"asis> നിങ്ങൾ ഈ വ്യത്യാസങ്ങൾ പരിഹരിക്കുന്നതിനായി അനുവദിക്കുക."
+
+#: src/menus/view/display-filters.xml:394(para)
+msgid ""
+"Before you print an image, it may be useful for you to see if you will get "
+"the result you want by applying a profile. The <quote>Color Proof</quote> "
+"filter shows you how your image will look after a color profile has been "
+"applied."
+msgstr ""
+"നിങ്ങൾ ഒരു ഇമേജ് പ്രിന്റ് മുമ്പ്, നിങ്ങൾ ഒരു പ്രൊഫൈൽ അപേക്ഷിക്കുന്ന താൽപ്പ"
+"ര്യപ്പെടുന്ന ഫലം ലഭിക്കും എങ്കിൽ നിങ്ങൾക്ക് കാണാൻ ഉപയോഗപ്രദമാകും. <quote>C"
+"olor Proof</quote> ഫിൽട്ടർ ഒരു കളർ പ്രൊഫൈൽ പ്രയോഗിച്ച ശേഷം എങ്ങനെ നിങ്ങളു"
+"ടെ ചിത്രം നോക്കും കാണിക്കുന്നു."
+
+#: src/menus/view/display-filters.xml:401(title)
+#, fuzzy
+msgid "The <quote>Color Proof</quote> dialog"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/view/display-filters.xml:411(title)
+#, fuzzy
+msgid "The <quote>Color Proof</quote> options"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/view/display-filters.xml:414(term)
+#, fuzzy
+msgid "Profile"
+msgstr ""
+"_പ്രൊഫൈൽ:"
+
+#: src/menus/view/display-filters.xml:416(para)
+msgid ""
+"This option allows to select a color profile that is used to simulate the "
+"color abilities of the printer. If the desired profile is not shown in the "
+"list you might want to add it by selecting a file. This can be done by "
+"selecting the last entry of the list."
+msgstr ""
+"ഈ ഓപ്ഷൻ പ്രിന്റർ നിറം കഴിവുകൾ പകർത്താനായി ഉപയോഗിക്കുന്ന ഒരു നിറം പ്രൊഫൈൽ "
+"തിരഞ്ഞെടുക്കുക അനുവദിക്കുന്നു. ഉദ്ദേശിച്ച പ്രൊഫൈൽ ലിസ്റ്റിൽ കാണിക്കില്ല എങ"
+"്കിൽ നിങ്ങൾ ഒരു ഫയൽ തിരഞ്ഞെടുത്ത് അത് ചേർക്കാൻ ആഗ്രഹിക്കുന്നു വേണ്ടി. ഈ ലിസ"
+"്റ്റിൽ അവസാന എൻട്രി തിരഞ്ഞെടുത്ത് ചെയ്യാവുന്നതാണ്."
+
+#: src/menus/view/display-filters.xml:426(term)
+#, fuzzy
+msgid "Intent"
+msgstr ""
+"_ഉദ്ദേശത്തോടെ:"
+
+#: src/menus/view/display-filters.xml:428(para)
+msgid ""
+"With this option you can select the rendering intent, which is the method "
+"used to determine how colors that can't be reproduced by a device "
+"(<quote>are out of gamut</quote>) should be handled. The different rendering "
+"intents are described in detail in the glossary <xref linkend=\"glossary-"
+"rendering-intent\"/>."
+msgstr ""
+"ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് നിങ്ങൾക്ക് ഒരു ഉപകരണം (<quote>are out of gamut</quote>)"
+" വഴി പുനർനിർമ്മിക്കാവുന്നതാണ് കഴിയില്ല നിറങ്ങൾ കൈകാര്യം ചെയ്യണമെന്നും എങ്ങന"
+"െ നിർണ്ണയിക്കാൻ ഉപയോഗിക്കുന്ന രീതി ആണ് തർജ്ജമ ഉദ്ദേശത്തോടെ, തിരഞ്ഞെടുക്കാ"
+"ം. വിവിധ റെൻഡറിംഗ് ഇൻഡന്റുകൾ ഗ്ലോസറി <xref linkend=\"glossary- rendering-i"
+"ntent\" /> വിശദമായി പ്രതിപാദിച്ചിരിക്കുന്നു."
+
+#: src/menus/view/display-filters.xml:438(term)
+#, fuzzy
+msgid "Black Point Compensation"
+msgstr ""
+"_Black പോയിന്റ് കോംപൻസേഷൻ"
+
+#: src/menus/view/display-filters.xml:440(para)
+msgid ""
+"Black point compensation allows a better representaion of dark colors of "
+"your image when printing."
+msgstr ""
+"ബ്ലാക്ക് പോയിന്റ് നഷ്ടപരിഹാരം അച്ചടിക്കുമ്പോൾ നിങ്ങളുടെ ചിത്രത്തിൻറെ ഇരുണ"
+"്ട നിറങ്ങൾ മെച്ചപ്പെട്ട representaion അനുവദിക്കുന്നു."
+
+#: src/menus/view/snap-to-grid.xml:10(title)
+#: src/menus/view/snap-to-grid.xml:14(secondary)
+#: src/menus/view/snap-to-grid.xml:17(primary)
+#, fuzzy
+msgid "Snap to Grid"
+msgstr ""
+"ഗ്രിഡിലേക്ക് Sna_p"
+
+#: src/menus/view/snap-to-grid.xml:20(para)
+msgid ""
+"The <guimenuitem>Snap to Grid</guimenuitem> command enables and disables "
+"snap to grid. When snap to grid is enabled, the grid you set (see <link "
+"linkend=\"gimp-view-show-grid\">Show Grid</link>) almost seems magnetic; "
+"when you move a layer or selection, the grid points appear to pull on it "
+"when it approaches. This is enormously useful for accurate placement of "
+"image elements."
+msgstr ""
+"<guimenuitem>Snap to Grid</guimenuitem> കമാൻഡ് പ്രാപ്തരാക്കുകയും ഗ്രിഡിലേക്"
+"ക് സ്നാപ്പ് അപ്രാപ്തമാക്കുന്നു. എപ്പോഴാണ് ഗ്രിഡിലേക്ക് സ്നാപ്പ് പ്രവർത്തനക"
+"്ഷമമാണ്, (<link linkend=\"gimp-view-show-grid\">Show Grid</link> കാണുക) സജ്"
+"ജമാക്കാൻ ഗ്രിഡ് ഏതാണ്ട് കാന്തിക തോന്നും; നിങ്ങൾ ഒരു പാളി അല്ലെങ്കിൽ സെലക്ഷ"
+"നും നീക്കുമ്പോൾ, ഗ്രിഡ് പോയിന്റുകൾ ആസന്നമാവുമ്പോൾ അത് വലിക്കുക തോന്നുന്"
+"നില്ല. ഈ ചിത്രം മൂലകങ്ങളുടെ കൃത്യതയാർന്ന പ്ലേസ്മെന്റിനായി ബൃഹത്തായ ഉപയോഗപ്"
+"പെടുന്നു."
+
+#: src/menus/view/snap-to-grid.xml:33(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Snap to Grid</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/view/navigwindow.xml:44(None)
+msgid ""
+"@@image: 'images/using/stock-navigation-16.png'; "
+"md5=8dfa3c79346ab6d6e8ce6ce190992fb9"
+msgstr ""
+"@@image: 'images/using/stock-navigation-16.png'; "
+"md5=8dfa3c79346ab6d6e8ce6ce190992fb9"
+
+#: src/menus/view/navigwindow.xml:10(title)
+#, fuzzy
+msgid "Navigation Window"
+msgstr ""
+"Na_vigation വിൻഡോ"
+
+#: src/menus/view/navigwindow.xml:13(primary)
+msgid "Navigation"
+msgstr ""
+"നാവിഗേഷൻ"
+
+#: src/menus/view/navigwindow.xml:14(secondary)
+#, fuzzy
+msgid "View Navigation window"
+msgstr ""
+"Na_vigation വിൻഡോ"
+
+#: src/menus/view/navigwindow.xml:17(para)
+msgid ""
+"The <guimenuitem>Navigation Window</guimenuitem> command opens the <link "
+"linkend=\"gimp-navigation-dialog\">navigation window</link>. This allows you "
+"to easily navigate through the image, to set zoom levels and to move the "
+"visible parts of the image. You can find more information about using it in "
+"the <link linkend=\"gimp-navigation-dialog\">Navigation dialog</link> "
+"chapter."
+msgstr ""
+"<guimenuitem>Navigation Window</guimenuitem> കമാൻഡ് <link linkend=\"gimp-na"
+"vigation-dialog\">navigation window</link> തുറക്കുന്നു. ഈ എളുപ്പത്തിൽ സൂം ല"
+"െവലുകൾ സജ്ജമാക്കാനും ചിത്രത്തിന്റെ ദൃശ്യമായ ഭാഗങ്ങൾ നീക്കാൻ ചിത്രത്തിന് നാവ"
+"ിഗേറ്റുചെയ്യുന്നതിനുള്ള അനുവദിക്കുന്നു. കണ്ടെത്താവുന്നതാണ് <link linkend=\""
+"gimp-navigation-dialog\">Navigation dialog</link> അധ്യായത്തിൽ അത് ഉപയോഗിച്"
+"ച് കൂടുതൽ വിവരങ്ങൾ."
+
+#: src/menus/view/navigwindow.xml:30(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Navigation Window</"
+"guimenuitem></menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/view/navigwindow.xml:39(para)
+#, fuzzy
+msgid ""
+"You can also access it more rapidly by clicking on the <placeholder-1/> icon "
+"in the lower right corner of the image window."
+msgstr ""
+"ചിത്രം വിൻഡോയുടെ താഴത്തെ വലത് കോണിലുള്ള നാവിഗേഷൻ പ്രിവ്യൂവിന്റെ വലിപ്പം ല"
+"ഭ്യമാണ് സജ്ജമാക്കുന്നു."
+
+#: src/menus/view/new.xml:10(title) src/menus/view/new.xml:13(primary)
+#, fuzzy
+msgid "New View"
+msgstr ""
+"_New കാണുക"
+
+#: src/menus/view/new.xml:16(para)
+msgid ""
+"The <guimenuitem>New View</guimenuitem> command creates a new image window "
+"for the current image, which you can set up differently from the existing "
+"display. You can create multiple views of any image, which are "
+"numbered .1, .2, etc., but only the zoom factor and other viewing options "
+"may be different. Any changes, other than viewing changes, which you make in "
+"one window also appear in the other displays which show the same image. The "
+"new views are not separate image files; they are simply different aspects of "
+"the same image. You might use multiple views, for example, if you were "
+"working on individual pixels at a high zoom factor. You could then see the "
+"effects your changes would have on the image at a normal size."
+msgstr ""
+"<guimenuitem>New View</guimenuitem> കമാൻഡ് നിലവിലുള്ള ഡിസ്പ്ലേ നിന്ന് വ്യത്"
+"യസ്തമായി സജ്ജമാക്കാൻ കഴിയുന്ന നിലവിലെ ചിത്രം, ഒരു പുതിയ ഇമേജ് വിൻഡോ സൃഷ്ടി"
+"ക്കുന്നു. നിങ്ങൾ മുതലായവ എണ്ണപ്പെട്ടിരിക്കുന്നു ഏത് .1 ഏതെങ്കിലും ചിത്ര, .2"
+", ഒന്നിലധികം കാഴ്ചകൾ സൃഷ്ടിക്കാൻ കഴിയും, എന്നാൽ മാത്രമേ സൂം ഫാക്ടർ മറ്റ് കാ"
+"ണൽ ഓപ്ഷനുകൾ വ്യത്യസ്തമായിരിക്കും. ഏതൊരു മാറ്റവും, നിങ്ങൾക്ക് ഒരു വിൻഡോയിൽ"
+" ചെയ്യുന്ന കാണുന്നത് മാറ്റങ്ങൾ പുറമെ ഒരേ ചിത്രം കാണിക്കുന്ന മറ്റ് ദൃശ്യങ്ങള"
+"ിലും ദൃശ്യമാകും. പുതിയ കാഴ്ചകൾ പ്രത്യേക ഇമേജ് ഫയലുകൾ അല്ല; അവർ ലളിതമായി ഒരേ"
+" ചിത്രം വിവിധ വശങ്ങളാണ്. ഒന്നിലധികം കാഴ്ചകൾ, നിങ്ങൾ ഒരു ഉയർന്ന സൂം ഫാക്റ്റർ"
+" ചെയ്തത് വ്യക്തിഗത പിക്സൽ പ്രവർത്തിക്കുന്നു എങ്കിൽ ഉദാഹരണത്തിന് ഉപയോഗിച്ചേ"
+"ക്കാം. അതിനുശേഷം, നിങ്ങൾ ഇഫക്റ്റുകൾ നിങ്ങളുടെ മാറ്റങ്ങൾ ഒരു സാധാരണ വലുപ്പത്"
+"തിൽ ചിത്രത്തിൽ കാണാൻ കഴിഞ്ഞില്ല."
+
+#: src/menus/view/new.xml:41(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>New View</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/view/shrink-wrap.xml:10(title)
+#: src/menus/view/shrink-wrap.xml:13(primary)
+#, fuzzy
+msgid "Shrink Wrap"
+msgstr ""
+"_Wrap ചുരുക്കുക"
+
+#: src/menus/view/shrink-wrap.xml:15(para)
+msgid ""
+"The <guimenuitem>Shrink Wrap</guimenuitem> command resizes the window so "
+"that it is exactly the same size as the image at the current zoom factor. If "
+"the image doesn't completely fit on the screen, the image window is enlarged "
+"so that the largest possible part of the image is shown. Please note that "
+"<acronym>GIMP</acronym> will do this automatically if you set the "
+"<quote>Resize window on zoom</quote> and <quote>Resize window on image size "
+"change</quote> options in the <link linkend=\"gimp-prefs-image-window"
+"\">Image Window</link> page of the Preferences dialog."
+msgstr ""
+"ഇത് നിലവിലെ സൂം ഘടകം ചിത്ര പോലെ കൃത്യമായി ഒരേ വലിപ്പം അങ്ങനെ <guimenuitem>"
+"Shrink Wrap</guimenuitem> കമാൻഡ് വിൻഡോ മാറ്റുന്നു. ചിത്രം പൂർണ്ണമായും സ്ക്"
+"രീനിൽ അനുയോജിക്കുന്നില്ലെങ്കിൽ, അങ്ങനെ ചിത്രത്തിന്റെ ഏറ്റവും വലിയ സാധ്യത ഭ"
+"ാഗം കാണിച്ചിരിക്കുന്നു ഇമേജ് വിൻഡോ വിശാലമായിരിക്കുന്നു. പ്രിഫറന്സ് ഡയലോഗി"
+"ന്റെ <link linkend=\"gimp-prefs-image-window \">Image Window</link> പേജിൽ <"
+"quote>Resize window on zoom</quote> ആൻഡ് <quote>Resize window on image size"
+" change</quote> ഓപ്ഷനുകൾ നിർത്തുന്നില്ലെങ്കിൽ <acronym>GIMP</acronym> സ്വയം"
+" ഇത് ചെയ്യാൻ കാര്യം ശ്രദ്ധിക്കുക."
+
+#: src/menus/view/shrink-wrap.xml:27(para)
+msgid ""
+"Please note also that the behavior described here is not performed by "
+"<acronym>GIMP</acronym> itself, but by the <quote>window manager</quote>, a "
+"part of the operating system of your computer. For that reason, the "
+"functionality described may be different on your computer, or in the worst "
+"case, might not be available at all."
+msgstr ""
+"ഇവിടെ സ്വഭാവസവിശേഷതകൾ നിവൃത്തിച്ചതുമില്ല എന്ന് <acronym>GIMP</acronym> സ്വയ"
+"ം എന്നാൽ <quote>window manager</quote>, നിങ്ങളുടെ കമ്പ്യൂട്ടറിന്റെ ഓപ്പറേറ്"
+"റിംഗ് സിസ്റ്റത്തിന്റെ ഒരു ഭാഗം കൊണ്ട് ശ്രദ്ധിക്കുക. അതുകൊണ്ടാണ് വിവരിച്ച "
+"പ്രവർത്തനക്ഷമത നിങ്ങളുടെ കമ്പ്യൂട്ടറിൽ വിവിധ ആയിരിക്കാം, അല്ലെങ്കിൽ ഏറ്റവും"
+" മോശം കേസിൽ, ഒട്ടും ലഭ്യമല്ലാത്ത."
+
+#: src/menus/view/shrink-wrap.xml:40(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Shrink Wrap</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/view/shrink-wrap.xml:49(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>J</"
+"keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>J</k"
+"eycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/view/show-layer-boundary.xml:10(title)
+#: src/menus/view/show-layer-boundary.xml:17(primary)
+#, fuzzy
+msgid "Show Layer Boundary"
+msgstr ""
+"_Layer അതിർത്തി കാണിക്കുക"
+
+#: src/menus/view/show-layer-boundary.xml:13(primary)
+#, fuzzy
+msgid "Layer boundary"
+msgstr ""
+"_layer അതിർത്തി കാണിക്കുക"
+
+#: src/menus/view/show-layer-boundary.xml:14(secondary)
+#, fuzzy
+msgid "Show/mask layer boundary"
+msgstr ""
+"_layer അതിർത്തി കാണിക്കുക"
+
+#: src/menus/view/show-layer-boundary.xml:20(para)
+msgid ""
+"The <guimenuitem>Show Layer Boundary</guimenuitem> command enables and "
+"disables displaying the yellow dotted line that surrounds a layer in the "
+"image window. The dotted line is actually only visible when the layer is "
+"smaller than the image window. When the layer is the same size as the image "
+"window, the layer boundary is obscured by the image border."
+msgstr ""
+"<guimenuitem>Show Layer Boundary</guimenuitem> കമാൻഡ് പ്രാപ്തമാക്കുന്നു ഇമേ"
+"ജ് ജാലകത്തിൽ ഒരു പാളി ചുറ്റുന്ന മഞ്ഞ അതിനെക്കുറിച്ച് പ്രദർശിപ്പിക്കുന്നത് ന"
+"ിഷ്ക്രിയമാക്കുന്നു. പാളി ഇമേജ് വിൻഡോ ചെറുതാണ് വരുമ്പോൾ അതിനെക്കുറിച്ച് യഥ"
+"ാർത്ഥത്തിൽ മാത്രമേ കാണാനാകൂ. പാളി ഇമേജ് വിൻഡോ ആയി ഒരേ വലിപ്പം എപ്പോഴാണ്, "
+"പാളി അതിർത്തി ചിത്രം അതിർത്തിയിൽ മൂടപ്പെടാത്ത ആണ്."
+
+#: src/menus/view/show-layer-boundary.xml:27(para)
+msgid ""
+"You can set the default for the layer boundary in the <link linkend=\"gimp-"
+"prefs-image-window\">Image Window Appearance</link> dialog."
+msgstr ""
+"നിങ്ങൾ <link linkend=\"gimp- prefs-image-window\">Image Window Appearance</"
+"link> ഡയലോഗിൽ പാളി ബൗണ്ടറിയിലേക്ക് സ്വതേ സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/menus/view/show-layer-boundary.xml:37(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Show Layer Boundary</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/view/padding-color.xml:32(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/view/padding-color.png'; "
+"md5=f6127445a8397ef5f36a5614a8689198"
+msgstr ""
+"@@image: 'images/menus/windows/expanded-menu.png'; "
+"md5=368b926c465b0abf28df35f2cdaaf128"
+
+#: src/menus/view/padding-color.xml:10(title)
+#, fuzzy
+msgid "Padding Color"
+msgstr ""
+"_Padding വർണ്ണ"
+
+#: src/menus/view/padding-color.xml:13(primary)
+#: src/menus/view/introduction.xml:13(primary)
+msgid "View"
+msgstr ""
+"കാണുക"
+
+#: src/menus/view/padding-color.xml:14(secondary)
+#: src/menus/view/padding-color.xml:25(secondary)
+#, fuzzy
+msgid "Padding color of canvas"
+msgstr ""
+"_Padding വർണ്ണ"
+
+#: src/menus/view/padding-color.xml:18(secondary)
+#: src/menus/view/padding-color.xml:21(primary)
+#, fuzzy
+msgid "Padding color"
+msgstr ""
+"_Padding വർണ്ണ"
+
+#: src/menus/view/padding-color.xml:29(title)
+#, fuzzy
+msgid "Contents of the <quote>Padding Color</quote> submenu"
+msgstr ""
+"<quote>Tools</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/view/padding-color.xml:36(para)
+msgid ""
+"You can change the color of the canvas which surrounds the image by using "
+"the <guimenuitem>Padding Color</guimenuitem> command. The canvas is the "
+"surface the image lies on. It looks like a frame around the image in the "
+"image window. This is just a matter of personal preference, since the "
+"padding color does not have any effect on the image itself. Please note that "
+"this color is not the same as the color used by the Fill tool."
+msgstr ""
+"നിങ്ങൾ <guimenuitem>Padding Color</guimenuitem> കമാൻഡ് ഉപയോഗിച്ച് ഇമേജ് ചു"
+"റ്റുമുള്ള ക്യാൻവാസ് നിറം മാറ്റാൻ കഴിയും. ക്യാൻവാസ് ചിത്രം സ്ഥിതിചെയ്യുന്നത്"
+" ഉപരിതലം. അത് ചിത്രത്തിന്റെ വിൻഡോയിൽ ഇമേജ് ചുറ്റും ഒരു ഫ്രെയിം പോലെ കാണപ്"
+"പെടുന്നു. പാഡിംഗോട് നിറം ഇമേജ് ഏതെങ്കിലും പ്രഭാവം ഇല്ല ഇത്, സ്വകാര്യ മുൻഗണ"
+"ന വെറും ഒരു കാര്യം. ഈ വർണ്ണം നൽകുക പ്രയോഗം നിറം സമാനമല്ലാത്ത ദയവായി ശ്രദ്ധ"
+"ിക്കുക."
+
+#: src/menus/view/padding-color.xml:47(title)
+#, fuzzy
+msgid "Activating the submenu"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/view/padding-color.xml:50(para)
+#, fuzzy
+msgid ""
+"You can access this submenu from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Padding Color</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/view/padding-color.xml:61(title)
+#, fuzzy
+msgid "<quote>Padding Color</quote> Options"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/view/padding-color.xml:64(term)
+#, fuzzy
+msgid "From Theme"
+msgstr ""
+"_Theme നിന്നും"
+
+#: src/menus/view/padding-color.xml:66(para)
+msgid ""
+"The color of the theme defined in <link linkend=\"gimp-prefs-theme"
+"\">Preferences Theme</link> is used."
+msgstr ""
+"<link linkend=\"gimp-prefs-theme \">Preferences Theme</link> നിർവചിച്ച തീം "
+"നിറം ഉപയോഗിക്കുന്നു."
+
+#: src/menus/view/padding-color.xml:73(term)
+#, fuzzy
+msgid "Light/Dark Check Color"
+msgstr ""
+"_Light വർണ്ണ പരിശോധിക്കുക"
+
+#: src/menus/view/padding-color.xml:75(para)
+msgid ""
+"The check representing transparency, which is defined in <link linkend="
+"\"gimp-prefs-display\">Preferences Display</link> is used."
+msgstr ""
+"<link linkend=\"gimp-prefs-display\">Preferences Display</link> നിർവചിക്കുന"
+"്നത് ഏത് സുതാര്യത പ്രതിനിധീകരിച്ച് ചെക്ക് ഉപയോഗിക്കപ്പെടുന്നു."
+
+#: src/menus/view/padding-color.xml:83(term)
+#, fuzzy
+msgid "Select Custom Color"
+msgstr ""
+"_Custom വർണ്ണ തിരഞ്ഞെടുക്കുക ..."
+
+#: src/menus/view/padding-color.xml:85(para)
+msgid "Opens the Color Selector window to let you choose a color to use."
+msgstr ""
+"നിങ്ങൾ ഉപയോഗിക്കാൻ ഒരു നിറം തിരഞ്ഞെടുക്കൂ അനുവദിക്കുന്നതിന് കളർ സെലക്ടർ വി"
+"ൻഡോ തുറക്കുന്നു."
+
+#: src/menus/view/padding-color.xml:91(term)
+#, fuzzy
+msgid "As in Preferences"
+msgstr ""
+"_Preferences പോലെ"
+
+#: src/menus/view/padding-color.xml:93(para)
+msgid ""
+"The color selected in the <link linkend=\"gimp-prefs-image-window-appearance"
+"\">Image Window Appearance</link> is used."
+msgstr ""
+"<link linkend=\"gimp-prefs-image-window-appearance \">Image Window Appearan"
+"ce</link> തിരഞ്ഞെടുത്ത നിറം ഉപയോഗിക്കുന്നു."
+
+#: src/menus/view/show-statusbar.xml:10(title)
+#: src/menus/view/show-statusbar.xml:17(primary)
+#, fuzzy
+msgid "Show Statusbar"
+msgstr ""
+"S_tatusbar കാണിക്കുക"
+
+#: src/menus/view/show-statusbar.xml:13(primary)
+#, fuzzy
+msgid "Status bar"
+msgstr ""
+"s_tatusbar കാണിക്കുക"
+
+#: src/menus/view/show-statusbar.xml:14(secondary)
+#, fuzzy
+msgid "Show/Hide status bar"
+msgstr ""
+"s_tatusbar കാണിക്കുക"
+
+#: src/menus/view/show-statusbar.xml:20(para)
+msgid ""
+"The <guimenuitem>Show Statusbar</guimenuitem> command enables and disables "
+"displaying the status bar. It may be useful to disable it when you are "
+"working in <link linkend=\"gimp-view-fullscreen\">full-screen mode</link>."
+msgstr ""
+"<guimenuitem>Show Statusbar</guimenuitem> കമാൻഡ് പ്രാപ്തമാക്കുന്നു സ്റ്റാറ്"
+"റസ് ബാർ പ്രദർശിപ്പിക്കുന്നു നിഷ്ക്രിയമാക്കുന്നു. നിങ്ങൾ <link linkend=\"gim"
+"p-view-fullscreen\">full-screen mode</link> പ്രവർത്തിക്കുമ്പോൾ അത് അത് ഡിസ"
+"േബിൾ ഉപയോഗപ്പെടുന്നു."
+
+#: src/menus/view/show-statusbar.xml:26(para)
+msgid ""
+"You can set the default for the status bar in the <link linkend=\"gimp-prefs-"
+"image-window\">Image Window Appearance</link> dialog."
+msgstr ""
+"നിങ്ങൾ <link linkend=\"gimp-prefs- image-window\">Image Window Appearance</"
+"link> ഡയലോഗിൽ സ്റ്റാറ്റസ് ബാറിൽ സ്ഥിര സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/menus/view/show-statusbar.xml:36(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Show Statusbar</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/view/show-sample-points.xml:11(title)
+#, fuzzy
+msgid "Show Sample Points"
+msgstr ""
+"സാമ്പിൾ പോയിൻറുകൾ കാണിക്കുക"
+
+#: src/menus/view/show-sample-points.xml:14(primary)
+msgid "Sample Points"
+msgstr ""
+"സാമ്പിൾ പോയിന്റുകൾ"
+
+#: src/menus/view/show-sample-points.xml:16(para)
+msgid ""
+"This command enables and disables showing the sample points in the image "
+"window. Sample points are used to display color informations of up to four "
+"pixels in the <link linkend=\"gimp-sample-point-dialog\">sample points "
+"dialog</link>."
+msgstr ""
+"ഈ കമാൻഡ് പ്രാപ്തമാക്കുന്നു ഇമേജ് വിൻഡോയിൽ സാമ്പിൾ പോയിന്റ് കാണിക്കുന്ന നി"
+"ഷ്ക്രിയമാക്കുന്നു. സാമ്പിൾ പോയിന്റുകൾ <link linkend=\"gimp-sample-point-di"
+"alog\">sample points dialog</link> ലെ നാല് പിക്സൽ നിറം വിവരങ്ങൾക്കു് പ്രദർശ"
+"ിപ്പിക്കാൻ ഉപയോഗിക്കുന്നു."
+
+#: src/menus/view/show-sample-points.xml:27(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Show Sample Points</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/view/introduction.xml:20(None)
+#, fuzzy
+msgid "@@image: 'images/menus/view.png'; md5=5b12a6532c0d292630a47445656d577b"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#: src/menus/view/introduction.xml:10(title)
+#, fuzzy
+msgid "Introduction to the <quote>View</quote> Menu"
+msgstr ""
+"<quote>Help</quote> മെനു ആമുഖം"
+
+#: src/menus/view/introduction.xml:14(secondary)
+msgid "Introduction"
+msgstr ""
+"അവതാരിക"
+
+#: src/menus/view/introduction.xml:17(title)
+#, fuzzy
+msgid "Contents of the View menu"
+msgstr ""
+"<quote>Help</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/view/introduction.xml:24(para)
+msgid ""
+"This section describes the <guimenu>View</guimenu> menu, which contains "
+"commands that affect the visibility or appearance of the image and various "
+"elements of the interface."
+msgstr ""
+"ഈ ഭാഗത്ത് ചിത്രം ഇന്റർഫെയിസ് വിവിധ ഘടകങ്ങൾ ദൃശ്യപരത അല്ലെങ്കിൽ ഭാവം ബാധിക്ക"
+"ുന്ന കമാൻഡുകൾ അടങ്ങുന്ന <guimenu>View</guimenu> മെനു വിവരിക്കുന്നു."
+
+#: src/menus/view/show-menubar.xml:10(title)
+#: src/menus/view/show-menubar.xml:17(primary)
+#, fuzzy
+msgid "Show Menubar"
+msgstr ""
+"_Menubar കാണിക്കുക"
+
+#: src/menus/view/show-menubar.xml:13(primary)
+#, fuzzy
+msgid "Menu-bar"
+msgstr ""
+"മെനു"
+
+#: src/menus/view/show-menubar.xml:14(secondary)
+#, fuzzy
+msgid "Show/Mask menu bar"
+msgstr ""
+"_menubar കാണിക്കുക"
+
+#: src/menus/view/show-menubar.xml:20(para)
+msgid ""
+"The <guimenuitem>Show Menubar</guimenuitem> command enables and disables "
+"displaying the menubar. It may be useful to disable it if you are working in "
+"<link linkend=\"gimp-view-fullscreen\">full-screen mode</link>. If the "
+"menubar is not displayed, you can right-click on the image to access the "
+"menubar entries."
+msgstr ""
+"<guimenuitem>Show Menubar</guimenuitem> കമാൻഡ് പ്രാപ്തരാക്കുകയും മെനുബാർ പ്"
+"രദർശിപ്പിക്കുന്നത് നിഷ്ക്രിയമാക്കുന്നു. നിങ്ങൾ <link linkend=\"gimp-view-fu"
+"llscreen\">full-screen mode</link> പ്രവര്ത്തിക്കുന്നയാളാണെങ്കില് അത് അപ്രാപ"
+"്തമാക്കാൻ ഉപയോഗപ്പെടുന്നു. മെനുബാർ പ്രദർശിപ്പിക്കില്ല, നിങ്ങൾ ചിത്രത്തിൽ മ"
+"െനുബാർ എൻട്രികൾ ആക്സസ് വലത് ക്ലിക്ക് ചെയ്യാം."
+
+#: src/menus/view/show-menubar.xml:27(para)
+msgid ""
+"You can set the default for the menubar in the <link linkend=\"gimp-prefs-"
+"image-window\">Image Window Appearance</link> dialog."
+msgstr ""
+"നിങ്ങൾ <link linkend=\"gimp-prefs- image-window\">Image Window Appearance</"
+"link> ഡയലോഗിൽ മെനുബാർ സ്ഥിര സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/menus/view/show-menubar.xml:37(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Show Menubar</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/view/zoom.xml:23(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/view/zoom.png'; md5=02b99f81a9d8c3e6f66687c81890739e"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#: src/menus/view/zoom.xml:11(title) src/menus/view/zoom.xml:14(primary)
+msgid "Zoom"
+msgstr ""
+"സൂം"
+
+#: src/menus/view/zoom.xml:18(title)
+#, fuzzy
+msgid "The <quote>Zoom</quote> submenu of the <quote>View</quote> menu"
+msgstr ""
+"<quote>Select</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/view/zoom.xml:27(para)
+msgid ""
+"The <guimenuitem>Zoom</guimenuitem> submenu contains various commands which "
+"affect the magnification of the image in the image window (zooming). "
+"Enlarging an image (zooming in) is useful if you need to work with high "
+"precision, making pixel-level image modifications or precise selections. On "
+"the other hand, reducing an image (zooming out) is handy for getting an "
+"overall impression of the image and seeing the results of changes which "
+"affect the entire image. Please note that zooming is not undoable, since it "
+"does not affect the image data, only the way it is displayed."
+msgstr ""
+"<guimenuitem>Zoom</guimenuitem> ഉപമെനുവുണ്ട് ഇമേജ് വിൻഡോ (കുറയാനോ) ചിത്രത"
+"്തിലേതു വലുതായിക്കാണാനുള്ള ബാധിക്കുന്ന വിവിധ ആജ്ഞകൾ ഉൾക്കൊള്ളുന്നു. നിങ്ങൾ"
+" പിക്സൽ-ലെവൽ ഇമേജ് പരിഷ്കാരങ്ങൾക്കോ കൃത്യമായ തിരഞ്ഞെടുക്കലുകളും making, ഉയ"
+"ർന്ന പ്രിസിഷൻ പ്രവർത്തിക്കാൻ വേണമെങ്കിൽ ഒരു ചിത്രം (സൂം) വിസ്താരം ഉപയോഗപ്പ"
+"െടുന്നു. മറുവശത്ത്, ഒരു ഇമേജ് (സൂമിംഗ്) കുറയ്ക്കുന്നതിനുള്ള ചിത്രത്തിന്റെ ഒ"
+"രു കള്ളുകുടി ലഭിക്കുന്നത് മുഴുവൻ ചിത്രം ബാധിക്കുന്ന മാറ്റങ്ങളുടെ ഫലങ്ങൾ കാണ"
+"ുന്നത് സൗകര്യപ്രദമായ ആണ്. സൂമിംഗിൽ അല്ല പഴയപടിയാക്കാനാവില്ല, അതു ഇമേജ് ഡാറ്"
+"റ ബാധിക്കില്ല ശേഷം, അതു പ്രദർശിപ്പിച്ചിരിക്കുന്നു ഒരേയൊരു വഴി കാര്യം ശ്രദ്"
+"ധിക്കുക."
+
+#: src/menus/view/zoom.xml:39(para)
+msgid ""
+"Besides the entries in this submenu, there is also a zoom pull-down menu at "
+"the bottom edge of the image window (if the <link linkend=\"gimp-view-show-"
+"statusbar\">status bar</link> is displayed), where several preset zoom "
+"levels are available."
+msgstr ""
+"ഈ ഉപമെനുവുണ്ട് എൻട്രികൾ പുറമെ അവിടെ പുറമേ ഇമേജ് വിൻഡോ (<link linkend=\"gim"
+"p-view-show- statusbar\">status bar</link> പ്രദർശിപ്പിച്ചിരിക്കുന്നു എങ്കിൽ"
+") ചുവടെ വക്കിൽ ഒരു സൂം പുൾ-ഡൌൺ മെനു, നിരവധി പ്രീസെറ്റ് സൂം അളവ് ലഭ്യമാണ് ആ"
+"ണ്."
+
+#: src/menus/view/zoom.xml:45(para)
+msgid ""
+"You can also make settings regarding zooming in the <link linkend=\"gimp-"
+"navigation-dialog\">Navigation dialog</link>. You can also use the <link "
+"linkend=\"gimp-tool-zoom\">Zoom</link> tool which lets you zoom a particular "
+"area of the image."
+msgstr ""
+"നിങ്ങൾക്ക് <link linkend=\"gimp- navigation-dialog\">Navigation dialog</lin"
+"k> സൂം സംബന്ധിച്ച ക്രമീകരണങ്ങൾ കഴിയും. നിങ്ങൾക്ക് ചിത്രത്തിൽ ഒരു പ്രത്യേക പ"
+"്രദേശം സൂം അനുവദിക്കുന്ന <link linkend=\"gimp-tool-zoom\">Zoom</link> ഉപയോ"
+"ഗിക്കാം."
+
+#: src/menus/view/zoom.xml:54(title)
+#, fuzzy
+msgid "Activate the Submenu"
+msgstr ""
+"_focused ചിത്രം സജീവമാക്കുക"
+
+#: src/menus/view/zoom.xml:57(para)
+msgid ""
+"You can access this submenu from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guisubmenu>Zoom</guisubmenu></"
+"menuchoice>. Note that the <quote>Zoom</quote> label on the <quote>View</"
+"quote> menu shows the current zoom factor, for example, <guilabel>Zoom (100%)"
+"</guilabel>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>View</guimenu><guisubmenu>"
+"Zoom</guisubmenu></menuchoice> മുഖേന ഈ ഉപമെനുവുണ്ട് ആക്സസ് ചെയ്യാൻ കഴിയും. "
+"ഉദാഹരണത്തിന്, <guilabel>Zoom (100%) </guilabel>, <quote>View</quote> മെനുവി"
+"ൽ <quote>Zoom</quote> ലേബൽ നിലവിലെ സൂം ഘടകം കാണിക്കുന്ന ശ്രദ്ധിക്കുക."
+
+#: src/menus/view/zoom.xml:72(title)
+#, fuzzy
+msgid "Contents of the <quote>Zoom</quote> submenu"
+msgstr ""
+"<quote>Tools</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/view/zoom.xml:73(para)
+msgid ""
+"The various <quote>Zoom</quote> submenu commands are described below, along "
+"with their default keyboard shortcuts, if any."
+msgstr ""
+"വിവിധ <quote>Zoom</quote> ഉപമെനുവുണ്ട് കമാൻഡുകൾ താഴെ, എന്തെങ്കിലും ഉണ്ടെങ്ക"
+"ിൽ, അവരുടെ സ്വതവേയുള്ള കീബോർഡ് കുറുക്കുവഴികൾ സഹിതം വിവരിച്ചിരിക്കുന്നു."
+
+#: src/menus/view/zoom.xml:79(term)
+#, fuzzy
+msgid "Revert Zoom"
+msgstr ""
+"Re_vert സൂം"
+
+#: src/menus/view/zoom.xml:82(para)
+msgid ""
+"(Shortcut: <keycap>`</keycap> [grave accent,<quote>backtick</quote>]) This "
+"command will reset the zoom factor to the previous value, which is also "
+"shown by this label, for example <guilabel>Revert Zoom (100%)</guilabel>. If "
+"you never changed the zoom factor of the active image, this entry is "
+"insensitive and grayed out."
+msgstr ""
+"(കുറുക്കുവഴി: <keycap>`</keycap> [ഗ്രേവ് അക്സന്റ്, <quote>backtick</quote>]"
+") ഈ കമാൻഡ് ഉദാഹരണത്തിന് <guilabel>Revert Zoom (100%)</guilabel> ഈ ലേബൽ ഇല്ല"
+"തന്നെ കഴിഞ്ഞ മൂല്യം, സൂം ഘടകം പുനഃക്രമീകരിക്കും. നിങ്ങൾ സജീവ ചിത്രത്തിന്റെ "
+"സൂം ഘടകം മാറ്റി ഒരിക്കലും എങ്കിൽ ഈ എൻട്രി കൈമാറ്റം ചെയ്ത് ആവശ്യം തന്നെയാണ്."
+
+#: src/menus/view/zoom.xml:93(term)
+msgid "Zoom Out"
+msgstr ""
+"സൂം ഔട്ട്"
+
+#: src/menus/view/zoom.xml:96(para)
+msgid ""
+"(Shortcut: <keycap>-</keycap>) Each time <quote>Zoom Out</quote> is used, "
+"the zoom factor is decreased by about 30%. There is a minimum zoom level of "
+"0.39%."
+msgstr ""
+"(കുറുക്കുവഴി: <keycap>-</keycap>) ഓരോ തവണ <quote>Zoom Out</quote> ഉപയോഗിക"
+"്കുന്നു, സൂം ഫാക്ടർ ഏകദേശം 30% കുറയുകയും ചെയ്യുന്നു. 0.39% ആക്കണമെന്ന സൂം ന"
+"ില ഉണ്ട്."
+
+#: src/menus/view/zoom.xml:104(term)
+msgid "Zoom In"
+msgstr ""
+"വലുതാക്കുക"
+
+#: src/menus/view/zoom.xml:107(para)
+msgid ""
+"(Shortcut: <keycap>+</keycap>) Each time <quote>Zoom In</quote> is used, the "
+"zoom factor is increased by about 30%. The maximum possible zoom level is "
+"25600%."
+msgstr ""
+"(കുറുക്കുവഴി: <keycap>+</keycap>) ഓരോ തവണ <quote>Zoom In</quote> ഉപയോഗിക്"
+"കുന്നു, സൂം ഫാക്ടർ ഏകദേശം 30% വർദ്ധിപ്പിക്കുന്നു. പരമാവധി സാധ്യത സൂം നില 25"
+"600% ആണ്."
+
+#: src/menus/view/zoom.xml:114(para)
+msgid ""
+"The keyboard shortcut for <quote>Zoom In</quote> has been somewhat "
+"controversial because this is a very common operation and on English "
+"keyboards, the <keycap>Shift</keycap> key must be pressed to use it. (This "
+"is not the case for European keyboards.) If you would like to have a "
+"different keyboard shortcut, you can create a dynamic shortcut for it; see "
+"the help section for <link linkend=\"gimp-prefs-interface\">User Interface "
+"Preferences</link> for instructions."
+msgstr ""
+"ഈ ഒരു സാധാരണ ഓപ്പറേഷൻ ആണ് ഇംഗ്ലീഷ് കീബോർഡുകൾ ന് <keycap>Shift</keycap> കീ "
+"അത് ഉപയോഗിക്കാൻ അമർത്തണം വേണം കാരണം <quote>Zoom In</quote> എന്ന കീബോർഡ് ക"
+"ുറുക്കുവഴി അല്പമെങ്കിലും വിവാദ മാറ്റി. ഒരു വ്യത്യസ്ത കീബോർഡ് കുറുക്കുവഴി ആ"
+"ഗ്രഹിക്കുന്നു എങ്കിൽ അതു ഒരു ചലനാത്മക കുറുക്കുവഴി സൃഷ്ടിക്കാൻ കഴിയും (ഈ യൂറ"
+"ോപ്യൻ കീബോർഡുകൾക്കുള്ള ഇതല്ല.); നിർദ്ദേശങ്ങൾക്കായി <link linkend=\"gimp-p"
+"refs-interface\">User Interface Preferences</link> സഹായ വിഭാഗം കാണുക."
+
+#: src/menus/view/zoom.xml:128(term)
+#: src/menus/view/zoom.xml:130(anchor:xreflabel)
+#, fuzzy
+msgid "Fit Image in Window"
+msgstr ""
+"വിൻഡോയിൽ _Fit ചിത്രം"
+
+#: src/menus/view/zoom.xml:131(para)
+msgid ""
+"(Shortcut: <keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>J</"
+"keycap></keycombo>). This command zooms the image to be as large as "
+"possible, while still keeping it completely within the window. There will "
+"usually be padding on two sides of the image, but not on all four sides."
+msgstr ""
+"(കുറുക്കുവഴി: <keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>"
+"J</keycap></keycombo>). ഇപ്പോഴും വിൻഡോയിൽ പൂർണമായി നിലനിർത്തിക്കൊണ്ടുതന്"
+"നെ ഈ കമാൻഡ്, കഴിയുന്നത്ര വലിയ ഇമേജ് ഉയർന്നു. അവിടെ സാധാരണയായി, ചിത്രത്തിന്റ"
+"െ രണ്ടു വശത്തും ചെയ്ചു് എന്നാൽ എല്ലാ നാലു ഭാഗത്തും ഇല്ല ചെയ്യും."
+
+#: src/menus/view/zoom.xml:146(term)
+#: src/menus/view/zoom.xml:148(anchor:xreflabel)
+#, fuzzy
+msgid "Fit Image to Window"
+msgstr ""
+"വ്യായാമം ഇമേജ് _to വിൻഡോ"
+
+#: src/menus/view/zoom.xml:149(para)
+msgid ""
+"This command zooms the image as large as possible without requiring any "
+"padding to be shown. This means that the image fits the window perfectly in "
+"one dimension, but usually extends beyond the window borders in the other "
+"dimension."
+msgstr ""
+"ഈ കമാൻഡ് കാണിക്കും ഏതെങ്കിലും പാഡിങ് ആവശ്യമില്ലാതെ കഴിയുന്നത്ര വലിയ ഇമേജ് ഉ"
+"യർന്നു. ഈ ചിത്രം ഒരു അളവെങ്കിലും ലെ തികച്ചും ജാലകം അനുയോജ്യമാകും, പക്ഷേ സാ"
+"ധാരണയായി മറ്റ് മാനങ്ങൾ ലെ ജാലകത്തിന്റെ അതിരുകൾ വ്യാപ്തിയുള്ളൂ എന്നാണ്."
+
+#: src/menus/view/zoom.xml:158(term)
+msgid "A:B (X%)"
+msgstr ""
+"ഉത്തരം: ബി (എക്സ്%)"
+
+#: src/menus/view/zoom.xml:161(para)
+msgid ""
+"With these commands, you can select one of the pre-set zoom levels. Each of "
+"the menu labels gives a ratio, as well as a percentage value. Please note "
+"that each zoom pre-set has its own keyboard shortcut. The current zoom is "
+"marked with a large dot."
+msgstr ""
+"ഈ കമാൻഡുകൾ ഉപയോഗിച്ച്, പ്രീ-സെറ്റ് സൂം ലെവലുകൾ തിരഞ്ഞെടുക്കാൻ കഴിയും. മെനു"
+" ലേബലുകൾ ഓരോന്നും ഒരു അനുപാതം, അതുപോലെതന്നെ ഒരു ശതമാനം മൂല്യം നൽകുന്നു. ഓ"
+"രോ സൂം പ്രീ-സെറ്റ് സ്വന്തം കീബോർഡ് കുറുക്കുവഴി ശ്രദ്ധിക്കുക. നിലവിലെ സൂം "
+"ഒരു വലിയ ഡോട്ട് അടയാളപ്പെടുത്തി."
+
+#: src/menus/view/zoom.xml:170(term)
+#, fuzzy
+msgid "Other"
+msgstr "_Other:"
+
+#: src/menus/view/zoom.xml:173(para)
+msgid ""
+"This command brings up a dialog which allows you to choose any zoom level "
+"you would like, within the range of 1:256 (0.39%) to 256:1 (25600%)."
+msgstr ""
+"(0.39%) 256 256: (25600%) 1 ഈ കമാൻഡ് 1 ശ്രേണിയിൽ നിങ്ങൾ ആഗ്രഹിക്കുന്നു ഏതെങ"
+"്കിലും സൂം നില തിരഞ്ഞെടുക്കാൻ അനുവദിക്കുന്ന ഡയലോഗിന് നൽകുന്നു."
+
+#: src/menus/view/zoom.xml:182(para)
+msgid ""
+"When you are working at the pixel level, you can use the <link linkend="
+"\"gimp-view-new\">New view</link> command. This allows you to see what is "
+"happening to the image at its normal size at the same time."
+msgstr ""
+"നിങ്ങൾ പിക്സൽ തലത്തിൽ പ്രവർത്തിക്കുമ്പോൾ, നിങ്ങൾ <link linkend=\"gimp-view"
+"-new\">New view</link> കമാൻഡ് ഉപയോഗിക്കാം. ഈ ഒരേ സമയം അതിന്റെ സാധാരണ വലുപ്"
+"പത്തിൽ ഇമേജ് സംഭവിച്ചുകൊണ്ടിരിക്കുന്നതിനെയും കാണാൻ അനുവദിക്കുന്നു."
+
+#: src/menus/view/dot-for-dot.xml:10(title)
+#: src/menus/view/dot-for-dot.xml:14(secondary)
+#: src/menus/view/dot-for-dot.xml:17(primary)
+#, fuzzy
+msgid "Dot for Dot"
+msgstr ""
+"ഡോട്ട് വേണ്ടി _Dot"
+
+#: src/menus/view/dot-for-dot.xml:20(para)
+msgid ""
+"The <guimenuitem>Dot for Dot</guimenuitem> command enables and disables "
+"<quote>Dot for Dot</quote> mode. If it is enabled (checked) and the zoom "
+"factor is 100%, every pixel in the image is displayed as one pixel on the "
+"screen. If it is disabled, the image is displayed at its <quote>real</quote> "
+"size, the size it will have when it is printed."
+msgstr ""
+"<guimenuitem>Dot for Dot</guimenuitem> കമാൻഡ് പ്രാപ്തരാക്കുകയും <quote>Dot "
+"for Dot</quote> മോഡ് അപ്രാപ്തമാക്കുന്നു. അതു (പരിശോധിച്ച) പ്രാപ്തമാക്കിയി"
+"ട്ടുണ്ടെങ്കിൽ സൂം ഘടകം 100% ആണ്, ചിത്രം ഓരോ പിക്സൽ സ്ക്രീനിൽ ഒരു പിക്സൽ ആയ"
+"ി പ്രദർശിപ്പിക്കും. അതു അപ്രാപ്തമാക്കിയിട്ടുണ്ടെങ്കിൽ, ഇമേജ് അതിന്റെ <quote"
+">real</quote> വലുപ്പത്തിൽ ദൃശ്യമാകും, വലുപ്പം അതു അച്ചടിക്കാൻ പാകത്തിൽ ഉണ്ട"
+"ായിരിക്കും."
+
+#: src/menus/view/dot-for-dot.xml:27(para)
+msgid ""
+"The example below will illustrate this. Imagine the following image "
+"properties:"
+msgstr ""
+"ചുവടെയുള്ള ഉദാഹരണം അതു വിശദമാക്കുന്നത് ചെയ്യും. താഴെ ചിത്രം ഉള്ള സങ്കൽപ്പിക"
+"്കുക:"
+
+#: src/menus/view/dot-for-dot.xml:33(para)
+msgid "Image size: 100x100 pixels"
+msgstr ""
+"ചിത്ര വലുപ്പം: 100x100 പിക്സൽ"
+
+#: src/menus/view/dot-for-dot.xml:36(para)
+#, fuzzy
+msgid "Image resolution: 300dpi (dots per inch)"
+msgstr ""
+"ചിത്രം ചിത്രം മാറ്റം"
+
+#: src/menus/view/dot-for-dot.xml:39(para)
+msgid ""
+"Image displayed with Zoom=100%, <quote>Dot for Dot</quote><emphasis>enabled</"
+"emphasis>: 100x100 pixels"
+msgstr ""
+"100x100 പിക്സൽ: സൂം = 100%, <quote>Dot for Dot</quote> <emphasis>enabled</e"
+"mphasis> ദൃശ്യമാകാൻ ചിത്രം"
+
+#: src/menus/view/dot-for-dot.xml:45(para)
+msgid ""
+"Image displayed with Zoom=100%, <quote>Dot for Dot</"
+"quote><emphasis>disabled</emphasis>:"
+msgstr ""
+"ചിത്രം സൂം ദൃശ്യമാകാൻ = 100%, <quote>Dot for Dot</quote> <emphasis>disabled"
+"</emphasis>:"
+
+#: src/menus/view/dot-for-dot.xml:50(alt)
+msgid "$100pixels \\div 300dpi = \\frac{1}{3} inch \\approx 0.85cm$"
+msgstr "$100pixels \\div 300dpi = \\frac{1}{3} inch \\approx 0.85cm$"
+
+#: src/menus/view/dot-for-dot.xml:57(para)
+msgid ""
+"For Dot for Dot mode to work properly, the resolution of the image must be "
+"the same as the screen resolution in the <link linkend=\"gimp-prefs-display"
+"\">Preferences menu</link>."
+msgstr ""
+"ഡോട്ട് മോഡ് ശരിയായി പ്രവർത്തിക്കുന്നതിന് ഡോട്ട് വേണ്ടി, ചിത്രത്തിന്റെ ചി"
+"ത്രം <link linkend=\"gimp-prefs-display \">Preferences menu</link> ൽ സ്ക്രീ"
+"ൻ റെസലൂഷൻ തുല്യമായിരിക്കണം."
+
+#: src/menus/view/dot-for-dot.xml:62(para)
+msgid ""
+"Enabling this mode is recommended if you are working on icons and web "
+"graphics. If you are working on images intended to be printed, you should "
+"disable Dot-for-Dot mode."
+msgstr ""
+"ഈ മോഡ് പ്രാപ്തമാക്കുന്നത് ഐക്കണുകളും വെബ് ഗ്രാഫിക്സ് പ്രവർത്തിക്കുന്നു എങ്"
+"കിൽ ശുപാർശ. നിങ്ങൾ അച്ചടിച്ച് ഉദ്ദേശിച്ചുള്ള ചിത്രങ്ങൾ പ്രവർത്തിക്കുന്നു എങ"
+"്കിൽ, നിങ്ങൾ ഡോട്ട് വേണ്ടി-ഡോട്ട് മോഡ് അപ്രാപ്തമാക്കണം."
+
+#: src/menus/view/dot-for-dot.xml:72(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Dot for Dot</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/view/dot-for-dot.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"
+
+#~ msgid "The <quote>Windows</quote> Menu"
+#~ msgstr "The <quote>Windows</quote> Menu"
+
+#~ msgid "Menus"
+#~ msgstr "Menus"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/windows/dockable-dialogs.png'; "
+#~ "md5=6f795d821ab2dc388b7aed62a94a6ad5"
+#~ msgstr ""
+#~ "@@image: 'images/menus/windows/dockable-dialogs.png'; "
+#~ "md5=6f795d821ab2dc388b7aed62a94a6ad5"
+
+#~ msgid "The <quote>Dockable Dialogs</quote> submenu"
+#~ msgstr "The <quote>Dockable Dialogs</quote> submenu"
+
+#~ msgid "Docks"
+#~ msgstr "Docks"
+
+#~ msgid "List of dockable dialogs"
+#~ msgstr "List of dockable dialogs"
+
+#~ msgid "The <quote>Dockable Dialogs</quote> list"
+#~ msgstr "The <quote>Dockable Dialogs</quote> list"
+
+#~ msgid ""
+#~ "This command opens the list of the dialog windows you can open and dock. "
+#~ "Please see <link linkend=\"gimp-concepts-docks\">Dialogs and Docking</"
+#~ "link>."
+#~ msgstr ""
+#~ "This command opens the list of the dialog windows you can open and dock. "
+#~ "Please see <link linkend=\"gimp-concepts-docks\">Dialogs and Docking</"
+#~ "link>."
+
+#~ msgid ""
+#~ "All these dialogs are described in <link linkend=\"gimp-dialogs-"
+#~ "introduction\">Different dialogs description</link>."
+#~ msgstr ""
+#~ "All these dialogs are described in <link linkend=\"gimp-dialogs-"
+#~ "introduction\">Different dialogs description</link>."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/select.png'; md5=e2a02dde8de72d42430b777b89d0ee2a"
+#~ msgstr ""
+#~ "@@image: 'images/menus/select.png'; md5=e2a02dde8de72d42430b777b89d0ee2a"
+
+#~ msgid "The <quote>Select</quote> Menu"
+#~ msgstr "The <quote>Select</quote> Menu"
+
+#~ msgid "Introduction to the <quote>Select</quote> Menu"
+#~ msgstr "Introduction to the <quote>Select</quote> Menu"
+
+#~ msgid ""
+#~ "This section explains the commands on the <guimenu>Select</guimenu> menu "
+#~ "of the image menubar."
+#~ msgstr ""
+#~ "This section explains the commands on the <guimenu>Select</guimenu> menu "
+#~ "of the image menubar."
+
+#~ msgid ""
+#~ "Besides the commands described here, you may also find other entries in "
+#~ "the menu. They are not part of <acronym>GIMP</acronym> itself, but have "
+#~ "been added by extensions (plug-ins). You can find information about the "
+#~ "functionality of a Plugin by referring to its documentation."
+#~ msgstr ""
+#~ "Besides the commands described here, you may also find other entries in "
+#~ "the menu. They are not part of <acronym>GIMP</acronym> itself, but have "
+#~ "been added by extensions (plug-ins). You can find information about the "
+#~ "functionality of a Plugin by referring to its documentation."
+
+#~ msgid "Image window"
+#~ msgstr "Image window"
+
+#~ msgid "The <quote>View</quote> Menu"
+#~ msgstr "The <quote>View</quote> Menu"
+
+#~ msgid "The <quote>Tools</quote> Menu"
+#~ msgstr "The <quote>Tools</quote> Menu"
+
+#~ msgid "Tools"
+#~ msgstr "Tools"
+
+#~ msgid "Introduction to the <quote>Tools</quote> Menu"
+#~ msgstr "Introduction to the <quote>Tools</quote> Menu"
+
+#~ msgid ""
+#~ "The menu entries on the <guimenu>Tools</guimenu> menu access the "
+#~ "<acronym>GIMP</acronym> tools. All of the tools available in "
+#~ "<acronym>GIMP</acronym> are extensively described in the <link linkend="
+#~ "\"gimp-tools\">Tools</link> section."
+#~ msgstr ""
+#~ "The menu entries on the <guimenu>Tools</guimenu> menu access the "
+#~ "<acronym>GIMP</acronym> tools. All of the tools available in "
+#~ "<acronym>GIMP</acronym> are extensively described in the <link linkend="
+#~ "\"gimp-tools\">Tools</link> section."
+
+#~ msgid "The <quote>Edit</quote> Menu"
+#~ msgstr "The <quote>Edit</quote> Menu"
+
+#~ msgid "Edit"
+#~ msgstr "Edit"
+
+#~ msgid "The <quote>Filters</quote> Menu"
+#~ msgstr "The <quote>Filters</quote> Menu"
+
+#~ msgid "Filters"
+#~ msgstr "Filters"
+
+#~ msgid "The <quote>Help</quote> Menu"
+#~ msgstr "The <quote>Help</quote> Menu"
+
+#~ msgid "Help"
+#~ msgstr "Help"
+
+#~ msgid ""
+#~ "The <guimenu>Help</guimenu> menu contains commands that assist you while "
+#~ "you are working with <application>GIMP</application>."
+#~ msgstr ""
+#~ "The <guimenu>Help</guimenu> menu contains commands that assist you while "
+#~ "you are working with <application>GIMP</application>."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/local-windows-submenu.png'; "
+#~ "md5=57af8745917ae54f989082e320678880"
+#~ msgstr ""
+#~ "@@image: 'images/menus/local-windows-submenu.png'; "
+#~ "md5=57af8745917ae54f989082e320678880"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/detached-submenu.png'; "
+#~ "md5=8746ad151b99ae854ff6248044c735c2"
+#~ msgstr ""
+#~ "@@image: 'images/menus/detached-submenu.png'; "
+#~ "md5=8746ad151b99ae854ff6248044c735c2"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/tab-menu-button.png'; "
+#~ "md5=a667dbce5e1dabe9abee73ea41859d31"
+#~ msgstr ""
+#~ "@@image: 'images/menus/tab-menu-button.png'; "
+#~ "md5=a667dbce5e1dabe9abee73ea41859d31"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/tab-menu.png'; md5=e3a7977b2570a5f5a3a776e89e884d02"
+#~ msgstr ""
+#~ "@@image: 'images/menus/tab-menu.png'; md5=e3a7977b2570a5f5a3a776e89e884d02"
+
+#~ msgid "Introduction to Menus"
+#~ msgstr "Introduction to Menus"
+
+#~ msgid ""
+#~ "There are many places in <acronym>GIMP</acronym> where you can find "
+#~ "menus. The aim of this chapter is to explain all the commands that are "
+#~ "accessible from the image menu bar and the image menu you can get by "
+#~ "right clicking in the canvas. All the context menus and the menu entries "
+#~ "for the other dialogs are described elsewhere in the chapters that "
+#~ "describe the dialogs themselves."
+#~ msgstr ""
+#~ "There are many places in <acronym>GIMP</acronym> where you can find "
+#~ "menus. The aim of this chapter is to explain all the commands that are "
+#~ "accessible from the image menu bar and the image menu you can get by "
+#~ "right clicking in the canvas. All the context menus and the menu entries "
+#~ "for the other dialogs are described elsewhere in the chapters that "
+#~ "describe the dialogs themselves."
+
+#~ msgid "Context Menus"
+#~ msgstr "Context Menus"
+
+#~ msgid "Context menus"
+#~ msgstr "Context menus"
+
+#~ msgid ""
+#~ "If you right-click on certain parts of the <acronym>GIMP</acronym> "
+#~ "interface, a <quote>context menu</quote> opens, which leads to a variety "
+#~ "of functions. Some places where you can access context menus are:"
+#~ msgstr ""
+#~ "If you right-click on certain parts of the <acronym>GIMP</acronym> "
+#~ "interface, a <quote>context menu</quote> opens, which leads to a variety "
+#~ "of functions. Some places where you can access context menus are:"
+
+#~ msgid ""
+#~ "Clicking on an image window displays the Image menu. This is useful when "
+#~ "you are working in full-screen mode, without a menubar."
+#~ msgstr ""
+#~ "Clicking on an image window displays the Image menu. This is useful when "
+#~ "you are working in full-screen mode, without a menubar."
+
+#~ msgid ""
+#~ "Clicking on a layer in the Layers Dialog or on a channel in the Channels "
+#~ "Dialog displays functions for the selected layer or channel."
+#~ msgstr ""
+#~ "Clicking on a layer in the Layers Dialog or on a channel in the Channels "
+#~ "Dialog displays functions for the selected layer or channel."
+
+#~ msgid ""
+#~ "Right-clicking on the image menubar has the same effect as left-clicking."
+#~ msgstr ""
+#~ "Right-clicking on the image menubar has the same effect as left-clicking."
+
+#~ msgid ""
+#~ "Right-clicking on the title bar displays functions which do not belong to "
+#~ "<acronym>GIMP</acronym>, but to the window manager program on your "
+#~ "computer."
+#~ msgstr ""
+#~ "Right-clicking on the title bar displays functions which do not belong to "
+#~ "<acronym>GIMP</acronym>, but to the window manager program on your "
+#~ "computer."
+
+#~ msgid "Tear-off menus"
+#~ msgstr "Tear-off menus"
+
+#~ msgid "Tear-off line"
+#~ msgstr "Tear-off line"
+
+#~ msgid ""
+#~ "There is an interesting property associated with some of the menus in "
+#~ "<acronym>GIMP</acronym>. These are any of the menus from the Image "
+#~ "context menu you get by right-clicking on the canvas and any of its "
+#~ "submenus. (You can tell that a menu item leads to a submenu because there "
+#~ "is an <guiicon><inlinegraphic fileref=\"images/menus/icon-submenu.png\" "
+#~ "format=\"PNG\"/></guiicon> icon next to it.) When you bring up any of "
+#~ "these menus, there is a dotted line at the top of it (tear-off line). By "
+#~ "clicking on this dotted line, you detach the menu under it and it becomes "
+#~ "a separate window."
+#~ msgstr ""
+#~ "There is an interesting property associated with some of the menus in "
+#~ "<acronym>GIMP</acronym>. These are any of the menus from the Image "
+#~ "context menu you get by right-clicking on the canvas and any of its "
+#~ "submenus. (You can tell that a menu item leads to a submenu because there "
+#~ "is an <guiicon><inlinegraphic fileref=\"images/menus/icon-submenu.png\" "
+#~ "format=\"PNG\"/></guiicon> icon next to it.) When you bring up any of "
+#~ "these menus, there is a dotted line at the top of it (tear-off line). By "
+#~ "clicking on this dotted line, you detach the menu under it and it becomes "
+#~ "a separate window."
+
+#~ msgid "The <quote>windows</quote> submenu and its tear-off submenu"
+#~ msgstr "The <quote>windows</quote> submenu and its tear-off submenu"
+
+#~ msgid ""
+#~ "Tear-off menus are actually independent. They are always visible, their "
+#~ "functions always apply to the current image, and they persist when all of "
+#~ "the images are closed. You can close a tear-off submenu by clicking on "
+#~ "the dotted line again or closing the window from the window manager on "
+#~ "your computer (often by clicking on an X icon in the upper right corner "
+#~ "of the window)."
+#~ msgstr ""
+#~ "Tear-off menus are actually independent. They are always visible, their "
+#~ "functions always apply to the current image, and they persist when all of "
+#~ "the images are closed. You can close a tear-off submenu by clicking on "
+#~ "the dotted line again or closing the window from the window manager on "
+#~ "your computer (often by clicking on an X icon in the upper right corner "
+#~ "of the window)."
+
+#~ msgid "Tab menus"
+#~ msgstr "Tab menus"
+
+#~ msgid ""
+#~ "The following type of menus is not related to the image menu bar, but for "
+#~ "the sake of completeness:"
+#~ msgstr ""
+#~ "The following type of menus is not related to the image menu bar, but for "
+#~ "the sake of completeness:"
+
+#~ msgid ""
+#~ "Every <link linkend=\"gimp-concepts-docks\">dockable</link> dialog "
+#~ "contains a Tab Menu button, as highlighted below. Pressing this Tab Menu "
+#~ "button opens a special menu of tab-related operations, with an entry at "
+#~ "the top that opens into the dialog's context menu."
+#~ msgstr ""
+#~ "Every <link linkend=\"gimp-concepts-docks\">dockable</link> dialog "
+#~ "contains a Tab Menu button, as highlighted below. Pressing this Tab Menu "
+#~ "button opens a special menu of tab-related operations, with an entry at "
+#~ "the top that opens into the dialog's context menu."
+
+#~ msgid "A dockable dialog."
+#~ msgstr "A dockable dialog."
+
+#~ msgid "A dialog window with the Tab menu button highlighted."
+#~ msgstr "A dialog window with the Tab menu button highlighted."
+
+#~ msgid "The Tab menu."
+#~ msgstr "The Tab menu."
+
+#~ msgid ""
+#~ "See <xref linkend=\"gimp-dockable-menu\"/> to learn more about Tab menus."
+#~ msgstr ""
+#~ "See <xref linkend=\"gimp-dockable-menu\"/> to learn more about Tab menus."
+
+#~ msgid "The <quote>File</quote> Menu"
+#~ msgstr "The <quote>File</quote> Menu"
+
+#~ msgid "File menu"
+#~ msgstr "File menu"
+
+#~ msgid "Overview"
+#~ msgstr "Overview"
+
+#~ msgid "File"
+#~ msgstr "File"
+
+#~ msgid "The File menu"
+#~ msgstr "The File menu"
+
+#~ msgid "The <quote>Recently Closed Docks</quote> submenu"
+#~ msgstr "The <quote>Recently Closed Docks</quote> submenu"
+
+#~ msgid "Recently closed"
+#~ msgstr "Recently closed"
+
+#~ msgid ""
+#~ "This command opens the list of the docks you have closed recently. You "
+#~ "can reopen them by clicking on their name. Please note that isolated "
+#~ "windows are not concerned."
+#~ msgstr ""
+#~ "This command opens the list of the docks you have closed recently. You "
+#~ "can reopen them by clicking on their name. Please note that isolated "
+#~ "windows are not concerned."
+
+#~ msgid ""
+#~ "You can access this command from the image menubar through "
+#~ "<menuchoice><guimenu>Windows</guimenu><guimenuitem>Recently Closed Docks</"
+#~ "guimenuitem></menuchoice>"
+#~ msgstr ""
+#~ "You can access this command from the image menubar through "
+#~ "<menuchoice><guimenu>Windows</guimenu><guimenuitem>Recently Closed Docks</"
+#~ "guimenuitem></menuchoice>"
+
+#~ msgid "The <quote>Layer</quote> Menu"
+#~ msgstr "The <quote>Layer</quote> Menu"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/windows.png'; md5=13c6b14871d3818165be232dda179015"
+#~ msgstr ""
+#~ "@@image: 'images/menus/windows.png'; md5=13c6b14871d3818165be232dda179015"
+
+#~ msgid "<quote>Windows</quote> Menu Entries"
+#~ msgstr "<quote>Windows</quote> Menu Entries"
+
+#~ msgid "Contents of the <quote>Windows</quote> Menu"
+#~ msgstr "Contents of the <quote>Windows</quote> Menu"
+
+#~ msgid "Without open images"
+#~ msgstr "Without open images"
+
+#~ msgid "With open images"
+#~ msgstr "With open images"
+
+#~ msgid ""
+#~ "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs. "
+#~ "With an open image, it is made up of three parts:"
+#~ msgstr ""
+#~ "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs. "
+#~ "With an open image, it is made up of three parts:"
+
+#~ msgid "The list of Recently Closed Docks:"
+#~ msgstr "The list of Recently Closed Docks:"
+
+#~ msgid ""
+#~ "For more information about docks, please see <link linkend=\"gimp-"
+#~ "concepts-docks\">Dialogs and Docking</link>, and <link linkend=\"gimp-"
+#~ "dialogs-introduction\">Different dialogs description</link>."
+#~ msgstr ""
+#~ "For more information about docks, please see <link linkend=\"gimp-"
+#~ "concepts-docks\">Dialogs and Docking</link>, and <link linkend=\"gimp-"
+#~ "dialogs-introduction\">Different dialogs description</link>."
+
+#~ msgid "The list of open image windows."
+#~ msgstr "The list of open image windows."
+
+#~ msgid "The list of open dockable dialogs."
+#~ msgstr "The list of open dockable dialogs."

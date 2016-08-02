@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>14.2. ImageMap</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-web.html" title="14. വെബ് ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="filters-web.html" title="14. വെബ് ഫിൽട്ടറുകൾ" />
+    <link rel="next" href="plug-in-semiflatten.html" title="14.3. സെമി പരത്തുക" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">14.2. ImageMap</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="filters-web.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">14. വെബ് ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-semiflatten.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-imagemap"></a>14.2. ImageMap</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925526037184" class="indexterm"></a>
+      <a id="idp46925526036192" class="indexterm"></a>
+      <p>വെബ് സെൻസിറ്റീവ് ചിത്രങ്ങൾ പതിവായി നിർവചിക്കപ്പെട്ട പ്രദേശങ്ങൾ മിനാരങ്ങൾ പ്രാപ്തമാക്കി ചില ഇഫക്റ്റുകൾ നേടുകയും ഉപയോഗിക്കുന്നു. വ്യക്തമായും ഏറ്റവും ഉപയോഗിച്ച പ്രഭാവം സെൻസിറ്റീവ് പ്രദേശങ്ങൾ ഒന്ന് ക്ലിക്കുചെയ്യപ്പെടുമ്പോൾ മറ്റൊരു വെബ് പേജ് ഒരു ഡൈനമിക് ലിങ്ക് ആണ്. ഈ <span class="quote">“<span class="quote">filter</span>”</span> ഒരു ചിത്രം എളുപ്പത്തിൽ സെൻസിറ്റീവ് പ്രദേശങ്ങൾ രൂപകൽപ്പന അനുവദിക്കുന്നു. വെബ് സൈറ്റ് ഡിസൈൻ സോഫ്റ്റ്വെയറുകൾ ഒരു സാധാരണ ചടങ്ങിൽ ഈ ഞങ്ങൾക്കുണ്ട്. <acronym class="acronym">GIMP</acronym> നിങ്ങൾ സമാന രീതിയിൽ ചെയ്യാൻ കഴിയും.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925526033232"></a>14.2.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ പ്ലഗ്-ഇൻ നിങ്ങളെ ഗ്രാഫിക് രൂപകൽപ്പനയും ഫ്രണ്ട്ലി നിങ്ങളുടെ പ്രദർശിപ്പിച്ച ചിത്രം മേൽ delimit ആഗ്രഹിക്കുന്ന എല്ലാ പ്രദേശങ്ങൾ അനുവദിക്കുന്നു. നിങ്ങളുടെ പേജ് HTML കോഡ് ന്യായമോ സ്ഥലത്തു ലയിപ്പിക്കും ചെയ്തിരിയ്ക്കണം HTML ടാഗുകൾ പ്രസക്തമായ ഭാഗം നേടുക. നിങ്ങൾ വളരെ ഈ പ്രദേശങ്ങളിൽ ലിങ്കുചെയ്തിരിക്കുന്ന ചില പ്രവർത്തനങ്ങൾ നിർവചിക്കാനാകും.</p>
+        <p>ഈ പൂർണ്ണമായും ഇവിടെ വിവരിച്ച ചെയ്യപ്പെടാത്ത (ഈ ഫംഗ്ഷൻ വാഗ്ദാനം വെബ് പേജ് പോലെ ഏകദേശം പ്രവർത്തിക്കുന്നു) ഒരു സങ്കീർണ്ണമായ ഉപകരണമാണ്. എന്നിരുന്നാലും നാം ഇവിടെ ഏറ്റവും നിലവിലെ handlings ചില വിശദീകരിക്കാൻ ആഗ്രഹിക്കുന്നുവെങ്കിൽ. നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, എന്ന <a class="xref" href="bibliography.html#bibliography-online-grokking-gimp-imagemap" title="ജിമ്പ് (9.2 ക്ലിക്കുചെയ്യാവുന്ന ചിത്രം മാപ്സ്) Grokking">[<abbr class="abbrev">GROKKING02</abbr>]</a> കൂടെ ജിമില Grokking ഒരു പൂര്ണ്ണ വിവരണങ്ങൾ കണ്ടെത്താം.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925526031632"></a>14.2.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഒരു ഇമേജ് വിൻഡോയിൽ നിന്നും, നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Web</span> → <span class="guimenuitem">ImageMap</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താനാകും</p>
+        <p>വിൻഡോ ഒരു ചെറിയ ഒന്നാണ്, നിങ്ങൾ അതു മഹത്വപ്പെടുത്തുകയും കഴിയും. പ്രധാന ഉപയോഗപ്രദമായ പ്രദേശങ്ങൾ ഇവയാണ്:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: bullet; ">
+            <li class="listitem" style="list-style-type: disc">
+              <p>പൂർണ്ണമായും ഇടതുവശത്ത് ലംബമായി ഒറ്റ മേഖല ഉള്ള എഡിറ്റുചെയ്യാൻ, ഒടുവിൽ ഒരുത്തൻ ഒരു തിരഞ്ഞെടുത്ത മേഖല മായ്ക്കാൻ, വിവിധ ആകാരം പ്രദേശങ്ങൾ ജനറേറ്റ് ഉപകരണങ്ങൾ വിളിച്ചതിന് പ്രദർശിപ്പിച്ച ഐക്കണുകൾ, ചൂണ്ടുന്ന ഒന്നു മൂന്ന്; നിങ്ങൾ മാപ്പിംഗ് മെനു ഉപയോഗിച്ച് ഈ ഫങ്ഷനുകളെ വിളിക്കാൻ കഴിയും,</p>
+            </li>
+            <li class="listitem" style="list-style-type: disc">
+              <p>ശരിയായ നിങ്ങളെ പ്രസക്തമായ ഉപകരണങ്ങൾ ഉപയോഗിച്ച് നിങ്ങൾക്ക് ആവശ്യമുള്ള എല്ലാ രൂപങ്ങൾ പ്രദേശങ്ങൾ ആകർഷിക്കും കഴിയുന്ന തൊഴിലാളി മേഖലയാണ്,</p>
+            </li>
+            <li class="listitem" style="list-style-type: disc">
+              <p>വലതുഭാഗത്ത് ഒരു ഐക്കൺ ലംബമായ സെറ്റ് പ്രദർശിപ്പിച്ചിരിക്കുന്നു; അതിന്റെ ഉപയോഗം വ്യക്തം എന്നാൽ ഒരു സഹായവും പോപ്പ്-അപ്പ് നിങ്ങൾ ഓരോ ചടങ്ങിൽ കുറിച്ചുള്ള ചില വിവരങ്ങൾ നൽകുന്നു,</p>
+            </li>
+            <li class="listitem" style="list-style-type: disc">
+              <p>ഒടുവിൽ, പോലും വലതുഭാഗത്ത് സൃഷ്ടിച്ച പ്രദേശങ്ങൾ ഒരു പ്രോപ്പർട്ടി ലിസ്റ്റ് പോലെ ഒരു ഡിസ്പ്ലേ മേഖലയാണ്. ലിസ്റ്റ് ഒന്ന് ഇനത്തിന്റെ ഒരു ക്ലിക്കിൽ, തൊഴിലാളി പ്രദേശത്ത് ഇതേ ആകാരം സ്വയം തെരഞ്ഞെടുക്കുന്നു</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528334400"></a>14.2.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925516114816"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.343. Imagemap ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/web/imagemap.png" alt="Imagemap ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+              <div class="caption">
+                <p>Imagemap വിൻഡോ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925516111136"></a>14.2.3.1. മെനു ബാർ</h5>
+              </div>
+            </div>
+          </div>
+          <p>മെനു ബാർ, ഇമേജ് വിൻഡോ മെനു ബാർ സമാനമാണ് ഏതാനും മെനുകൾ അല്ലെങ്കിൽ മെനു എൻട്രികൾ മാത്രമേ വ്യത്യസ്തവുമാണ്:</p>
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">ഫയല്</span>
+              </dt>
+              <dd>
+                <div class="variablelist">
+                  <dl class="variablelist">
+                    <dt>
+                      <span class="term">രക്ഷിക്കും; ഇതായി സംരക്ഷിക്കുക</span>
+                    </dt>
+                    <dd>
+                      <p>മറ്റ് ഫിൽട്ടറുകൾ വിപരീതമായി, ഈ പ്ലഗ്-ഇൻ ഒരു ചിത്രം എന്നാൽ ഒരു ടെക്സ്റ്റ് ഫയൽ ഇല്ല. അതിനാൽ നിങ്ങൾ ഒരു ടെക്സ്റ്റ് ഫോർമാറ്റിൽ നിങ്ങളുടെ ജോലി സംരക്ഷിക്കുകയും വേണം.</p>
+                      <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+                        <table border="0" summary="Tip">
+                          <tr>
+                            <td rowspan="2" align="center" valign="top" width="25">
+                              <img alt="[സൂചന]" src="images/tip.png" />
+                            </td>
+                            <th align="left">സൂചന</th>
+                          </tr>
+                          <tr>
+                            <td align="left" valign="top">
+                              <p><span class="guimenu">View</span> → <span class="guimenuitem">Source</span> ഉപയോഗിച്ച് ഈ ടെക്സ്റ്റ് ഫയൽ ഉള്ളടക്കം തിരനോട്ടം നടത്താം.</p>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </dd>
+                    <dt>
+                      <span class="term">തുറക്കുക; സമീപകാല തുറക്കുക</span>
+                    </dt>
+                    <dd>
+                      <p>പ്ലഗ്-ഇൻ നിങ്ങൾ സംരക്ഷിച്ച ടെക്സ്റ്റ് ഫയൽ തുറക്കാൻ കഴിയും. നിങ്ങളുടെ ഫയലിൽ നിർവചിച്ച പ്രദേശങ്ങൾ കയറ്റി overdisplayed ചെയ്യും; പ്രദർശിപ്പിച്ച ചിത്രം യഥാർത്ഥ ഒന്നോ ഒരേ വലിപ്പം കൂടെ ചെയ്തിട്ടില്ല എങ്കിൽ <acronym class="acronym">GIMP</acronym> സ്കെയിൽ ഉപയുക്തമാക്കുന്നതിനും ചോദിക്കും.</p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+              <dt>
+                <span class="term">തിരുത്തുക</span>
+              </dt>
+              <dd>
+                <div class="variablelist">
+                  <dl class="variablelist">
+                    <dt>
+                      <span class="term">എഡിറ്റ് ഏരിയ വിവരം</span>
+                    </dt>
+                    <dd>
+                      <div class="figure">
+                        <a id="idp46925525585152"></a>
+                        <p class="title">
+                          <strong>ചിത്രം 17.344. ഒരു imagemap പ്രദേശം എഡിറ്റുചെയ്യുകയെന്നത്</strong>
+                        </p>
+                        <div class="figure-contents">
+                          <div class="mediaobject">
+                            <img src="images/filters/web/imagemap-area.png" alt="ഒരു imagemap പ്രദേശം എഡിറ്റുചെയ്യുകയെന്നത്" />
+                          </div>
+                        </div>
+                      </div>
+                      <br class="figure-break" />
+                      <p>ക്രമീകരണങ്ങളിൽ നിങ്ങൾക്ക് ഒരു തിരഞ്ഞെടുത്ത പ്രദേശത്ത് പ്രദേശത്തെ വിവരങ്ങൾ എഡിറ്റുചെയ്യാനാകും ഡയലോഗ്. നിങ്ങൾ ഒരു പുതിയ പ്രദേശം സൃഷ്ടിക്കാൻ എപ്പോഴൊക്കെ ഈ ഡയലോഗ് സ്വയം പോപ്പ് അപ്പ് ചെയ്യും.</p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+              <dt>
+                <span class="term">കാണുക</span>
+              </dt>
+              <dd>
+                <p>ഈ മെനു നിങ്ങൾ സവിശേഷ ഫംഗ്ഷനുകൾ വാഗ്ദാനം:</p>
+                <div class="variablelist">
+                  <dl class="variablelist">
+                    <dt>
+                      <span class="term">ഏരിയ ലിസ്റ്റ്</span>
+                    </dt>
+                    <dd>
+                      <p>ഇവിടെ നിങ്ങൾ മറച്ചു കാണിക്കാം നിരക്കു പ്രദേശം.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">ഉറവിടം</span>
+                    </dt>
+                    <dd>
+                      <p>ഇവിടെ, നിങ്ങൾ അത് സംരക്ഷിക്കാനോ ഒരു ഫയൽ വായിച്ചു എന്നപോലെ അസംസ്കൃത ഡാറ്റ കാണാൻ.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">കളർ; ഗ്രേസ്കെയിൽ</span>
+                    </dt>
+                    <dd>
+                      <p>നിങ്ങൾ ഇവിടെ ചിത്രം മോഡ് തിരഞ്ഞെടുത്ത് ഒരു ഗ്രേസ്കെയിൽ ഡിസ്പ്ലേ പ്രവർത്തിക്കാം.</p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+              <dt>
+                <span class="term">മാപ്പിംഗ്</span>
+              </dt>
+              <dd>
+                <p>നിങ്ങൾ എഴുതാറില്ല കൂടുതൽ എളുപ്പത്തിൽ തൊഴിലാളി പ്രദേശത്തെ ഇടതുഭാഗത്തായി ഐക്കണുകൾ എന്നിവയിൽ ക്ലിക്കുചെയ്ത് നിരക്കു ഉപകരണങ്ങൾ ആക്സസ് ചെയ്യാൻ കഴിയും ശേഷം, ഈ മെനു ഉപയോഗിക്കും.</p>
+                <div class="variablelist">
+                  <dl class="variablelist">
+                    <dt>
+                      <span class="term">അമ്പടയാളം</span>
+                    </dt>
+                    <dd>
+                      <p>ഇവിടെ അമ്പ് നീക്കുക ഉപകരണം പ്രതിനിധീകരിക്കുന്നു. സജീവമാക്കി ഉപകരണം തിരഞ്ഞെടുത്തു, നിങ്ങൾക്ക് തിരഞ്ഞെടുത്ത് നീക്കാനാകും ചിത്രം ഒരു പ്രദേശം.</p>
+                      <p>ഒരു പോളിഗണിലെ ഉപയോഗിച്ച്, ചുവന്ന പോയിന്റ് ഒന്ന് നീക്കാൻ ആരോ ഉപയോഗിക്കാൻ കഴിയും. നിരവധി കൂടെ വേറെ വാഗ്ദാനം ചെയ്യുന്ന പുതിയ പോയിന്റ് ചേർക്കാൻ സാധ്യത ഒരു പോപ്പ്-അപ്പ് മെനു തുറക്കുന്നതിന് രണ്ടു ചുവന്ന പോയിന്റ് തമ്മിലുള്ള ഒരു സെഗ്മെന്റ് ക്ലിക്ക് കൈവാക്കിന്റെ. നിങ്ങൾ ഒരു ചുവന്ന പോയിന്റ് റൈറ്റ് ക്ലിക്ക്, നിങ്ങൾക്ക് അത് നീക്കം.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">ചതുരം; സർക്കിൾ; പോളിഗൺ</span>
+                    </dt>
+                    <dd>
+                      <p>ഈ ഉപകരണങ്ങൾ നിങ്ങളെ വിവിധ ആകാരം പ്രദേശങ്ങൾ സൃഷ്ടിക്കാനും:, ചിത്രം ക്ലിക്ക് പോയിന്റർ നീക്കുക, വീണ്ടും ക്ലിക്കുചെയ്യുക.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">മാപ്പ് വിവരം എഡിറ്റ്</span>
+                    </dt>
+                    <dd>
+                      <div class="figure">
+                        <a id="idp46925520059056"></a>
+                        <p class="title">
+                          <strong>ചിത്രം 17.345. imagemap ഡാറ്റ എഡിറ്റുചെയ്യുകയെന്നത്</strong>
+                        </p>
+                        <div class="figure-contents">
+                          <div class="mediaobject">
+                            <img src="images/filters/web/imagemap-info.png" alt="imagemap ഡാറ്റ എഡിറ്റുചെയ്യുകയെന്നത്" />
+                          </div>
+                        </div>
+                      </div>
+                      <br class="figure-break" />
+                      <p>ഈ ലളിതമായ ഡയലോഗ് തത്ഫലമായി ഔട്ട്പുട്ട് ഫയൽ എഴുതുന്നു ചില ഇനങ്ങൾ, നൽകാം; അഭിപ്രായങ്ങൾ (<span class="guilabel">Author</span>, <span class="guilabel">Description</span>) അല്ലെങ്കിൽ HTML ടാഗുകൾ (<span class="guilabel">Image name</span>, <span class="guilabel">Title</span>, <span class="guilabel">Default URL</span>) എന്ന ഗുണ മൂല്യങ്ങൾ ആയി ഒന്നുകിൽ.</p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+              <dt>
+                <span class="term">ഉപകരണങ്ങൾ</span>
+              </dt>
+              <dd>
+                <p><span class="quote">“<span class="quote">Tools</span>”</span> മെനുവിൽ നിങ്ങളെ ഗൈഡുകൾ പോലും പതിവായി അകലത്തിലുള്ള ദീർഘചതുരാകൃതിയിലുള്ള പ്രദേശങ്ങൾ സൃഷ്ടിക്കാൻ കഴിയും.</p>
+                <div class="variablelist">
+                  <dl class="variablelist">
+                    <dt>
+                      <span class="term">ഗ്രിഡ്; ഗ്രിഡ് ക്രമീകരണങ്ങൾ</span>
+                    </dt>
+                    <dd>
+                      <div class="figure">
+                        <a id="idp46925525893040"></a>
+                        <p class="title">
+                          <strong>ചിത്രം 17.346. ഗ്രിഡ് ഓപ്ഷനുകൾ</strong>
+                        </p>
+                        <div class="figure-contents">
+                          <div class="mediaobject">
+                            <img src="images/filters/web/imagemap-grid.png" alt="ഗ്രിഡ് ഓപ്ഷനുകൾ" />
+                          </div>
+                        </div>
+                      </div>
+                      <br class="figure-break" />
+                      <p>ഇവിടെ നിങ്ങൾക്ക് ഇമേജ് ഗ്രിഡ് പ്രാപ്തമാക്കുകായോ അപ്രാപ്തമാക്കുകയോ അല്ലെങ്കിൽ ചില ഗ്രിഡ് ഉള്ള ക്രമീകരിക്കാം.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">ഉപയോഗിക്കുക ജിമ് ഗൈഡുകൾ; ഗൈഡുകൾ സൃഷ്ടിക്കുക</span>
+                    </dt>
+                    <dd>
+                      <p>ഗൈഡ് ലൈനുകൾ ചിത്രത്തിന്റെ അതിർത്തിയിൽ സൃഷ്ടിക്കപ്പെടുന്നു എന്നാൽ ജിമ്പ് ഗൈഡ് ലൈനുകൾ സമാനമായ ഓരോ വരിയും എന്തോ ചുവന്ന സ്ക്വയറിലെ ക്ലിക്കുചെയ്ത് ചുറ്റും നീക്കാൻ കഴിയില്ല. ഗൈഡുകൾ ഉപയോഗിക്കുന്നതിലൂടെ നിങ്ങൾ ചിത്രത്തിൽ സജീവ ദീർഘചതുരങ്ങൾക്കോ സൃഷ്ടിക്കാൻ പ്രാപ്തിയുള്ള.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">ഗൈഡുകൾ സൃഷ്ടിക്കുക</span>
+                    </dt>
+                    <dd>
+                      <div class="figure">
+                        <a id="idp46925525900720"></a>
+                        <p class="title">
+                          <strong>ചിത്രം 17.347. ഗൈഡ് ഓപ്ഷനുകൾ</strong>
+                        </p>
+                        <div class="figure-contents">
+                          <div class="mediaobject">
+                            <img src="images/filters/web/imagemap-guides-options.png" alt="ഗൈഡ് ഓപ്ഷനുകൾ" />
+                            <div class="caption">
+                              <p>ഗൈഡ് ഓപ്ഷനുകൾ</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <br class="figure-break" />
+                      <p> 
+                    Instead of creating geometrical shapes to select the
+                    active areas you may use an array of rectangles, each
+                    representing an active area, by clicking on the
+                    <span class="quote">“<span class="quote">Create guides</span>”</span>. In the menu popping
+                    up you set the width and height of the rectangles, the
+                    space between them, the number of rows and 
+                    columns, and the upper and left startpoint for the array.
+                    All measures are in pixels. If you are not satisfied with
+                    the result you may adjust each rectangle by moving the
+                    red squares as usual.
+                  </p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925525906944"></a>14.2.3.2. ടൂൾ ബാർ</h5>
+              </div>
+            </div>
+          </div>
+          <p>ഇവിടെ ഏറ്റവും എൻട്രികൾ ഇതിനകം വിവരിച്ച ചില പ്രവർത്തനങ്ങൾക്കായി വെറും കുറുക്കുവഴികൾ. ഒഴിവാക്കലുകൾ:</p>
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">മുന്നിലേക്ക് നീക്കുക; തിരികെ അയയ്ക്കുക</span>
+              </dt>
+              <dd>
+                <p>ഇവിടെ നിങ്ങൾ ഏരിയ ലിസ്റ്റ് ചുവടെ (<span class="quote">“<span class="quote">Move to Front</span>”</span>) അല്ലെങ്കിൽ മുകളിൽ ഒരു ഏരിയ എൻട്രി (<span class="quote">“<span class="quote">Send to Back</span>”</span>) നീക്കാൻ കഴിയും.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925525911904"></a>14.2.3.3. ജോലി ഏരിയ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925525912656"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.348. ജോലി ഏരിയ</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/web/imagemap-draw.png" alt="ജോലി ഏരിയ" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>imagemap ജാലകത്തിന്റെ പ്രധാന പരിസരത്ത് ഇടതു വശത്ത്, നിങ്ങൾ പ്രസക്തമായ ഉപകരണങ്ങൾ ഉപയോഗിച്ച് നിങ്ങൾക്ക് ആവശ്യമുള്ള എല്ലാ രൂപങ്ങൾ പ്രദേശങ്ങൾ ആകർഷിക്കും കഴിയുന്ന അധ്വാനിക്കുന്ന പ്രദേശം കണ്ടെത്തും.</p>
+          <p>തൊഴിലാളി പ്രദേശത്ത് പുറമെ ലംബമായി പ്രദർശിപ്പിച്ച ഐക്കണുകൾ, ചൂണ്ടുന്ന ഒന്നു വിവിധ ആകാരം പ്രദേശങ്ങൾ ജനറേറ്റ് ഉപകരണങ്ങൾ വിളിക്കുന്നു മൂന്നു ഒറ്റ മേഖല ഉള്ള എഡിറ്റുചെയ്യാൻ, ഒടുവിൽ ഒരുത്തൻ ഒരു തിരഞ്ഞെടുത്ത മേഖല മായ്ക്കാൻ ഉണ്ട്; നിങ്ങൾ വളരെ മാപ്പിംഗ് മെനു ഉപയോഗിച്ച് ഈ ഫങ്ഷനുകളെ വിളിക്കാം.</p>
+          <div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Caution">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[ശ്രദ്ധിക്കുക]" src="images/caution.png" />
+                </td>
+                <th align="left">ശ്രദ്ധിക്കുക</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>പ്രദേശങ്ങൾ ഓവർലാപ് കാര്യം ശ്രദ്ധിക്കുക.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925525918640"></a>14.2.3.4. നിരക്കു ഏരിയ</h5>
+              </div>
+            </div>
+          </div>
+          <p>വലത് സൃഷ്ടിച്ച പ്രദേശങ്ങൾ ഒരു പ്രോപ്പർട്ടി ലിസ്റ്റ് പോലെ ഒരു ഡിസ്പ്ലേ മേഖലയാണ്. ലിസ്റ്റ് ഒന്ന് ഇനത്തിന്റെ ഒരു ക്ലിക്കിൽ സ്വയം തൊഴിലാളി പ്രദേശത്ത് ഇതേ ആകൃതിയും തിരഞ്ഞെടുക്കുക, പിന്നെ നിങ്ങൾ വരുത്താനും സാധിക്കുന്നതാണ്.</p>
+          <p>
+        Beside the display is an icon vertical set; its use is obvious
+        but a help pop-up gives you some information about each
+        function.
+      </p>
+          <p>നിർഭാഗ്യവശാൽ, മുകളിലേക്കും താഴേക്കും ലിസ്റ്റ് എൻട്രി നീക്കുന്നതിനായി അമ്പ് ചിഹ്നങ്ങൾ ഇവിടെ പ്രവർത്തിക്കുന്നില്ല. പക്ഷേ തീർച്ചയായും നിങ്ങൾ ശ്രദ്ധാപൂർവ്വം കവിഞ്ഞു പ്രദേശങ്ങൾ സൃഷ്ടിക്കാൻ ഒഴിവാക്കണം, അതിനാൽ നിങ്ങൾ ഒട്ടും ഈ ഫംഗ്ഷനുകളും ഉപയോഗിക്കരുത്.</p>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="filters-web.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-web.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-semiflatten.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="filters-web.html">14. വെബ് ഫിൽട്ടറുകൾ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-semiflatten.html">14.3. സെമി പരത്തുക</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

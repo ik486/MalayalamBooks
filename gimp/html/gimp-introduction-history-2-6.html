@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>7. ജിമ്പ് 2.6 പുതുതായി എന്താണുള്ളത്?</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-introduction-history.html" title="അനുബന്ധം A. ജിമ്പ് ചരിത്രം" />
+    <link rel="prev" href="gimp-introduction-history-2-4.html" title="6. ജിമ്പ് 2.4 പുതുതായി എന്താണുള്ളത്?" />
+    <link rel="next" href="gimp-introduction-bugs.html" title="അനുബന്ധം B. പിശകുകൾ ചൂണ്ടിക്കാണിക്കാൻ മെച്ചപ്പെടുത്തലുകളെപ്പറ്റിയും അഭ്യർത്ഥിക്കുന്നു" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">7. ജിമ്പ് 2.6 പുതുതായി എന്താണുള്ളത്?</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-introduction-history-2-4.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">അനുബന്ധം A. ജിമ്പ് ചരിത്രം</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-introduction-bugs.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect1">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a id="gimp-introduction-history-2-6"></a>7. ജിമ്പ് 2.6 പുതുതായി എന്താണുള്ളത്?</h2>
+          </div>
+        </div>
+      </div>
+      <p>ജിമ്പ് 2.6 കാഴ്ച ഒരു വികസന കാഴ്ചപ്പാടിൽ നിന്ന് ഒരു പ്രധാന റിലീസാണ്. ചില പലപ്പോഴും ലഭിച്ച പരാതികൾ അഭിസംബോധന യൂസർ ഇന്റർഫേസ്, ഒപ്പം GEGL, ഒടുവിൽ ജിമ്പ് ഉയർന്ന ബിറ്റ്-ആഴവും നോൺ വിനാശകരമായ എഡിറ്റിംഗ് വരുത്തുന്ന ഗ്രാഫ് അധിഷ്ഠിത ഇമേജ് പ്രോസസ്സിംഗ് ലൈബ്രറിയുടെ ഒരു ദുർബ്ബലമായ സംയോജനം മാറ്റങ്ങൾ സവിശേഷതകൾ.</p>
+      <div class="variablelist">
+        <p class="title">
+          <strong>ഉപയോക്തൃ ഇന്റർഫേസ്</strong>
+        </p>
+        <dl class="variablelist">
+          <dt>
+            <span class="term">പണിസഞ്ചി വിഭവത്തട്ട് നീക്കംചെയ്തു</span>
+          </dt>
+          <dd>
+            <p>ടൂൾബോക്സ് മെനുബാർ നീക്കം ഇമേജ് വിൻഡോ മെനുബാർ ലയിച്ചു. ഈ ഒരു വിൻഡോ ചെയ്യാൻ കഴിയും ലേക്ക് ശൂന്യമായ ഇമേജ് വിൻഡോ അവതരിപ്പിച്ചു വിളിച്ചു. അതു മെനുബാർ ഹോസ്റ്റുചെയ്യുന്ന ആരും ചിത്രങ്ങൾ തുറന്നു ചെയ്യുമ്പോൾ ആപ്ലിക്കേഷൻ ഉദാഹരണത്തിന് ജീവനോടെ സൂക്ഷിക്കുന്നു. അത് ഒരു ഇഴച്ചിടുക ടാർഗെറ്റ് വേഷവും. ആദ്യ ചിത്രം തുറക്കുമ്പോൾ ശൂന്യമായ ചിത്രം ജാലകം ഒരു സാധാരണ ചിത്രം വിൻഡോയുടെ മുസിരിസ്, അവസാനം ചിത്രം അടയ്ക്കുമ്പോൾ, ജാലകം ശൂന്യമായ ഇമേജ് വിൻഡോ മാറുന്നു.</p>
+            <div class="figure">
+              <a id="idp46925531670560"></a>
+              <p class="title">
+                <strong>ചിത്രം A.5. ജിമ്പ് 2.6 ഇമേജ് വിൻഡോയുടെ പുതിയ ലുക്ക്</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/empty-image-window.png" alt="ജിമ്പ് 2.6 ഇമേജ് വിൻഡോയുടെ പുതിയ ലുക്ക്" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+          </dd>
+          <dt>
+            <span class="term">പണിസഞ്ചി ആൻഡ് തുറയിൽ യൂട്ടിലിറ്റി ജാലകങ്ങളാണ്-</span>
+          </dt>
+          <dd>
+            <p>ശൂന്യമായ ഇമേജ് വിൻഡോ പ്രകൃതിദത്ത പ്രധാന ജാലകം ഭരണസംബന്ധമായ വച്ച് പണിസഞ്ചി ആൻഡ് തുറയിൽ ജാലകങ്ങൾ ഇപ്പോൾ പകരം പ്രധാന ജാലകങ്ങൾ യൂട്ടിലിറ്റി ജാലകങ്ങൾ ഉണ്ട്. ഈ ടാസ്ക്ബാറിൽ നിന്ന് പണിസഞ്ചി ആൻഡ് തുറയിൽ കളഞ്ഞ് ആൻഡ് പണിസഞ്ചി ആൻഡ് തുറയിൽ എപ്പോഴും ഇമേജ് വിൻഡോസ് മീതെയുള്ള ഉറപ്പാക്കേണ്ടത് ഉൾപ്പെടെ ജിമ് വിൻഡോസ് കൈകാര്യം വളരെ മെച്ചപ്പെട്ട ജോലി, ചെയ്യാൻ വിൻഡോ മാനേജർമാർ പ്രാപ്തമാക്കുന്നു.</p>
+          </dd>
+          <dt>
+            <span class="term">ചിത്രം അതിർത്തിയിൽ അപ്പുറം സ്ക്രോൾ കഴിവ്</span>
+          </dt>
+          <dd>
+            <p>നാവിഗേഷൻ ഡയലോഗ് ഇപ്പോൾ ചിത്രം അതിർത്തിയിൽ അപ്പുറം ചലിപ്പിക്കുന്നതുപോലെ അനുവദിക്കുന്നു; അങ്ങനെ അത് മുഴുവൻ പ്രദർശന ജാലകം നിറയുന്നു ഒരു ചിത്രം വക്കത്ത് ഒരു ബ്രഷ് ഉപയോഗിക്കാൻ ഒരു പ്രശ്നം ഇനി മുതൽ. ഒപ്പം, ഒരു യൂട്ടിലിറ്റി വിൻഡോ ചിത്രം മറയ്ക്കുകയാണെങ്കിൽ, താങ്കൾക്കു കാണുകയും തിരുത്തുകയും യൂട്ടിലിറ്റി വിൻഡോ മൂടിയിരിക്കും പങ്കു ചിത്രം പാൻ ചെയ്യാനാകും.</p>
+            <div class="figure">
+              <a id="idp46925531679056"></a>
+              <p class="title">
+                <strong>ചിത്രം A.6. അതിർത്തി അപ്പുറം പുറകിലേയ്ക്കു്നീക്കുന്നതു്</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/scroll-beyond-border.png" alt="അതിർത്തി അപ്പുറം പുറകിലേയ്ക്കു്നീക്കുന്നതു്" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+          </dd>
+          <dt>
+            <span class="term">ചെറിയ മാറ്റങ്ങൾ</span>
+          </dt>
+          <dd>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>വിൻഡോസ് ലേക്കുള്ള ഡയലോഗുകൾ മെനു പേര് മാറ്റി.</p>
+                </li>
+                <li class="listitem">
+                  <p>സമീപകാലത്ത് അടച്ച തുറയിൽ ഒരു ലിസ്റ്റ് നിലനിർത്തുക അവരെ വീണ്ടും തുറക്കാൻ അനുവദിക്കുക.</p>
+                </li>
+                <li class="listitem">
+                  <p>ഇതിനകം ജിമ്പ് ഇൻസ്റ്റൻസുകൾ ഓടുന്ന ചിത്രങ്ങൾ തുറക്കല് ​​വരുത്തുക വിൻഡോസിൽ രീതിയിൽ പ്രവർത്തിക്കുക.</p>
+                </li>
+                <li class="listitem">
+                  <p>നിങ്ങൾ ഇപ്പോൾ സ്റ്റാറ്റസ് ബാറിൽ നേരിട്ട് ഇമേജ് സൂം അനുപാതം നൽകാം.</p>
+                </li>
+                <li class="listitem">
+                  <p>ഓൺലൈൻ സഹായം പകരം ഒരു പ്രാദേശികമായി ഇൻസ്റ്റോൾ ജിമ്പ് സഹായം പാക്കേജ് ഉപയോഗിച്ച് പിന്തുണ ചേർത്തിരിക്കുന്നു.</p>
+                </li>
+                <li class="listitem">
+                  <p>അതു യാദൃച്ഛികമായ ഇളക്കം തടയാൻ തുറയിൽ ൽ ടാബുകൾ പൂട്ടുന്നതിന് സാധ്യമാക്കുന്നു.</p>
+                </li>
+              </ul>
+            </div>
+          </dd>
+        </dl>
+      </div>
+      <div class="variablelist">
+        <p class="title">
+          <strong>ഉപകരണങ്ങൾ, ഫിൽട്ടറുകൾ പ്ലഗ്-ഇന്നുകൾ</strong>
+        </p>
+        <dl class="variablelist">
+          <dt>
+            <span class="term">മെച്ചപ്പെട്ട സൗജന്യ തിരഞ്ഞെടുക്കുക ടൂൾ</span>
+          </dt>
+          <dd>
+            <p>freehand തിരഞ്ഞെടുത്ത പ്രയോഗം ബഹുഭുജചിഹ്നം തിരഞ്ഞെടുക്കലുകൾ പിന്തുണയ്ക്കാൻ മെച്ചപ്പെടുത്തി. അത്, ബഹുഭുജങ്ങളുടെ സെഗ്മെന്റുകൾക്ക് നിലവിലുള്ള വിഭാഗത്തോട് എഡിറ്റിംഗ് സൗജന്യമായി കൈ സെഗ്മെന്റുകളിലേക്ക് ധനത്തോട് സെഗ്മെന്റുകളിൽ കോൺ-പരിമിതികളും അപേക്ഷിക്കുന്ന, പ്രതിഭയെ സാധാരണ നിര ഉപകരണം ഓപ്പറേഷൻസ് ചേർക്കാനും കുറയ്ക്കേണ്ട ഇഷ്ടമായി അനുവദിക്കുന്നു. അതു ഈ സൗജന്യം തിരഞ്ഞെടുക്കുക ടൂൾ വളരെ, ഒറ്റയൊറ്റ ശക്തവും എളുപ്പത്തിൽ ഉപയോഗിക്കാവുന്ന നിരക്കു ഉപകരണം making -ത്തിൽ.</p>
+            <div class="figure">
+              <a id="idp46925531694320"></a>
+              <p class="title">
+                <strong>ചിത്രം A.7. ബഹുഭുജചിഹ്നം തിരഞ്ഞെടുക്കൽ</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/new-free-select-tool.png" alt="ബഹുഭുജചിഹ്നം തിരഞ്ഞെടുക്കൽ" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+          </dd>
+          <dt>
+            <span class="term">ബ്രഷ് ഡൈനാമിക്സ്</span>
+          </dt>
+          <dd>
+            <p>ബ്രഷ് ചലനാത്മകത പോലുള്ള അതാര്യത, കാഠിന്യം, വലുപ്പം, അല്ലെങ്കിൽ നിറം ബ്രഷ് പാരാമീറ്ററുകൾ പരിഷ്ക്കരിക്കുന്നതിന് പോലുള്ള സമ്മർദ്ദം, പ്രവേഗം, അല്ലെങ്കിൽ റാൻഡം ഡൈനാമിക് ഒരു ഇൻപുട്ട് ഉപയോഗിക്കുന്നു; ഓരോ ബ്രഷ് വലിപ്പം ഒപാസിറ്റി, ഏറ്റവും പിന്തുണ കൂടുതൽ പിന്തുണയ്ക്കുന്നു. പ്രവേഗം ആൻഡ് റാൻഡം ഒരു മൗസ് ഉപയോഗയോഗ്യമല്ല ആകുന്നു. പ്രവേഗം പിന്തുണയ്ക്കുന്ന ആ ഇങ്ക് ഉപകരണം, മെച്ചപ്പെട്ട ഹാൻഡിൽ വെലോസിറ്റി-ആശ്രിത പെയിന്റിംഗ് ലേക്ക് മറികടന്നു ചെയ്തു.</p>
+            <div class="figure">
+              <a id="idp46925531700032"></a>
+              <p class="title">
+                <strong>ചിത്രം A.8. ബ്രഷ് ഡൈനാമിക്സ്</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/brush-dynamics.jpg" alt="ബ്രഷ് ഡൈനാമിക്സ്" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p>ബ്രഷ് ചലനാത്മകത പാതകളിൽ അതാണെന്ന് ഒരു പുതിയ സവിശേഷത പ്രാപ്തമാക്കി. ഒരു പെയിന്റ് ഉപയോഗിച്ച് നിങ്ങൾക്ക് സ്ട്രോക്ക് എങ്കിൽ ബ്രഷ് ചലനാത്മകത എമുലേറ്റ് <span class="quote">“<span class="quote">paint tool</span>”</span> ഓപ്ഷൻ കീഴിൽ ഒരു ചെക്ക് ബോക്സ്, ഇപ്പോൾ ഉണ്ട്. ഇത് അർത്ഥമാക്കുന്നത് നിങ്ങളുടെ സ്ട്രോക്ക് ചായം ചിന്തിച്ചിട്ടില്ല ജിമ്പ് സമ്മർദ്ദം വേഗതയും സ്ട്രോക്ക് നീളം സഹിതം വ്യത്യസ്ത എന്ന് ബ്രഷ് പറയുന്നു. സമ്മർദ്ദം യാതൊരു സമ്മർദ്ദത്തിനൊടുവിൽ ആരംഭിക്കുന്നത് പൂർണ്ണ സമ്മർദത്തിനു കയറി പാതകൾ, തുടർന്ന് യാതൊരു സമ്മർദ്ദത്തിന് വീണ്ടും റാമ്പ്. പ്രവേഗം സ്ട്രോക്ക് അവസാനത്തോടെ പൂജ്യം ഫുൾ വേഗത്തിൽ വരെ റാമ്പുകൾ മുതൽ ആരംഭിക്കുന്നു.</p>
+          </dd>
+          <dt>
+            <span class="term">ചെറിയ മാറ്റങ്ങൾ</span>
+          </dt>
+          <dd>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>ആ ബൗണ്ടിംഗ് ബോക്സ് പാഠത്തിന്റെ ഓട്ടോമാറ്റിക് ടൈഗ്രിസ് പിന്തുണയ്ക്കുന്ന ടെക്സ്റ്റ് ടൂൾ വേണ്ടി ബൗണ്ടിംഗ് ബോക്സ് ചേർത്തു.</p>
+                  <div class="figure">
+                    <a id="idp46925531707840"></a>
+                    <p class="title">
+                      <strong>ചിത്രം A.9. Text tool ബൗണ്ടിംഗ് ബോക്സ്</strong>
+                    </p>
+                    <div class="figure-contents">
+                      <div class="mediaobject">
+                        <img src="images/using/text-tool.png" alt="Text tool ബൗണ്ടിംഗ് ബോക്സ്" />
+                      </div>
+                    </div>
+                  </div>
+                  <br class="figure-break" />
+                </li>
+                <li class="listitem">
+                  <p>സമകോണചതുർഭുജം ഇടുങ്ങിയ ആയിരിക്കുമ്പോൾ ദീർഘചതുരം പുറത്തു ക്രോപ്പും ചതുരം തിരഞ്ഞെടുക്കുക പോലുള്ള ദീർഘചതുരം അടിസ്ഥാനമാക്കിയുള്ള ടൂളുകൾ നീക്കുന്നതിന്.</p>
+                  <div class="figure">
+                    <a id="idp46925531711840"></a>
+                    <p class="title">
+                      <strong>ചിത്രം A.10. ചതുരം ഹാൻഡിലുകളിൽ</strong>
+                    </p>
+                    <div class="figure-contents">
+                      <div class="mediaobject">
+                        <img src="images/using/rectangle-handles.png" alt="ചതുരം ഹാൻഡിലുകളിൽ" />
+                      </div>
+                    </div>
+                  </div>
+                  <br class="figure-break" />
+                </li>
+                <li class="listitem">
+                  <p>നീക്കുക ടൂൾ ചലനം നിയന്ത്രണങ്ങൾ ചേർത്തു.</p>
+                </li>
+                <li class="listitem">
+                  <p>പെയിന്റ് ടൂളുകൾ മൃദുലമാക്കുന്നതിനും മെച്ചപ്പെടുത്തിയ ഇവന്റ്.</p>
+                </li>
+                <li class="listitem">
+                  <p>മാർക്ക് വരയ്ക്കുന്ന സെന്റര് അവർ നീക്കി പോൾ, ഗ്രിഡ് ശേഷംജനത്തോടും കേന്ദ്രം സ്നാപ്പുചെയ്യരുത്.</p>
+                </li>
+                <li class="listitem">
+                  <p>സ്മഡ്ജ് ടൂൾ വേണ്ടി ബ്രഷ് സ്കേലിങ് പ്രാപ്തമാക്കുക.</p>
+                </li>
+                <li class="listitem">
+                  <p>നിങ്ങൾ പതിവായി ഉപയോഗിക്കുന്ന നിറം ക്രമീകരണങ്ങൾക്കുള്ള പ്രീസെറ്റുകൾ എല്ലാ നിറം ഉപകരണങ്ങൾ അല്ലാതെ കഴിവ് ചേർത്തു.</p>
+                </li>
+                <li class="listitem">
+                  <p><span class="emphasis"><em>Levels</em></span> വരെയും, <span class="emphasis"><em>Levels</em></span> നിന്ന് <span class="emphasis"><em>Curves</em></span> ലേക്ക് <span class="emphasis"><em>Brightness-Contrast </em></span> നിന്ന് സജ്ജീകരണങ്ങൾ കൈമാറാൻ അനുവദിക്കുക.</p>
+                </li>
+                <li class="listitem">
+                  <p>രൂപാന്തരപ്പെടുത്തിയോ പ്രയോഗം പ്രിവ്യൂ സംബന്ധിച്ചുള്ള അതാര്യത മാറ്റുന്നതിൽ അനുവദിക്കുക.</p>
+                </li>
+                <li class="listitem">
+                  <p>സ്ക്രീൻഷോട്ട് പ്ലഗ്-ഇൻ മൗസ് കഴ്സർ (XFixes ഉപയോഗിച്ച്) പിടിച്ചെടുക്കാനുള്ള കഴിവ് നൽകിയിട്ടുണ്ട്.</p>
+                </li>
+                <li class="listitem">
+                  <p>സ്റ്റാറ്റസ് ബാറിൽ ക്രോപ്പും ചതുരം തിരഞ്ഞെടുക്കുക ടൂൾ വരയ്ക്കുന്ന പ്രദർശിപ്പിക്കുക വീക്ഷണ അനുപാതം.</p>
+                </li>
+                <li class="listitem">
+                  <p>Desaturate ഒരു ഓൺ-ക്യാൻവാസ് പ്രിവ്യൂ ലഭിച്ചിരിക്കുന്നു.</p>
+                </li>
+                <li class="listitem">
+                  <p>തീനാളം പ്ലഗ്-ഇൻ 22 പുതിയ മാറ്റങ്ങൾ നീട്ടി.</p>
+                </li>
+                <li class="listitem">
+                  <p>ബ്രഷ് ഫോൾഡറുകൾ പോലെ ഡാറ്റ ഫയൽ ഫോൾഡറുകൾ ഫയലുകളിൽ പെർമിഷൻ തിരയുന്ന.</p>
+                </li>
+                <li class="listitem">
+                  <p>ഐസിസി നിറം പ്രൊഫൈലുകൾ ഉദാഹരണത്തിന് വായനയ്ക്ക്, പ്ലസ് പഴയ പതിപ്പ് ചെയ്തതും ചെയ്യുന്ന ഒരു മാറ്റിയെഴുതി പതിപ്പ് മറ്റ് ചില വസ്തുക്കളിൽ പിഎസ്ഡി ഇമ്പോർട്ട് പ്ലഗ്-ഇൻ മാറ്റിസ്ഥാപിച്ചു.</p>
+                </li>
+                <li class="listitem">
+                  <p>പല ഡിസ്പ്ലേകൾ കെയ്റോ ലൈബ്രറി ഉപയോഗിക്കാൻ.</p>
+                  <div class="figure">
+                    <a id="gimp-cairo-2-4-vs-2-6"></a>
+                    <p class="title">
+                      <strong>ചിത്രം A.11. തെരയൂ 2.4 2.6 ഡിസ്പ്ലേ സമാനമാണെന്നും</strong>
+                    </p>
+                    <div class="figure-contents">
+                      <div class="mediaobject">
+                        <img src="images/using/gimp-curves-tool-2-4-vs-2-6.png" alt="തെരയൂ 2.4 2.6 ഡിസ്പ്ലേ സമാനമാണെന്നും" />
+                      </div>
+                    </div>
+                  </div>
+                  <br class="figure-break" />
+                </li>
+              </ul>
+            </div>
+          </dd>
+        </dl>
+      </div>
+      <div class="variablelist">
+        <p class="title">
+          <strong>മേൽക്കുര്യുടെ അടിയിൽ</strong>
+        </p>
+        <dl class="variablelist">
+          <dt>
+            <span class="term">GEGL</span>
+          </dt>
+          <dd>
+            <p>ജിമ് ഉയർന്ന ബിറ്റ്-ആഴവും നോൺ-വിനാശകരമായ എഡിറ്റിംഗ് നേരെ പ്രധാനം പുരോഗതി ചെയ്തു. ജിമ് ഏറ്റവും കളർ ഓപ്പറേഷനുകൾ ഇപ്പോൾ ആന്തരിക പ്രോസസ്സിംഗ് ഫ്ലോട്ടിങ് പോയിന്റ് ലീനിയർ വെളിച്ചം RGBA 32bit നടക്കുന്ന അതായത് ശക്തമായ ഗ്രാഫ് അധിഷ്ഠിത ഇമേജ് പ്രോസസ്സിംഗ് ചട്ടക്കൂട് GEGL <a class="xref" href="bibliography.html#bibliography-online-gegl" title="GEGL (ജനറിക് ഗ്രാഫിക്സ് ലൈബ്രറി)">[<abbr class="abbrev">GEGL</abbr>]</a> തയാറാക്കിയിരുന്നത് ചെയ്യുന്നു. സ്വതവേ ലെഗസി 8bit കോഡ് പാതകൾ ഇപ്പോഴും ഉപയോഗിക്കുന്നു, എന്നാൽ കൗതുകകരമായ ഉപയോക്താവ് <a class="link" href="gimp-config-use-gegl.html" title="8.5. Use GEGL">Colors / Use GEGL</a> നിറം പ്രവർത്തനങ്ങൾക്ക് GEGL ഉപയോഗം ഓൺ ചെയ്യാനാകും.</p>
+            <p>GEGL നിറം പ്രവർത്തനങ്ങൾക്കായുള്ള നു്അനുയോജ്യമാക്കിക്കൊണ്ടിരിയ്ക്കുന്നു പുറമേ, ഒരു പരീക്ഷണാത്മക GEGL ഓപ്പറേഷൻ ഉപകരണം ഉപകരണങ്ങൾ മെനുവിലെ കണ്ടു ചേർത്തിരിക്കുന്നു. ഇത് ഒരു ചിത്രത്തിലേക്ക് GEGL ഓപ്പറേഷൻസ് അപേക്ഷിക്കുന്ന പ്രാപ്തമാക്കുന്നു അതു ഫലങ്ങൾ ഓൺ-കാൻവാസ് പ്രിവ്യൂകൾ നൽകുന്നു. താഴെ ചിത്രത്തിലേ ഒരു ഗോഷ്യൻ ഇഫക്റ്റ് ഈ കാണിക്കുന്നു.</p>
+            <div class="figure">
+              <a id="idp46925531741168"></a>
+              <p class="title">
+                <strong>ചിത്രം A.12. GEGL ഓപ്പറേഷൻ</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/experimental-gegl-tool.png" alt="GEGL ഓപ്പറേഷൻ" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+          </dd>
+          <dt>
+            <span class="term">ചെറിയ മാറ്റങ്ങൾ</span>
+          </dt>
+          <dd>
+            <p>ഡ്രോയിംഗിനും 2 ഡി ഗ്രാഫിക്സ് ലൈബ്രറി കെയ്റോ <a class="xref" href="bibliography.html#bibliography-online-cairo" title="കെയ്റോ">[<abbr class="abbrev">കെയ്റോ</abbr>]</a> ഉപയോഗിക്കാൻ പല വിഡ്ജറ്റുകൾ തയാറാക്കിയിരുന്നത്. ഈ എത്ര രസകരം ദൃഷ്ടാന്തമായി ഈ <a class="link" href="">comparison</a> കാണുക.</p>
+          </dd>
+        </dl>
+      </div>
+      <div class="variablelist">
+        <p class="title">
+          <strong>കലര്പ്പായ</strong>
+        </p>
+        <dl class="variablelist">
+          <dt>
+            <span class="term">പ്ലഗ്-ഇൻ വികസന</span>
+          </dt>
+          <dd>
+            <p>അതുപോലെ ആസ്വദിക്കാൻ പ്ലഗ്-ഇൻ ഡവലപ്പറിനായി പുതിയ കാര്യങ്ങൾ ഉണ്ട്. ഉദാഹരണത്തിന്, നടപടിക്രമങ്ങൾ ഇപ്പോൾ ഒരു പിശക് സാഹചര്യത്തിൽ വിശദമായ പിശക് വിവരണം നല്കുന്നു കഴിയും, പിശക് ഉപയോക്താവിന് പ്രചരിപ്പിച്ച കഴിയും.</p>
+            <p>ജിമ്പ് 2.6 പുറമേ കൂടുതൽ സ്ക്രിപ്റ്റിംഗ് കഴിവുകൾ വർദ്ധിപ്പിക്കുകയും. പ്രത്യേകിച്ചും ഇപ്പോൾ ടെക്സ്റ്റ് പാളികൾ സൃഷ്ടി ഇതെന്നും ഒരു സമൃദ്ധമായ എപിഐ ഇല്ല. <a class="xref" href="">???</a>: ഇവിടെ ജിമ്പ് 2.6 പുതിയ ചിഹ്നങ്ങൾ ഒരു പട്ടികയിലുണ്ട്.</p>
+          </dd>
+          <dt>
+            <span class="term">പുറകോട്ട്കണ്ടുപിടിക്കുക അനുയോജ്യത</span>
+          </dt>
+          <dd>
+            <p>ചില പഴയ സ്ക്രിപ്റ്റുകൾ ജിമ്പ്-2.4 കൂടെ ഉപയോഗിക്കാൻ കഴിഞ്ഞില്ല. ഈ മെച്ചപ്പെടുത്തിയിരിയ്ക്കുന്നു 2.6 2.0, 2.2 സ്ക്രിപ്റ്റുകൾ പ്രവർത്തിപ്പിക്കാൻ വേണം.</p>
+          </dd>
+          <dt>
+            <span class="term">പ്രശ്നങ്ങൾ</span>
+          </dt>
+          <dd>
+            <div class="itemizedlist">
+              <ul class="itemizedlist" style="list-style-type: disc; ">
+                <li class="listitem">
+                  <p>യൂട്ടിലിറ്റി വിൻഡോ സൂചന മാത്രമേ നിലവിൽ ജിമ്പ് 2.6.1 തുടങ്ങുന്ന ലിനക്സ് ഗ്നോം പണിയിടത്തിൽ, Windows നന്നായി പ്രവർത്തിക്കാൻ അറിയപ്പെടുന്നു.</p>
+                </li>
+                <li class="listitem">
+                  <p>ടെക്സ്റ്റ് ടൂൾ ഉപയോഗിച്ച് നിലവിൽ ഒരു തലോടല് അനുഭവം അല്ല. അത് കൂടുതൽ ഉണ്ടാക്കുന്നു ജിമില 2.8 ഒരു ലക്ഷ്യം.</p>
+                </li>
+                <li class="listitem">
+                  <p>നിങ്ങൾ ജിമ്പ് സ്വയം പണിയും നിങ്ങളുടെ പ്ലാറ്റ്ഫോമിൽ GVfs പിന്തുണ ഇല്ല കീഴ്വഴക്കമായി <span class="command"><strong>configure</strong></span> ലേക്ക് <code class="option">--without-gvfs</code> കടന്നുവരുവാൻ വേണമെങ്കിൽ, അല്ലെങ്കിൽ റിമോട്ട് ഫയലുകൾ തുറക്കുന്നത് ശരിയായി പ്രവർത്തിക്കില്ല.</p>
+                </li>
+              </ul>
+            </div>
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-introduction-history-2-4.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-introduction-history.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-introduction-bugs.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-introduction-history-2-4.html">6. ജിമ്പ് 2.4 പുതുതായി എന്താണുള്ളത്?</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-introduction-bugs.html">അനുബന്ധം B. പിശകുകൾ ചൂണ്ടിക്കാണിക്കാൻ മെച്ചപ്പെടുത്തലുകളെപ്പറ്റിയും അഭ്യർത്ഥിക്കുന്നു</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

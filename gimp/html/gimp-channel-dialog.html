@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>2.2. ചാനലുകൾ സംഭാഷണം</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-dialogs-structure.html" title="2. ചിത്രം ഘടന ബന്ധപ്പെട്ട ഡയലോഗുകൾ" />
+    <link rel="prev" href="gimp-dialogs-structure.html" title="2. ചിത്രം ഘടന ബന്ധപ്പെട്ട ഡയലോഗുകൾ" />
+    <link rel="next" href="gimp-path-dialog.html" title="2.3. പാഥുകൾ സംഭാഷണം" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">2.2. ചാനലുകൾ സംഭാഷണം</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-dialogs-structure.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">2. ചിത്രം ഘടന ബന്ധപ്പെട്ട ഡയലോഗുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-path-dialog.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-channel-dialog"></a>2.2. ചാനലുകൾ സംഭാഷണം</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925516636704" class="indexterm"></a>
+      <a id="idp46925516638048" class="indexterm"></a>
+      <div class="figure">
+        <a id="idp46925516639392"></a>
+        <p class="title">
+          <strong>ചിത്രം 15.7. ചാനലുകൾ ഡയലോഗ്</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/dialogs/channels-dialog.png" alt="ചാനലുകൾ ഡയലോഗ്" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>ചാനലുകൾ ഡയലോഗ്, എഡിറ്റുചെയ്യുക പരിഷ്ക്കരിക്കുക, നിയന്ത്രിക്കുക നിങ്ങളുടെ ചാനലുകളിലേക്ക് പ്രധാന ഇന്റർഫേസ് ആണ്. ചാനലുകൾ ഇരട്ടി ഉപയോഗം ഞങ്ങൾക്കുണ്ട്. നിറം ചാനലുകൾക്കായി ആദ്യ ഭാഗം <a class="link" href="gimp-channel-dialog.html#gimp-channel-mask" title="2.2.3. തിരഞ്ഞെടുക്കൽ മാസ്കുകൾ">selection masks</a> രണ്ടാം ഭാഗം: എന്തുകൊണ്ട് ഡയലോഗ് രണ്ടു ഭാഗങ്ങളായി തിരിച്ചിരിക്കുന്നു ഈ.</p>
+      <p><span class="emphasis"><em>Color channels</em></span> ചിത്രത്തിലേക്ക് അല്ല ഒരു പ്രത്യേക പാളി ബാധകമാണ്. അടിസ്ഥാനപരമായി, മൂന്ന് പ്രാഥമിക നിറങ്ങൾ സ്വാഭാവിക നിറങ്ങൾ എല്ലാ വിശാല ശ്രേണിയിൽ റെൻഡർ അനിവാര്യമാണെന്നും. മറ്റ് ഡിജിറ്റൽ സോഫ്റ്റ്വെയർ നിലയിൽ <acronym class="acronym">GIMP</acronym> പ്രാഥമിക നിറങ്ങൾ എന്നപോലെ ചെങ്കടലിൽ, ഗ്രീൻ, നീല ഉപയോഗിക്കുന്നു. ആദ്യ പ്രാഥമിക ചാനലുകൾ നിങ്ങളുടെ ചിത്രത്തിന്റെ ഓരോ പിക്സൽ <span class="guilabel">Red</span>, <span class="guilabel">Green</span>, ഒപ്പം <span class="guilabel">Blue</span> മൂല്യങ്ങൾ പ്രദർശിപ്പിക്കും. അടുത്ത ചാനൽ പേര് ലേക്ക് വെള്ള 100% കറുത്ത പ്രാഥമിക നിറം 0% ആണ് ഓരോ ചാനൽ, ഒരു ഗ്രേസ്കെയിൽ പ്രാതിനിധ്യം പ്രദർശിപ്പിക്കുന്നതിൽ ഒരു നഖചിത്രം ആണ്. പകരമായി, നിങ്ങളുടെ ചിത്രം ഒരു നിറമുള്ള എന്നാൽ ഒരു ഗ്രേസ്കെയിൽ ഇമേജ് അല്ല എങ്കിൽ അവിടെ <span class="guilabel">Gray</span> വിളിച്ചു ഒരു പ്രാഥമിക ചാനൽ ആണ്. അറിയപ്പെടുന്ന നിറങ്ങൾ നിശ്ചിത എണ്ണം ഗണമാണോയെന്നത് ചിത്രം അവയും <span class="guilabel">Indexed</span> വിളിച്ചു ഒരു പ്രാഥമിക ചാനൽ ഇല്ല. അപ്പോൾ <span class="guilabel">Alpha</span> എന്ന ഒരു ഓപ്ഷണൽ ചാനൽ ഇല്ല. ഈ ചാനൽ (ഗ്ലോസറിയിൽ <a class="link" href="glossary.html#glossary-alpha-channel" title="ആൽഫ ചാനൽ">Alpha Channel</a> കാണുക) നിങ്ങളുടെ ചിത്രത്തിന്റെ ഓരോ പിക്സൽ സുതാര്യത മൂല്യങ്ങൾ പ്രദർശിപ്പിക്കുന്നു. ഈ ചാനൽ മുന്നിൽ വെളുത്ത അതാര്യവുമാണ് ദൃശ്യവും എവിടെ സുതാര്യത ഒരു ഗ്രേസ്കെയിലാക്കി പ്രാതിനിധ്യം പ്രദർശിപ്പിക്കുന്നതിൽ ഒരു ലഘുചിത്രം ആണ്, കറുത്ത സുതാര്യവും അദൃശ്യനായ. നിങ്ങൾക്ക് സുതാര്യതയും ഇല്ലാതെ നിങ്ങളുടെ ഇമേജ് സൃഷ്ടിക്കാൻ എങ്കിൽ ആൽഫാ ചാനൽ ഇപ്പോഴത്തെ അല്ല, നിങ്ങൾ <a class="link" href="">Layers dialog menu</a> നിന്ന് ചേർക്കാവുന്നതാണ്. കൂടാതെ, നിങ്ങൾ ഇമേജ് ഒന്നിലധികം പാളി ഉണ്ടെങ്കിൽ <acronym class="acronym">GIMP</acronym> സ്വയം ആൽഫാ ചാനൽ സൃഷ്ടിക്കുന്നു.</p>
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+        <table border="0" summary="Note">
+          <tr>
+            <td rowspan="2" align="center" valign="top" width="25">
+              <img alt="[കുറിപ്പു്]" src="images/note.png" />
+            </td>
+            <th align="left">കുറിപ്പു്</th>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <p>ജിമ്പ് CMYK അല്ലെങ്കിൽ YUV നിറം മോഡലുകൾ പിന്തുണയ്ക്കുന്നില്ല.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="figure">
+        <a id="idp46925516653840"></a>
+        <p class="title">
+          <strong>ചിത്രം 15.8. ചാനലുകൾ ഒരു ഇമേജ് ജനപ്രാതിനിധ്യ</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/dialogs/wilber-channels-red.png" alt="ചാനലുകൾ ഒരു ഇമേജ് ജനപ്രാതിനിധ്യ" />
+            <div class="caption">
+              <p>റെഡ് ചാനൽ</p>
+            </div>
+          </div>
+          <div class="mediaobject">
+            <img src="images/dialogs/wilber-channels-green.png" alt="ചാനലുകൾ ഒരു ഇമേജ് ജനപ്രാതിനിധ്യ" />
+            <div class="caption">
+              <p>ഗ്രീൻ ചാനൽ</p>
+            </div>
+          </div>
+          <div class="mediaobject">
+            <img src="images/dialogs/wilber-channels-blue.png" alt="ചാനലുകൾ ഒരു ഇമേജ് ജനപ്രാതിനിധ്യ" />
+            <div class="caption">
+              <p>ബ്ലൂ ചാനൽ</p>
+            </div>
+          </div>
+          <div class="mediaobject">
+            <img src="images/dialogs/wilber-channels-alpha.png" alt="ചാനലുകൾ ഒരു ഇമേജ് ജനപ്രാതിനിധ്യ" />
+            <div class="caption">
+              <p>ആൽഫ ചാനൽ</p>
+            </div>
+          </div>
+          <div class="mediaobject">
+            <img src="images/dialogs/wilber-channels-combined.png" alt="ചാനലുകൾ ഒരു ഇമേജ് ജനപ്രാതിനിധ്യ" />
+            <div class="caption">
+              <p>എല്ലാ ചാനലുകളും</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>ശരിയായ ചിത്രം മൂന്നു നിറം ചാനലുകൾ (ചുവപ്പ്, പച്ച, നീല) സുതാര്യതയും ആൽഫ ചാനലിൽ ബാഗിലാക്കിയ ആണ്. ശരിയായ ചിത്രം ന് സുതാര്യത ഒരു ചാര ചെക്കർബോർഡ് ആയി പ്രദർശിപ്പിക്കും. നിറം ചാനൽ വെളുത്ത എല്ലാ നിറങ്ങളെയും കൂടിയിരിക്കുന്ന നിമിത്തം കറുത്ത കറുത്ത എപ്പോഴും വെളുത്ത. Red Hat ചുവന്ന ചാനലിൽ ദൃശ്യമാകും എന്നാൽ മറ്റ് ചാനലുകൾ വളരെ അദൃശ്യനായ. ഇത് മാത്രം കാണാവുന്ന സ്വന്തം ചാനലുകളിൽ ചിലരെ അദൃശ്യനായ ആയ പ്ലെയിൻ പച്ച, നീല സമാനമാണ്.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-channel-dialog-calling"></a>2.2.1. ഡയലോഗ് സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p><span class="quote">“<span class="quote">Channels</span>”</span> ഡയലോഗ് ഒരു dockable ഡയലോഗ് ആണ്; അതു കൈകാര്യം ന് സഹായത്തിന് <a class="xref" href="gimp-concepts-docks.html" title="2.3. ഡയലോഗുകൾ, ഡോക്കിങ്">വിഭാഗം 2.3, “ഡയലോഗുകൾ, ഡോക്കിങ്”</a> കാണും.</p>
+        <p>താങ്കൾക്ക് ആക്സസ് ചെയ്യാൻ കഴിയും:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>ഒരു ഇമേജ് മെനുവിൽ നിന്ന്: <span class="guimenu">Windows</span> → <span class="guisubmenu">Dockable Dialogs</span> → <span class="guimenuitem">Channels</span>;</p>
+            </li>
+            <li class="listitem">
+              <p>ഏതെങ്കിലും dockable ഡയലോഗിൽ ടാബ് മെനുവിൽ നിന്നും <span class="guiicon"><img src="images/dialogs/stock-menu- left-12.png" /></span> ക്ലിക്കുചെയ്ത് <span class="guimenu">Add Tab</span> → <span class="guimenuitem">Channels</span> തിരഞ്ഞെടുത്ത്.</p>
+            </li>
+          </ul>
+        </div>
+        <p><span class="guimenu">Windows</span> മെനുവിൽ, കുറഞ്ഞത് ഒരു ഡയലോഗ് തുറന്നുതന്നെയിരിക്കുന്ന മാത്രമേ ഉണ്ട് <a class="link" href="gimp-concepts-docks.html#gimp-dockable-menu" title="2.3.2. ടാബ് മെനു">detached windows</a> ഒരു ലിസ്റ്റ് ഉണ്ട്. <span class="guimenu">Windows</span> → <span class="guimenuitem">Channels</span>: ഈ സാഹചര്യത്തിൽ, ഇമേജ്-മെനുവിൽ നിന്നും <span class="quote">“<span class="quote">Channels</span>”</span> ഡയലോഗ് ഉണ്ടാകാം.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-channel-dialog-using"></a>2.2.2. ചാനൽ ഡയലോഗ് ഉപയോഗിച്ച്</h4>
+            </div>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="gimp-channel-dialog-using-overview"></a>2.2.2.1. പൊതു അവലോകനം</h5>
+              </div>
+            </div>
+          </div>
+          <p>മുൻനിര ചാനലുകൾ നിറം ചാനലുകളും ഓപ്ഷണൽ ആൽഫ ചാനൽ ആകുന്നു. അവർ എപ്പോഴും ഒരേ ക്രമത്തിൽ സംഘടിപ്പിക്കാറുണ്ട് അവർ മായ്ക്കാനായില്ല കഴിയില്ല. തിരഞ്ഞെടുക്കൽ മാസ്കുകൾ താഴെ വിവരിച്ചിരിക്കുന്ന ഒരു ലിസ്റ്റ് ഡയലോഗിൽ ലഭ്യമാകുന്നു. ഓരോ ചാനൽ ഒരു ലഘുചിത്രം അതിന്റെ പേരും ഉൾപ്പെടെ അതിന്റെ ഗുണ, പട്ടികയിൽ ലഭ്യമാകുന്നു. ഒരു റൈറ്റ് ക്ലിക്ക് ഒരു ചാനൽ ലിസ്റ്റ് എൻട്രി ലെ <a class="link" href="gimp-channel-dialog.html#gimp-channel-menu" title="2.2.2.4. ചാനലുകൾ സന്ദർഭ മെനു">channel context menu</a> തുറക്കുന്നു.</p>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="gimp-channel-dialog-using-attributes"></a>2.2.2.2. ചാനൽ ആട്റിബ്യൂട്ടുകൾക്ക്</h5>
+              </div>
+            </div>
+          </div>
+          <p>ഓരോ ചാനൽ <a class="link" href="gimp-dialogs-structure.html#gimp-layer-attributes">layer attributes</a> വളരെ സാദൃശ്യമുള്ള അവരുടെ സ്വന്തം ഗുണവിശേഷങ്ങൾ, പട്ടികയിൽ കാണിച്ചിരിക്കുന്നു:</p>
+          <div class="variablelist">
+            <a id="channel-attributes"></a>
+            <div class="mediaobject">
+              <img src="images/dialogs/channel-list-entry.png" />
+            </div>
+            <dl class="variablelist">
+              <dt>
+                <span class="term">
+            <span class="guiicon">
+              <img src="images/dialogs/stock-eye-20.png" />
+            </span>
+            <span class="phrase">ചാനൽ ദൃശ്യപരത</span>
+          </span>
+              </dt>
+              <dd>
+                <p>ഓരോ ചാനൽ സ്വതവേ അതുവഴി ഓരോ വർണ്ണ മൂല്യം ദൃശ്യമാണ്. ഇത് ഒരു <span class="quote">“<span class="quote">open eye</span>”</span> ഐക്കൺ തന്നെ തെളിവാണ്. (ചാനൽ ദൃശ്യമല്ലെങ്കിൽ ബഹിരാകാശ) കണ്ണ്-ചിഹ്നത്തിൽ ക്ലിക്കുചെയ്തുകൊണ്ട് ചാനലിന്റെ ദൃശ്യപരത ടോഗിൾ ചെയ്യും.</p>
+              </dd>
+              <dt>
+                <span class="term">
+            <span class="guiicon">
+              <img src="images/dialogs/stock-vchain-24.png" />
+            </span>
+            <span class="phrase">ചെയിൻ ചാനലുകൾ</span>
+          </span>
+              </dt>
+              <dd>
+                <p>നിരക്കു മാസ്കുകൾ (ചാനൽ ലിസ്റ്റ് താഴെ പുതിയ ചാനലുകൾ) പ്രതിനിധീകരിക്കുന്ന ചാനലുകൾ <span class="quote">“<span class="quote">chain</span>”</span> ചിഹ്നം ഉപയോഗിച്ച് ബട്ടൺ ഉപയോഗിച്ച് ഗ്രൂപ്പുചെയ്യാനാകും ചെയ്യാം. അപ്പോൾ ഈ ചാനലുകൾ എല്ലാ പ്രവർത്തനങ്ങളുടെ അതേ വിധത്തിൽ ബാധിച്ചു അവരിൽ ആരെങ്കിലും പ്രയോഗിച്ചു.</p>
+                <p>പ്രാഥമിക നിറം ചാനലുകൾ (ചാനൽ ലിസ്റ്റ് മുകൾ ഭാഗത്ത് സ്വതവേ ചാനലുകൾ) വളരെ ഗ്രൂപ്പുചെയ്യാനാകും ചെയ്യാം. സ്ഥിരസ്ഥിതിയായി എല്ലാ നിറം ചാനലുകളും (ആൽഫ ചാനൽ) തിരഞ്ഞെടുത്തു, അവരുടെ ലിസ്റ്റ് എൻട്രികൾ പ്രമുഖമാക്കുന്നു. ഓപ്പറേഷൻ എല്ലാ ചാനലുകളും നടപ്പിലാക്കും. ഒരു ചാനൽ ലിസ്റ്റ് എൻട്രി ക്ലിക്കുചെയ്തുകൊണ്ട് നിങ്ങളെ ഈ ചാനൽ നിർജ്ജീവമാക്കി കഴിയും. <a class="link" href="">colorizing</a> പോലുള്ള പ്രവർത്തനങ്ങൾ ഒരു പാളി തിരഞ്ഞെടുത്തു (<span class="quote">“<span class="quote">grouped</span>”</span>) മാത്രം ചാനലുകളിലേക്ക് പ്രയോഗിക്കും. ലിസ്റ്റ് എൻട്രി വീണ്ടും ക്ലിക്കുചെയ്യുന്നത് ചാനൽ പ്രവർത്തനസജ്ജമാക്കും.</p>
+              </dd>
+              <dt>
+                <span class="term">ലഘുചിത്രം</span>
+              </dt>
+              <dd>
+                <p>ഒരു ചെറിയ പ്രിവ്യൂ-ഐക്കൺ ചാനലിന്റെ പ്രാബല്യത്തിൽ പ്രതിനിധീകരിക്കുന്നു. ഒരു നിരക്കു മാസ്ക് ന് ഈ പ്രിവ്യൂ അതിൽ ഇറങ്ങി ക്ലിക്ക് കൈവശമുള്ള വലുതായ കഴിയും.</p>
+              </dd>
+              <dt>
+                <span class="term">ചാനൽ പേര്</span>
+              </dt>
+              <dd>
+                <p>ചിത്രം അദ്വിതീയ ആയിരിക്കണം ചാനൽ പേര്. ഒരു നിരക്കു മാസ്ക് ചാനലിന്റെ പേര് ക്ലിക്കുചെയ്യുന്നതിലൂടെ Double- നിങ്ങൾ അത് എഡിറ്റ് അനുവദിക്കും. പ്രാഥമിക ചാനലുകൾ (റെഡ്, ഗ്രീൻ, ബ്ലൂ, ആൽഫ) പേരുകൾ മാറ്റാൻ കഴിയില്ല.</p>
+              </dd>
+            </dl>
+          </div>
+          <div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Caution">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[ശ്രദ്ധിക്കുക]" src="images/caution.png" />
+                </td>
+                <th align="left">ശ്രദ്ധിക്കുക</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>സജീവമാക്കി ചാനലുകൾ ഡയലോഗ് നീലനിറത്തിൽ (സാധാരണയായി) എടുത്തുകാട്ടിയ ദൃശ്യമാകും. പട്ടികയിൽ ഒരു ചാനലിലേക്ക് ക്ലിക്ക് എങ്കിൽ ഇതേ ചാനൽ സജീവമാക്കുന്നതിനും ടോഗിൾ. ഒരു കളർ ചാനൽ ചുവപ്പ്, നീല, പച്ച അപ്രാപ്തമാക്കുന്നു കഠിനമായ ഉണ്ട്. ഉദാഹരണത്തിന് നിങ്ങൾക്ക് നീല ചാനൽ അപ്രാപ്തമാക്കുകയാണെങ്കിൽ, ചിത്രം ചേർത്തു ഇപ്പോൾ നിന്നുള്ള എല്ലാ പിക്സലുകൾ നീല ഘടകം ഇല്ല, അങ്ങനെ ഒരു വെളുത്ത പിക്സൽ മഞ്ഞ തീർക്കുന്ന നിറം ഉണ്ടാകും.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="gimp-channel-dialog-using-managing"></a>2.2.2.3. ചാനലുകൾ കൈകാര്യം</h5>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925516710848" class="indexterm"></a>
+          <a id="idp46925516712240" class="indexterm"></a>
+          <a id="idp46925516713648" class="indexterm"></a>
+          <a id="idp46925516715024" class="indexterm"></a>
+          <a id="idp46925516716416" class="indexterm"></a>
+          <a id="idp46925516717808" class="indexterm"></a>
+          <p>ചാനൽ ലിസ്റ്റ് കീഴിൽ നീ ചാനൽ ലിസ്റ്റ് ചില അടിസ്ഥാന പ്രവർത്തനങ്ങൾ നിർവ്വഹിക്കാൻ അനുവദിക്കുന്നത് ബട്ടണുകൾ ഒരു കൂട്ടം.</p>
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <a id="gimp-channel-edit"></a>
+                <span class="term">
+            <span class="guiicon">
+              <span class="inlinemediaobject"><img src="images/dialogs/stock-edit-16.png" /></span>
+            </span>
+            <span class="phrase">ചാനൽ എഡിറ്റ് ഗുണവിശേഷതകൾ</span>
+          </span>
+              </dt>
+              <dd>
+                <p>നിരക്കു മാസ്കുകൾ മാത്രം ലഭ്യം. ഇവിടെ നിങ്ങൾ <span class="guilabel">Channel name</span> മാറ്റാൻ കഴിയും. മറ്റ് രണ്ട് മാനദണ്ഡങ്ങൾ ചിത്രം വിൻഡോയിൽ ചാനൽ ദൃശ്യപരത ബാധിക്കുന്ന; അവർ <span class="guilabel">Opacity</span> ഇമേജ് വിൻഡോയിൽ മാസ്ക് ആവശ്യമായ നിറം നിയന്ത്രിക്കാൻ. നിറം ബട്ടണിൽ ക്ലിക്കിൽ ജിമ് നിറം സെലക്ടർ പ്രദർശിപ്പിക്കുന്നു തുടർന്ന് നിങ്ങൾക്ക് മാസ്ക് നിറം മാറ്റാൻ കഴിയും.</p>
+              </dd>
+              <dt>
+                <a id="gimp-channel-new"></a>
+                <span class="term">
+            <span class="guiicon">
+              <span class="inlinemediaobject"><img src="images/dialogs/dialogs-icon-new.png" /></span>
+            </span>
+            <span class="phrase">പുതിയ ചാനൽ</span>
+          </span>
+              </dt>
+              <dd>
+                <p>ഇവിടെ ഒരു പുതിയ ചാനൽ സൃഷ്ടിക്കാൻ കഴിയും. പ്രദർശിപ്പിച്ച ഡയലോഗ് <span class="guilabel">Opacity</span> സജ്ജമാക്കാനും നിരക്കു പ്രതിനിധാനം ചെയ്യാൻ സ്വരൂപത്തിൽ നിറം മാസ്ക് അനുവദിക്കുന്നു. (നിങ്ങൾ ചാനൽ മെനു <span class="guibutton">New Channel</span> ബട്ടൺ ഉപയോഗിക്കുകയാണെങ്കിൽ, നിങ്ങൾ മുമ്പ് ക്ലിക്ക് <span class="keycap"><strong>Shift</strong></span> കീ അമർത്തിയാൽ ഉപയോഗിക്കുന്ന ഓപ്ഷനുകൾ ഉപയോഗിച്ച് ഈ പുതിയ ചാനൽ സൃഷ്ടിക്കാൻ കഴിയും). ഈ പുതിയ ചാനൽ ഒരു ചാനലിലേക്ക് മാസ്ക് (ഒരു നിര മാസ്ക്) ചിത്രം മേൽ പ്രയോഗിക്കുന്നു. <a class="link" href="gimp-channel-dialog.html#gimp-channel-mask" title="2.2.3. തിരഞ്ഞെടുക്കൽ മാസ്കുകൾ">Selection Mask</a> കാണുക</p>
+              </dd>
+              <dt>
+                <span class="term">
+            <a id="gimp-channel-raise"></a>
+            <span class="guiicon">
+              <span class="inlinemediaobject"><img src="images/dialogs/dialogs-icon-raise.png" /></span>
+            </span>
+            <span class="phrase">ചാനൽ ഉന്നയിക്കുക</span>
+          </span>
+              </dt>
+              <dd>
+                <p>നിരക്കു മാസ്കുകൾ വേണ്ടി മാത്രം ലഭ്യം: നിങ്ങൾ ഇവിടെ ചാനൽ പട്ടികയിൽ ഒരു ലെവൽ ഇട്ടു കഴിയും. പട്ടികയിൽ മുകളിൽ ചാനൽ നീക്കാൻ അമർത്തുക <span class="keycap"><strong>Shift</strong></span> കീ.</p>
+              </dd>
+              <dt>
+                <span class="term">
+            <a id="gimp-channel-lower"></a>
+            <span class="guiicon">
+              <span class="inlinemediaobject"><img src="images/dialogs/dialogs-icon-lower.png" /></span>
+            </span>
+            <span class="phrase">ലോവർ ചാനൽ</span>
+          </span>
+              </dt>
+              <dd>
+                <p>നിങ്ങൾക്ക് ഇവിടെ പട്ടികയിൽ ഒരു ലെവൽ താഴേക്ക് ചാനൽ വെച്ചു കഴിയും. ലിസ്റ്റിൽ അടിയിലേക്ക് ചാനൽ നീക്കാൻ <span class="keycap"><strong>Shift</strong></span> കീ അമർത്തുക.</p>
+              </dd>
+              <dt>
+                <span class="term">
+            <a id="gimp-channel-duplicate"></a>
+            <span class="guiicon">
+              <span class="inlinemediaobject"><img src="images/dialogs/stock-duplicate-16.png" /></span>
+            </span>
+            <span class="phrase">തനിപ്പകർപ്പ് ചാനൽ</span>
+          </span>
+              </dt>
+              <dd>
+                <p>നിങ്ങൾക്ക് ഇവിടെ സജീവമായ ചാനലിന്റെ ഒരു പകർപ്പ് സൃഷ്ടിക്കാൻ കഴിയും. പുതിയ ചാനലിന്റെ നാമം ഒരു നമ്പറിൽ പേരിനവസാനം ആണ്.</p>
+                <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+                  <table border="0" summary="Tip">
+                    <tr>
+                      <td rowspan="2" align="center" valign="top" width="25">
+                        <img alt="[സൂചന]" src="images/tip.png" />
+                      </td>
+                      <th align="left">സൂചന</th>
+                    </tr>
+                    <tr>
+                      <td align="left" valign="top">
+                        <p>നിങ്ങൾക്ക് ഒരു നിറം ചാനൽ അഥവാ ആൽഫാ ചാനൽ തനിപ്പകർപ്പ് കഴിയും. ഇത് അവരിൽ ഒരു പകർപ്പ് സൂക്ഷിക്കാൻ പിന്നീട് ഒരു ചിത്രം ഒരു നിര അവരെ ഉപയോഗിക്കുന്നതിന് ഒരു എളുപ്പ മാർഗ്ഗമാണ്.</p>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </dd>
+              <dt>
+                <a id="gimp-channel-selection-replace"></a>
+                <span class="term">
+            <span class="guiicon">
+              <span class="inlinemediaobject"><img src="images/dialogs/stock-selection-16.png" /></span>
+            </span>
+            <span class="phrase">തിരഞ്ഞെടുക്കുന്നതിലേക്ക് ചാനൽ</span>
+          </span>
+              </dt>
+              <dd>
+                <p>ഇവിടെ നിങ്ങൾക്ക് ഒരു നിര ആകുവാൻ ചാനൽ മാറ്റാൻ കഴിയുന്ന. സ്വതവേ ഒരു ചാനലിലേക്ക് കഥകളിയുടെ നിരക്കു ഏതെങ്കിലും മുൻ സജീവ നിരക്കു മാറ്റിസ്ഥാപിക്കുന്നു. ഇത് നിയന്ത്രണം കീകൾ ക്ലിക്കുചെയ്ത് മാറ്റാൻ സാധ്യതയുണ്ട്.</p>
+                <div class="itemizedlist">
+                  <ul class="itemizedlist" style="list-style-type: disc; ">
+                    <li class="listitem">
+                      <p><a id="gimp-channel-selection-add"></a><span class="keycap"><strong>Shift</strong></span>: ഒരു ചാനലിലേക്ക് കഥകളിയുടെ നിരക്കു മുൻ സജീവ നിരക്കു ചേർത്തു. തിരഞ്ഞെടുപ്പിനായി ഇരുവരും നിന്ന് ലയിക്കുമ്പോഴോ.</p>
+                    </li>
+                    <li class="listitem">
+                      <p><a id="gimp-channel-selection-subtract"></a><span class="keycap"><strong>Ctrl</strong></span>: തിരഞ്ഞെടുപ്പിനായി മുമ്പ് സജീവ നിന്ന് ഒരു ചാനലിലേക്ക് കഥകളിയുടെ തിരഞ്ഞെടുപ്പിന്റെ കുറയ്ക്കല്സാധ്യമാക്കുക ആണ്.</p>
+                    </li>
+                    <li class="listitem">
+                      <p><a id="gimp-channel-selection-intersect"></a><span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>Ctrl</strong></span>: തിരഞ്ഞെടുപ്പിനായി മുമ്പ് സജീവമല്ലാത്ത ഒരു ചാനലിലേക്ക് കഥകളിയുടെ നിരക്കു യെ ആണ്. മാത്രം പാർട്സുകളും സൂക്ഷിച്ചിരിക്കുന്നത്.</p>
+                    </li>
+                  </ul>
+                </div>
+              </dd>
+              <dt>
+                <span class="term">
+            <a id="gimp-channel-selection-delete"></a>
+            <span class="guiicon">
+              <span class="inlinemediaobject"><img src="images/dialogs/dialogs-icon-delete.png" /></span>
+            </span>
+            <span class="phrase">ചാനൽ ഇല്ലാതാക്കുക</span>
+          </span>
+              </dt>
+              <dd>
+                <p>നിരക്കു മാസ്കുകൾ വേണ്ടി മാത്രം ലഭ്യം: നിങ്ങൾ ഇവിടെ സജീവ ചാനൽ ഇല്ലാതാക്കാൻ കഴിയും.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="gimp-channel-menu"></a>2.2.2.4. ചാനലുകൾ സന്ദർഭ മെനു</h5>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925516772096" class="indexterm"></a>
+          <div class="figure">
+            <a id="idp46925516773440"></a>
+            <p class="title">
+              <strong>ചിത്രം 15.9. ചാനൽ സന്ദർഭ മെനു</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/dialogs/channels-context-menu.png" alt="ചാനൽ സന്ദർഭ മെനു" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">പൊതു അവലോകനം</span>
+              </dt>
+              <dd>
+                <p>നിങ്ങൾ ഒരു channel ലഘുചിത്രം റൈറ്റ് ക്ലിക്ക് ചാനൽ സന്ദർഭ മെനു ലഭിക്കും. ഈ മെനുവിൽ ഡയലോഗ് ബട്ടണുകൾ ലഭ്യമല്ല ആ ആയി ചാനലുകൾ ഒരേ ഓപ്പറേഷൻസ് നൽകുന്നു. ഒരു വ്യത്യാസം മാത്രം അവരിൽ ഓരോ മെനുവിൽ സ്വന്തം എൻട്രി ഇല്ലാത്തവർ നിരക്കു പ്രവർത്തനങ്ങൾക്കായുള്ള രൂപാന്തരം കുറിച്ചായിരുന്നു.</p>
+                <div class="variablelist">
+                  <dl class="variablelist">
+                    <dt>
+                      <span class="term"><span class="guilabel">ചാനൽ എഡിറ്റ് ഗുണവിശേഷതകൾ</span>, </span>
+                      <span class="term"><span class="guilabel">പുതിയ ചാനൽ</span>, </span>
+                      <span class="term"><span class="guilabel">ചാനൽ ഉന്നയിക്കുക</span>, </span>
+                      <span class="term"><span class="guilabel">ലോവർ ചാനൽ</span>, </span>
+                      <span class="term"><span class="guilabel">തനിപ്പകർപ്പ് ചാനൽ</span>, </span>
+                      <span class="term">
+                        <span class="guilabel">ചാനൽ ഇല്ലാതാക്കുക</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p><a class="link" href="gimp-channel-dialog.html#gimp-channel-edit">Managing channels</a> കാണുക.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">തിരഞ്ഞെടുക്കുന്നതിലേക്ക് ചാനൽ</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>ചാനൽ കഥകളിയുടെ തിരഞ്ഞെടുക്കൽ ഒന്നും മുൻ സജീവ നിരക്കു മാറ്റിസ്ഥാപിക്കുന്നു.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">തിരഞ്ഞെടുക്കൽ ചേർക്കുക</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>ചാനൽ കഥകളിയുടെ തിരഞ്ഞെടുക്കൽ മുൻ സജീവ നിരക്കു ചേർത്തു. തിരഞ്ഞെടുപ്പിനായി ഇരുവരുടെയും ലയിപ്പിക്കുന്നു.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">തിരഞ്ഞെടുക്കൽ നിന്ന് കുറയ്ക്കേണ്ട</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>തിരഞ്ഞെടുപ്പിനായി മുൻ സജീവ നിരക്കു നിന്ന് ഒരു ചാനൽ കഥകളിയുടെ തിരഞ്ഞെടുപ്പിന്റെ കുറയ്ക്കല്സാധ്യമാക്കുക ആണ്.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">തിരഞ്ഞെടുക്കൽ ഉപയോഗിച്ച് കൂട്ടിമുട്ടുന്ന</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>തിരഞ്ഞെടുപ്പിനായി മുൻ സജീവ നിരക്കു ഉള്ള ഒരു ചാനൽ കഥകളിയുടെ നിരക്കു യെ ആണ്. മാത്രം പാർട്സുകളും സൂക്ഷിച്ചിരിക്കുന്നത്.</p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-channel-mask"></a>2.2.3. തിരഞ്ഞെടുക്കൽ മാസ്കുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <a id="dialogs-selection-masks"></a>
+        <a id="idp46925516796928" class="indexterm"></a>
+        <a id="idp46925516798336" class="indexterm"></a>
+        <a id="idp46925516799744" class="indexterm"></a>
+        <a id="idp46925516801120" class="indexterm"></a>
+        <a id="idp46925516802480" class="indexterm"></a>
+        <div class="figure">
+          <a id="idp46925516803872"></a>
+          <p class="title">
+            <strong>ചിത്രം 15.10. ചാനലുകളിൽ നിന്നും രചിച്ചു തിരഞ്ഞെടുപ്പ്.</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/dialogs/channel-masks-example.png" alt="ചാനലുകളിൽ നിന്നും രചിച്ചു തിരഞ്ഞെടുപ്പ്." />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ചാനലുകൾ നിങ്ങളുടെ ചെയ്തവ പുനഃസ്ഥാപിക്കാൻ ഉപയോഗിക്കാൻ കഴിയും. ചാനൽ ഡയലോഗിൽ നിങ്ങൾ നിരക്കു പ്രതിനിധീകരിക്കുന്ന ഒരു നഖചിത്രം കാണാൻ കഴിയും. തിരഞ്ഞെടുക്കൽ മാസ്കുകൾ വെളുത്ത പിക്സൽ തിരഞ്ഞെടുക്കുന്നതും കറുത്ത പിക്സൽ തിരഞ്ഞെടുത്തിട്ടില്ല എവിടെ ഒരു ചാര ലെവൽ ചാനലിലേക്ക് തിരഞ്ഞെടുക്കലുകൾ പണിയാൻ ഒരു ഗ്രാഫിക്കല് ​​മാർഗമാണ്. അതുകൊണ്ടു ചാര പിക്സൽ ഭാഗികമായും തിരഞ്ഞെടുത്തു. നിങ്ങൾ നിരക്കു തിരഞ്ഞെടുത്ത തിരഞ്ഞെടുത്ത തമ്മിലും ഉള്ള മിനുസമുള്ള സംക്രമണം ഭദ്രമാക്കുന്ന, അവരെ തോന്നുന്നുവോ. ഇത് നിങ്ങൾ നിരക്കു പൂരിപ്പിക്കുക അല്ലെങ്കിൽ നിന്നുള്ള പശ്ചാത്തല ഒരു വിഷയം വേർതിരിച്ചിരുന്ന ശേഷം അതിന്റെ ഉള്ളടക്കം മായ്ക്കാൻ സന്ദർഭത്തിലും വൃത്തികെട്ട pixelization പ്രഭാവം ഒഴിവാക്കാൻ പ്രധാനമാണ്.</p>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">തിരഞ്ഞെടുക്കൽ മാസ്കുകൾ സൃഷ്ടിക്കുന്നു</span>
+            </dt>
+            <dd>
+              <p>ഒരു നിരക്കു മാസ്ക് തുടങ്ങാന് നിരവധി വഴികളുണ്ട്. PLACEHOLDER,-100765</p>
+            </dd>
+          </dl>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925516811344"></a>2.2.3.1. തിരഞ്ഞെടുക്കൽ മാസ്കുകൾ ഉപയോഗിക്കുന്നു</h5>
+              </div>
+            </div>
+          </div>
+          <p>ഒരിക്കൽ ചാനൽ, ആരംഭിയ്ക്കുമ്പോൾ തിരഞ്ഞെടുത്ത (നീലനിറത്തിൽ കാണിച്ചിരിക്കുന്നു), ദൃശ്യമാണ് (ഡയലോഗിൽ കണ്ണ്-ഐക്കൺ), നിങ്ങൾ (നിറം ഒപാസിറ്റി ആട്രിബ്യൂട്ട്) ആഗ്രഹിക്കുന്ന പോലെ, നിങ്ങൾ എല്ലാ പെയിന്റ് ഉപകരണങ്ങൾ പ്രവർത്തിക്കാൻ ആരംഭിക്കാൻ കഴിയും പ്രദർശിപ്പിച്ച. ഉപയോഗിച്ച നിറങ്ങൾ പ്രധാനമാണ്. നിങ്ങൾ വെളുത്ത ചാര അല്ലെങ്കിൽ കറുത്ത പുറമെ ചില നിറം പെയിന്റ് എങ്കിൽ വർണ്ണ മൂല്യം (തേജസ്സ്) ഒരു ചാര (ഇടത്തരം, വെളിച്ചം, അല്ലെങ്കിൽ കടും) നിർവചിക്കാനുള്ള ഉപയോഗിക്കും. നിങ്ങളുടെ മാസ്ക് ചായം ചെയ്യുമ്പോൾ, PLACEHOLDER,-100766 ബട്ടൺ (<a class="link" href="">Channel to Selection</a>) ലുള്ള അല്ലെങ്കിൽ <a class="link" href="gimp-channel-dialog.html#gimp-channel-menu" title="2.2.2.4. ചാനലുകൾ സന്ദർഭ മെനു">context menu</a> നിന്നും ക്ലിക്കുചെയ്ത് ഒരു നിര അതു മാറ്റാൻ കഴിയുന്ന.</p>
+          <p>താങ്കൾക്ക് പെയിന്റ് ഉപയോഗിച്ച് മാത്രമല്ല മറ്റ് ഉപകരണങ്ങൾ ഉപയോഗിച്ച് തിരഞ്ഞെടുപ്പ് മാസ്കുകൾ പ്രവർത്തിക്കാനാകും. ഉദാഹരണത്തിന്, നിങ്ങൾ ഘനമായ അല്ലെങ്കിൽ പാറ്റേണുകൾ കൊണ്ട് ഏകതാനമായി പ്രദേശങ്ങൾ നിറയ്ക്കാൻ നിരക്കു ഉപകരണങ്ങൾ ഉപയോഗിക്കാനാകും. നിങ്ങളുടെ ലിസ്റ്റിൽ പല നിരക്കു മാസ്കുകൾ ചേർക്കുന്നതിലൂടെ എളുപ്പത്തിൽ വളരെ സങ്കീർണമായ തിരഞ്ഞെടുക്കലുകൾ കമ്പോസുചെയ്ത്. ഒരാൾ ഒരു നിര മാസ്ക് ഒരു നിര ആണ് ഒരു പാളി ഒരു ചിത്രത്തിലേക്ക് പോലെ പറയാം.</p>
+          <div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Caution">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[ശ്രദ്ധിക്കുക]" src="images/caution.png" />
+                </td>
+                <th align="left">ശ്രദ്ധിക്കുക</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>ഒരു നീണ്ട നിര മാസ്ക് സജീവമായാൽ നിങ്ങളെന്ന മാസ്ക് അല്ല ഇമേജ് ജോലിചെയ്യുന്നു. നിങ്ങൾ എല്ലാ നിരക്കു മാസ്കുകൾ നിർജ്ജീവമാക്കാനോ ഇമേജ് പ്രവർത്തിക്കാൻ. കണ്ണ് ഐക്കൺ നീക്കം ചെയ്ത് സ്വരൂപത്തിൽ മുഖംമൂടികൾ പ്രദർശിപ്പിക്കുന്നത് നിർത്താൻ പുറമേ മറക്കരുത്. എല്ലാ ആർജിബി ആൽഫ ചാനലുകൾ ആക്റ്റിവേറ്റ് ചിത്രം പ്രദർശിപ്പിക്കും എന്നു പരിശോധിക്കുക.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="gimp-qmask"></a>2.2.4. പെട്ടെന്ന് മാസ്ക്</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925516821152"></a>
+          <p class="title">
+            <strong>ചിത്രം 15.11. സംഭാഷണം പെട്ടെന്ന് മാസ്ക്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/dialogs/channel-quickmask.png" alt="സംഭാഷണം പെട്ടെന്ന് മാസ്ക്" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഒരു <span class="guilabel">Quick Mask</span> ഒരു നിര വരയ്ക്കാൻ താൽക്കാലികമായി ഉപയോഗിക്കും ഉദ്ദേശിച്ചുള്ള <a class="link" href="">Selection Mask</a> ആണ്. താൽക്കാലികമായി ഒരു സാധാരണ നിര മാസ്ക് വ്യത്യസ്തമായി നിരക്കു അതിന്റെ രൂപാന്തരം ശേഷം ചാനൽ പട്ടികയിൽ നിന്നും ഇല്ലാതാക്കും എന്നാണ്. അവർ പുരോഗമന സങ്കീർണ്ണമായ ഡ്രോയിംഗ് നിരക്കു ചെയ്യുന്നത്, ഉപയോഗിക്കുന്ന ഉള്ളപ്പോൾ <a class="link" href="gimp-tools-selection.html" title="2. തിരഞ്ഞെടുക്കൽ ഉപകരണങ്ങൾ">selection tools</a> ചിലപ്പോൾ അവരുടെ പരിധികൾ കാണിക്കും. ഈ സാഹചര്യത്തിൽ, QuickMask ഉപയോഗിച്ച് വളരെ നല്ല ഫലങ്ങൾ നൽകാൻ കഴിയും ഒരു നല്ല ആശയമാണ്.</p>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925516827200"></a>2.2.4.1. ഡയലോഗ് സജീവമാക്കുന്നു</h5>
+              </div>
+            </div>
+          </div>
+          <p>QuickMask വിവിധ വഴികളിലൂടെ സജീവമാക്കാം:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p><span class="guimenu">Select</span> → <span class="guimenuitem">Toggle QuickMask</span>: ഇമേജ് മെനുവിൽ നിന്നും.</p>
+              </li>
+              <li class="listitem">
+                <p>ഇടത്-ചുവടെ ബട്ടൺ ഉപയോഗിച്ച്് സ്ക്രീൻഷോട്ട് ചുവന്ന കാണിച്ചു.</p>
+              </li>
+              <li class="listitem">
+                <p><span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>Q</strong></span> കുറുക്കുവഴി ഉപയോഗിക്കുന്നതിലൂടെ.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925516833504"></a>2.2.4.2. ഒരു ദ്രുത മാസ്ക് സൃഷ്ടിക്കുന്നു</h5>
+              </div>
+            </div>
+          </div>
+          <p>ഒരു <span class="guilabel">Quick Mask</span> തുടങ്ങാന്, ഇമേജ് വിൻഡോയിൽ അടിയിൽ ഇടതുവശത്തെ ബട്ടൺ ക്ലിക്ക് ചെയ്യുക. ഒരു നിരക്കു നിങ്ങളുടെ ഇമേജ് സജീവമായി എങ്കിൽ, അതിന്റെ ഉള്ളടക്കവും അതിർത്തി ഒരു അർദ്ധസുതാര്യ ചുവന്ന നിറം മൂടിയിരിക്കുന്നു സമയത്ത് മാറ്റമില്ലാതെ തോന്നുന്നു. യാതൊരു നിരക്കു സജീവമായിരുന്നു എങ്കിൽ എല്ലാ ഇമേജ് ഒരു അർദ്ധസുതാര്യ ചുവന്ന നിറം മൂടിയിരിക്കുന്നു. താഴെ ഇടത് ബട്ടണിൽ മറ്റൊരു ക്ലിക്കിൽ പെട്ടെന്നുള്ള മാസ്ക് നിർജ്ജീവമാക്കി ചെയ്യും.</p>
+          <p>ചാനൽ ഡയലോഗ് നിന്നും നിങ്ങൾ <span class="guilabel">QMask</span> പ്രത്യേകതകൾ തിരഞ്ഞെടുക്കുക പേര് അല്ലെങ്കിൽ ലഘുചിത്രം ക്ലിക്ക് ഇരട്ട. അപ്പോൾ നിങ്ങൾ <span class="guilabel">Opacity</span> അതിന്റെ നിറയുന്നത് നിറം മാറ്റാൻ കഴിയും. ഓരോ നിമിഷവും നിങ്ങൾ <span class="guilabel">QMask</span> മുന്നിൽ കണ്ണ് ഐക്കൺ <span class="guiicon"><img src="images/dialogs/stock-eye-20.png" /></span> ക്ലിക്കുചെയ്ത് മാസ്ക് മറയ്ക്കാം.</p>
+          <p>അതിനാൽ നിങ്ങൾ മാസ്ക് വർദ്ധിപ്പിക്കും ബ്ലാക്ക് വഴി പരിമിതമായ പ്രദേശത്ത് കുറയ്ക്കുന്നതിനായി വൈറ്റ് അല്ലെങ്കിൽ ചാര ഉപയോഗിക്കണം മാസ്ക്, ചാര ടോണുകൾ യിൽ ആണ്. വെളിച്ചം അല്ലെങ്കിൽ ഇരുണ്ട ചാര ചായം ഏരിയ ഭദ്രമാക്കുന്ന പോലെ നിരക്കു പരിവർത്തന പ്രദേശങ്ങൾ ആയിരിക്കും. നിങ്ങളുടെ മാസ്ക് തയ്യാറാണ്, ചിത്രം വിൻഡോയിൽ അടിയിൽ ഇടതുവശത്തെ ബട്ടൺ വീണ്ടും ക്ലിക്ക് ചെയ്ത് പെട്ടെന്നുള്ള മാസ്ക് ചാനൽ ലിസ്റ്റ് നീങ്ങി ഒരു നിര പരിവർത്തനം ചെയ്യും.</p>
+          <p>പെട്ടെന്ന് മാസ്ക് ഉദ്ദേശ്യം നിരക്കു മാസ്കുകൾ മാനേജിങ് ആശങ്കപ്പെടാതെ പെയിന്റ് ഉപകരണങ്ങൾ ഉപയോഗിച്ച് ഒരു നിര അതിന്റെ സംക്രമണം വരയ്ക്കാൻ ആണ്. അതു നിരക്കു ഉണ്ടാക്കി ഒരിക്കൽ മാത്രം അതിന്റെ ഉള്ളടക്കം നീക്കം ഉള്ളതിനാൽ (അല്ലെങ്കിൽ വിപരീത വിഷയം നിരക്കു എന്ന്) ഒരു ചിത്രത്തിലെ ഒരു വിഷയം ഒറ്റപ്പെടുത്താൻ ഒരു നല്ല മാർഗ്ഗമാണ്.</p>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925516842368"></a>2.2.4.3. ഒരു ഗ്രേഡിയന്റ് ഉപയോഗിച്ച് പെട്ടെന്ന് മാസ്ക് ഉപയോഗിക്കുന്നു</h5>
+              </div>
+            </div>
+          </div>
+          <div class="mediaobject">
+            <img src="images/dialogs/channel-masks-gradient.png" />
+          </div>
+          <div class="orderedlist">
+            <p class="title">
+              <strong>വിവരണം</strong>
+            </p>
+            <ol class="orderedlist" type="1">
+              <li class="listitem">
+                <p>സജീവമാക്കി QuickMask ഉപയോഗിച്ച് ഇമേജ് വിൻഡോയുടെ സ്ക്രീൻഷോട്ട്. കാലം Quickmask സജീവമായാൽ പോലെ എല്ലാ പ്രവർത്തനങ്ങളുടെ അതിൽ നടക്കുന്ന. (വലത്) വെള്ള കറുത്ത (ഇടത്) നിന്നും ഒരു ഗ്രേഡിയന്റ് മാസ്ക് പ്രയോഗിച്ചിരിക്കുന്നു.</p>
+              </li>
+              <li class="listitem">
+                <p>QuickMask ഇപ്പോൾ പ്രവർത്തനരഹിതമാക്കി. നിരക്കു പരിധിയിൽ ഗ്രേഡിയന്റ് മധ്യത്തിൽ ആണ് കാരണം നിരക്കു ചിത്രം (തീപ്പൊരി ഉറുമ്പുകൾ) വലത്തു പകുതി ഭാഗം ത്രിപുര.</p>
+              </li>
+              <li class="listitem">
+                <p>പക്ഷാഘാതം ഇപ്പോൾ പ്രവർത്തനക്ഷമമാക്കി നിരക്കു സമയത്ത് ചേർത്തു. ഭയങ്കരമായവ! ഗ്രേഡിയന്റ്, ദൃശ്യമല്ല ആണെങ്കിലും, സജീവ എല്ലാ ഇമേജ് മേൽ തുടരുന്നു തിരഞ്ഞെടുത്ത നോൺ തിരഞ്ഞെടുത്ത മേഖലകളിൽ!</p>
+              </li>
+            </ol>
+          </div>
+          <p>QuickMask ബട്ടൺ അമർത്തിയാൽ, ആജ്ഞാപിക്കുന്ന ന് പുരോഗമന നിരക്കു പണി സൂക്ഷിച്ചിരിക്കുന്ന ഒരു താൽക്കാലിക 8 ബിറ്റ് (0-255) ചാനൽ, സൃഷ്ടിക്കുന്നു. ഒരു നിരക്കു ഇതിനകം നിലവിലുണ്ട് എങ്കിൽ മാസ്ക് നിരക്കു ഉള്ളടക്കത്തിൽ ആരംഭിയ്ക്കുമ്പോൾ. QuickMask സജീവമാക്കി കഴിഞ്ഞാൽ, ചിത്രം ഒരു ചുവന്ന അർദ്ധസുതാര്യം മൂടുപടം മൂടപ്പെട്ടിരിക്കുന്നു. ഈ ഒരു ഇതര തിരഞ്ഞെടുത്ത പിക്സലുകൾ പ്രതിനിധീകരിക്കുന്നു. ഏത് <a class="link" href="gimp-tools-paint.html" title="3. പെയിന്റ് ഉപകരണങ്ങൾ">paint tool</a> QuickMask ന് നിരക്കു സൃഷ്ടിക്കാൻ ഉപയോഗിയ്ക്കാം. ഭാവിയിൽ അവർ തിരഞ്ഞെടുത്ത സ്ഥലം നിർവചിക്കാനുള്ള പ്രാപ്തരാക്കുകയെന്ന വൈറ്റ് ചാനൽ ഉള്ള വേണ്ട മാത്രം ഗ്രേസ്കെയിൽ നിറം ഉപയോഗിക്കുക. നിരക്കു ഉടൻ QuickMask ചെയ്യുമ്പോൾ പക്ഷെ അതിന്റെ താൽക്കാലിക ചാനൽ ഇനി ലഭ്യമാകില്ല പോലെ പ്രദർശിപ്പിക്കും.</p>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[സൂചന]" src="images/tip.png" />
+                </td>
+                <th align="left">സൂചന</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>ചിത്രം മെനു <span class="guimenuitem">Select/Save to Channel</span> തിരഞ്ഞെടുക്കുക ഒരു ചാനൽ തിരഞ്ഞെടുപ്പ് Quickmask ചെയ്തു കൂടെ ലെ സംരക്ഷിക്കാൻ</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925516854576"></a>2.2.4.4. ഉപയോഗം</h5>
+              </div>
+            </div>
+          </div>
+          <div class="procedure">
+            <ol class="procedure" type="1">
+              <li class="step">
+                <p><a class="link" href="gimp-file-open.html" title="2.4. തുറക്കുക">Open</a> ഒരു ചിത്രം അല്ലെങ്കിൽ <a class="link" href="gimp-file-new.html" title="2.2. പുതിയ">new document</a> തുടങ്ങും.</p>
+              </li>
+              <li class="step">
+                <p>ചിത്രം വിൻഡോയിൽ ഇടത്-ചുവടെ ബട്ടൺ ഉപയോഗിച്ച് Quickmask സജീവമാക്കുക. ഒരു നിരക്കു നിലവിലുണ്ട് എങ്കിൽ മാസ്ക് നിരക്കു ഉള്ളടക്കത്തിൽ ആരംഭിയ്ക്കുമ്പോൾ.</p>
+              </li>
+              <li class="step">
+                <p>ഒരു <a class="link" href="gimp-tools-paint.html" title="3. പെയിന്റ് ഉപകരണങ്ങൾ">drawing tool</a> തിരഞ്ഞെടുക്കുക QuickMask ന് ഗ്രേസ്കെയിലാക്കി നിറങ്ങൾ കൊണ്ട് അത് ഉപയോഗിക്കാൻ.</p>
+              </li>
+              <li class="step">
+                <p>ചിത്രം വിൻഡോയിൽ ഇടത്-ചുവടെ ബട്ടൺ ഉപയോഗിച്ച് Quickmask നിർജ്ജീവമാക്കുക.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-dialogs-structure.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-dialogs-structure.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-path-dialog.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-dialogs-structure.html">2. ചിത്രം ഘടന ബന്ധപ്പെട്ട ഡയലോഗുകൾ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-path-dialog.html">2.3. പാഥുകൾ സംഭാഷണം</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

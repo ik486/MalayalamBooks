@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>7.49. ഓഫ്സെറ്റ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-layer-menu.html" title="7. “Layer” മെനു" />
+    <link rel="prev" href="gimp-layer-rotate-arbitrary.html" title="7.48. Arbitrary Rotation" />
+    <link rel="next" href="gimp-layer-resize.html" title="7.50. Layer Boundary Size" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">7.49. ഓഫ്സെറ്റ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-layer-rotate-arbitrary.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">7. <span class="quote">“<span class="quote">Layer</span>”</span> മെനു</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-layer-resize.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-layer-offset"></a>7.49. ഓഫ്സെറ്റ്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925522147152" class="indexterm"></a>
+      <a id="idp46925522148944" class="indexterm"></a>
+      <p><span class="guimenuitem">Offset</span> കമാൻഡ് സജീവ പാളി <span class="emphasis"><em>content</em></span> മാറ്റുകയും ചെയ്യുന്നു. എന്തും പാളി അതിർത്തി വലുപ്പം പുറത്ത് മാറ്റി. ഈ കമാൻഡ് പാളി അത് എങ്ങനെ വീശുന്ന ശൂന്യമായ നിലയിലാണെങ്കിൽ ആ സ്ഥലം എത്ര മാറ്റണമെന്ന് വ്യക്തമാക്കാൻ അനുവദിക്കുന്ന ഒരു ഡയലോഗ് പ്രദർശിപ്പിക്കുന്നു.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522151632"></a>7.49.1. കമാൻഡ് സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+          You can access this command from the image menubar through
+          <span class="guimenu">Layer</span> → <span class="guisubmenu">Transform</span> → <span class="guimenuitem">Offset</span>,
+        </p>
+            </li>
+            <li class="listitem">
+              <p>അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>O</strong></span> ഉപയോഗിച്ച്.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522157920"></a>7.49.2. Using the <span class="quote">“<span class="quote">Offset</span>”</span> Command</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925522159104"></a>
+          <p class="title">
+            <strong>ചിത്രം 16.114. The <span class="quote">“<span class="quote">Offset</span>”</span> dialog</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/layer/offset.png" alt="The “Offset” dialog" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ഓഫ്സെറ്റ്</span>
+            </dt>
+            <dd>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">എക്സ്; പിന്നെ</span>
+                  </dt>
+                  <dd>
+                    <p>ഈ രണ്ടു മൂല്യങ്ങൾ ഉപയോഗിച്ച്, പാളി ഉള്ളടക്കങ്ങളും തിരശ്ചീനമായി (എക്സ്) ൽ മാറ്റണം എത്ര ദൂരം വ്യക്തമാക്കുന്ന ലംബമായും (y) ദിശകൾ. ടെക്സ്റ്റ് ബോക്സുകളിൽ ഓഫ്സെറ്റുകളിലാണു് നൽകാൻ കഴിയും. പോസിറ്റീവ് മൂല്യങ്ങൾ ശരിയായ കീഴോട്ടു ലെയർ നീക്കുക. യൂണിറ്റ് പിക്സൽ, എന്നാൽ ഡ്രോപ്-ഡൗൺ മെനുവിൽ അളവിന്റെ മറ്റൊരു യൂണിറ്റ് തിരഞ്ഞെടുക്കാം. <span class="quote">“<span class="quote">%</span>”</span> ഒരു യൂണിറ്റ് ചിലപ്പോൾ ഉപയോഗപ്പെടുന്നു.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">Offset by x/2, y/2</span>
+                  </dt>
+                  <dd>
+                    <p>ഈ ബട്ടൺ ഉപയോഗിച്ച്, സ്വയം അങ്ങനെ ഉള്ളടക്കങ്ങൾ കൃത്യമായി അർദ്ധ വീതി ചിത്രത്തിന്റെ പകുതി ഉയരം വഴി മാറ്റി ചെയ്യുന്നു <span class="guilabel">X</span> ആൻഡ് <span class="guilabel">Y</span> ഓഫ്സെറ്റുകളുണ്ടു് സജ്ജമാക്കാൻ കഴിയും.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">എഡ്ജ് പെരുമാറ്റം</span>
+            </dt>
+            <dd>
+              <p>പാളി ഉളളടക്കം മാറ്റി ചെയ്യുമ്പോൾ നിങ്ങൾ ശൂന്യമായ അവശേഷിക്കുന്നു പ്രദേശങ്ങളെ ലേക്ക് മൂന്നു തരത്തിൽ നൽകാം:</p>
+              <div class="itemizedlist">
+                <ul class="itemizedlist" style="list-style-type: disc; ">
+                  <li class="listitem">
+                    <p><span class="emphasis"><em>Wrap around</em></span>: പാളി ഒരു വശത്ത് ഒഴിഞ്ഞ ഇടം മറ്റെ വശത്തു നിന്നു മാറ്റി ഏത് പാളി ഭാഗമായി നിറഞ്ഞു, അതിനാൽ ഉള്ളടക്കം ആരും നഷ്ടമാകുന്നു.</p>
+                  </li>
+                  <li class="listitem">
+                    <p><span class="emphasis"><em>Fill with background color</em></span>: ഒഴിഞ്ഞ സ്പേസ് പണിസഞ്ചി നിറം ഏരിയയിൽ കാണിക്കുന്നു ഏത് പശ്ചാത്തല നിറം, നിറയും.</p>
+                  </li>
+                  <li class="listitem">
+                    <p><span class="emphasis"><em>Make transparent</em></span>: ഒഴിഞ്ഞ സ്പേസ് സുതാര്യമായ ഉണ്ടാക്കിയ. പാളി ഒരു ആല്ഫാ ചാനൽ ഇല്ലെങ്കിൽ, ഈ നിര (ഗ്രേ ഔട്ട്) ലഭ്യമല്ല.</p>
+                  </li>
+                </ul>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522177744"></a>7.49.3. Example</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925522178480"></a>
+          <p class="title">
+            <strong>ചിത്രം 16.115. <span class="quote">“<span class="quote">Edge Behaviors</span>”</span> ഒരുമിച്ച് <span class="quote">“<span class="quote">Offset</span>”</span> ഉപയോഗിക്കുന്നു</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/layer/offset-example.png" alt="“Edge Behaviors” ഒരുമിച്ച് “Offset” ഉപയോഗിക്കുന്നു" />
+              <div class="caption">
+                <p>
+            The Original
+          </p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/menus/layer/offset-example-wrap.png" alt="“Edge Behaviors” ഒരുമിച്ച് “Offset” ഉപയോഗിക്കുന്നു" />
+              <div class="caption">
+                <p>Y = -40, റാപ്</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/menus/layer/offset-example-bg.png" alt="“Edge Behaviors” ഒരുമിച്ച് “Offset” ഉപയോഗിക്കുന്നു" />
+              <div class="caption">
+                <p>Y = -40, ബൾഗേറിയ നിറം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/menus/layer/offset-example-trans.png" alt="“Edge Behaviors” ഒരുമിച്ച് “Offset” ഉപയോഗിക്കുന്നു" />
+              <div class="caption">
+                <p>
+            X = 40, transparent 
+          </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-layer-rotate-arbitrary.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-layer-menu.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-layer-resize.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-layer-rotate-arbitrary.html">7.48. Arbitrary Rotation</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-layer-resize.html">7.50. Layer Boundary Size</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

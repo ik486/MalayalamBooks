@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>6.15. സ്കെയിൽ ചിത്രം</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-image-menu.html" title="6. “Image” മെനു" />
+    <link rel="prev" href="gimp-image-print-size.html" title="6.14. പ്രിന്റ് വലിപ്പം" />
+    <link rel="next" href="gimp-image-crop.html" title="6.16. Crop to Selection" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">6.15. സ്കെയിൽ ചിത്രം</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-image-print-size.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">6. <span class="quote">“<span class="quote">Image</span>”</span> മെനു</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-image-crop.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-image-scale"></a>6.15. സ്കെയിൽ ചിത്രം</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925520622800" class="indexterm"></a>
+      <p><span class="guimenuitem">Scale Image</span> കമാൻഡ് ഇത് അടങ്ങുന്ന പിക്സലുകളുടെ എണ്ണം മാറ്റുന്നതിലൂടെ ശക്തന്മാരായ ചിത്രത്തിന്റെ ശാരീരിക വലുപ്പം കുറയ്ക്കുന്നു. അത് ചിത്രത്തിന്റെ ഉള്ളടക്കങ്ങളുടെ വലിപ്പ മാറ്റങ്ങള് അതിനനുസരിച്ച് ക്യാൻവാസ് മാറ്റുന്നു.</p>
+      <p>മുഴുവൻ ചിത്രത്തിൽ പ്രവർത്തിക്കുന്നു. നിങ്ങളുടെ ഇമേജ് വ്യത്യസ്ത വലിപ്പത്തിലുള്ള പാളികൾ ഉണ്ടെങ്കിൽ, ഇമേജ് ചെറിയ making അവരിൽ ചിലർ ഒന്നും ഇറങ്ങി, ഒരു പാളി ഒരു പിക്സൽ വൈഡ് അല്ലെങ്കിൽ ഉയർന്ന കുറവായി കഴിയാത്ത സ്ഥിതിക്ക് അകലുകയും കഴിഞ്ഞില്ല. ഇങ്ങനെ സംഭവിക്കുകയാണെങ്കിൽ, നിങ്ങൾ ഓപ്പറേഷൻ മുമ്പുള്ള മുന്നറിയിപ്പ് ചെയ്യും.</p>
+      <p>നിങ്ങൾ ഒരു പ്രത്യേക പാളി സ്കെയിൽ ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, <a class="link" href="">Scale Layer</a> കമാൻഡ് ഉപയോഗിക്കുക.</p>
+      <a id="gimp-image-scale-warning"></a>
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+        <table border="0" summary="Note">
+          <tr>
+            <td rowspan="2" align="center" valign="top" width="25">
+              <img alt="[കുറിപ്പു്]" src="images/note.png" />
+            </td>
+            <th align="left">കുറിപ്പു്</th>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <p>
+      If scaling would produce an image larger than the
+      <span class="quote">“<span class="quote">Maximum new image size</span>”</span> set in the
+      <a class="link" href="gimp-pimping.html#gimp-prefs-environment" title="1.2. പരിസ്ഥിതി">Environment</a> page of the
+      Preferences dialog (which has a default of 128 Mb), you are warned and
+      asked to confirm the operation before it is performed. You may not
+      experience any problems if you confirm the operation, but you should
+      be aware that very large images consume a lot of resources and
+      extremely large images may take more resources than you have,
+      causing <acronym class="acronym">GIMP</acronym> to crash or not perform well.
+    </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925520631168"></a>6.15.1. Activate the Command</h4>
+            </div>
+          </div>
+        </div>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+          You can access this command from the image menubar through
+          <span class="guimenu">Image</span> → <span class="guimenuitem">Scale Image</span>.
+        </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925520634816"></a>6.15.2. The <span class="quote">“<span class="quote">Scale Image</span>”</span> Dialog</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925520636000"></a>
+          <p class="title">
+            <strong>ചിത്രം 16.68. The <span class="quote">“<span class="quote">Scale Image</span>”</span> dialog</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/image/scale-image.png" alt="The “Scale Image” dialog" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ചിത്രം വലിപ്പം</span>
+            </dt>
+            <dd>
+              <p>അതു നിങ്ങളുടെ സ്ക്രീനിൽ ലോഡ് ചെയ്യുകയും ചെയ്ത ശേഷം, റാം, ഇമേജ് ഫയലിൽ പ്രദർശിപ്പിക്കുമ്പോഴല്ല, അല്ലെങ്കിൽ കടലാസിൽ അതു അച്ചടിച്ച ശേഷം: നിങ്ങൾ ഒരു ഇമേജ് നാലു സ്ഥലങ്ങളിൽ ഒന്നാണ് സ്ഥിതി കഴിയും ഓർക്കണം. അതു നേരിട്ട് ചിത്രം (റാം അല്ലെങ്കിൽ ഒരു ഫയലിൽ) ആവശ്യമാണ് മെമ്മറി അളവ് ബാധിക്കുന്നു അങ്ങനെ ചിത്രം ചെയറിന്, പിക്സലുകളുടെ എണ്ണം (വിവരങ്ങൾ തുക) ചിത്രവും അടങ്ങിയിരിക്കുന്നു.</p>
+              <p>എന്നിരുന്നാലും പ്രിന്റിംഗ് വലുപ്പം പുറമേ അടിസ്ഥാനപരമായി എത്ര പിക്സൽ കടലാസ് ഓരോ ഇഞ്ച് ന് ഉണ്ടാകും നിശ്ചയിക്കുന്നത് ചിത്രം, പ്രമേയത്തിലെ ആശ്രയിച്ചിരിക്കുന്നു. നിങ്ങൾ ചിത്രം കയറലും അതിൽ പിക്സലുകളുടെ എണ്ണം മാറ്റാതെ തന്നെ അച്ചടി വലിപ്പം മാറ്റാൻ ആഗ്രഹിക്കുന്നുവെങ്കിൽ നിങ്ങൾക്ക് <a class="link" href="">Print Size</a> ഡയലോഗ് ഉപയോഗിക്കണം. സ്ക്രീൻ വലുപ്പം പിക്സൽ എണ്ണത്തിലുള്ള, മാത്രമല്ല സ്ക്രീൻ റെസലൂഷൻ, സൂം ഫാക്റ്റർ ആൻഡ് <a class="link" href="gimp-view-dot-for-dot.html" title="5.3. Dot for Dot">Dot for Dot</a> ഓപ്ഷൻ ക്രമീകരണം മാത്രമല്ല ആശ്രയിച്ചിരിക്കുന്നു.</p>
+              <p>നിങ്ങൾ അതിന്റെ യഥാർത്ഥ വലുപ്പത്തിൽ അപ്പുറം ഒരു ചിത്രം വലുതാക്കുന്നു എങ്കിൽ <acronym class="acronym">GIMP</acronym> interpolation നഷ്ടപ്പെടുന്നുണ്ട് പിക്സൽ കണക്കാക്കുന്നു, പക്ഷേ ഏതെങ്കിലും പുതിയ വിശദാംശങ്ങൾ ചേർക്കുക ഇല്ല. കൂടുതൽ നിങ്ങൾക്ക് ഒരു ഇമേജ് വലുതാക്കുന്നു കൂടുതൽ മങ്ങിയ അതു മാറുന്നു. ഒരു റെസിഡന്റ് ചിത്രം രൂപം നിങ്ങൾ തിരഞ്ഞെടുക്കുന്ന interpolation രീതി ആശ്രയിച്ചിരിക്കുന്നു. നിങ്ങൾ ഒരു ഇമേജ് സ്കെയിൽ ശേഷം <a class="link" href="">Sharpen</a> അരിപ്പ ഉപയോഗിച്ച് ഭാവം മെച്ചപ്പെടുത്താൻ എങ്കിലും അതു നിങ്ങളെ സ്കാൻ ഉയർന്ന റെസലൂഷൻ ഉപയോഗിക്കുക, ഡിജിറ്റൽ ഫോട്ടോകളെടുക്കാനുള്ള അല്ലെങ്കിൽ മറ്റ് മാർഗ്ഗങ്ങളിലൂടെ ഡിജിറ്റൽ ചിത്രങ്ങൾ നല്ലത്. റാസ്റ്റർ ചിത്രങ്ങൾ അന്തർലീനമായിട്ടുള്ള നന്നായി സ്കെയിൽ ചെയ്യരുത്.</p>
+              <p>നിങ്ങൾക്ക് ഒരു വെബ് പേജിൽ അത് ഉപയോഗിക്കാൻ ഉദ്ദേശിക്കുന്നുവെങ്കിൽ നിങ്ങളുടെ ചിത്രം കുറയ്ക്കാൻ വരാം. നിങ്ങൾക്ക് മിക്ക ഇന്റർനെറ്റ് ഉപയോക്താക്കളെ പൂർണ്ണമായും ഒരു വലിയ ചിത്രം പ്രദർശിപ്പിക്കാൻ കഴിയില്ല താരതമ്യേന ചെറിയ സ്ക്രീനുകൾ ഉണ്ടെന്ന് പരിഗണിക്കണം. പല സ്ക്രീനുകൾ 1024x768 അല്ലെങ്കിൽ അതിലും കുറവ് ഒരു ചിത്രം ഉണ്ട്.</p>
+              <p>പിക്സൽ ചേർത്തുകൊണ്ടോ നീക്കംചെയ്ത് <span class="quote">“<span class="quote">Resampling</span>”</span> വിളിക്കുന്നു.</p>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">Width; Height</span>
+                  </dt>
+                  <dd>
+                    <p>നിങ്ങൾ <span class="guimenuitem">Scale</span> കമാൻഡ് ക്ലിക്ക് ചെയ്യുമ്പോൾ, ഡയലോഗ് പിക്സലിൽ യഥാർത്ഥ ചിത്രത്തിന്റെ തലങ്ങളും പ്രദർശിപ്പിക്കുന്നു. നിങ്ങൾ <span class="guilabel">Width</span> നിങ്ങൾ പിക്സൽ ചേർത്തുകൊണ്ടോ നീക്കംചെയ്ത് നിങ്ങളുടെ ഇമേജ് നൽകാൻ ആഗ്രഹിക്കുന്ന <span class="guilabel">Height</span> സജ്ജമാക്കാൻ കഴിയും. വീതിയും ഉയരവും ബോക്സുകൾ അടുത്ത ചെയിൻ ഐക്കൺ പിരിയാത്ത ആണെങ്കിൽ, വീതിയും ഉയരവും പരസ്പരം അതേ അനുപാതത്തിൽ താമസിക്കും. നിങ്ങൾ അത് ക്ലിക്കുചെയ്ത് ചെയിൻ പൊട്ടി, നിങ്ങൾക്ക് സ്വതന്ത്രമായി അവർക്ക് കഴിയും, എന്നാൽ ഈ ചിത്രം വളച്ചൊടിക്കാൻ ചെയ്യും.</p>
+                    <p>എന്നിരുന്നാലും, നിങ്ങൾ പിക്സലിൽ അളവുകൾ സജ്ജമാക്കാൻ ഇല്ല. ഡ്രോപ്-ഡൗൺ മെനുവിൽ നിന്നും വിവിധ യൂണിറ്റുകൾ തിരഞ്ഞെടുക്കാം. നിങ്ങൾ യൂണിറ്റ് ശതമാനം തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, നിങ്ങൾ അതിന്റെ യഥാർത്ഥ വലുപ്പത്തിൽ ആപേക്ഷിക ഇമേജ് വലുപ്പം സജ്ജമാക്കാൻ കഴിയും. നിങ്ങൾക്ക് പോലുള്ള ഇഞ്ച് അല്ലെങ്കിൽ മില്ലിമീറ്റർ ഫിസിക്കൽ യൂണിറ്റുകൾ, ഉപയോഗിക്കാം. ആ ചെയ്യുകയാണെങ്കിൽ, <span class="guilabel">X resolution</span> ആൻഡ് <span class="guilabel">Y resolution</span> നിലങ്ങൾ ഉചിതമായ മൂല്യങ്ങൾ അവർ പിക്സൽ ഫിസിക്കല് ​​യൂണിറ്റുകൾ, ഇമേജ് തലങ്ങളും തമ്മിലുള്ള പരിവർത്തനം ഉപയോഗിക്കുന്ന കാരണം സജ്ജമാക്കണം.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">X resolution; Y resolution</span>
+                  </dt>
+                  <dd>
+                    <p>നിങ്ങൾ <span class="guilabel">X resolution</span> ആൻഡ് <span class="guilabel">Y resolution</span> മേഖലകളിലെ ചിത്രത്തിനായുള്ള അച്ചടി റെസലൂഷൻ സജ്ജമാക്കാൻ കഴിയും. ഡ്രോപ്പ്-ഡൌൺ മെനു ഉപയോഗിച്ച് അളവിന്റെ യൂണിറ്റുകൾ മാറ്റാൻ കഴിയും.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">ഗുണമേന്മയുള്ള</span>
+            </dt>
+            <dd>
+              <p>ഇമേജ് വലുപ്പം മാറ്റാൻ, ഒന്നുകിൽ ചില പിക്സൽ നീക്കംചെയ്യും ചെയ്യണം അല്ലെങ്കിൽ പുതിയ പിക്സൽ ചേർക്കണം. നിങ്ങൾ ഉപയോഗിക്കുന്ന പ്രക്രിയ ഫലം ഗുണമേന്മ നിർണ്ണയിക്കുന്നു. <span class="guilabel">Interpolation</span> ഡ്രോപ്പ് ഡൗൺ ലിസ്റ്റ് ഒരു സ്കെയിൽ സ്വരൂപത്തിൽ പിക്സൽ നിറം interpolating ലഭ്യമായ രീതികൾ നിരക്കു നൽകുന്നു:</p>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">Interpolation</span>
+                  </dt>
+                  <dd>
+                    <div class="itemizedlist">
+                      <ul class="itemizedlist" style="list-style-type: disc; ">
+                        <li class="listitem">
+                          <p><span class="guilabel">None</span>: ഇല്ല interpolation ഉപയോഗിക്കുന്നു. അവർ ഔട്ടും ചെയ്യുമ്പോൾ പോലെ പിക്സൽ, ലളിതമായി വികസിക്കും അല്ലെങ്കിൽ നീക്കം ചെയ്യുന്നു. ഈ രീതി വളരെ ഫാസ്റ്റ് നിലവാരം കുറഞ്ഞ, എന്നാൽ.</p>
+                        </li>
+                        <li class="listitem">
+                          <p><span class="guilabel">Linear</span>: ഈ രീതി താരതമ്യേന ഫാസ്റ്റ്, എന്നാൽ ഇപ്പോഴും ഗംഭീരമായി നല്ല ഫലങ്ങൾ നൽകുന്നു.</p>
+                        </li>
+                        <li class="listitem">
+                          <p><span class="guilabel">Cubic</span>: മികച്ച ഫലങ്ങൾ ഉത്പാദിപ്പിക്കുന്നത് രീതി, മറിച്ച് പതുക്കെയുള്ള രീതി.</p>
+                        </li>
+                        <li class="listitem">
+                          <p><span class="guilabel">Sinc (Lanczos 3)</span>: ജിമ്പ്-2.4 പുതിയ ഈ രീതി പ്രധാനപ്പെട്ട resizings കുറവാണ് മങ്ങൽ നൽകുന്നു.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+          </dl>
+        </div>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[കുറിപ്പു്]" src="images/note.png" />
+              </td>
+              <th align="left">കുറിപ്പു്</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>ഇതും കാണുക നിങ്ങൾ ഒരു പാളി, ഒരു നിര അല്ലെങ്കിൽ ഒരു പാത്ത് സ്കെയിൽ അനുവദിക്കുന്നു <a class="link" href="gimp-tool-scale.html" title="4.6. സ്കെയിൽ">Scale tool</a>.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-image-print-size.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-image-menu.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-image-crop.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-image-print-size.html">6.14. പ്രിന്റ് വലിപ്പം</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-image-crop.html">6.16. Crop to Selection</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

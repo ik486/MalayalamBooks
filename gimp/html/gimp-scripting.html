@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>പാഠം 13. സ്ക്രിപ്റ്റിങ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="become-a-gimp-wizard.html" title="ഭാഗം II. ഞാൻ എങ്ങനെയാണ് ഒരു GIMP വിസാര്ഡ് ആകാൻ കഴിയും?" />
+    <link rel="prev" href="customize-splashscreen.html" title="6. ഓളമുണ്ടാക്കുന്നു- സ്ക്രീൻ ഇഷ്ടാനുസൃതമാക്കുക" />
+    <link rel="next" href="gimp-concepts-script-fu.html" title="2. സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റുകൾ ഉപയോഗിക്കുന്നതിന്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">പാഠം 13. സ്ക്രിപ്റ്റിങ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="customize-splashscreen.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">ഭാഗം II. ഞാൻ എങ്ങനെയാണ് ഒരു <acronym class="acronym">GIMP</acronym> വിസാര്ഡ് ആകാൻ കഴിയും?</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-concepts-script-fu.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="chapter">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a id="gimp-scripting"></a>പാഠം 13. സ്ക്രിപ്റ്റിങ്</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>ഉള്ളടക്കത്തിന്റെ പട്ടിക</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="sect1">
+              <a href="gimp-scripting.html#gimp-concepts-plugins">1. പ്ലഗിനുകള്തെരയുക</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-scripting.html#idp46925511048000">1.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-scripting.html#idp46925510766800">1.2. പ്ലഗിന്നുകളും ഉപയോഗിച്ച്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-scripting.html#gimp-plugins-install">1.3. ന്യൂ പ്ലഗിനുകള്ക്കായി ഇൻസ്റ്റോൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-scripting.html#plugins-write">1.4. പ്ലഗിനുകള്തെരയുക എഴുതേണ്ട</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-concepts-script-fu.html">2. സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റുകൾ ഉപയോഗിക്കുന്നതിന്</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-concepts-script-fu.html#idp46925510769824">2.1. സ്ക്രിപ്റ്റ്-ഫു?</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="install-script-fu.html">2.2. സ്ക്രിപ്റ്റ്-Fus ഇൻസ്റ്റോൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="common-script-fu-errors.html">2.3. ചെയ്യേണ്ടതും ചെയ്യേണ്ടാത്തതും</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="kinds-of-script-fu.html">2.4. സ്ക്രിപ്റ്റ്-Fus വിവിധ തരത്തിലുള്ള</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="standalone-script-fu.html">2.5. ഹ്രസ്വമായ സ്ക്രിപ്റ്റുകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="image-independent-script-fu.html">2.6. ചിത്രം-ആശ്രിത സ്ക്രിപ്റ്റുകൾ</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-using-script-fu-tutorial.html">3. ഒരു സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-script-fu-tutorial.html#gimp-using-script-fu-tutorial-scheme">3.1. പദ്ധതി സൂക്ഷ്മമായി Getting</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-script-fu-tutorial-identifier.html">3.2. വേര്യബിൾ പ്രവർത്തനങ്ങൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-script-fu-tutorial-lists.html">3.3. ലിസ്റ്റുകൾ, ലിസ്റ്റുകൾ, ടിപ്പണി</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-script-fu-tutorial-first-script.html">3.4. നിങ്ങളുടെ ആദ്യ സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-script-fu-tutorial-script.html">3.5. നമ്മുടെ സ്ക്രിപ്റ്റ് നൽകൽ ചില Guts</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-script-fu-tutorial-extending-text-box.html">3.6. വാചക ബോക്സ് സ്ക്രിപ്റ്റ് വികസിപ്പിക്കുന്നു</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-script-fu-tutorial-result.html">3.7. നിങ്ങളുടെ സ്ക്രിപ്റ്റ് അതിന്റെ ജോലി</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+      <div class="sect1">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="gimp-concepts-plugins"></a>1. പ്ലഗിനുകള്തെരയുക</h2>
+            </div>
+          </div>
+        </div>
+        <a id="idp46925509202288" class="indexterm"></a>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="idp46925511048000"></a>1.1. അവതാരിക</h3>
+              </div>
+            </div>
+          </div>
+          <p><acronym class="acronym">GIMP</acronym> കുറിച്ച് ചമ്മല് കാര്യങ്ങളിൽ ഒന്ന് പ്ലഗിനുകൾ ഉപയോഗിച്ച് എങ്ങനെ എളുപ്പത്തിൽ അതിന്റെ പ്രവർത്തനക്ഷമത വ്യാപിപ്പിച്ചു സാധിക്കും. <acronym class="acronym">GIMP</acronym> പ്ലഗിനുകളുടെ പ്രധാന <acronym class="acronym">GIMP</acronym> അപേക്ഷ നിയന്ത്രണത്തിൽ നടത്തിപ്പുകാരും വളരെ അടുത്തുനിന്ന് അതുമായി ഇടപഴകുകയും ബാഹ്യ പ്രോഗ്രാമുകളാണ്. സംയോജകങ്ങള് ഉപയോക്താക്കളുടെ ഏതാണ്ടെല്ലാ ഏതെങ്കിലും വിധത്തിൽ ചിത്രങ്ങൾ കൗശലപൂർവം കഴിയും. അവരുടെ പ്രയോജനം <acronym class="acronym">GIMP</acronym> രീൃല സത്യമെന്ന് സങ്കീർണ്ണമായ വലിയ കോഡുകളും പിണ്ഡം തിരുത്തുന്ന അധികം ചെറിയ പ്ലഗിൻ എഴുതിക്കൊണ്ട് <acronym class="acronym">GIMP</acronym> ഒരു ശേഷിയെ ചേർക്കാൻ വളരെ എളുപ്പം ആണ്. പല വിലപ്പെട്ട പ്ലഗിനുകൾ മാത്രം 100-200 രേഖകളോ അങ്ങനെ വന്നെത്തുന്നതിനു സി സോഴ്സ് കോഡ് ഉണ്ട്.</p>
+          <p>ഡസൻ പ്ലഗിനുകളുടെ പ്രധാന <acronym class="acronym">GIMP</acronym> വിതരണത്തിൽ ഉൾപ്പെടുത്തിയിരുന്നു <acronym class="acronym">GIMP</acronym> ചേർന്ന് യാന്ത്രികമായി ഇൻസ്റ്റാൾ. അവരിൽ മിക്കവരും <span class="guimenu">Filters</span> മെനു വഴി ആക്സസ് കാണാം (വാസ്തവത്തിൽ, മെനുവിൽ എല്ലാം ഒരു പ്ലഗിൻ ആണ്), എന്നാൽ ഒരു എണ്ണം മറ്റ് മെനുകൾ സ്ഥിതിചെയ്യുന്നു. ഉദാഹരണത്തിന്, ഓട്ടോമാറ്റിക് നിറം തിരുത്തൽ വേണ്ടി "സാധാരണവത്കരിക്കാനും" പ്രവർത്തനം യഥാർത്ഥത്തിൽ ഒരു പ്ലഗിൻ, ആ ഇതു പറയുന്നു തന്നെ പ്രവർത്തിക്കുന്ന രീതി കുറിച്ച് ഒന്നും ഇല്ല ആശയം:. പല സന്ദർഭങ്ങളിലും എപ്പോഴെങ്കിലും ഒരു പ്ലഗിൻ ആണ് എന്ന് അറിയാതെ തന്നെ ഉപയോഗിക്കാം</p>
+          <p>പ്ലഗിനുകൾ <acronym class="acronym">GIMP</acronym> ഉൾപ്പെടുത്തിയിരിക്കുന്നു പുറമേ, കൂടുതൽ നിരവധി വല ലഭ്യമാണ്. ഒരു വലിയ എണ്ണം <acronym class="acronym">GIMP</acronym> പ്ലഗിൻ രജിസ്ട്രി <a class="xref" href="">???</a>, ആരുടെ ഉദ്ദേശ്യം പ്ലഗിനുകൾ ഒരു ശേഖരമാണ് നൽകുക എന്നതാണ് ഒരു വെബ് സൈറ്റിൽ കണ്ടെത്താനാകും. പ്ലഗിനുകളെപ്പറ്റിയുമുള്ള സ്രഷ്ടാക്കൾ അവിടെ അപ്ലോഡ് ചെയ്യാനും; ഒരു നിർദ്ദിഷ്ട ആവശ്യത്തിനായി പ്ലഗിനുകളെപ്പറ്റിയുമുള്ള തിരയൽ ഉപയോക്താക്കളെ വ്യത്യസ്തമായ മാർഗങ്ങളിലൂടെ സൈറ്റ് തിരയാൻ കഴിയും.</p>
+          <p>ലോകത്തിലെ ഇടപെടില്ല <acronym class="acronym">GIMP</acronym> പ്ലഗിൻ എഴുതാം അതു വെബ് ലഭ്യമാക്കണം, രജിസ്ട്രി അല്ലെങ്കിൽ ഒരു സ്വകാര്യ വെബ് സൈറ്റിൽ മുഖേനയുളള, അനേകം വളരെ വിലപ്പെട്ട പ്ലഗിനുകൾ ചില മറ്റെവിടെയെങ്കിലും മാനുവൽ പ്രതിപാദിച്ചിരിക്കുന്നു ഈ വിധത്തിൽ ലഭിക്കും. നിർബ്ബന്ധത്താലല്ല നിന്ന് ഈ സ്വാതന്ത്ര്യം റിസ്ക് ഒരു ചില ബിരുദം വരുന്നു വച്ച് ആയാലും: ആർക്കും അത് ചെയ്യാൻ കഴിയും വസ്തുത ഫലപ്രദമായ ഗുണനിലവാര നിയന്ത്രണം ഇല്ല എന്നതാണ് ഇതിനർത്ഥം. <acronym class="acronym">GIMP</acronym> വിതരണം പ്ലഗിനുകൾ എല്ലാ നിങ്ങൾ ഡൗൺലോഡ് ചെയ്യാൻ ഡെവലപ്പർമാർ പരീക്ഷിക്കുകയും ആയിരുന്നതിന്നു ഇവിടെത്തന്നെ, എന്നാൽ പല ഏതാനും മണിക്കൂറുകൾ ഒരുമിച്ച് ഹാക്ക് തുടർന്ന് കാറ്റിലും ചാടിക്കുന്നു ചെയ്തു. ചില പ്ലഗിൻ സ്രഷ്ടാക്കൾ വെറും ഉറപ്പ് ശ്രദ്ധിക്കാറില്ല, പോലും പ്രവർത്തിക്കുകയും ചെയ്തവർക്ക്, സാഹചര്യങ്ങളിൽ വിവിധങ്ങളായ സിസ്റ്റങ്ങൾ വിവിധ പരിശോധിക്കുന്നതിന് അവരുടെ കഴിവ് പലപ്പോഴും വളരെ പരിമിതമാണ്. അടിസ്ഥാനപരമായി, നിങ്ങൾ ഒരു പ്ലഗിൻ ഡൗൺലോഡ് ചെയ്യുമ്പോൾ, നിങ്ങൾ എന്തെങ്കിലും സൗജന്യമായി ലഭിക്കുന്നത്, ചിലപ്പോൾ നിങ്ങൾ അടയ്ക്കും കൃത്യമായി നേടുക. കേവലം റിയാലിറ്റി മനസ്സിലാക്കാൻ ഉറപ്പാക്കാൻ, നിങ്ങൾ നിരുത്സാഹപ്പെടുത്താൻ ശ്രമത്തിൽ പറഞ്ഞു ചെയ്തിട്ടില്ല.</p>
+          <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Warning">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[മുന്നറിയിപ്പു്]" src="images/warning.png" />
+                </td>
+                <th align="left">മുന്നറിയിപ്പു്</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>പ്ലഗ്ഇനുകൾ സമ്പൂർണ എക്സിക്യൂട്ടബിൾ പരിപാടികൾ ഒരാളായി, മറ്റേതെങ്കിലും പ്രോഗ്രാം ചെയ്യാൻ കഴിയുന്ന കാര്യങ്ങൾ ഏതെങ്കിലും, നിങ്ങളുടെ സിസ്റ്റത്തിൽ തിരികെ-വാതിൽ ഇൻസ്റ്റാൾ അല്ലെങ്കിൽ മറ്റുതരത്തിൽ അതിന്റെ സുരക്ഷ വിട്ടുവീഴ്ച ഉൾപ്പെടെ ചെയ്യാൻ കഴിയും. അതു വിശ്വസ്ത ഉറവിടത്തിൽ നിന്ന് വരുന്നു പക്ഷം ഒരു പ്ലഗിൻ ഇൻസ്റ്റോൾ ചെയ്യേണ്ടതില്ല.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p>ഇതൊന്നും പ്ലഗിനുകളെപ്പറ്റിയുമുള്ള മറ്റേതെങ്കിലും സ്രോതസ്സ് പോലെ പ്ലഗിൻ രജിസ്ട്രി കഴിയുന്നത്ര ബാധകമാണ്. രജിസ്ട്രി അത് ഉപയോഗിക്കാൻ ആഗ്രഹിക്കുന്നു ഏതെങ്കിലും പ്ലഗിൻ സ്രഷ്ടാവിന് ലഭ്യമാണ്: യാതൊരു സിസ്റ്റമാറ്റിക് അദ്ധ്യക്ഷസ്ഥാനം ഇല്ല. വ്യക്തമായും മറു ഉണ്ടായിരുന്നു എന്തെങ്കിലും ചീത്ത .പത്തു, അവർക്ക് അത് ദൂരീകരിച്ച്. അതായത്, ആരും: (. അത് ഇതുവരെ നടന്നിട്ടില്ല) എന്നാൽ, <acronym class="acronym">GIMP</acronym> അതിന്റെ പ്ലഗിനുകള്ക്കായിപരിശോധിക്കുന്നു മറ്റേതെങ്കിലും സ്വതന്ത്ര സോഫ്റ്റ്വെയർ വേണ്ടി അതേ വാറന്റി ആണ്.</p>
+          <div class="caution" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Caution">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[ശ്രദ്ധിക്കുക]" src="images/caution.png" />
+                </td>
+                <th align="left">ശ്രദ്ധിക്കുക</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>സംയോജകങ്ങള് പല പതിപ്പുകൾ വേണ്ടി <acronym class="acronym">GIMP</acronym> ഒരു സവിശേഷത ചെയ്തിരിക്കുന്നു. എന്നാൽ, <acronym class="acronym">GIMP</acronym> ഒരു ഭാഷ്യം വേണ്ടി എഴുതിയ പ്ലഗിനുകൾ വിരളമായേ മറ്റ് പതിപ്പുകൾ വിജയകരമായി ഉപയോഗിയ്ക്കാം. അവർ തയാറാക്കിയിരുന്നത് ചെയ്യേണ്ടതുണ്ട്: ചിലപ്പോൾ ഈ എളുപ്പമുള്ള, ചിലപ്പോൾ അല്ല. പല പ്ലഗിനുകൾ നിരവധി പതിപ്പുകൾ ഇതിനകം ലഭ്യമാണ്. താഴത്തെ വരി: ഒരു പ്ലഗിൻ ഇൻസ്റ്റാൾ ചെയ്യാൻ ശ്രമിക്കുന്നതിന് മുമ്പ്, അതു <acronym class="acronym">GIMP</acronym> പതിപ്പ് വേണ്ടി എഴുതിയിരിക്കുന്നു ഉറപ്പാക്കുക.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="idp46925510766800"></a>1.2. പ്ലഗിന്നുകളും ഉപയോഗിച്ച്</h3>
+              </div>
+            </div>
+          </div>
+          <p>ഏറ്റവും ഭാഗമായി നിങ്ങൾ ഒരു പ്ലഗിൻ അത് ഒരു പ്ലഗിൻ ആണ് എന്ന് മനസ്സിലാക്കുക അങ്ങോട്ടുമിങ്ങോട്ടും, മറ്റേതെങ്കിലും <acronym class="acronym">GIMP</acronym> ഉപകരണം പോലെ ഉപയോഗിക്കാൻ കഴിയും. എന്നാൽ മനസ്സിലാക്കാൻ ഉപയോഗപ്രദമായ പ്ലഗിനുകളുടെ കുറച്ച് കാര്യങ്ങൾ ഉണ്ട്.</p>
+          <p>വൺ പ്ലഗിനുകൾ പൊതുവെ <acronym class="acronym">GIMP</acronym> കോർ പോലെ കരുത്തുറ്റ എന്നതാണ്. <acronym class="acronym">GIMP</acronym> തകർന്നാൽ, അത് വളരെ ഗുരുതരമായ കാര്യം കണക്കാക്കുന്നു ഉപയോക്താവ് കഷ്ടവും തലവേദന ഒരുപാട് ല് കഴിയും. ഒരു തകര്ച്ച, അനന്തരഫലങ്ങൾ സാധാരണയായി അങ്ങനെയല്ല മുന്നിലാണ്. മിക്കപ്പോഴും അത് വെറും ആശങ്കപ്പെടാതെ പ്രവർത്തിക്കുന്നു തുടരുന്നതിനു കഴിയും.</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                </td>
+                <th align="left">കുറിപ്പു്</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>വെവ്വേറെ പ്രോഗ്രാമുകളാണ് കാരണം, അവർ ഒരു പ്രത്യേക വിധത്തിൽ <acronym class="acronym">GIMP</acronym> കോർ ആശയവിനിമയം: <acronym class="acronym">GIMP</acronym> ഡെവലപ്പർമാർ <span class="quote">“<span class="quote">talking over a wire</span>”</span> അതിനെ വിളിക്കുന്നു. ഒരു തകര്ച്ച, ആശയവിനിമയം കേടായാൽ, നിങ്ങൾ ഒരു <span class="quote">“<span class="quote">wire read error</span>”</span> ഒരു പിശക് സന്ദേശം കാണും.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[സൂചന]" src="images/tip.png" />
+                </td>
+                <th align="left">സൂചന</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>ഒരു തകര്ച്ച, <acronym class="acronym">GIMP</acronym> നിങ്ങൾ പ്ലഗിൻ കേടായ സംസ്ഥാനത്ത് <acronym class="acronym">GIMP</acronym> അവശേഷിക്കുന്നു വേണ്ടി, നീ നിന്റെ ചിത്രങ്ങൾ സംരക്ഷിക്കുന്നതും കടക്കുന്നതിന് പരിഗണിക്കാം നിങ്ങളോട് പറയുന്നത് വളരെ ominous- തിരയുന്ന സന്ദേശം നൽകുന്നു. കൃത്യമായി സംസാരിക്കുന്ന ഈ കാരണം പ്ലഗിനുകൾ <acronym class="acronym">GIMP</acronym> ഏതാണ്ട് ഒന്നും മാറ്റുവാനും അധികാരമുണ്ടെന്നും, തികച്ചും ശരിയാണ്, പക്ഷേ പ്രായോഗിക ആവശ്യങ്ങൾക്കായി, അനുഭവം അഴിമതി യഥാർത്ഥത്തിൽ വളരെ അപൂർവമാണ് ആണ്, അനേകം ഉപയോക്താക്കൾ വെറും പ്രവർത്തിക്കുന്നത് തുടരുക അതു കുറിച്ച് വിഷമിക്കേണ്ട തെളിയിച്ചിട്ടുണ്ട്. നമ്മുടെ അഡ്വൈസ് കേവലം എന്തോ കുഴപ്പം സംഭവിച്ചു എങ്കിൽ അതു നിങ്ങൾക്കു കാരണമായേക്കാവുന്ന വളരെ കഷ്ടം എങ്ങനെ അസമത്വത്തെ നേരെ അതു ഭാരമുണ്ടാകും ചിന്തിക്കുക എന്നതാണ്.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p>കാരണം വഴി പ്ലഗിനുകൾ <acronym class="acronym">GIMP</acronym> ആശയവിനിമയം അവർ പ്ലഗിൻ ആരംഭിച്ചു ശേഷം നിങ്ങൾ ഒരു ഇമേജ് വരുത്തുന്ന മാറ്റങ്ങൾ കുറിച്ച് ചെയ്യപ്പെട്ടതിന് യാതൊരു മെക്കാനിസം ഇല്ല. നിങ്ങൾ ഒരു പ്ലഗിൻ ആരംഭിക്കുക, തുടർന്ന് മറ്റ് ചില ഉപകരണം ഉപയോഗിച്ച് ഇമേജ് കൃതി, പ്ലഗിൻ പലപ്പോഴും തുടരേ; അതു ചെയ്യുമ്പോൾ സാധാരണയായി വ്യാജ ഫലം തരും ഇല്ല. നിങ്ങൾ ഒരു ഇമേജ് ഒരു സമയത്ത് ഒന്നിലധികം പ്ലഗിൻ പ്രവർത്തിക്കുന്ന ഒഴിവാക്കണം, പ്ലഗിൻ അതിൽ പ്രവർത്തിക്കുകയാണ് പൂർത്തിയാകുന്നതുവരെ ചിത്രത്തിലേക്ക് എന്തും ഒഴിവാക്കണം. നിങ്ങൾ ഈ ഉപദേശം അവഗണിക്കുകയാണെങ്കിൽ, മാത്രമല്ല നിങ്ങൾ ഒരുപക്ഷേ അപ്പ് ഇമേജ് പീഡിപ്പിക്കുന്നു എന്നു നിങ്ങൾ ഒരുപക്ഷേ പൂർവാവസ്ഥയിലാക്കുക സിസ്റ്റം അതുപോലെ, നിങ്ങളുടെ ഭോഷത്വം നിന്ന് വീണ്ടെടുക്കാൻ കഴിയില്ല അങ്ങനെ പീഡിപ്പിക്കുന്നു ചെയ്യും.</p>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-plugins-install"></a>1.3. ന്യൂ പ്ലഗിനുകള്ക്കായി ഇൻസ്റ്റോൾ</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925511315440" class="indexterm"></a>
+          <p><acronym class="acronym">GIMP</acronym> വിതരണം പ്ലഗിനുകളുടെ ഏതെങ്കിലും പ്രത്യേക ഇൻസ്റ്റലേഷൻ ആവശ്യമില്ല. നിങ്ങൾ സ്വയം ചെയ്യാൻ ഡൗൺലോഡ് പ്ലഗിനുകൾ. നിരവധി ഉറഞ്ഞ, നിങ്ങൾ ഉപയോഗിക്കുന്ന എങ്ങനെ പ്ലഗിൻ നോവാഷ്യം എന്താണ് ഒഎസ് അനുസരിച്ച് ഉണ്ട്. ലിനക്സിൽ ഒരു പുതിയ പ്ലഗിൻ ഇൻസ്റ്റാൾ സാധാരണയായി പ്രെറ്റി എളുപ്പമാണ്; വിൻഡോസ്, എളുപ്പമാക്കുന്നു അല്ലെങ്കിൽ വളരെ ഹാർഡ് ആണ്. ഏതെങ്കിലും സാഹചര്യത്തിൽ, രണ്ട് മികച്ച വെവ്വേറെ കണക്കാക്കുന്നു.</p>
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="idp46925511318592"></a>1.3.1. സിസ്റ്റങ്ങൾ പോലെ ലിനക്സ് / യുണിക്സ്-അയവുള്ളതും</h4>
+                </div>
+              </div>
+            </div>
+            <p>ആരുടെ സോഴ്സ് കോഡ് ഒരൊറ്റ .സി ഫയലായി വിതരണം ചെയ്യുന്നത്, ആരുടെ സോഴ്സ് കോഡ് ഒരു <code class="filename">Makefile</code> ഉൾപ്പെടെ ഒന്നിലധികം ഫയലുകൾ അടങ്ങുന്ന ഡയറക്ടറിയായി വിതരണം വലിയ പശുക്കൾ കുഞ്ഞുങ്ങളെ: ഏറ്റവും പ്ലഗിനുകൾ രണ്ട് വിഭാഗങ്ങളായി വീഴും.</p>
+            <p>ഒരു ലളിതമായ ഒറ്റ-ഫയൽ പ്ലഗിൻ, അതു കമാൻഡ് <span class="command"><strong>gimptool-2.0 --install borker.c</strong></span> പ്രവർത്തിക്കുന്ന വെറുതെ ഒരു കാര്യമാണ് ഇൻസ്റ്റാൾ, അതു വിളിക്കും <code class="filename">borker.c</code>. ഈ കമാൻഡ് പ്ലഗിൻ compiles നിങ്ങൾ അതു മാറ്റിയതിന് നിങ്ങളുടെ വ്യക്തിഗത പ്ലഗിൻ ഡയറക്ടറി, <code class="filename">~/gimp-2.4/plugins</code> അത് ഇൻസ്റ്റോൾ ചെയ്യുന്നു. യാന്ത്രികമായി നിങ്ങൾ <acronym class="acronym">GIMP</acronym> ആരംഭിക്കുന്നതിന് അടുത്ത തവണ ലോഡ് ചെയ്യാൻ ഇടയാക്കും. നീ ഇതു ചെയ്യുന്നു റൂട്ട് ആയിരിക്കും ആവശ്യമില്ല; സത്യത്തിൽ, പാടില്ല. പ്ലഗിൻ കംപൈൽ പരാജയപ്പെട്ടാൽ, നന്നായി, സൃഷ്ടിപരമായിരിക്കാൻ.</p>
+            <p>നിങ്ങൾ പ്ലഗിൻ ഇൻസ്റ്റാൾ ചെയ്തു കഴിഞ്ഞാൽ നിങ്ങൾ എങ്ങനെയാണ് അത് സജീവമാക്കുന്നതിന് എങ്ങനെ? മെനു പാത്ത് അതുകൊണ്ട് നിങ്ങൾക്ക് ഒന്നുകിൽ ഡോക്യുമെന്റേഷൻ ന് (ഏതെങ്കിലും ഉണ്ടെങ്കിൽ) പ്ലഗിൻ നോക്കി വേണമെങ്കിൽ പ്ലഗിൻ വിവരണം ഡയലോഗ് (Xtns / plugins വിവരങ്ങൾ നിന്ന്) തുടങ്ങുവാനുള്ള ഉത്തരം, പ്ലഗിൻ സ്വയം നിർണ്ണയിക്കുന്നത് പ്ലഗ്-ഇൻ തിരയൽ അതിന്റെ പേരും <span class="guilabel">Tree view</span> ടാബ് രൂപം വഴി. നിങ്ങൾക്ക് ഇപ്പോഴും കണ്ടെത്താൻ ഇല്ലെങ്കിൽ, ഒടുവിൽ മെനുകൾ പര്യവേക്ഷണം അല്ലെങ്കിൽ റജിസ്റ്റർ വിഭാഗത്തിൽ സോഴ്സ് കോഡ് വായിക്കാം - ഏതാണോ എളുപ്പമാണെങ്കിലും.</p>
+            <p>ഒന്നിലധികം ഫയലുകൾ ഒരു ഡയറക്ടറി സംഘടിപ്പിക്കുന്ന കൂടുതൽ സങ്കീർണ്ണമായ പ്ലഗ്ഇനുകൾ വേണ്ടി, നിർദ്ദേശങ്ങളടങ്ങിയ <code class="filename">INSTALL</code> അല്ലെങ്കിൽ <code class="filename">README</code> ഒന്നുകിൽ വിളിച്ചു ഉള്ളിൽ ഒരു ഫയൽ, ഉണ്ടായിരിക്കനമല്ലോ. ഇല്ലെങ്കിൽ, മികച്ച ഉപദേശം ചവറ്റുകൊട്ടയിൽ പ്ലഗിൻ വെളുക്കുവോളം മറ്റെന്തെങ്കിലും നിങ്ങളുടെ സമയം ചെലവഴിക്കാൻ: User അങ്ങനെ ചെറിയ ആശങ്ക എഴുതിയ ഏതെങ്കിലും കോഡ് പതിനായിരം വഴികളിൽ തൊങ്ങലും സാധ്യത.</p>
+            <p>ചില പ്ലഗിനുകൾ (<acronym class="acronym">GIMP</acronym> പ്ലഗിൻ ഫലകം അടിസ്ഥാനമാക്കി പ്രത്യേകമായി ആ) പകരം നിങ്ങളുടെ ഹോം ഡയറക്ടറിയിൽ അധികം പ്രധാന സിസ്റ്റം <acronym class="acronym">GIMP</acronym> ഡയറക്ടറിയിൽ ഇൻസ്റ്റോൾ രൂപകൽപ്പന. അത്തരക്കാർക്ക് നിങ്ങൾ (<span class="command"><strong>make install</strong></span> കമാൻഡ് ഇഷ്യൂ സമയത്ത്) ഇൻസ്റ്റലേഷൻ അന്തിമ ഘട്ടത്തിൽ നടത്താൻ റൂട്ട് ലഭിക്കേണ്ടതുണ്ട്.</p>
+            <p>നിങ്ങൾ നിങ്ങളുടെ സ്വകാര്യ പ്ലഗിൻ ഡയറക്ടറിയിൽ ഇതേ പേരിലുള്ള സിസ്റ്റം പ്ലഗിൻ ഡയറക്ടറിയിൽ മൂല്യം പോലെ ഒരു പ്ലഗിൻ ഇൻസ്റ്റോൾ ഒരെണ്ണം മാത്രം ലഭ്യമാകുന്ന, അതു നിങ്ങളുടെ ഹോം ഡയറക്ടറിയിൽ ആകും. നിങ്ങള് ഈ <acronym class="acronym">GIMP</acronym> ആരംഭിക്കാൻ ഓരോ തവണയും പറഞ്ഞതിന് സന്ദേശങ്ങൾ ലഭിക്കും. ഇത് മികച്ച ഒഴിവാക്കണം ഒരു സ്ഥിതിവിശേഷമാണ്.</p>
+          </div>
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="idp46925510949184"></a>1.3.2. വിൻഡോസ്</h4>
+                </div>
+              </div>
+            </div>
+            <p>വിൻഡോസ് ലിനക്സ് അധികം സോഫ്റ്റ്വെയർ ബിൽഡ് വളരെ കൂടുതൽ പ്രശ്നക്കാരായ പരിസ്ഥിതിയെ. ഓരോ മാന്യമായ ലിനക്സ് വിതരണം പൂർണ്ണമായി സോഫ്റ്റ്വെയർ കമ്പൈലിങ് ഉപകരണങ്ങൾ വിതരണം വന്നു, അവർ അവർ ജോലി വഴിയിൽ എല്ലാം വളരെ സമാനമാണ്, എന്നാൽ വിൻഡോസ് അത്തരം ഉപകരണങ്ങൾ വരാതിരുന്നാൽ. വിൻഡോസ് ഒരു നല്ല സോഫ്റ്റ്വെയർ-കെട്ടിടം പരിസ്ഥിതി സജ്ജമാക്കാൻ സാധ്യമാണ്, എന്നാൽ അതു പണം ഒരു ഗണ്യമായ തുക അല്ലെങ്കിൽ പരിശ്രമം അറിവും ഗണ്യമായ ഒരു തുക ഒന്നുകിൽ ആവശ്യമാണ്.</p>
+            <p>ഒന്നുകിൽ നിങ്ങൾ സോഫ്റ്റ്വെയർ പണിയും കഴിയുന്ന പരിസ്ഥിതി, അല്ലെങ്കിൽ നിങ്ങൾ എന്തു: എന്താണ് ഈ <acronym class="acronym">GIMP</acronym> പ്ലഗിനുകൾ ബന്ധപ്പെട്ട് മാർഗങ്ങൾ പിന്തുടരുന്നു. ഇല്ലെങ്കിൽ, പിന്നെ നിങ്ങളുടെ മികച്ച പ്രത്യാശ എവിടെയോ പ്ലഗിൻ precompiled പതിപ്പ് കണ്ടെത്താൻ (അല്ലെങ്കിൽ നിങ്ങൾ അതു സമാഹരിക്കാൻ ആരെയെങ്കിലും വശീകരിക്കും), നിങ്ങൾക്ക് നിങ്ങളുടെ സ്വകാര്യ പ്ലഗിൻ ഡയറക്ടറിയിൽ വേണ്ടത് സാഹചര്യത്തിൽ. നിങ്ങൾ സോഫ്റ്റ്വെയർ (ഇന്നത്തെ ആവശ്യങ്ങൾക്കായി നിങ്ങൾ <acronym class="acronym">GIMP</acronym> പണിയും കഴിയുന്ന പരിസ്ഥിതി ഇതിനർത്ഥം) പണിയും കഴിയുന്ന പരിസ്ഥിതി ഉണ്ടെങ്കിൽ, പിന്നെ നിങ്ങൾ സംശയമില്ല ഇതിനകം ഇതു കുറിച്ച് അൽപ്പം അറിയുന്നു വെറും Linux നിർദ്ദേശങ്ങൾ പാലിക്കുക വേണം.</p>
+          </div>
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="idp46925510955136"></a>1.3.3. ആപ്പിൾ മാക് ഒഎസ് എക്സ്</h4>
+                </div>
+              </div>
+            </div>
+            <p>നിങ്ങൾ OS X പ്ലഗിനുകൾ ഇൻസ്റ്റാൾ എങ്ങനെ കൂടുതലും നിങ്ങൾ <acronym class="acronym">GIMP</acronym> സ്വയം ഇൻസ്റ്റോൾ അടിസ്ഥാനമാക്കിയിരിക്കുമെന്നും. നിങ്ങൾ ധീരന്മാരുടെ ഒറ്റ ആയിരുന്നു fink <a class="xref" href="bibliography.html#bibliography-online-darwinports" title="ഡാര്വിന് തുറമുഖങ്ങൾ ഒഎസ് എക്സ് പാക്കേജ് മാനേജർ">[<abbr class="abbrev">DARWINORTS</abbr>]</a> അല്ലെങ്കിൽ darwinports പോലുള്ള പാക്കേജ് മാനേജർമാർ ഒരാളായ <a class="xref" href="bibliography.html#bibliography-online-fink" title="ഒഎസ് എക്സ് വേണ്ടി Fink പാക്കേജ് മാനേജർ">[<abbr class="abbrev">FINK</abbr>]</a> വഴി <acronym class="acronym">GIMP</acronym> ഇൻസ്റ്റാൾ ചെയ്താൽ പ്ലഗിൻ ഇൻസ്റ്റലേഷൻ അത് ഇതിനകം ലിനക്സ് പ്ലാറ്റ്ഫോമിൽ നുള്ള വിവരിച്ച കൃത്യമായി പ്രവർത്തിക്കുന്നു. ഒരു വ്യത്യാസം മാത്രം പ്ലഗിനുകളുടെ ഒരു ദമ്പതികൾ നിങ്ങളെ പാക്കേജ് മാനേജരുടെ സംഭരണിയിൽ പോലും ലഭ്യമാകും, അങ്ങനെ അത് ഒരു ഓണക്കാലം തക്കവണ്ണം ആകുന്നു.</p>
+            <p>നിങ്ങൾ മറുവശത്ത് GIMP.app പോലുള്ള ഒരു prebuild <acronym class="acronym">GIMP</acronym> പാക്കേജ് പിടിച്ചെടുക്കാൻ തിരഞ്ഞെടുത്തതായി ഉപയോക്താക്കളിലൊരാൾക്ക് എങ്കിൽ, ഏറ്റവും ഒരുപക്ഷേ ആ prebuild സ്റ്റഫ് തുരങ്കത്തിനു ആഗ്രഹിക്കുന്നു. അങ്ങനെ നിന്റെ പ്ലഗിൻ prebuild പതിപ്പ് ലഭിക്കാൻ ശ്രമിക്കാം പ്ലഗിൻ രചയിതാവ് നിന്ന് സ്വപ്നങ്ങൾ, പക്ഷേ എനിക്ക് രോദനങ്ങള് ആഗ്രഹിക്കുന്നില്ല ആഗ്രഹിക്കുന്നു. നിർഭാഗ്യവശാൽ നിങ്ങളുടെ സ്വന്തം ബൈനറികളുടെ പണിയുന്നതിന് മുകളിൽ സൂചിപ്പിച്ച പാക്കേജ് മാനേജർമാർ ഒന്ന് കൂടി <acronym class="acronym">GIMP</acronym> ഇൻസ്റ്റാൾ കേന്ദ്രീകരിക്കുന്നു.</p>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="plugins-write"></a>1.4. പ്ലഗിനുകള്തെരയുക എഴുതേണ്ട</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925510963232" class="indexterm"></a>
+          <p>നിങ്ങൾ ഒരു പ്ലഗിൻ എങ്ങനെ എഴുതണം അറിയണമെങ്കിൽ, നിങ്ങൾ <acronym class="acronym">GIMP</acronym> ഡവലപ്പേഴ്സ് വെബ് സൈറ്റ് <a class="xref" href="">???</a> സഹായ ധാരാളം കണ്ടെത്താനാകും. <acronym class="acronym">GIMP</acronym> ഒരു സങ്കീർണ്ണ പ്രോഗ്രാം ആണ്, പക്ഷേ വികസന ടീം പ്ലഗിൻ എഴുത്തിന്റെ മുൻപിൻ പരത്തുക ലേക്കുള്ള അടിയന്തിരമായി ശ്രമങ്ങൾ ഹ്യൂസ്റ്റൺ: നല്ല നിർദ്ദേശങ്ങൾ ഉദാഹരണങ്ങൾ ഉണ്ട്, പ്ലഗിനുകൾ <acronym class="acronym">GIMP</acronym> (<span class="quote">“<span class="quote">libgimp</span>”</span> വിളിക്കുന്നു) ചേർന്ന ഇൻറർഫേസിലേക്ക് ഉപയോഗിക്കുന്ന പ്രധാന ലൈബ്രറി ഒരു നല്ല ചൂണ്ടിക്കാട്ടുന്നു <acronym class="acronym">API</acronym>. നല്ല പ്രോഗ്രാമർമാർ, നിലവിലുള്ള പ്ലഗിനുകൾ മാറ്റം പഠന, പലപ്പോഴും സൃഷ്ടിയുടെ ദിവസം വെറും ഒരു ദമ്പതികൾ ശേഷം രസകരമായ കാര്യങ്ങൾ നിർവഹിക്കാനും പ്രാപ്തരാണ്.</p>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="customize-splashscreen.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="become-a-gimp-wizard.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-concepts-script-fu.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="customize-splashscreen.html">6. ഓളമുണ്ടാക്കുന്നു- സ്ക്രീൻ ഇഷ്ടാനുസൃതമാക്കുക</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-concepts-script-fu.html">2. സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റുകൾ ഉപയോഗിക്കുന്നതിന്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.7. റെഡ് ഐ നീക്കംചെയ്യൽ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-enhance.html" title="3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക" />
+    <link rel="prev" href="plug-in-nlfilt.html" title="3.6. ഹോളണ്ട് ഫിൽറ്റർ" />
+    <link rel="next" href="plug-in-sharpen.html" title="3.8. മൂര്ച്ചവരുത്തുക" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.7. റെഡ് ഐ നീക്കംചെയ്യൽ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-nlfilt.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-sharpen.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-red-eye-removal"></a>3.7. റെഡ് ഐ നീക്കംചെയ്യൽ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925520257536" class="indexterm"></a>
+      <a id="idp46925520259408" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523563248"></a>3.7.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925523563888"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.27. <span class="quote">“<span class="quote">Red Eye Removal</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/enhance-red-eye-before.jpg" alt="“Red Eye Removal” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/enhance-red-eye-after.jpg" alt="“Red Eye Removal” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Red Eye Removal</span>”</span> പ്രയോഗിച്ചു</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ പ്രഥമലക്ഷ്യം - അടച്ചിട്ടുപൂജ - ഒരു ചിത്രത്തിൽ നിന്ന് ചുവന്ന കണ്ണുകൾ നീക്കം. <span class="quote">“<span class="quote">Red Eye Removal</span>”</span> പ്രയോഗിക്കുന്നതിനു മുമ്പായി നിങ്ങൾ ഒരു ചുവന്ന ശിഷ്യനായ ഇല്ലാത്ത (lasso എന്ന അല്ലെങ്കിൽ ദീർഘവൃത്താകൃതിയിലുള്ള) ഒരു നിര കണ്ണിലെ ഐറിസ് അതിർത്തി വിശദീകരണം (ങ്ങൾ) ചെയ്യണം. ശേഷം മാത്രമേ ഈ തിരഞ്ഞെടുത്തത് ഫിൽറ്റർ അപേക്ഷിക്കാം. <span class="quote">“<span class="quote">Manually selecting the eyes may improve the results</span>”</span>: ഈ തിരഞ്ഞെടുത്തത് ആക്കുന്നില്ല എങ്കിൽ, അരിപ്പ അറിയിക്കുകയാണ്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523572256"></a>3.7.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Enhance</span> → <span class="guimenuitem">Red Eye Removal</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523574928"></a>3.7.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925523575680"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.28. <span class="quote">“<span class="quote">Red Eye Removal</span>”</span> ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/enhance/red-eye-removal.png" alt="“Red Eye Removal” ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ <span class="quote">“<span class="quote">Preview</span>”</span> പരിശോധിക്കുക എങ്കിൽ പ്രിവ്യൂ വിൻഡോയിൽ real- സമയം പരിഷ്കാരങ്ങൾക്കോ കാണാൻ കഴിയും. പിന്നെ നിങ്ങൾ കാണുന്നത് നിങ്ങൾക്ക് താരതമ്യത്തിൽ ഉമ്മരപ്പടി നല്ല മൂല്യം തിരഞ്ഞെടുക്കാൻ, പിന്നെ അത് ഉറപ്പാക്കാവുന്നതാണ്.</p>
+            </dd>
+            <dt>
+              <span class="term">ഉമ്മറം</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ ഉമ്മരപ്പടി കഴ്സർ നീക്കുക എങ്കിൽ ഉന്മൂലനം ചുവന്ന നിറം തുക വ്യത്യാസപ്പെട്ടിരിക്കും.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-nlfilt.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-enhance.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-sharpen.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-nlfilt.html">3.6. ഹോളണ്ട് ഫിൽറ്റർ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-sharpen.html">3.8. മൂര്ച്ചവരുത്തുക</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

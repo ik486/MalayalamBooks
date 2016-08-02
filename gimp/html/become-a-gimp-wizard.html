@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>ഭാഗം II. ഞാൻ എങ്ങനെയാണ് ഒരു GIMP വിസാര്ഡ് ആകാൻ കഴിയും?</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="prev" href="gimp-getting-unstuck.html" title="പാഠം 4. Unstuck നേടുന്നു" />
+    <link rel="next" href="gimp-images-in.html" title="പാഠം 5. കടന്നു ജിമ്പ് ഇമേജുകൾ നേടുന്നു" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">ഭാഗം II. ഞാൻ എങ്ങനെയാണ് ഒരു <acronym class="acronym">GIMP</acronym> വിസാര്ഡ് ആകാൻ കഴിയും?</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-getting-unstuck.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center"> </th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-images-in.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="part">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h1 class="title"><a id="become-a-gimp-wizard"></a>ഭാഗം II. ഞാൻ എങ്ങനെയാണ് ഒരു <acronym class="acronym">GIMP</acronym> വിസാര്ഡ് ആകാൻ കഴിയും?</h1>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>ഉള്ളടക്കത്തിന്റെ പട്ടിക</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="chapter">
+              <a href="gimp-images-in.html">5. കടന്നു ജിമ്പ് ഇമേജുകൾ നേടുന്നു</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-images-in.html#gimp-concepts-image-types">1. ചിത്ര തരങ്ങൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-using-fileformats-creating.html">2. പുതിയ ഫയലുകൾ സൃഷ്ടിക്കുന്നു</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-using-fileformats-opening.html">3. ഫയലുകൾ തുറക്കുന്നു</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-fileformats-opening.html#gimp-using-open-file">3.1. ഫയൽ തുറക്കുക</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-open-location.html">3.2. സ്ഥാനം തുറക്കുക</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-open-recent.html">3.3. സമീപകാലത്തെ തുറക്കുക</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-external-programs.html">3.4. പുറത്തേക്കുള്ള പ്രോഗ്രാമുകൾ ഉപയോഗിക്കുന്നു</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-file-manager.html">3.5. ഫയൽ മാനേജർ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-drag-and-drop.html">3.6. വലിച്ചിടുക</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-open-copy-and-paste.html">3.7. പകര്ത്തി ഒട്ടിക്കുക</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-image-browser.html">3.8. ഇമേജ്ബ്രൌസര്</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+          <dt>
+            <span class="chapter">
+              <a href="gimp-images-out.html">6. ജിമ് നിന്നു ചിത്രങ്ങൾ നേടുന്നു</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-images-out.html#gimp-using-fileformats">1. ഫയലുകൾ</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-images-out.html#save-export-image">1.1. സംരക്ഷിക്കുക / കയറ്റുമതി ചിത്രങ്ങൾ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-images-out.html#gimp-using-fileformats-export-dialog">1.2. ഫയൽ ഫോർമാറ്റുകൾ</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-using-web.html">2. വെബ് നിങ്ങളുടെ ചിത്രങ്ങൾ തയ്യാറെടുക്കുന്നു</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-web.html#gimp-using-web-size-vs-quality">2.1. ഒരു തലോടല് വലിപ്പം / ക്വാളിറ്റി അനുപാതത്തിൽ ചിത്രങ്ങൾ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-web-reducing-file-size.html">2.2. ഇനിയും കൂടുതൽ ഫയൽ വലിപ്പം കുറയ്ക്കൽ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-web-transparency.html">2.3. സുതാര്യതയോടെ സംരക്ഷിക്കുന്നു ചിത്രങ്ങൾ</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+          <dt>
+            <span class="chapter">
+              <a href="gimp-painting.html">7. ജിമ്പ് ചിത്രകല</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-painting.html#gimp-concepts-selection">1. തിരഞ്ഞെടുക്കൽ</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-painting.html#gimp-concepts-selection-feathering">1.1. ഭദ്രമാക്കുന്ന</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-painting.html#gimp-concepts-selection-transparent">1.2. ഒരു തിരഞ്ഞെടുപ്പ് ഭാഗികമായി സുതാര്യമായ ഉണ്ടാക്കുന്നു</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-using-selections.html">2. തിരഞ്ഞെടുപ്പുകൾ സൃഷ്ടിക്കുകയും ഉപയോഗിക്കുന്നു</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-selections.html#gimp-using-selections-moving">2.1. ഒരു തിരഞ്ഞെടുപ്പ് നീക്കുന്നു</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-selections-add.html">2.2. തിരഞ്ഞെടുക്കലുകൾ ചേർക്കുന്നു അല്ലെങ്കിൽ കുറച്ചാണ്</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-image-window-qmask-button.html">3. QuickMask</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-window-qmask-button.html#gimp-image-window-qmask-overview">3.1. പൊതു അവലോകനം</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-window-qmask-properties.html">3.2. ഗുണഗണങ്ങള്</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-using-quickmask.html">4. QuickMask മോഡ് ഉപയോഗിച്ച്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-using-paths.html">5. 
+    
+    <span class="phrase">പാഥുകൾ</span>
+  </a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-paths.html#gimp-using-paths-creating">5.1. പാത ക്രിയേഷൻ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-paths-properties.html">5.2. പാത പ്രോപ്പർട്ടീസ്</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-paths-and-selections.html">5.3. പാത എന്നിവയും തിരഞ്ഞെടുപ്പുകൾ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-paths-transforming.html">5.4. രൂപാന്തരപ്പെടുത്തി പാഥുകൾ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-paths-stroking.html">5.5. ഒരു പാത അതാണെന്ന്</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-paths-and-text.html">5.6. പാത എന്നിവയും ടെക്സ്റ്റ്</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-paths-and-svg.html">5.7. പാത എന്നിവയും <acronym class="acronym">SVG</acronym> ഫയലുകൾ</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-concepts-brushes.html">6. നയപ്രഖ്യാപന</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-using-brushes.html">7. പുതിയ Brushes ചേർക്കുന്നു</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-using-animated-brushes.html">8. GIH ഡയലോഗ് ബോക്സ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-using-variable-size-brush.html">9. വ്യത്യസ്ത ബ്രഷ് സൈസ്</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-variable-size-brush.html#gimp-using-variable-size-brush-varying">9.1. എങ്ങനെ ഒരു ബ്രഷ് ഉയരം വ്യത്യാസപ്പെടാൻ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-variable-size-brush-creating.html">9.2. വേഗത്തിൽ ഒരു ബ്രഷ് തയ്യാറാക്കുന്നു</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-concepts-gradients.html">10. ഘനമായ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-concepts-patterns.html">11. പാറ്റേണുകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-concepts-palettes.html">12. പാലറ്റുകൾ</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-concepts-palettes.html#idp46925509720208">12.1. Colormap</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-tools-presets.html">13. പ്രീസെറ്റുകളിൽ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-using-simpleobjects.html">14. ലളിത വസ്തുക്കൾ ഡ്രോയിംഗ്</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-simpleobjects.html#gimp-using-line">14.1. നേരായ ലൈൻ ഡ്രോയിംഗ്</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-rectangular.html">14.2. ഒരു അടിസ്ഥാന ആകാരം സൃഷ്ടിക്കുന്നത്</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+          <dt>
+            <span class="chapter">
+              <a href="gimp-image-combining.html">8. സംയോജിത ചിത്രങ്ങൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-image-combining.html#gimp-concepts-layers">1. ലെയറുകൾ ആമുഖം</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-image-combining.html#gimp-layer-properties">1.1. ലെയർ പ്രോപ്പർട്ടീസ്</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-concepts-layer-modes.html">2. ലെയർ മോഡുകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-using-layers.html">3. പുതിയ തലങ്ങളെ ഉണ്ടാക്കുന്നു</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-layer-groups.html">4. ലെയർ ഗ്രൂപ്പുകൾ</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="chapter">
+              <a href="gimp-image-text-management.html">9. ടെക്സ്റ്റ് മാനേജ്മെന്റ്</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-image-text-management.html#gimp-text-management">1. ടെക്സ്റ്റ് മാനേജ്മെന്റ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-text-tool-box.html">2. ടെക്സ്റ്റ് ടൂൾ ബോക്സ്</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-text-tool-box.html#idp46925509170624">2.1. ഉള്ളടക്കം ടൂൾ ബോക്സ് സന്ദർഭ മെനു</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-using-text.html">3. ടെക്സ്റ്റ്</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-text.html#idp46925510073904">3.1. Embellishing ടെക്സ്റ്റ്</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-fonts.html">3.2. ഫോണ്ടുകൾ ചേർക്കുന്നത്</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="font-problems.html">3.3. ഫോണ്ട് പ്രശ്നങ്ങൾ</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+          <dt>
+            <span class="chapter">
+              <a href="gimp-imaging-photos.html">10. മെച്ചപ്പെടുത്തുന്നു ഫോട്ടോഗ്രാഫുകൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-imaging-photos.html#gimp-using-photography">1. ഡിജിറ്റൽ ക്യാമറ ഫോട്ടോകൾ ഉപയോഗിച്ച് പ്രവർത്തനം</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-imaging-photos.html#gimp-using-photography-introduction">1.1. അവതാരിക</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-imaging-photos.html#gimp-using-photography-improving">1.2. രചന വർധിപ്പിക്കുക</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-imaging-photos.html#gimp-using-photography-colors">1.3. നിറങ്ങൾ വർധിപ്പിക്കുക</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-imaging-photos.html#gimp-using-photography-sharpness">1.4. ഷാർപ്നെസ് ക്രമീകരിക്കൽ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-imaging-photos.html#gimp-using-photography-retouching">1.5. ഒരു ചിത്രത്തിൽ നിന്ന് അനാവശ്യമായി വസ്തുക്കളുടെ നീക്കംചെയ്യുന്നു</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-imaging-photos.html#gimp-using-photography-saving">1.6. നിങ്ങളുടെ ഫലങ്ങൾ സംരക്ഷിക്കുന്നു</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+          <dt>
+            <span class="chapter">
+              <a href="gimp-imaging-color-management.html">11. ജിമ്പ് നിറം മാനേജ്മെന്റ്</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-imaging-color-management.html#gimp-concepts-color-management">1. ജിമ് കളർ മാനേജ്മെന്റ്</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-imaging-color-management.html#idp46925509910416">1.1. നിയന്ത്രിത വർക്ക്ഫ്ലോ നോൺ കളർ പ്രശ്നങ്ങൾ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-imaging-color-management.html#plug-in-icc-profile-set">1.2. നിയന്ത്രിത വർക്ക്ഫ്ലോ ഒരു കളര് ആമുഖം</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+          <dt>
+            <span class="chapter">
+              <a href="gimp-pimping.html">12. Enrich my GIMP</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-pimping.html#gimp-prefs-dialog">1. Preferences Dialog</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#idp46925511352800">1.1. അവതാരിക</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-environment">1.2. പരിസ്ഥിതി</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-interface">1.3. ഇന്റര്ഫേസ്</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-theme">1.4. തീം</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-help">1.5. സഹായം സിസ്റ്റം</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-tool-options">1.6. ടൂൾ ഓപ്ഷനുകൾ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-toolbox">1.7. പണിസഞ്ചി</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-new-image">1.8. Default Image Preferences</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-default-grid">1.9. സ്ഥിരസ്ഥിതി ഇമേജ് ഗ്രിഡ്</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-image-window">1.10. വിൻഡോസ് ചിത്രം</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-image-window-appearance">1.11. ചിത്രം വിൻഡോ കാഴ്ച</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-image-window-title">1.12. Image Window Title and Statusbar</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-display">1.13. പ്രദർശിപ്പിക്കുക</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-color-management">1.14. വർണ്ണ മാനേജ്മെന്റ്</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-input-devices">1.15. ഇൻപുട്ട് ഡിവൈസുകൾ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-input-controllers">1.16. ഇൻപുട്ട് കണ്ട്രോളറുകള്ക്കുള്ള</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-window-management">1.17. വിൻഡോ മാനേജ്മെന്റ്</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-folders">1.18. ഫോൾഡറുകൾ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-pimping.html#gimp-prefs-folders-data">1.19. Data Folders</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-concepts-image-grid-and-guides.html">2. ഗ്രിഡുകളുടെ ഗൈഡുകൾ</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-concepts-image-grid-and-guides.html#gimp-concepts-image-grid">2.1. ചിത്രം ഗ്രിഡ്</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-concepts-image-guides.html">2.2. വഴികാട്ടി</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-using-grid.html">3. ഒരു ഗ്രിഡ് റെൻഡർ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-using-setup-tile-cache.html">4. എങ്ങനെ നിങ്ങളുടെ ടൈൽ കാഷെ സജ്ജമാക്കുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-concepts-shortcuts.html">5. മെനു പ്രവർത്തനങ്ങൾ കുറുക്കുവഴികൾ സൃഷ്ടിക്കുന്നു</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect1">
+                  <a href="customize-splashscreen.html">6. ഓളമുണ്ടാക്കുന്നു- സ്ക്രീൻ ഇഷ്ടാനുസൃതമാക്കുക</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="chapter">
+              <a href="gimp-scripting.html">13. സ്ക്രിപ്റ്റിങ്</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-scripting.html#gimp-concepts-plugins">1. പ്ലഗിനുകള്തെരയുക</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-scripting.html#idp46925511048000">1.1. അവതാരിക</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-scripting.html#idp46925510766800">1.2. പ്ലഗിന്നുകളും ഉപയോഗിച്ച്</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-scripting.html#gimp-plugins-install">1.3. ന്യൂ പ്ലഗിനുകള്ക്കായി ഇൻസ്റ്റോൾ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-scripting.html#plugins-write">1.4. പ്ലഗിനുകള്തെരയുക എഴുതേണ്ട</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-concepts-script-fu.html">2. സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റുകൾ ഉപയോഗിക്കുന്നതിന്</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-concepts-script-fu.html#idp46925510769824">2.1. സ്ക്രിപ്റ്റ്-ഫു?</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="install-script-fu.html">2.2. സ്ക്രിപ്റ്റ്-Fus ഇൻസ്റ്റോൾ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="common-script-fu-errors.html">2.3. ചെയ്യേണ്ടതും ചെയ്യേണ്ടാത്തതും</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="kinds-of-script-fu.html">2.4. സ്ക്രിപ്റ്റ്-Fus വിവിധ തരത്തിലുള്ള</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="standalone-script-fu.html">2.5. ഹ്രസ്വമായ സ്ക്രിപ്റ്റുകൾ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="image-independent-script-fu.html">2.6. ചിത്രം-ആശ്രിത സ്ക്രിപ്റ്റുകൾ</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+              <dt>
+                <span class="sect1">
+                  <a href="gimp-using-script-fu-tutorial.html">3. ഒരു സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ</a>
+                </span>
+              </dt>
+              <dd>
+                <dl>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-script-fu-tutorial.html#gimp-using-script-fu-tutorial-scheme">3.1. പദ്ധതി സൂക്ഷ്മമായി Getting</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-script-fu-tutorial-identifier.html">3.2. വേര്യബിൾ പ്രവർത്തനങ്ങൾ</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-script-fu-tutorial-lists.html">3.3. ലിസ്റ്റുകൾ, ലിസ്റ്റുകൾ, ടിപ്പണി</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-script-fu-tutorial-first-script.html">3.4. നിങ്ങളുടെ ആദ്യ സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ്</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-script-fu-tutorial-script.html">3.5. നമ്മുടെ സ്ക്രിപ്റ്റ് നൽകൽ ചില Guts</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-script-fu-tutorial-extending-text-box.html">3.6. വാചക ബോക്സ് സ്ക്രിപ്റ്റ് വികസിപ്പിക്കുന്നു</a>
+                    </span>
+                  </dt>
+                  <dt>
+                    <span class="sect2">
+                      <a href="gimp-using-script-fu-tutorial-result.html">3.7. നിങ്ങളുടെ സ്ക്രിപ്റ്റ് അതിന്റെ ജോലി</a>
+                    </span>
+                  </dt>
+                </dl>
+              </dd>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-getting-unstuck.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center"> </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-images-in.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-getting-unstuck.html">പാഠം 4. Unstuck നേടുന്നു</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-images-in.html">പാഠം 5. കടന്നു ജിമ്പ് ഇമേജുകൾ നേടുന്നു</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

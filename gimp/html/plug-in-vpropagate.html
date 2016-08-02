@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>4.15. മൂല്യം പ്രചരിപ്പിക്കാൻ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-distort.html" title="4. ഫിൽട്ടറുകൾ വളച്ചൊടിച്ച്" />
+    <link rel="prev" href="plug-in-shift.html" title="4.14. മാറ്റം" />
+    <link rel="next" href="plug-in-video.html" title="4.16. വീഡിയോ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">4.15. മൂല്യം പ്രചരിപ്പിക്കാൻ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-shift.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">4. ഫിൽട്ടറുകൾ വളച്ചൊടിച്ച്</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-video.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-vpropagate"></a>4.15. മൂല്യം പ്രചരിപ്പിക്കാൻ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925524889248" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524890192"></a>4.15.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925524890960"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.71. മൂല്യം പ്രചരിപ്പിക്കാൻ ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="മൂല്യം പ്രചരിപ്പിക്കാൻ ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/distort-taj-vpropagate.jpg" alt="മൂല്യം പ്രചരിപ്പിക്കാൻ ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Value Propagate</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ നിറം അതിർത്തികളിൽ പ്രവർത്തിക്കുന്നു. അത് അവരുടെ അയൽ പിക്സൽ ഒരു നിശ്ചിത വിധത്തിൽ വ്യത്യസ്തമായിരിക്കും പിക്സലുകൾ പരത്തുന്നു.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524898544"></a>4.15.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Distorts</span> → <span class="guimenuitem">Value Propagate</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524901216"></a>4.15.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925524901968"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.72. <span class="quote">“<span class="quote">Value propagate</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/distort/vpropagate.png" alt="“Value propagate” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങളുടെ ക്രമീകരണങ്ങളിൽ ഫലം നിങ്ങൾ <span class="guibutton">OK</span> ക്ലിക്ക് വരെ ചിത്രം ബാധിക്കാതെ പ്രിവ്യൂ ദൃശ്യമാകും.</p>
+            </dd>
+            <dt>
+              <span class="term">മോഡ്</span>
+            </dt>
+            <dd>
+              <div class="variablelist">
+                <p>ഉദാഹരണങ്ങൾ താഴെ ചിത്രം കുറിച്ച് ആയിരിക്കും:</p>
+                <div class="mediaobject">
+                  <img src="images/filters/examples/vpropag-base.png" />
+                </div>
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">കൂടുതൽ വൈറ്റ് (വലിയ മൂല്യം)</span>
+                  </dt>
+                  <dd>
+                    <p>പിക്സൽ താഴത്തെ മൂല്യം പിക്സൽ നേരെ മുകളിലെ മൂല്യം പിക്സലുകൾ മുതൽ പ്രചരിപ്പിച്ച ചെയ്യും. പ്രകാശമാനമായ പ്രദേശങ്ങൾ വിശാലമാക്കും.</p>
+                    <div class="figure">
+                      <a id="idp46925524913136"></a>
+                      <p class="title">
+                        <strong>ചിത്രം 17.73. കൂടുതൽ വെളുത്ത</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag1.png" alt="കൂടുതൽ വെളുത്ത" />
+                          <div class="caption">
+                            <p>മുകളിൽ, താഴെ, വലത്തോട്ടും ഇടത്തോട്ടും: ബ്രൈറ്റ് പിക്സലുകൾ നാലു ഭാഗത്തേക്കും ഇരുണ്ട പിക്സൽ പ്രചരിപ്പിച്ചു ചെയ്തു. ഫിൽറ്റർ പ്രഭാവം വർദ്ധിപ്പിക്കാൻ നിരവധി തവണ പ്രയോഗിച്ചു.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                  </dd>
+                  <dt>
+                    <span class="term">കൂടുതൽ കറുത്ത (ചെറിയ മൂല്യം)</span>
+                  </dt>
+                  <dd>
+                    <p>പിക്സൽ മുകളിലെ മൂല്യം പിക്സൽ .ഗണേശന് മൂല്യം പിക്സലുകൾ മുതൽ പ്രചരിപ്പിച്ച ചെയ്യും. അങ്ങനെ ഇരുണ്ട പ്രദേശങ്ങൾ വിശാലമാക്കും.</p>
+                    <div class="figure">
+                      <a id="idp46925524919328"></a>
+                      <p class="title">
+                        <strong>ചിത്രം 17.74. കൂടുതൽ കറുത്ത</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag2.png" alt="കൂടുതൽ കറുത്ത" />
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                    <div class="figure">
+                      <a id="idp46925524921984"></a>
+                      <p class="title">
+                        <strong>ചിത്രം 17.75. അടിയിലേക്ക് മാത്രം</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag2-bis.png" alt="അടിയിലേക്ക് മാത്രം" />
+                          <div class="caption">
+                            <p>മാത്രം ചെക്കുചെയ്തിരിക്കുന്ന <span class="guilabel">To bottom</span> പ്രത്യേക മുകളിൽ അതേ.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                  </dd>
+                  <dt>
+                    <span class="term">കൊടുമുടികൾ ലേക്ക് മിഡിൽ മൂല്യം</span>
+                  </dt>
+                  <dd>
+                    <p>തിരഞ്ഞെടുത്ത ഉമ്മരപ്പടിക്കൽ തമ്മിലുള്ള ഒരു അതിർത്തിയിൽ ഇരു മൂല്യങ്ങളുടെ ശരാശരി ഫലവുമുണ്ടാകില്ല.</p>
+                    <div class="figure">
+                      <a id="idp46925524928224"></a>
+                      <p class="title">
+                        <strong>ചിത്രം 17.76. കൊടുമുടികൾ ലേക്ക് മിഡിൽ മൂല്യം</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag3.png" alt="കൊടുമുടികൾ ലേക്ക് മിഡിൽ മൂല്യം" />
+                          <div class="caption">
+                            <p>ഒരു ട്രാൻസിഷണൽ നിറവും നേർത്ത അതിർത്തി വസ്തുക്കൾ ചേർത്തു. അത് വിതാനിച്ചവന് ബോർഡറുകൾ വസ്തുക്കളുടെ ചുറ്റും ദൃശ്യമല്ല.</p>
+                          </div>
+                        </div>
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag3-zoom.png" alt="കൊടുമുടികൾ ലേക്ക് മിഡിൽ മൂല്യം" />
+                          <div class="caption">
+                            <p>ഗ്രീൻ ഏരിയ x800 സൂം. നേർത്ത അതിർ (ഒരു പിക്സൽ വൈഡ്) ചേർത്തു. (90 + 78) / 2 = 84: അതിന്റെ മൂല്യം ചാര (90%) പച്ച (78%) തമ്മിലുള്ള ശരാശരി.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                  </dd>
+                  <dt>
+                    <span class="term">കൊടുമുടികൾ ഫോർഗ്രൌണ്ട്</span>
+                  </dt>
+                  <dd>
+                    <p>പ്രചരിപ്പിച്ചു പ്രദേശങ്ങൾ ഉപകരണബോക്സിലേക്ക് ഫോർഗ്രൗണ്ടിലെ നിറം നിറയും.</p>
+                    <div class="figure">
+                      <a id="idp46925524937104"></a>
+                      <p class="title">
+                        <strong>ചിത്രം 17.77. കൊടുമുടികൾ ഫോർഗ്രൌണ്ട്</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag4.png" alt="കൊടുമുടികൾ ഫോർഗ്രൌണ്ട്" />
+                          <div class="caption">
+                            <p>ഈ ഉദാഹരണത്തിൽ, പണിസഞ്ചിയിൽ മുൻഭാഗത്തെ വർണ്ണം ഉപഭോഗം. നേർത്ത അതിർ, ഒരു പിക്സൽ വൈഡ് ചുവപ്പ്, വസ്തുക്കൾ ചുറ്റും ചേർത്തു. സ്മൂത്ത്ഡ് വസ്തുക്കൾ ഉപയോഗിച്ച്, ഈ അതിർ മാർദ്ദവപ്പെടുത്തൽ അങ്ങേ പരിധി സ്ഥിതി ചെയ്യുന്നത്. ഇവിടെ മറ്റൊരു അതിർ അകത്ത് ദൃശ്യമാകുന്നു. ഈ കാരണം പൊതിയുക എതിർവശങ്ങളിൽ എന്ന മാർദ്ദവപ്പെടുത്തൽ പ്രദേശം തിങ്ങുന്ന വസ്തുവിന്റെ ചെറിയ വലിപ്പം ഒരു ശില്പമാണ്.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                  </dd>
+                  <dt>
+                    <span class="term">മാത്രം മുൻഭാഗത്തെ</span>
+                  </dt>
+                  <dd>
+                    <p>പണിസഞ്ചി പുരോതലനിറം മേഖലകളിൽ മാത്രം പ്രചരിപ്പിക്കുന്നതാണ് ചെയ്യും.</p>
+                    <div class="figure">
+                      <a id="idp46925524943680"></a>
+                      <p class="title">
+                        <strong>ചിത്രം 17.78. മാത്രം മുൻഭാഗത്തെ</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag5.png" alt="മാത്രം മുൻഭാഗത്തെ" />
+                          <div class="caption">
+                            <p>ഈ ഉദാഹരണത്തിൽ, പണിസഞ്ചിയിൽ മുൻഭാഗത്തെ നിറം പച്ച വസ്തുവിന്റെ എന്നതാണ്. ഫിൽട്ടർ നിരവധി തവണ പ്രയോഗിച്ച ശേഷം, പച്ച പ്രദേശം വ്യക്തമായി വിശാലമായിരിക്കുന്നു.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                  </dd>
+                  <dt>
+                    <span class="term">മാത്രം പശ്ചാത്തല</span>
+                  </dt>
+                  <dd>
+                    <p>പശ്ചാത്തല നിറം മേഖലകളിൽ മാത്രം പ്രചരിപ്പിക്കുന്നതാണ് ചെയ്യും.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">കൂടുതൽ ഇരുണ്ട, </span>
+                    <span class="term">കൂടുതൽ സുതാര്യമായ</span>
+                  </dt>
+                  <dd>
+                    <p>ഈ കമാൻഡുകൾ <span class="quote">“<span class="quote">More white</span>”</span> ആൻഡ് <span class="quote">“<span class="quote">More black</span>”</span> പ്രവർത്തിക്കുന്നു. അതാര്യമായ (സുതാര്യമായ) പ്രദേശങ്ങൾ സുതാര്യതയേറിയതുമാണ് (സുതാര്യമായ) ഭൂവിഭാഗങ്ങൾ പ്രചരിപ്പിച്ച ചെയ്യും. ഈ കമാൻഡുകൾ ഒരു ആല്ഫാ ചാനലുമായി ഒരു ചിത്രം വേണം.</p>
+                    <div class="figure">
+                      <a id="idp46925524953280"></a>
+                      <p class="title">
+                        <strong>ചിത്രം 17.79. കൂടുതൽ ഇരുണ്ട</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag6a.png" alt="കൂടുതൽ ഇരുണ്ട" />
+                          <div class="caption">
+                            <p>സുതാര്യമായ പശ്ചാത്തലമുള്ള യഥാർത്ഥ പാളി.</p>
+                          </div>
+                        </div>
+                        <div class="mediaobject">
+                          <img src="images/filters/examples/vpropag6b.png" alt="കൂടുതൽ ഇരുണ്ട" />
+                          <div class="caption">
+                            <p>ഫിൽറ്റർ നിരവധി തവണ പ്രയോഗിച്ചു: പച്ച കൈനടി, പ്രദേശം വർദ്ധിച്ചു കഴിഞ്ഞുവെന്നതാണ്.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">വ്യാപിപ്പിക്കുന്നതിന്</span>
+            </dt>
+            <dd>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">ലോവർ ദൂരമാണു, </span>
+                    <span class="term">അപ്പർ ദൂരമാണു</span>
+                  </dt>
+                  <dd>
+                    <p>പിക്സൽ അതിന്റെ തമ്മിലുള്ള മൂല്യം വ്യത്യാസം താഴത്തെ തുടക്കവും മുകളിലെ ഉമ്മരപ്പടി കൂടുതലാവരുത് മാത്രമാകുന്നു ചെറുതാണ് ഒരു പിക്സൽ പ്രചരിപ്പിച്ച ചെയ്യും (സ്പ്രെഡ്).</p>
+                  </dd>
+                  <dt>
+                    <span class="term">ജനങ്ങളിലെത്തിക്കുന്നതിൽ നിരക്ക്</span>
+                  </dt>
+                  <dd>
+                    <p>അതാണ് ജനങ്ങളിലെത്തിക്കുന്നതിൽ തുക ആകുന്നു. കൂടുതൽ കൂടുതൽ നിറമുള്ള ഗൈഡൻസ് ആയിരിക്കും ആയിരിക്കും.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">ഇടത്, </span>
+                    <span class="term">മുകളിലേക്ക്, </span>
+                    <span class="term">വലതുവശത്ത്, </span>
+                    <span class="term">അടിയിലേക്ക്</span>
+                  </dt>
+                  <dd>
+                    <p>നിങ്ങൾ ഒന്നോ അതിലധികമോ ദിശകൾ തിരഞ്ഞെടുക്കാം.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">ആൽഫാ ചാനൽ ജനങ്ങളിലെത്തിക്കുന്നതിൽ</span>
+                  </dt>
+                  <dd>
+                    <p>പരിശോധിച്ചാൽ, പിക്സൽ ആൽഫാ മൂല്യം മറ്റുതരത്തിൽ പിക്സൽ അയൽ പിക്സൽ ആൽഫാ ലഭിക്കും പ്രചരിപ്പിച്ചു ചെയ്യും. ഈ ചെക്ക്ബോക്സ് സജീവ പാളി ഒരു ആല്ഫാ ചാനൽ കിട്ടിയാൽ മാത്രമേ കാണാനാകൂ.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">മൂല്യം ചാനൽ ജനങ്ങളിലെത്തിക്കുന്നതിൽ</span>
+                  </dt>
+                  <dd>
+                    <p>പരിശോധിച്ചാൽ, പിക്സൽ കളർ ചാനലുകൾ (grayscaled ചിത്രങ്ങൾ ചാര ചാനൽ) പ്രചരിപ്പിച്ച ചെയ്യും. ഓപ്ഷൻ കോഴ്സ് സ്വതവേ, പരിശോധിയ്ക്കപ്പെടുന്നു. ഈ ചെക്ക്ബോക്സ് വളരെ സജീവമായി പാളി ഒരു ആല്ഫാ ചാനൽ കിട്ടിയാൽ മാത്രമേ കാണാനാകൂ.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-shift.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-distort.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-video.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-shift.html">4.14. മാറ്റം</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-video.html">4.16. വീഡിയോ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1369 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP-Help 2.8.0\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
+"PO-Revision-Date: 2012-06-01 12:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/menus/filters/reshow.xml:9(title)
+#: src/menus/filters/reshow.xml:16(primary)
+#, fuzzy
+msgid "Re-show Last"
+msgstr ""
+"വീണ്ടും കാണിക്കുക അവസാനം"
+
+#: src/menus/filters/reshow.xml:11(primary)
+#: src/menus/filters/reset-all.xml:12(primary)
+#: src/menus/filters/introduction.xml:12(primary)
+#: src/menus/filters/introduction.xml:16(primary)
+#: src/menus/filters/repeat.xml:12(primary)
+msgid "Filters"
+msgstr ""
+"ഫിൽട്ടറുകൾ"
+
+#: src/menus/filters/reshow.xml:12(secondary)
+#: src/menus/filters/reset-all.xml:13(secondary)
+#: src/menus/filters/introduction.xml:17(secondary)
+#: src/menus/filters/repeat.xml:13(secondary)
+#, fuzzy
+msgid "Common functions"
+msgstr ""
+"വർണ്ണ ഫംഗ്ഷൻ"
+
+#: src/menus/filters/reshow.xml:13(tertiary)
+#, fuzzy
+msgid "Re-show last"
+msgstr ""
+"വീണ്ടും കാണിക്കുക അവസാനം"
+
+#: src/menus/filters/reshow.xml:18(para)
+msgid ""
+"The <guimenuitem>Re-show Last</guimenuitem> command shows the dialog of the "
+"most recently executed plug-in. Unlike the <quote>Repeat Last</quote> "
+"command, which does not display a dialog, the <quote>Re-show Last</quote> "
+"command displays a dialog window, if the plug-in has one. It is displayed "
+"with the settings you used the last time you ran the plug-in (assuming that "
+"the plug-in follows the <acronym>GIMP</acronym> programming conventions)."
+msgstr ""
+"<guimenuitem>Re-show Last</guimenuitem> കമാൻഡ് ഏറ്റവും സമീപകാലത്ത് വധിക്കപ്"
+"പെട്ട പ്ലഗ്-ഇൻ ഡയലോഗ് കാണിക്കുന്നു. ഒരു ഡയലോഗ് പ്രദർശിപ്പിക്കാൻ ഇല്ല <quo"
+"te>Repeat Last</quote> കമാൻഡ് വ്യത്യസ്തമായി, <quote>Re-show Last</quote> കമ"
+"ാൻഡ് പ്ലഗ്-ഇൻ ഒറ്റ ഉണ്ട് എങ്കിൽ, ഒരു ഡയലോഗ് വിൻഡോ പ്രദർശിപ്പിക്കുന്നു. ഇത"
+"് നിങ്ങൾ കഴിഞ്ഞ പ്രാവശ്യം പ്ലഗ്-ഇൻ (പ്ലഗ്-ഇൻ <acronym>GIMP</acronym> പ്രോഗ"
+"്രാമിംഗ് കൺവെൻഷനുകളിൽ പിന്തുടരുകയും അൽപംപോലും) ഓടി ഉപയോഗിച്ച ക്രമീകരണങ്ങൾ"
+" ഉപയോഗിച്ച് പ്രദർശിപ്പിക്കും."
+
+#: src/menus/filters/reshow.xml:28(para) src/menus/filters/repeat.xml:27(para)
+msgid ""
+"Please note that this command repeats the most recently executed "
+"<emphasis>plug-in</emphasis>, regardless of whether it is in the "
+"<guimenu>Filters</guimenu> menu or not."
+msgstr ""
+"ഈ കമാൻഡ് ഏറ്റവും സമീപകാലത്ത് പരിഗണിക്കാതെ അത് <guimenu>Filters</guimenu> മെ"
+"നു അല്ലെങ്കിൽ എന്നത് <emphasis>plug-in</emphasis> എക്സിക്യൂട്ട് ആവർത്തിക്കു"
+"ന്നു ദയവായി ശ്രദ്ധിക്കുക."
+
+#: src/menus/filters/reshow.xml:36(para)
+msgid ""
+"When you are using a plug-in, especially one that does not have a preview "
+"window, you may very well have to adjust the parameters several times before "
+"you are satisfied with the results. To do this most efficiently, you should "
+"memorize the shortcuts for <guimenuitem>Undo</guimenuitem> and "
+"<guimenuitem>Re-show Last</guimenuitem>: <keycombo><keycap>Ctrl</"
+"keycap><keycap>Z</keycap></keycombo> followed by <keycombo><keycap>Ctrl</"
+"keycap><keycap>Shift</keycap><keycap>F</keycap></keycombo>."
+msgstr ""
+"ഒരു പ്ലഗ്-ൽ, ഒരു പ്രിവ്യൂ വിൻഡോ ഇല്ലാത്ത വിശേഷിച്ചും ഉപയോഗിക്കുമ്പോൾ, നി"
+"ങ്ങൾ ചെയ്യാം വളരെ നന്നായി നിങ്ങൾ ഫലങ്ങളിൽ സംതൃപ്തരാണെന്ന് മുമ്പ് പരാമീറ്ററു"
+"കൾ നിരവധി തവണ ക്രമീകരിക്കാൻ ഞങ്ങൾക്കുണ്ട്. ഏറ്റവും ഫലപ്രദമായി ഇത് ചെയ്യുന്ന"
+"തിന്, നിങ്ങൾ <guimenuitem>Undo</guimenuitem> ആൻഡ് <guimenuitem>Re-show Last"
+"</guimenuitem> വേണ്ടി കുറുക്കുവഴികൾ മനഃപാഠമാക്കി വേണം: <keycombo><keycap>Ct"
+"rl</keycap><keycap>Z</keycap></keycombo> <keycombo><keycap>Ctrl</keycap><ke"
+"ycap>Shift</keycap><keycap>F</keycap></keycombo> തൊട്ടുപിന്നിൽ."
+
+#: src/menus/filters/reshow.xml:54(title)
+#: src/menus/filters/reset-all.xml:34(title)
+#: src/menus/filters/repeat.xml:35(title)
+msgid "Activating the Command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/filters/reshow.xml:57(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Filters</guimenu><guimenuitem> Re-show "
+"<replaceable>filter</replaceable></guimenuitem></menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/filters/reshow.xml:68(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>Shift</keycap><keycap>F</keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>Shif"
+"t</keycap><keycap>F</keycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/filters/reset-all.xml:9(title)
+#, fuzzy
+msgid "Reset All Filters"
+msgstr ""
+"എല്ലാ നികുതികളും ബാധകമായ മറ്റു ഫീസും"
+
+#: src/menus/filters/reset-all.xml:14(tertiary)
+#, fuzzy
+msgid "Reset all"
+msgstr ""
+"എല്ലാം തിരഞ്ഞെടുക്കുക"
+
+#: src/menus/filters/reset-all.xml:17(primary)
+#, fuzzy
+msgid "Reset All"
+msgstr ""
+"എല്ലാം തിരഞ്ഞെടുക്കുക"
+
+#: src/menus/filters/reset-all.xml:20(para)
+msgid ""
+"Normally, each time you run an interactive plug-in, its dialog is displayed "
+"with all of the settings initialized to the ones you used the last time you "
+"ran it. This may be a problem if you made a mistake setting the values and "
+"you can't remember what they were originally. One way to recover is to exit "
+"<acronym>GIMP</acronym> and start again, but the <guimenuitem>Reset all "
+"Filters</guimenuitem> command is a slightly less drastic solution: it resets "
+"the values for <emphasis>all</emphasis> plug-ins to their defaults. Because "
+"it is a dramatic step, it asks you to confirm that you really want to do it. "
+"Be careful: you cannot undo this command."
+msgstr ""
+"സാധാരണ, ഒരു ഇന്ററാക്ടീവ് പ്ലഗ്-ഇൻ പ്രവർത്തിപ്പിക്കുന്നതിന് ഓരോ പ്രാവശ്യവും"
+" അതിന്റെ ഡയലോഗ് നിങ്ങൾ കഴിഞ്ഞ പ്രാവശ്യം അത് ഓടി ഉപയോഗിച്ച പദങ്ങളുമായി സമാ"
+"രംഭിച്ചിട്ടില്ല ക്രമീകരണങ്ങളും ഉപയോഗിച്ച് പ്രദർശിപ്പിക്കും. നിങ്ങൾ മൂല്യങ്"
+"ങൾ ക്രമീകരിക്കുന്നതിൽ തെറ്റു പറ്റിയെന്നും അവർ യഥാർത്ഥത്തിൽ ഇന്നതു ഓർക്കുക ക"
+"ഴിയില്ല എങ്കിൽ ഇത് പ്രശ്നമാകാം. വീണ്ടെടുക്കാൻ ഒരു വഴി <acronym>GIMP</acrony"
+"m> പുറത്തുകടന്ന് വീണ്ടും ആരംഭിക്കാൻ, എന്നാൽ <guimenuitem>Reset all Filters<"
+"/guimenuitem> കമാൻഡ് ഒരു ചെറുതായി കുറവ് നാടകീയ പരിഹാരം: അത് അവരുടെ സ്ഥിര <e"
+"mphasis>all</emphasis> പ്ലഗ്-ഇന്നുകളെ മൂല്യങ്ങൾ പുനഃസജ്ജമാക്കുന്നു. അതു നാട"
+"കീയമായ പടി ആയതിനാൽ, നിങ്ങൾക്ക് ശരിക്കും അത് ചെയ്യാൻ സ്ഥിരീകരിക്കുന്നതിനുള്ള"
+" ആവശ്യപ്പെടുന്നു. ശ്രദ്ധിക്കുക: നിങ്ങൾ ഈ കമാൻഡ് പഴയപടിയാക്കാനാകില്ല."
+
+#: src/menus/filters/reset-all.xml:37(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Filters</guimenu><guimenuitem>Reset all Filters</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Recently Closed Docks</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് "
+"ചെയ്യാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/filters/introduction.xml:25(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/filters.png'; md5=9b59e86767a7d997d4ec434d423946f2"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#: src/menus/filters/introduction.xml:9(title)
+#, fuzzy
+msgid "Introduction to the <quote>Filters</quote> Menu"
+msgstr ""
+"<quote>Tools</quote> മെനു ആമുഖം"
+
+#: src/menus/filters/introduction.xml:13(secondary)
+msgid "Menu"
+msgstr ""
+"മെനു"
+
+#: src/menus/filters/introduction.xml:18(tertiary)
+#, fuzzy
+msgid "Introduction to filters"
+msgstr ""
+"സിനിമചെയ്യേണ്ട ആമുഖം"
+
+#: src/menus/filters/introduction.xml:22(title)
+#, fuzzy
+msgid "The <quote>Filters</quote> menu"
+msgstr ""
+"<quote>Filters</quote> മെനു"
+
+#: src/menus/filters/introduction.xml:29(para)
+msgid ""
+"In <acronym>GIMP</acronym> terminology, a <emphasis>filter</emphasis> is a "
+"plug-in that modifies the appearance of an image, in most cases just the "
+"active layer of the image. Not all of the entries in this menu meet that "
+"definition, however; the word <quote>filter</quote> is often mis-used to "
+"mean any plug-in, regardless of what it does. Indeed, some of the entries in "
+"this menu do not modify images at all."
+msgstr ""
+"<acronym>GIMP</acronym> ടെർമിനോളജിയിൽ, ഒരു <emphasis>filter</emphasis> പ്ല"
+"ഗ്-കൂടുതൽ കേസുകളിലും ചിത്രത്തിന്റെ വെറും സജീവ പാളി, ഇമേജ് രൂപം മാറ്റം ആണ്. "
+"ഇതെല്ലാമായിട്ടും മെനുവിൽ എൻട്രികൾ, ആ നിർവചനം സംഗമം; എന്നിരുന്നാലും വചനം <qu"
+"ote>filter</quote> പലപ്പോഴും തെറ്റായി ഉപയോഗിക്കുന്ന പരിഗണിക്കാതെ എന്തു സം"
+"ബന്ധിച്ച് ഏതെങ്കിലും പ്ലഗ്-ഇൻ അർത്ഥമാക്കുന്നത് എന്നതാണ്. തീർച്ചയായും ഈ മെനു"
+"വിൽ എൻട്രികൾ ചില എല്ലാം ചിത്രങ്ങൾ പരിഷ്ക്കരിക്കാനുള്ളതല്ല."
+
+#: src/menus/filters/introduction.xml:38(para)
+msgid ""
+"With the exception of the top three items of the <guimenu>Filters</guimenu> "
+"menu, all of the entries are provided by plug-ins. Each plug-in decides for "
+"itself where it would like its menu entry to be placed. Therefore, the "
+"appearance of this menu can be completely different for each user. In "
+"practice, though, the appearance does not vary very much, because most plug-"
+"ins come with <acronym>GIMP</acronym> when it is installed, and of course "
+"they are always in the same places in the menu."
+msgstr ""
+"<guimenu>Filters</guimenu> മെനു മുകളിൽ മൂന്ന് ഇനങ്ങൾ ഒഴിച്ച്, എൻട്രികൾ എല്ല"
+"ാ പ്ലഗ്-ഇന്നുകളെ നൽകിയിരിക്കുന്നത്. അതിന്റെ മെനു എൻട്രി സ്ഥാപിച്ചതായി ആഗ്രഹ"
+"ിക്കുന്ന ഓരോ പ്ലഗ്-ഇൻ സ്വയം തീരുമാനിക്കുന്നു. അതുകൊണ്ട് ഈ മെനു രൂപം ഓരോ "
+"ഉപയോക്താവിനും പൂർണ്ണമായും വ്യത്യസ്തമായ കഴിയും. പ്രായോഗികമായി എങ്കിലും, ഭാ"
+"വം വളരെ അതു ഇൻസ്റ്റാൾ ഏറ്റവും plug- ഇന്നുകൾ <acronym>GIMP</acronym> വരും, പ"
+"്രതിഭയെ അവർ മെനുവിൽ ഒരേ സ്ഥലങ്ങളിൽ എപ്പോഴും കാരണം വ്യത്യാസപ്പെടാം ഇല്ല."
+
+#: src/menus/filters/introduction.xml:48(para)
+msgid ""
+"Plug-ins are not restricted to just the <guimenu>Filters</guimenu> menu: a "
+"plug-in can place entries in any menu. Indeed, a number of <acronym>GIMP</"
+"acronym>'s basic functions (for example, <guimenuitem>Semi-flatten</"
+"guimenuitem> in the <guimenu>Layer</guimenu> menu) are implemented by plug-"
+"ins. But the <guimenu>Filters</guimenu> menu is the default place for a plug-"
+"in to place its menu entries."
+msgstr ""
+"പ്ലഗ്-ഇനുകൾ വെറും <guimenu>Filters</guimenu> മെനുവിൽ നിയന്ത്രിച്ചിരിക്കുന്ന"
+"ു അല്ല: പ്ലഗ്-ഇൻ മെനു എൻട്രികൾ സ്ഥാപിക്കാൻ കഴിയും. തീർച്ചയായും <acronym>GIM"
+"P</acronym> ന്റെ അടിസ്ഥാന പ്രവർത്തനങ്ങൾ (ഉദാഹരണത്തിന്, <guimenu>Layer</guim"
+"enu> മെനുവിൽ <guimenuitem>Semi-flatten</guimenuitem>) ഒരു എണ്ണം plug- ഇന്നു"
+"കളെ നടപ്പാക്കുന്നത് ചെയ്യുന്നു. എന്നാൽ <guimenu>Filters</guimenu> മെനു അതിന"
+"്റെ മെനു എൻട്രികൾ സ്ഥാപിക്കുക ഒരു plug- സ്വതവേയുള്ള സ്ഥലമാണ്."
+
+#: src/menus/filters/introduction.xml:57(para)
+msgid ""
+"For general information on plug-ins and how to use them, see the section on "
+"<link linkend=\"gimp-concepts-plugins\">Plug-ins</link>. You can find "
+"information on the filters that are provided with <acronym>GIMP</acronym> in "
+"the <link linkend=\"filters\">Filters</link> chapter. For filters you "
+"install yourself, please refer to the information which came with them."
+msgstr ""
+"പ്ലഗ്-ഇൻ 'പൊതു വിവരങ്ങൾ എങ്ങനെ ഉപയോഗിക്കുവാനും, <link linkend=\"gimp-conc"
+"epts-plugins\">Plug-ins</link> ന് വിഭാഗം കാണുക. നിങ്ങൾ <link linkend=\"filt"
+"ers\">Filters</link> അധ്യായത്തിൽ <acronym>GIMP</acronym> കൂടെ ലഭ്യമാക്കുന്ന"
+" ഫിൽട്ടറുകൾ വിവരങ്ങൾ കണ്ടെത്താനാവും. നിങ്ങൾ സ്വയം ഇൻസ്റ്റാൾ ഫിൽട്ടറുകൾ അവരേ"
+"ാടു കൂടെ വന്ന വിവരങ്ങൾ കാണുക."
+
+#: src/menus/filters/repeat.xml:9(title)
+#: src/menus/filters/repeat.xml:14(tertiary)
+#: src/menus/filters/repeat.xml:17(primary)
+msgid "Repeat Last"
+msgstr ""
+"അവസാനം ആവർത്തിക്കുക"
+
+#: src/menus/filters/repeat.xml:20(para)
+msgid ""
+"The <guimenuitem>Repeat Last</guimenuitem> command performs the action of "
+"the most recently executed plug-in again, using the same settings as the "
+"last time it was run. It does not show a dialog or request confirmation."
+msgstr ""
+"<guimenuitem>Repeat Last</guimenuitem> കമാൻഡ് കഴിഞ്ഞ തവണ ഇത് പ്രവർത്തിപ്പിക"
+"്കാൻ ചെയ്തു അതേ ക്രമീകരണം ഉപയോഗിച്ച് വീണ്ടും ഏറ്റവും സമീപകാലത്ത് വധിക്കപ്പ"
+"െട്ട പ്ലഗ്-ഇൻ നടപടി നടത്തുന്നു. ഒരു ഡയലോഗ് അല്ലെങ്കിൽ അഭ്യർത്ഥന സ്ഥിരീകരണം"
+" കാണിക്കില്ല."
+
+#: src/menus/filters/repeat.xml:38(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Filters</guimenu><guimenuitem>Repeat "
+"<replaceable>filter</replaceable></guimenuitem></menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/filters/repeat.xml:48(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>F</"
+"keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>F</k"
+"eycap></keycombo> ഉപയോഗിച്ച്."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/filters/script-fu.xml:21(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/filters/script-fu.png'; "
+"md5=2fcbdba7a64c19fbc19e1724ddfe3981"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/filters/script-fu.xml:83(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/filters/script-fu-console.png'; "
+"md5=9f8352618aed288a82e0b2a2ce7939b0"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/filters/script-fu.xml:108(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/filters/procedure-browser-apply-button.png'; "
+"md5=fb5e8a7b7280bdda3407e15921e8e24e"
+msgstr ""
+"@@image: 'images/menus/tab-menu-button.png'; "
+"md5=a667dbce5e1dabe9abee73ea41859d31"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/filters/script-fu.xml:124(None)
+msgid ""
+"@@image: 'images/menus/filters/script-fu-console-browse-applied.png'; "
+"md5=e0dd76f5e1783877a56fa29da44f88ce"
+msgstr ""
+"@@image: 'images/menus/filters/script-fu-console-browse-applied.png'; "
+"md5=e0dd76f5e1783877a56fa29da44f88ce"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/filters/script-fu.xml:184(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/filters/script-fu-server.png'; "
+"md5=2525917c820de7faa839f99b4d560514"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#: src/menus/filters/script-fu.xml:10(title)
+#, fuzzy
+msgid "The <quote>Script-Fu</quote> Submenu"
+msgstr ""
+"<quote>Select</quote> മെനു"
+
+#: src/menus/filters/script-fu.xml:13(primary)
+#, fuzzy
+msgid "Script-Fu"
+msgstr ""
+"_Script-ഫു"
+
+#: src/menus/filters/script-fu.xml:14(secondary)
+#: src/menus/filters/python-fu.xml:12(secondary)
+msgid "Sub-menu"
+msgstr ""
+"ഉപ-മെനു"
+
+#: src/menus/filters/script-fu.xml:17(title)
+#, fuzzy
+msgid "The <quote>Script-Fu</quote> submenu"
+msgstr ""
+"<quote>Select</quote> മെനു"
+
+#: src/menus/filters/script-fu.xml:25(para)
+msgid ""
+"This submenu contains some Script-Fu commands, especially the Script-Fu "
+"console. <link linkend=\"gimp-concepts-script-fu\">Script-Fu</link> is a "
+"language for writing scripts, which allow you to run a series of "
+"<acronym>GIMP</acronym> commands automatically."
+msgstr ""
+"ഈ ഉപമെനുവുണ്ട് ചില സ്ക്രിപ്റ്റ്-ഫു കല്പിക്കുന്നു പ്രത്യേകിച്ച് സ്ക്രിപ്റ്റ്"
+"-ഫു കൺസോൾ അടങ്ങിയിരിക്കുന്നു. <link linkend=\"gimp-concepts-script-fu\">Sc"
+"ript-Fu</link> നിങ്ങൾ <acronym>GIMP</acronym> ഒരു പരമ്പര സ്വയം കല്പിക്കുന്ന"
+"ു പ്രവർത്തിപ്പിക്കാൻ അനുവദിക്കുന്ന സ്ക്രിപ്റ്റുകൾ, എഴുതാനുള്ള ഒരു ഭാഷയാണ്."
+
+#: src/menus/filters/script-fu.xml:37(title)
+#: src/menus/filters/python-fu.xml:35(title)
+#, fuzzy
+msgid "Activating the submenu"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/filters/script-fu.xml:40(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menu through "
+"<menuchoice><guimenu>Filters</guimenu><guimenuitem>Script-Fu</guimenuitem></"
+"menuchoice>"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/filters/script-fu.xml:52(title)
+#, fuzzy
+msgid "Refresh Scripts"
+msgstr ""
+"_Refresh സ്ക്രിപ്റ്റുകൾ"
+
+#: src/menus/filters/script-fu.xml:53(para)
+msgid ""
+"You will need this command every time you add, remove, or change a Script-Fu "
+"script. The command causes the Script-Fus to be reloaded and the menus "
+"containing Script-Fus to be rebuilt from scratch. If you don't use this "
+"command, <acronym>GIMP</acronym> won't notice your changes until you start "
+"it again."
+msgstr ""
+"നിങ്ങൾ ഈ കമാൻഡ് ചേർക്കാൻ ഓരോ തവണ വേണമെങ്കിൽ നീക്കം ചെയ്യുക അല്ലെങ്കിൽ ഒരു "
+"സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ് മാറ്റും. കമാൻഡ് റീലോഡ് സ്ക്രിപ്റ്റ്-Fus അടങ്ങ"
+"ിയിരിക്കുന്ന മെനുകൾ ആദ്യം മുതൽ പണിയും തിരക്കഥാരചന Fus കാരണമാകുന്നു. നിങ്ങൾ "
+"വീണ്ടും തുടങ്ങുംവരെ ഈ കമാൻഡ് ഉപയോഗിക്കുന്നില്ലെങ്കിൽ, <acronym>GIMP</acron"
+"ym> നിങ്ങളുടെ മാറ്റങ്ങൾ ശ്രദ്ധിക്കപ്പെടാതെ ചെയ്യും."
+
+#: src/menus/filters/script-fu.xml:60(para)
+msgid ""
+"Note that you won't get any feedback, unless saving, if one of your scripts "
+"fails."
+msgstr ""
+"നിങ്ങൾക്ക് എന്തെങ്കിലും ഫീഡ്ബാക്ക് ലഭിക്കില്ല എന്ന് നിങ്ങളുടെ സ്ക്രിപ്റ്റുക"
+"ൾ ഒന്ന് പരാജയപ്പെടുകയാണെങ്കിൽ, സംരക്ഷിക്കാതെ അല്ലാതെ, ശ്രദ്ധിക്കുക."
+
+#: src/menus/filters/script-fu.xml:67(title)
+msgid "Script-Fu Console"
+msgstr ""
+"സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ"
+
+#: src/menus/filters/script-fu.xml:68(para)
+msgid ""
+"The Script-Fu console is a dialog window where you can interactively test "
+"Scheme commands."
+msgstr ""
+"സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ പരസ്പരം പദ്ധതി കമാൻഡുകൾ പരീക്ഷിക്കാൻ കഴിയുന്ന ഒരു ഡയ"
+"ലോഗ് വിൻഡോ ആണ്."
+
+#: src/menus/filters/script-fu.xml:72(para)
+msgid ""
+"The console consists of a large scrollable main window for output and a "
+"textbox used to type Scheme commands. When you type a Scheme statement and "
+"then press the <keycap>Enter</keycap> key, the command and its return value "
+"will be displayed in the main window."
+msgstr ""
+"കൺസോൾ ഔട്ട്പുട്ട് പദ്ധതി കമാൻഡുകൾ ടൈപ്പ് ഉപയോഗിക്കുന്ന ഒരു ടെക്സ്റ്റ്ബോക"
+"്സ് ഒരു വലിയ സ്ക്രോൾ പ്രധാന ജാലകം ഉൾക്കൊള്ളുന്നു. നിങ്ങൾ ഒരു പദ്ധതി പ്രസ്"
+"താവന ടൈപ്പുചെയ്യുക തുടർന്ന് <keycap>Enter</keycap> കീ അമർത്തുമ്പോൾ, കമാൻഡ്"
+" അതിന്റെ മടക്കം മൂല്യം പ്രധാന വിൻഡോയിൽ ദൃശ്യമാകും."
+
+#: src/menus/filters/script-fu.xml:79(title)
+#, fuzzy
+msgid "The Script-Fu Console"
+msgstr ""
+"സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ"
+
+#: src/menus/filters/script-fu.xml:87(para)
+msgid ""
+"You will find more information about <link linkend=\"gimp-using-script-fu-"
+"tutorial-scheme\">Scheme</link> and examples how to use the <link linkend="
+"\"gimp-using-script-fu-tutorial-console\">Script-Fu console</link> in <xref "
+"linkend=\"gimp-using-script-fu-tutorial\"/>."
+msgstr ""
+"നിങ്ങൾ <link linkend=\"gimp-using-script-fu- tutorial-scheme\">Scheme</link"
+"> ഉദാഹരണങ്ങൾ എത്ര <xref linkend=\"gimp-using-script-fu-tutorial\" /> ലെ <li"
+"nk linkend=\"gimp-using-script-fu-tutorial-console\">Script-Fu console</lin"
+"k> ഉപയോഗിക്കാൻ കുറിച്ച് കൂടുതൽ വിവരങ്ങൾ കണ്ടെത്തും."
+
+#: src/menus/filters/script-fu.xml:95(title)
+#, fuzzy
+msgid "The Script-Fu Console Buttons"
+msgstr ""
+"സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ ഫലംസൂക്ഷിയ്ക്കുക"
+
+#: src/menus/filters/script-fu.xml:97(term)
+#: src/menus/filters/python-fu.xml:100(term)
+#, fuzzy
+msgid "Browse"
+msgstr ""
+"ബ്രൌസ് ..."
+
+#: src/menus/filters/script-fu.xml:99(para)
+msgid ""
+"This button is next to the Scheme commands textbox. When clicked, the <link "
+"linkend=\"plug-in-dbbrowser\">procedure browser</link> pops up, with an "
+"additional button at the bottom of the window:"
+msgstr ""
+"ഈ ബട്ടൺ പദ്ധതി ടെക്സ്റ്റ്ബോക്സ് കല്പിക്കുന്നു അടുത്താണ്. ക്ലിക്കുചെയ്യുമ്പ"
+"ോൾ, <link linkend=\"plug-in-dbbrowser\">procedure browser</link> വിൻഡോയുട"
+"െ താഴെയുള്ള അധിക ബട്ടൺ ഉപയോഗിച്ച്, മാറികിട്ടി:"
+
+#: src/menus/filters/script-fu.xml:111(para)
+#, fuzzy
+msgid "The additional button of the Procedure Browser"
+msgstr ""
+"പൈത്തൺ നടപടിക്രമം ബ്രൌസർ"
+
+#: src/menus/filters/script-fu.xml:116(para)
+msgid ""
+"When you press this <guibutton>Apply</guibutton> button in the procedure "
+"browser, the selected procedure will be pasted into the text box:"
+msgstr ""
+"നടപടി ബ്രൗസറിൽ ഈ <guibutton>Apply</guibutton> ബട്ടൺ അമർത്തുമ്പോൾ, തിരഞ്ഞെട"
+"ുത്ത നടപടിക്രമം ടെക്സ്റ്റ് ബോക്സിൽ ഒട്ടിക്കുകയുള്ളൂ:"
+
+#: src/menus/filters/script-fu.xml:127(para)
+msgid ""
+"Applied <link linkend=\"glossary-pdb\"><acronym>PDB</acronym></link> "
+"procedure"
+msgstr ""
+"അപ്ലൈഡ് <link linkend=\"glossary-pdb\"><acronym>PDB</acronym></link> നടപടിക"
+"്രമം"
+
+#: src/menus/filters/script-fu.xml:134(para)
+msgid ""
+"Now you just have to replace the parameter names (here: <quote>layer</quote> "
+"and <quote>mode</quote>) with actual values, and then you can call the "
+"procedure by pressing <keycap>Enter</keycap>."
+msgstr ""
+"ഇപ്പോൾ നിങ്ങൾക്ക് വെറും (ഇവിടെ: <quote>layer</quote> ആൻഡ് <quote>mode</quo"
+"te>) പാരാമീറ്റർ പേരുകൾ മാറ്റിസ്ഥാപിക്കാൻ ഞങ്ങൾക്കുണ്ട് യഥാർത്ഥ മൂല്യങ്ങൾ കൂ"
+"ടെ, തുടർന്ന് <keycap>Enter</keycap> അമർത്തി നടപടിക്രമം വിളിക്കാം."
+
+#: src/menus/filters/script-fu.xml:143(term)
+#: src/menus/filters/python-fu.xml:178(term)
+#, fuzzy
+msgid "Close"
+msgstr ""
+"അടച്ച"
+
+#: src/menus/filters/script-fu.xml:145(para)
+msgid "Pressing this button closes the Script-Fu console."
+msgstr ""
+"ഈ ബട്ടൺ അമർത്തിയാൽ സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ അടയ്ക്കുന്നു."
+
+#: src/menus/filters/script-fu.xml:151(term)
+#: src/menus/filters/python-fu.xml:90(term)
+msgid "Clear"
+msgstr ""
+"തെളിഞ്ഞ"
+
+#: src/menus/filters/script-fu.xml:153(para)
+#: src/menus/filters/python-fu.xml:92(para)
+msgid ""
+"Wenn you click on this button, the content of the main window will be "
+"removed. Note that you can't get back the removed content using the "
+"<guilabel>Save</guilabel> command."
+msgstr ""
+"Wenn ഈ ബട്ടൺ ക്ലിക്ക് പ്രധാന വിൻഡോയുടെ ഉള്ളടക്കം നീക്കംചെയ്യും. നിങ്ങൾ <gu"
+"ilabel>Save</guilabel> കമാൻഡ് ഉപയോഗിച്ച് നീക്കംചെയ്ത ഉള്ളടക്കങ്ങൾ തിരികെ ല"
+"ഭിക്കില്ല എന്ന് ശ്രദ്ധിക്കുക."
+
+#: src/menus/filters/script-fu.xml:161(term)
+#: src/menus/filters/python-fu.xml:80(term)
+msgid "Save"
+msgstr ""
+"രക്ഷിക്കും"
+
+#: src/menus/filters/script-fu.xml:163(para)
+msgid ""
+"This command lets you save the content of the main window, that is the "
+"Script-Fu console output (including the <quote><code>&gt;</code></quote>-"
+"characters)."
+msgstr ""
+"ഈ കമാൻഡ് പ്രധാന ജാലകത്തിന്റെ ഉള്ളടക്കം സംരക്ഷിക്കാൻ ആ സ്ക്രിപ്റ്റ്-ഫു കൺസോ"
+"ൾ ഔട്ട്പുട്ട് (- പ്രതീകങ്ങൾ <quote><code>&gt;</code></quote> ഉൾപ്പെടെ) ആണ് "
+"അനുവദിക്കുന്നു."
+
+#: src/menus/filters/script-fu.xml:174(title)
+#, fuzzy
+msgid "Start Server"
+msgstr ""
+"_Start സെർവർ"
+
+#: src/menus/filters/script-fu.xml:175(para)
+msgid ""
+"This command will start a server, which reads and executes Script-Fu "
+"(Scheme) statements you send him via a specified port."
+msgstr ""
+"ഈ കമാൻഡ് വായിച്ചു ഒരു പ്രത്യക പോർട്ട് വഴി അവനെ അയക്കും സ്ക്രിപ്റ്റ്-ഫു (സ്"
+"കീം) പ്രസ്താവനകൾ നടപ്പിലാക്കുന്നു സെർവറിൽ, ആരംഭിക്കും."
+
+#: src/menus/filters/script-fu.xml:180(title)
+#, fuzzy
+msgid "The Script-Fu Server Options"
+msgstr ""
+"സ്ക്രിപ്റ്റ്-ഫു സെർവർ ഓപ്ഷനുകൾ"
+
+#: src/menus/filters/script-fu.xml:190(term)
+#, fuzzy
+msgid "Server Port"
+msgstr ""
+"സെര്വര് പോര്ട്ട്:"
+
+#: src/menus/filters/script-fu.xml:192(para)
+msgid ""
+"The port number where the Script-Fu server will listen. It is possible to "
+"start more than one server, specifying different port numbers, of course."
+msgstr ""
+"സ്ക്രിപ്റ്റ്-ഫു സെർവർ ശ്രദ്ധിക്കും എവിടെ പോർട്ട് നമ്പർ. വ്യത്യസ്ത പോർട്ട്"
+" നമ്പറുകൾ, തീർച്ചയായും വ്യക്തമാക്കിക്കൊണ്ട്, ഒന്നിലധികം സെർവർ ആരംഭിക്കാൻ സ"
+"ാധ്യമാണ്."
+
+#: src/menus/filters/script-fu.xml:200(term)
+#, fuzzy
+msgid "Server Logfile"
+msgstr ""
+"സെർവർ ലോഗ്ഫൈലിലേക്ക്:"
+
+#: src/menus/filters/script-fu.xml:202(para)
+msgid ""
+"Optionally you can specify the name of a file the server will use to log "
+"informal and error messages. If no file is specified, messages will be "
+"written to stdout."
+msgstr ""
+"ഓപ്ഷണൽ ഒരു ഫയൽ സെർവർ അനൌപചാരികശൈലിയും പിശക് സന്ദേശങ്ങൾ ലോഗിൻ ചെയ്യാൻ ഉപയേ"
+"ാഗിക്കുന്ന പേര് വ്യക്തമാക്കാൻ കഴിയും. യാതൊരു ഫയൽ വ്യക്തമാക്കിയിട്ടുണ്ടെങ്ക"
+"ിൽ, സന്ദേശങ്ങൾ STDOUT എന്നതിലേക്ക് എഴുതുന്നു."
+
+#: src/menus/filters/script-fu.xml:211(title)
+#, fuzzy
+msgid "The Script-Fu Server Protocol"
+msgstr ""
+"സ്ക്രിപ്റ്റ്-ഫു സെർവർ ഓപ്ഷനുകൾ"
+
+#: src/menus/filters/script-fu.xml:212(para)
+msgid ""
+"The protocol used to communicate with the Script-Fu server is very simple:"
+msgstr ""
+"സ്ക്രിപ്റ്റ്-ഫു സെർവറുമായി ആശയവിനിമയം ഉപയോഗിച്ച് പ്രോട്ടോക്കോൾ വളരെ എളു"
+"പ്പമാണ്:"
+
+#: src/menus/filters/script-fu.xml:217(para)
+msgid ""
+"Every message (Script-Fu statement) of length <code>L</code> sent to the "
+"server has to be preceded with the following 3 bytes:"
+msgstr ""
+"സെർവറിലേക്ക് അയച്ചു നീളം <code>L</code> ഓരോ സന്ദേശം (സ്ക്രിപ്റ്റ്-ഫു പ്രസ്"
+"താവന) താഴെ 3 ബൈറ്റുകൾ ഉപയോഗിച്ച് പിൻതുടരുന്നതായിരിക്കണം ഉണ്ട്:"
+
+#: src/menus/filters/script-fu.xml:222(title)
+msgid "Header format for commands"
+msgstr ""
+"കമാൻഡുകൾ തലക്കെട്ടിന് ഫോർമാറ്റ്"
+
+#: src/menus/filters/script-fu.xml:226(entry)
+#: src/menus/filters/script-fu.xml:261(entry)
+#, fuzzy
+msgid "Byte #"
+msgstr ""
+"% D ബൈറ്റ്"
+
+#: src/menus/filters/script-fu.xml:227(entry)
+#: src/menus/filters/script-fu.xml:262(entry)
+#, fuzzy
+msgid "Content"
+msgstr "_Contents"
+
+#: src/menus/filters/script-fu.xml:228(entry)
+#: src/menus/filters/script-fu.xml:263(entry)
+msgid "Description"
+msgstr ""
+"വിവരണം"
+
+#: src/menus/filters/script-fu.xml:233(entry)
+#: src/menus/filters/script-fu.xml:268(entry)
+msgid "0"
+msgstr "0"
+
+#: src/menus/filters/script-fu.xml:234(entry)
+#: src/menus/filters/script-fu.xml:269(entry)
+msgid "0x47"
+msgstr "0x47"
+
+#: src/menus/filters/script-fu.xml:235(entry)
+#: src/menus/filters/script-fu.xml:270(entry)
+msgid "Magic byte ('G')"
+msgstr ""
+"മാജിക് ബൈറ്റ് ( 'ജി')"
+
+#: src/menus/filters/script-fu.xml:238(entry)
+#: src/menus/filters/script-fu.xml:273(entry)
+#, fuzzy
+msgid "1"
+msgstr "1 "
+
+#: src/menus/filters/script-fu.xml:239(entry)
+#: src/menus/filters/script-fu.xml:279(entry)
+msgid "L div 256"
+msgstr ""
+"എൽ DIV 256"
+
+#: src/menus/filters/script-fu.xml:240(entry)
+#: src/menus/filters/script-fu.xml:280(entry)
+msgid "High byte of <code>L</code>"
+msgstr ""
+"<code>L</code> ഹൈ ബൈറ്റ്"
+
+#: src/menus/filters/script-fu.xml:243(entry)
+#: src/menus/filters/script-fu.xml:278(entry)
+#, fuzzy
+msgid "2"
+msgstr "2 "
+
+#: src/menus/filters/script-fu.xml:244(entry)
+#: src/menus/filters/script-fu.xml:284(entry)
+msgid "L mod 256"
+msgstr ""
+"എൽ സിനിമ 256"
+
+#: src/menus/filters/script-fu.xml:245(entry)
+#: src/menus/filters/script-fu.xml:285(entry)
+msgid "Low byte of <code>L</code>"
+msgstr ""
+"<code>L</code> കുറഞ്ഞ ബൈറ്റ്"
+
+#: src/menus/filters/script-fu.xml:252(para)
+msgid ""
+"Every response from the server (return value or error message) of length "
+"<code>L</code> will be preceded with the following 4 bytes:"
+msgstr ""
+"നീളം <code>L</code> എന്ന സെർവർ (മടക്കം മൂല്യം അല്ലെങ്കിൽ പിശക് സന്ദേശം) മുത"
+"ൽ ഓരോ പ്രതികരണവും താഴെ 4 ബൈറ്റുകൾ കൂടെ പിൻതുടരുന്നതായിരിക്കണം ചെയ്യും:"
+
+#: src/menus/filters/script-fu.xml:257(title)
+msgid "Header format for responses"
+msgstr ""
+"പ്രതികരണങ്ങൾക്കായി ഹെഡ്ഡർ ഫോർമാറ്റ്"
+
+#: src/menus/filters/script-fu.xml:274(entry)
+#, fuzzy
+msgid "error code"
+msgstr ""
+"പിശക് കൺസോൾ മായ്ക്കുക"
+
+#: src/menus/filters/script-fu.xml:275(entry)
+msgid "0 on success, 1 on error"
+msgstr ""
+"വിജയത്തെ 0, 1 പിശക് ന്"
+
+#: src/menus/filters/script-fu.xml:283(entry)
+msgid "3"
+msgstr "3"
+
+#: src/menus/filters/script-fu.xml:293(para)
+msgid ""
+"If you don't want to get your hands dirty: there is a Python script named "
+"<application>servertest.py</application> shipped with the <acronym>GIMP</"
+"acronym> source code, which you can use as a simple command line shell for "
+"the Script-Fu server."
+msgstr ""
+"നിങ്ങളുടെ കൈകൾ വൃത്തികെട്ട നേടുകയും വേണ്ടെങ്കിൽ: <application>servertest.py"
+"</application> പേരുള്ള ഒരു പൈത്തൺ സ്ക്രിപ്റ്റ് നിങ്ങൾക്ക് സ്ക്രിപ്റ്റ്-ഫു സ"
+"െർവർ ഒരു ലളിതമായ കമാൻഡ് ലൈൻ ഷെൽ ആയി ഉപയോഗിക്കാനും കഴിയുന്ന <acronym>GIMP</"
+"acronym> സോഴ്സ് കോഡ്, അവിടെ ഷിപ്പുചെയ്തു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/filters/python-fu.xml:19(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/filters/python-fu.png'; "
+"md5=c3f0e7b456ba7b0bae30a3224c58f705"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/filters/python-fu.xml:73(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/filters/python-fu-console.png'; "
+"md5=e59f89337125cdb5441d43745de92fd4"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/filters/python-fu.xml:135(None)
+msgid ""
+"@@image: 'images/menus/filters/python-fu-console-browse-applied.png'; "
+"md5=1d1e54dfee0d1a971c7e33e4b42f244b"
+msgstr ""
+"@@image: 'images/menus/filters/python-fu-console-browse-applied.png'; "
+"md5=1d1e54dfee0d1a971c7e33e4b42f244b"
+
+#: src/menus/filters/python-fu.xml:8(title)
+#, fuzzy
+msgid "The <quote>Python-Fu</quote> Submenu"
+msgstr ""
+"<quote>Edit</quote> മെനു"
+
+#: src/menus/filters/python-fu.xml:11(primary)
+msgid "Python-Fu"
+msgstr ""
+"പൈത്തൺ-ഫു"
+
+#: src/menus/filters/python-fu.xml:16(title)
+#, fuzzy
+msgid "The <quote>Python-Fu</quote> submenu"
+msgstr ""
+"<quote>Edit</quote> മെനു"
+
+#: src/menus/filters/python-fu.xml:23(para)
+msgid "By default this submenu just contains the Python-Fu console."
+msgstr ""
+"സ്വതവേ ഈ ഉപമെനുവുണ്ട് വെറും python-ഫു കൺസോൾ അടങ്ങിയിരിക്കുന്നു."
+
+#. cf. plug-ins/pygimp/doc/pygimp.html
+#: src/menus/filters/python-fu.xml:27(para)
+msgid ""
+"Python-Fu is a set of <link linkend=\"bibliography-online-python\">Python</"
+"link> modules that act as a wrapper to <emphasis>libgimp</emphasis> allowing "
+"the writing of plug-ins for <acronym>GIMP</acronym>."
+msgstr ""
+"പൈത്തൺ-ഫു <acronym>GIMP</acronym> വേണ്ടി പ്ലഗിനുകളുടെ എഴുത്തു അനുവദിച്ചുകൊ"
+"ണ്ട് <emphasis>libgimp</emphasis> ഒരു റാപ്പർ ആയി പ്രവർത്തിക്കണം <link linke"
+"nd=\"bibliography-online-python\">Python</link> ഘടകങ്ങൾ ഒരു കൂട്ടം."
+
+#: src/menus/filters/python-fu.xml:38(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menu through "
+"<menuchoice><guimenu>Filters</guimenu><guimenuitem>Python-Fu</guimenuitem></"
+"menuchoice>"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/filters/python-fu.xml:50(title)
+#: src/menus/filters/python-fu.xml:69(title)
+#, fuzzy
+msgid "The Python-Fu Console"
+msgstr ""
+"പൈത്തൺ കൺസോൾ"
+
+#: src/menus/filters/python-fu.xml:51(para)
+msgid ""
+"The Python-Fu console is a dialog window running a <quote>Python shell</"
+"quote> (a Python interpreter in interactive mode). This console is set up to "
+"make use of the internal <acronym>GIMP</acronym> library routines of "
+"<emphasis>libgimp</emphasis>."
+msgstr ""
+"പൈത്തൺ-ഫു കൺസോൾ ഒരു <quote>Python shell</quote> (ഇന്ററാക്ടീവ് മോഡിൽ ഒരു പ"
+"ൈത്തണ് ഓടി) ഒരു ഡയലോഗ് വിൻഡോ ആണ്. ഈ കൺസോൾ <emphasis>libgimp</emphasis> ആ"
+"ന്തരിക <acronym>GIMP</acronym> ലൈബ്രറി റൂട്ടീനുകളിലൂടെ ഉപയോഗം വരുത്തുവാൻ സ"
+"ജ്ജീകരിച്ചു."
+
+#: src/menus/filters/python-fu.xml:57(para)
+msgid ""
+"You can use the Python-Fu console to interactively test Python commands."
+msgstr ""
+"പരസ്പരം പൈത്തൺ കമാൻഡുകൾ പരിശോധിക്കുന്നതിന് python-ഫു കൺസോൾ ഉപയോഗിക്കാം."
+
+#: src/menus/filters/python-fu.xml:60(para)
+msgid ""
+"The console consists of a large scrollable main window for input and output, "
+"where you can type Python commands. When you type in a Python command and "
+"then press the <keycap>Enter</keycap> key, the command is executed by the "
+"Python interpreter. The command's output as well as its return value (and "
+"its error message, if any) will be displayed in the main window."
+msgstr ""
+"കൺസോൾ നിങ്ങൾക്ക് പൈഥൺ കമാൻഡുകൾ ടൈപ്പ് കഴിയുന്ന ഒരു വലിയ സ്ക്രോൾ പ്രധാന ഇൻ"
+"പുട്ട്, ഔട്ട്പുട്ട് വേണ്ടി വിൻഡോ ഉള്ളത്. നിങ്ങൾ തുടർന്ന് <keycap>Enter</ke"
+"ycap> കീ അമർത്തുക പൈഥൺ കമാൻഡ് ടൈപ്പ് ചെയ്യുമ്പോൾ, കമാൻഡ് പൈത്തണ് വെടിവച്ച്"
+" ആണ്. കമാൻഡ് ന്റെ ഔട്ട്പുട്ട് തന്നെ കമ്പനിയുടെ മടക്കം മൂല്യം (അതിന്റെ പിശക്"
+" സന്ദേശം, എന്തെങ്കിലുമുണ്ടെങ്കിൽ) പ്രധാന വിൻഡോയിൽ ദൃശ്യമാകും."
+
+#: src/menus/filters/python-fu.xml:78(title)
+#, fuzzy
+msgid "The Python-Fu Console Buttons"
+msgstr ""
+"സംരക്ഷിക്കുക പെരുമ്പാമ്പ്-ഫു കൺസോൾ ഔട്ട്പുട്ട്"
+
+#: src/menus/filters/python-fu.xml:82(para)
+msgid ""
+"This command lets you save the content of the main window, that is the "
+"Python-Fu console input and output (including the <quote><code>&gt;&gt;&gt;</"
+"code></quote> prompt)."
+msgstr ""
+"ഈ കമാൻഡ് പ്രധാന ജാലകത്തിന്റെ ഉള്ളടക്കം സംരക്ഷിക്കാൻ അനുവദിക്കുന്നു, ആ pytho"
+"n-ഫു കൺസോൾ ഇൻപുട്ട്, ഔട്ട്പുട്ട് (<quote><code>&gt;&gt;&gt;</code></quote>"
+" പ്രോംപ്റ്റ് ഉൾപ്പെടെ) ആണ്."
+
+#. TODO check: With or without image?
+#: src/menus/filters/python-fu.xml:121(para)
+msgid ""
+"When clicked, the <link linkend=\"plug-in-dbbrowser\">procedure browser</"
+"link> pops up, with an additional button <guibutton>Apply</guibutton> at the "
+"bottom of the window."
+msgstr ""
+"ക്ലിക്കുചെയ്യുമ്പോൾ, <link linkend=\"plug-in-dbbrowser\">procedure browser"
+"</link> വിൻഡോയുടെ താഴെയുള്ള അധിക ബട്ടൺ <guibutton>Apply</guibutton> കൂടെ മ"
+"ാറികിട്ടി."
+
+#: src/menus/filters/python-fu.xml:127(para)
+msgid ""
+"When you press this <guibutton>Apply</guibutton> button in the procedure "
+"browser, a call to the selected procedure will be pasted into the console "
+"window as a Python command:"
+msgstr ""
+"നടപടി ബ്രൗസറിൽ ഈ <guibutton>Apply</guibutton> ബട്ടൺ അമർത്തുമ്പോൾ, തിരഞ്ഞെട"
+"ുത്ത നടപടിക്രമം ഒരു കോൾ പൈഥൺ കമാൻഡ് പോലെ കണ്സോള് ജാലകത്തിൽ ഒട്ടിക്കുകയുള"
+"്ളൂ:"
+
+#: src/menus/filters/python-fu.xml:138(para)
+msgid "Applied <acronym>PDB</acronym> procedure"
+msgstr ""
+"അപ്ലൈഡ് <acronym>PDB</acronym> നടപടിക്രമം"
+
+#: src/menus/filters/python-fu.xml:141(para)
+msgid ""
+"Now you just have to replace the parameter names (here: <quote>width</"
+"quote>, <quote>height</quote>, and <quote>type</quote>) with actual values, "
+"e.g."
+msgstr ""
+"ഉദാ യഥാർത്ഥ മൂല്യങ്ങൾ കൂടെ: ഇപ്പോൾ നിങ്ങൾക്ക് വെറും (<quote>width</quote>,"
+" <quote>height</quote>, ഒപ്പം <quote>type</quote> ഇവിടെ) പാരാമീറ്റർ പേരുകൾ "
+"മാറ്റിസ്ഥാപിക്കാൻ ഞങ്ങൾക്കുണ്ട്"
+
+#. Don't wrap the following line (without testing)!
+#: src/menus/filters/python-fu.xml:147(programlisting)
+#, no-wrap
+msgid "image = pdb.gimp_image_new(400, 300, RGB)"
+msgstr ""
+"ചിത്രം = pdb.gimp_image_new (400, 300, ആർജിബി)"
+
+#: src/menus/filters/python-fu.xml:148(para)
+msgid "Then press <keycap>Enter</keycap> to execute the command."
+msgstr ""
+"അപ്പോൾ കമാൻഡ് നടപ്പിലാക്കുന്നതിനായി <keycap>Enter</keycap> അമർത്തുക."
+
+#: src/menus/filters/python-fu.xml:151(para)
+msgid ""
+"You can (and should!) use the constants you find in the decription of the "
+"procedure's parameters, for example <quote>RGB-IMAGE</quote> or "
+"<quote>OVERLAY-MODE</quote>. But note that you have to replace hyphens "
+"(<quote>-</quote>) with underscores (<quote>_</quote>): <code>RGB_IMAGE</"
+"code>, <code>OVERLAY_MODE</code>."
+msgstr ""
+"നിങ്ങൾ (വേണ്ടത്!) നടപടി ന്റെ മാനദണ്ഡങ്ങളുടെ decription കണ്ടെത്താനും സ്ഥിരാങ"
+"്കങ്ങൾ, ഉദാഹരണത്തിന് <quote>RGB-IMAGE</quote> അല്ലെങ്കിൽ <quote>OVERLAY-MOD"
+"E</quote> വേണ്ടി ഉപയോഗിക്കാൻ കഴിയും. <code>RGB_IMAGE</code>, <code>OVERLAY"
+"_MODE</code>: എന്നാൽ നിങ്ങൾ അടിവരകൾ (<quote>_</quote>) ഉപയോഗിച്ച് ഹൈഫനുകളേ"
+"ാ (<quote>-</quote>) മാറ്റിസ്ഥാപിക്കുക കാര്യം ശ്രദ്ധിക്കുക."
+
+#. cf. plug-ins/pygimp/doc/pygimp.html
+#: src/menus/filters/python-fu.xml:161(para)
+msgid ""
+"Python-Fu is not limited to just calling procedures from the <link linkend="
+"\"glossary-pdb\"><acronym>PDB</acronym></link> (<acronym>GIMP</acronym> "
+"procedural database). To create a new image object like in the example "
+"above, you can also type"
+msgstr ""
+"പൈത്തൺ-ഫു വെറും <link linkend=\"glossary-pdb\"><acronym>PDB</acronym></link"
+"> (<acronym>GIMP</acronym> നടപടിക്രമങ്ങൾ ഡാറ്റാബേസ്) മുതൽ നടപടിക്രമങ്ങൾ വിള"
+"ിക്കുന്നു പരിമിതപ്പെടുത്താത്തതിൽ. മുകളിലുള്ള ഉദാഹരണം പോലെ ഒരു പുതിയ ഇമേജ് "
+"ഒബ്ജക്റ്റ് സൃഷ്ടിക്കാൻ, നിങ്ങൾക്ക് ടൈപ്പ് ചെയ്യാം"
+
+#: src/menus/filters/python-fu.xml:167(programlisting)
+#, no-wrap
+msgid ""
+"\n"
+"              image = gimp.Image(width, height, type)\n"
+"            "
+msgstr ""
+"\n"
+"              image = gimp.Image(width, height, type)\n"
+"            "
+
+#: src/menus/filters/python-fu.xml:170(para)
+msgid ""
+"(with actual values for <quote>width</quote>, <quote>height</quote>, and "
+"<quote>type</quote>)."
+msgstr ""
+"(<quote>width</quote>, <quote>height</quote>, ഒപ്പം <quote>type</quote> യഥാ"
+"ർത്ഥ മൂല്യങ്ങൾ ഉപയോഗിച്ച്)."
+
+#: src/menus/filters/python-fu.xml:180(para)
+msgid "Pressing this button closes the console."
+msgstr ""
+"ഈ ബട്ടൺ അമർത്തിയാൽ കൺസോൾ അടയ്ക്കുന്നു."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/filters/python-fu.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"
+
+#~ msgid "The <quote>Windows</quote> Menu"
+#~ msgstr "The <quote>Windows</quote> Menu"
+
+#~ msgid "Menus"
+#~ msgstr "Menus"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/windows/dockable-dialogs.png'; "
+#~ "md5=6f795d821ab2dc388b7aed62a94a6ad5"
+#~ msgstr ""
+#~ "@@image: 'images/menus/windows/dockable-dialogs.png'; "
+#~ "md5=6f795d821ab2dc388b7aed62a94a6ad5"
+
+#~ msgid "The <quote>Dockable Dialogs</quote> submenu"
+#~ msgstr "The <quote>Dockable Dialogs</quote> submenu"
+
+#~ msgid "Docks"
+#~ msgstr "Docks"
+
+#~ msgid "List of dockable dialogs"
+#~ msgstr "List of dockable dialogs"
+
+#~ msgid "The <quote>Dockable Dialogs</quote> list"
+#~ msgstr "The <quote>Dockable Dialogs</quote> list"
+
+#~ msgid ""
+#~ "This command opens the list of the dialog windows you can open and dock. "
+#~ "Please see <link linkend=\"gimp-concepts-docks\">Dialogs and Docking</"
+#~ "link>."
+#~ msgstr ""
+#~ "This command opens the list of the dialog windows you can open and dock. "
+#~ "Please see <link linkend=\"gimp-concepts-docks\">Dialogs and Docking</"
+#~ "link>."
+
+#~ msgid ""
+#~ "All these dialogs are described in <link linkend=\"gimp-dialogs-"
+#~ "introduction\">Different dialogs description</link>."
+#~ msgstr ""
+#~ "All these dialogs are described in <link linkend=\"gimp-dialogs-"
+#~ "introduction\">Different dialogs description</link>."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/select.png'; md5=e2a02dde8de72d42430b777b89d0ee2a"
+#~ msgstr ""
+#~ "@@image: 'images/menus/select.png'; md5=e2a02dde8de72d42430b777b89d0ee2a"
+
+#~ msgid "Selection"
+#~ msgstr "Selection"
+
+#~ msgid "Introduction to the <quote>Select</quote> Menu"
+#~ msgstr "Introduction to the <quote>Select</quote> Menu"
+
+#~ msgid "The Contents of the <quote>Select</quote> menu"
+#~ msgstr "The Contents of the <quote>Select</quote> menu"
+
+#~ msgid ""
+#~ "This section explains the commands on the <guimenu>Select</guimenu> menu "
+#~ "of the image menubar."
+#~ msgstr ""
+#~ "This section explains the commands on the <guimenu>Select</guimenu> menu "
+#~ "of the image menubar."
+
+#~ msgid ""
+#~ "Besides the commands described here, you may also find other entries in "
+#~ "the menu. They are not part of <acronym>GIMP</acronym> itself, but have "
+#~ "been added by extensions (plug-ins). You can find information about the "
+#~ "functionality of a Plugin by referring to its documentation."
+#~ msgstr ""
+#~ "Besides the commands described here, you may also find other entries in "
+#~ "the menu. They are not part of <acronym>GIMP</acronym> itself, but have "
+#~ "been added by extensions (plug-ins). You can find information about the "
+#~ "functionality of a Plugin by referring to its documentation."
+
+#~ msgid "The <quote>Image</quote> Menu"
+#~ msgstr "The <quote>Image</quote> Menu"
+
+#~ msgid "The <quote>Colors</quote> Menu"
+#~ msgstr "The <quote>Colors</quote> Menu"
+
+#~ msgid "Image window"
+#~ msgstr "Image window"
+
+#~ msgid "The <quote>View</quote> Menu"
+#~ msgstr "The <quote>View</quote> Menu"
+
+#~ msgid "The <quote>Tools</quote> Menu"
+#~ msgstr "The <quote>Tools</quote> Menu"
+
+#~ msgid "Tools"
+#~ msgstr "Tools"
+
+#~ msgid "Contents of the <quote>Tools</quote> menu"
+#~ msgstr "Contents of the <quote>Tools</quote> menu"
+
+#~ msgid ""
+#~ "The menu entries on the <guimenu>Tools</guimenu> menu access the "
+#~ "<acronym>GIMP</acronym> tools. All of the tools available in "
+#~ "<acronym>GIMP</acronym> are extensively described in the <link linkend="
+#~ "\"gimp-tools\">Tools</link> section."
+#~ msgstr ""
+#~ "The menu entries on the <guimenu>Tools</guimenu> menu access the "
+#~ "<acronym>GIMP</acronym> tools. All of the tools available in "
+#~ "<acronym>GIMP</acronym> are extensively described in the <link linkend="
+#~ "\"gimp-tools\">Tools</link> section."
+
+#~ msgid "Edit"
+#~ msgstr "Edit"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/help.png'; md5=166c3b733e8d1c03b26206812c7c44a9"
+#~ msgstr ""
+#~ "@@image: 'images/menus/help.png'; md5=166c3b733e8d1c03b26206812c7c44a9"
+
+#~ msgid "The <quote>Help</quote> Menu"
+#~ msgstr "The <quote>Help</quote> Menu"
+
+#~ msgid "Introduction to the <quote>Help</quote> Menu"
+#~ msgstr "Introduction to the <quote>Help</quote> Menu"
+
+#~ msgid "Help"
+#~ msgstr "Help"
+
+#~ msgid "Contents of the <quote>Help</quote> menu"
+#~ msgstr "Contents of the <quote>Help</quote> menu"
+
+#~ msgid ""
+#~ "The <guimenu>Help</guimenu> menu contains commands that assist you while "
+#~ "you are working with <application>GIMP</application>."
+#~ msgstr ""
+#~ "The <guimenu>Help</guimenu> menu contains commands that assist you while "
+#~ "you are working with <application>GIMP</application>."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/local-windows-submenu.png'; "
+#~ "md5=57af8745917ae54f989082e320678880"
+#~ msgstr ""
+#~ "@@image: 'images/menus/local-windows-submenu.png'; "
+#~ "md5=57af8745917ae54f989082e320678880"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/detached-submenu.png'; "
+#~ "md5=8746ad151b99ae854ff6248044c735c2"
+#~ msgstr ""
+#~ "@@image: 'images/menus/detached-submenu.png'; "
+#~ "md5=8746ad151b99ae854ff6248044c735c2"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/tab-menu.png'; md5=e3a7977b2570a5f5a3a776e89e884d02"
+#~ msgstr ""
+#~ "@@image: 'images/menus/tab-menu.png'; md5=e3a7977b2570a5f5a3a776e89e884d02"
+
+#~ msgid "Introduction"
+#~ msgstr "Introduction"
+
+#~ msgid ""
+#~ "There are many places in <acronym>GIMP</acronym> where you can find "
+#~ "menus. The aim of this chapter is to explain all the commands that are "
+#~ "accessible from the image menu bar and the image menu you can get by "
+#~ "right clicking in the canvas. All the context menus and the menu entries "
+#~ "for the other dialogs are described elsewhere in the chapters that "
+#~ "describe the dialogs themselves."
+#~ msgstr ""
+#~ "There are many places in <acronym>GIMP</acronym> where you can find "
+#~ "menus. The aim of this chapter is to explain all the commands that are "
+#~ "accessible from the image menu bar and the image menu you can get by "
+#~ "right clicking in the canvas. All the context menus and the menu entries "
+#~ "for the other dialogs are described elsewhere in the chapters that "
+#~ "describe the dialogs themselves."
+
+#~ msgid "Context Menus"
+#~ msgstr "Context Menus"
+
+#~ msgid "Context menus"
+#~ msgstr "Context menus"
+
+#~ msgid ""
+#~ "If you right-click on certain parts of the <acronym>GIMP</acronym> "
+#~ "interface, a <quote>context menu</quote> opens, which leads to a variety "
+#~ "of functions. Some places where you can access context menus are:"
+#~ msgstr ""
+#~ "If you right-click on certain parts of the <acronym>GIMP</acronym> "
+#~ "interface, a <quote>context menu</quote> opens, which leads to a variety "
+#~ "of functions. Some places where you can access context menus are:"
+
+#~ msgid ""
+#~ "Clicking on an image window displays the Image menu. This is useful when "
+#~ "you are working in full-screen mode, without a menubar."
+#~ msgstr ""
+#~ "Clicking on an image window displays the Image menu. This is useful when "
+#~ "you are working in full-screen mode, without a menubar."
+
+#~ msgid ""
+#~ "Clicking on a layer in the Layers Dialog or on a channel in the Channels "
+#~ "Dialog displays functions for the selected layer or channel."
+#~ msgstr ""
+#~ "Clicking on a layer in the Layers Dialog or on a channel in the Channels "
+#~ "Dialog displays functions for the selected layer or channel."
+
+#~ msgid ""
+#~ "Right-clicking on the image menubar has the same effect as left-clicking."
+#~ msgstr ""
+#~ "Right-clicking on the image menubar has the same effect as left-clicking."
+
+#~ msgid ""
+#~ "Right-clicking on the title bar displays functions which do not belong to "
+#~ "<acronym>GIMP</acronym>, but to the window manager program on your "
+#~ "computer."
+#~ msgstr ""
+#~ "Right-clicking on the title bar displays functions which do not belong to "
+#~ "<acronym>GIMP</acronym>, but to the window manager program on your "
+#~ "computer."
+
+#~ msgid "Tear-off menus"
+#~ msgstr "Tear-off menus"
+
+#~ msgid "Tear-off line"
+#~ msgstr "Tear-off line"
+
+#~ msgid ""
+#~ "There is an interesting property associated with some of the menus in "
+#~ "<acronym>GIMP</acronym>. These are any of the menus from the Image "
+#~ "context menu you get by right-clicking on the canvas and any of its "
+#~ "submenus. (You can tell that a menu item leads to a submenu because there "
+#~ "is an <guiicon><inlinegraphic fileref=\"images/menus/icon-submenu.png\" "
+#~ "format=\"PNG\"/></guiicon> icon next to it.) When you bring up any of "
+#~ "these menus, there is a dotted line at the top of it (tear-off line). By "
+#~ "clicking on this dotted line, you detach the menu under it and it becomes "
+#~ "a separate window."
+#~ msgstr ""
+#~ "There is an interesting property associated with some of the menus in "
+#~ "<acronym>GIMP</acronym>. These are any of the menus from the Image "
+#~ "context menu you get by right-clicking on the canvas and any of its "
+#~ "submenus. (You can tell that a menu item leads to a submenu because there "
+#~ "is an <guiicon><inlinegraphic fileref=\"images/menus/icon-submenu.png\" "
+#~ "format=\"PNG\"/></guiicon> icon next to it.) When you bring up any of "
+#~ "these menus, there is a dotted line at the top of it (tear-off line). By "
+#~ "clicking on this dotted line, you detach the menu under it and it becomes "
+#~ "a separate window."
+
+#~ msgid "The <quote>windows</quote> submenu and its tear-off submenu"
+#~ msgstr "The <quote>windows</quote> submenu and its tear-off submenu"
+
+#~ msgid ""
+#~ "Tear-off menus are actually independent. They are always visible, their "
+#~ "functions always apply to the current image, and they persist when all of "
+#~ "the images are closed. You can close a tear-off submenu by clicking on "
+#~ "the dotted line again or closing the window from the window manager on "
+#~ "your computer (often by clicking on an X icon in the upper right corner "
+#~ "of the window)."
+#~ msgstr ""
+#~ "Tear-off menus are actually independent. They are always visible, their "
+#~ "functions always apply to the current image, and they persist when all of "
+#~ "the images are closed. You can close a tear-off submenu by clicking on "
+#~ "the dotted line again or closing the window from the window manager on "
+#~ "your computer (often by clicking on an X icon in the upper right corner "
+#~ "of the window)."
+
+#~ msgid "Tab menus"
+#~ msgstr "Tab menus"
+
+#~ msgid ""
+#~ "The following type of menus is not related to the image menu bar, but for "
+#~ "the sake of completeness:"
+#~ msgstr ""
+#~ "The following type of menus is not related to the image menu bar, but for "
+#~ "the sake of completeness:"
+
+#~ msgid ""
+#~ "Every <link linkend=\"gimp-concepts-docks\">dockable</link> dialog "
+#~ "contains a Tab Menu button, as highlighted below. Pressing this Tab Menu "
+#~ "button opens a special menu of tab-related operations, with an entry at "
+#~ "the top that opens into the dialog's context menu."
+#~ msgstr ""
+#~ "Every <link linkend=\"gimp-concepts-docks\">dockable</link> dialog "
+#~ "contains a Tab Menu button, as highlighted below. Pressing this Tab Menu "
+#~ "button opens a special menu of tab-related operations, with an entry at "
+#~ "the top that opens into the dialog's context menu."
+
+#~ msgid "A dockable dialog."
+#~ msgstr "A dockable dialog."
+
+#~ msgid "A dialog window with the Tab menu button highlighted."
+#~ msgstr "A dialog window with the Tab menu button highlighted."
+
+#~ msgid "The Tab menu."
+#~ msgstr "The Tab menu."
+
+#~ msgid ""
+#~ "See <xref linkend=\"gimp-dockable-menu\"/> to learn more about Tab menus."
+#~ msgstr ""
+#~ "See <xref linkend=\"gimp-dockable-menu\"/> to learn more about Tab menus."
+
+#~ msgid "The <quote>File</quote> Menu"
+#~ msgstr "The <quote>File</quote> Menu"
+
+#~ msgid "File menu"
+#~ msgstr "File menu"
+
+#~ msgid "Overview"
+#~ msgstr "Overview"
+
+#~ msgid "File"
+#~ msgstr "File"
+
+#~ msgid "The File menu"
+#~ msgstr "The File menu"
+
+#~ msgid "The <quote>Recently Closed Docks</quote> submenu"
+#~ msgstr "The <quote>Recently Closed Docks</quote> submenu"
+
+#~ msgid "Recently closed"
+#~ msgstr "Recently closed"
+
+#~ msgid ""
+#~ "This command opens the list of the docks you have closed recently. You "
+#~ "can reopen them by clicking on their name. Please note that isolated "
+#~ "windows are not concerned."
+#~ msgstr ""
+#~ "This command opens the list of the docks you have closed recently. You "
+#~ "can reopen them by clicking on their name. Please note that isolated "
+#~ "windows are not concerned."
+
+#~ msgid "The <quote>Layer</quote> Menu"
+#~ msgstr "The <quote>Layer</quote> Menu"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/windows.png'; md5=13c6b14871d3818165be232dda179015"
+#~ msgstr ""
+#~ "@@image: 'images/menus/windows.png'; md5=13c6b14871d3818165be232dda179015"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/windows/expanded-menu.png'; "
+#~ "md5=368b926c465b0abf28df35f2cdaaf128"
+#~ msgstr ""
+#~ "@@image: 'images/menus/windows/expanded-menu.png'; "
+#~ "md5=368b926c465b0abf28df35f2cdaaf128"
+
+#~ msgid "<quote>Windows</quote> Menu Entries"
+#~ msgstr "<quote>Windows</quote> Menu Entries"
+
+#~ msgid "Contents of the <quote>Windows</quote> Menu"
+#~ msgstr "Contents of the <quote>Windows</quote> Menu"
+
+#~ msgid "Without open images"
+#~ msgstr "Without open images"
+
+#~ msgid "With open images"
+#~ msgstr "With open images"
+
+#~ msgid ""
+#~ "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs. "
+#~ "With an open image, it is made up of three parts:"
+#~ msgstr ""
+#~ "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs. "
+#~ "With an open image, it is made up of three parts:"
+
+#~ msgid "The list of Recently Closed Docks:"
+#~ msgstr "The list of Recently Closed Docks:"
+
+#~ msgid ""
+#~ "For more information about docks, please see <link linkend=\"gimp-"
+#~ "concepts-docks\">Dialogs and Docking</link>, and <link linkend=\"gimp-"
+#~ "dialogs-introduction\">Different dialogs description</link>."
+#~ msgstr ""
+#~ "For more information about docks, please see <link linkend=\"gimp-"
+#~ "concepts-docks\">Dialogs and Docking</link>, and <link linkend=\"gimp-"
+#~ "dialogs-introduction\">Different dialogs description</link>."
+
+#~ msgid "The list of open image windows."
+#~ msgstr "The list of open image windows."
+
+#~ msgid "The list of open dockable dialogs."
+#~ msgstr "The list of open dockable dialogs."

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>2.6. വർണ്ണ മാർഗം തിരഞ്ഞെടുക്കുക</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-tools-selection.html" title="2. തിരഞ്ഞെടുക്കൽ ഉപകരണങ്ങൾ" />
+    <link rel="prev" href="gimp-tool-fuzzy-select.html" title="2.5. അവ്യക്തമായ നിരക്കു (മാന്ത്രികനായാണ്)" />
+    <link rel="next" href="gimp-tool-iscissors.html" title="2.7. Intelligent Scissors" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">2.6. വർണ്ണ മാർഗം തിരഞ്ഞെടുക്കുക</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-tool-fuzzy-select.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">2. തിരഞ്ഞെടുക്കൽ ഉപകരണങ്ങൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-tool-iscissors.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-tool-by-color-select"></a>2.6. വർണ്ണ മാർഗം തിരഞ്ഞെടുക്കുക</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925513117504" class="indexterm"></a>
+      <a id="idp46925513118864" class="indexterm"></a>
+      <a id="idp46925513120224" class="indexterm"></a>
+      <div class="figure">
+        <a id="idp46925513121568"></a>
+        <p class="title">
+          <strong>ചിത്രം 14.24. Select by Color tool icon in the Toolbox</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/toolbox/toolbox-selbycolor.png" alt="Select by Color tool icon in the Toolbox" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>കളർ ടൂൾ അനുസരിച്ച് തിരഞ്ഞെടുക്കുക നിറം സമാനത അടിസ്ഥാനമാക്കി ഒരു ചിത്രത്തിന്റെ പ്രദേശങ്ങൾ തിരഞ്ഞെടുക്കുക രൂപകല്പന. ഇത് അവ്യക്തമായ തിരഞ്ഞെടുക്കുക ഉപകരണം (<span class="quote">“<span class="quote">Magic Wand</span>”</span>) പോലെ ഒരു പ്രവർത്തിക്കുന്നു. അവരെ തമ്മിലുള്ള പ്രധാന വ്യത്യാസം മാന്ത്രികനായാണ് വലിയ വിടവുകൾ അടങ്ങുന്ന പാതകൾ വഴി ആരംഭ പോയിന്റിൽ കണക്റ്റുചെയ്തിരിക്കുന്ന എല്ലാ ഭാഗങ്ങൾ <span class="emphasis"><em>contiguous</em></span> പ്രദേശങ്ങളും തെരഞ്ഞെടുക്കുന്നു എന്നതാണ്; കളർ ടൂൾ അനുസരിച്ച് തിരഞ്ഞെടുക്കുക സമയത്ത് പരിഗണിക്കാതെ അവർ എവിടെയാണെന്ന്, നിങ്ങൾക്ക് ക്ലിക്ക് പിക്സൽ ലേക്കുള്ള നിറം ന്യൂറൽ സമാനമായ എല്ലാ പിക്സലുകൾ തെരഞ്ഞെടുക്കുന്നു.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925513126992"></a>2.6.1. Activating the tool</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can access the Select by Color Tool in different ways:
+    </p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+          From the image menu bar
+          <span class="guimenu">Tools</span> → <span class="guisubmenu">Selection Tools</span> → <span class="guimenuitem">By Color Select</span>,
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          by clicking on the tool icon
+          <span class="guiicon"><img src="images/toolbox/stock-tool-by-color-select-22.png" />
+          </span>
+          in the ToolBox,
+        </p>
+            </li>
+            <li class="listitem">
+              <p>കീബോർഡ് കുറുക്കുവഴി <span class="keycap"><strong>Shift </strong></span>+<span class="keycap"><strong>O</strong></span> ഉപയോഗിച്ച്.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925513135200"></a>2.6.2. കീ മോഡിഫയറുകൾ (സ്ഥിരസ്ഥിതികളിലേക്ക്)</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിറം പ്രയോഗം തിരഞ്ഞെടുത്ത ഏതെങ്കിലും പ്രത്യേക കീ മോഡിഫയറുകൾ, അതേ വിധത്തിൽ എല്ലാ നിരക്കു ഉപകരണങ്ങൾ ബാധിക്കുന്ന മാത്രമല്ല ഇല്ല. ഈ കൂടെ സഹായത്തിനായി <a class="link" href="gimp-tools-selection.html#gimp-tool-select" title="2.1. സാധാരണ സവിശേഷതകൾ">Selection Tools</a> കാണുക.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925513137728"></a>2.6.3. കൈകാര്യം ഉപകരണം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925513138496"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.25. 
+        Using Select by Color tool: selected pixels are not only contiguous
+      </strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/by-color-selection.png" alt="Using Select by Color tool: selected pixels are not only contiguous" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഫസി ഉപകരണം ഉപയോഗിച്ച് നിലയിൽ നിരക്കു ഉടൻ ക്ലിക്ക് ആരംഭിച്ച് റഫറൻസ് ആദ്യ ക്ലിക്കുചെയ്ത പിക്സലാണെന്നും. നിങ്ങൾ ക്ലിക്കുചെയ്ത് വലിച്ചിടുക, നിങ്ങൾക്ക് ഫസി ഉപകരണം ഉപയോഗിച്ച് അതേ വഴിയിൽ ദൂരമാണു മാറ്റാവുന്നതാണ്.</p>
+        <p>നിരക്കു നീക്കാൻ <a class="link" href="">Moving selections</a> കാണുക.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925513143584"></a>2.6.4. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925513144336"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.26. Tool Options for the Select by Color tool</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/tool-options-selbycolor.png" alt="Tool Options for the Select by Color tool" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>സാധാരണ, ഉപകരണം ഓപ്ഷനുകൾ ഉടൻ ഒരു ഉപകരണം സജീവമാക്കാൻ പോലെ പണിസഞ്ചി കീഴിൽ ഘടിപ്പിച്ചിട്ടുള്ള ഒരു ജാലകം പ്രദർശിപ്പിക്കും. അഥവാ അങ്ങനെയല്ലെങ്കിൽ, നിങ്ങൾ തിരഞ്ഞെടുത്ത ഉപകരണം ഓപ്ഷൻ വിൻഡോ തുറക്കുന്ന <span class="guimenu">Windows</span> → <span class="guisubmenu">Dockable Windows</span> → <span class="guimenuitem">Tool Options</span> വഴി ഇമേജ് ബാറില് നിന്നും ആക്സസ് ചെയ്യാൻ കഴിയും.</p>
+        <div class="variablelist">
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                </td>
+                <th align="left">കുറിപ്പു്</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>ഈ എല്ലാ ഉപകരണങ്ങൾ സാധാരണമാണ് ഉപാധികൾക്ക് സഹായത്തിന് <a class="link" href="gimp-tools-selection.html#gimp-tool-select" title="2.1. സാധാരണ സവിശേഷതകൾ">Selection Tools</a> കാണുക. ഈ ഉപകരണം മാത്രമായുള്ള ഓപ്ഷനുകൾ മാത്രം ഇവിടെ വിശദീകരിച്ചു ചെയ്യുന്നു.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <dl class="variablelist">
+            <dt>
+              <span class="term">മോഡ്; ആന്റിഎലിയാസിംഗ്; തൂവല് അറ്റങ്ങൾ</span>
+            </dt>
+            <dd>
+              <p>Common select options.</p>
+            </dd>
+            <dt>
+              <span class="term">Similar colors</span>
+            </dt>
+            <dd>
+              <p>ഇത്തരം എല്ലാ ഓപ്ഷനുകൾ പ്രവർത്തിക്കാൻ തന്നെ അങ്ങനെ, അവർ ഇതിനകം ഫസി നിരക്കു വേണ്ടി വിവരിക്കുന്നുണ്ട്. <a class="xref" href="gimp-tool-fuzzy-select.html#tool-fuzzy-select-options" title="2.5.4. ഓപ്ഷനുകൾ">വിഭാഗം 2.5.4, “ഓപ്ഷനുകൾ”</a> വിശദാംശങ്ങൾക്ക് കാണുക.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-tool-fuzzy-select.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-tools-selection.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-tool-iscissors.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-tool-fuzzy-select.html">2.5. അവ്യക്തമായ നിരക്കു (മാന്ത്രികനായാണ്)</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tool-iscissors.html">2.7. Intelligent Scissors</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

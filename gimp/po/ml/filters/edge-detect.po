@@ -1,0 +1,794 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP-Help 2.8.0\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
+"PO-Revision-Date: 2012-06-01 12:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/edge-detect/neon.xml:31(None)
+#: src/filters/edge-detect/edge_detect.xml:50(None)
+#: src/filters/edge-detect/laplace.xml:30(None)
+#: src/filters/edge-detect/sobel.xml:31(None)
+#: src/filters/edge-detect/dog.xml:32(None)
+msgid ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
+msgstr ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/edge-detect/neon.xml:40(None)
+msgid ""
+"@@image: 'images/filters/examples/edge-taj-neon.jpg'; "
+"md5=d5d4503a0de0b7bf2b70d4d396274e31"
+msgstr ""
+"@@image: 'images/filters/examples/edge-taj-neon.jpg'; "
+"md5=d5d4503a0de0b7bf2b70d4d396274e31"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/edge-detect/neon.xml:78(None)
+msgid ""
+"@@image: 'images/filters/edge-detect/neon.png'; "
+"md5=a0fb95bf152e99fe53a6fe9783e40304"
+msgstr ""
+"@@image: 'images/filters/edge-detect/neon.png'; "
+"md5=a0fb95bf152e99fe53a6fe9783e40304"
+
+#: src/filters/edge-detect/neon.xml:13(title)
+#: src/filters/edge-detect/neon.xml:18(tertiary)
+#: src/filters/edge-detect/neon.xml:21(primary)
+msgid "Neon"
+msgstr ""
+"നിയോൺ"
+
+#: src/filters/edge-detect/neon.xml:16(primary)
+#: src/filters/edge-detect/edge_detect.xml:17(primary)
+#: src/filters/edge-detect/introduction.xml:11(primary)
+#: src/filters/edge-detect/laplace.xml:15(primary)
+#: src/filters/edge-detect/sobel.xml:16(primary)
+#: src/filters/edge-detect/dog.xml:15(primary)
+msgid "Filters"
+msgstr ""
+"ഫിൽട്ടറുകൾ"
+
+#: src/filters/edge-detect/neon.xml:17(secondary)
+#: src/filters/edge-detect/edge_detect.xml:18(secondary)
+#: src/filters/edge-detect/introduction.xml:12(secondary)
+#: src/filters/edge-detect/laplace.xml:16(secondary)
+#: src/filters/edge-detect/sobel.xml:17(secondary)
+#: src/filters/edge-detect/dog.xml:16(secondary)
+msgid "Edge Detect"
+msgstr ""
+"അഗ്രം തിരിച്ചറിയുക"
+
+#: src/filters/edge-detect/neon.xml:25(title)
+#: src/filters/edge-detect/edge_detect.xml:44(title)
+#: src/filters/edge-detect/laplace.xml:24(title)
+#: src/filters/edge-detect/sobel.xml:25(title)
+#: src/filters/edge-detect/dog.xml:24(title)
+msgid "Overview"
+msgstr ""
+"പൊതു അവലോകനം"
+
+#: src/filters/edge-detect/neon.xml:27(title)
+msgid "Applying example for the Neon filter"
+msgstr ""
+"നിയോൺ ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്"
+
+#: src/filters/edge-detect/neon.xml:34(para)
+#: src/filters/edge-detect/edge_detect.xml:53(para)
+#: src/filters/edge-detect/laplace.xml:33(para)
+#: src/filters/edge-detect/sobel.xml:34(para)
+#: src/filters/edge-detect/dog.xml:35(para)
+msgid "Original image"
+msgstr ""
+"യഥാർത്ഥ ചിത്രം"
+
+#: src/filters/edge-detect/neon.xml:43(para)
+msgid "Filter <quote>Neon</quote> applied"
+msgstr ""
+"<quote>Neon</quote> ഫിൽട്ടറിന്"
+
+#: src/filters/edge-detect/neon.xml:47(para)
+msgid ""
+"This filter detects edges in the active layer or selection and gives them a "
+"bright neon effect."
+msgstr ""
+"ഈ ഫിൽട്ടർ സജീവ അല്ലെങ്കിൽ പാളി നിരക്കു ലെ വേണമങ്കിലും പക്കലുളള അവരെ ഒരു ശോ"
+"ഭയുള്ള നിയോൺ പ്രഭാവം നൽകുന്നു."
+
+#: src/filters/edge-detect/neon.xml:51(para)
+msgid ""
+"You will find in <acronym>GIMP</acronym> a Script-Fu also named Neon, which "
+"works in a different manner. The Script-Fu is an easy shortcut to construct "
+"logo-like letters outlined with a configurable neon-effect. See <xref "
+"linkend=\"script-fu-neon-logo-alpha\"/> for details."
+msgstr ""
+"നിങ്ങൾ ഒരു സ്ക്രിപ്റ്റ്-ഫു പുറമേ മറ്റൊരു വിധത്തിൽ പ്രവർത്തിക്കുന്നു നിയോൺ"
+", പേരുള്ള <acronym>GIMP</acronym> ൽ കണ്ടെത്തും. സ്ക്രിപ്റ്റ്-ഫു ക്രമികരിച്ച"
+"ിരിക്കുന്ന നിയോൺ-പ്രാബല്യത്തോടെ ഔട്ട്ലൈൻ ലോഗോ പോലുള്ള അക്ഷരങ്ങൾ നിർമ്മ"
+"ിക്കാൻ ഒരു എളുപ്പ കുറുക്കുവഴി. വിശദാംശങ്ങൾക്ക് <xref linkend=\"script-fu-ne"
+"on-logo-alpha\" /> കാണുക."
+
+#: src/filters/edge-detect/neon.xml:60(title)
+#: src/filters/edge-detect/edge_detect.xml:123(title)
+#: src/filters/edge-detect/laplace.xml:53(title)
+#: src/filters/edge-detect/sobel.xml:56(title)
+#: src/filters/edge-detect/dog.xml:69(title)
+msgid "Activating the filter"
+msgstr ""
+"ഫിൽട്ടർ സജീവമാക്കുന്നു"
+
+#: src/filters/edge-detect/neon.xml:61(para)
+msgid ""
+"You can find this filter through <menuchoice><guimenu>Filters</"
+"guimenu><guisubmenu>Edge-Detect</guisubmenu><guimenuitem>Neon...</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Edge-Detect</guisu"
+"bmenu><guimenuitem>Neon...</guimenuitem></menuchoice> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെ"
+"ത്താൻ കഴിയും."
+
+#: src/filters/edge-detect/neon.xml:72(title)
+#: src/filters/edge-detect/edge_detect.xml:135(title)
+#: src/filters/edge-detect/sobel.xml:68(title)
+#: src/filters/edge-detect/dog.xml:81(title)
+msgid "Options"
+msgstr ""
+"ഓപ്ഷനുകൾ"
+
+#: src/filters/edge-detect/neon.xml:74(title)
+msgid "Neon filter options"
+msgstr ""
+"നിയോൺ ഫിൽട്ടർ ഓപ്ഷനുകൾ"
+
+#: src/filters/edge-detect/neon.xml:84(term)
+msgid "Radius"
+msgstr ""
+"വാസാര്ദ്ധം"
+
+#: src/filters/edge-detect/neon.xml:86(para)
+msgid "This option lets you determine how wide the detected edge will be."
+msgstr ""
+"ഈ ഉപാധി എങ്ങനെ വൈഡ് കണ്ടെത്തി എഡ്ജ് തീരുമാനിക്കും അനുവദിക്കുന്നു."
+
+#: src/filters/edge-detect/neon.xml:92(term)
+#: src/filters/edge-detect/edge_detect.xml:197(term)
+msgid "Amount"
+msgstr ""
+"തുക"
+
+#: src/filters/edge-detect/neon.xml:94(para)
+msgid "This option lets you determine how strong the filter effect will be."
+msgstr ""
+"ഈ ഉപാധി എങ്ങനെ ശക്തമായ ഫിൽട്ടർ പ്രഭാവം തീരുമാനിക്കും അനുവദിക്കുന്നു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/edge-detect/edge_detect.xml:59(None)
+msgid ""
+"@@image: 'images/filters/examples/edge-taj-edge-sobel.jpg'; "
+"md5=49c820d5146c7c0ae289e92e606f2d5d"
+msgstr ""
+"@@image: 'images/filters/examples/edge-taj-edge-sobel.jpg'; "
+"md5=49c820d5146c7c0ae289e92e606f2d5d"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/edge-detect/edge_detect.xml:71(None)
+msgid ""
+"@@image: 'images/filters/examples/edge-taj-edge-prewitt.jpg'; "
+"md5=ed5fb42c973d66dcb8e80bfcae265f92"
+msgstr ""
+"@@image: 'images/filters/examples/edge-taj-edge-prewitt.jpg'; "
+"md5=ed5fb42c973d66dcb8e80bfcae265f92"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/edge-detect/edge_detect.xml:80(None)
+msgid ""
+"@@image: 'images/filters/examples/edge-taj-edge-gradient.jpg'; "
+"md5=06b2b82013f2617d748559ba7c314276"
+msgstr ""
+"@@image: 'images/filters/examples/edge-taj-edge-gradient.jpg'; "
+"md5=06b2b82013f2617d748559ba7c314276"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/edge-detect/edge_detect.xml:92(None)
+msgid ""
+"@@image: 'images/filters/examples/edge-taj-edge-roberts.jpg'; "
+"md5=aaadede924def8aa6183c63b26929d2b"
+msgstr ""
+"@@image: 'images/filters/examples/edge-taj-edge-roberts.jpg'; "
+"md5=aaadede924def8aa6183c63b26929d2b"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/edge-detect/edge_detect.xml:101(None)
+msgid ""
+"@@image: 'images/filters/examples/edge-taj-edge-differential.jpg'; "
+"md5=7e233288e2c0f378ba813a01d234f709"
+msgstr ""
+"@@image: 'images/filters/examples/edge-taj-edge-differential.jpg'; "
+"md5=7e233288e2c0f378ba813a01d234f709"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/edge-detect/edge_detect.xml:113(None)
+msgid ""
+"@@image: 'images/filters/examples/edge-taj-edge-laplace.jpg'; "
+"md5=d1f94b3d27ce75483a0a081352be5d10"
+msgstr ""
+"@@image: 'images/filters/examples/edge-taj-edge-laplace.jpg'; "
+"md5=d1f94b3d27ce75483a0a081352be5d10"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/edge-detect/edge_detect.xml:141(None)
+msgid ""
+"@@image: 'images/filters/edge-detect/edge.png'; "
+"md5=3d3619da89d86a3ed01d9918387b8d47"
+msgstr ""
+"@@image: 'images/filters/edge-detect/edge.png'; "
+"md5=3d3619da89d86a3ed01d9918387b8d47"
+
+#: src/filters/edge-detect/edge_detect.xml:14(title)
+#: src/filters/edge-detect/edge_detect.xml:19(tertiary)
+#: src/filters/edge-detect/edge_detect.xml:22(primary)
+msgid "Edge"
+msgstr ""
+"അറ്റം"
+
+#: src/filters/edge-detect/edge_detect.xml:25(primary)
+#: src/filters/edge-detect/edge_detect.xml:152(guilabel)
+#: src/filters/edge-detect/sobel.xml:13(title)
+#: src/filters/edge-detect/sobel.xml:18(tertiary)
+#: src/filters/edge-detect/sobel.xml:21(primary)
+msgid "Sobel"
+msgstr ""
+"സോബൽ"
+
+#: src/filters/edge-detect/edge_detect.xml:28(primary)
+#: src/filters/edge-detect/edge_detect.xml:188(guilabel)
+#: src/filters/edge-detect/laplace.xml:12(title)
+#: src/filters/edge-detect/laplace.xml:17(tertiary)
+#: src/filters/edge-detect/laplace.xml:20(primary)
+msgid "Laplace"
+msgstr ""
+".പരിപൂർണ്ണ"
+
+#: src/filters/edge-detect/edge_detect.xml:31(primary)
+#: src/filters/edge-detect/edge_detect.xml:176(guilabel)
+msgid "Roberts"
+msgstr ""
+"റോബർട്സ്"
+
+#: src/filters/edge-detect/edge_detect.xml:34(primary)
+#: src/filters/edge-detect/edge_detect.xml:167(guilabel)
+msgid "Gradient"
+msgstr ""
+"ഗ്രേഡിയന്റ്"
+
+#: src/filters/edge-detect/edge_detect.xml:37(primary)
+#: src/filters/edge-detect/edge_detect.xml:161(guilabel)
+msgid "Prewitt compass"
+msgstr ""
+"Prewitt കോമ്പസ്"
+
+#: src/filters/edge-detect/edge_detect.xml:40(primary)
+#: src/filters/edge-detect/edge_detect.xml:182(guilabel)
+msgid "Differential"
+msgstr ""
+"ഡിഫറൻഷ്യൽ"
+
+#: src/filters/edge-detect/edge_detect.xml:46(title)
+#: src/filters/edge-detect/edge_detect.xml:88(title)
+#: src/filters/edge-detect/edge_detect.xml:109(title)
+msgid "Applying example for the Edge filter"
+msgstr ""
+"അഗ്രം ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്"
+
+#: src/filters/edge-detect/edge_detect.xml:62(para)
+msgid "After applying the filter (Sobel option)"
+msgstr ""
+"ഫിൽട്ടർ (സോബൽ ഓപ്ഷൻ) പ്രയോഗിച്ച ശേഷം"
+
+#: src/filters/edge-detect/edge_detect.xml:67(title)
+msgid "Applying examples for the Edge filter"
+msgstr ""
+"അഗ്രം അരിപ്പ അപേക്ഷിക്കുന്ന ഉദാഹരണങ്ങൾ"
+
+#: src/filters/edge-detect/edge_detect.xml:74(para)
+msgid "After applying the filter (Prewitt compass option)"
+msgstr ""
+"ഫിൽട്ടർ (Prewitt കോമ്പസ് ഓപ്ഷൻ) പ്രയോഗിച്ച ശേഷം"
+
+#: src/filters/edge-detect/edge_detect.xml:83(para)
+msgid "After applying the filter (Gradient option)"
+msgstr ""
+"ഫിൽട്ടർ (ഗ്രേഡിയന്റ് ഓപ്ഷൻ) പ്രയോഗിച്ച ശേഷം"
+
+#: src/filters/edge-detect/edge_detect.xml:95(para)
+msgid "After applying the filter (Roberts option)"
+msgstr ""
+"ഫിൽട്ടർ (റോബർട്സ് ഓപ്ഷൻ) പ്രയോഗിച്ച ശേഷം"
+
+#: src/filters/edge-detect/edge_detect.xml:104(para)
+msgid "After applying the filter (Differential option)"
+msgstr ""
+"ഫിൽട്ടർ (ഡിഫറൻഷ്യൽ ഓപ്ഷൻ) പ്രയോഗിച്ച ശേഷം"
+
+#: src/filters/edge-detect/edge_detect.xml:116(para)
+msgid "After applying the filter (Laplace option)"
+msgstr ""
+"ഫിൽട്ടർ (.പരിപൂർണ്ണ ഓപ്ഷൻ) പ്രയോഗിച്ച ശേഷം"
+
+#: src/filters/edge-detect/edge_detect.xml:124(para)
+msgid ""
+"You can find this filter through <menuchoice><guimenu>Filters</"
+"guimenu><guisubmenu>Edge-Detect</guisubmenu><guimenuitem>Edge...</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Edge-Detect</guisu"
+"bmenu><guimenuitem>Edge...</guimenuitem></menuchoice> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെ"
+"ത്താൻ കഴിയും."
+
+#: src/filters/edge-detect/edge_detect.xml:137(title)
+msgid "Edge filter options"
+msgstr ""
+"എഡ്ജ് ഫിൽട്ടർ ഓപ്ഷനുകൾ"
+
+#: src/filters/edge-detect/edge_detect.xml:147(term)
+msgid "Algorithm"
+msgstr ""
+"അല്ഗോരിതം"
+
+#: src/filters/edge-detect/edge_detect.xml:150(para)
+msgid "Edge detector offers several detection methods:"
+msgstr ""
+"അഗ്രം ഡിറ്റക്ടർ നിരവധി കണ്ടെത്തൽ രീതികൾ പ്രദാനം:"
+
+#: src/filters/edge-detect/edge_detect.xml:154(para)
+msgid ""
+"Here, this method has no options and so is less interesting than the "
+"specific Sobel."
+msgstr ""
+"ഇവിടെ, ഈ രീതി ഒരു ഉപാധികളും ഉണ്ട് അങ്ങനെ നിർദ്ദിഷ്ട സോബൽ കുറവാണ് രസകരമാണ്."
+
+#: src/filters/edge-detect/edge_detect.xml:163(para)
+msgid "Result doesn't look different from Sobel."
+msgstr ""
+"ഫലം സോബൽ നിന്ന് വ്യത്യസ്തമായ തോന്നുന്നില്ല."
+
+#: src/filters/edge-detect/edge_detect.xml:169(para)
+msgid "Edges are thinner, less contrasted and more blurred than Sobel."
+msgstr ""
+"പാനലുമായും കട്ടി കുറവ് പ്രതികൂലമായ ഒപ്പം സോബൽ കൂടുതൽ മാഞ്ഞു പോകുന്നു."
+
+#: src/filters/edge-detect/edge_detect.xml:178(para)
+msgid "No evident difference from Sobel."
+msgstr ""
+"സോബൽ നിന്ന് യാതൊരു വ്യത്യാസം."
+
+#: src/filters/edge-detect/edge_detect.xml:184(para)
+msgid "Edges less bright."
+msgstr ""
+"കുറവ് മിനുക്കിയ അരികുകളും."
+
+#: src/filters/edge-detect/edge_detect.xml:190(para)
+msgid "Less interesting than the specific one."
+msgstr ""
+"നിർദ്ദിഷ്ട ഒറ്റ കുറവ് രസകരമായ."
+
+#: src/filters/edge-detect/edge_detect.xml:199(para)
+msgid ""
+"A low value results in black, high-contrasted image with thin edges. A high "
+"value results in thick edges with low contrast and many colors in dark areas."
+msgstr ""
+"നേർത്ത അറ്റങ്ങൾ കറുത്ത, ഉയർന്ന പ്രതികൂലമായ സ്വരൂപത്തിൽ ഒരു താഴ്ന്ന മൂല്യം ഫ"
+"ലങ്ങൾ. താഴ്ന്ന ദൃശ്യ ഇരുണ്ട മേഖലകളില് ധാരാളം നിറങ്ങളിലുള്ള കട്ടിയുള്ള വേണമങ"
+"്കിലും ഒരു ഉയർന്ന മൂല്യം ഫലങ്ങൾ."
+
+#: src/filters/edge-detect/edge_detect.xml:207(term)
+msgid "Wrap"
+msgstr ""
+"പൊതിയുക"
+
+#: src/filters/edge-detect/edge_detect.xml:208(term)
+msgid "Smear"
+msgstr ""
+"പൂശുക"
+
+#: src/filters/edge-detect/edge_detect.xml:209(term)
+msgid "Black"
+msgstr ""
+"കറുത്ത"
+
+#: src/filters/edge-detect/edge_detect.xml:211(para)
+msgid ""
+"Where the edge detector will get adjoining pixels for its calculations when "
+"it is working on the image boundaries. This option will only have an effect "
+"on the boundaries of the result (if any). <guilabel>Smear</guilabel> is the "
+"default and the best choice."
+msgstr ""
+"അത് ചിത്രത്തിന്റെ അതിരുകൾ പ്രവർത്തിക്കുന്നു വരുമ്പോൾ എഡ്ജ് ഡിറ്റക്ടർ അതിന്"
+"റെ കണക്കുകൂട്ടലുകൾ വേണ്ടി സമീപപ്രദേശങ്ങളിലും ചെയ്യും എവിടെ പിക്സലുകൾ. ഈ ഓപ്"
+"ഷൻ മാത്രം ഫലം (ഉണ്ടെങ്കിൽ) അതിർത്തികളിൽ കാര്യമായി ബാധിക്കുക. <guilabel>Smea"
+"r</guilabel> സ്ഥിര, മികച്ച ചോയ്സ്."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/edge-detect/introduction.xml:29(None)
+msgid ""
+"@@image: 'images/filters/edge-detect/gradient-calculation-fig.png'; "
+"md5=ee936b1851be85e0f27a792e9064c7b6"
+msgstr ""
+"@@image: 'images/filters/edge-detect/gradient-calculation-fig.png'; "
+"md5=ee936b1851be85e0f27a792e9064c7b6"
+
+#: src/filters/edge-detect/introduction.xml:9(title)
+#: src/filters/edge-detect/introduction.xml:13(tertiary)
+msgid "Introduction"
+msgstr ""
+"അവതാരിക"
+
+#: src/filters/edge-detect/introduction.xml:16(primary)
+msgid "Edge-Detect"
+msgstr ""
+"അഗ്രം-തിരിച്ചറിയൽ"
+
+#: src/filters/edge-detect/introduction.xml:18(para)
+msgid ""
+"Edge detect filters search for borders between different colors and so can "
+"detect contours of objects."
+msgstr ""
+"അഗ്രം വ്യത്യസ്ത നിറങ്ങൾ അങ്ങനെ വസ്തുക്കളുടെ ഭഗവനേന് തിരിച്ചറിയാൻ കഴിയും അതി"
+"രുകളിലൂടെയാണ് ഫിൽട്ടറുകൾ തിരയൽ തിരിച്ചറിഞ്ഞിരിക്കുന്നു."
+
+#: src/filters/edge-detect/introduction.xml:22(para)
+msgid "They are used to make selections and for many artistic purposes."
+msgstr ""
+"അവർ തെരഞ്ഞെടുക്കുവാൻ പല കലാപരമായ ആവശ്യങ്ങൾക്കായി ഉപയോഗിക്കുന്നു."
+
+#: src/filters/edge-detect/introduction.xml:32(para)
+msgid ""
+"Most of them are based on gradient calculation methods and give thick border "
+"lines. Look at fig.1 which represents color intensity variations. On the "
+"left is a slow color gradient which is not a border. On the right is a quick "
+"variation which is an edge. Now, let us calculate the gradient, the "
+"variation speed, of this edge, i.e. the first derivative (fig.2). We have to "
+"decide that a border is detected when gradient is more than a threshold "
+"value (the exact border is at top of the curve, but this top varies "
+"according to borders). In most cases, threshold is under top and border is "
+"thick."
+msgstr ""
+"അവരിൽ മിക്കവരും വ്യത്യാസത്തിനു കണക്കുകൂട്ടൽ രീതികൾ അടിസ്ഥാനമാക്കി കട്ടിയുള്"
+"ള അതിർത്തി ലൈനുകളും നല്കുന്നു. നിറം തീവ്രത വ്യതിയാനങ്ങൾ പ്രതിനിധീകരിക്കുന്ന"
+" fig.1 നോക്കൂ. ഇടതുവശത്ത് ഒരു അതിർ അല്ലാത്ത സ്ലോ വർണ്ണ ഗ്രേഡിയന്റ് ആണ്. വ"
+"ലത് ഒരു എഡ്ജ് ആണ് പെട്ടെന്നുള്ള ഗൃഹാതുരത്വം തന്നെ. ഇപ്പോൾ ഈ മുകളറ്റത്തെ, ഞ"
+"ങ്ങളെ ഗ്രേഡിയന്റ്, കണക്കാക്കാനുള്ള വ്യത്യാസങ്ങളെ സ്പീഡ് അതായത് ആദ്യ ഡെറിവേറ"
+"്റീവ് (fig.2) ചെയ്യട്ടെ. നാം ഗ്രേഡിയന്റ് (കൃത്യമായ അതിർത്തി കർവ് മുകളിൽ, എന"
+"്നാൽ ഈ മുകളിൽ അതിർ ഇങ്ങനെ വ്യത്യാസപ്പെടുന്നു) ഒരു ഉമ്മരപ്പടി മൂല്യം കൂടുതലാ"
+"ണെങ്കിൽ ഒരു അതിർ കണ്ടെത്തി എന്ന് തീരുമാനിക്കുക. മിക്കപ്പോഴും, ദൂരമാണു മുകള"
+"ിൽ കീഴിലുള്ള അതിർ കട്ടിയുള്ള."
+
+#: src/filters/edge-detect/introduction.xml:43(para)
+msgid ""
+"The Laplacian edge detection uses the second derivative (fig.3). The top of "
+"the curve is now at zero and clearly identified. That's why Laplace filter "
+"renders a thin border, only a pixel wide. But this derivative gives several "
+"zeros corresponding to small ripples, resulting in false edges."
+msgstr ""
+"Laplacian എഡ്ജ് കണ്ടെത്തൽ രണ്ടാം ഡെറിവേറ്റീവ് (fig.3) ഉപയോഗിക്കുന്നു. കർവ്"
+" മുകളിൽ പൂജ്യം ഇപ്പോൾ വ്യക്തമായി തിരിച്ചറിഞ്ഞു. .പരിപൂർണ്ണ ഫിൽട്ടർ നേർത്ത "
+"അതിർ, വൈഡ് മാത്രം ഒരു പിക്സൽ റെൻഡർ കൊണ്ടുവന്നിട്ടുള്ളത്. എന്നാൽ ഈ ഡെറിവേറ്"
+"റീവ് ഫാൾസ് വേണമങ്കിലും കാരണമാവാറുണ്ട് ചെറിയ അലകൾ പൊരുത്തപ്പെടുന്ന നിരവധി പ"
+"ൂജ്യങ്ങൾ നൽകുന്നു."
+
+#: src/filters/edge-detect/introduction.xml:50(para)
+msgid ""
+"Some blurring before applying edge filters is often necessary: it flattens "
+"small ripples in signal and so prevents false edges."
+msgstr ""
+"എഡ്ജ് ഫിൽട്ടറുകൾ പ്രയോഗിക്കുന്നതിനു മുമ്പായി മങ്ങിക്കലിനോ ചില പലപ്പോഴും "
+"ആവശ്യമാണ്: അതു സിഗ്നൽ ചെറിയ അലകൾ flattens അങ്ങനെ കള്ള അറ്റങ്ങൾ തടയുന്നു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/edge-detect/laplace.xml:39(None)
+msgid ""
+"@@image: 'images/filters/examples/edge-taj-laplace.jpg'; "
+"md5=660967cbf403696ecf6ecf5566e3f70b"
+msgstr ""
+"@@image: 'images/filters/examples/edge-taj-laplace.jpg'; "
+"md5=660967cbf403696ecf6ecf5566e3f70b"
+
+#: src/filters/edge-detect/laplace.xml:26(title)
+msgid "Applying example for the Laplace filter"
+msgstr ""
+".പരിപൂർണ്ണ ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്"
+
+#: src/filters/edge-detect/laplace.xml:42(para)
+msgid "Filter <quote>Laplace</quote> applied"
+msgstr ""
+"<quote>Laplace</quote> ഫിൽട്ടറിന്"
+
+#: src/filters/edge-detect/laplace.xml:46(para)
+msgid ""
+"This filter detects edges in the image using Laplacian method, which "
+"produces thin, pixel wide borders."
+msgstr ""
+"ഈ ഫിൽട്ടർ നേർത്ത, പിക്സൽ അതിരുകൾ ഉല്പാദിപ്പിക്കുന്നത് Laplacian രീതി, ഉപയോ"
+"ഗിച്ച് സ്വരൂപത്തിൽ അറ്റങ്ങൾ കണ്ടുപിടിക്കുന്നു."
+
+#: src/filters/edge-detect/laplace.xml:54(para)
+msgid ""
+"You can find this filter through <menuchoice><guimenu>Filtres</"
+"guimenu><guisubmenu>Edge-Detect</guisubmenu><guimenuitem>Laplace</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filtres</guimenu><guisubmenu>Edge-Detect</guisu"
+"bmenu><guimenuitem>Laplace</guimenuitem></menuchoice> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെ"
+"ത്താൻ കഴിയും."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/edge-detect/sobel.xml:40(None)
+msgid ""
+"@@image: 'images/filters/examples/edge-taj-sobel.jpg'; "
+"md5=4d18dafa3f3e6d248e754068f817410e"
+msgstr ""
+"@@image: 'images/filters/examples/edge-taj-sobel.jpg'; "
+"md5=4d18dafa3f3e6d248e754068f817410e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/edge-detect/sobel.xml:74(None)
+msgid ""
+"@@image: 'images/filters/edge-detect/sobel.png'; "
+"md5=958f549ef66c35f02f14563ac3fbf2ae"
+msgstr ""
+"@@image: 'images/filters/edge-detect/sobel.png'; "
+"md5=958f549ef66c35f02f14563ac3fbf2ae"
+
+#: src/filters/edge-detect/sobel.xml:27(title)
+msgid "Applying example of the Sobel filter"
+msgstr ""
+"സോബൽ അരിപ്പ മാതൃക ബാധകമാക്കുന്നത്"
+
+#: src/filters/edge-detect/sobel.xml:43(para)
+msgid "Filter <quote>Sobel</quote> applied"
+msgstr ""
+"<quote>Sobel</quote> ഫിൽട്ടറിന്"
+
+#: src/filters/edge-detect/sobel.xml:47(para)
+msgid ""
+"Sobel's filter detects horizontal and vertical edges separately on a scaled "
+"image. Color images are turned into RGB scaled images. As with the Laplace "
+"filter, the result is a transparent image with black lines and some rest of "
+"colors."
+msgstr ""
+"സോബൽ ൻറെ ഫിൽറ്റർ ഒരു സ്കെയിൽ ചിത്രത്തിൽ വെവ്വേറെ തിരശ്ചീന, ലംബ അറ്റങ്ങൾ കണ"
+"്ടുപിടിക്കുന്നു. കളർ ചിത്രങ്ങൾ ആർജിബി അളന്ന ചിത്രങ്ങൾ മാറി ചെയ്യുന്നു. .പരി"
+"പൂർണ്ണ അരിപ്പ പോലെ, ഫലം കറുത്ത ചരടും സുതാര്യമായ ചിത്രം വർണ്ണങ്ങളും ചില ആശ്"
+"വാസം."
+
+#: src/filters/edge-detect/sobel.xml:57(para)
+msgid ""
+"You can find this filter through <menuchoice><guimenu>Filters</"
+"guimenu><guisubmenu>Edge-Detect</guisubmenu><guimenuitem>Sobel</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Edge-Detect</guisu"
+"bmenu><guimenuitem>Sobel</guimenuitem></menuchoice> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്"
+"താൻ കഴിയും."
+
+#: src/filters/edge-detect/sobel.xml:70(title)
+msgid "Sobel filter options"
+msgstr ""
+"സോബൽ ഫിൽട്ടർ ഓപ്ഷനുകൾ"
+
+#: src/filters/edge-detect/sobel.xml:80(term)
+msgid "Preview"
+msgstr ""
+"പ്രിവ്യൂ"
+
+#: src/filters/edge-detect/sobel.xml:82(para)
+msgid ""
+"If checked, changes in the image are displayed in the Preview in real time "
+"before being applied to the image."
+msgstr ""
+"ചെക്കുചെയ്തെങ്കിൽ, ചിത്രം മാറ്റങ്ങൾ ചിത്രം പ്രയോഗിക്കുന്നു മുമ്പ് തത്സമയം "
+"പ്രിവ്യൂ പ്രദർശിപ്പിക്കുന്നു."
+
+#: src/filters/edge-detect/sobel.xml:89(term)
+msgid "Sobel horizontally"
+msgstr ""
+"സോബൽ തിരശ്ചീനമായി"
+
+#: src/filters/edge-detect/sobel.xml:91(para)
+msgid "Renders near horizontal edges."
+msgstr ""
+"തിരശ്ചീനമായ അരികുകളിൽ റെൻഡർ ചെയ്യുന്നു."
+
+#: src/filters/edge-detect/sobel.xml:95(term)
+msgid "Sobel vertically"
+msgstr ""
+"സോബൽ ലംബമായി"
+
+#: src/filters/edge-detect/sobel.xml:97(para)
+msgid "Renders near vertical edges."
+msgstr ""
+"ലംബമായ അരികുകളിൽ റെൻഡർ ചെയ്യുന്നു."
+
+#: src/filters/edge-detect/sobel.xml:101(term)
+msgid "Keep sign of result"
+msgstr ""
+"ഫലം അടയാളം നിലനിർത്തുക"
+
+#: src/filters/edge-detect/sobel.xml:103(para)
+msgid ""
+"This option allows you to set how the filter will work if you have selected "
+"one direction for use only: a flat relief with bumps and hollows will be "
+"created."
+msgstr ""
+"ബമ്പുകളും hollows ഒരു പരന്ന ആശ്വാസം സൃഷ്ടിക്കപ്പെടും: ഈ ഉപാധി മാത്രമേ ഉപയോ"
+"ഗത്തിനായി ഒരു വഴിക്കു തെരഞ്ഞെടുത്തിട്ടുണ്ട് എങ്കിൽ എങ്ങനെ ഫിൽട്ടർ പ്രവർത്തി"
+"ക്കും സജ്ജീകരിക്കാൻ അനുവദിക്കുന്നു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/edge-detect/dog.xml:41(None)
+msgid ""
+"@@image: 'images/filters/examples/edge-taj-dog.jpg'; "
+"md5=c1cf8d5f034e33c630c850ca2698d8df"
+msgstr ""
+"@@image: 'images/filters/examples/edge-taj-dog.jpg'; "
+"md5=c1cf8d5f034e33c630c850ca2698d8df"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/edge-detect/dog.xml:89(None)
+msgid ""
+"@@image: 'images/filters/edge-detect/diff-gauss.png'; "
+"md5=0a0fe6785a5995ef1728f7d64a27bfbc"
+msgstr ""
+"@@image: 'images/filters/edge-detect/diff-gauss.png'; "
+"md5=0a0fe6785a5995ef1728f7d64a27bfbc"
+
+#: src/filters/edge-detect/dog.xml:12(title)
+#: src/filters/edge-detect/dog.xml:17(tertiary)
+#: src/filters/edge-detect/dog.xml:20(primary)
+msgid "Difference of Gaussians"
+msgstr ""
+"Gaussians എന്ന വ്യത്യാസം"
+
+#: src/filters/edge-detect/dog.xml:26(title)
+msgid "Applying example for the <quote>Difference of Gaussians</quote> filter"
+msgstr ""
+"<quote>Difference of Gaussians</quote> ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്"
+
+#: src/filters/edge-detect/dog.xml:44(para)
+msgid "Filter <quote>Difference of Gaussians</quote> applied"
+msgstr ""
+"<quote>Difference of Gaussians</quote> ഫിൽട്ടറിന്"
+
+#: src/filters/edge-detect/dog.xml:48(para)
+msgid ""
+"This filter does edge detection using the so-called <quote>Difference of "
+"Gaussians</quote> algorithm, which works by performing two different "
+"Gaussian blurs on the image, with a different blurring radius for each, and "
+"subtracting them to yield the result. This algorithm is very widely used in "
+"artificial vision (maybe in biological vision as well!), and is pretty fast "
+"because there are very efficient methods for doing Gaussian blurs. The most "
+"important parameters are the blurring radii for the two Gaussian blurs. It "
+"is probably easiest to set them using the preview, but it may help to know "
+"that increasing the smaller radius tends to give thicker-appearing edges, "
+"and decreasing the larger radius tends to increase the <quote>threshold</"
+"quote> for recognizing something as an edge. In most cases you will get "
+"nicer results if Radius 2 is smaller than Radius 1, but nothing prevents you "
+"from reversing them, and in situations where you have a light figure on the "
+"dark background, reversing them may actually improve the result."
+msgstr ""
+"ഈ ഫിൽട്ടർ ഓരോ മറ്റൊരു ബ്ലറിംഗ് വ്യാസാർദ്ധം, ചിത്രത്തിൽ രണ്ട് വ്യത്യസ്ത ഗേ"
+"ാഷ്യൻ മങ്ങിച്ചാൽ നടപ്പിലാക്കുമ്പോൾ, ഫലം വഴങ്ങാൻ അവരെ കുറച്ചാണ് പ്രവർത്തിക്"
+"കുന്നു വിളിക്കപ്പെടുന്ന <quote>Difference of Gaussians</quote> അൽഗോരിതം ഉപ"
+"യോഗിച്ച് ഈ എഡ്ജ് കണ്ടെത്തൽ ചെയ്യുന്നു. ഈ അൽഗോരിതം വളരെ വ്യാപകമായി കൃത്രിമ"
+" ദർശനത്തിൽ ഉപയോഗിക്കുന്ന (ഒരുപക്ഷെ ജൈവ ദർശനം പോലെ നന്നായി!), ഒപ്പം ഗോഷ്യ"
+"ൻ മങ്ങിച്ചാൽ ചെയ്യുന്നത് വളരെ കാര്യക്ഷമമായ രീതികൾ ഉള്ളതിനാൽ പ്രെറ്റി ഫാസ്റ്"
+"റ് ആണ്. ഏറ്റവും പ്രധാനപ്പെട്ട പാരാമീറ്ററുകൾ രണ്ട് ഗോഷ്യൻ മങ്ങിച്ചാൽ വേണ്ടി"
+" ബ്ലറിംഗ് ആരം ആകുന്നു. ഇത് ഒരുപക്ഷേ പ്രിവ്യൂ ഉപയോഗിച്ച് അവരെ സജ്ജമാക്കാൻ എ"
+"ളുപ്പമാണെങ്കിലും, എന്നാൽ അതു ചെറിയ ആരം വർദ്ധിച്ചുവരുന്ന കനമേ-ഹാജരായ വേണമങ്ക"
+"ിലും നൽകാൻ കുറവും, വലിയ ആരം കുറയുകയും ഒരു സുഘമാനെന്നോ എന്തെങ്കിലും റെക്കഗ്"
+"നൈസിംഗ് <quote>threshold</quote> കൂട്ടുമെന്ന് ആനകൾ അറിയാൻ സഹായിച്ചേക്കാം. റ"
+"േഡിയസ് 2 റേഡിയസ് 1 ചെറുതാണ് എങ്കിൽ ഒന്നും അവരെ വ്യാപൃതനായി തടയുന്ന, നിങ്ങൾ "
+"ഇരുണ്ട പശ്ചാത്തലത്തിൽ ഒരു വെളിച്ചം കണക്കുകൾ എവിടെ സാഹചര്യങ്ങളിൽ അവരെ വ്യാപൃ"
+"തനായി യഥാർത്ഥത്തിൽ ഫലം മെച്ചപ്പെടുത്തും. മിക്കപ്പോഴും നിങ്ങൾ റാംജീ ഫലങ്ങളു"
+"ം ലഭിക്കും"
+
+#: src/filters/edge-detect/dog.xml:70(para)
+msgid ""
+"You can find this filter through <menuchoice><guimenu>Filters</"
+"guimenu><guisubmenu>Edge-Detect</guisubmenu><guimenuitem>Difference of "
+"Gaussians</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Edge-Detect</guisu"
+"bmenu><guimenuitem>Difference of Gaussians</guimenuitem></menuchoice> മുഖേന"
+" ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും."
+
+#: src/filters/edge-detect/dog.xml:83(title)
+msgid "Gaussian Difference filter options"
+msgstr ""
+"ഗോഷ്യൻ വ്യത്യാസം ഫിൽട്ടർ ഓപ്ഷനുകൾ"
+
+#: src/filters/edge-detect/dog.xml:95(term)
+msgid "Smoothing Parameters"
+msgstr ""
+"മാർദ്ദവപ്പെടുത്തൽ പരാമീറ്ററുകൾ"
+
+#: src/filters/edge-detect/dog.xml:97(para)
+msgid ""
+"<guilabel>Radius 1</guilabel> and <guilabel>Radius 2</guilabel> are the "
+"blurring radii for the two Gaussian blurs. The only constraints on them is "
+"that they cannot be equal, or else the result will be a blank image. If you "
+"want to produce something that looks like a sketch, in most cases setting "
+"<quote>Radius&nbsp;2</quote> smaller than <quote>Radius&nbsp;1</quote> will "
+"give better results."
+msgstr ""
+"<guilabel>Radius 1</guilabel> ആൻഡ് <guilabel>Radius 2</guilabel> രണ്ട് ഗോഷ"
+"്യൻ മങ്ങിച്ചാൽ വേണ്ടി ബ്ലറിംഗ് ആരം ആകുന്നു. അവരെ മാത്രം നിയന്ത്രണങ്ങൾ അവർ ത"
+"ുല്യമോ കഴിയും, അല്ലെങ്കിൽ മറ്റാരെങ്കിലും ഫലം ഒരു ബ്ലാങ്ക് ഇമേജ് ആയിരിക്കും"
+" ആണ്. നിങ്ങൾ ഒരു സ്കെച്ച് പോലെ കാണപ്പെടുന്ന മിക്കപ്പോഴും <quote>Radius 2<"
+"/quote> <quote>Radius 1</quote> മെച്ചപ്പെട്ട ഫലങ്ങൾ തരും ചെറുതാണ് ക്രമീകരിക"
+"്കുന്നതിൽ എന്തെങ്കിലും ഹാജരാക്കണം ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ."
+
+#: src/filters/edge-detect/dog.xml:109(term)
+msgid "Normalize"
+msgstr ""
+"സാധാരണവത്കരിക്കാനും"
+
+#: src/filters/edge-detect/dog.xml:111(para)
+msgid ""
+"Checking this box causes the brightness range in the result to be stretched "
+"as much as possible, increasing contrast. Note that in the preview, only the "
+"part of the image that is shown is taken into account, so with "
+"<guilabel>Normalize</guilabel> checked the preview is not completely "
+"accurate. (It is accurate except in terms of global contrast, though.)"
+msgstr ""
+"ഈ ബോക്സ് പരിശോധിക്കുന്നു, കഴിയുന്നിടത്തോളം വർദ്ധിച്ചുവരുന്ന വൈരുദ്ധ്യത്ത"
+"ിൽ നീട്ടി ഫലം ലെ തെളിച്ചം പരിധി കാരണമാകുന്നു. പ്രിവ്യൂ, കാണിച്ചിരിക്കുന്ന ച"
+"ിത്രം ഭാഗം മാത്രം <guilabel>Normalize</guilabel> പ്രിവ്യൂ പൂർണ്ണമായും കൃത്യ"
+"മല്ല ചെക്കുചെയ്തിട്ടുണ്ടെങ്കിൽ അതുപോലെ, കണക്കിലെടുക്കുക ശ്രദ്ധിക്കുക. (അത്"
+" കൃത്യമായും എങ്കിലും ആഗോള തീവ്രത കണക്കിലെടുത്ത് പാടില്ല.)"
+
+#: src/filters/edge-detect/dog.xml:122(term)
+msgid "Invert"
+msgstr ""
+"വിപരീതം"
+
+#: src/filters/edge-detect/dog.xml:124(para)
+msgid ""
+"Checking this box inverts the result, so that you see dark edges on a white "
+"background, giving something that looks more like a drawing."
+msgstr ""
+"നിങ്ങൾ കൂടുതൽ ഒരു ഡ്രോയിംഗ് പോലെ കാണപ്പെടുന്ന എന്തെങ്കിലും നൽകുന്ന ഒരു വെ"
+"ളുത്ത പശ്ചാത്തലത്തിൽ ഇരുണ്ട അറ്റങ്ങൾ കാണുന്നു ഈ ബോക്സ് പരിശോധിക്കുന്നു, ഫ"
+"ലം inverts."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/filters/edge-detect/dog.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"

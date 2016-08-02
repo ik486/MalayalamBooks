@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters.html" title="പാഠം 17. ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="filters.html" title="പാഠം 17. ഫിൽട്ടറുകൾ" />
+    <link rel="next" href="plug-in-blur.html" title="2.2. ഇഫക്റ്റ്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="filters.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">പാഠം 17. ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-blur.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect1">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a id="filters-blur"></a>2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ</h2>
+          </div>
+        </div>
+      </div>
+      <div class="sect2">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a id="filters-blur-introduction"></a>2.1. അവതാരിക</h3>
+            </div>
+          </div>
+        </div>
+        <a id="idp46925521269520" class="indexterm"></a>
+        <div class="figure">
+          <a id="idp46925521268592"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.2. ഡെമോ അസൽ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/blur-demo-orig.png" alt="ഡെമോ അസൽ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ വിവിധ വഴികളിൽ, ചിത്രങ്ങൾ ബ്ലർ ഫിൽട്ടറുകൾ, അവയുടെ ഭാഗങ്ങളായ ഒരു കൂട്ടം. ഒരു നിരക്കു അവിടെ ഉണ്ടെങ്കിൽ, ഒരു ചിത്രത്തിന്റെ മാത്രമേ തിരഞ്ഞെടുത്ത ഭാഗങ്ങൾ മങ്ങിക്കപ്പെടും. അവിടെ എന്നിരുന്നാലും, മങ്ങിയ പ്രദേശത്ത് unblurred പ്രദേശത്ത് നിന്ന് നിറങ്ങൾ ചില ചോർച്ച ആയിരിക്കും. നിങ്ങൾ ആഗ്രഹിക്കുന്ന തിരഞ്ഞെടുക്കുക സഹായിക്കുന്നതിന്, വലതുഭാഗത്ത് കൊടുത്തിരിക്കുന്നു ചിത്രം പ്രയോഗിക്കാൻ ഓരോ ചെയ്യുന്നതു എന്തു വിശദീകരിയ്ക്കുന്നു ചെയ്യും. ഈ കോഴ്സ്, ആകുന്നു മാത്രം ഉദാഹരണങ്ങൾ: ഫിൽറ്ററുകൾ ഏറ്റവും മങ്ങൽ വസ്തുവിൽ അല്ലെങ്കിൽ തരം വ്യത്യാസപ്പെടാം അനുവദിക്കുന്ന പാരാമീറ്റർ ക്രമീകരണങ്ങൾ ഉണ്ട്.</p>
+        <div class="figure">
+          <a id="idp46925521258624"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.3. ഗോഷ്യൻ മങ്ങൽ (ആരം 10)</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/blur-demo-gauss10.png" alt="ഗോഷ്യൻ മങ്ങൽ (ആരം 10)" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഏറ്റവും വീതിയേറിയ ഈ ഉപയോഗപ്രദമായ ഗോഷ്യൻ മങ്ങൽ ആണ്. (പറയരുതേ; വചനം "ഗോഷ്യൻ" നീ ഇടുക: ഈ ഫിൽട്ടർ ഏറ്റവും അടിസ്ഥാന വഴി തമാശയായി ഒരു ഇമേജ് ചെയ്യുന്നു.) അത് താരതമ്യേന ചെറിയ സമയം വളരെ മങ്ങിയതും മങ്ങൽ സൃഷ്ടിക്കാൻ അനുവദിക്കുന്ന ഒരു കാര്യക്ഷമമായ നടപ്പിലാക്കൽ ഉണ്ട്.</p>
+        <div class="figure">
+          <a id="idp46925510660640"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.4. ലളിത മങ്ങൽ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/blur-demo-blur.png" alt="ലളിത മങ്ങൽ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>നിങ്ങൾ മാത്രം ഇമേജ് ഒരു അല്പം ബ്ലർ ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ - അതു ഹാർഡ്നെസ്സ്, അതു പോലെ - നിങ്ങൾ ലളിതമായ "ഇഫക്റ്റ്" ഫിൽറ്റർ ഉപയോഗിച്ചേക്കാം. ഈ ഫിൽട്ടർ ഒരു ഡയലോഗ് ഉണ്ടാക്കാതെ, സ്വയം പ്രവർത്തിപ്പിക്കുന്നു. പ്രഭാവം നിങ്ങൾ പോലും ഇതിനെ ശ്രദ്ധിച്ചിരിക്കാനിടയുണ്ട് എന്നല്ല, നിങ്ങൾ അത് ആവര്ത്തിക്കുന്നു ശക്തമായ പ്രഭാവം ലഭിക്കും മതി തന്ത്രപൂർവം ആണ്. ജിമ്പ് 2.0 ഫിൽട്ടർ നിങ്ങൾ ഒരു "ആവർത്തിക്കുക എണ്ണം" സജ്ജമാക്കാൻ അനുവദിക്കുന്ന ഒരു ഡയലോഗ് കാണിക്കുന്നു. നിങ്ങൾ ഒരു ശക്തമായ ബ്ലറിംഗ് പ്രഭാവം ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, ഈ ഫിൽട്ടർ ഒരു നല്ല ആയിരിക്കും വളരെ സാവധാനത്തിലാണ്: പകരമായി ഒരു ഗോഷ്യൻ മങ്ങൽ ഉപയോഗിക്കുക.</p>
+        <div class="figure">
+          <a id="idp46925513463488"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.5. സെലക്ടീവ് മങ്ങൽ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/blur-demo-selective.png" alt="സെലക്ടീവ് മങ്ങൽ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>സെലക്ടീവ് മങ്ങിക്കൽ അരിപ്പ അങ്ങനെ പരസ്പരം സമാനമായ മാത്രമേ പിക്സലുകൾ ഒരുമിച്ചു മങ്ങിയിരിക്കും നിങ്ങൾ ഒരു ഉമ്മരപ്പടി സജ്ജീകരിക്കാൻ അനുവദിക്കുന്നു. പലപ്പോഴും മൂർച്ചയുള്ള അരികുകളും ബ്ലറിംഗ് ഇല്ലാതെ ഫോട്ടോകളിൽ graininess കുറയ്ക്കാൻ ഉപകരണമായി ഉപകാരപ്രദമാണ്. (ഉദാഹരണത്തിന്, പശ്ചാത്തല എന്ന graininess കുറഞ്ഞു ശ്രദ്ധിക്കുക.) നടപ്പിലാക്കൽ എങ്കിലും, ഒരു ഗോഷ്യൻ ഇഫക്റ്റ് അധികം പ്രതലപ്രവർത്തനവുമായിരുക്കും, അതിനാൽ നിങ്ങൾ ശരിക്കും selectivity വേണമെങ്കിൽ പോരാൻ അത് ഉപയോഗിക്കാൻ പാടില്ല.</p>
+        <div class="figure">
+          <a id="idp46925521260272"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.6. Pixelize</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/blur-demo-pixelize.png" alt="Pixelize" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>Pixelize അരിപ്പ വലിയ ചതുരം പിക്സൽ ഒരു കൂട്ടം ചിത്രം തിരിഞ്ഞ് അറിയപ്പെടുന്ന "എബ്രഹാം ലിങ്കൺ" ഇഫക്ട് ഉത്പാദിപ്പിക്കുന്നത്. (<a class="link" href="plug-in-oilify.html" title="10.7. Oilify">Oilify</a> ഫിൽട്ടർ, കലാസൃഷ്ടികൾ അരിപ്പകൾ സംഘത്തിൽ ഇതേ പ്രതീതി ഉണ്ട്, എന്നാൽ അനിയത കളേയും പകരം തികച്ചും ചതുരശ്ര പിക്സലുകൾ ഉള്ള.)</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[കുറിപ്പു്]" src="images/note.png" />
+              </td>
+              <th align="left">കുറിപ്പു്</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>നിങ്ങൾ <a class="xref" href="bibliography.html#bibliography-online-bach" title="ബ്ലോക്കുകളിൽ മുഖം">[<abbr class="abbrev">BACH04</abbr>]</a> ന് എബ്രഹാം ലിങ്കൺ പ്രഭാവമുള്ള ഒരു നല്ല വിശദീകരണവും കണ്ടെത്താൻ കഴിയും. നിങ്ങൾ അകലെ നിന്ന് അതു നോക്കി സമയത്ത് സാൽവഡോർ ടാലി ന്റെ പെയിന്റിംഗ് <span class="quote">“<span class="quote">Gala Contemplating the Mediterranean Sea</span>”</span> ഒരു എബ്രഹാം ലിങ്കൺ ഛായാചിത്രം തിരിയുന്ന കാണും.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="figure">
+          <a id="idp46925521327824"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.7. മോഷൻ മങ്ങൽ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/blur-demo-mblur.png" alt="മോഷൻ മങ്ങൽ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ലീനിയർ, റേഡിയൽ, അല്ലെങ്കിൽ പരിക്രമണസമമിതിയായി ഒന്നുകിൽ: മോഷൻ ബ്ലർ ഫിൽട്ടർ നിങ്ങൾ മോഷൻ പ്രതീതി സൃഷ്ടിക്കാൻ അനുവദിക്കുന്ന ഓരോ പോയിന്റിലും ഒരു പ്രത്യേക ദിശയിൽ, ലെ മങ്ങിച്ചാൽ.</p>
+        <p>ഒടുവിൽ Tileable ഇഫക്റ്റ് അരിപ്പ ശരിക്കും ഒരു ഗോഷ്യൻ മങ്ങൽ അതേ കാര്യം, അതു നിങ്ങൾ അരികെ ചിത്രം വശത്തു ഒന്നിലധികം പകർപ്പുകൾ ടൈലിംഗ് ഒരു പാറ്റേൺ സൃഷ്ടിക്കുമ്പോൾ നിങ്ങൾ എഡ്ജ് ഇഫക്റ്റുകൾ കുറയ്ക്കുന്നതിന് ഒരു ചിത്രം അറ്റങ്ങൾ റാപ് ഒഴികെ ആണ്.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[കുറിപ്പു്]" src="images/note.png" />
+              </td>
+              <th align="left">കുറിപ്പു്</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>Tileable ഇഫക്റ്റ് യഥാർത്ഥത്തിൽ ഗോഷ്യൻ മങ്ങൽ പ്ലഗ്-ഇൻ ഭവിക്കട്ടെ എന്ന് ഒരു സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ് നടപ്പാക്കുന്നത്.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="filters.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-blur.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="filters.html">പാഠം 17. ഫിൽട്ടറുകൾ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-blur.html">2.2. ഇഫക്റ്റ്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

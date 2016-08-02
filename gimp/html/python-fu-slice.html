@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>14.4. പൂളുക</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-web.html" title="14. വെബ് ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-semiflatten.html" title="14.3. സെമി പരത്തുക" />
+    <link rel="next" href="filters-animation.html" title="15. ആനിമേഷൻ ഫിൽട്ടറുകൾ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">14.4. പൂളുക</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-semiflatten.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">14. വെബ് ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="filters-animation.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="python-fu-slice"></a>14.4. പൂളുക</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925527258480" class="indexterm"></a>
+      <a id="idp46925527260288" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925527261184"></a>14.4.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925527261952"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.351. <span class="quote">“<span class="quote">Slice</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_guides.jpg" alt="“Slice” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>ഗൈഡുകൾ യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/web-taj-slice.jpg" alt="“Slice” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Slice</span>”</span> പ്രയോഗിച്ചു</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ ഒരു ലളിതമായ HTML ഫയലുകൾ ഉപയോഗിക്കുന്ന സെൻസിറ്റീവ് ചിത്രങ്ങൾ സൃഷ്ടിക്കാൻ സഹായി ഉപയോഗിക്കാൻ എളുപ്പമാണ്. ഫിൽട്ടർ കഷണങ്ങൾ അപ്പ് സോഴ്സ് ചിത്രം (<a class="link" href="plug-in-guillotine.html" title="6.10. ഗില്ലറ്റിൻ">Guillotine</a> കമാൻഡ് പോലെ ൻ) അതിന്റെ തിരശ്ചീന, ലംബ ഗൈഡുകൾ സഹിതം, ഉപ-ഒരു കൂട്ടം ചിത്രങ്ങൾ ഉത്പാദിപ്പിക്കുന്നത്. ഇതേസമയം ഇത് ഒരു ടെക്സ്റ്റ് ഫയലിൽ സംരക്ഷിച്ചു ഒരു മേശ HTML കോഡ് ഒരു കഷണം സൃഷ്ടിക്കുന്നു. ഓരോ പട്ടിക സെൽ ചിത്രം ഒരു ഭാഗത്ത് അടങ്ങിയിരിക്കുന്നു. ടെക്സ്റ്റ് ഫയൽ പിന്നീട് ഒരു HTML പ്രമാണം ഉൾച്ചേർക്കണോ.</p>
+        <p>ഈ ഫിൽട്ടർ ശരിക്കും വളരെ ലളിതമായ തുണ ശ്രദ്ധിക്കുക. അരിപ്പ നിർമ്മിക്കുന്ന ഒരു സാധാരണ HTML കോഡ് അതിനെക്കാൾ എത്ര അധികം ആയിരിക്കാം:</p>
+        <div class="example">
+          <a id="idp46925527271840"></a>
+          <p class="title">
+            <strong>ഉദാഹരണം 17.1. ലളിതമായ <span class="quote">“<span class="quote">Slice</span>”</span> ഫിൽട്ടർ ഉദാഹരണം ഔട്ട്പുട്ട്</strong>
+          </p>
+          <div class="example-contents">
+            <pre class="programlisting">
+&lt;table cellpadding="0" border="0" cellspacing="0"&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img alt="" src="slice_0_0.png"/&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img alt="" src="slice_0_1.png"/&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img alt="" src="slice_1_0.png"/&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img alt="" src="slice_1_1.png"/&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+        </pre>
+            <p>നിർമ്മാണം HTML കോഡ്; <span class="quote">“<span class="quote">style</span>”</span> ആട്രിബ്യൂട്ട് ഒഴിവാക്കിയുള്ള ചെയ്തു.</p>
+          </div>
+        </div>
+        <br class="example-break" />
+        <p>ചിത്രം യാതൊരു ഗൈഡുകൾ അവിടെ തന്നെ അരിപ്പ ഒന്നും NO ചെയ്യും. എന്നാൽ, വഴികാട്ടികൾ വെറും മറച്ചിരിക്കുന്നു, അരിപ്പ പ്രവർത്തിക്കും.</p>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[സൂചന]" src="images/tip.png" />
+              </td>
+              <th align="left">സൂചന</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p><a class="link" href="plug-in-imagemap.html" title="14.2. ImageMap">ImageMap</a> അരിപ്പ സെൻസിറ്റീവ് ചിത്രങ്ങൾ സൃഷ്ടിക്കാൻ കൂടുതൽ ശക്തമാക്കുന്നു പ്രഗല്ഭവുമായ ഉപകരണമാണ്. (ഇത് വളരെ കൂടുതൽ സങ്കീർണമാണ് ...)</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925527278608"></a>14.4.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Web</span> → <span class="guimenuitem">Slice</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925527281264"></a>14.4.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925527282016"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.352. <span class="quote">“<span class="quote">Slice</span>”</span> ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/web/slice.png" alt="“Slice” ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <p>ഏറ്റവും ഓപ്ഷനുകൾ സ്വയം വിശദീകരിക്കുന്ന, എന്നാൽ എങ്കിലും:</p>
+          <dl class="variablelist">
+            <dt>
+              <span class="term">എച്ച്ടിഎംഎൽ കയറ്റുമതി പാത</span>
+            </dt>
+            <dd>
+              <p>എവിടെ HTML ഫയലിൽ ചിത്ര ഫയലുകളിൽ സംരക്ഷിക്കും. സ്വതവേ ഈ ഫയലുകൾ ഇപ്പോൾ പ്രവർത്തിക്കുന്ന ഡയറക്ടറിയിൽ സംഭരിക്കും. വലതുവശത്ത് ബട്ടൺ ക്ലിക്കുചെയ്താൽ മറ്റൊരു ലൊക്കേഷൻ തിരഞ്ഞെടുക്കുക കഴിയുന്ന ഒരു പുൾ-ഡൌൺ മെനു തുറക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">കയറ്റുമതി ഫയലിന്റെ</span>
+            </dt>
+            <dd>
+              <p>HTML ഫയലിൽ പേര്. നിങ്ങൾ ടെക്സ്റ്റ്ബോക്സ് ഉപയോഗിച്ച് ഫയൽനാമം മാറ്റാൻ കഴിയും.</p>
+            </dd>
+            <dt>
+              <span class="term">ചിത്രത്തിന്റെ പേര് പ്രിഫിക്സ്</span>
+            </dt>
+            <dd>
+              <p><code class="filename">slice</code>: ഈ ഫിൽട്ടർ നിർമ്മിക്കുന്ന ഒരു ഇമേജ് ഫയലിന്റെ പേര് <code class="filename">prefix_i_k. ext</code>, <code class="filename">prefix</code> നിങ്ങൾ സ്വതന്ത്രമായി സ്വതവേ, വലതുവശത്ത് ടെക്സ്റ്റ്ബോക്സ് ഉപയോഗിച്ച് തെരഞ്ഞെടുക്കാൻ സാധ്യമാകുന്ന ഹലോ ആ ഭാഗമാണ് എവിടെ. (<code class="filename">i</code> ആൻഡ് <code class="filename">k</code> വരി നമ്പറുകളും കോളം, ഓരോ 0 തുടങ്ങുന്ന ആകുന്നു; <code class="filename">.ext</code> തിരഞ്ഞെടുത്ത <span class="guilabel">Image format</span> അനുസരിച്ച് എക്റ്റെൻഷനുള്ള ആണ്.)</p>
+              <p>നിങ്ങൾ <span class="guilabel">Javascript for onmouseover and clicked</span> സൃഷ്ടിക്കുന്നതിനും ചിത്രങ്ങൾ വിവിധ സെറ്റുകൾ ആവശ്യമാണ് ഈ ഓപ്ഷൻ ഉപയോഗപ്പെടുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">ചിത്രം ഫോർമാറ്റ്</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ <a class="link" href="">GIF</a>, <a class="link" href="glossary.html#glossary-jpeg" title="ജെപ്പെഗ്">JPG</a>, അല്ലെങ്കിൽ <a class="link" href="glossary.html#glossary-png" title="പിഎന്ജി">PNG</a> <a class="link" href="">file format</a> ഇമേജ് ഫയലുകൾ സൃഷ്ടിക്കാൻ തിരഞ്ഞെടുക്കാം.</p>
+            </dd>
+            <dt>
+              <span class="term">പ്രത്യേക ഇമേജ് ഫോൾഡർ, </span>
+              <span class="term">ചിത്രം കയറ്റുമതി ഫോൾഡർ</span>
+            </dt>
+            <dd>
+              <p><span class="guilabel">Separate image folder</span> പ്രാപ്തമാക്കി, ചിത്രം ഫയലുകൾ സ്ഥാപിക്കപ്പെടും അവിടെ ഒരു ഫോൾഡർ സൃഷ്ടിക്കപ്പെടും. സ്വതവേ, ഈ ഡെസ്റ്റിനേഷൻ ഫോൾഡർ പേര് <code class="filename">images</code>, നിങ്ങളിൽ <span class="guilabel">Folder for image export</span> ടെക്സ്റ്റ്ബോക്സ് ഇത് മാറ്റാം.</p>
+              <div class="example">
+                <a id="idp46925528270320"></a>
+                <p class="title">
+                  <strong>ഉദാഹരണം 17.2. പ്രത്യേക ഇമേജ് ഫോൾഡറിൽ</strong>
+                </p>
+                <div class="example-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/slice-folder.png" />
+                    <div class="caption">
+                      <p>പ്രാപ്തമാക്കിയ <span class="quote">“<span class="quote">Separate image folder</span>”</span> ഫലം</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="example-break" />
+            </dd>
+            <dt>
+              <span class="term">മേശ ഘടകങ്ങൾ തമ്മിലുള്ള സ്പെയ്സ്</span>
+            </dt>
+            <dd>
+              <p>ഈ വില (0-15) HTML പട്ടിക ലേക്ക് <span class="quote">“<span class="quote">cellspacing</span>”</span> ആട്രിബ്യൂട്ട് പാസുചെയ്യും. ഫലം തിരശ്ചീന, ലംബ വഴികാട്ടികളേ വ്യക്തമാക്കിയ വീതി അടി മാറ്റിസ്ഥാപിക്കും എന്നു ആകുന്നു</p>
+              <div class="example">
+                <a id="idp46925528276864"></a>
+                <p class="title">
+                  <strong>ഉദാഹരണം 17.3. മേശ ഘടകങ്ങൾ തമ്മിലുള്ള സ്പെയ്സ്</strong>
+                </p>
+                <div class="example-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/slice-cellspacing.png" />
+                    <div class="caption">
+                      <p>പൊരുത്തപ്പെടുന്ന HTML കോഡ് സ്നിപ്പറ്റ്</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="example-break" />
+              <p>ചിത്രം ഈ അടിക്കു വലിപ്പം വലുതായ ചെയ്യില്ല ശ്രദ്ധിക്കുക. പകരം, ഇറേസർ ടൂൾ ഉപയോഗിച്ച് തല്ലും വരച്ചു പോലെ ഫലമായുണ്ടാകുന്ന എച്ച്ടിഎംഎൽ ചിത്രം കാണപ്പെടും.</p>
+            </dd>
+            <dt>
+              <span class="term">onmouseover ജാവാ സ്ക്രിപ്റ്റ് ക്ലിക്കുചെയ്തെന്നുമുള്ളവ</span>
+            </dt>
+            <dd>
+              <p>ഈ പ്രയോഗം പ്രവർത്തന, അരിപ്പ ചില JavaScript കോഡ് ചേർക്കും. HTML കോഡ് തോന്നുന്നു, ഈ കോഡ് മറിച്ച് ചില ചലനാത്മക പ്രവർത്തനക്ഷമത ചേർത്ത് ഒരു നല്ല ആരംഭസ്ഥാനം, അതേ പടി പ്രവർത്തിക്കുന്നില്ല. JavaScript കോഡ് <span class="quote">“<span class="quote">onmouseover</span>”</span> പോലുള്ള ഇവന്റുകൾ കൈകാര്യം ഒരു ചടങ്ങിൽ ലഭ്യമാക്കുന്നു:</p>
+              <div class="example">
+                <a id="idp46925525749408"></a>
+                <p class="title">
+                  <strong>ഉദാഹരണം 17.4. JavaScript കോഡ് സ്നിപ്പെറ്റ്</strong>
+                </p>
+                <div class="example-contents">
+                  <pre class="programlisting">
+function exchange (image, images_array_name, event)
+  {
+    name = image.name;
+    images = eval (images_array_name);
+
+    switch (event)
+      {
+        case 0:
+          image.src = images[name + "_plain"].src;
+          break;
+        case 1:
+          image.src = images[name + "_hover"].src;
+          break;
+        case 2:
+          image.src = images[name + "_clicked"].src;
+          break;
+        case 3:
+          image.src = images[name + "_hover"].src;
+          break;
+      }
+  }
+              </pre>
+                </div>
+              </div>
+              <br class="example-break" />
+            </dd>
+            <dt>
+              <span class="term">മേശ ക്യാപ്സ് വേണ്ടി ആനിമേഷൻ ഒഴിവാക്കുക</span>
+            </dt>
+            <dd>
+              <p>പ്രവർത്തനരഹിതമാക്കുമ്പോൾ, അരിപ്പ ഓരോ പട്ടിക സെൽ ഒരു <code class="code">&lt;a href="# "&gt; ... &lt;/a&gt;</code> ഹൈപ്പർലിങ്ക് സ്റ്റബ് ചേർക്കും. പ്രാപ്തമായിരിക്കുമ്പോൾ (ഈ സ്വതവേ), കുറഞ്ഞത് രണ്ടു ലംബമായ തിരശ്ചീനമായി രണ്ടു ഗൈഡുകൾ ഉണ്ട്, അരിപ്പ ഒരു നിര അല്ലെങ്കിൽ വരി ആദ്യ, അവസാന സെൽ ഹൈപ്പർലിങ്ക് അപൂർണ്ണമാണ് ചേർക്കില്ല. നിങ്ങൾ അതിർനാടും ചിത്രം ഉണ്ടെങ്കിൽ നിങ്ങൾ അതിർത്തി സെൻസിറ്റീവ് വരുത്തുവാൻ ആവശ്യമില്ലാത്തപ്പോൾ ഈ ക്രമീകരണം സഹായിക്കും.</p>
+              <div class="example">
+                <a id="idp46925525754912"></a>
+                <p class="title">
+                  <strong>ഉദാഹരണം 17.5. മേശ ദിനന്തോറും (ലഘൂകരിച്ച HTML കോഡ്) വേണ്ടി ആനിമേഷൻ ഒഴിവാക്കപ്പെടും</strong>
+                </p>
+                <div class="example-contents">
+                  <pre class="programlisting">
+&lt;table cellpadding="0" border="0" cellspacing="0"&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img alt="" src="images/slice_0_0.png"/&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img alt="" src="images/slice_0_1.png"/&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img alt="" src="images/slice_0_2.png"/&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img alt="" src="images/slice_0_3.png"/&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img alt="" src="images/slice_1_0.png"/&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href="#"&gt;&lt;img alt="" src="images/slice_1_1.png"/&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;a href="#"&gt;&lt;img alt="" src="images/slice_1_2.png"/&gt;&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img alt="" src="images/slice_1_3.png"/&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;img alt="" src="images/slice_2_0.png"/&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img alt="" src="images/slice_2_1.png"/&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img alt="" src="images/slice_2_2.png"/&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;img alt="" src="images/slice_2_3.png"/&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+              </pre>
+                  <p>അകത്തെ സെല്ലുകളെ (ശൂന്യം) ഹൈപ്പർലിങ്കുകൾ ഞങ്ങൾക്കുണ്ട്.</p>
+                </div>
+              </div>
+              <br class="example-break" />
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-semiflatten.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-web.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="filters-animation.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-semiflatten.html">14.3. സെമി പരത്തുക</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="filters-animation.html">15. ആനിമേഷൻ ഫിൽട്ടറുകൾ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

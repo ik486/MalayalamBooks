@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.4. പുറത്തേക്കുള്ള പ്രോഗ്രാമുകൾ ഉപയോഗിക്കുന്നു</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-using-fileformats-opening.html" title="3. ഫയലുകൾ തുറക്കുന്നു" />
+    <link rel="prev" href="gimp-using-open-recent.html" title="3.3. സമീപകാലത്തെ തുറക്കുക" />
+    <link rel="next" href="gimp-using-file-manager.html" title="3.5. ഫയൽ മാനേജർ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.4. പുറത്തേക്കുള്ള പ്രോഗ്രാമുകൾ ഉപയോഗിക്കുന്നു</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-using-open-recent.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. ഫയലുകൾ തുറക്കുന്നു</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-using-file-manager.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-using-external-programs"></a>3.4. പുറത്തേക്കുള്ള പ്രോഗ്രാമുകൾ ഉപയോഗിക്കുന്നു</h3>
+          </div>
+        </div>
+      </div>
+      <p><acronym class="acronym">GIMP</acronym> എക്സ്.സി.എഫ് ഒഴികെ എല്ലാ ഫയൽ ഫോർമാറ്റുകളും വായിക്കുന്നതും എഴുതുന്നതും വേണ്ടി പ്ലഗിനുകൾ ഉപയോഗിക്കുന്നു. ഈ പ്ലഗിനുകൾ ബാഹ്യ ലൈബ്രറികളിലേയും പ്രോഗ്രാമുകൾ ഉപയോഗിക്കാം. ഉദാഹരണത്തിന്, <acronym class="acronym">GIMP</acronym> നേരിട്ട് <a class="link" href="glossary.html#glossary-postscript" title="പോസ്റ്റ്സ്ക്രിപ്റ്റ്">PostScript</a> പിന്തുണയ്ക്കുന്നില്ല. പകരം, (അല്ലെങ്കിൽ എഴുത്തു) PostScript ഫയലുകൾ (ഫയൽ എക്സ്റ്റൻഷൻ <code class="filename">.ps</code> അല്ലെങ്കിൽ <code class="filename">.eps</code>) വേണ്ടി, <acronym class="acronym">GIMP</acronym> <span class="application">Ghostscript</span> എന്ന ഒരു ശക്തമായ സ്വതന്ത്ര സോഫ്റ്റ്വെയർ പ്രോഗ്രാം ആവശ്യമാണ്.</p>
+      <div class="simplesect">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925508689152"></a><span class="application">Ghostscript</span> ഇൻസ്റ്റോൾ</h4>
+            </div>
+          </div>
+        </div>
+        <p>ലിനക്സ് വിതരണങ്ങൾ ഏറെക്കുറെ എല്ലായ്പ്പോഴും (നിർബന്ധമില്ല ഏറ്റവും പുതിയ പതിപ്പ്) ഇതിനകം ഇൻസ്റ്റാൾ GhostScript വരും. മറ്റ് ഓപ്പറേറ്റിങ് സിസ്റ്റങ്ങൾ, നിങ്ങൾ സ്വയം ഇൻസ്റ്റാൾ വരാം. ഇവിടെ വിൻഡോസ് ഇൻസ്റ്റാൾ നിർദ്ദേശങ്ങൾ ഇവയാണ്:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>സോഴ്സ്ഫോർജ് <a class="xref" href="bibliography.html#bibliography-online-ghostscript" title="Sourceforge.net ന് GhostScript പദ്ധതി പേജ്">[<abbr class="abbrev">GhostScript</abbr>]</a> ന് GhostScript പദ്ധതി പേജിലേക്ക് പോകുക.</p>
+            </li>
+            <li class="listitem">
+              <p>പാക്കേജ് <span class="application">gnu-gs</span> അല്ലെങ്കിൽ <span class="application">ghostscript</span> തിരയുകയും (വാണിജ്യേതര ഉപയോഗത്തിനായി മാത്രം) ഡൗൺലോഡ് വിഭാഗത്തിലേക്ക് പോയി.</p>
+            </li>
+            <li class="listitem">
+              <p><code class="filename">gs650w32.exe</code> അല്ലെങ്കിൽ <code class="filename">gs700w32.exe</code> പോലുള്ള ഒരുക്കിയ വിൻഡോസ് വിതരണങ്ങൾ ഒന്ന് ഡൗൺലോഡ്.</p>
+            </li>
+            <li class="listitem">
+              <p>എക്സിക്യൂട്ടബിൾ ആരംഭിക്കുക ഇൻസ്റ്റലേഷൻ നടപടിക്രമം നിർദ്ദേശങ്ങൾ പാലിക്കുക.</p>
+            </li>
+            <li class="listitem">
+              <p>gswin32c ബൈനറി (ഉദാ <code class="filename">C:\gs\gsX.YY\bin \gswin32c.exe</code> ) നിറഞ്ഞ ഫയൽ പേരിന് <code class="envar">GS_PROG</code> പ്ലേപരിസരവേരിയബ്ള്സജ്ജീകരിച്ചിട്ടില്ല.</p>
+            </li>
+          </ul>
+        </div>
+        <p>ഇപ്പോൾ നിങ്ങൾ <acronym class="acronym">GIMP</acronym> കൂടെ PostScript ഫയലുകൾ വായിക്കാൻ കഴിയും. ഇൻസ്റ്റലേഷൻ പൂർത്തിയാക്കിയ ഒരിക്കൽ GhostScript ഡയറക്ടറികൾ നീക്കാൻ ശ്രദ്ധിക്കുക. ഇൻസ്റ്റലേഷൻ GhostScript അതിന്റെ ലൈബ്രറികൾ കണ്ടെത്താൻ അനുവദിക്കുന്നതിന് ഏത് രജിസ്ട്രി എൻട്രികൾ സൃഷ്ടിക്കുന്നു. (ഈ നിർദ്ദേശങ്ങൾ http://www.kirchgessner.net അതുതന്നെ.)</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-using-open-recent.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-using-fileformats-opening.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-using-file-manager.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-open-recent.html">3.3. സമീപകാലത്തെ തുറക്കുക</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-file-manager.html">3.5. ഫയൽ മാനേജർ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

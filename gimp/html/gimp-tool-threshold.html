@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>5.6. ഉമ്മറം</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-tools-color.html" title="5. വർണ്ണ ഉപകരണങ്ങൾ" />
+    <link rel="prev" href="gimp-tool-brightness-contrast.html" title="5.5. മിഴിവ്-തീവ്രത" />
+    <link rel="next" href="gimp-tool-levels.html" title="5.7. ലെവലുകൾ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">5.6. ഉമ്മറം</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-tool-brightness-contrast.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">5. വർണ്ണ ഉപകരണങ്ങൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-tool-levels.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-tool-threshold"></a>5.6. ഉമ്മറം</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925515406336" class="indexterm"></a>
+      <a id="idp46925515407696" class="indexterm"></a>
+      <p>ത്രെഷോൾഡ് പ്രയോഗം നിലവിലെ പാളി വെള്ള പിക്സലുകൾ മൂല്യം ദൂരമാണു റേഞ്ചും, കറുത്ത പിക്സൽ ഉമ്മരപ്പടി മൂല്യം പരിധിക്കുപുറത്താണ് കൂടെ പിക്സൽ പ്രതിനിധാനം ചിത്രത്തിന്റെ പിക്സലുകൾ പ്രതിനിധാനം എവിടെ ഒരു ബ്ലാക്ക് ആൻഡ് വൈറ്റ് ചിത്രം, കയറി നിരക്കു അവസ്ഥയാണ്.</p>
+      <p>നിങ്ങൾ ഒരു ബ്ലാക്ക് ആൻഡ് വൈറ്റ് ചിത്രം (ഉദാഹരണത്തിന് ഒരു സ്കാൻ വാചകം) മെച്ചപ്പെടുത്തുന്നതിനായി അല്ലെങ്കിൽ നിരക്കു മാസ്കുകൾ സൃഷ്ടിക്കാൻ ഇത് ഉപയോഗിക്കാൻ കഴിയും.</p>
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+        <table border="0" summary="Note">
+          <tr>
+            <td rowspan="2" align="center" valign="top" width="25">
+              <img alt="[കുറിപ്പു്]" src="images/note.png" />
+            </td>
+            <th align="left">കുറിപ്പു്</th>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <p>ഈ ഉപകരണം ഒരു ബ്ലാക്ക് ആൻഡ് വൈറ്റ് ചിത്രം സൃഷ്ടിക്കുന്നു പോലെ, യഥാർത്ഥ ചിത്രത്തിന്റെ വിരുദ്ധ-അലിയാസിങ് മുങ്ങി. ഈ ഒരു പ്രശ്നം ഉയർത്തുന്നുണ്ട് എങ്കിൽ പകരം <a class="link" href="gimp-tool-levels.html" title="5.7. ലെവലുകൾ">Levels </a> ടൂൾ ഉപയോഗിക്കുക.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925515412608"></a>5.6.1. ടൂൾ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <div class="itemizedlist">
+          <p>ഉപകരണം സജീവമാക്കുന്നതിന് വിവിധ സാധ്യതകളും ഉണ്ട്:</p>
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+          You can access this tool from the image menu through
+          <span class="guimenu">Tools</span> → <span class="guisubmenu">Color Tools</span> → <span class="guimenuitem">Threshold,</span>,
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          or through
+          <span class="guimenu">Colors</span> → <span class="guimenuitem">Threshold</span>,
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          or by clicking on the
+          <span class="guiicon">
+            <img src="images/toolbox/stock-tool-threshold-22.png" />
+          </span>
+          icon in Toolbox if this tool has been installed in it. For this,
+          please refer to <a class="xref" href="gimp-pimping.html#gimp-prefs-toolbox" title="1.7. പണിസഞ്ചി">വിഭാഗം 1.7, “പണിസഞ്ചി”</a>.
+        </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925515422160"></a>5.6.2. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925515422912"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.153. Threshold tool options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/tools-threshold.png" alt="Threshold tool options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">Presets</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ <span class="guibutton">Add settings to favourites</span> ബട്ടൺ <span class="guiicon"><img src="images/toolbox/save-color-settings.png" /></span> ക്ലിക്കുചെയ്ത് നിങ്ങളുടെ ചിത്രം നിറം ക്രമീകരണങ്ങൾ സംരക്ഷിക്കാൻ കഴിയും</p>
+              <p>
+            The
+            <span class="guiicon">
+              <img src="images/toolbox/presets-menu-icon.png" />
+            </span>
+            button opens a menu:
+          </p>
+              <div class="figure">
+                <a id="idp46925515430176"></a>
+                <p class="title">
+                  <strong>ചിത്രം 14.154. Preset Menu</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/toolbox/presets-menu.png" alt="Preset Menu" />
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <p>ഏത് നിങ്ങൾ <span class="guilabel">Import Settings from File</span> അല്ലെങ്കിൽ <span class="guilabel">Export Settings to File</span> അനുവദിക്കുന്നു, നിങ്ങൾ നിയന്ത്രിക്കുന്ന ക്രമീകരണങ്ങൾ സംരക്ഷിക്കുക ഡയലോഗ് ആക്സസ് നൽകുന്നു:</p>
+              <div class="figure">
+                <a id="idp46925515434448"></a>
+                <p class="title">
+                  <strong>ചിത്രം 14.155. Manage saved Settings Dialog</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/toolbox/manage-saved-settings.png" alt="Manage saved Settings Dialog" />
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">Threshold range</span>
+            </dt>
+            <dd>
+              <p>ത്രെഷോൾഡ് പ്രയോഗം സജീവ അല്ലെങ്കിൽ പാളി നിരക്കു തീവ്രത മൂല്യം ഒരു ദൃശ്യ ഗ്രാഫ് ഒരു ഹിസ്റ്റോഗ്രാം ലഭ്യമാക്കുന്നു. നിങ്ങൾ ഇൻപുട്ട് ബോക്സുകൾ ക്ലിക്കുചെയ്യുന്നതിലൂടെയോ ബട്ടൺ 1 ഉപയോഗിച്ച്, ഗ്രാഫ് ന് വലിച്ചോ ഒന്നുകിൽ ദൂരമാണു പരിധി സജ്ജമാക്കാൻ കഴിയും. നിങ്ങൾക്കു തമ്മിൽ തീവ്രതയോടെ ഒരു പശ്ചാത്തലത്തിൽ നിന്ന് ചില തീവ്രതയോടെ ചിത്രം ഒരു ഭാഗം തിരഞ്ഞെടുക്കുക അനുവദിക്കുന്നു. ശ്രേണിക്കുള്ളിൽ പിക്സൽ വെളുത്ത ആയിരിക്കും, മറ്റുള്ളവർ കറുത്തു. നിങ്ങൾ കറുത്ത പശ്ചാത്തലത്തിൽ വെള്ള ആഗ്രഹിക്കുന്ന നിരക്കു നേടുകയും ശ്രേണി ക്രമീകരിക്കുക.</p>
+            </dd>
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p>മാറ്റങ്ങൾ തീവ്രത നില വരെ പോൾ പ്രിവ്യൂ ടോഗിൾ സജീവ അല്ലെങ്കിൽ പാളി തിരഞ്ഞെടുപ്പിന്റെ ഡൈനാമിക് അപ്ഡേറ്റുചെയ്യുന്നവ അനുവദിക്കുന്നു.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925515443120"></a>5.6.3. ഒരു തിരഞ്ഞെടുപ്പ് മാസ്ക് സൃഷ്ടിക്കാൻ തുടക്കവും പെട്ടെന്ന് മാസ്ക് ഉപയോഗിക്കൽ</h4>
+            </div>
+          </div>
+        </div>
+        <p>അത് എല്ലായ്പ്പോഴും അങ്ങനെ, എന്നാൽ നിങ്ങൾ ഒരു ചിത്രത്തിൽ നിന്ന് പുറത്തെടുക്കുകയും ചെയ്യണമെന്ന് ഒരു മൂലകം നന്നായി പശ്ചാത്തലത്തിൽ നേരെ നിൽക്കാൻ കഴിയും. ഈ സാഹചര്യത്തിൽ, പരിധി ടൂൾ ഉപയോഗിക്കാൻ കഴിയും മൊത്തമായി ഈ മൂലകത്തിന്റെ തിരഞ്ഞെടുക്കുന്നതിന്. ജിമ്പ് Grokking ഒരു ചാനൽ മാസ്ക് അടിസ്ഥാനമാക്കി ഒരു വിവരിച്ചിരുന്നു, ഇപ്പോൾ <a class="link" href="gimp-image-window-qmask-button.html" title="3. QuickMask">Quick mask </a> ഉപയോഗിച്ച് എളുപ്പം.</p>
+        <div class="procedure">
+          <ol class="procedure" type="1">
+            <li class="step">
+              <p>ആദ്യം <a class="link" href="plug-in-decompose-registered.html" title="8.16.  വിഘടിപ്പിക്കുന്നു">Decompose</a> അരിപ്പ ഉപയോഗിച്ച് അതിന്റെ ആർജിബി ആൻഡ് HSV ഘടകങ്ങൾ നിങ്ങളെ ഇമേജ് decomposing ആരംഭിക്കുക. ഒരു പുതിയ ചാര-സ്കെയിൽ ചിത്രം തയ്യാറാക്കി, ഘടകങ്ങളും ലെയർ ഡയലോഗിൽ പാളികൾ ലഭ്യമാകുന്നു. ഈ പാളികൾ ഒരു ലഘുചിത്രം വരും എന്നാൽ അത് ഒരു എളുപ്പ പഠനത്തിൽ തീരെ ചെറുതാണ്. നിങ്ങൾ, തീർച്ചയായും, ഡയലോഗ് മെനു (ചെറിയ ത്രികോണ ബട്ടൺ) ഉപയോഗിച്ച് ഈ പ്രിവ്യൂവിന്റെ വലിപ്പം വർദ്ധിപ്പിക്കാൻ കഴിയും, എന്നാൽ <span class="quote">“<span class="quote">eyes </span>”</span> കളിച്ച് വിഘടിപ്പിക്കുന്നു സ്വരൂപത്തിൽ പിടികൂടാനുള്ള പാളി പ്രദർശിപ്പിക്കാൻ ലളിതമാണ്. മൂലകം മികച്ച isolates ആ പാളി തിരഞ്ഞെടുക്കുക.</p>
+              <div class="figure">
+                <a id="idp46925515449632"></a>
+                <p class="title">
+                  <strong>ചിത്രം 14.156. യഥാർത്ഥ ചിത്രം, വിഘടിപ്പിക്കുന്നു ചിത്രം അതിന്റെ ലെയർ ഡയലോഗ്</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/using/threshold-orig.png" alt="യഥാർത്ഥ ചിത്രം, വിഘടിപ്പിക്കുന്നു ചിത്രം അതിന്റെ ലെയർ ഡയലോഗ്" />
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/using/threshold-decomp.png" alt="യഥാർത്ഥ ചിത്രം, വിഘടിപ്പിക്കുന്നു ചിത്രം അതിന്റെ ലെയർ ഡയലോഗ്" />
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/using/threshold-layers.png" alt="യഥാർത്ഥ ചിത്രം, വിഘടിപ്പിക്കുന്നു ചിത്രം അതിന്റെ ലെയർ ഡയലോഗ്" />
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </li>
+            <li class="step">
+              <p>വിളിക്കുക വിഘടിപ്പിക്കുന്നു ഇമേജിൽ നിന്നും പരിധി ഉപകരണം. കറുത്ത കഴ്സർ, മികച്ച നിങ്ങളെ ഒരിക്കൽ ആഗ്രഹിക്കുന്ന മൂലകം വേർതിരിച്ചെടുത്തത് ഫിറ്റ് ദൂരമാണു നീക്കിക്കൊണ്ട്. ഇത് തികഞ്ഞ ചെയ്യില്ല: ഞങ്ങൾ സൃഷ്ടിക്കാൻ പോകുന്നു നിരക്കു മുഖംമൂടി ധരിച്ച ഫലം പരിപോഷിപ്പിക്കുകയും.</p>
+              <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+                <table border="0" summary="Warning">
+                  <tr>
+                    <td rowspan="2" align="center" valign="top" width="25">
+                      <img alt="[മുന്നറിയിപ്പു്]" src="images/warning.png" />
+                    </td>
+                    <th align="left">മുന്നറിയിപ്പു്</th>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top">
+                      <p>അതു തുറന്നിരിക്കുമ്പോൾ, മറ്റൊരു പാളി ലേക്ക് മാറ്റാൻ കഴിയില്ല: നിങ്ങൾ ശരിയായ പാളി തിരഞ്ഞെടുത്ത നിങ്ങൾ പരിധി പ്രയോഗം വിളിക്കുമ്പോൾ ഉറപ്പാക്കുക.</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <div class="figure">
+                <a id="idp46925515458816"></a>
+                <p class="title">
+                  <strong>ചിത്രം 14.157. ദൂരമാണു ഫിറ്റ് ശേഷം തിരഞ്ഞെടുത്ത ലെയർ</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/using/threshold-fit.png" alt="ദൂരമാണു ഫിറ്റ് ശേഷം തിരഞ്ഞെടുത്ത ലെയർ" />
+                    <div class="caption">
+                      <p>ഞങ്ങളുടെ പുഷ്പം മികച്ച ബാഹ്യരേഖാ ലഭിച്ചു. ഞങ്ങൾ നീക്കം ചെയ്യണം പല ചുവന്ന വസ്തുക്കൾ ഉണ്ട്.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </li>
+            <li class="step">
+              <p>തിരഞ്ഞെടുത്ത ലെയർ പ്രദർശിപ്പിക്കുന്നത് ചിത്രം സജീവമാണ് <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>C</strong></span> കൂടെ ക്ലിപ്പ്ബോർഡിലേക്ക് പകർത്തുന്നതിന് ഉറപ്പാക്കുക.</p>
+            </li>
+            <li class="step">
+              <p>ഇപ്പോൾ യഥാർത്ഥ ചിത്രത്തിന്റെ സജീവമാക്കുന്നത്. ചിത്രം വിൻഡോയുടെ താഴെ ഇടത് കോണിൽ <span class="guibutton">Quick Mask</span> ബട്ടണിൽ ക്ലിക്ക്: ചിത്രം ഒരു ചുവന്ന (സ്ഥിരം) അർദ്ധസുതാര്യ മാസ്ക് മൂടിയിരിക്കുന്നു നേരിടുമ്പോഴാണ്. ഈ ചുവന്ന നിറം വളരെ ചുവന്ന ഞങ്ങളുടെ ചിത്രം നന്നായി കാര്യങ്ങളുമായി ഇല്ല, ചാനൽ സംഭാഷണം പോകുക <span class="quote">“<span class="quote">Quick mask</span>”</span> ചാനൽ സജീവമാക്കുന്നതിനും <span class="guibutton">Edit Channel Attributes</span> ഉപയോഗിച്ച് ഈ നിറം മാറ്റുക. യഥാർത്ഥ ചിത്രം മടങ്ങുക. മുമ്പ് പകർത്തി പാളി ഒട്ടിക്കാൻ <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>V</strong></span> അമർത്തുക.</p>
+              <div class="figure">
+                <a id="idp46925515468784"></a>
+                <p class="title">
+                  <strong>ചിത്രം 14.158. The mask</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject" align="center">
+                    <img src="images/using/threshold-mask.png" align="middle" alt="The mask" />
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </li>
+            <li class="step">
+              <p>വോയ്ല. നിങ്ങളുടെ നിരക്കു മാസ്ക് തയ്യാറാണ്: നിങ്ങൾ പോലെ സാധാരണയായി നിരക്കു മെച്ചപ്പെടുത്താൻ കഴിയും. നിരക്കു തയ്യാറാണ് അവസ്ഥയിൽ അതിന്റെ ബട്ടണിൽ വീണ്ടും ഉപയോഗിച്ച്് പെട്ടെന്ന് മാസ്ക് അപ്രാപ്തമാക്കുകയോ: നിങ്ങൾ നിരക്കു ചുറ്റും നടക്കുന്നു ഉറുമ്പുകൾ കാണും.</p>
+              <div class="figure">
+                <a id="idp46925515473280"></a>
+                <p class="title">
+                  <strong>ചിത്രം 14.159. The result</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/using/threshold-result.png" alt="The result" />
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/using/threshold-selection.png" alt="The result" />
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <p>നാം സൂം, lasso വലിയ അനാവശ്യ പ്രദേശങ്ങൾ, പെൻസിൽ നീക്കം ഒരു പിക്സൽ തലത്തിൽ പ്രവർത്തിക്കാൻ കറുത്ത പെയിന്റ് തിരഞ്ഞെടുത്ത പ്രദേശങ്ങൾ നീക്കം വെളുത്ത പെയിന്റ് പ്രത്യേകിച്ച് ബ്രൈൻ വേണ്ടി, തിരഞ്ഞെടുത്ത പ്രദേശങ്ങൾ ചേർക്കാൻ ഉപയോഗിച്ച (ഹാർഡ് പരിധികൾ ലഭിക്കാൻ).</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-tool-brightness-contrast.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-tools-color.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-tool-levels.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-tool-brightness-contrast.html">5.5. മിഴിവ്-തീവ്രത</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tool-levels.html">5.7. ലെവലുകൾ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

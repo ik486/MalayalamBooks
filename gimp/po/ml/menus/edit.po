@@ -1,0 +1,2066 @@
+# British English translation for gimp-help-2.
+# Copyright (C) 2011 gimp-help-2's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help-2 package.
+# issyl0 <isabell121@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-help-2 master\n"
+"POT-Creation-Date: 2011-04-25 21:01+0000\n"
+"PO-Revision-Date: 2011-04-25 21:01+0000\n"
+"Last-Translator: issyl0 <isabell121@gmail.com>\n"
+"Language-Team: British English <en_GB@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);;\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/edit/units.xml:53(None)
+msgid ""
+"@@image: 'images/menus/edit/units.png'; md5=9f801aa8c438b02cb90bb1ee86ffb378"
+msgstr ""
+"@@image: 'images/menus/edit/units.png'; md5=9f801aa8c438b02cb90bb1ee86ffb378"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/edit/units.xml:137(None)
+msgid ""
+"@@image: 'images/menus/edit/units-add-new.png'; "
+"md5=65ccd5ef4ae9c4b3d8f574ba53155fed"
+msgstr ""
+"@@image: 'images/menus/edit/units-add-new.png'; "
+"md5=65ccd5ef4ae9c4b3d8f574ba53155fed"
+
+#: src/menus/edit/units.xml:11(title) src/menus/edit/units.xml:17(primary)
+msgid "Units"
+msgstr ""
+"യൂണിറ്റുകൾ"
+
+#: src/menus/edit/units.xml:14(primary)
+msgid "Unit of measurement"
+msgstr ""
+"അളവിന്റെ യൂണിറ്റ്"
+
+#: src/menus/edit/units.xml:20(primary)
+msgid "Unit Editor"
+msgstr ""
+"യൂണിറ്റ് എഡിറ്റർ"
+
+#: src/menus/edit/units.xml:23(para)
+msgid ""
+"The <guimenuitem>Units</guimenuitem> command displays a dialog which shows "
+"information about the units of measurement that are currently being used by "
+"<acronym>GIMP</acronym>. It also allows you to create new units which can be "
+"used by <acronym>GIMP</acronym> in a variety of situations."
+msgstr ""
+"<guimenuitem>Units</guimenuitem> കമാൻഡ് നിലവിൽ <acronym>GIMP</acronym> ഉപയേ"
+"ാഗിക്കുന്നു ആ അളവിന്റെ യൂണിറ്റുകൾ കുറിച്ച് വിവരങ്ങൾ കാണിക്കുന്ന ഒരു ഡയലോഗ്"
+" പ്രദർശിപ്പിക്കുന്നു. ഇത് സാഹചര്യങ്ങൾ വിവിധങ്ങളായ <acronym>GIMP</acronym> വ"
+"ഴി ഉപയോഗിക്കാം പുതിയ യൂണിറ്റുകൾ സൃഷ്ടിക്കാനും അനുവദിക്കുന്നു."
+
+#: src/menus/edit/units.xml:32(title) src/menus/edit/undo.xml:38(title)
+#: src/menus/edit/stroke-selection.xml:33(title)
+#: src/menus/edit/shortcuts.xml:22(title) src/menus/edit/paste.xml:45(title)
+#: src/menus/edit/paste-into.xml:40(title)
+#: src/menus/edit/paste-as-pattern.xml:65(title)
+#: src/menus/edit/paste-as-new.xml:37(title)
+#: src/menus/edit/paste-as-layer.xml:32(title)
+#: src/menus/edit/paste-as-brush.xml:75(title)
+#: src/menus/edit/fill-pattern.xml:45(title)
+#: src/menus/edit/fill-fg.xml:42(title) src/menus/edit/fill-bg.xml:42(title)
+#: src/menus/edit/cut.xml:41(title) src/menus/edit/copy.xml:33(title)
+#: src/menus/edit/clear.xml:45(title)
+msgid "Activate the Command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുക"
+
+#: src/menus/edit/units.xml:35(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Units</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Units</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും."
+
+#: src/menus/edit/units.xml:47(title)
+msgid "Description of the <quote>Unit Editor</quote> dialog window"
+msgstr ""
+"<quote>Unit Editor</quote> ഡയലോഗ് ജാലകത്തിന്റെ വിവരണം"
+
+#: src/menus/edit/units.xml:49(title)
+msgid "The <quote>Unit Editor</quote> dialog window"
+msgstr ""
+"<quote>Unit Editor</quote> ഡയലോഗ് വിൻഡോ"
+
+#: src/menus/edit/units.xml:57(para)
+msgid ""
+"The figure above shows the <quote>Unit Editor</quote> dialog window. The "
+"list shows the units of measurement which are currently defined. You can "
+"click on the <guilabel>New</guilabel> button or the <guilabel>Duplicate</"
+"guilabel> button to create a new measurement unit, as described below."
+msgstr ""
+"മുകളിൽ കണക്കുകൾ <quote>Unit Editor</quote> ഡയലോഗ് വിൻഡോ കാണിക്കുന്നു. ലിസ"
+"്റ്റ് നിലവിൽ നിർവചിച്ചിരിക്കുന്നത് അളവിന്റെ യൂണിറ്റുകൾ കാണിക്കുന്നു. താഴെ വ"
+"ിശദീകരിച്ചതുപോലെ, ഒരു പുതിയ മെഷർമെന്റ് യൂണിറ്റ് സൃഷ്ടിക്കാൻ <guilabel>New<"
+"/guilabel> ബട്ടൺ അല്ലെങ്കിൽ <guilabel>Duplicate</guilabel> ബട്ടൺ ക്ലിക്ക് ച"
+"െയ്യാം."
+
+#: src/menus/edit/units.xml:65(title)
+msgid "Description of the list elements"
+msgstr ""
+"ലിസ്റ്റ് മൂലകങ്ങളുടെ വിവരണം"
+
+#: src/menus/edit/units.xml:67(para)
+msgid ""
+"<emphasis>Saved</emphasis>: If this column is checked, a unit definition "
+"will be saved when <acronym>GIMP</acronym> exits. Some units are always "
+"kept, even if they are not marked with a check. These are highlighted in the "
+"list."
+msgstr ""
+"<emphasis>Saved</emphasis>: ഈ നിര ചെക്കുചെയ്തിട്ടുണ്ടെങ്കിൽ, ഒരു യൂണിറ്റ് ന"
+"ിർവചനം <acronym>GIMP</acronym> കടന്ന് വരുമ്പോൾ സംരക്ഷിക്കപ്പെടും. ചില യൂണി"
+"റ്റുകൾ എപ്പോഴും അവർ ഒരു ചെക്ക് അടയാളപ്പെടുത്തിയിട്ടുള്ള അല്ല പോലും, സൂക്ഷ"
+"ിച്ചിരിക്കുന്നത്. ഈ ലിസ്റ്റിൽ പ്രമുഖമാക്കുന്നു."
+
+#: src/menus/edit/units.xml:76(para)
+msgid ""
+"<emphasis>ID</emphasis>: The string <acronym>GIMP</acronym> uses to identify "
+"the unit in its configuration files."
+msgstr ""
+"<emphasis>ID</emphasis>: സ്ട്രിങ് <acronym>GIMP</acronym> അതിന്റെ ക്രമീകരണ "
+"ഫയലുകൾ യൂണിറ്റ് തിരിച്ചറിയാൻ ഉപയോഗിക്കുന്നു."
+
+#: src/menus/edit/units.xml:83(para)
+msgid "<emphasis>Factor</emphasis>: How many units make up an inch."
+msgstr ""
+"<emphasis>Factor</emphasis>: എത്ര യൂണിറ്റുകൾ ഒരു ഇഞ്ച് ഉണ്ടാക്കുന്നത്."
+
+#: src/menus/edit/units.xml:89(para)
+msgid ""
+"<emphasis>Digits</emphasis>: This field is a hint for numerical input "
+"fields. It specifies how many decimal digits the input field should provide "
+"to get approximately the same accuracy as an <quote>inch</quote> input field "
+"with two decimal digits."
+msgstr ""
+"<emphasis>Digits</emphasis>: ഈ ഫീൽഡ് സംഖ്യാപരമായ ഇൻപുട്ട് വയലുകളെ സൂചന മാത്"
+"രമാണ്. ഇൻപുട്ട് ഫീൽഡ് ഏകദേശം രണ്ടു ദശാംശ അക്കങ്ങൾ ഉപയോഗിച്ച് ഒരു <quote>in"
+"ch</quote> ഇൻപുട്ട് ഫീൽഡിൽ അതേ കൃത്യത ലഭിക്കാൻ നൽകണം എത്ര ദശാംശ അക്കങ്ങൾ വ്"
+"യക്തമാക്കുന്നു."
+
+#: src/menus/edit/units.xml:98(para)
+msgid ""
+"<emphasis>Symbol</emphasis>: The unit's symbol if it has one (e.g. \" for "
+"inches). The unit's abbreviation is used if doesn't have a symbol."
+msgstr ""
+"<emphasis>Symbol</emphasis>:. യൂണിറ്റ് ചിഹ്നം ഒന്നായി (ഇഞ്ച് വേണ്ടി ഉദാ \")"
+" ഉണ്ട് എങ്കിൽ പ്രതീകമായി ഇല്ലെങ്കിലോ യൂണിറ്റ് ന്റെ ചുരുക്കെഴുത്ത് ഉപയോഗിക"
+"്കുന്നു."
+
+#: src/menus/edit/units.xml:105(para)
+msgid ""
+"<emphasis>Abbreviation</emphasis>: The unit's abbreviation (e.g. <quote>cm</"
+"quote> for centimeters)."
+msgstr ""
+"<emphasis>Abbreviation</emphasis>: യൂണിറ്റ് ന്റെ സംഗ്രഹ (ഉദാ സെന്റിമീറ്റർ വ"
+"േണ്ടി <quote>cm</quote>)."
+
+#: src/menus/edit/units.xml:111(para)
+msgid ""
+"<emphasis>Singular</emphasis>: The unit's singular form, which "
+"<acronym>GIMP</acronym> can use to display messages about the unit."
+msgstr ""
+"<emphasis>Singular</emphasis>: ഏത് <acronym>GIMP</acronym> യൂണിറ്റ് സന്ദേശങ"
+"്ങൾ പ്രദർശിപ്പിക്കാൻ ഉപയോഗിക്കാം യൂണിറ്റ് ൻറെ പദത്തിന്റെ."
+
+#: src/menus/edit/units.xml:119(para)
+msgid ""
+"<emphasis>Plural</emphasis>: The unit's plural form, which <acronym>GIMP</"
+"acronym> can use to display messages about the unit."
+msgstr ""
+"<emphasis>Plural</emphasis>: ഏത് <acronym>GIMP</acronym> യൂണിറ്റ് സന്ദേശങ്ങ"
+"ൾ പ്രദർശിപ്പിക്കാൻ ഉപയോഗിക്കാം യൂണിറ്റ് ൻറെ പദത്തിന്റെ ബഹുവചനം."
+
+#: src/menus/edit/units.xml:130(title)
+msgid "Defining New Units"
+msgstr ""
+"പുതിയ യൂണിറ്റുകൾ നിർവചിക്കൽ"
+
+#: src/menus/edit/units.xml:132(title)
+msgid "The <quote>New Unit</quote> dialog"
+msgstr ""
+"<quote>New Unit</quote> ഡയലോഗ്"
+
+#: src/menus/edit/units.xml:140(para)
+msgid "Adding the new unit <quote>wilbers</quote>"
+msgstr ""
+"പുതിയ യൂണിറ്റ് ചേർക്കുന്നു <quote>wilbers</quote>"
+
+#: src/menus/edit/units.xml:144(para)
+msgid ""
+"You can display the dialog shown above by clicking on either the "
+"<guilabel>New</guilabel> button or the <guilabel>Duplicate</guilabel> button "
+"on the <guimenuitem>Unit Editor</guimenuitem> dialog. The input fields on "
+"the dialog are described above."
+msgstr ""
+"നിങ്ങൾ <guilabel>New</guilabel> ബട്ടൺ അല്ലെങ്കിൽ <guimenuitem>Unit Editor</"
+"guimenuitem> ഡയലോഗ് ന് <guilabel>Duplicate</guilabel> ബട്ടൺ ഒന്നുകിൽ മാകാം"
+" മുകളിൽ കാണിച്ചിരിക്കുന്ന ഡയലോഗ് പ്രദർശിപ്പിക്കാൻ കഴിയും. ഡയലോഗ് ഇൻപുട്ട്"
+" മുകളിലായി വിവരിച്ചിരിക്കുന്നു."
+
+#: src/menus/edit/units.xml:150(para)
+msgid ""
+"If you click on the <guilabel>New</guilabel> button, most input fields are "
+"empty. If you click on the <guilabel>Duplicate</guilabel> button, the values "
+"initially displayed in the input fields of the dialog are the values of the "
+"unit you have currently selected in the <guilabel>Unit&nbsp;Editor</"
+"guilabel> dialog. You can then edit the values to create your new unit."
+msgstr ""
+"നിങ്ങൾ <guilabel>New</guilabel> ബട്ടണില് ക്ലിക്ക്, മിക്ക ഇൻപുട്ട് ഫീൽഡുകൾ ശ"
+"ൂന്യമാണ്. നിങ്ങൾ <guilabel>Duplicate</guilabel> ബട്ടണില് ക്ലിക്ക് ചെയ്താൽ, "
+"പ്രാരംഭത്തിൽ സംഭാഷണത്തിൻറെ ഇൻപുട്ട് ഫീൽഡുകളിൽ പ്രദർശിപ്പിച്ച മൂല്യങ്ങൾ യൂണി"
+"റ്റ് മൂല്യങ്ങളും നിങ്ങൾ നിലവിൽ <guilabel>Unit Editor</guilabel> ഡയലോഗ് തിര"
+"ഞ്ഞെടുത്ത ആകുന്നു. അതിനുശേഷം നിങ്ങളുടെ പുതിയ യൂണിറ്റ് സൃഷ്ടിക്കാൻ മൂല്യങ്ങൾ"
+" എഡിറ്റുചെയ്യാനാകും."
+
+#: src/menus/edit/undo.xml:9(title) src/menus/edit/undo.xml:12(primary)
+msgid "Undo"
+msgstr ""
+"പഴയപടിയാക്കുക"
+
+#: src/menus/edit/undo.xml:15(para)
+msgid ""
+"If you have made drawing or editing changes to the image which you don't "
+"want to keep, the <guimenu>Undo</guimenu> command allows you to undo the "
+"last change and return the image to its previous state. Almost anything you "
+"do to an image can be undone in this way (with the exception of scripts, "
+"which deactivate this function). Further Undo operations may be performed, "
+"depending upon the number of Undo levels configured in the <link linkend="
+"\"gimp-prefs-environment\">Environment</link> page of the Preferences "
+"Dialog. See the section on <link linkend=\"gimp-concepts-undo\">Undoing</"
+"link> for more information about <acronym>GIMP</acronym>'s very "
+"sophisticated <quote>Undo</quote> functions."
+msgstr ""
+"നിങ്ങൾ സൂക്ഷിക്കാൻ ആഗ്രഹിക്കുന്നില്ല ഏത് ചിത്രത്തിലേക്ക് ഡ്രോയിംഗ് അല്ലെങ്"
+"കിൽ എഡിറ്റിംഗ് മാറ്റങ്ങൾ വരുത്തിയിട്ടുണ്ടെങ്കിൽ, <guimenu>Undo</guimenu> കമ"
+"ാൻഡ് അവസാന മാറ്റം റദ്ദാക്കാനും മുമ്പത്തെ അവസ്ഥയിലേക്ക് ചിത്രം മടങ്ങാൻ അനുവദ"
+"ിക്കുന്നു. നിങ്ങൾ ഒരു ഇമേജ് എന്തു ഏതാണ്ട് ഒന്നും (ഈ ഫംഗ്ഷൻ നിർജ്ജീവമാക്കി ഏ"
+"ത് സ്ക്രിപ്റ്റുകൾ, അപവാദം) ഈ വിധത്തിൽ തിരസ്കരിക്കാനും സാധിക്കും. കൂടുതൽ പഴയ"
+"പടിയാക്കൽ ഓപ്പറേഷൻസ് മുൻഗണനകൾ ഡയലോഗ് എന്ന <link linkend=\"gimp-prefs-envir"
+"onment\">Environment</link> പേജ് ക്രമീകരിച്ചിട്ടുള്ള പഴയപടിയാക്കൽ അളവ് എണ്ണ"
+"ത്തിന് അനുസരിച്ച് ശസ്ത്രക്രിയ ഉപയോഗിക്കാറുണ്ട്. <acronym>GIMP</acronym> ന്"
+"റെ വളരെ പരിഷ്കൃതമായ <quote>Undo</quote> പ്രവർത്തനങ്ങളെക്കുറിച്ച് കൂടുതൽ വിവ"
+"രങ്ങൾക്ക് <link linkend=\"gimp-concepts-undo\">Undoing</link> വിഭാഗം കാണുക."
+
+#: src/menus/edit/undo.xml:29(para)
+msgid ""
+"The operation that has been <quote>undone</quote> is not lost immediately: "
+"you can get it back by using the <link linkend=\"gimp-edit-redo\">Redo</"
+"link> command right away. But if you perform another operation, the ability "
+"to <quote>Redo</quote> will be irretrievably lost."
+msgstr ""
+"<quote>undone</quote> ആയിരുന്നു എന്നും ഓപ്പറേഷൻ ഉടനെ നഷ്ടപ്പെടുകയും: നിങ്ങൾ"
+" ഉടനെതന്നെ <link linkend=\"gimp-edit-redo\">Redo</link> കമാൻഡ് ഉപയോഗിച്ച് "
+"ഇത് തിരികെ ലഭിക്കും. മറ്റൊരു പ്രവർത്തനം നടത്താൻ എങ്കിൽ <quote>Redo</quote>"
+" കഴിവ് ഗന്ധകത്തിന്റെ നഷ്ടപ്പെടും."
+
+#: src/menus/edit/undo.xml:41(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Undo</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Undo</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും,"
+
+#: src/menus/edit/undo.xml:50(para)
+msgid ""
+"by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>Z</"
+"keycap></keycombo>,"
+msgstr ""
+"കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>Z</keycap></key"
+"combo> ഉപയോഗിച്ച്,"
+
+#: src/menus/edit/undo.xml:56(para)
+msgid ""
+"or by simply clicking on the status you want in the Undo History dialog."
+msgstr ""
+"അല്ലെങ്കിൽ നിങ്ങൾ പഴയപടിയാക്കുക ചരിത്രം ചർച്ചയ്ക്കു ആഗ്രഹിക്കുന്ന പദവി ക്ലി"
+"ക്കുചെയ്ത്."
+
+#: src/menus/edit/undo-history.xml:9(title)
+#: src/menus/edit/undo-history.xml:12(primary)
+msgid "Undo History"
+msgstr ""
+"മുമ്പ്ചെയ്തതു്തിരിച്ചു്ചെയ്യുക"
+
+#: src/menus/edit/undo-history.xml:15(para)
+msgid ""
+"The <guimenuitem>Undo History</guimenuitem> command activates the <link "
+"linkend=\"gimp-undo-dialog\">Undo History dialog</link>, which shows you "
+"thumbnails representing the operations you have done so far on the current "
+"image. This overview makes it easier for you to undo steps or to redo them."
+msgstr ""
+"<guimenuitem>Undo History</guimenuitem> കമാൻഡ് നിങ്ങൾ നിലവിലെ ചിത്രം ഇതുവരെ"
+" ചെയ്തതു ഓപ്പറേഷൻസ് പ്രതിനിധീകരിക്കുന്ന ലഘുചിത്രങ്ങൾ കാണിക്കുന്നു <link lin"
+"kend=\"gimp-undo-dialog\">Undo History dialogue</link>, സജീവമാക്കുന്നു. ഈ അ"
+"വലോകനം നിങ്ങളെ ഘട്ടങ്ങൾ ഇല്ലാതാക്കാന് അല്ലെങ്കിൽ അവർക്ക് വീണ്ടുംചെയ്യാൻ സു"
+"ഗമമാക്കുന്നു."
+
+#: src/menus/edit/undo-history.xml:22(para)
+msgid ""
+"Use the arrows for <link linkend=\"gimp-edit-undo\">Undo</link> and <link "
+"linkend=\"gimp-edit-redo\">Redo</link>, or simply click on the thumbnail, to "
+"bring the image back to a previous state. This is especially useful when you "
+"are working on a difficult task, where you often need to undo several steps "
+"at once. It is much easier to click on step 10 than to type "
+"<keycombo><keycap>Ctrl</keycap><keycap>Z</keycap></keycombo> ten times."
+msgstr ""
+"<link linkend=\"gimp-edit-undo\">Undo</link> ആൻഡ് <link linkend=\"gimp-edit"
+"-redo\">Redo</link> വേണ്ടി അമ്പു ഉപയോഗിക്കുക, അല്ലെങ്കിൽ തിരികെ ഒരു മുൻ നി"
+"ലയിലേക്ക് ചിത്രം കൊണ്ടുവരാൻ, ലഘുചിത്രത്തിൽ ക്ലിക്കുചെയ്യുക. നിങ്ങൾ പലപ്പോ"
+"ഴും ഒരേസമയം നിരവധി ഘട്ടങ്ങൾ ഇല്ലാതാക്കാന് വേണമെങ്കിൽ എവിടെ ബുദ്ധിമുട്ടുണ്ടാ"
+"കില്ല, പ്രവർത്തിക്കുകയാണ് ഇത് പ്രത്യേകിച്ചും ഉപകാരപ്രദമാണ്. ഇത് <keycombo><"
+"keycap>Ctrl</keycap><keycap>Z</keycap></keycombo> പത്തു പ്രാവശ്യം ടൈപ്പ് അധ"
+"ികം ഘട്ടം 10 ക്ലിക്ക് വളരെ എളുപ്പം."
+
+#: src/menus/edit/undo-history.xml:33(para)
+msgid ""
+"The <quote>Clear undo History</quote> command may be useful if you are "
+"working on a complex image and you want to free some memory."
+msgstr ""
+"നിങ്ങൾ ഒരു സങ്കീർണ്ണമായ ഇമേജ് പ്രവർത്തിക്കുകയാണ് നിങ്ങൾ ചില മെമ്മറിയും ചെയ്"
+"യണമെങ്കിൽ <quote>Clear Undo History</quote> കമാൻഡ് ഉപയോഗപ്പെടുന്നു."
+
+#: src/menus/edit/undo-history.xml:39(title)
+#: src/menus/edit/stroke-path.xml:32(title) src/menus/edit/redo.xml:34(title)
+#: src/menus/edit/module-manager.xml:34(title)
+#: src/menus/edit/copy-visible.xml:40(title)
+msgid "Activating the Command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/edit/undo-history.xml:42(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Undo History</guimenuitem></"
+"menuchoice>. There is no default keyboard shortcut."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Undo History</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയ"
+"ും. സഹജമായ കീബോർഡ് കുറുക്കുവഴി ഉണ്ട്."
+
+#: src/menus/edit/stroke-selection.xml:8(title)
+#: src/menus/edit/stroke-selection.xml:15(primary)
+msgid "Stroke Selection"
+msgstr ""
+"സ്ട്രോക്ക് തിരഞ്ഞെടുക്കൽ"
+
+#: src/menus/edit/stroke-selection.xml:11(primary)
+#: src/menus/edit/paste.xml:15(primary)
+#: src/menus/edit/paste-into.xml:16(primary)
+#: src/menus/edit/paste-as-pattern.xml:17(primary)
+#: src/menus/edit/paste-as-new.xml:15(primary)
+#: src/menus/edit/paste-as-layer.xml:15(primary)
+#: src/menus/edit/paste-as-brush.xml:17(primary)
+#: src/menus/edit/fill-pattern.xml:17(primary)
+#: src/menus/edit/fill-fg.xml:17(primary)
+#: src/menus/edit/fill-bg.xml:18(primary) src/menus/edit/cut.xml:17(primary)
+#: src/menus/edit/copy.xml:16(primary) src/menus/edit/clear.xml:20(primary)
+msgid "Selection"
+msgstr ""
+"തിരഞ്ഞെടുക്കൽ"
+
+#: src/menus/edit/stroke-selection.xml:12(secondary)
+msgid "Stroke selection"
+msgstr ""
+"സ്ട്രോക്ക് നിരക്കു"
+
+#: src/menus/edit/stroke-selection.xml:18(para)
+msgid ""
+"The <guimenuitem>Stroke Selection</guimenuitem> command strokes a selection "
+"in the image. There are two ways you can stroke the selection, either by "
+"using a paint tool or without using one. This means that the selection "
+"border, which is emphasized in the image with a dotted line, can be drawn "
+"with a stroke. There are various options which you can use to specify how "
+"this stroke should look."
+msgstr ""
+"<guimenuitem>Stroke Selection</guimenuitem> കമാൻഡ് ചിത്രം ഒരു നിര സ്ട്രോക്"
+"കുകൾ. ഒരു പെയിന്റ് ഉപയോഗിച്ച് ഒന്നോ ഉപയോഗിക്കാതെ ഒന്നുകിൽ നിങ്ങൾ സ്ട്രോ"
+"ക്ക് നിരക്കു രണ്ട് മാർഗ്ഗങ്ങളുണ്ട്, ഉണ്ട്. ഇത് ഒരു അതിനെക്കുറിച്ച് ഉപയോഗിച"
+"്ച് സ്വരൂപത്തിൽ ഊന്നൽ ഏത് നിരക്കു അതിർത്തി, അടിയാൽ വരച്ച കഴിയും എന്നാണ്. നി"
+"ങ്ങൾ എങ്ങനെ ഈ സ്ട്രോക്ക് നോക്കട്ടെ വ്യക്തമാക്കാൻ ഉപയോഗിക്കാം വിവിധ ഓപ്ഷന"
+"ുകൾ ഉണ്ട്."
+
+#: src/menus/edit/stroke-selection.xml:27(para)
+msgid "This command is only active if the image has an active selection."
+msgstr ""
+"ചിത്രം ഒരു സജീവ സെലക്ഷനുണ്ടെന്ന് എങ്കിൽ ഈ കമാൻഡ് സജീവമാണ്."
+
+#: src/menus/edit/stroke-selection.xml:36(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Stroke Selection</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Stroke Selection</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ "
+"കഴിയും."
+
+#: src/menus/edit/stroke-selection.xml:45(para)
+msgid ""
+"You can also access it through the <link linkend=\"gimp-selection-dialog"
+"\">Selection Editor</link>."
+msgstr ""
+"നിങ്ങൾക്ക് <link linkend=\"gimp-selection-dialog \">Selection Editor</link>"
+" വഴി ആക്സസ് ചെയ്യാൻ കഴിയും."
+
+#: src/menus/edit/stroke-selection.xml:54(title)
+msgid "The <quote>Stroke Selection</quote> dialog"
+msgstr ""
+"<quote>Stroke Selection</quote> ഡയലോഗ്"
+
+#: src/menus/edit/stroke-selection.xml:56(para)
+msgid ""
+"The options for stroking selections and for stroking paths are the same. You "
+"can find the documentation about the options in the dialog box in the <link "
+"linkend=\"gimp-path-stroke\">Stroke Path</link> section."
+msgstr ""
+"അതേ ആകുന്നു തിരഞ്ഞെടുക്കലുകൾ അതാണെന്ന് വേണ്ടി പാഥുകൾ അതാണെന്ന് ഓപ്ഷനുകൾ. നി"
+"ങ്ങൾ <link linkend=\"gimp-path-stroke\">Stroke Path</link> വിഭാഗത്തിൽ ഡയലോ"
+"ഗ് ബോക്സിൽ ഓപ്ഷനുകൾ കുറിച്ച് ഡോക്യുമെന്റേഷൻ കണ്ടെത്താൻ കഴിയും."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/edit/stroke-path.xml:59(None)
+msgid ""
+"@@image: 'images/menus/edit/stroke-path.png'; "
+"md5=3631e41d419fef447d65fa928093f3d5"
+msgstr ""
+"@@image: 'images/menus/edit/stroke-path.png'; "
+"md5=3631e41d419fef447d65fa928093f3d5"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/edit/stroke-path.xml:147(None)
+msgid ""
+"@@image: 'images/menus/edit/stroke-path-miter.png'; "
+"md5=26ddd02d429a59606df66e4d3ce05928"
+msgstr ""
+"@@image: 'images/menus/edit/stroke-path-miter.png'; "
+"md5=26ddd02d429a59606df66e4d3ce05928"
+
+#: src/menus/edit/stroke-path.xml:9(title)
+msgid "Stroke Path"
+msgstr ""
+"സ്ട്രോക്ക് പാത"
+
+#: src/menus/edit/stroke-path.xml:12(primary)
+msgid "Paths"
+msgstr ""
+"പാഥുകൾ"
+
+#: src/menus/edit/stroke-path.xml:13(secondary)
+msgid "Stroke"
+msgstr ""
+"സ്ട്രോക്ക്"
+
+#: src/menus/edit/stroke-path.xml:16(primary)
+msgid "Stoke path"
+msgstr ""
+"സ്റ്റോക്ക് പാത്ത്"
+
+#: src/menus/edit/stroke-path.xml:19(para)
+msgid ""
+"The <guimenuitem>Stroke Path</guimenuitem> command strokes a path in the "
+"image. There are two ways you can stroke the path, either by using a paint "
+"tool, or without using one. There are various options which you can use to "
+"specify how this stroke should look."
+msgstr ""
+"<guimenuitem>Stroke Path</guimenuitem> കമാൻഡ് ചിത്രം ഒരു പാത സ്ട്രോക്കുകൾ."
+" നിങ്ങൾ സ്ട്രോക്ക് പാത്ത് രണ്ട് മാർഗ്ഗങ്ങളുണ്ട് ഒന്നുകിൽ ഒരു പെയിന്റ് ഉപയേ"
+"ാഗിച്ച്, അല്ലെങ്കിൽ ഒരു ഉപയോഗിക്കാതെ ഉണ്ട്. നിങ്ങൾ എങ്ങനെ ഈ സ്ട്രോക്ക് നേ"
+"ാക്കട്ടെ വ്യക്തമാക്കാൻ ഉപയോഗിക്കാം വിവിധ ഓപ്ഷനുകൾ ഉണ്ട്."
+
+#: src/menus/edit/stroke-path.xml:26(para)
+msgid "This command is active only if there is a path in your image."
+msgstr ""
+"ഈ കമാൻഡ് നിങ്ങളുടെ ഇമേജ് ഒരു പാത്ത് ഉണ്ടായിരിക്കണം മാത്രം സജീവമാണ്."
+
+#: src/menus/edit/stroke-path.xml:35(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Stroke Path</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Stroke Path</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയു"
+"ം."
+
+#: src/menus/edit/stroke-path.xml:44(para)
+msgid ""
+"You can also access it by clicking on the button with the same name in the "
+"<link linkend=\"gimp-path-dialog\">Path dialog</link>."
+msgstr ""
+"നിങ്ങൾക്ക് <link linkend=\"gimp-path-dialog\">Path dialogue</link> ഇതേ പേരി"
+"ലുള്ള ബട്ടൺ ക്ളിക്ക് അത് ആക്സസ് ചെയ്യാൻ കഴിയും."
+
+#: src/menus/edit/stroke-path.xml:53(title)
+msgid "Description of the Dialog Window"
+msgstr ""
+"ഡയലോഗ് വിൻഡോ വിവരണം"
+
+#: src/menus/edit/stroke-path.xml:55(title)
+msgid "The <quote>Choose Stroke Style</quote> dialog window"
+msgstr ""
+"<quote>Choose Stroke Style</quote> ഡയലോഗ് വിൻഡോ"
+
+#: src/menus/edit/stroke-path.xml:63(para)
+msgid ""
+"The <guilabel>Choose Stroke Style</guilabel> dialog box allows you to choose "
+"between stroking the path with the options you specify or stroking it with a "
+"paint tool. If you stroke the path with a paint tool, the current paint tool "
+"options are used to draw the stroke."
+msgstr ""
+"<guilabel>Choose Stroke Style</guilabel> ഡയലോഗ് ബോക്സ് നിങ്ങൾ വ്യക്തമാക്ക"
+"ുന്ന ഓപ്ഷനുകൾ ഉപയോഗിച്ച് പാത്ത് അതാണെന്ന് അല്ലെങ്കിൽ പെയിന്റ് അതു അതാണെന്ന"
+"് തിരഞ്ഞെടുക്കാൻ അനുവദിക്കുന്നു. നിങ്ങൾ സ്ട്രോക്ക് ഒരു പെയിന്റ് ഉപയോഗിച്ച"
+"് പാത എങ്കിൽ പെയിന്റ് ഓപ്ഷനുകൾ സ്ട്രോക്ക് കോരുവാൻ ഉപയോഗിക്കുന്നു."
+
+#: src/menus/edit/stroke-path.xml:70(title)
+msgid "Stroke line"
+msgstr ""
+"സ്ട്രോക്ക് ലൈൻ"
+
+#: src/menus/edit/stroke-path.xml:71(para)
+msgid ""
+"The stroke is drawn with the current foreground color, set in the Toolbox. "
+"By clicking on the triangle next to <guilabel>Line Style</guilabel> however, "
+"the dialog expands and you can set several additional options:"
+msgstr ""
+"സ്ട്രോക്ക് നിലവിലെ മുൻഭാഗത്തെ വർണ്ണം പണിസഞ്ചിയിൽ സെറ്റ് വരച്ചതാണ്. എന്നാൽ "
+"<guilabel>Line Style</guilabel> അടുത്ത ത്രികോണം മാകാം, ഡയലോഗ് വികസിക്കുകയ"
+"ും നിങ്ങൾ നിരവധി അധിക ഓപ്ഷനുകൾ സെറ്റ് ചെയ്യാം:"
+
+#: src/menus/edit/stroke-path.xml:78(term)
+msgid "Line Width"
+msgstr ""
+"ലൈൻ വീതി"
+
+#: src/menus/edit/stroke-path.xml:80(para)
+msgid ""
+"You can set the width of the stroke using the text box. The default unit is "
+"pixels, but you can choose another unit with the drop-down list button."
+msgstr ""
+"ടെക്സ്റ്റ് ബോക്സ് ഉപയോഗിച്ച് സ്ട്രോക്ക് വീതി സജ്ജമാക്കാൻ കഴിയും. യൂണിറ്റ"
+"് പിക്സൽ, എന്നാൽ ഡ്രോപ്-ഡൗൺ ലിസ്റ്റ് ബട്ടൺ മറ്റൊരു യൂണിറ്റ് തിരഞ്ഞെടുക്കാ"
+"ം."
+
+#: src/menus/edit/stroke-path.xml:88(term)
+msgid "Solid color / Pattern"
+msgstr ""
+"സോളിഡ് നിറം / ശ്രേണി"
+
+#: src/menus/edit/stroke-path.xml:90(para)
+msgid ""
+"You can choose whether the line is drawn in the <emphasis>Solid</emphasis> "
+"or the <emphasis>Pattern</emphasis> style. Here, Solid and Pattern are "
+"distinct from the dash pattern. If you select a Solid line with no dash "
+"pattern, an unbroken line is drawn in the foreground color set in the "
+"Toolbox. If you select a Patterned line with no dash pattern, an unbroken "
+"line is drawn with the pattern set in the Toolbox. If you select a line with "
+"a dash pattern, the color or pattern is still determined by the foreground "
+"color or pattern set in the Toolbox. That is, if you select a marbled "
+"pattern and Patterned, dashed lines, the dashes are drawn in the marbled "
+"pattern"
+msgstr ""
+"വരിയിലെ <emphasis>Solid</emphasis> അല്ലെങ്കിൽ <emphasis>Pattern</emphasis> "
+"രീതിയിൽ വരച്ചതാണ് എന്നത് തിരഞ്ഞെടുക്കാം. ഇവിടെ, ഖര ശ്രേണി ഡാഷ് പാറ്റേൺ നിന്"
+"ന് വ്യത്യസ്തമാണ്. നിങ്ങൾ യാതൊരു ഡാഷ് പാറ്റേൺ ഒരു സോളിഡ് ലൈൻ തെരഞ്ഞെടുത്താ"
+"ൽ, അതിപുരാതനമായ ലൈൻ പുരോതല നിറം പണിസഞ്ചിയിൽ സെറ്റ് വരച്ചതാണ്. നിങ്ങൾ യാതൊ"
+"രു ഡാഷ് പാറ്റേൺ പാറ്റേണുകളുടെ ലൈൻ തെരഞ്ഞെടുത്താൽ, അതിപുരാതനമായ ലൈൻ പണിസഞ്ചി"
+" വെച്ചിരിക്കുന്നതും പാറ്റേൺ വരച്ചതാണ്. നിങ്ങൾ ഒരു ഡാഷ് പാറ്റേൺ കൊണ്ട് ഒരു "
+"ലൈൻ തെരഞ്ഞെടുത്താൽ, നിറം അല്ലെങ്കിൽ പാറ്റേൺ ഇപ്പോഴും പണിസഞ്ചി വെച്ചിരിക്കു"
+"ന്നതും മുന്ഭാഗത്തെ അല്ലെങ്കിൽ പാറ്റേൺ നിർണ്ണയിക്കുന്നത്. നിങ്ങൾ സഹോദരന് ഒര"
+"ു മാതൃക പാറ്റേണിലുള്ള തിരഞ്ഞെടുക്കുക അതാണ് ആണ്, തകർത്തുകളഞ്ഞു വരികൾ, ഡാഷുകള"
+"ും marbled മാതൃകയിൽ വരയ്ക്കും"
+
+#: src/menus/edit/stroke-path.xml:108(term)
+msgid "Line Style"
+msgstr ""
+"ലൈൻ ശൈലി"
+
+#: src/menus/edit/stroke-path.xml:110(para)
+msgid "This drop-list brings some detailed options :"
+msgstr ""
+"ഈ ഡ്രോപ്പ്-ലിസ്റ്റ് ചില വിശദമായ ഓപ്ഷനുകൾ നൽകുന്നു:"
+
+#: src/menus/edit/stroke-path.xml:115(para)
+msgid ""
+"<guilabel>Cap Style</guilabel> : You can choose the shape of the ends of an "
+"unclosed path, which can be <emphasis>Butt</emphasis>, <emphasis>Round</"
+"emphasis> or <emphasis>Square</emphasis>."
+msgstr ""
+"<guilabel>Cap Style</guilabel>: നിങ്ങൾ <emphasis>Butt</emphasis>, <emphasis"
+">Round</emphasis> അല്ലെങ്കിൽ <emphasis>Square</emphasis> കഴിയുന്ന ഒരു അടയ്ക"
+"്കാത്ത പാത, അറ്റത്തോളവും ആകൃതി തിരഞ്ഞെടുക്കാം."
+
+#: src/menus/edit/stroke-path.xml:123(para)
+msgid ""
+"<guilabel>Join Style</guilabel> : You can choose the shape of the path "
+"corners by clicking on <emphasis>Miter</emphasis>, <emphasis>Round</"
+"emphasis> or <emphasis>Bevel</emphasis>."
+msgstr ""
+"<guilabel>Join Style</guilabel>: നിങ്ങൾ <emphasis>Miter</emphasis>, <emphas"
+"is>Round</emphasis> അല്ലെങ്കിൽ <emphasis>Bevel</emphasis> ക്ലിക്കുചെയ്ത് പാ"
+"ത്ത് കോണിലും ആകൃതിയിൽ തിരഞ്ഞെടുക്കാം."
+
+#: src/menus/edit/stroke-path.xml:131(para)
+msgid ""
+"<guilabel>Miter limit</guilabel> : When two segments of a path come "
+"together, the mitering of the corner is determined by the Miter Limit. If "
+"the strokes were wide, and no mitering were done, there would be pointed "
+"ends sticking out at the corner. The Miter Limit setting determines how the "
+"gap, formed when the outer edges of the two lines are extended, will be "
+"filled. You can set it to a value between 0.0 and 100.0, by using the slider "
+"or the associated text box and its arrows."
+msgstr ""
+"<guilabel>Miter limit</guilabel>: ഒരു പാതയുടെ രണ്ടു സെഗ്മെന്റുകൾ കൂടിവരുമ്പ"
+"ോൾ മൂലക്കല്ലായിത്തീർന്നു mitering മിൽട്ടർ പരിധി നിർണ്ണയിക്കുന്നത്. സ്ട്രോ"
+"ക്കുകൾ വീതിയും ഉണ്ടായിരുന്നു; ആരും mitering സംഭവിച്ചതു എങ്കിൽ അവിടെ കൂർത്തത"
+"ും അറ്റത്ത് മൂലയിൽ പുറത്തുകാണിക്കുക തന്നെ. മിൽട്ടർ പരിധി ക്രമീകരണം രണ്ടു വര"
+"ികൾ പുറത്തെ അറ്റങ്ങൾ നീട്ടിയിട്ടുണ്ട് ചെയ്യുമ്പോൾ രൂപം അന്തരം, നിറയും നിർണ"
+"്ണയിക്കുന്നത്. സ്ലൈഡർ അല്ലെങ്കിൽ ബന്ധപ്പെട്ട ടെക്സ്റ്റ് ബോക്സ് അതിന്റെ അസ്"
+"ത്രങ്ങൾ ഉപയോഗിച്ച്, 0.0 നും 100,0 ഒരു മൂല്യം ഇത് സജ്ജമാക്കാം."
+
+#: src/menus/edit/stroke-path.xml:143(title)
+msgid "Example of miter limit"
+msgstr ""
+"മുടിയുടെ പരിധി ഉദാഹരണം"
+
+#: src/menus/edit/stroke-path.xml:150(para)
+msgid "Left: Limit=0; Right: Limit=5;"
+msgstr ""
+"ഇടതുപക്ഷ: പരിധി = 0; വലത്: പരിധി = 5;"
+
+#: src/menus/edit/stroke-path.xml:156(para)
+msgid ""
+"<guilabel>Dash Pattern</guilabel> : On the pixel level, a dashed line is "
+"drawn as a series of tiny boxes. You can modify the pattern of these boxes. "
+"The black area with thin vertical lines represents the pixels of the dash. "
+"If you click on a black pixel, you remove it from the dash. If you click on "
+"a white pixel, you add it to the dash. The gray areas indicate how the "
+"pattern will be repeated when a dashed line is drawn."
+msgstr ""
+"<guilabel>Dash Pattern</guilabel>: പിക്സൽ തലത്തിൽ ഒരു ഒന്നിടവിട്ട വര ചെറിയ "
+"പെട്ടികൾ ഒരു പരമ്പര ആയി വരച്ചതാണ്. നിങ്ങൾ ഈ ബോക്സുകൾ പാറ്റേൺ പരിഷ്കരിക്കാന"
+"ും കഴിയും. നേർത്ത ലംബമായ വരകളുള്ള കറുത്ത പ്രദേശം ഡാഷ് എന്ന പിക്സലുകൾ പ്രതിന"
+"ിധീകരിക്കുന്നു. നിങ്ങൾ ഒരു കറുത്ത പിക്സൽ ക്ലിക്ക്, നിങ്ങൾക്ക് ഡാഷ് നിന്ന് അ"
+"ത് നീക്കം. നിങ്ങൾ ഒരു വെളുത്ത പിക്സൽ ക്ലിക്ക്, നിങ്ങൾക്ക് ഡാഷ് ചേർക്കുക. ചാ"
+"ര പ്രദേശങ്ങൾ ഒരു ഒന്നിടവിട്ട വര വരച്ച ചെയ്യുമ്പോൾ പാറ്റേൺ ആവർത്തിച്ചു എങ്ങ"
+"നെ സൂചിപ്പിക്കുന്നു."
+
+#: src/menus/edit/stroke-path.xml:168(para)
+msgid ""
+"<guilabel>Dash Preset</guilabel> : Instead of making your own dash pattern, "
+"you can choose one from the drop-down box. This pattern will then be "
+"displayed in the <guilabel>Dash pattern</guilabel> area, so you can get an "
+"idea of how it will look."
+msgstr ""
+"<guilabel>Dash Preset</guilabel>: പകരം നിങ്ങളുടെ സ്വന്തം ഡാഷ് പാറ്റേൺ വരുത്"
+"തുന്നതിനു, ഡ്രോപ്-ഡൗൺ ബോക്സിൽ നിന്നും തിരഞ്ഞെടുക്കാം. ഈ പാറ്റേൺ അതിനാൽ നി"
+"ങ്ങളെ മനസിലാക്കിയത് എങ്ങനെ ഒരു ആശയം ലഭിക്കും, <guilabel>Dash pattern</guila"
+"bel> പ്രദേശത്ത് ദൃശ്യമാകും."
+
+#: src/menus/edit/stroke-path.xml:177(para)
+msgid ""
+"<guilabel>Anti-aliasing</guilabel> : Curved strokes or strokes drawn at an "
+"angle may look jagged or stair-stepped. The anti-aliasing option smooths "
+"them out."
+msgstr ""
+"<guilabel>Anti-aliasing</guilabel>: വക്ര സ്ട്രോക്കുകൾ അല്ലെങ്കിൽ സ്ട്രോക്"
+"കുകൾ ഒരു കോണിൽ വരച്ച പല്ലുള്ള അല്ലെങ്കിൽ കോണികളും വരുകയായിരുന്നു കാണപ്പെട"
+"ാം. അലിയാസിങ് വിരുദ്ധ ഓപ്ഷൻ അവരെ പുറത്തു smooths."
+
+#: src/menus/edit/stroke-path.xml:188(term)
+msgid "Stroking with a Paint Tool"
+msgstr ""
+"ഒരു പെയിന്റ് ഉപയോഗിച്ച് അതാണെന്ന്"
+
+#: src/menus/edit/stroke-path.xml:192(term)
+msgid "Paint Tool"
+msgstr ""
+"പെയിന്റ്"
+
+#: src/menus/edit/stroke-path.xml:194(para)
+msgid ""
+"You can select a paint tool to use to draw the stroke from the drop-down "
+"box. If you do that, the currently-selected options of the paint tool are "
+"used, rather than the settings in the dialog."
+msgstr ""
+"ഡ്രോപ്-ഡൗൺ ബോക്സിൽ നിന്ന് സ്ട്രോക്ക് വരയ്ക്കാൻ ഉപയോഗിക്കാൻ ഒരു പെയിന്റ്"
+" തിരഞ്ഞെടുക്കാം. നിങ്ങൾ അങ്ങനെ, പെയിന്റ് നിലവിൽ-തിരഞ്ഞെടുത്ത ഓപ്ഷനുകൾ പകരം "
+"ചർച്ചയ്ക്കു ക്രമീകരണങ്ങൾ അധികം ഉപയോഗിക്കുന്നു."
+
+#: src/menus/edit/stroke-path.xml:203(term)
+msgid "Emulate Brush Dynamics"
+msgstr ""
+"ബ്രഷ് ഡൈനാമിക്സ് എമുലേറ്റുചെയ്യുക"
+
+#: src/menus/edit/stroke-path.xml:205(para)
+msgid "See <link linkend=\"gimp-tool-brush-dynamics\">Brush Dynamics</link>."
+msgstr ""
+"<link linkend=\"gimp-tool-brush-dynamics\">Brush Dynamics</link> കാണുക."
+
+#: src/menus/edit/shortcuts.xml:10(title)
+#: src/menus/edit/shortcuts.xml:13(primary)
+msgid "Keyboard Shortcuts"
+msgstr ""
+"കീബോർഡ് കുറുക്കുവഴികൾ"
+
+#: src/menus/edit/shortcuts.xml:16(para)
+msgid ""
+"How to use this command is described in <xref linkend=\"gimp-concepts-"
+"shortcuts\"/>."
+msgstr ""
+"എങ്ങനെ ഈ കമാൻഡ് ഉപയോഗിക്കാൻ <xref linkend=\"gimp-concepts- shortcuts\" /> "
+"വിശദീകരിച്ചിട്ടുണ്ട്."
+
+#: src/menus/edit/shortcuts.xml:25(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Keyboard Shortcuts…</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Keyboard Shortcuts&#8230;</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ്"
+" ചെയ്യാൻ കഴിയും."
+
+#: src/menus/edit/redo.xml:9(title) src/menus/edit/redo.xml:12(primary)
+msgid "Redo"
+msgstr ""
+"തയ്യാറായ"
+
+#: src/menus/edit/redo.xml:15(para)
+msgid ""
+"The <guimenuitem>Redo</guimenuitem> command reverses the effects of the "
+"<guimenuitem>Undo</guimenuitem> command. Each <quote>Undo</quote> action can "
+"be reversed by a single <quote>Redo</quote> action. You can alternate "
+"<quote>Undo</quote> and <quote>Redo</quote> as many times as you like. Note "
+"that you can only <quote>Redo</quote> an operation if the last action you "
+"did was an <quote>Undo</quote>. If you perform any operation on the image "
+"after Undoing something, then the former Redo steps are lost, and there is "
+"no way to recover them. See the <link linkend=\"gimp-concepts-undo"
+"\">Undoing</link> section for more information."
+msgstr ""
+"<guimenuitem>Redo</guimenuitem> കമാൻഡ് <guimenuitem>Undo</guimenuitem> കമാൻ"
+"ഡിന്റെ ഇഫക്റ്റുകൾ വിപരീത. ഓരോ <quote>Undo</quote> നടപടി ഒരൊറ്റ <quote>Red"
+"o</quote> പ്രവർത്തനം ശരിയാക്കാൻ സാധിക്കും. നിങ്ങൾക്ക് ഇഷ്ടമുള്ള അത്രയും പ്ര"
+"ാവശ്യം <quote>Undo</quote> ആൻഡ് <quote>Redo</quote> ജയാപജയങ്ങൾ കഴിയും. അവസാ"
+"ന പ്രവർത്തനം നിങ്ങളെ ചെയ്തു ഒരു <quote>Undo</quote> ആയിരുന്നു എങ്കില് മാത്ര"
+"മേ <quote>Redo</quote> കഴിയുന്ന ഒരു ഓപ്പറേഷൻ ശ്രദ്ധിക്കുക. നിങ്ങൾ എന്തെങ്കി"
+"ലും പൂർവാവസ്ഥയിലാക്കുന്നു ശേഷം ചിത്രം ഏതെങ്കിലും പ്രവർത്തനം നടത്താൻ എങ്കിൽ,"
+" മുൻ വീണ്ടും ഘട്ടങ്ങൾ നഷ്ടപ്പെട്ടു; അവരെ വീണ്ടെടുക്കാൻ യാതൊരു വഴിയും ഇല്ല."
+" കൂടുതൽ വിവരങ്ങൾക്ക് <link linkend=\"gimp-concepts-undo \">Undoing</link> വ"
+"ിഭാഗം കാണുക."
+
+#: src/menus/edit/redo.xml:28(para)
+msgid ""
+"To see the operations which you have done and undone, use the <link linkend="
+"\"gimp-undo-dialog\">Undo History</link> dialog."
+msgstr ""
+"നീ ചെയ്തതു പഴയപടിയാക്കാനാവില്ല ചെയ്തിട്ടുള്ള ഓപ്പറേഷൻസ് കാണുന്നതിന്, <link "
+"linkend=\"gimp-undo-dialog\">Undo History</link> ഡയലോഗ് ഉപയോഗിക്കുക."
+
+#: src/menus/edit/redo.xml:37(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Redo</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Redo</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും,"
+
+#: src/menus/edit/redo.xml:46(para)
+msgid ""
+"by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>Y</"
+"keycap></keycombo>,"
+msgstr ""
+"കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>Y</keycap></key"
+"combo> ഉപയോഗിച്ച്,"
+
+#: src/menus/edit/redo.xml:52(para)
+msgid ""
+"or by simply clicking on the status you want in the <link linkend=\"gimp-"
+"undo-dialog\">Undo History dialog</link>."
+msgstr ""
+"അല്ലെങ്കിൽ നിങ്ങൾ <link linkend=\"gimp- undo-dialog\">Undo History dialogue"
+"</link> വേണ്ട നില ക്ലിക്കുചെയ്ത്."
+
+#: src/menus/edit/preferences.xml:10(title)
+msgid "The <quote>Preferences</quote> Command"
+msgstr ""
+"<quote>Preferences</quote> കമാൻഡ്"
+
+#: src/menus/edit/preferences.xml:13(primary)
+msgid "Preferences (command)"
+msgstr ""
+"പ്രിഫറൻസ് (കമാൻഡ്)"
+
+#: src/menus/edit/preferences.xml:16(para)
+msgid ""
+"This command displays the <link linkend=\"gimp-prefs-dialog\">Preferences "
+"dialog</link>, which lets you alter a variety of settings that affect the "
+"look, feel, and performance of the <acronym>GIMP</acronym>."
+msgstr ""
+"ഈ കമാൻഡ്, നോക്കുക ബാധിക്കുന്ന ക്രമീകരണങ്ങളുടെ ഒരു വൈവിധ്യം മാറ്റംവരുത്തിയേ"
+"ാ മടിക്കേണ്ടതില്ല ആൻഡ് <acronym>GIMP</acronym> പ്രകടനം അനുവദിക്കുന്നു <link"
+" linkend=\"gimp-prefs-dialog\">Preferences dialogue</link> പ്രദർശിപ്പിക്കുന"
+"്നു."
+
+#: src/menus/edit/preferences.xml:24(title)
+msgid "Activate Command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുക"
+
+#: src/menus/edit/preferences.xml:27(para)
+msgid ""
+"You can access this command in the image menu bar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></"
+"menuchoice>"
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenu"
+"item></menuchoice> വഴി ഇമേജ് മെനു ബാറിലെ ഈ കമാൻഡ് ആക്സസ്സുചെയ്യാനാകും"
+
+#: src/menus/edit/paste.xml:8(title) src/menus/edit/paste.xml:12(secondary)
+#: src/menus/edit/paste.xml:16(secondary) src/menus/edit/paste.xml:19(primary)
+#: src/menus/edit/paste-into.xml:13(secondary)
+#: src/menus/edit/paste-into.xml:17(secondary)
+#: src/menus/edit/paste-as-pattern.xml:14(secondary)
+#: src/menus/edit/paste-as-pattern.xml:18(secondary)
+#: src/menus/edit/paste-as-new.xml:16(secondary)
+#: src/menus/edit/paste-as-layer.xml:12(secondary)
+#: src/menus/edit/paste-as-layer.xml:16(secondary)
+#: src/menus/edit/paste-as-brush.xml:14(secondary)
+#: src/menus/edit/paste-as-brush.xml:18(secondary)
+msgid "Paste"
+msgstr ""
+"പേസ്റ്റ്"
+
+#: src/menus/edit/paste.xml:11(primary)
+#: src/menus/edit/paste-into.xml:12(primary)
+#: src/menus/edit/paste-as-pattern.xml:13(primary)
+#: src/menus/edit/paste-as-layer.xml:11(primary)
+#: src/menus/edit/paste-as-brush.xml:13(primary)
+#: src/menus/edit/fill-pattern.xml:12(primary)
+#: src/menus/edit/fill-fg.xml:12(primary)
+#: src/menus/edit/fill-bg.xml:13(primary) src/menus/edit/cut.xml:12(primary)
+#: src/menus/edit/copy.xml:12(primary)
+#: src/menus/edit/copy-visible.xml:12(primary)
+#: src/menus/edit/clear.xml:15(primary)
+msgid "Layer"
+msgstr ""
+"ലെയർ"
+
+#: src/menus/edit/paste.xml:22(para)
+msgid ""
+"The <guimenuitem>Paste</guimenuitem> command puts whatever is in the "
+"Clipboard from the last <quote>Copy</quote> or <quote>Cut</quote> command "
+"into the current image. The pasted section becomes a <quote>floating "
+"selection</quote> and is shown as a separate layer in the Layers Dialog."
+msgstr ""
+"<guimenuitem>Paste</guimenuitem> കമാൻഡ് അവസാന <quote>Copy</quote> അല്ലെങ്കി"
+"ൽ നിലവിലെ പ്രതിമയായി <quote>Cut</quote> കമാൻഡ് നിന്ന് ക്ലിപ്ബോർഡ് ലെ ഉള്ളത"
+"ൊക്കെ ഇടുന്നു. ഒട്ടിച്ചു വിഭാഗം, ഒരു <quote>floating selection</quote> മാറ"
+"ുന്നു ലെയറുകൾക്കുമായുള്ള ഡയലോഗ് ഒരു പ്രത്യേക പാളി കാണിക്കുന്നു."
+
+#: src/menus/edit/paste.xml:29(para)
+msgid ""
+"If there is an existing selection on the canvas, it is used to align the "
+"pasted data. If there is already a selection, the data is pasted using the "
+"selection as a center point. If you want the selection to be used as a "
+"clipping region for the pasted data, you should use the <quote>Paste Into</"
+"quote> command."
+msgstr ""
+"കാൻവാസിൽ നിലവിലുള്ള ഒരു നിര ഉണ്ടെങ്കിൽ, അത് ഒട്ടിച്ചു ഡാറ്റ വിന്യസിക്കുക ഉപ"
+"യോഗിക്കുന്നു. ഒരു നിരക്കു ഇതിനകം ഉണ്ടെങ്കിൽ, ഡേറ്റാ സെന്റര് പോയിന്റ് ആയി "
+"നിരക്കു ഉപയോഗിച്ച് ഒട്ടിച്ചു ആണ്. നിങ്ങൾ നിരക്കു ഒട്ടിച്ചു ഡാറ്റ ഒരു ക്ലിപ"
+"്പിംഗ് മേഖലയിലെ ആയി ഉപയോഗിക്കുന്ന ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, നിങ്ങൾ <quote>P"
+"aste Into</quote> കമാൻഡ് ഉപയോഗിക്കണം."
+
+#: src/menus/edit/paste.xml:37(para)
+msgid ""
+"You can have only <emphasis>one</emphasis> floating selection at any one "
+"time. You cannot work on any other layer while there is a floating "
+"selection; you have to either anchor it or remove it."
+msgstr ""
+"നിങ്ങൾക്ക് ഒരു സമയത്ത് മാത്രമേ <emphasis>one</emphasis> ഫ്ലോട്ടിങ് ഞങ്ങൾക്"
+"കുണ്ട് കഴിയും. ഒരു ഫ്ലോട്ടിംഗ് നിരക്കു അവിടെ നിങ്ങൾക്ക് മറ്റേതെങ്കിലും പാള"
+"ി ന് പ്രവർത്തിക്കാൻ കഴിയില്ല; ഒന്നുകിൽ നിങ്ങൾ ആങ്കർ അല്ലെങ്കിൽ അത് നീക്കം."
+
+#: src/menus/edit/paste.xml:48(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenuitem>Edit</guimenuitem><guimenuitem>Paste</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenuitem>Edit</guimenuitem><gui"
+"menuitem>Paste</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴി"
+"യും."
+
+#: src/menus/edit/paste.xml:57(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>V</"
+"keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>V</k"
+"eycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/edit/paste-into.xml:9(title)
+#: src/menus/edit/paste-into.xml:20(primary)
+msgid "Paste Into"
+msgstr ""
+"ഒട്ടിക്കുക"
+
+#: src/menus/edit/paste-into.xml:23(para)
+msgid ""
+"The <guimenuitem>Paste Into</guimenuitem> command acts in a similar way to "
+"the <guimenuitem>Paste</guimenuitem> command. The primary difference becomes "
+"apparent if there is a selection within the canvas. Unlike the <quote>Paste</"
+"quote> command, which simply centers the pasted image data over the "
+"selection and replaces the selection with its own, <quote>Paste Into</quote> "
+"clips the pasted image data by the existing selection. The new selection can "
+"be moved as usual, but it is always clipped by the original selection area."
+msgstr ""
+"<guimenuitem>Paste</guimenuitem> കമാൻഡിന് സമാനമായ രീതിയിൽ <guimenuitem>Past"
+"e Into</guimenuitem> കമാൻഡ് പ്രവൃത്തികൾ. കാൻവാസിൽ ഉള്ളിൽ ഒരു നിര ഉണ്ടെങ്കിൽ"
+" പ്രാഥമിക വ്യത്യാസം പ്രകടമാണ് മാറുന്നു. കേവലം നിരക്കു മേൽ ഒട്ടിച്ചു ചിത്രം "
+"ഡാറ്റ സെന്ററുകളിൽ സ്വന്തം ഉപയോഗിച്ച് തിരഞ്ഞെടുപ്പ് മാറ്റുന്നു <quote>Paste"
+"</quote> കമാൻഡ്, <quote>Paste Into</quote> ക്ലിപ്പുകൾ ഒട്ടിച്ചു ഇമേജ് ഡാറ്റ"
+" വ്യത്യസ്തമായി നിലവിലുള്ള നിരക്കു പ്രകാരം. പുതിയ നിരക്കു സാധാരണപോലെ നീക്കാ"
+"ൻ കഴിയില്ല, പക്ഷേ അത് എല്ലായ്പോഴും യഥാർത്ഥ നിരക്കു മേഖലയിലൂടെ ചെത്തിയെടുത്"
+"തത് ആണ്."
+
+#: src/menus/edit/paste-into.xml:33(para)
+msgid ""
+"If no selection exists, the <quote>Paste Into</quote> command places the "
+"data from the Clipboard into the center of the canvas, as the <quote>Paste</"
+"quote> command does."
+msgstr ""
+"<quote>Paste</quote> കമാൻഡ് ചെയ്യുന്നത് പോലെ യാതൊരു നിരക്കു, ക്യാൻവാസു കേ"
+"ന്ദ്രമായി നിലവിലുണ്ട്, <quote>Paste Into</quote> കമാൻഡ് സ്ഥലങ്ങളിൽ ബോർഡിൽ "
+"നിന്നുള്ള ഡാറ്റ എങ്കിൽ."
+
+#: src/menus/edit/paste-into.xml:43(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Paste Into</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Paste Into</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും"
+"."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/edit/paste-as.xml:21(None)
+msgid ""
+"@@image: 'images/menus/edit/paste-warning.png'; "
+"md5=9f2502ce33ccc2779f22f2f119b98ba3"
+msgstr ""
+"@@image: 'images/menus/edit/paste-warning.png'; "
+"md5=9f2502ce33ccc2779f22f2f119b98ba3"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/edit/paste-as.xml:34(None)
+msgid ""
+"@@image: 'images/menus/edit/paste-as.png'; "
+"md5=a28dec013f6be3cbeaade0356e0221d1"
+msgstr ""
+"@@image: 'images/menus/edit/paste-as.png'; "
+"md5=a28dec013f6be3cbeaade0356e0221d1"
+
+#: src/menus/edit/paste-as.xml:12(title)
+#: src/menus/edit/paste-as-new.xml:12(secondary)
+msgid "Paste as"
+msgstr ""
+"ഒട്ടിക്കുക"
+
+#: src/menus/edit/paste-as.xml:14(para)
+msgid ""
+"This command pastes the clipboard contents. Of course, you must use the "
+"<quote>Copy</quote> command before, so that you have something in the "
+"clipboard. Else you will be prompted a warning: <placeholder-1/> or, if "
+"there is something you have forgotten, it will be pasted! There is no way to "
+"empty the clipboard."
+msgstr ""
+"ഈ കമാൻഡ് ക്ലിപ്ബോർഡിലെ ഉള്ളടക്കം pastes. തീർച്ചയായും, <quote>Copy</quote> "
+"കമാൻഡ് മുമ്പിൽ ക്ലിപ്ബോർഡും എന്തോ ഉണ്ട് അങ്ങനെ ഉപയോഗിക്കണം. , PLACEHOLDE"
+"R,-103992 അല്ലെങ്കിൽ നിങ്ങൾ മറന്നു എന്തെങ്കിലും ഉണ്ടെങ്കിൽ അതു ഒട്ടിക്കുകയു"
+"ള്ളൂ: മറ്റെല്ലാം ഒരു മുന്നറിയിപ്പ് ആവശ്യപ്പെടും! ക്ലിപ്ബോര്ഡ്കാലിയാണു് യാത"
+"ൊരു വഴിയും ഇല്ല."
+
+#: src/menus/edit/paste-as.xml:27(para)
+msgid "This command leads to the sub-menu:"
+msgstr ""
+"ഈ കമാൻഡ് ഉപ-മെനു നയിക്കുന്നു:"
+
+#: src/menus/edit/paste-as.xml:31(title)
+msgid "The <quote>Paste as</quote> sub-menu"
+msgstr ""
+"<quote>Paste as</quote> ഉപ-മെനു"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/edit/paste-as-pattern.xml:37(None)
+msgid ""
+"@@image: 'images/menus/edit/paste-new-pattern.png'; "
+"md5=156cfd422d1949f3bf092d9f91bb776a"
+msgstr ""
+"@@image: 'images/menus/edit/paste-new-pattern.png'; "
+"md5=156cfd422d1949f3bf092d9f91bb776a"
+
+#: src/menus/edit/paste-as-pattern.xml:10(title)
+msgid "Paste as New Pattern"
+msgstr ""
+"പുതിയ മാതൃക ഒട്ടിക്കുക"
+
+#: src/menus/edit/paste-as-pattern.xml:21(primary)
+msgid "Paste as new pattern"
+msgstr ""
+"പുതിയ മാതൃക ആയി ഒട്ടിക്കുക"
+
+#: src/menus/edit/paste-as-pattern.xml:24(para)
+msgid ""
+"This command opens a dialog window which allows you to name your new "
+"pattern. The pattern appears in the <link linkend=\"gimp-pattern-dialog"
+"\">Patterns dialog</link>."
+msgstr ""
+"ഈ കമാൻഡ് നിങ്ങളുടെ പുതിയ മാതൃക പേര് നൽകാൻ അനുവദിക്കുന്ന ഡയലോഗ് വിൻഡോ തുറക"
+"്കുന്നു. പാറ്റേൺ <link linkend=\"gimp-pattern-dialog \">Patterns dialogue</"
+"link> ലഭ്യമാകുന്നു."
+
+#: src/menus/edit/paste-as-pattern.xml:31(title)
+#: src/menus/edit/paste-as-brush.xml:31(title)
+#: src/menus/edit/fade.xml:42(title)
+msgid "Options"
+msgstr ""
+"ഓപ്ഷനുകൾ"
+
+#: src/menus/edit/paste-as-pattern.xml:33(title)
+msgid "The <quote>New Pattern</quote>dialog"
+msgstr ""
+"<quote>New Pattern</quote> ഡയലോഗ്"
+
+#: src/menus/edit/paste-as-pattern.xml:43(term)
+msgid "Pattern name"
+msgstr ""
+"ശ്രേണി പേര്"
+
+#: src/menus/edit/paste-as-pattern.xml:45(para)
+msgid ""
+"<guilabel>Pattern name</guilabel> is the name as it will be in the Pattern "
+"Dialog."
+msgstr ""
+"<guilabel>Pattern name</guilabel> അതു ശ്രേണി ചർച്ചയ്ക്കു ഇരിക്കും പേരാണ്."
+
+#: src/menus/edit/paste-as-pattern.xml:52(term)
+#: src/menus/edit/paste-as-brush.xml:52(term)
+msgid "File name"
+msgstr ""
+"ഫയലിന്റെ പേര്"
+
+#: src/menus/edit/paste-as-pattern.xml:54(para)
+msgid ""
+"The new pattern is saved as <guilabel>File name</guilabel> (with extension "
+"<filename class=\"extension\">.pat</filename>) in your personal <filename "
+"class=\"directory\">patterns</filename> folder."
+msgstr ""
+"പുതിയ മാതൃക നിങ്ങളുടെ സ്വകാര്യ <filename class=\"directory\">patterns</file"
+"name> ഫോൾഡറിൽ <guilabel>File name</guilabel> (വിപുലീകരണം <filename class="
+"\"extension\">.pat</filename> കൂടെ) സംരക്ഷിച്ചു."
+
+#: src/menus/edit/paste-as-pattern.xml:68(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guisubmenu>Paste as </"
+"guisubmenu><guimenuitem>New Pattern</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guisubmenu>"
+"Paste as </guisubmenu><guimenuitem>New Pattern</guimenuitem></menuchoice> മ"
+"ുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും."
+
+#: src/menus/edit/paste-as-new.xml:8(title)
+msgid "Paste as New Image"
+msgstr ""
+"പുതിയ ഇമേജ് ഒട്ടിക്കുക"
+
+#: src/menus/edit/paste-as-new.xml:11(primary)
+msgid "Image"
+msgstr ""
+"ചിത്രം"
+
+#: src/menus/edit/paste-as-new.xml:19(para)
+msgid ""
+"The <guimenuitem>Paste As New Image</guimenuitem> command creates a new "
+"image and pastes the image data from the Clipboard into it. If the data is "
+"not rectangular or square in shape, any regions outside the selection are "
+"left transparent (an alpha channel is automatically created). Of course, you "
+"have to copy your selection before you use this command, so that you get an "
+"image with the same dimensions as the selection."
+msgstr ""
+"<guimenuitem>Paste As New Image</guimenuitem> കമാൻഡ് ഒരു പുതിയ ഇമേജ് ഉണ്ടാക"
+"്കുന്നു അതിൽ ക്ലിപ്ബോർഡ് നിന്നും ചിത്രം ഡാറ്റ pastes. ഡാറ്റ രൂപമുള്ള ചതുരാ"
+"കൃതിയിലുള്ള ചതുര അല്ല എങ്കിൽ, നിരക്കു പുറത്ത് ഏതെങ്കിലും പ്രദേശങ്ങളും സുതാര"
+"്യമായ അവശേഷിക്കുന്നു (ഒരു ആല്ഫാ ചാനൽ യാന്ത്രികമായി സൃഷ്ടിക്കുന്നു). തീർച്ചയ"
+"ായും, നിങ്ങൾ നിരക്കു അതേ അളവുകൾ ഒരു ഇമേജ് നേടുകയും അതുവഴി താങ്കൾക്ക് ഈ കമാൻ"
+"ഡ് ഉപയോഗിക്കുക മുമ്പ് നിങ്ങളുടെ നിരക്കു പകർത്താനും ഞങ്ങൾക്കുണ്ട്."
+
+#: src/menus/edit/paste-as-new.xml:27(para)
+msgid ""
+"This command has the same action as the <menuchoice><guimenu>File</"
+"guimenu><guisubmenu>Create</guisubmenu><guimenuitem>From Clipboard</"
+"guimenuitem></menuchoice> command."
+msgstr ""
+"ഈ കമാൻഡ് <menuchoice><guimenu>File</guimenu><guisubmenu>Create</guisubmenu>"
+"<guimenuitem>From Clipboard</guimenuitem></menuchoice> കമാൻഡ് പോലെ തന്നെ ന"
+"ടപടി ഉണ്ട്."
+
+#: src/menus/edit/paste-as-new.xml:40(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guisubmenu>Paste as</"
+"guisubmenu><guimenuitem>New Image</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guisubmenu>"
+"Paste as</guisubmenu><guimenuitem>New Image</guimenuitem></menuchoice> മുഖേ"
+"ന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും."
+
+#: src/menus/edit/paste-as-layer.xml:8(title)
+#: src/menus/edit/paste-as-layer.xml:19(primary)
+msgid "Paste as New Layer"
+msgstr ""
+"പുതിയ ലെയർ ഒട്ടിക്കുക"
+
+#: src/menus/edit/paste-as-layer.xml:22(para)
+msgid ""
+"The <guimenuitem>Paste As New Layer</guimenuitem> command creates a new "
+"layer in the active image and pastes the image data from the Clipboard into "
+"it. If the data are not rectangular or square in shape, any regions that do "
+"not extend to the edge of the canvas are left transparent (an Alpha channel "
+"is automatically created). Of course, you have to Copy your selection before "
+"you use this command."
+msgstr ""
+"<guimenuitem>Paste As New Layer</guimenuitem> കമാൻഡ് സജീവ ചിത്രം ഒരു പുതിയ "
+"പാളി സൃഷ്ടിക്കുകയും അതിലേക്കു ക്ലിപ്ബോർഡ് നിന്നും ചിത്രം ഡാറ്റ pastes. ഡാറ"
+"്റ രൂപമുള്ള ചതുരാകൃതിയിലുള്ള ചതുര എങ്കിൽ, ക്യാൻവാസ് അറ്റം വരെ നീട്ടാൻ ഏതെങ്"
+"കിലും പ്രദേശങ്ങളും സുതാര്യമായ അവശേഷിക്കുന്നു (ആൽഫാ ചാനൽ യാന്ത്രികമായി സൃഷ്ട"
+"ിക്കുന്നു). തീർച്ചയായും, ഈ കമാൻഡ് ഉപയോഗിക്കുക മുമ്പ് നിങ്ങളുടെ തിരഞ്ഞെടുപ്"
+"പ് പകർത്തുക ഞങ്ങൾക്കുണ്ട്."
+
+#: src/menus/edit/paste-as-layer.xml:35(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guisubmenu>Paste as</"
+"guisubmenu><guimenuitem>New Layer</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guisubmenu>"
+"Paste as</guisubmenu><guimenuitem>New Layer</guimenuitem></menuchoice> മുഖേ"
+"ന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/edit/paste-as-brush.xml:37(None)
+msgid ""
+"@@image: 'images/menus/edit/paste-new-brush.png'; "
+"md5=31f9bde6d124b01c5f6d60e3f4f20a40"
+msgstr ""
+"@@image: 'images/menus/edit/paste-new-brush.png'; "
+"md5=31f9bde6d124b01c5f6d60e3f4f20a40"
+
+#: src/menus/edit/paste-as-brush.xml:10(title)
+msgid "Paste as New Brush"
+msgstr ""
+"ന്യൂ ബ്രഷ് ഒട്ടിക്കുക"
+
+#: src/menus/edit/paste-as-brush.xml:21(primary)
+msgid "Paste as new brush"
+msgstr ""
+"പുതിയ ബ്രഷ് ഒട്ടിക്കുക"
+
+#: src/menus/edit/paste-as-brush.xml:24(para)
+msgid ""
+"This command opens a dialog window which lets you name the new brush. The "
+"brush appears in the <link linkend=\"gimp-brush-dialog\">Brushes dialog</"
+"link>."
+msgstr ""
+"ഈ കമാൻഡ് പുതിയ ബ്രഷ് പേര് നൽകിയിരിക്കുന്നു ഒരു ഡയലോഗ് വിൻഡോ തുറക്കുന്നു. "
+"ബ്രഷ് <link linkend=\"gimp-brush-dialog\">Brushes dialogue</link> ലഭ്യമാകുന"
+"്നു."
+
+#: src/menus/edit/paste-as-brush.xml:33(title)
+msgid "The <quote>New Brush</quote>dialog"
+msgstr ""
+"<quote>New Brush</quote> ഡയലോഗ്"
+
+#: src/menus/edit/paste-as-brush.xml:43(term)
+msgid "Brush name"
+msgstr ""
+"ബ്രഷ് പേര്"
+
+#: src/menus/edit/paste-as-brush.xml:45(para)
+msgid ""
+"<guilabel>Brush name</guilabel> is the name as it will be in the "
+"<quote>Brushes</quote> Dialog."
+msgstr ""
+"<guilabel>Brush name</guilabel> അതു <quote>Brushes</quote> ചർച്ചയ്ക്കു ഇരിക"
+"്കും പേരാണ്."
+
+#: src/menus/edit/paste-as-brush.xml:54(para)
+msgid ""
+"The new brush is saved as <guilabel>File name</guilabel> (with extension "
+"<filename class=\"extension\">.gbr</filename>) in your personal <filename "
+"class=\"directory\">brushes</filename> folder."
+msgstr ""
+"പുതിയ ബ്രഷ് നിങ്ങളുടെ സ്വകാര്യ <filename class=\"directory\">brushes</filen"
+"ame> ഫോൾഡറിൽ <guilabel>File name</guilabel> (വിപുലീകരണം <filename class=\""
+"extension\">.gbr</filename> കൂടെ) സംരക്ഷിച്ചു."
+
+#: src/menus/edit/paste-as-brush.xml:62(term)
+msgid "Spacing"
+msgstr ""
+"അകലം"
+
+#: src/menus/edit/paste-as-brush.xml:64(para)
+msgid ""
+"<guilabel>Spacing</guilabel>: When the brush draws a line, it actually "
+"stamps the brush icon repeatedly. If brush stamps are very close, you get "
+"the impression of a solid line."
+msgstr ""
+"<guilabel>Spacing</guilabel>: ബ്രഷ് ഒരു വരി ചാടിച്ചു, അത് യഥാർത്ഥത്തിൽ സ്റ്"
+"റാമ്പുകൾ ബ്രഷ് ഐക്കൺ ആവർത്തിച്ച്. ബ്രഷ് സ്റ്റാമ്പുകൾ വളരെ അടുത്താണ്, നിങ്ങൾ"
+"ക്ക് ഒരു സോളിഡ് വരിയുടെ തോന്നലും."
+
+#: src/menus/edit/paste-as-brush.xml:78(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guisubmenu>Paste as </"
+"guisubmenu><guimenuitem>New Brush</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guisubmenu>"
+"Paste as </guisubmenu><guimenuitem>New Brush</guimenuitem></menuchoice> മുഖ"
+"േന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/edit/module-manager.xml:54(None)
+msgid ""
+"@@image: 'images/menus/edit/modules.png'; "
+"md5=9f66a23e78fce842311235d27e134e55"
+msgstr ""
+"@@image: 'images/menus/edit/modules.png'; "
+"md5=9f66a23e78fce842311235d27e134e55"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/edit/module-manager.xml:79(None)
+msgid ""
+"@@image: 'images/menus/edit/module-manager-ex1.png'; "
+"md5=1ad99fa5c94a6b7f4b4fdecee111452e"
+msgstr ""
+"@@image: 'images/menus/edit/module-manager-ex1.png'; "
+"md5=1ad99fa5c94a6b7f4b4fdecee111452e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/edit/module-manager.xml:88(None)
+msgid ""
+"@@image: 'images/menus/edit/module-manager-ex2.png'; "
+"md5=64b0f78285e17207faac2a8fdd48c68f"
+msgstr ""
+"@@image: 'images/menus/edit/module-manager-ex2.png'; "
+"md5=64b0f78285e17207faac2a8fdd48c68f"
+
+#: src/menus/edit/module-manager.xml:13(title)
+#: src/menus/edit/module-manager.xml:16(primary)
+msgid "Modules"
+msgstr ""
+"മൊഡ്യൂളുകൾ"
+
+#: src/menus/edit/module-manager.xml:19(primary)
+msgid "Module Manager"
+msgstr ""
+"മൊഡ്യൂൾ മാനേജർ"
+
+#: src/menus/edit/module-manager.xml:22(para)
+msgid ""
+"With the <guimenuitem>Modules</guimenuitem> command, you can show the "
+"various extension modules which are available and control which of them "
+"should be loaded. Modules perform functions such as choosing colors and "
+"display filtering. Any changes you make to the settings with the Module "
+"Manager command will take effect the next time you start <acronym>GIMP</"
+"acronym>. These changes affect <acronym>GIMP</acronym>'s functional "
+"capabilities, its size in memory and its start-up time."
+msgstr ""
+"<guimenuitem>Modules</guimenuitem> കമാൻഡ് ഉപയോഗിച്ച്, ലഭ്യമായ അവരിൽ ഏത് ലഭ"
+"്യമാക്കേണ്ട നിയന്ത്രണം ആയ വിവിധ എക്സ്റ്റൻഷൻ മൊഡ്യൂളുകൾ കാണിക്കാൻ കഴിയും. മ"
+"ൊഡ്യൂളുകൾ പോലുള്ള നിറങ്ങൾ പ്രദർശന ഫിൽട്ടറിംഗ് ശേഷമേ പ്രവർത്തനങ്ങൾ നടത്തുന"
+"്നു. മൊഡ്യൂൾ മാനേജർ കമാൻഡ് ഉപയോഗിച്ച് ക്രമീകരണങ്ങൾ നിങ്ങൾ വരുത്തുന്ന മാറ്"
+"റങ്ങൾ പ്രാബല്യത്തിൽ <acronym>GIMP</acronym> ആരംഭിക്കാൻ അടുത്ത സമയം എടുക്കും"
+". ഈ മാറ്റങ്ങൾ <acronym>GIMP</acronym> ന്റെ ഫങ്ഷണൽ കഴിവുകൾ, മെമ്മറി അതിന്റെ "
+"വലിപ്പം അതിന്റെ ആരംഭിക്കൽ സമയവും ബാധിക്കും."
+
+#: src/menus/edit/module-manager.xml:37(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Modules</guimenuitem></"
+"menuchoice>"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Modules</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും"
+
+#: src/menus/edit/module-manager.xml:49(title)
+msgid "Description of the <quote>Module Manager</quote> Dialog"
+msgstr ""
+"<quote>Module Manager</quote> സംഭാഷണത്തിന്റെ വിവരണം"
+
+#: src/menus/edit/module-manager.xml:51(title)
+msgid "The <quote>Module Manager</quote> dialog window"
+msgstr ""
+"<quote>Module Manager</quote> ഡയലോഗ് വിൻഡോ"
+
+#: src/menus/edit/module-manager.xml:59(para)
+msgid "The window of the Module Manager shows the loadable modules."
+msgstr ""
+"മൊഡ്യൂൾ മാനേജർ വിൻഡോ ചേർക്കാവുന്ന മൊഡ്യൂളുകൾ കാണിക്കുന്നു."
+
+#: src/menus/edit/module-manager.xml:62(para)
+msgid ""
+"Clicking on the boxes in the first column of the modules list will check or "
+"uncheck the modules. The next time you start <acronym>GIMP</acronym>, any "
+"checked module will be loaded."
+msgstr ""
+"മൊഡ്യൂളുകൾ ലിസ്റ്റ് ആദ്യ നിരയിൽ ബോക്സുകളിൽ ക്ലിക്കുചെയ്യുന്നത് പരിശോധിക്"
+"കുക അല്ലെങ്കിൽ അൺചെക്ക് ചെയ്യും മൊഡ്യൂളുകൾ. നിങ്ങൾ <acronym>GIMP</acronym>"
+" ആരംഭിക്കാൻ അടുത്ത തവണ ഏതെങ്കിലും ചെക്കുചെയ്തിരിക്കുന്ന ഘടകം ലോഡ് ചെയ്യും."
+
+#: src/menus/edit/module-manager.xml:67(para)
+msgid ""
+"You will notice the difference only when you try to use the modules. For "
+"example, there are several <link linkend=\"gimp-color-dialog\">color "
+"selectors</link> to select the foreground or background color. Some of these "
+"selectors are modules and will only be available when you check the "
+"respective option in the module manager:"
+msgstr ""
+"നിങ്ങൾ മൊഡ്യൂളുകൾ ഉപയോഗിക്കാൻ ശ്രമിക്കുക മാത്രമേ നിങ്ങൾ വ്യത്യാസം ശ്രദ്ധി"
+"ക്കുക. ഉദാഹരണത്തിന്, മുൻഭാഗത്തെ അല്ലെങ്കിൽ പശ്ചാത്തല വർണം തിരഞ്ഞെടുക്കാൻ പല"
+" <link linkend=\"gimp-color-dialog\">colour selectors</link> ഉണ്ട്. ഈ സെലക്"
+"ടർമാർ ചില ഘടകങ്ങൾ നിങ്ങൾ ഘടകം മാനേജർ ലെ അതാത് ഓപ്ഷന്റെ വരുമ്പോൾ മാത്രമേ ലഭ"
+"്യമാകും:"
+
+#: src/menus/edit/module-manager.xml:75(title)
+msgid "Loaded modules example: Color selector modules"
+msgstr ""
+"ലോഡ് മൊഡ്യൂളുകൾ ഉദാഹരണം: വർണ്ണ സെലക്ടർ മൊഡ്യൂളുകൾ"
+
+#: src/menus/edit/module-manager.xml:82(para)
+msgid "Color selector modules loaded"
+msgstr ""
+"കയറ്റിയ വർണ്ണ സെലക്ടർ മൊഡ്യൂളുകൾ"
+
+#: src/menus/edit/module-manager.xml:91(para)
+msgid "Color selector modules not loaded"
+msgstr ""
+"അല്ല വർണ്ണ സെലക്ടർ മൊഡ്യൂളുകൾ ലോഡുചെയ്തു"
+
+#: src/menus/edit/module-manager.xml:95(para)
+msgid ""
+"For loaded modules, information about the selected module is displayed at "
+"the bottom of the dialog."
+msgstr ""
+"കയറ്റിയ ഘടകങ്ങൾക്കുമുള്ള, തിരഞ്ഞെടുത്ത ഘടകം കുറിച്ചുള്ള വിവരങ്ങൾ സംഭാഷണത്തി"
+"ന്റെ താഴെ പ്രദർശിപ്പിക്കുന്നു."
+
+#: src/menus/edit/module-manager.xml:99(para)
+msgid ""
+"In the second column, for each loaded module the purpose of the module is "
+"shown. For any module, that is not loaded, the directory path of this module "
+"is shown."
+msgstr ""
+"രണ്ടാമത്തെ നിരയിലെ ഓരോ കയറ്റിയ ഘടകം ഘടകം ഉദ്ദേശ്യം കാണിക്കില്ല. ലഭ്യമാക്കു"
+"ന്നില്ല ഏതെങ്കിലും ഘടകം,, ഈ ഘടകം ഡയറക്ടറി പാത്ത് കാണിക്കില്ല."
+
+#: src/menus/edit/module-manager.xml:104(para)
+msgid ""
+"When you click on the <guibutton>Refresh</guibutton> button, the list of "
+"modules will be updated: modules no longer on disk will be removed, and new "
+"modules found will be added."
+msgstr ""
+"നിങ്ങൾ <guibutton>Refresh</guibutton> ബട്ടണില് ക്ലിക്ക് ചെയ്യുമ്പോൾ, മൊഡ്"
+"യൂളുകൾ ലിസ്റ്റ് അപ്ഡേറ്റ് ചെയ്യും: ഡിസ്കിലെ മൊഡ്യൂളുകൾ ഇപ്പോൾ നീക്കംചെയ്യ"
+"ും; കണ്ടു പുതിയ മൊഡ്യൂളുകൾ ചേർക്കും."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/edit/introduction.xml:14(None)
+msgid "@@image: 'images/menus/edit.png'; md5=c448974ce3ab1612f03ee7d78c141d4c"
+msgstr "@@image: 'images/menus/edit.png'; md5=c448974ce3ab1612f03ee7d78c141d4c"
+
+#: src/menus/edit/introduction.xml:8(title)
+msgid "<quote>Edit</quote> Menu Entries"
+msgstr ""
+"<quote>Edit</quote> മെനു എൻട്രികൾ"
+
+#: src/menus/edit/introduction.xml:11(title)
+msgid "Contents of the Edit Menu"
+msgstr ""
+"എഡിറ്റ് മെനു ഉള്ളടക്കം"
+
+#: src/menus/edit/introduction.xml:18(para)
+msgid ""
+"In this section, you will find help for commands in the "
+"<menuchoice><guimenu>Edit</guimenu></menuchoice> menu item."
+msgstr ""
+"ഈ ഭാഗത്ത് നിങ്ങൾ <menuchoice><guimenu>Edit</guimenu></menuchoice> മെനു ഇനത്"
+"തിൽ കമാൻഡുകൾക്കായി സഹായവും കണ്ടെത്തും."
+
+#: src/menus/edit/fill-pattern.xml:9(title)
+#: src/menus/edit/fill-pattern.xml:22(primary)
+msgid "Fill with Pattern"
+msgstr ""
+"ശ്രേണി നിറക്കുക"
+
+#: src/menus/edit/fill-pattern.xml:13(secondary)
+#: src/menus/edit/fill-pattern.xml:18(secondary)
+#: src/menus/edit/fill-fg.xml:13(secondary)
+#: src/menus/edit/fill-fg.xml:18(secondary)
+#: src/menus/edit/fill-bg.xml:14(secondary)
+#: src/menus/edit/fill-bg.xml:19(secondary)
+msgid "Fill"
+msgstr ""
+"നിറയ്ക്കുക"
+
+#: src/menus/edit/fill-pattern.xml:14(tertiary)
+#: src/menus/edit/fill-pattern.xml:19(tertiary)
+msgid "Fill with pattern"
+msgstr ""
+"പാറ്റേൺ നിറക്കുക"
+
+#: src/menus/edit/fill-pattern.xml:25(para)
+msgid ""
+"The <guimenuitem>Fill with Pattern</guimenuitem> command fills the image's "
+"selection with the pattern shown in the Brush/Pattern/Gradient area of the "
+"Toolbox. (The pattern is also shown to the left of the menu entry.) If some "
+"areas of the image are only partially selected (for example, as a result of "
+"feathering the selection), they are filled in proportion to how much they "
+"are selected."
+msgstr ""
+"<guimenuitem>Fill with Pattern</guimenuitem> കമാൻഡ് പണിസഞ്ചി ഓഫ് ബ്രഷ് / പാ"
+"റ്റേൺ / ഗ്രേഡിയന്റ് ഏരിയയിൽ കാണിക്കുന്നു പാറ്റേൺ ഉപയോഗിച്ച് ഇമേജ് ൻറെ നിരക"
+"്കു നിറയുന്നു. (പാറ്റേൺ പുറമേ മെനു എൻട്രി ഇടതു കാണിച്ചിരിക്കുന്നു.) ചിത്രത്"
+"തിന്റെ ചില പ്രദേശങ്ങൾ ഭാഗികമായി മാത്രം തിരഞ്ഞെടുത്ത (ഉദാഹരണത്തിന്, നിരക്കു "
+"ഭദ്രമാക്കുന്ന ഫലമായി) എങ്കിൽ, അവർ തിരഞ്ഞെടുത്ത എത്ര അനുപാതത്തിൽ നിറയും."
+
+#: src/menus/edit/fill-pattern.xml:33(para)
+msgid ""
+"You can select another pattern by using the <link linkend=\"gimp-pattern-"
+"dialog\">Pattern Dialog</link>."
+msgstr ""
+"നിങ്ങൾ <link linkend=\"gimp-pattern- dialog\">Pattern dialogue</link> ഉപയോ"
+"ഗിച്ച് മറ്റൊരു പാറ്റേൺ തിരഞ്ഞെടുക്കാം."
+
+#: src/menus/edit/fill-pattern.xml:38(para)
+#: src/menus/edit/fill-fg.xml:35(para) src/menus/edit/fill-bg.xml:35(para)
+msgid ""
+"Please note that if the image has no selection, the whole active layer is "
+"filled."
+msgstr ""
+"ചിത്രം യാതൊരു സെലക്ഷനുണ്ടെന്ന് എങ്കിൽ മുഴുവൻ സജീവ പാളി നിറഞ്ഞു ദയവായി ശ്രദ"
+"്ധിക്കുക."
+
+#: src/menus/edit/fill-pattern.xml:48(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Fill with Pattern</"
+"guimenuitem></menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Fill with Pattern</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ"
+" കഴിയും,"
+
+#: src/menus/edit/fill-pattern.xml:57(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>;</"
+"keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>;</k"
+"eycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/edit/fill-fg.xml:9(title)
+msgid "Fill with FG Color"
+msgstr ""
+"FG വർണ്ണ നിറക്കുക"
+
+#: src/menus/edit/fill-fg.xml:14(tertiary)
+#: src/menus/edit/fill-fg.xml:19(tertiary)
+msgid "Fill with foreground color"
+msgstr ""
+"മുൻഭാഗത്തെ നിറക്കുക"
+
+#: src/menus/edit/fill-fg.xml:22(primary)
+msgid "Fill with Foreground Color"
+msgstr ""
+"മുൻവശം വർണ്ണ നിറക്കുക"
+
+#: src/menus/edit/fill-fg.xml:25(para)
+msgid ""
+"The <guimenuitem>Fill with FG Color</guimenuitem> command fills the image's "
+"selection with the solid color shown in the foreground part of the Color "
+"Area of the Toolbox. (The color is also shown to the left of the menu "
+"entry.) If some areas of the image are only partially selected (for example, "
+"as a result of feathering the selection), they are filled in proportion to "
+"how much they are selected."
+msgstr ""
+"<guimenuitem>Fill with FG Colour</guimenuitem> കമാൻഡ് ഖര നിറം പണിസഞ്ചി ഓഫ് "
+"വർണ്ണം ഏരിയ ഫോർഗ്രൗണ്ടിലെ ഭാഗത്ത് കാണിച്ചിരിക്കുന്ന ചിത്രം ൻറെ നിരക്കു നിറ"
+"യുന്നു. (നിറങ്ങൾക്കു മെനു എൻട്രി ഇടതു കാണിച്ചിരിക്കുന്നു.) ചിത്രത്തിന്റെ ചി"
+"ല പ്രദേശങ്ങൾ ഭാഗികമായി മാത്രം തിരഞ്ഞെടുത്ത (ഉദാഹരണത്തിന്, നിരക്കു ഭദ്രമാക്ക"
+"ുന്ന ഫലമായി) എങ്കിൽ, അവർ തിരഞ്ഞെടുത്ത എത്ര അനുപാതത്തിൽ നിറയും."
+
+#: src/menus/edit/fill-fg.xml:45(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Fill with FG Color</"
+"guimenuitem></menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Fill with FG Colour</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും,"
+
+#: src/menus/edit/fill-fg.xml:54(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>,</"
+"keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>,</k"
+"eycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/edit/fill-fg.xml:61(para)
+msgid ""
+"You can also fill a selection by click-and-dragging from the Toolbox "
+"foreground color."
+msgstr ""
+"നിങ്ങൾക്ക് ക്ലിക്ക്-ആൻഡ്-വലിച്ചോ പണിസഞ്ചി പുരോതല നിറം നിന്ന് ഒരു നിര നിറയ"
+"ുന്നു."
+
+#: src/menus/edit/fill-bg.xml:10(title)
+msgid "Fill with BG Color"
+msgstr ""
+"ബി.ജി. വർണ്ണ നിറക്കുക"
+
+#: src/menus/edit/fill-bg.xml:15(tertiary)
+#: src/menus/edit/fill-bg.xml:20(tertiary)
+msgid "Fill with background color"
+msgstr ""
+"പശ്ചാത്തല നിറം നിറക്കുക"
+
+#: src/menus/edit/fill-bg.xml:23(primary)
+msgid "Fill with Background color"
+msgstr ""
+"പശ്ചാത്തല നിറം നിറക്കുക"
+
+#: src/menus/edit/fill-bg.xml:26(para)
+msgid ""
+"The <guimenuitem>Fill with BG Color</guimenuitem> command fills the active "
+"layer selection with the solid color shown in the Background part of the "
+"Color Area of the Toolbox. (The color is also shown to the left of the menu "
+"entry.) If some areas of the image are only partially selected (for example, "
+"as a result of feathering the selection), they are filled in proportion to "
+"how much they are selected."
+msgstr ""
+"<guimenuitem>Fill with BG Colour</guimenuitem> കമാൻഡ് ഖര നിറം പണിസഞ്ചി ഓഫ് "
+"വർണ്ണം വിസ്തീർണ്ണം പശ്ചാത്തലം ഭാഗത്ത് കാണിച്ചിരിക്കുന്ന സജീവ പാളി നിരക്കു ന"
+"ിറയുന്നു. (നിറങ്ങൾക്കു മെനു എൻട്രി ഇടതു കാണിച്ചിരിക്കുന്നു.) ചിത്രത്തിന്റെ "
+"ചില പ്രദേശങ്ങൾ ഭാഗികമായി മാത്രം തിരഞ്ഞെടുത്ത (ഉദാഹരണത്തിന്, നിരക്കു ഭദ്രമാക"
+"്കുന്ന ഫലമായി) എങ്കിൽ, അവർ തിരഞ്ഞെടുത്ത എത്ര അനുപാതത്തിൽ നിറയും."
+
+#: src/menus/edit/fill-bg.xml:45(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Fill with BG Color</"
+"guimenuitem></menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Fill with BG Colour</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും,"
+
+#: src/menus/edit/fill-bg.xml:54(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>.</"
+"keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>.</k"
+"eycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/edit/fill-bg.xml:61(para)
+msgid ""
+"You can also fill a selection by click-and-dragging from the Toolbox "
+"background color."
+msgstr ""
+"നിങ്ങൾക്ക് ക്ലിക്ക്-ആൻഡ്-വലിച്ചോ പണിസഞ്ചി പശ്ചാത്തല നിറം നിന്ന് ഒരു നിര നി"
+"റയുന്നു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/edit/fade.xml:51(None)
+msgid ""
+"@@image: 'images/menus/edit/fade-options.png'; "
+"md5=89029ec81062cc0b4931742993a50a33"
+msgstr ""
+"@@image: 'images/menus/edit/fade-options.png'; "
+"md5=89029ec81062cc0b4931742993a50a33"
+
+#: src/menus/edit/fade.xml:10(title) src/menus/edit/fade.xml:13(primary)
+msgid "Fade"
+msgstr ""
+"മങ്ങുക"
+
+#: src/menus/edit/fade.xml:16(para)
+msgid ""
+"This command is usually grayed out. It becomes active if you use the Fill "
+"function or the Blend tool, or if you apply some filters."
+msgstr ""
+"ഈ കമാൻഡ് സാധാരണയായി മറച്ച ആണ്. ഒരുമാതിരിപ്പെട്ട ഫംഗ്ഷൻ ബ്ളെൻഡ് ഉപകരണം ഉപയോ"
+"ഗിക്കാം, അല്ലെങ്കിൽ നിങ്ങൾ ചില ഫിൽട്ടറുകൾ ബാധകമായിരിക്കും ചെയ്താൽ അത് സജീവ "
+"മാറുന്നു."
+
+#: src/menus/edit/fade.xml:20(para)
+msgid ""
+"It allows you to modify the paint mode and opacity of the <emphasis>last</"
+"emphasis> drawable operation (Fill, Blend, Filter) by creating a blend "
+"between the current state of the layer and the previous state. It performs "
+"the following operations: copy the active drawable, undo the last action, "
+"paste the copy as a new layer, set its <quote>Opacity</quote>, and merge "
+"both new layer and previously active drawable."
+msgstr ""
+"അതു നിങ്ങൾ പാളി മുൻ സംസ്ഥാന നിലവിലെ നില തമ്മിലുള്ള ഒരു നാഴികകല്ലായി സൃഷ്ടിച"
+"്ചുകൊണ്ട് <emphasis>last</emphasis> വരയ്ക്കാനാകുന്നത് ഓപ്പറേഷൻ (, നിറയ്ക്ക"
+"ുക ലയിപ്പിക്കുക ഫിൽറ്റർ,) എന്ന പെയിന്റ് മോഡ് ഒപാസിറ്റി പരിഷ്ക്കരിക്കുക അനു"
+"വദിക്കുന്നു. ഇത് ഇനിപ്പറയുന്ന പ്രവർത്തനങ്ങൾ നടപ്പിലാക്കിയ സജീവ വരയ്ക്കാനാകു"
+"ന്നത് പകർത്താനും അവസാന പ്രവൃത്തി പൂർവാവസ്ഥയിലാക്കാൻ പുതിയ പാളി പോലെ കോപ്പ"
+"ി പേസ്റ്റ്, അതിന്റെ <quote>Opacity</quote> നിർത്തി, പുതിയ പാളി മുമ്പ് സജീവ "
+"വരയ്ക്കാനാകുന്നത് രണ്ടും ലയിപ്പിക്കും."
+
+#: src/menus/edit/fade.xml:31(title)
+msgid "Activate the command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുക"
+
+#: src/menus/edit/fade.xml:32(para)
+msgid ""
+"You can get to this command from the image Menu bar through: "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Fade...</guimenuitem></"
+"menuchoice>"
+msgstr ""
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Fade...</guimenuitem></menu"
+"choice>: നിങ്ങൾ ഇമേജ് മെനു ബാറിൽ നിന്നും മുഖേന ഈ കമാൻഡ് നേടാനാകും"
+
+#: src/menus/edit/fade.xml:43(para)
+msgid "This command brings up a dialog window:"
+msgstr ""
+"ഈ കമാൻഡ് ഒരു ഡയലോഗ് വിൻഡോ നൽകുന്നു:"
+
+#: src/menus/edit/fade.xml:47(title)
+msgid "The <quote>Fade</quote> dialog"
+msgstr ""
+"<quote>Fade</quote> ഡയലോഗ്"
+
+#: src/menus/edit/fade.xml:57(term)
+msgid "Mode"
+msgstr ""
+"മോഡ്"
+
+#: src/menus/edit/fade.xml:59(para)
+msgid ""
+"This drop-down list allows you to choose a <link linkend=\"gimp-concepts-"
+"layer-modes\">Layer merge mode</link>."
+msgstr ""
+"ഈ ഡ്രോപ്പ്-ഡൌൺ ലിസ്റ്റ് നിങ്ങൾ ഒരു <link linkend=\"gimp-concepts- layer-m"
+"odes\">Layer merge mode</link> തിരഞ്ഞെടുക്കാൻ അനുവദിക്കുന്നു."
+
+#: src/menus/edit/fade.xml:66(term)
+msgid "Opacity"
+msgstr ""
+"അതാര്യത"
+
+#: src/menus/edit/fade.xml:68(para)
+msgid ""
+"This slider value is initially set to the opacity of the color you used with "
+"the Fill or Blend tool, which corresponds to the current state. Lowering the "
+"opacity to 0 changes the drawable to its previous state. Intermediate values "
+"produce a mixture of the two according to the mode you have chosen. The "
+"effect of this setting is visible in real time in the image, but you have to "
+"click on the <guibutton>Fade</guibutton> button to validate it."
+msgstr ""
+"ഈ സ്ലൈഡർ മൂല്യം തുടക്കത്തിൽ നിലവിലുള്ള സംസ്ഥാന യോജിക്കുന്ന പൂരിപ്പിക്കുക അ"
+"ല്ലെങ്കിൽ ബ്ളെൻഡ് ഉപകരണം, ഉപയോഗിച്ച നിറം ഒപാസിറ്റി സജ്ജമാക്കിയിരിക്കുന്നു."
+" 0 ഒപാസിറ്റി കുറയ്ക്കുന്നതായി മുമ്പത്തെ അവസ്ഥയിലേക്ക് വരയ്ക്കാനാകുന്നത് മാറ"
+"്റുന്നു. ഇന്റർമീഡിയറ്റ് മൂല്യങ്ങൾ നിങ്ങൾ തിരഞ്ഞെടുത്ത മോഡ് തക്കവണ്ണം രണ്ട്"
+" ഒരു മിശ്രിതം ഹാജരാക്കണം. ഈ ക്രമീകരണം പ്രഭാവം ഇമേജിൽ തൽസമയം ദൃശ്യമാണ്, എന്ന"
+"ാൽ അതിലേക്ക് ഉറപ്പിക്കുന്നതിനായാണ് <guibutton>Fade</guibutton> ബട്ടണിൽ ക്ലി"
+"ക്ക് ചെയ്യുക."
+
+#: src/menus/edit/cut.xml:9(title) src/menus/edit/cut.xml:21(primary)
+msgid "Cut"
+msgstr ""
+"മുറിക്കുക"
+
+#: src/menus/edit/cut.xml:13(secondary)
+msgid "Cut (/Paste)"
+msgstr ""
+"മുറിക്കുക (/ പേസ്റ്റ്)"
+
+#: src/menus/edit/cut.xml:14(tertiary)
+msgid "Cut layer content"
+msgstr ""
+"മുറിക്കുക പാളി ഉള്ളടക്കം"
+
+#: src/menus/edit/cut.xml:18(secondary)
+msgid "Cut selection content"
+msgstr ""
+"മുറിക്കുക നിരക്കു ഉള്ളടക്കം"
+
+#: src/menus/edit/cut.xml:24(para)
+msgid ""
+"The <guimenuitem>Cut</guimenuitem> command deletes the contents of the "
+"image's selections, and saves them in a clipboard so that they can later be "
+"pasted using the <quote>Paste</quote>, <quote>Paste Into</quote>, or "
+"<quote>Paste As New</quote> commands. If there is no selection, the entire "
+"current layer is cut. The areas whose contents are cut are left transparent, "
+"if the layer has an alpha channel, or filled with the layer's background "
+"color, otherwise."
+msgstr ""
+"<guimenuitem>Cut</guimenuitem> കമാൻഡ് ചിത്രം ന്റെ തിരഞ്ഞെടുക്കലുകൾ ഉളളടക്കം"
+" ഇല്ലാതാക്കുന്നു, അവർ പിന്നീട് <quote>Paste</quote>, <quote>Paste Into</quo"
+"te>, അല്ലെങ്കിൽ <quote>Paste As New</quote> കമാൻഡുകൾ ഉപയോഗിച്ച് ഒട്ടിയ്ക്ക"
+"ാൻ കഴിയും അങ്ങനെ ഒരു ക്ലിപ്ബോർഡ് അവരെ സംരക്ഷിക്കുന്നു. യാതൊരു നിരക്കു അവി"
+"ടെ ഉണ്ടെങ്കിൽ, മുഴുവൻ നിലവിലെ പാളി മുറിച്ചു. പാളി ഒരു ആല്ഫാ ചാനൽ ഉണ്ട് കണ്ട"
+"ിരിക്കാം ഉള്ളടക്കങ്ങൾ വെട്ടിയ പ്രദേശങ്ങൾ, സുതാര്യമായ വിട്ടു ലെയർ ന്റെ പശ്ചാ"
+"ത്തല നിറം, മലമ്പുഴ നിറഞ്ഞതാണ്."
+
+#: src/menus/edit/cut.xml:34(para)
+msgid ""
+"The <guimenuitem>Cut</guimenuitem> command only works on the current active "
+"layer. Any layers above or below the active layer are ignored."
+msgstr ""
+"<guimenuitem>Cut</guimenuitem> കമാൻഡ് മാത്രം നിലവിലെ സജീവ പാളി പ്രവർത്തിക്ക"
+"ുന്നു. മുകളിൽ അല്ലെങ്കിൽ സജീവ പാളി ചുവടെയുള്ള ഏതെങ്കിലും പാളികൾ അവഗണിക്കപ്പ"
+"െടുന്നു."
+
+#: src/menus/edit/cut.xml:44(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Cut</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Cut</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും,"
+
+#: src/menus/edit/cut.xml:53(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>X</"
+"keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>X</k"
+"eycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/edit/copy.xml:9(title) src/menus/edit/copy.xml:13(secondary)
+#: src/menus/edit/copy.xml:17(secondary)
+#: src/menus/edit/copy-visible.xml:13(secondary)
+msgid "Copy"
+msgstr ""
+"പകര്പ്പ്"
+
+#: src/menus/edit/copy.xml:20(para)
+msgid ""
+"The <guimenuitem>Copy</guimenuitem> command makes a copy of the current "
+"selection and stores it in the Clipboard. The information can be recalled "
+"using the <link linkend=\"gimp-edit-paste\">Paste</link>, <link linkend="
+"\"gimp-edit-paste-into\">Paste Into</link>, or <link linkend=\"gimp-edit-"
+"paste-as-new\">Paste As New</link> commands. If there is no selection, the "
+"entire current layer is copied. <quote>Copy</quote> only works on the "
+"current active layer. Any layers above or below it are ignored."
+msgstr ""
+"<guimenuitem>Copy</guimenuitem> കമാൻഡ് നിലവിലെ തിരഞ്ഞെടുത്തതാണ് ക്ലിപ്ബോർഡ"
+"് ലെ സ്റ്റോറുകൾ അതിന്റെ പകർപ്പ് ചെയ്യുന്നു. വിവരങ്ങൾ <link linkend=\"gimp-"
+"edit-paste\">Paste</link>, <link linkend=\"gimp-edit-paste-into\">Paste Int"
+"o</link>, അല്ലെങ്കിൽ <link linkend=\"gimp-edit- paste-as-new\">Paste As New"
+"</link> കമാൻഡുകൾ ഉപയോഗിച്ച് തിരിച്ചുവിളിക്കുക കഴിയും. യാതൊരു നിരക്കു അവിട"
+"െ ഉണ്ടെങ്കിൽ, മുഴുവൻ നിലവിലെ പാളി പകർത്തിയതാണ്. <quote>Copy</quote> മാത്രം "
+"നിലവിലെ സജീവ പാളി പ്രവർത്തിക്കുന്നു. മുകളിൽ അല്ലെങ്കിൽ ചുവടെയുള്ള ഏതെങ്കിലു"
+"ം പാളികൾ അവഗണിക്കപ്പെടുന്നു."
+
+#: src/menus/edit/copy.xml:36(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Copy</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Copy</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും,"
+
+#: src/menus/edit/copy.xml:45(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>C</"
+"keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>C</k"
+"eycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/edit/copy-visible.xml:9(title)
+#: src/menus/edit/copy-visible.xml:17(primary)
+msgid "Copy Visible"
+msgstr ""
+"ദൃശ്യം പകർത്തുക"
+
+#: src/menus/edit/copy-visible.xml:14(tertiary)
+msgid "Copy visible layers"
+msgstr ""
+"കാണാവുന്ന പാളികൾ പകർത്തുക"
+
+#: src/menus/edit/copy-visible.xml:20(primary)
+msgid "Copy Visible (Layers)"
+msgstr ""
+"ദൃശ്യം പകർത്തുക (പാളികൾക്ക്)"
+
+#: src/menus/edit/copy-visible.xml:23(para)
+msgid ""
+"The <guimenuitem>Copy Visible</guimenuitem> command is similar to the <link "
+"linkend=\"gimp-edit-copy\">Copy</link> command. However, it does not just "
+"copy the contents of the current layer; it copies the contents of the "
+"visible layers (or the selection of the visible layers), that is, the ones "
+"that are marked with an <quote>eye</quote>."
+msgstr ""
+"<guimenuitem>Copy Visible</guimenuitem> കമാൻഡ് <link linkend=\"gimp-edit-co"
+"py\">Copy</link> കമാൻഡ് സമാനമാണ്. എന്നിരുന്നാലും, നിലവിലെ പാളി ഉളളടക്കം പകർ"
+"ത്താനും ഇല്ല; അതു കാണാവുന്ന പാളികൾ (അല്ലെങ്കിൽ ദൃശ്യമായ പാളികൾ നിരക്കു), അത"
+"ായത് ഒരു <quote>eye</quote> അടയാളപ്പെടുത്തിയിട്ടുള്ള ഞാൻ കാണിച്ചുതരാം പകർപ്"
+"പുകൾ ഉള്ളടക്കങ്ങൾ."
+
+#: src/menus/edit/copy-visible.xml:31(para)
+msgid ""
+"Please note that the information about the layers is lost when the image "
+"data is put in the clipboard. When you later paste the clipboard contents, "
+"there is only one layer, which is the fusion of all the marked layers."
+msgstr ""
+"ഇമേജ് ഡാറ്റ ക്ലിപ്ബോർഡ് ഇട്ടു ചെയ്യുമ്പോൾ പാളികൾ കുറിച്ചുള്ള വിവരങ്ങൾ നഷ്"
+"ടമാകുന്നു കാര്യം ശ്രദ്ധിക്കുക. നിങ്ങൾ പിന്നീട് ക്ലിപ്ബോർഡിലെ ഉള്ളടക്കം ഒട്"
+"ടിക്കുക ചെയ്യുമ്പോൾ മാത്രമേ പാളി, സകല അടയാളപ്പെടുത്തിയ പാളികൾ കൂടിച്ചേരൽ ആ"
+"ണ് അവിടെ."
+
+#: src/menus/edit/copy-visible.xml:43(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Copy Visible</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Copy Visible</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയ"
+"ും."
+
+#: src/menus/edit/clear.xml:12(title) src/menus/edit/clear.xml:16(secondary)
+#: src/menus/edit/clear.xml:24(primary)
+msgid "Clear"
+msgstr ""
+"തെളിഞ്ഞ"
+
+#: src/menus/edit/clear.xml:17(tertiary)
+msgid "Clear layer content"
+msgstr ""
+"പാളി ഉള്ളടക്കം മായ്ക്കുക"
+
+#: src/menus/edit/clear.xml:21(secondary)
+msgid "Clear selection content"
+msgstr ""
+"നിരക്കു ഉള്ളടക്കം മായ്ക്കുക"
+
+#: src/menus/edit/clear.xml:27(para)
+msgid ""
+"The <guimenuitem>Clear</guimenuitem> command deletes everything in the "
+"current selection. If there is no current selection, the contents of the "
+"active layer are removed. If the active layer has an alpha channel, the "
+"deleted selection is made transparent. You can restore the original color to "
+"the transparent area using the Eraser tool, by setting it to Anti-Erase. If "
+"the layer does not have an alpha channel, the deleted area is filled using "
+"the current background color."
+msgstr ""
+"<guimenuitem>Clear</guimenuitem> കമാൻഡ് നിലവിലെ നിരക്കു സകലതിനെയും ഇല്ലാതാക"
+"്കുകയും. നിലവിലില്ലെങ്കിലും നിരക്കു എങ്കിൽ സജീവ പാളി ഉള്ളടക്കങ്ങളെ നീക്കംചെ"
+"യ്തു. സജീവ പാളി ഒരു ആല്ഫാ ചാനൽ ഉണ്ടെങ്കിൽ, ഇല്ലാതാക്കി നിരക്കു സുതാര്യമായ ഉ"
+"ണ്ടാക്കിയ. നിങ്ങൾ യഥാർത്ഥ നിറം സുതാര്യമായ ഏരിയയിലേക്ക് വിരുദ്ധ മായ്ക്കാൻ അത"
+"ു ക്രമീകരിച്ച്, ഇറേസർ ടൂൾ ഉപയോഗിച്ച് പുനഃസ്ഥാപിക്കാം. പാളി ഒരു ആല്ഫാ ചാനൽ "
+"ഇല്ലെങ്കിൽ, ഇല്ലാതാക്കി ഏരിയ നിലവിലെ പശ്ചാത്തല നിറം ഉപയോഗിച്ച് നിറഞ്ഞു."
+
+#: src/menus/edit/clear.xml:37(para)
+msgid ""
+"Clearing a selection does not delete the selection itself. Unlike "
+"<quote>Cut</quote>, <quote>Clear</quote> does not place the deleted contents "
+"in the Clipboard and the contents of the clipboard are unaffected."
+msgstr ""
+"ഒരു തെരഞ്ഞെടുപ്പ് മായ്ച്ചിട്ട് നിരക്കു സ്വയം ഇല്ലാതാക്കുന്നില്ല. <quote>Cut"
+"</quote> വ്യത്യസ്തമായി <quote>Clear</quote> ക്ലിപ്ബോർഡ് ഇല്ലാതാക്കിയതെന്ന്"
+" ഉള്ളടക്കങ്ങളുടെ സ്ഥാപിക്കുക ഇല്ല ക്ലിപ്ബോർഡിലെ ഉളളടക്കം ബാധിക്കില്ല."
+
+#: src/menus/edit/clear.xml:48(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Clear</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Clear</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യാൻ കഴിയും,"
+
+#: src/menus/edit/clear.xml:57(para)
+msgid "or by using the keyboard shortcut <keycap>Delete</keycap>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycap>Delete</keycap> ഉപയോഗിച്ച്."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/edit/buffer.xml:25(None)
+msgid ""
+"@@image: 'images/menus/edit/buffer.png'; md5=de409adc8a2dcd37283b29b8652e9851"
+msgstr ""
+"@@image: 'images/menus/edit/buffer.png'; md5=de409adc8a2dcd37283b29b8652e9851"
+
+#: src/menus/edit/buffer.xml:12(title)
+msgid "Buffer"
+msgstr ""
+"ബഫർ"
+
+#: src/menus/edit/buffer.xml:15(primary)
+msgid "Buffers"
+msgstr ""
+"ബഫറുകളെയും"
+
+#: src/menus/edit/buffer.xml:16(secondary)
+msgid "Named Buffers: Cut/Copy/Paste"
+msgstr ""
+"Named ബഫറുകൾ: മുറിക്കുക / കോപ്പി / പേസ്റ്റ്"
+
+#: src/menus/edit/buffer.xml:20(title)
+msgid "The <quote>Buffer</quote> submenu of the <quote>Edit</quote> menu"
+msgstr ""
+"<quote>Edit</quote> മെനുവിന്റെ <quote>Buffer</quote> ഉപമെനു"
+
+#: src/menus/edit/buffer.xml:29(para)
+msgid ""
+"The commands in this submenu operate on <emphasis>named buffers</emphasis>. "
+"You can use the <link linkend=\"gimp-buffer-dialog\">Buffers dialog</link> "
+"to view and manage any named buffers you have created."
+msgstr ""
+"ഈ ഉപമെനുവുണ്ട് ലെ കമാൻഡുകൾ <emphasis>named buffers</emphasis> ന് ഓപ്പറേറ്റ്"
+". നിങ്ങൾ സൃഷ്ടിച്ചു ഏതെങ്കിലും പേരുള്ള ബഫറുകളെയും കാണാനും കൈകാര്യം ചെയ്യാനു"
+"ം <link linkend=\"gimp-buffer-dialog\">Buffers dialogue</link> ഉപയോഗിക്കാൻ"
+" കഴിയും."
+
+#: src/menus/edit/buffer.xml:37(title)
+msgid "Activate the Submenu"
+msgstr ""
+"പുതിയഉപമെനു സജീവമാക്കുക"
+
+#: src/menus/edit/buffer.xml:40(para)
+msgid ""
+"You can access this submenu from the image menubar through "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Buffer</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Edit</guimenu><guimenuitem"
+">Buffer</guimenuitem></menuchoice> മുഖേന ഈ ഉപമെനുവുണ്ട് ആക്സസ് ചെയ്യാൻ കഴിയ"
+"ും."
+
+#: src/menus/edit/buffer.xml:52(title)
+msgid "Sub-menu entries"
+msgstr ""
+"ഉപ-മെനു എൻട്രികൾ"
+
+#: src/menus/edit/buffer.xml:55(term)
+msgid "Cut Named"
+msgstr ""
+"മുറിക്കുക Named"
+
+#: src/menus/edit/buffer.xml:57(para)
+msgid ""
+"The <guimenuitem>Cut Named</guimenuitem> command cuts the content of the "
+"selection from the active layer in the usual way, but instead of storing the "
+"contents in the global clipboard, it stores it in a special buffer that you "
+"name using a pop-up dialog."
+msgstr ""
+"<guimenuitem>Cut Named</guimenuitem> കമാൻഡ് സാധാരണ രീതി സജീവ പാളി നിന്ന് നി"
+"രക്കു ഉള്ളടക്കങ്ങൾ കുറച്ചു പകരം ആഗോള ക്ലിപ്ബോർഡ് ഉള്ളടക്കങ്ങൾ സംഭരിക്കുന്"
+"നതിനുള്ള, അത് നിങ്ങൾ ഒരു പോപ്പ്-അപ്പ് ഡയലോഗ് പേര് ഉപയോഗിക്കാൻ ഒരു പ്രത്യ"
+"േക ബഫർ അത് സംഭരിക്കുന്നു."
+
+#: src/menus/edit/buffer.xml:67(term)
+msgid "Copy Named"
+msgstr ""
+"പകർത്തുക Named"
+
+#: src/menus/edit/buffer.xml:69(para)
+msgid ""
+"The <guimenuitem>Copy Named</guimenuitem> command copies the contents of the "
+"selection from the active layer in the usual way, but instead of storing the "
+"content in the global clipboard, it stores it in a special buffer that you "
+"name using a pop-up dialog."
+msgstr ""
+"<guimenuitem>Copy Named</guimenuitem> കമാൻഡ് പകർപ്പുകൾ സാധാരണ രീതി സജീവ പാള"
+"ി നിന്ന് നിരക്കു ഉള്ളടക്കങ്ങൾ, പക്ഷേ പകരം ആഗോള ക്ലിപ്ബോർഡ് ലെ ഉള്ളടക്കം സ"
+"ംഭരിക്കുന്നതിനുള്ള, അത് നിങ്ങൾ ഒരു പോപ്പ്-അപ്പ് ഡയലോഗ് പേര് ഉപയോഗിക്കാൻ "
+"ഒരു പ്രത്യേക ബഫർ അത് സംഭരിക്കുന്നു."
+
+#: src/menus/edit/buffer.xml:79(term)
+msgid "Copy Visible Named"
+msgstr ""
+"ദൃശ്യം നാമകരണം ചെയ്ത പകർത്തുക"
+
+#: src/menus/edit/buffer.xml:81(para)
+msgid ""
+"The <guimenuitem>Copy Visible Named</guimenuitem> command copies the content "
+"of the selection from all the visible layers in the usual way, but instead "
+"of storing the content in the global clipboard, it stores it in a special "
+"buffer that you name using a pop-up dialog."
+msgstr ""
+"<guimenuitem>Copy Visible Named</guimenuitem> കമാൻഡ് പകർപ്പുകൾ സാധാരണപോലെ "
+"വഴിയിൽ ദൃശ്യമായ എല്ലാ പാളികളിൽ നിരക്കു ഉള്ളടക്കങ്ങൾ, പകരം ആഗോള ക്ലിപ്ബോർഡ"
+"് ലെ ഉള്ളടക്കം സംഭരിക്കുന്നതിന്, അതു നിങ്ങൾ ഒരു പോപ്പ്-അപ്പ് ഡയലോഗ് പേര് "
+"ഉപയോഗിക്കാൻ ഒരു പ്രത്യേക ബഫർ അത് സംഭരിക്കുന്നു."
+
+#: src/menus/edit/buffer.xml:91(term)
+msgid "Paste Named"
+msgstr ""
+"ഒട്ടിക്കുക Named"
+
+#: src/menus/edit/buffer.xml:93(para)
+msgid ""
+"The <guimenuitem>Paste Named</guimenuitem> command simply brings up the "
+"<link linkend=\"gimp-buffer-dialog\">Buffers dialog</link>. By selecting one "
+"of the listed buffers, and pressing one of the buttons at the bottom, you "
+"can either <link linkend=\"gimp-buffer-paste\">Paste Buffer</link>, <link "
+"linkend=\"gimp-buffer-paste-into\">Paste Buffer Into</link>, or <link "
+"linkend=\"gimp-buffer-paste-as-new\">Paste Buffer as New</link>."
+msgstr ""
+"<guimenuitem>Paste Named</guimenuitem> കമാൻഡ് ലളിതമായി <link linkend=\"gimp"
+"-buffer-dialog\">Buffers dialogue</link> ചെയ്യുന്നു. ലിസ്റ്റുചെയ്ത ബഫറുകളെയ"
+"ും ഒരെണ്ണം തിരഞ്ഞെടുത്ത്, താഴെ ബട്ടണുകളിൽ ഒന്ന് അമർത്തുന്നതിലൂടെ, <link lin"
+"kend=\"gimp-buffer-paste\">Paste Buffer</link>, <link linkend=\"gimp-buffer"
+"-paste-into\">Paste Buffer Into</link>, അല്ലെങ്കിൽ <link linkend=\"gimp-buf"
+"fer-paste-as-new\">Paste Buffer as New</link> ഒന്നുകില്."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/edit/buffer.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>9.3. ഫിലിം</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-combine.html" title="9. ഫിൽട്ടറുകൾ സംയോജിപ്പിക്കുക" />
+    <link rel="prev" href="plug-in-depth-merge.html" title="9.2. ആഴത്തിൽ ലയനം" />
+    <link rel="next" href="filters-artistic.html" title="10. കലാപരമായ ഫിൽട്ടറുകൾ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">9.3. ഫിലിം</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-depth-merge.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">9. ഫിൽട്ടറുകൾ സംയോജിപ്പിക്കുക</th>
+          <td width="20%" align="right"> <a accesskey="n" href="filters-artistic.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-film"></a>9.3. ഫിലിം</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925525613760" class="indexterm"></a>
+      <a id="idp46925525615584" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525616480"></a>9.3.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925525617184"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.164. ഫിലിം ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="ഫിലിം ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/combine-taj-film.jpg" alt="ഫിലിം ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Film</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഫിലിം ഫിൽട്ടർ നിങ്ങൾ ഒരു ഫിലിം ഡ്രോയിംഗ് പല ചിത്രങ്ങൾ സഹായിക്കും.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[കുറിപ്പു്]" src="images/note.png" />
+              </td>
+              <th align="left">കുറിപ്പു്</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>അങ്ങനെ അത് പ്രിന്റുകൾ ഉത്പാദിപ്പിക്കാൻ ഉപയോഗിക്കുന്ന പോലെ നെഗറ്റീവ് സിനിമ അനുകരിക്കാൻ ഇല്ല ഈ ഫിൽട്ടർ, നിറങ്ങൾ വിപരീത ഇല്ല. പകരം സ്ലൈഡ് ചലച്ചിത്ര അല്ലെങ്കിൽ സിനിമ സിനിമ ഒരു അനുകരണം ഫലം ചിന്തിക്കൂ.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525625856"></a>9.3.2. ഈ ഫിൽറ്റർ ആക്സസ്സുചെയ്യുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Combine</span> → <span class="guimenuitem">Film</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525628400"></a>9.3.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925525629152"></a>9.3.3.1. തിരഞ്ഞെടുക്കൽ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925525629904"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.165. <span class="quote">“<span class="quote">Film</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (തിരഞ്ഞെടുക്കൽ)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/combine/film-selection.png" alt="“Film” ഫിൽട്ടർ ഓപ്ഷനുകൾ (തിരഞ്ഞെടുക്കൽ)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="variablelist">
+            <p class="title">
+              <strong>ഫിലിം</strong>
+            </p>
+            <dl class="variablelist">
+              <dt>
+                <span class="term">ചിത്രങ്ങളിലേക്ക് വ്യായാമം ഉയരം</span>
+              </dt>
+              <dd>
+                <p>തത്ഫലമായി ഒന്നിലേക്ക് യഥാർത്ഥ ചിത്രങ്ങൾ ഉയരം പ്രയോഗിക്കുന്നു.</p>
+              </dd>
+              <dt>
+                <span class="term">പൊക്കം</span>
+              </dt>
+              <dd>
+                <p>ഈ ഉപാധി പടം ഉയരം define അനുവദിക്കുന്നു. യഥാർത്ഥ വ്യത്യസ്ത വലിപ്പത്തിലുള്ള ഉണ്ടെങ്കിൽ അവർ ഈ വലിപ്പം സ്കെയിൽ ചെയ്യും.</p>
+              </dd>
+              <dt>
+                <span class="term">നിറം</span>
+              </dt>
+              <dd>
+                <p>നിറം ക്ലിക്കുചെയ്തുകൊണ്ട് നിങ്ങളെ ഫിലിം (ചുറ്റും ചിത്രങ്ങൾ) ന്റെ കളർ കഴിയും പാർക്കും.</p>
+              </dd>
+            </dl>
+          </div>
+          <div class="variablelist">
+            <p class="title">
+              <strong>അക്കമിടൽ</strong>
+            </p>
+            <dl class="variablelist">
+              <dt>
+                <span class="term">സൂചിക ആരംഭിക്കുക</span>
+              </dt>
+              <dd>
+                <p>ചിത്രങ്ങൾക്കുള്ള ഉപയോഗിക്കുന്ന തുടക്കം നിഷ്കർഷിയ്ക്കുന്നു.</p>
+              </dd>
+              <dt>
+                <span class="term">ഫോണ്ട്</span>
+              </dt>
+              <dd>
+                <p>അക്കങ്ങൾ ഫോണ്ട് നിർവചിക്കുന്നു.</p>
+              </dd>
+              <dt>
+                <span class="term">നിറം</span>
+              </dt>
+              <dd>
+                <p>നിറം പാർക്കയില്ല മാകാം, നിങ്ങൾ അക്കങ്ങൾ നിറവും കഴിയും.</p>
+              </dd>
+              <dt>
+                <span class="term">മുകളിൽ, </span>
+                <span class="term">ചുവടെ</span>
+              </dt>
+              <dd>
+                <p>നമ്പർ സ്ഥാനം നിർവചിക്കുന്നു.</p>
+              </dd>
+            </dl>
+          </div>
+          <div class="variablelist">
+            <p class="title">
+              <strong>ചിത്രം തിരഞ്ഞെടുക്കൽ</strong>
+            </p>
+            <dl class="variablelist">
+              <dt>
+                <span class="term">ലഭ്യമായ ചിത്രങ്ങൾ</span>
+              </dt>
+              <dd>
+                <p>ലയിപ്പിക്കാൻ ഉപയോഗിക്കാൻ കഴിയും ചിത്രങ്ങൾ കാണിക്കുന്നു. ചിത്രങ്ങൾ ഇതിനകം ജിമില തുറന്നു അവർ.</p>
+              </dd>
+              <dt>
+                <span class="term">ഫിലിം</span>
+              </dt>
+              <dd>
+                <p>ലയിപ്പിച്ചു തിരഞ്ഞെടുത്തിരിക്കുന്നു ചിത്രങ്ങൾ കാണിക്കുന്നു.</p>
+              </dd>
+              <dt>
+                <span class="term">ചേർക്കുക</span>
+              </dt>
+              <dd>
+                <p>ഈ ബട്ടൺ ഉപയോക്താവ് <span class="quote">“<span class="quote">On film</span>”</span> വിഭാഗത്തിൽ ഒരു ചിത്രം ലഭ്യമായ ഇട്ടു അനുവദിക്കുന്നു.</p>
+              </dd>
+              <dt>
+                <span class="term">നീക്കംചെയ്യുക</span>
+              </dt>
+              <dd>
+                <p>ഈ ബട്ടൺ <span class="quote">“<span class="quote">On film </span>”</span> നിന്ന് <span class="quote">“<span class="quote">Available images</span>”</span> ഒരു ചിത്രം കൊണ്ടുവരാൻ അനുവദിക്കുന്നു. ശേഷം, ചിത്രം കാരണമാകുന്നു പ്രമാണത്തിൽ ഇനി ഉപയോഗിക്കില്ല.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925525659344"></a>9.3.3.2. വിപുലമായ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925525660096"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.166. <span class="quote">“<span class="quote">Film</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (അഡ്വാൻസ്ഡ്)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/combine/film-advanced.png" alt="“Film” ഫിൽട്ടർ ഓപ്ഷനുകൾ (അഡ്വാൻസ്ഡ്)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">ചിത്രത്തിന്റെ ഉയരം</span>
+              </dt>
+              <dd>
+                <p>തത്ഫലമായുണ്ടാകുന്ന ചിത്രം ഓരോ ചിത്രങ്ങൾ ഉയരം നിർവചിക്കുന്നു.</p>
+              </dd>
+              <dt>
+                <span class="term">ചിത്രം സ്പെയ്സിംഗ്</span>
+              </dt>
+              <dd>
+                <p>ഭാവിയിൽ ചിത്രം ചേർത്തു ചെയ്യും ചിത്രങ്ങൾ തമ്മിൽ നിർവചിക്കുന്നു.</p>
+              </dd>
+              <dt>
+                <span class="term">ഹോൾ ഓഫ്സെറ്റ്</span>
+              </dt>
+              <dd>
+                <p>ചിത്രം അതിർത്തിയിൽ നിന്ന് ദ്വാരം സ്ഥാനം നിർവചിക്കുന്നു.</p>
+              </dd>
+              <dt>
+                <span class="term">ഹോൾ വീതി</span>
+              </dt>
+              <dd>
+                <p>തത്ഫലമായുണ്ടാകുന്ന സ്വരൂപത്തിൽ ദ്വാരങ്ങൾ വീതി നിർവചിക്കുന്നു.</p>
+              </dd>
+              <dt>
+                <span class="term">ഹോൾ ഉയരം</span>
+              </dt>
+              <dd>
+                <p>തത്ഫലമായുണ്ടാകുന്ന സ്വരൂപത്തിൽ ദ്വാരങ്ങൾ ഉയരം നിർവചിക്കുന്നു.</p>
+              </dd>
+              <dt>
+                <span class="term">ഹോൾ സ്പെയ്സിംഗ്</span>
+              </dt>
+              <dd>
+                <p>കുഴികളും തമ്മിൽ നിർവചിക്കുന്നു</p>
+              </dd>
+              <dt>
+                <span class="term">നമ്പർ ഉയരം</span>
+              </dt>
+              <dd>
+                <p>ആനുപാതികമായി ചിത്രം ഉയരം, ഇൻഡക്സ് നമ്പർ ഉയരം നിർവചിക്കുന്നു.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-depth-merge.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-combine.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="filters-artistic.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-depth-merge.html">9.2. ആഴത്തിൽ ലയനം</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="filters-artistic.html">10. കലാപരമായ ഫിൽട്ടറുകൾ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>13.2. വ്യത്യാസം മേഘങ്ങൾ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-render.html" title="13. റെൻഡർ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="filters-render.html" title="13. റെൻഡർ ഫിൽട്ടറുകൾ" />
+    <link rel="next" href="python-fu-foggify.html" title="13.3. പല്ല്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">13.2. വ്യത്യാസം മേഘങ്ങൾ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="filters-render.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">13. റെൻഡർ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="python-fu-foggify.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-difference-clouds"></a>13.2. വ്യത്യാസം മേഘങ്ങൾ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925528168384" class="indexterm"></a>
+      <a id="idp46925528419392" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528418592"></a>13.2.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925528287136"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.280. വ്യത്യാസം മേഘങ്ങളുടെ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/render-taj-diffcloud.jpg" alt="വ്യത്യാസം മേഘങ്ങളുടെ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Difference Clouds</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p><span class="guimenuitem">Difference Clouds</span> കമാൻഡ് ഭാഗികമായും ക്ലൗഡ് പോലുള്ള മേഖലകളിൽ നിറങ്ങൾ മാറ്റങ്ങള്: ഫിൽട്ടർ ഒരു സ്വയം സൃഷ്ടിക്കപ്പെട്ടിരിക്കുന്നു പുതിയ പാളിയായി <a class="link" href="">Solid Noise</a> മേഘം റെൻഡർ, ഒപ്പം <a class="link" href="">Difference</a> ലയർ മോഡ് സജ്ജമാക്കുന്നു, പിന്നെ വ്യക്തമാക്കിയ ചിത്രം മേൽ ഈ പാളി ലയിപ്പിക്കുന്നു.</p>
+        <p>പാളി ലയിപ്പിക്കുന്നത് മുമ്പ്, ഈ സ്ക്രിപ്റ്റ് അതിന്റെ പ്രഭാവം നിയന്ത്രിക്കാൻ അനുവദിക്കുന്ന സോളിഡ് നോയ്സ് പ്ലഗ്-ഇൻ ഡയലോഗ് തുറക്കുന്നു.</p>
+        <p>ചിത്രം ഇൻഡെക്സ്ഡ് നിറങ്ങളിൽ ആണെങ്കിൽ, ഈ മെനു എൻട്രി ഗ്രേ ഔട്ട് ചെയ്ത് ലഭ്യമല്ല.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528248976"></a>13.2.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Render</span> → <span class="guisubmenu">Clouds</span> → <span class="guimenuitem">Difference Clouds...</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525988768"></a>13.2.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ സ്ക്രിപ്റ്റ് സ്വന്തം ഡയലോഗ് വിൻഡോ ഉണ്ടായിട്ടും <a class="link" href="plug-in-solid-noise.html" title="13.5. സോളിഡ് നോയ്സ്">Solid Noise</a> അരിപ്പ ന്റെ ഡയലോഗ് വിളിച്ച് പ്രാർത്ഥിക്കുന്ന ഇല്ല.</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="filters-render.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-render.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="python-fu-foggify.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="filters-render.html">13. റെൻഡർ ഫിൽട്ടറുകൾ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="python-fu-foggify.html">13.3. പല്ല്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

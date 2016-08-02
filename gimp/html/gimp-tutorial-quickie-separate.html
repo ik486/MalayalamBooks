@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>4.10. ഇതിന്റെ പശ്ചാത്തലത്തിൽ ഒരു വസ്തുവിന്റെ വേർതിരിക്കുന്ന</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-tutorial-quickies.html" title="4. സാധാരണ ജോലികൾ" />
+    <link rel="prev" href="gimp-tutorial-quickie-rotate.html" title="4.9. ഒരു ചിത്രം തിരിക്കുക" />
+    <link rel="next" href="gimp-tutorial-straight-lines.html" title="5. എങ്ങനെ രേഖാഖണ്ഡം വരയ്ക്കുന്നതിന്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">4.10. ഇതിന്റെ പശ്ചാത്തലത്തിൽ ഒരു വസ്തുവിന്റെ വേർതിരിക്കുന്ന</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-tutorial-quickie-rotate.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">4. സാധാരണ ജോലികൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-tutorial-straight-lines.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-tutorial-quickie-separate"></a>4.10. ഇതിന്റെ പശ്ചാത്തലത്തിൽ ഒരു വസ്തുവിന്റെ വേർതിരിക്കുന്ന</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925508606160" class="indexterm"></a>
+      <div class="figure">
+        <a id="idp46925508607344"></a>
+        <p class="title">
+          <strong>ചിത്രം 3.37. പശ്ചാത്തലവും ഒബ്ജക്റ്റ്</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/tutorials/quickie-remove-background-source.jpg" alt="പശ്ചാത്തലവും ഒബ്ജക്റ്റ്" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>ചിലപ്പോൾ നിങ്ങൾ അതിന്റെ പശ്ചാത്തലത്തിൽ നിന്ന് ഒരു ചിത്രത്തിന്റെ വിഷയം വേർതിരിച്ചു വേണം. നിങ്ങൾ ഒരു ഫ്ലാറ്റ് നിറം വിഷയം ആഗ്രഹിക്കുന്നില്ല, അല്ലെങ്കിൽ പശ്ചാത്തല സുതാര്യമായ സൂക്ഷിക്കാൻ ഇതുവഴി നിലവിലുള്ള പശ്ചാത്തലം, അല്ലെങ്കിൽ നിങ്ങൾ മനസിലുണ്ട് മറ്റു അത് ഉപയോഗിക്കാൻ കഴിയും ചെയ്യാം. ഇത് ചെയ്യുന്നതിന്, ആദ്യം നിങ്ങളുടെ സബ്ജക്റ്റിനുചുറ്റും ഒരു നിര വരയ്ക്കാൻ <acronym class="acronym">GIMP</acronym> ന്റെ നിരക്കു ഉപകരണങ്ങൾ ഉപയോഗിക്കണം. ഈ എളുപ്പമുള്ള ഒരു കാര്യമല്ല, ശരിയായ ഉപകരണം തിരഞ്ഞെടുത്ത് നിർണായകമാണ്. ഈ നിവർത്തിക്കും ധാരാളം ഉപകരണങ്ങൾ ഞങ്ങൾക്കുണ്ട്.</p>
+      <p><span class="quote">“<span class="quote">Free Select Tool</span>”</span> നിങ്ങൾ freehand അല്ലെങ്കിൽ രേഖാഖണ്ഡം ഉപയോഗിച്ച് ഒരു അതിർത്തി വരയ്ക്കാൻ അനുവദിക്കുന്നു. വിഷയം താരതമ്യേന ലളിതമായ ആകൃതിയുള്ള ഇത് ഉപയോഗിക്കുക. <a class="xref" href="">???</a>: ഇവിടെ ഈ ഉപകരണം കുറിച്ച് കൂടുതൽ വായിക്കൂ</p>
+      <div class="figure">
+        <a id="idp46925508614320"></a>
+        <p class="title">
+          <strong>ചിത്രം 3.38. സൗജന്യ തിരഞ്ഞെടുക്കുക ടൂൾ</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/toolbox/toolbox-lasso.png" alt="സൗജന്യ തിരഞ്ഞെടുക്കുക ടൂൾ" />
+          </div>
+          <div class="mediaobject">
+            <img src="images/tutorials/quickie-background-free-select.jpg" alt="സൗജന്യ തിരഞ്ഞെടുക്കുക ടൂൾ" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p><span class="quote">“<span class="quote">Intelligent Scissors Select Tool</span>”</span> നിങ്ങൾ ഒരു freehand അതിർത്തി തിരഞ്ഞെടുക്കുക അനുവദിക്കുന്നു മെച്ചപ്പെട്ട ഒബ്ജക്റ്റ് ചുറ്റും ബോർഡർ fit അറ്റത്തേക്ക്-തിരിച്ചറിയൽ അൽഗോരിതങ്ങൾ ഉപയോഗിക്കുന്നു. വിഷയം സങ്കീർണമായ മതി അതിന്റെ നിലവിലെ പശ്ചാത്തലത്തിലാണ് പ്രത്യേകമായി ഇത് ഉപയോഗിക്കുക. <a class="xref" href="gimp-tool-iscissors.html" title="2.7. Intelligent Scissors">വിഭാഗം 2.7, “Intelligent Scissors”</a>: ഇവിടെ ഈ ഉപകരണം കുറിച്ച് കൂടുതൽ വായിക്കൂ</p>
+      <div class="figure">
+        <a id="idp46925508621088"></a>
+        <p class="title">
+          <strong>ചിത്രം 3.39. ഇന്റലിജന്റ് കത്രിക തിരഞ്ഞെടുക്കുക ടൂൾ</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/toolbox/toolbox-scissor.png" alt="ഇന്റലിജന്റ് കത്രിക തിരഞ്ഞെടുക്കുക ടൂൾ" />
+          </div>
+          <div class="mediaobject">
+            <img src="images/tutorials/quickie-background-scissors.jpg" alt="ഇന്റലിജന്റ് കത്രിക തിരഞ്ഞെടുക്കുക ടൂൾ" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p><span class="quote">“<span class="quote">Foreground Select Tool</span>”</span> നിങ്ങൾ <span class="quote">“<span class="quote">Foreground</span>”</span> അല്ലെങ്കിൽ <span class="quote">“<span class="quote">Background</span>”</span> ആയി പ്രദേശങ്ങൾ അടയാളപ്പെടുത്തുക അനുവദിക്കുന്നു യാന്ത്രികമായി നിരക്കു refines. <a class="xref" href="gimp-tool-foreground-select.html" title="2.8. മുൻവശം തിരഞ്ഞെടുക്കുക">വിഭാഗം 2.8, “മുൻവശം തിരഞ്ഞെടുക്കുക”</a>: ഇവിടെ ഈ ഉപകരണം കുറിച്ച് കൂടുതൽ വായിക്കൂ</p>
+      <div class="figure">
+        <a id="idp46925508628368"></a>
+        <p class="title">
+          <strong>ചിത്രം 3.40. മുൻവശം തിരഞ്ഞെടുക്കുക ടൂൾ</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/toolbox/FG-select-toolbox.png" alt="മുൻവശം തിരഞ്ഞെടുക്കുക ടൂൾ" />
+          </div>
+          <div class="mediaobject">
+            <img src="images/tutorials/quickie-background-foreground-select.jpg" alt="മുൻവശം തിരഞ്ഞെടുക്കുക ടൂൾ" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>നിങ്ങൾ വിജയകരമായി വിഷയം തിരഞ്ഞെടുത്ത ശേഷം, <span class="guimenu">Select</span> → <span class="guimenuitem">Invert</span> ഉപയോഗിക്കുക. ഇപ്പോൾ, പകരം വിഷയം പശ്ചാത്തല തിരഞ്ഞെടുത്തു. എന്തു ഇപ്പോൾ നിങ്ങൾ പശ്ചാത്തല തമ്മിൽ എന്തു ഉദ്ദേശിച്ചത് ആശ്രയിച്ചിരിക്കുന്നു.</p>
+      <div class="itemizedlist">
+        <ul class="itemizedlist" style="list-style-type: disc; ">
+          <li class="listitem">
+            <p>ഒരൊറ്റ നിറം പശ്ചാത്തലം പൂരിപ്പിക്കുന്നു</p>
+            <p>പണിസഞ്ചിയിൽ പുരോതല നിറം Swatch (രണ്ട് ഓവർലാപ്പുചെയ്യുമ്പോൾ നിറമുള്ള വരയ്ക്കുന്ന മുകളിൽ ഇടത്) ക്ലിക്കുചെയ്ത് ആവശ്യമുള്ള നിറം തിരഞ്ഞെടുക്കുക. അടുത്തതായി, നിങ്ങളുടെ തിരഞ്ഞെടുത്ത നിറം പശ്ചാത്തലം പുനഃസ്ഥാപനം <a class="xref" href="gimp-tool-bucket-fill.html" title="3.4. ബക്കറ്റ് നിറയാൻ">വിഭാഗം 3.4, “ബക്കറ്റ് നിറയാൻ”</a> ഉപയോഗിക്കുക.</p>
+            <div class="figure">
+              <a id="idp46925508638384"></a>
+              <p class="title">
+                <strong>ചിത്രം 3.41. ഒരു പ്ലെയിൻ കളർ പശ്ചാത്തലം ചേർക്കുന്നു ഫലം</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/tutorials/quickie-background-color-result.png" alt="ഒരു പ്ലെയിൻ കളർ പശ്ചാത്തലം ചേർക്കുന്നു ഫലം" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+          </li>
+          <li class="listitem">
+            <p>സുതാര്യമായ പശ്ചാത്തലമുള്ള നടത്താന്:</p>
+            <p>ഒരു ആല്ഫാ ചാനൽ ചേർക്കാൻ <span class="guimenu">Layer</span> → <span class="guisubmenu">Transparence</span> → <span class="guimenuitem">Add Alpha Channel</span> ഉപയോഗിക്കുക. അടുത്തതായി, <span class="guimenu">Edit</span> <span class="guimenuitem">Clear</span> ഉപയോഗിക്കുക പശ്ചാത്തലത്തിൽ നീക്കം കീബോർഡിലെ <span class="keycap"><strong>Del</strong></span> കീ അമർത്തുക. ഫയൽ ഫോർമാറ്റുകൾ മാത്രമേ ഒരു ചെറിയ ഉപഗണം സുതാര്യമായ പ്രദേശങ്ങൾ പിന്തുണയ്ക്കുന്ന ശ്രദ്ധിക്കുക. നിങ്ങളുടെ ഏറ്റവും മികച്ച പന്തയം പിഎൻജി പോലെ നിങ്ങളുടെ ഇമേജ് സംരക്ഷിക്കാൻ ആണ്.</p>
+            <div class="figure">
+              <a id="idp46925508647936"></a>
+              <p class="title">
+                <strong>ചിത്രം 3.42. സുതാര്യമായ പശ്ചാത്തലമുള്ള ചേർക്കുന്നു ഫലം</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/tutorials/quickie-background-alpha-result.png" alt="സുതാര്യമായ പശ്ചാത്തലമുള്ള ചേർക്കുന്നു ഫലം" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+          </li>
+          <li class="listitem">
+            <p>നിറം വിഷയം നിലനിർത്തിക്കൊണ്ടുതന്നെ ഒരു ബ്ലാക്ക് ആന്റ് വൈറ്റ് പശ്ചാത്തലം നടത്താന്:</p>
+            <p><span class="guimenu">Colors</span> → <span class="guimenuitem">Desaturate</span> ഉപയോഗിക്കുക. , തുറക്കുന്ന ഡയലോഗ് ൽ മോഡുകൾ തമ്മിലുള്ള സൈക്കിൾ മികച്ച-തിരയുന്ന തെരഞ്ഞെടുക്കൂ, ശരി ക്ലിക്ക് ചെയ്യുക.</p>
+            <div class="figure">
+              <a id="idp46925508654336"></a>
+              <p class="title">
+                <strong>ചിത്രം 3.43. പശ്ചാത്തലം Desaturating ഫലം</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/tutorials/quickie-background-desaturate-result.png" alt="പശ്ചാത്തലം Desaturating ഫലം" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-tutorial-quickie-rotate.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-tutorial-quickies.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-tutorial-straight-lines.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-tutorial-quickie-rotate.html">4.9. ഒരു ചിത്രം തിരിക്കുക</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tutorial-straight-lines.html">5. എങ്ങനെ രേഖാഖണ്ഡം വരയ്ക്കുന്നതിന്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

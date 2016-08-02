@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>7.52. സ്കെയിൽ ലെയർ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-layer-menu.html" title="7. “Layer” മെനു" />
+    <link rel="prev" href="gimp-layer-resize-to-image.html" title="7.51. Layer to Image Size" />
+    <link rel="next" href="gimp-layer-crop.html" title="7.53. Crop to Selection" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">7.52. സ്കെയിൽ ലെയർ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-layer-resize-to-image.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">7. <span class="quote">“<span class="quote">Layer</span>”</span> മെനു</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-layer-crop.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-layer-scale"></a>7.52. സ്കെയിൽ ലെയർ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925522226960" class="indexterm"></a>
+      <a id="idp46925522228800" class="indexterm"></a>
+      <p><span class="guimenuitem">Scale Layer</span> കമാൻഡ് പാളി അതിന്റെ ഉള്ളടക്കങ്ങളും മാറ്റുന്നു. ചിത്രം സ്കെയിൽ നൽകി ഗുണനിലവാരം ചില നഷ്ടപ്പെടുന്നു. കമാൻഡ് പാളി വലുപ്പവും ചിത്രത്തിന്റെ നിലവാരം കുറിച്ചു പരാമീറ്ററുകൾ സജ്ജമാക്കാൻ കഴിയുന്ന ഒരു ഡയലോഗ് പ്രദർശിപ്പിക്കുന്നു.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522231024"></a>7.52.1. കമാൻഡ് സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+          You can access this command from the image menubar through
+          <span class="guimenu">Layer</span> → <span class="guimenuitem">Scale Layer</span>.
+        </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522234720"></a>7.52.2. Description of the <span class="quote">“<span class="quote">Scale Layer</span>”</span> Dialog</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925522235904"></a>
+          <p class="title">
+            <strong>ചിത്രം 16.117. The <span class="quote">“<span class="quote">Scale Layer</span>”</span> dialog</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/layer/scale.png" alt="The “Scale Layer” dialog" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ലെയർ വലിപ്പം</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ ഒരു പാളി വിശാലമാക്കുമ്പോൾ, <acronym class="acronym">GIMP</acronym> നിലവിലുള്ള നിന്ന് പുതിയ പിക്സൽ കണക്കാക്കേണ്ടത് ഉണ്ട്. ഈ പ്രക്രിയ <span class="quote">“<span class="quote">interpolation</span>”</span> വിളിക്കുന്നു. ഏത് interpolation അൽഗോരിതം ഉപയോഗിക്കുന്നു സാരമില്ല, പുതിയ വിവരങ്ങൾ interpolation ചിത്രം ചേർക്കുമ്പോൾ ദയവായി ശ്രദ്ധിക്കുക. വിവരങ്ങളൊന്നും ലഭ്യമല്ലെങ്കിലും ഏത് പാളിയായി സ്ഥലങ്ങൾ ഉണ്ട് എങ്കിൽ അതു ഞെട്ടിപ്പോകും ഏതെങ്കിലും പുതിയവ ലഭിക്കില്ല. ഇത് പാളി കുറയുകയാണെങ്കിൽ ശേഷം അല്പമെങ്കിലും മങ്ങിയ നോക്കി വളരെ കൂടുതൽ സാധ്യത. അതുപോലെ, നിങ്ങൾ ഒരു പാളി കുറയ്ക്കാൻ, ചിത്രം ഗുണനിലവാരം ചില നഷ്ടപ്പെടുന്നു പിക്സൽ നീക്കം ചെയ്യുമ്പോൾ.</p>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">Width; Height</span>
+                  </dt>
+                  <dd>
+                    <p>കമാൻഡ് പിക്സലിൽ യഥാർത്ഥ പാളി തലങ്ങളും കാണിക്കുന്നു ഒരു ഡയലോഗ് പ്രദർശിപ്പിക്കുന്നു. നിങ്ങൾ രണ്ടു ടെക്സ്റ്റ് ബോക്സുകളിൽ പാളി വേണ്ടി പുതിയ <span class="guilabel">Width</span> ആൻഡ് <span class="guilabel">Height</span> സജ്ജമാക്കാൻ കഴിയും. സമീപത്തെ ചെയിൻ ഐക്കൺ പിരിയാത്ത ആണെങ്കിൽ, വീതിയും ഉയരവും യാന്ത്രികമായി അവരുടെ അനുപാതം നിരന്തരമായ പുറകിലേക്ക് ക്രമീകരിച്ചു. നിങ്ങൾ അത് ക്ലിക്കുചെയ്ത് ചെയിൻ പൊട്ടി, നിങ്ങൾക്ക് പ്രത്യേകമായി അവർക്ക് കഴിയും, എന്നാൽ ഈ പാളി വളച്ചൊടിച്ച് കലാശിക്കും.</p>
+                    <p>എന്നിരുന്നാലും, നിങ്ങൾ പിക്സലിൽ അളവുകൾ സജ്ജമാക്കാൻ ഇല്ല. ഡ്രോപ്-ഡൗൺ മെനുവിൽ നിന്നും വിവിധ യൂണിറ്റുകൾ തിരഞ്ഞെടുക്കാം. നിങ്ങൾ യൂണിറ്റ് ശതമാനം തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, നിങ്ങൾ അതിന്റെ യഥാർത്ഥ വലുപ്പത്തിൽ ആപേക്ഷിക പാളി വലിപ്പം സജ്ജമാക്കാൻ കഴിയും. നിങ്ങൾക്ക് ഇഞ്ച് അല്ലെങ്കിൽ മില്ലിമീറ്റർ പോലുള്ള ഫിസിക്കൽ യൂണിറ്റുകൾ, ഉപയോഗിക്കാം. എന്നിരുന്നാലും ആ ചെയ്താലും ചിത്രത്തിന്റെ <span class="guilabel">X/Y resolution</span> ശ്രദ്ധ വേണം.</p>
+                    <p>നിങ്ങൾ ഒരു പാളി വലുതാക്കുന്നു എങ്കിൽ കാണാതായ പിക്സൽ interpolation കണക്കുകൂട്ടുന്നത്, എന്നാൽ പുതിയ വിവരങ്ങൾ ചേർത്തു. കൂടുതൽ പാളി വിശാലമായിരിക്കുന്നു, അതു വിശാലമായിരിക്കുന്നു കൂടുതൽ തവണ, അതു മാറുന്നു കൂടുതൽ മങ്ങിയ. വലുതാക്കല് ​​കൃത്യമായ ഫലം നിങ്ങൾ തിരഞ്ഞെടുക്കുന്ന interpolation രീതി ആശ്രയിച്ചിരിക്കുന്നു. കുറയുകയാണെങ്കിൽ ശേഷം, നിങ്ങൾ <a class="link" href="">Sharpen</a> ഫിൽട്ടർ ഉപയോഗിച്ച് ഫലം മെച്ചപ്പെടുത്താൻ കഴിയും, പക്ഷേ സ്കാനിംഗ്, ഡിജിറ്റൽ ഫോട്ടോ എടുക്കാനുള്ള അല്ലെങ്കിൽ മറ്റ് മാർഗ്ഗങ്ങളിലൂടെ ഡിജിറ്റൽ ചിത്രങ്ങൾ ഉത്പാദക ചെയ്യുമ്പോൾ ഒരു ഹൈ റെസല്യൂഷൻ ഉപയോഗിക്കുന്നത് വളരെ നല്ലത്. അവർ നന്നായി സ്കെയിൽ ചെയ്യാത്ത റാസ്റ്റർ ചിത്രങ്ങൾ ഒരു അന്തർലീനമായ സവിശേഷതയാണ്.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">ഗുണമേന്മയുള്ള</span>
+            </dt>
+            <dd>
+              <p>പാളി വലിപ്പം മാറ്റാൻ, <acronym class="acronym">GIMP</acronym> ഒന്നുകിൽ പിക്സൽ ചേർക്കാനോ നീക്കം ഉണ്ട്. അതു ഇത് ചെയ്യാൻ ഉപയോഗിക്കുന്ന രീതി ഫലം ഗുണനിലവാരം കാര്യമായി ആഘാതം. നിങ്ങൾ <span class="guilabel">Interpolation</span> ഡ്രോപ്പ്-ഡൌൺ മെനുവിൽ നിന്നും പിക്സൽ നിറങ്ങൾ interpolating രീതി തിരഞ്ഞെടുക്കാം.</p>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">Interpolation</span>
+                  </dt>
+                  <dd>
+                    <div class="variablelist">
+                      <dl class="variablelist">
+                        <dt>
+                          <span class="term">ഒന്നുമില്ല</span>
+                        </dt>
+                        <dd>
+                          <p>ഇല്ല interpolation ഉപയോഗിക്കുന്നു. അവർ ഔട്ടും ചെയ്യുമ്പോൾ പോലെ പിക്സൽ, ലളിതമായി വികസിക്കും അല്ലെങ്കിൽ നീക്കം ചെയ്യുന്നു. ഈ രീതി നിലവാരം കുറഞ്ഞ ആണ്, പക്ഷേ വളരെ വേഗത്തിൽ.</p>
+                        </dd>
+                        <dt>
+                          <span class="term">ലീനിയർ</span>
+                        </dt>
+                        <dd>
+                          <p>ഈ രീതി സ്പീഡ് ഗുണനിലവാരവും തമ്മിലുള്ള നല്ല വിട്ടുവീഴ്ചതന്നെയാണു്.</p>
+                        </dd>
+                        <dt>
+                          <span class="term">ക്യൂബിക്</span>
+                        </dt>
+                        <dd>
+                          <p>ഈ രീതി ധാരാളം സമയം, പക്ഷേ അപ്പോൾ മികച്ച ഫലങ്ങൾ ഉത്പാദിപ്പിക്കുന്നത്.</p>
+                        </dd>
+                        <dt>
+                          <span class="term">Sinc (Lanczos3)</span>
+                        </dt>
+                        <dd>
+                          <p>Lanczos (<span class="quote">“<span class="quote">lanzosh</span>”</span> ഉച്ചരിക്കാൻ) രീതി ഒരു ഉയർന്ന നിലവാരമുള്ള interpolation നടത്താൻ Sinc PLACEHOLDER,-104545 ഗണിത ഫങ്ഷൻ ഉപയോഗിക്കുന്നു.</p>
+                        </dd>
+                      </dl>
+                    </div>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-layer-resize-to-image.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-layer-menu.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-layer-crop.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-layer-resize-to-image.html">7.51. Layer to Image Size</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-layer-crop.html">7.53. Crop to Selection</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

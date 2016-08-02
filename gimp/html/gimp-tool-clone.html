@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.11. ക്ലോൺ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-tools-paint.html" title="3. പെയിന്റ് ഉപകരണങ്ങൾ" />
+    <link rel="prev" href="gimp-tool-ink.html" title="3.10. മച്ചി" />
+    <link rel="next" href="gimp-tool-heal.html" title="3.12. സൌഖ്യമാക്കേണമേ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.11. ക്ലോൺ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-tool-ink.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. പെയിന്റ് ഉപകരണങ്ങൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-tool-heal.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-tool-clone"></a>3.11. ക്ലോൺ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925514723728" class="indexterm"></a>
+      <a id="idp46925514725088" class="indexterm"></a>
+      <div class="figure">
+        <a id="idp46925514725984"></a>
+        <p class="title">
+          <strong>ചിത്രം 14.80. Clone tool icon in the Toolbox</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/toolbox/toolbox-clone.png" alt="Clone tool icon in the Toolbox" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>ക്ലോൺ ഉപകരണം ഒരു ഇമേജ് അല്ലെങ്കിൽ പാറ്റേൺ നിന്ന് പകർത്താൻ നിലവിലെ ബ്രഷ് ഉപയോഗിക്കുന്നു. അതു പല ഉപയോഗങ്ങൾ ഉണ്ട്: ഏറ്റവും പ്രധാനപ്പെട്ട ഒന്നാണ് മറ്റ് പ്രദേശങ്ങളിൽ നിന്ന് പിക്സൽ ഡാറ്റ ഉപയോഗിച്ച് <span class="quote">“<span class="quote">painting over</span>”</span> അവരെക്കൊണ്ടു, ഡിജിറ്റൽ ഫോട്ടോകളിൽ പ്രശ്നം പ്രദേശങ്ങൾ അറ്റകുറ്റം ആണ്. ഈ രീതി പഠിക്കാൻ ഒരു സമയത്ത് എടുക്കും, എന്നാൽ ഒരു വിദഗ്ധ ഉപയോക്താവിന്റെ കയ്യില് അതു വളരെ ശക്തമാണ്. മറ്റൊരു പ്രധാന ഉപയോഗം പാറ്റേണിലുള്ള രേഖകളോ കർവുകൾ വരയ്ക്കാൻ ആണ്: ഉദാഹരണങ്ങൾ <a class="link" href="gimp-concepts-patterns.html" title="11. പാറ്റേണുകൾ">Patterns</a> കാണുക.</p>
+      <p>നിങ്ങൾ ഒരു ചിത്രത്തിൽ നിന്ന്, പകരം ഒരു മാതൃകയുടെ ക്ലോൺ ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, നിങ്ങൾ നിന്ന് പകർത്താൻ ആഗ്രഹിക്കുന്ന ചിത്രം ജിമ് നോട്. ആഗ്രഹിച്ച ഉറവിട സ്വരൂപത്തിൽ <span class="keycap"><strong>Ctrl</strong></span> കീ ക്ലിക്കു താഴേയ്ക്കാക്കുമ്പോൾ ഇത് സാധ്യമാക്കുന്നു. ഈ വിധത്തിൽ ഉറവിടം വെച്ചിരിക്കുന്നു വരെ നിങ്ങൾക്ക് ക്ലോൺ ഉപകരണം ഉപയോഗിച്ച് വരയ്ക്കാൻ കഴിയില്ല: പ്രയോഗം കഴ്സർ <span class="guiicon"><img src="images/toolbox/clone-bad.png" /></span> കാണിച്ചുകൊണ്ട് ഈ പറയുന്നു.</p>
+      <p>നിങ്ങൾ ഒരു പാറ്റേൺ നിന്ന് ക്ലോൺ എങ്കിൽ പാറ്റേൺ <span class="emphasis"><em>tiled</em></span> ആകുന്നു; ആ നിങ്ങൾ അരികുകളും ഒന്ന് കഴിഞ്ഞ നീക്കങ്ങളാണ് നിന്ന് പകറ്ത്തുന്ന പോയിന്റ്, അതു പാറ്റേൺ അനിശ്ചിതമായി, സൈഡ് ബൈ സൈഡ് ആവർത്തിച്ച് പോലെ, സമ്മുഖ അരികിനോട് വികാരവും തുടരുന്നു വരുമ്പോൾ ആണ്. നിങ്ങൾ ഒരു ചിത്രത്തിൽ നിന്ന് ക്ലോൺ ഇത് സംഭവിക്കാം: നിങ്ങൾക്ക് ഉറവിടം അറ്റങ്ങൾ അപ്പുറം പോയാൽ, ക്ലോൺ ഉപകരണം എന്തെങ്കിലും മാറ്റങ്ങൾ ഉത്പാദക നിർത്തുന്നു.</p>
+      <p>നിങ്ങൾ മറ്റേതെങ്കിലും വരയ്ക്കാനാകുന്നത് ഏതെങ്കിലും വരയ്ക്കാനാകുന്നത് (എന്നതാണ് ഏതെങ്കിലും പാളി, ലെയർ മാസ്ക്, അല്ലെങ്കിൽ ചാനൽ) മുതൽ ക്ലോൺ കഴിയും. നിങ്ങൾ പോലും QuickMask മോഡ് മാറിക്കൊണ്ട്, അല്ലെങ്കിൽ നിന്ന് നിരക്കു മാസ്ക് ക്ലോൺ കഴിയും. ഈ ലക്ഷ്യം പിന്തുണയ്ക്കാത്ത (ഉദാഹരണത്തിന്, ഗണമാണോയെന്നത് പാളി അല്ലെങ്കിൽ ഒരു പാളി മാസ്ക് ഒരു ആർജിബി പാളി നിന്ന് ക്ലോണിങ്) പകർത്തുന്നത് നിറങ്ങൾ വരുമെങ്കിൽ, നിറങ്ങൾ അടുത്തുള്ള സാധ്യത approximations പരിവർത്തനം ചെയ്യും.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925514737568"></a>3.11.1. Activating the tool</h4>
+            </div>
+          </div>
+        </div>
+        <p>You can activate this tool in several ways:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+          From the image menu through
+          <span class="guimenu">Tools</span> → <span class="guisubmenu">Paint Tools</span> → <span class="guimenuitem">Clone</span>.
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          By clicking on the tool icon
+          <span class="guiicon"><img src="images/toolbox/stock-tool-clone-22.png" />
+          </span> in Toolbox.
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          By pressing the <span class="keycap"><strong>C</strong></span> keyboard shortcut.
+        </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925514745280"></a>3.11.2. Key modifiers (default)</h4>
+            </div>
+          </div>
+        </div>
+        <p>എല്ലാ പെയിന്റ് പ്രയോഗങ്ങളിൽ അതേ പ്രതീതി കീ മോഡിഫയറുകൾക്കുള്ളകീബോർഡ് ഒരു വിവരണം വേണ്ടി <a class="link" href="gimp-tools-paint.html#gimp-tools-paint-modifiers" title="3.1.1. Key modifiers">Paint tools key modifiers</a> കാണുക.</p>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">
+          <span class="keycap"><strong>Ctrl,</strong></span>
+        </span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ ഒരു ചിത്രത്തിൽ നിന്ന് ക്ലോണിങ് എങ്കിൽ <span class="keycap"><strong>Ctrl</strong></span> കീ, ഉറവിടം തിരഞ്ഞെടുക്കുന്നതിനായി ഉപയോഗിച്ച: നിങ്ങൾ ഒരു പാറ്റേൺ നിന്ന് ക്ലോണിങ് എങ്കിൽ അതു ഫലപ്രദമാകില്ല. നിങ്ങൾ ഏതെങ്കിലും ഇമേജ് ഏതെങ്കിലും പാളി നിന്ന്, പാളി (പാളികൾക്ക് ഡയലോഗ് കാണുന്നത് പോലെ) സജീവമാണ് അതേസമയം, അമർത്തിപ്പിടിച്ചു <span class="keycap"><strong>Ctrl</strong></span> കീ ഉപയോഗിച്ച്, ചിത്ര പ്രദർശന മാകാം ക്ലോൺ കഴിയും. ഉപകരണം ഓപ്ഷനുകൾ <span class="guilabel">None</span>, <span class="guilabel">Aligned</span>, അല്ലെങ്കിൽ <span class="keycap"><strong>Fixed</strong></span> ലേക്ക് ഉണ്ടെങ്കിൽ അലൈന്മെന്റ് സജ്ജീകരിച്ച, പിന്നെ നിങ്ങൾ ക്ലിക്ക് പോയിന്റ് ക്ളോണിങ് ഉറവിട മാറുന്നു: നിങ്ങൾ ആദ്യം ക്ലോൺ ഉപകരണം ഉപയോഗിച്ച് വളര്ത്താന് ആ ഘട്ടത്തിൽ ഇമേജ് ഡാറ്റ ഉപയോഗിക്കും. ഉറവിടം-നിരക്കു മോഡിൽ കർസർ ഒരു reticle ക്രോസ് ചിഹ്നം <span class="guiicon"><img src="images/toolbox/clone-cross.png" /></span> മാറുന്നു.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925514754800"></a>3.11.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925514755552"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.81. Tool Options for the Clone tool</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/tool-options-clone.png" alt="Tool Options for the Clone tool" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>സാധാരണ, ഉപകരണം ഓപ്ഷനുകൾ ഉടൻ ഒരു ഉപകരണം സജീവമാക്കാൻ പോലെ പണിസഞ്ചി കീഴിൽ ഘടിപ്പിച്ചിട്ടുള്ള ഒരു ജാലകം പ്രദർശിപ്പിക്കും. അഥവാ അങ്ങനെയല്ലെങ്കിൽ, നിങ്ങൾ തിരഞ്ഞെടുത്ത ഉപകരണം ഓപ്ഷൻ വിൻഡോ തുറക്കുന്ന <span class="guimenu">Windows</span> → <span class="guisubmenu">Dockable Windows</span> → <span class="guimenuitem">Tool Options</span> വഴി ഇമേജ് ബാറില് നിന്നും ആക്സസ് ചെയ്യാൻ കഴിയും.</p>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">
+          Mode; Opacity; Brush; Dynamics; Dynamics Options; 
+					Fade Options; Apply Jitter; Smooth Stroke; Hard Edge
+        </span>
+            </dt>
+            <dd>പല അല്ലെങ്കിൽ എല്ലാ പെയിന്റ് ഉപകരണങ്ങൾ ബാധകമായ ഉപകരണം ഓപ്ഷനുകൾ ഒരു വിവരണം വേണ്ടി <a class="link" href="gimp-tools-paint.html#gimp-tools-paint-options" title="3.1.2. ടൂൾ ഓപ്ഷനുകൾ">Common Paint Tool Options</a> കാണുക.</dd>
+            <dt>
+              <span class="term">ഉറവിടം</span>
+            </dt>
+            <dd>
+              <a id="idp46925514765104" class="indexterm"></a>
+              <p>നിങ്ങളുടെ ഇവിടത്തെ നിര ഡാറ്റ മുകളിൽ കാണിച്ചിരിക്കുന്ന പാറ്റേൺ നിന്ന് പകർത്തിയ ഇല്ലയോ, അല്ലെങ്കിൽ ചിത്രങ്ങളിലൊന്ന് നിന്ന് നിങ്ങൾ തുറന്ന നിർണ്ണയിക്കുന്നു.</p>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">ചിത്രം</span>
+                  </dt>
+                  <dd>
+                    <p>നിങ്ങൾ <span class="guilabel">Image source</span> തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ നിങ്ങൾക്ക് <acronym class="acronym">GIMP</acronym> <span class="keycap"><strong>Ctrl</strong></span> അത് -clicking വഴി, ഉറവിടമായി ഉപയോഗിക്കാൻ ഏത് പാളി, നിങ്ങൾ ഉപകരണം ഉപയോഗിച്ച് പെയിന്റ് മുമ്പായി നോട്.</p>
+                    <p>നിങ്ങൾ <span class="guilabel">Sample merged</span> പരിശോധിക്കുകയാണെങ്കിൽ അത് നിങ്ങൾ എന്താണ് <span class="quote">“<span class="quote">see</span>”</span> (നിറം ഒരു മൾട്ടി ലെയർ ചിത്രത്തിന്റെ എല്ലാ പാളികൾ കൊണ്ട് ഉണ്ടാക്കിയ) തട്ടിപ്പിനിരയായി കാര്യം തുടർന്ന്. അതു പരിശോധിക്കാതെ ഉണ്ടെങ്കിൽ മാത്രമേ തിരഞ്ഞെടുത്ത ലെയർ തട്ടിപ്പിനിരയായി ആണ്. കൂടുതൽ വിവരങ്ങൾക്ക് ഗ്ലോസ്സറി <a class="link" href="">Sample Merge</a> കാണും.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">മാതൃക</span>
+                  </dt>
+                  <dd>
+                    <p>പാറ്റേൺ ചിഹ്നം ക്ലിക്കുചെയ്താൽ കൂടെ വരയ്ക്കാൻ പാറ്റേൺ തിരഞ്ഞെടുക്കുന്നതിന് ഉപയോഗിക്കാനും കഴിയുന്ന പാറ്റേണുകൾ ഡയലോഗ്, ചെയ്യുന്നു. നിങ്ങൾ ഒരു ശ്രേണി സ്രോതസ്സിൽ നിന്നു ക്ലോണിങ് ഈ ഓപ്ഷൻ മാത്രം പ്രസക്തമാണ്.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">Alignment</span>
+            </dt>
+            <dd>
+              <p>അലൈന്മെന്റ് മോഡ് ബ്രഷ് സ്ഥാനവും സ്രോതസ്സ് സ്ഥാനം തമ്മിലുള്ള ബന്ധം നിഷ്കർഷിക്കുന്നു.</p>
+              <p>താഴെ പറയുന്ന ഉദാഹരണങ്ങളിൽ, ഞങ്ങൾ ക്ലോൺ ചെയ്യേണ്ട സാമ്പിൾ കൈക്കൊള്ളും എവിടെ ഒരു സ്രോതസ്സ് ചിത്രം, സാമ്പിൾ തട്ടിപ്പിനിരയായി ചെയ്യും ഒരു സ്ഥലത്തിന്റെ ഇമേജ് ഉപയോഗിക്കും (സ്രോതസ്സ് ചിത്രം ഒരു പാളി കഴിഞ്ഞില്ല)</p>
+              <div class="figure">
+                <a id="idp46925514779312"></a>
+                <p class="title">
+                  <strong>ചിത്രം 14.82. ക്ലോൺ വിന്യാസം യഥാർത്ഥ ചിത്രങ്ങൾ</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/toolbox/clone-source.png" alt="ക്ലോൺ വിന്യാസം യഥാർത്ഥ ചിത്രങ്ങൾ" />
+                    <div class="caption">
+                      <p>നാം പെൻസിൽ ടൂൾ ഉപയോഗിച്ച് വലിയ ബ്രഷ് ഉപയോഗിക്കും. സോഴ്സ് ഒരു വലയത്തോടു ക്രോസും ഇവിടെ പ്രതിനിധീകരിക്കുന്നു.</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/toolbox/clone-dest.png" alt="ക്ലോൺ വിന്യാസം യഥാർത്ഥ ചിത്രങ്ങൾ" />
+                    <div class="caption">
+                      <p>സോളിഡ് പശ്ചാത്തലത്തിൽ മാത്രം ഒരു ചിത്രം. നാം തുടർച്ചയായി മൂന്ന് ക്ലോണിങ് സ്ട്രോക്കുകൾ കോരും.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">ഒന്നുമില്ല</span>
+                  </dt>
+                  <dd>
+                    <p>ഈ മോഡിൽ, ഓരോ brushstroke വെവ്വേറെ കണക്കാക്കപ്പെടും. ഓരോ സ്ട്രോക്ക്, എവിടെ നിങ്ങൾ ആദ്യം ക്ലിക്കിൽ ഉറവിടം ഉത്ഭവം നിന്ന് പകർത്തിയതാണ് പോയിന്റ് ലഭിക്കുന്നു; ഒരു ബ്രഷ് സ്ട്രോക്ക് തമ്മിലുള്ള യാതൊരു ബന്ധം ഉണ്ട്. ചേരിചേരാ മോഡിൽ, അവർ പരസ്പരം കൂട്ടിമുട്ടുന്ന എങ്കിൽ വിവിധ ബ്രഷ് സ്ട്രോക്കുകൾ സാധാരണയായി ഏറ്റുമുട്ടുക.</p>
+                    <p>താഴെ ഉദാഹരണം: ഓരോ പുതിയ ബ്രഷ് സ്ട്രോക്ക് at, ഉറവിടം തിരികെ ആദ്യ സ്ഥാനത്തേക്ക് പോകുന്നു. ഒരേ സാമ്പിൾ എപ്പോഴും ക്ലോൺ ആണ്.</p>
+                    <div class="figure">
+                      <a id="idp46925514789472"></a>
+                      <p class="title">
+                        <strong>ചിത്രം 14.83. <span class="quote">“<span class="quote">None</span>”</span> clone alignment</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/toolbox/clone-none.png" alt="“None” clone alignment" />
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                  </dd>
+                  <dt>
+                    <span class="term">Aligned</span>
+                  </dt>
+                  <dd>
+                    <p>ഈ മോഡിൽ, ആദ്യം നിങ്ങൾ ചിത്രകലയെ സ്രോതസ്സ് ഉത്ഭവവും തട്ടിപ്പിനിരയായി ഫലം തമ്മിലുള്ള ഓഫ്സെറ്റ്, എല്ലാ തുടർന്നുള്ള വെഫ്റ്റ് ഒരേ ഓഫ്സെറ്റ് ഉപയോഗിക്കാൻ സജ്ജമാക്കുന്നു അമര്ത്തി. നിങ്ങൾ ഇഷ്ടപ്പെടുന്ന പോലെ അതുകൊണ്ട്, പല വെഫ്റ്റ് ഉപയോഗിക്കാം, എല്ലാ തമ്മിൽ സുഗമമായി mesh ചെയ്യും.</p>
+                    <p>നിങ്ങൾ ഓഫ്സെറ്റ് മാറ്റണമെങ്കിൽ അമർത്തി <span class="keycap"><strong>Ctrl</strong></span> കീ ഉപയോഗിച്ച് ക്ലിക്ക് ചെയ്തു് പുതിയ സ്രോതസ്സ് ഉത്ഭവം തിരഞ്ഞെടുക്കുക.</p>
+                    <p>ചുവടെയുള്ള ഉദാഹരണത്തിൽ, ഓരോ പുതിയ ബ്രഷ് സ്ട്രോക്ക് ചെയ്തത്, ഉറവിടം ഒരേ മുൻ ബ്രഷ് സ്ട്രോക്ക് ഉണ്ടായിരുന്ന ഓഫ്സെറ്റ് സൂക്ഷിക്കുന്നു. അതുകൊണ്ട്, ആദ്യ ബ്രഷ് സ്ട്രോക്ക് വേണ്ടി ഓഫ്സെറ്റ് യാതൊരു ക്ളോണിങ് ഇല്ല. ഇവിടെ, താഴെ തല്ലു, ഉറവിടം ഉറവിട ചിത്രം കാൻവാസ് നിന്നു അവസാനിക്കുന്നു; ഇവിടെനിന്നു ഫയലിന് വശം.</p>
+                    <div class="figure">
+                      <a id="idp46925514797344"></a>
+                      <p class="title">
+                        <strong>ചിത്രം 14.84. <span class="quote">“<span class="quote">Aligned</span>”</span> ക്ലോൺ ചെയ്യുക വിന്യാസം</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/toolbox/clone-aligned.png" alt="“Aligned” ക്ലോൺ ചെയ്യുക വിന്യാസം" />
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                  </dd>
+                  <dt>
+                    <span class="term">Registered</span>
+                  </dt>
+                  <dd>
+                    <p><span class="quote">“<span class="quote">Registered</span>”</span> മോഡ് മറ്റ് വിന്യാസം മോഡുകൾ നിന്നും വ്യത്യസ്തമാണ്. നിങ്ങൾ ഒരു ഇമേജ് നിന്നും പകർത്തി, ഒരു <span class="keycap"><strong>Ctrl</strong></span> -click ഒരു സ്രോതസ്സ് പാളി രജിസ്റ്റർ ചെയ്യും. അപ്പോൾ ഒരു ടാർഗെറ്റ് പാളിയായി ചിത്രകല ഉറവിട പാളി നിന്ന് ഓരോ ഇതേ പിക്സൽ ക്ലോൺ ചെയ്യും (ഒരേ കൂടെ പിക്സൽ ഓഫ്സെറ്റ്). നിങ്ങൾ ഒരേ ചിത്രം തന്നെ മറ്റൊരു പാളി ലേക്ക് പാളി നിന്നുള്ള ഒരു ഇമേജ് ഭാഗങ്ങൾ ക്ലോൺ ആഗ്രഹിക്കുന്ന ഈ ഉപയോഗപ്രദമാണ്. (പക്ഷേ മറ്റൊരു ചിത്രത്തിലേക്ക് ഇമേജ് നിന്ന് ക്ലോൺ കഴിയും എന്ന് ഓർക്കുക.)</p>
+                    <p>ഓരോ ബ്രഷ് സ്ട്രോക്ക് at, ഉറവിട ഡെസ്റ്റിനേഷൻ പാളി മൗസ് പോയിന്റർ സ്ഥാനം ദത്തെടുത്ത്. താഴെ പറയുന്ന ഉദാഹരണത്തിൽ, ഡെസ്റ്റിനേഷൻ പാളി സോഴ്സ് പാളി ചെറുതാണ്; അതിനാൽ ഒരു ഫയലിന് വശമുണ്ട്.</p>
+                    <div class="figure">
+                      <a id="idp46925514804912"></a>
+                      <p class="title">
+                        <strong>ചിത്രം 14.85. <span class="quote">“<span class="quote">Registered</span>”</span> clone alignment</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/toolbox/clone-registered.png" alt="“Registered” clone alignment" />
+                          <div class="caption"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                  </dd>
+                  <dt>
+                    <span class="term">Fixed</span>
+                  </dt>
+                  <dd>
+                    <p>ഈ മോഡ് ഉപയോഗിച്ച് നിങ്ങൾ മോഡുകൾ <span class="guilabel">None</span> അല്ലെങ്കിൽ <span class="guilabel">Aligned</span> വ്യത്യസ്തമായി ഒരു വര വരയ്ക്കാൻ പോലും സ്രോതസ്സ് ഉറവിടമുള്ള പെയിന്റ് ചെയ്യും. ഉറവിടം നീക്കം ചെയ്യില്ല.</p>
+                    <p>ഉറവിടം നിശ്ചിത നിലനിർത്തണമെന്ന് കാണുക. ഒരേ ചെറിയ സാമ്പിൾ ഒരു ശക്തമാക്കി വഴിയിൽ identically വീണ്ടും:</p>
+                    <div class="figure">
+                      <a id="idp46925514812032"></a>
+                      <p class="title">
+                        <strong>ചിത്രം 14.86. <span class="quote">“<span class="quote">Fixed</span>”</span> ക്ലോൺ ചെയ്യുക വിന്യാസം</strong>
+                      </p>
+                      <div class="figure-contents">
+                        <div class="mediaobject">
+                          <img src="images/toolbox/clone-fixed.png" alt="“Fixed” ക്ലോൺ ചെയ്യുക വിന്യാസം" />
+                        </div>
+                      </div>
+                    </div>
+                    <br class="figure-break" />
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="filter-and-history-brushes"></a>3.11.4. Further Information</h4>
+            </div>
+          </div>
+        </div>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">സുതാര്യത</span>
+            </dt>
+            <dd>
+              <p>സുതാര്യത ന് ക്ലോൺ ടൂൾ ഇഫക്റ്റുകൾ ഒരു ബിറ്റ് സങ്കീർണ്ണമായ ആകുന്നു. നിങ്ങൾക്ക് സുതാര്യതയും ക്ലോൺ കഴിയില്ല: നിങ്ങൾ ഒരു സുതാര്യമായ സ്രോതസ്സിൽ നിന്ന് ക്ലോൺ ശ്രമിച്ചാൽ, ഒന്നും ടാർഗെറ്റ് സംഭവിക്കുന്നു. നിങ്ങൾ ഒരു ഭാഗികമായും സുതാര്യമായ സ്രോതസ്സിൽ നിന്ന് ക്ലോൺ എങ്കിൽ, പ്രഭാവം സ്രോതസ്സ് ഒപാസിറ്റി വഴി വെയ്റ്റഡ് ആണ്. അതുകൊണ്ട്, അൽപംപോലും 100% അതാര്യത ഒരു ഹാർഡ് ബ്രഷ്:</p>
+              <div class="itemizedlist">
+                <ul class="itemizedlist" style="list-style-type: disc; ">
+                  <li class="listitem">
+                    <p>വെള്ള ലേക്കായി അർദ്ധസുതാര്യ കറുത്ത ക്ലോണിംഗ് ചാര ഉത്പാദിപ്പിക്കുന്നത്.</p>
+                  </li>
+                  <li class="listitem">
+                    <p>കറുത്ത ലേക്കായി അർദ്ധസുതാര്യ കറുത്ത ക്ലോണിംഗ് കറുത്ത ഉത്പാദിപ്പിക്കുന്നത്.</p>
+                  </li>
+                  <li class="listitem">
+                    <p>വെളുത്ത ലേക്കായി അർദ്ധസുതാര്യ വെളുത്ത ക്ലോണിംഗ് വെളുത്ത ഉത്പാദിപ്പിക്കുന്നത്.</p>
+                  </li>
+                  <li class="listitem">
+                    <p>കറുത്ത ലേക്കായി അർദ്ധസുതാര്യ വെളുത്ത ക്ലോണിംഗ് ചാര ഉത്പാദിപ്പിക്കുന്നത്.</p>
+                  </li>
+                </ul>
+              </div>
+              <p>ക്ലോണിംഗ് സുതാര്യത വർദ്ധിപ്പിക്കാൻ കഴിയും ഒരിക്കലും, എന്നാൽ, <span class="quote">“<span class="quote">keep transparency</span>”</span> പാളി ഓണായിരിക്കുന്നുവെന്ന് എങ്കിൽ അതു കുറയ്ക്കാൻ കഴിയും. ഒരു അർദ്ധസുതാര്യ പ്രദേശത്ത് ലേക്കായി അസാധ്യമാണ് പ്രദേശം ക്ലോണിംഗ് അസാധ്യമാണ് ഫലം ഉളവാക്കുന്നു; മറ്റൊരു അർദ്ധസുതാര്യ പ്രദേശത്ത് ലേക്കായി ഒരു അർദ്ധസുതാര്യ പ്രദേശത്ത് ക്ലോണിങ് അതാര്യവസ്ഥയ്ക്ക് കൂടുന്നത്.</p>
+            </dd>
+            <dt>
+              <span class="term"><span class="quote">“<span class="quote">Filter</span>”</span> നയപ്രഖ്യാപന</span>
+            </dt>
+            <dd>
+              <a id="idp46925514828112" class="indexterm"></a>
+              <p>ക്ലോൺ ടൂൾ ഉപയോഗിക്കാൻ ശക്തമായ ഇഫക്റ്റുകൾ ലഭ്യമാകാൻ കുറച്ച് നോൺ-വ്യക്തമായ മാർഗങ്ങളുണ്ട്. നിങ്ങൾക്ക് ചെയ്യാൻ കഴിയുന്ന ഒരു കാര്യം, <span class="quote">“<span class="quote">Filter brushes</span>”</span> സൃഷ്ടിക്കുക എന്നുവെച്ചാൽ ഒരു ബ്രഷ് ഉപയോഗിച്ച് ഒരു ഫിൽട്ടർ അപേക്ഷിക്കുന്ന പ്രഭാവം സൃഷ്ടിക്കാൻ ആണ്. ഇത് ചെയ്യുന്നതിന്, നിങ്ങൾ പ്രവർത്തിക്കുന്ന കോപ്പി ഫിൽട്ടർ പ്രയോഗിക്കാൻ ആഗ്രഹിക്കുന്ന പാളി തനിപ്പകർപ്പ്. അപ്പോൾ <span class="quote">“<span class="quote">Registered</span>”</span> ലേക്കുള്ള <span class="quote">“<span class="quote">Image source</span>”</span> ആൻഡ് അലൈന്മെന്റ് ഉറവിടം ക്രമീകരണം ക്ലോൺ ഉപകരണം സജീവമാക്കുക. ഉറവിടമായി വെച്ചു യഥാർത്ഥ പാളി ന് പെയിന്റ് ചെയ്യുന്നതിന് ഫിൽറ്റർ ലയറിൽ <span class="keycap"><strong>Ctrl</strong></span> -click: അപ്പോൾ ഫലത്തിൽ യഥാർത്ഥ ലേയറിലേക്ക് ഫിൽറ്റർ ഇമേജ് ഡാറ്റ മഷി ചെയ്യും.</p>
+            </dd>
+            <dt>
+              <span class="term">History brush</span>
+            </dt>
+            <dd>
+              <a id="idp46925514834512" class="indexterm"></a>
+              <p>നിങ്ങൾ തിരഞ്ഞെടുത്തവർക്ക് പഴയപടിയാക്കാൻ അല്ലെങ്കിൽ ഒരു ബ്രഷ് ഉപയോഗിച്ച് മാറ്റങ്ങൾ വീണ്ടും അനുവദിക്കുന്ന ഫോട്ടോഷോപ്പ് ന്റെ <span class="quote">“<span class="quote">History brush</span>”</span>, അനുകരിക്കാൻ സമാനമായ സമീപനം ഉപയോഗിക്കാം. ഇത് ചെയ്യുന്നതിന്, ചിത്രം തനിപ്പകർപ്പാക്കുന്നത് ആരംഭിക്കുക; പിന്നെ, യഥാർത്ഥ ൽ തിരികെ ആവശ്യമുള്ള നിലയിലേക്ക് ചിത്രം ചരിത്രത്തിലോ പഴയപടിയാക്കിക്കൊണ്ട് പഴയപടിയാക്കുന്നതിനോ ചരിത്രം ഡയലോഗ് ഉപയോഗിച്ച് ഒന്നുകിൽ പോയി. (ഇത് യഥാർത്ഥ, പകർത്തി ലെ ചെയ്യണം ഒരു ചിത്രം തനിപ്പകർപ്പാക്കുന്നത് പഴയപടിയാക്കൽ ചരിത്രം ഡ്യൂപ്ലിക്കേറ്റ് കാരണം.) ഇപ്പോൾ <span class="quote">“<span class="quote">Registered</span>”</span> ലേക്ക് <span class="quote">“<span class="quote">Image source</span>”</span> ആൻഡ് അലൈന്മെന്റ് ലേക്ക് അവലംബം ക്രമീകരണം ക്ലോൺ ഉപകരണം സജീവമാക്കുക. ഒറ്റ ഇമേജിൽ നിന്നും ഒരു പാളി ന് <span class="keycap"><strong>Ctrl</strong></span> -click, മറ്റ് ഇമേജിൽ നിന്നും ഇതേ പാളി ന് പെയിന്റ്. നിങ്ങൾ അത് എങ്ങനെ ആശ്രയിച്ച്, ഈ നിങ്ങൾക്ക് ഒരു <span class="quote">“<span class="quote">undo brush</span>”</span> അല്ലെങ്കിൽ ഒരു <span class="quote">“<span class="quote">redo brush</span>”</span> ഒന്നുകിൽ നൽകുന്നു.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-tool-ink.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-tools-paint.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-tool-heal.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-tool-ink.html">3.10. മച്ചി</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tool-heal.html">3.12. സൌഖ്യമാക്കേണമേ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

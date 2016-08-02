@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>13.11. ഗ്രിഡ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-render.html" title="13. റെൻഡർ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-diffraction.html" title="13.10. diffraction പാറ്റേണുകൾ" />
+    <link rel="next" href="plug-in-jigsaw.html" title="13.12. jigsaw" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">13.11. ഗ്രിഡ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-diffraction.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">13. റെൻഡർ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-jigsaw.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-grid"></a>13.11. ഗ്രിഡ്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925528896960" class="indexterm"></a>
+      <a id="idp46925528898768" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528900144"></a>13.11.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925528900912"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.308. ഗ്രിഡ് ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="ഗ്രിഡ് ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/render-taj-grid.jpg" alt="ഗ്രിഡ് ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Grid</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഇത് നിലവിലുള്ള ഉള്ളടക്കം മുകളിൽ സജീവ പാളി ഒരു കാര്ട്ടീഷ്യന്പ്ലോട്ട് ഗ്രിഡ് റെൻഡർ. വീതി, അകലം ഓഫ്സെറ്റുകളുടെ, ഗ്രിഡ് ലൈനുകൾ നിറങ്ങൾ എല്ലാ ഉപയോക്താവിന് സജ്ജമാക്കാൻ കഴിയൂ. സ്വതവേ, ലൈനുകൾ <acronym class="acronym">GIMP</acronym> ന്റെ പുരോതല നിറം ഉണ്ടു. (കുറിപ്പ്: ഈ പ്ലഗ്-മറ്റ് പ്ലഗിനുകളുടെ അനേകർ പ്രകടനത്തിനു ചിത്രങ്ങൾ സൃഷ്ടിക്കാൻ ഉപയോഗിച്ചു.)</p>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[സൂചന]" src="images/tip.png" />
+              </td>
+              <th align="left">സൂചന</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>നിങ്ങൾ 0 ഗ്രിഡ് ലൈൻ വീതി നിർത്തുന്നില്ലെങ്കിൽ മാത്രമേ കവലകളും പ്ലസ്-മാർക്ക് പോലെ വരച്ച ചെയ്യും.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528910512"></a>13.11.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Render</span> → <span class="guisubmenu">Pattern</span> → <span class="guimenuitem">Grid</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528913472"></a>13.11.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925528914224"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.309. <span class="quote">“<span class="quote">Grid</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/render/grid.png" alt="“Grid” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>തിരശ്ചീന ഗ്രിഡ് ലൈനുകൾ നിയന്ത്രിയ്ക്കാനുള്ള പ്രത്യേക ഓപ്ഷനുകൾ, വെർട്ടിക്കൽ ഗ്രിഡ് രേഖകൾ, വിഭജനങ്ങൾ ഉണ്ട്. സ്വതവേ, തിരശ്ചീന, ലംബ ക്രമീകരണങ്ങൾ അങ്ങനെ എല്ലാ മാറ്റങ്ങളും സുഘടനയിൽ പ്രയോഗിക്കുന്നതിന് ഒരുമിച്ചു ലോക്ക് ചെയ്തു. നിങ്ങൾ അവരിൽ വെറും ഒരു മാറ്റണമെങ്കിൽ, അവ അൺലോക്ക് താഴെയുള്ള <span class="quote">“<span class="quote">chain</span>”</span> ചിഹ്നം ക്ലിക്ക് ചെയ്യുക. കവല പാരാമീറ്ററുകൾ മാറ്റുന്നതിൽ ഫലങ്ങൾ പകരം സങ്കീർണമാണ്.</p>
+        <p>പുറമെ, ചില ഓപ്ഷനുകൾ നീ ഒരു ഡ്രോപ്പ്-ഡൌണ് ലിസ്റ്റ് അളവെടുക്കൽ നന്ദിയും യൂണിറ്റ് തിരഞ്ഞെടുക്കാം.</p>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">വീതി</span>
+            </dt>
+            <dd>
+              <p>തിരശ്ചീനമായി ലംബമായതോ ഗ്രിഡ് ലൈനുകൾ, അല്ലെങ്കിൽ അവരുടെ മുൻഗണ വരച്ച ചിഹ്നങ്ങളുടെ വീതി സജ്ജമാക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">അകലം</span>
+            </dt>
+            <dd>
+              <p>ഗ്രിഡ് ലൈനുകൾ തമ്മിലുള്ള ദൂരം സജ്ജമാക്കുന്നു. <span class="guilabel">Intersection</span> പരാമീറ്റർ കവല പോയിന്റ് കവല കുരിശുകൾ ആയുധങ്ങൾ അവസാനം സ്പെയ്സ് മായ്ക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">ഓഫ്സെറ്റ്</span>
+            </dt>
+            <dd>
+              <p>മുകളിലെ ഇടത് കോണിൽ ബഹുമാനത്തോടെ ഗ്രിഡ് ലൈനുകൾ വേണ്ടി ഓഫ്സെറ്റ് സജ്ജമാക്കുന്നു. കവലകളും വേണ്ടി, കവല കുരിശുകൾ ആയുധങ്ങൾ ദൈർഘ്യം സജ്ജമാക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">വർണ്ണ സെലക്ടർമാർ</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ ഗ്രിഡ് ലൈനുകൾ കവല മാർക്കുകൾ നിറങ്ങൾ സജ്ജമാക്കാൻ അനുവദിക്കുന്നു.</p>
+            </dd>
+          </dl>
+        </div>
+        <div class="figure">
+          <a id="idp46925528928944"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.310. Intersection parameters</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/render-grid-detail1.png" alt="Intersection parameters" />
+              <div class="caption">
+                <p>
+            <em class="parameter"><code>Width</code></em> &lt;
+            2  <em class="parameter"><code>Spacing</code></em>
+          </p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/render-grid-detail2.png" alt="Intersection parameters" />
+              <div class="caption">
+                <p>
+            <em class="parameter"><code>Width</code></em> &gt;
+            2  <em class="parameter"><code>Spacing</code></em>
+          </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-diffraction.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-render.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-jigsaw.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-diffraction.html">13.10. diffraction പാറ്റേണുകൾ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-jigsaw.html">13.12. jigsaw</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

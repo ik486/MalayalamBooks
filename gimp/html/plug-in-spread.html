@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>6.7. വിരിക്കുക</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-noise.html" title="6. നോയ്സ് ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-randomize-slur.html" title="6.6. ബിഗിൻ" />
+    <link rel="next" href="filters-edge.html" title="7. അഗ്രം-തിരിച്ചറിയൽ ഫിൽട്ടറുകൾ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">6.7. വിരിക്കുക</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-randomize-slur.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">6. നോയ്സ് ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="filters-edge.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-spread"></a>6.7. വിരിക്കുക</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925520077344" class="indexterm"></a>
+      <a id="idp46925520079168" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925520080080"></a>6.7.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925520080848"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.136. പകർച്ച അരിപ്പ അപേക്ഷിക്കുന്ന ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="പകർച്ച അരിപ്പ അപേക്ഷിക്കുന്ന ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/noise-taj-spread.jpg" alt="പകർച്ച അരിപ്പ അപേക്ഷിക്കുന്ന ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Spread</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>സ്പ്രെഡ് ഫിൽട്ടർ തുക വ്യക്തമാക്കിയ ഒരു ഉപയോക്താവ് മറ്റൊരു ക്രമരഹിതമായി തിരഞ്ഞെടുത്ത പിക്സൽ കൂടി സജീവ അല്ലെങ്കിൽ പാളി നിരക്കു ഓരോ പിക്സൽ അക്കങ്ങള്. ഇത് നിറം സംക്രമണങ്ങളിൽ, അല്ല പ്ലെയിൻ നിറം പ്രദേശങ്ങൾ പ്രവർത്തിക്കുന്നു. പുതിയ നിറം പരിചയപ്പെടുത്തുകയും ചെയ്യുന്നു.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925520088768"></a>6.7.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Noise</span> → <span class="guimenuitem">Spread</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925520091376"></a>6.7.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925520092128"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.137. <span class="quote">“<span class="quote">Spread</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/noise/spread.png" alt="“Spread” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p>ഈ പ്രിവ്യൂ അവർ ചിത്രത്തിലേക്ക് പ്രയോഗിക്കുന്നതിന് മുമ്പ് ഇന്ററാക്ടീവ് മാറുമ്പോൾ പ്രദർശിപ്പിക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">പകർച്ച തുക</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ പിക്സൽ <span class="guilabel">Horizontal</span> ആൻഡ് <span class="guilabel">Vertical</span> അച്ചുതണ്ട് സഹിതം നീക്കും എന്നു ദൂരം സജ്ജമാക്കാൻ കഴിയും. അക്ഷ ചെയിൻ ഐക്കണിൽ ക്ലിക്കുചെയ്ത് ലോക്ക് കഴിയും. നിങ്ങൾക്ക് ഉപയോഗിക്കാൻ യുണിറ്റ് നിർവചിക്കാനാകും.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-randomize-slur.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-noise.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="filters-edge.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-randomize-slur.html">6.6. ബിഗിൻ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="filters-edge.html">7. അഗ്രം-തിരിച്ചറിയൽ ഫിൽട്ടറുകൾ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

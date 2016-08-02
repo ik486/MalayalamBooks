@@ -1,0 +1,1702 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP-Help 2.8.0\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
+"PO-Revision-Date: 2012-06-01 12:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/introduction.xml:15(title)
+msgid "Welcome to GIMP"
+msgstr ""
+"ജിമ്പ് സ്വാഗതം"
+
+#: src/introduction.xml:18(primary)
+msgid "GIMP"
+msgstr ""
+"ജിമ്പ്"
+
+#: src/introduction.xml:19(secondary) src/gimp.xml:61(title)
+msgid "Introduction"
+msgstr ""
+"അവതാരിക"
+
+#: src/introduction.xml:21(para)
+msgid ""
+"<acronym>GIMP</acronym> is a multi-platform photo manipulation tool. "
+"<acronym>GIMP</acronym> is an acronym for <acronym>GNU</acronym> Image "
+"Manipulation Program. The <acronym>GIMP</acronym> is suitable for a variety "
+"of image manipulation tasks, including photo retouching, image composition, "
+"and image construction."
+msgstr ""
+"<acronym>GIMP</acronym> ഒരു മൾട്ടി-പ്ലാറ്റ്ഫോം ഫോട്ടോ കൈകാര്യം ആണ്. <acr"
+"onym>GIMP</acronym> <acronym>GNU</acronym> ചിത്രരചനാസഹായി പ്രോഗ്രാമിന് ചുര"
+"ുക്കപ്പേരാണ്. <acronym>GIMP</acronym> മിനുക്കുപണികൾ, ഇമേജ് ഘടന, ഇമേജ് നിർമാ"
+"ണ അടക്കമുള്ള ചിത്രത്തിന്റെ കൃത്രിമത്വം ചുമതലകൾ പലതരം അനുയോജ്യമാണ്."
+
+#: src/introduction.xml:29(para)
+msgid ""
+"<acronym>GIMP</acronym> has many capabilities. It can be used as a simple "
+"paint program, an expert quality photo retouching program, an online batch "
+"processing system, a mass production image renderer, an image format "
+"converter, etc."
+msgstr ""
+"<acronym>GIMP</acronym> പല കഴിവുകൾ ഉണ്ട്. ഇത് ഒരു ലളിതമായ പെയിന്റ് പ്രോഗ്ര"
+"ാം ഒരു വിദഗ്ധ ഗുണമേന്മയുള്ള മിനുക്കുപണികൾ പ്രോഗ്രാം, ഒരു ഓൺലൈൻ ബാച്ച് പ്രേ"
+"ാസസിങ് സംവിധാനം, ഒരു ബഹുജന ഉത്പാദനം ഇമേജ് റെൻഡറർ, ഒരു ഇമേജ് ഫോർമാറ്റ് പരിവ"
+"ർത്തന മുതലായവ ഉപയോഗിക്കാൻ കഴിയും"
+
+#: src/introduction.xml:35(para)
+msgid ""
+"<acronym>GIMP</acronym> is expandable and extensible. It is designed to be "
+"augmented with plug-ins and extensions to do just about anything. The "
+"advanced scripting interface allows everything from the simplest task to the "
+"most complex image manipulation procedures to be easily scripted."
+msgstr ""
+"<acronym>GIMP</acronym> വികസിപ്പിക്കാവുന്ന ആൻഡ് എക്സ്റ്റൻസിബിൾ ആണ്. ഇത് പ്ല"
+"ഗിന്നുകളായും ഒന്നും കുറിച്ച് വെറും ചെയ്യാൻ വിപുലീകരണങ്ങൾ ഉപയോഗിച്ച് പെരുകു"
+"കയും രൂപകൽപ്പന ചെയ്തിരിക്കുന്നത്. വിപുലമായ സ്ക്രിപ്റ്റിങ് ഇന്റർഫേസ് ലളിതമായ"
+" ടാസ്ക് നിന്ന് ഏറ്റവും സങ്കീർണ്ണമായ ചിത്രം കൃത്രിമത്വം നടപടിക്രമങ്ങൾ എളുപ്പ"
+"ത്തിൽ തിരക്കഥ ലേക്ക് എല്ലാം അനുവദിക്കുന്നു."
+
+#: src/introduction.xml:42(para)
+msgid ""
+"One of The <acronym>GIMP</acronym>'s strengths is its free availability from "
+"many sources for many operating systems. Most <acronym>GNU</acronym>/"
+"<application>Linux</application> distributions include The <acronym>GIMP</"
+"acronym> as a standard application. The <acronym>GIMP</acronym> is also "
+"available for other operating systems such as <productname>Microsoft "
+"Windows</productname> or Apple's <productname>Mac OS X</productname> "
+"(<application>Darwin</application>). The <acronym>GIMP</acronym> is a Free "
+"Software application covered by the General Public License <xref linkend="
+"\"bibliography-online-gpl\"/>. The <acronym>GPL</acronym> provides users "
+"with the freedom to access and alter the source code that makes up computer "
+"programs."
+msgstr ""
+"<acronym>GIMP</acronym> ന്റെ അതിവിശാലമായ ഒന്ന് പല ഓപ്പറേറ്റിങ് സിസ്റ്റങ്ങൾ "
+"നിരവധി സ്രോതസ്സുകളിൽ നിന്ന് സൗജന്യലഭ്യതയുടെ ആണ്. ഏറ്റവും <acronym>GNU</acr"
+"onym> / <application>Linux</application> വിതരണങ്ങൾ ഒരു സാധാരണ പ്രയോഗമായി <"
+"acronym>GIMP</acronym> ഉൾപ്പെടുന്നു. <acronym>GIMP</acronym> അത്തരം <produc"
+"tname>Microsoft Windows</productname> അല്ലെങ്കിൽ ആപ്പിൾ <productname>Mac OS"
+" X</productname> (<application>Darwin</application>) മറ്റ് ഓപ്പറേറ്റിങ് സിസ"
+"്റ്റം ലഭ്യമാണ്. <acronym>GIMP</acronym> പൊതു അനുമതി <xref linkend=\"biblio"
+"graphy-online-gpl\" /> മൂടിയിരിക്കും സ്വതന്ത്ര സോഫ്റ്റ്വെയർ ഉപയോഗിച്ച് ആണ"
+"്. <acronym>GPL</acronym> ആക്സസ് ഇതു മാറ്റുവാനും കമ്പ്യൂട്ടർ പ്രോഗ്രാമുകൾ "
+"അപ്പ് സത്യമെന്ന് സോഴ്സ് കോഡ് സ്വാതന്ത്ര്യം ഉപയോക്താക്കൾക്ക് നൽകുന്നു."
+
+#: src/introduction.xml:58(title)
+msgid "Authors"
+msgstr ""
+"എഴുത്തുകാർ"
+
+#: src/introduction.xml:59(para)
+msgid ""
+"The first version of the <acronym>GIMP</acronym> was written by Peter Mattis "
+"and Spencer Kimball. Many other developers have contributed more recently, "
+"and thousands have provided support and testing. <acronym>GIMP</acronym> "
+"releases are currently being orchestrated by Sven Neumann and Mitch Natterer "
+"and the other members of the <acronym>GIMP</acronym>-Team."
+msgstr ""
+"<acronym>GIMP</acronym> ആദ്യ പതിപ്പ് പീറ്റർ Mattis ആൻഡ് സ്പെൻസർ Kimball എന്"
+"നിവർ എഴുതിയ. പല മറ്റ് ഡെവലപ്പർമാർ അടുത്തകാലത്ത് സംഭാവന ചെയ്തിട്ടുണ്ട്, കൂടാ"
+"തെ ആയിരക്കണക്കിനു പിന്തുണയും ടെസ്റ്റിംഗ് വകയിരുത്തിയിട്ടുണ്ട്. <acronym>GIM"
+"P</acronym> റിലീസുകൾ നിലവിൽ സ്വെൻ ന്യൂമാൻ ആൻഡ് Mitch Natterer ആൻഡ് <acronym"
+">GIMP</acronym> -Team മറ്റ് അംഗങ്ങൾ ആസൂത്രണം ചെയ്യുന്നത്."
+
+#: src/introduction.xml:71(title)
+msgid "The GIMP Help system"
+msgstr ""
+"ജിമ്പ് സഹായം സിസ്റ്റം"
+
+#: src/introduction.xml:72(para)
+msgid ""
+"The <acronym>GIMP</acronym> Documentation Team and other users have provided "
+"you with the information necessary to understand how to use <acronym>GIMP</"
+"acronym>. The User Manual is an important part of this help. The current "
+"version is on the web site of the Documentation Team <xref linkend="
+"\"bibliography-online-gimp-docs\"/> in HTML format. The HTML version is also "
+"available as context sensitive help (if you installed it) while using "
+"<acronym>GIMP</acronym> by pressing the <keycap>F1</keycap> key. Help on "
+"specific menu items can be accessed by pressing the <keycap>F1</keycap> key "
+"while the mouse pointer is focused on the menu item. Read on to begin your "
+"<acronym>GIMP</acronym> journey."
+msgstr ""
+"<acronym>GIMP</acronym> പ്രമാണ ടീം മറ്റ് ഉപയോക്താക്കളെ <acronym>GIMP</acro"
+"nym> എങ്ങനെ ഉപയോഗിക്കാം മനസ്സിലാക്കാൻ ആവശ്യമായ വിവരങ്ങൾ നൽകിയിരിക്കുന്നു. "
+"ഉപയോക്തൃ മാനുവൽ ഈ സഹായ ഒരു പ്രധാന ഭാഗമാണ്. നിലവിലെ പതിപ്പ് HTML രീതിയിൽ പ്"
+"രമാണ ടീം <xref linkend=\"bibliography-online-gimp-docs\" /> വെബ് സൈറ്റിലാണ്"
+". എച്ച്ടിഎംഎൽ പതിപ്പ് ലഭ്യമാണ് സന്ദർഭ സെൻസിറ്റീവ് സഹായം പോലെ (നിങ്ങൾ ഇൻസ്റ"
+"്റാളുചെയ്തെങ്കിൽ) <keycap>F1</keycap> കീ അമർത്തിയാൽ <acronym>GIMP</acronym>"
+" ഉപയോഗിക്കുമ്പോൾ ആണ്. നിർദ്ദിഷ്ട മെനു ഇനങ്ങളിൽ സഹായം മൗസ് പോയിന്റർ മെനു "
+"ഇനം കേന്ദ്രീകരിച്ചായിരുന്നു സമയത്ത് <keycap>F1</keycap> കീ അമർത്തിയാൽ ആക്സസ"
+"് ചെയ്യാം. നിങ്ങളുടെ <acronym>GIMP</acronym> യാത്ര തുടങ്ങും വായിക്കുക."
+
+#: src/introduction.xml:89(title)
+msgid "Features and Capabilities"
+msgstr ""
+"ഫീച്ചറുകൾ കഴിവുകളും"
+
+#: src/introduction.xml:90(para)
+msgid ""
+"The following list is a short overview of some of the features and "
+"capabilities which <acronym>GIMP</acronym> offers you:"
+msgstr ""
+"താഴെ ലിസ്റ്റ് <acronym>GIMP</acronym> നിങ്ങളെ പ്രദാനം സവിശേഷതകളും കഴിവുകൾ ച"
+"ില ഹ്രസ്വ അവലോകനമാണിവിടെ:"
+
+#: src/introduction.xml:96(para)
+msgid ""
+"A full suite of painting tools including brushes, a pencil, an airbrush, "
+"cloning, etc."
+msgstr ""
+"നയപ്രഖ്യാപന, പെൻസിൽ, ഒരു എയർബ്രഷ്, ക്ലോണിംഗ് തുടങ്ങിയ പെയിന്റിംഗ് ഉപകരണങ്ങ"
+"ളുടെ ഒരു പൂർണ്ണ സ്യൂട്ട്"
+
+#: src/introduction.xml:102(para)
+msgid ""
+"Tile-based memory management, so image size is limited only by available "
+"disk space"
+msgstr ""
+"ടൈൽ അടിസ്ഥാനത്തിലുള്ള മെമ്മറി മാനേജ്മെന്റ്, അതിനാൽ ഇമേജ് സൈസ് മാത്രം ലഭ്യം "
+"ഡിസ്ക് സ്ഥലം വഴി പരിമിതപ്പെടുത്തിയിരിക്കുന്നു"
+
+#: src/introduction.xml:108(para)
+msgid "Sub-pixel sampling for all paint tools for high-quality anti-aliasing"
+msgstr ""
+"ഉയർന്ന നിലവാരമുള്ള വിരുദ്ധ-അലിയാസിങ് എല്ലാ പെയിന്റ് ടൂളുകൾ ഉപ-പിക്സൽ ഒരുപറ്"
+"റം"
+
+#: src/introduction.xml:114(para)
+msgid "Full Alpha channel support for working with transparency"
+msgstr ""
+"സുതാര്യത പ്രവർത്തിക്കുന്നതിനുമായുള്ള പൂർണ്ണ ആൽഫ ചാനൽ പിന്തുണ"
+
+#: src/introduction.xml:119(para)
+msgid "Layers and channels"
+msgstr ""
+"ലെയറുകളും ചാനലുകൾ"
+
+#: src/introduction.xml:122(para)
+msgid ""
+"A procedural database for calling internal <acronym>GIMP</acronym> functions "
+"from external programs, such as Script-Fu"
+msgstr ""
+"കർശനമായ ഒരു ഡാറ്റാബേസ് അത്തരം സ്ക്രിപ്റ്റ്-ഫു പോലെ എക്സ്റ്റേണൽ പ്രോഗ്രാമു"
+"കൾ, നിന്ന് ആന്തരിക <acronym>GIMP</acronym> ഫംഗ്ഷനുകളും വിളിക്കുന്നതിന്"
+
+#: src/introduction.xml:128(para)
+msgid "Advanced scripting capabilities"
+msgstr ""
+"വിപുലമായ സ്ക്രിപ്റ്റിംഗ് ശേഷികൾ"
+
+#: src/introduction.xml:131(para)
+msgid "Multiple undo/redo (limited only by disk space)"
+msgstr ""
+"ഒന്നിലധികം പഴയപടിയാക്കുക / വീണ്ടും (മാത്രം ഡിസ്ക് സ്പേസ് പരിമിതിയുളളവനായിരു"
+"ന്നതെങ്കിൽ)"
+
+#: src/introduction.xml:134(para)
+msgid "Transformation tools including rotate, scale, shear and flip"
+msgstr ""
+"തിരിക്കാനും സ്കെയിൽ, അറുക്കുക ആൻഡ് ഫ്ലിപ്പ് ഉൾപ്പെടെ ട്രാൻസ്ഫോർമേഷൻ ഉപകരണങ"
+"്ങൾ"
+
+#: src/introduction.xml:139(para)
+msgid ""
+"Support for a wide range of file formats, including GIF, JPEG, PNG, XPM, "
+"TIFF, TGA, MPEG, PS, PDF, PCX, BMP and many others"
+msgstr ""
+"GIF, JPEG, PNG എക്സ്പിഎം Name, ടിഐഎഫ്എഫ്, ടിജിഎ, MPEG, പി.എസ്, പിഡിഎഫ്, പിസ"
+"ിഎക്സ്, പഴികൾ പലരെയും ഉൾപ്പെടെ ഫയൽ ഫോർമാറ്റുകൾ വൈവിധ്യമാർന്ന പിന്തുണ"
+
+#: src/introduction.xml:145(para)
+msgid ""
+"Selection tools, including rectangle, ellipse, free, fuzzy, bezier and "
+"intelligent scissors"
+msgstr ""
+"സമകോണചതുർഭുജം, എല്ലിപ്സ്, സ്വതന്ത്ര, വ്യക്തമല്ലാത്ത, അര്ധവൃത്തമാക്കുക ബൗദ്"
+"ധികമായ കത്രിക ഉൾപ്പെടെ തിരഞ്ഞെടുക്കൽ ഉപകരണങ്ങൾ,"
+
+#: src/introduction.xml:151(para)
+msgid ""
+"Plug-ins that allow for the easy addition of new file formats and new effect "
+"filters."
+msgstr ""
+"പ്ലഗ്-ഇനുകൾ പുതിയ ഫയൽ ഫോർമാറ്റുകളും പുതിയ പ്രഭാവം ഫിൽട്ടറുകൾ എളുപ്പത്തിൽ പ"
+"ുറമേ അനുവദിക്കുകയും."
+
+#: src/help-missing.xml:8(title)
+msgid "Eeek! There is Missing Help"
+msgstr ""
+"Eeek! കാണാതായ സഹായം ഉണ്ട്"
+
+#: src/help-missing.xml:9(para)
+msgid ""
+"Sorry, but a help item is missing for the function you're looking for. You "
+"may be able to find it in the online version of the help at the <ulink url="
+"\"http://docs.gimp.org/en\"><acronym>GIMP</acronym> docs</ulink> website."
+msgstr ""
+"ക്ഷമിക്കണം, ഒരു സഹായ ഇനം നിങ്ങൾ തിരയുന്ന ചടങ്ങിൽ നഷ്ടമായിരിക്കുന്നു. നിങ്ങൾ"
+" <ulink url=\"http://docs.gimp.org/en\"><acronym>GIMP</acronym> docs</ulink"
+"> വെബ്സൈറ്റിൽ സഹായം ഓൺലൈൻ പതിപ്പ് അത് കണ്ടെത്താൻ കഴിഞ്ഞേക്കും."
+
+#: src/help-missing.xml:15(para)
+msgid ""
+"Feel free to join us and fill the gap by writing documentation for "
+"<acronym>GIMP</acronym>. For more information, subscribe to our <ulink url="
+"\"https://lists.xcf.berkeley.edu/mailman/listinfo/gimp-docs/\">Mailing list</"
+"ulink>. Generally, it's a good idea to check the <ulink url=\"http://www."
+"gimp.org\"><acronym>GIMP</acronym> project page</ulink>."
+msgstr ""
+"<acronym>GIMP</acronym> വിവരണക്കുറിപ്പു് ഇതെഴുതി ഞങ്ങളെ ചേരാനും വിടവ് നിറയ്"
+"ക്കാൻ മടിക്കേണ്ട. കൂടുതൽ വിവരങ്ങൾക്ക്, ഞങ്ങളുടെ <ulink url=\"https://lists."
+"xcf.berkeley.edu/mailman/listinfo/gimp-docs/\">Mailing list</ulink> സബ്സ്ക്"
+"രൈബ് ചെയ്യുക. സാധാരണയായി, അതു <ulink url=\"http://www. gimp.org\"><acronym>"
+"GIMP</acronym> project page</ulink> പരിശോധിക്കാൻ ഒരു നല്ല ആശയമാണ്."
+
+#: src/gimp.xml:25(title)
+msgid "GNU Image Manipulation Program"
+msgstr ""
+"ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം"
+
+#: src/gimp.xml:26(subtitle)
+msgid "User Manual"
+msgstr ""
+"ഉപയോക്തൃ മാനുവൽ"
+
+#: src/gimp.xml:28(year)
+msgid "2002"
+msgstr "2002"
+
+#: src/gimp.xml:29(year)
+msgid "2003"
+msgstr "2003"
+
+#: src/gimp.xml:30(year)
+msgid "2004"
+msgstr "2004"
+
+#: src/gimp.xml:31(year)
+msgid "2005"
+msgstr "2005"
+
+#: src/gimp.xml:32(year)
+msgid "2006"
+msgstr "2006"
+
+#: src/gimp.xml:33(year)
+msgid "2007"
+msgstr "2007"
+
+#: src/gimp.xml:34(year)
+msgid "2008"
+msgstr "2008"
+
+#: src/gimp.xml:35(year)
+msgid "2009"
+msgstr "2009"
+
+#: src/gimp.xml:36(year)
+msgid "2010"
+msgstr "2010"
+
+#: src/gimp.xml:37(year)
+msgid "2011"
+msgstr "2011"
+
+#: src/gimp.xml:38(year)
+msgid "2012"
+msgstr "2012"
+
+#: src/gimp.xml:39(holder)
+msgid "The GIMP Documentation Team"
+msgstr ""
+"ജിമ്പ് വിവരണക്കുറിപ്പു് ടീം"
+
+#: src/gimp.xml:42(title)
+msgid "Legal Notice"
+msgstr ""
+"ലീഗൽ നോട്ടീസ്"
+
+#: src/gimp.xml:43(para)
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.2 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the "
+"license is included in the section enphrased <link linkend=\"legal\">GNU "
+"Free Documentation License</link>."
+msgstr ""
+"അനുമതി ഗ്നു സ്വതന്ത്ര പ്രമാണ അനുവാദപത്രം എന്ന കീഴിൽ പകർത്താനും, വിതരണം ചെയ്"
+"യാനും ഒപ്പം / അല്ലെങ്കിൽ ഈ പ്രമാണത്തിൽ മാറ്റം പതിപ്പ് 1.2 സ്വതന്ത്ര സോഫ്റ്"
+"റ്വേർ സമിതി പ്രസിദ്ധീകരിച്ചിട്ടുള്ള ഏതെങ്കിലും ഭാവി പതിപ്പ്; മാറ്റമില്ലാത്ത"
+" ഭാഗങ്ങളും, മുൻചട്ട എഴുത്തുകളും, പിൻചട്ട എഴുത്തുകൾ. അനുമതിയുടെ ഒരു പകർപ്പ് "
+"enphrased <link linkend=\"legal\">GNU Free Documentation License</link> ഉൾപ"
+"്പെടുത്തിയിട്ടുണ്ട്."
+
+#: src/gimp.xml:55(title)
+msgid "Preface"
+msgstr ""
+"ആമുഖം"
+
+#: src/gimp.xml:59(title)
+msgid "Getting Started"
+msgstr ""
+"ആമുഖം"
+
+#: src/gimp.xml:66(title)
+msgid "Fire up the GIMP"
+msgstr ""
+"ജിമ്പ് കാര്യക്ഷമമായി"
+
+#: src/gimp.xml:71(title)
+msgid "First Steps with Wilber"
+msgstr ""
+"Wilber കൂടെ ആദ്യ ചുവടുകൾ"
+
+#: src/gimp.xml:79(title)
+msgid "Getting Unstuck"
+msgstr ""
+"Unstuck നേടുന്നു"
+
+#: src/gimp.xml:84(title)
+msgid "How do I Become a <acronym>GIMP</acronym> Wizard?"
+msgstr ""
+"ഞാൻ എങ്ങനെയാണ് ഒരു <acronym>GIMP</acronym> വിസാര്ഡ് ആകാൻ കഴിയും?"
+
+#: src/gimp.xml:88(title)
+msgid "Getting Images into GIMP"
+msgstr ""
+"കടന്നു ജിമ്പ് ഇമേജുകൾ നേടുന്നു"
+
+#: src/gimp.xml:89(para)
+msgid ""
+"This chapter is about getting images into GIMP. It explains how to create "
+"new images, how to load images from files, how to scan them and how to make "
+"screenshots."
+msgstr ""
+"ഈ അധ്യായത്തിൽ കയറി ജിമ്പ് ഇമേജുകൾ ലഭിക്കുന്നത് കുറിച്ച് ആണ്. പുതിയ ചിത്രങ്ങ"
+"ൾ സൃഷ്ടിക്കുക എങ്ങനെ അവരെ സ്കാൻ സ്ക്രീൻഷോട്ടുകൾ എങ്ങനെ എങ്ങനെ, ഫയലുകൾ നിന്"
+"ന് ചിത്രങ്ങൾ എങ്ങനെ ലോഡ് വിശദീകരിക്കുന്നു."
+
+#: src/gimp.xml:94(para)
+msgid ""
+"But first we want to introduce you to the general structure of images in "
+"GIMP."
+msgstr ""
+"എന്നാൽ ആദ്യം നാം ജിമില ചിത്രങ്ങളുടെ പൊതു ഘടന പരിചയപ്പെടുത്തട്ടെ ആഗ്രഹിക്കു"
+"ന്നു."
+
+#: src/gimp.xml:103(title)
+msgid "Getting Images out of GIMP"
+msgstr ""
+"ജിമ് നിന്നു ചിത്രങ്ങൾ നേടുന്നു"
+
+#: src/gimp.xml:108(title)
+msgid "Painting with GIMP"
+msgstr ""
+"ജിമ്പ് ചിത്രകല"
+
+#: src/gimp.xml:125(title)
+msgid "Combining Images"
+msgstr ""
+"സംയോജിത ചിത്രങ്ങൾ"
+
+#: src/gimp.xml:132(title)
+msgid "Text Management"
+msgstr ""
+"ടെക്സ്റ്റ് മാനേജ്മെന്റ്"
+
+#: src/gimp.xml:138(title)
+msgid "Enhancing Photographs"
+msgstr ""
+"മെച്ചപ്പെടുത്തുന്നു ഫോട്ടോഗ്രാഫുകൾ"
+
+#: src/gimp.xml:142(title)
+msgid "Color Management with GIMP"
+msgstr ""
+"ജിമ്പ് നിറം മാനേജ്മെന്റ്"
+
+#: src/gimp.xml:146(title)
+msgid "Pimp my GIMP"
+msgstr ""
+"എന്റെ ജിമ്പ് കൂട്ടിക്കൊടുക്കുക"
+
+#: src/gimp.xml:156(title)
+msgid "Scripting"
+msgstr ""
+"സ്ക്രിപ്റ്റിങ്"
+
+#: src/gimp.xml:163(title)
+msgid "Function Reference"
+msgstr ""
+"ഫംഗ്ഷൻ റഫറൻസ്"
+
+#: src/gimp.xml:165(title) src/key-reference.xml:37(refentrytitle)
+#: src/key-reference.xml:40(refname) src/key-reference.xml:46(title)
+#: src/key-reference.xml:48(title)
+msgid "Tools"
+msgstr ""
+"ഉപകരണങ്ങൾ"
+
+#: src/gimp.xml:174(title) src/key-reference.xml:365(refentrytitle)
+#: src/key-reference.xml:368(refname)
+msgid "Dialogs"
+msgstr ""
+"ഡയലോഗുകൾ"
+
+#: src/gimp.xml:182(title)
+msgid "Menus"
+msgstr ""
+"വിഭവസൂചികകള്"
+
+#: src/gimp.xml:197(title) src/key-reference.xml:945(refentrytitle)
+#: src/key-reference.xml:948(refname) src/key-reference.xml:954(title)
+msgid "Filters"
+msgstr ""
+"ഫിൽട്ടറുകൾ"
+
+#: src/key-reference.xml:6(title)
+msgid "Keys and Mouse Reference"
+msgstr ""
+"കീകൾക്കും മൗസ് റഫറൻസ്"
+
+#: src/key-reference.xml:9(refentrytitle) src/key-reference.xml:12(refname)
+#: src/key-reference.xml:18(title) src/key-reference.xml:23(para)
+msgid "Help"
+msgstr ""
+"സഹായിക്കൂ"
+
+#: src/key-reference.xml:13(refpurpose)
+msgid "Key reference for <guimenuitem>Help</guimenuitem> menu"
+msgstr ""
+"<guimenuitem>Help</guimenuitem> മെനു കീ റഫറൻസ്"
+
+#: src/key-reference.xml:21(term)
+msgid "F1"
+msgstr ""
+"എഫ് 1"
+
+#: src/key-reference.xml:27(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + F1"
+msgstr "<keycap function=\"shift\">Shift</keycap> + F1"
+
+#: src/key-reference.xml:29(para)
+msgid "Context Help"
+msgstr ""
+"സന്ദർഭ സഹായം"
+
+#: src/key-reference.xml:41(refpurpose)
+msgid "Key reference for the <guimenuitem>Tools</guimenuitem> menu"
+msgstr ""
+"<guimenuitem>Tools</guimenuitem> മെനു കീ റഫറൻസ്"
+
+#: src/key-reference.xml:50(term)
+msgid "R"
+msgstr ""
+"ആർ"
+
+#: src/key-reference.xml:52(para)
+msgid "Rect Select"
+msgstr ""
+"RECT തിരഞ്ഞെടുക്കുക"
+
+#: src/key-reference.xml:56(term)
+msgid "E"
+msgstr ""
+"പിന്നെ"
+
+#: src/key-reference.xml:58(para)
+msgid "Ellipse Select"
+msgstr ""
+"അണ്ഡാകൃതി തിരഞ്ഞെടുക്കുക"
+
+#: src/key-reference.xml:62(term)
+msgid "F"
+msgstr ""
+"എഫ്"
+
+#: src/key-reference.xml:64(para)
+msgid "Free Select"
+msgstr ""
+"സൗജന്യ തിരഞ്ഞെടുക്കുക"
+
+#: src/key-reference.xml:68(term)
+msgid "Z"
+msgstr ""
+"കൂടെ"
+
+#: src/key-reference.xml:70(para)
+msgid "Fuzzy Select"
+msgstr ""
+"അവ്യക്തമായ തിരഞ്ഞെടുക്കുക"
+
+#: src/key-reference.xml:74(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + O"
+msgstr "<keycap function=\"shift\">Shift</keycap> + O"
+
+#: src/key-reference.xml:76(para)
+msgid "Select By Color"
+msgstr ""
+"വർണ്ണപ്രകാരം തിരഞ്ഞെടുക്കുക"
+
+#: src/key-reference.xml:80(term)
+msgid "I"
+msgstr ""
+"ഞാന്"
+
+#: src/key-reference.xml:82(para)
+msgid "Scissors"
+msgstr ""
+"കതിക"
+
+#: src/key-reference.xml:86(term)
+msgid "B"
+msgstr ""
+"ബി"
+
+#: src/key-reference.xml:88(para)
+msgid "Paths"
+msgstr ""
+"പാഥുകൾ"
+
+#: src/key-reference.xml:92(term)
+msgid "O"
+msgstr ""
+"ദി"
+
+#: src/key-reference.xml:94(para)
+msgid "Color Picker"
+msgstr ""
+"വർണ്ണം പിക്കർ"
+
+#: src/key-reference.xml:98(term)
+msgid "M"
+msgstr ""
+"എം"
+
+#: src/key-reference.xml:100(para)
+msgid "Move"
+msgstr ""
+"നീങ്ങുക"
+
+#: src/key-reference.xml:104(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + C"
+msgstr "<keycap function=\"shift\">Shift</keycap> + C"
+
+#: src/key-reference.xml:106(para)
+msgid "Crop and Resize"
+msgstr ""
+"ക്രോപ്പും വലിപ്പംമാറ്റുന്നത്"
+
+#: src/key-reference.xml:110(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + R"
+msgstr "<keycap function=\"shift\">Shift</keycap> + R"
+
+#: src/key-reference.xml:112(para)
+msgid "Rotate"
+msgstr ""
+"തിരിക്കുക"
+
+#: src/key-reference.xml:116(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + T"
+msgstr "<keycap function=\"shift\">Shift</keycap> + T"
+
+#: src/key-reference.xml:118(para)
+msgid "Scale"
+msgstr ""
+"സ്കെയിൽ"
+
+#: src/key-reference.xml:122(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + S"
+msgstr ""
+"<keycap function=\"shift\">Shift</keycap> + S,"
+
+#: src/key-reference.xml:124(para)
+msgid "Shear"
+msgstr ""
+"അറുക്കുക"
+
+#: src/key-reference.xml:128(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + P"
+msgstr "<keycap function=\"shift\">Shift</keycap> + P"
+
+#: src/key-reference.xml:130(para)
+msgid "Perspective"
+msgstr ""
+"കാഴ്ചപ്പാട്"
+
+#: src/key-reference.xml:134(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + F"
+msgstr "<keycap function=\"shift\">Shift</keycap> + F"
+
+#: src/key-reference.xml:136(para)
+msgid "Flip"
+msgstr ""
+"ഫ്ലിപ്"
+
+#: src/key-reference.xml:140(term)
+msgid "T"
+msgstr ""
+"ടി"
+
+#: src/key-reference.xml:142(para)
+msgid "Text"
+msgstr ""
+"ടെക്സ്റ്റ്"
+
+#: src/key-reference.xml:146(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + B"
+msgstr "<keycap function=\"shift\">Shift</keycap> + B"
+
+#: src/key-reference.xml:148(para)
+msgid "Bucket Fill"
+msgstr ""
+"ബക്കറ്റ് നിറയാൻ"
+
+#: src/key-reference.xml:152(term)
+msgid "L"
+msgstr ""
+"എൽ"
+
+#: src/key-reference.xml:154(para)
+msgid "Blend"
+msgstr ""
+"കൂട്ടിക്കലര്ത്തുക"
+
+#: src/key-reference.xml:158(term)
+msgid "N"
+msgstr ""
+"വ"
+
+#: src/key-reference.xml:160(para)
+msgid "Pencil"
+msgstr ""
+"പെന്സില്"
+
+#: src/key-reference.xml:164(term)
+msgid "P"
+msgstr ""
+"പി"
+
+#: src/key-reference.xml:166(para)
+msgid "Paintbrush"
+msgstr ""
+"അന്തസ്സായിത്തന്നെയാണു"
+
+#: src/key-reference.xml:170(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + E"
+msgstr "<keycap function=\"shift\">Shift</keycap> + E"
+
+#: src/key-reference.xml:172(para)
+msgid "Eraser"
+msgstr ""
+"തുടച്ചുമാറ്റുന്നവന്"
+
+#: src/key-reference.xml:176(term)
+msgid "A"
+msgstr ""
+"ഒരു"
+
+#: src/key-reference.xml:178(para)
+msgid "Airbrush"
+msgstr ""
+"എയർബ്രഷ്"
+
+#: src/key-reference.xml:182(term)
+msgid "K"
+msgstr ""
+"കെ"
+
+#: src/key-reference.xml:184(para)
+msgid "Ink"
+msgstr ""
+"മച്ചി"
+
+#: src/key-reference.xml:188(term)
+msgid "C"
+msgstr ""
+"സി"
+
+#: src/key-reference.xml:190(para)
+msgid "Clone"
+msgstr ""
+"ക്ലോൺ"
+
+#: src/key-reference.xml:194(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + U"
+msgstr ""
+"<keycap function=\"shift\">Shift</keycap> + R"
+
+#: src/key-reference.xml:196(para)
+msgid "Blur/Sharpen"
+msgstr ""
+"ഇഫക്റ്റ് / മൂര്ച്ചകൂട്ടല്പ്രഭാവംടോഗിള്ചെയ്യുക"
+
+#: src/key-reference.xml:200(term)
+msgid "S"
+msgstr ""
+"എസ്"
+
+#: src/key-reference.xml:202(para)
+msgid "Smudge"
+msgstr ""
+"സ്മഡ്ജ്"
+
+#: src/key-reference.xml:206(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + D"
+msgstr "<keycap function=\"shift\">Shift</keycap> + D"
+
+#: src/key-reference.xml:208(para)
+msgid "Dodge/Burn"
+msgstr ""
+"ഡോഡ്ജ് / ബേൺ"
+
+#: src/key-reference.xml:213(para)
+msgid "Click on a tool icon to open its Tool Options dialog."
+msgstr ""
+"അതിന്റെ ടൂൾ ഓപ്ഷനുകൾ ഡയലോഗ് തുറക്കുന്നതിന് ഒരു ഉപകരണം ഐക്കണിൽ ക്ലിക്ക്."
+
+#: src/key-reference.xml:218(title)
+msgid "Context"
+msgstr ""
+"സന്ദർഭ"
+
+#: src/key-reference.xml:220(term)
+msgid "X"
+msgstr ""
+"എക്സ്"
+
+#: src/key-reference.xml:222(para)
+msgid "Swap Colors"
+msgstr ""
+"സ്വാപ്പ് നിറങ്ങൾ"
+
+#: src/key-reference.xml:226(term)
+msgid "D"
+msgstr ""
+"ഡി"
+
+#: src/key-reference.xml:228(para)
+msgid "Default Colors"
+msgstr ""
+"സ്വതേ നിറങ്ങൾ"
+
+#: src/key-reference.xml:233(para)
+msgid "Click on the colors to change the colors."
+msgstr ""
+"വർണങ്ങൾ മാറ്റുന്നതിന് നിറങ്ങൾ ക്ലിക്കുചെയ്യുക."
+
+#: src/key-reference.xml:239(refentrytitle) src/key-reference.xml:242(refname)
+#: src/key-reference.xml:248(title)
+msgid "File"
+msgstr ""
+"ഫയല്"
+
+#: src/key-reference.xml:243(refpurpose)
+msgid "Key reference for the <guimenuitem>File</guimenuitem> menu"
+msgstr ""
+"<guimenuitem>File</guimenuitem> മെനു കീ റഫറൻസ്"
+
+#: src/key-reference.xml:251(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + N"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + N"
+
+#: src/key-reference.xml:253(para)
+msgid "New image"
+msgstr ""
+"പുതിയ ചിത്രം"
+
+#: src/key-reference.xml:257(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + O"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + O"
+
+#: src/key-reference.xml:259(para)
+msgid "Open image"
+msgstr ""
+"ചിത്രം തുറക്കുക"
+
+#: src/key-reference.xml:263(term)
+msgid ""
+"<keycap function=\"control\">Ctrl</keycap> + <keycap function=\"alt\">Alt</"
+"keycap> + O"
+msgstr ""
+"<keycap function=\"control\">Ctrl</keycap> + <keycap function=\"alt\">Alt</"
+"keycap> + O"
+
+#: src/key-reference.xml:268(para)
+msgid "Open image as new layer"
+msgstr ""
+"പുതിയ പാളി ആയി തുറക്കുക ചിത്രം"
+
+#: src/key-reference.xml:272(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + D"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + D"
+
+#: src/key-reference.xml:274(para)
+msgid "Duplicate"
+msgstr ""
+"പകര്പ്പ്"
+
+#: src/key-reference.xml:278(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 1"
+msgstr ""
+"<keycap function=\"control\">Ctrl</keycap> +1"
+
+#: src/key-reference.xml:280(para)
+msgid "Open recent image #1"
+msgstr ""
+"തുറക്കുക സമീപകാല ചിത്രം # 1"
+
+#: src/key-reference.xml:284(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 2"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 2"
+
+#: src/key-reference.xml:286(para)
+msgid "Open recent image #2"
+msgstr ""
+"തുറക്കുക സമീപകാല ചിത്രം # 2"
+
+#: src/key-reference.xml:290(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 3"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 3"
+
+#: src/key-reference.xml:292(para)
+msgid "Open recent image #3"
+msgstr ""
+"തുറക്കുക സമീപകാല ചിത്രം # 3"
+
+#: src/key-reference.xml:296(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 4"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 4"
+
+#: src/key-reference.xml:298(para)
+msgid "Open recent image #4"
+msgstr ""
+"തുറക്കുക സമീപകാല ചിത്രം # 4"
+
+#: src/key-reference.xml:302(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 5"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 5"
+
+#: src/key-reference.xml:304(para)
+msgid "Open recent image #5"
+msgstr ""
+"തുറക്കുക സമീപകാല ചിത്രം # 5"
+
+#: src/key-reference.xml:308(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 6"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 6"
+
+#: src/key-reference.xml:310(para)
+msgid "Open recent image #6"
+msgstr ""
+"തുറക്കുക സമീപകാല ചിത്രം # 6"
+
+#: src/key-reference.xml:314(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 7"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 7"
+
+#: src/key-reference.xml:316(para)
+msgid "Open recent image #7"
+msgstr ""
+"തുറക്കുക സമീപകാല ചിത്രം # 7"
+
+#: src/key-reference.xml:320(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 8"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 8"
+
+#: src/key-reference.xml:322(para)
+msgid "Open recent image #8"
+msgstr ""
+"തുറക്കുക സമീപകാല ചിത്രം # 8"
+
+#: src/key-reference.xml:326(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 9"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 9"
+
+#: src/key-reference.xml:328(para)
+msgid "Open recent image #9"
+msgstr ""
+"തുറക്കുക സമീപകാല ചിത്രം # 9"
+
+#: src/key-reference.xml:332(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 0"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 0"
+
+#: src/key-reference.xml:334(para)
+msgid "Open recent image #10"
+msgstr ""
+"തുറക്കുക സമീപകാല ചിത്രം # 10"
+
+#: src/key-reference.xml:338(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + S"
+msgstr ""
+"<keycap function=\"control\">Ctrl</keycap> + S,"
+
+#: src/key-reference.xml:340(para)
+msgid "Save image"
+msgstr ""
+"ചിത്രം സൂക്ഷിക്കുക"
+
+#: src/key-reference.xml:344(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + S"
+msgstr ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control \">C"
+"trl</keycap> + S എന്ന"
+
+#: src/key-reference.xml:349(para)
+msgid "Save under a new name"
+msgstr ""
+"ഒരു പേരില് സംരക്ഷിക്കുക"
+
+#: src/key-reference.xml:353(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + Q"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + Q"
+
+#: src/key-reference.xml:355(para)
+msgid "Quit"
+msgstr ""
+"ക്വിറ്റ്"
+
+#: src/key-reference.xml:369(refpurpose)
+msgid "Key reference for <guimenuitem>Dockable Dialogs</guimenuitem> submenu"
+msgstr ""
+"<guimenuitem>Dockable Dialogs</guimenuitem> ഉപമെനുവുണ്ട് കീ റഫറൻസ്"
+
+#: src/key-reference.xml:374(title)
+msgid "Dockable Dialogs"
+msgstr ""
+"Dockable ഡയലോഗുകൾ"
+
+#: src/key-reference.xml:377(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + L"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + L"
+
+#: src/key-reference.xml:379(para) src/key-reference.xml:840(title)
+msgid "Layers"
+msgstr ""
+"പാളികൾ"
+
+#: src/key-reference.xml:383(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + B"
+msgstr ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + B"
+
+#: src/key-reference.xml:388(para)
+msgid "Brushes"
+msgstr ""
+"നയപ്രഖ്യാപന"
+
+#: src/key-reference.xml:392(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + P"
+msgstr ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + P"
+
+#: src/key-reference.xml:397(para)
+msgid "Patterns"
+msgstr ""
+"പാറ്റേണുകൾ"
+
+#: src/key-reference.xml:401(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + G"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + G"
+
+#: src/key-reference.xml:403(para)
+msgid "Gradients"
+msgstr ""
+"ഘനമായ"
+
+#: src/key-reference.xml:443(para)
+msgid ""
+"These open a new dialog window if it isn't open yet, otherwise the "
+"corresponding dialog gets focus."
+msgstr ""
+"ഈ മറ്റുതരത്തിൽ പൊരുത്തപ്പെടുന്ന ഡയലോഗ് ഫോക്കസ് ലഭിക്കുന്നു, ഇതുവരെ തുറക്"
+"കില്ല ഒരു പുതിയ ഡയലോഗ് വിൻഡോ തുറക്കുക."
+
+#: src/key-reference.xml:449(title)
+msgid "Within a Dialog"
+msgstr ""
+"ഒരു സംഭാഷണം രീതിയിൽ"
+
+#: src/key-reference.xml:451(term)
+msgid ""
+"<keycap function=\"alt\">Alt</keycap> + F4, <keycap function=\"control"
+"\">Ctrl</keycap> + W"
+msgstr ""
+"<keycap function=\"alt\">Alt</keycap> + F4, <keycap function=\"control"
+"\">Ctrl</keycap> + W"
+
+#: src/key-reference.xml:456(para)
+msgid "Close the window"
+msgstr ""
+"ജനല് അടക്കുക"
+
+#: src/key-reference.xml:460(term)
+msgid "Tab"
+msgstr ""
+"ടാബ്"
+
+#: src/key-reference.xml:462(para)
+msgid "Jump to next widget"
+msgstr ""
+"അടുത്ത വിജറ്റിലേക്ക് മാറുക"
+
+#: src/key-reference.xml:466(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + Tab"
+msgstr ""
+"<keycap function=\"shift\">Shift</keycap> + Tab,"
+
+#: src/key-reference.xml:470(para)
+msgid "Jump to previous widget"
+msgstr ""
+"മുമ്പത്തെ വിജറ്റിലേക്ക് മാറുക"
+
+#: src/key-reference.xml:474(term)
+msgid "Enter"
+msgstr ""
+"നൽകുക"
+
+#: src/key-reference.xml:476(para)
+msgid "Set the new value"
+msgstr ""
+"പുതിയ മൂല്യം സജ്ജമാക്കുക"
+
+#: src/key-reference.xml:480(term)
+msgid "Space, Enter"
+msgstr ""
+"സ്പെയ്സ്, എന്റർ"
+
+#: src/key-reference.xml:484(para)
+msgid "Activate current button or list"
+msgstr ""
+"നിലവിലെ ബട്ടൺ അല്ലെങ്കിൽ ലിസ്റ്റ് സജീവമാക്കുക"
+
+#: src/key-reference.xml:488(term)
+msgid ""
+"<keycap function=\"control\">Ctrl</keycap> + <keycap function=\"alt\">Alt</"
+"keycap> + PgUp <keycap function=\"control\">Ctrl</keycap> + <keycap function="
+"\"alt\">Alt</keycap> + PgDn"
+msgstr ""
+"<keycap function=\"control\">Ctrl</keycap> + <keycap function=\"alt\">Alt</"
+"keycap> + PgUp <keycap function=\"control\">Ctrl</keycap> + <keycap function="
+"\"alt\">Alt</keycap> + PgDn"
+
+#: src/key-reference.xml:495(para)
+msgid "In a multi-tab dialog, switch tabs"
+msgstr ""
+"ഒരു മൾട്ടി-ടാബ് ഡയലോഗിൽ, ടാബുകൾ മാറാൻ"
+
+#: src/key-reference.xml:500(para)
+msgid ""
+"This accepts the new value you typed in a text field and returns focus to "
+"canvas."
+msgstr ""
+"ഇത് നിങ്ങൾ ഒരു ടെക്സ്റ്റ് ഫീൽഡിൽ ടൈപ്പ് ചെയ്ത പുതിയ മൂല്യം സ്വീകരിക്കുകയും "
+"റിട്ടേൺ ക്യാൻവാസ് ഫോക്കസ്."
+
+#: src/key-reference.xml:506(title)
+msgid "Within a File Dialog"
+msgstr ""
+"ഒരു ഫയൽ ഡയലോഗ് രീതിയിൽ"
+
+#: src/key-reference.xml:508(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + L"
+msgstr "<keycap function=\"shift\">Shift</keycap> + L"
+
+#: src/key-reference.xml:510(para)
+msgid "Open Location"
+msgstr ""
+"സ്ഥാനം തുറക്കുക"
+
+#: src/key-reference.xml:514(term)
+msgid "<keycap function=\"alt\">Alt</keycap> + Up"
+msgstr "<keycap function=\"alt\">Alt</keycap> + Up"
+
+#: src/key-reference.xml:518(para)
+msgid "Up-Folder"
+msgstr ""
+"മുകളിലേക്ക്-ഫോൾഡർ"
+
+#: src/key-reference.xml:522(term)
+msgid "<keycap function=\"alt\">Alt</keycap> + Down"
+msgstr ""
+"<keycap function=\"alt\">Alt</keycap> + താഴേക്കുള്ള"
+
+#: src/key-reference.xml:524(para)
+msgid "Down-Folder"
+msgstr ""
+"ഡൗൺ-ഫോൾഡർ"
+
+#: src/key-reference.xml:528(term)
+msgid "<keycap function=\"alt\">Alt</keycap> + Home"
+msgstr ""
+"<keycap function=\"alt\">Alt</keycap> + ഹോം"
+
+#: src/key-reference.xml:530(para)
+msgid "Home-Folder"
+msgstr ""
+"ഹോം-ഫോൾഡർ"
+
+#: src/key-reference.xml:534(term)
+msgid "Esc"
+msgstr ""
+"ഇഎസ്സി"
+
+#: src/key-reference.xml:536(para)
+msgid "Close Dialog"
+msgstr ""
+"ഡയലോഗ് അടയ്ക്കുക"
+
+#: src/key-reference.xml:544(refentrytitle) src/key-reference.xml:547(refname)
+#: src/key-reference.xml:553(title)
+msgid "View"
+msgstr ""
+"കാണുക"
+
+#: src/key-reference.xml:548(refpurpose)
+msgid "Key reference for <guimenuitem>View</guimenuitem> menu"
+msgstr ""
+"<guimenuitem>View</guimenuitem> മെനു കീ റഫറൻസ്"
+
+#: src/key-reference.xml:555(title)
+msgid "Window"
+msgstr ""
+"ജാലകം"
+
+#: src/key-reference.xml:557(term)
+msgid "F10"
+msgstr "F10"
+
+#: src/key-reference.xml:559(para)
+msgid "Main Menu"
+msgstr ""
+"മെയിൻ മെനു"
+
+#: src/key-reference.xml:563(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + F10, right click"
+msgstr ""
+"<keycap function=\"shift\">Shift</keycap> + F10, വലത് ക്ലിക്കിൽ"
+
+#: src/key-reference.xml:567(para)
+msgid "Drop-down Menu"
+msgstr ""
+"ഡ്രോപ്പ് ഡൗൺ മെനു"
+
+#: src/key-reference.xml:571(term)
+msgid "F11"
+msgstr "F11"
+
+#: src/key-reference.xml:573(para)
+msgid "Toggle fullscreen"
+msgstr ""
+"സ്ക്രീൻ ടോഗിൾ"
+
+#: src/key-reference.xml:577(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + Q"
+msgstr "<keycap function=\"shift\">Shift</keycap> + Q"
+
+#: src/key-reference.xml:579(para)
+msgid "Toggle quickmask"
+msgstr ""
+"ടോഗിൾ quickmask"
+
+#: src/key-reference.xml:583(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + W"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + W"
+
+#: src/key-reference.xml:585(para)
+msgid "Close document window"
+msgstr ""
+"അടയ്ക്കുക ഡോക്യുമെന്റ് ജാലകം"
+
+#: src/key-reference.xml:590(para)
+msgid ""
+"Menus can also be activated by <keycap>Alt</keycap> with the letter "
+"underscored in the menu name."
+msgstr ""
+"മെനുകൾ പുറമേ മെനു നാമത്തിൽ underscored എഴുത്തുമായി <keycap>Alt</keycap> സജീ"
+"വമാക്കാം."
+
+#: src/key-reference.xml:596(title)
+msgid "Zoom"
+msgstr ""
+"സൂം"
+
+#: src/key-reference.xml:598(term)
+msgid "+"
+msgstr "+"
+
+#: src/key-reference.xml:600(para) src/key-reference.xml:990(para)
+msgid "Zoom in"
+msgstr ""
+"വലുതാക്കുക"
+
+#: src/key-reference.xml:604(term)
+msgid "-"
+msgstr "-"
+
+#: src/key-reference.xml:606(para) src/key-reference.xml:996(para)
+msgid "Zoom out"
+msgstr ""
+"സൂം ഔട്ട്"
+
+#: src/key-reference.xml:610(term)
+msgid "1"
+msgstr "1"
+
+#: src/key-reference.xml:612(para)
+msgid "Zoom 1:1"
+msgstr ""
+"സൂം 1: 1"
+
+#: src/key-reference.xml:616(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + E"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + E"
+
+#: src/key-reference.xml:618(para)
+msgid "Shrink wrap"
+msgstr ""
+"റാപ് ചുരുക്കുക"
+
+#: src/key-reference.xml:641(para)
+msgid "This fits the window to the image size."
+msgstr ""
+"ഈ ചിത്രത്തിന്റെ വലുപ്പം വിൻഡോ അനുയോജ്യമാകും."
+
+#: src/key-reference.xml:680(title)
+msgid "Rulers and Guides"
+msgstr ""
+"ഭരണാധികാരികൾ വഴികാട്ടി"
+
+#: src/key-reference.xml:682(term) src/key-reference.xml:1000(term)
+msgid "mouse drag"
+msgstr ""
+"മൌസ് ഡ്രാഗ്"
+
+#: src/key-reference.xml:684(para)
+msgid "Drag off a ruler to create guide"
+msgstr ""
+"ഗൈഡ് സൃഷ്ടിക്കാൻ ഒരു പ്രമാണി ഓഫ് വലിച്ചിടുക"
+
+#: src/key-reference.xml:688(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + mouse drag"
+msgstr ""
+"<keycap function=\"control\">Ctrl</keycap> + മൌസ് ഡ്രാഗ്"
+
+#: src/key-reference.xml:690(para)
+msgid "Drag a sample point out of the rulers"
+msgstr ""
+"ഭരണാധികാരികൾ നിന്നു ഒരു സാമ്പിൾ പോയിന്റ് വലിച്ചിടുക"
+
+#: src/key-reference.xml:694(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + R"
+msgstr ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + R"
+
+#: src/key-reference.xml:699(para)
+msgid "Toggle rulers"
+msgstr ""
+"ഭരണാധികാരികൾ ടോഗിൾ"
+
+#: src/key-reference.xml:703(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + T"
+msgstr ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control \">C"
+"trl</keycap> + T-"
+
+#: src/key-reference.xml:708(para)
+msgid "Toggle guides"
+msgstr ""
+"ടോഗിൾ ഗൈഡുകൾ"
+
+#: src/key-reference.xml:713(para)
+msgid ""
+"Drag off the horizontal or vertical ruler to create a new guideline. Drag a "
+"guideline off the image to delete it."
+msgstr ""
+"ഒരു പുതിയ മാർഗ്ഗനിർദ്ദേശം സൃഷ്ടിക്കാൻ തിരശ്ചീനമായി ലംബമായതോ ഭരണാധികാരി ഓഫ്"
+" വലിച്ചിടുക. ഇല്ലാതാക്കുന്നതിന് ചിത്രം പന്തിൽ മാർഗ്ഗനിർദ്ദേശം വലിച്ചിടുക."
+
+#: src/key-reference.xml:722(refentrytitle) src/key-reference.xml:725(refname)
+#: src/key-reference.xml:731(title)
+msgid "Edit"
+msgstr ""
+"തിരുത്തുക"
+
+#: src/key-reference.xml:726(refpurpose)
+msgid "Key reference for <guimenuitem>Edit</guimenuitem> menu"
+msgstr ""
+"<guimenuitem>Edit</guimenuitem> മെനു കീ റഫറൻസ്"
+
+#: src/key-reference.xml:733(title)
+msgid "Undo/redo"
+msgstr ""
+"പഴയപടിയാക്കുക / വീണ്ടും"
+
+#: src/key-reference.xml:735(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + Z"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + Z"
+
+#: src/key-reference.xml:737(para)
+msgid "Undo"
+msgstr ""
+"പഴയപടിയാക്കുക"
+
+#: src/key-reference.xml:741(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + Y"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + Y"
+
+#: src/key-reference.xml:743(para)
+msgid "Redo"
+msgstr ""
+"തയ്യാറായ"
+
+#: src/key-reference.xml:748(title)
+msgid "Clipboard"
+msgstr ""
+"ക്ലിപ്ബോർഡ്"
+
+#: src/key-reference.xml:750(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + C"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + C"
+
+#: src/key-reference.xml:752(para)
+msgid "Copy selection"
+msgstr ""
+"നിരക്കു പകർത്തുക"
+
+#: src/key-reference.xml:756(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + X"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + X"
+
+#: src/key-reference.xml:758(para)
+msgid "Cut selection"
+msgstr ""
+"മുറിക്കുക നിരക്കു"
+
+#: src/key-reference.xml:762(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + V"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + V"
+
+#: src/key-reference.xml:764(para)
+msgid "Paste clipboard"
+msgstr ""
+"ഒട്ടിക്കുക ക്ലിപ്ബോർഡ്"
+
+#: src/key-reference.xml:769(keycap)
+msgid "Del"
+msgstr ""
+"The"
+
+#: src/key-reference.xml:772(para)
+msgid "Erase selection"
+msgstr ""
+"നിരക്കു മായ്ക്കുക"
+
+#: src/key-reference.xml:776(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + C"
+msgstr ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control \">C"
+"trl</keycap> തോന്നുകയാണെങ്കില്"
+
+#: src/key-reference.xml:781(para)
+msgid "Named copy selection"
+msgstr ""
+"നാമകരണം ചെയ്ത പകർപ്പ് നിരക്കു"
+
+#: src/key-reference.xml:785(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + X"
+msgstr ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + X"
+
+#: src/key-reference.xml:790(para)
+msgid "Named cut selection"
+msgstr ""
+"നാമകരണം ചെയ്ത കട്ട് നിരക്കു"
+
+#: src/key-reference.xml:794(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + V"
+msgstr ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + V"
+
+#: src/key-reference.xml:799(para)
+msgid "Named paste clipboard"
+msgstr ""
+"നാമകരണം ചെയ്ത പേസ്റ്റ് ക്ലിപ്ബോർഡ്"
+
+#: src/key-reference.xml:804(para)
+msgid "This puts a copy of the selection on the GIMP clipboard."
+msgstr ""
+"ഈ ജിമ്പ് ക്ലിപ്പ്ബോർഡിലെ നിരക്കു ഒരു പകർപ്പ് ഇടുന്നു."
+
+#: src/key-reference.xml:807(title)
+msgid "Fill"
+msgstr ""
+"നിറയ്ക്കുക"
+
+#: src/key-reference.xml:809(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + ,"
+msgstr ""
+"<keycap function=\"control\">Ctrl</keycap> +"
+
+#: src/key-reference.xml:811(para)
+msgid "Fill with FG Color"
+msgstr ""
+"FG കളർ നിറക്കുക"
+
+#: src/key-reference.xml:815(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + ."
+msgstr ""
+"<keycap function=\"control\">Ctrl</keycap> +."
+
+#: src/key-reference.xml:817(para)
+msgid "Fill with BG Color"
+msgstr ""
+"ബി.ജി. കളർ നിറക്കുക"
+
+#: src/key-reference.xml:821(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + ;"
+msgstr ""
+"<keycap function=\"control\">Ctrl</keycap> +;"
+
+#: src/key-reference.xml:823(para)
+msgid "Fill with Pattern"
+msgstr ""
+"ശ്രേണി നിറക്കുക"
+
+#: src/key-reference.xml:831(refentrytitle) src/key-reference.xml:834(refname)
+msgid "Layer"
+msgstr ""
+"ലെയർ"
+
+#: src/key-reference.xml:835(refpurpose)
+msgid "Key reference for <guimenuitem>Layer</guimenuitem> menu"
+msgstr ""
+"<guimenuitem>Layer</guimenuitem> മെനു കീ റഫറൻസ്"
+
+#: src/key-reference.xml:843(term)
+msgid "PgUp, <keycap function=\"control\">Ctrl</keycap> + Tab"
+msgstr ""
+"PgUp, <keycap function=\"control\">Ctrl</keycap> + ടാബ്"
+
+#: src/key-reference.xml:845(para)
+msgid "Select the layer above"
+msgstr ""
+"മുകളിൽ പാളി തിരഞ്ഞെടുക്കുക"
+
+#: src/key-reference.xml:849(term)
+msgid ""
+"PgDn, <keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + Tab"
+msgstr ""
+"PgDn, <keycap function=\"shift\">Shift</keycap> + <keycap function=\"contro"
+"l \">Ctrl</keycap> + ടാബ്"
+
+#: src/key-reference.xml:855(para)
+msgid "Select the layer below"
+msgstr ""
+"താഴെ പാളി തിരഞ്ഞെടുക്കുക"
+
+#: src/key-reference.xml:859(term)
+msgid "Home"
+msgstr ""
+"വീട്"
+
+#: src/key-reference.xml:861(para)
+msgid "Select the first layer"
+msgstr ""
+"ആദ്യ പാളി തിരഞ്ഞെടുക്കുക"
+
+#: src/key-reference.xml:865(term)
+msgid "End"
+msgstr ""
+"അവസാനിക്കുന്നു"
+
+#: src/key-reference.xml:867(para)
+msgid "Select the last layer"
+msgstr ""
+"കഴിഞ്ഞ പാളി തിരഞ്ഞെടുക്കുക"
+
+#: src/key-reference.xml:871(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + M"
+msgstr ""
+"<keycap function=\"control\">Ctrl</keycap> + M എന്ന"
+
+#: src/key-reference.xml:873(para)
+msgid "Merge visible layers"
+msgstr ""
+"കാണാവുന്ന പാളികൾ ലയിപ്പിക്കുക"
+
+#: src/key-reference.xml:877(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + H"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + H"
+
+#: src/key-reference.xml:879(para)
+msgid "Anchor layer"
+msgstr ""
+"ആങ്കർ പാളി"
+
+#: src/key-reference.xml:887(refentrytitle) src/key-reference.xml:890(refname)
+msgid "Select"
+msgstr ""
+"തെരഞ്ഞെടുക്കുക"
+
+#: src/key-reference.xml:891(refpurpose)
+msgid "Key reference for <guimenuitem>Select</guimenuitem> menu"
+msgstr ""
+"<guimenuitem>Select</guimenuitem> മെനു കീ റഫറൻസ്"
+
+#: src/key-reference.xml:896(title)
+msgid "Selections"
+msgstr ""
+"തിരഞ്ഞെടുപ്പുകൾ"
+
+#: src/key-reference.xml:899(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + T"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + T"
+
+#: src/key-reference.xml:901(para)
+msgid "Toggle selections"
+msgstr ""
+"തിരഞ്ഞെടുക്കലുകൾ ടോഗിൾ"
+
+#: src/key-reference.xml:905(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + A"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + A"
+
+#: src/key-reference.xml:907(para)
+msgid "Select all"
+msgstr ""
+"എല്ലാം തിരഞ്ഞെടുക്കുക"
+
+#: src/key-reference.xml:911(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + A"
+msgstr ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + A"
+
+#: src/key-reference.xml:916(para)
+msgid "Select none"
+msgstr ""
+"ഒന്നുമില്ല തിരഞ്ഞെടുക്കുക"
+
+#: src/key-reference.xml:920(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + I"
+msgstr ""
+"<keycap function=\"control\">Ctrl</keycap> ഞാൻ"
+
+#: src/key-reference.xml:922(para)
+msgid "Invert selection"
+msgstr ""
+"വിപരീതം തിരഞ്ഞെടുക്കുക"
+
+#: src/key-reference.xml:926(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + L"
+msgstr ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + L"
+
+#: src/key-reference.xml:931(para)
+msgid "Float selection"
+msgstr ""
+"ഫ്ലോട്ട് നിരക്കു"
+
+#: src/key-reference.xml:935(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + V"
+msgstr "<keycap function=\"shift\">Shift</keycap> + V"
+
+#: src/key-reference.xml:937(para)
+msgid "Path to selection"
+msgstr ""
+"നിരക്കു പാത"
+
+#: src/key-reference.xml:949(refpurpose)
+msgid "Key reference for <guimenuitem>Filters</guimenuitem> menu"
+msgstr ""
+"<guimenuitem>Filters</guimenuitem> മെനു കീ റഫറൻസ്"
+
+#: src/key-reference.xml:957(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + F"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + F"
+
+#: src/key-reference.xml:959(para)
+msgid "Repeat last filter"
+msgstr ""
+"അവസാന ഫിൽട്ടർ ആവർത്തിക്കുക"
+
+#: src/key-reference.xml:963(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + F"
+msgstr ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + F"
+
+#: src/key-reference.xml:968(para)
+msgid "Reshow last filter"
+msgstr ""
+"അവസാന ഫിൽട്ടർ Reshow"
+
+#: src/key-reference.xml:976(refentrytitle) src/key-reference.xml:979(refname)
+#: src/key-reference.xml:985(title)
+msgid "Zoom tool"
+msgstr ""
+"സൂം ഉപകരണം"
+
+#: src/key-reference.xml:980(refpurpose)
+msgid "Key reference for the <guimenuitem>Zoom tool</guimenuitem> submenu"
+msgstr ""
+"<guimenuitem>Zoom tool</guimenuitem> ഉപമെനുവുണ്ട് വേണ്ടി കീ റഫറൻസ്"
+
+#: src/key-reference.xml:988(term)
+msgid "click"
+msgstr ""
+"ക്ലിക്കിൽ"
+
+#: src/key-reference.xml:994(term)
+msgid "<keycap function=\"shift\">Ctrl</keycap> + click"
+msgstr ""
+"<keycap function=\"shift\">Ctrl</keycap> + ക്ലിക്കിൽ"
+
+#: src/key-reference.xml:1002(para)
+msgid "Zoom into the area"
+msgstr ""
+"പ്രദേശത്ത് സൂം"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/key-reference.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"

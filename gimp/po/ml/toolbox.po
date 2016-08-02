@@ -1,0 +1,2852 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP-Help 2.8.0\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
+"PO-Revision-Date: 2012-06-01 12:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/color-picker.xml:39(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-eyedropper.png'; "
+"md5=96bd08878bd1a7c3d564bc0620df9daf"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-eyedropper.png'; "
+"md5=96bd08878bd1a7c3d564bc0620df9daf"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/color-picker.xml:139(None)
+msgid ""
+"@@image: 'images/toolbox/color-picker-options.png'; "
+"md5=3e6925f8895c972c889b65679f168232"
+msgstr ""
+"@@image: 'images/toolbox/color-picker-options.png'; "
+"md5=3e6925f8895c972c889b65679f168232"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/color-picker.xml:229(None)
+msgid ""
+"@@image: 'images/toolbox/color-picker-info.png'; "
+"md5=2b90e2cbaae378e7c88a82642c1d3b9c"
+msgstr ""
+"@@image: 'images/toolbox/color-picker-info.png'; "
+"md5=2b90e2cbaae378e7c88a82642c1d3b9c"
+
+#: src/toolbox/color-picker.xml:17(title)
+#: src/toolbox/color-picker.xml:21(secondary)
+#: src/toolbox/color-picker.xml:24(primary)
+msgid "Color Picker"
+msgstr ""
+"വർണ്ണം പിക്കർ"
+
+#: src/toolbox/color-picker.xml:20(primary)
+#: src/toolbox/other-tools.xml:15(primary) src/toolbox/text.xml:19(primary)
+#: src/toolbox/transform-tools.xml:11(primary)
+#: src/toolbox/gegl-operation.xml:11(primary)
+#: src/toolbox/measure.xml:18(primary) src/toolbox/path.xml:20(primary)
+#: src/toolbox/paint-tools.xml:18(primary) src/toolbox/zoom.xml:20(primary)
+msgid "Tools"
+msgstr ""
+"ഉപകരണങ്ങൾ"
+
+#: src/toolbox/color-picker.xml:27(primary)
+msgid "Eye Dropper"
+msgstr ""
+"ഐ Dropper"
+
+#: src/toolbox/color-picker.xml:30(primary) src/toolbox/text.xml:209(term)
+msgid "Color"
+msgstr ""
+"നിറം"
+
+#: src/toolbox/color-picker.xml:31(secondary)
+msgid "Grab color"
+msgstr ""
+"ഗ്രാബ് വർണ്ണം"
+
+#: src/toolbox/color-picker.xml:35(title)
+msgid "The Color Picker in the toolbox (eye dropper icon)"
+msgstr ""
+"പണിസഞ്ചിയിൽ കളർ പിക്കർ (കണ്ണ് dropper ഐക്കൺ)"
+
+#: src/toolbox/color-picker.xml:43(para)
+msgid ""
+"The Color Picker Tool is used to select a color on any image opened on your "
+"screen. By clicking a point on an image, you can change the active color to "
+"that which is located under the pointer. By default, the tool works on the "
+"active layer, but the <guilabel>Sample Merge</guilabel> option lets you grab "
+"the color as it is in the image, resulting of the combination of all layers. "
+"<emphasis>Only colors in visible layers are used</emphasis>. An "
+"<guilabel>Info window</guilabel> opens when you click on the image."
+msgstr ""
+"കളർ പിക്കർ ടൂൾ നിങ്ങളുടെ സ്ക്രീനിൽ തുറന്നു ഏതെങ്കിലും ഇമേജ് ഒരു നിറം തിരഞ്ഞ"
+"െടുക്കുന്നതിനായി ഉപയോഗിച്ച. ഒരു ചിത്രം ഒരു പോയിന്റ് ക്ലിക്കുചെയ്യുന്നതിലൂ"
+"ടെ, പോയിന്റർ കീഴിൽ സ്ഥിതിചെയ്യുന്നു കാര്യത്തിലേക്ക് സജീവ നിറം മാറ്റാൻ കഴിയ"
+"ും. സ്വതവേ, പ്രയോഗം സജീവ പാളി പ്രവർത്തിക്കുന്നു, എന്നാൽ <guilabel>Sample M"
+"erge</guilabel> ഐച്ഛികം എല്ലാ പാളികൾ കോമ്പിനേഷൻ തത്ഫലമായി, അതു സ്വരൂപത്തിൽ"
+" പോലെ നിറം പിടിച്ചെടുക്കാൻ അനുവദിക്കുന്നു. <emphasis>Only colors in visibl"
+"e layers are used</emphasis>. ഒരു <guilabel>Info window</guilabel> ചിത്രത്ത"
+"ിൽ ക്ലിക്ക് തുറക്കുന്നു."
+
+#: src/toolbox/color-picker.xml:55(title) src/toolbox/text.xml:66(title)
+#: src/toolbox/gegl-operation.xml:51(title) src/toolbox/measure.xml:81(title)
+#: src/toolbox/path.xml:48(title) src/toolbox/zoom.xml:47(title)
+msgid "Activating the Tool"
+msgstr ""
+"ടൂൾ സജീവമാക്കുന്നു"
+
+#: src/toolbox/color-picker.xml:56(para)
+msgid "You can get to this tool in several ways :"
+msgstr ""
+"നിങ്ങൾ നിരവധി മാർഗത്തിൽ ഈ ഉപകരണം പോകാനാകും:"
+
+#: src/toolbox/color-picker.xml:59(para)
+msgid ""
+"In the image menu through <menuchoice><guimenu>Tools</"
+"guimenu><guisubmenu>Color Picker.</guisubmenu></menuchoice>,"
+msgstr ""
+"<menuchoice><guimenu>Tools</guimenu><guisubmenu>Color Picker.</guisubmenu><"
+"/menuchoice> വഴി ഇമേജ് മെനുവിൽ,"
+
+#: src/toolbox/color-picker.xml:68(para)
+msgid ""
+"by clicking the tool icon <guiicon><inlinegraphic fileref=\"images/toolbox/"
+"stock-tool-color-picker-22.png\"/></guiicon> in Toolbox,"
+msgstr ""
+"പണിസഞ്ചിയിൽ റ്റൂൾ <guiicon><inlinegraphic fileref=\"images/toolbox/ stock-t"
+"ool-color-picker-22.png\" /></guiicon> ക്ലിക്കുചെയ്ത്,"
+
+#: src/toolbox/color-picker.xml:77(para)
+msgid "by pressing the <keycap>O</keycap> keyboard shortcut,"
+msgstr ""
+"<keycap>O</keycap> കീബോർഡ് കുറുക്കുവഴി അമർത്തി,"
+
+#: src/toolbox/color-picker.xml:82(para)
+msgid ""
+"by pressing the <keycap>Ctrl</keycap> key while using a paint tool. The "
+"Color-picker dialog is not opened during this operation and the tool remains "
+"unchanged after releasing the key. Nevertheless, you can get information by "
+"using the <link linkend=\"gimp-pointer-info-dialog\">Pointer window</link>."
+msgstr ""
+"ഒരു പെയിന്റ് ഉപയോഗിക്കുമ്പോൾ <keycap>Ctrl</keycap> കീ അമർത്തി. വർണ്ണ-പിക്"
+"കർ ഡയലോഗ് ഈ പ്രവർത്തന വേളയിൽ തുറന്നു ചെയ്തിട്ടില്ലാത്തതിനാൽ ഉപകരണം കീ പ്രക"
+"ാശനം മാറ്റമില്ല. എങ്കിലും <link linkend=\"gimp-pointer-info-dialog\">Pointe"
+"r window</link> ഉപയോഗിച്ച് വിവരങ്ങൾ നേടാൻ കഴിയും."
+
+#: src/toolbox/color-picker.xml:94(title) src/toolbox/measure.xml:105(title)
+#: src/toolbox/path.xml:79(title) src/toolbox/zoom.xml:72(title)
+msgid "Key modifiers (Defaults)"
+msgstr ""
+"കീ മോഡിഫയറുകൾ (സ്ഥിരസ്ഥിതികളിലേക്ക്)"
+
+#: src/toolbox/color-picker.xml:97(keycap) src/toolbox/text.xml:479(keycap)
+#: src/toolbox/measure.xml:121(keycap) src/toolbox/measure.xml:153(keycap)
+#: src/toolbox/zoom.xml:75(keycap) src/toolbox/zoom.xml:87(keycap)
+msgid "Ctrl"
+msgstr ""
+"Ctrl,"
+
+#: src/toolbox/color-picker.xml:99(para)
+msgid ""
+"If the pick mode is set to <guilabel>Set foreground color</guilabel>, then "
+"pressing the <keycap>Ctrl</keycap> key switches the tool into the "
+"<guilabel>Set background color</guilabel> mode. If the pick mode is set to "
+"<guilabel>Set background color</guilabel> then the key switches the mode to "
+"<guilabel>Set foreground color</guilabel>. When the pick mode is "
+"<guilabel>Pick only</guilabel>, the key doesn't do anything."
+msgstr ""
+"തിരഞ്ഞെടുക്കാവുന്നതാണ് മോഡ് <guilabel>Set foreground color</guilabel> സജ്ജ"
+"മാക്കുമ്പോൾ ആണെങ്കിൽ, <keycap>Ctrl</keycap> കീ അമർത്തിയാൽ <guilabel>Set ba"
+"ckground color</guilabel> മോഡിലേക്ക് ഉപകരണം മാറുന്നു. തിരഞ്ഞെടുക്കാവുന്നതാ"
+"ണ് മോഡ് <guilabel>Set background color</guilabel> ലേക്ക് സജ്ജീകരിച്ച് കീ <"
+"guilabel>Set foreground color</guilabel> ലേക്ക് മോഡ് മാറുന്നു. തിരഞ്ഞെടുക്"
+"കാവുന്നതാണ് മോഡ് <guilabel>Pick only</guilabel> എപ്പോഴാണ്, കീ ഒന്നും ചെയ്"
+"യാൻ ഇല്ല."
+
+#: src/toolbox/color-picker.xml:112(keycap) src/toolbox/text.xml:480(keycap)
+#: src/toolbox/measure.xml:108(keycap) src/toolbox/path.xml:88(keycap)
+msgid "Shift"
+msgstr ""
+"മാറ്റം"
+
+#: src/toolbox/color-picker.xml:114(para)
+msgid ""
+"By pressing the <keycap>Shift</keycap> key, the <guilabel>Color Picker "
+"Information window</guilabel> is opened when you click on a pixel."
+msgstr ""
+"നിങ്ങൾ ഒരു പിക്സൽ ക്ലിക്ക് ചെയ്യുമ്പോൾ <keycap>Shift</keycap> കീ അമർത്തിയാ"
+"ൽ, <guilabel>Color Picker Information window</guilabel> തുറന്നു നോക്കും."
+
+#: src/toolbox/color-picker.xml:120(para)
+msgid ""
+"The <link linkend=\"gimp-pointer-info-dialog\">Pointer Information</link> "
+"gives you the same information permanently. But be warned, it defaults to "
+"<guilabel>Sample merged</guilabel>."
+msgstr ""
+"<link linkend=\"gimp-pointer-info-dialog\">Pointer Information</link> ശാശ്വ"
+"തമായി നിങ്ങൾ ഒരേ വിവരങ്ങൾ നൽകുന്നു. എന്നാൽ താക്കീത് അത് <guilabel>Sample me"
+"rged</guilabel> സ്ഥിര വേണം."
+
+#: src/toolbox/color-picker.xml:133(title) src/toolbox/text.xml:98(title)
+#: src/toolbox/gegl-operation.xml:70(title) src/toolbox/measure.xml:170(title)
+#: src/toolbox/path.xml:113(title) src/toolbox/zoom.xml:102(title)
+msgid "Options"
+msgstr ""
+"ഓപ്ഷനുകൾ"
+
+#: src/toolbox/color-picker.xml:135(title)
+msgid "Color Picker Options"
+msgstr ""
+"കളർ പിക്കർ ഓപ്ഷനുകൾ"
+
+#: src/toolbox/color-picker.xml:148(term)
+msgid "Sample Merged"
+msgstr ""
+"സാമ്പിൾ ലയിപ്പിച്ചു"
+
+#: src/toolbox/color-picker.xml:150(para)
+msgid ""
+"The Sample Merged check-box when enabled will take color information as a "
+"composite from all the visible layers. Further information regarding Sample "
+"Merge is available in the glossary entry, <link linkend=\"glossary-"
+"samplemerge\">Sample Merge</link>."
+msgstr ""
+"സാമ്പിൾ ലയിച്ച ചെക്ക്-ബോക്സ് പ്രാപ്തമാക്കിയാൽ എല്ലാ ദൃശ്യമായ പാളികൾ നിന്നു"
+"ള്ള ഒരു പോലെ നിറം വിവരങ്ങൾ എടുക്കും. സാമ്പിൾ ലയനം സംബന്ധിച്ച കൂടുതൽ വിവരങ്"
+"ങൾക്ക് ഗ്ലോസ്സറി, <link linkend=\"glossary- samplemerge\">Sample Merge</li"
+"nk> ലഭ്യമാണ്."
+
+#: src/toolbox/color-picker.xml:160(term)
+msgid "Sample Average"
+msgstr ""
+"സാമ്പിൾ ശരാശരി"
+
+#: src/toolbox/color-picker.xml:162(para)
+msgid ""
+"The <guilabel>Radius</guilabel> slider adjusts the size of the square area "
+"that is used to determine an average color for the final selection. When you "
+"keep clicking the layer, the mouse pointer shows the size of the square or "
+"radius."
+msgstr ""
+"<guilabel>Radius</guilabel> സ്ലൈഡർ തിരഞ്ഞെടുപ്പിനായി ഒരു ശരാശരി നിറം നിർണ്ണ"
+"യിക്കാൻ ഉപയോഗിക്കുന്ന സ്ക്വയർ ഭാഗത്തിന്റെ വലിപ്പം മറക്കുക. നിങ്ങൾ പാളി ക്ല"
+"ിക്കുചെയ്ത് നിലനിർത്തുമ്പോൾ, മൌസ് പോയിന്റർ സ്ക്വയർ അല്ലെങ്കിൽ ആരം വലിപ്പ"
+"ം കാണിക്കുന്നു."
+
+#: src/toolbox/color-picker.xml:171(term)
+msgid "Pick Mode"
+msgstr ""
+"മോഡ് തിരഞ്ഞെടുക്കുക"
+
+#: src/toolbox/color-picker.xml:175(term)
+msgid "Pick Only"
+msgstr ""
+"മാത്രം തിരഞ്ഞെടുക്കുക"
+
+#: src/toolbox/color-picker.xml:177(para)
+msgid ""
+"The color of the selected pixel will be shown in an Information Dialog, but "
+"not otherwise used."
+msgstr ""
+"തിരഞ്ഞെടുത്ത പിക്സൽ നിറം ഇൻഫർമേഷൻ ഡയലോഗിൽ കാണിക്കും, എന്നാൽ മറ്റുതരത്തിൽ ഉ"
+"പയോഗിച്ചിട്ടില്ല."
+
+#: src/toolbox/color-picker.xml:184(term)
+msgid "Set Foreground Color"
+msgstr ""
+"ഫോർഗ്രൌണ്ട് കളർ സജ്ജമാക്കുക"
+
+#: src/toolbox/color-picker.xml:186(para)
+msgid ""
+"The Foreground color, as shown in the Toolbox Color Area, will be set to the "
+"color of the pixel you click on."
+msgstr ""
+"പുരോതലനിറം, പണിസഞ്ചി കളർ ഏരിയ കാണുന്നത് പോലെ നിങ്ങൾ ക്ലിക്ക് പിക്സൽ നിറം "
+"ലേക്ക് സജ്ജമാക്കും."
+
+#: src/toolbox/color-picker.xml:194(term)
+msgid "Set Background Color"
+msgstr ""
+"പശ്ചാത്തല വർണ്ണം സജ്ജമാക്കുക"
+
+#: src/toolbox/color-picker.xml:196(para)
+msgid ""
+"The Background color, as shown in the Toolbox Color Area, will be set to the "
+"color of the pixel you click on."
+msgstr ""
+"പശ്ചാത്തല നിറം, പണിസഞ്ചി കളർ ഏരിയ കാണുന്നത് പോലെ നിങ്ങൾ ക്ലിക്ക് പിക്സൽ നി"
+"റം ലേക്ക് സജ്ജമാക്കും."
+
+#: src/toolbox/color-picker.xml:204(term)
+msgid "Add to Palette"
+msgstr ""
+"പാലറ്റിൽ ചേർക്കുക"
+
+#: src/toolbox/color-picker.xml:206(para)
+msgid ""
+"When this option box is checked, the picked color is sent to the active "
+"color palette. See <link linkend=\"gimp-palette-editor-dialog\">Palette "
+"Editor</link>."
+msgstr ""
+"ഈ ഓപ്ഷൻ ബോക്സ് ശരിയടയാളമിട്ടാൽ വീഴ്ത്തി നിറം സജീവ വർണ്ണ പാലറ്റ് അയച്ചു. <l"
+"ink linkend=\"gimp-palette-editor-dialog\">Palette Editor</link> കാണുക."
+
+#: src/toolbox/color-picker.xml:217(term)
+msgid "Use info window"
+msgstr ""
+"വിവര ജാലകം ഉപയോഗിക്കുക"
+
+#: src/toolbox/color-picker.xml:219(para)
+msgid ""
+"When this option is checked, the information window is opened automatically. "
+"The <keycap>Shift</keycap> key allows you to toggle this possibility "
+"temporarily."
+msgstr ""
+"ഈ ഓപ്ഷൻ എപ്പോഴാണ് ചെക്കുചെയ്തിട്ടുണ്ടെന്നും, വിവരം വിൻഡോ സ്വയം തുറന്നു നേ"
+"ാക്കും. <keycap>Shift</keycap> കീ താൽക്കാലികമായി ഈ സാധ്യത ടോഗിൾ അനുവദിക്കു"
+"ന്നു."
+
+#: src/toolbox/color-picker.xml:225(title)
+msgid "Color Picker Info Window"
+msgstr ""
+"കളർ പിക്കർ വിവര ജാലകം"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/intro.xml:85(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-icons.png'; "
+"md5=1bc248506e2c8dd3f4c7f37443f9db6c"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-icons.png'; "
+"md5=1bc248506e2c8dd3f4c7f37443f9db6c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/intro.xml:146(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-tool-options.png'; "
+"md5=08f80c11928af0e021f60a88c145e21b"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-tool-options.png'; "
+"md5=08f80c11928af0e021f60a88c145e21b"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/intro.xml:195(None)
+msgid ""
+"@@image: 'images/toolbox/reg-button.png'; "
+"md5=3b2e851ee916cd9c112335cada603267"
+msgstr ""
+"@@image: 'images/toolbox/reg-button.png'; "
+"md5=3b2e851ee916cd9c112335cada603267"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/intro.xml:218(None)
+msgid ""
+"@@image: 'images/toolbox/resto-button.png'; "
+"md5=54142c39d63f6e1f288fe1eb89d2d10e"
+msgstr ""
+"@@image: 'images/toolbox/resto-button.png'; "
+"md5=54142c39d63f6e1f288fe1eb89d2d10e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/intro.xml:240(None)
+msgid ""
+"@@image: 'images/toolbox/del-button.png'; "
+"md5=8db00466e998bf761e611d3f204493b4"
+msgstr ""
+"@@image: 'images/toolbox/del-button.png'; "
+"md5=8db00466e998bf761e611d3f204493b4"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/intro.xml:261(None)
+msgid ""
+"@@image: 'images/toolbox/reset-button.png'; "
+"md5=b18d9dff17538b5effdbe13c2148b75c"
+msgstr ""
+"@@image: 'images/toolbox/reset-button.png'; "
+"md5=b18d9dff17538b5effdbe13c2148b75c"
+
+#: src/toolbox/intro.xml:10(title)
+msgid "The Toolbox"
+msgstr ""
+"പണിസഞ്ചി"
+
+#: src/toolbox/intro.xml:13(primary)
+#: src/toolbox/toolbox-color-area.xml:30(primary)
+#: src/toolbox/toolbox-color-area.xml:97(primary)
+#: src/toolbox/toolbox-color-area.xml:133(primary)
+#: src/toolbox/paint-tools.xml:22(primary)
+msgid "Toolbox"
+msgstr ""
+"പണിസഞ്ചി"
+
+#: src/toolbox/intro.xml:17(title)
+msgid "Introduction"
+msgstr ""
+"അവതാരിക"
+
+#: src/toolbox/intro.xml:19(para)
+msgid ""
+"<acronym>GIMP</acronym> provides a comprehensive toolbox in order to quickly "
+"perform basic tasks such as making selections or drawing paths. The many "
+"tools contained within <acronym>GIMP</acronym>'s toolbox are discussed in "
+"detail here."
+msgstr ""
+"<acronym>GIMP</acronym> വേഗത്തിൽ പോലുള്ള തിരഞ്ഞെടുക്കൽ നടത്തുന്നതിലൂടെ അല്"
+"ലെങ്കിൽ പാതയിൽ ഡ്രോയിംഗ് അടിസ്ഥാന വേറേ വേണ്ടി ഒരു സമഗ്രമായ പണിസഞ്ചി നൽകുന്"
+"നു. <acronym>GIMP</acronym> ന്റെ ഉപകരണബോക്സിലേക്ക് അടങ്ങിയിരിക്കുന്ന അനേകം"
+" ഉപകരണങ്ങൾ ഇവിടെ വിശദമായി ചർച്ച ചെയ്യുന്നുണ്ട്."
+
+#: src/toolbox/intro.xml:25(para)
+msgid ""
+"(In case you're curious, in <acronym>GIMP</acronym> lingo a \"tool\" is a "
+"way of acting on an image that requires access to its display, either to let "
+"you indicate what you want to do by moving the pointer around inside the "
+"display, or to show you interactively the results of changes that you have "
+"made. But if you want to think of a tool as a saw, and an image as a piece "
+"of wood, it probably won't do you a great deal of harm.)"
+msgstr ""
+"(, നിങ്ങൾ ജിജ്ഞാസുവാണെങ്കിൽ കേസിൽ <acronym>GIMP</acronym> ലെ പോവാം ഒരു \"ട"
+"ൂൾ\" ഡിസ്പ്ലേ ആക്സസ് ആവശ്യമാണ് എന്ന് ഒരു ഇമേജിൽ അഭിനയം ഒരു മാർഗമാണ്, ഒന്നുക"
+"ിൽ നിങ്ങൾ ഡിസ്പ്ലേ അകത്ത് ചുറ്റും പോയിന്റർ നീക്കി എന്തു ചെയ്യണമെന്ന് സൂചിപ"
+"്പിക്കുന്നു അനുവദിക്കുന്നതിന്, അല്ലെങ്കിൽ ഇന്ററാക്ടീവ് നിങ്ങൾ നടത്തിയ മാറ്റ"
+"ങ്ങൾ ഫലങ്ങൾ നിങ്ങളെ കാണിക്കാൻ. എന്നാൽ ഒരു കണ്ടതുപോലെ ഒരു ഉപകരണം ചിന്തിക്കു"
+"ന്നത് ചെയ്യണമെങ്കിൽ, മരം ഒരു കഷണം പോലെ ഒരു ഇമേജ്, അതു ഒരുപക്ഷേ നിങ്ങൾക്ക് "
+"ഉപദ്രവം ഒരു വലിയ ചെയ്യില്ല.)"
+
+#: src/toolbox/intro.xml:34(para)
+msgid ""
+"See <link linkend=\"gimp-concepts-toolbox\">Main Windows: The Toolbox</link> "
+"for an overview of the toolbox and its components."
+msgstr ""
+"ടൂൾബോക്സ് അതിന്റെ ഘടകങ്ങളും ഒരു അവലോകനം വേണ്ടി <link linkend=\"gimp-conce"
+"pts-toolbox\">Main Windows: The Toolbox</link> കാണുക."
+
+#: src/toolbox/intro.xml:39(para)
+msgid ""
+"<acronym>GIMP</acronym> has a diverse assortment of tools that let you "
+"perform a large variety of tasks. The tools can be thought of as falling "
+"into five categories:"
+msgstr ""
+"<acronym>GIMP</acronym> നിങ്ങൾ ചുമതലകൾ ഒരു വലിയ മുറികൾ നടപ്പിലാക്കുന്നതിനുള"
+"്ള അനുവദിക്കുന്ന ഉപകരണങ്ങൾ വൈവിധ്യമാർന്ന പാൻജനസിസ് ഉണ്ട്. ഉപകരണങ്ങൾ അഞ്ച് വ"
+"ിഭാഗമായി വീഴുന്ന കരുതിയിരുന്നത് കഴിയും:"
+
+#: src/toolbox/intro.xml:46(para)
+msgid ""
+"<emphasis>Selection tools</emphasis>, which specify or modify the portion of "
+"the image that will be affected by subsequent actions;"
+msgstr ""
+"വ്യക്തമാക്കുകയും അല്ലെങ്കിൽ പരിഷ്ക്കരിക്കുക തുടർന്നുള്ള പ്രവർത്തനങ്ങൾ ബാധിക"
+"്കും ആ ചിത്രം പങ്കു <emphasis>Selection tools</emphasis>;"
+
+#: src/toolbox/intro.xml:52(para)
+msgid ""
+"<emphasis>Paint tools</emphasis>, which alter the colors in some part of the "
+"image;"
+msgstr ""
+"<emphasis>Paint tools</emphasis>, ചിത്രത്തിന്റെ ചില ഭാഗത്ത് നിറങ്ങൾ മാറ്റംവ"
+"രുത്തിയോ ഏത്;"
+
+#: src/toolbox/intro.xml:58(para)
+msgid ""
+"<emphasis>Transform tools</emphasis>, which alter the geometry of the image;"
+msgstr ""
+"ചിത്രം ജ്യാമിതിയെ മാറ്റംവരുത്തിയോ ഏത് <emphasis>Transform tools</emphasis>"
+";"
+
+#: src/toolbox/intro.xml:64(para)
+msgid ""
+"<emphasis>Color tools</emphasis>, which alter the distribution of colors "
+"across the entire image;"
+msgstr ""
+"ചിത്രം മുഴുവനായും ഉടനീളം നിറങ്ങൾ വിതരണം മാറ്റംവരുത്തിയോ ഏത് <emphasis>Colo"
+"r tools</emphasis>;"
+
+#: src/toolbox/intro.xml:70(para)
+msgid ""
+"<emphasis>Other tools</emphasis>, which don't fall into the other four "
+"categories."
+msgstr ""
+"<emphasis>Other tools</emphasis> മറ്റ് നാല് വിഭാഗങ്ങളായി വീഴും ചെയ്യാൻ ഏത്."
+
+#: src/toolbox/intro.xml:79(title)
+msgid "Tool Icons"
+msgstr ""
+"ടൂൾ ഐക്കണുകൾ"
+
+#: src/toolbox/intro.xml:82(title)
+msgid "The Tool Icons in the Toolbox"
+msgstr ""
+"പണിസഞ്ചിയിൽ ടൂൾ ഐക്കണുകൾ"
+
+#: src/toolbox/intro.xml:89(para)
+msgid ""
+"Most tools can be activated by clicking on an icon in the Toolbox. By "
+"default, some tools are accessible only via the menus (namely the Color "
+"tools are accessible only either as <menuchoice><guimenu>Colors</guimenu></"
+"menuchoice> or as <menuchoice><guimenu>Tools</guimenu><guisubmenu>Colors</"
+"guisubmenu></menuchoice>). Every tool, in fact, can be activated from the "
+"<emphasis>Tools</emphasis> menu; also, every tool can be activated from the "
+"keyboard using an accelerator key."
+msgstr ""
+"ഏറ്റവും ഉപകരണങ്ങൾ പണിസഞ്ചി ഒരു ഐക്കണിൽ ക്ലിക്കുചെയ്ത് സജീവമാക്കാം. സ്വതവേ, "
+"ചില ഉപകരണങ്ങൾ മാത്രമേ മെനുകൾ (അതായത് കളർ ഉപകരണങ്ങൾ ഒന്നുകിൽ <menuchoice><gu"
+"imenu>Colors</guimenu></menuchoice> മാത്രം അല്ലെങ്കിൽ <menuchoice><guimenu>"
+"Tools</guimenu><guisubmenu>Colors</guisubmenu></menuchoice> ആയി ആക്സസ്സുചെയ"
+"്യാനാവുന്ന) വഴി കഴിയുന്നു. ഓരോ ഉപകരണം, വാസ്തവത്തിൽ, <emphasis>Tools</empha"
+"sis> മെനുവിൽ നിന്നും സജീവമാക്കാം; കൂടാതെ, ഓരോ ഉപകരണം ആക്സിലറേറ്റർ കീ ഉപയോ"
+"ഗിച്ച് കീബോർഡിൽ നിന്നും സജീവമാക്കാം."
+
+#: src/toolbox/intro.xml:105(para)
+msgid ""
+"In the default setup, created when <acronym>GIMP</acronym> is first "
+"installed, not all tools show icons in the Toolbox: the Color tools are "
+"omitted. You can customize the set of tools that are shown in the Toolbox "
+"through <menuchoice><guimenu>Edit</guimenu><guisubmenu>Preferences</"
+"guisubmenu><guimenuitem>Toolbox</guimenuitem></menuchoice>. There are two "
+"reasons you might want to do this: first, if you only rarely use a tool, it "
+"might be easier to find the tools you want if the distracting icon is "
+"removed; second, if you use the Color tools a lot, you might find it "
+"convenient to have icons for them easily available. In any case, regardless "
+"of the Toolbox, you can always access any tool at any time using the "
+"<guimenu>Tools</guimenu> menu from an image menubar."
+msgstr ""
+"സഹജമായി, <acronym>GIMP</acronym> ആദ്യം ഇൻസ്റ്റാൾ സൃഷ്ടിച്ചു ൽ, എല്ലാ ഉപകരണങ"
+"്ങൾ പണിസഞ്ചി ഐക്കണുകൾ കാണിക്കാൻ: കളർ ഉപകരണങ്ങൾ ഒഴിവാക്കിയിരിക്കുന്നു. നിങ്ങ"
+"ൾ <menuchoice><guimenu>Edit</guimenu><guisubmenu>Preferences</guisubmenu><g"
+"uimenuitem>Toolbox</guimenuitem></menuchoice> വഴി പണിസഞ്ചി കാണിച്ചിരിക്കുന്"
+"ന ഉപകരണങ്ങളുടെ കസ്റ്റമൈസ് ചെയ്യാം. ഇത് ചെയ്യാൻ താൽപ്പര്യപ്പെട്ടേക്കാവുന്ന ര"
+"ണ്ടു കാരണങ്ങൾ ഉണ്ട്: ആദ്യം, നിങ്ങൾ വിരളമായേ ഒരു ഉപകരണം ഉപയോഗിച്ച് എങ്കിൽ ല"
+"ളിതമാക്കി നിങ്ങൾ ആഗ്രഹിക്കുന്ന ഉപകരണങ്ങൾ കണ്ടെത്താൻ തെറ്റിദ്ധരിപ്പിക്കുന്നത"
+"ും ഐക്കൺ നീക്കം ആകേണ്ടതിന്നു; രണ്ടാമതായി, കളർ ഉപകരണങ്ങൾ ധാരാളം ഉപയോഗിക്കുക"
+"യാണെങ്കിൽ നിങ്ങൾക്ക് ഉള്ളിടത്തോളം എളുപ്പം ലഭ്യമായ അവർക്ക് ഐക്കണുകൾ ഞങ്ങൾക്"
+"കുണ്ട് കണ്ടെത്തിയേക്കാം. ഏതെങ്കിലും സാഹചര്യത്തിൽ, പരിഗണിക്കാതെ പണിസഞ്ചി, നി"
+"ങ്ങൾക്ക് എപ്പോഴും ഉപാധികളൊന്നും ഏത് സമയത്തും ഒരു ചിത്രം മെനുബാർ നിന്ന് <g"
+"uimenu>Tools</guimenu> മെനു ഉപയോഗിച്ച് ആക്സസ് ചെയ്യാൻ കഴിയും."
+
+#: src/toolbox/intro.xml:122(para)
+msgid ""
+"The shape of the cursor changes when it is inside an image, to one that "
+"indicates which tool is active (if in <guimenu>Preferences</guimenu> you "
+"have set <menuchoice><guimenu>Image Windows</guimenu><guisubmenu>Mouse "
+"Pointers</guisubmenu><guimenuitem>Pointer mode</"
+"guimenuitem><guimenuitem>Tool icon</guimenuitem></menuchoice>)."
+msgstr ""
+"കഴ്സർ ആകൃതി (എങ്കിൽ <guimenu>Preferences</guimenu> നിങ്ങളെ <menuchoice><gui"
+"menu>Image Windows</guimenu><guisubmenu>Mouse Pointers</guisubmenu><guimenu"
+"item>Pointer mode</guimenuitem><guimenuitem>Tool icon</guimenuitem></menuch"
+"oice> സജ്ജമാക്കി) സജീവമാണ് ഉപകരണം സൂചിപ്പിക്കുന്ന ഒന്നു ലേക്ക് അതു ഒരു ഇമേജ"
+"് അകത്ത് മാറ്റങ്ങൾ."
+
+#: src/toolbox/intro.xml:139(title)
+msgid "Tool Options"
+msgstr ""
+"ടൂൾ ഓപ്ഷനുകൾ"
+
+#: src/toolbox/intro.xml:142(title)
+msgid "Tool Options Dialog"
+msgstr ""
+"ടൂൾ ഓപ്ഷനുകൾ ഡയലോഗ്"
+
+#: src/toolbox/intro.xml:150(para)
+msgid "The Tool Options dialog of the Airbrush tool."
+msgstr ""
+"എയർബ്രഷ് ഉപകരണത്തിൻറെ ടൂൾ ഓപ്ഷനുകൾ ഡയലോഗ്."
+
+#: src/toolbox/intro.xml:156(para)
+msgid ""
+"If you have things set up like most people do, activating a tool causes its "
+"Tool Options dialog to appear below the Toolbox. If you don't have things "
+"set up this way, you probably should: it is very difficult to use tools "
+"effectively without being able to manipulate their options."
+msgstr ""
+"നിങ്ങൾ സജ്ജീകരിക്കാൻ അധികപേരും ചെയ്യാൻ പോലുള്ള കാര്യങ്ങൾ ഉണ്ടെങ്കിൽ, ഒരു ഉ"
+"പകരണം സജീവമാക്കുന്നു അതിന്റെ ടൂൾ ഓപ്ഷനുകൾ ഡയലോഗ് പണിസഞ്ചി താഴെ ദൃശ്യമാകാൻ "
+"കാരണമാകുന്നു. കാര്യങ്ങൾ സജ്ജീകരിക്കാൻ ഈ വഴി ഇല്ലെങ്കിൽ, നിങ്ങൾ ഒരുപക്ഷേ ഇതാ"
+"യിരിക്കണം: അതു വളരെ പ്രയാസമുള്ള അവരുടെ ഓപ്ഷനുകൾ കൃത്രിമം കഴിയാത്തതിൽ ഇല്ലാത"
+"െ ഫലപ്രദമായി ഉപകരണങ്ങൾ ഉപയോഗിക്കുക എന്നതാണ്."
+
+#: src/toolbox/intro.xml:163(para)
+msgid ""
+"The Tool Options appear beneath the Toolbox in the default setup. If you "
+"lose it somehow, you can get it back by creating a new Tool Options dialog "
+"using <menuchoice><guimenu>Windows</guimenu><guisubmenu>Dockable Dialogs</"
+"guisubmenu><guimenuitem>Tool Options</guimenuitem></menuchoice> and then "
+"docking it below the Toolbox. See the section on <link linkend=\"gimp-"
+"concepts-docks\">Dialogs and Docking</link> if you need help."
+msgstr ""
+"ടൂൾ ഓപ്ഷനുകൾ സഹജമായി ലെ പണിസഞ്ചി കീഴെ ദൃശ്യമാകും. നിങ്ങൾ ഏതെങ്കിലും തരത്തിൽ"
+" അതു നഷ്ടപ്പെട്ടാൽ, പണിസഞ്ചി താഴെ ഡോക്ക് പിന്നീട് <menuchoice><guimenu>Win"
+"dows</guimenu><guisubmenu>Dockable Dialogs</guisubmenu><guimenuitem>Tool Op"
+"tions</guimenuitem></menuchoice> ഉപയോഗിച്ച് ഒരു പുതിയ ടൂൾ ഓപ്ഷനുകൾ ഡയലോഗ്"
+" സൃഷ്ടിച്ചും വഴി തിരികെ ലഭിക്കും. നിങ്ങൾക്ക് സഹായം ആവശ്യമുണ്ടെങ്കിൽ <link l"
+"inkend=\"gimp- concepts-docks\">Dialogs and Docking</link> വിഭാഗം കാണുക."
+
+#: src/toolbox/intro.xml:177(para)
+msgid ""
+"Each tool has its own specific set of options. The choices you make for them "
+"are kept throughout the session, until you change them. In fact, the tool "
+"options are maintained from session to session. The persistence of tool "
+"options across sessions can sometimes be an annoying nuisance: a tool "
+"behaves very strangely, and you can't figure out why until you remember that "
+"you were using some unusual option the last time you worked with it, two "
+"weeks ago."
+msgstr ""
+"ഓരോ ഉപകരണം ഓപ്ഷനുകൾ സ്വന്തം കൂട്ടം പ്രത്യേക ഉണ്ട്. നിങ്ങൾ അവരെ മാറ്റാൻ വരെ"
+" നിങ്ങൾ അവർക്ക് വേണ്ടി തിരഞ്ഞെടുപ്പുകൾ, സെഷനിൽ മുഴുവൻ സൂക്ഷിക്കണം. സത്യത്തി"
+"ൽ, പ്രയോഗം ഓപ്ഷനുകൾ സെഷനിൽ നിന്ന് സെഷനിൽ പരിപാലിക്കുന്നത്. സെഷനുകളിലുടനീളം"
+" ഉപകരണം ഓപ്ഷനുകളിൽ നിര്ബന്ധം ചിലപ്പോൾ വിളിയ്ക്കാം പൊതുശല്യം കഴിയും: ഒരു ഉ"
+"പകരണം വളരെ അപരിചിതമായ പെരുമാറുന്ന, നിങ്ങൾ രണ്ടാഴ്ച മുമ്പ്, അസ്വാഭാവികമായ ചി"
+"ല ഓപ്ഷൻ നിങ്ങൾ അവസാനം അത് പ്രവർത്തിച്ചിട്ടുണ്ട് ഉപയോഗിച്ച ഓർക്കുക വരെ നിങ്"
+"ങൾ എന്തുകൊണ്ട് മനസിലാക്കാൻ കഴിയുന്നില്ല."
+
+#: src/toolbox/intro.xml:186(para)
+msgid "At the bottom of the Tool Options dialog, four buttons appear:"
+msgstr ""
+"ടൂൾ ഓപ്ഷനുകൾ ഡയലോഗ് ചുവടെ, നാല് ബട്ടണുകൾ ദൃശ്യമാകും:"
+
+#: src/toolbox/intro.xml:199(phrase)
+msgid "Save Options to"
+msgstr ""
+"ഉപാധികൾ സംരക്ഷിക്കുക"
+
+#: src/toolbox/intro.xml:202(para)
+msgid ""
+"This button allows you to save the settings for the current tool, so that "
+"you can restore them later. It brings up the <xref linkend=\"gimp-presets-"
+"dialog\"/> allowing you to give a name for the new preset. When you Restore "
+"options, only saved presets for the active tool are shown, so you need not "
+"worry about including the name of the tool when you assign a name here."
+msgstr ""
+"ഈ ബട്ടൺ ആ അതുവഴി അവയെ പുനഃസ്ഥാപിക്കാൻ കഴിയും, നിലവിലെ ടൂളിനായി ക്രമീകരണങ്ങൾ"
+" സംരക്ഷിക്കാൻ നിങ്ങളെ അനുവദിക്കുന്നു. അതു നിങ്ങൾ പുതിയ പ്രീസെറ്റ് ഒരു പേര് "
+"നൽകാൻ അനുവദിക്കുന്നത് <xref linkend=\"gimp-presets- dialog\" /> ചെയ്യുന്നു."
+" നിങ്ങൾ ഓപ്ഷനുകൾ പുനഃസ്ഥാപിക്കുക, സജീവമായ ഉപകരണം മാത്രം സംരക്ഷിച്ച പ്രീസെറ്"
+"റുകൾ കാണിച്ചിരിക്കുന്നു, അതിനാൽ നിങ്ങൾ ഇവിടെ ഒരു പേര് നൽകുന്നതു് ഉപകരണം പേര"
+"് ഉൾപ്പെടെ വിഷമിക്കേണ്ട ആവശ്യമില്ല."
+
+#: src/toolbox/intro.xml:222(phrase)
+msgid "Restore Options"
+msgstr ""
+"ഓപ്ഷനുകൾ പുനഃസ്ഥാപിക്കുക"
+
+#: src/toolbox/intro.xml:225(para)
+msgid ""
+"This button allows you to restore a previously saved preset of options for "
+"the active tool. If no presets have ever been saved for the active tool, the "
+"button will be insensitive. Otherwise, clicking it will bring up a menu "
+"showing the names of all saved option sets: choosing a menu entry will apply "
+"those settings."
+msgstr ""
+"ഈ ബട്ടൺ സജീവമായ ടൂളിനായി ഓപ്ഷനുകൾ ഒരു മുമ്പ് സംരക്ഷിച്ച പ്രീസെറ്റ് പുനഃസ്ഥാ"
+"പിക്കാൻ അനുവദിക്കുന്നു. യാതൊരു പ്രീസെറ്റുകൾ എന്നേക്കും സജീവ ടൂളിനായി സംരക്"
+"ഷിച്ചു, ബട്ടൺ സംവേദനക്ഷമരഹിത ആയിരിക്കും. അല്ലാത്തപക്ഷം, എല്ലാ സംരക്ഷിച്ച ഓപ"
+"്ഷൻ സെറ്റുകളിൽ പേരുകൾ കാണിക്കുന്ന ഒരു മെനു വരുത്തും ക്ളിക്ക്: ഒരു മെനു എൻട്"
+"രി ശേഷമേ ആ ക്രമീകരണങ്ങൾ ബാധകമാക്കും."
+
+#: src/toolbox/intro.xml:244(phrase)
+msgid "Delete Options"
+msgstr ""
+"ഓപ്ഷനുകൾ ഇല്ലാതാക്കുക"
+
+#: src/toolbox/intro.xml:247(para)
+msgid ""
+"This button allows you to delete a previously saved set of options for the "
+"active tool. If no option-sets have ever been saved for the active tool, the "
+"button will simply repeat the tool name. Otherwise, clicking it will bring "
+"up a menu showing the names of all saved presets: the selected preset will "
+"be deleted."
+msgstr ""
+"ഈ ബട്ടൺ സജീവമായ ടൂളിനായി ഓപ്ഷനുകൾ ഒരു മുമ്പ് സംരക്ഷിച്ച സെറ്റ് ഇല്ലാതാക്കുന"
+"്നത് അനുവദിക്കുന്നു. യാതൊരു ഓപ്ഷൻ-സെറ്റുകൾക്ക് എന്നേക്കും സജീവ ടൂളിനായി സം"
+"രക്ഷിച്ചു, ബട്ടൺ ലളിതമായി ഉപകരണം പേര് ആവർത്തിക്കുക ചെയ്യും. അല്ലെങ്കിൽ, ക്ള"
+"ിക്ക് അത് എല്ലാ സംരക്ഷിച്ച പ്രീസെറ്റുകളിൽ പേരുകൾ കാണിക്കുന്ന ഒരു മെനു വരുത്"
+"തും: തിരഞ്ഞെടുത്ത പ്രീസെറ്റ് ഇല്ലാതാക്കും."
+
+#: src/toolbox/intro.xml:265(phrase)
+msgid "Reset Options"
+msgstr ""
+"പഴയഐച്ഛീകങ്ങളിലേക്കു്മാറ്റുക"
+
+#: src/toolbox/intro.xml:268(para)
+msgid ""
+"This button resets the options for the active tool to their default values."
+msgstr ""
+"ഈ ബട്ടൺ സ്ഥിര മൂല്യങ്ങളിൽ സജീവ പ്രയോഗം ഓപ്ഷനുകൾ പുനഃസജ്ജമാക്കുന്നു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/other-tools.xml:26(None)
+msgid ""
+"@@image: 'images/toolbox/other-tools.png'; "
+"md5=dd843a1dda62a9ae7713c0d2f8e8b7bf"
+msgstr ""
+"@@image: 'images/toolbox/other-tools.png'; "
+"md5=dd843a1dda62a9ae7713c0d2f8e8b7bf"
+
+#: src/toolbox/other-tools.xml:12(title)
+msgid "Other"
+msgstr ""
+"മറ്റു"
+
+#: src/toolbox/other-tools.xml:16(secondary)
+msgid "Miscellaneous"
+msgstr ""
+"കലര്പ്പായ"
+
+#: src/toolbox/other-tools.xml:20(title)
+msgid "Overview"
+msgstr ""
+"പൊതു അവലോകനം"
+
+#: src/toolbox/other-tools.xml:23(title)
+msgid "Other Tools in the Tools Menu"
+msgstr ""
+"മറ്റ് ഉപകരണങ്ങൾ ഉപകരണങ്ങൾ മെനുവിലെ"
+
+#: src/toolbox/other-tools.xml:30(para)
+msgid ""
+"<quote>Other</quote> tools are simply those tools which don't belong to any "
+"main group of tools. You will find here, for example, the important and "
+"powerful <link linkend=\"gimp-tool-path\">Path</link> tool as well as useful "
+"helper tools like the <link linkend=\"gimp-tool-color-picker\">Color Picker</"
+"link>:"
+msgstr ""
+"<quote>Other</quote> ഉപകരണങ്ങൾ ലളിതമായി ഉപകരണങ്ങൾ ഏതെങ്കിലും പ്രധാന ഗ്രൂപ്പ"
+"് അംഗമല്ലാത്ത ആ ആയുധങ്ങൾ. ഉദാഹരണത്തിന്, ഇവിടെ കണ്ടെത്തും പ്രധാനവും ശക്തവുമാ"
+"യ <link linkend=\"gimp-tool-path\">Path</link> ഉപകരണം അതുപോലെ <link linken"
+"d=\"gimp-tool-color-picker\">Color Picker</link> പോലുള്ള ഉപയോഗപ്രദമായ സഹാ"
+"യിയും ഉപകരണങ്ങൾ:"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/toolbox-color-area.xml:21(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-show-area.png'; "
+"md5=b92b6266775e33da4f75c1781cb87deb"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-show-area.png'; "
+"md5=b92b6266775e33da4f75c1781cb87deb"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/toolbox-color-area.xml:48(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-active-colors.png'; "
+"md5=140743eb1687db0256af2a58317c41c2"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-active-colors.png'; "
+"md5=140743eb1687db0256af2a58317c41c2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/toolbox-color-area.xml:118(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-active-bpg.png'; "
+"md5=eb7fdb6e75c96d33b666d03f47db9961"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-active-bpg.png'; "
+"md5=eb7fdb6e75c96d33b666d03f47db9961"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/toolbox-color-area.xml:142(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-active-image.png'; "
+"md5=e5ea75ba7bc95286052ff506449c41fb"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-active-image.png'; "
+"md5=e5ea75ba7bc95286052ff506449c41fb"
+
+#: src/toolbox/toolbox-color-area.xml:14(title)
+msgid "Color and Indicator Area"
+msgstr ""
+"നിറത്തിലും സൂചകം ഏരിയ"
+
+#: src/toolbox/toolbox-color-area.xml:17(title)
+msgid "Color and Indicator Area in the Toolbox"
+msgstr ""
+"പണിസഞ്ചിയിൽ നിറങ്ങളും സൂചകം ഏരിയ"
+
+#: src/toolbox/toolbox-color-area.xml:27(title)
+#: src/toolbox/toolbox-color-area.xml:31(secondary)
+#: src/toolbox/toolbox-color-area.xml:34(primary)
+msgid "Color Area"
+msgstr ""
+"കളർ ഏരിയ"
+
+#: src/toolbox/toolbox-color-area.xml:37(primary)
+msgid "Foreground color"
+msgstr ""
+"മുൻഭാഗത്തെ"
+
+#: src/toolbox/toolbox-color-area.xml:40(primary)
+msgid "Background color"
+msgstr ""
+"പശ്ചാത്തല നിറം"
+
+#: src/toolbox/toolbox-color-area.xml:44(title)
+msgid "Active Colors in the Toolbox"
+msgstr ""
+"പണിസഞ്ചിയിൽ സജീവ നിറങ്ങൾ"
+
+#: src/toolbox/toolbox-color-area.xml:54(term)
+msgid "Color area"
+msgstr ""
+"കളർ ഏരിയ"
+
+#: src/toolbox/toolbox-color-area.xml:56(para)
+msgid ""
+"This area shows GIMP's basic palette, consisting of two colors, the "
+"Foreground and Background, used for painting, filling, and many other "
+"operations. Clicking on either of the color displays brings up a Color "
+"Editor dialog, which permits you to change it."
+msgstr ""
+"ഈ പ്രദേശത്ത് രണ്ടു നിറങ്ങൾ, മുന്നിലും പശ്ചാത്തലത്തിലും, പെയിന്റിംഗ്, നിറയുന"
+"്നത് മറ്റു പല ഓപ്പറേഷൻസ് ഉപയോഗിക്കുന്ന അടങ്ങുന്ന ജിമ്പ് അടിസ്ഥാന പാലറ്റ് ക"
+"ാണിക്കുന്നു. നിറം പ്രദർശനങ്ങളുടെ ഒന്നുകിൽ ക്ലിക്കുചെയ്യുന്നത് ഇത് മാറ്റാൻ അ"
+"നുവദിക്കുന്നു ഒരു കളർ എഡിറ്റർ ഡയലോഗ്, ചെയ്യുന്നു."
+
+#: src/toolbox/toolbox-color-area.xml:65(term)
+msgid "Default colors"
+msgstr ""
+"സ്വതേ നിറങ്ങൾ"
+
+#: src/toolbox/toolbox-color-area.xml:67(para)
+msgid ""
+"Clicking on this small symbol resets the Foreground and Background colors to "
+"black and white, respectively. Pressing the <keycap>D</keycap> key has the "
+"same effect."
+msgstr ""
+"ഈ ചെറിയ ചിഹ്നത്തിൽ ക്ലിക്കുചെയ്തുകൊണ്ട് യഥാക്രമം കറുപ്പും വെളുപ്പും ഫോർഗ്"
+"രൌണ്ട്, പശ്ചാത്തല വർണ്ണങ്ങൾ പുനഃസജ്ജമാക്കുന്നു. <keycap>D</keycap> കീ അമർത"
+"്തിയാൽ അതേ പ്രതീതി ഉണ്ട്."
+
+#: src/toolbox/toolbox-color-area.xml:75(term)
+msgid "Swap FG/BG colors"
+msgstr ""
+"സ്വാപ്പ് FG / ബി.ജി. നിറങ്ങൾ"
+
+#: src/toolbox/toolbox-color-area.xml:77(para)
+msgid ""
+"Clicking on the small curved line with two arrowheads causes the Foreground "
+"and Background colors to be swapped. Pressing the <keycap>X</keycap> key has "
+"the same effect."
+msgstr ""
+"രണ്ടു arrowheads ചെറിയ വളഞ്ഞ ലൈനിൽ ക്ളിക്കു മുൻവശം കാരണമാകുന്നു, പശ്ചാത്തല "
+"വർണ്ണങ്ങൾ മാറ്റി ലേക്ക്. <keycap>X</keycap> കീ അമർത്തിയാൽ അതേ പ്രതീതി ഉണ്ട്"
+"."
+
+#: src/toolbox/toolbox-color-area.xml:83(para)
+msgid ""
+"You can click-and-drag one of these colors directly into a layer: it will "
+"fill the whole layer."
+msgstr ""
+"നിങ്ങൾ ക്ലിക്ക്-ആൻഡ്-വലിച്ചു കഴിയും ഈ നിറം നേരിട്ട് ഒരു പാളി കടന്നു; അതു മു"
+"ഴുവനും പാളി നിറെക്കും."
+
+#: src/toolbox/toolbox-color-area.xml:94(title)
+msgid "Tools Indicator Area"
+msgstr ""
+"ഉപകരണങ്ങൾ സൂചകം ഏരിയ"
+
+#: src/toolbox/toolbox-color-area.xml:98(secondary)
+msgid "Indicator Area"
+msgstr ""
+"സൂചകം ഏരിയ"
+
+#: src/toolbox/toolbox-color-area.xml:101(primary)
+msgid "Brushes"
+msgstr ""
+"നയപ്രഖ്യാപന"
+
+#: src/toolbox/toolbox-color-area.xml:102(secondary)
+#: src/toolbox/toolbox-color-area.xml:106(secondary)
+#: src/toolbox/toolbox-color-area.xml:110(secondary)
+msgid "Toolbox Indicator Area"
+msgstr ""
+"പണിസഞ്ചി സൂചകം ഏരിയ"
+
+#: src/toolbox/toolbox-color-area.xml:105(primary)
+msgid "Patterns"
+msgstr ""
+"പാറ്റേണുകൾ"
+
+#: src/toolbox/toolbox-color-area.xml:109(primary)
+msgid "Gradient"
+msgstr ""
+"ഗ്രേഡിയന്റ്"
+
+#: src/toolbox/toolbox-color-area.xml:114(title)
+msgid "Active Brush, Pattern and Gradient in the Toolbox"
+msgstr ""
+"സജീവ ബ്രഷ്, മാതൃക ഗ്രേഡിയന്റ് പണിസഞ്ചിയിൽ"
+
+#: src/toolbox/toolbox-color-area.xml:122(para)
+msgid ""
+"This part of the Toolbox shows the currently selected brush, pattern, and "
+"gradient. Clicking on any of them brings up a dialog that allows you to "
+"change it."
+msgstr ""
+"പണിസഞ്ചി ഈ ഭാഗം നിലവിൽ തിരഞ്ഞെടുത്ത ബ്രഷ്, പാറ്റേൺ ആൻഡ് ഗ്രേഡിയന്റ് കാണിക്ക"
+"ുന്നു. അവരിൽ ഏതെങ്കിലും ക്ലിക്കുചെയ്താൽ ഇത് മാറ്റാൻ അനുവദിക്കുന്ന ഒരു ഡയലോ"
+"ഗ് ചെയ്യുന്നു."
+
+#: src/toolbox/toolbox-color-area.xml:130(title)
+msgid "Active Image Area"
+msgstr ""
+"സജീവ ഇമേജ് ഏരിയ"
+
+#: src/toolbox/toolbox-color-area.xml:134(secondary)
+msgid "Active image area"
+msgstr ""
+"സജീവ ഇമേജ് ഏരിയ"
+
+#: src/toolbox/toolbox-color-area.xml:138(title)
+msgid "Active Image in the Toolbox"
+msgstr ""
+"പണിസഞ്ചിയിൽ സജീവ ചിത്രം"
+
+#: src/toolbox/toolbox-color-area.xml:152(para)
+msgid "See <xref linkend=\"bibliography-online-xds\"/>."
+msgstr ""
+"<xref linkend=\"bibliography-online-xds\" /> കാണുക."
+
+#: src/toolbox/toolbox-color-area.xml:146(para)
+msgid ""
+"A thumbnail of the active image can be displayed in this area if the "
+"<quote>Display Active Image</quote> option is checked in Preferences/"
+"Toolbox. If you click on this thumbnail, the <quote>Images</quote> dialog is "
+"opened, useful if you have many images on your screen. You can also click "
+"and drag this thumbnail to an enabled XDS<placeholder-1/> file manager to "
+"directly save the corresponding image."
+msgstr ""
+"<quote>Display Active Image</quote> ഓപ്ഷൻ മുൻഗണനകൾ / പണിസഞ്ചി ചെക്കുചെയ്തിട"
+"്ടുണ്ടെന്നതും സജീവ ചിത്രം ഒരു ലഘുചിത്രം ഈ പ്രദേശത്ത് പ്രദർശിപ്പിച്ച്. ഈ ലഘു"
+"ചിത്രത്തിൽ ക്ലിക്ക് ചെയ്താൽ, <quote>Images</quote> ഡയലോഗ് നിങ്ങളുടെ സ്ക്രീ"
+"നിൽ നിരവധി ചിത്രങ്ങൾ ഉണ്ടെങ്കിൽ തുറന്നു ഉപകാരപ്രദമാണ്. നിങ്ങൾക്ക് നേരിട്ടും"
+" ഇതേ ചിത്രം സംരക്ഷിക്കാൻ ഒരു പ്രാപ്തമാക്കിയ XDS PLACEHOLDER,-101694 ഫയൽ മാന"
+"േജർ ക്ലിക്കുചെയ്യുക വലിച്ചിടാനാകും ഈ ലഘുചിത്രം."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:31(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-text.png'; "
+"md5=9498dd3d4a3df5c363c0851ed463d1a0"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-text.png'; "
+"md5=9498dd3d4a3df5c363c0851ed463d1a0"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:56(None)
+msgid ""
+"@@image: 'images/using/text-tool.png'; md5=5fa61661087477d18a368defb302a19f"
+msgstr ""
+"@@image: 'images/using/text-tool.png'; md5=5fa61661087477d18a368defb302a19f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:103(None)
+msgid ""
+"@@image: 'images/toolbox/tool-options-text.png'; "
+"md5=95470a9535691a7c3e94d796f7e4a5aa"
+msgstr ""
+"@@image: 'images/toolbox/tool-options-text.png'; "
+"md5=95470a9535691a7c3e94d796f7e4a5aa"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:373(None)
+msgid ""
+"@@image: 'images/menus/layer/text-commands.png'; "
+"md5=282345dbc0406b4174defc95afdf6f2f"
+msgstr ""
+"@@image: 'images/menus/layer/text-commands.png'; "
+"md5=282345dbc0406b4174defc95afdf6f2f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:399(None)
+msgid ""
+"@@image: 'images/toolbox/text-along-path.png'; "
+"md5=f389f0801b96adb64ed23fb5c09b0eee"
+msgstr ""
+"@@image: 'images/toolbox/text-along-path.png'; "
+"md5=f389f0801b96adb64ed23fb5c09b0eee"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:404(None)
+msgid ""
+"@@image: 'images/toolbox/text-path.png'; md5=76e6f9c38366374d6efd8143b6d14836"
+msgstr ""
+"@@image: 'images/toolbox/text-path.png'; md5=76e6f9c38366374d6efd8143b6d14836"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:432(None)
+msgid ""
+"@@image: 'images/toolbox/tool-dialog-text.png'; "
+"md5=caeb4f66591b7d5c2373eaa4486b7fd0"
+msgstr ""
+"@@image: 'images/toolbox/tool-dialog-text.png'; "
+"md5=caeb4f66591b7d5c2373eaa4486b7fd0"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:474(None)
+msgid ""
+"@@image: 'images/using/enter-unicode-char1.png'; "
+"md5=8f752c23c0b9f6f04cc48e3a8a882d0c"
+msgstr ""
+"@@image: 'images/using/enter-unicode-char1.png'; "
+"md5=8f752c23c0b9f6f04cc48e3a8a882d0c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:489(None)
+msgid ""
+"@@image: 'images/using/enter-unicode-char2.png'; "
+"md5=7ebeca4192aeb1d9fede22386ae11fa6"
+msgstr ""
+"@@image: 'images/using/enter-unicode-char2.png'; "
+"md5=7ebeca4192aeb1d9fede22386ae11fa6"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:502(None)
+msgid ""
+"@@image: 'images/using/enter-unicode-char3.png'; "
+"md5=794748051d9d332c6eee1357a03593c2"
+msgstr ""
+"@@image: 'images/using/enter-unicode-char3.png'; "
+"md5=794748051d9d332c6eee1357a03593c2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:520(None)
+msgid ""
+"@@image: 'images/using/enter-unicode-char4.png'; "
+"md5=91fb55813984d1ce3dedaf9461a80ecf"
+msgstr ""
+"@@image: 'images/using/enter-unicode-char4.png'; "
+"md5=91fb55813984d1ce3dedaf9461a80ecf"
+
+#: src/toolbox/text.xml:16(title) src/toolbox/text.xml:20(secondary)
+#: src/toolbox/text.xml:23(primary) src/toolbox/text.xml:423(primary)
+#: src/toolbox/text.xml:532(primary)
+msgid "Text"
+msgstr ""
+"ടെക്സ്റ്റ്"
+
+#: src/toolbox/text.xml:24(secondary) src/toolbox/path.xml:25(secondary)
+msgid "Tool"
+msgstr ""
+"ഉപകരണം"
+
+#: src/toolbox/text.xml:28(title)
+msgid "The Text tool in Toolbox"
+msgstr ""
+"പണിസഞ്ചി ടെക്സ്റ്റ് ഉപകരണം"
+
+#: src/toolbox/text.xml:36(para)
+msgid ""
+"The Text tool places text into an image. With <acronym>GIMP-2.8</acronym>, "
+"you can write your text directly on the canvas. No Text Editor is needed "
+"anymore (although you can still use it if you want by checking the "
+"<guilabel>Use editor</guilabel> option in the Tool Options dialog. A text "
+"toolbar has been added which allows you to edit text in different ways but "
+"you can still go on using the <emphasis>Text Option dialog</emphasis>, to "
+"change the font, color and size of your text, and justify it, interactively. "
+"Right clicking on the frame opens a context menu that allows you to copy, "
+"cut, paste, load a text..."
+msgstr ""
+"Text tool ഒരു ഇമേജ് വാചകത്തിന്റെ മതിയാവില്ല. <acronym>GIMP-2.8</acronym> ഉപ"
+"യോഗിച്ച്, ക്യാൻവാസ് നേരിട്ട് നിങ്ങളുടെ ടെക്സ്റ്റ് എഴുതാൻ കഴിയും. ഇല്ല ടെക്"
+"സ്റ്റ് എഡിറ്റർ നിങ്ങളെ വിവിധ വഴികളിലൂടെ വാചകം എഡിറ്റ് അനുവദിക്കുന്നു, എന്നാ"
+"ൽ നിങ്ങൾ ഇപ്പോഴും ഉപയോഗിച്ച് പോകാം ഏത് ഉപകരണം ഓപ്ഷനുകൾ ഡയലോഗിൽ <guilabe"
+"l>Use editor</guilabel> ഓപ്ഷൻ പരിശോധിച്ചുകൊണ്ട് ആഗ്രഹിക്കുന്നുവെങ്കിൽ നിങ"
+"്ങൾ ഉപയോഗിക്കാൻ ഇപ്പോഴും വരാമെങ്കിലും ഇനി ആവശ്യമാണ് (. ഒരു ടെക്സ്റ്റ് ടൂൾ"
+"ബാർ ചേർത്തു <emphasis>Text Option dialog</emphasis>, ടെക്സ്റ്റ് ഫോണ്ട്, വർ"
+"ണം, വലുപ്പം മാറ്റം വരുത്താനും, ഇന്ററാക്ടീവ്, അതു ന്യായീകരിക്കാൻ. റൈറ്റ് ക്ല"
+"ിക്ക് ഫ്രെയിമിലോ പകർത്താൻ അനുവദിക്കുന്ന ഒരു സന്ദർഭ മെനു തുറക്കുന്നു, കട്ട്"
+", പേസ്റ്റ്, ഒരു ടെക്സ്റ്റ് ലോഡ് ..."
+
+#: src/toolbox/text.xml:47(para)
+msgid ""
+"As soon as you type your text, it appears on the canvas in a rectangular "
+"frame. If you draw the rectangular frame first, the text is automatically "
+"adapted to the frame size. You can enlarge this frame as you do with "
+"rectangular selections."
+msgstr ""
+"ഉടൻ നിങ്ങളുടെ പാഠം ടൈപ്പ് പോലെ അതിനെ ചതുരാകൃതിയിലുള്ള ഫ്രെയിം കാൻവാസിൽ ദൃശ"
+"്യമാകുന്നു. നിങ്ങൾ ആദ്യം ചതുരാകൃതിയിലുള്ള ഫ്രെയിം ചെല്ലാൻ 'ടെക്സ്റ്റ് സ്വയം"
+" ഫ്രെയിം വലുപ്പം ചേർച്ചപ്പെടുത്തുകയാണ്. നിങ്ങൾ ചതുരാകൃതിയിലുള്ള തിരഞ്ഞെടുക്"
+"കലുകളിൽ ചെയ്യുന്നതുപോലെ ഈ ഫ്രെയിം വലുതാക്കുന്നതിലൂടെ."
+
+#: src/toolbox/text.xml:59(para)
+msgid ""
+"To move the text on canvas, you have to select the Move tool and click on a "
+"character to drag the frame and its text."
+msgstr ""
+"കാൻവാസിൽ പാഠം നീക്കാൻ, നിങ്ങൾ നീക്കാൻ സെലക്റ്റ് ഫ്രെയിം അതിന്റെ ടെക്സ്റ്റ് "
+"വലിച്ചുകൊണ്ട് ഒരു കഥാപാത്രം ക്ലിക്ക് ചെയ്യുക."
+
+#: src/toolbox/text.xml:67(para)
+msgid "You can access this tool in several ways:"
+msgstr ""
+"നിങ്ങൾ നിരവധി മാർഗത്തിൽ ഈ ഉപകരണം ആക്സസ് ചെയ്യാൻ കഴിയും:"
+
+#: src/toolbox/text.xml:72(para)
+msgid ""
+"In the image menu through <menuchoice><guimenu>Tools</"
+"guimenu><guisubmenu>Text</guisubmenu></menuchoice>,"
+msgstr ""
+"<menuchoice><guimenu>Tools</guimenu><guisubmenu>Text</guisubmenu></menuchoi"
+"ce> വഴി ഇമേജ് മെനുവിൽ,"
+
+#: src/toolbox/text.xml:81(para)
+msgid ""
+"by clicking the tool icon <guiicon><inlinegraphic fileref=\"images/toolbox/"
+"stock-tool-text-22.png\"/></guiicon> in Toolbox,"
+msgstr ""
+"പണിസഞ്ചിയിൽ റ്റൂൾ <guiicon><inlinegraphic fileref=\"images/toolbox/ stock-t"
+"ool-text-22.png\" /></guiicon> ക്ലിക്കുചെയ്ത്,"
+
+#: src/toolbox/text.xml:90(para)
+msgid "or by using the <keycap>T</keycap> keyboard shortcut."
+msgstr ""
+"അല്ലെങ്കിൽ <keycap>T</keycap> കീബോർഡ് കുറുക്കുവഴി ഉപയോഗിച്ച്."
+
+#: src/toolbox/text.xml:100(title)
+msgid "Text tool options"
+msgstr ""
+"Text tool ഓപ്ഷനുകൾ"
+
+#: src/toolbox/text.xml:108(para)
+#: src/toolbox/about-common-options-display.xml:5(para)
+#: src/toolbox/path.xml:124(para)
+msgid ""
+"Normally, tool options are displayed in a window attached under the Toolbox "
+"as soon as you activate a tool. If they are not, you can access them from "
+"the image menu bar through <menuchoice><guimenu>Windows</"
+"guimenu><guisubmenu>Dockable Windows</guisubmenu><guimenuitem>Tool Options</"
+"guimenuitem></menuchoice> which opens the option window of the selected tool."
+msgstr ""
+"സാധാരണ, ഉപകരണം ഓപ്ഷനുകൾ ഉടൻ ഒരു ഉപകരണം സജീവമാക്കാൻ പോലെ പണിസഞ്ചി കീഴിൽ ഘടി"
+"പ്പിച്ചിട്ടുള്ള ഒരു ജാലകം പ്രദർശിപ്പിക്കും. അഥവാ അങ്ങനെയല്ലെങ്കിൽ, നിങ്ങൾ ത"
+"ിരഞ്ഞെടുത്ത ഉപകരണം ഓപ്ഷൻ വിൻഡോ തുറക്കുന്ന <menuchoice><guimenu>Windows</gu"
+"imenu><guisubmenu>Dockable Windows</guisubmenu><guimenuitem>Tool Options</g"
+"uimenuitem></menuchoice> വഴി ഇമേജ് ബാറില് നിന്നും ആക്സസ് ചെയ്യാൻ കഴിയും."
+
+#: src/toolbox/text.xml:121(term)
+msgid "Font"
+msgstr ""
+"ഫോണ്ട്"
+
+#: src/toolbox/text.xml:123(para)
+msgid ""
+"Click on the fonts button <guibutton>A&alpha;</guibutton> to open the font "
+"selector of this tool, which offers you a list of installed X fonts."
+msgstr ""
+"നിങ്ങൾ ഇൻസ്റ്റാൾ എക്സ് ഫോണ്ടുകൾ ഒരു ലിസ്റ്റ് പ്രദാനം ചെയ്ത ഈ ഉപകരണം ഫോണ്ട"
+"് സെലക്ടർ തുറക്കാൻ ഫോണ്ടുകൾ ബട്ടൺ <guibutton>A&alpha;</guibutton> ക്ലിക്ക്"
+" ചെയ്യുക."
+
+#: src/toolbox/text.xml:129(para)
+msgid ""
+"At the bottom of the font selector you find some icons which act as buttons "
+"for:"
+msgstr ""
+"ഫോണ്ട് സെലക്ടർ ചുവടെ നിങ്ങൾക്ക് ബട്ടണുകൾ ആയി പ്രവർത്തിക്കാൻ ചില ഐക്കണുകൾ ക"
+"ണ്ടെത്താൻ:"
+
+#: src/toolbox/text.xml:134(para)
+msgid "resizing the font previews,"
+msgstr ""
+"ഫോണ്ട് തിരനോട്ടങ്ങൾ വലിപ്പംമാറ്റിക്കൊണ്ടിരിക്കുന്നജാലകങ്ങളിലുള്ളവകാണിയ്ക"
+"്കുക,"
+
+#: src/toolbox/text.xml:137(para)
+msgid ""
+"selecting <emphasis>list view</emphasis> or <emphasis>grid view</emphasis>,"
+msgstr ""
+", <emphasis>list view</emphasis> അല്ലെങ്കിൽ <emphasis>grid view</emphasis> "
+"തിരഞ്ഞെടുത്ത്"
+
+#: src/toolbox/text.xml:143(para)
+msgid "opening the <link linkend=\"gimp-font-dialog\">font dialog</link>."
+msgstr ""
+"<link linkend=\"gimp-font-dialog\">font dialog</link> തുറക്കല്."
+
+#: src/toolbox/text.xml:149(para)
+msgid ""
+"Choose a font from the installed fonts. When you select a font it is "
+"interactively applied to your text."
+msgstr ""
+"ഇന്സ്റ്റോള്ചെയ്തിരിക്കുന്നഅക്ഷസഞ്ചയങ്ങള്ക്രമീകരിക്കുന്നു നിന്ന് ഒരു ഫോണ്ട"
+"് തിരഞ്ഞെടുക്കുക. നിങ്ങൾ ഒരു ഫോണ്ട് തിരഞ്ഞെടുക്കുമ്പോൾ ഇത് നിങ്ങളുടെ ടെക്"
+"സ്റ്റ് പ്രയോഗിക്കുന്നത്."
+
+#. cf. bug #585823 (2009-06-15)
+#: src/toolbox/text.xml:155(para)
+msgid ""
+"You can use the scroll wheel of your pointing device (usually your mouse) on "
+"the fonts button in order to quickly change the font of your text (move the "
+"pointer on the fonts button, and don't click, just use the wheel button)."
+msgstr ""
+"വേഗത്തിൽ നിങ്ങളുടെ വാചക ഫോണ്ട് മാറ്റുന്നതിനായി ഫോണ്ടുകൾ ബട്ടണിൽ നിങ്ങളുടെ"
+" പോയിന്റിങ്ങ് ഡിവൈസ് (സാധാരണയായി നിങ്ങളുടെ മൗസ്) പുസ്തകം ചക്രം ഉപയോഗിക്കാ"
+"ം (ഫോണ്ടുകൾ ബട്ടണിൽ പോയിന്റർ നീക്കാൻ ക്ലിക്കുചെയ്യുക ചെയ്യരുത്, വെറും വീൽ"
+" ബട്ടൺ ഉപയോഗിക്കുക) ."
+
+#: src/toolbox/text.xml:166(term)
+msgid "Size"
+msgstr ""
+"വലുപ്പം"
+
+#: src/toolbox/text.xml:168(para)
+msgid ""
+"This control sets the size of the font in any of several selectable units."
+msgstr ""
+"ഈ നിയന്ത്രണ നിരവധി തിരഞ്ഞെടുക്കാനാവുന്ന യൂണിറ്റുകൾ ഏതെങ്കിലും ഫോണ്ട് വലിപ്"
+"പം സജ്ജമാക്കുന്നു."
+
+#. Added
+#: src/toolbox/text.xml:176(term)
+msgid "Use editor"
+msgstr ""
+"എഡിറ്റർ ഉപയോഗിക്കുക"
+
+#: src/toolbox/text.xml:178(para)
+msgid ""
+"Use an external editor window for text editing instead of direct-on-canvas "
+"editing."
+msgstr ""
+"പകരം നേരിട്ട്-ഓൺ-ക്യാൻവാസ് എഡിറ്റിംഗ് ടെക്സ്റ്റ് എഡിറ്റിംഗിനായി ഒരു ബാഹ്യ എ"
+"ഡിറ്റർ വിൻഡോ ഉപയോഗിക്കുക."
+
+#: src/toolbox/text.xml:186(term)
+msgid "Antialiasing"
+msgstr ""
+"ആന്റിഎലിയാസിംഗ്"
+
+#: src/toolbox/text.xml:188(para)
+msgid ""
+"Antialiasing will render the text with much smoother edges and curves. This "
+"is achieved by slight blurring and merging of the edges. This option can "
+"radically improve the visual appearance of the rendered typeface. Caution "
+"should be exercised when using antialiasing on images that are not in RGB "
+"color space."
+msgstr ""
+"ആന്റിഎലിയാസിംഗ് വളരെ മൃദുലമായി അറ്റങ്ങൾ കടപ്പുറം ഉപയോഗിച്ച് വാചകം പകരം ചെയ"
+"്യും. ഈ അരികുകളും ചെറിയ മങ്ങിക്കലും സംയോജിപ്പിച്ചുകൊണ്ട് നേടാവുന്നതാണ്. ഈ"
+" ഓപ്ഷൻ സമൂലമായി റെൻഡർ ടൈപ്പ് ദൃശ്യപരതയിൽ മെച്ചപ്പെടുത്താൻ കഴിയും. ആർജിബി നി"
+"റങ്ങളുടെ സ്പേസ് ഇല്ലാത്ത ചിത്രങ്ങളിലെ ആന്റിഎലിയാസിംഗ് ഉപയോഗിക്കുമ്പോൾ ജാഗ"
+"്രത പാലിക്കണം."
+
+#: src/toolbox/text.xml:199(term)
+msgid "Hinting"
+msgstr ""
+"ഹിന്റുചെയ്യൽ"
+
+#: src/toolbox/text.xml:201(para)
+msgid ""
+"Uses the index of adjustment of the font to modify characters in order to "
+"produce clear letters in small font sizes."
+msgstr ""
+"ചെറിയ ഫോണ്ട് വലുപ്പത്തിൽ വ്യക്തമായ അക്ഷരങ്ങൾ ഉത്പാദിപ്പിക്കാൻ വേണ്ടി പ്രതീ"
+"കങ്ങൾ പരിഷ്ക്കരിക്കാൻ ഫോണ്ട് പൊരുത്തപ്പെടുത്തിക്കൊണ്ടുപോകുന്നത് സൂചിക ഉ"
+"പയോഗിക്കുന്നു."
+
+#: src/toolbox/text.xml:211(para)
+msgid ""
+"Color of the text that will be drawn next. Defaults to black. Selectable "
+"from the color picker dialog box that opens when the current color sample is "
+"clicked."
+msgstr ""
+"അടുത്ത വരച്ച ചെയ്യും വാചകത്തിന്റെ നിറം. കറുത്ത സ്ഥിര. നിലവിലെ നിറം സാമ്പിൾ "
+"ക്ലിക്കുചെയ്യപ്പെടുമ്പോൾ തുറക്കുന്ന നിറം പിക്കർ ഡയലോഗ് ബോക്സിൽ നിന്നും ത"
+"ിരഞ്ഞെടുക്കാനാവുന്ന."
+
+#: src/toolbox/text.xml:217(para)
+msgid ""
+"You can also click-and-drag the color from the Toolbox color area onto the "
+"text."
+msgstr ""
+"നിങ്ങൾക്ക് ക്ലിക്ക്-ആൻഡ്-വലിക്കുക വാചകം ലേക്കായി പണിസഞ്ചി കളർ ഏരിയ നിന്ന് വ"
+"ർണ്ണം."
+
+#: src/toolbox/text.xml:226(term) src/toolbox/text.xml:229(primary)
+msgid "Justify"
+msgstr ""
+"ഏകീകൃതമാക്കുക"
+
+#: src/toolbox/text.xml:231(para)
+msgid ""
+"Causes the text to be justified according to any of four rules selectable "
+"from the associated icons."
+msgstr ""
+"ടെക്സ്റ്റ് ബന്ധപ്പെട്ട ഐക്കണുകൾ നിന്ന് തിരഞ്ഞെടുക്കാനാവുന്ന നാലു നിയമങ്ങളിൽ"
+" തക്കവണ്ണം നീതീകരണം കാരണമാകുന്നു."
+
+#: src/toolbox/text.xml:239(term) src/toolbox/text.xml:242(primary)
+msgid "Indent"
+msgstr ""
+"ഇൻഡന്റ്"
+
+#: src/toolbox/text.xml:244(para)
+msgid "Controls the indent spacing from the left margin, for the first line."
+msgstr ""
+"ആദ്യ വരി വേണ്ടി, ഇടത് മാർജിൻ നിന്ന് സ്പെയ്സിംഗ് ഇൻഡന്റ് നിയന്ത്രിക്കുന്നു."
+
+#: src/toolbox/text.xml:252(term)
+msgid "Line Spacing"
+msgstr ""
+"വരി വിടവ്"
+
+#: src/toolbox/text.xml:255(primary)
+msgid "Line spacing"
+msgstr ""
+"വരി വിടവ്"
+
+#: src/toolbox/text.xml:257(para)
+msgid ""
+"Controls the spacing between successive lines of text. This setting is "
+"interactive: it appears at the same time in image text. The number is not "
+"the space between lines itself, but how many pixels must be added to or "
+"subtracted from this space (the value can be negative)."
+msgstr ""
+"ടെക്സ്റ്റ് തുടർച്ചയായി വരികൾ തമ്മിലുള്ള സ്പെയ്സിംഗ് നിയന്ത്രിക്കുന്നു. ഈ ക്"
+"രമീകരണം ഇന്ററാക്ടീവ്; അതു ചിത്ര ടെക്സ്റ്റ് ഒരേ സമയത്ത് ദൃശ്യമാകുന്നു. സംഖ്യ"
+", ലൈനുകൾ സ്വയം തമ്മിലുള്ള ഇടമില്ല എത്ര പിക്സൽ ചേർത്ത അല്ലെങ്കിൽ ഈ സ്പെയ്സ് "
+"നിന്ന് കുറയ്ക്കപ്പെടുന്ന വേണം (നെഗറ്റീവാണ് ആകാം)."
+
+#: src/toolbox/text.xml:268(term)
+msgid "Letter Spacing"
+msgstr ""
+"അക്ഷര വിടവ്"
+
+#: src/toolbox/text.xml:270(para)
+msgid ""
+"Controls the spacing between letters. Also in this case the number is not "
+"the space itself between letters, but how many pixels must be added to or "
+"subtracted from this space (the value can be negative)."
+msgstr ""
+"അക്ഷരങ്ങൾ തമ്മിലുള്ള സ്പെയ്സിംഗ് നിയന്ത്രിക്കുന്നു. എതിരെ ഈ കേസിൽ എണ്ണം അക്"
+"ഷരങ്ങൾ തമ്മിൽ സ്വയം അല്ല എത്ര പിക്സൽ ചേർത്ത അല്ലെങ്കിൽ ഈ സ്പെയ്സ് നിന്ന് കു"
+"റയ്ക്കപ്പെടുന്ന വേണം (നെഗറ്റീവാണ് ആകാം)."
+
+#: src/toolbox/text.xml:280(term)
+msgid "Box"
+msgstr ""
+"പെട്ടി"
+
+#: src/toolbox/text.xml:282(para)
+msgid ""
+"Concerns the text box. The associated drop down list offers two options:"
+msgstr ""
+"ടെക്സ്റ്റ് ബോക്സ് കുറിച്ചായിരുന്നു. ലിസ്റ്റ് ബന്ധപ്പെട്ട ഡ്രോപ്പ് രണ്ട് ഓ"
+"പ്ഷനുകൾ പ്രദാനം:"
+
+#: src/toolbox/text.xml:286(para)
+msgid ""
+"<emphasis role=\"bold\">Dynamic</emphasis>: default option. The size of the "
+"text box increases as you type. Text may go out of the image. You have to "
+"press the <keycap>Enter</keycap> key to add a new line. The indent option "
+"indents all lines. If you increase the box size, the option turns to \"Fixed"
+"\"."
+msgstr ""
+"<emphasis role=\"bold\">Dynamic</emphasis>: സ്ഥിര ഓപ്ഷൻ. ടൈപ്പ് ചെയ്യുമ്പോ"
+"ൾ പദാവലികൾ ബോക്സ് വർദ്ധിക്കുകയും വലുപ്പം. ടെക്സ്റ്റ് ചിത്രത്തിന്റെ പോകുവാ"
+"നും. ഒരു പുതിയ ലൈൻ ചേർക്കാൻ <keycap>Enter</keycap> അമർത്തുക. ഇൻഡന്റ് ഓപ്ഷൻ "
+"എല്ലാ വരികൾ ഇൻഡെന്റ്. നിങ്ങൾ ബോക്സ് വലിപ്പം എങ്കിൽ, ഓപ്ഷൻ \"നിശ്ചിത\" തിരി"
+"യുന്നു."
+
+#: src/toolbox/text.xml:293(para)
+msgid ""
+"<emphasis role=\"bold\">Fixed</emphasis>: you must enlarge the text box "
+"first. Else, usual shortcuts are active! The text is limited by the right "
+"side of the box and continues on next line. This is not true new line: you "
+"must press the <keycap>Enter</keycap> key to add a real new line. The text "
+"may go out the lower border of the image. The indent option works on the "
+"first line only."
+msgstr ""
+"<emphasis role=\"bold\">Fixed</emphasis>: നിങ്ങൾ ആദ്യം ടെക്സ്റ്റ് ബോക്സ് വ"
+"ലുതാക്കുന്നു വേണം. അല്ലെങ്കിലോ, സാധാരണ കുറുക്കുവഴികൾ സജീവമായ! ടെക്സ്റ്റ് ബ"
+"ോക്സിൽ വലതുഭാഗത്ത് പരിമിതപ്പെടുത്തിയിരിക്കുന്നു അടുത്ത ലൈനിൽ തുടരുന്നു ആണ്"
+". ഇത് സത്യമല്ല പുതിയ ലൈൻ അല്ല: നിങ്ങൾ ഒരു യഥാർത്ഥ പുതിയ ലൈൻ ചേർക്കാൻ <keyca"
+"p>Enter</keycap> കീ അമർത്തുക വേണം. ടെക്സ്റ്റ് ചിത്രത്തിന്റെ താഴത്തെ അതിർത്ത"
+"ി പോകുവാനും. ഇൻഡന്റ് ഓപ്ഷൻ ആദ്യ വരി മാത്രം പ്രവർത്തിക്കുന്നു."
+
+#: src/toolbox/text.xml:307(title)
+msgid "The Text tool context menu"
+msgstr ""
+"Text tool സന്ദർഭ മെനു"
+
+#: src/toolbox/text.xml:308(para)
+msgid "You get this menu by right clicking in a text frame with handles."
+msgstr ""
+"നിങ്ങൾ കൈപ്പിടികൾ ഒരു ടെക്സ്റ്റ് ഫ്രെയിമിലെ റൈറ്റ് ക്ലിക്ക് ഈ മെനു നേടുക."
+
+#: src/toolbox/text.xml:313(para)
+msgid ""
+"<guilabel>Cut, Copy, Paste, Delete</guilabel>: these options concern a "
+"selected text. They remain grayed out as long as no text is selected. "
+"<quote>Paste</quote> is activated if the clipboard is full of text."
+msgstr ""
+"<guilabel>Cut, Copy, Paste, Delete</guilabel>: ഈ ഉപാധികൾ തിരഞ്ഞെടുത്ത ടെക്സ"
+"്റ്റ് കാര്യത്തിൽ. അവർ നീണ്ട വാചകങ്ങൾ ഒന്നും തിരഞ്ഞെടുത്തിട്ടില്ല പോലെ ഗ്രേ"
+" ഔട്ട് നിലനിൽക്കും. ക്ലിപ്ബോർഡ് വാചകം നിറഞ്ഞിരിക്കുന്നു എങ്കിൽ <quote>Past"
+"e</quote> സജീവമാകുന്നു."
+
+#: src/toolbox/text.xml:321(para)
+msgid ""
+"<guilabel>Open text file</guilabel>: this command opens a file browser where "
+"you can find the wanted text file."
+msgstr ""
+"<guilabel>Open text file</guilabel>: ഈ കമാൻഡ് പിടികൂടാനുള്ള ടെക്സ്റ്റ് ഫയൽ "
+"കണ്ടെത്താൻ കഴിയുന്ന ഒരു ഫയൽ ബ്രൌസർ തുറക്കുന്നു."
+
+#: src/toolbox/text.xml:327(para)
+msgid ""
+"<guilabel>Clear</guilabel>: this command deletes all the text, selected or "
+"not."
+msgstr ""
+"<guilabel>Clear</guilabel>: ഈ കമാൻഡ് ടെക്സ്റ്റ് തിരഞ്ഞെടുത്ത അല്ലെങ്കിൽ ഇല്"
+"ലാതാക്കുന്നു."
+
+#: src/toolbox/text.xml:333(para)
+msgid ""
+"<guilabel>Path from text</guilabel>: this command creates a path from the "
+"outlines of the current text. The result is not evident. You have to open "
+"the Path dialog and make path visible. Then select the Path tool and click "
+"on the text. Every letter is now surrounded with a path component. So you "
+"can modify the shape of letters by moving path control points."
+msgstr ""
+"<guilabel>Path from text</guilabel>: ഈ കമാൻഡ് നിലവിലെ വാചകത്തിന്റെ രൂപരേഖകൾ"
+" നിന്ന് ഒരു പാത സൃഷ്ടിക്കുന്നു. ഫലം പ്രകടമാണ് അല്ല. നിങ്ങൾ പാത ഡയലോഗ് തുറന"
+"്ന് പാത ദൃശ്യമാക്കാൻ ഞങ്ങൾക്കുണ്ട്. അപ്പോൾ പാത സെലക്റ്റ് ടെക്സ്റ്റ് ക്ലിക്"
+"ക് ചെയ്യുക. ഓരോ കത്ത് ഇപ്പോൾ ഒരു പാത ഘടകം ഉപയോഗിച്ച് ചുറ്റും. അങ്ങനെ നിങ"
+"്ങൾ പാത്ത് നിയന്ത്രണ പോയിന്റുകൾ നീക്കി കത്തുകൾ ആകൃതി പരിഷ്കരിക്കാനും കഴിയു"
+"ം."
+
+#: src/toolbox/text.xml:341(para)
+msgid ""
+"This command is similar to <menuchoice><guimenu>Layer</"
+"guimenu><guisubmenu>Text to Path</guisubmenu></menuchoice>."
+msgstr ""
+"ഈ കമാൻഡ് <menuchoice><guimenu>Layer</guimenu><guisubmenu>Text to Path</guis"
+"ubmenu></menuchoice> സമാനമാണ്."
+
+#: src/toolbox/text.xml:350(para)
+msgid ""
+"<guilabel>Text along path</guilabel>: <indexterm><primary>Text along Path</"
+"primary></indexterm>"
+msgstr ""
+"<guilabel>Text along path</guilabel>: <indexterm><primary>Text along Path</"
+"primary></indexterm>"
+
+#: src/toolbox/text.xml:356(para)
+msgid ""
+"This option is enabled only if a <link linkend=\"gimp-using-paths\">path</"
+"link> exists. When your text is created, then create or import a path and "
+"make it active. If you create your path before the text, the path becomes "
+"invisible and you have to make it visible in the Path Dialog."
+msgstr ""
+"ഈ ഓപ്ഷൻ ഒരു <link linkend=\"gimp-using-paths\">path</link> നിലവിലുണ്ട് മാത്"
+"രമേ പ്രാപ്തമാക്കി. നിങ്ങളുടെ വാചക സൃഷ്ടിക്കുമ്പോൾ, തുടർന്ന് സൃഷ്ടിക്കാൻ അല"
+"്ലെങ്കിൽ ഇറക്കുമതി ഒരു പാത അതു സജീവവും. നിങ്ങൾ ടെക്സ്റ്റ് മുമ്പ് നിങ്ങളുടെ "
+"പാത ഉണ്ടാക്കി, പാത അദൃശ്യനായ മാറുന്നു നിങ്ങൾ മാർഗത്തിൽ ഡയലോഗിൽ ദൃശ്യമാക്കാ"
+"ൻ ഞങ്ങൾക്കുണ്ട്."
+
+#: src/toolbox/text.xml:363(para)
+msgid "This command is also available from the <quote>Layer</quote> menu:"
+msgstr ""
+"ഈ കമാൻഡ് <quote>Layer</quote> മെനുവിൽ നിന്ന് ലഭ്യമാണ്:"
+
+#: src/toolbox/text.xml:367(title)
+msgid "The Text along Path command among text commands in the Layer menu"
+msgstr ""
+"ലെയർ മെനുവിൽ ടെക്സ്റ്റ് കമാൻഡുകൾ ഇടയിൽ പാത കമാൻഡ് സഹിതം ടെക്സ്റ്റ്"
+
+#: src/toolbox/text.xml:376(para)
+msgid "This group of options appears only if a layer text exists."
+msgstr ""
+"ഓപ്ഷനുകൾ ഈ ഗ്രൂപ്പ് ഒരു പാളി ടെക്സ്റ്റ് നിലവിലുണ്ട് മാത്രമേ തോന്നുന്നു."
+
+#: src/toolbox/text.xml:382(para)
+msgid ""
+"If you want to use a text that already exists, make it active in the <link "
+"linkend=\"gimp-layer-dialog\">Layer dialog</link>, select the Text tool and "
+"click on the text in the image window."
+msgstr ""
+"നിങ്ങൾ ഇതിനകം നിലവിലുണ്ട് പാഠം ഉപയോഗിക്കാൻ ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, <link "
+"linkend=\"gimp-layer-dialog\">Layer dialog</link> സജീവ ഉണ്ടാക്കി, തിരഞ്ഞെടു"
+"ക്കുക text tool ഇമേജ് വിൻഡോയിൽ ടെക്സ്റ്റ് ക്ലിക്ക് ചെയ്യുക."
+
+#: src/toolbox/text.xml:387(para)
+msgid ""
+"Click on the <guibutton>Text along Path</guibutton> button. The text is bent "
+"along the path. Letters are represented with their outline. Each of them is "
+"a component of the new path that appears in the <link linkend=\"gimp-path-"
+"dialog\">Path dialog</link>. All path options should apply to this new path."
+msgstr ""
+"<guibutton>Text along Path</guibutton> ബട്ടണിൽ ക്ലിക്ക്. ടെക്സ്റ്റ് പാതയിലൂ"
+"ടെ ഉരുകിയിരിക്കുന്നു. അക്ഷരങ്ങൾ അവരുടെ രൂപരേഖയിൽ കൊണ്ട് പ്രതിനിധീകരിക്കുന്"
+"നത്. അവരിൽ ഓരോ <link linkend=\"gimp-path- dialog\">Path dialog</link> പ്രത"
+"്യക്ഷപ്പെടുന്ന പുതിയ പാത ഒരു ഘടകമാണ്. എല്ലാ പാത്ത് ഓപ്ഷനുകൾ ഈ പുതിയ പാതയിലേ"
+"ക്ക് അപേക്ഷിക്കണം."
+
+#: src/toolbox/text.xml:395(title)
+msgid "<quote>Text along Path</quote> example"
+msgstr ""
+"<quote>Text along Path</quote> ഉദാഹരണം"
+
+#: src/toolbox/text.xml:410(para)
+msgid ""
+"<guilabel>From Left to Right / From Right to Left</guilabel>: fix the "
+"writing direction of your language."
+msgstr ""
+"<guilabel>From Left to Right / From Right to Left</guilabel>: നിങ്ങളുടെ ഭാഷ"
+" എഴുതേണ്ട ദിശ പരിഹരിക്കാൻ."
+
+#: src/toolbox/text.xml:420(title)
+msgid "Text Editor"
+msgstr ""
+"ടെക്സ്റ്റ് എഡിറ്റർ"
+
+#: src/toolbox/text.xml:424(secondary)
+msgid "Editor"
+msgstr ""
+"എഡിറ്റർ"
+
+#: src/toolbox/text.xml:428(title)
+msgid "The Text Editor"
+msgstr ""
+"ടെക്സ്റ്റ് എഡിറ്റർ"
+
+#: src/toolbox/text.xml:437(para)
+msgid ""
+"With <acronym>GIMP-2.8</acronym>, this text editor is available only if the "
+"<guilabel>Use editor</guilabel> option is checked. It persists probably "
+"because all its functions are not transferred to the direct-on-canvas mode, "
+"for instance the Unicode characters."
+msgstr ""
+"<acronym>GIMP-2.8</acronym> ഉപയോഗിച്ച്, ഈ ടെക്സ്റ്റ് എഡിറ്റർ <guilabel>Use"
+" editor</guilabel> ഓപ്ഷൻ മാത്രമേ ലഭ്യമാകൂ. അതിന്റെ എല്ലാ ഫംഗ്ഷനുകളും ഉദാഹരണ"
+"ത്തിന് യൂണികോഡ് അക്ഷരങ്ങള്, ഡയറക്ട്-ഓൺ-ക്യാൻവാസ് മോഡ് കൈമാറ്റം ഉള്ളതുകൊണ"
+"്ട് ഒരുപക്ഷേ നിലനിൽക്കുകയാണെങ്കിൽ."
+
+#: src/toolbox/text.xml:443(para)
+msgid ""
+"You can correct the text you are writing and you can change the text font "
+"with the Font Editor."
+msgstr ""
+"നിങ്ങൾ എഴുതുന്ന ടെക്സ്റ്റ് ശരിയാക്കി ചെയ്യാന് ഫോണ്ട് എഡിറ്റർ ഉപയോഗിച്ച് ട"
+"െക്സ്റ്റ് ഫോണ്ട് മാറ്റാൻ കഴിയും."
+
+#: src/toolbox/text.xml:447(para)
+msgid ""
+"As soon as you start writing, a Text layer is created in the Layer Dialog. "
+"On an image with such a layer (the image you are working on, or a <filename "
+"class=\"extension\">.xcf</filename> image), you can resume text editing by "
+"activating this text layer then clicking on it (double click). Of course, "
+"you can apply to this text layer the same functions you use with other "
+"layers."
+msgstr ""
+"ഉടൻ എഴുതാൻ ആരംഭിക്കുന്നതിന് പോലെ ഒരു ടെക്സ്റ്റ് പാളി ലെയർ ഡയലോഗ് സൃഷ്ടിക്"
+"കും. അത്തരം ഒരു പാളി (നിങ്ങൾ പ്രവർത്തിക്കുകയാണ് ഇമേജ്, അല്ലെങ്കിൽ ഒരു <file"
+"name class=\"extension\">.xcf</filename> ഇമേജ്) ഒരു ഇമേജ് ന് നിങ്ങൾ അതിനുശേ"
+"ഷം അത് ക്ളിക്ക് ഈ ടെക്സ്റ്റ് പാളി (ഇരട്ട ക്ലിക്കിൽ) സജീവമാക്കിക്കൊണ്ട് വാച"
+"കം എഡിറ്റിംഗ് തുടരുന്നതിന് കഴിയും. തീർച്ചയായും, ഈ ടെക്സ്റ്റ് പാളി നിങ്ങൾക്ക"
+"് മറ്റ് പാളികൾ കൊണ്ട് ഉപയോഗിക്കുന്ന അതേ ഫങ്ഷനുകളെ അപേക്ഷിക്കാം."
+
+#: src/toolbox/text.xml:455(para)
+msgid ""
+"To add another text to your image click on a non-text layer: a new Text "
+"Editor will appear and a new text layer will be created. To pass from a text "
+"to another one activate the corresponding text layer and click on it to "
+"activate the editor."
+msgstr ""
+"ഒരു നോൺ-ടെക്സ്റ്റ് ലയറിൽ നിങ്ങളുടെ ഇമേജ് ക്ലിക്കിൽ മറ്റൊരു വാചകം ചേർക്കാൻ"
+": ഒരു പുതിയ ടെക്സ്റ്റ് എഡിറ്റർ ദൃശ്യമാകും ഒരു പുതിയ പാഠ ലെയർ സൃഷ്ടിക്കപ്പെട"
+"ും. ഒരു ടെക്സ്റ്റ് നിന്ന് മറ്റൊന്നിലേക്ക് വിജയിക്കണമെങ്കിൽ ടെക്സ്റ്റ് പാളി"
+" സജീവമാക്കുന്നതിനും എഡിറ്റർ സജീവമാക്കുന്നതിന് അതിൽ ക്ലിക്ക്."
+
+#. cf. bug #580532 (2009-06-15)
+#: src/toolbox/text.xml:462(para)
+msgid ""
+"You can get Unicode characters with <keycombo><keycap>Ctrl</"
+"keycap><keycap>Shift</keycap><keycap>U</keycap></keycombo> plus hexadecimal "
+"Unicode code of the desired char, for example:"
+msgstr ""
+"നിങ്ങൾ <keycombo><keycap>Ctrl</keycap><keycap>Shift</keycap><keycap>U</keyc"
+"ap></keycombo> പ്ലസ് ഉദാഹരണത്തിന് ആവശ്യമുള്ള ചാർ എന്ന ഹെക്സാഡെസിമൽ യൂണിക്കേ"
+"ാഡ് കോഡ് ഉള്ള യൂണികോഡ് പ്രതീകങ്ങൾ നേടാനാകും:"
+
+#: src/toolbox/text.xml:470(title)
+msgid "Entering Unicode characters"
+msgstr ""
+"യൂണികോഡ് അക്ഷരങ്ങൾ പ്രവേശിക്കുന്നു"
+
+#: src/toolbox/text.xml:481(keycap)
+msgid "U"
+msgstr ""
+"ദി"
+
+#: src/toolbox/text.xml:494(keycap)
+msgid "4"
+msgstr "4"
+
+#: src/toolbox/text.xml:494(keycap)
+msgid "7"
+msgstr "7"
+
+#: src/toolbox/text.xml:506(keycap)
+msgid "Enter"
+msgstr ""
+"നൽകുക"
+
+#: src/toolbox/text.xml:511(para)
+msgid ""
+"Of course this feature is more useful for entering special (even exotic) "
+"characters, provided that the required glyphs for these characters are "
+"supplied by the selected font &mdash; only few fonts support Klingon. ;-)"
+msgstr ""
+"ഗതി ഈ സവിശേഷത പ്രത്യേക (പോലും എക്സോട്ടിക്) അക്ഷരങ്ങൾ നൽകുന്നതിനുള്ള കൂടുത"
+"ൽ പ്രയോജനകരം, ഈ പ്രതീകങ്ങൾ ആവശ്യമായ ഗ്ലിഫ് തിരഞ്ഞെടുത്ത ഫോണ്ട് വിതരണം നൽക"
+"ുന്ന - മാത്രം കുറച്ച് ഫോണ്ടുകൾ ക്ലിംഗൺ പിന്തുണയ്ക്കുന്നില്ല. ;-)"
+
+#: src/toolbox/text.xml:523(para)
+msgid "Unicode 0x47 (<quote>G</quote>), 0x2665, 0x0271, 0x03C0"
+msgstr ""
+"യൂണികോഡ് 0x47 (<quote>G</quote>), 0x2665, 0x0271, 0x03C0"
+
+#: src/toolbox/text.xml:530(title)
+msgid "The Text Editor options"
+msgstr ""
+"ടെക്സ്റ്റ് എഡിറ്റർ ഓപ്ഷനുകൾ"
+
+#: src/toolbox/text.xml:533(secondary)
+msgid "Load from file"
+msgstr ""
+"ഫയൽ നിന്നും ലഭ്യമാക്കുക"
+
+#: src/toolbox/text.xml:536(term)
+msgid "Load Text from file"
+msgstr ""
+"ഫയൽ നിന്നും ലഭ്യമാക്കുക ഉള്ളടക്കം"
+
+#: src/toolbox/text.xml:538(para)
+msgid ""
+"Text can be loaded from a text file by clicking the folder icon in the text "
+"editor. All the text in the file is loaded."
+msgstr ""
+"ടെക്സ്റ്റ് എഡിറ്ററിൽ ഫോൾഡർ ഐക്കൺ ക്ലിക്കുചെയ്ത് ഒരു ടെക്സ്റ്റ് ഫയലിൽ നിന്ന"
+"് ലോഡുചെയ്യാൻ കഴിയൂ. ഫയലിൽ എല്ലാ ടെക്സ്റ്റ് ലഭ്യമാക്കുന്നു."
+
+#: src/toolbox/text.xml:545(term)
+msgid "Clear all text"
+msgstr ""
+"എല്ലാ ടെക്സ്റ്റ് മായ്ക്കുക"
+
+#: src/toolbox/text.xml:547(para)
+msgid ""
+"Clicking this icon clears the editor and the associated text on the image."
+msgstr ""
+"ക്ലിക്ക് ചെയ്യുന്നത് എഡിറ്റർ, ഇമേജ് ന് ബന്ധപ്പെട്ട ടെക്സ്റ്റ് മായ്ക്കുന്നു."
+
+#: src/toolbox/text.xml:554(term)
+msgid "From left to right"
+msgstr ""
+"ഇടത്ത് നിന്നും വലത്തോട്ട്"
+
+#: src/toolbox/text.xml:556(para)
+msgid ""
+"This option causes text to be entered from left to right, as is the case "
+"with most Western languages and may Eastern languages."
+msgstr ""
+"ഈ ഓപ്ഷൻ, ടെക്സ്റ്റ് ഇടതു നിന്നും വലത്തോട്ട് നൽകിയ കാരണമാകുന്ന മിക്ക പാശ്ചാ"
+"ത്യ ഭാഷകളും പൗരസ്ത്യ ഭാഷകളിൽ ചെയ്യാം പോലുള്ള കേസുകളിൽ."
+
+#: src/toolbox/text.xml:564(term)
+msgid "From right to left"
+msgstr ""
+"വലത് ഇടത് ലേക്ക്"
+
+#: src/toolbox/text.xml:566(para)
+msgid ""
+"This option allows text to be entered from right to left, as is the case "
+"with some Eastern languages, such as Arabic (illustrated in the icon)."
+msgstr ""
+"അത്തരം അറബിക് (ഐക്കൺ പ്രതിപാദിക്കുന്നുണ്ട്) ചില ഈസ്റ്റേൺ ഭാഷകളിൽ, പോലുള്ള "
+"കേസുകളിൽ ഈ ഓപ്ഷൻ, ടെക്സ്റ്റ് ഇടത്തുനിന്ന് വലത്തോട്ടുള്ള നിന്ന് നൽകിയ അനുവദ"
+"ിക്കുന്നു."
+
+#: src/toolbox/text.xml:574(term)
+msgid "Use selected font"
+msgstr ""
+"തിരഞ്ഞെടുത്ത ഫോണ്ട് ഉപയോഗിക്കുക"
+
+#: src/toolbox/text.xml:576(para)
+msgid ""
+"Default doesn't use the font you have selected in the Options dialog. If you "
+"want to use it, check this option."
+msgstr ""
+"സ്വതേ നിങ്ങൾ ഉപാധികൾ ഡയലോഗിൽ തിരഞ്ഞെടുത്ത ഫോണ്ട് ഉപയോഗിക്കുന്നില്ല. നിങ്"
+"ങൾ അത് ഉപയോഗിക്കാൻ ആഗ്രഹിക്കുന്നെങ്കിൽ ഈ ഓപ്ഷൻ."
+
+#: src/toolbox/text.xml:581(para)
+msgid "See also <xref linkend=\"gimp-using-text\"/>."
+msgstr ""
+"ഇതും <xref linkend=\"gimp-using-text\" /> കാണുക."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/transform-tools.xml:19(None)
+msgid ""
+"@@image: 'images/toolbox/transform-tools.png'; "
+"md5=f97f1d932a0ff3ea54b91a9a1621f091"
+msgstr ""
+"@@image: 'images/toolbox/transform-tools.png'; "
+"md5=f97f1d932a0ff3ea54b91a9a1621f091"
+
+#: src/toolbox/transform-tools.xml:8(title)
+#: src/toolbox/transform-tools.xml:12(secondary)
+msgid "Transform Tools"
+msgstr ""
+"ഉപകരണങ്ങൾ പരിവർത്തനംചെയ്യൂ"
+
+#: src/toolbox/transform-tools.xml:16(title)
+msgid "An overview of the transform tools"
+msgstr ""
+"രൂപാന്തരപ്പെടുത്തിയോ ഉപകരണങ്ങൾ ഒരു വിഹഗവീക്ഷണം"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/gegl-operation.xml:22(None)
+#: src/toolbox/gegl-operation.xml:76(None)
+msgid ""
+"@@image: 'images/toolbox/gegl-operation.png'; "
+"md5=abca3b1ac11524b0cececc0ab9478cdd"
+msgstr ""
+"@@image: 'images/toolbox/gegl-operation.png'; "
+"md5=abca3b1ac11524b0cececc0ab9478cdd"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/gegl-operation.xml:120(None)
+msgid ""
+"@@image: 'images/toolbox/gegl-operation-gaussian-blur.png'; "
+"md5=9de22c171853bc60cd1de067c0c1efc1"
+msgstr ""
+"@@image: 'images/toolbox/gegl-operation-gaussian-blur.png'; "
+"md5=9de22c171853bc60cd1de067c0c1efc1"
+
+#: src/toolbox/gegl-operation.xml:8(title)
+msgid "GEGL Operation"
+msgstr ""
+"GEGL ഓപ്പറേഷൻ"
+
+#: src/toolbox/gegl-operation.xml:12(secondary)
+#: src/toolbox/gegl-operation.xml:15(primary)
+msgid "GEGL operation"
+msgstr ""
+"GEGL ഓപ്പറേഷൻ"
+
+#: src/toolbox/gegl-operation.xml:19(title)
+msgid "GEGL Operation tool"
+msgstr ""
+"GEGL ഓപ്പറേഷൻ ഉപകരണം"
+
+#: src/toolbox/gegl-operation.xml:27(para)
+msgid ""
+"<acronym>GEGL</acronym> (<quote>Generic Graphical Library</quote>) is a "
+"graph based image processing library designed to handle various image "
+"processing tasks needed in <acronym>GIMP</acronym>."
+msgstr ""
+"<acronym>GEGL</acronym> (<quote>Generic Graphical Library</quote>) വിവിധ ചി"
+"ത്ര പ്രക്രിയ ചുമതലകൾ <acronym>GIMP</acronym> ആവശ്യമാണ് കൈകാര്യം രൂപകൽപ്പന ഒ"
+"രു ഗ്രാഫ് അധിഷ്ഠിത ഇമേജ് പ്രോസസ്സിംഗ് ലൈബ്രറി."
+
+#: src/toolbox/gegl-operation.xml:32(para)
+msgid ""
+"The <acronym>GEGL</acronym> Operation tool has been added in <link linkend="
+"\"gimp-introduction-whats-new\"><acronym>GIMP</acronym> 2.6</link> and was "
+"originally meant as an useful experimental tool for <acronym>GIMP</acronym> "
+"developers. The <acronym>GEGL</acronym> Operation tool enables applying "
+"<acronym>GEGL</acronym> operations to the image and gives on-canvas previews "
+"of the results."
+msgstr ""
+"<acronym>GEGL</acronym> ഓപ്പറേഷൻ പ്രയോഗം <link linkend=\"gimp-introduction"
+"-whats-new\"><acronym>GIMP</acronym> 2.6</link> ചേർത്തതുമായ ആദ്യം <acronym>"
+"GIMP</acronym> ഡെവലപ്പർമാർക്ക് വേണ്ടി ഒരു ഉപയോഗപ്രദമായ പരീക്ഷണാത്മക ഉപകരണം"
+" എന്ന് കരുതപ്പെടുന്നു. <acronym>GEGL</acronym> ഓപ്പറേഷൻ ഉപകരണം ചിത്രത്തിലേക"
+"്ക് <acronym>GEGL</acronym> ഓപ്പറേഷൻസ് അപേക്ഷിക്കുന്ന പ്രാപ്തരാക്കുകയും ഫലങ"
+"്ങൾ ഓൺ-കാൻവാസ് പ്രിവ്യൂകൾ നൽകുന്നു."
+
+#: src/toolbox/gegl-operation.xml:41(para)
+msgid ""
+"<acronym>GEGL</acronym> is in a very early phase and still under "
+"construction."
+msgstr ""
+"<acronym>GEGL</acronym> വളരെ ഘട്ടത്തിൽ ഇപ്പോഴും നിർമാണത്തിലാണ് ആണ്."
+
+#: src/toolbox/gegl-operation.xml:45(para)
+msgid "The GEGL Operation tool is <emphasis>experimental</emphasis>."
+msgstr ""
+"GEGL ഓപ്പറേഷൻ ടൂൾ <emphasis>experimental</emphasis> ആണ്."
+
+#: src/toolbox/gegl-operation.xml:52(para)
+msgid ""
+"You can get to this tool only from the image menu: "
+"<menuchoice><guimenu>Tools</guimenu><guimenuitem>GEGL Operation</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"<menuchoice><guimenu>Tools</guimenu><guimenuitem>GEGL Operation</guimenuite"
+"m></menuchoice>: മാത്രമേ നിങ്ങൾക്ക് ഇമേജ് മെനുവിൽ നിന്നും ഈ ഉപകരണം നേടാനാകു"
+"ം."
+
+#: src/toolbox/gegl-operation.xml:60(para)
+msgid ""
+"In addition to this tool for performing special <acronym>GEGL</acronym> "
+"operations you can configure <acronym>GIMP</acronym> to <link linkend=\"gimp-"
+"config-use-gegl\">use GEGL</link> for all color operations."
+msgstr ""
+"പ്രത്യേക <acronym>GEGL</acronym> ഓപ്പറേഷനുകൾ നടത്താൻ ഈ ഉപകരണം പുറമേ നിങ്ങൾക"
+"്ക് എല്ലാ നിറം പ്രവർത്തനങ്ങൾക്ക് <link linkend=\"gimp- config-use-gegl\">us"
+"e GEGL</link> ലേക്ക് <acronym>GIMP</acronym> ക്രമീകരിക്കാം."
+
+#: src/toolbox/gegl-operation.xml:72(title)
+msgid "GEGL Operation tool options"
+msgstr ""
+"GEGL ഓപ്പറേഷൻ ഉപകരണം ഓപ്ഷനുകൾ"
+
+#: src/toolbox/gegl-operation.xml:79(para)
+msgid "GEGL Operation tool with no operation selected."
+msgstr ""
+"തിരഞ്ഞെടുത്ത യാതൊരു പ്രവർത്തനം GEGL ഓപ്പറേഷൻ ഉപകരണം."
+
+#: src/toolbox/gegl-operation.xml:85(term)
+msgid "Operation"
+msgstr ""
+"ഓപ്പറേഷൻ"
+
+#: src/toolbox/gegl-operation.xml:87(para)
+msgid ""
+"Click on this button to select the operation you want to apply to the active "
+"selection or, if there is no selection, to the active layer."
+msgstr ""
+"നിങ്ങൾ സജീവ നിരക്കു അല്ലെങ്കിൽ, സജീവ പാളി എന്നിവ നിരക്കു ഉണ്ടെങ്കിൽ അപേക്ഷി"
+"ക്കാൻ ആഗ്രഹിക്കുന്ന ഓപ്പറേഷൻ തിരഞ്ഞെടുക്കാൻ ഈ ബട്ടണിൽ ക്ലിക്ക് ചെയ്യുക."
+
+#: src/toolbox/gegl-operation.xml:92(para)
+msgid ""
+"Some of these operations are very basic operations like <quote>color</quote> "
+"which fills the active selection or layer with the specified color, while "
+"operations like <quote>fractal-explorer</quote> produce fairly complex "
+"patterns &mdash; just like a <link linkend=\"filters-render\">rendering "
+"filter</link>."
+msgstr ""
+"വെറും ഒരു <link linkend=\"filters-render\">rendering filter</link> പോലെ - "
+"ഈ പ്രവർത്തനങ്ങളിൽ ചിലത് വളരെ അടിസ്ഥാന <quote>color</quote> പോലുള്ള <quote>"
+"fractal-explorer</quote> പോലുള്ള പ്രവർത്തനങ്ങൾ ഗംഭീരമായി സങ്കീർണ്ണതകൾ ഹാജര"
+"ാക്കണം അതേസമയം, വ്യക്തമാക്കിയ നിറം സജീവ നിരക്കു ലെയർ നിറയുന്നു തന്നേ."
+
+#: src/toolbox/gegl-operation.xml:100(para)
+msgid ""
+"Remember that this is an experimental tool, so some operations may not work "
+"or even crash <acronym>GIMP</acronym>. As a consquence, it doesn't make "
+"sense to describe the operations here as long as the GEGL Operation tool is "
+"experimental"
+msgstr ""
+"അതിനാൽ ചില പ്രവർത്തനങ്ങളെ പ്രവർത്തിക്കുന്നില്ലെങ്കിലോ പോലും വരില്ല <acron"
+"ym>GIMP</acronym> തുടരേ, ഇതൊരു പരീക്ഷണ ഉപകരണമാണ് ഓർക്കുക. ഒരു consquence പ"
+"ോലെ, നീണ്ട GEGL ഓപ്പറേഷൻ ഉപകരണം പരീക്ഷണാത്മക പോലെ ഇവിടെ ഓപ്പറേഷൻസ് വിശദീക"
+"രിക്കാനുള്ള അർത്ഥവുമില്ല"
+
+#: src/toolbox/gegl-operation.xml:109(term)
+msgid "Operation Settings"
+msgstr ""
+"ഓപ്പറേഷൻ ക്രമീകരണങ്ങൾ"
+
+#: src/toolbox/gegl-operation.xml:111(para)
+msgid ""
+"The operation settings depend on the selected <guilabel>Operation</guilabel>:"
+msgstr ""
+"ഓപ്പറേഷൻ ക്രമീകരണം തെരഞ്ഞെടുത്തിട്ടുണ്ട് <guilabel>Operation</guilabel> ആശ്"
+"രയിക്കുന്നത്:"
+
+#: src/toolbox/gegl-operation.xml:116(title)
+msgid "<quote>Operation Settings</quote> example"
+msgstr ""
+"<quote>Operation Settings</quote> ഉദാഹരണം"
+
+#: src/toolbox/gegl-operation.xml:123(para)
+msgid "GEGL operation <quote>Gaussian Blur</quote> selected."
+msgstr ""
+"GEGL ഓപ്പറേഷൻ <quote>Gaussian Blur</quote> തിരഞ്ഞെടുത്തു."
+
+#: src/toolbox/gegl-operation.xml:129(para)
+msgid ""
+"If the options of the selected <acronym>GEGL</acronym> operation are not "
+"self-explanatory (guess what's the purpose of the <quote>color</quote> "
+"operation's <quote>Color</quote> option) you can look for a corresponding "
+"non-<acronym>GEGL</acronym> tool. For example, the <link linkend=\"plug-in-"
+"fractalexplorer\">Fractal Explorer</link> filter may have the same or "
+"similar options as the <quote>fractal-explorer</quote> operation."
+msgstr ""
+"തിരഞ്ഞെടുത്ത <acronym>GEGL</acronym> ഓപ്പറേഷന്റെ ഓപ്ഷനുകൾ സ്വയം വിശദീകരിക്ക"
+"ുന്ന (<quote>color</quote> ഓപ്പറേഷൻ ന്റെ <quote>Color</quote> ഓപ്ഷൻ ഉദ്ദേശ്"
+"യം തുടർന്ന് എന്താണെന്ന് ഊഹിക്കുക) എങ്കിൽ നിങ്ങൾ ഒരു സദൃശ്യമായ നോൺ <acronym"
+">GEGL</acronym> ഉപകരണം നോക്കുക. ഉദാഹരണത്തിന്, <link linkend=\"plug-in- fra"
+"ctalexplorer\">Fractal Explorer</link> അരിപ്പ <quote>fractal-explorer</quot"
+"e> ഓപ്പറേഷൻ പോലെ സമാനമായ ഓപ്ഷനുകൾ ഉണ്ടായേക്കാം."
+
+#: src/toolbox/gegl-operation.xml:138(para)
+msgid ""
+"Or you can make use of the nice realtime preview feature and just experiment "
+"with different settings."
+msgstr ""
+"അല്ലെങ്കിൽ നിങ്ങൾക്ക് ആശംസകള് തൽസമയ പ്രിവ്യൂ സവിശേഷത ഉപയോഗപ്പെടുത്താനാകും "
+"വെറും വിവിധ ക്രമീകരണങ്ങൾ പരീക്ഷണം."
+
+#: src/toolbox/gegl-operation.xml:145(term)
+msgid "Preview"
+msgstr ""
+"പ്രിവ്യൂ"
+
+#: src/toolbox/gegl-operation.xml:147(para)
+msgid ""
+"If this options is checked, as it is by default, you will get an on-canvas "
+"preview of the selected operation as soon as the operation in finished. You "
+"will have to press the <guibutton>OK</guibutton> button to actually apply "
+"the operation to the image."
+msgstr ""
+"ഈ ഓപ്ഷനുകൾ ചെക്കുചെയ്തിട്ടുണ്ടെങ്കിൽ, അത് സ്ഥിരമായി പോലെ, നിങ്ങൾ തിരഞ്ഞെടു"
+"ത്ത പ്രവർത്തനത്തിന്റെ ഓൺ-ക്യാൻവാസ് പ്രിവ്യൂ ഉടൻ പൂർത്തിയായി ലെ ഓപ്പറേഷൻ ലഭി"
+"ക്കും. യഥാർത്ഥത്തിൽ ചിത്രത്തിലേക്ക് ഓപ്പറേഷൻ പ്രയോഗിക്കാൻ <guibutton>OK</g"
+"uibutton> ബട്ടൺ അമർത്തുക ഉണ്ടായിരിക്കും."
+
+#: src/toolbox/gegl-operation.xml:158(title)
+msgid "The tool buttons"
+msgstr ""
+"ഉപകരണം ബട്ടണുകൾ"
+
+#: src/toolbox/gegl-operation.xml:160(term)
+msgid "Reset"
+msgstr ""
+"റീസെറ്റ്"
+
+#: src/toolbox/gegl-operation.xml:162(para)
+msgid ""
+"Pressing this button resets the operation settings the to their defaults."
+msgstr ""
+"ഈ ബട്ടൺ അമർത്തിയാൽ ഓപ്പറേഷൻ അവരുടെ സ്ഥിര സജ്ജീകരണങ്ങൾ പുനഃസജ്ജമാക്കുന്നു."
+
+#: src/toolbox/gegl-operation.xml:169(term)
+msgid "Cancel"
+msgstr ""
+"റദ്ദാക്കുക"
+
+#: src/toolbox/gegl-operation.xml:171(para)
+msgid ""
+"Clicking on this button aborts the <acronym>GEGL</acronym> operation tool "
+"and leaves your image untouched. This is equivalent to close the dialog "
+"window using the usual <guibutton>Close</guibutton> button provided by your "
+"window manager."
+msgstr ""
+"ഈ ബട്ടൺ ക്ലിക്കുചെയ്യുന്നത് <acronym>GEGL</acronym> ഓപ്പറേഷൻ പ്രയോഗം നിറ്ത"
+"്തുന്നു നിങ്ങളുടെ ഇമേജ് സ്പർശിക്കില്ല വിടുന്നു. ഇത് നിങ്ങളുടെ ജാലക മാനേജർ ന"
+"ൽകിയ പതിവുപോലെ <guibutton>Close</guibutton> ബട്ടൺ ഉപയോഗിച്ച് ഡയലോഗ് വിൻഡ"
+"ോ ക്ലോസ് തുല്യമാണ്."
+
+#: src/toolbox/gegl-operation.xml:181(term)
+msgid "OK"
+msgstr ""
+"ശരി"
+
+#: src/toolbox/gegl-operation.xml:183(para)
+msgid ""
+"You have to press this button to apply the selected operation to the image. "
+"Then the dialog window will be closed."
+msgstr ""
+"നിങ്ങൾ ചിത്രത്തിലേക്ക് തിരഞ്ഞെടുത്ത ഓപ്പറേഷൻ പ്രയോഗിക്കുന്നതിന് ഈ ബട്ടൺ അമ"
+"ർത്തുക. അപ്പോൾ ഡയലോഗ് വിൻഡോ അടയ്ക്കും."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/measure.xml:37(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-measure.png'; "
+"md5=03e5c86aa8f9b0519054897866300c4a"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-measure.png'; "
+"md5=03e5c86aa8f9b0519054897866300c4a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/measure.xml:176(None)
+msgid ""
+"@@image: 'images/toolbox/measure-tool-options.png'; "
+"md5=462bb431160fccab083a3b7052e9d0a5"
+msgstr ""
+"@@image: 'images/toolbox/measure-tool-options.png'; "
+"md5=462bb431160fccab083a3b7052e9d0a5"
+
+#: src/toolbox/measure.xml:16(title) src/toolbox/measure.xml:19(secondary)
+#: src/toolbox/measure.xml:22(primary)
+msgid "Measure"
+msgstr ""
+"അളവ്"
+
+#: src/toolbox/measure.xml:25(primary)
+msgid "Measure a distance"
+msgstr ""
+"ഒരു ദൂരം അളക്കുക"
+
+#: src/toolbox/measure.xml:28(primary)
+msgid "Measure an angle"
+msgstr ""
+"ഒരു കോണിൽ അളക്കുക"
+
+#: src/toolbox/measure.xml:31(primary)
+msgid "Measure a surface"
+msgstr ""
+"ഉപരിതല അളക്കുക"
+
+#: src/toolbox/measure.xml:34(title)
+msgid "Measure tool"
+msgstr ""
+"അളക്കുക ഉപകരണം"
+
+#: src/toolbox/measure.xml:41(para)
+msgid ""
+"The Measure Tool is used to gain knowledge about pixel distances in your "
+"working image. By clicking and holding the mouse button, you can determine "
+"the angle and number of pixels between the point of click and where the "
+"mouse pointer is located. The information is displayed on the status bar or "
+"can also be displayed in the Info Window."
+msgstr ""
+"അളക്കുക ടൂൾ നിങ്ങളുടെ പ്രവൃത്തി സ്വരൂപത്തിൽ പിക്സൽ ദൂരത്ത് കുറിച്ച് അറിവ് ന"
+"േടാൻ ഉപയോഗിക്കുന്നു. മൌസ് ബട്ടൺ ക്ളിക്ക് പിടിച്ച് നിങ്ങൾ ക്ലിക്കിൽ പോയിന"
+"്റ് എവിടെ മൌസ് പോയിന്റർ സ്ഥിതി തമ്മിലുള്ള പിക്സൽ ആംഗിളും എണ്ണം കണക്കാക്കി"
+"യാണ്. വിവരങ്ങൾ സ്റ്റാറ്റസ് ബാർ പ്രദർശിപ്പിക്കണം അല്ലെങ്കിൽ പുറമേ വിവര ജാലകം"
+" പ്രദർശിപ്പിച്ച്."
+
+#: src/toolbox/measure.xml:48(para)
+msgid ""
+"When you pass the mouse pointer over the end point it turns to a move "
+"pointer. Then if you click you can resume the measure."
+msgstr ""
+"നിങ്ങൾ അവസാന പോയിന്റ് മൌസ് പോയിന്റർ കടന്നു അത് ഒരു നീക്കം പോയിന്റർ തിരി"
+"യുന്നു. അപ്പോൾ നിങ്ങൾ ക്ലിക്ക് ചെയ്താൽ നിങ്ങൾ തുലാസിൽ പുനരാരംഭിക്കാവുന്നതാ"
+"ണ്."
+
+#: src/toolbox/measure.xml:54(title)
+msgid "Status Bar"
+msgstr ""
+"സ്റ്റാറ്റസ് ബാർ"
+
+#: src/toolbox/measure.xml:61(para)
+msgid "Distance between the original point and the mouse pointer, in pixels."
+msgstr ""
+"യഥാർത്ഥ പോയിന്റ് മൌസ് പോയിന്റർ, പിക്സലിൽ തമ്മിലുള്ള ദൂരം."
+
+#: src/toolbox/measure.xml:67(para)
+msgid "Angle, in every quadrant, from 0° to 90°."
+msgstr ""
+"ആങ്കിൾ, ഓരോ മേലെയായി ലെ, 0 ° 90 ലേക്ക് ° നിന്ന്."
+
+#: src/toolbox/measure.xml:72(para)
+msgid "Pointer coordinates relative to the original point."
+msgstr ""
+"പോയിന്റർ യഥാർത്ഥ പോയിന്റുമായി ബന്ധപ്പെട്ട കോർഡിനേറ്റുകളുടെ."
+
+#: src/toolbox/measure.xml:55(para)
+msgid ""
+"Information is displayed in the <link linkend=\"gimp-image-window-status-bar"
+"\">status bar</link>, at the bottom of the Image window: <placeholder-1/>"
+msgstr ""
+"PLACEHOLDER,-101762: വിവരം ചിത്രം വിൻഡോയുടെ താഴെയുള്ള, <link linkend=\"gim"
+"p-image-window-status-bar \">status bar</link> പ്രദർശിപ്പിച്ചിരിക്കുന്നു"
+
+#: src/toolbox/measure.xml:84(para)
+msgid ""
+"You can get to the Measure Tool from the image-menu through: "
+"<menuchoice><guimenu>Tools</guimenu><guimenuitem>Measure</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ വഴി ഇമേജ്-മെനുവിൽ നിന്നും മെഷർ ടൂൾ നേടാനാകും: <menuchoice><guimenu>T"
+"ools</guimenu><guimenuitem>Measure</guimenuitem></menuchoice>,"
+
+#: src/toolbox/measure.xml:93(para)
+msgid ""
+"or by clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/"
+"toolbox/stock-tool-measure-22.png\"/></guiicon> in Toolbox."
+msgstr ""
+"അല്ലെങ്കിൽ ഉപകരണം ഐക്കണിൽ ക്ലിക്കുചെയ്ത്: പണിസഞ്ചിയിൽ <guiicon><inlinegraph"
+"ic fileref=\"images/ toolbox/stock-tool-measure-22.png\" /></guiicon>."
+
+#: src/toolbox/measure.xml:110(para)
+msgid ""
+"Holding down the <keycap>Shift</keycap> allows to start a new measure from "
+"the pointed point without deleting the previous measure. Angle is measured "
+"from the previous line and not from the default horizontal. The mouse "
+"pointer goes with a <quote>+</quote> sign. So, you can <emphasis>measure any "
+"angle</emphasis> on the image."
+msgstr ""
+"<keycap>Shift</keycap> താഴേയ്ക്കാക്കുമ്പോൾ മുൻ അളവു ഇല്ലാതാക്കാതെ തന്നെ കൂ"
+"ർത്തതും പോയിന്റ് നിന്നും ഒരു പുതിയ അളവു ആരംഭിക്കാൻ അനുവദിക്കുന്നു. ആംഗിൾ മ"
+"ുമ്പത്തെ ലൈനിൽ നിന്നും അല്ല സ്ഥിര തിരശ്ചീനമായി അളക്കുന്നത്. മൗസ് സൂചികയെ ഒര"
+"ു <quote>+</quote> അടയാളം പോകുന്നു. അതുപോലെ, നിങ്ങൾ ചിത്രത്തിന്റെ <emphas"
+"is>measure any angle</emphasis> കഴിയും."
+
+#: src/toolbox/measure.xml:123(para)
+msgid ""
+"Holding down the <keycap>Ctrl</keycap> key puts the tool into constrained "
+"straight line mode. The orientation of the line is constrained to the "
+"nearest multiple of 15 degrees."
+msgstr ""
+"<keycap>Ctrl</keycap> കീ അമർത്തിപ്പിടിക്കുക നിർബന്ധിച്ചു വര മോഡിലേക്ക് പ്ര"
+"യോഗം ഇടുന്നു. ലൈനിന്റെ ഓറിയന്റേഷൻ 15 ഡിഗ്രി അടുത്തുള്ള ലേക്ക് നിർബന്ധിതനായ"
+"ാൽ."
+
+#: src/toolbox/measure.xml:128(para)
+msgid ""
+"<keycap>Ctrl</keycap> key pressed and click on an end point creates a "
+"horizontal guide. The mouse pointer goes with the <guiicon><inlinegraphic "
+"fileref=\"images/toolbox/measure-horiz.png\"/></guiicon> icon."
+msgstr ""
+"അന്തിമ പോയിന്റ് തിക്കിക്കൊണ്ടിരിക്കയിൽ ക്ലിക്ക് <keycap>Ctrl</keycap> കീ "
+"ഒരു തിരശ്ചീന ഗൈഡ് സൃഷ്ടിക്കുന്നു. മൗസ് പോയിന്റർ <guiicon><inlinegraphic fi"
+"leref=\"images/toolbox/measure-horiz.png\" /></guiicon> ഐക്കൺ പോകുന്നു."
+
+#: src/toolbox/measure.xml:139(keycap) src/toolbox/measure.xml:153(keycap)
+msgid "Alt"
+msgstr ""
+"സകലതും"
+
+#: src/toolbox/measure.xml:141(para)
+msgid ""
+"<keycap>Alt</keycap> key and click on an end point creates a vertical guide. "
+"The mouse pointer goes with the <guiicon><inlinegraphic fileref=\"images/"
+"toolbox/measure-vert.png\"/></guiicon> icon."
+msgstr ""
+"<keycap>Alt</keycap> കീ അന്തിമ പോയിന്റ് ക്ലിക്ക് ഒരു ലംബമായ ഗൈഡ് സൃഷ്ടിക്ക"
+"ുന്നു. മൗസ് പോയിന്റർ <guiicon><inlinegraphic fileref=\"images/ toolbox/mea"
+"sure-vert.png\" /></guiicon> ഐക്കൺ പോകുന്നു."
+
+#: src/toolbox/measure.xml:156(para)
+msgid ""
+"This key combination and click on a measure line allows to move the measure."
+msgstr ""
+"ഈ കീ കോമ്പിനേഷൻ ഒരു ലൈനിനെ ക്ലിക്ക് അളവും നീക്കാൻ അനുവദിക്കുന്നു."
+
+#: src/toolbox/measure.xml:160(para)
+msgid ""
+"<keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap></keycombo> key "
+"combination and click on an end point creates a vertical and a horizontal "
+"guides."
+msgstr ""
+"<keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap></keycombo> കീ കോമ്പിനേ"
+"ഷൻ ഒരു അന്തിമ പോയിന്റ് ക്ലിക്ക് ഒരു ഇവയെ ഒരു തിരശ്ചീന ഗൈഡുകൾ സൃഷ്ടിക്കുന്ന"
+"ു."
+
+#: src/toolbox/measure.xml:172(title)
+msgid "<quote>Measure</quote> tool options"
+msgstr ""
+"<quote>Measure</quote> ഉപകരണം ഓപ്ഷനുകൾ"
+
+#: src/toolbox/measure.xml:182(term)
+msgid "Use Info Window"
+msgstr ""
+"വിവര ജാലകം ഉപയോഗിക്കുക"
+
+#: src/toolbox/measure.xml:184(para)
+msgid ""
+"This option will display an Info Window dialog that details the measure tool "
+"results. The results are more complete on the status bar."
+msgstr ""
+"ഈ ഓപ്ഷൻ അളവു ഉപകരണം ഫലങ്ങൾ വിശദാംശങ്ങള് ഒരു വിവരങ്ങളും വിൻഡോ ഡയലോഗ് പ്രദർ"
+"ശിപ്പിക്കും. സ്റ്റാറ്റസ് ബാറിൽ ഫലങ്ങൾ ൽ കൂടുതൽ പൂർത്തിയായില്ല."
+
+#: src/toolbox/measure.xml:195(title)
+msgid "Measuring surfaces"
+msgstr ""
+"അളക്കൽ ഇരുഭാഗത്തും"
+
+#: src/toolbox/measure.xml:196(para)
+msgid ""
+"You can't measure surfaces directly, but you can use the <link linkend="
+"\"gimp-histogram-dialog\">Histogram</link> that gives you the number of "
+"pixels in a selection."
+msgstr ""
+"നേരിട്ട് ഇരുഭാഗത്തും അളക്കാൻ കഴിയില്ല, എന്നാൽ നിങ്ങൾ ഒരു നിര ലെ പിക്സലുകളുട"
+"െ എണ്ണം നൽകുന്ന <link linkend=\"gimp-histogram-dialog\">Histogram</link> ഉപ"
+"യോഗിക്കാം."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/selection-tools.xml:12(None)
+msgid ""
+"@@image: 'images/toolbox/selection-tools.png'; "
+"md5=e2fc21e367e921311e468be7b3c22553"
+msgstr ""
+"@@image: 'images/toolbox/selection-tools.png'; "
+"md5=e2fc21e367e921311e468be7b3c22553"
+
+#: src/toolbox/selection-tools.xml:6(title)
+msgid "Selection Tools"
+msgstr ""
+"തിരഞ്ഞെടുക്കൽ ഉപകരണങ്ങൾ"
+
+#: src/toolbox/selection-tools.xml:9(title)
+msgid "The Selection tools"
+msgstr ""
+"തിരഞ്ഞെടുക്കൽ ഉപകരണങ്ങൾ"
+
+#: src/toolbox/color-tools.xml:11(title)
+msgid "Color Tools"
+msgstr ""
+"വർണ്ണ ഉപകരണങ്ങൾ"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/path.xml:34(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-path.png'; "
+"md5=56635d1500ad1b35949947801425419c"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-path.png'; "
+"md5=56635d1500ad1b35949947801425419c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/path.xml:119(None)
+msgid ""
+"@@image: 'images/toolbox/path-tool-options.png'; "
+"md5=dd34fb04181407f84c32864d3313257a"
+msgstr ""
+"@@image: 'images/toolbox/path-tool-options.png'; "
+"md5=dd34fb04181407f84c32864d3313257a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/path.xml:149(None)
+msgid ""
+"@@image: 'images/tool-options/path-stroke.png'; "
+"md5=9941b9c2e027f0ee447ae376ff482ff5"
+msgstr ""
+"@@image: 'images/tool-options/path-stroke.png'; "
+"md5=9941b9c2e027f0ee447ae376ff482ff5"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/path.xml:162(None)
+msgid ""
+"@@image: 'images/tool-options/path-curve.png'; "
+"md5=e1b05a605a91b0c8df3745e0a047bed5"
+msgstr ""
+"@@image: 'images/tool-options/path-curve.png'; "
+"md5=e1b05a605a91b0c8df3745e0a047bed5"
+
+#: src/toolbox/path.xml:18(title) src/toolbox/path.xml:24(primary)
+msgid "Paths"
+msgstr ""
+"പാഥുകൾ"
+
+#: src/toolbox/path.xml:21(secondary)
+msgid "Path"
+msgstr ""
+"പാത"
+
+#: src/toolbox/path.xml:28(primary)
+msgid "Bézier's curve"
+msgstr ""
+"അര്ധവൃത്തമാക്കുക ന്റെ കർവ്"
+
+#: src/toolbox/path.xml:31(title)
+msgid "Paths tool"
+msgstr ""
+"പാഥുകൾ ഉപകരണം"
+
+#: src/toolbox/path.xml:38(para)
+msgid ""
+"The Paths tool allows to create complex selections called Bézier Curves, a "
+"bit like Lasso but with all the adaptability of vectorial curves. You can "
+"edit your curve, you can paint with your curve, or even save, import, and "
+"export the curve. You can also use paths to create geometrical figures. "
+"Paths have their own dialog box: <link linkend=\"gimp-path-dialog\">Dialog</"
+"link>."
+msgstr ""
+"വഴികളിലേക്ക് ഉപകരണം lasso പോലെ എന്നാൽ vectorial കർവുകൾ എല്ലാ വഴക്കം ഒരു ബി"
+"റ്റ്, അര്ധവൃത്തമാക്കുക കർവ്സ് വിളിച്ചു സങ്കീർണ്ണമായ തിരഞ്ഞെടുക്കലുകൾ ഉണ്ടാക"
+"്കുന്നതിനായി അനുവദിക്കുന്നു. നിങ്ങളുടെ കർവ് എഡിറ്റ് ചെയ്യാനും നിങ്ങളുടെ കർവ"
+"് ഉപയോഗിച്ച് പെയിന്റ് ചെയ്യാം, അല്ലെങ്കിൽ പോലും സംരക്ഷിക്കുക, ഇറക്കുമതി, "
+"കര്വ് കയറ്റുമതി ചെയ്യാൻ കഴിയും. നിങ്ങൾക്ക് ജയാമിതീയ കണക്കുകൾ സൃഷ്ടിക്കാൻ പാ"
+"തകളെ ഉപയോഗിക്കാം. <link linkend=\"gimp-path-dialog\">Dialog</link>: വഴികളി"
+"ലേക്ക് സ്വന്തം ഡയലോഗ് ബോക്സ് ഞങ്ങൾക്കുണ്ട്."
+
+#: src/toolbox/path.xml:49(para)
+msgid "You can get this tool in several ways:"
+msgstr ""
+"നിങ്ങൾ നിരവധി മാർഗത്തിൽ ഈ ഉപകരണം നേടാനാകും:"
+
+#: src/toolbox/path.xml:52(para)
+msgid ""
+"In the image menu through <menuchoice><guimenu>Tools</"
+"guimenu><guisubmenu>Paths</guisubmenu></menuchoice>,"
+msgstr ""
+"<menuchoice><guimenu>Tools</guimenu><guisubmenu>Paths</guisubmenu></menucho"
+"ice> വഴി ഇമേജ് മെനുവിൽ,"
+
+#: src/toolbox/path.xml:61(para)
+msgid ""
+"By clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/toolbox/"
+"stock-tool-path-22.png\"/></guiicon> in Toolbox,"
+msgstr ""
+"റ്റൂൾ ക്ലിക്കുചെയ്യുന്നതിലൂടെ: പണിസഞ്ചിയിൽ <guiicon><inlinegraphic fileref="
+"\"images/toolbox/ stock-tool-path-22.png\" /></guiicon>,"
+
+#: src/toolbox/path.xml:71(para)
+msgid "or by using the <keycap>B</keycap> keyboard shortcut."
+msgstr ""
+"അല്ലെങ്കിൽ <keycap>B</keycap> കീബോർഡ് കുറുക്കുവഴി ഉപയോഗിച്ച്."
+
+#: src/toolbox/path.xml:81(para)
+msgid ""
+"Help messages pop up at the bottom of the image window to help you about all "
+"these keys."
+msgstr ""
+"സന്ദേശങ്ങൾ ഈ എല്ലാ കീകളെക്കുറിച്ച് നിങ്ങളെ സഹായിക്കാൻ ചിത്രം വിൻഡോയുടെ താഴ"
+"െയുള്ള പോപ്പ് അപ്പ് സഹായിക്കുക."
+
+#: src/toolbox/path.xml:90(para)
+msgid ""
+"This key has several functions depending on context. See Options for more "
+"details."
+msgstr ""
+"ഈ കീ സന്ദർഭത്തെ അടിസ്ഥാനമാക്കി നിരവധി പ്രവർത്തനങ്ങൾ ഉണ്ട്. കൂടുതൽ വിവരങ്ങൾക"
+"്ക് ഓപ്ഷനുകൾ കാണുക."
+
+#: src/toolbox/path.xml:97(term)
+msgid "<keycap>Ctrl</keycap> ; <keycap>Alt</keycap>"
+msgstr ""
+"<keycap>Ctrl</keycap>; <keycap>Alt</keycap>"
+
+#: src/toolbox/path.xml:99(para)
+msgid ""
+"Three modes are available to work with the Paths tool: <guilabel>Design</"
+"guilabel>,<guilabel>Edit</guilabel> and <guilabel>Move</guilabel>. "
+"<keycap>Ctrl</keycap> key toggles between Design and Edit. <keycap>Alt</"
+"keycap> (or <keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap></keycombo>) "
+"key toggles between Design and Move."
+msgstr ""
+"<guilabel>Design</guilabel>, <guilabel>Edit</guilabel> ആൻഡ് <guilabel>Move<"
+"/guilabel>: മൂന്ന് മോഡുകൾ വഴികളിലേക്ക് ഉപകരണം പ്രവർത്തിക്കാൻ ലഭ്യമാണ്. ഡിസ"
+"ൈൻ എഡിറ്റ് തമ്മിലുള്ള <keycap>Ctrl</keycap> കീ ടോഗിൾ. <keycap>Alt</keycap>"
+" (അല്ലെങ്കിൽ <keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap></keycombo>"
+") ഡിസൈൻ നീക്കുന്നത് തമ്മിലുള്ള കീ ടോഗിൾ."
+
+#: src/toolbox/path.xml:115(title)
+msgid "<quote>Path</quote> tool options"
+msgstr ""
+"<quote>Path</quote> ഉപകരണം ഓപ്ഷനുകൾ"
+
+#: src/toolbox/path.xml:137(term)
+msgid "Design Mode"
+msgstr ""
+"രൂപകൽപ്പന മോഡ്"
+
+#: src/toolbox/path.xml:139(para)
+msgid ""
+"By default, this tool is in <guilabel>Design</guilabel> mode. You draw the "
+"path by clicking successively. You can move control points by clicking on "
+"them and dragging them. Between control points are segments."
+msgstr ""
+"സ്വതവേ, ഈ ഉപകരണം <guilabel>Design</guilabel> മോഡിൽ ആണ്. നിങ്ങൾ തുടർച്ചയായി"
+" ക്ലിക്കുചെയ്ത് പാത വരയ്ക്കാൻ. നീ അവരെ ക്ലിക്കുചെയ്ത് അവരെ ഇഴച്ച് കൺട്രോൾ "
+"പോയിന്റുകൾ നീക്കാം. കൺട്രോൾ പോയിന്റുകൾ തമ്മിലുള്ള സെഗ്മെന്റുകൾ ആകുന്നു."
+
+#: src/toolbox/path.xml:152(para)
+msgid "Numbers are steps to draw a two segments straight path."
+msgstr ""
+"നമ്പറുകൾ ഒരു രണ്ടു സെഗ്മെന്റുകൾ നേരായ പാത വരയ്ക്കാൻ ഘട്ടങ്ങളുണ്ട്."
+
+#: src/toolbox/path.xml:165(para)
+msgid ""
+"Curved segments are easily built by dragging a segment or a new node. Blue "
+"arrows indicate curve. Two little handles appear that you can drag to bend "
+"the curve."
+msgstr ""
+"വക്ര സെഗ്മെന്റുകൾക്ക് എളുപ്പത്തിൽ ഒരു സെഗ്മെന്റ് അല്ലെങ്കിൽ ഒരു പുതിയ നോഡ്"
+" ഇഴച്ച് നിർമ്മിച്ചിരിക്കുന്നത്. ബ്ലൂ അസ്ത്രങ്ങൾ കർവ് സൂചിപ്പിക്കുന്നു. രണ്ട"
+"് ചെറിയ ഹാൻഡിലുകളിൽ നിങ്ങൾ കർവ് പേറി വലിക്കുക കഴിയുന്ന ദൃശ്യമാകും."
+
+#: src/toolbox/path.xml:174(para)
+msgid ""
+"To quickly close the curve, press <keycap>Ctrl</keycap> key and click on the "
+"initial control point. In previous versions, clicking inside a closed path "
+"converted it into Selection. Now, you can use the <guibutton>Create "
+"selection from path</guibutton> button or <guiicon><inlinegraphic fileref="
+"\"images/dialogs/stock-selection-16.png\"/></guiicon> the <emphasis>Path to "
+"Selection</emphasis> button in the Path Dialog."
+msgstr ""
+"വേഗം കർവ് അമർത്തുക <keycap>Ctrl</keycap> കീ അടച്ച് പ്രാരംഭ നിയന്ത്രണ പോയിന"
+"്റിൽ ക്ലിക്കുചെയ്യുക. മുൻ പതിപ്പുകളിൽ, ഒരു അടച്ച പാത അകത്ത് ക്ളിക്ക് തിരഞ്ഞ"
+"െടുക്കൽ മാറ്റി. ഇപ്പോൾ നിങ്ങൾ പാത ഡയലോഗിൽ <emphasis>Path to Selection</em"
+"phasis> ബട്ടൺ <guibutton>Create selection from path</guibutton> ബട്ടൺ അല്ലെ"
+"ങ്കിൽ <guiicon><inlinegraphic fileref=\"images/dialogs/stock-selection-16.p"
+"ng\" /></guiicon> ഉപയോഗിക്കാം."
+
+#: src/toolbox/path.xml:189(para)
+msgid ""
+"When you have two handles, they work symmetrically by default. Release the "
+"pressure on the mouse button to move handles individually. The "
+"<keycap>Shift</keycap> key will force the handles to be symmetrical again."
+msgstr ""
+"നിങ്ങൾ രണ്ടു കൈപ്പിടികൾ വരുമ്പോൾ അവർ സ്ഥിരമായി സുഘടനയിൽ ജോലി. വ്യക്തിഗതമാ"
+"യി നീക്കുന്നതിന് മൌസ് ബട്ടൺ പ്രഷർ റിലീസ്. <keycap>Shift</keycap> കീ വീണ്ടു"
+"ം പ്രതിസമതയോടെ ആയിരിക്കാൻ ഹാൻഡിലുകളോ തള്ളിവിടുന്നതാണ്."
+
+#: src/toolbox/path.xml:196(para)
+msgid "Several functions are available with this mode:"
+msgstr ""
+"എന്ത് ഈ മോഡിൽ ലഭ്യമാണ്:"
+
+#: src/toolbox/path.xml:197(para)
+msgid ""
+"<emphasis>Add a new node</emphasis>: If the active node (a small empty "
+"circle after clicking on a node) is at the end of the path, the mouse "
+"pointer is a '+' sign and a new node is created, linked to the previous one "
+"by a segment. If the active node is on the path, the pointer is a square and "
+"you can create a new component to the path. This new component is "
+"independent from the other, but belongs to the path as you can see on the "
+"Path dialog. Pressing <keycap>Shift</keycap> forces the creation of a new "
+"component."
+msgstr ""
+"<emphasis>Add a new node</emphasis>: സജീവ നോഡ് (ഒരു നോഡ് ക്ലിക്കുചെയ്ത് ശ"
+"േഷം ഒരു ചെറിയ ശൂന്യമായ സർക്കിൾ) എങ്കിൽ പാത അറ്റത്തു, മൌസ് പോയിന്റർ ഒരു '+"
+"' അടയാളം ഒരു പുതിയ നോഡ് സൃഷ്ടിച്ചത് വിഭാഗത്തിൽ കഴിഞ്ഞ ഒന്നിലേക്ക് ലിങ്ക്ഡ്"
+". സജീവ നോഡ് പാതയിൽ എങ്കിൽ, പോയിന്റർ ഒരു കള്ളി നിങ്ങൾ പാതയിലേക്ക് പുതിയ ഘട"
+"കം സൃഷ്ടിക്കാൻ കഴിയും. ഈ പുതിയ ഘടകം മറ്റ് സ്വതന്ത്ര, എന്നാൽ നിങ്ങൾ പാത ഡയലേ"
+"ാഗും കാണുന്ന പോലെ പാതയിലേക്ക് വകയാണ്. അമർത്തുന്നത് <keycap>Shift</keycap> "
+"ഒരു പുതിയ ഘടകം സൃഷ്ടിക്ക് നിർബന്ധിക്കുന്നു."
+
+#: src/toolbox/path.xml:208(para)
+msgid ""
+"<emphasis>Move one or several nodes</emphasis>: On a node, the mouse pointer "
+"becomes a 4-arrows cross. You can click and drag it. You can select several "
+"nodes by <keycap>Shift</keycap> and click and move them by click and drag. "
+"Pressing <keycombo><keycap>Ctrl</keycap><keycap>Alt </keycap></keycombo> "
+"allows to move all the path, as a selection."
+msgstr ""
+"<emphasis>Move one or several nodes</emphasis>: ഒരു നോഡ് ന് മൌസ് പോയിന്റ"
+"ർ 4 അമ്പു ക്രോസ് മാറുന്നു. നിങ്ങൾക്ക് ക്ലിക്കുചെയ്ത് വലിച്ചിടാനാകും അതു. ന"
+"ിങ്ങൾ <keycap>Shift</keycap> നിരവധി നോഡുകൾ തിരഞ്ഞെടുത്ത് ക്ലിക്ക് ചെയ്ത് ക"
+"്ലിക്ക് ചെയ്ത് ഡ്രാഗ് അവരെ നീക്കാൻ കഴിയും. <keycombo><keycap>Ctrl</keycap><"
+"keycap>Alt </keycap></keycombo> അമർത്തുന്നത് ഒരു നിര പോലെ എല്ലാ പാത്ത് നീക"
+"്കാൻ അനുവദിക്കുന്നു."
+
+#: src/toolbox/path.xml:218(para)
+msgid ""
+"<emphasis>Modify handles</emphasis>: You have to Edit a node before. A "
+"handle appears. Drag it to bend the curve. Pressing <keycap>Shift</keycap> "
+"toggles to symmetric handles."
+msgstr ""
+"<emphasis>Modify handles</emphasis>: നിങ്ങൾ മുമ്പ് ഒരു നോഡ് ചിട്ടപ്പെടുത്ത"
+"ുക ഞങ്ങൾക്കുണ്ട്. ഒരു ഹാൻഡിൽ ലഭ്യമാകുന്നു. കർവ് കുലെക്കുന്നു വലിച്ചിടുക. സമ"
+"മിതീയഗ്രൂപ്പ് ഹാൻഡിലുകളിലൊന്നിൽ ലേക്കുള്ള <keycap>Shift</keycap> ടോഗിൾ അമ"
+"ർത്തുന്നത്."
+
+#: src/toolbox/path.xml:223(para)
+msgid ""
+"<emphasis>Modify segment</emphasis>: When the mouse pointer goes over a "
+"segment, it turns to a 4-arrows cross. Click-and-drag it to bend the "
+"segment. As soon as you move, handles appear at both ends of the segment. "
+"Pressing <keycap>Shift</keycap> key toggles to symmetric handles."
+msgstr ""
+"<emphasis>Modify segment</emphasis>: മൗസ് സൂചികയെ ഒരു സെഗ്മെന്റ് അടിക്കുമ്പ"
+"ോൾ, അത് ഒരു 4-അമ്പു ക്രോസ് തിരിയുന്നു. ക്ലിക്ക്-ആൻഡ്-വലിക്കുക സെഗ്മെന്റ് "
+"പേറി അതു. ഉടൻ നീങ്ങുമ്പോൾ, ഹാൻഡിലുകൾ വിഭാഗത്തിന്റെ രണ്ടറ്റവും ദൃശ്യമാകും. "
+"സമമിതീയഗ്രൂപ്പ് ഹാൻഡിലുകളിലൊന്നിൽ ലേക്ക് <keycap>Shift</keycap> കീ ടോഗിൾ "
+"അമർത്തുന്നത്."
+
+#: src/toolbox/path.xml:233(term)
+msgid "Edit Mode"
+msgstr ""
+"എഡിറ്റ് മോഡ്"
+
+#: src/toolbox/path.xml:235(para)
+msgid ""
+"<guilabel>Edit</guilabel> performs functions which are not available in "
+"<guilabel>Design</guilabel> mode. With this mode, you can work only on the "
+"existing path. Outside, the pointer is a small crossed circle (on the whole "
+"image if there is no path!) and you can do nothing."
+msgstr ""
+"<guilabel>Edit</guilabel> <guilabel>Design</guilabel> മോഡിൽ ലഭ്യമല്ല പ്രവർ"
+"ത്തനങ്ങൾ ചെയ്യുകയും ചെയ്യുന്നു. ഈ മോഡിൽ ഉപയോഗിച്ച്, മാത്രം നിലവിലുള്ള പാത"
+" പ്രവർത്തിക്കാം. (പാതയൊന്നും ഉണ്ടെങ്കിൽ മുഴുവൻ ചിത്രത്തിൽ!) പുറത്ത്, പോയി"
+"ന്റര് ഒരു ചെറിയ ക്രോസുചെയ്ത സർക്കിൾ ആണ്, നിങ്ങൾക്ക് ഒന്നും ചെയ്യാൻ കഴിയുകയ"
+"ില്ല."
+
+#: src/toolbox/path.xml:242(para)
+msgid ""
+"<emphasis>Add a segment between two nodes</emphasis>: Click on a node at one "
+"end of the path to activate it. The pointer is like a union symbol. Click on "
+"an other node to link both nodes. This is useful when you have to link "
+"unclosed components."
+msgstr ""
+"<emphasis>Add a segment between two nodes</emphasis>: അത് സജീവമാക്കുന്നതിന്"
+" പാതയുടെ ഒരു അറ്റത്തും ഒരു നോഡ് ക്ലിക്ക് ചെയ്യുക. പോയിന്റർ യൂണിയൻ ചിഹ്നം "
+"പോലെയാണ്. ഇരുവരും നോഡുകൾ കണ്ണികളുണ്ട് ഒരു മറ്റ് നോഡ് ക്ലിക്ക് ചെയ്യുക. ന"
+"ിങ്ങൾ ക്ലോസ് ഘടകങ്ങൾ ലിങ്കുചെയ്യാൻ എത്തുമ്പോൾ ഈ ഉപയോഗപ്രദമാണ്."
+
+#: src/toolbox/path.xml:249(para)
+msgid ""
+"<emphasis>Remove a segment from a path</emphasis>: While pressing "
+"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap></keycombo> key "
+"combination, point to a segment. Pointer turns to -. Click to delete the "
+"segment."
+msgstr ""
+"<emphasis>Remove a segment from a path</emphasis>: ഒരു വിഭാഗത്തിലെ <keycomb"
+"o><keycap>Shift</keycap><keycap>Ctrl</keycap></keycombo> കീ, പോയിൻറ് അമർത്"
+"തിക്കൊണ്ട്. പോയിന്റർ തിരിയുന്നു -. സെഗ്മെന്റ് ഇല്ലാതാക്കാൻ ക്ലിക്കുചെയ്യു"
+"ക."
+
+#: src/toolbox/path.xml:255(para)
+msgid ""
+"<emphasis>Add a node to a path</emphasis>: point to a segment. Pointer turns "
+"to +. Click where you want to place the new control point."
+msgstr ""
+"<emphasis>Add a node to a path</emphasis>: ഒരു വിഭാഗത്തിലെ പോയിന്റ്. പോയി"
+"ന്റർ + ൽ തിരിക്കുക. നിങ്ങൾ പുതിയ നിയന്ത്രണ പോയിന്റ് ആഗ്രഹിക്കുന്ന സ്ഥലത്ത്"
+" ക്ലിക്കുചെയ്യുക."
+
+#: src/toolbox/path.xml:260(para)
+msgid ""
+"<emphasis>Remove a node</emphasis>: While pressing <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap></keycombo> key combination, point to a node. "
+"Pointer turns to -. Click to delete the node."
+msgstr ""
+"<emphasis>Remove a node</emphasis>: ഒരു നോഡ് ലേക്ക് <keycombo><keycap>Shif"
+"t</keycap><keycap>Ctrl</keycap></keycombo> കീ, പോയിൻറ് അമർത്തിക്കൊണ്ട്. പ"
+"ോയിന്റർ തിരിയുന്നു -. നോഡ് ഇല്ലാതാക്കാൻ ക്ലിക്കുചെയ്യുക."
+
+#: src/toolbox/path.xml:265(para)
+msgid ""
+"<emphasis>Add a handle to a node</emphasis>: Point to a node. Pointer turns "
+"to small hand. Drag the node: handle appears. Pressing <keycap>Shift</"
+"keycap> toggles to symmetric handles."
+msgstr ""
+"<emphasis>Add a handle to a node</emphasis>: Point, നോഡ് ലേക്ക്. പോയിന്റർ"
+" ചെറിയ കൈ തിരിയുന്നു. നോഡ് ഡ്രാഗ്: ഹാൻഡിൽ ലഭ്യമാകുന്നു. സമമിതീയഗ്രൂപ്പ് ഹാ"
+"ൻഡിലുകളിലൊന്നിൽ ലേക്കുള്ള <keycap>Shift</keycap> ടോഗിൾ അമർത്തുന്നത്."
+
+#: src/toolbox/path.xml:272(para)
+msgid ""
+"<emphasis>Remove a handle from a node</emphasis>: While pressing "
+"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap></keycombo> key "
+"combination, point to a handle. The pointer doesn't turn to the expected - "
+"and remains a hand. Click to delete the handle."
+msgstr ""
+"<emphasis>Remove a handle from a node</emphasis>: ഒരു കൈകാര്യം <keycombo><k"
+"eycap>Shift</keycap><keycap>Ctrl</keycap></keycombo> കീ, പോയിൻറ് അമർത്തിക്"
+"കൊണ്ട്. പോയിന്റർ പ്രതീക്ഷിച്ച തിരിയുന്നു ഇല്ല - ഒരു കൈ തുടരുന്നു. ഹാൻഡിൽ "
+"ഇല്ലാതാക്കാൻ ക്ലിക്കുചെയ്യുക."
+
+#: src/toolbox/path.xml:280(para)
+msgid "No warning before removing a node, a segment or a handle."
+msgstr ""
+"ഒരു നോഡ് നീക്കംചെയ്യുന്നതിന് മുമ്പ് മുന്നറിയിപ്പ്, ഒരു സെഗ്മെന്റ് അല്ലെങ്ക"
+"ിൽ ഒരു ഹാൻഡിൽ."
+
+#: src/toolbox/path.xml:287(term)
+msgid "Move Mode"
+msgstr ""
+"മോഡ് നീക്കുക"
+
+#: src/toolbox/path.xml:289(para)
+msgid ""
+"<guilabel>Move</guilabel> mode allows to move one or all components of a "
+"path. Simply click on the path and drag it."
+msgstr ""
+"<guilabel>Move</guilabel> മോഡ് ഒരു പാതയുടെ ഒന്നോ എല്ലാ ഘടകങ്ങളും നീക്കാൻ "
+"അനുവദിക്കുന്നു. ലളിതമായി പാതയിലൂടെ ക്ലിക്ക് ചെയ്ത് ഡ്രാഗ്."
+
+#: src/toolbox/path.xml:293(para)
+msgid ""
+"If you have several components, only the selected one is moved. If you click "
+"and drag outside the path, all components are moved. Pressing <keycap>Shift</"
+"keycap> key toggles to move all components also."
+msgstr ""
+"നിരവധി ഘടകങ്ങൾ ഉണ്ടെങ്കിൽ, തിരഞ്ഞെടുത്ത ഒറ്റ മാറിക്കൊണ്ടിരിക്കും. ക്ലിക്കു"
+"ചെയ്ത് നിങ്ങളെ പാത പുറത്ത് വലിക്കുക, എല്ലാ ഘടകങ്ങളും നീക്കി. എല്ലാ ഘടകങ്ങളു"
+"ം നീക്കാൻ <keycap>Shift</keycap> കീ ടോഗിൾ അമർത്തുന്നത്."
+
+#: src/toolbox/path.xml:302(term)
+msgid "Polygonal"
+msgstr ""
+"ബഹുഭുജചിഹ്നം"
+
+#: src/toolbox/path.xml:304(para)
+msgid ""
+"With this option, segments are linear only. Handles are not available and "
+"segments are not bent when moving them."
+msgstr ""
+"ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് സെഗ്മെന്റുകൾക്ക് മാത്രമേ ലീനിയർ ആകുന്നു. ഹാൻഡിലുകളും ലഭ"
+"്യമല്ല അവരെ നീക്കുമ്പോൾ സെഗ്മെന്റുകൾ വളച്ച് അല്ല."
+
+#: src/toolbox/path.xml:311(term)
+msgid "Create selection from path"
+msgstr ""
+"മാർഗത്തിൽ നിന്ന് നിരക്കു സൃഷ്ടിക്കുക"
+
+#: src/toolbox/path.xml:313(para)
+msgid ""
+"This button allows creation of a selection that is based on the path in its "
+"present state. This selection is marked with the usual \"marching ants\". "
+"Note that the path is still present: current tool is still path tool and you "
+"can modify this path without modifying the selection that has become "
+"independent. If you change tool, the path becomes invisible, but it persists "
+"in Path Dialog and you can re-activate it."
+msgstr ""
+"ഈ ബട്ടൺ അതിന്റെ അവസ്ഥയിൽ പാത അധിഷ്ഠിതമായ ഒരു നിര സൃഷ്ടിക്ക് അനുവദിക്കുന്നു."
+" ഈ തിരഞ്ഞെടുപ്പ് പതിവിലും \"അര്ഹതയുള്ളത് ഉറുമ്പുകൾ\" കൊണ്ട് അടയാളപ്പെടുത്ത"
+"ി. പാത്ത് ഇപ്പോഴുമുണ്ട് ശ്രദ്ധിക്കുക: നിലവിലെ ഉപകരണം ഇപ്പോഴും പാത ഉപകരണമാ"
+"ണ് നിങ്ങൾ സ്വതന്ത്ര മാറിയിരിക്കുന്ന നിരക്കു വരുത്താതെ ഈ പാത പരിഷ്കരിക്കാനും"
+" കഴിയും. നിങ്ങൾ ഉപകരണം മാറ്റിയാൽ, പാത്ത് അദൃശ്യനായ മാറുന്നു, പക്ഷെ പാത ഡയലേ"
+"ാഗിൽ നിലനിൽക്കുകയാണെങ്കിൽ നിങ്ങൾ വീണ്ടും പ്രവർത്തനസജ്ജമാകും."
+
+#: src/toolbox/path.xml:322(para)
+msgid "If the path is not closed, GIMP will close it with a straight line."
+msgstr ""
+"പാത്ത് അടച്ചിട്ടില്ലെന്ന എങ്കിൽ ജിമ്പ് ഒരു വര അതു അടയ്ക്കും."
+
+#: src/toolbox/path.xml:325(para)
+msgid ""
+"As the help pop-up tells, pressing <keycap>Shift</keycap> when clicking on "
+"the button will add the new selection to an eventually pre-existent. "
+"Pressing the <keycap>Ctrl</keycap> will subtract the selection from the pre-"
+"existent and the <keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap></"
+"keycombo> key combination will intersect the two selections."
+msgstr ""
+"സഹായം പോപ്പ്-അപ്പ് പറയുന്നത്, ബട്ടൺ ക്ലിക്ക് <keycap>Shift</keycap> അമര്ത്"
+"തിയാല് ഒരു കാലാന്തരത്തിൽ പ്രീ നിലവിലില്ലാത്ത പുതിയ നിരക്കു ചേർക്കും. <keyca"
+"p>Ctrl</keycap> അമർത്തുന്നത് പ്രീ നിലവിലില്ലാത്ത നിന്ന് നിരക്കു കുറയ്ക്കേണ്"
+"ട ചെയ്യും <keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap></keycombo> "
+"കീ കോമ്പിനേഷൻ രണ്ടു തിരഞ്ഞെടുക്കലുകൾ കൂട്ടിമുട്ടുന്ന ചെയ്യും."
+
+#: src/toolbox/path.xml:336(term)
+msgid "Stroke path"
+msgstr ""
+"സ്ട്രോക്ക് പാത്ത്"
+
+#: src/toolbox/path.xml:338(para)
+msgid ""
+"In previous versions, you could access to this command only by the Edit sub-"
+"menu in the Image Menu. Now you can access to it also via this button. See "
+"<xref linkend=\"gimp-path-stroke\"/> and <xref linkend=\"gimp-using-paths\"/"
+">."
+msgstr ""
+"മുൻ പതിപ്പുകൾ, നിങ്ങൾ ചിത്ര മെനു എഡിറ്റ് sub- മെനുവിൽ വഴി ഈ കമാൻഡിന് ആക്സസ്"
+" ചെയ്യാൻ കഴിഞ്ഞു. ഇപ്പോൾ നിങ്ങൾ ഈ ബട്ടൺ വഴി എന്ന ആ ആക്സസ് ചെയ്യാൻ കഴിയും. "
+"<xref linkend=\"gimp-path-stroke\" /> ആൻഡ് <xref linkend=\"gimp-using-paths"
+"\" /> കാണുക."
+
+#: src/toolbox/path.xml:348(para)
+msgid ""
+"See the <link linkend=\"gimp-concepts-paths\"><quote>Path</quote></"
+"link>concept."
+msgstr ""
+"<link linkend=\"gimp-concepts-paths\"><quote>Path</quote></link> ആശയം കാണുക"
+"."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint-tools.xml:30(None)
+msgid ""
+"@@image: 'images/toolbox/brush-tools.png'; "
+"md5=88f0014c36fb4cffc8a89243c9a41e25"
+msgstr ""
+"@@image: 'images/toolbox/brush-tools.png'; "
+"md5=88f0014c36fb4cffc8a89243c9a41e25"
+
+#: src/toolbox/paint-tools.xml:12(title)
+#: src/toolbox/paint-tools.xml:15(primary)
+#: src/toolbox/paint-tools.xml:23(secondary)
+msgid "Paint Tools"
+msgstr ""
+"പെയിന്റ് ഉപകരണങ്ങൾ"
+
+#: src/toolbox/paint-tools.xml:19(secondary)
+msgid "Paint"
+msgstr ""
+"ചായം"
+
+#: src/toolbox/paint-tools.xml:27(title)
+msgid "The Paint Tools (Tools menu)"
+msgstr ""
+"പെയിന്റ് ഉപകരണങ്ങൾ (ഉപകരണങ്ങൾ മെനു)"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/zoom.xml:30(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-zoom.png'; "
+"md5=49c8040a2bdbc4fed9f8b1c4c7f84092"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-zoom.png'; "
+"md5=49c8040a2bdbc4fed9f8b1c4c7f84092"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/zoom.xml:108(None)
+msgid ""
+"@@image: 'images/toolbox/tool-options-zoom.png'; "
+"md5=1c41a84b725247dd717158688a460c13"
+msgstr ""
+"@@image: 'images/toolbox/tool-options-zoom.png'; "
+"md5=1c41a84b725247dd717158688a460c13"
+
+#: src/toolbox/zoom.xml:18(title) src/toolbox/zoom.xml:21(secondary)
+#: src/toolbox/zoom.xml:24(primary)
+msgid "Zoom"
+msgstr ""
+"സൂം"
+
+#: src/toolbox/zoom.xml:27(title)
+msgid "The <quote>Zoom</quote> tool in Toolbox"
+msgstr ""
+"പണിസഞ്ചിയിൽ <quote>Zoom</quote> ഉപകരണം"
+
+#: src/toolbox/zoom.xml:34(para)
+msgid ""
+"The Zoom Tool is used to change the zoom level of your working image. If you "
+"only click on the image, the zoom is applied to the whole image. But you can "
+"also click-and-drag the mouse pointer to create a zoom rectangle. Then, the "
+"action of this rectangle is better understood if the <quote>Allow window "
+"resizing</quote> option is unchecked: you can see that the content of this "
+"rectangle will be enlarged or reduced so that its biggest dimension fit the "
+"corresponding dimension of the image window (if the biggest dimension of the "
+"rectangle is width, then it will fit the width of the image window)."
+msgstr ""
+"സൂം ടൂൾ നിങ്ങളുടെ പ്രവൃത്തി ചിത്രത്തിന്റെ സൂം നില മാറ്റുന്നതിനായി ഉപയോഗിക്"
+"കുന്നു. നിങ്ങൾ മാത്രം ചിത്രം ക്ലിക്ക് ചെയ്താൽ, സൂം മുഴുവൻ ചിത്രം പ്രയോഗിക്"
+"കുന്നത്. പക്ഷേ ക്ലിക്ക്-ആൻഡ്-വലിച്ചിടാനാകും ഒരു സൂം ദീർഘചതുരം സൃഷ്ടിക്കാൻ മ"
+"ൗസ് സൂചികയെ. <quote>Allow window resizing</quote> ഓപ്ഷൻ പരിശോധിക്കാതെ എങ്ക"
+"ിൽ ഈ ചതരതിന് നടപടി മെച്ചപ്പെട്ട മനസ്സിലാക്കി: വലിയ മാനങ്ങൾ ചിത്രം വിൻഡോയുട"
+"െ ഇതേ മാനം fit അങ്ങനെ ഈ ദീർഘചതുരം ഉള്ളടക്കങ്ങൾ വികസിക്കും അല്ലെങ്കിൽ കുറച്ച"
+"ിട്ടുണ്ട് എന്ന് കാണാൻ കഴിയും (വലിയ മാനങ്ങൾ എങ്കിൽ സമകോണചതുർഭുജം പിന്നെ അത്"
+" ചിത്രം വിൻഡോയുടെ വീതി ഇന്നതല്ല, വീതി) ആണ്."
+
+#: src/toolbox/zoom.xml:50(para)
+msgid ""
+"You can get to the Zoom Tool from the image-menu through : "
+"<menuchoice><guimenu>Tools</guimenu><guisubmenu>Zoom</guisubmenu></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ വഴി ഇമേജ്-മെനുവിൽ നിന്ന് സൂം ടൂൾ പോകാനാകും: <menuchoice><guimenu>To"
+"ols</guimenu><guisubmenu>Zoom</guisubmenu></menuchoice>,"
+
+#: src/toolbox/zoom.xml:59(para)
+msgid ""
+"or by clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/"
+"toolbox/stock-tool-zoom-22.png\"/></guiicon> in Toolbox."
+msgstr ""
+"അല്ലെങ്കിൽ ഉപകരണം ഐക്കണിൽ ക്ലിക്കുചെയ്ത്: പണിസഞ്ചിയിൽ <guiicon><inlinegraph"
+"ic fileref=\"images/ toolbox/stock-tool-zoom-22.png\" /></guiicon>."
+
+#: src/toolbox/zoom.xml:77(para)
+msgid ""
+"Holding <keycap>Ctrl</keycap> when clicking on a point of your image will "
+"change the zoom direction from zooming in to zooming out."
+msgstr ""
+"ഹോൾഡിംഗ് <keycap>Ctrl</keycap> നിങ്ങളുടെ ചിത്രത്തിൻറെ ഒരു പോയിന്റ് ക്ലിക്"
+"ക് സൂമിംഗ് ഔട്ട് സൂം നിന്ന് സൂം ദിശ മാറും."
+
+#: src/toolbox/zoom.xml:88(keycap)
+msgid "Mouse wheel"
+msgstr ""
+"മൗസ് വീൽ"
+
+#: src/toolbox/zoom.xml:92(para)
+msgid ""
+"Spinning the mouse wheel, while pressing <keycap>Ctrl</keycap>, varies the "
+"zoom level."
+msgstr ""
+"മൌസ് ചക്രം സ്പിന്നിംഗ്, <keycap>Ctrl</keycap> ചെറുചിത്രത്തിൽ സൂം നില വ്യത്"
+"യാസപ്പെടുന്നു."
+
+#: src/toolbox/zoom.xml:104(title)
+msgid "Zoom tool options"
+msgstr ""
+"സൂം ഉപകരണം ഓപ്ഷനുകൾ"
+
+#: src/toolbox/zoom.xml:114(term)
+msgid "Auto-resize window"
+msgstr ""
+"ഓട്ടോ-വലുപ്പം വിൻഡോ"
+
+#: src/toolbox/zoom.xml:116(para)
+msgid ""
+"This option will allow the canvas to be resized if the zoom level dictates "
+"it."
+msgstr ""
+"ഈ ഓപ്ഷൻ സൂം നില അതു ആവശ്യപ്പെടുന്നുണ്ട് എങ്കിൽ ക്യാൻവാസ് വലുപ്പം അനുവദിക്കു"
+"ം."
+
+#: src/toolbox/zoom.xml:123(term)
+msgid "Tool Toggle"
+msgstr ""
+"ഉപകരണം ടോഗിൾ"
+
+#: src/toolbox/zoom.xml:125(para)
+msgid ""
+"The two available tool toggles are used for changing the zoom direction "
+"between zooming in and zooming out."
+msgstr ""
+"രണ്ട് ലഭ്യമായ ഉപകരണം ടോഗിൾ സൂം പുറത്തു സൂമിംഗ് തമ്മിലുള്ള സൂം ദിശ മാറ്റുന്"
+"നതിൽ ഉപയോഗിക്കുന്നു."
+
+#: src/toolbox/zoom.xml:135(title)
+msgid "Zoom menu"
+msgstr ""
+"സൂം മെനു"
+
+#: src/toolbox/zoom.xml:136(para)
+msgid ""
+"Using the Zoom tool is not the only way to zoom an image. The <link linkend="
+"\"gimp-view-zoom\">Zoom menu</link> provides access to several functions for "
+"changing the image magnification level. For example, you can easily choose "
+"an exact magnification level from this menu."
+msgstr ""
+"സൂം ടൂൾ ഉപയോഗിച്ച് ഒരു ചിത്രം സൂം ഏക വഴി അല്ല. <link linkend=\"gimp-view-z"
+"oom\">Zoom menu</link> ഇമേജ് മാഗ്നിഫൈ തലത്തിൽ മാറ്റുന്നതിൽ പല ഫംഗ്ഷനുകളും അ"
+"ക്സസ് നൽകുന്നു. ഉദാഹരണത്തിന്, എളുപ്പത്തിൽ ഈ മെനുവിൽ നിന്ന് ഒരു കൃത്യമായ മാഗ"
+"്നിഫിക്കേഷൻ ലെവൽ തിരഞ്ഞെടുക്കാം."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/toolbox/zoom.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"

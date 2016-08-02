@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>13.15. എല്ലിന്റെ ഉള്ളിലെ സുഷിരം</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-render.html" title="13. റെൻഡർ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-qbist.html" title="13.14. മിസ്ഡ്" />
+    <link rel="next" href="script-fu-circuit.html" title="13.16. സർക്യൂട്ട്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">13.15. എല്ലിന്റെ ഉള്ളിലെ സുഷിരം</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-qbist.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">13. റെൻഡർ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="script-fu-circuit.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-sinus"></a>13.15. എല്ലിന്റെ ഉള്ളിലെ സുഷിരം</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925529034192" class="indexterm"></a>
+      <a id="idp46925529036032" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925529036976"></a>13.15.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925529037744"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.317. ബേയ് ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/render-taj-sinus.jpg" alt="ബേയ് ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Sinus</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>നിങ്ങൾ ഇമേജ് മെനുവിൽ നിന്ന് <span class="guimenu">Filters</span> → <span class="guisubmenu">Render</span> → <span class="guisubmenu">Pattern</span> → <span class="guimenuitem">Sinus</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും.</p>
+        <p>ബേയ് അരിപ്പ നിങ്ങൾ പകരം കുടിപ്പിച്ചു സിൽക്ക് അല്ലെങ്കിൽ ഒരുപക്ഷെ പ്ലൈവുഡ് പോലെ കാത്തിരിക്കുന്നതുപോലെ sinusoidally അടിസ്ഥാനമാക്കി ഗുണം, അനുവദിക്കുന്നു. ഈ പ്ലഗ്-ഇൻ നിറങ്ങൾ ടാബിൽ define കഴിയുന്ന രണ്ട് വ്യത്യസ്ത നിറങ്ങൾ ഉപയോഗിച്ച് പ്രവൃത്തികൾ. ഈ രണ്ട് നിറങ്ങൾ പിന്നീട് ഒരു സൈൻ ചടങ്ങിൽ അടിസ്ഥാനമാക്കി തിരമാല പാറ്റേണുകൾ സൃഷ്ടിക്കുക.</p>
+        <p>നിങ്ങൾ ചിലരാകട്ടെ എത്ര നീട്ടി അല്ലെങ്കിൽ ടെക്സ്ചർ തീരുമാനിക്കും X, Y ചെതുമ്പലും സജ്ജമാക്കാൻ കഴിയും. നിങ്ങൾക്ക് ഫംഗ്ഷൻ സങ്കീർണത സജ്ജമാക്കാൻ കഴിയും: ഉയർന്ന മൂല്യം പാറ്റേണിലാണ് കൂടുതൽ ഇടപെടലുകളും അല്ലെങ്കിൽ ആവര്ത്തനം സൃഷ്ടിക്കുന്നു. ഒരു ഉദാഹരണം താഴെ കൊടുത്തിരിക്കുന്നു.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925529046336"></a>13.15.2. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925529047088"></a>13.15.2.1. ക്രമീകരണങ്ങൾ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925529047840"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.318. <span class="quote">“<span class="quote">Sinus</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (ക്രമീകരണം)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/render/sinus1.png" alt="“Sinus” ഫിൽട്ടർ ഓപ്ഷനുകൾ (ക്രമീകരണം)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="variablelist">
+            <p class="title">
+              <strong>ഡ്രോയിംഗ് ക്രമീകരണങ്ങൾ</strong>
+            </p>
+            <dl class="variablelist">
+              <dt>
+                <span class="term">എക്സ് സ്കെയിൽ, </span>
+                <span class="term">വൈ സ്കെയിൽ</span>
+              </dt>
+              <dd>
+                <p>ഉയർന്ന മൂല്യം അതു കംപ്രസ്സുചെയ്യാനായി ചെയ്യും താഴ്ന്ന എക്സ് / y മൂല്യം, ടെക്സ്ചർ വെർട്ടിക്കൽ തിരശ്ചീന / സ്ട്രെച്ച് maximize ചെയ്യും.</p>
+              </dd>
+              <dt>
+                <span class="term">സങ്കീർണത</span>
+              </dt>
+              <dd>
+                <p>ഈ രണ്ട് നിറങ്ങൾ പരസ്പരം (interplay അല്ലെങ്കിൽ ആവർത്തനം തുക) സംവദിക്കാൻ നിയന്ത്രിക്കുന്നു.</p>
+              </dd>
+            </dl>
+          </div>
+          <div class="variablelist">
+            <p class="title">
+              <strong>കണക്കുകൂട്ടല് ക്രമീകരണങ്ങൾ</strong>
+            </p>
+            <dl class="variablelist">
+              <dt>
+                <span class="term">ക്രമരഹിത സന്തതി</span>
+              </dt>
+              <dd>
+                <p>ഈ ഓപ്ഷൻ ഫിൽട്ടറിന്റെ ക്രമരഹിതമായ രീതി നിയന്ത്രിക്കുന്നു. ഒരേ സാഹചര്യത്തിൽ ഒരേ റാൻഡം സന്തതി ഉപയോഗിക്കുന്നു എങ്കിൽ, അരിപ്പ കൃത്യമായി ഒരേ ഫലങ്ങള് ഉത്പാദിപ്പിക്കുന്നത്. ഒരു വ്യത്യസ്ത റാൻഡം സന്തതി വ്യത്യസ്ത ഫലങ്ങൾ ഉത്പാദിപ്പിക്കുന്നത്. ക്രമരഹിത സന്തതി മാനുവലായി അല്ലെങ്കിൽ <span class="guibutton">New Seed</span> ബട്ടൺ അമർത്തി ക്രമരഹിതമായി സൃഷ്ടിക്കാൻ കഴിയും.</p>
+                <p><span class="guilabel">Randomize</span> ഓപ്ഷൻ ശരിയടയാളമിട്ടാൽ റാൻഡം സന്തതി മാനുവലായി കഴിയില്ല, എന്നാൽ ക്രമരഹിതമായി ഓരോ തവണയും അരിപ്പ പ്രവർത്തിപ്പിക്കാൻ ജനറേറ്റ്. അതു ചെക്കുചെയ്തിട്ടില്ലെങ്കിൽ, അരിപ്പ അവസാനമായി ഉപയോഗിച്ച റാൻഡം വിത്തു ഓർക്കുന്നു.</p>
+              </dd>
+              <dt>
+                <span class="term">ഫോഴ്സ് ടൈലിംഗ്?</span>
+              </dt>
+              <dd>
+                <p>ഈ ചെക്ക്, നിങ്ങൾക്ക് ടൈലിങ്ങിനുമേൽ ഉപയോഗിക്കാൻ കഴിയുന്ന ഒരു പാറ്റേൺ ലഭിക്കും. ഉദാഹരണത്തിന്, ഒരു HTML പേജിൽ ഒരു പശ്ചാത്തലമായി അത് ഉപയോഗിക്കാൻ കഴിയും, ടൈൽ അരികുകളും പരിധികളില്ലാതെ ചേരും.</p>
+              </dd>
+              <dt>
+                <span class="term">ഐഡിയൽ, </span>
+                <span class="term">വികലമാക്കിയ</span>
+              </dt>
+              <dd>
+                <p>ഈ ഓപ്ഷനുകൾ രണ്ട് നിറങ്ങൾ തമ്മിലുള്ള ആശയവിനിമയം അധിക നിയന്ത്രണം തരും. <span class="quote">“<span class="quote">Distorted</span>”</span> <span class="quote">“<span class="quote">Ideal</span>”</span> രണ്ട് നിറങ്ങൾ തമ്മിലുള്ള കൂടുതൽ വികലമായ ഇടപെടലുകൾക്ക് സൃഷ്ടിക്കുന്നു.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925529067712"></a>13.15.2.2. നിറങ്ങൾ</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925529068448"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.319. <span class="quote">“<span class="quote">Sinus</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (നിറങ്ങൾ)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/render/sinus2.png" alt="“Sinus” ഫിൽട്ടർ ഓപ്ഷനുകൾ (നിറങ്ങൾ)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">നിറങ്ങൾ</span>
+              </dt>
+              <dd>
+                <p>ഇവിടെ നിങ്ങൾ നിങ്ങളുടെ ടെക്സ്ചർ നിർമ്മിക്കാനായി രണ്ട് നിറങ്ങൾ സജ്ജമാക്കാൻ. നിങ്ങൾ <span class="guilabel">Black &amp; white</span> അല്ലെങ്കിൽ പണിസഞ്ചിയിൽ <span class="guilabel">Foreground &amp; background</span> നിറങ്ങൾ ഉപയോഗിക്കാം, അല്ലെങ്കിൽ നിങ്ങൾ നിറം ഐക്കണുകൾ ഒരു നിറം <span class="guilabel">Choose</span> കഴിയും.</p>
+              </dd>
+              <dt>
+                <span class="term">ആൽഫാ ചാനലുകൾ</span>
+              </dt>
+              <dd>
+                <p>ഈ സ്ലൈഡറുകൾ നിറങ്ങൾ ഓരോ ഒരു ഒപാസിറ്റി നിർണയിക്കുന്നതിനായി അനുവദിക്കുക. (നിങ്ങൾ പ്രവർത്തിക്കുകയാണ് പാളി ഒരു ആല്ഫാ ചാനൽ ഇല്ലെങ്കിൽ, അവർ ഗ്രേ ഔട്ട് ചെയ്യും.)</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925529077792"></a>13.15.2.3. കൂട്ടിക്കലര്ത്തുക</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925529078560"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.320. <span class="quote">“<span class="quote">Sinus</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (ബ്ലൻഡ്)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/render/sinus3.png" alt="“Sinus” ഫിൽട്ടർ ഓപ്ഷനുകൾ (ബ്ലൻഡ്)" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">ഗ്രേഡിയന്റ്</span>
+              </dt>
+              <dd>
+                <p>ലീനിയർ, ബൈലീനിയര് ആൻഡ് Sinusoidal: നിങ്ങൾ നിർമ്മിക്കുന്നത് തരംഗങ്ങളുടെ രൂപങ്ങൾ സജ്ജമാക്കാൻ മൂന്നു ഫംഗ്ഷനുകളും തമ്മിലുള്ള തിരഞ്ഞെടുക്കാം.</p>
+              </dd>
+              <dt>
+                <span class="term">എക്സ്പൊണൻറ്</span>
+              </dt>
+              <dd>
+                <p>എക്സ്പൊണന്റ് നിയന്ത്രണങ്ങൾ രണ്ടു നിറങ്ങൾ ഏത് ആധിപത്യം, അത് എങ്ങനെ ആധിപത്യം. നിങ്ങൾ -7.5 ഘാതം സജ്ജമാക്കിയാൽ, ഇടത് നിറം പൂർണമായും മേൽക്കൈ നേടും, നിങ്ങൾ +7,5 അത് ചെയ്താൽ ചുറ്റും മറ്റ് വഴി ആയിരിക്കും. ഒരു പൂജ്യം മൂല്യം ന്യൂട്രൽ ആണ്.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-qbist.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-render.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="script-fu-circuit.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-qbist.html">13.14. മിസ്ഡ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="script-fu-circuit.html">13.16. സർക്യൂട്ട്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

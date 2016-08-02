@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>4.3. നീങ്ങുക</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-tools-transform.html" title="4. ഉപകരണങ്ങൾ പരിവർത്തനംചെയ്യൂ" />
+    <link rel="prev" href="gimp-tool-align.html" title="4.2. അണിനിരത്തുക" />
+    <link rel="next" href="gimp-tool-crop.html" title="4.4. വിള" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">4.3. നീങ്ങുക</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-tool-align.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">4. ഉപകരണങ്ങൾ പരിവർത്തനംചെയ്യൂ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-tool-crop.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-tool-move"></a>4.3. നീങ്ങുക</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925512803488" class="indexterm"></a>
+      <a id="idp46925512804848" class="indexterm"></a>
+      <div class="figure">
+        <a id="idp46925512805744"></a>
+        <p class="title">
+          <strong>ചിത്രം 14.113. The Move tool in Toolbox</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/toolbox/toolbox-move.png" alt="The Move tool in Toolbox" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>
+    The Move Tool is used to move layers, selections, paths or guides. It
+    works also on texts.
+  </p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512808928"></a>4.3.1. ടൂൾ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can access the Move Tool in different ways:
+    </p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+          From the image menu bar
+          <span class="guimenu">Tools</span> → <span class="guisubmenu">Transform Tools</span> → <span class="guimenuitem">Move</span>,
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          By clicking the tool icon:
+          <span class="guiicon">
+            <img src="images/toolbox/stock-tool-move-22.png" />
+          </span>.
+        </p>
+            </li>
+            <li class="listitem">
+              <p>കീബോർഡ് കുറുക്കുവഴി <span class="keycap"><strong>M</strong></span> ഉപയോഗിക്കുന്നതിലൂടെ.</p>
+            </li>
+            <li class="listitem">
+              <p>ഒരു ഗൈഡിനെ സൃഷ്ടിക്കുമ്പോൾ നീക്കുക പ്രയോഗം സ്വയം സജീവമാകുന്നു.</p>
+              <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+                <table border="0" summary="Note">
+                  <tr>
+                    <td rowspan="2" align="center" valign="top" width="25">
+                      <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                    </td>
+                    <th align="left">കുറിപ്പു്</th>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top">
+                      <a id="idp46925512817536" class="indexterm"></a>
+                      <p><span class="keycap"><strong>space</strong></span> ബാർ താഴേയ്ക്കാക്കുമ്പോൾ താൽക്കാലികമായി നീക്കുക സജീവ പ്രയോഗം മാറ്റുന്നു. നീക്കുക ഉപകരണമായി നീണ്ട സ്പേസ് ബാർ അമർത്തിപ്പിടിച്ചു പോലെ സജീവമായിരിക്കുന്ന. യഥാർത്ഥ ടൂൾ സ്പേസ് ബാർ പ്രകാശനം സജീവമാക്കുന്നു. ഈ പെരുമാറ്റം <span class="guilabel">Switch to Move tool</span> ഓപ്ഷൻ <span class="guimenu">Edit</span> → <span class="guisubmenu">Preferences</span> → <span class="guisubmenu">Image Windows</span> → <span class="guimenuitem">Space Bar</span> പ്രവർത്തനക്ഷമമാക്കിയതിനാൽ മാത്രമേ നിലവിലുണ്ട്.</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512822384"></a>4.3.2. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925512823136"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.114. Move Tool options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/tool-options-move.png" alt="Move Tool options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>സാധാരണ, ഉപകരണം ഓപ്ഷനുകൾ ഉടൻ ഒരു ഉപകരണം സജീവമാക്കാൻ പോലെ പണിസഞ്ചി കീഴിൽ ഘടിപ്പിച്ചിട്ടുള്ള ഒരു ജാലകം പ്രദർശിപ്പിക്കും. അഥവാ അങ്ങനെയല്ലെങ്കിൽ, നിങ്ങൾ തിരഞ്ഞെടുത്ത ഉപകരണം ഓപ്ഷൻ വിൻഡോ തുറക്കുന്ന <span class="guimenu">Windows</span> → <span class="guisubmenu">Dockable Windows</span> → <span class="guimenuitem">Tool Options</span> വഴി ഇമേജ് ബാറില് നിന്നും ആക്സസ് ചെയ്യാൻ കഴിയും.</p>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">നീങ്ങുക</span>
+            </dt>
+            <dd>
+              <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+                <table border="0" summary="Note">
+                  <tr>
+                    <td rowspan="2" align="center" valign="top" width="25">
+                      <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                    </td>
+                    <th align="left">കുറിപ്പു്</th>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top">
+                      <p>ഈ ഉപാധികൾ <a class="link" href="">Transform tools common options</a> വിവരിച്ചിരിക്കുന്നു.</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <p>നീങ്ങുന്നത് ചോയ്സ് ഉപകരണം നിറ്ത്തിയ ശേഷം നിലനിൽക്കുകയാണെങ്കിൽ ഓർമിക്കുക.</p>
+            </dd>
+            <dt>
+              <span class="term">Tool toggle (Shift)</span>
+            </dt>
+            <dd>
+              <div class="variablelist">
+                <p class="title">
+                  <strong>
+              
+              <span class="phrase">നീക്കുന്നത് <span class="quote">“<span class="quote">Layer</span>”</span> ചെയ്താൽ</span>
+              <span class="guiicon">
+                <img src="images/dialogs/stock-layer-16.png" />
+              </span>
+            </strong>
+                </p>
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">ഒരു പാളി അല്ലെങ്കിൽ ഗൈഡ് തിരഞ്ഞെടുക്കുക</span>
+                  </dt>
+                  <dd>
+                    <p>ഇത് നിലവിലെ പാളി ഭാഗമാക്കാൻ മൂലകം മേൽ പോകുമ്പോഴും നിരവധി പാളികൾ കൊണ്ട് ഒരു ഇമേജിൽ, മൌസ് പോയിന്റർ ഒരു അടയാളസൂചി തിരിയുന്നു. അപ്പോൾ നിങ്ങൾ click- കഴിയും ഒപ്പം-വലിച്ചിടുക. മൗസ് സൂചികയെ ഒരു ചെറിയ കൈ ആകൃതി (നിങ്ങൾ <span class="emphasis"><em>not</em></span> എന്തു സജീവ പാളി ഒരു ഘടകത്തെ ട്ട് കാണിക്കുന്ന) ഉണ്ട്, പകരം ഒരു സജീവമല്ലാത്ത പാളി നീക്കും (നീക്കുന്നതിനിടെ സജീവ പാളി മാറുന്നു).</p>
+                    <p>ഒരു ഗൈഡ് നിങ്ങളുടെ ചിത്രത്തിൽ നിലനിൽക്കുന്നുണ്ടെങ്കിൽ, അത് മൌസ് പോയിന്റര് പോകുമ്പോഴും ചുവപ്പ് തിരിക്കും. അപ്പോൾ അതു സജീവമാക്കി, അത് നീക്കാനാകും.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">സജീവ പാളി നീക്കുക</span>
+                  </dt>
+                  <dd>
+                    <p>മാത്രം നിലവിലെ പാളി നീക്കും. നിങ്ങൾ എളുപ്പത്തിൽ തെറ്റായ പാളി തിരഞ്ഞെടുക്കാനും എവിടെ സുതാര്യമായ പ്രദേശങ്ങൾ ഒരു പാളി, നീക്കാൻ ചെയ്യണമെങ്കിൽ ഈ ക്രമീകരണം സഹായിക്കും.</p>
+                  </dd>
+                </dl>
+              </div>
+              <div class="variablelist">
+                <p class="title">
+                  <strong>
+              
+              <span class="phrase">നീക്കുന്നത് <span class="quote">“<span class="quote">Selection</span>”</span> ചെയ്താൽ</span>
+              <span class="guiicon">
+                <img src="images/dialogs/stock-selection-16.png" />
+              </span>
+            </strong>
+                </p>
+                <p>നിരക്കു ന്റെ രൂപരേഖയിൽ നീക്കും (<a class="xref" href="">???</a> കാണുക).</p>
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term"></span>
+                  </dt>
+                  <dd>
+                    <p></p>
+                  </dd>
+                </dl>
+              </div>
+              <div class="variablelist">
+                <p class="title">
+                  <strong>
+              
+              <span class="phrase">നീക്കുന്നത് <span class="quote">“<span class="quote">Path</span>”</span> ചെയ്താൽ</span>
+              <span class="guiicon">
+                <img src="images/dialogs/stock-path-16.png" />
+              </span>
+            </strong>
+                </p>
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">ഒരു പാത തിരഞ്ഞെടുക്കുക</span>
+                  </dt>
+                  <dd>
+                    <p>ഡിഫോൾട്ട് ആണ്. അതു <a class="link" href="gimp-path-dialog.html#gimp-path-dialog-using" title="2.3.2. പാഥുകൾ ഡയലോഗ് ഉപയോഗിച്ച്">visible path</a> അടിക്കുമ്പോൾ മൗസ് പോയിന്റർ ഒരു ചെറിയ കൈ തിരിയുന്നു. അപ്പോൾ നിങ്ങൾ ക്ലിക്കിൽ-ആൻഡ്-വലിച്ചോ അതു (നീക്കുന്നതിനിടെ സജീവ പാത്ത് ആയിരിക്കും) വഴി ഈ പാത നീക്കാൻ കഴിയൂ.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">സജീവ പാത്ത് നീക്കുക</span>
+                  </dt>
+                  <dd>
+                    <p>മാത്രം നിലവിലെ പാത്ത് നീക്കും. നിങ്ങൾ <a class="link" href="gimp-path-dialog.html" title="2.3. പാഥുകൾ സംഭാഷണം">Path Dialog</a> നിലവിലെ പാത്ത് മാറ്റാനാകും.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512563408"></a>4.3.3. നീക്കുക ഉപകരണം പ്രവർത്തനങ്ങളുടെ സംഗ്രഹം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">Moving a selection</span>
+            </dt>
+            <dd>
+              <p>നീക്കുക ഉപകരണം നിരക്കു ഔട്ട്ലൈൻ നീക്കാൻ അനുവദിക്കുന്നു. നീക്കുക മോഡ് <span class="quote">“<span class="quote">Layer</span>”</span> ആണെങ്കിൽ, നിങ്ങൾക്ക് <span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>Alt</strong></span> കീകൾ പിടിക്കുക വേണം.</p>
+              <p>നീക്കുക മോഡ് തിരഞ്ഞെടുപ്പ് എങ്കിൽ, നിങ്ങൾക്ക് ക്ലിക്ക്-ആൻഡ്-വലിച്ചു കഴിയും ക്യാൻവാസ് ആരും എവിടെയും നിരക്കു ഔട്ട്ലൈൻ നീക്കാൻ. നിങ്ങൾക്ക് കൃത്യമായി തിരഞ്ഞെടുക്കലുകൾ നീക്കാൻ ആരോ കീകൾ ഉപയോഗിക്കാം. പിന്നെ, ഇറങ്ങി 25 പിക്സൽ വർദ്ധനവിൽ ചെയ്ത ശേഷം <span class="keycap"><strong> Shift</strong></span> കീ നീക്കങ്ങൾ holding.</p>
+              <p>നിങ്ങൾ നീക്കാൻ ഉപകരണം ഉപയോഗിച്ച് ഒരു നിര നീക്കാൻ ചെയ്യുമ്പോൾ, നിരക്കു കേന്ദ്രത്തിൽ ഒരു ക്രോസും അടയാളപ്പെടുത്തി. <span class="guimenu">View</span> → <span class="guimenuitem">Snap to Guides (or Grid)</span> ഓപ്ഷൻ എങ്കിൽ ഈ കുരിശും നിരക്കു ബൗണ്ടറികൾ ഗൈഡുകൾ അല്ലെങ്കിൽ ഗ്രിഡിലേക്ക് സ്നാപ്പ്: ഈ എളുപ്പം തിരഞ്ഞെടുക്കലുകൾ പരിപൂര്ണമാണ് ചെയ്യുന്നു.</p>
+              <p>മറ്റ് സാധ്യതകൾ വേണ്ടി <a class="link" href="gimp-using-selections.html#gimp-using-selections-moving" title="2.1. ഒരു തിരഞ്ഞെടുപ്പ് നീക്കുന്നു">Moving selections</a> കാണുക.</p>
+            </dd>
+            <dt>
+              <span class="term">ഒരു പാളി നീക്കുന്നു</span>
+            </dt>
+            <dd>
+              <a id="idp46925512573648" class="indexterm"></a>
+              <p>നീക്കുക മോഡ് <span class="quote">“<span class="quote">Layer</span>”</span> ആയിരിക്കണം. നിങ്ങൾ ഒന്നോ അതിലധികമോ പാളികൾ, <span class="guilabel">Point to Layer (or Guide)</span> ഉണ്ടെങ്കിൽ പിന്നെ നിങ്ങൾ <span class="guilabel">Move the Active Layer</span> ​​ആൻഡ് തമ്മിൽ തിരഞ്ഞെടുക്കാം.</p>
+            </dd>
+            <dt>
+              <span class="term">Moving Grouped Layers</span>
+            </dt>
+            <dd>
+              <p>പാളികൾ (ചെറിയ ചെയിൻ ചിഹ്നം ഉപയോഗിച്ച്) ഗ്രൂപ്പുചെയ്തിരിക്കുന്നു എങ്കിൽ എല്ലാവരും നീങ്ങും, ഏതുമാകട്ടെ പാളിയുടെ നിലവിൽ സജീവമാണ്.</p>
+            </dd>
+            <dt>
+              <span class="term">Moving a guide</span>
+            </dt>
+            <dd>
+              <a id="idp46925512580512" class="indexterm"></a>
+              <p>നിങ്ങൾ ഒരു ഭരണാധികാരി നിന്ന് ഒരു ഗൈഡ് pull ചെയ്യുമ്പോൾ, നീക്കുക പ്രയോഗം സ്വയം സജീവമാകുന്നു. മറ്റൊരു ഉപകരണം ഉപയോഗിച്ച് തുടർന്നാണ് കേസ് അല്ല നിങ്ങൾ സ്വയം അത് സജീവമാക്കുന്നതിന് ഞങ്ങൾക്കുണ്ട്. മൗസ് സൂചികയെ ഒരു ഗൈഡ് അടിക്കുമ്പോൾ, ഈ ഗൈഡ് ചുവന്ന തിരിഞ്ഞ് ഇങ്ങനെ നിങ്ങൾ അതു നീക്കാൻ ക്ലിക്ക്-ആൻഡ്-വലിച്ചു കഴിയും.</p>
+            </dd>
+            <dt>
+              <span class="term">Moving a path</span>
+            </dt>
+            <dd>
+              <a id="idp46925512584464" class="indexterm"></a>
+              <p>പാത ടൂൾ ഡയലോഗ് സ്വന്തം ഇളക്കം ഫംഗ്ഷൻ ഉണ്ട്: <a class="xref" href="">???</a> കാണുക. എന്നാൽ നിങ്ങൾക്ക് നീക്കുക ഉപകരണം ഉപയോഗിക്കാം. നീക്കുക മോഡ് <span class="quote">“<span class="quote">Path</span>”</span> ലേക്ക് സജ്ജമാക്കണം. പാത്ത് അദൃശ്യനായ മാറുന്നു ശ്രദ്ധിക്കുക; അതു പാത ഡയലോഗിൽ ദൃശ്യമാക്കുന്നതിനിടയാക്കും. നിങ്ങൾ നീക്കും പാത്ത് തിരഞ്ഞെടുക്കാൻ അല്ലെങ്കിൽ സജീവ പാത നീക്കാൻ കഴിയൂ.</p>
+            </dd>
+            <dt>
+              <span class="term">Moving a text</span>
+            </dt>
+            <dd>
+              <a id="idp46925512589344" class="indexterm"></a>
+              <p>ഓരോ ടെക്സ്റ്റ് സ്വന്തം പാളി ഉണ്ട് പാളികൾ പോലെ നീക്കാൻ കഴിയില്ല. <a class="xref" href="gimp-tool-text.html" title="6.6. ടെക്സ്റ്റ്">വിഭാഗം 6.6, “ടെക്സ്റ്റ്”</a> കാണുക.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-tool-align.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-tools-transform.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-tool-crop.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-tool-align.html">4.2. അണിനിരത്തുക</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tool-crop.html">4.4. വിള</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

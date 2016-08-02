@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>2.6. പിക്സൽ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-blur.html" title="2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-mblur.html" title="2.5. മോഷൻ ബ്ലർ" />
+    <link rel="next" href="script-fu-tile-blur.html" title="2.7. Tileable ഇഫക്റ്റ്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">2.6. പിക്സൽ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-mblur.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="script-fu-tile-blur.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-pixelize"></a>2.6. പിക്സൽ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925522323648" class="indexterm"></a>
+      <a id="idp46925522325472" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522326368"></a>2.6.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925522327136"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.16. <span class="quote">“<span class="quote">Pixelize</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="“Pixelize” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/blur-taj-pixelise.jpg" alt="“Pixelize” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Pixelize</span>”</span> പ്രയോഗിച്ചു</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>Pixelize അരിപ്പ വലിയ നിറം ഉപയോഗിച്ച് ചിത്രം റെൻഡർ. ട്രയൽ വേളയിൽ ഒരു ക്രിമിനൽ അടയാൻ ചെയ്യുമ്പോൾ ടെലിവിഷനിൽ കണ്ടിട്ടില്ല പ്രഭാവം വളരെ സാമ്യമുള്ളതാണ്. <a class="xref" href="bibliography.html#bibliography-online-bach" title="ബ്ലോക്കുകളിൽ മുഖം">[<abbr class="abbrev">BACH04</abbr>]</a> കാണുക: ഇത് <span class="quote">“<span class="quote">Abraham Lincoln effect</span>”</span> ഉപയോഗിക്കുന്നു.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522336016"></a>2.6.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Blur</span> → <span class="guimenuitem">Pixelise</span> വഴി ഇമേജ് മെനുവിൽ ഈ ഫിൽട്ടർ കണ്ടെത്താനാകും</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925520131648"></a>2.6.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925520132352"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.17. <span class="quote">“<span class="quote">Pixelize</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/blur/pixelize.png" alt="“Pixelize” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പിക്സൽ വീതി, </span>
+              <span class="term">പിക്സൽ ഉയരം</span>
+            </dt>
+            <dd>
+              <p>ഇവിടെ നിങ്ങൾ ബ്ലോക്കുകളിൽ ആവശ്യമുള്ള വീതിയും ഉയരവും സജ്ജമാക്കാൻ കഴിയും.</p>
+              <p>സ്വതവേ, വീതിയും ഉയരവും ഇൻപുട്ട് ബോക്സുകൾ അടുത്ത ചെയിൻ ചിഹ്നം പ്രവചിച്ചു; ലിങ്കു. പ്രത്യേകമായി വീതിയും ഉയരവും സജ്ജമാക്കാൻ ചെയ്യണമെങ്കിൽ, അവരെ അൺലിങ്കുചെയ്യുന്നതിനുള്ള പനിയുടെ ചിഹ്നം ക്ലിക്ക് ചെയ്യുക.</p>
+              <p>യൂണിറ്റ് നിരക്കു ബോക്സ് ഉപയോഗിച്ച് നിങ്ങൾക്ക് ഉയരവും വീതിയും അളവ് യൂണിറ്റ് തിരഞ്ഞെടുക്കാം.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-mblur.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-blur.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="script-fu-tile-blur.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-mblur.html">2.5. മോഷൻ ബ്ലർ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="script-fu-tile-blur.html">2.7. Tileable ഇഫക്റ്റ്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>5.7. ലെവലുകൾ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-tools-color.html" title="5. വർണ്ണ ഉപകരണങ്ങൾ" />
+    <link rel="prev" href="gimp-tool-threshold.html" title="5.6. ഉമ്മറം" />
+    <link rel="next" href="gimp-tool-curves.html" title="5.8. കർവ്സ്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">5.7. ലെവലുകൾ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-tool-threshold.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">5. വർണ്ണ ഉപകരണങ്ങൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-tool-curves.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-tool-levels"></a>5.7. ലെവലുകൾ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925515481616" class="indexterm"></a>
+      <a id="idp46925515482976" class="indexterm"></a>
+      <a id="idp46925515484320" class="indexterm"></a>
+      <a id="idp46925515485216" class="indexterm"></a>
+      <a id="idp46925515486112" class="indexterm"></a>
+      <a id="idp46925515487008" class="indexterm"></a>
+      <a id="idp46925515487904" class="indexterm"></a>
+      <p>ലെവൽ ഉപകരണം <a class="link" href="">Histogram</a> ഡയലോഗ് സമാനമായ സവിശേഷതകൾ പ്രദാനം മാത്രമല്ല എല്ലാ ചാനലിലും സജീവ അല്ലെങ്കിൽ പാളി നിരക്കു തീവ്രത പരിധി മാറ്റാൻ കഴിയും. ഈ ഉപകരണം തീവ്രത മാറ്റാനോ ഒരു പ്രബലമായ കളർ കാസ്റ്റ് തിരുത്താൻ ലേക്ക്, ഒരു ഇമേജ് ലൈറ്ററോ ഇരുണ്ടതാക്കാൻ ഉപയോഗിക്കുന്നു.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925515490608"></a>5.7.1. ടൂൾ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <div class="itemizedlist">
+          <p>You can get to this tools in several ways:</p>
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+          In the image menu through
+          <span class="guimenu">Tools</span> → <span class="guisubmenu">Color Tools</span> → <span class="guimenuitem">Levels</span>.
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          In the image menu through
+          <span class="guimenu">Colors</span> → <span class="guimenuitem">Levels</span>.
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          By clicking on the tool icon
+          <span class="guiicon">
+            <img src="images/toolbox/stock-tool-levels-22.png" />
+          </span>
+          in the toolbox if this tool has been installed there. For this, please
+          refer to <a class="xref" href="gimp-pimping.html#gimp-prefs-toolbox" title="1.7. പണിസഞ്ചി">വിഭാഗം 1.7, “പണിസഞ്ചി”</a>.
+        </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925515500048"></a>5.7.2. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925515500800"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.160. Level tool options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/tools-levels.png" alt="Level tool options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">Presets</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ <span class="guibutton">Add settings to favourites</span> ബട്ടൺ <span class="guiicon"><img src="images/toolbox/save-color-settings.png" /></span> ക്ലിക്കുചെയ്ത് നിങ്ങളുടെ ചിത്രം നിറം ക്രമീകരണങ്ങൾ സംരക്ഷിക്കാൻ കഴിയും</p>
+              <p>
+            The
+            <span class="guiicon">
+              <img src="images/toolbox/presets-menu-icon.png" />
+            </span>
+            button opens a menu:
+          </p>
+              <div class="figure">
+                <a id="idp46925515508064"></a>
+                <p class="title">
+                  <strong>ചിത്രം 14.161. Preset Menu</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/toolbox/presets-menu.png" alt="Preset Menu" />
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <p>ഏത് നിങ്ങൾ <span class="guilabel">Import Settings from File</span> അല്ലെങ്കിൽ <span class="guilabel">Export Settings to File</span> അനുവദിക്കുന്നു, നിങ്ങൾ നിയന്ത്രിക്കുന്ന ക്രമീകരണങ്ങൾ സംരക്ഷിക്കുക ഡയലോഗ് ആക്സസ് നൽകുന്നു:</p>
+              <div class="figure">
+                <a id="idp46925515512336"></a>
+                <p class="title">
+                  <strong>ചിത്രം 14.162. Manage saved Settings Dialog</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/toolbox/manage-saved-settings.png" alt="Manage saved Settings Dialog" />
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">ചാനൽ</span>
+            </dt>
+            <dd>
+              <p>PLACEHOLDER,-105764: നിങ്ങൾ ഉപകരണം പരിഷ്കരിക്കാൻ ചെയ്യുന്ന പ്രത്യേക ചാനൽ തിരഞ്ഞെടുക്കാം</p>
+            </dd>
+            <dt>
+              <span class="term">ഇൻപുട്ട് ലെവലുകൾ</span>
+            </dt>
+            <dd>
+              <p>പ്രധാന പ്രദേശം സജീവ അല്ലെങ്കിൽ പാളി നിരക്കു ഇരുണ്ട (ഷാഡോസ്) ഒരു ഗ്രാഫിക് പ്രതിനിധി ആണ്, മിഡ് നേരിയ (ഹൈലൈറ്റ്) ഉള്ളടക്കം (ഹിസ്റ്റോഗ്രാം) ടണ്ണാണ്. അവർ ലെവൽ 0 (കറുത്ത) മുതൽ തലത്തിൽ 255 (വെള്ള) ലേക്ക് abscissa നടത്തിക്കൊണ്ടിരിക്കുകയാണ്. ഒരു നിലയിലുള്ള പിക്സൽ നമ്പർ ordinate അക്ഷത്തിൽ ആണ്. കർവ് ഉപരിതല തിരഞ്ഞെടുത്ത ചാനലിനെ വേണ്ടി ചിത്രത്തിന്റെ എല്ലാ പിക്സലുകൾ പ്രതിനിധീകരിക്കുന്നു. ഒരു സമീകൃതമായ ഇമേജ് അളവ് (ടൺ) എല്ലാ മുഴുവൻ ശ്രേണിയിൽ വിതരണം ഉപയോഗിച്ച് ഒരു ചിത്രം. ഒരു നീല പ്രബലമായ നിറം ഒരു ചിത്രം, ഉദാഹരണത്തിന്, ഒരു ഹിസ്റ്റോഗ്രാം, ഗ്രീൻ, റെഡ് ചാനലുകളിൽ ഇടതു മാറ്റി പച്ച, ചുവപ്പ് ഹൈലൈറ്റുകൾ കുറവായിരുന്നതു വഴി പൂർവവ്യഞ്ജകത്തോടു താനേ.</p>
+              <p>ലെവൽ ശ്രേണികൾ മൂന്നു തരത്തിലാണ് പരിഷ്കരിക്കാൻ കഴിയും:</p>
+              <div class="itemizedlist">
+                <ul class="itemizedlist" style="list-style-type: opencircle; ">
+                  <li class="listitem" style="list-style-type: circle">
+                    <p>സ്ലൈഡറുകൾ ആയി മൂന്ന് ത്രികോണങ്ങൾ: ഇരുണ്ട ടൺ (ഷാഡോസ്) ഒരു കറുത്ത മിഡ്ടോണുകൾ ഒന്നു ചാര (ഗാമ), വെളിച്ചം ഒന്നു വൈറ്റ് (ഹൈലൈറ്റുകൾ) ടോണുകൾ.</p>
+                    <p>കറുത്ത സ്ലൈഡർ <span class="emphasis"><em>black point </em></span> നിർണ്ണയിക്കുന്നു: ഈ മൂല്യം കുറവോ ഉള്ള എല്ലാ പിക്സലുകൾ കറുത്ത (തിരഞ്ഞെടുത്ത ആൽഫ ചാനലിൽ / സുതാര്യമായ തിരഞ്ഞെടുത്ത ഒരു കളർ ചാനൽ യാതൊരു കളർ) ആയിരിക്കും.</p>
+                    <p>വെളുത്ത സ്ലൈഡർ <span class="emphasis"><em>white point </em></span> നിർണ്ണയിക്കുന്നു: ഈ മൂല്യം അല്ലെങ്കിൽ ഉയർന്നത് എല്ലാ പിക്സൽ, (തിരഞ്ഞെടുത്ത ആൽഫ ചാനൽ പൂർണ്ണമായും സുതാര്യമല്ല തിരഞ്ഞെടുത്ത / ഒരു കളർ ചാനലുമായി പൂർണ്ണമായി നിറത്തിലുള്ള) വെള്ള നിറമായിരിക്കും.</p>
+                    <p>ചാര സ്ലൈഡർ <span class="emphasis"><em>mid point</em></span> നിർണ്ണയിക്കുന്നു. ഇടത് പോവുകയും കറുത്ത, ഇമേജ് ലൈറ്റർ (കൂടുതൽ നിറമുള്ള / കൂടുതൽ ഇരുണ്ട) ചെയ്യുന്നു. വലതുവശത്ത് പോകുന്നു, വൈറ്റ്, (കുറവ് നിറമുള്ള / കൂടുതൽ സുതാര്യമായ) ചിത്രം കാർമേഘങ്ങൾ ചെയ്യുന്നു.</p>
+                  </li>
+                  <li class="listitem" style="list-style-type: circle">
+                    <p>രണ്ട് കണ്ണ്-droppers: അവരിൽ ക്ലിക്ക് ചെയ്യുമ്പോൾ, മൌസ് പോയിന്റർ ഒരു eye- dropper മാറുന്നു. അപ്പോൾ ചിത്രത്തിൽ ക്ലിക്കുചെയ്തുകൊണ്ട് കറുപ്പ് അല്ലെങ്കിൽ വൈറ്റ് പോയിൻറ് തിരഞ്ഞെടുത്ത കണ്ണ്-dropper തക്കവണ്ണം നിർണ്ണയിക്കുന്നു. കറുത്ത-പോയിന്റ് നിർണ്ണയിക്കാൻ ഇടത്, ഇരുണ്ട ഒറ്റ <span class="guiicon"><img src="images/dialogs/stock-color-picker-black-18. png" /></span> ഉപയോഗിക്കുക; വൈറ്റ് പോയിൻറ് തീരുമാനിക്കാനുള്ള അവകാശം, വെളുത്ത ഒറ്റ <span class="guiicon"><img src="images/dialogs/stock-color-picker-white-18. png" /></span> ഉപയോഗിക്കുക.</p>
+                  </li>
+                  <li class="listitem" style="list-style-type: circle">
+                    <p>നേരിട്ട് മൂല്യങ്ങൾ നൽകാൻ മൂന്ന് അക്കങ്ങള് ടെക്സ്റ്റ് ബോക്സുകൾ.</p>
+                  </li>
+                </ul>
+              </div>
+              <p>ഇൻപുട്ട് ലെവലുകൾ, ഹൈലൈറ്റുകൾ (മിനുക്കിയ ടൺ) ലഘൂകരിച്ചു നിഴലുകൾ (ഇരുണ്ട ടൺ) ഇരുണ്ട് ശുഭ്രമായ ഇരുണ്ട ടൺ ബാലൻസ് മാറ്റാൻ ഉപയോഗിക്കുന്ന. (നിറം വർദ്ധിപ്പിക്കാൻ / അതാര്യത വർദ്ധിപ്പിക്കുക) ചാപല്യം വർദ്ധിപ്പിക്കാൻ ഇടത്തോട്ടോ സ്ലൈഡറുകൾ നീക്കുക. (നിറം നന്നേ / അതാര്യത കുറഞ്ഞേക്കും) ചാപല്യം നന്നേ വലതുവശത്ത് സ്ലൈഡറുകൾ നീക്കുക.</p>
+              <div class="orderedlist">
+                <p class="title">
+                  <strong>Examples for Input Levels</strong>
+                </p>
+                <p>ഷാഡോസ് (64), മിതമായ ടോണുകൾ (127), ഹൈലൈറ്റുകൾ (192): യഥാർത്ഥ ചിത്രം മൂന്നു അടി ഒരു ചാര-സ്കെയിൽ ചിത്രം. ആമി മൂന്നു കൊടുമുടികൾ, മൂന്നു ടൺ ഓരോ ഒന്ന് കാണിക്കുന്നു.</p>
+                <div class="mediaobject">
+                  <img src="images/toolbox/levels-input-1.png" />
+                  <div class="caption">
+                    <p>Original image</p>
+                  </div>
+                </div>
+                <ol class="orderedlist" type="1">
+                  <li class="listitem">
+                    <p>മൂല്യം ചാനൽ തിരഞ്ഞെടുത്തു. കറുത്ത സ്ലൈഡർ (ഷാഡോസ്) ഷാഡോസ് കൊടുമുടി വരെ കയറി നീക്കി. 64 മൂല്യം 0 മാറി ആൻഡ് ഷാഡോസ് സ്ട്രൈപ്പ് കറുത്ത (0) ആയി. ഗാമ (മിഡ് ടോണുകൾ) സ്ലൈഡർ സ്വയം ടോൺ പരിധി മധ്യത്തിൽ നീക്കി ആണ്. മിതമായ ടോണുകൾ 171 ലേക്ക് 84 ഹൈലൈറ്റുചെയ്തവയിലേക്ക് ഇരുണ്ട നടത്തിയില്ല.</p>
+                    <div class="mediaobject">
+                      <img src="images/toolbox/levels-input-2.png" />
+                      <div class="caption">
+                        <p>ബ്ലാക്ക് സ്ലൈഡർ നീക്കി</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="listitem">
+                    <p>വെളുത്ത സ്ലൈഡർ (ഹൈലൈറ്റുകൾ) ഹൈലൈറ്റ് ഉച്ചസ്ഥായിയിൽ അപ്പ് നീക്കി. 192 മൂല്യം 255 മാറുകയും ഹൈലൈറ്റ് സ്ട്രൈപ്പ് വെള്ളയായി തീർന്നു. ഗാമ (മിഡ് ടോണുകൾ) സ്ലൈഡർ സ്വയം ടോൺ പരിധി മധ്യത്തിൽ നീക്കി ആണ്. മിതമായ ടോണുകൾ 84 ലേക്ക് 169 ആൻഡ് ഷാഡോസ് ലേക്ക് ലൈറ്റർ നടത്തിയില്ല.</p>
+                    <div class="mediaobject">
+                      <img src="images/toolbox/levels-input-3.png" />
+                      <div class="caption">
+                        <p>വൈറ്റ് സ്ലൈഡർ നീക്കി</p>
+                      </div>
+                    </div>
+                  </li>
+                </ol>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">ഔട്ട്പുട്ട് ലെവലുകൾ</span>
+            </dt>
+            <dd>
+              <p>ഔട്ട്പുട്ട് അളവ് ഒരു നിർമ്മിതി ഔട്ട്പുട്ട് ലെവൽ ശ്രേണിയുടെ മാനുവൽ നിര അനുവദിക്കുന്നു. ഇന്ററാക്ടീവ് ഔട്ട്പുട്ട് ലെവലുകൾ മാറ്റാൻ ഉപയോഗിക്കാവുന്ന ഇവിടെ സ്ഥിതി അമ്പ്-തല അക്കങ്ങള് ടെക്സ്റ്റ് ബോക്സുകൾ ഉണ്ട്.</p>
+              <p>ഔട്ട്പുട്ട് അളവ് നിങ്ങൾ സജ്ജമാക്കിയിരിക്കുന്ന പുതിയ പരിധികൾ ഉള്ളുവെങ്കിലും ടോൺ ശ്രേണി നിർബന്ധിക്കരുത്.</p>
+              <div class="itemizedlist">
+                <ul class="itemizedlist" style="list-style-type: disc; ">
+                  <li class="listitem">
+                    <p>മൂല്യം വർക്കിംഗ്: മൂല്യങ്ങൾ ഉൾക്കൊണ്ടില്ല ആകുന്നു കൂടുതൽ തോന്നുന്നു; അങ്ങനെ തീവ്രത കുറയുന്നു. ഷാഡോസ് ലൈറ്റർ വരുത്തുമ്പോൾ: പുതിയ വിശദാംശങ്ങൾ കാണിക്കും കഴിയും എന്നാൽ തീവ്രത കുറവാണ്; ഒത്തുതീർപ്പ് അത്യാവശ്യമാണ്. ഹൈലൈറ്റുകൾ ഇരുണ്ട തീർന്നിരിക്കുന്നു.</p>
+                  </li>
+                  <li class="listitem">
+                    <p>കളർ ചാനലുകളുമായി പ്രവർത്തനം: നിങ്ങൾ ഉപയോഗിക്കുകയാണെങ്കിൽ ഉദാഹരണത്തിന് ഗ്രീൻ ചാനൽ 100 ​​140 നും ഔട്ട്പുട്ട് അളവ് നിർത്തി ചില പച്ച, പോലും ഒരു താഴ്ന്ന മൂല്യം എല്ലാ പിക്സൽ, അവരുടെ ഗ്രീൻ ചാനൽ മൂല്യം 100 140 നും മാറ്റി ഉണ്ടായിരിക്കും.</p>
+                  </li>
+                  <li class="listitem">
+                    <p>ആൽഫാ ചാനൽ ഉപയോഗിച്ച് പ്രവർത്തനം: എല്ലാ ആൽഫ മൂല്യങ്ങളും നിങ്ങൾ സജ്ജമാക്കിയിരിക്കുന്ന ശ്രേണി മാറ്റി ചെയ്യും.</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="orderedlist">
+                <p class="title">
+                  <strong>Example for Output Levels</strong>
+                </p>
+                <ol class="orderedlist" type="1">
+                  <li class="listitem">
+                    <p>യഥാർത്ഥ ചിത്രത്തിന്റെ കറുത്ത നിന്ന് ഒരു ആർജിബി ഗ്രേഡിയന്റ് ആണ് (; 0; 0 0) വെളുത്ത (; 255; 255 255) ലേക്ക്. ഔട്ട്പുട്ട് ലെവലുകൾ യാതൊരു ഹിസ്റ്റോഗ്രാം ഉണ്ട്; ഇവിടെ നാം <span class="guimenu">Windows</span> → <span class="guisubmenu">Dockable Dialogs</span> → <span class="guimenuitem">Histogram</span> ഉപയോഗിച്ചു.</p>
+                    <div class="mediaobject">
+                      <img src="images/toolbox/levels-output-1.png" />
+                      <div class="caption">
+                        <p>Original image (a gradient)</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="listitem">
+                    <p>മൂല്യം ചാനൽ തിരഞ്ഞെടുത്തു. കറുത്ത സ്ലൈഡർ ഹിസ്റ്റോഗ്രാം പിക്സൽ കംപ്രഷൻ കാണിക്കുന്നു 189. 63 വെളുത്ത സ്ലൈഡർ നീക്കി. ഇല്ല പിക്സൽ 63 കുറവാണ്, ആരും പിക്സൽ 189. അധികം സ്വരൂപത്തിൽ ആണ്, ഷാഡോസ് ലഘുവാകുന്നു ഹൈലൈറ്റുകളിലും ഇരുണ്ട ആകുന്നു: വിപരീതമായി കുറയുന്നു.</p>
+                    <div class="mediaobject">
+                      <img src="images/toolbox/levels-output-2.png" />
+                      <div class="caption">
+                        <p>ബ്ലാക്ക് സ്ലൈഡർ നീക്കി</p>
+                      </div>
+                    </div>
+                  </li>
+                </ol>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">എല്ലാ ചാനലുകളും</span>
+            </dt>
+            <dd>
+              <p><span class="guilabel">Auto</span>: ലെവലുകൾ ഒരു ഓട്ടോമാറ്റിക് ക്രമീകരണം നടത്തുന്നു.</p>
+              <p><strong>മൂന്ന് eyedroppers <span class="guiicon"><img src="images/dialogs/stock- color-picker-white-18.png" /></span>, <span class="guiicon"><img src="images/dialogs/stock-color-picker-gray-18.png" /></span>, <span class="guiicon"><img src="images/dialogs/stock-color-picker-black-18. png" /></span>. </strong>ഈ മൂന്ന് ബട്ടണുകൾ യഥാക്രമം ഒരു വെളുത്ത ഒരു ചാര ഒരു കറുത്ത eye- dropper പ്രതിനിധീകരിക്കുന്നു. നിങ്ങൾ ഈ ബട്ടണിൽ ഒരെണ്ണം ക്ലിക്ക് ചെയ്യുമ്പോൾ, മൌസ് പോയിന്റർ കണ്ണു-dropper അതിനെ പ്രതിനിധീകരിക്കുന്ന രൂപത്തിൽ. പിന്നെ, ഇമേജ് ക്ലിക്ക് ചെയ്യുമ്പോൾ, ക്ലിക്കുചെയ്താൽ പിക്സൽ <span class="emphasis"><em>white point </em></span>, <span class="emphasis"><em>black point</em></span> അല്ലെങ്കിൽ <span class="emphasis"><em>mid point</em></span> നിങ്ങൾ തിരഞ്ഞെടുത്തു കണ്ണ്-dropper തക്കവണ്ണം നിർണ്ണയിക്കുന്നു. ഒരു പ്രത്യേക ചാനൽ തിരഞ്ഞെടുത്ത പോലും, എല്ലാ ചാനലുകളുടെ പ്രവർത്തിക്കുന്നു.</p>
+              <div class="figure">
+                <a id="idp46925515572416"></a>
+                <p class="title">
+                  <strong>ചിത്രം 14.163. ലെവലുകൾ കണ്ണ്-droppers ഉദാഹരണത്തിന്</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/toolbox/levels-eyedrop.png" alt="ലെവലുകൾ കണ്ണ്-droppers ഉദാഹരണത്തിന്" />
+                    <div class="caption">
+                      <p>മുകളിൽ കറുത്ത നിന്ന് വൈറ്റ് യഥാർത്ഥ ഗ്രേഡിയന്റ് ആണ്. ഒരു മൂല്യം വെളുത്ത തിരിഞ്ഞു ക്ലിക്കുചെയ്ത പിക്സൽ കൂടുതലായിരിക്കും എല്ലാ പിക്സലുകൾ: താഴെയുള്ള വെള്ള കണ്ണ്-dropper കൂടെ ക്ലിക്കുചെയ്തിട്ട് ഫലമാണ്.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">Edit these settings as Curves</span>
+            </dt>
+            <dd>
+              <p>എളുപ്പം നിങ്ങളുടെ പ്രവർത്തനത്തിലാക്കാൻ, ഈ ബട്ടൺ നിങ്ങളെ സമാന ക്രമീകരണങ്ങൾ ഉപയോഗിച്ച് <a class="link" href="gimp-tool-curves.html" title="5.8. കർവ്സ്">Curves</a> ഉപകരണം തിരിയുന്നു അനുവദിക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p>പ്രിവ്യൂ ബട്ടൺ പുതിയ തലത്തിലേക്ക് ക്രമീകരണങ്ങൾ തലങ്ങളിൽ എല്ലാ മാറ്റങ്ങളും ചലനാത്മകമായി അങ്ങനെ ഉടനെ കാണാൻ കഴിയും ചെയ്യുന്നു.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925515583744"></a>5.7.3. Tool Options dialog</h4>
+            </div>
+          </div>
+        </div>
+        <div class="variablelist">
+          <p>
+        </p>
+          <div class="figure">
+            <a id="idp46925515585056"></a>
+            <p class="title">
+              <strong>ചിത്രം 14.164. <span class="quote">“<span class="quote">Levels</span>”</span> tool options</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/toolbox/tool-options-levels.png" alt="“Levels” tool options" />
+              </div>
+            </div>
+          </div>
+          <p><br class="figure-break" />
+      </p>
+          <p>ഈ ഉപകരണം (ഇത് ചേർക്കാൻ ചെയ്യണമെങ്കിൽ <a class="xref" href="gimp-pimping.html#gimp-prefs-toolbox" title="1.7. പണിസഞ്ചി">വിഭാഗം 1.7, “പണിസഞ്ചി”</a> കാണുക ദയവായി) സ്ഥിരമായി പണിസഞ്ചിയിൽ ഹാജരാകാതിരുന്നത് ആണെങ്കിലും, എങ്കിലും അതു പണിസഞ്ചി കീഴിൽ ഒരു ടൂൾ ഐച്ഛിക ഡയലോഗ് ഉണ്ട്. ഈ ഓപ്ഷനുകൾ ഇവിടെ വിവരിക്കുന്നു:</p>
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ഹിസ്റ്റോഗ്രാം സ്കെയിൽ</span>
+            </dt>
+            <dd>
+              <p>ഈ രണ്ട് ഓപ്ഷനുകൾ തോത് ഡയലോഗിൽ െപരുമാറാതിരിക്കുകൈ <span class="guiicon"><img src="images/dialogs/stock-histogram- logarithmic-16.png" /></span> ആൻഡ് ലീനിയർ <span class="guiicon"><img src="images/dialogs/stock-histogram-linear-16.png" /></span> ബട്ടണുകൾ അതേ നടപടി ഞങ്ങൾക്കുണ്ട്.</p>
+            </dd>
+            <dt>
+              <span class="term">സാമ്പിൾ ശരാശരി</span>
+            </dt>
+            <dd>
+              <p>ഈ സ്ലൈഡർ നിറം-സാഹസമാണ് പ്രദേശത്തെ <span class="quote">“<span class="quote">radius</span>”</span> സജ്ജമാക്കുന്നു. ഈ പ്രദേശം നിങ്ങൾ ഒരു പിക്സൽ ന് ക്ലിക്കിൽ നിലനിർത്താൻ ഒരു കൂടുതലോ കുറവോ വിശാലമായിരിക്കുന്നു ചതുരശ്ര ദൃശ്യമാകുന്നു.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925515596160"></a>5.7.4. പ്രാവർത്തിക</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925515596912"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.165. വളരെ അണ്ടർ ആക്ഷേപം ചിത്രം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/colors-retinex1.png" alt="വളരെ അണ്ടർ ആക്ഷേപം ചിത്രം" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/toolbox/levels-ex1b.png" alt="വളരെ അണ്ടർ ആക്ഷേപം ചിത്രം" />
+              <div class="caption">
+                <p>ആമി ഷാഡോസ്, കാണാതാകുകയും വിശേഷാശയങ്ങൾ ഒരു മേൽക്കോയ്മക്കു കാണിക്കുന്നു.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="figure">
+          <a id="idp46925515603344"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.166. Setting the white point</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/levels-ex2a.png" alt="Setting the white point" />
+              <div class="caption">
+                <p>വെളുത്ത സ്ലൈഡർ നന്നായി അടയാളപ്പെടുത്തിയിരിക്കുന്ന ഹൈലൈറ്റുകൾ തുടക്കം നീക്കി. ചിത്രം പ്രദീപ്തമാക്കുന്നു.</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/toolbox/levels-ex2b.png" alt="Setting the white point" />
+              <div class="caption">
+                <p>തത്ഫലമായുണ്ടാകുന്ന ആമി (ഇറങ്ങി) ഇപ്പോൾ വിശേഷാശയങ്ങൾ കാണിക്കുന്നു, പക്ഷേ ഷാഡോസ് ഇപ്പോഴും ഞങ്ങളാണ്.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="figure">
+          <a id="idp46925515610048"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.167. ഷാഡോകളിലും ഹൈലൈറ്റുകൾ തമ്മിലുള്ള ബാലൻസ് ക്രമീകരിക്കുന്നു</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/levels-ex3a.png" alt="ഷാഡോകളിലും ഹൈലൈറ്റുകൾ തമ്മിലുള്ള ബാലൻസ് ക്രമീകരിക്കുന്നു" />
+              <div class="caption">
+                <p>മിഡ് സ്ലൈഡർ ഇടത് നീക്കി. ഈ ഷാഡോസ് അനുപാതം കുറയ്ക്കൽ ഹൈലൈറ്റുകൾ അനുപാതത്തിൽ വർദ്ധിച്ചുവരുന്ന കാരണമാകുന്നുണ്ട്.</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/toolbox/levels-ex3b.png" alt="ഷാഡോകളിലും ഹൈലൈറ്റുകൾ തമ്മിലുള്ള ബാലൻസ് ക്രമീകരിക്കുന്നു" />
+              <div class="caption">
+                <p>തത്ഫലമായുണ്ടാകുന്ന ആമി (ഇറങ്ങി) ഷാഡോസ് കുറയ്ക്കണമെന്നാണ് സ്ഥിരീകരിക്കുന്നു.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-tool-threshold.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-tools-color.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-tool-curves.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-tool-threshold.html">5.6. ഉമ്മറം</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tool-curves.html">5.8. കർവ്സ്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>4.4. എംബോസ്സ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-distort.html" title="4. ഫിൽട്ടറുകൾ വളച്ചൊടിച്ച്" />
+    <link rel="prev" href="plug-in-curve-bend.html" title="4.3. കർവ് ബെംഡ്" />
+    <link rel="next" href="plug-in-engrave.html" title="4.5. കൊത്തുക" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">4.4. എംബോസ്സ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-curve-bend.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">4. ഫിൽട്ടറുകൾ വളച്ചൊടിച്ച്</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-engrave.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-emboss"></a>4.4. എംബോസ്സ്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925524369184" class="indexterm"></a>
+      <a id="idp46925524371040" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524371952"></a>4.4.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925524372720"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.39. എംബോസ്സ് ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="എംബോസ്സ് ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/distort-taj-emboss.jpg" alt="എംബോസ്സ് ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Emboss</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ സ്റ്റാമ്പും ബമ്പുകളും hollows അതിനെ ദുരിതാശ്വാസ നൽകുന്ന സജീവ അല്ലെങ്കിൽ പാളി നിരക്കു ദണ്ഡം. ബ്രൈറ്റ് പ്രദേശങ്ങൾ ഉയിർത്തെഴുന്നേൽപിക്കപ്പെടുന്ന ഇരുണ്ട മഹത്തുക്കൾ കൊത്തിവച്ചിരിക്കുന്നത്. നിങ്ങൾക്ക് ലൈറ്റിംഗ് വ്യത്യാസപ്പെട്ടിരിക്കും.</p>
+        <p>നിങ്ങൾ മാത്രം ആർജിബി ചിത്രങ്ങൾ ഉപയോഗിച്ച് ഫിൽട്ടർ ഉപയോഗിക്കാം. നിങ്ങളുടെ ചിത്രം ഗ്രേസ്കെയിലാക്കി ഉണ്ടെങ്കിൽ, അത് മെനുവിൽ ഗ്രേ ഔട്ട് ചെയ്യും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524381408"></a>4.4.2. ഫിൽട്ടർ ആരംഭിക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Distorts</span> → <span class="guimenuitem">Emboss</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524384032"></a>4.4.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925524384784"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.40. <span class="quote">“<span class="quote">Emboss</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/distort/emboss.png" alt="“Emboss” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ <span class="guilabel">OK</span> ക്ലിക്ക് വരെ നിങ്ങളുടെ എല്ലാ ക്രമീകരണം ചിത്രവും ബാധിക്കാതെ പ്രിവ്യൂ ദൃശ്യമാകും. നിങ്ങളുടെ കമ്പ്യൂട്ടർ വളരെ സാവധാനത്തിലാണ് എങ്കിൽ <span class="guilabel">Preview</span> ചെക്കുചെയ്തിട്ടുണ്ടെന്നും സൂക്ഷിക്കരുത്.</p>
+            </dd>
+            <dt>
+              <span class="term">ഫംഗ്ഷൻ</span>
+            </dt>
+            <dd>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">Bumpmap</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>റിലീഫ് മിനുസമാർന്ന വർണ്ണങ്ങളും ഭദ്രമായിരിക്കും.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">എംബോസ്സ്</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>അതു മെറ്റൽ പോലെ ഗ്രേസ്കെയിൽ ദുരിതാശ്വാസ നിങ്ങളുടെ ഇമേജ് കൂടുതൽ അടയാളപ്പെടുത്തി തിരിക്കുക.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">Azimuth</span>
+            </dt>
+            <dd>
+              <p>ഈ കോമ്പസ് (- 360 0) പോയിന്റ് പ്രകാരം പ്രകാശമാനമാക്കുന്നതിനൊപ്പം പോകുന്നു. നിങ്ങൾ ഊഹിക്കുന്നു ദക്ഷിണാഫ്രിക്ക നിങ്ങളുടെ ചിത്രത്തിന്റെ മുകളിൽ, എന്നിട്ട് ഈസ്റ്റ് (0 °) ഇടതുവശത്താണ്. ഉയരുന്ന മൂല്യം എതിർഘടികാരദിശയിൽ പോകുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">ഉയരത്തിലുമുള്ള</span>
+            </dt>
+            <dd>
+              <p>ആ ശക്തമായിരുന്ന വരെ കയറി തത്വത്തിൽ, ചക്രവാളത്തിൽ നിന്ന് ഉയരം (0 °) ന്റെ (90 °), എന്നാൽ ഇവിടെ സമ്മുഖ മണ്ഡലത്തിലായിരുന്നു (180 °) വരെ.</p>
+            </dd>
+            <dt>
+              <span class="term">ആഴം</span>
+            </dt>
+            <dd>
+              <p>പ്രകാശ സ്രോതസ്സ് അകലം തോന്നുന്നു. പ്രകാശ എപ്പോൾ മൂല്യം കൂടുകയും കുറഞ്ഞുതുടങ്ങും.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-curve-bend.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-distort.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-engrave.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-curve-bend.html">4.3. കർവ് ബെംഡ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-engrave.html">4.5. കൊത്തുക</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

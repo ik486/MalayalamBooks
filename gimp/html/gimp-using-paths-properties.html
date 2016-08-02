@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>5.2. പാത പ്രോപ്പർട്ടീസ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-using-paths.html" title="5.  പാഥുകൾ" />
+    <link rel="prev" href="gimp-using-paths.html" title="5.  പാഥുകൾ" />
+    <link rel="next" href="gimp-using-paths-and-selections.html" title="5.3. പാത എന്നിവയും തിരഞ്ഞെടുപ്പുകൾ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">5.2. പാത പ്രോപ്പർട്ടീസ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-using-paths.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">5. 
+    
+    <span class="phrase">പാഥുകൾ</span>
+  </th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-using-paths-and-selections.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-using-paths-properties"></a>5.2. പാത പ്രോപ്പർട്ടീസ്</h3>
+          </div>
+        </div>
+      </div>
+      <p>വഴികൾ, ലെയറുകളും ചാനലുകൾ പോലെ ഒരു ചിത്രത്തിന്റെ ഘടകങ്ങൾ ഉണ്ട്. ഒരു ഇമേജ് <acronym class="acronym">GIMP</acronym> ന്റെ നേറ്റീവ് എക്സ്.സി.എഫ് ഫയൽ ഫോർമാറ്റിൽ സംരക്ഷിക്കപ്പെടും, അത് ഏതെങ്കിലും പാതകളെ അതുമായി സംരക്ഷിച്ചു. ഒരു ചിത്രം ലെ പാതകൾ പട്ടിക <a class="link" href="gimp-path-dialog.html" title="2.3. പാഥുകൾ സംഭാഷണം">Paths dialog</a> ഉപയോഗിച്ച് കാണുന്ന ഓപ്പറേറ്റുചെയ്യുകയും കഴിയും. നിങ്ങൾ പകർത്തിയെടുക്കുന്ന വഴികളിലേക്ക് ഡയലോഗിൽ പോപ്പ്-അപ്പ് മെനു ഉപയോഗിച്ച് ഒട്ടിക്കുന്നതിലൂടെ തമ്മിൽ ഇമേജിൽ നിന്നും ഒരു പാത്ത് വരുകയോ ഡെസ്റ്റിനേഷൻ ഇമേജ് ജാലകത്തിൽ ഡയലോഗ് വഴികളിലേക്ക് നിന്ന് ഒരു ഐക്കൺ ഇഴച്ച് കഴിയും.</p>
+      <p><acronym class="acronym">GIMP</acronym> പാതകൾ <span class="quote">“<span class="quote">Bezier paths</span>”</span> വിളിച്ചു ഒരു ഗണിത തരം വകയാണ്. എന്താണ് ഈ പ്രായോഗികമായി എന്നാണ് <span class="emphasis"><em>anchors</em></span> ആൻഡ് <span class="emphasis"><em>handles</em></span> നിർവചിച്ചിരിക്കുന്നത് എന്നതാണ്. <span class="quote">“<span class="quote">Anchors</span>”</span> പോയിന്റ് പാത്ത് പോകുന്നു ആകുന്നു. അതു വരെയോ അല്ലെങ്കിൽ ഒരു ആങ്കർ പോയിന്റ് ഉപേക്ഷിക്കുമ്പോൾ <span class="quote">“<span class="quote">Handles</span>”</span> ഒരു പാതയുടെ ദിശ നിർവചിക്കുന്നു: ഓരോ നങ്കൂരം പോയിന്റ് അത് അറ്റാച്ച് രണ്ട് ഹാൻഡിലുകൾ ഉണ്ട്.</p>
+      <p>ഗോപനെ വളരെ സങ്കീർണമായ കഴിയും. നിങ്ങൾ പാത ഉപകരണം ഉപയോഗിച്ച് മുഖാന്തരം അവർക്കും സൃഷ്ടിക്കുന്നുവെങ്കിൽ, പതിവാക്കിയിരുന്ന പക്ഷം അവർ ഒരുപക്ഷേ അധികം കുറച്ച് ഡസൻ നങ്കൂരം പോയിന്റുകൾ ഉൾക്കൊള്ളാൻ (പലപ്പോഴും കുറച്ച് പല) ചെയ്യും; പക്ഷെ, ഒരു പാതയിലേക്ക് ഒരു നിര രൂപാന്തരപ്പെടുത്തി, അല്ലെങ്കിൽ ഒരു പാതയിലേക്ക് ടെക്സ്റ്റ് വേഷം അവരെ സൃഷ്ടിക്കാൻ പക്ഷം ഫലം എളുപ്പത്തിൽ നങ്കൂരം പോയിൻറ് അഥവാ പോലും ആയിരക്കണക്കിന് ഉൾപ്പെടുത്താൻ കഴിയും.</p>
+      <p>പാതയിൽ ഒന്നിലധികം <span class="emphasis"><em>components</em></span> ഉണ്ടായേക്കാം. ഒരു <span class="quote">“<span class="quote">component</span>”</span> ആരുടെ ആങ്കർ പോയിന്റ് എല്ലാ പാത സെഗ്മെന്റുകൾക്കുള്ളിൽ പരസ്പരം ബന്ധിപ്പിച്ച ഒരു പാതയുടെ ഭാഗമാണ്. പാതകളിൽ ഒന്നിലധികം ഘടകങ്ങൾ കഴിവും വിച്ഛേദിച്ച ഒന്നിലധികം ഭാഗങ്ങൾ ഇല്ലാതെ തിരഞ്ഞെടുക്കലുകൾ നല്കുന്നു അനുവദിക്കുന്നു.</p>
+      <p>ഒരു പാതയുടെ ഓരോ ഘടകത്തിന്റേയും <span class="emphasis"><em>open</em></span> അല്ലെങ്കിൽ <span class="emphasis"><em>closed</em></span> ആകാം: <span class="quote">“<span class="quote">closed</span>”</span> കഴിഞ്ഞ ആങ്കർ പോയിന്റ് ആദ്യ ആങ്കർ പോയിന്റ് ഘടിപ്പിച്ച എന്നാണ്. നിങ്ങൾ ഒരു നിര ഒരു പാത രൂപാന്തരപ്പെടുത്തിയോ എങ്കിൽ ഏതെങ്കിലും തുറന്ന ഘടകങ്ങൾ സ്വയം ഒരു വര ആദ്യ ആങ്കർ പോയിന്റ് അവസാന ആങ്കർ പോയിന്റ് ബന്ധിപ്പിച്ചുകൊണ്ട് അടച്ച ഘടകങ്ങൾ പരിവർത്തനം ചെയ്യുന്നു.</p>
+      <p>പാത സെഗ്മെന്റുകൾ നേരായ അല്ലെങ്കിൽ വളഞ്ഞ് ആകാം. പാതയിൽ <span class="quote">“<span class="quote">polygonal</span>”</span> വിളിക്കുന്നു അതിന്റെ നിയോജകമണ്ഡലങ്ങളിലും എല്ലാ നേരായ എങ്കിൽ. ഒരു പുതിയ പാത സെഗ്മെന്റ് എപ്പോഴും നേരായ സൃഷ്ടിക്കപ്പെട്ടിരിക്കുന്നത്; ആങ്കർ പോയിന്റുകൾ കൈപ്പിടികൾ നേരായ-വരകളെട ഉല്പാദിപ്പിക്കുന്നത് പൂജ്യം നീളം, തഴുതുപിടികളിന്മേൽ കായിക്കുന്ന നങ്കൂരം പോയിന്റ് മുകളിൽ നേരിട്ട് ഉണ്ട്. കർവ് ഒരു സെഗ്മെന്റ് സ്ഥാപിപ്പാൻ അകലെ ഒരു ആങ്കർ പോയിന്റ് നിന്നും ഒരു ഹാൻഡിൽ ഹാൻഡിൽ വലിച്ചിടുക.</p>
+      <p>പാതകൾ ഒരു ആശംസകള് കാര്യം അവർ പ്രത്യേകിച്ച് ചിത്രങ്ങൾ അപേക്ഷിച്ച് വളരെ കുറച്ച് ഉറവിടങ്ങൾ ഉപയോഗിക്കുക എന്നതാണ്. മെമ്മറി 1K ഒരു സങ്കീർണ്ണമായ പാത ഹോൾഡ് മതി, പക്ഷെ ഒരു ചെറിയ 20x20 പിക്സൽ RGB പാളി ഹോൾഡ് മതിയായ: റാം ഒരു പാത പ്രതിനിധീകരിച്ച് അതിന്റെ അവതാരകർ മാത്രമേ നിർദ്ദേശാങ്കങ്ങൾ സൂക്ഷിക്കുവാനും കൈകാര്യം ആവശ്യമാണ്. അതുകൊണ്ട്, നിങ്ങളുടെ സിസ്റ്റം ഏതെങ്കിലും കാര്യമായ സ്ട്രെസ് കാരണമാകുന്ന ഇല്ലാതെ ഒരു സ്വരൂപത്തിൽ പാതകൾ നൂറുകണക്കിന് അക്ഷരാർത്ഥത്തിൽ ഞങ്ങൾക്കുണ്ട് സാധ്യമാണ്; നൂറുകണക്കിന് പാതകൾ <span class="emphasis"><em>you</em></span> കാരണമാകും തക്കവണ്ണം വഷളായത് തുക എന്നാൽ, മറ്റൊരു ചോദ്യം. നിയോജകമണ്ഡലങ്ങളിലും ആയിരക്കണക്കിന് ഒരു പാത്ത് പോലും ഒരു സാധാരണ അല്ലെങ്കിൽ പാളി ചാനലിലേക്ക് അപേക്ഷിച്ച് ചുരുങ്ങിയ ഉറവിടങ്ങൾ കഴിക്കും.</p>
+      <p>ഗോപനെ സൃഷ്ടിക്കുകയും <a class="link" href="">Path tool</a> ഉപയോഗിച്ച് കൃത്രിമം കഴിയും.</p>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-using-paths.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-using-paths.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-using-paths-and-selections.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-paths.html">5. 
+    
+    <span class="phrase">പാഥുകൾ</span>
+  </a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-paths-and-selections.html">5.3. പാത എന്നിവയും തിരഞ്ഞെടുപ്പുകൾ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,3576 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP-Help 2.8.0\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
+"PO-Revision-Date: 2012-06-01 12:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/softglow.xml:29(None)
+#: src/filters/artistic/oilify.xml:30(None)
+#: src/filters/artistic/applycanvas.xml:35(None)
+#: src/filters/artistic/photocopy.xml:30(None)
+#: src/filters/artistic/predator.xml:28(None)
+#: src/filters/artistic/cartoon.xml:29(None)
+#: src/filters/artistic/cubism.xml:30(None)
+#: src/filters/artistic/GIMPressionist.xml:30(None)
+msgid ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
+msgstr ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/softglow.xml:38(None)
+msgid ""
+"@@image: 'images/filters/examples/artistic-taj-softglow.jpg'; "
+"md5=ea938357c4ad6dbbe69c48e2043da77b"
+msgstr ""
+"@@image: 'images/filters/examples/artistic-taj-softglow.jpg'; "
+"md5=ea938357c4ad6dbbe69c48e2043da77b"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/softglow.xml:70(None)
+msgid ""
+"@@image: 'images/filters/artistic/softglow.png'; "
+"md5=eeeb1930a4d943d2eb6f829586006607"
+msgstr ""
+"@@image: 'images/filters/artistic/softglow.png'; "
+"md5=eeeb1930a4d943d2eb6f829586006607"
+
+#: src/filters/artistic/softglow.xml:11(title)
+#: src/filters/artistic/softglow.xml:16(tertiary)
+#: src/filters/artistic/softglow.xml:19(primary)
+msgid "Softglow"
+msgstr "Softglow"
+
+#: src/filters/artistic/softglow.xml:14(primary)
+#: src/filters/artistic/weave.xml:11(primary)
+#: src/filters/artistic/clothify.xml:11(primary)
+#: src/filters/artistic/vangogh-lic.xml:18(primary)
+#: src/filters/artistic/GIMPressionist-orientmap.xml:17(primary)
+#: src/filters/artistic/oilify.xml:15(primary)
+#: src/filters/artistic/applycanvas.xml:16(primary)
+#: src/filters/artistic/photocopy.xml:15(primary)
+#: src/filters/artistic/predator.xml:13(primary)
+#: src/filters/artistic/GIMPressionist-sizemap.xml:16(primary)
+#: src/filters/artistic/cartoon.xml:14(primary)
+#: src/filters/artistic/introduction.xml:12(primary)
+#: src/filters/artistic/cubism.xml:15(primary)
+#: src/filters/artistic/GIMPressionist.xml:15(primary)
+msgid "Filters"
+msgstr ""
+"ഫിൽട്ടറുകൾ"
+
+#: src/filters/artistic/softglow.xml:15(secondary)
+#: src/filters/artistic/weave.xml:12(secondary)
+#: src/filters/artistic/clothify.xml:12(secondary)
+#: src/filters/artistic/vangogh-lic.xml:19(secondary)
+#: src/filters/artistic/GIMPressionist-orientmap.xml:18(secondary)
+#: src/filters/artistic/oilify.xml:16(secondary)
+#: src/filters/artistic/applycanvas.xml:17(secondary)
+#: src/filters/artistic/photocopy.xml:16(secondary)
+#: src/filters/artistic/predator.xml:14(secondary)
+#: src/filters/artistic/GIMPressionist-sizemap.xml:17(secondary)
+#: src/filters/artistic/cartoon.xml:15(secondary)
+#: src/filters/artistic/introduction.xml:13(secondary)
+#: src/filters/artistic/cubism.xml:16(secondary)
+#: src/filters/artistic/GIMPressionist.xml:16(secondary)
+msgid "Artistic"
+msgstr ""
+"കലാപരമായ"
+
+#: src/filters/artistic/softglow.xml:23(title)
+#: src/filters/artistic/weave.xml:20(title)
+#: src/filters/artistic/clothify.xml:20(title)
+#: src/filters/artistic/vangogh-lic.xml:27(title)
+#: src/filters/artistic/GIMPressionist-orientmap.xml:26(title)
+#: src/filters/artistic/oilify.xml:24(title)
+#: src/filters/artistic/applycanvas.xml:29(title)
+#: src/filters/artistic/photocopy.xml:24(title)
+#: src/filters/artistic/predator.xml:22(title)
+#: src/filters/artistic/GIMPressionist-sizemap.xml:25(title)
+#: src/filters/artistic/cartoon.xml:23(title)
+#: src/filters/artistic/cubism.xml:24(title)
+#: src/filters/artistic/GIMPressionist.xml:24(title)
+msgid "Overview"
+msgstr ""
+"പൊതു അവലോകനം"
+
+#: src/filters/artistic/softglow.xml:25(title)
+msgid "Example for the <quote>SoftGlow</quote> filter"
+msgstr ""
+"<quote>SoftGlow</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/artistic/softglow.xml:32(para)
+#: src/filters/artistic/oilify.xml:33(para)
+#: src/filters/artistic/applycanvas.xml:38(para)
+#: src/filters/artistic/photocopy.xml:33(para)
+#: src/filters/artistic/predator.xml:31(para)
+#: src/filters/artistic/cartoon.xml:32(para)
+#: src/filters/artistic/cubism.xml:33(para)
+#: src/filters/artistic/GIMPressionist.xml:33(para)
+msgid "Original image"
+msgstr ""
+"യഥാർത്ഥ ചിത്രം"
+
+#: src/filters/artistic/softglow.xml:41(para)
+msgid "Filter <quote>Softglow</quote> applied"
+msgstr ""
+"<quote>Softglow</quote> ഫിൽട്ടറിന്"
+
+#: src/filters/artistic/softglow.xml:45(para)
+msgid ""
+"This filter lights the image with a soft glow. Softglow produces this effect "
+"by making bright areas of the image brighter."
+msgstr ""
+"ഈ ഫിൽട്ടർ ഒരു സോഫ്റ്റ് തിളക്കം ഉപയോഗിച്ച് ഇമേജ് പ്രകാശിപ്പിക്കുന്നു. Soft"
+"glow ഇമേജ് തിളക്കവും ശോഭയുള്ള പ്രദേശങ്ങൾ മാറ്റുന്നതിലൂടെ ഈ പ്രഭാവം ഉത്പാദി"
+"പ്പിക്കുന്നത്."
+
+#: src/filters/artistic/softglow.xml:52(title)
+#: src/filters/artistic/photocopy.xml:65(title)
+msgid "Starting filter"
+msgstr ""
+"ഫിൽട്ടർ ആരംഭിക്കുന്നു"
+
+#: src/filters/artistic/softglow.xml:53(para)
+msgid ""
+"You can find this file in the Image menu through: "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</"
+"guisubmenu><guimenuitem>Softglow</guimenuitem></menuchoice>."
+msgstr ""
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</guisubmenu><gui"
+"menuitem>Softglow</guimenuitem></menuchoice>: നിങ്ങൾ വഴി ഇമേജ് മെനുവിൽ ഈ ഫയ"
+"ൽ കണ്ടെത്താൻ കഴിയും."
+
+#. Parameter Settings
+#: src/filters/artistic/softglow.xml:64(title)
+#: src/filters/artistic/weave.xml:64(title)
+#: src/filters/artistic/clothify.xml:98(title)
+#: src/filters/artistic/vangogh-lic.xml:76(title)
+#: src/filters/artistic/GIMPressionist-orientmap.xml:40(title)
+#: src/filters/artistic/oilify.xml:72(title)
+#: src/filters/artistic/applycanvas.xml:70(title)
+#: src/filters/artistic/photocopy.xml:77(title)
+#: src/filters/artistic/predator.xml:72(title)
+#: src/filters/artistic/GIMPressionist-sizemap.xml:38(title)
+#: src/filters/artistic/cartoon.xml:66(title)
+#: src/filters/artistic/cubism.xml:72(title)
+#: src/filters/artistic/GIMPressionist.xml:70(title)
+msgid "Options"
+msgstr ""
+"ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/softglow.xml:66(title)
+msgid "<quote>Softglow</quote> filter options"
+msgstr ""
+"<quote>Softglow</quote> ഫിൽട്ടർ ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/softglow.xml:76(term)
+#: src/filters/artistic/GIMPressionist-orientmap.xml:112(term)
+#: src/filters/artistic/applycanvas.xml:82(term)
+#: src/filters/artistic/photocopy.xml:89(term)
+#: src/filters/artistic/GIMPressionist-sizemap.xml:93(term)
+#: src/filters/artistic/cubism.xml:84(term)
+#: src/filters/artistic/GIMPressionist.xml:87(title)
+msgid "Preview"
+msgstr ""
+"പ്രിവ്യൂ"
+
+#: src/filters/artistic/softglow.xml:78(para)
+#: src/filters/artistic/applycanvas.xml:84(para)
+#: src/filters/artistic/photocopy.xml:91(para)
+#: src/filters/artistic/cubism.xml:86(para)
+msgid ""
+"Your changes are displayed in this preview before being applied to your "
+"image."
+msgstr ""
+"ഈ പ്രിവ്യൂവിന്റെ ലെ നിങ്ങളുടെ മാറ്റങ്ങൾ ചിത്രം പ്രയോഗിക്കുന്നു മുമ്പ് പ്രദ"
+"ർശിപ്പിച്ചിരിക്കുന്നു."
+
+#: src/filters/artistic/softglow.xml:85(term)
+msgid "Glow radius"
+msgstr ""
+"ഗ്ലോ ആരം"
+
+#: src/filters/artistic/softglow.xml:87(para)
+msgid ""
+"The glow radius parameter controls the sharpness of the effect, giving a "
+"\"vaseline-on-the-lens\" effect."
+msgstr ""
+"തിളക്കം റേഡിയസ് പാരാമീറ്റർ ഒരു \"നശിപ്പിച്ചില്ലേ-ന്--ലെൻസ്\" നിവർത്തിക്കും "
+"പ്രഭാവമുള്ള മൂര്ച്ച നിയന്ത്രിക്കുന്നു."
+
+#: src/filters/artistic/softglow.xml:94(term)
+msgid "Brightness"
+msgstr ""
+"മിഴിവ്"
+
+#: src/filters/artistic/softglow.xml:96(para)
+msgid ""
+"The brightness parameter controls the degree of intensification applied to "
+"image highlights."
+msgstr ""
+"തെളിച്ചം പരാമീറ്റർ ഇമേജ് ഹൈലൈറ്റുചെയ്തവയിലേക്ക് പ്രയോഗിച്ചു ശക്തമാക്കണം ബി"
+"രുദം നിയന്ത്രിക്കുന്നു."
+
+#: src/filters/artistic/softglow.xml:103(term)
+#: src/filters/artistic/photocopy.xml:111(term)
+msgid "Sharpness"
+msgstr ""
+"ഷാർപ്നെസ്"
+
+#: src/filters/artistic/softglow.xml:105(para)
+msgid ""
+"The sharpness parameter controls how defined or alternatively diffuse the "
+"glow effect should be."
+msgstr ""
+"മൂര്ച്ച പരാമീറ്റർ നിർവചിച്ചിരിക്കുന്നത് എങ്ങനെയോ നിയന്ത്രിക്കുന്നു പകരമായി"
+" ആയിരിക്കണം തിളക്കം ഇഫക്റ്റ് ഡിഫ്യൂസ്."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/weave.xml:26(None)
+msgid ""
+"@@image: 'images/filters/examples/artistic-taj-weave.jpg'; "
+"md5=96006b915a6b71b5fbd24c4edd46d138"
+msgstr ""
+"@@image: 'images/filters/examples/artistic-taj-weave.jpg'; "
+"md5=96006b915a6b71b5fbd24c4edd46d138"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/weave.xml:70(None)
+msgid ""
+"@@image: 'images/filters/artistic/weave.png'; "
+"md5=443f44424ee43f45b838990b7ca9a353"
+msgstr ""
+"@@image: 'images/filters/artistic/weave.png'; "
+"md5=443f44424ee43f45b838990b7ca9a353"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/weave.xml:165(None)
+msgid ""
+"@@image: 'images/filters/examples/artistic-weave-as-lattice.jpg'; "
+"md5=bfaef67bef6049bc9c6c45cc73c3b5f2"
+msgstr ""
+"@@image: 'images/filters/examples/artistic-weave-as-lattice.jpg'; "
+"md5=bfaef67bef6049bc9c6c45cc73c3b5f2"
+
+#: src/filters/artistic/weave.xml:8(title)
+#: src/filters/artistic/weave.xml:13(tertiary)
+#: src/filters/artistic/weave.xml:16(primary)
+msgid "Weave"
+msgstr ""
+"നെയ്യുക"
+
+#: src/filters/artistic/weave.xml:22(title)
+msgid "Example of Weave"
+msgstr ""
+"വീവ് ഉദാഹരണം"
+
+#: src/filters/artistic/weave.xml:29(para)
+msgid "Filter <quote>Weave</quote> applied"
+msgstr ""
+"<quote>Weave</quote> ഫിൽട്ടറിന്"
+
+#: src/filters/artistic/weave.xml:33(para)
+msgid ""
+"The <guimenuitem>Weave</guimenuitem> command is a Script-Fu script which "
+"creates a new layer filled with a weave effect and adds it to the image as "
+"an overlay or bump map. The result of the image looks as if it were printed "
+"over woven ribbons of paper, thin wooden sheet, or stripped bamboo."
+msgstr ""
+"<guimenuitem>Weave</guimenuitem> കമാൻഡ് ഒരു നെയ്യുക ഇഫക്റ്റ് നിറഞ്ഞു പുതിയ "
+"ലയർ സൃഷ്ടിക്കുന്നു ഓവർലേയായി ചിത്രം ചേർക്കുകയും അല്ലെങ്കിൽ മാപ്പ് ബമ്പ് ഒരു"
+" സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ് ആണ്. പോലെ അതു പേപ്പർ, നേർത്ത മരം ഷീറ്റ്, അല്"
+"ലെങ്കിൽ ഊരിയെടുത്തു മുളകൾ നാട റിബണിൽ മേൽ അച്ചടിച്ച ചെയ്തു ചിത്രത്തിന്റെ ഫലം"
+" തോന്നുന്നു."
+
+#: src/filters/artistic/weave.xml:40(para)
+#: src/filters/artistic/clothify.xml:38(para)
+msgid ""
+"If the image is in indexed colors, this menu entry is grayed out and "
+"unavailable."
+msgstr ""
+"ചിത്രം ഇൻഡെക്സ്ഡ് നിറങ്ങളിൽ ആണെങ്കിൽ, ഈ മെനു എൻട്രി ഗ്രേ ഔട്ട് ചെയ്ത് ലഭ്യമ"
+"ല്ല."
+
+#: src/filters/artistic/weave.xml:44(para)
+msgid ""
+"This filter adds a <quote>Multiply</quote> mode layer upon the layer where "
+"you activate this command. The weave texture is rendered in gray levels."
+msgstr ""
+"ഈ ഫിൽട്ടർ ഒരു <quote>Multiply</quote> മോഡ് പാളി ഈ കമാൻഡ് സജീവമാക്കാൻ പാളിക"
+"ളുടെ മേൽ ചേർക്കുന്നു. നെയ്യുക ടെക്സ്ചർ ചാര തോത് ഉള്ളൂ."
+
+#: src/filters/artistic/weave.xml:52(title)
+#: src/filters/artistic/clothify.xml:86(title)
+#: src/filters/artistic/vangogh-lic.xml:64(title)
+#: src/filters/artistic/oilify.xml:60(title)
+#: src/filters/artistic/applycanvas.xml:58(title)
+#: src/filters/artistic/predator.xml:60(title)
+#: src/filters/artistic/cartoon.xml:54(title)
+#: src/filters/artistic/cubism.xml:60(title)
+msgid "Activate the filter"
+msgstr ""
+"ഫിൽട്ടർ സജീവമാക്കുക"
+
+#: src/filters/artistic/weave.xml:53(para)
+msgid ""
+"This filter is found in the image window menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</"
+"guisubmenu><guimenuitem>Weave...</guimenuitem></menuchoice>."
+msgstr ""
+"ഈ ഫിൽട്ടർ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</guisu"
+"bmenu><guimenuitem>Weave...</guimenuitem></menuchoice> കീഴിൽ ഇമേജ് വിൻഡോ മ"
+"െനുവിലെ കാണപ്പെടുന്നത്."
+
+#: src/filters/artistic/weave.xml:66(title)
+msgid "<quote>Weave</quote> filter options"
+msgstr ""
+"<quote>Weave</quote> ഫിൽട്ടർ ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/weave.xml:74(para)
+msgid ""
+"For to make coarse mesh texture, increase the ribbon spacing and/or decrease "
+"the ribbon width."
+msgstr ""
+"നാടൻ മെഷ് ടെക്സ്ചർ നിർമ്മിക്കുന്നതിനെക്കുറിച്ച്, റിബൺ സ്പേസിംഗ് വർദ്ധിപ്പിക"
+"്കാൻ / അല്ലെങ്കിൽ റിബൺ വീതി കുറയ്ക്കുക."
+
+#: src/filters/artistic/weave.xml:78(para)
+msgid "For to strain ribbons hard, decrease the shadow depth."
+msgstr ""
+", ഹാർഡ് റിബണിൽ പായിക്കരുത് നിഴൽ ആഴത്തിൽ കുറയ്ക്കാൻ വേണ്ടി."
+
+#: src/filters/artistic/weave.xml:83(term)
+msgid "Ribbon width"
+msgstr ""
+"റിബൺ വീതി"
+
+#: src/filters/artistic/weave.xml:85(para)
+msgid ""
+"With this option you can set the tape width in pixel between 0.0 and 256.0. "
+"In default, 30.0 pixels is set."
+msgstr ""
+"ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് നിങ്ങൾക്ക് 0.0 നും 256,0 തമ്മിലുള്ള പിക്സൽ ലെ ടേപ്പ് വീ"
+"തി സജ്ജമാക്കാൻ കഴിയും. സ്വതവേ, 30.0 പിക്സലുകൾ സജ്ജമാക്കിയിരിക്കുന്നു."
+
+#: src/filters/artistic/weave.xml:92(term)
+msgid "Ribbon spacing"
+msgstr ""
+"റിബൺ സ്പെയ്സിംഗ്"
+
+#: src/filters/artistic/weave.xml:94(para)
+msgid ""
+"With this option you can set the distance to the neighboring ribbon or the "
+"size of black square hole in pixel between 0.0 and 256.0. In default, 10.0 "
+"pixels is set."
+msgstr ""
+"ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് അയൽ റിബൺ അല്ലെങ്കിൽ 0.0 നും 256,0 തമ്മിലുള്ള പിക്സൽ ലെ "
+"കറുത്ത ചതുരശ്ര ദ്വാരം വലിപ്പം ദൂരം സജ്ജമാക്കാൻ കഴിയും. സ്വതവേ, 10.0 പിക്സലു"
+"കൾ സജ്ജമാക്കിയിരിക്കുന്നു."
+
+#: src/filters/artistic/weave.xml:102(term)
+msgid "Shadow darkness"
+msgstr ""
+"ഷാഡോ ഇരുട്ടു"
+
+#: src/filters/artistic/weave.xml:104(para)
+msgid ""
+"With this option you can set the darkness at crossings of lower ribbon in "
+"percentage. Lower value shows ribbons thinner. 75.0 percent is the default "
+"value."
+msgstr ""
+"ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് ശതമാനം താഴ്ന്ന റിബണിന്റെ ക്രോസുകളിലെ ഇരുട്ടു സജ്ജമാക്ക"
+"ാൻ കഴിയും. ലോവർ മൂല്യം കട്ടി റിബണിൽ കാണിക്കുന്നു. 75,0 ശതമാനം സഹജമായ മൂല്യ"
+"ം."
+
+#: src/filters/artistic/weave.xml:112(term)
+#: src/filters/artistic/GIMPressionist.xml:751(term)
+msgid "Shadow depth"
+msgstr ""
+"ഷാഡോ ആഴത്തിൽ"
+
+#: src/filters/artistic/weave.xml:114(para)
+msgid ""
+"With this option you can set the bent strength of ribbons in percentage. "
+"Higher value shows ribbons more wavy, lower value for flat surface. The "
+"actual effect is limited by the <guilabel>Shadow darkness</guilabel>. 75.0 "
+"percent is the default value."
+msgstr ""
+"ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് ശതമാനം റിബണിൽ എന്ന വളച്ച് ശക്തി സജ്ജമാക്കാൻ കഴിയും. ഹയർ"
+" മൂല്യം റിബണിൽ പരന്ന പ്രതലത്തിൽ കൂടുതൽ അലകളുടെ, താഴ്ന്ന മൂല്യം കാണിക്കുന്നു"
+". യഥാർത്ഥ പ്രഭാവം <guilabel>Shadow darkness</guilabel> വഴി പരിമിതപ്പെടുത്തി"
+"യിരിക്കുന്നു. 75,0 ശതമാനം സഹജമായ മൂല്യം."
+
+#: src/filters/artistic/weave.xml:124(term)
+msgid "Thread length"
+msgstr ""
+"ത്രെഡ് ദൈർഘ്യം"
+
+#: src/filters/artistic/weave.xml:126(para)
+msgid ""
+"With this option you can set the regularity of stripe texture. If this value "
+"is shorter than the summary of the ribbon width and twice of the ribbon "
+"spacing, the surface of ribbon becomes speckled. Set this value in pixel on "
+"range between 0.0 to 256.0. The default value is 200.0."
+msgstr ""
+"ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് സ്ട്രൈപ്പ് ടെക്സ്ചർ എന്ന നിരന്തരം സജ്ജമാക്കാൻ കഴിയും. ഈ"
+" മൂല്യം റിബൺ വീതി സംഗ്രഹം കുറവായ പ്രാവശ്യം റിബൺ ദൂരവ്യാപകമായ ആണെങ്കിൽ, റിബൺ"
+" ഉപരിതലത്തിൽ പുള്ളിയും മാറുന്നു. 0.0 256.0 ലേക്ക് തമ്മിലുള്ള പരിധി ന് പിക്സ"
+"ൽ ഈ മൂല്യം സജ്ജമാക്കുക. സ്ഥിരസ്ഥിതി മൂല്യം 200,0 ആണ്."
+
+#: src/filters/artistic/weave.xml:136(term)
+msgid "Thread density"
+msgstr ""
+"ത്രെഡ് സാന്ദ്രത"
+
+#: src/filters/artistic/weave.xml:138(para)
+msgid ""
+"With this option you can set the density of fiber-like parallel short "
+"stripes on the surface of ribbons. To populate stripes increase this value. "
+"50.0 percent is the default value."
+msgstr ""
+"ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് റിബണിൽ ഉപരിതലത്തിൽ ഫൈബർ പോലുള്ള സമാന്തരമായി ഹ്രസ്വ അടി"
+"ക്കു സാന്ദ്രത സജ്ജമാക്കാൻ കഴിയും. തല്ലും ജനപ്രിയമാക്കുന്നതിന് ഈ മൂല്യം വർദ്"
+"ധിപ്പിക്കുന്നതിന്. 50,0 ശതമാനം സഹജമായ മൂല്യം."
+
+#: src/filters/artistic/weave.xml:146(term)
+msgid "Thread intensity"
+msgstr ""
+"ത്രെഡ് തീവ്രത"
+
+#: src/filters/artistic/weave.xml:148(para)
+msgid ""
+"With this option you can set the opacity of stripe texture. Lower value "
+"shows threads vague. To clear off threads set the value to 0.0 percent. The "
+"default value is 100.0 percent."
+msgstr ""
+"ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് സ്ട്രൈപ്പ് ടെക്സ്ചർ ഒപാസിറ്റി സജ്ജമാക്കാൻ കഴിയും. ലോവർ"
+" മൂല്യം ത്രെഡുകൾ അവക്തമായ കാണിക്കുന്നു. ത്രെഡുകൾ ഓഫ് ക്ലിയർ 0.0 ശതമാനമായി മ"
+"ൂല്യം വെച്ചു. സ്ഥിരസ്ഥിതി മൂല്യം 100,0 ശതമാനമാണ്."
+
+#: src/filters/artistic/weave.xml:159(title)
+msgid "Another usage"
+msgstr ""
+"മറ്റൊരു ഉപയോഗം"
+
+#: src/filters/artistic/weave.xml:161(title)
+msgid "Adding a lattice using <quote>Weave</quote> texture"
+msgstr ""
+"<quote>Weave</quote> ടെക്സ്ചർ ഉപയോഗിച്ച് കിളിവാതിലിൽകൂടി ചേർക്കുന്നു"
+
+#: src/filters/artistic/weave.xml:168(para)
+msgid ""
+"Narrower the ribbon width, wider the ribbon spacing, and filled with the "
+"<quote>Wood&nbsp;#1</quote> pattern."
+msgstr ""
+"ഇടുങ്ങിയ റിബ്ബൺ വീതി, ഇരട്ടക്കുട്ടികളുടെ റിബൺ അകലം ആൻഡ് <quote>Wood #1</quo"
+"te> പാറ്റേൺ നിറഞ്ഞു."
+
+#: src/filters/artistic/weave.xml:175(para)
+msgid ""
+"This texture can be a lattice that you can see the original image through "
+"its mesh holes. Add a new, transparent layer over the active layer for the "
+"lattice, and apply this filter. Select a black regular square in the texture "
+"layer using the <link linkend=\"gimp-tool-by-color-select\">Select By Color</"
+"link> tool, then delete black squares in selection on the texture layer to "
+"be chink holes. Reverse the selection, and activate the transparent layer so "
+"that you can fill the lattice surface with a pattern, then drag and drop "
+"your favorite pattern over the image window."
+msgstr ""
+"ഈ ടെക്സ്ചർ നിങ്ങൾ അതിന്റെ മെഷ് ദ്വാരങ്ങൾ വഴി യഥാർത്ഥ ചിത്രം കാണാൻ കഴിയുന്ന "
+"കിളിവാതിലിൽകൂടി കഴിയും. തേർ സജീവ പാളി മേൽ ഒരു പുതിയ സുതാര്യമായ പാളി ചേർക്കു"
+"ക, ഈ അരിപ്പ ബാധകമാക്കുക. പിന്നെ, <link linkend=\"gimp-tool-by-color-select"
+"\">Select By Color</link> ഉപകരണം ഉപയോഗിച്ച് ടെക്സ്ചർ പാളി ഒരു കറുത്ത പതിവ്"
+" സ്ക്വയർ തിരഞ്ഞെടുക്കുക .ദുഷ്യന്തനും കുഴികളും ആകുവാൻ ടെക്സ്ചർ പാളികളുള്ള നി"
+"രക്കു കറുത്ത സ്ക്വയറുകളിൽ ഇല്ലാതാക്കുക. നിരക്കു വിപരീത, നിങ്ങൾ ഒരു പാറ്റേൺ "
+"കിളിവാതിലിൽകൂടി ഉപരിഭാഗം കഴിയും അങ്ങനെ പിന്നീട് ഡ്രാഗ് ഇമേജ് വിൻഡോയുടെ മേൽ"
+" നിങ്ങളുടെ പ്രിയപ്പെട്ട പാറ്റേൺ ഡ്രോപ്പ് സുതാര്യമായ പാളി സജീവമാക്കുക."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/clothify.xml:26(None)
+msgid ""
+"@@image: 'images/filters/examples/artistic-taj-clothify.jpg'; "
+"md5=74d8ed03fedf6a458ba95c592b1bf440"
+msgstr ""
+"@@image: 'images/filters/examples/artistic-taj-clothify.jpg'; "
+"md5=74d8ed03fedf6a458ba95c592b1bf440"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/clothify.xml:104(None)
+msgid ""
+"@@image: 'images/filters/artistic/clothify.png'; "
+"md5=d864ba89bac273364ffa2776eca7a647"
+msgstr ""
+"@@image: 'images/filters/artistic/clothify.png'; "
+"md5=d864ba89bac273364ffa2776eca7a647"
+
+#: src/filters/artistic/clothify.xml:8(title)
+#: src/filters/artistic/clothify.xml:13(tertiary)
+#: src/filters/artistic/clothify.xml:16(primary)
+msgid "Clothify"
+msgstr "Clothify"
+
+#: src/filters/artistic/clothify.xml:22(title)
+msgid "Example of Clothify"
+msgstr ""
+"Clothify ഉദാഹരണം"
+
+#: src/filters/artistic/clothify.xml:29(para)
+msgid "Filter <quote>Clothify</quote> applied (in selection)"
+msgstr ""
+"<quote>Clothify</quote> (നിരക്കു ൽ) ഫിൽട്ടറിന്"
+
+#: src/filters/artistic/clothify.xml:34(para)
+msgid ""
+"<guimenuitem>Clothify</guimenuitem> command is a script which adds a cloth-"
+"like texture to the selected region or alpha."
+msgstr ""
+"<guimenuitem>Clothify</guimenuitem> കമാൻഡ് തിരഞ്ഞെടുത്ത പ്രദേശത്തെ അഥവാ ആൽഫ"
+"ാ ലേക്ക് ടെക്സ്ചർ പോലുള്ള ഒരു cloth- ചേർക്കുന്നു ഒരു സ്ക്രിപ്റ്റ് ആണ്."
+
+#: src/filters/artistic/clothify.xml:42(para)
+msgid "This effect is achieved through the following steps:"
+msgstr ""
+"ഈ പ്രഭാവം താഴെ ഘട്ടങ്ങളിലൂടെ കൈവരിക്കുന്നു:"
+
+#: src/filters/artistic/clothify.xml:45(para)
+msgid ""
+"Create an image in the same size as the original image, or selection or "
+"region in alpha if it is given, then add a layer to this image filled with "
+"white and <link linkend=\"plug-in-rgb-noise\">noisified</link> strongly."
+msgstr ""
+"വരം യഥാർത്ഥ ചിത്രം, അല്ലെങ്കിൽ ആൽഫയിലെ നിരക്കു അല്ലെങ്കിൽ ഭാഗത്തിന്റെ അതേ വ"
+"ലിപ്പത്തിൽ ഒരു ഇമേജ് സൃഷ്ടിക്കുക, തുടർന്ന് ശക്തമായി വെള്ള <link linkend=\"p"
+"lug-in-rgb-noise\">noisified</link> നിറഞ്ഞു ഈ ചിത്രം ഒരു ലെയർ ചേർക്കുക."
+
+#: src/filters/artistic/clothify.xml:53(para)
+msgid ""
+"Reproduce a layer from the recently added layer and set the mode of the "
+"upper layer to <link linkend=\"layer-mode-multiply\">Multiply</link>."
+msgstr ""
+"സമീപകാലത്ത് ചേർത്തു പാളി നിന്ന് ഒരു പാളി പുനർനിർമ്മിക്കുന്നതിനോ <link link"
+"end=\"layer-mode-multiply\">Multiply</link> ലേക്ക് മുകളിലെ പാളി മോഡ് സജ്ജമ"
+"ാക്കാൻ."
+
+#: src/filters/artistic/clothify.xml:60(para)
+msgid ""
+"Apply <link linkend=\"plug-in-gauss\">Gaussian blur</link> in different "
+"directions, horizontally on the lower layer by the given parameter "
+"<guilabel>Blur X</guilabel> as the radius, and vertically on the upper layer "
+"with <guilabel>Blur Y</guilabel>."
+msgstr ""
+"തിരശ്ചീനമായി ആരം നൽകിയിരിക്കുന്നു പരാമീറ്റർ <guilabel>Blur X</guilabel> കുറ"
+"ഞ്ഞു പാളി മേലും ലംബമായി <guilabel>Blur Y</guilabel> മുകളിലും പാളി ന് വിവിധ "
+"ദിശകളിൽ <link linkend=\"plug-in-gauss\">Gaussian blur</link> പ്രയോഗിക്കുക."
+
+#: src/filters/artistic/clothify.xml:68(para)
+msgid ""
+"Merge these two layers into an image and make its contrast <link linkend="
+"\"plug-in-c-astretch\">expanded as possibly</link>, then slightly noisify "
+"again on this working image."
+msgstr ""
+"ഒരു ചിത്രം ഈ രണ്ട് പാളികൾ ലയിപ്പിക്കുക ഈ അധ്വാനിക്കുന്ന ചിത്രത്തിൽ പിന്നീട്"
+" ചെറുതായി noisify വീണ്ടും അതിന്റെ തീവ്രത <link linkend=\"plug-in-c-astretch"
+"\">expanded as possibly</link> ഉണ്ടാക്കേണം."
+
+#: src/filters/artistic/clothify.xml:75(para)
+msgid ""
+"Finally do <link linkend=\"plug-in-bump-map\">bump map</link> on the "
+"original image by the working image with parameters <guilabel>Azimuth</"
+"guilabel>, <guilabel>Elevation</guilabel>, and <guilabel>Depth</guilabel>."
+msgstr ""
+"ഒടുവിൽ പാരാമീറ്ററുകൾ <guilabel>Azimuth</guilabel>, <guilabel>Elevation</gui"
+"label>, ഒപ്പം <guilabel>Depth</guilabel> പ്രവർത്തിച്ചും ചിത്രം യഥാർത്ഥ ചിത്"
+"രത്തിൽ <link linkend=\"plug-in-bump-map\">bump map</link> ചെയ്യാൻ."
+
+#: src/filters/artistic/clothify.xml:87(para)
+msgid ""
+"This filter is found in the image window menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</"
+"guisubmenu><guimenuitem>Clothify...</guimenuitem></menuchoice>."
+msgstr ""
+"ഈ ഫിൽട്ടർ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</guisu"
+"bmenu><guimenuitem>Clothify...</guimenuitem></menuchoice> കീഴിൽ ഇമേജ് വിൻഡേ"
+"ാ മെനുവിലെ കാണപ്പെടുന്നത്."
+
+#: src/filters/artistic/clothify.xml:100(title)
+msgid "<quote>Clothify</quote> filter options"
+msgstr ""
+"<quote>Clothify</quote> ഫിൽട്ടർ ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/clothify.xml:108(para)
+msgid ""
+"<guilabel>Azimuth</guilabel>, <guilabel>Elevation</guilabel>, and "
+"<guilabel>Depth</guilabel> come from <link linkend=\"plug-in-bump-map\">Bump "
+"Map</link> filter."
+msgstr ""
+"<guilabel>Azimuth</guilabel>, <guilabel>Elevation</guilabel>, ഒപ്പം <guilab"
+"el>Depth</guilabel> <link linkend=\"plug-in-bump-map\">Bump Map</link> അരിപ"
+"്പ നിന്നും വരുന്നു."
+
+#: src/filters/artistic/clothify.xml:115(term)
+msgid "Blur X"
+msgstr ""
+"ഇഫക്റ്റ് എക്സ്"
+
+#: src/filters/artistic/clothify.xml:116(term)
+msgid "Blur Y"
+msgstr ""
+"വൈ ബ്ലർ"
+
+#: src/filters/artistic/clothify.xml:118(para)
+msgid ""
+"These parameters lengthen fibers of the texture, horizontally by "
+"<guilabel>Blur X</guilabel>, and vertically by <guilabel>Blur Y</guilabel>. "
+"The range of value is between 3 to 100."
+msgstr ""
+"ഈ പാരാമീറ്ററുകൾ തിരശ്ചീനമായി <guilabel>Blur X</guilabel> കൊണ്ടും ലംബമായി <"
+"guilabel>Blur Y</guilabel> വഴി, ടെക്സ്ചർ എന്ന നാരുകൾ ദീർഘായുസ്സും. മൂല്യം പ"
+"രിധി 100 ലേക്ക് 3 തമ്മിലുള്ള."
+
+#: src/filters/artistic/clothify.xml:127(term)
+msgid "Azimuth"
+msgstr "Azimuth"
+
+#: src/filters/artistic/clothify.xml:129(para)
+msgid ""
+"<guilabel>Azimuth</guilabel> slider controls the bearings where light comes "
+"from according to the point of the compass. Both the minimum value (0.00) "
+"and the maximum value (360.00) are the direction of three o'clock on the "
+"dial panel of an analogue clock. Increasing value goes counter-clockwise."
+msgstr ""
+"<guilabel>Azimuth</guilabel> സ്ലൈഡർ വെളിച്ചം കോമ്പസ് പോയിന്റ് പ്രകാരം എവി"
+"ടെനിന്നു സ്ഥിതി നിയന്ത്രിക്കുന്നു. ഇരുവരും കുറഞ്ഞ മൂല്യം (0.00), മാക്സിമം മ"
+"ൂല്യം (360.00) ഒരു അനലോഗ് ക്ലോക്കിന്റെ ഡയൽ പാനലിൽ മൂന്നു മണിക്ക് ദിശ ആകുന"
+"്നു. ഉയരുന്ന മൂല്യം എതിർഘടികാരദിശയിൽ പോകുന്നു."
+
+#: src/filters/artistic/clothify.xml:139(term)
+msgid "Elevation"
+msgstr ""
+"ഉയരത്തിലുമുള്ള"
+
+#: src/filters/artistic/clothify.xml:141(para)
+msgid ""
+"<guilabel>Elevation</guilabel> slider controls the height where light comes "
+"from. For the minimal value (0.50) the light comes from horizon, and for the "
+"maximum value (90.0) the light comes from zenith."
+msgstr ""
+"<guilabel>Elevation</guilabel> സ്ലൈഡർ വെളിച്ചം എവിടെനിന്നു ഉയരം നിയന്ത്രിക്"
+"കുന്നു. ചുരുങ്ങിയ മൂല്യം (0.50) പ്രകാശം ചക്രവാളത്തിൽ വരുന്ന പരമാവധി മൂല്യം "
+"(90.0) ലൈറ്റ് ശക്തമായിരുന്ന നിന്ന് വരുന്നു."
+
+#: src/filters/artistic/clothify.xml:150(term)
+#: src/filters/artistic/applycanvas.xml:101(term)
+msgid "Depth"
+msgstr ""
+"ആഴം"
+
+#: src/filters/artistic/clothify.xml:152(para)
+msgid ""
+"<guilabel>Depth</guilabel> slider controls distance between bump height and "
+"hollow depth. Increasing value causes more rugged features. Values vary from "
+"1 to 65."
+msgstr ""
+"കരീനയെ ഉയരവും തടം ആഴം തമ്മിലുള്ള <guilabel>Depth</guilabel> സ്ലൈഡർ നിയന്ത്ര"
+"ണങ്ങൾ ദൂരം. ഉയരുന്ന മൂല്യം കൂടുതല് കാടും സവിശേഷതകൾ കാരണമാകുന്നു. മൂല്യങ്ങൾ "
+"1 മുതൽ 65 വ്യത്യസ്തമാണ്."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/vangogh-lic.xml:35(None)
+msgid ""
+"@@image: 'images/filters/examples/map-lic-s.png'; "
+"md5=74d872aa1e132e17ae688c15e1e8bbcc"
+msgstr ""
+"@@image: 'images/filters/examples/map-lic-s.png'; "
+"md5=74d872aa1e132e17ae688c15e1e8bbcc"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/vangogh-lic.xml:82(None)
+msgid ""
+"@@image: 'images/filters/artistic/vangogh.png'; "
+"md5=6f96bc56ff76fcc3130ec6fd112dd495"
+msgstr ""
+"@@image: 'images/filters/artistic/vangogh.png'; "
+"md5=6f96bc56ff76fcc3130ec6fd112dd495"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/vangogh-lic.xml:126(None)
+msgid ""
+"@@image: 'images/filters/examples/map-lic-deriv.png'; "
+"md5=dc33d3539c22bfdcf5f69310d1bf3be6"
+msgstr ""
+"@@image: 'images/filters/examples/map-lic-deriv.png'; "
+"md5=dc33d3539c22bfdcf5f69310d1bf3be6"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/vangogh-lic.xml:181(None)
+msgid ""
+"@@image: 'images/filters/examples/map-lic-vert-blur.png'; "
+"md5=84e2347dafc611bf985c8b4ccc92dc73"
+msgstr ""
+"@@image: 'images/filters/examples/map-lic-vert-blur.png'; "
+"md5=84e2347dafc611bf985c8b4ccc92dc73"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/vangogh-lic.xml:195(None)
+msgid ""
+"@@image: 'images/filters/examples/map-lic-sq-blur.png'; "
+"md5=1f238a31ad015aee85ab5d1a2174c5de"
+msgstr ""
+"@@image: 'images/filters/examples/map-lic-sq-blur.png'; "
+"md5=1f238a31ad015aee85ab5d1a2174c5de"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/vangogh-lic.xml:212(None)
+msgid ""
+"@@image: 'images/filters/examples/map-lic-vert-pat.png'; "
+"md5=9d2992dae0dca60921864bc3a4cafbdc"
+msgstr ""
+"@@image: 'images/filters/examples/map-lic-vert-pat.png'; "
+"md5=9d2992dae0dca60921864bc3a4cafbdc"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/vangogh-lic.xml:239(None)
+msgid ""
+"@@image: 'images/filters/examples/map-lic-blur-lg.png'; "
+"md5=3973600349d58151dc3d19583bbb7bd7"
+msgstr ""
+"@@image: 'images/filters/examples/map-lic-blur-lg.png'; "
+"md5=3973600349d58151dc3d19583bbb7bd7"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/vangogh-lic.xml:256(None)
+msgid ""
+"@@image: 'images/filters/examples/map-lic-text-lg.png'; "
+"md5=f92baa4eca63aece5f2ae5140c75af52"
+msgstr ""
+"@@image: 'images/filters/examples/map-lic-text-lg.png'; "
+"md5=f92baa4eca63aece5f2ae5140c75af52"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/vangogh-lic.xml:281(None)
+msgid ""
+"@@image: 'images/filters/examples/map-lic-vp-nm4.png'; "
+"md5=b833c8d31172519e43e7a1764473dee7"
+msgstr ""
+"@@image: 'images/filters/examples/map-lic-vp-nm4.png'; "
+"md5=b833c8d31172519e43e7a1764473dee7"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/vangogh-lic.xml:301(None)
+msgid ""
+"@@image: 'images/filters/examples/map-lic-is.png'; "
+"md5=d9d13263f96e61fc5e78d99fd7ba237a"
+msgstr ""
+"@@image: 'images/filters/examples/map-lic-is.png'; "
+"md5=d9d13263f96e61fc5e78d99fd7ba237a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/vangogh-lic.xml:327(None)
+msgid ""
+"@@image: 'images/filters/examples/map-lic-mm.png'; "
+"md5=373912a2d019d2b457fc41b58247fcbe"
+msgstr ""
+"@@image: 'images/filters/examples/map-lic-mm.png'; "
+"md5=373912a2d019d2b457fc41b58247fcbe"
+
+#: src/filters/artistic/vangogh-lic.xml:15(title)
+#: src/filters/artistic/vangogh-lic.xml:23(primary)
+msgid "Van Gogh (LIC)"
+msgstr ""
+"വാൻ ഗോഗ് (എൽഐസി)"
+
+#: src/filters/artistic/vangogh-lic.xml:20(tertiary)
+msgid "Van Gogh"
+msgstr ""
+"വാൻ ഗോഗ്"
+
+#: src/filters/artistic/vangogh-lic.xml:29(title)
+msgid "From left to right: original image, map, resulting image"
+msgstr ""
+"ഇടതു നിന്നും വലത്തോട്ട്: യഥാർത്ഥ ചിത്രം, മാപ്പ്, ലഭിക്കുന്ന ചിത്രം"
+
+#: src/filters/artistic/vangogh-lic.xml:38(para)
+msgid ""
+"Map has three stripes: a solid black area, a vertical gradient area, a solid "
+"white area. One can see, on the resulting image, that image zones "
+"corresponding to solid areas of the map, are not blurred. Only the image "
+"zone corresponding to the gradient area of the map is blurred."
+msgstr ""
+"ഒരു സോളിഡ് കറുത്ത പ്രദേശം, ഒരു ലംബമായ ഗ്രേഡിയന്റ് പ്രദേശത്ത്, ഒരു സോളിഡ് "
+"വെളുത്ത ഏരിയ: മാപ്പ് മൂന്നു തല്ലും ഉണ്ട്. ഒന്ന്, കാരണമാകുന്നു ഇമേജിൽ കാണാം "
+"മങ്ങിയ അല്ല, ആ ഇമേജ് സോണുകൾ മാപ്പിന്റെ ഖര പ്രദേശങ്ങൾ പൊരുത്തപ്പെടുന്ന. ഇമ"
+"േജ് സോൺ മാപ്പിന്റെ വ്യത്യാസത്തിനു പ്രദേശം പൊരുത്തപ്പെടുന്ന മങ്ങിയ ആണ്."
+
+#: src/filters/artistic/vangogh-lic.xml:48(para)
+msgid ""
+"<quote>LIC</quote> stands for Line Integral Convolution, a mathematical "
+"method. The plug-in author uses mathematical terms to name his options... "
+"This filter is used to apply a directional blur to an image, or to create "
+"textures. It could be called <quote>Astigmatism</quote> as it blurs certain "
+"directions in the image."
+msgstr ""
+"<quote>LIC</quote> ലൈൻ ഇന്റഗ്രൽ കോൺവൊല്യൂഷൻ, ഒരു ഗണിത രീതി സൂചിപ്പിക്കുന്"
+"നു. പ്ലഗ്-ഇൻ രചയിതാവ് തന്റെ ഓപ്ഷനുകൾ പേരുനൽകേണ്ടതും ഗണിത ഉപയോഗിക്കുന്നു .."
+". ഈ ഫിൽട്ടർ പരിശ്രമങ്ങളുടെ സൃഷ്ടിക്കാൻ ഒരു ചിത്രം ഒരു ദിശയിലുമുള്ള മങ്ങൽ പ്"
+"രയോഗിക്കാൻ ഉപയോഗിക്കുന്ന, അല്ലെങ്കിൽ. അത് ചിത്രത്തിന്റെ ചില ദിശകൾ മങ്ങിച്"
+"ചാൽ പോലെ അതു <quote>Astigmatism</quote> വിളിക്കപ്പെടും കഴിഞ്ഞില്ല."
+
+#: src/filters/artistic/vangogh-lic.xml:55(para)
+msgid ""
+"It uses a blur map. Unlike other maps, this filter doesn't use grey levels "
+"of this blur map. <emphasis>Filter takes in account only gradient direction"
+"(s)</emphasis>. Image pixels corresponding to solid areas of the map are "
+"ignored."
+msgstr ""
+"ഒരു മങ്ങൽ മാപ്പ് ഉപയോഗിക്കുന്നു. മറ്റ് മാപ്പുകൾ വ്യത്യസ്തമായി, ഈ ഫിൽട്ടർ ഈ"
+" മങ്ങൽ മാപ്പിന്റെ ചാര അളവ് ഉപയോഗിക്കുന്നില്ല. <emphasis>Filter takes in ac"
+"count only gradient direction (s)</emphasis>. മാപ്പ് ഉറപ്പുള്ള പ്രദേശങ്ങൾ പ"
+"ൊരുത്തപ്പെടുന്ന ചിത്രം പിക്സലുകൾ അവഗണിക്കപ്പെടുന്നു."
+
+#: src/filters/artistic/vangogh-lic.xml:65(para)
+msgid ""
+"You can find this filter through <menuchoice><guimenu>Filters</"
+"guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Van Gogh (LIC)</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</guisubme"
+"nu><guimenuitem>Van Gogh (LIC)</guimenuitem></menuchoice> മുഖേന ഈ ഫിൽട്ടർ ക"
+"ണ്ടെത്താൻ കഴിയും."
+
+#: src/filters/artistic/vangogh-lic.xml:78(title)
+msgid "<quote>Van Gogh (LIC)</quote> filter options"
+msgstr ""
+"<quote>Van Gogh (LIC)</quote> ഫിൽട്ടർ ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/vangogh-lic.xml:89(para)
+msgid ""
+"To create a blur, check <guilabel>With Source Image</guilabel>. Only Filter "
+"Length slider and perhaps Integration Steps slider, are useful."
+msgstr ""
+"ഒരു മങ്ങൽ സൃഷ്ടിക്കുന്നതിന്, <guilabel>With Source Image</guilabel> പരിശോധ"
+"ിക്കുക. ദൈർഘ്യം സ്ലൈഡർ ഒരുപക്ഷേ ഇന്റഗ്രേഷൻ നടപടികൾ സ്ലൈഡർ മാത്രമേ അരിപ്പ, ഗ"
+"ുണകരമാകുന്നത്."
+
+#: src/filters/artistic/vangogh-lic.xml:96(para)
+msgid ""
+"To create a texture, check <guilabel>With White Noise</guilabel>. All "
+"sliders can be useful."
+msgstr ""
+"ഒരു ടെക്സ്ചർ സൃഷ്ടിക്കുന്നതിന്, <guilabel>With White Noise</guilabel> പരിശേ"
+"ാധിക്കുക. എല്ലാ സ്ലൈഡറുകൾ ഉപയോഗപ്പെടും."
+
+#: src/filters/artistic/vangogh-lic.xml:105(term)
+msgid "Effect Channel"
+msgstr ""
+"പ്രഭാവം ചാനൽ"
+
+#: src/filters/artistic/vangogh-lic.xml:107(para)
+msgid ""
+"By selecting <guilabel>Hue</guilabel>, <guilabel>Saturation </guilabel> or "
+"<guilabel>Brightness (=Value)</guilabel>, filter will use this channel to "
+"treat image."
+msgstr ""
+"<guilabel>Hue</guilabel>, <guilabel>Saturation </guilabel> അല്ലെങ്കിൽ <guil"
+"abel>Brightness (=Value)</guilabel> തിരഞ്ഞെടുക്കുന്നതിലൂടെ, അരിപ്പ ചിത്രം പ"
+"െരുമാറണം ഈ ചാനൽ ഉപയോഗിക്കും."
+
+#: src/filters/artistic/vangogh-lic.xml:115(term)
+msgid "Effect Operator"
+msgstr ""
+"ഇഫക്റ്റ് ഓപ്പറേറ്റർ"
+
+#: src/filters/artistic/vangogh-lic.xml:117(para)
+msgid ""
+"The <quote>Derivative</quote> option reverses <quote>Gradient </quote> "
+"direction:"
+msgstr ""
+"<quote>Derivative</quote> ഓപ്ഷൻ <quote>Gradient </quote> ദിശമാറുന്നതുമായ:"
+
+#: src/filters/artistic/vangogh-lic.xml:122(title)
+msgid "Derivative option example"
+msgstr ""
+"ഡെറിവേറ്റീവ് ഓപ്ഷൻ ഉദാഹരണം"
+
+#: src/filters/artistic/vangogh-lic.xml:129(para)
+msgid ""
+"Using a square gradient map, Effect operator is on <quote>Gradient</quote> "
+"on the left, on <quote>Derivative</quote> on the right: what was sharp is "
+"blurred and conversely."
+msgstr ""
+"ഒരു സ്ക്വയർ ഗ്രേഡിയന്റ് ഭൂപടം ഉപയോഗിച്ച്, പ്രഭാവം ഓപ്പറേറ്റർ <quote>Gradie"
+"nt</quote> ഇടത്തുവശത്തുള്ള, <quote>Derivative</quote> ന് വലതുഭാഗത്ത്: WHAT "
+"മൂർച്ചയുള്ള ആയിരുന്നു മങ്ങിയ ആൻഡ് അതുപോലെ ആണ്."
+
+#: src/filters/artistic/vangogh-lic.xml:141(term)
+msgid "Convolve"
+msgstr "Convolve"
+
+#: src/filters/artistic/vangogh-lic.xml:143(para)
+msgid ""
+"You can use two types of convolution. That's the first parameter you have to "
+"set:"
+msgstr ""
+"നിങ്ങൾ കോൺവൊല്യൂഷൻ രണ്ടു തരം ഉപയോഗിക്കാം. അത് നിങ്ങൾക്ക് സജ്ജമാക്കാൻ ഞങ്"
+"ങൾക്കുണ്ട് ആദ്യമായി ഇവിടെയുണ്ട്:"
+
+#: src/filters/artistic/vangogh-lic.xml:149(guilabel)
+msgid "With white noise"
+msgstr ""
+"വെളുത്ത സ്വരവുമായി"
+
+#: src/filters/artistic/vangogh-lic.xml:151(para)
+msgid ""
+"White noise is an acoustics name. It's a noise where all frequencies have "
+"the same amplitude. Here, this option is used to create patterns."
+msgstr ""
+"വൈറ്റ് കലഹം ശബ്ദശാസ്ത്രം നാമം. അത് എല്ലാ ആവൃത്തിയിലുള്ള ഒരേ കഴിവുമുള്ളവർ എവ"
+"ിടെ ഒരു മുഴക്കം തുടർന്ന്. ഇവിടെ, ഈ ഓപ്ഷൻ പാറ്റേണുകൾ ഉണ്ടാക്കുന്നതിനായി ഉപയേ"
+"ാഗിക്കുന്നു."
+
+#: src/filters/artistic/vangogh-lic.xml:159(guilabel)
+msgid "With source image"
+msgstr ""
+"ഉറവിട ചിത്രം കൂടി"
+
+#: src/filters/artistic/vangogh-lic.xml:161(para)
+msgid "The source image will be blurred."
+msgstr ""
+"ഉറവിട ചിത്രം മങ്ങിക്കപ്പെടും."
+
+#: src/filters/artistic/vangogh-lic.xml:168(term)
+msgid "Effect image"
+msgstr ""
+"ഇഫക്റ്റ് ചിത്രം"
+
+#: src/filters/artistic/vangogh-lic.xml:170(para)
+msgid ""
+"That's the map for blur or pattern direction. This map must have the same "
+"dimensions as the original image. It must be preferably a grayscale image. "
+"It must be present on your screen when you call filter so that you can "
+"choose it in the drop-list."
+msgstr ""
+"ആ മങ്ങൽ അല്ലെങ്കിൽ പാറ്റേൺ മാർഗനിർദേശത്തിനായി മാപ്പ് ആണ്. ഈ മാപ്പിൽ യഥാർത്ഥ"
+" ചിത്രം അതേ തലങ്ങളും ഉണ്ടായിരിക്കണം. ഇത് വെയിലത്ത് ഒരു ഗ്രേസ്കെയിലാക്കി ചിത"
+"്രം ആയിരിക്കണം. ഡ്രോപ്-പട്ടികയിൽ തിരഞ്ഞെടുക്കാൻ കഴിയും അങ്ങനെ നിങ്ങൾ ഫിൽട്"
+"ടർ വിളിക്കുമ്പോൾ അത് നിങ്ങളുടെ സ്ക്രീനിൽ ഉണ്ടായിരിക്കണം."
+
+#: src/filters/artistic/vangogh-lic.xml:177(title)
+msgid "Blurring with vertical gradient map"
+msgstr ""
+"ലംബമായ ഗ്രേഡിയന്റ് മാപ്പുമൊത്ത് ബ്ലറിംഗോ"
+
+#: src/filters/artistic/vangogh-lic.xml:184(para)
+msgid "With a vertical gradient map, vertical lines are blurred."
+msgstr ""
+"ഒരു ലംബമായ ഗ്രേഡിയന്റ് ഭൂപടം വച്ച് ലംബമായ വരികൾ മാഞ്ഞു പോകുന്നു."
+
+#: src/filters/artistic/vangogh-lic.xml:191(title)
+msgid "Blurring with a square gradient map"
+msgstr ""
+"ഒരു സ്ക്വയർ ഗ്രേഡിയന്റ് മാപ്പുമൊത്ത് ബ്ലറിംഗോ"
+
+#: src/filters/artistic/vangogh-lic.xml:198(para)
+msgid ""
+"The gradient map is divided into four gradient triangles: each of them has "
+"its own gradient direction. In every area of the image corresponding to "
+"gradient triangles, only lines with the same direction as gradient are "
+"blurred."
+msgstr ""
+"ഗ്രേഡിയന്റ് മാപ്പ് നാല് വ്യത്യാസത്തിനു ത്രികോണങ്ങൾ തിരിച്ചിട്ടുണ്ട്: അവരിൽ"
+" ഓരോ സ്വന്തം ഗ്രേഡിയന്റ് ദിശ ഉണ്ട്. ത്രികോണങ്ങൾ വ്യത്യാസത്തിനു പൊരുത്തപ്"
+"പെടുന്ന ചിത്രത്തിന്റെ ഓരോ പരിസരത്ത് ഗ്രേഡിയന്റ് അതേ ദിശയിൽ കൂടെ മാത്രമേ വര"
+"ികൾ മാഞ്ഞു പോകുന്നു."
+
+#: src/filters/artistic/vangogh-lic.xml:208(title)
+msgid "Texture example"
+msgstr ""
+"ടെക്സ്ചർ ഉദാഹരണം"
+
+#: src/filters/artistic/vangogh-lic.xml:215(para)
+msgid ""
+"The <quote>With white noise</quote> option is checked. Others are default. "
+"With a vertical gradient map, texture <quote>fibres</quote> are going "
+"horizontally."
+msgstr ""
+"<quote>With white noise</quote> ഓപ്ഷൻ പരിശോധിക്കുന്നു. മറ്റുള്ളവ സ്ഥിര ആകു"
+"ന്നു. ഒരു ലംബമായ ഗ്രേഡിയന്റ് ഭൂപടം വച്ച് ടെക്സ്ചർ <quote>fibres</quote> തിര"
+"ശ്ചീനമായി പോകുന്നു."
+
+#: src/filters/artistic/vangogh-lic.xml:227(term)
+msgid "Filter length"
+msgstr ""
+"ഫിൽറ്റർ ദൈർഘ്യം"
+
+#: src/filters/artistic/vangogh-lic.xml:229(para)
+msgid ""
+"When applying blur, this option controls how important blur is. When "
+"creating a texture, it controls how rough texture is: low values result in "
+"smooth surface; high values in rough surface."
+msgstr ""
+"മങ്ങൽ പ്രയോഗിക്കുമ്പോൾ ഈ ഓപ്ഷൻ ഇഫക്റ്റ് എത്ര പ്രധാനം നിയന്ത്രിക്കുന്നു. ഒ"
+"രു ടെക്സ്ചർ സൃഷ്ടിക്കുമ്പോൾ, അതു പരുക്കൻ ടെക്സ്ചർ നിയന്ത്രിക്കുന്ന: കുറഞ്ഞ"
+" മൂല്യങ്ങൾ മിനുസമുള്ള ഉപരിതലത്തിൽ കാരണമാകാം; ഇളം ഉയർന്ന മൂല്യങ്ങൾ."
+
+#: src/filters/artistic/vangogh-lic.xml:235(title)
+msgid "Action example of Filter Length on blur"
+msgstr ""
+"മങ്ങൽ ഫിൽറ്റർ വെട്ടം ആക്ഷൻ ഉദാഹരണം"
+
+#: src/filters/artistic/vangogh-lic.xml:242(para)
+msgid ""
+"On the left: a vertical line, one pixel wide (zoom 800%). On the right: the "
+"same line, after applying a vertical blur with a Filter Length to 3. You can "
+"see that blur width is 6 pixels, 3 pixels on both sides."
+msgstr ""
+"ഇടത്തും: ഒരു ലംബരേഖ, ഒരു പിക്സൽ വൈഡ് (സൂം 800%). വലത്: ഒരേ വരിയിൽ, 3. ഒരു ഫ"
+"ിൽട്ടർ ദൈർഘ്യം ലംബ ബ്ലർ പ്രയോഗിച്ച ശേഷം നിങ്ങൾ ആ മങ്ങൽ വീതിയിൽ 6 പിക്സൽ, ഇ"
+"രുഭാഗത്തും 3 പിക്സൽ കാണാം."
+
+#: src/filters/artistic/vangogh-lic.xml:252(title)
+msgid "Filter Length example on texture"
+msgstr ""
+"ടെക്സ്ചർ ഫിൽറ്റർ ദൈർഘ്യം ഉദാഹരണം"
+
+#: src/filters/artistic/vangogh-lic.xml:259(para)
+msgid ""
+"On the left: a texture with Filter Length=3. On the right, the same texture "
+"with Filter Length=24."
+msgstr ""
+"ഫിൽറ്റർ ദൈർഘ്യം = 3 ഒരു ടെക്സ്ചർ: ഇടത്തും. വലതു, ഫിൽറ്റർ ദൈർഘ്യം = 24 ഒരേ ട"
+"െക്സ്ചർ ന്."
+
+#: src/filters/artistic/vangogh-lic.xml:269(term)
+msgid "Noise magnitude"
+msgstr ""
+"നോയ്സ് റിക്ടർ"
+
+#: src/filters/artistic/vangogh-lic.xml:271(para)
+msgid ""
+"This options controls the amount and size of White Noise. Low values produce "
+"finely grained surfaces. High values produce coarse-grained textures."
+msgstr ""
+"ഈ ഓപ്ഷനുകൾ വൈറ്റ് നോയ്സ് അളവും വലുപ്പം നിയന്ത്രിക്കുന്നത്. കുറഞ്ഞ മൂല്യങ്ങ"
+"ൾ നന്നായി അസംസ്കൃതമായ പ്രതലങ്ങളിൽ ഉത്പാദിപ്പിക്കുന്നു. ഉയർന്ന മൂല്യങ്ങൾ നാട"
+"ൻ നിഷ്കർഷിച്ചുകൊണ്ടു് ടെക്സ്ചറുകളും ഉത്പാദിപ്പിക്കുന്നു."
+
+#: src/filters/artistic/vangogh-lic.xml:277(title)
+msgid "Action example of Noise Magnitude on texture"
+msgstr ""
+"ടെക്സ്ചർ ന് വോയ്സ് തീവ്രത രേഖപ്പെടുത്തിയ ആക്ഷൻ ഉദാഹരണം"
+
+#: src/filters/artistic/vangogh-lic.xml:284(para)
+msgid "Noise magnitude = 4"
+msgstr ""
+"വോയ്സ് റിക്ടർ = 4"
+
+#: src/filters/artistic/vangogh-lic.xml:291(term)
+msgid "Integration steps"
+msgstr ""
+"ഇന്റഗ്രേഷൻ ഘട്ടങ്ങൾ"
+
+#: src/filters/artistic/vangogh-lic.xml:293(para)
+msgid "This options controls the influence of gradient map on texture."
+msgstr ""
+"ഈ ഓപ്ഷനുകൾ ടെക്സ്ചർ ന് വ്യത്യാസത്തിനു മാപ്പ് സ്വാധീനം നിയന്ത്രിക്കുന്നു."
+
+#: src/filters/artistic/vangogh-lic.xml:297(title)
+msgid "Action example of Integration Steps on texture"
+msgstr ""
+"ടെക്സ്ചർ ന് ഇന്റഗ്രേഷൻ നടപടികൾ ആക്ഷൻ ഉദാഹരണം"
+
+#: src/filters/artistic/vangogh-lic.xml:304(para)
+msgid ""
+"On the left: Integration Steps = 2. On the right: Integration Steps = 4."
+msgstr ""
+"ഇന്റഗ്രേഷൻ നടപടികൾ = 2. വലതുവശത്ത്: ഇന്റഗ്രേഷൻ നടപടികൾ = 4 ഇടത്തും."
+
+#: src/filters/artistic/vangogh-lic.xml:314(term)
+msgid "Minimum value"
+msgstr ""
+"കുറഞ്ഞ മൂല്യം"
+
+#: src/filters/artistic/vangogh-lic.xml:315(term)
+msgid "Maximum value"
+msgstr ""
+"പരമാവധി മൂല്യം"
+
+#: src/filters/artistic/vangogh-lic.xml:317(para)
+msgid ""
+"Both values determine a range controlling texture contrast: shrunk range "
+"results in high contrast and enlarged range results in low contrast."
+msgstr ""
+"മൂല്യങ്ങൾ ടെക്സ്ചർ തീവ്രത നിയന്ത്രിയ്ക്കാനുള്ള ഒരു ശ്രേണി നിർണ്ണയിക്കാൻ: ഉയ"
+"ർന്ന തീവ്രത കുറഞ്ഞ വ്യത്യസ്തമായി വിശാലമായിരിക്കുന്നു പരിധി ഫലങ്ങളിൽ ചുരുങ്ങ"
+"ി റേഞ്ച് ഫലങ്ങൾ."
+
+#: src/filters/artistic/vangogh-lic.xml:323(title)
+msgid "Action example of min/max values on texture"
+msgstr ""
+"ടെക്സ്ചർ ന് ചുരുങ്ങിയത് / പരമാവധി മൂല്യങ്ങളുടെ ആക്ഷൻ ഉദാഹരണം"
+
+#: src/filters/artistic/vangogh-lic.xml:330(para)
+msgid "Minimum value = -4.0. Maximum value = 5.0."
+msgstr ""
+"കുറഞ്ഞ മൂല്യം = -4,0. പരമാവധി മൂല്യം = 5.0."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/GIMPressionist-orientmap.xml:48(None)
+msgid ""
+"@@image: 'images/filters/artistic/gimpressionist-orientmap-editor.png'; "
+"md5=9c7fb1e51ebfe3fe5adf1e4d1b23134d"
+msgstr ""
+"@@image: 'images/filters/artistic/gimpressionist-orientmap-editor.png'; "
+"md5=9c7fb1e51ebfe3fe5adf1e4d1b23134d"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/GIMPressionist-orientmap.xml:148(None)
+msgid ""
+"@@image: 'images/filters/examples/voronoi.png'; "
+"md5=63fae1311593fd3b7247d9dd593925e5"
+msgstr ""
+"@@image: 'images/filters/examples/voronoi.png'; "
+"md5=63fae1311593fd3b7247d9dd593925e5"
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:14(title)
+msgid "Orientation Map Editor"
+msgstr ""
+"വിന്യാസം മാപ്പ് എഡിറ്റർ"
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:19(tertiary)
+#: src/filters/artistic/GIMPressionist-orientmap.xml:22(primary)
+#: src/filters/artistic/GIMPressionist-sizemap.xml:18(tertiary)
+#: src/filters/artistic/GIMPressionist-sizemap.xml:21(primary)
+#: src/filters/artistic/GIMPressionist.xml:12(title)
+#: src/filters/artistic/GIMPressionist.xml:17(tertiary)
+#: src/filters/artistic/GIMPressionist.xml:20(primary)
+msgid "GIMPressionist"
+msgstr "GIMPressionist"
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:27(para)
+msgid ""
+"The Orientation-map editor is an annexe of the <link linkend=\"plug-in-"
+"gimpressionist\">GIMPressionist</link> filter. You can get to it by clicking "
+"on the <guibutton>Edit</guibutton> button in the <link linkend="
+"\"gimpressionist-orientation-options\">Orientation</link> tab. With this "
+"editor, you can set the direction that brush strokes given by filter will "
+"have."
+msgstr ""
+"വിന്യാസം-മാപ്പ് എഡിറ്റർ <link linkend=\"plug-in- gimpressionist\">GIMPressi"
+"onist</link> അരിപ്പ ഒരു annexe ആണ്. നിങ്ങൾ <link linkend=\"gimpressionist-o"
+"rientation-options\">Orientation</link> ടാബിൽ <guibutton>Edit</guibutton> ബ"
+"ട്ടൺ ക്ളിക്ക് നേടാം. ഈ എഡിറ്റർ ഉപയോഗിച്ച്, ഫിൽട്ടർ നൽകിയ ബ്രഷ് സ്ട്രോക്കു"
+"കൾ ഉണ്ടായിരിക്കും നിർദേശങ്ങൾ സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:42(title)
+msgid "Options of the <quote>Orientation-map Editor</quote> dialog"
+msgstr ""
+"<quote>Orientation-map Editor</quote> ഡയലോഗിന്റെ ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:53(para)
+msgid ""
+"You can place one or several vectors. You can set their direction and their "
+"strength. They will act on the corresponding area of the image."
+msgstr ""
+"നിങ്ങൾ ഒന്നോ നിരവധി സദിശങ്ങളെയും സ്ഥാപിക്കാൻ കഴിയും. നിങ്ങൾ ദിശ അവരുടെ ശക്"
+"തി സജ്ജമാക്കാൻ കഴിയും. ഇമേജിൽ ഇതേ പ്രദേശത്തു പ്രവർത്തിക്കാൻ ചെയ്യും."
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:58(term)
+msgid "Vectors"
+msgstr ""
+"സദിശങ്ങളെയും"
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:60(para)
+msgid ""
+"In the left windows (Vectors) you can manage your vectors. By default, a "
+"vector is at center. Vectors are red when they are active, and grey when "
+"they are not with a white point at tip."
+msgstr ""
+"ഇടത് വിൻഡോസ് (സദിശങ്ങളെയും) നിങ്ങൾ നിങ്ങളുടെ സദിശങ്ങളെയും നിയന്ത്രിക്കാൻ ക"
+"ഴിയും. സ്വതവേ, ഒരു വെക്റ്റർ സെന്ററിൽ ആണ്. അവർ സജീവമാകുമ്പോൾ സദിശങ്ങളെയും ച"
+"ുവന്ന, അവർ നുറുങ്ങ് ഒരു വെളുത്ത പോയിന്റ് അല്ല നരച്ച."
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:67(para)
+msgid ""
+"By clicking on the <guibutton>Add</guibutton> button, you add a vector at "
+"center of the window, whereas clicking with the mouse "
+"<mousebutton>Middle&nbsp;Button</mousebutton> puts it where you click."
+msgstr ""
+"<guibutton>Add</guibutton> ബട്ടൺ ക്ളിക്ക്, ഒരു വെക്റ്റർ വിൻഡോയുടെ കേന്ദ്രത"
+"്തിൽ മൌസ് <mousebutton>Middle Button</mousebutton> നീ എവിടെ ക്ലിക്ക് വെക്ക"
+"ുന്നതു കൊണ്ട് ക്ളിക്ക് അതേസമയം ചേർക്കുക."
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:75(para)
+#: src/filters/artistic/GIMPressionist-sizemap.xml:64(para)
+msgid ""
+"Clicking with the mouse <mousebutton>Left&nbsp;Button</mousebutton> "
+"displaces the selected vector to the clicked point."
+msgstr ""
+"മൗസ് <mousebutton>Left Button</mousebutton> ക്ലിക്കുചെയ്യുന്നത് ചേയത് പോയി"
+"ന്റ് തിരഞ്ഞെടുത്ത വെക്ടർ ആദേശം."
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:82(para)
+msgid ""
+"When clicking with the mouse <mousebutton>Right&nbsp;Button</mousebutton>, "
+"the selected vector points to where you have clicked."
+msgstr ""
+"മൌസ് <mousebutton>Right Button</mousebutton> കൂടെ ക്ലിക്ക്, നിങ്ങൾ ക്ലിക്ക"
+"് എവിടെ ലേക്ക് വെക്ടർ പോയിന്റ് തെരഞ്ഞെടുത്തു."
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:89(para)
+#: src/filters/artistic/GIMPressionist-sizemap.xml:74(para)
+msgid ""
+"Clicking on <guibutton>&lt;&lt;</guibutton> and <guibutton>&gt;&gt;</"
+"guibutton> buttons displaces focus from a vector to another."
+msgstr ""
+"<guibutton>&lt;&lt;</guibutton> ആൻഡ് <guibutton>&gt;&gt;</guibutton> ബട്ടണു"
+"കൾ ക്ളിക്ക് മറ്റൊരുത്തന്റെ വെക്ടർ നിന്ന് ഫോക്കസ് ആദേശം."
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:96(para)
+msgid ""
+"The <guilabel>Delete</guilabel> button allows you to delete the selected "
+"vector."
+msgstr ""
+"<guilabel>Delete</guilabel> ബട്ടൺ നിങ്ങൾ തിരഞ്ഞെടുത്ത വെക്ടർ ഇല്ലാതാക്കാൻ അ"
+"നുവദിക്കുന്നു."
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:103(para)
+#: src/filters/artistic/GIMPressionist-sizemap.xml:84(para)
+msgid ""
+"With the scroll bar on the right of the Vectors panel, you can set the image "
+"brightness. This can be very useful if the image is very dark/bright and you "
+"can't see vectors well."
+msgstr ""
+"സദിശങ്ങളെയും പാനലിന്റെ വലതുഭാഗത്ത് സ്ക്രോള് ബാര് ഉപയോഗിച്ച്, ഇമേജ് തെളിച്"
+"ചം സജ്ജമാക്കാൻ കഴിയും. ചിത്രം / വളരെ ഇരുണ്ട തിളക്കം നിങ്ങൾ നന്നായി സദിശങ്ങള"
+"െയും കാണാൻ കഴിയുന്നില്ലെങ്കിൽ ഇത് വളരെ ഉപകാരപ്രദമായ കഴിയും."
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:114(para)
+msgid ""
+"This Preview gives you an idea of the action of the various vectors. The "
+"slider on the right border lets you change the luminosity of this preview."
+msgstr ""
+"ഈ പ്രിവ്യൂ വിവിധ സദിശങ്ങളെയും പ്രവർത്തനവും ഒരു ആശയം നൽകുന്നു. ശരിയായ അതിർത്"
+"തി സ്ലൈഡർ ഈ പ്രിവ്യൂവിന്റെ പ്രതല മാറ്റാൻ അനുവദിക്കുന്നു."
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:122(term)
+msgid "Type"
+msgstr ""
+"ടൈപ്പ് ചെയ്യുക"
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:124(para)
+msgid ""
+"You have there some types to arrange the brush strokes within the selected "
+"vector domain. Describing them is difficult, but you can see the result in "
+"the Preview."
+msgstr ""
+"തിരഞ്ഞെടുത്ത വെക്റ്റർ ഡൊമെയ്ൻ ഉള്ളിൽ ബ്രഷ് സ്ട്രോക്കുകൾ ഒരുക്കണമെന്നും അവ"
+"ിടെ ചില തരം. വിശേഷിപ്പിച്ചു ബുദ്ധിമുട്ടാണ്, എന്നാൽ നിങ്ങൾ പ്രിവ്യൂവിലെ ഫലം "
+"കാണാനാകൂ."
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:132(term)
+#: src/filters/artistic/GIMPressionist-orientmap.xml:135(primary)
+#: src/filters/artistic/GIMPressionist-sizemap.xml:127(term)
+msgid "Voronoi"
+msgstr "Voronoi"
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:137(para)
+msgid ""
+"A Voronoi's diagram consists in partitioning a plane with n master points "
+"into n polygons where each polygon has only one of these n master points and "
+"where any given other point of the polygon is closer to the master point "
+"than to any other. So each polygon limit is midway between two master point. "
+"Here is an example of a Voronoi's diagram: <placeholder-1/> Here, when this "
+"option is checked, only the vector closest to a given point of the image "
+"influences this point."
+msgstr ""
+"ഒരു Voronoi ന്റെ രേഖാചിത്രം ഓരോ ബഹുഭുജവും ഈ n മാസ്റ്റർ പോയിന്റുകളുടെ ഒരേയ"
+"ൊരു സ്ഥലങ്ങളിലൊന്നാണ് പോളിഗണിലെ മറ്റേതൊരു പോയിന്റ് തന്നിരിക്കുന്ന മറ്റ"
+"േതൊരു അധികം മാസ്റ്റർ പോയിന്റ് അടുത്തതാണെന്ന എവിടെ n പോളിഗോണുകളുടെ കടന്ന"
+"ു n മാസ്റ്റർ പോയിന്റുമായി ഒരു തലം പാറ്ട്ടീഷൻ അതിലടങ്ങിയിരിക്കുന്നു. അങ്ങനെ"
+" ഓരോ പോളിഗോൺ പരിധി രണ്ട് മാസ്റ്റർ പോയിന്റ് അജ്മീര് ആണ്. ഈ പോയിന്റ് ചിത"
+"്രം സ്വാധീനങ്ങളെ നൽകിയ പോയിന്റ് പ്ലേസ്ഹോൾഡർ-106296 ഇവിടെ, ഈ ഓപ്ഷൻ വരുമ്പേ"
+"ാൾ ചെക്കുചെയ്തിട്ടുണ്ടെന്നും മാത്രം വെക്റ്റർ അടുത്തുള്ള: ഇതാ ഒരു Voronoi ന്"
+"റെ രേഖാചിത്രം ഉദാഹരണം."
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:157(term)
+msgid "Angle"
+msgstr ""
+"കോൺ"
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:159(para)
+msgid ""
+"Direction of the selected vector. This slider has the same action as right-"
+"clicking (see above)."
+msgstr ""
+"തിരഞ്ഞെടുത്ത വെക്റ്റർ എന്ന ഡയറക്ഷൻ. ഈ സ്ലൈഡർ (മുകളിൽ കാണുക) കൈവാക്കിന്റെ ക്"
+"ലിക്കിന്റെ അതേ നടപടി ഉണ്ട്."
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:166(term)
+msgid "Angle offset"
+msgstr ""
+"ആംഗിൾ ഓഫ്സെറ്റ്"
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:168(para)
+msgid ""
+"This slider allows you to change the angle of <emphasis>all</emphasis> "
+"vectors."
+msgstr ""
+"ഈ സ്ലൈഡർ <emphasis>all</emphasis> സദിശങ്ങളെയും ചലനത്തെ മാറ്റാൻ അനുവദിക്കുന്"
+"നു."
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:175(term)
+#: src/filters/artistic/GIMPressionist-sizemap.xml:112(term)
+msgid "Strength"
+msgstr ""
+"ബലം"
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:177(para)
+msgid ""
+"This slider acts on the influence domain of the selected vector. This "
+"influence lowers with distance. Strength is showed with the vector length."
+msgstr ""
+"ഈ സ്ലൈഡർ തിരഞ്ഞെടുത്ത വെക്റ്റർ സ്വാധീനം ഡൊമെയ്ൻ പ്രവർത്തിക്കുന്നു. ഈ സ്വാധ"
+"ീനം ദൂരം താഴുന്നത്. ദൃഢത വെക്റ്റർ നീളം കാണിച്ചു ആണ്."
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:185(term)
+#: src/filters/artistic/GIMPressionist-sizemap.xml:121(term)
+msgid "Strength exp."
+msgstr ""
+"ദൃഢത EXP."
+
+#: src/filters/artistic/GIMPressionist-orientmap.xml:187(para)
+msgid ""
+"This slider acts on the length of <emphasis>all</emphasis> vectors, and so "
+"changes the strength of all brush strokes."
+msgstr ""
+"ഈ സ്ലൈഡർ <emphasis>all</emphasis> സദിശങ്ങളെയും ദൈർഘ്യം പ്രവർത്തിക്കുന്നു ഇങ"
+"്ങനെ എല്ലാവരും ബ്രഷ് സ്ട്രോക്കുകൾ ബലം മാറ്റുന്നു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/oilify.xml:39(None)
+msgid ""
+"@@image: 'images/filters/examples/artistic-taj-oilify.jpg'; "
+"md5=bbbd6a682ce7360d5b067dc09317e64a"
+msgstr ""
+"@@image: 'images/filters/examples/artistic-taj-oilify.jpg'; "
+"md5=bbbd6a682ce7360d5b067dc09317e64a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/oilify.xml:78(None)
+msgid ""
+"@@image: 'images/filters/artistic/oilify.png'; "
+"md5=c63fca2e06157593515728b7bbb3b67f"
+msgstr ""
+"@@image: 'images/filters/artistic/oilify.png'; "
+"md5=c63fca2e06157593515728b7bbb3b67f"
+
+#: src/filters/artistic/oilify.xml:12(title)
+#: src/filters/artistic/oilify.xml:17(tertiary)
+#: src/filters/artistic/oilify.xml:20(primary)
+msgid "Oilify"
+msgstr "Oilify"
+
+#: src/filters/artistic/oilify.xml:26(title)
+msgid "Example for the <quote>Oilify</quote> filter"
+msgstr ""
+"<quote>Oilify</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/artistic/oilify.xml:42(para)
+msgid "Filter <quote>Oilify</quote> applied"
+msgstr ""
+"<quote>Oilify</quote> ഫിൽട്ടറിന്"
+
+#: src/filters/artistic/oilify.xml:46(para)
+msgid ""
+"This filter makes the image look like an oil painting. The <guilabel>Mask "
+"size</guilabel> controls the outcome: a high value gives the image less "
+"detail, as if you had used a larger brush."
+msgstr ""
+"ഈ ഫിൽട്ടർ ഒരു എണ്ണച്ചായം പോലെ ചിത്രത്തിന്റെ നിറയുന്നു. <guilabel>Mask size"
+"</guilabel> പരിണതഫലം നിയന്ത്രിക്കുന്നു: ഉയർന്ന മൂല്യം അത് വലിയ ബ്രഷ് ഉപയോഗ"
+"ിച്ച മട്ടിൽ, ഇമേജ് കുറവ് വിശദാംശങ്ങൾ നൽകുന്നു."
+
+#: src/filters/artistic/oilify.xml:52(para)
+msgid ""
+"The GIMPressionist filter can produce similar effects, but allows a much "
+"wider variety of options."
+msgstr ""
+"GIMPressionist അരിപ്പ സമാനമായ ഉളവാക്കുക, പക്ഷേ ഓപ്ഷനുകൾ ഒരു വളരെ വിശാലമായ മ"
+"ുറികൾ സാധിക്കും."
+
+#: src/filters/artistic/oilify.xml:61(para)
+msgid ""
+"This filter is found in the image menu through <menuchoice><guimenu>Filters</"
+"guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Oilify...</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"ഈ ഫിൽട്ടർ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</guisu"
+"bmenu><guimenuitem>Oilify...</guimenuitem></menuchoice> വഴി ഇമേജ് മെനുവിൽ ക"
+"ാണപ്പെടുന്നു."
+
+#: src/filters/artistic/oilify.xml:74(title)
+msgid "<quote>Oilify</quote> filter options"
+msgstr ""
+"<quote>Oilify</quote> ഫിൽട്ടർ ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/oilify.xml:84(term)
+msgid "Mask size"
+msgstr ""
+"മാസ്ക് വലുപ്പം"
+
+#: src/filters/artistic/oilify.xml:86(para)
+msgid ""
+"Mask size selects the size of the brush mask used to paint the oily render. "
+"Larger values here produce an oilier render."
+msgstr ""
+"മാസ്ക്കുചെയ്യുക വലുപ്പം എണ്ണമയമുള്ള റെൻഡർ വരയ്ക്കാൻ ഉപയോഗിക്കുന്ന ബ്രഷ് മാ"
+"സ്ക് എന്ന വലുപ്പം തിരഞ്ഞെടുക്കുന്നു. ഇവിടെ വലുത് മൂല്യങ്ങൾ ഒരു എണ്ണമയം റെൻഡ"
+"ർ ഉത്പാദിപ്പിക്കുന്നു."
+
+#: src/filters/artistic/oilify.xml:93(term)
+msgid "Use mask-size map"
+msgstr ""
+"മാസ്ക്-വലുപ്പം മാപ്പ് ഉപയോഗിക്കുക"
+
+#: src/filters/artistic/oilify.xml:95(para)
+msgid ""
+"You may use a mask-size map to control <guilabel>Mask&nbsp;size</guilabel> "
+"partially. Mask size is reduced accordings to darkness in each pixel of the "
+"map image. You can select a map image among the current opened images of the "
+"same size as the source image."
+msgstr ""
+"ഭാഗികമായി <guilabel>Mask size</guilabel> നിയന്ത്രിക്കാൻ ഒരു മാസ്ക്-വലിപ്പം "
+"മാപ്പ് ഉപയോഗിക്കാം. മാസ്ക്കുചെയ്യുക വലുപ്പം ചിത്രം മാപ്പ് ഓരോ പിക്സൽ ഇരുൾ"
+" ലേക്കുള്ള accordings കുറയുന്നു. നിങ്ങൾ ഉറവിട ഇമേജ് അതേ വലുപ്പത്തിലുള്ള നില"
+"വിലെ തുറന്നു ചിത്രങ്ങൾ ഇടയിൽ ഒരു മാപ്പ് ചിത്രം തിരഞ്ഞെടുക്കാം."
+
+#: src/filters/artistic/oilify.xml:105(term)
+msgid "Exponent"
+msgstr ""
+"എക്സ്പൊണൻറ്"
+
+#: src/filters/artistic/oilify.xml:107(para)
+msgid ""
+"Exponent selects density of the brush mask used to paint the oily render."
+msgstr ""
+"എക്സ്പോണൻറ് എണ്ണമയമുള്ള റെൻഡർ വരയ്ക്കാൻ ഉപയോഗിക്കുന്ന ബ്രഷ് മാസ്ക് സാന്ദ്"
+"രത തിരഞ്ഞെടുക്കുന്നത്."
+
+#: src/filters/artistic/oilify.xml:114(term)
+msgid "Use exponent map"
+msgstr ""
+"എക്സ്പൊണൻറ് മാപ്പ് ഉപയോഗിക്കുക"
+
+#: src/filters/artistic/oilify.xml:116(para)
+msgid ""
+"You may use an exponent map to control density of brush touch partially. "
+"Density is reduced accordings to darkness in each pixel of the map image. "
+"You can select a map image among the current opened images of the same size "
+"as the source image."
+msgstr ""
+"ഭാഗികമായി ബ്രഷ് ടച്ച് സാന്ദ്രത നിയന്ത്രിക്കാൻ ഒരു ഘാതാംഗമോ മാപ്പ് ഉപയോഗിക"
+"്കാം. സാന്ദ്രത ചിത്രം മാപ്പ് ഓരോ പിക്സൽ ഇരുൾ ലേക്കുള്ള accordings കുറയുന്ന"
+"ു. നിങ്ങൾ ഉറവിട ഇമേജ് അതേ വലുപ്പത്തിലുള്ള നിലവിലെ തുറന്നു ചിത്രങ്ങൾ ഇടയിൽ ഒ"
+"രു മാപ്പ് ചിത്രം തിരഞ്ഞെടുക്കാം."
+
+#: src/filters/artistic/oilify.xml:125(term)
+msgid "Use intensity algorithm"
+msgstr ""
+"തീവ്രത അൽഗോരിതം ഉപയോഗിക്കുക"
+
+#: src/filters/artistic/oilify.xml:127(para)
+msgid ""
+"<quote>Use intensity algorithm</quote> changes the mode of operation to help "
+"preserve detail and coloring."
+msgstr ""
+"<quote>Use intensity algorithm</quote> വിശദമായി നിറവും കാക്കുന്നു സഹായിക്കു"
+"ന്നതിന് പ്രവർത്തന മോഡ് മാറ്റുന്നു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/applycanvas.xml:44(None)
+msgid ""
+"@@image: 'images/filters/examples/artistic-taj-applycanvas.jpg'; "
+"md5=d99aa84f6e51b96869f4ad0e8c452b8a"
+msgstr ""
+"@@image: 'images/filters/examples/artistic-taj-applycanvas.jpg'; "
+"md5=d99aa84f6e51b96869f4ad0e8c452b8a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/applycanvas.xml:76(None)
+msgid ""
+"@@image: 'images/filters/artistic/applycanvas.png'; "
+"md5=663af5b1198530ba4944be24be18cc70"
+msgstr ""
+"@@image: 'images/filters/artistic/applycanvas.png'; "
+"md5=663af5b1198530ba4944be24be18cc70"
+
+#: src/filters/artistic/applycanvas.xml:13(title)
+msgid "Apply Canvas"
+msgstr ""
+"കാൻവാസ് പ്രയോഗിക്കുക"
+
+#: src/filters/artistic/applycanvas.xml:18(tertiary)
+#: src/filters/artistic/applycanvas.xml:25(primary)
+msgid "Canvas effect"
+msgstr ""
+"കാൻവാസ് പ്രഭാവം"
+
+#: src/filters/artistic/applycanvas.xml:21(primary)
+msgid "Canvas"
+msgstr ""
+"ചിതലേഖനത്തുണി"
+
+#: src/filters/artistic/applycanvas.xml:22(secondary)
+msgid "effect"
+msgstr ""
+"ഫലം"
+
+#: src/filters/artistic/applycanvas.xml:31(title)
+msgid "Example for the <quote>Apply Canvas</quote> filter"
+msgstr ""
+"<quote>Apply Canvas</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/artistic/applycanvas.xml:47(para)
+msgid "Filter <quote>Apply Canvas</quote> applied"
+msgstr ""
+"<quote>Apply Canvas</quote> ഫിൽട്ടറിന്"
+
+#: src/filters/artistic/applycanvas.xml:51(para)
+msgid ""
+"This filter applies a canvas-like effect to the current layer or selection. "
+"It textures the image as if it were an artist's canvas."
+msgstr ""
+"ഈ ഫിൽട്ടർ നിലവിലെ അല്ലെങ്കിൽ പാളി നിരക്കു ഒരു ക്യാൻവാസ്-പോലുള്ള പ്രഭാവം ബാ"
+"ധകമാണ്. അതു ഒരു കലാകാരിയുടെ ക്യാൻവാസ് മട്ടിൽ അതു ഇമേജ് പ്രതലങ്ങൾ."
+
+#: src/filters/artistic/applycanvas.xml:59(para)
+msgid ""
+"You can find this filter through <menuchoice><guimenu>Filters</"
+"guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Apply Canvas...</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</guisubme"
+"nu><guimenuitem>Apply Canvas...</guimenuitem></menuchoice> മുഖേന ഈ ഫിൽട്ടർ "
+"കണ്ടെത്താൻ കഴിയും."
+
+#: src/filters/artistic/applycanvas.xml:72(title)
+msgid "<quote>Apply Canvas</quote> options"
+msgstr ""
+"<quote>Apply Canvas</quote> ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/applycanvas.xml:91(term)
+msgid "Direction"
+msgstr ""
+"സംവിധാനം"
+
+#: src/filters/artistic/applycanvas.xml:93(para)
+msgid ""
+"Direction sets the starting direction of the canvas render. You can also "
+"consider that this option gives you the position of the light source which "
+"lightens the canvas."
+msgstr ""
+"ദിശ ക്യാൻവാസു ആരംഭിക്കുന്ന ദിശ റെൻഡർ സജ്ജമാക്കുന്നു. നിങ്ങൾക്ക് ഈ ഐച്ഛികം ക"
+"്യാൻവാസ് കുറയുന്നു വെളിച്ചം സ്രോതസ്സ് സ്ഥാനം നൽകുന്ന പരിഗണിക്കുക കഴിയും."
+
+#: src/filters/artistic/applycanvas.xml:103(para)
+msgid ""
+"The Depth slider controls the apparent depth of the rendered canvas effect "
+"from 1 (very flat) to 50 (very deep)."
+msgstr ""
+"ആഴത്തിൽ സ്ലൈഡർ 1 (വളരെ ഫ്ലാറ്റ്) മുതൽ 50 പ്രതിഫലം ക്യാൻവാസ് പ്രഭാവം ഉദ്ദശിച"
+"്ചിട്ടു ആഴം (വളരെ ആഴമുള്ള) നിയന്ത്രിക്കുന്നു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/photocopy.xml:39(None)
+msgid ""
+"@@image: 'images/filters/examples/artistic-taj-photocopy.jpg'; "
+"md5=166d96e5218d46d32a21f5da04cc8555"
+msgstr ""
+"@@image: 'images/filters/examples/artistic-taj-photocopy.jpg'; "
+"md5=166d96e5218d46d32a21f5da04cc8555"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/photocopy.xml:83(None)
+msgid ""
+"@@image: 'images/filters/artistic/photocopy.png'; "
+"md5=35a0313b1f89375c4b17d1f118602d35"
+msgstr ""
+"@@image: 'images/filters/artistic/photocopy.png'; "
+"md5=35a0313b1f89375c4b17d1f118602d35"
+
+#: src/filters/artistic/photocopy.xml:12(title)
+#: src/filters/artistic/photocopy.xml:17(tertiary)
+#: src/filters/artistic/photocopy.xml:20(primary)
+msgid "Photocopy"
+msgstr ""
+"പകർപ്പുകൾ"
+
+#: src/filters/artistic/photocopy.xml:26(title)
+msgid "Example for the <quote>Photocopy</quote> filter"
+msgstr ""
+"<quote>Photocopy</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/artistic/photocopy.xml:42(para)
+msgid "Filter <quote>Photocopy</quote> applied"
+msgstr ""
+"<quote>Photocopy</quote> ഫിൽട്ടറിന്"
+
+#: src/filters/artistic/photocopy.xml:46(para)
+msgid ""
+"The Photocopy filter modifies the active layer or selection so that it looks "
+"like a black and white photocopy, as if toner transferred was based on the "
+"relative darkness of a particular region. This is achieved by darkening "
+"areas of the image which are measured to be darker than a neighborhood "
+"average, and setting other pixels to white."
+msgstr ""
+"അതു ഒരു ബ്ലാക്ക് ആൻഡ് വൈറ്റ് ആദ്യപേജ് പോലെ കാണപ്പെടുന്നു അങ്ങനെ ഫോട്ടോകേ"
+"ാപ്പി അരിപ്പ സജീവ അല്ലെങ്കിൽ പാളി നിരക്കു മാറ്റം, ഒരു പ്രത്യേക മേഖലയിലെ ആപേ"
+"ക്ഷിക ഇരുട്ടിൽ അടിസ്ഥാനമാക്കി ടോണർ കൈമാറ്റം പോലെ ചെയ്തു. ഇത് ഒരു അയൽക്കാര"
+"നായ ശരാശരിയേക്കാൾ ഇരുണ്ടതായിരിക്കണം അളന്നു ഏത് ചിത്രത്തിന്റെ പ്രദേശങ്ങൾ ഇരു"
+"ട്ടുന്നത്, വെള്ള മറ്റ് പിക്സൽ ക്രമീകരിച്ച് നേടാവുന്നതാണ്."
+
+#: src/filters/artistic/photocopy.xml:54(para)
+msgid ""
+"You may use this filter to sharpen your image. Create a copy of the active "
+"layer and use the filter on the copy. Set the <link linkend=\"gimp-concepts-"
+"layer-modes\">Layer Mode</link> to <guilabel>Multiply</guilabel> and adjust "
+"the opacity slider to get the best result."
+msgstr ""
+"നിങ്ങളുടെ ചിത്രവും മൂർച്ച ഈ ഫിൽട്ടർ ഉപയോഗിക്കാം. സജീവ പാളി ഒരു പകർപ്പ് സൃഷ"
+"്ടിക്കുക പകർപ്പിൽ ഫിൽറ്റർ ഉപയോഗിക്കുക. <guilabel>Multiply</guilabel> ലേക്ക"
+"ുള്ള <link linkend=\"gimp-concepts- layer-modes\">Layer Mode</link> സജ്ജമാക"
+"്കുക മികച്ച ഫലം ലഭിക്കുന്നതിനു അതാര്യത സ്ലൈഡർ."
+
+#: src/filters/artistic/photocopy.xml:66(para)
+msgid ""
+"You can find this filter from the image menu through "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</"
+"guisubmenu><guimenuitem>Photocopy</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുവിൽ നിന്ന് <menuchoice><guimenu>Filters</guimenu><guisubme"
+"nu>Artistic</guisubmenu><guimenuitem>Photocopy</guimenuitem></menuchoice> മ"
+"ുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും."
+
+#: src/filters/artistic/photocopy.xml:79(title)
+msgid "<quote>Photocopy</quote> filter options"
+msgstr ""
+"<quote>Photocopy</quote> ഫിൽട്ടർ ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/photocopy.xml:98(term)
+#: src/filters/artistic/cartoon.xml:78(term)
+msgid "Mask radius"
+msgstr ""
+"ആരം മാസ്ക്"
+
+#: src/filters/artistic/photocopy.xml:100(para)
+msgid ""
+"This parameter controls the size of the pixel neighbourhood over which the "
+"average intensity is computed and then compared to each pixel in the "
+"neighborhood to decide whether or not to darken it. Large values result in "
+"very thick black areas bordering the regions of white and much less detail "
+"for black areas. Small values result in less toner overall and more details "
+"everywhere."
+msgstr ""
+"ഈ പരാമീറ്റർ ഏത് ശരാശരി തീവ്രത പിന്നീട് കണക്കുകൂട്ടുന്നത് അത് ഇരുണ്ട് വേണ്ടയ"
+"ോ എന്ന് തീരുമാനിക്കാൻ അയല്പക്കത്ത് ഓരോ പിക്സൽ അപേക്ഷിച്ച് പിക്സൽ അയൽക്കാര"
+"നായ വലുപ്പം നിയന്ത്രിക്കുന്നത്. വലിയ മൂല്യങ്ങൾ കറുത്ത പ്രദേശങ്ങൾ വെള്ള വളരെ"
+" കുറവ് വിശദാംശങ്ങൾ മേഖലകളാണ് അതിർത്തി വളരെ കട്ടിയുള്ള കറുത്ത പ്രദേശങ്ങൾ കാര"
+"ണമാകുകയും. ചെറിയ മൂല്യങ്ങൾ എല്ലായിടത്തും മൊത്തത്തിൽ കുറവ് ടോണർ കൂടുതൽ വിവ"
+"രങ്ങൾക്ക് കാരണമാകാം."
+
+#: src/filters/artistic/photocopy.xml:113(para)
+msgid "With this option, you can set photocopy sharpness, from 0.0 to 1.0."
+msgstr ""
+"ഈ ഓപ്ഷൻ ഉപയോഗിച്ച്, 0.0 മുതൽ 1.0 വരെ, ഒറിജിനലും മൂര്ച്ച സജ്ജമാക്കാൻ കഴിയും"
+"."
+
+#: src/filters/artistic/photocopy.xml:120(term)
+#: src/filters/artistic/cartoon.xml:89(term)
+msgid "Percent black"
+msgstr ""
+"ശതമാനം കറുത്ത"
+
+#: src/filters/artistic/photocopy.xml:122(para)
+msgid ""
+"This parameter controls the amount of black color added to the image. Small "
+"values make the blend from color regions to blackened areas smoother and "
+"dark lines themselves thinner and less noticeable. Larger values make the "
+"lines thicker, darker and sharper. The maximum value makes the lines "
+"aliased. The best, most natural results are usually achieved with an "
+"intermediate value. Values vary from 0.0 to 1.0."
+msgstr ""
+"ഈ പരാമീറ്റർ കറുത്ത നിറം ചിത്രം ചേർത്തു തുക നിയന്ത്രിക്കുന്നു. ചെറിയ മൂല്യങ്"
+"ങൾ തങ്ങളെ വായിൽ കുറവ് ഒരുപിടി കറുത്തിരുണ്ടതായി പ്രദേശങ്ങൾ മൃദുലമായി ഇരുണ്ട "
+"ലൈനുകൾ നിറം പ്രദേശങ്ങളിൽ നിന്ന് background:. വലുത് മൂല്യങ്ങൾ വരികൾ കനമേ, ഇര"
+"ുണ്ട മൂർച്ചയേറിയതും ഉണ്ടാക്കേണം. പരമാവധി മൂല്യം ലൈനുകൾ അപരത്വമാണ് ചെയ്യുന്ന"
+"ു. മികച്ച, ഏറ്റവും സ്വാഭാവിക ഫലങ്ങള് സാധാരണയായി ഒരു മധ്യമ മൂല്യം കൂടെ നേടാന"
+"ുള്ള. മൂല്യങ്ങൾ 0.0 മുതൽ 1.0 വ്യത്യസ്തമാണ്."
+
+#: src/filters/artistic/photocopy.xml:134(term)
+msgid "Percent white"
+msgstr ""
+"ശതമാനം വെള്ളക്കാരും"
+
+#: src/filters/artistic/photocopy.xml:136(para)
+msgid "This parameter increases white pixels percentage."
+msgstr ""
+"ഈ പരാമീറ്റർ വെളുത്ത പിക്സലുകൾ ശതമാനം വർദ്ധിപ്പിക്കുന്നു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/predator.xml:37(None)
+msgid ""
+"@@image: 'images/filters/examples/artistic-taj-predator.jpg'; "
+"md5=1f53d44df18da82fa63b4b49d669601b"
+msgstr ""
+"@@image: 'images/filters/examples/artistic-taj-predator.jpg'; "
+"md5=1f53d44df18da82fa63b4b49d669601b"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/predator.xml:78(None)
+msgid ""
+"@@image: 'images/filters/artistic/predator.png'; "
+"md5=28917ac2d225b29343100ec004e118e9"
+msgstr ""
+"@@image: 'images/filters/artistic/predator.png'; "
+"md5=28917ac2d225b29343100ec004e118e9"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/predator.xml:97(None)
+msgid ""
+"@@image: 'images/filters/examples/predator-edge4.png'; "
+"md5=2500f322d81380520815b9c6f47b313e"
+msgstr ""
+"@@image: 'images/filters/examples/predator-edge4.png'; "
+"md5=2500f322d81380520815b9c6f47b313e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/predator.xml:106(None)
+msgid ""
+"@@image: 'images/filters/examples/predator-edge8.png'; "
+"md5=6397e66f92cad7b03d6e87356adb5595"
+msgstr ""
+"@@image: 'images/filters/examples/predator-edge8.png'; "
+"md5=6397e66f92cad7b03d6e87356adb5595"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/predator.xml:115(None)
+msgid ""
+"@@image: 'images/filters/examples/predator-edge16.png'; "
+"md5=30d676b8ff9ddbe24bc9c72bef49d8bb"
+msgstr ""
+"@@image: 'images/filters/examples/predator-edge16.png'; "
+"md5=30d676b8ff9ddbe24bc9c72bef49d8bb"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/predator.xml:153(None)
+msgid ""
+"@@image: 'images/filters/examples/predator-pixelize0.png'; "
+"md5=2cb8581db2c58dbe45dd66c4b6a94d5c"
+msgstr ""
+"@@image: 'images/filters/examples/predator-pixelize0.png'; "
+"md5=2cb8581db2c58dbe45dd66c4b6a94d5c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/predator.xml:162(None)
+msgid ""
+"@@image: 'images/filters/examples/predator-pixelize4.png'; "
+"md5=7c19617d27792b6539f56ca21042f942"
+msgstr ""
+"@@image: 'images/filters/examples/predator-pixelize4.png'; "
+"md5=7c19617d27792b6539f56ca21042f942"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/predator.xml:171(None)
+msgid ""
+"@@image: 'images/filters/examples/predator-pixelize8.png'; "
+"md5=6111cd971511109895027ae3b845ea44"
+msgstr ""
+"@@image: 'images/filters/examples/predator-pixelize8.png'; "
+"md5=6111cd971511109895027ae3b845ea44"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/predator.xml:180(None)
+msgid ""
+"@@image: 'images/filters/examples/predator-pixelize16.png'; "
+"md5=2023f558d41e4c1bffa7ad9bf0d431b9"
+msgstr ""
+"@@image: 'images/filters/examples/predator-pixelize16.png'; "
+"md5=2023f558d41e4c1bffa7ad9bf0d431b9"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/predator.xml:224(None)
+msgid ""
+"@@image: 'images/filters/examples/predator-step0.jpg'; "
+"md5=c5098e2de574a7f416539c6c3c0b1d27"
+msgstr ""
+"@@image: 'images/filters/examples/predator-step0.jpg'; "
+"md5=c5098e2de574a7f416539c6c3c0b1d27"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/predator.xml:233(None)
+msgid ""
+"@@image: 'images/filters/examples/predator-step1.jpg'; "
+"md5=4c26049c279c8e95c414ea8dcbc811a7"
+msgstr ""
+"@@image: 'images/filters/examples/predator-step1.jpg'; "
+"md5=4c26049c279c8e95c414ea8dcbc811a7"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/predator.xml:242(None)
+msgid ""
+"@@image: 'images/filters/examples/predator-step2.jpg'; "
+"md5=663d484c2ebbf02f7c9a3a9216eef898"
+msgstr ""
+"@@image: 'images/filters/examples/predator-step2.jpg'; "
+"md5=663d484c2ebbf02f7c9a3a9216eef898"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/predator.xml:251(None)
+msgid ""
+"@@image: 'images/filters/examples/predator-step3.jpg'; "
+"md5=aa5658b9b3e17ad44e59419774274fac"
+msgstr ""
+"@@image: 'images/filters/examples/predator-step3.jpg'; "
+"md5=aa5658b9b3e17ad44e59419774274fac"
+
+#: src/filters/artistic/predator.xml:10(title)
+#: src/filters/artistic/predator.xml:15(tertiary)
+#: src/filters/artistic/predator.xml:18(primary)
+msgid "Predator"
+msgstr ""
+"മെയ്വഴക്കത്തോടെ"
+
+#: src/filters/artistic/predator.xml:24(title)
+msgid "Example for the <quote>Predator</quote> filter"
+msgstr ""
+"<quote>Predator</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/artistic/predator.xml:40(para)
+msgid "<quote>Predator</quote> applied"
+msgstr ""
+"<quote>Predator</quote> പ്രയോഗിച്ചു"
+
+#: src/filters/artistic/predator.xml:44(para)
+msgid ""
+"This filter adds a <quote>Predator</quote> effect to the image. The predator "
+"effect makes the image/selection look something like the view the predator "
+"has in movies (kind of a thermogram and that type of thing). This will "
+"reduce the image to edges in a few basic colors on a dark background."
+msgstr ""
+"ഈ ഫിൽട്ടർ ചിത്രം ഒരു <quote>Predator</quote> പ്രഭാവം ചേർക്കുന്നു. മെയ്വഴക്ക"
+"ത്തോടെ പ്രഭാവം ചിത്രം / നിരക്കു കാഴ്ച മെയ്വഴക്കത്തോടെ സിനിമകൾ (ഒരു thermo"
+"gram ഏതുതരം കാര്യം ആ തരം) ഉണ്ട് പോലെ എന്തെങ്കിലും നിറയുന്നു. ഇത് ഇരുണ്ട പശ"
+"്ചാത്തലത്തിൽ കുറച്ച് അടിസ്ഥാന നിറങ്ങളിൽ അരികുകളിൽ ചിത്രം കുറയ്ക്കും."
+
+#: src/filters/artistic/predator.xml:51(para)
+msgid ""
+"If there is an active selection, the filter effect will be applied to the "
+"selected region, otherwise to the alpha channel (the filter will add an "
+"alpha channel, if necessary). The filter works best on colorful RGB images."
+msgstr ""
+"ഒരു സജീവ നിരക്കു ഉണ്ടെങ്കിൽ, അരിപ്പ പ്രഭാവം തിരഞ്ഞെടുത്ത മേഖലയിലേക്കുള്ള, അ"
+"ല്ലാത്തപക്ഷം ആൽഫ ചാനലിലേക്ക് (ഫിൽട്ടർ ആവശ്യമെങ്കിൽ, ഒരു ആല്ഫാ ചാനൽ ചേർക്കും"
+") പ്രയോഗിക്കും. ഫിൽട്ടർ വർണ്ണാഭമായ ആർജിബി ചിത്രങ്ങൾ മികച്ചതായി പ്രവർത്തിക്"
+"കുന്നു."
+
+#: src/filters/artistic/predator.xml:61(para)
+msgid ""
+"This filter is found in the image window menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</"
+"guisubmenu><guimenuitem>Predator</guimenuitem></menuchoice>."
+msgstr ""
+"ഈ ഫിൽട്ടർ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</guisu"
+"bmenu><guimenuitem>Predator</guimenuitem></menuchoice> കീഴിൽ ഇമേജ് വിൻഡോ മ"
+"െനുവിലെ കാണപ്പെടുന്നത്."
+
+#: src/filters/artistic/predator.xml:74(title)
+msgid "<quote>Predator</quote> options"
+msgstr ""
+"<quote>Predator</quote> ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/predator.xml:84(term)
+msgid "Edge amount"
+msgstr ""
+"എഡ്ജ് തുക"
+
+#: src/filters/artistic/predator.xml:86(para)
+msgid ""
+"The <quote>predator</quote> filter will detect edges using the Sobel <link "
+"linkend=\"plug-in-edge\">edge detector</link>. The specified <quote>Edge "
+"amount</quote> will be passed to the Sobel filter. A high value will result "
+"in detecting more edges."
+msgstr ""
+"<quote>predator</quote> അരിപ്പ സോബൽ <link linkend=\"plug-in-edge\">edge de"
+"tector</link> ഉപയോഗിച്ച് അറ്റങ്ങൾ കണ്ടുപിടിക്കുന്നു. വ്യക്തമാക്കിയ <quote>"
+"Edge amount</quote> സോബൽ അരിപ്പ നൽകുവാൻ ചെയ്യും. ഒരു ഉയർന്ന മൂല്യം കൂടുതല്"
+" വേണമങ്കിലും കണ്ടെത്തുന്നതിൽ കലാശിക്കും."
+
+#: src/filters/artistic/predator.xml:93(title)
+msgid "<quote>Edge amount</quote> examples"
+msgstr ""
+"<quote>Edge amount</quote> ഉദാഹരണങ്ങൾ"
+
+#: src/filters/artistic/predator.xml:100(para)
+#: src/filters/artistic/predator.xml:165(para)
+msgid "4"
+msgstr "4"
+
+#: src/filters/artistic/predator.xml:109(para)
+#: src/filters/artistic/predator.xml:174(para)
+msgid "8"
+msgstr "8"
+
+#: src/filters/artistic/predator.xml:118(para)
+#: src/filters/artistic/predator.xml:183(para)
+msgid "16"
+msgstr "16"
+
+#: src/filters/artistic/predator.xml:125(term)
+#: src/filters/artistic/predator.xml:236(para)
+msgid "Pixelize"
+msgstr "Pixelize"
+
+#: src/filters/artistic/predator.xml:127(para)
+msgid ""
+"If checked, the filter will simplify the image into solid-colored squares "
+"using the <link linkend=\"plug-in-pixelize\">Pixelise</link> filter before "
+"the real predator effect will be applied. You can select the size of these "
+"squares with the option <guilabel>Pixel amount</guilabel>, which will "
+"heavily affect the result (see examples below)."
+msgstr ""
+"പരിശോധിച്ചാൽ, അരിപ്പ യഥാർത്ഥ ഹേർട്സ് പ്രാബല്യത്തിൽ മുമ്പിൽ <link linkend="
+"\"plug-in-pixelize\">Pixelise</link> അരിപ്പ ഉപയോഗിച്ച് ഖര-നിറമുള്ള പുറവുമു"
+"ള്ള ചിത്രം ലഘൂകരിക്കാനുള്ള ചെയ്യും പ്രയോഗിക്കും. നിങ്ങൾ ഉപാധി <guilabel>Pi"
+"xel amount</guilabel> കൂടെ ഈ സ്ക്വയറുകളുടെ വലിപ്പം തെരഞ്ഞെടുക്കാൻ സാധ്യമാകു"
+"ന്ന രൂപീകൃതമാകുന്ന (ഉദാഹരണങ്ങൾ താഴെ കാണുന്ന) ഫലം ബാധിക്കും."
+
+#: src/filters/artistic/predator.xml:138(term)
+msgid "Pixel amount"
+msgstr ""
+"പിക്സൽ തുക"
+
+#: src/filters/artistic/predator.xml:140(para)
+msgid ""
+"<quote>Pixel amount</quote> is the size of the color blocks the image will "
+"be simplified to if <guilabel>Pixelize</guilabel> is checked. Actually you "
+"are decreasing the resolution with this option. In the examples below, you "
+"can see directly how increasing the pixel block size leads to something like "
+"<quote>macro pixels</quote>:"
+msgstr ""
+"<quote>Pixel amount</quote> <guilabel>Pixelize</guilabel> ചെക്കുചെയ്തിട്ടുണ"
+"്ടെന്നും എങ്കിൽ ചിത്രം ലളിതമായ ചെയ്യും നിറം വ്യാപ്തി. യഥാർത്ഥത്തിൽ നിങ്ങൾ ഈ"
+" ഉപാധി ഉപയോഗിച്ച് ചിത്രം കുറയ്ക്കുന്നു. ചുവടെയുള്ള ഉദാഹരണങ്ങൾ, നിങ്ങൾ വർദ്"
+"ധിച്ചുവരുന്ന പിക്സൽ ബ്ലോക്ക് വലിപ്പം <quote>macro pixels</quote> പോലെ ഒന്"
+"ന് നേരിട്ട് എങ്ങനെ നയിക്കുന്നു കാണാൻ കഴിയും:"
+
+#: src/filters/artistic/predator.xml:149(title)
+msgid "<quote>Pixelize</quote> examples"
+msgstr ""
+"<quote>Pixelize</quote> ഉദാഹരണങ്ങൾ"
+
+#: src/filters/artistic/predator.xml:156(para)
+msgid "Disabled"
+msgstr ""
+"അപ്രാപ്തമാക്കി"
+
+#: src/filters/artistic/predator.xml:190(term)
+msgid "Keep selection"
+msgstr ""
+"നിരക്കു നിലനിർത്തുക"
+
+#: src/filters/artistic/predator.xml:192(para)
+msgid ""
+"If checked, the filter will be applied to the active selection. Else, it "
+"will be applied to the active layer."
+msgstr ""
+"പരിശോധിച്ചാൽ, അരിപ്പ സജീവ നിരക്കു ബാധകമാകും. അല്ലെങ്കിലോ അത് സജീവ പാളി ബാ"
+"ധകമാകും."
+
+#: src/filters/artistic/predator.xml:199(term)
+msgid "Separate layer"
+msgstr ""
+"പ്രത്യേക പാളി"
+
+#: src/filters/artistic/predator.xml:201(para)
+msgid ""
+"When this option is checked, a copy of the active layer will be created "
+"above the active layer and the filter will be applied to this copy, leaving "
+"the original layer untouched. If not checked, the filter will be applied to "
+"the active layer."
+msgstr ""
+"ഈ ഓപ്ഷൻ എപ്പോഴാണ് ചെക്കുചെയ്തിട്ടുണ്ടെന്നും, സജീവ പാളി ഫിൽട്ടർ മുകളിൽ സൃഷ്"
+"ടിക്കപ്പെടും സജീവ പാളി ഒരു പകർപ്പ് യഥാർത്ഥ പാളി കേടും വിട്ടുകൊടുത്തത് ഈ പക"
+"ർപ്പ് ബാധകമാകും. ചെക്കുചെയ്തിട്ടില്ല എങ്കിൽ, അരിപ്പ സജീവ പാളി ബാധകമാകും."
+
+#: src/filters/artistic/predator.xml:213(title)
+msgid "Filter algorithm"
+msgstr ""
+"ഫിൽട്ടർചെയ്യുക അൽഗോരിതം"
+
+#: src/filters/artistic/predator.xml:214(para)
+msgid ""
+"Since this filter delegates the essential parts to two or three other "
+"filters the algorithm is very simple:"
+msgstr ""
+"ഈ ഫിൽട്ടർ പ്രതിനിധികൾ രണ്ടോ മൂന്നോ മറ്റ് ഫിൽട്ടറുകൾ അവശ്യ ഭാഗങ്ങളിൽ ശേഷം "
+"അൽഗോരിതം വളരെ എളുപ്പമാണ്:"
+
+#: src/filters/artistic/predator.xml:220(title)
+msgid "Making the <quote>predator</quote> effect"
+msgstr ""
+"<quote>predator</quote> ഇഫക്റ്റ് ഉണ്ടാക്കുന്നു"
+
+#: src/filters/artistic/predator.xml:227(para)
+msgid "Original"
+msgstr ""
+"യഥാർത്ഥ"
+
+#: src/filters/artistic/predator.xml:245(para)
+msgid "Min RGB"
+msgstr ""
+"കുറഞ്ഞത് ആർജിബി"
+
+#: src/filters/artistic/predator.xml:254(para)
+msgid "Edge detection"
+msgstr ""
+"എഡ്ജ് കണ്ടെത്തൽ"
+
+#: src/filters/artistic/predator.xml:259(para)
+msgid "The original image."
+msgstr ""
+"യഥാർത്ഥ ചിത്രം."
+
+#: src/filters/artistic/predator.xml:262(para)
+msgid ""
+"Optionally, the filter <link linkend=\"plug-in-pixelize\">pixelizes</link> "
+"the image: it renders the image by using color blocks instead of pixels, "
+"thus reducing the image resolution."
+msgstr ""
+"വേണമെങ്കിൽ, അരിപ്പ ചിത്രം <link linkend=\"plug-in-pixelize\">pixelizes</lin"
+"k>: അതു ഇങ്ങനെ ഇമേജ് റെസലൂഷൻ കുറയ്ക്കുക, നിറം പകരം പിക്സൽ ഉപയോഗിച്ച് ഇമേജ്"
+" റെൻഡർ."
+
+#: src/filters/artistic/predator.xml:270(para)
+msgid ""
+"The colors will be reduced to pure red, green, blue (and possibly gray "
+"colors), using the <link linkend=\"plug-in-max-rgb\">minimal RGB</link> "
+"channel for every pixel."
+msgstr ""
+"നിറങ്ങൾ ഓരോ പിക്സൽ വേണ്ടി <link linkend=\"plug-in-max-rgb\">minimal RGB</l"
+"ink> ചാനൽ ഉപയോഗിച്ച്, ചുവപ്പ്, പച്ച, നീല (ചിലപ്പോൾ ചാര നിറങ്ങൾ) ലേക്ക് കു"
+"റയും."
+
+#: src/filters/artistic/predator.xml:277(para)
+msgid ""
+"Applying the <link linkend=\"plug-in-edge\">Sobel edge detecting</link> "
+"filter, the image will be reduced further on to edges, usually on a black "
+"background, with very few colors."
+msgstr ""
+"<link linkend=\"plug-in-edge\">Sobel edge detecting</link> ഫിൽട്ടർ ബാധകമാക്"
+"കുന്നത്, ഇമേജ് കൂടുതൽ അരികുകളിൽ ന് സാധാരണയായി ഒരു കറുത്ത പശ്ചാത്തലത്തിൽ വളര"
+"െ കുറച്ച് നിറങ്ങൾ കുറയും."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/GIMPressionist-sizemap.xml:44(None)
+msgid ""
+"@@image: 'images/filters/artistic/gimpressionist-sizemap-editor.png'; "
+"md5=eaf34c00e64d9a7567fbcf39b8b98a7a"
+msgstr ""
+"@@image: 'images/filters/artistic/gimpressionist-sizemap-editor.png'; "
+"md5=eaf34c00e64d9a7567fbcf39b8b98a7a"
+
+#: src/filters/artistic/GIMPressionist-sizemap.xml:13(title)
+msgid "Size Map Editor"
+msgstr ""
+"വലിപ്പം മാപ്പ് എഡിറ്റർ"
+
+#: src/filters/artistic/GIMPressionist-sizemap.xml:26(para)
+msgid ""
+"The Size-map editor is an annexe of the <link linkend=\"plug-in-"
+"gimpressionist\">GIMPressionist</link> filter. You can get to it by clicking "
+"on the <guibutton>Edit</guibutton> button in the <link linkend="
+"\"gimpressionist-size-options\">Size</link> tab. With this editor, you can "
+"set the size that brush strokes given by filter will have."
+msgstr ""
+"വലിപ്പം-മാപ്പ് എഡിറ്റർ <link linkend=\"plug-in- gimpressionist\">GIMPressio"
+"nist</link> അരിപ്പ ഒരു annexe ആണ്. നിങ്ങൾ <link linkend=\"gimpressionist-si"
+"ze-options\">Size</link> ടാബിൽ <guibutton>Edit</guibutton> ബട്ടൺ ക്ളിക്ക് ന"
+"േടാം. ഈ എഡിറ്റർ ഉപയോഗിച്ച്, ഫിൽട്ടർ നൽകിയ ബ്രഷ് സ്ട്രോക്കുകൾ ലഭിക്കും എന്"
+"നു വലിപ്പം സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/filters/artistic/GIMPressionist-sizemap.xml:40(title)
+msgid "Size-map editor options"
+msgstr ""
+"വലിപ്പം-മാപ്പ് എഡിറ്റർ ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist-sizemap.xml:49(para)
+msgid ""
+"You can place one or several vectors. You can set their strength. They will "
+"act on the corresponding area of the image."
+msgstr ""
+"നിങ്ങൾ ഒന്നോ നിരവധി സദിശങ്ങളെയും സ്ഥാപിക്കാൻ കഴിയും. നീ അവരുടെ ബലത്തിന്റെ "
+"സജ്ജമാക്കാൻ കഴിയും. ഇമേജിൽ ഇതേ പ്രദേശത്തു പ്രവർത്തിക്കാൻ ചെയ്യും."
+
+#: src/filters/artistic/GIMPressionist-sizemap.xml:54(term)
+msgid "Smvectors"
+msgstr "Smvectors"
+
+#: src/filters/artistic/GIMPressionist-sizemap.xml:56(para)
+msgid ""
+"In this window you can place your vectors. By clicking on the "
+"<guibutton>Add</guibutton> button, you add a vector at the center of the "
+"window, whereas clicking with the mouse <mousebutton>Middle&nbsp;Button</"
+"mousebutton> puts it where you click. Vectors are red when selected, and "
+"gray when they are not, with a white point at tip."
+msgstr ""
+"ഈ വിൻഡോയിൽ നിങ്ങളുടെ സദിശങ്ങളെയും സ്ഥാപിക്കാൻ കഴിയും. <guibutton>Add</guib"
+"utton> ബട്ടൺ ക്ളിക്ക്, ഒരു വെക്റ്റർ വിൻഡോയുടെ കേന്ദ്രത്തിൽ മൌസ് <mousebut"
+"ton>Middle Button</mousebutton> നീ എവിടെ ക്ലിക്ക് വെക്കുന്നതു കൊണ്ട് ക്ളിക"
+"്ക് അതേസമയം ചേർക്കുക. തിരഞ്ഞെടുക്കുമ്പോൾ സദിശങ്ങളെയും ചുവപ്പായിരിക്കും, നു"
+"റുങ്ങ് ഒരു വൈറ്റ് പോയിൻറ് അവർ അല്ല നരച്ച."
+
+#: src/filters/artistic/GIMPressionist-sizemap.xml:69(para)
+msgid ""
+"Clicking on the mouse <mousebutton>Right&nbsp;Button</mousebutton>, has no "
+"evident action."
+msgstr ""
+"മൌസ് <mousebutton>Right Button</mousebutton> ക്ലിക്കുചെയ്യുന്നത്, യാതൊരു "
+"നടപടി ഉണ്ട്."
+
+#: src/filters/artistic/GIMPressionist-sizemap.xml:79(para)
+msgid ""
+"The <guibutton>Kill</guibutton> button allows you to delete the selected "
+"vector."
+msgstr ""
+"<guibutton>Kill</guibutton> ബട്ടൺ നിങ്ങൾ തിരഞ്ഞെടുത്ത വെക്ടർ ഇല്ലാതാക്കാൻ അ"
+"നുവദിക്കുന്നു."
+
+#: src/filters/artistic/GIMPressionist-sizemap.xml:95(para)
+msgid ""
+"This Preview gives you an idea of the action of the different vectors. The "
+"size of squares represent the size of the brushes and their strength."
+msgstr ""
+"ഈ പ്രിവ്യൂ വ്യത്യസ്ത സദിശങ്ങളെയും പ്രവർത്തനവും ഒരു ആശയം നൽകുന്നു. സ്ക്വയറുക"
+"ളുടെ വലുപ്പം ബ്രഷോ വലുപ്പവും ശക്തിയെ പ്രതിനിധീകരിക്കുന്നു."
+
+#: src/filters/artistic/GIMPressionist-sizemap.xml:103(term)
+#: src/filters/artistic/GIMPressionist.xml:446(term)
+msgid "Size"
+msgstr ""
+"വലുപ്പം"
+
+#: src/filters/artistic/GIMPressionist-sizemap.xml:105(para)
+msgid "Change the size of the brush strokes in the selected vector domain."
+msgstr ""
+"തിരഞ്ഞെടുത്ത വെക്റ്റർ ഡൊമെയ്നിൽ ബ്രഷ് സ്ട്രോക്കുകൾ വലുപ്പം മാറ്റുക."
+
+#: src/filters/artistic/GIMPressionist-sizemap.xml:114(para)
+msgid ""
+"This slider acts on the influence domain of the selected vector. This "
+"influence lowers with distance."
+msgstr ""
+"ഈ സ്ലൈഡർ തിരഞ്ഞെടുത്ത വെക്റ്റർ സ്വാധീനം ഡൊമെയ്ൻ പ്രവർത്തിക്കുന്നു. ഈ സ്വാധ"
+"ീനം ദൂരം താഴുന്നത്."
+
+#: src/filters/artistic/GIMPressionist-sizemap.xml:123(para)
+msgid "Change the exponent of the stroke."
+msgstr ""
+"സ്ട്രോക്കും എക്സ്പൊണൻറ് മാറ്റുക."
+
+#: src/filters/artistic/GIMPressionist-sizemap.xml:129(para)
+msgid ""
+"See <link linkend=\"gimpressionist-editor-voronoi\">Orientation Map Editor</"
+"link> for an explanation."
+msgstr ""
+"വിശദീകരണം <link linkend=\"gimpressionist-editor-voronoi\">Orientation Map E"
+"ditor</link> കാണുക."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/cartoon.xml:38(None)
+msgid ""
+"@@image: 'images/filters/examples/artistic-taj-cartoon.jpg'; "
+"md5=dc07aa4e0692cd3deb83d9b0e6fbc385"
+msgstr ""
+"@@image: 'images/filters/examples/artistic-taj-cartoon.jpg'; "
+"md5=dc07aa4e0692cd3deb83d9b0e6fbc385"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/cartoon.xml:72(None)
+msgid ""
+"@@image: 'images/filters/artistic/cartoon.png'; "
+"md5=f6f950b658f5bb95897e48afe98f8959"
+msgstr ""
+"@@image: 'images/filters/artistic/cartoon.png'; "
+"md5=f6f950b658f5bb95897e48afe98f8959"
+
+#: src/filters/artistic/cartoon.xml:11(title)
+#: src/filters/artistic/cartoon.xml:16(tertiary)
+#: src/filters/artistic/cartoon.xml:19(primary)
+msgid "Cartoon"
+msgstr ""
+"ഹാസചിതം"
+
+#: src/filters/artistic/cartoon.xml:25(title)
+msgid "Example for the <quote>Cartoon</quote> filter"
+msgstr ""
+"<quote>Cartoon</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/artistic/cartoon.xml:41(para)
+msgid "Filter <quote>Cartoon</quote> applied"
+msgstr ""
+"<quote>Cartoon</quote> ഫിൽട്ടറിന്"
+
+#: src/filters/artistic/cartoon.xml:45(para)
+msgid ""
+"The Cartoon filter modifies the active layer or selection so that it looks "
+"like a cartoon drawing. Its result is similar to a black felt pen drawing "
+"subsequently shaded with color. This is achieved by darkening areas that are "
+"already distinctly darker than their neighborhood."
+msgstr ""
+"അതു ഒരു കാർട്ടൂൺ ഡ്രോയിംഗ് പോലെ കാണപ്പെടുന്നു അങ്ങനെ കാർട്ടൂൺ ഫിൽട്ടർ സജീ"
+"വ അല്ലെങ്കിൽ പാളി നിരക്കു മാറ്റം. അതിന്റെ ഫലം ഒരു കറുത്ത സമാനമാണ് പേന ഡ്രോ"
+"യിംഗ് പിന്നീട് നിറം ഷേഡുള്ള തോന്നി. ഈ ഇതിനകം അവരുടെ അയൽക്കാരനായ അധികം തെളി"
+"വായി ഇരുണ്ട ഇഷ്ടമുള്ള സ്ഥലങ്ങൾ കറുക്കുന്നു ചെയ്തു നേടാവുന്നതാണ്."
+
+#: src/filters/artistic/cartoon.xml:55(para)
+msgid ""
+"You can find this filter in <menuchoice><guimenu>Filters</"
+"guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Cartoon</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</guisubme"
+"nu><guimenuitem>Cartoon</guimenuitem></menuchoice> ഈ ഫിൽട്ടർ കണ്ടെത്താം."
+
+#: src/filters/artistic/cartoon.xml:68(title)
+msgid "<quote>Cartoon</quote> filter options"
+msgstr ""
+"<quote>Cartoon</quote> ഫിൽട്ടർ ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/cartoon.xml:80(para)
+msgid ""
+"This parameter controls the size of areas the filter works with. Large "
+"values result in very thick black areas and much less detail in the "
+"resulting image. Small values result in more subtle pen strokes and more "
+"details preserved."
+msgstr ""
+"ഈ പരാമീറ്റർ അരിപ്പ പ്രവർത്തിക്കുന്നു പ്രദേശങ്ങൾ വലുപ്പം നിയന്ത്രിക്കുന്നത്."
+" വലിയ മൂല്യങ്ങൾ വളരെ കട്ടിയുള്ള കറുത്ത പ്രദേശങ്ങൾ ലഭിക്കുന്ന ചിത്രം വളരെ കു"
+"റവ് വിശദാംശങ്ങൾ കാരണമാകാം. ചെറിയ മൂല്യങ്ങൾ കൂടുതൽ തന്ത്രപൂർവം പേന സ്ട്രോക്"
+"കുകൾ കൂടുതൽ വിവരങ്ങൾക്ക് സൂക്ഷിക്കപ്പെടും കാരണമാകാം."
+
+#: src/filters/artistic/cartoon.xml:91(para)
+msgid ""
+"This parameter controls the amount of black color added to the image. Small "
+"values make the blend from color regions to blackened areas smoother and "
+"dark lines themselves thinner and less noticeable. Larger values make the "
+"lines thicker, darker and sharper. The maximum value makes the lines "
+"aliased. The best, most natural results are usually achieved with an "
+"intermediate value."
+msgstr ""
+"ഈ പരാമീറ്റർ കറുത്ത നിറം ചിത്രം ചേർത്തു തുക നിയന്ത്രിക്കുന്നു. ചെറിയ മൂല്യങ്"
+"ങൾ തങ്ങളെ വായിൽ കുറവ് ഒരുപിടി കറുത്തിരുണ്ടതായി പ്രദേശങ്ങൾ മൃദുലമായി ഇരുണ്ട "
+"ലൈനുകൾ നിറം പ്രദേശങ്ങളിൽ നിന്ന് background:. വലുത് മൂല്യങ്ങൾ വരികൾ കനമേ, ഇര"
+"ുണ്ട മൂർച്ചയേറിയതും ഉണ്ടാക്കേണം. പരമാവധി മൂല്യം ലൈനുകൾ അപരത്വമാണ് ചെയ്യുന്ന"
+"ു. മികച്ച, ഏറ്റവും സ്വാഭാവിക ഫലങ്ങള് സാധാരണയായി ഒരു മധ്യമ മൂല്യം കൂടെ നേടാന"
+"ുള്ള."
+
+#: src/filters/artistic/introduction.xml:10(title)
+#: src/filters/artistic/introduction.xml:14(tertiary)
+msgid "Introduction"
+msgstr ""
+"അവതാരിക"
+
+#: src/filters/artistic/introduction.xml:16(para)
+msgid ""
+"Artistic filters create artistic effects like cubism, oil painting, canvas..."
+msgstr ""
+"കലാപരമായ ഫിൽട്ടറുകൾ ക്യൂബിസം, എണ്ണച്ചായം, ക്യാൻവാസ് പോലുള്ള ആർട്ടിസ്റ്റിക്"
+" ഇഫക്റ്റുകൾ സൃഷ്ടിക്കുക ..."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/cubism.xml:39(None)
+msgid ""
+"@@image: 'images/filters/examples/artistic-taj-cubism.jpg'; "
+"md5=64feb6acdeba3ac9e5b04f4e80abb3fe"
+msgstr ""
+"@@image: 'images/filters/examples/artistic-taj-cubism.jpg'; "
+"md5=64feb6acdeba3ac9e5b04f4e80abb3fe"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/cubism.xml:78(None)
+msgid ""
+"@@image: 'images/filters/artistic/cubism.png'; "
+"md5=9687e1ce9ef287d4a43575aa4333bd41"
+msgstr ""
+"@@image: 'images/filters/artistic/cubism.png'; "
+"md5=9687e1ce9ef287d4a43575aa4333bd41"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/cubism.xml:140(None)
+msgid ""
+"@@image: 'images/filters/artistic/cubism-background1.png'; "
+"md5=6b6d18861b1d98f03f91178741064e5c"
+msgstr ""
+"@@image: 'images/filters/artistic/cubism-background1.png'; "
+"md5=6b6d18861b1d98f03f91178741064e5c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/cubism.xml:155(None)
+msgid ""
+"@@image: 'images/filters/artistic/cubism-background2.png'; "
+"md5=ece6b6b60788cebb2e3e798287d6deac"
+msgstr ""
+"@@image: 'images/filters/artistic/cubism-background2.png'; "
+"md5=ece6b6b60788cebb2e3e798287d6deac"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/cubism.xml:171(None)
+msgid ""
+"@@image: 'images/filters/artistic/cubism-background3.png'; "
+"md5=d52a0a0ab6d757324a6456bb3cf28295"
+msgstr ""
+"@@image: 'images/filters/artistic/cubism-background3.png'; "
+"md5=d52a0a0ab6d757324a6456bb3cf28295"
+
+#: src/filters/artistic/cubism.xml:12(title)
+#: src/filters/artistic/cubism.xml:17(tertiary)
+#: src/filters/artistic/cubism.xml:20(primary)
+msgid "Cubism"
+msgstr ""
+"ക്യൂബിസം"
+
+#: src/filters/artistic/cubism.xml:26(title)
+msgid "Example for the <quote>Cubism</quote>"
+msgstr ""
+"<quote>Cubism</quote> ഉദാഹരണത്തിന്"
+
+#: src/filters/artistic/cubism.xml:42(para)
+msgid "Filter <quote>Cubism</quote> applied"
+msgstr ""
+"<quote>Cubism</quote> ഫിൽട്ടറിന്"
+
+#: src/filters/artistic/cubism.xml:46(para)
+msgid ""
+"The Cubism plug-in modifies the image so that it appears to be constructed "
+"of small squares of semitransparent tissue paper."
+msgstr ""
+"അതു semitransparent കോശം പേപ്പർ ചെറിയ സ്ക്വയറുകളിലൊന്നിൽ നിർമിക്കും ദൃശ്യ"
+"മാകുന്ന അങ്ങനെ ക്യൂബിസം പ്ലഗ്-ഇൻ ചിത്രം മാറ്റം."
+
+#: src/filters/artistic/cubism.xml:51(para)
+msgid ""
+"If setting possibilities of this filter are not enough for you, see <link "
+"linkend=\"plug-in-gimpressionist\">GIMPressionist</link> filter which offers "
+"more options."
+msgstr ""
+"ഈ ഫിൽട്ടർ ക്രമീകരണം സാധ്യതകൾ നിങ്ങൾക്കും പോരാ എങ്കിൽ, കൂടുതൽ ഓപ്ഷനുകൾ പ്രദ"
+"ാനം <link linkend=\"plug-in-gimpressionist\">GIMPressionist</link> ഫിൽട്ടർ "
+"കാണും."
+
+#: src/filters/artistic/cubism.xml:61(para)
+msgid ""
+"You can find this filter through <menuchoice><guimenu>Filters</"
+"guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Cubism</guimenuitem></"
+"menuchoice>"
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</guisubme"
+"nu><guimenuitem>Cubism</guimenuitem></menuchoice> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താ"
+"നാകും"
+
+#: src/filters/artistic/cubism.xml:74(title)
+msgid "<quote>Cubism</quote> filter options"
+msgstr ""
+"<quote>Cubism</quote> ഫിൽട്ടർ ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/cubism.xml:93(term)
+msgid "Tile size"
+msgstr ""
+"ടൈൽ വലുപ്പം"
+
+#: src/filters/artistic/cubism.xml:95(para)
+msgid ""
+"This variable determines the size, in pixels, of the squares to be used. "
+"This is, in effect, the size of the little squares of tissue paper used in "
+"generating the new image. The slider can be used, the exact pixel size can "
+"be entered into the text box, or the arrow buttons can be used."
+msgstr ""
+"ഈ വേരിയബിൾ ഉപയോഗിയ്ക്കേണ്ട സ്ക്വയറുകളുടെ, വലുപ്പം നിശ്ചയിക്കുന്നു പിക്സലിൽ"
+". ഈ പുതിയ ചിത്രം സൃഷ്ടിക്കുന്നതിൽ ഉപയോഗിക്കുന്ന ടിഷ്യു പേപ്പർ ചെറിയ സ്ക്വയ"
+"റുകളുടെ വലിപ്പം ഫലത്തിൽ ആകുന്നു. സ്ലൈഡർ ഉപയോഗിക്കാൻ കഴിയും, കൃത്യമായ പിക്സ"
+"ൽ വലിപ്പം ടെക്സ്റ്റ് ബോക്സിൽ നേടിയെടുക്കുകയും ചെയ്യാം, അസ്ത്രം ബട്ടണുകൾ ഉപ"
+"യോഗിയ്ക്കാം."
+
+#: src/filters/artistic/cubism.xml:105(term)
+msgid "Tile saturation"
+msgstr ""
+"ടൈൽ സാച്ചുറേഷൻ"
+
+#: src/filters/artistic/cubism.xml:107(para)
+msgid ""
+"This variable specifies how intense the color of the squares should be. This "
+"affects the opacity of the squares. A high value will render the squares "
+"very intensely and does not allow lower squares to show through. A lower "
+"value allows the lower squares to be more visible through the higher ones "
+"and causes more blending in the colors. If this is set to 0 and Use "
+"Background Color is not checked, the entire layer will be rendered black. If "
+"it is checked and the value here is zero, the background color will fill the "
+"entire layer."
+msgstr ""
+"ഈ വേരിയബിൾ സ്ക്വയറുകളുടെ നിറം ആയിരിക്കണം എത്ര തീവ്രമായ വ്യക്തമാക്കുന്നു. ഈ "
+"സ്ക്വയറുകളുടെ അതാര്യത ബാധിക്കുന്നു. ഒരു ഉയർന്ന മൂല്യം വളരെ തീവ്രമായി സ്ക്വയ"
+"റുകൾ പകരം ചെയ്യും താഴ്ന്ന സ്ക്വയറുകളുടെ കാണിക്കാൻ അനുവദിക്കുന്നില്ല. ഒരു താ"
+"ഴ്ന്ന മൂല്യം ഉയർന്ന പശുക്കൾ വഴി താഴത്തെ സ്ക്വയറുകളിലൊന്നും കൂടുതൽ ദൃശ്യമാക"
+"ും അനുവദിക്കുന്നു നിറങ്ങളിലും കൂടുതൽ ബ്ലെൻഡിംഗ് കാരണമാകുന്നു. ഈ 0 സജ്ജമാക്ക"
+"ിയതും പശ്ചാത്തല നിറം ഉപയോഗിക്കുക എങ്കിൽ ചെക്കുചെയ്തിട്ടില്ലെങ്കിൽ, മുഴുവൻ "
+"പാളി കറുപ്പ് റെൻഡർ ചെയ്യപ്പെടും. അതു ചെക്കുചെയ്തിട്ടുണ്ടെന്നും ഇവിടെ മൂല്യം"
+" പൂജ്യം ആണെങ്കിൽ, പശ്ചാത്തല നിറം മുഴുവൻ പാളി നിറെക്കും."
+
+#: src/filters/artistic/cubism.xml:121(term)
+msgid "Use background color"
+msgstr ""
+"പശ്ചാത്തല നിറം ഉപയോഗിക്കുക"
+
+#: src/filters/artistic/cubism.xml:123(para)
+msgid ""
+"This filter creates its tiles from all the colors of the image and paint "
+"them with a color scale which depends on the Tile Saturation. With a low "
+"Tile Saturation, this color scale lets the background color appear: default "
+"is black as you can see by setting Tile Saturation to 0. When this option is "
+"checked, the background color of the Toolbox is used. If your image has an "
+"Alpha channel, this color scale will also be transparent."
+msgstr ""
+"ഈ ഫിൽട്ടർ ചിത്രത്തിന്റെ എല്ലാ നിറങ്ങൾ നിന്ന് അതിന്റെ ടൈലുകൾ സൃഷ്ടിക്കുകയും "
+"ടൈൽ സാന്ദ്രീകരണം ആശ്രയിച്ചിരിക്കുന്നു ഒരു കളർ സ്കെയിൽ അവരെ വരയ്ക്കുന്ന. കുറ"
+"ഞ്ഞ ടൈൽ സാന്ദ്രീകരണം വച്ച് ഈ നിറം സ്കെയിൽ പശ്ചാത്തല നിറം ദൃശ്യമാകും അനുവദിക"
+"്കുന്നു: നിങ്ങൾ 0. ലേക്ക് ടൈൽ സാന്ദ്രീകരണം ക്രമീകരണം ഈ ഓപ്ഷൻ എപ്പോൾ ചെക്കു"
+"ചെയ്തിട്ടുണ്ടെന്നും, പണിസഞ്ചി പശ്ചാത്തലം നിറം ഉപയോഗിക്കുന്നു വഴി കാണുന്ന പ"
+"ോലെ സ്വതവേ കറുത്ത. നിങ്ങളുടെ ചിത്രം ആൽഫാ ചാനൽ ഉണ്ടെങ്കിൽ, ഈ നിറം സ്കെയിൽ പ"
+"ുറമേ സുതാര്യമായ ആയിരിക്കും."
+
+#: src/filters/artistic/cubism.xml:133(title)
+msgid ""
+"Example illustrating the action of the <quote>Use BackGround color</quote> "
+"option"
+msgstr ""
+"ഉദാഹരണം <quote>Use BackGround color</quote> ഓപ്ഷൻ നടപടി ചിത്രീകരിക്കുന്നതില"
+"ുള്ള"
+
+#: src/filters/artistic/cubism.xml:143(para)
+msgid "The original image and the color area of Toolbox. BG color is blue."
+msgstr ""
+"യഥാർത്ഥ ചിത്രവും പണിസഞ്ചി നിറം പ്രദേശം. ബൾഗേറിയ നിറം നീല ആണ്."
+
+#: src/filters/artistic/cubism.xml:151(title)
+msgid "The option is not checked"
+msgstr ""
+"ഓപ്ഷൻ ചെക്കുചെയ്തിട്ടില്ലെങ്കിൽ"
+
+#: src/filters/artistic/cubism.xml:158(para)
+msgid ""
+"The option is not checked. On the left is no Alpha: background is black. On "
+"the right is Alpha: background is transparent black."
+msgstr ""
+"ഓപ്ഷൻ ചെയ്തിട്ടില്ല. ഇടത്തും ആൽഫ ആണ്: പശ്ചാത്തലത്തിൽ കറുത്ത. വലത് ആൽഫ ആണ്: "
+"പശ്ചാത്തലത്തിൽ സുതാര്യമായ കറുത്ത ആണ്."
+
+#: src/filters/artistic/cubism.xml:167(title)
+msgid "The option is checked"
+msgstr ""
+"ഓപ്ഷൻ പരിശോധിയ്ക്കുന്നു"
+
+#: src/filters/artistic/cubism.xml:174(para)
+msgid ""
+"The option is checked. On the left, no Alpha: background is blue. On the "
+"right, with an Alpha channel, background is transparent blue."
+msgstr ""
+"ഓപ്ഷൻ പരിശോധിക്കുന്നു. ഇടതുവശത്ത്, ആൽഫ: പശ്ചാത്തലത്തിൽ നീല ആണ്. വലതുവശത്ത്"
+", ആൽഫാ ചാനൽ ഉപയോഗിച്ച്, പശ്ചാത്തല സുതാര്യമായ നീല ആണ്."
+
+#: src/filters/artistic/cubism.xml:186(para)
+msgid ""
+"If you are using this to generate background images for web pages and the "
+"like, work with a small range of colors painted randomly on a small square. "
+"Then apply the Cubism filter with the desired settings. As a last step, try "
+"<link linkend=\"plug-in-make-seamless\">Make Seamless</link> to adjust the "
+"image so it will tile seamlessly in your background."
+msgstr ""
+"നിങ്ങൾ വെബ് പേജുകളും പോലെ പശ്ചാത്തല ചിത്രങ്ങൾ ഉണ്ടാക്കുന്നതിനു് ഈ ഉപയോഗിക"
+"്കുകയാണെങ്കിൽ, ഒരു ചെറിയ ചില്ലു ക്രമരഹിതമായി പെയിന്റ് നിറങ്ങൾ ഒരു ചെറിയ പരി"
+"ധി പ്രവർത്തിക്കാൻ. ആവശ്യമുള്ള ക്രമീകരണങ്ങൾ ഉപയോഗിച്ച് ക്യൂബിസം അരിപ്പ ബാധക"
+"മാക്കുക. അവസാന ഘട്ട പോലെ, നിങ്ങളുടെ പശ്ചാത്തലത്തിൽ പരിധിയില്ലാതെ ടൈൽ അതിനാ"
+"ൽ ചിത്രം ക്രമീകരിക്കുന്നതിന് <link linkend=\"plug-in-make-seamless\">Make S"
+"eamless</link> ശ്രമിക്കുക."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/GIMPressionist.xml:39(None)
+msgid ""
+"@@image: 'images/filters/examples/artistic-taj-gimpressionist.jpg'; "
+"md5=6136ef58f98016996ecfade16dfe74fa"
+msgstr ""
+"@@image: 'images/filters/examples/artistic-taj-gimpressionist.jpg'; "
+"md5=6136ef58f98016996ecfade16dfe74fa"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/GIMPressionist.xml:76(None)
+msgid ""
+"@@image: 'images/filters/artistic/gimpressionist.png'; "
+"md5=853ab72d20803757544b1484ab0ad1a1"
+msgstr ""
+"@@image: 'images/filters/artistic/gimpressionist.png'; "
+"md5=853ab72d20803757544b1484ab0ad1a1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/GIMPressionist.xml:104(None)
+msgid ""
+"@@image: 'images/filters/artistic/gimpressionist1.png'; "
+"md5=b863dafad245b7a4c30bc0f89d058144"
+msgstr ""
+"@@image: 'images/filters/artistic/gimpressionist1.png'; "
+"md5=b863dafad245b7a4c30bc0f89d058144"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/GIMPressionist.xml:161(None)
+msgid ""
+"@@image: 'images/filters/artistic/gimpressionist2.png'; "
+"md5=f7ad9216300fb05700efe0923e998da0"
+msgstr ""
+"@@image: 'images/filters/artistic/gimpressionist2.png'; "
+"md5=f7ad9216300fb05700efe0923e998da0"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/GIMPressionist.xml:218(None)
+msgid ""
+"@@image: 'images/filters/artistic/gimpressionist3.png'; "
+"md5=0ecca10369059b430a9db3d9c77e9cc5"
+msgstr ""
+"@@image: 'images/filters/artistic/gimpressionist3.png'; "
+"md5=0ecca10369059b430a9db3d9c77e9cc5"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/GIMPressionist.xml:287(None)
+msgid ""
+"@@image: 'images/filters/artistic/gimpressionist4.png'; "
+"md5=3613cd8adbab9e9b0c18c233b5c3f497"
+msgstr ""
+"@@image: 'images/filters/artistic/gimpressionist4.png'; "
+"md5=3613cd8adbab9e9b0c18c233b5c3f497"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/GIMPressionist.xml:415(None)
+msgid ""
+"@@image: 'images/filters/artistic/gimpressionist5.png'; "
+"md5=ae3381ba04bdf6fc345f418038e5dbaf"
+msgstr ""
+"@@image: 'images/filters/artistic/gimpressionist5.png'; "
+"md5=ae3381ba04bdf6fc345f418038e5dbaf"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/GIMPressionist.xml:537(None)
+msgid ""
+"@@image: 'images/filters/artistic/gimpressionist6.png'; "
+"md5=e37b6a2e34d72d1778136a908d770470"
+msgstr ""
+"@@image: 'images/filters/artistic/gimpressionist6.png'; "
+"md5=e37b6a2e34d72d1778136a908d770470"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/GIMPressionist.xml:601(None)
+msgid ""
+"@@image: 'images/filters/artistic/gimpressionist7.png'; "
+"md5=16044b68ef8e73b1457240726f98655f"
+msgstr ""
+"@@image: 'images/filters/artistic/gimpressionist7.png'; "
+"md5=16044b68ef8e73b1457240726f98655f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/GIMPressionist.xml:657(None)
+msgid ""
+"@@image: 'images/filters/artistic/gimpressionist8.png'; "
+"md5=6cfc9db8a34c595b7c7ed1800dddd29b"
+msgstr ""
+"@@image: 'images/filters/artistic/gimpressionist8.png'; "
+"md5=6cfc9db8a34c595b7c7ed1800dddd29b"
+
+#: src/filters/artistic/GIMPressionist.xml:26(title)
+msgid "Example for the <quote>GIMPressionist</quote> filter"
+msgstr ""
+"<quote>GIMPressionist</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/artistic/GIMPressionist.xml:42(para)
+msgid "Filter <quote>GIMPressionist</quote> applied"
+msgstr ""
+"<quote>GIMPressionist</quote> ഫിൽട്ടറിന്"
+
+#: src/filters/artistic/GIMPressionist.xml:46(para)
+msgid ""
+"The GIMPressionist filter is the king of Artistic filters. It can do what "
+"<link linkend=\"plug-in-cubism\">Cubism</link> and <link linkend=\"plug-in-"
+"apply-canvas\">Apply Canvas</link> do and much more. It gives your image the "
+"look of a painting. All is going as if your image was painted again on a "
+"paper and with a brush you'd have chosen. It works on the active layer or "
+"selection."
+msgstr ""
+"GIMPressionist അരിപ്പ കലാപരമായ ഫിൽറ്ററുകൾ രാജാവാണ്. ഇത് <link linkend=\"plu"
+"g-in-cubism\">Cubism</link> ആൻഡ് <link linkend=\"plug-in- apply-canvas\">Ap"
+"ply Canvas</link> ചെയ്യുന്നതെല്ലാം വളരെ കൂടുതൽ ചെയ്യാൻ കഴിയും. ഇത് നിങ്ങളുട"
+"െ ചിത്രം ഒരു ചിത്രകല ലുക്ക് നൽകുന്നു. നിങ്ങളുടെ ചിത്രം ഒരു കടലാസിൽ വീണ്ടും "
+"പെയിന്റ് പോലെ എല്ലാ പോകുന്ന നിങ്ങൾ തിരഞ്ഞെടുത്തിട്ടുള്ള ആഗ്രഹിക്കുന്നു ഒര"
+"ു ബ്രഷ് ഉപയോഗിച്ച് ആണ്. അത് സജീവ അല്ലെങ്കിൽ പാളി നിരക്കു പ്രവർത്തിക്കുന്നു"
+"."
+
+#: src/filters/artistic/GIMPressionist.xml:57(title)
+msgid "Activating the filter"
+msgstr ""
+"ഫിൽട്ടർ സജീവമാക്കുന്നു"
+
+#: src/filters/artistic/GIMPressionist.xml:58(para)
+msgid ""
+"You can find this filter via the image menu through "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</"
+"guisubmenu><guimenuitem>GIMPressionist</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Artistic</guisubme"
+"nu><guimenuitem>GIMPressionist</guimenuitem></menuchoice> വഴി ഇമേജ് മെനു വഴ"
+"ി ഈ ഫിൽട്ടർ കണ്ടെത്താനാകും."
+
+#: src/filters/artistic/GIMPressionist.xml:72(title)
+msgid "GIMPressionist options"
+msgstr ""
+"GIMPressionist ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:80(para)
+msgid ""
+"The dialog window consists of a small Preview area on the left, which is "
+"always visible, and a huge amount of GIMPressionist options organized in "
+"tabs."
+msgstr ""
+"ഡയലോഗ് വിൻഡോ ഇടതുവശത്ത് ഒരു ചെറിയ പ്രിവ്യൂ പ്രദേശം, എപ്പോഴും ദൃശ്യമാണ് ന"
+"ടത്തുകയും ടാബുകളും സംഘടിത GIMPressionist ഓപ്ഷനുകൾ വൻ തുക അടങ്ങിയിരിക്കുന്നു"
+"."
+
+#: src/filters/artistic/GIMPressionist.xml:88(para)
+msgid ""
+"All your setting changes will appear in the Preview without affecting the "
+"image until you click on <guibutton>OK</guibutton>. The <guibutton>Update</"
+"guibutton> button refreshes the preview window (it is not automatic, "
+"GIMPressionist has so much work to do!), and the <guibutton>Reset</"
+"guibutton> button reverts to the original image."
+msgstr ""
+"നിങ്ങൾ <guibutton>OK</guibutton> ക്ലിക്ക് വരെ നിങ്ങളുടെ എല്ലാ ക്രമീകരണം ചിത"
+"്രവും ബാധിക്കാതെ പ്രിവ്യൂ ദൃശ്യമാകും. <guibutton>Update</guibutton> ബട്ടൺ പ"
+"്രിവ്യൂ വിൻഡോ തണുപ്പിക്കുന്നു (അതു ഓട്ടോമാറ്റിക്ക് അല്ല, GIMPressionist ച"
+"െയ്യാൻ ഇത്രയധികം പ്രവൃത്തി ഉണ്ട്!), ഒപ്പം <guibutton>Reset</guibutton> ബട്ട"
+"ൺ യഥാർത്ഥ ചിത്രം മാറുന്നു."
+
+#: src/filters/artistic/GIMPressionist.xml:98(title)
+msgid "Presets tab"
+msgstr ""
+"പ്രീസെറ്റുകളിൽ ടാബ്"
+
+#: src/filters/artistic/GIMPressionist.xml:100(title)
+msgid "<quote>Presets</quote> tab options"
+msgstr ""
+"<quote>Presets</quote> ടാബ് ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:108(para)
+msgid ""
+"GIMPressionist has a lot of parameters. When combined, they give an "
+"astronomical number of possibilities. So, it is important, when an "
+"interesting preset has been found, to save it and also to send it to the "
+"plugin author if exceptional. Per contra, the intricacy of all these "
+"parameters makes difficult understanding and foreseeing how each one works."
+msgstr ""
+"GIMPressionist പാരാമീറ്ററുകൾ ധാരാളം ഉണ്ട്. സംയോജിത വരുമ്പോൾ അവർ സാധ്യതകളു"
+"ടെ ഒരു ജ്യോതിശാസ്ത്ര നമ്പർ. അതുകൊണ്ട്, അത് പ്രധാനമാണ്, അതു സംരക്ഷിക്കാനും"
+" പുറമേ അസാധാരണമായ എങ്കിൽ പ്ലഗിൻ രചയിതാവ് അയയ്ക്കാൻ അത് എന്നതാണ് രസകരമായ പ്ര"
+"ീസെറ്റ് കണ്ടെത്തി കഴിഞ്ഞാൽ. കോൺട്ര പ്രകാരം, ഈ എല്ലാ മാനദണ്ഡങ്ങളുടെ intrica"
+"cy പ്രയാസമേറിയ ബുദ്ധി ചെയ്യുന്നു അവരോരോരുത്തരും എങ്ങനെ പ്രവർത്തിക്കുന്നു "
+"എന്നുള്ള."
+
+#: src/filters/artistic/GIMPressionist.xml:117(title)
+msgid "Presets options"
+msgstr ""
+"പ്രീസെറ്റുകളിൽ ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:119(term)
+msgid "Save Current"
+msgstr ""
+"നിലവിൽ സംരക്ഷിക്കുക"
+
+#: src/filters/artistic/GIMPressionist.xml:121(para)
+msgid ""
+"Save current parameters. You can give a name in the input box on the left "
+"and a short description in the dialog that appear."
+msgstr ""
+"നിലവിലെ പാരാമീറ്ററുകൾ സംരക്ഷിക്കുക. നിങ്ങൾ ഇടതുവശത്ത് ഇൻപുട്ട് ബോക്സിൽ ദൃശ"
+"്യമാകുന്ന ഡയലോഗിൽ ഒരു ഹ്രസ്വ വിവരണത്തിൽ ഒരു പേര് നൽകാൻ കഴിയും."
+
+#: src/filters/artistic/GIMPressionist.xml:129(term)
+msgid "Apply"
+msgstr ""
+"അപേക്ഷിക്കുക"
+
+#: src/filters/artistic/GIMPressionist.xml:131(para)
+msgid "Load the parameters of the selected preset in the list."
+msgstr ""
+"ലിസ്റ്റിൽ തിരഞ്ഞെടുത്ത പ്രീസെറ്റ് പരാമീറ്ററുകളെപ്പറ്റിയുള്ള ലോഡ്."
+
+#: src/filters/artistic/GIMPressionist.xml:137(term)
+msgid "Delete"
+msgstr ""
+"ഇല്ലാതാക്കുക"
+
+#: src/filters/artistic/GIMPressionist.xml:139(para)
+msgid ""
+"Delete the selected preset. You can delete only the presets you have created."
+msgstr ""
+"തിരഞ്ഞെടുത്ത പ്രീസെറ്റ് ഇല്ലാതാക്കുക. നിങ്ങൾ സൃഷ്ടിച്ചു മാത്രമേ പ്രീസെറ്റുക"
+"ൾ ഇല്ലാതാക്കാൻ കഴിയും."
+
+#: src/filters/artistic/GIMPressionist.xml:146(term)
+msgid "Refresh"
+msgstr ""
+"ഉന്മേഷം വീണ്ടെടുക്കുക"
+
+#: src/filters/artistic/GIMPressionist.xml:148(para)
+msgid "Update the preset list."
+msgstr ""
+"പ്രീസെറ്റ് ലിസ്റ്റ് അപ്ഡേറ്റ് ചെയ്യുക."
+
+#: src/filters/artistic/GIMPressionist.xml:155(title)
+msgid "Paper tab"
+msgstr ""
+"പേപ്പർ ടാബ്"
+
+#: src/filters/artistic/GIMPressionist.xml:157(title)
+msgid "<quote>Paper</quote> tab options"
+msgstr ""
+"<quote>Paper</quote> ടാബ് ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:165(para)
+msgid ""
+"This tab concerns the texture of the canvas your image will be painted on. "
+"You have a list of textures and a <guilabel>Preview</guilabel> for the "
+"selected texture. A description is displayed on the right for every texture "
+"when selected."
+msgstr ""
+"ഈ ടാബ് നിങ്ങളുടെ ചിത്രം മാജിക്കാണ് ചെയ്യും ക്യാൻവാസ് ടെക്സ്ചർ സംബന്ധിച്ചുള്"
+"ളതാണ്. നിങ്ങൾ പരിശ്രമങ്ങളുടെ തിരഞ്ഞെടുത്ത ടെക്സ്ചർ ഒരു <guilabel>Preview</g"
+"uilabel> ഒരു ലിസ്റ്റ് ഉണ്ട്. തിരഞ്ഞെടുക്കുമ്പോൾ ഒരു വിവരണം ഓരോ ടെക്സ്ചർ വ"
+"ലതുഭാഗത്ത് പ്രദർശിപ്പിക്കും."
+
+#: src/filters/artistic/GIMPressionist.xml:172(title)
+msgid "Paper options"
+msgstr ""
+"പേപ്പർ ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:174(term)
+msgid "Invert"
+msgstr ""
+"വിപരീതം"
+
+#: src/filters/artistic/GIMPressionist.xml:176(para)
+msgid ""
+"Inverts the paper texture: what was a hollow turns to a bump and vice-versa."
+msgstr ""
+"പേപ്പർ ടെക്സ്ചർ Inverts: പൊള്ളയായ ഒരു വളവുകൾ എന്തായിരുന്നു ഒരു കരീനയെ വൈസ്"
+" തിരിച്ചും."
+
+#: src/filters/artistic/GIMPressionist.xml:183(term)
+msgid "Overlay"
+msgstr ""
+"ഓവർലേ"
+
+#: src/filters/artistic/GIMPressionist.xml:185(para)
+msgid ""
+"Apply the paper as it, without embossing it. It looks like if a transparent "
+"paper has been overlayed on the image."
+msgstr ""
+"അതു കൊത്തുപണി ഇല്ലാതെ, അതു പോലെ പേപ്പർ പ്രയോഗിക്കുക. ഒരു സുതാര്യമായ പേപ്"
+"പർ ചിത്രത്തിൽ overlayed നൽകിയിട്ടുണ്ടോ പോലെ കാണപ്പെടുന്നു."
+
+#: src/filters/artistic/GIMPressionist.xml:192(term)
+msgid "Scale"
+msgstr ""
+"സ്കെയിൽ"
+
+#: src/filters/artistic/GIMPressionist.xml:194(para)
+msgid ""
+"Specifies the scale of the texture (in % of the original file): controls the "
+"graininess of the texture."
+msgstr ""
+"(യഥാർത്ഥ ഫയലിന്റെ% ൽ) ടെക്സ്ചർ സ്കെയിൽ വ്യക്തമാക്കുന്നു: ടെക്സ്ചർ എന്ന grai"
+"niness നിയന്ത്രിക്കുന്നു."
+
+#: src/filters/artistic/GIMPressionist.xml:201(term)
+#: src/filters/artistic/GIMPressionist.xml:269(term)
+msgid "Relief"
+msgstr ""
+"റിലീഫ്"
+
+#: src/filters/artistic/GIMPressionist.xml:203(para)
+msgid "Specifies the amount of embossing to apply (3-150)."
+msgstr ""
+"(3-150) പ്രയോഗിക്കാൻ കൊത്തുപണി തുക വ്യക്തമാക്കുന്നു."
+
+#: src/filters/artistic/GIMPressionist.xml:212(title)
+msgid "Brush tab"
+msgstr ""
+"ബ്രഷ് ടാബ്"
+
+#: src/filters/artistic/GIMPressionist.xml:214(title)
+msgid "<quote>Brush</quote> tab options"
+msgstr ""
+"<quote>Brush</quote> ടാബ് ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:222(para)
+msgid ""
+"<quote>Brush</quote> is a general term for any material used to paint. A "
+"list of brushes is available with a <guilabel>Preview</guilabel> for the "
+"selected one."
+msgstr ""
+"<quote>Brush</quote> വരയ്ക്കാൻ ഉപയോഗിക്കുന്ന ഏതൊരു മെറ്റീരിയലും ഒരു പൊതു"
+" പദമാണ്. നയപ്രഖ്യാപന ഒരു ലിസ്റ്റ് തിരഞ്ഞെടുത്ത ഒറ്റ ഒരു <guilabel>Preview</"
+"guilabel> ലഭ്യമാണ്."
+
+#: src/filters/artistic/GIMPressionist.xml:228(title)
+msgid "Brush options"
+msgstr ""
+"ബ്രഷ് ഓപ്ഷൻസ്"
+
+#: src/filters/artistic/GIMPressionist.xml:230(term)
+msgid "Gamma"
+msgstr ""
+"ഗാമാ"
+
+#: src/filters/artistic/GIMPressionist.xml:232(para)
+msgid ""
+"Changes the gamma (luminosity) of the selected brush. The gamma correction "
+"brightens or darkens midtones."
+msgstr ""
+"തിരഞ്ഞെടുത്ത ബ്രഷ് ഗാമ (തേജസ്സ്) മാറ്റങ്ങൾ. ഗാമാ തിരുത്തൽ തെളിച്ചം അല്ലെങ്ക"
+"ിൽ മിഡ്ടോണുകൾ കറുപ്പിക്കുന്നു."
+
+#: src/filters/artistic/GIMPressionist.xml:239(term)
+msgid "Select"
+msgstr ""
+"തെരഞ്ഞെടുക്കുക"
+
+#: src/filters/artistic/GIMPressionist.xml:241(para)
+msgid ""
+"You can also use a brush pattern you have created by selecting its image "
+"(arrow button on the Select line). This image must be on your screen before "
+"you launch the filter to be taken in account. Of course, don't use big "
+"images."
+msgstr ""
+"നിങ്ങൾക്ക് നിങ്ങൾ അതിന്റെ ചിത്രം (ലൈൻ തിരഞ്ഞെടുക്കുക ആരോ ബട്ടൺ) തിരഞ്ഞെടുത"
+"്ത് സൃഷ്ടിച്ച ഒരു ബ്രഷ് പാറ്റേൺ ഉപയോഗിക്കാം. നിങ്ങൾ അക്കൗണ്ട് അകപ്പെടും ഫി"
+"ൽട്ടർ തുടങ്ങുവാനുള്ള മുമ്പ് ഈ ചിത്രം നിങ്ങളുടെ സ്ക്രീനിൽ ഉണ്ടായിരിക്കണം. ഗത"
+"ി, വലിയ ചിത്രങ്ങൾ ഉപയോഗിക്കരുത്."
+
+#: src/filters/artistic/GIMPressionist.xml:247(para)
+msgid ""
+"If your image has several layers, they also will be displayed in the Select "
+"list and can be used as a brush. When selected, the layer appears in the "
+"brush preview and the normal brush is deselected."
+msgstr ""
+"നിങ്ങളുടെ ചിത്രം നിരവധി പാളികൾ ഉണ്ട്, അവ തിരഞ്ഞെടുക്കുക ലിസ്റ്റിൽ പ്രദർശിപ്"
+"പിക്കും ഒരു ബ്രഷ് ഉപയോഗിക്കാൻ കഴിയും. തെരഞ്ഞെടുത്താൽ പാളി ബ്രഷ് പ്രിവ്യൂ വ"
+"െളിപ്പെടുത്തിയ സാധാരണ ബ്രഷ് തിരഞ്ഞെടുത്തത്."
+
+#: src/filters/artistic/GIMPressionist.xml:253(para)
+msgid ""
+"The <guibutton>Save as</guibutton> button allows you to save the selected "
+"brush."
+msgstr ""
+"<guibutton>Save as</guibutton> ബട്ടൺ നിങ്ങൾ തിരഞ്ഞെടുത്ത ബ്രഷ് സംരക്ഷിക്കാൻ"
+" അനുവദിക്കുന്നു."
+
+#: src/filters/artistic/GIMPressionist.xml:260(term)
+msgid "Aspect ratio"
+msgstr ""
+"വീക്ഷണ അനുപാതം"
+
+#: src/filters/artistic/GIMPressionist.xml:262(para)
+msgid "Specifies the brush proportions, height (0 -1) and width (0 +1)."
+msgstr ""
+"ബ്രഷ് അനുപാതങ്ങൾ, ഉയരം (0 -1) വീതി (0 +1) വ്യക്തമാക്കുന്നു."
+
+#: src/filters/artistic/GIMPressionist.xml:271(para)
+msgid ""
+"Specifies the amount of paint used for each stroke. This may evoke painting "
+"with a palette knife."
+msgstr ""
+"ഓരോ സ്ട്രോക്ക് ഉപയോഗിക്കുന്ന പെയിന്റ് തുക വ്യക്തമാക്കുന്നു. ഇത് ഒരു പാലറ"
+"്റ് കത്തി ചിത്രകല ഉളവാക്കുന്നു ചെയ്യാം."
+
+#: src/filters/artistic/GIMPressionist.xml:281(title)
+msgid "Orientation tab"
+msgstr ""
+"വിന്യാസം ടാബ്"
+
+#: src/filters/artistic/GIMPressionist.xml:283(title)
+msgid "<quote>Orientation</quote> tab options"
+msgstr ""
+"<quote>Orientation</quote> ടാബ് ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:291(para)
+msgid ""
+"This tab allows to set the orientation of the brush strokes. A painter is "
+"not obliged to go over with the same paintbrush angle. To perform some "
+"effects, he can vary their orientation."
+msgstr ""
+"ഈ ടാബ് ബ്രഷ് സ്ട്രോക്കുകൾ പ്രബന്ധങ്ങൾ സജ്ജീകരിക്കാൻ അനുവദിക്കുന്നു. ഒരു ചി"
+"ത്രകാരന്റെ ഒരേ അന്തസ്സായിത്തന്നെയാണു കോണിൽ കൂടെ പോകുവാൻ ബാധ്യസ്ഥയല്ല. ചില"
+" ഇഫക്റ്റുകൾ നടപ്പിലാക്കുന്നതിനായി, അവൻ അവയുടെ ഓറിയന്റേഷൻ വ്യത്യാസപ്പെട്ടിരി"
+"ക്കും."
+
+#: src/filters/artistic/GIMPressionist.xml:297(title)
+msgid "Orientation options"
+msgstr ""
+"വിന്യാസം ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:299(term)
+msgid "Directions"
+msgstr ""
+"ദിശകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:301(para)
+msgid ""
+"With this option, you can set how many times the brush will pass through a "
+"same place, with each time a different direction, resulting in a more and "
+"more thick paint."
+msgstr ""
+"ഈ ഓപ്ഷൻ ഉപയോഗിച്ച്, എത്ര തവണ ബ്രഷ് ഒരു ഒരേ സ്ഥലത്തു വഴി, ഓരോ തവണ ഒരു വ്യത"
+"്യസ്ത ദിശയിൽ കൊണ്ട് ഒരു കൂടുതൽ കൂടുതൽ കട്ടിയുള്ള പെയിന്റ് കാരണമാകുന്നു കടന"
+"്നുവരും സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/filters/artistic/GIMPressionist.xml:309(term)
+msgid "Start angle"
+msgstr ""
+"കോൺ ആരംഭിക്കുക"
+
+#: src/filters/artistic/GIMPressionist.xml:311(para)
+msgid ""
+"Specifies the general direction of the strokes, the angle that the angle "
+"range will start from. Directions are often chosen to give some movement to "
+"the image."
+msgstr ""
+"ഹൃദയാഘാതം ജനറൽ ദിശ, കോൺ ശ്രേണിയിൽ നിന്നും തുടങ്ങും കോൺ വ്യക്തമാക്കുന്നു. "
+"ദിശകൾ പലപ്പോഴും ചിത്രം ചില പ്രസ്ഥാനം നൽകാൻ തിരഞ്ഞെടുക്കും."
+
+#: src/filters/artistic/GIMPressionist.xml:319(term)
+msgid "Angle span"
+msgstr ""
+"ആംഗിൾ സ്പാൻ"
+
+#: src/filters/artistic/GIMPressionist.xml:321(para)
+msgid "Specifies the angle, the sector, of the stroke <quote>fan</quote>."
+msgstr ""
+"സ്ട്രോക്ക് <quote>fan</quote> ചലനത്തെ, മേഖല, വ്യക്തമാക്കുന്നു."
+
+#: src/filters/artistic/GIMPressionist.xml:327(term)
+msgid "Orientation"
+msgstr ""
+"വിന്യാസം"
+
+#: src/filters/artistic/GIMPressionist.xml:329(para)
+msgid "Specifies the direction of the brush strokes."
+msgstr ""
+"ബ്രഷ് സ്ട്രോക്കുകൾ ദിശ വ്യക്തമാക്കുന്നു."
+
+#: src/filters/artistic/GIMPressionist.xml:332(guilabel)
+#: src/filters/artistic/GIMPressionist.xml:454(guilabel)
+msgid "Value"
+msgstr ""
+"വില"
+
+#: src/filters/artistic/GIMPressionist.xml:334(para)
+msgid ""
+"Let the value (luminosity) of the region determine the direction of the "
+"stroke."
+msgstr ""
+"മേഖലയിലെ മൂല്യം (തേജസ്സ്) സ്ട്രോക്ക് ദിശ നിർണ്ണയിക്കാൻ അനുവദിക്കുക."
+
+#: src/filters/artistic/GIMPressionist.xml:341(guilabel)
+#: src/filters/artistic/GIMPressionist.xml:463(guilabel)
+msgid "Radius"
+msgstr ""
+"വാസാര്ദ്ധം"
+
+#: src/filters/artistic/GIMPressionist.xml:343(para)
+msgid ""
+"The distance from the center of the image determines the direction of the "
+"stroke."
+msgstr ""
+"ചിത്രത്തിന്റെ കേന്ദ്രത്തിൽ നിന്നും സ്ട്രോക്ക് ദിശ നിർണയിക്കുന്നത്."
+
+#: src/filters/artistic/GIMPressionist.xml:350(guilabel)
+#: src/filters/artistic/GIMPressionist.xml:472(guilabel)
+msgid "Random"
+msgstr ""
+"വികലമായ"
+
+#: src/filters/artistic/GIMPressionist.xml:352(para)
+msgid "Select a random direction for each stroke."
+msgstr ""
+"ഓരോ സ്ട്രോക്ക് ന് റാന്ഡം ദിശ തിരഞ്ഞെടുക്കുക."
+
+#: src/filters/artistic/GIMPressionist.xml:356(guilabel)
+#: src/filters/artistic/GIMPressionist.xml:478(guilabel)
+msgid "Radial"
+msgstr ""
+"റേഡിയൽ"
+
+#: src/filters/artistic/GIMPressionist.xml:358(para)
+msgid ""
+"Let the direction from the center determine the direction of the stroke."
+msgstr ""
+"കേന്ദ്രത്തിൽ നിന്നും ദിശ സ്ട്രോക്ക് ദിശ നിർണ്ണയിക്കാൻ അനുവദിക്കുക."
+
+#: src/filters/artistic/GIMPressionist.xml:365(guilabel)
+#: src/filters/artistic/GIMPressionist.xml:487(guilabel)
+msgid "Flowing"
+msgstr ""
+"ഒഴുകുന്ന"
+
+#: src/filters/artistic/GIMPressionist.xml:367(para)
+msgid ""
+"Not a direction question here: the strokes follow a <quote>flowing</quote> "
+"pattern."
+msgstr ""
+"ഒരു ദിശ ചോദ്യം ഇവിടെ: സ്ട്രോക്കുകൾ ഒരു <quote>flowing</quote> പാറ്റേൺ പിന"
+"്തുടരുന്നത്."
+
+#: src/filters/artistic/GIMPressionist.xml:374(guilabel)
+#: src/filters/artistic/GIMPressionist.xml:496(guilabel)
+msgid "Hue"
+msgstr ""
+"ഹ്യൂയേ"
+
+#: src/filters/artistic/GIMPressionist.xml:376(para)
+msgid "Let the hue of the region determine the direction of the stroke."
+msgstr ""
+"മേഖലയിലെ ഹ്യൂയേ സ്ട്രോക്ക് ദിശ നിർണ്ണയിക്കാൻ അനുവദിക്കുക."
+
+#: src/filters/artistic/GIMPressionist.xml:383(guilabel)
+#: src/filters/artistic/GIMPressionist.xml:505(guilabel)
+msgid "Adaptive"
+msgstr ""
+"അഡാപ്റ്റീവ്"
+
+#: src/filters/artistic/GIMPressionist.xml:385(para)
+msgid ""
+"The brush direction that matches the original image the closest is selected."
+msgstr ""
+"യഥാർത്ഥ ചിത്രം അടുത്തുള്ള തിരഞ്ഞെടുത്തുവെന്ന് പൊരുത്തപ്പെടുന്ന ബ്രഷ് ദിശ."
+
+#: src/filters/artistic/GIMPressionist.xml:392(guilabel)
+#: src/filters/artistic/GIMPressionist.xml:514(guilabel)
+msgid "Manual"
+msgstr ""
+"കൈകൊണ്ടുള്ള"
+
+#: src/filters/artistic/GIMPressionist.xml:394(para)
+msgid ""
+"The <guilabel>Edit</guilabel> button opens the <link linkend="
+"\"gimpressionist-orient-map-editor\">Edit orientation Map dialog</link> that "
+"allows you to set the directions manually."
+msgstr ""
+"<guilabel>Edit</guilabel> ബട്ടൺ നിങ്ങൾ സ്വമേധയാ ദിശകൾ സജ്ജമാക്കാൻ അനുവദിക്ക"
+"ുന്ന <link linkend=\"gimpressionist-orient-map-editor\">Edit orientation Ma"
+"p dialog</link> തുറക്കുന്നു."
+
+#: src/filters/artistic/GIMPressionist.xml:409(title)
+msgid "Size tab"
+msgstr ""
+"വലിപ്പം ടാബ്"
+
+#: src/filters/artistic/GIMPressionist.xml:411(title)
+msgid "<quote>Size</quote> tab options"
+msgstr ""
+"<quote>Size</quote> ടാബ് ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:419(para)
+msgid ""
+"This tab allows you to set the number of brush sizes that will be used to "
+"paint, the limits of variation of these sizes and the criterion used to "
+"determine them."
+msgstr ""
+"ഈ ടാബ് നിങ്ങൾക്ക് വരയ്ക്കാൻ ഉപയോഗിക്കേണ്ട ബ്രഷ് വലിപ്പത്തിലും എണ്ണം ഈ വലുപ"
+"്പത്തിലുള്ള വ്യത്യാസങ്ങളെ പരിധികൾ അവരെ നിർണ്ണയിക്കാൻ ഉപയോഗിക്കുന്ന മാനദണ്ഡ"
+"ം സജ്ജീകരിക്കാൻ അനുവദിക്കുന്നു."
+
+#: src/filters/artistic/GIMPressionist.xml:425(title)
+msgid "Size options"
+msgstr ""
+"വലിപ്പം ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:426(para)
+msgid "You can specify how many brush sizes are to be used and their sizes."
+msgstr ""
+"നിങ്ങൾ ബ്രഷ് ഉപയോഗിച്ച് പല വലുപ്പത്തിലും ഉപയോഗിയ്ക്കേണ്ട അവ അവയുടെ വ്യാപ്"
+"തി വ്യക്തമാക്കാൻ കഴിയും."
+
+#: src/filters/artistic/GIMPressionist.xml:430(term)
+msgid "Sizes"
+msgstr ""
+"വലുപ്പങ്ങൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:432(para)
+msgid "The number of brush sizes to use."
+msgstr ""
+"ബ്രഷ് വലിപ്പത്തിലും നമ്പർ ഉപയോഗിക്കാൻ."
+
+#: src/filters/artistic/GIMPressionist.xml:436(term)
+msgid "Minimum size"
+msgstr ""
+"കുറഞ്ഞ വലുപ്പം"
+
+#: src/filters/artistic/GIMPressionist.xml:437(term)
+msgid "Maximum size"
+msgstr ""
+"പരമാവധി വലുപ്പം"
+
+#: src/filters/artistic/GIMPressionist.xml:439(para)
+msgid ""
+"The brush sizes are between these two values. The greater the size, the "
+"greater the length and width of strokes."
+msgstr ""
+"ബ്രഷ് വലിപ്പത്തിലും ഈ രണ്ടു മൂല്യങ്ങൾ പ്രായമുണ്ട്. വലിയവൻ വലിപ്പം, വലിയവൻ ഹ"
+"ൃദയാഘാതം നീളവും വീതിയും."
+
+#: src/filters/artistic/GIMPressionist.xml:448(para)
+msgid ""
+"You have there options to specify how the size of strokes will be determined."
+msgstr ""
+"നിങ്ങൾ സ്ട്രോക്കുകൾ വലിപ്പം തീരുമാനിക്കപ്പെടുന്ന എങ്ങനെ നിർദേശിക്കണമെന്ന് "
+"അവിടെ രീതികളുണ്ട്."
+
+#: src/filters/artistic/GIMPressionist.xml:456(para)
+msgid ""
+"Let the value (luminosity) of the region determine the size of the stroke."
+msgstr ""
+"മേഖലയിലെ മൂല്യം (തേജസ്സ്) സ്ട്രോക്ക് വ്യാപ്തി അനുവദിക്കുക."
+
+#: src/filters/artistic/GIMPressionist.xml:465(para)
+msgid ""
+"The distance from the center of the image determines the size of the stroke."
+msgstr ""
+"ചിത്രത്തിന്റെ കേന്ദ്രത്തിൽ നിന്നും സ്ട്രോക്ക് വലുപ്പം നിശ്ചയിക്കുന്നു."
+
+#: src/filters/artistic/GIMPressionist.xml:474(para)
+msgid "Select a random size for each stroke."
+msgstr ""
+"ഓരോ സ്ട്രോക്ക് ന് റാന്ഡം വലുപ്പം തിരഞ്ഞെടുക്കുക."
+
+#: src/filters/artistic/GIMPressionist.xml:480(para)
+msgid "Let the direction from the center determine the size of the stroke."
+msgstr ""
+"കേന്ദ്രത്തിൽ നിന്നും ദിശ സ്ട്രോക്ക് വ്യാപ്തി അനുവദിക്കുക."
+
+#: src/filters/artistic/GIMPressionist.xml:489(para)
+msgid ""
+"Not a length question here: the strokes follow a <quote>flowing</quote> "
+"pattern."
+msgstr ""
+"ഇവിടെ ഒരു നീളം ചോദ്യം: സ്ട്രോക്കുകൾ ഒരു <quote>flowing</quote> പാറ്റേൺ പി"
+"ന്തുടരുന്നത്."
+
+#: src/filters/artistic/GIMPressionist.xml:498(para)
+msgid "Let the hue of the region determine the size of the stroke."
+msgstr ""
+"മേഖലയിലെ ഹ്യൂയേ സ്ട്രോക്ക് വ്യാപ്തി അനുവദിക്കുക."
+
+#: src/filters/artistic/GIMPressionist.xml:507(para)
+msgid "The brush size that matches the original image the closest is selected."
+msgstr ""
+"യഥാർത്ഥ ചിത്രം അടുത്തുള്ള തിരഞ്ഞെടുത്തുവെന്ന് പൊരുത്തപ്പെടുന്ന ബ്രഷ് സൈസ്."
+
+#: src/filters/artistic/GIMPressionist.xml:516(para)
+msgid ""
+"The <guilabel>Edit</guilabel> button opens the <link linkend="
+"\"gimpressionist-size-map-editor\">Size Map Editor</link>. That allows you "
+"to specify the size of strokes by yourself."
+msgstr ""
+"<guilabel>Edit</guilabel> ബട്ടൺ <link linkend=\"gimpressionist-size-map-edi"
+"tor\">Size Map Editor</link> തുറക്കുന്നു. അതാണ് നിങ്ങൾ സ്വയം തല്ലു വലിപ്പം "
+"വ്യക്തമാക്കാൻ അനുവദിക്കുന്നു."
+
+#: src/filters/artistic/GIMPressionist.xml:531(title)
+msgid "Placement tab"
+msgstr ""
+"പ്ലെയ്സ്മെന്റ് ടാബ്"
+
+#: src/filters/artistic/GIMPressionist.xml:533(title)
+msgid "<quote>Placement</quote> tab options"
+msgstr ""
+"<quote>Placement</quote> ടാബ് ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:541(para)
+msgid "In this tab you can set how strokes will be distributed."
+msgstr ""
+"ഈ ടാബിൽ നിങ്ങൾ സ്ട്രോക്കുകൾ വിതരണം ചെയ്യും എങ്ങനെ സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/filters/artistic/GIMPressionist.xml:545(title)
+msgid "Placement options"
+msgstr ""
+"പ്ലേസ്മെന്റ് ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:547(term)
+msgid "Placement"
+msgstr ""
+"പ്ലേസ്മെന്റ്"
+
+#: src/filters/artistic/GIMPressionist.xml:549(para)
+msgid ""
+"In the preview of the Orientation Map Editor, all small arrows look like a "
+"flow around objects. Inside this flow, strokes may be placed in two "
+"different ways:"
+msgstr ""
+"വിന്യാസം മാപ്പ് എഡിറ്റർ പ്രിവ്യൂ എല്ലാ ചെറിയ അസ്ത്രങ്ങൾ വസ്തുക്കൾ ചുറ്റും ഒ"
+"രു ഒഴുക്ക് പോലെ. ഈ ഒഴുക്ക് സ്മാരകശിലകൾ, ഹൃദയാഘാതം രണ്ടു വ്യത്യസ്ത വഴികളിൽ "
+"സ്ഥാപിച്ചിട്ടുള്ള ചെയ്യാം:"
+
+#: src/filters/artistic/GIMPressionist.xml:556(guilabel)
+msgid "Randomly"
+msgstr ""
+"ക്രമരഹിതമായി"
+
+#: src/filters/artistic/GIMPressionist.xml:558(para)
+msgid "Places strokes randomly. This produces a more realistic paint."
+msgstr ""
+"സ്ഥലങ്ങൾ ക്രമരഹിതമായി സംസാരശേഷിയും. ഇത് ഒരു യാഥാർത്ഥ്യങ്ങളുടെ പെയിന്റ് ഉത്പ"
+"ാദിപ്പിക്കുന്നത്."
+
+#: src/filters/artistic/GIMPressionist.xml:565(guilabel)
+msgid "Evenly distributed"
+msgstr ""
+"ഇരുമുന്നണികൾക്കും വിതരണം"
+
+#: src/filters/artistic/GIMPressionist.xml:567(para)
+msgid "Strokes are evenly distributed across the image."
+msgstr ""
+"വരകള് ഇരുമുന്നണികൾക്കും ചിത്രം ഉടനീളം വിതരണം ചെയ്യുന്നത്."
+
+#: src/filters/artistic/GIMPressionist.xml:576(term)
+msgid "Stroke density"
+msgstr ""
+"സ്ട്രോക്ക് സാന്ദ്രത"
+
+#: src/filters/artistic/GIMPressionist.xml:578(para)
+msgid ""
+"The greater the density the closer the strokes. With a low density, the "
+"paper or background may be visible in unstroke areas."
+msgstr ""
+"മദ്യശാലകളുള്ളതുമായ അടുത്തതാണ് സ്ട്രോക്കുകൾ. ഒരു കുറഞ്ഞ സാന്ദ്രത വച്ച് കടലാ"
+"സ് പശ്ചാത്തലത്തിൽ unstroke മേഖലകളിൽ കാണാനായേക്കും."
+
+#: src/filters/artistic/GIMPressionist.xml:586(term)
+msgid "Centered"
+msgstr ""
+"മധ്യഭാഗത്ത്"
+
+#: src/filters/artistic/GIMPressionist.xml:588(para)
+msgid "Focus brush strokes around center."
+msgstr ""
+"കേന്ദ്രത്തിനു ചുറ്റും ബ്രഷ് സ്ട്രോക്കുകൾ കേന്ദ്രീകരിക്കുക."
+
+#: src/filters/artistic/GIMPressionist.xml:595(title)
+msgid "Color tab"
+msgstr ""
+"വർണ്ണ ടാബ്"
+
+#: src/filters/artistic/GIMPressionist.xml:597(title)
+msgid "<quote>Color</quote> tab options"
+msgstr ""
+"<quote>Color</quote> ടാബ് ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:605(para)
+msgid "In this tab, you can set what the stroke color will be."
+msgstr ""
+"ഈ ടാബിൽ, നിങ്ങൾ സ്ട്രോക്ക് നിറം എന്തായിരിക്കുമെന്ന് സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/filters/artistic/GIMPressionist.xml:609(title)
+msgid "Color options"
+msgstr ""
+"കളർ ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:611(term)
+msgid "Color"
+msgstr ""
+"നിറം"
+
+#: src/filters/artistic/GIMPressionist.xml:613(para)
+msgid "You can set the stroke color in two ways:"
+msgstr ""
+"നിങ്ങൾക്ക് രണ്ട് തരത്തിൽ സ്ട്രോക്ക് നിറം സജ്ജമാക്കാൻ കഴിയും:"
+
+#: src/filters/artistic/GIMPressionist.xml:618(guilabel)
+msgid "Average under brush"
+msgstr ""
+"ബ്രഷ് കീഴിൽ ശരാശരി"
+
+#: src/filters/artistic/GIMPressionist.xml:620(para)
+msgid ""
+"Stroke color is computed from the average of all pixels under the brush."
+msgstr ""
+"സ്ട്രോക്ക് നിറം ബ്രഷ് കീഴിലുള്ള എല്ലാ പിക്സൽ ശരാശരി നിന്ന് കണക്കുകൂട്ടുന്ന"
+"ത്."
+
+#: src/filters/artistic/GIMPressionist.xml:627(guilabel)
+msgid "Center of brush"
+msgstr ""
+"ബ്രഷ് കേന്ദ്രം"
+
+#: src/filters/artistic/GIMPressionist.xml:629(para)
+msgid "Samples the color from the pixel in the center of the brush."
+msgstr ""
+"ബ്രഷ് കേന്ദ്രത്തിൽ പിക്സൽ നിന്ന് സാമ്പിളുകൾ നിറം."
+
+#: src/filters/artistic/GIMPressionist.xml:639(term)
+msgid "Color noise"
+msgstr ""
+"വർണ്ണ മുഴക്കം"
+
+#: src/filters/artistic/GIMPressionist.xml:641(para)
+msgid ""
+"This slider, and its input box, allow you to introduce noise in the stroke "
+"color, that will look less homogeneous."
+msgstr ""
+"ഈ സ്ലൈഡർ അതിന്റെ ഇൻപുട്ട് ബോക്സിൽ നിങ്ങൾ കുറച്ച് സമീകൃത നോക്കി സ്ട്രോക്ക"
+"് നിറം, ലെ ഘോഷം പരിചയപ്പെടുത്താൻ അനുവദിക്കുക."
+
+#: src/filters/artistic/GIMPressionist.xml:651(title)
+msgid "General tab"
+msgstr ""
+"പൊതു ടാബ്"
+
+#: src/filters/artistic/GIMPressionist.xml:653(title)
+msgid "<quote>General</quote> tab options"
+msgstr ""
+"<quote>General</quote> ടാബ് ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:661(para)
+msgid ""
+"In this tab you can set what will be the background and the relief of brush "
+"strokes."
+msgstr ""
+"ഈ ടാബിൽ നിങ്ങൾ പശ്ചാത്തലവും ബ്രഷ് സ്ട്രോക്കുകൾ റിലീഫ് എന്തായിരിക്കുമെന്ന് "
+"സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/filters/artistic/GIMPressionist.xml:666(title)
+msgid "General options"
+msgstr ""
+"പൊതു ഓപ്ഷനുകൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:668(term)
+msgid "Background"
+msgstr ""
+"പശ്ചാത്തലം"
+
+#: src/filters/artistic/GIMPressionist.xml:672(guilabel)
+msgid "Keep original"
+msgstr ""
+"യഥാർത്ഥ സൂക്ഷിക്കുക"
+
+#: src/filters/artistic/GIMPressionist.xml:674(para)
+msgid "The original image will be used as a background."
+msgstr ""
+"യഥാർത്ഥ ചിത്രത്തിന്റെ ഒരു പശ്ചാത്തലമായി ഉപയോഗിക്കും."
+
+#: src/filters/artistic/GIMPressionist.xml:680(guilabel)
+msgid "From paper"
+msgstr ""
+"പേപ്പറിൽ നിന്നും"
+
+#: src/filters/artistic/GIMPressionist.xml:682(para)
+msgid "Copy the texture of the selected paper as a background."
+msgstr ""
+"ഒരു പശ്ചാത്തലമായി തിരഞ്ഞെടുത്ത പേപ്പർ ടെക്സ്ചർ പകർത്തുക."
+
+#: src/filters/artistic/GIMPressionist.xml:688(guilabel)
+msgid "Solid"
+msgstr ""
+"സോളിഡ്"
+
+#: src/filters/artistic/GIMPressionist.xml:690(para)
+msgid ""
+"By clicking on the color dwell you can select a solid colored background."
+msgstr ""
+"നിറം പാർക്കയില്ല ക്ലിക്കുചെയ്തുകൊണ്ട് നിങ്ങളെ ഒരു സോളിഡ് വർണത്തിലുള്ള പശ്"
+"ചാത്തല തിരഞ്ഞെടുക്കാം."
+
+#: src/filters/artistic/GIMPressionist.xml:697(guilabel)
+msgid "Transparent"
+msgstr ""
+"സുതാരമായ"
+
+#: src/filters/artistic/GIMPressionist.xml:699(para)
+msgid ""
+"Use a transparent background. Only the painted strokes will be visible. This "
+"option is available only if your image has an alpha channel."
+msgstr ""
+"സുതാര്യമായ പശ്ചാത്തലം ഉപയോഗിക്കുക. ചായം സ്ട്രോക്കുകൾ മാത്രം ദൃശ്യമാകും. ഈ"
+" ഓപ്ഷൻ നിങ്ങളുടെ ചിത്രം ഒരു ആല്ഫാ ചാനൽ ഉണ്ടെങ്കിൽ മാത്രമേ ലഭ്യമാകൂ."
+
+#: src/filters/artistic/GIMPressionist.xml:710(term)
+msgid "Paint edges"
+msgstr ""
+"പെയിന്റ് അറ്റങ്ങൾ"
+
+#: src/filters/artistic/GIMPressionist.xml:712(para)
+msgid ""
+"If it is disabled, a thin border will not be painted around the outside "
+"border of the image."
+msgstr ""
+"അതു അപ്രാപ്തമാക്കിയാൽ, നേർത്ത അതിർ ചിത്രം പുറത്ത് അതിർത്തി ചുറ്റും വരച്ചു ച"
+"െയ്യില്ല."
+
+#: src/filters/artistic/GIMPressionist.xml:719(term)
+msgid "Tileable"
+msgstr "Tileable"
+
+#: src/filters/artistic/GIMPressionist.xml:721(para)
+msgid ""
+"If checked, the resulting image will be seamlessly tileable. The right side "
+"will match the left side and the top will match the bottom. This is "
+"interesting if your image will be repeatedly used in a Web background."
+msgstr ""
+"ചെക്കുചെയ്തെങ്കിൽ, ലഭിക്കുന്ന ചിത്രം വുമായി tileable ആയിരിക്കും. വലത് വശത്ത"
+"് ഇടത് വശത്ത് പൊരുത്തപ്പെടുന്നില്ല ചെയ്യും മുകളിൽ നിന്ന് താഴെ പൊരുത്തപ്പെ"
+"ടുന്നില്ല ചെയ്യും. നിങ്ങളുടെ ചിത്രം നിരന്തരമായി വെബ് പശ്ചാത്തലത്തിൽ ഉപയോഗി"
+"ക്കും എങ്കിൽ ഗിരീഷ് പറഞ്ഞു."
+
+#: src/filters/artistic/GIMPressionist.xml:730(term)
+msgid "Drop shadow"
+msgstr ""
+"ഡ്രോപ്പ് ഷാഡോ"
+
+#: src/filters/artistic/GIMPressionist.xml:732(para)
+msgid "Add a shadow effect to each brush stroke."
+msgstr ""
+"ഓരോ ബ്രഷ് സ്ട്രോക്ക് ഒരു നിഴൽ പ്രഭാവം ചേർക്കുക."
+
+#: src/filters/artistic/GIMPressionist.xml:736(term)
+msgid "Edge darken"
+msgstr ""
+"എഡ്ജ് ഡാർക്കൻ"
+
+#: src/filters/artistic/GIMPressionist.xml:738(para)
+msgid ""
+"How much to darken the edges of each brush stroke. This increases paint "
+"relief or thickness."
+msgstr ""
+"എത്ര ഓരോ ബ്രഷ് സ്ട്രോക്ക് അറ്റങ്ങൾ ഇരുണ്ട്. ഈ പെയിന്റ് ദുരിതാശ്വാസ അല്ലെങ"
+"്കിൽ കനം വർദ്ധിപ്പിക്കുന്നു."
+
+#: src/filters/artistic/GIMPressionist.xml:745(term)
+msgid "Shadow darken"
+msgstr ""
+"ഷാഡോ ഡാർക്കൻ"
+
+#: src/filters/artistic/GIMPressionist.xml:747(para)
+msgid "How much to darken the brush shadow."
+msgstr ""
+"എത്ര ബ്രഷ് നിഴൽ ഇരുണ്ട്."
+
+#: src/filters/artistic/GIMPressionist.xml:753(para)
+msgid "How far apart from the object the drop shadow should be."
+msgstr ""
+"എങ്ങനെ അകലങ്ങളിൽ ഒബ്ജക്റ്റ് നിന്ന് ഡ്രോപ്പ് ഷാഡോ ആയിരിക്കണം."
+
+#: src/filters/artistic/GIMPressionist.xml:759(term)
+msgid "Shadow blur"
+msgstr ""
+"ഷാഡോ മങ്ങൽ"
+
+#: src/filters/artistic/GIMPressionist.xml:761(para)
+msgid "How much to blur the drop shadow."
+msgstr ""
+"എത്ര ഡ്രോപ്പ് ഷാഡോ മായാൻ."
+
+#: src/filters/artistic/GIMPressionist.xml:765(term)
+msgid "Deviation threshold"
+msgstr ""
+"വ്യതിയാനം ഉമ്മരപ്പടി"
+
+#: src/filters/artistic/GIMPressionist.xml:767(para)
+msgid "A bail-out value for adaptive selections of brush size."
+msgstr ""
+"ബ്രഷ് വലിപ്പം അഡാപ്റ്റീവ് തിരഞ്ഞെടുപ്പുകളെ ഒരു ജാമ്യം-ഔട്ട് മൂല്യം."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/filters/artistic/GIMPressionist.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"

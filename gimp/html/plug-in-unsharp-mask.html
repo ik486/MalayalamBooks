@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.9. അൺഷാർപ്പ് മാസ്ക്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-enhance.html" title="3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക" />
+    <link rel="prev" href="plug-in-sharpen.html" title="3.8. മൂര്ച്ചവരുത്തുക" />
+    <link rel="next" href="filters-distort.html" title="4. ഫിൽട്ടറുകൾ വളച്ചൊടിച്ച്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.9. അൺഷാർപ്പ് മാസ്ക്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-sharpen.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക</th>
+          <td width="20%" align="right"> <a accesskey="n" href="filters-distort.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-unsharp-mask"></a>3.9. അൺഷാർപ്പ് മാസ്ക്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925523612768" class="indexterm"></a>
+      <a id="idp46925523614640" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523615568"></a>3.9.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925523616336"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.31. അൺഷാർപ്പ് മാസ്ക് ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="അൺഷാർപ്പ് മാസ്ക് ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/enhance-taj-unsharp-mask.jpg" alt="അൺഷാർപ്പ് മാസ്ക് ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Unsharp mask</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഔട്ട്-ഓഫ്-ഫോക്കസ് ഫോട്ടോഗ്രാഫുകളും ഏറ്റവും ഡിജിറ്റൽ ചിത്രങ്ങൾ പലപ്പോഴും ഒരു മൂര്ച്ച തിരുത്തൽ ആവശ്യമാണ്. ഈ കാരണം ചെറുതായി വ്യത്യസ്ത നിറങ്ങളിലുള്ള പോയിന്റുകൾ ഒരു കളർ continuum അപ്പ് മാംസംപോലെയും എന്നുള്ള ഡിജിറ്റൈസ് പ്രക്രിയ ആണ്: ഒരുപറ്റം ആവൃത്തി കട്ടി ഘടകങ്ങൾ ഒരു യൂണിഫോം നിറം കടന്നു ശരാശരി ചെയ്യും. അങ്ങനെ മൂർച്ചയുള്ള ബോർഡറുകൾ അല്പം മങ്ങിയ റെൻഡർ ചെയ്യുന്നു. കടലാസിൽ നിറം ഡോട്ടുകൾ അച്ചടിക്കുമ്പോൾ ഇതേ പ്രതിഭാസം ദൃശ്യമാകുന്നു.</p>
+        <p>അൺഷാർപ്പ് മാസ്ക് അരിപ്പ (എന്താണ് ഒരു ഒറ്റയായി നാമം!) വർദ്ധിച്ചുവരുന്ന മുഴക്കം അല്ലെങ്കിൽ ഊനമില്ലാത്ത ഘടകങ്ങൾ അറ്റങ്ങൾ മൂർച്ചകൂട്ടുന്നു. ഇത് മൂര്ച്ചകൂട്ടല്പ്രഭാവംടോഗിള്ചെയ്യുക ഫിൽട്ടറുകൾ രാജാവു.</p>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[സൂചന]" src="images/tip.png" />
+              </td>
+              <th align="left">സൂചന</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>ഡിജിറ്റൽ ക്യാമറകൾ അല്ലെങ്കിൽ സ്കാനറുകൾ പോലുള്ള ചില ഉപകരണങ്ങൾ നിങ്ങൾക്കായി സൃഷ്ടിച്ച ചിത്രങ്ങൾ മൂർച്ച വാഗ്ദാനം. ഞങ്ങൾ ശക്തമായി ഈ ഉപകരണങ്ങളിൽ ഷാർപ്പെനിംഗോ രഹിതമാക്കി ജിമ്പ് പകരം ഫിൽറ്ററുകൾ ഉപയോഗിക്കുക ശുപാർശചെയ്യുന്നു. ഈ വഴി നിങ്ങളുടെ ചിത്രങ്ങൾ മൂർച്ച പൂർണ്ണ നിയന്ത്രണം വീണ്ടെടുക്കാനും.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>മൂർച്ച സമയത്ത് നിറം മേല് തടയുന്നതിന്, HSV നിങ്ങളുടെ ചിത്രം വിഘടിപ്പിക്കുന്നു ആൻഡ് മൂല്യം മാത്രമേ പ്രവർത്തിക്കൂ. അപ്പോൾ HSV ലേക്കുള്ള ചിത്രം രചിക്കുക. <span class="guimenu">Colors</span> → <span class="guisubmenu">Components</span> → <span class="guimenuitem">Decompose...</span> പോകുക. ഉറപ്പു <span class="guilabel">Decompose to Layers</span> ബോക്സ് പരിശോധിയ്ക്കുന്നു വരുത്തുക. HSV തിരഞ്ഞെടുക്കുക ശരി ക്ലിക്കുചെയ്യുക. നിങ്ങൾക്ക് മൂന്ന് പാളികൾ, ഹ്യൂയേ ഒന്നു, സാച്ചുറേഷൻ ഒന്നു മൂല്യം ഒന്നു ഒരു പുതിയ ചാര-ലെവൽ ചിത്രം ലഭിക്കും. (യഥാർത്ഥ ചിത്രം Close അതിനാൽ നിങ്ങൾ ആശയക്കുഴപ്പത്തിലാണ് ലഭിക്കില്ല). മൂല്യം പാളി തിരഞ്ഞെടുക്കുക അതു നിങ്ങളുടെ ഷാർപ്പെനിംഗോ പുരട്ടുക. നിങ്ങൾ പൂർത്തിയാക്കി കഴിയുമ്പോൾ, തിരഞ്ഞെടുത്ത അതേ പാളി, പ്രക്രിയ റിവേഴ്സ്. <span class="guimenu">Colors</span> → <span class="guisubmenu">Components</span> → <span class="guimenuitem">Compose...</span> പോകുക. വീണ്ടും HSV തിരഞ്ഞെടുക്കാൻ ശരി ക്ലിക്കുചെയ്യുക. താങ്കൾക്ക് മൂല്യം ഘടകം ലെ മൂർച്ചകൂട്ടി ചെയ്തു എന്നു ഒഴികെ നിങ്ങളുടെ ഇമേജ് തിരികെ ലഭിക്കും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523632432"></a>3.9.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Enhance</span> → <span class="guimenuitem">Unsharp Mask</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523635056"></a>3.9.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925523635808"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.32. <span class="quote">“<span class="quote">Unsharp Mask</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/enhance/unsharp-mask.png" alt="“Unsharp Mask” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p>പരിശോധിച്ചാൽ, പരാമീറ്റർ ക്രമീകരണം ഫലങ്ങളിൽ ഇന്ററാക്ടീവ് പ്രിവ്യൂ പ്രദർശിപ്പിക്കുന്നു. സ്ക്രോൾ ബാറുകൾ ചിത്രത്തിൽ ചുറ്റും നീക്കാൻ അനുവദിക്കുക.</p>
+            </dd>
+            <dt>
+              <span class="term">വാസാര്ദ്ധം</span>
+            </dt>
+            <dd>
+              <p>സ്ലൈഡർ ഇൻപുട്ട് ബോക്സുകൾ (0.1-120) നിങ്ങൾ മൂർച്ച ബാധിക്കും എത്ര പിക്സൽ ഒരു വായ്ത്തല ഇരുവശങ്ങളിലും സജ്ജമാക്കാൻ അനുവദിക്കുന്നു. ഹൈ റെസലൂഷൻ ചിത്രങ്ങൾ കൂടുതൽ ആരം അനുവദിക്കുക. ഇത് എപ്പോഴും അന്തിമ റെസല്യൂഷനിൽ ഒരു ചിത്രം മൂർച്ച നല്ലതു.</p>
+            </dd>
+            <dt>
+              <span class="term">തുക</span>
+            </dt>
+            <dd>
+              <p>ഈ സ്ലൈഡർ ഇൻപുട്ട് ബോക്സുകൾ (0.00-5.00) നിങ്ങൾ മൂർച്ച ശക്തി സജ്ജമാക്കാൻ അനുവദിക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">ഉമ്മറം</span>
+            </dt>
+            <dd>
+              <p>ഈ സ്ലൈഡർ ഇൻപുട്ട് ബോക്സുകൾ (0-255) നിങ്ങൾ മൂര്ച്ചകൂട്ടല്പ്രഭാവംടോഗിള്ചെയ്യുക പ്രയോഗിച്ചു വേണം എവിടെ ഒരു വായ്ത്തല സൂചിപ്പിക്കുന്ന പിക്സൽ മൂല്യങ്ങൾക്ക് മിനിമം വ്യത്യാസം സജ്ജമാക്കാൻ അനുവദിക്കുന്നു. അങ്ങനെ നിങ്ങൾ മൂർച്ച നിന്ന് മിനുസമുള്ള ടോണൽ പരിവർത്തന പ്രദേശങ്ങൾ സംരക്ഷിക്കുന്നു, മുഖം, ആകാശത്ത് അല്ലെങ്കിൽ വെള്ളം ഉപരിതലത്തിൽ ലെ കേടും സൃഷ്ടിക്ക് ഒഴിവാക്കാനാകും.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523648736"></a>3.9.4. എങ്ങനെ ഒരു അൺഷാർപ്പ് മാസ്ക് പ്രവർത്തിക്കുന്നത്?</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഒരു ചിത്രം മൂർച്ച ഒരു അൺഷാർപ്പ് മാസ്ക് ഉപയോഗിയ്ക്കുന്നു പകരം തലവേദനയായ ചെയ്യാം. ഇവിടെ പുലർന്നതാണിത്:</p>
+        <p>ചില സ്ഥലത്ത് ഒരു വ്യത്യാസം ഒരു ചിത്രം ചിന്തിക്കുക. ചില മങ്ങൽ ഉണ്ടെങ്കിൽ പടി പോലെ തീവ്രത തികച്ചും മൂർച്ചയുള്ള എങ്കിൽ ഒരു S പോലെ: ഈ വിപരീതമായി വഴി പോകുന്ന ഒരു വരിയിൽ പിക്സൽ തീവ്രതയെ കർവ് തീവ്രത ഒരു വിചിത്രമായ വർധന കാണിക്കും.</p>
+        <div class="mediaobject">
+          <img src="images/filters/examples/unsharp-mask-1.png" />
+        </div>
+        <p>ഇപ്പോൾ ഞങ്ങൾ (കറുത്ത കർവ്) മൂർച്ച ആഗ്രഹിക്കുന്ന ചില ഇഫക്റ്റിൽ ചിത്രം ഉണ്ടെങ്കിൽ. തീവ്രത വ്യതിയാനങ്ങളുടെ കൂടുതൽ ക്രമേണ (പച്ച കർവ്) ആയിരിക്കും: ഞങ്ങൾ കൂടുതൽ ചില മങ്ങൽ ബാധകമാണ്.</p>
+        <p>US ചിത്രം തീവ്രത നിന്ന് blurredness തീവ്രത കുറയ്ക്കേണ്ട അനുവദിക്കുക. ഞങ്ങൾ കൂടുതൽ ആകസ്മികമായ ആണ് ചുവന്ന വക്രം, നേടുകയും: ദൃശ്യതീവ്രതയും മൂര്ച്ച പെരുകി. .മതസ്ഥാപനങ്ങളെന്നോ.</p>
+        <div class="mediaobject">
+          <img src="images/filters/examples/unsharp-mask-2.png" />
+        </div>
+        <p>അൺഷാർപ്പ് മാസ്ക് ആദ്യം വെള്ളി ഫോട്ടോഗ്രാഫിയിൽ ഉപയോഗിക്കുന്നുണ്ട്. കാർട്ടർ യഥാർത്ഥ നെഗറ്റീവ് ഒരു പകർപ്പ് കോൺടാക്റ്റ് വഴി, ഒരു സിനിമ ന് ഇരുവരും തമ്മിലുള്ള ഒരു നേർത്ത ഗ്ലാസ് പ്ലേറ്റ് നല്കുന്നതിനു സൃഷ്ടിക്കുന്നു ആ വെളിച്ചം diffusion ഒരു മങ്ങിയ പകർപ്പ് താനേ വന്നുകൊള്ളും. പിന്നെ അവൻ രണ്ടു ചിത്രങ്ങളില്, ഒരു ഫോട്ടോ enlarger ലെ കടലാസിൽ അവരെ പകരമാവില്ല മതിയാവില്ല കൃത്യമായി പൊരുത്തപ്പെടുന്ന. നല്ല മങ്ങിയ സിനിമ, യഥാർത്ഥ മുറിയെ വ്യക്തമായ പ്രദേശങ്ങൾ എതിർക്കുന്നു വഴി അങ്ങനെ പോകാൻ വെളിച്ചം തടയും ഇരുണ്ട പ്രദേശങ്ങൾ യഥാർത്ഥ ചിത്രത്തിന്റെ പോകുന്ന വെളിച്ചത്തിൽ നിന്ന് കുറയ്ക്കില്ല ചെയ്യും.</p>
+        <div class="procedure">
+          <p>ഡിജിറ്റൽ ഫോട്ടോഗ്രാഫിയിൽ ജിമ്പ് കൂടെ, താഴെ പറയുന്ന രീതികൾ കടന്നുപോകും:</p>
+          <ol class="procedure" type="1">
+            <li class="step">
+              <p>നിങ്ങളുടെ ചിത്രം തുറക്കുക തനിപ്പകർപ്പ് <span class="guimenu">Image</span> → <span class="guimenuitem">Duplicate</span></p>
+            </li>
+            <li class="step">
+              <p>പകർപ്പ് അതിനാൽ പാളി <span class="guimenu">Layer</span> → <span class="guimenuitem">Duplicate layer</span> ഡ്യൂപ്ലിക്കേറ്റ് ഇറങ്ങി അരിപ്പകൾ മെനു ഡ്രോപ്പ് സ്വതേ IIR ഓപ്ഷൻ ആരവും 5 ഡ്യൂപ്ലിക്കേറ്റ് പാളി ലേക്കുള്ള <span class="guimenu">Blur</span> → <span class="guimenuitem">Gaussian Blur</span> ബാധകമാണ്.</p>
+            </li>
+            <li class="step">
+              <p>ഡ്യൂപ്ലിക്കേറ്റ് ചിത്രത്തിന്റെ പാളി ഡയലോഗിൽ, <span class="quote">“<span class="quote">Subtract</span>”</span> ലേക്ക് മോഡ് മാറ്റാൻ, നേരായ-clic മെനുവിൽ, <span class="quote">“<span class="quote">Merge down</span>”</span> തിരഞ്ഞെടുക്കുക.</p>
+            </li>
+            <li class="step">
+              <p>ക്ലിക്ക് നിങ്ങൾ അതു ഒരു പുതിയ പാളി പോലെ ദൃശ്യമാകുന്ന യഥാർത്ഥ ചിത്രം, കയറി മാത്രം പാളി വലിച്ചിടുക.</p>
+            </li>
+            <li class="step">
+              <p><span class="quote">“<span class="quote">Addition</span>”</span> ഈ പാളി ഡയലോഗിൽ മോഡ് മാറ്റുക.</p>
+            </li>
+          </ol>
+        </div>
+        <p>വോയ്ല. <span class="quote">“<span class="quote">Unsharp Mask</span>”</span> പ്ലഗ്-ഇൻ നിങ്ങൾക്ക് ചെയ്യുന്നവൻ ഒരേ.</p>
+        <p>കർവ് തുടക്കത്തിൽ, നിങ്ങൾ ഒരു മുക്കി കാണാനാകും. ബ്ലറിംഗ് പ്രധാനമാണ് എങ്കിൽ ഈ മുക്കുക വളരെ ആഴമുള്ളതും; കുറയ്ക്കല് ​​റിസള്ട്ട് നെഗറ്റീവ് കഴിയും, ഒരു തീർക്കുന്ന നിറം സ്ട്രൈപ്പ് തീവ്രത, അല്ലെങ്കിൽ ഒരു നീഹാരിക (കറുത്ത കണ്ണ് പ്രഭാവം) വെളിച്ചം പശ്ചാത്തലത്തിൽ ഒരു നക്ഷത്ര ചുറ്റും കറുത്ത ഹാലോ ദൃശ്യമാവും.</p>
+        <div class="figure">
+          <a id="idp46925523670416"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.33. കറുത്ത കണ്ണ് പ്രഭാവം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/unsharp-mask-3.png" alt="കറുത്ത കണ്ണ് പ്രഭാവം" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-sharpen.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-enhance.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="filters-distort.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-sharpen.html">3.8. മൂര്ച്ചവരുത്തുക</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="filters-distort.html">4. ഫിൽട്ടറുകൾ വളച്ചൊടിച്ച്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

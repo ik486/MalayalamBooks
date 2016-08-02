@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>4.10. Newsprint</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-distort.html" title="4. ഫിൽട്ടറുകൾ വളച്ചൊടിച്ച്" />
+    <link rel="prev" href="plug-in-mosaic.html" title="4.9. മൊസൈക്ക്" />
+    <link rel="next" href="plug-in-pagecurl.html" title="4.11. പേജ് കേൾ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">4.10. Newsprint</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-mosaic.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">4. ഫിൽട്ടറുകൾ വളച്ചൊടിച്ച്</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-pagecurl.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-newsprint"></a>4.10. Newsprint</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925524673424" class="indexterm"></a>
+      <a id="idp46925524675264" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524676160"></a>4.10.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925524676928"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.58. Newsprint ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Newsprint ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/distort-taj-newsprint.jpg" alt="Newsprint ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Newsprint</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ ഒരു കൂട്ടമായി-ഡോട്ട് dither ഉപയോഗിച്ച് ഇമേജ് halftones. Halftoning കുറച്ച് മാനങ്ങൾ ഒരു ഉപകരണത്തിൽ (ഇ ഞാൻ തുടർച്ചയായ ടോൺ ഇമേജ്..) ചാര അല്ലെങ്കിൽ നിറം വിവിധ തലത്തിലുളള ഒരു ഇമേജ് തർജ്ജമ പ്രക്രിയയാണ്; ഒരു പ്രിന്റർ അല്ലെങ്കിൽ typesetter പോലുള്ള പലപ്പോഴും മൈത്രി ലെവൽ ഡിവൈസ്.</p>
+        <p>അടിസ്ഥാന സ്കുൾ വലിയവൻ പ്രത്യക്ഷത്തിൽ ടോൺ ആഴത്തിൽ (ഈ സ്പേഷ്യൽ വി.എസിന്റെ അറിയപ്പെടുന്നത്) റെസല്യൂഷനിലുള്ള ഓഫ് വ്യാപാരം ആണ്.</p>
+        <p>ഈ പല സമീപനങ്ങൾ, ടോൺ വിവരങ്ങൾ കുറഞ്ഞ ഓർഡർ ബിറ്റുകൾ ഉപേക്ഷിക്കണമെന്ന് ആണ് ലളിതമായ ഇതിൽ ഉണ്ട്; ഈ പോസ്റ്ററൈസ് അരിപ്പ ചെയ്യുന്നതു എന്താണ്. നിർഭാഗ്യവശാൽ, ഫലങ്ങള് വളരെ നല്ല തോന്നുന്നില്ല. എന്നാൽ, സ്പേഷ്യൽ ചിത്രം നഷ്ടമാകുന്നു.</p>
+        <p>ഈ ഫിൽട്ടർ വളരാൻ അല്ലെങ്കിൽ സെൽ പ്രതിനിധാനം ആവശ്യമായ തീവ്രത തക്കവണ്ണം അകലുകയും ചെയ്ത വരകൾക്ക് കോശങ്ങൾ പരിവർത്തനം ചിത്രത്തിന്റെ ചിത്രം കുറയ്ക്കുന്ന dither ഉത്തരവിട്ടു ക്ലസ്റ്റര്ഡായ-ഡോട്ട് ഉപയോഗിക്കുന്നു.</p>
+        <p>യഥാർത്ഥ ചിത്രത്തിന്റെ ഒരു ഗ്രിഡ് സൂപ്പർ-ഇമ്പോസുചെയ്ത സങ്കൽപ്പിക്കുക. ചിത്രം ഗ്രിഡ് വഴി കോശങ്ങൾ തിരിച്ചിട്ടുണ്ട് - ഓരോ സെൽ ആത്യന്തികമായി ആ കോശം യഥാർത്ഥ ചിത്രം അന്ധകാരത്തിന്റെ ഏകദേശം ഒന്നിലധികം ഔട്ട്പുട്ട് പിക്സൽ നിർമിച്ച ഒറ്റ സ്പോട്ട് നടത്തും.</p>
+        <p>വ്യക്തമാണല്ലോ ഒരു ചിത്രം കനത്ത നഷ്ടം വലിയ സെൽ വലിപ്പം ഫലങ്ങൾ! കളങ്ങളിൽ പാടുകൾ സാധാരണ സർക്കിളുകളിൽ പോലെ ആരംഭിക്കുക, ആകൃതിയിലുള്ള വജ്രം വളരാൻ. ആകൃതിയിൽ ഈ മാറ്റം ഒരു <span class="guilabel">Spot  function</span> നിയന്ത്രിക്കുന്നത്. വിവിധ പുള്ളി ഫംഗ്ഷനുകളും ഉപയോഗിക്കുന്നതിലൂടെ, സെൽ പൂർണ്ണമായി വെളുത്ത പൂർണ്ണമായും കറുത്ത പോകുന്ന പോലെ പാടുകൾ ആകൃതിയിൽ പരിണാമ നിയന്ത്രിത ചെയ്യാം.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524690496"></a>4.10.2. ഫിൽട്ടർ ആരംഭിക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Distorts</span> → <span class="guimenuitem">Newsprint</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524693120"></a>4.10.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925524693872"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.59. <span class="quote">“<span class="quote">Newsprint</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/distort/newsprint.png" alt="“Newsprint” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ <span class="guilabel">OK</span> ക്ലിക്ക് വരെ നിങ്ങളുടെ എല്ലാ ക്രമീകരണം ചിത്രവും ബാധിക്കാതെ പ്രിവ്യൂ ദൃശ്യമാകും. ഫിൽട്ടർ ഒരു നിര പ്രയോഗിച്ചു എങ്കിൽ പ്രിവ്യൂ മുഴുവൻ ചിത്രത്തിന്റെ ഒരു ഭാഗം മാത്രമാണ് പ്രദർശിപ്പിക്കുന്ന ശ്രദ്ധിക്കുക. നിങ്ങളുടെ കമ്പ്യൂട്ടർ വളരെ സാവധാനത്തിലാണ് എങ്കിൽ <span class="guilabel">Preview</span> ചെക്കുചെയ്തിട്ടുണ്ടെന്നും സൂക്ഷിക്കരുത്.</p>
+            </dd>
+            <dt>
+              <span class="term">മിഴിവ്</span>
+            </dt>
+            <dd>
+              <p>ഈ ഗ്രൂപ്പ് ഇൻപുട്ട്, ഔട്ട്പുട്ട് റെസലൂഷൻ സജ്ജീകരിക്കുന്നത്, അല്ലെങ്കിൽ നേരിട്ട് ഒന്നുകിൽ, സെൽ വലുപ്പം നിയന്ത്രിക്കുന്നത്.</p>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">ഇൻപുട്ട് അപരമൂർത്തി</span>
+                  </dt>
+                  <dd>
+                    <p>യഥാർത്ഥ ഇൻപുട്ട് ചിത്രത്തിന്റെ പ്രമേയം, സാമ്പിളുകൾ പെർ ഇഞ്ച് (അപരമൂർത്തിത്വം) ൽ. ഈ ഇൻപുട്ട് ചിത്രം ന്റെ ചിത്രം സ്വയം initialised ആണ്.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">ഔട്ട്പുട്ട് LPI</span>
+                  </dt>
+                  <dd>
+                    <p>ആഗ്രഹിക്കുന്ന ഔട്ട്പുട്ട് ചിത്രം, രേഖകൾ പെർ ഇഞ്ച് (BEG) ൽ.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">സെൽ വലുപ്പം</span>
+                  </dt>
+                  <dd>
+                    <p>സെൽ വലിപ്പം ഫലമായി പിക്സലിൽ. പലപ്പോഴും നേരിട്ട് ഇത് സജ്ജമാക്കാൻ ആഗ്രഹിക്കുന്നത്.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">സ്ക്രീൻ</span>
+            </dt>
+            <dd>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">ആർജിബി, CMYK, തീവ്രത പ്രത്യേക</span>
+                  </dt>
+                  <dd>
+                    <p>നിങ്ങളിൽ ഓപ്പറേറ്റ് ആഗ്രഹിക്കുന്ന ഏത് colorspace തിരഞ്ഞെടുക്കുക. <span class="emphasis"><em>RGB</em></span> മോഡിൽ, യാതൊരു colorspace പരിവർത്തനം നടപ്പാകും. <span class="emphasis"><em>CMYK</em></span> ൽ ഇമേജ് ആദ്യം ആന്തരികമായി CMYK പരിവർത്തനം, പിന്നെ ഓരോ നിറം ചാനൽ വെവ്വേറെ, ഒടുവിൽ ആർജിബി ചിത്രം തിരികെ recombined മുമ്പായി halftoned ആണ്. <span class="emphasis"><em>Intensity</em></span> മോഡിൽ, ഇമേജ് ആന്തരികമായി ഗ്രേസ്കെയിലാക്കി പരിവർത്തനം, പിന്നെ, halftoned ഇൻപുട്ട് ചിത്രത്തിനായി ആൽഫാ ചാനൽ ഉപയോഗിക്കുന്നു ഫലം. ഈ പ്രത്യേക ഇഫക്റ്റുകൾ നല്ലതാണ്, എന്നാൽ മികച്ച ഫലങ്ങൾ നേടാൻ അല്പം പരീക്ഷണങ്ങളും ആവശ്യമാണ്. സൂചന: തുടക്കത്തിൽ പോകാൻ ഏത് അറിയില്ലെങ്കിൽ CMYK ശ്രമിക്കുക.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">ബ്ലാക്ക് pullout (%)</span>
+                  </dt>
+                  <dd>
+                    <p>RGB- &gt; CMYK പരിവർത്തനം നടത്തുമ്പോൾ എത്ര കെ (കറുത്ത) ഉപയോഗിക്കണം?</p>
+                  </dd>
+                  <dt>
+                    <span class="term">ലോക്ക് ചാനലുകൾ</span>
+                  </dt>
+                  <dd>
+                    <p>ചാനൽ പരിഷ്ക്കരണങ്ങൾ എല്ലാ ചാനലുകളും പ്രയോഗിക്കാൻ.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">ഫാക്ടറി സ്ഥിരമായവയിലേക്ക്</span>
+                  </dt>
+                  <dd>
+                    <p>ഭംഗിയായി ഫലങ്ങൾ നൽകുന്ന ഏത് സ്ഥിര ക്രമീകരണങ്ങൾ പുനഃസ്ഥാപിക്കുക.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">കോൺ</span>
+                  </dt>
+                  <dd>
+                    <p>ഈ ചാനലിനായി സെൽ ഗ്രിഡ് കോൺ.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">സ്പോട്ട് ഫംഗ്ഷൻ</span>
+                  </dt>
+                  <dd>
+                    <p>(നീല സെൽ-ബോക്സുകളിൽ പ്രിവ്യൂ കാണുക) ഈ ചാനലിൽ ഉപയോഗിക്കേണ്ട സ്പോട്ട് പ്രവർത്തനം.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">ആന്റിഎലിയാസിംഗ്</span>
+            </dt>
+            <dd>
+              <p>ശരിയായ halftoning ആന്റിഎലിയാസിംഗ് ആവശ്യമില്ല: ലക്ഷ്യം എല്ലാ ശേഷം നിറം ഡെപ്ത് കുറയ്ക്കാൻ ആണ്! എന്നിരുന്നാലും, ഈ പ്ലഗിൻ പ്രത്യേക ഇഫക്റ്റുകൾ പ്രധാനമായും കാരണം, ഫലങ്ങൾ ഒരു കറുത്ത / വെളുത്ത പ്രിന്റർ പകരം സ്ക്രീനിൽ പ്രദർശിപ്പിക്കും. അതുകൊണ്ട് പലപ്പോഴും പേപ്പറിൽ പൂശവേ മഷി പകർത്താനായി അല്പം വിരുദ്ധ-അലിയാസിങ് പ്രയോഗിക്കാൻ ഉപയോഗപ്രദമായിരിക്കും. നിങ്ങൾ തത്ഫലമായി ചിത്രം പ്രിന്റ് ചെയ്യാൻ ആഗ്രഹിക്കുന്നില്ലെങ്കിൽ പിന്നെ (അതായത്, ഓഫ്) 1 ലേക്ക് antialising വെച്ചു.</p>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">Oversample</span>
+                  </dt>
+                  <dd>
+                    <p>ഓരോ ഔട്ട്പുട്ട് പിക്സൽ ഉത്പാദിപ്പിക്കാൻ രുചിച്ച് ലേക്കുള്ള subpixels എണ്ണം. ഈ സവിശേഷത അപ്രാപ്തമാക്കാൻ 1 സജ്ജമാക്കുക. താക്കീത്: വലിയ നമ്പറുകൾ ഇവിടെ വളരെ നീണ്ട ഫിൽട്ടർ runtimes നയിക്കും!</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524731808"></a>4.10.4. ഉദാഹരണം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925524732544"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.60. Newsprint ഉദാഹരണത്തിന്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/newsprint.png" alt="Newsprint ഉദാഹരണത്തിന്" />
+              <div class="caption">
+                <p>പ്ലഗ്-ഇൻ രചയിതാവ് നിന്ന് ഉദാഹരണം</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-mosaic.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-distort.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-pagecurl.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-mosaic.html">4.9. മൊസൈക്ക്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-pagecurl.html">4.11. പേജ് കേൾ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

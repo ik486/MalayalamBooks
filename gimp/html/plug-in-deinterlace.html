@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.3. ഡീഇന്റര്ലെയിസിങ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-enhance.html" title="3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക" />
+    <link rel="prev" href="plug-in-antialias.html" title="3.2. Antialias" />
+    <link rel="next" href="plug-in-despeckle.html" title="3.4. Despeckle" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.3. ഡീഇന്റര്ലെയിസിങ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-antialias.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-despeckle.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-deinterlace"></a>3.3. ഡീഇന്റര്ലെയിസിങ്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925517369184" class="indexterm"></a>
+      <a id="idp46925520028336" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925521145392"></a>3.3.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <p>videocards, ഫാസ്റ്റ് പ്രസ്ഥാനം രേഖപ്പെടുത്തി പ്രത്യേകിച്ച് പിടിച്ചെടുത്തു ചിത്രങ്ങൾ, സ്പ്ലിറ്റ് വസ്തുക്കൾ, മങ്ങിയ ആൻഡ് ഊരിയെടുത്തു കാണപ്പെടാം. ഈ എങ്ങനെ ക്യാമറകൾ പ്രവൃത്തി കാരണം. അവർ പകുതി ലംബമായ റെസല്യൂഷനുള്ള സെക്കന്റിൽ 25 ചിത്രങ്ങൾ, എന്നാൽ 50 റെക്കോർഡ് ചെയ്യരുത്. ഒറ്റ ഫ്രെയിം രണ്ട് കൂടിച്ചേർന്ന ചിത്രങ്ങൾ ഉണ്ട്. ആദ്യ ചിത്രത്തിന്റെ ആദ്യ വരി ആദ്യ ചിത്രം രണ്ടാമത്തെ വരി പിന്നാലെ രണ്ടാം ചിത്രത്തിന്റെ ആദ്യ വരി തൊട്ടുപിന്നിൽ ... മുതലായവ അങ്ങനെ, രണ്ട് ചിത്രങ്ങൾക്കിടയിൽ ഒരു പ്രധാന നീക്കത്തെ സംഭവിച്ചിട്ടുണ്ടോ എന്നു വസ്തുക്കളോ പിളർപ്പ് ദൃശ്യമാകും, ഊരിയെടുത്തു മാറ്റി.</p>
+        <p>ഡീഇന്റര്ലെയിസിങ് അരിപ്പ ഇരു ചിത്രങ്ങളും മാത്രമല്ല എന്ന നിലനിർത്തുകയും മുൻപ് താഴെ പറയുന്ന വരികൾ തമ്മിലുള്ള ഒരു ഗ്രേഡിയന്റ് നഷ്ടപ്പെടുന്നുണ്ട് വരികൾ പകരമാണ്. തത്ഫലമായി ചിത്രം, അല്ലെങ്കിൽ നിരക്കു ഏതാണ്ട് മങ്ങിക്കപ്പെടും, പക്ഷേ വർദ്ധിപ്പിക്കാനും ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുന്നതിനായി കഴിയും</p>
+        <p>നിങ്ങൾ <a class="xref" href="">???</a> ചെയ്തത് കൂടിച്ചേർന്ന ചിത്രങ്ങൾ കാണാവുന്നതാണ്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925521146800"></a>3.3.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Enhance</span> → <span class="guimenuitem">Deinterlace</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925510670720"></a>3.3.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925520029728"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.21. ഡീഇന്റര്ലെയിസിങ് ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/enhance/deinterlace.png" alt="ഡീഇന്റര്ലെയിസിങ് ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p>പരിശോധിച്ചാൽ, പരാമീറ്റർ ക്രമീകരണം ഫലങ്ങളിൽ ഇന്ററാക്ടീവ് പ്രിവ്യൂ പ്രദർശിപ്പിക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">ഒറ്റയായി വയലുകളും നിലനിർത്തുക, </span>
+              <span class="term">പോലും വയലുകളും നിലനിർത്തുക</span>
+            </dt>
+            <dd>
+              <p>അവരിൽ ഒരാൾ ഒരു മികച്ച ഫലം വേണ്ടി. നിങ്ങൾ രണ്ടുപേർക്കും ശ്രമിക്കണം.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925520047680"></a>3.3.4. ഉദാഹരണം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925520048416"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.22. ഡീഇന്റര്ലെയിസിങ് ഫിൽട്ടർ ലളിതമായ അപേക്ഷിക്കുന്ന ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/interlaced.png" alt="ഡീഇന്റര്ലെയിസിങ് ഫിൽട്ടർ ലളിതമായ അപേക്ഷിക്കുന്ന ഉദാഹരണം" />
+              <div class="caption">
+                <p>ടോപ്പ്: പോലും വരികള് പിക്സൽ വലതുവശത്ത് ഒരു പിക്സൽ വഴി മാറ്റി ചെയ്യുന്നു. താഴെ: ഒരു വരി കാണുന്നില്ല. ഈ ചിത്രങ്ങൾ പിക്സൽ കാണിക്കാൻ സൂം ചെയ്യുന്നു.</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/deinterlaced-1.png" alt="ഡീഇന്റര്ലെയിസിങ് ഫിൽട്ടർ ലളിതമായ അപേക്ഷിക്കുന്ന ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Keep even fields</span>”</span> പരിശോധിച്ചത്. ടോപ്പ്: ഒറ്റയായി വരികള് തങ്ങൾ വരികൾ അനുസൃതമായി, വലതുവശത്ത് മാറ്റി. താഴെ: ശൂന്യമായ വരി ചുവന്ന നിറഞ്ഞു ചെയ്തു.</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/deinterlaced-2.png" alt="ഡീഇന്റര്ലെയിസിങ് ഫിൽട്ടർ ലളിതമായ അപേക്ഷിക്കുന്ന ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Keep odd fields</span>”</span> പരിശോധിച്ചത്. ടോപ്പ്: പോലും വരികള് തങ്ങളെ ഒറ്റയായി വരികൾ അനുസൃതമായി, ഇടത് മാറ്റി. താഴെ: ശൂന്യമായ വരി നിലനിൽക്കുകയാണെങ്കിൽ, എന്നാൽ ഒരു ഗ്രേഡിയന്റ് വഴി മുകളിലേക്കും താഴേക്കും ചേരുന്നു.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-antialias.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-enhance.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-despeckle.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-antialias.html">3.2. Antialias</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-despeckle.html">3.4. Despeckle</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

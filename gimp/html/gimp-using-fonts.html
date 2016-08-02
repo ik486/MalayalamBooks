@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.2. ഫോണ്ടുകൾ ചേർക്കുന്നത്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-using-text.html" title="3. ടെക്സ്റ്റ്" />
+    <link rel="prev" href="gimp-using-text.html" title="3. ടെക്സ്റ്റ്" />
+    <link rel="next" href="font-problems.html" title="3.3. ഫോണ്ട് പ്രശ്നങ്ങൾ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.2. ഫോണ്ടുകൾ ചേർക്കുന്നത്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-using-text.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. ടെക്സ്റ്റ്</th>
+          <td width="20%" align="right"> <a accesskey="n" href="font-problems.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-using-fonts"></a>3.2. ഫോണ്ടുകൾ ചേർക്കുന്നത്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925510183248" class="indexterm"></a>
+      <a id="idp46925510184624" class="indexterm"></a>
+      <p>ജിമ് ഫോണ്ടുകൾ ന് ഏറ്റവും ആധികാരികമായ മുകളിലുള്ളത്-റ്റു-ഡേറ്റ് വിവരങ്ങൾക്ക്, ജിമ്പ് വെബ് സൈറ്റിൽ <span class="quote">“<span class="quote">Fonts in GIMP 2.0</span>”</span> പേജ് <a class="xref" href="bibliography.html#bibliography-online-gimp-fonts" title="ജിമ്പ് 2.0 ഫോണ്ടുകൾ">[<abbr class="abbrev">ജിമ്പ്-ഫോണ്ടുകൾ</abbr>]</a> കൂടിയാലോചിക്കുകയും. ഈ ഭാഗം നിങ്ങൾക്ക് ഒരു സഹായകരമായ കിട്ടുന്നതിനായി ശ്രമിക്കുന്നു.</p>
+      <p>ജിമ്പ് ഫോണ്ടുകൾ റെൻഡർ ചെയ്യാൻ FreeType 2 ഫോണ്ട് എഞ്ചിൻ ഉപയോഗിക്കുന്നു അവയെ നിയന്ത്രിക്കാനുള്ള fontconfig എന്ന ഒരു സിസ്റ്റത്തിലേക്ക്. ജിമ്പ് നിങ്ങൾ fontconfig ഫോണ്ട് പാതയിൽ ഏതെങ്കിലും ഫോണ്ട് ഉപയോഗിക്കാം ചെയ്യും; അത് നിങ്ങൾ അത് ഏത് മുൻഗണനകൾ ഡയലോഗ് <a class="link" href="gimp-pimping.html#gimp-prefs-folders-data" title="1.19. Data Folders">Font Folders</a> പേജിൽ സജ്ജീകരിച്ച ജിമ്പ് ഫോണ്ട് പാത്ത്, കണ്ടെത്തുന്ന ഏതെങ്കിലും ഫോണ്ട് ഉപയോഗിക്കാം ചെയ്യും. സ്വതവേ, ഫോണ്ട് പാത്ത് ഒരു സിസ്റ്റം ജിമ്പ്-ഫോണ്ടുകൾ ഫോൾഡർ (അത് യഥാർത്ഥത്തിൽ ശൂന്യമാണ് പോലും മാറ്റംവരുത്തിയോ ചെയ്യരുതെന്നു) നിങ്ങളുടെ സ്വകാര്യ ജിമ്പ് ഡയറക്ടറി ഉള്ളിൽ ഒരു <code class="filename">fonts</code> ഫോൾഡർ ഉൾപ്പെടുന്നു. അത് നിങ്ങൾക്ക് ബോധ്യപ്പെടുത്തുകയും എങ്കിൽ നിങ്ങൾ ഫോണ്ട് പാത്ത് പുതിയ ഫോൾഡറുകൾ ചേർക്കാൻ കഴിയും.</p>
+      <p>FreeType 2 വളരെ ശക്തവും ഇഷ്ടാനുസരണം സമ്പ്രദായമാണ്. സ്വതവേ, താഴെ ഫോണ്ട് ഫയൽ ഫോർമാറ്റുകൾ പിന്തുണയ്ക്കുന്നു:</p>
+      <div class="itemizedlist">
+        <ul class="itemizedlist" style="list-style-type: disc; ">
+          <li class="listitem">
+            <p>TrueType ഫോണ്ടുകൾ (ശേഖരങ്ങളും)</p>
+          </li>
+          <li class="listitem">
+            <p>1 ഫോണ്ടുകൾ ടൈപ്പ്</p>
+          </li>
+          <li class="listitem">
+            <p>സി.ഐ.ഡി-.പിയിലേക്ക് ഇനം 1 ഫോണ്ടുകൾ</p>
+          </li>
+          <li class="listitem">
+            <p>CFF ഫോണ്ടുകൾ</p>
+          </li>
+          <li class="listitem">
+            <p>ഓപ്പണ്ടൈപ്പ് ഫോണ്ടുകൾ (TrueType ആൻഡ് CFF രണ്ടും വേരിയന്റുകളിൽ)</p>
+          </li>
+          <li class="listitem">
+            <p>SFNT അധിഷ്ഠിത ബിറ്റ്മാപ്പ് ഫോണ്ടുകൾ</p>
+          </li>
+          <li class="listitem">
+            <p>എക്സ് 11 PCF ഫോണ്ടുകൾ</p>
+          </li>
+          <li class="listitem">
+            <p>വിൻഡോസ് FNT ഫോണ്ടുകൾ</p>
+          </li>
+          <li class="listitem">
+            <p>BDF ഫോണ്ടുകൾ (-അപരത്വമാണ് വിരുദ്ധ പശുക്കൾ ഉൾപ്പെടെ)</p>
+          </li>
+          <li class="listitem">
+            <p>PFR ഫോണ്ടുകൾ</p>
+          </li>
+          <li class="listitem">
+            <p>Type42 ഫോണ്ടുകൾ (പരിമിതമായ പിന്തുണ)</p>
+          </li>
+        </ul>
+      </div>
+      <p>നിങ്ങൾക്ക് ഫോണ്ട് മറ്റു തരത്തിലുള്ള ഫയലുകൾ പിന്തുണയ്ക്കാൻ മൊഡ്യൂളുകൾ ചേർക്കാൻ കഴിയും. കൂടുതൽ വിവരങ്ങൾക്ക് FREETYPE 2 <a class="xref" href="bibliography.html#bibliography-online-freetype" title="Freetype 2 ഹോം പേജ്">[<abbr class="abbrev">FREETYPE</abbr>]</a> കാണുക.</p>
+      <p><strong>ലിനക്സ്. </strong>ലിനക്സ് സിസ്റ്റത്തിൽ, ആണ് fontconfig യൂട്ടിലിറ്റി പതിവുപോലെ നിർത്തിയ, നിങ്ങൾക്ക് ഒരു പുതിയ ഫോണ്ട് ചേർക്കാൻ ചെയ്യേണ്ടത് എല്ലാ ഡയറക്ടറി <code class="filename">~/.fonts</code> ഫയൽ സ്ഥാപിക്കുക എന്നതാണ്. ഇത് ഫോണ്ട് ലഭ്യമല്ല മാത്രമല്ല ജിമ്, എന്നാൽ fontconfig ഉപയോഗിക്കുന്ന മറ്റേതെങ്കിലും പ്രോഗ്രാം ചെയ്യും. നിങ്ങൾ ഫോണ്ട് ജിമ്പ് മാത്രം ലഭ്യമാകും ആഗ്രഹിക്കുന്ന ചില കാരണങ്ങളാൽ, നിങ്ങൾക്ക് നിങ്ങളുടെ വ്യക്തിഗത ജിമ്പ് ഡയറക്ടറിയുടെ <code class="filename">fonts</code> സബ് ഡയറക്ടറി, അല്ലെങ്കിൽ നിങ്ങളുടെ ഫോണ്ട് തിരയൽ പാതയിൽ മറ്റ് ചില സ്ഥലത്ത് സ്ഥാപിക്കാൻ കഴിയും. ഒന്നുകിൽ ചെയ്യുന്നത് ഫോണ്ട് നിങ്ങൾ ജിമ്പ് ആരംഭിക്കാൻ അടുത്ത തവണ കാണിക്കും ഇടയാക്കും. നിങ്ങൾ ഒരു ഇതിനകം പ്രവർത്തിക്കുന്ന ജിമില അത് ഉപയോഗിക്കാൻ ആഗ്രഹിക്കുന്നു എങ്കിൽ, <a class="link" href="gimp-font-dialog.html" title="3.7. ഫോണ്ടുകൾ സംഭാഷണം">Fonts dialog</a> ലെ <span class="emphasis"><em>Refresh</em></span> <span class="guiicon"><img src="images/dialogs/stock-reload-16.png " /></span> ബട്ടൺ അമർത്തുക.</p>
+      <p><strong>വിൻഡോസ്. </strong>ഒരു ഫോണ്ട് ഇൻസ്റ്റാൾ എളുപ്പത്തിലുള്ള വഴി ഫോണ്ടുകൾ ഡയറക്ടറി ഫയൽ ഡ്രാഗ് ഷെൽ അതിന്റെ മാജിക്ക് ചെയ്യട്ടെ എന്നതാണ്. നിങ്ങൾ ക്രിയേറ്റീവ് എന്തെങ്കിലും ചെയ്തപോലെ അല്ലാതെ ഇത് <code class="filename">C: \windows\fonts</code>  അല്ലെങ്കിൽ <code class="filename">C:\winnt\fonts</code>  അതിന്റെ സ്ഥിര ലൊക്കേഷനിൽ ഒരുപക്ഷേ തുടർന്ന്. ചിലപ്പോൾ ഒരു ഫോണ്ട് ഡബിൾ ക്ലിക്ക് ഇന്സ്റ്റാള് അതു പോലെ പ്രദർശിപ്പിക്കാൻ; ചിലപ്പോൾ അത് മാത്രമായി പ്രദർശിപ്പിക്കുന്നു. ഈ രീതി <acronym class="acronym">GIMP</acronym> ലേക്ക്, മറ്റു വിൻഡോസ് പ്രയോഗങ്ങൾ മാത്രമല്ല ഫോണ്ട് ലഭ്യമാക്കും.</p>
+      <p><strong>മാക് ഒഎസ് എക്സ്. </strong>നിങ്ങളുടെ സിസ്റ്റത്തിൽ ഫോണ്ടുകൾ ഇൻസ്റ്റാൾ നിരവധി വഴികളുണ്ട്. ഡ്രാഗ്-പരേതരായ കഴിയും നിങ്ങളുടെ <span class="quote">“<span class="quote">Home Folder</span>”</span> എന്ന <span class="quote">“<span class="quote">Libraries</span>”</span> ഫോൾഡറിൽ <span class="quote">“<span class="quote">Fonts</span>”</span> ഫോൾഡർ അവരെ ഡ്രോപ്പ്. അല്ലെങ്കിൽ നിങ്ങൾക്ക് <span class="application">Font Book</span>, ഫൈൻഡറിൽ ഫോണ്ട് ഫയൽ ഐക്കൺ ഇരട്ട-ക്ലിക്കുചെയ്ത് അഭ്യർത്ഥിച്ചു ഉപയോഗിക്കാം. നിങ്ങൾ ഫോണ്ട് പോലെ കാണപ്പെടുന്നു കാണുകയും അങ്ങനെ അവരുടെ ഫയലുകൾ സിസ്റ്റത്തിൽ ഇൻസ്റ്റോൾ ചെയ്യേണ്ട നിങ്ങളുടെ പ്രിയപ്പെട്ട ഫോണ്ടുകൾ ക്ലിക്ക് ചെയ്യാം. ഈ രീതികൾ എല്ലാ പ്രയോഗങ്ങൾ വേണ്ടി ഫോണ്ടുകൾ ലഭ്യമാക്കും, <acronym class="acronym">GIMP</acronym> മാത്രമല്ല. നിങ്ങൾ എല്ലാ ഉപയോക്താക്കൾക്കും ഫോണ്ടുകൾ ഉപയോഗിക്കാൻ കഴിയും ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, <span class="quote">“<span class="quote">Fonts</span>”</span> ഫോൾഡറിലേക്ക് <span class="productname">Mac OS X</span> ഡിസ്കിന്റെ <span class="quote">“<span class="quote">Libraries</span>”</span> ഫോൾഡറിൽ, അല്ലെങ്കിൽ <span class="application">Font Book</span> ഓഫ് <span class="guilabel">Collection</span> കോളത്തിൽ <span class="quote">“<span class="quote">Computer</span>”</span> ഫോൾഡറിൽ വലിച്ച് ഡ്രോപ്പ് ഫോണ്ടുകൾ.</p>
+      <p>ഒരു ടൈപ്പ് 1 ഫയൽ ഇൻസ്റ്റോൾ ചെയ്യുന്നതിനായി, <code class="filename">.pfb</code> ആൻഡ് <code class="filename">.pfm</code> ഫയലുകളും ആവശ്യമാണ്. ഫോണ്ടുകൾ ഫോൾഡറിൽ ഒരു ഐക്കൺ ലഭിക്കുന്നു ഒരെണ്ണം വലിച്ചിടുക. മറ്റ് ഒരു കർശനമായി അത് അങ്ങനെയല്ലെങ്കിൽ അത് കണ്ടെത്താൻ തിരയൽ അൽഗോരിതം ചില ഉപയോഗിക്കുന്നതിനാൽ, ഫയൽ ഡ്രാഗ് ഒരേ ഡയറക്ടറിയിൽ ആവശ്യം ഇല്ല, ഏതായാലും അതേ ഡയറക്ടറിയിൽ ഇടുന്നതിനു നയിക്കും.</p>
+      <p>തത്ത്വത്തിൽ ജിമ്പ് FreeType കൈകാര്യം ചെയ്യാൻ വിൻഡോസിൽ ഫോണ്ട് ഏതെങ്കിലും തരത്തിലുള്ള ഉപയോഗിക്കാൻ കഴിയും; എന്നാൽ, വിൻഡോസ് ജനവിഭാഗം കൈകാര്യം ചെയ്യാൻ കഴിയാത്ത ഫോണ്ടുകൾ വേണ്ടി നിങ്ങൾ അവരെ നിങ്ങളുടെ ഫോണ്ട് തിരയൽ പാതയിൽ നിങ്ങളുടെ വ്യക്തിഗത ജിമ്പ് ഡയറക്ടറിയുടെ <code class="filename">fonts</code> ഫോൾഡർ അല്ലെങ്കിൽ മറ്റേതെങ്കിലും ലൊക്കേഷനിൽ ഫോണ്ട് ഫയലുകൾ സ്ഥാപിച്ച് ഇൻസ്റ്റാൾ ചെയ്യണം. വിൻഡോസ് ഉണ്ട് പിന്തുണ പതിപ്പ് നിയമമണ്ഡലങ്ങൾക്കും. ജിമ്പ് പിന്തുണ കുറഞ്ഞത് TrueType, വിൻഡോസ് fon, Windows FNT പ്രവർത്തിക്കുന്ന എല്ലാ. വിന്ഡോസ് 2000 പിന്നീട് പിന്തുണ ഇനം 1, ഓപ്പണ്ടൈപ്പ്. വിൻഡോസ് എം.ഇ ഓപ്പണ്ടൈപ്പ് പിന്തുണയ്ക്കുന്നു സാധ്യതയുണ്ട് 1 തരം (പക്ഷേ ഏറ്റവും കൂടുതൽ ഉപയോഗിക്കുന്ന വിൻഡോസ് ജിമ് ഇൻസ്റ്റോളർ ഔദ്യോഗികമായി അത് എന്തായാലും പ്രവർത്തിക്കും കൂടിയും, വിൻഡോസ് എം.ഇ പിന്തുണയ്ക്കുന്നില്ല).</p>
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+        <table border="0" summary="Note">
+          <tr>
+            <td rowspan="2" align="center" valign="top" width="25">
+              <img alt="[കുറിപ്പു്]" src="images/note.png" />
+            </td>
+            <th align="left">കുറിപ്പു്</th>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <p>ജിമ്പ് ലിനക്സ് വിൻഡോസിൽ ഫോണ്ടുകൾ അതുപോലെ നിയന്ത്രിക്കാൻ fontconfig ഉപയോഗിക്കുന്നു. സ്ഥിരമായി fontconfig കാരണം പ്രവൃത്തി മുകളിൽ നിർദ്ദേശങ്ങൾ വിൻഡോസ് ഫോണ്ടുകൾ ഡയറക്ടറി ഞാൻ ഉപയോഗിക്കുന്നു. വിൻഡോസ് സ്വയം ഉപയോഗിക്കുന്ന ഇ., ഒരേ ഫോണ്ടുകൾ. ഏതെങ്കിലും സാഹചര്യത്തിൽ, നിങ്ങളുടെ സ്വകാര്യ ജിമ്പ് ഡയറക്ടറിയുടെ <code class="filename">fonts</code> ഫോൾഡർ പ്രവർത്തിച്ചാണ്: ചില കാരണങ്ങളാൽ നിങ്ങളുടെ fontconfig ആണ് വ്യത്യസ്തമായി നിർത്തിയ, നിങ്ങൾക്ക് ജിമ്പ് അവരെ കണ്ടെത്താനാകും എവിടെ ഫോണ്ടുകൾ കൊല്ലുവാൻ അവയെന്തെല്ലാമെന്നു് ഉണ്ടായിരിക്കും.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-using-text.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-using-text.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="font-problems.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-text.html">3. ടെക്സ്റ്റ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="font-problems.html">3.3. ഫോണ്ട് പ്രശ്നങ്ങൾ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,2320 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP-Help 2.8.0\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
+"PO-Revision-Date: 2012-06-01 12:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/menus/file/save-as-copy.xml:9(title)
+#, fuzzy
+msgid "Save a Copy"
+msgstr ""
+"ഒരു Cop_y സംരക്ഷിക്കുക ..."
+
+#: src/menus/file/save-as-copy.xml:12(primary)
+#: src/menus/file/create.xml:13(primary)
+#: src/menus/file/open-location.xml:15(primary)
+#: src/menus/file/new.xml:17(primary) src/menus/file/new.xml:72(primary)
+#: src/menus/file/new.xml:175(primary) src/menus/file/new.xml:310(primary)
+#: src/menus/file/save-as.xml:17(primary)
+#: src/menus/file/open-recent.xml:12(primary)
+#: src/menus/file/close.xml:13(primary)
+#: src/menus/file/open-as-layer.xml:15(primary)
+#: src/menus/file/save-as-template.xml:12(primary)
+#: src/menus/file/open.xml:16(primary) src/menus/file/revert.xml:12(primary)
+msgid "Image"
+msgstr ""
+"ചിത്രം"
+
+#: src/menus/file/save-as-copy.xml:13(secondary)
+#: src/menus/file/save-as.xml:18(secondary)
+#: src/menus/file/save-as-template.xml:13(secondary)
+#, fuzzy
+msgid "Save image"
+msgstr ""
+"സ്കെയിൽ ചിത്രം"
+
+#: src/menus/file/save-as-copy.xml:14(tertiary)
+#: src/menus/file/save-as-copy.xml:17(primary)
+#, fuzzy
+msgid "Save a copy"
+msgstr ""
+"ഒരു Cop_y സംരക്ഷിക്കുക ..."
+
+#: src/menus/file/save-as-copy.xml:20(para)
+msgid ""
+"The <guimenuitem>Save a Copy</guimenuitem> command does the same thing as "
+"the <guimenuitem>Save</guimenuitem> command, but with one important "
+"difference. It always asks for a file name and saves the image into the "
+"specified file, but it does not change the name of the active image or mark "
+"it as <quote>clean</quote>. As a result, if you try to delete the image, or "
+"exit from <acronym>GIMP</acronym>, you are informed that the image is "
+"<quote>dirty</quote> and given an opportunity to save it."
+msgstr ""
+"<guimenuitem>Save a Copy</guimenuitem> കമാൻഡ് ഒരേ കാര്യം <guimenuitem>Save<"
+"/guimenuitem> കമാൻഡ് പോലെ, എന്നാൽ ഒരു പ്രധാനപ്പെട്ട വ്യത്യാസം ചെയ്യുന്നു. "
+"ഇത് എപ്പോഴും ഒരു ഫയൽ പേര് ചോദിച്ചാൽ വ്യക്തമാക്കിയ ഫയൽ ചിത്രം സംരക്ഷിക്കുന"
+"്നു, എന്നാൽ അത് സജീവ ചിത്രത്തിന്റെ പേര് മാറ്റാൻ അല്ലെങ്കിൽ <quote>clean</qu"
+"ote> എന്ന് അടയാളപ്പെടുത്തുക ഇല്ല. തത്ഫലമായി, നിങ്ങൾ ഇമേജ് അല്ലെങ്കിൽ <acron"
+"ym>GIMP</acronym> നിന്ന് എക്സിറ്റ് ഇല്ലാതാക്കാൻ ശ്രമിച്ചാൽ, ഇമേജ് <quote>di"
+"rty</quote> ആണ് അറിയിക്കുകയും അതു സംരക്ഷിക്കാൻ ഒരു അവസരം നൽകുന്നു."
+
+#: src/menus/file/save-as-copy.xml:30(para)
+msgid ""
+"This command is useful when you want to save a copy of your image in its "
+"current state, but continue to work with the original file without "
+"interruption."
+msgstr ""
+"നിങ്ങൾ നിലവിലെ അവസ്ഥയിൽ നിങ്ങളുടെ ചിത്രത്തിൻറെ ഒരു പകർപ്പ് സംരക്ഷിക്കുകയും,"
+" പക്ഷേ തടസ്സവും യഥാർത്ഥ ഫയൽ പ്രവർത്തിക്കാൻ തുടരാൻ ആഗ്രഹിക്കുന്ന ഈ കമാൻഡ് ഉപ"
+"യോഗപ്പെടുന്നു."
+
+#: src/menus/file/save-as-copy.xml:37(title)
+#: src/menus/file/print.xml:40(title) src/menus/file/quit.xml:29(title)
+#: src/menus/file/open-location.xml:30(title)
+#: src/menus/file/open-recent.xml:29(title)
+#: src/menus/file/open-as-layer.xml:35(title)
+#: src/menus/file/save-as-template.xml:38(title)
+#: src/menus/file/revert.xml:39(title)
+#, fuzzy
+msgid "Activate Command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/file/save-as-copy.xml:40(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Save a Copy</guimenuitem></"
+"menuchoice>. There is no default keyboard shortcut."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/file/print.xml:28(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/file/print-tab3.png'; "
+"md5=5ad378c86c870d90bdc3515d6feb6b1c"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#: src/menus/file/print.xml:13(title)
+#, fuzzy
+msgid "Print"
+msgstr "_Print"
+
+#: src/menus/file/print.xml:16(primary)
+msgid "Printing"
+msgstr ""
+"അച്ചടി"
+
+#: src/menus/file/print.xml:17(secondary)
+#, fuzzy
+msgid "Print command"
+msgstr ""
+"നിലവിൽ കമാൻഡ്"
+
+#: src/menus/file/print.xml:19(para)
+msgid ""
+"Since the 2.4.0 release, <acronym>GIMP</acronym> has its own printing "
+"module. You can set page and image up. A preview button allows you to verify "
+"the result before printing."
+msgstr ""
+"2.4.0 പ്രകാശനം മുതൽ, <acronym>GIMP</acronym> സ്വന്തം പ്രിന്റിംഗ് ഘടകം ഉണ്ട്"
+". നിങ്ങൾ പേജും ഇമേജ് സജ്ജമാക്കാൻ കഴിയും. പ്രിവ്യൂ ബട്ടൺ പ്രിന്റുചെയ്യുന്നതി"
+"നുമുമ്പ് ഫലം സ്ഥിരീകരിക്കാൻ അനുവദിക്കുന്നു."
+
+#: src/menus/file/print.xml:25(title)
+#, fuzzy
+msgid "The <quote>Print</quote> dialog"
+msgstr ""
+"<quote>Edit</quote> മെനു"
+
+#: src/menus/file/print.xml:33(para)
+msgid ""
+"See <link linkend=\"gimp-using-photography-printing\">Printing your photos</"
+"link>."
+msgstr ""
+"<link linkend=\"gimp-using-photography-printing\">Printing your photos</lin"
+"k> കാണുക."
+
+#: src/menus/file/print.xml:41(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Print</guimenuitem></"
+"menuchoice>, or by using <keycombo><keycap>Ctrl</keycap><keycap>P</keycap></"
+"keycombo>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/file/create.xml:24(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/file/create.png'; md5=beb99fd75de9ae8bba0c278eb445385a"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/file/create.xml:87(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/file/create/screenshot.png'; "
+"md5=1662c563c6b15d82db6e8cb8657b62f4"
+msgstr ""
+"@@image: 'images/menus/windows.png'; md5=13c6b14871d3818165be232dda179015"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/file/create.xml:171(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/file/create/scanner.png'; "
+"md5=5f8d38f919cdfe093da106137dc29822"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#: src/menus/file/create.xml:10(title)
+msgid "Create"
+msgstr ""
+"സൃഷ്ടിക്കാൻ"
+
+#: src/menus/file/create.xml:14(secondary)
+#, fuzzy
+msgid "Acquire an image"
+msgstr ""
+"ഒരു ചിത്രം മുറിക്കുന്നതിന്"
+
+#: src/menus/file/create.xml:17(primary)
+#, fuzzy
+msgid "Acquire"
+msgstr "Acq_uire"
+
+#: src/menus/file/create.xml:21(title)
+#, fuzzy
+msgid "The <quote>Create</quote> submenu"
+msgstr ""
+"<quote>Image</quote> മെനു"
+
+#: src/menus/file/create.xml:29(para)
+msgid ""
+"This menu item replaces the <quote>Acquire</quote> menu which existed in "
+"<acronym>GIMP</acronym> previous versions in the Toolbox Menu and contains a "
+"lot of logos, buttons, patterns..."
+msgstr ""
+"ഈ മെനു ഇനം പണിസഞ്ചി മെനു <acronym>GIMP</acronym> മുൻ പതിപ്പുകൾ നിലനിന്നിരുന"
+"്നു ലോഗോകളും, ബട്ടണുകൾ, പാറ്റേണുകളുടെ ധാരാളം അടങ്ങുന്ന <quote>Acquire</qu"
+"ote> മെനു മാറ്റിസ്ഥാപിക്കുന്നു ..."
+
+#: src/menus/file/create.xml:34(para)
+msgid ""
+"These commands vary somewhat, depending upon your system, since the "
+"<acronym>GIMP</acronym> makes calls to system functions."
+msgstr ""
+"ഈ കമാൻഡുകൾ കരുതില്ല <acronym>GIMP</acronym> സിസ്റ്റം പ്രവർത്തനങ്ങൾ ലേക്കുള്"
+"ള കോളുകൾ ചെയ്യുന്നു, നിങ്ങളുടെ സിസ്റ്റം ആശ്രയിച്ചിരിക്കും വ്യത്യാസപ്പെട്ടി"
+"രിക്കും."
+
+#. id="gimp-file-create-activate"
+#: src/menus/file/create.xml:40(title)
+#, fuzzy
+msgid "Activate the Submenu"
+msgstr ""
+"_focused ചിത്രം സജീവമാക്കുക"
+
+#: src/menus/file/create.xml:43(para)
+#, fuzzy
+msgid ""
+"You can access this submenu from the Image menu bar through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Create</guimenuitem></"
+"menuchoice>"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/file/create.xml:55(title)
+msgid "From Clipboard"
+msgstr ""
+"ക്ലിപ്ബോർഡ് നിന്നും"
+
+#: src/menus/file/create.xml:56(para)
+msgid ""
+"When you copy a selection, it goes into the clipboard. Then you can create a "
+"new image with it."
+msgstr ""
+"നിങ്ങൾ ഒരു നിര പകർത്താനും, അത് ക്ലിപ്പ്ബോർഡിലേക്ക് പോകുന്നു. അപ്പോൾ നിങ്"
+"ങൾ അതു ഒരു പുതിയ ഇമേജ് തയ്യാറാക്കാം."
+
+#: src/menus/file/create.xml:60(para)
+msgid ""
+"This command has the same action as the <link linkend=\"gimp-edit-paste-as-"
+"new\">Paste as new</link> command."
+msgstr ""
+"ഈ കമാൻഡ് <link linkend=\"gimp-edit-paste-as- new\">Paste as new</link> കമാൻ"
+"ഡ് പോലെ തന്നെ നടപടി ഉണ്ട്."
+
+#: src/menus/file/create.xml:64(para)
+msgid ""
+"The <keycap>Print Screen</keycap> keyboard key captures the screen and puts "
+"it in the clipboard. This command has the same action as <quote>taking a "
+"screenshot of the entire screen</quote> in the <link linkend=\"plug-in-"
+"screenshot\">Screenshot</link> dialog window. The <keycombo><keycap>Alt</"
+"keycap><keycap>Print Screen</keycap></keycombo> key combination grabs the "
+"active window in the screen with its decorations and puts it in the "
+"clipboard."
+msgstr ""
+"<keycap>Print Screen</keycap> കീബോർഡ് കീ സ്ക്രീൻ ക്യാപ്ചർ ചെയ്ത് ക്ലിപ്ബോ"
+"ർഡ് അത് ഇടുന്നു. ഈ കമാൻഡ് <link linkend=\"plug-in- screenshot\">Screenshot<"
+"/link> ഡയലോഗ് വിൻഡോയിൽ <quote>taking a screenshot of the entire screen</q"
+"uote> അതേ നടപടി ഉണ്ട്. <keycombo><keycap>Alt</keycap><keycap>Print Screen</"
+"keycap></keycombo> കീ കോമ്പിനേഷൻ അതിന്റെ അലങ്കാരങ്ങൾ കൊണ്ട് സ്ക്രീനിൽ സജീ"
+"വ ജാലകം പിടിച്ചുപറ്റി ക്ലിപ്ബോർഡ് അത് ഇടുന്നു."
+
+#: src/menus/file/create.xml:76(title) src/menus/file/create.xml:79(primary)
+msgid "Screenshot"
+msgstr ""
+"സ്ക്രീൻഷോട്ട്"
+
+#: src/menus/file/create.xml:83(title)
+#, fuzzy
+msgid "The <quote>Screenshot</quote> window"
+msgstr ""
+"<quote>Select</quote> മെനു"
+
+#: src/menus/file/create.xml:92(para)
+msgid ""
+"The <guimenuitem>Screenshot</guimenuitem> command opens a dialog with two "
+"parts:"
+msgstr ""
+"<guimenuitem>Screenshot</guimenuitem> കമാൻഡ് രണ്ടു ഭാഗങ്ങൾ ഒരു ഡയലോഗ് തുറക"
+"്കുന്നു:"
+
+#: src/menus/file/create.xml:99(term)
+msgid "Area"
+msgstr ""
+"ഏരിയ"
+
+#: src/menus/file/create.xml:103(term)
+#, fuzzy
+msgid "Take a screenshot of a single window"
+msgstr ""
+"ഒരൊറ്റ _window ഒരു സ്ക്രീൻഷോട്ട് എടുക്കുക"
+
+#: src/menus/file/create.xml:105(para)
+msgid ""
+"The mouse pointer becomes a cross. Click in the image window you want to "
+"capture. A new image is created. If the <guilabel>Include window decoration</"
+"guilabel> option is unchecked, the title bar and the blue frame around the "
+"image will be removed."
+msgstr ""
+"മൗസ് സൂചികയെ ഒരു ക്രോസ് മാറുന്നു. നിങ്ങൾ പിടിച്ചടക്കാൻ ആഗ്രഹിക്കുന്ന ഇമേജ്"
+" വിൻഡോയിൽ ക്ലിക്ക്. ഒരു പുതിയ ഇമേജ് സൃഷ്ടിക്കപ്പെട്ടിരിക്കുന്നത്. <guilabe"
+"l>Include window decoration</guilabel> ഓപ്ഷൻ പരിശോധിക്കാതെ എങ്കിൽ, ശീർഷക ബ"
+"ാറും ഇമേജിന് ചുറ്റും നീല ഫ്രെയിം നീക്കംചെയ്യും."
+
+#: src/menus/file/create.xml:115(term)
+#, fuzzy
+msgid "Take a screenshot of the entire screen"
+msgstr ""
+"മുഴുവൻ _screen ഒരു സ്ക്രീൻഷോട്ട് എടുക്കുക"
+
+#: src/menus/file/create.xml:117(para)
+msgid ""
+"This is useful if you want to capture a pop menu. A delay is then necessary, "
+"so that you have time to pull the pop menu down."
+msgstr ""
+"നിങ്ങൾ ഒരു പോപ്പ് മെനു പിടിച്ചടക്കാൻ ഇത് ഉപകാരപ്പെടുന്നതാണ് ആണ്. ഒരു കാലതാ"
+"മസം നിങ്ങൾ സ്ഥാനം പോപ്പ് മെനുവിൽ pull സമയം അങ്ങനെ, പിന്നെ അത്യാവശ്യമാണ്."
+
+#: src/menus/file/create.xml:122(para)
+msgid ""
+"If the <guilabel>Include mouse pointer</guilabel> option is checked, then "
+"the mouse pointer and its coming with icon are also captured. The mouse "
+"pointer is captured in a separate layer. So you can move it to another place "
+"in the image."
+msgstr ""
+"<guilabel>Include mouse pointer</guilabel> ഐച്ഛികം എങ്കിൽ, മൌസ് പോയിന്റർ "
+"അതിന്റെ ഐക്കൺ കൂടെ വരുന്നു പുറമേ എടുത്തത്. മൗസ് സൂചികയെ ഒരു പ്രത്യേക പാളിയാ"
+"യി ജനിക്കുന്നു. അങ്ങനെ നിങ്ങൾ ചിത്രം മറ്റൊരു സ്ഥലത്തേക്കു നീക്കാനാകും."
+
+#: src/menus/file/create.xml:131(term)
+#, fuzzy
+msgid "Select a region to grab"
+msgstr ""
+"പിടിച്ചെടുക്കാൻ ഒരു _region തിരഞ്ഞെടുക്കുക"
+
+#: src/menus/file/create.xml:133(para)
+msgid ""
+"The mouse pointer becomes a cross. Click and drag to create a rectangular "
+"selection in the image window. This selection will be opened as a new image. "
+"Its size is adapted to the selection size."
+msgstr ""
+"മൗസ് സൂചികയെ ഒരു ക്രോസ് മാറുന്നു. ചിത്രം വിൻഡോയിൽ ഒരു ചതുരാകൃതിയിലുള്ള നി"
+"ര സൃഷ്ടിക്കാൻ ക്ലിക്ക് ചെയ്ത് ഡ്രാഗ് ചെയ്യുക. ഈ തിരഞ്ഞെടുപ്പ് ഒരു പുതിയ ഇമേ"
+"ജ് ആയി തുറക്കപ്പെടും. അതിന്റെ വലിപ്പം നിരക്കു വലുപ്പം ചേർച്ചപ്പെടുത്തുകയാണ്"
+"."
+
+#: src/menus/file/create.xml:146(term)
+msgid "Delay"
+msgstr ""
+"കാലതാമസം"
+
+#: src/menus/file/create.xml:148(para)
+msgid ""
+"When taking a screenshot of the entire screen, the screen is captured after "
+"this delay. In the other cases, the mouse pointer turns to a cross after "
+"this delay."
+msgstr ""
+"മുഴുവൻ സ്ക്രീനും ഒരു സ്ക്രീൻഷോട്ട് എടുക്കൽ ചെയ്യുമ്പോൾ സ്ക്രീൻ ഈ കാലതാമസം"
+" ശേഷം ജനിക്കുന്നു. മറ്റ് സന്ദർഭങ്ങളിൽ, മൌസ് പോയിന്റർ ഈ കാലതാമസം ശേഷം ഒരു "
+"ക്രോസ് തിരിയുന്നു."
+
+#: src/menus/file/create.xml:160(title)
+#, fuzzy
+msgid "Image capture devices"
+msgstr ""
+"ചിത്രം പ്രോപ്പർട്ടീസ്"
+
+#. <anchor id="twain-acquire"/>
+#: src/menus/file/create.xml:162(para)
+msgid "This item is present only if you have installed image capture devices."
+msgstr ""
+"ഈ ഇനം ഇമേജ് ക്യാപ്ചർ ഉപകരണങ്ങൾ ഇൻസ്റ്റാൾ ചെയ്തിട്ടുണ്ടെങ്കിൽ മാത്രം അതില്ല."
+
+#: src/menus/file/create.xml:167(title)
+#, fuzzy
+msgid "Scanner and Camera"
+msgstr ""
+"_Scanner / ക്യാമറ ..."
+
+#: src/menus/file/create.xml:175(para)
+msgid ""
+"The kinds of devices used to take pictures are too varied to be described "
+"here. Fortunately, their use is fairly intuitive. In the example shown, you "
+"can start a scanner or take an image with a webcam."
+msgstr ""
+"ചിത്രങ്ങൾ എടുത്തു ഉപയോഗിച്ച ഉപകരണങ്ങൾ തരത്തിലുള്ള ഇവിടെ വിശേഷിപ്പിക്കണം കഴ"
+"ിയാത്തത്ര ഇക്കാലയളവിൽ. ഭാഗ്യവശാൽ ഇവയുടെ ഉപയോഗം ഗംഭീരമായി അവബോധജന്യവുമാണ്."
+" കാണിച്ചിരിക്കുന്ന ഉദാഹരണത്തിൽ, നിങ്ങൾ ഒരു സ്കാനർ തുടങ്ങാനോ ഒരു വെബ്ക്യാം "
+"ഉപയോഗിച്ച് ഒരു ചിത്രം എടുക്കാം."
+
+#: src/menus/file/create.xml:184(title)
+msgid "Buttons, Logos, Patterns, Web Page Themes"
+msgstr ""
+"ബട്ടണുകള്, ചിഹ്നങ്ങൾ, പാറ്റേണുകൾ, വെബ് പേജ് തീമുകൾ"
+
+#: src/menus/file/create.xml:185(para)
+msgid "An impressive list of script-fus. Have a look at it!"
+msgstr ""
+"സ്ക്രിപ്റ്റ്-fus ഒരു കനപ്പെട്ട ലിസ്റ്റ്. അതു പരിശോധിക്കാം!"
+
+#: src/menus/file/quit.xml:8(title)
+#, fuzzy
+msgid "Quit"
+msgstr ""
+"_പുറത്തു്കടക്കുക"
+
+#: src/menus/file/quit.xml:12(primary)
+msgid "Quit GIMP"
+msgstr ""
+"ജിമ്പ് ക്വിറ്റ്"
+
+#: src/menus/file/quit.xml:15(para)
+msgid ""
+"The <guimenuitem>Quit</guimenuitem> command causes <acronym>GIMP</acronym> "
+"to close all images and exit. If there are any open images which contain "
+"unsaved changes (that is, they are not marked as <quote>clean</quote>), "
+"<acronym>GIMP</acronym> notifies you and displays a list of the unsaved "
+"images. You can then choose which images you would like to save, or you can "
+"cancel the command. Note that if you have a large number of images open, or "
+"are using a large part of the RAM on your system, it may take a little while "
+"for everything to shut down."
+msgstr ""
+"<guimenuitem>Quit</guimenuitem> കമാൻഡ് എല്ലാ ചിത്രങ്ങളും എക്സിറ്റ് അടയ്ക്കാ"
+"ൻ <acronym>GIMP</acronym> കാരണമാകുന്നു. സംരക്ഷിക്കാത്ത മാറ്റങ്ങൾ (എന്നതാണ് "
+"അവർ <quote>clean</quote> അടയാളപ്പെടുത്തി അല്ല) ഉൾക്കൊള്ളുന്ന ഏതെങ്കിലും ഇമ"
+"േജുകൾ തുറക്കുക ഉണ്ടെങ്കിൽ, <acronym>GIMP</acronym> അറിയിപ്പ് കൂടാതെ സംരക്ഷി"
+"ക്കാത്ത ചിത്രങ്ങൾ പട്ടിക ലഭ്യമാക്കി. എന്നിട്ട് നിങ്ങൾ സംരക്ഷിക്കുവാൻ ആഗ്രഹി"
+"ക്കുന്ന ചിത്രങ്ങളെ തിരഞ്ഞെടുക്കാൻ കഴിയും, അല്ലെങ്കിൽ കമാൻഡ് റദ്ദാക്കാം. ഇമേ"
+"ജുകൾ ഒരു വലിയ സംഖ്യ തുറക്കാൻ എങ്കിൽ അല്ലെങ്കിൽ നിങ്ങളുടെ സിസ്റ്റത്തിൽ റാം ഒ"
+"രു വലിയ ഭാഗം ഉപയോഗിക്കുന്നു, അത് ഷട്ട് ഡൗൺ എല്ലാത്തിനും അല്പം സമയമെടുത്തേക"
+"്കാം ശ്രദ്ധിക്കുക."
+
+#: src/menus/file/quit.xml:32(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Quit</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/file/quit.xml:41(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>Q</"
+"keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>Q</k"
+"eycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/file/quit.xml:47(para)
+msgid ""
+"For most systems on which the <acronym>GIMP</acronym> runs, you can also "
+"execute it by clicking on a <quote>Close</quote> button somewhere on the "
+"main image window's titlebar. The location and appearance of this button are "
+"determined by the windowing system and the window manager."
+msgstr ""
+"ഏത് <acronym>GIMP</acronym> പ്രവർത്തിപ്പിക്കുന്ന മിക്ക സിസ്റ്റംസ്, നിങ്ങൾക്"
+"ക് പ്രധാന ചിത്രം വിൻഡോയുടെ റ്റൈറ്റിൽ ന് എവിടെയെങ്കിലും ഒരു <quote>Close</q"
+"uote> ബട്ടൺ ക്ളിക്ക് അത് നടപ്പിലാക്കാൻ കഴിയും. ഈ ബട്ടൺ സ്ഥാനം ഹാജരാകുന്നതിന"
+"് ജാലക വ്യവസ്ഥ വിൻഡോ മാനേജർ നിർണ്ണയിക്കുന്നത്."
+
+#: src/menus/file/quit.xml:55(para)
+msgid ""
+"The <quote>Close</quote> button in the upper right corner of the Toolbox has "
+"the same action."
+msgstr ""
+"പണിസഞ്ചി മുകളിൽ വലത് കോണിലുള്ള <quote>Close</quote> ബട്ടൺ ഒരേ നടപടി ഉണ്ട്."
+
+#: src/menus/file/close-all.xml:9(title)
+#, fuzzy
+msgid "Close all"
+msgstr ""
+"എല്ലാം അടയ്ക്കുക"
+
+#: src/menus/file/close-all.xml:10(para)
+msgid ""
+"This command closes all images you have opened. The main window remaining "
+"empty is that corresponding to the last opened image."
+msgstr ""
+"ഈ കമാൻഡ് തുറന്നു എല്ലാ ചിത്രങ്ങളും അടയ്ക്കുന്നു. ശൂന്യമായ ശേഷിക്കുന്ന പ്രധാ"
+"ന ജാലകം കഴിഞ്ഞ തുറന്നു ചിത്രം പൊരുത്തപ്പെടുന്ന എന്നതാണ്."
+
+#: src/menus/file/close-all.xml:17(title) src/menus/file/close.xml:40(title)
+#, fuzzy
+msgid "Activate the Command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/file/close-all.xml:20(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Close All</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/file/close-all.xml:26(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap><keycap>W</keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Shift</keycap><keycap>Ctr"
+"l</keycap><keycap>W</keycap></keycombo> ഉപയോഗിച്ച്."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/file/open-location.xml:52(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/file/open-location.png'; "
+"md5=5a91b60af69b2bb16217d745ac73dceb"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#: src/menus/file/open-location.xml:12(title)
+#: src/menus/file/open-location.xml:20(primary)
+msgid "Open Location"
+msgstr ""
+"സ്ഥാനം തുറക്കുക"
+
+#: src/menus/file/open-location.xml:16(secondary)
+#: src/menus/file/open-recent.xml:13(secondary)
+#: src/menus/file/open-as-layer.xml:16(secondary)
+#: src/menus/file/open.xml:13(title) src/menus/file/open.xml:17(secondary)
+#: src/menus/file/open.xml:19(primary)
+msgid "Open"
+msgstr ""
+"തുറക്കുക"
+
+#: src/menus/file/open-location.xml:17(tertiary)
+#, fuzzy
+msgid "Open location"
+msgstr ""
+"സ്ഥാനം തുറക്കുക"
+
+#: src/menus/file/open-location.xml:23(para)
+msgid ""
+"The <guimenuitem>Open Location</guimenuitem> dialog lets you load an image "
+"from a network location, specified by a URI, in any of the formats that "
+"<acronym>GIMP</acronym> supports."
+msgstr ""
+"<guimenuitem>Open Location</guimenuitem> ഡയലോഗ് ഒരു നെറ്റ്വർക്ക് ലൊക്കേഷൻ"
+", ഒരു യുആർഐ വ്യക്തമാക്കിയിട്ടുള്ള <acronym>GIMP</acronym> പിന്തുണയ്ക്കുന്ന "
+"ഏത് ഫോർമാറ്റിലും നിന്ന് ഒരു ചിത്രം ലോഡ് അനുവദിക്കുന്നു."
+
+#: src/menus/file/open-location.xml:33(para)
+#, fuzzy
+msgid ""
+"You can access this command from the Toolbox menubar or the image menubar "
+"through <menuchoice><guimenu>File</guimenu><guimenuitem>Open Location…</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/file/open-location.xml:46(title)
+#, fuzzy
+msgid "Description of the dialog window"
+msgstr ""
+"ഡയലോഗ് വിൻഡോയിൽ നിന്ന് ആനിമേഷൻ പറിച്ചെടുക്കുക"
+
+#: src/menus/file/open-location.xml:48(title)
+#, fuzzy
+msgid "The <quote>Open Location</quote> dialog window"
+msgstr ""
+"<quote>Select</quote> മെനു"
+
+#: src/menus/file/open-location.xml:56(para)
+msgid "The most typical schemes to open images with are:"
+msgstr ""
+"ഇമേജുകൾ തുറക്കാൻ ഏറ്റവും സാധാരണ പദ്ധതികൾ ഇവയാണ്:"
+
+#: src/menus/file/open-location.xml:59(term)
+#, fuzzy
+msgid "file://"
+msgstr ""
+"_പ്രൊഫൈൽ:"
+
+#: src/menus/file/open-location.xml:61(para)
+#, fuzzy
+msgid "to open an image from a local drive"
+msgstr ""
+"പാളികൾ പോലെ ഒരു ഇമേജ് ഫയൽ തുറക്കുക"
+
+#: src/menus/file/open-location.xml:62(para)
+msgid ""
+"You can omit the <quote>file://</quote> prefix and open images simply by "
+"putting an absolute or relative path and filename in here."
+msgstr ""
+"എന്തായാലും ഇവിടെ ഒരു പരിപൂർണമായ അല്ലെങ്കിൽ ബന്ധപ്പെട്ട പാത ഫയൽനാമം വെയ്ക്കു"
+"വാൻ <quote>file://</quote> പ്രിഫിക്സും ഇമേജുകൾ തുറക്കുക ജപം."
+
+#: src/menus/file/open-location.xml:67(para)
+msgid ""
+"The default base directory for relative paths depends on your operating "
+"system. It is typically <filename>/home/&lt;username&gt;/</filename> on "
+"Linux, <filename role=\"html\">C:\\Documents and Settings\\&lt;username&gt;"
+"\\My Documents\\My Images\\</filename><filename role=\"tex\">C:\\\\Documents "
+"and Settings\\\\&lt;username&gt;\\\\My Documents\\\\My Images\\\\</filename> "
+"on Windows and <filename>/Users/&lt;username&gt;/</filename> on Mac OS X."
+msgstr ""
+"ആപേക്ഷികമായ പാതകൾ സ്ഥിര ബേസ് ഡയറക്ടറി നിങ്ങളുടെ ഓപ്പറേറ്റിംഗ് സിസ്റ്റം ആശ്ര"
+"യിച്ചിരിക്കുന്നു. ഇത് മാക് ഒഎസ് എക്സ് Windows, <filename>/Users/&lt;usernam"
+"e&gt;/</filename> സാധാരണഗതിയിൽ <filename>/home/&lt;username&gt;/</filename>"
+" ലിനക്സ്, <filename role=\"html\">C:\\Documents and Settings\\&lt;username&"
+"gt; \\My Documents\\My Images\\</filename> <filename role=\"tex\">C:\\\\Doc"
+"uments and Settings\\\\&lt;username&gt;\\\\My Documents\\\\My Images\\\\</f"
+"ilename> ഓൺ ആണ്"
+
+#: src/menus/file/open-location.xml:81(term)
+msgid "ftp://"
+msgstr ""
+"FTP: //"
+
+#: src/menus/file/open-location.xml:83(para)
+#, fuzzy
+msgid "to open an image from a ftp server"
+msgstr ""
+"സ്ക്രീനിന്റെ ഒരു പ്രദേശത്ത് നിന്നും ഒരു ചിത്രം സൃഷ്ടിക്കുക"
+
+#: src/menus/file/open-location.xml:87(term)
+msgid "http://"
+msgstr ""
+"http: //"
+
+#: src/menus/file/open-location.xml:89(para)
+#, fuzzy
+msgid "to load an image from a website"
+msgstr ""
+"ഒരു വെബ്പേജിന്റെ ഒരു ചിത്രം സൃഷ്ടിക്കുക"
+
+#: src/menus/file/open-location.xml:91(para)
+msgid ""
+"When you are visiting an Internet site, you can right-click on an image and "
+"choose <quote>Copy link address</quote> in the drop-down menu. Then paste it "
+"in the <quote>Open Location</quote> dialog to open it in GIMP."
+msgstr ""
+"നിങ്ങൾ ഒരു ഇന്റർനെറ്റ് സൈറ്റ് സന്ദർശിക്കുന്ന, ഒരു ഇമേജ് റൈറ്റ് ക്ലിക്ക് ചെയ"
+"്ത് ഡ്രോപ്പ്-ഡൗൺ മെനുവിലെ <quote>Copy link address</quote> തിരഞ്ഞെടുക്കാം."
+" അപ്പോൾ ജിമ് തുറക്കുന്നതിന് <quote>Open Location</quote> ഡയലോഗിൽ ഒട്ടിക്ക"
+"ുക."
+
+#: src/menus/file/open-location.xml:97(para)
+msgid ""
+"Even if this command makes it very easy to grab images from web sites: "
+"<emphasis> Please respect the copyright! Images, even if published on the "
+"Internet are not always free to be used for you. </emphasis>"
+msgstr ""
+"ഈ കമാൻഡ് വെബ് സൈറ്റുകളിൽ നിന്നുള്ള ചിത്രങ്ങൾ പിടിച്ചെടുക്കാൻ അതു വളരെ എളുപ്"
+"പമാക്കുന്നു പോലും: <emphasis> Please respect the copyright! Images, even i"
+"f published on the Internet are not always free to be used for you. </empha"
+"sis>"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/file/new.xml:61(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/file/new.png'; md5=91c33dbb59296722126cb68b4e9060b1"
+msgstr "@@image: 'images/menus/help.png'; md5=166c3b733e8d1c03b26206812c7c44a9"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/file/new.xml:87(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/file/new/templates.png'; "
+"md5=13f6ba75446ccb2dc74dfb737e9c216e"
+msgstr ""
+"@@image: 'images/menus/windows.png'; md5=13c6b14871d3818165be232dda179015"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/file/new.xml:162(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/file/new/advanced-dialog.png'; "
+"md5=c64d638cb1072816d6f6448cd03d8a52"
+msgstr ""
+"@@image: 'images/menus/windows/dockable-dialogs.png'; "
+"md5=6f795d821ab2dc388b7aed62a94a6ad5"
+
+#: src/menus/file/new.xml:14(title) src/menus/file/new.xml:18(secondary)
+#: src/menus/file/new.xml:21(primary)
+msgid "New"
+msgstr ""
+"പുതിയ"
+
+#: src/menus/file/new.xml:24(primary)
+#, fuzzy
+msgid "New Image"
+msgstr ""
+"_New ചിത്രം"
+
+#: src/menus/file/new.xml:27(para)
+msgid ""
+"Using the <guimenuitem>New Image</guimenuitem> dialog, you can create a new "
+"empty image and set its properties. The image is shown in a new image "
+"window. You may have more than one image on your screen at the same time."
+msgstr ""
+"<guimenuitem>New Image</guimenuitem> ഡയലോഗ് ഉപയോഗിച്ച്, നിങ്ങൾ ഒരു പുതിയ "
+"ശൂന്യമായ ഇമേജ് സൃഷ്ടിക്കുകയും അതിന്റെ സജ്ജമാക്കാൻ കഴിയും. ചിത്രം ഒരു പുതിയ "
+"ഇമേജ് വിൻഡോയിൽ കൊടുത്തിരിക്കുന്നു. ഒരേ സമയം നിങ്ങളുടെ സ്ക്രീനിൽ ഒന്നിലധിക"
+"ം ഇമേജ് ഉണ്ടായിരിക്കാം."
+
+#: src/menus/file/new.xml:35(title)
+#, fuzzy
+msgid "Activate the command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/file/new.xml:38(para)
+#, fuzzy
+msgid ""
+"You can access the command the Image menubar through: "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>New</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/file/new.xml:47(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>N</"
+"keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>N</k"
+"eycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/file/new.xml:56(title)
+msgid "Basic Options"
+msgstr ""
+"അടിസ്ഥാന ഓപ്ഷനുകൾ"
+
+#: src/menus/file/new.xml:58(title)
+#, fuzzy
+msgid "The <quote>New Image</quote> dialog"
+msgstr ""
+"<quote>Image</quote> മെനു"
+
+#: src/menus/file/new.xml:68(primary) src/menus/file/new.xml:80(term)
+#: src/menus/file/save-as-template.xml:20(primary)
+#, fuzzy
+msgid "Template"
+msgstr ""
+"ടെംപ്ലേറ്റുകൾ"
+
+#: src/menus/file/new.xml:69(secondary)
+msgid "Menu"
+msgstr ""
+"മെനു"
+
+#: src/menus/file/new.xml:73(secondary) src/menus/file/new.xml:77(primary)
+msgid "Image size"
+msgstr ""
+"ചിത്ര വലുപ്പം"
+
+#: src/menus/file/new.xml:74(tertiary)
+msgid "When creating"
+msgstr ""
+"സൃഷ്ടിക്കുമ്പോൾ"
+
+#: src/menus/file/new.xml:83(title)
+#, fuzzy
+msgid "The <quote>Template</quote> dialog"
+msgstr ""
+"<quote>Image</quote> മെനു"
+
+#: src/menus/file/new.xml:92(para)
+msgid ""
+"Rather than entering all the values by hand, you can select some predefined "
+"values for your image from a menu of templates, which represent image types "
+"that are somewhat commonly useful. The templates set values for the size, "
+"resolution, comments, etc. If there is a particular image shape that you use "
+"often and it does not appear on the list, you can create a new template, "
+"using the <link linkend=\"gimp-template-dialog\">Templates</link> dialog."
+msgstr ""
+"പകരം എല്ലാ മൂല്യങ്ങളും നൽകുന്നതിലൂടെ, നിങ്ങൾ ചില പറവാനുണ്ടു സാധാരണയായി ഉപയേ"
+"ാഗപ്രദമായ ഇമേജ് തരം പ്രതിനിധാനം ചെയ്ത ഫലകങ്ങൾ ഒരു മെനുവിൽ നിന്ന് നിങ്ങളുടെ "
+"ചിത്രത്തിനായുള്ള നിർവചിച്ച മൂല്യങ്ങൾ, തിരഞ്ഞെടുക്കാം. ടെംപ്ലേറ്റുകൾ നിങ്ങൾ "
+"ഇടയ്ക്കിടെ ഉപയോഗിക്കുന്ന ഒരു പ്രത്യേക ചിത്രം ആകാരം ഉപയോഗിച്ച് അത് ലിസ്റ്റ"
+"ിൽ ലഭ്യമാകുന്നില്ല എങ്കിൽ, നിങ്ങൾ <link linkend=\"gimp-template-dialog\">Te"
+"mplates</link> ഡയലോഗ് ഉപയോഗിച്ച് ഒരു പുതിയ ടെംപ്ലേറ്റ് സൃഷ്ടിക്കാൻ കഴിയും"
+" വലിപ്പം, ചിത്രം, അഭിപ്രായങ്ങൾ മുതലായവ വേണ്ടി മൂല്യങ്ങൾ സജ്ജമാക്കാൻ."
+
+#: src/menus/file/new.xml:104(term)
+msgid "Image Size"
+msgstr ""
+"ചിത്രം വലിപ്പം"
+
+#: src/menus/file/new.xml:106(para)
+msgid ""
+"Here you set the <guilabel>Width</guilabel> and <guilabel>Height</guilabel> "
+"of the new image. The default units are pixels, but you can choose a "
+"different unit if you prefer, using the adjoining menu. If you do, note that "
+"the resulting pixel size is determined by the X and Y resolution (which you "
+"can change in the <guilabel>Advanced Options</guilabel>), and by setting "
+"<quote>Dot for Dot</quote> in the <guimenu>View</guimenu> menu."
+msgstr ""
+"ഇവിടെ നിങ്ങൾ <guilabel>Width</guilabel> പുതിയ ചിത്രത്തിന്റെ <guilabel>Heigh"
+"t</guilabel> നിർത്തി. സ്ഥിര യൂണിറ്റുകൾ പിക്സൽ, എങ്കിലും നിങ്ങൾ .ഹാളിനൊരുവശ"
+"ത്തായി മെനു ഉപയോഗിച്ച്, നിങ്ങൾക്ക് ഇഷ്ടമാണെങ്കിൽ മറ്റൊരു യൂണിറ്റ് തിരഞ്ഞെ"
+"ടുക്കാം. നിങ്ങൾ ചെയ്യേണ്ടത്, ലഭിക്കുന്ന പിക്സൽ സൈസ് X, Y റെസലൂഷൻ (നിങ്ങൾ <g"
+"uilabel>Advanced Options</guilabel> മാറ്റില്ല കഴിയും) നിർണ്ണയിക്കുന്നത് ശ്ര"
+"ദ്ധിക്കുക <guimenu>View</guimenu> മെനുവിൽ <quote>Dot for Dot</quote> ക്രമീക"
+"രിച്ച്."
+
+#: src/menus/file/new.xml:117(para)
+msgid ""
+"If no image is open, the <quote>New</quote> image is opened in the empty "
+"image window, with the default size you have determined. If you open the "
+"<quote>New</quote>image when another is open (or has been), then it is "
+"opened in another window, with the same size as the first image."
+msgstr ""
+"ഇമേജ് തുറക്കുക എങ്കിൽ, <quote>New</quote> ഇമേജ് നിങ്ങളെ നിശ്ചയിച്ചിരിക്കുന്"
+"നു സ്ഥിര വലുപ്പം കൂടെ ശൂന്യമായ ഇമേജ് വിൻഡോയിൽ തുറന്നു നോക്കും. മറ്റൊരു ത"
+"ുറക്കുമ്പോൾ (അല്ലെങ്കിൽ എത്തിയിട്ടില്ല) നിങ്ങൾ <quote>New</quote> ചിത്രം ത"
+"ുറക്കാൻ എങ്കിൽ, അത് മറ്റൊരു വിൻഡോയിൽ, ആദ്യ ചിത്രം പോലെ ഒരേ വലിപ്പം കൊണ്"
+"ട് തുറന്നു നോക്കും."
+
+#: src/menus/file/new.xml:125(para)
+msgid ""
+"Keep in mind that every pixel of an image is stored in memory. If you create "
+"large files with a high pixel density, <acronym>GIMP</acronym> will need a "
+"lot of time and memory for every function you apply to the image."
+msgstr ""
+"ഒരു ചിത്രത്തിന്റെ ഓരോ പിക്സൽ മെമ്മറി സംഭരിച്ചിരിക്കുന്ന ഓർമിക്കുക. നിങ്ങൾ "
+"ഒരു ഉയർന്ന പിക്സൽ സാന്ദ്രത വലിയ ഫയലുകൾ ഉണ്ടാക്കി, <acronym>GIMP</acronym> ഇ"
+"മേജിൽ ബാധകമാണ് ഓരോ ചടങ്ങിൽ കാലവും മെമ്മറിയും ആവശ്യമാണ്."
+
+#: src/menus/file/new.xml:136(term)
+msgid "Portrait/Landscape buttons"
+msgstr ""
+"ഛായാചിത്രം / ലാൻഡ്സ്കേപ്പ് ബട്ടണുകൾ"
+
+#: src/menus/file/new.xml:139(primary)
+msgid "Portrait/Landscape mode"
+msgstr ""
+"ഛായാചിത്രം / എക്സിഫ്"
+
+#: src/menus/file/new.xml:141(para)
+msgid ""
+"There are two buttons which toggle between Portrait and Landscape mode. What "
+"they actually do is to exchange the values for Width and Height. (If the "
+"Width and Height are the same, these buttons are not activated.) If the X "
+"and Y resolutions are not the same (which you can set in Advanced Options), "
+"then these values are also exchanged. On the right of the dialog, image "
+"size, screen resolution and color space are displayed."
+msgstr ""
+"അർദ്ധകായ സ്കേപ്പ് മോഡ് തമ്മിൽ ടോഗിൾ രണ്ട് ബട്ടണുകൾ ഉണ്ട്. ഇവ യഥാർത്ഥത്തിൽ"
+" ചെയ്യാൻ വീതിയും ഉയരവും മൂല്യങ്ങളെ കൈമാറാൻ ആണ്. (വീതിയും ഉയരവും ഒരേ എങ്കിൽ "
+"ഈ ബട്ടണുകൾ സജീവമാക്കി അല്ല.) X, Y റെസലൂഷൻ ഒരേ (നിങ്ങൾ വിപുലമായ ഓപ്ഷനുകൾ ഇരു"
+"ത്തുന്ന കഴിയും) അല്ല എങ്കിൽ, ഈ മൂല്യങ്ങൾ പുറമേ മാറ്റിക്കളഞ്ഞു ചെയ്യുന്നു. ഡ"
+"യലോഗിന്റെ വലതുവശത്ത്, ഇമേജ് സൈസ്, സ്ക്രീൻ റെസലൂഷൻ നിറം സ്പേസ് പ്രദർശിപ്പിക"
+"്കുന്നു."
+
+#: src/menus/file/new.xml:156(title)
+msgid "Advanced Options"
+msgstr ""
+"വിപുലമായ ഓപ്ഷനുകൾ"
+
+#: src/menus/file/new.xml:158(title)
+#, fuzzy
+msgid "New Image dialog (Advanced Options)"
+msgstr ""
+"കൂടുതൽ വിപുലമായ ഓപ്ഷനുകൾ"
+
+#: src/menus/file/new.xml:167(para)
+msgid ""
+"The <guilabel>Advanced Options</guilabel> are mostly of interest to more "
+"advanced <acronym>GIMP</acronym> users. You can display these options by "
+"clicking on the small triangle on the lower edge of the dialog window."
+msgstr ""
+"<guilabel>Advanced Options</guilabel> കൂടുതൽ വിപുലമായ <acronym>GIMP</acrony"
+"m> ഉപയോക്താക്കളെ താത്പര്യമുള്ള കൂടുതലും ആകുന്നു. ഡയലോഗ് വിൻഡോ താഴത്തെ വി"
+"ളുമ്പിൽ ചെറിയ ചതുരത്തിൽ ക്ലിക്കുചെയ്ത് ഈ ഓപ്ഷനുകൾ പ്രദർശിപ്പിക്കാൻ കഴിയും."
+
+#: src/menus/file/new.xml:176(secondary) src/menus/file/new.xml:180(primary)
+msgid "Resolution"
+msgstr ""
+"മിഴിവ്"
+
+#: src/menus/file/new.xml:177(tertiary) src/menus/file/new.xml:181(secondary)
+msgid "Setting when creating"
+msgstr ""
+"സൃഷ്ടിക്കുമ്പോൾ ക്രമീകരിക്കുന്നു"
+
+#: src/menus/file/new.xml:184(term)
+#, fuzzy
+msgid "X and Y resolution"
+msgstr ""
+"അസാധുവായ Y നൽകുന്ന."
+
+#: src/menus/file/new.xml:186(para)
+msgid ""
+"The values in the <guilabel>X resolution</guilabel> and <guilabel>Y "
+"resolution</guilabel> fields relate mainly to printing: they do not affect "
+"the size of the image in pixels, but they may determine its physical size "
+"when it is printed. The X and Y resolution values can determine how pixels "
+"are translated into other measurement units, such as millimeters or inches."
+msgstr ""
+"<guilabel>X resolution</guilabel> ആൻഡ് <guilabel>Y resolution</guilabel> മേ"
+"ഖലകളിലെ മൂല്യങ്ങൾ പ്രിന്റിങ് പ്രധാനമായും വിവരിച്ചുതരാം അവർ പിക്സലിൽ ചിത്രത്"
+"തിന്റെ വലുപ്പം ബാധിക്കുന്നില്ല, പക്ഷേ അച്ചടിക്കാൻ പാകത്തിൽ അവർ അതിന്റെ ശാരീ"
+"രിക വലിപ്പം നിർണ്ണയിക്കാം. പിക്സൽ പോലുള്ള മില്ലിമീറ്റർ അല്ലെങ്കിൽ ഇഞ്ച് മറ"
+"്റ് അളക്കൽ യൂണിറ്റുകൾ, പരിഭാഷപ്പെടുത്തിയിട്ടുണ്ട് എങ്ങനെയാണെന്നും X, Y നൽകു"
+"ന്ന മൂല്യങ്ങൾ നിർണ്ണയിക്കാൻ കഴിയും."
+
+#: src/menus/file/new.xml:196(para)
+msgid ""
+"If you want to display the image on the screen at the correct dimensions, "
+"select <menuchoice><guimenu>View</guimenu><guimenuitem>Dot for Dot</"
+"guimenuitem></menuchoice> Set the zoom factor to 100% to see the image at "
+"its true screen size. The calibration of the screen size is normally done "
+"when <acronym>GIMP</acronym> is installed, but if the image does not display "
+"at the correct size, you may have to adjust the screen parameters in the "
+"<acronym>GIMP</acronym>. You can do this in the <link linkend=\"gimp-prefs-"
+"display\">Preferences</link> dialog."
+msgstr ""
+"നിങ്ങൾ ശരിയായ അളവുകൾ സ്ക്രീനിൽ ചിത്രം പ്രദർശിപ്പിക്കാൻ ആഗ്രഹിക്കുന്നുണ്ടെങ്"
+"കിൽ, സൂം ഘടകം തിരഞ്ഞെടുക്കുക <menuchoice><guimenu>View</guimenu><guimenuite"
+"m>Dot for Dot</guimenuitem></menuchoice> സെറ്റ് 100% അതിന്റെ യഥാർഥ സ്ക്രീൻ "
+"വലുപ്പത്തിൽ ഇമേജ് കാണാൻ. <acronym>GIMP</acronym> ഇൻസ്റ്റാൾ സ്ക്രീൻ വലിപ്പം "
+"കാലിബ്രേഷൻ സാധാരണയായി നടക്കുന്ന, എന്നാൽ ചിത്രം ശരിയായ വലുപ്പത്തിൽ പ്രദർശിപ്"
+"പിക്കുകയോ ചെയ്യുന്നില്ല എങ്കിൽ നിങ്ങൾ <acronym>GIMP</acronym> സ്ക്രീനിന് പ"
+"ാരാമീറ്ററുകൾ ക്രമീകരിക്കാൻ ഉണ്ടായേക്കാം. നിങ്ങൾ <link linkend=\"gimp-prefs-"
+" display\">Preferences</link> ഡയലോഗിൽ ചെയ്യാൻ കഴിയും."
+
+#: src/menus/file/new.xml:216(term)
+#, fuzzy
+msgid "Colorspace"
+msgstr ""
+"കളർ സ്പേസ്:"
+
+#: src/menus/file/new.xml:218(para)
+msgid ""
+"You can create the new image in different <link linkend=\"gimp-image-mode"
+"\">color modes</link>, as either an <link linkend=\"glossary-rgb\">RGB</"
+"link> image or a grayscale image."
+msgstr ""
+"നിങ്ങൾ ഒരു <link linkend=\"glossary-rgb\">RGB</link> ചിത്രം അല്ലെങ്കിൽ ഗ്രേ"
+"സ്കെയിലാക്കി ഇമേജ് ഒന്നുകിൽ പോലെ വിവിധ <link linkend=\"gimp-image-mode \">"
+"color modes</link> പുതിയ ഇമേജ് തയ്യാറാക്കാം."
+
+#: src/menus/file/new.xml:225(term)
+#, fuzzy
+msgid "RGB color"
+msgstr ""
+"ആർജിബി നിറങ്ങളുടെ"
+
+#: src/menus/file/new.xml:227(para)
+msgid ""
+"The image is created in the Red, Green, Blue color system, which is the one "
+"used by your monitor or your television screen."
+msgstr ""
+"ചിത്രം നിങ്ങളുടെ മോണിറ്റർ അല്ലെങ്കിൽ നിങ്ങളുടെ ടെലിവിഷൻ സ്ക്രീനിൽ ഉപയോഗിക"
+"്കുന്ന ഒന്നാണ് റെഡ്, ഗ്രീൻ, നീല നിറം സിസ്റ്റം, സൃഷ്ടിക്കുന്നതാണ്."
+
+#: src/menus/file/new.xml:235(term)
+msgid "Grayscale"
+msgstr "Greyscale"
+
+#: src/menus/file/new.xml:237(para)
+msgid ""
+"The image is created in black and white, with various shades of gray. Aside "
+"from your artistic interests, this type of image may be necessary for some "
+"plug-ins. Nevertheless, the <acronym>GIMP</acronym> allows you to <link "
+"linkend=\"gimp-image-convert-grayscale\">change an RGB image into grayscale</"
+"link>, if you would like."
+msgstr ""
+"ചിത്രം ചാര വിവിധ ഷേഡുകൾ കൂടെ കറുപ്പിലും വെളുപ്പിലും സൃഷ്ടിക്കപ്പെട്ടിരിക്കു"
+"ന്നത്. ലിപിയിലോ നിങ്ങളുടെ കലാപരമായ താൽപ്പര്യങ്ങൾ നിന്നുള്ള ചിത്രം ഈ തരം ചി"
+"ല പ്ലഗ്-ഇന്നുകൾ ആവശ്യമാണ്. എന്നിരുന്നാലും <acronym>GIMP</acronym> നിങ്ങൾ <l"
+"ink linkend=\"gimp-image-convert-grayscale\">change an RGB image into grays"
+"cale</link>, നിങ്ങള്ക്ക് ആഗ്രഹിക്കുന്നു എങ്കിൽ അനുവദിക്കുന്നു."
+
+#: src/menus/file/new.xml:248(para)
+msgid ""
+"You cannot create an indexed image directly with this menu, but of course "
+"you can always convert the image to indexed mode after it has been created. "
+"To do that, use the <menuchoice><guimenu>Image</guimenu><guisubmenu>Mode</"
+"guisubmenu><guimenuitem>Indexed</guimenuitem></menuchoice> command."
+msgstr ""
+"ഈ മെനു നേരിട്ട് ഗണമാണോയെന്നത് ചിത്രം സൃഷ്ടിക്കാൻ കഴിയില്ല, പക്ഷേ തീർച്ചയായ"
+"ും നിങ്ങൾക്ക് എപ്പോഴും സൃഷ്ടിച്ചുകഴിയുമ്പോൾ ശേഷം ഇൻഡെക്സ്ഡ് മോഡിലേക്ക് ച"
+"ിത്രം പരിവർത്തനം ചെയ്യാനാകും. ആ ചെയ്യാൻ, <menuchoice><guimenu>Image</guimen"
+"u><guisubmenu>Mode</guisubmenu><guimenuitem>Indexed</guimenuitem></menuchoi"
+"ce> കമാൻഡ് ഉപയോഗിക്കുക."
+
+#: src/menus/file/new.xml:261(term)
+msgid "Fill"
+msgstr ""
+"നിറയ്ക്കുക"
+
+#: src/menus/file/new.xml:263(para)
+msgid ""
+"Here, you specify the background color that is used for your new image. It "
+"is certainly possible to change the background of an image later, too. You "
+"can find more information about doing that in the <link linkend=\"gimp-layer-"
+"dialog\">Layer dialog</link>."
+msgstr ""
+"ഇവിടെ നിങ്ങൾ നിങ്ങളുടെ പുതിയ ചിത്രം ഉപയോഗിക്കുന്ന പശ്ചാത്തല നിറം വ്യക്തമാക"
+"്കുക. ഇത് വളരെ പിന്നീട് ഒരു ചിത്രത്തിന്റെ പശ്ചാത്തലം മാറ്റാൻ തീർച്ചയായും സാ"
+"ധ്യമാണ്. കണ്ടെത്താവുന്നതാണ് <link linkend=\"gimp-layer- dialog\">Layer dial"
+"og</link> ആ ചെയ്യുന്നത് കൂടുതൽ വിവരങ്ങൾ."
+
+#: src/menus/file/new.xml:270(para)
+msgid "There are several choices:"
+msgstr ""
+"നിരവധി തിരഞ്ഞെടുക്കാൻ ഉണ്ട്:"
+
+#: src/menus/file/new.xml:272(para)
+msgid ""
+"Fill the image with the current <guilabel>Foreground color</guilabel>, shown "
+"in the Toolbox."
+msgstr ""
+"പണിസഞ്ചി കാണിച്ചിരിക്കുന്ന നിലവിലെ <guilabel>Foreground color</guilabel> ഉപ"
+"യോഗിച്ച് ഇമേജ്, നിറയ്ക്കുക."
+
+#: src/menus/file/new.xml:276(para)
+msgid ""
+"Note that you can change the foreground color while the <quote>New Image</"
+"quote> dialog window is open."
+msgstr ""
+"<quote>New Image</quote> ഡയലോഗ് ജാലകം തുറന്നിരിക്കുന്ന സമയത്ത് നിങ്ങൾ മുൻഭ"
+"ാഗത്തെ നിറം മാറ്റാൻ ശ്രദ്ധിക്കുക."
+
+#: src/menus/file/new.xml:282(para)
+msgid ""
+"Fill the image with the current <guilabel>Background color</guilabel>, shown "
+"in the Toolbox. (You can change the background color too, while the dialog "
+"window is open.)"
+msgstr ""
+"പണിസഞ്ചി കാണിച്ചിരിക്കുന്ന നിലവിലെ <guilabel>Background color</guilabel> ഉപ"
+"യോഗിച്ച് ഇമേജ്, നിറയ്ക്കുക. (പശ്ചാത്തലത്തിൽ നിറം ഡയലോഗ് വിൻഡോ തുറന്നിരിക"
+"്കുന്ന സമയത്ത്, വളരെ മാറ്റാൻ കഴിയും.)"
+
+#: src/menus/file/new.xml:289(para)
+msgid "Fill the image with <guilabel>White</guilabel>."
+msgstr ""
+"<guilabel>White</guilabel> ഉപയോഗിച്ച് ഇമേജ് നിറയ്ക്കുക."
+
+#: src/menus/file/new.xml:294(para)
+msgid ""
+"Fill the image with <guilabel>Transparency</guilabel>. If you choose this "
+"option, the image is created with an <link linkend=\"glossary-alpha-channel"
+"\">alpha&nbsp;channel</link> and the background is transparent. The "
+"transparent parts of the image are then displayed with a checkered pattern, "
+"to indicate the transparency."
+msgstr ""
+"<guilabel>Transparency</guilabel> ഉപയോഗിച്ച് ഇമേജ് നിറയ്ക്കുക. നിങ്ങൾ ഈ ഓപ"
+"്ഷൻ തിരഞ്ഞെടുക്കുകയാണെങ്കിൽ, ചിത്രം ഒരു <link linkend=\"glossary-alpha-chan"
+"nel \">alpha channel</link> ഉപയോഗിച്ച് തയ്യാറാക്കി, പശ്ചാത്തല സുതാര്യമാണ്."
+" ചിത്രത്തിന്റെ സുതാര്യമായ ഭാഗങ്ങൾ പിന്നീട് സുതാര്യത സൂചിപ്പിക്കാൻ ഒരു ശൂരനാ"
+"ടിന് പാറ്റേൺ പ്രദർശിപ്പിച്ചിരിക്കുന്നു."
+
+#: src/menus/file/new.xml:307(term) src/menus/file/new.xml:311(secondary)
+#: src/menus/file/new.xml:314(primary)
+msgid "Comment"
+msgstr ""
+"അഭിപ്രായം"
+
+#: src/menus/file/new.xml:316(para)
+msgid ""
+"You can write a descriptive comment here. The text is attached to the image "
+"as a <link linkend=\"glossary-parasite\">parasite</link>, and is saved with "
+"the image by some file formats (PNG, JPEG, GIF)."
+msgstr ""
+"നിങ്ങൾക്ക് ഇവിടെ ഒരു വിവരണാത്മക അഭിപ്രായം എഴുതാം. ടെക്സ്റ്റ് ഒരു <link link"
+"end=\"glossary-parasite\">parasite</link> ചിത്രം ചേർത്തിരിക്കുന്നു, ചില ഫയൽ"
+" ഫോർമാറ്റുകൾ (PNG, JPEG, gif) ചിത്രം ഉപയോഗിച്ച് സംരക്ഷിച്ചു."
+
+#: src/menus/file/new.xml:323(para)
+msgid ""
+"You can view and edit this comment in the <link linkend=\"gimp-image-"
+"properties\">Image Properties</link> dialog."
+msgstr ""
+"നിങ്ങൾ <link linkend=\"gimp-image- properties\">Image Properties</link> ഡയല"
+"ോഗിൽ കാണാനും എഡിറ്റ് ചെയ്യാനും ഈ അഭിപ്രായം."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/file/save-as.xml:92(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/file/save-as.png'; "
+"md5=0058938cda003bd7c13adaf366288ce5"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/file/save-as.xml:105(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/file/save-as-browse.png'; "
+"md5=c01bf689df096091df750726c1349706"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#: src/menus/file/save-as.xml:14(title)
+#: src/menus/file/save-as.xml:19(tertiary)
+#: src/menus/file/save-as.xml:22(primary)
+#, fuzzy
+msgid "Save as"
+msgstr ""
+"ജിഫ് സംരക്ഷിക്കുക"
+
+#: src/menus/file/save-as.xml:25(para)
+msgid ""
+"The <guimenuitem>Save as</guimenuitem> command displays the <quote>Save "
+"Image</quote> dialog. In its basic form, as shown below, this gives you a "
+"text box to assign a name to the file, and a drop-down list of bookmarks to "
+"select a directory to save it in. Normally the file format is determined by "
+"the extension you use in the file name (i.e., .jpg for a JPEG file). You can "
+"use the <guilabel>Select File Type</guilabel> option expander to pick a "
+"different file type, but you should avoid doing this unless absolutely "
+"necessary, to avoid confusion."
+msgstr ""
+"<guimenuitem>Save as</guimenuitem> കമാൻഡ് <quote>Save Image</quote> ഡയലോഗ്"
+" പ്രദർശിപ്പിക്കുന്നു. ഇതിന്റെ അടിസ്ഥാന രൂപത്തിൽ, താഴെ കാണുന്ന പോലെ ഫയല് ഒര"
+"ു നാമം നൽകുവാൻ ഒരു ടെക്സ്റ്റ് ബോക്സ്, അകത്തു സംരക്ഷിക്കുന്നതിനായി ഒരു ഡയറക"
+"്ടറി തിരഞ്ഞെടുക്കുന്നതിനായി ബുക്ക്മാർക്കുകൾ ഒരു ഡ്രോപ്പ്-ഡൌൺ ലിസ്റ്റ് നൽക"
+"ുന്നു. സാധാരണയായി ഫയൽ ഫോർമാറ്റ് വിപുലീകരണം നിശ്ചയിക്കുന്നത് നിങ്ങൾ (അതായത്"
+", ഒരു JPEG ഫയൽ വേണ്ടി .jpg) ഫയൽ പേരിൽ ഉപയോഗിക്കുക. മറ്റൊരു ഫയൽ തരം എടുക്ക"
+"ാമെന്നതിൽ <guilabel>Select File Type</guilabel> ഉപാധി എക്സ്പാൻഡർ ഉപയോഗിക്ക"
+"ാം, എന്നാൽ നിങ്ങൾ ആശയക്കുഴപ്പം ഒഴിവാക്കാൻ, ആവശ്യമായ പക്ഷം ഈ ചെയ്യുന്നത് ഒഴി"
+"വാക്കണം."
+
+#: src/menus/file/save-as.xml:37(para)
+msgid ""
+"If the directory you want is not in the list of bookmarks, click on "
+"<guilabel>Browse for other folders</guilabel> to expand the dialog to its "
+"full form. You can find an explanation of the layout, and help on creating "
+"and using bookmarks, in the <link linkend=\"gimp-using-fileformats\">Files</"
+"link> section."
+msgstr ""
+"നിങ്ങൾ ആഗ്രഹിക്കുന്ന ഡയറക്ടറി ബുക്ക്മാർക്കുകൾ ലിസ്റ്റിൽ ചെയ്തിട്ടില്ലെങ്കിൽ"
+", അതിന്റെ പൂർണ്ണ രൂപത്തിൽ ഡയലോഗ് വിപുലീകരിക്കുന്നതിന് <guilabel>Browse for"
+" other folders</guilabel> ക്ലിക്ക് ചെയ്യുക. നിങ്ങൾ ലേഔട്ട് ഒരു വിശദീകരണം കണ"
+"്ടെത്തി, ബുക്ക്മാർക്കുകൾ സൃഷ്ടിക്കുന്നതും ഉപയോഗിച്ച് സഹായിക്കാൻ <link link"
+"end=\"gimp-using-fileformats\">Files</link> വിഭാഗത്തിൽ കഴിയും."
+
+#: src/menus/file/save-as.xml:45(para)
+msgid ""
+"If you saved the image previously and don't need to change the file name or "
+"any of the options, you can use the <link linkend=\"gimp-file-save\">Save</"
+"link> command instead."
+msgstr ""
+"നിങ്ങൾ മുമ്പ് ചിത്രം സംരക്ഷിച്ചു ഫയൽ പേര് അല്ലെങ്കിൽ ഓപ്ഷനുകൾ ഒന്നും മാറ്റാ"
+"ൻ ആവശ്യമില്ല, പകരമായി <link linkend=\"gimp-file-save\">Save</link> കമാൻഡ് ഉ"
+"പയോഗിക്കാം."
+
+#: src/menus/file/save-as.xml:52(title)
+msgid "Activating the Command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/file/save-as.xml:55(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Save as</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/file/save-as.xml:64(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap><keycap>S</keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Shift</keycap><keycap>Ctr"
+"l</keycap><keycap>S</keycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/file/save-as.xml:76(title) src/menus/file/save-as.xml:89(title)
+#, fuzzy
+msgid "The basic <quote>Save Image</quote> dialog"
+msgstr ""
+"<quote>Image</quote> മെനു"
+
+#: src/menus/file/save-as.xml:77(para)
+msgid ""
+"There are two different forms of the <guimenu>Save Image</guimenu> dialog. "
+"The simple form only lets you type in the filename and choose the directory "
+"the file should be saved in. If the folder you want is not on the list, you "
+"can type in the path to the directory, along with the filename. You can also "
+"click on the small triangle to display the full folder browser. You can also "
+"choose the image format, by selecting the file extension (e.g., <filename "
+"class=\"extension\">.xcf</filename> or <filename class=\"extension\">.png</"
+"filename>)."
+msgstr ""
+"<guimenu>Save Image</guimenu> ഡയലോഗ് രണ്ടു വ്യത്യസ്ത രൂപങ്ങൾ ഉണ്ട്. ലളിതമാ"
+"യ ഫോം നിങ്ങൾക്ക് മാത്രം ആഗ്രഹിക്കുന്ന ഫോൾഡർ ലിസ്റ്റ്, നിങ്ങൾക്ക് പാത്ത് ഡ"
+"യറക്ടറിയിലേക്ക്, ഫയലിന്റെ സഹിതം ടൈപ്പ് ചെയ്യാം നിങ്ങൾ ഫയൽനാമം ടൈപ്പുചെയ്ത് "
+"ഡയറക്ടറി തിരഞ്ഞെടുക്കൂ ഫയലിൽ രക്ഷിക്കപ്പെടുവാനത്രേ അനുവദിക്കുന്നു.. നിങ്ങൾക"
+"്ക് പൂർണ്ണ ഫോൾഡർ ബ്രൗസർ പ്രദർശിപ്പിക്കുന്നതിന് ചെറിയ ചതുരത്തിൽ ക്ലിക്ക് ചെ"
+"യ്യാം. നിങ്ങൾക്ക് ഫയൽ എക്സ്റ്റൻഷൻ (ഉദാ <filename class=\"extension\">.xcf</"
+"filename> അല്ലെങ്കിൽ <filename class=\"extension\">.png</filename>) തിരഞ്ഞെ"
+"ടുത്ത്, ഇമേജ് ഫോർമാറ്റ് തിരഞ്ഞെടുക്കാം."
+
+#: src/menus/file/save-as.xml:99(title)
+#, fuzzy
+msgid "The <quote>Save Image</quote> dialog with a Browser"
+msgstr ""
+"<quote>Image</quote> മെനു"
+
+#: src/menus/file/save-as.xml:101(title)
+#, fuzzy
+msgid "The <quote>Save Image</quote> dialog (Browser)"
+msgstr ""
+"<quote>Image</quote> മെനു"
+
+#: src/menus/file/save-as.xml:111(para)
+msgid ""
+"The left panel is divided into two parts. The upper part lists your main "
+"directories and your storage devices; you cannot modify this list. The lower "
+"part lists your bookmarks; you can add or remove <emphasis>bookmarks</"
+"emphasis>. To add a bookmark, select a directory or a file in the middle "
+"panel and click on the <guibutton>Add</guibutton> button at the bottom of "
+"the left panel. You can also use the <guilabel>Add to bookmarks</guilabel> "
+"command in the context menu, which you get by clicking the right mouse "
+"button. You can delete a bookmark by selecting it and clicking on the "
+"<guibutton>Remove</guibutton> button."
+msgstr ""
+"ഇടത് പാനൽ രണ്ടു ഭാഗങ്ങളായി തിരിച്ചിരിക്കുന്നു. മുകളിലെ ഭാഗം നിങ്ങളുടെ പ്രധാ"
+"ന ഡയറക്ടറികൾ നിങ്ങളുടെ സംഭരണ ​​ഡിവൈസുകൾ ലിസ്റ്റുചെയ്യുന്നു; ഈ ലിസ്റ്റിൽ പരി"
+"ഷ്കരിക്കാൻ കഴിയുകയില്ല. താഴത്തെ ഭാഗം നിങ്ങളുടെ ബുക്ക്മാർക്കുകൾ ലിസ്റ്റുചെയ്"
+"യുന്നു; ചേർക്കാനോ നീക്കം ചെയ്യാം <emphasis>bookmarks</emphasis>. ഒരു ബുക്ക"
+"്മാർക്ക് ചേർക്കാൻ മധ്യത്തിൽ പാനലിൽ ഒരു ഡയറക്ടറി അല്ലെങ്കിൽ ഒരു ഫയൽ തിരഞ്ഞെട"
+"ുത്ത് ഇടത് പാനലിൽ ചുവടെയുള്ള <guibutton>Add</guibutton> ബട്ടണിൽ ക്ലിക്ക് ചെ"
+"യ്യുക. നിങ്ങൾക്ക്, സന്ദർഭ മെനുവിൽ <guilabel>Add to bookmarks</guilabel> കമാ"
+"ൻഡ് ഉപയോഗിക്കാം നിങ്ങൾ ശരിയായ മൌസ് ബട്ടൺ ഉപയോഗിച്ച്് ലഭിക്കുന്നതെന്ന്. ന"
+"ിങ്ങൾ <guibutton>Remove</guibutton> ബട്ടൺ അതു ക്ലിക്കു തിരഞ്ഞെടുത്ത് ഒരു ബു"
+"ക്ക്മാർക്ക് ഇല്ലാതാക്കാൻ കഴിയും."
+
+#: src/menus/file/save-as.xml:126(para)
+msgid ""
+"The middle panel displays a list of the files in the current directory. "
+"Change your current directory by double left-clicking on a directory in this "
+"panel. Select a file with a single left click. You can then save to the file "
+"you have selected by clicking on the <guibutton>Save</guibutton> button. "
+"Note that a double left click saves the file directly."
+msgstr ""
+"മിഡിൽ പാനൽ നിലവിലെ ഡയറക്ടറിയിൽ ഫയലുകൾ പട്ടിക ലഭ്യമാക്കി. ഈ പാനലിൽ ഒരു ഡയറക്"
+"ടറി ഇരട്ട ഇടത്-ക്ലിക്കുചെയ്തുകൊണ്ട് നിലവിലുള്ള ഡയറക്ടറി മാറ്റുക. ഒറ്റ ഇടത്"
+" ക്ലിക്കിൽ ഒരു ഫയൽ തിരഞ്ഞെടുക്കുക. നിങ്ങൾക്ക് അതിനുശേഷം ഫയൽ <guibutton>Save"
+"</guibutton> ബട്ടൺ ക്ളിക്ക് തിരഞ്ഞെടുത്ത സംരക്ഷിക്കാനാകും. ഇരട്ട ഇടത് ക്ലിക"
+"്കിൽ നേരിട്ട് ഫയൽ സംരക്ഷിക്കുന്നു ശ്രദ്ധിക്കുക."
+
+#: src/menus/file/save-as.xml:134(para)
+msgid ""
+"You can right click on the middle panel to access the <emphasis>Show Hidden "
+"Files</emphasis> command."
+msgstr ""
+"നിങ്ങൾ <emphasis>Show Hidden Files</emphasis> കമാൻഡ് ആക്സസ് മിഡിൽ പാനലിൽ വല"
+"ത് ക്ലിക്ക് ചെയ്യാം."
+
+#: src/menus/file/save-as.xml:140(para)
+msgid ""
+"The selected image is displayed in the <guilabel>Preview </guilabel> window "
+"if it is an image created by <acronym>GIMP</acronym>. File size, resolution "
+"and the image's composition are displayed below the preview window."
+msgstr ""
+"അതു <acronym>GIMP</acronym> സൃഷ്ടിച്ച ഒരു ചിത്രം എങ്കിൽ തിരഞ്ഞെടുത്ത ചിത്രം"
+" <guilabel>Preview </guilabel> വിൻഡോയിൽ പ്രദർശിപ്പിച്ചിരിക്കുന്നു. ഫയൽ വലു"
+"പ്പം, മിഴിവും ചിത്രം ന്റെ രചനയാണ് പ്രിവ്യൂ വിൻഡോ ചുവടെ പ്രദർശിപ്പിച്ചിരിക്"
+"കുന്നു."
+
+#: src/menus/file/save-as.xml:147(para)
+msgid ""
+"If your image has been modified by another program, click on the preview to "
+"update it."
+msgstr ""
+"നിങ്ങളുടെ ചിത്രം മറ്റൊരു പ്രോഗ്രാം മാറ്റിയിട്ടുണ്ടെങ്കിൽ, അത് പുതുക്കുന്ന"
+"തിനായി പ്രിവ്യൂ ക്ലിക്ക് ചെയ്യുക."
+
+#: src/menus/file/save-as.xml:153(para)
+#, fuzzy
+msgid "Enter the filename of the new image file here."
+msgstr ""
+"പുതിയ GFlare ഒരു പേര് നൽകുക"
+
+#: src/menus/file/save-as.xml:155(para)
+msgid ""
+"If the image has already been saved, <acronym>GIMP</acronym> suggests the "
+"same filename to you. If you click on <emphasis>Save</emphasis>, the file is "
+"overwritten."
+msgstr ""
+"ചിത്രം ഇതിനകം തന്നെ സംരക്ഷിച്ചു എങ്കിൽ <acronym>GIMP</acronym> നിങ്ങൾക്ക് ഒ"
+"രേ ഫയൽനാമം സൂചിപ്പിക്കുന്നത്. നിങ്ങൾ <emphasis>Save</emphasis> ക്ലിക്ക്, ഫയ"
+"ൽ എഴുതപ്പെട്ടു."
+
+#: src/menus/file/save-as.xml:164(para)
+msgid ""
+"This drop-down list is only available in the basic form of the dialog. It "
+"provides a list of bookmarks for selecting a directory in which to save your "
+"file."
+msgstr ""
+"ഈ ഡ്രോപ്പ്-ഡൌൺ ലിസ്റ്റ് ഡയലോഗ് അടിസ്ഥാന രൂപത്തിൽ മാത്രമേ ലഭ്യമാകൂ. നിങ്ങ"
+"ളുടെ ഫയൽ സംരക്ഷിക്കാൻ ഒരു ഡയറക്ടറി തിരഞ്ഞെടുക്കുന്നതിനുള്ള ബുക്ക്മാർക്കുകൾ "
+"പട്ടിക ലഭ്യമാക്കുന്നു."
+
+#: src/menus/file/save-as.xml:171(para)
+msgid ""
+"Above the middle panel, the path of the current directory is displayed. You "
+"can navigate along this path by clicking on one of the buttons."
+msgstr ""
+"മിഡിൽ പാനൽ മുകളിൽ, നിലവിലെ ഡയറക്ടറിയുടെ പാത്ത് പ്രദർശിപ്പിച്ചിരിക്കുന്നു. ന"
+"ിങ്ങൾ ബട്ടണുകൾ ഒന്നിലെ ക്ലിക്കുചെയ്ത് ഈ പാതയിലൂടെ നാവിഗേറ്റ് ചെയ്യാം."
+
+#: src/menus/file/save-as.xml:178(para)
+msgid ""
+"If you want to save the image into a folder that doesn't yet exist, you can "
+"create it by clicking on <guilabel>Create Folder</guilabel> and following "
+"the instructions."
+msgstr ""
+"നിങ്ങൾ ഇതുവരെ നിലവിലില്ലാത്ത ഒരു ഫോൾഡറിലേക്ക് ചിത്രം സംരക്ഷിക്കാൻ ആഗ്രഹിക്"
+"കുന്നുവെങ്കിൽ നിങ്ങൾക്ക് <guilabel>Create Folder</guilabel> ക്ലിക്കുചെയ്ത് "
+"നിർദ്ദേശങ്ങൾ താഴെ ഉണ്ടാക്കുന്നു."
+
+#: src/menus/file/save-as.xml:185(para)
+msgid ""
+"This button shows <guilabel>All Images</guilabel> by default. This means "
+"that all images will be displayed in the middle panel, whatever their file "
+"type. By developing this list, you can choose to show only one type of file."
+msgstr ""
+"ഈ ബട്ടൺ സ്വതവേ <guilabel>All Images</guilabel> കാണിക്കുന്നു. ഇത് എല്ലാ ചിത്"
+"രങ്ങളും ഏതൊരു അവരുടെ ഫയൽ തരം മധ്യത്തിൽ പാനൽ, ദൃശ്യമാകും എന്നാണ്. ഈ ലിസ്റ്റ"
+"് വികസ്വര, നിങ്ങൾ ഫയൽ ഒരേയൊരു തരം കാണിക്കാൻ തിരഞ്ഞെടുക്കാം."
+
+#: src/menus/file/save-as.xml:193(para)
+msgid ""
+"At <guilabel>Select File Type</guilabel>, you have to select the file format "
+"for saving the file. If you select <guilabel>By Extension</guilabel>, the "
+"file type is determined by the extension you add to the name, for example, "
+"<quote>.jpg</quote> for JPEG format."
+msgstr ""
+"<guilabel>Select File Type</guilabel>, നിങ്ങൾ ഫയൽ സംരക്ഷിക്കുന്നതിന് ഫയൽ ഫേ"
+"ാർമാറ്റ് തിരഞ്ഞെടുക്കുക ഞങ്ങൾക്കുണ്ട്. നിങ്ങൾ <guilabel>By Extension</guila"
+"bel> തെരഞ്ഞെടുത്താൽ, ഫയൽ തരം പേര് ലേക്ക് JPEG ഫോർമാറ്റിൽ, ഉദാഹരണത്തിന് ചേർ"
+"ക്കുക <quote>.jpg</quote> വിപുലീകരണം നിർണ്ണയിക്കുന്നത്."
+
+#: src/menus/file/save-as.xml:201(para)
+msgid ""
+"To preserve all the components of your image when you save it — the layers, "
+"channels, etc. — use \".xcf\" format, which is the <acronym>GIMP</acronym>'s "
+"native format."
+msgstr ""
+"പാളികൾ, ചാനലുകൾ മുതലായവ - - നിങ്ങൾ സേവ് നിങ്ങളുടെ ചിത്രം എല്ലാ ഘടകങ്ങളും കാ"
+"ക്കുന്നു ഉപയോഗിക്കുന്ന, <acronym>GIMP</acronym> ന്റെ നേറ്റീവ് ഫോർമാറ്റിലാ"
+"ണ് \".xcf\" ഫോർമാറ്റ്."
+
+#: src/menus/file/open-recent.xml:9(title)
+#: src/menus/file/open-recent.xml:17(primary)
+#, fuzzy
+msgid "Open Recent"
+msgstr ""
+"തുറക്കുക _Recent"
+
+#: src/menus/file/open-recent.xml:14(tertiary)
+msgid "Open recent"
+msgstr ""
+"സമീപകാല തുറക്കുക"
+
+#: src/menus/file/open-recent.xml:20(para)
+msgid ""
+"Selecting <guimenuitem>Open Recent</guimenuitem> displays a submenu with the "
+"names of the files that you have opened recently in <acronym>GIMP</acronym>. "
+"Simply click on a name to reopen it. See the <link linkend=\"gimp-document-"
+"dialog\">Document History dialog</link> at the bottom of the Open Recent "
+"submenu, if you cannot find your image."
+msgstr ""
+"<guimenuitem>Open Recent</guimenuitem> തിരഞ്ഞെടുക്കുന്നത് <acronym>GIMP</ac"
+"ronym> സമീപകാലത്ത് തുറന്ന ഫയലുകളിൽ പേരുകൾ ഒരു ഉപമെനുവുണ്ട് പ്രദർശിപ്പിക്കുന"
+"്നു. ലളിതമായി ഇത് വീണ്ടും തുറക്കാൻ ഒരു നാമത്തിൽ ക്ലിക്ക്. , തുറക്കുക സമീപകാ"
+"ല ഉപമെനുവുണ്ട് ചുവട്ടിൽ <link linkend=\"gimp-document- dialog\">Document Hi"
+"story dialog</link> കാണുക നിങ്ങളുടെ ചിത്രം കണ്ടെത്താൻ കഴിയുന്നില്ല എങ്കിൽ."
+
+#: src/menus/file/open-recent.xml:32(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Open Recent</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Recently Closed Docks</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് "
+"ചെയ്യാൻ കഴിയും"
+
+#: src/menus/file/close.xml:9(title) src/menus/file/close.xml:17(primary)
+#, fuzzy
+msgid "Close"
+msgstr ""
+"അടച്ച"
+
+#: src/menus/file/close.xml:14(secondary)
+#, fuzzy
+msgid "Close image"
+msgstr ""
+"എല്ലാ ചിത്രങ്ങൾ അടയ്ക്കുക"
+
+#: src/menus/file/close.xml:20(para)
+msgid ""
+"The <guimenuitem>Close</guimenuitem> command closes the active image. If the "
+"image is not in the main window, then the window is closed also. If the "
+"image is in the main window, the image is closed but the window remains, "
+"empty."
+msgstr ""
+"<guimenuitem>Close</guimenuitem> കമാൻഡ് സജീവ ചിത്രം അടയ്ക്കുന്നു. ചിത്രം പ്"
+"രധാന ജാലകം ഇല്ല എങ്കിൽ, വിൻഡോ പുറമേ അടച്ചു. ചിത്രം പ്രധാന ജാലകം ആണെങ്കിൽ, "
+"ഇമേജ് അടച്ചു പക്ഷേ വിൻഡോ ശൂന്യമാണ് തുടരുന്നു."
+
+#: src/menus/file/close.xml:26(para)
+msgid ""
+"Closing an image is not undoable: once it is closed, everything is gone, "
+"including the undo history. If the image is not <quote>clean</quote> — that "
+"is, if you have changed it since the last time you saved it — you are asked "
+"to confirm that you really want to close it. Note that an image is marked as "
+"clean when it is saved to a file, even if the file format chosen does not "
+"preserve all the information in the image, so it is a good idea to think for "
+"a moment about what you are doing before closing an image. If there is the "
+"slightest possibility that you will regret it, it can't hurt to save a copy "
+"as an <link linkend=\"glossary-xcf\">XCF</link> file."
+msgstr ""
+"ഒരു ഇമേജ് അടയ്ക്കുന്നത് പഴയപടിയാക്കാനാവില്ല: ഒരിക്കൽ അതു അടച്ചു, എല്ലാം പഴയ"
+"പടിയാക്കാനുള്ള ചരിത്രം ഉൾപ്പെടെയുള്ള തകർന്നു. ചിത്രം <quote>clean</quote> അ"
+"ല്ല എങ്കിൽ - എന്നുവെച്ചാൽ, നിങ്ങൾ അതിൻറെ സംരക്ഷിച്ച അവസാന സമയം മുതൽ അതു മാറ"
+"്റി ഉണ്ടെങ്കിൽ - നിങ്ങൾ ശരിക്കും ഒരു തിമിംഗലത്തെ സ്ഥിരീകരിക്കാൻ ആവശ്യപ്പെട്"
+"ടു. അതു അടയ്ക്കുന്നതിന് മുമ്പ് പ്രവർത്തനങ്ങളിൽ ഒരു നിമിഷം ചിന്തിക്കാൻ ഒരു ന"
+"ല്ല ശീലമാണ് അങ്ങനെ, ചിത്രം എല്ലാ വിവരങ്ങളും പരിപാലിക്കും ഇല്ല ഫയൽ ഫോർമാറ്റ"
+"് തിരഞ്ഞെടുത്ത പോലും അത് ഒരു ഫയൽ സംരക്ഷിച്ചു ചെയ്യുമ്പോൾ ഒരു ഇമേജ് ശുദ്ധി"
+"യുള്ള അടയാളപ്പെടുത്തി ശ്രദ്ധിക്കുക ഒരു ചിത്രം. നിങ്ങൾ അതു തുറന്നു എന്നു ചെറ"
+"ിയ സാദ്ധ്യത ഉണ്ടെങ്കിൽ അത് ഒരു <link linkend=\"glossary-xcf\">XCF</link> ഫയ"
+"ലായി പകർപ്പ് സംരക്ഷിക്കാൻ ദോഷവും വരുത്തുകയില്ല."
+
+#: src/menus/file/close.xml:43(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Close</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/file/close.xml:52(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>W</"
+"keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>W</k"
+"eycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/file/close.xml:58(para)
+msgid ""
+"For most systems on which the <acronym>GIMP</acronym> runs, you can also "
+"execute it by clicking on a <quote>Close</quote> button somewhere on the "
+"image window titlebar. The location and appearance of this button are "
+"determined by the windowing system and the window manager."
+msgstr ""
+"ഏത് <acronym>GIMP</acronym> പ്രവർത്തിപ്പിക്കുന്ന മിക്ക സിസ്റ്റംസ്, നിങ്ങൾക്"
+"ക് ഇമേജ് ജാലകത്തിന്റെ ന് എവിടെയെങ്കിലും ഒരു <quote>Close</quote> ബട്ടൺ ക്ളി"
+"ക്ക് അത് നടപ്പിലാക്കാൻ കഴിയും. ഈ ബട്ടൺ സ്ഥാനം ഹാജരാകുന്നതിന് ജാലക വ്യവസ്ഥ വ"
+"ിൻഡോ മാനേജർ നിർണ്ണയിക്കുന്നത്."
+
+#: src/menus/file/close.xml:66(para)
+msgid ""
+"If you close the image window, as described above, <acronym>GIMP</acronym> "
+"simply closes your image. However, if you close the Toolbox window by using "
+"the <quote>Close</quote> button, <acronym>GIMP</acronym> itself exits."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് വിൻഡോ അടയ്ക്കുകയാണെങ്കിൽ, മുകളിൽ വിവരിച്ച പോലെ, <acronym>GIM"
+"P</acronym> നിങ്ങളുടെ ഇമേജ് അടയ്ക്കുന്നു. എന്നിരുന്നാലും, നിങ്ങൾ <quote>Clo"
+"se</quote> ബട്ടൺ ഉപയോഗിച്ച് പണിസഞ്ചി വിൻഡോ അടയ്ക്കുകയാണെങ്കിൽ, <acronym>G"
+"IMP</acronym> സ്വയം കടക്കുന്നു."
+
+#: src/menus/file/open-as-layer.xml:13(title)
+#, fuzzy
+msgid "Open as Layers"
+msgstr ""
+"ലെയറുകൾ ആയി Op_en ..."
+
+#: src/menus/file/open-as-layer.xml:17(tertiary)
+#, fuzzy
+msgid "As layers"
+msgstr ""
+"എല്ലാ പാളികൾ"
+
+#: src/menus/file/open-as-layer.xml:20(primary)
+msgid "Layer"
+msgstr ""
+"ലെയർ"
+
+#: src/menus/file/open-as-layer.xml:21(secondary)
+msgid "Stack managing"
+msgstr ""
+"മാനേജിങ് ശേഖരം"
+
+#: src/menus/file/open-as-layer.xml:22(tertiary)
+#, fuzzy
+msgid "Open image as layers"
+msgstr ""
+"ലെയറുകൾ ആയി തുറക്കുക ചിത്രം"
+
+#: src/menus/file/open-as-layer.xml:25(primary)
+#, fuzzy
+msgid "Open as layers"
+msgstr ""
+"തുറക്കുക പാളികൾ"
+
+#: src/menus/file/open-as-layer.xml:28(para)
+msgid ""
+"The <guimenu>Open Image as layers</guimenu> dialog is identical to the <link "
+"linkend=\"gimp-file-open\">Open Image</link> dialog. The layers of the "
+"selected file are added to the current image as the top layers in the stack."
+msgstr ""
+"<guimenu>Open Image as layers</guimenu> ഡയലോഗ് <link linkend=\"gimp-file-o"
+"pen\">Open Image</link> ഡയലോഗ് സമാനമാണ്. തിരഞ്ഞെടുത്ത ഫയൽ പാളികൾ സ്റ്റാക്ക"
+"് മുൻനിര പാളികൾ പോലെ നിലവിലെ ചിത്രം ചേർത്തു."
+
+#: src/menus/file/open-as-layer.xml:38(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Open as layers</"
+"guimenuitem></menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/file/open-as-layer.xml:47(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>Alt</keycap><keycap>O</keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>Alt<"
+"/keycap><keycap>O</keycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/file/save.xml:8(title)
+msgid "Save"
+msgstr ""
+"രക്ഷിക്കും"
+
+#: src/menus/file/save.xml:13(para)
+msgid "This command opens <xref linkend=\"gimp-save-dialog\"/>."
+msgstr ""
+"ഈ കമാൻഡ് <xref linkend=\"gimp-save-dialog\" /> തുറക്കുന്നു."
+
+#: src/menus/file/save-as-template.xml:9(title)
+#: src/menus/file/save-as-template.xml:17(primary)
+#: src/menus/file/save-as-template.xml:21(secondary)
+#, fuzzy
+msgid "Save as Template"
+msgstr ""
+"_Template സംരക്ഷിക്കുക ..."
+
+#: src/menus/file/save-as-template.xml:14(tertiary)
+#, fuzzy
+msgid "Save as template"
+msgstr ""
+"_Template സംരക്ഷിക്കുക ..."
+
+#: src/menus/file/save-as-template.xml:24(para)
+msgid ""
+"The <guimenuitem>Save as Template</guimenuitem> command creates a template "
+"with the same dimensions and color space as the current image. A dialog pops "
+"up, which asks you to name the new template, then the template is saved and "
+"becomes available in the <link linkend=\"gimp-file-new\">New Image</link> "
+"dialog. If you give a name that already exists, <acronym>GIMP</acronym> "
+"generates a unique name by appending a number to it. You can use the <link "
+"linkend=\"gimp-template-dialog\">Templates</link> dialog to modify or delete "
+"templates."
+msgstr ""
+"<guimenuitem>Save as Template</guimenuitem> കമാൻഡ് നിലവിലെ ചിത്രം അതേ തലങ്ങ"
+"ളും കളർ സ്പേസ് ഒരു ഫലകം സൃഷ്ടിക്കുന്നു. ഒരു ഡയലോഗ് പിന്നീട് ടെംപ്ലേറ്റ് രക"
+"്ഷപ്പെടുത്തുകയും <link linkend=\"gimp-file-new\">New Image</link> ഡയലോഗ് ല"
+"ഭ്യമാകുമ്പോൾ ആണ്, പുതിയ ടെംപ്ലേറ്റ് പേര് ആവശ്യപ്പെടുകയോ ഏത് മാറികിട്ടി. ന"
+"ിങ്ങൾ ഇതിനകം നിലനിൽക്കുന്ന ഒരു പേര് എങ്കിൽ <acronym>GIMP</acronym> അത് ഒരു "
+"നമ്പർ അനുബന്ധിപ്പിച്ചുകൊണ്ട് തനതായ പേര് സൃഷ്ടിക്കുന്നു. നിങ്ങൾ ഫലകങ്ങൾ പരി"
+"ഷ്ക്കരിക്കുക അല്ലെങ്കിൽ ഇല്ലാതാക്കാൻ <link linkend=\"gimp-template-dialog\""
+">Templates</link> ഡയലോഗ് ഉപയോഗിക്കാൻ കഴിയും."
+
+#: src/menus/file/save-as-template.xml:41(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Save as Template</"
+"guimenuitem></menuchoice>. There is no default keyboard shortcut."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/file/open.xml:60(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/file/open.png'; md5=4ac9517a39693c68dae342386b894c42"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/file/open.xml:166(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/file/open/folder-context-menu.png'; "
+"md5=176c8f89fdbffbc3735b34b18e810c5c"
+msgstr ""
+"@@image: 'images/menus/detached-submenu.png'; "
+"md5=8746ad151b99ae854ff6248044c735c2"
+
+#: src/menus/file/open.xml:21(para)
+msgid ""
+"The <guimenuitem>Open</guimenuitem> command activates a dialog that lets you "
+"load an existing image from your hard-drive or an external medium. For "
+"alternative, and sometimes more convenient, ways of opening files, see the "
+"following commands (<xref linkend=\"gimp-file-open-as-layer\"/> etc.)."
+msgstr ""
+"<guimenuitem>Open</guimenuitem> കമാൻഡ് നിങ്ങളുടെ ഹാർഡ് ഡ്രൈവ് അല്ലെങ്കിൽ ഒര"
+"ു ബാഹ്യ ഇടത്തരം നിന്ന് നിലവിലുള്ള ഇമേജ് ലോഡ് അനുവദിക്കുന്ന ഡയലോഗ് സജീവമാക"
+"്കുന്നു. ഫയലുകൾ തുറക്കുമ്പോൾ ബദൽ പലപ്പോഴും കൂടുതൽ സൗകര്യപ്രദമായ, വഴികൾ, ക"
+"മാൻഡുകൾ (<xref linkend=\"gimp-file-open-as-layer\" /> മുതലായവ) കാണുക."
+
+#: src/menus/file/open.xml:29(title)
+#, fuzzy
+msgid "Activate Dialog"
+msgstr ""
+"_Dockable സംഭാഷണങ്ങള്"
+
+#: src/menus/file/open.xml:33(para)
+#, fuzzy
+msgid ""
+"You can access the <guimenuitem>Open</guimenuitem> dialog from an image "
+"window through: <menuchoice><guimenu>File</guimenu><guimenuitem>Open</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/file/open.xml:43(para)
+msgid ""
+"You can also open the Dialog by using the keyboard shortcut "
+"<keycombo><keycap>Ctrl</keycap><keycap>O</keycap></keycombo>."
+msgstr ""
+"നിങ്ങൾക്ക് കീബോർഡ് കുറുക്കു <keycombo><keycap>Ctrl</keycap><keycap>O</keyc"
+"ap></keycombo> ഉപയോഗിച്ച് ഡയലോഗ് തുറക്കാൻ കഴിയും."
+
+#: src/menus/file/open.xml:52(title)
+msgid "File browsing"
+msgstr ""
+"ഫയൽ ബ്രൗസിംഗ്"
+
+#. 2.6: file-open.xcf.gz in src/images/menus
+#: src/menus/file/open.xml:57(title)
+#, fuzzy
+msgid "Open Dialog"
+msgstr ""
+"തുറക്കുക _Dialogue ഫയൽ"
+
+#: src/menus/file/open.xml:65(para)
+msgid ""
+"This browser looks like other browsers and it is mostly self-explanatory. It "
+"has some particuliar features nevertheless."
+msgstr ""
+"ഈ ബ്രൗസർ മറ്റ് ബ്രൗസറുകൾ പോലെ കാണപ്പെടുന്നു കുരുതി സ്വയം വിശദീകരിക്കുന്ന ആ"
+"ണ്. ഇത് എങ്കിലും ചില particuliar സവിശേഷതകൾ ഉണ്ട്."
+
+#. 1
+#: src/menus/file/open.xml:71(para)
+msgid ""
+"The button <guibutton>Type a file name</guibutton> toggles between add and "
+"remove the <guilabel>Location</guilabel> text box."
+msgstr ""
+"തമ്മിൽ ചേർക്കാനും <guilabel>Location</guilabel> ടെക്സ്റ്റ് ബോക്സ് നീക്കം ട"
+"ോഗിൾചെയ്യുന്നു <guibutton>Type a file name</guibutton> ബട്ടൺ."
+
+#: src/menus/file/open.xml:75(para)
+msgid ""
+"The <keycombo><keycap>Ctrl</keycap><keycap>L</keycap></keycombo> key "
+"combination has the same action as this button."
+msgstr ""
+"<keycombo><keycap>Ctrl</keycap><keycap>L</keycap></keycombo> കീ കോമ്പിനേഷൻ"
+" ഈ ബട്ടൺ അതേ നടപടി ഉണ്ട്."
+
+#. 2
+#: src/menus/file/open.xml:82(para)
+msgid ""
+"In the <guilabel>Location</guilabel> text box you can type a path to an "
+"image file. If you don't type any path, the name of the selected file will "
+"be displayed. You can also type the first letters of the name: it will be "
+"auto-completed and a list of file names beginning with these letters will be "
+"displayed."
+msgstr ""
+"<guilabel>Location</guilabel> ടെക്സ്റ്റ് ബോക്സിൽ നിങ്ങൾ ഒരു ഇമേജ് ഫയൽ പാത്"
+"ത് ടൈപ്പ് ചെയ്യാം. നിങ്ങൾക്ക് ഏതെങ്കിലും പാത ടൈപ്പ് ഇല്ലെങ്കിൽ, തിരഞ്ഞെടുത്"
+"ത ഫയൽ നാമം ദൃശ്യമാകും. നിങ്ങൾക്ക് പേരിന്റെ ആദ്യത്തെ അക്ഷരങ്ങൾ ടൈപ്പ് ചെയ്യാ"
+"ം: തീരുമാനം ഓട്ടോ-പൂർത്തിയാക്കി ഈ കത്തുകൾ തുടങ്ങി ഫയൽ പേരുകൾ ഒരു ലിസ്റ്റ് "
+"പ്രദർശിപ്പിക്കും ആയിരിക്കും."
+
+#: src/menus/file/open.xml:89(para)
+msgid ""
+"When you search for a file or directory using the <guilabel>Search</"
+"guilabel> feature (see below, item 4), the label changes to "
+"<guilabel>Search</guilabel> and you can enter the name in this text box."
+msgstr ""
+"നിങ്ങൾ <guilabel>Search</guilabel> സവിശേഷത ഉപയോഗിച്ച് ഒരു ഫയൽ അല്ലെങ്കിൽ ഡ"
+"യറക്ടറി തിരയുമ്പോൾ (താഴെ കാണാം ഇനം 4), <guilabel>Search</guilabel> നിങ്ങൾ "
+"ലേബൽ മാറ്റങ്ങൾ ഈ ടെക്സ്റ്റ് ബോക്സിൽ പേര് നൽകാം."
+
+#. 3
+#: src/menus/file/open.xml:111(para)
+msgid ""
+"The path to the current folder is displayed. You can navigate along this "
+"path by clicking on an element."
+msgstr ""
+"നിലവിലെ ഫോൾഡറിൽ പാത്ത് പ്രദർശിപ്പിച്ചിരിക്കുന്നു. നിങ്ങൾ ഒരു ഘടകത്തിലെ ക്ല"
+"ിക്കുചെയ്ത് ഈ പാതയിലൂടെ നാവിഗേറ്റ് ചെയ്യാം."
+
+#. 4
+#: src/menus/file/open.xml:118(para)
+msgid ""
+"With <guilabel>Search</guilabel> you can look for a file (or directory), "
+"even if you don't know the exact name of that file. Click on "
+"<guilabel>Search</guilabel>, type a file name or just a part of a file name "
+"in the text box above, and press <keycap>Enter</keycap>. Then the central "
+"frame (7) will list all files and directories of your home directory with "
+"names containing the text you typed in. Unfortunately you can't restrict the "
+"results to files of a specified type (10)."
+msgstr ""
+"<guilabel>Search</guilabel> ഉപയോഗിച്ച്, നിങ്ങൾ ആ ഫയൽ കൃത്യമായ പേര് അറിയില്"
+"ല പോലും, ഒരു ഫയൽ (അല്ലെങ്കിൽ ഡയറക്ടറി) നോക്കുക. ഒരു ഫയൽ പേര് അല്ലെങ്കിൽ മ"
+"ുകളിലുള്ള പാഠ ബോക്സിൽ, അമർത്തുക <keycap>Enter</keycap> ഒരു ഫയൽ പേര് ഒരു ഭാ"
+"ഗം ടൈപ്പ്, <guilabel>Search</guilabel> ക്ലിക്ക്. അപ്പോൾ കേന്ദ്ര ഫ്രെയിം (7"
+") നിങ്ങൾ ടൈപ്പുചെയ്ത പാഠം ഉൾക്കൊള്ളുന്ന പേരുകൾ ഉപയോഗിച്ച് നിങ്ങളുടെ ഹോം "
+"ഡയറക്ടറിയിൽ എല്ലാ ഫയലുകളും ഡയറക്ടറികളും ലിസ്റ്റ് ചെയ്യും. നിർഭാഗ്യവശാൽ ഒരു "
+"നിശ്ചിത തരം (10) ഫയലുകളിൽ ഫലങ്ങൾ നിയന്ത്രിക്കാൻ കഴിയില്ല."
+
+#: src/menus/file/open.xml:128(para)
+msgid "<guilabel>Recently used</guilabel> is self-explanatory."
+msgstr ""
+"<guilabel>Recently used</guilabel> സ്വയം വിശദീകരിക്കുന്ന ആണ്."
+
+#. 5
+#: src/menus/file/open.xml:134(para)
+msgid "Here, you can access to your main folders and to your store devices."
+msgstr ""
+"ഇവിടെ നിങ്ങൾ നിങ്ങളുടെ പ്രധാന ഫോൾഡറുകൾ നിങ്ങളുടെ സ്റ്റോർ ഉപകരണങ്ങളിലേക്ക്"
+" ആക്സസ് ചെയ്യാൻ കഴിയും."
+
+#. 6
+#: src/menus/file/open.xml:140(para)
+msgid ""
+"Here, you can add bookmarks to folders, by using the <guibutton>Add</"
+"guibutton> or the <guilabel>Add to Bookmarks</guilabel> option you get by "
+"right-clicking a folder in the central panel, and also remove them."
+msgstr ""
+"ഇവിടെ നിങ്ങൾ ബുക്ക്മാർക്കുകൾ ഫോൾഡറുകൾ, <guibutton>Add</guibutton> അല്ലെങ്ക"
+"ിൽ നിങ്ങൾ കേന്ദ്ര പാനൽ ക്ലിക്കുചെയ്തുകൊണ്ട് ഒരു ഫോൾഡർ നേടുന്നു <guilabel>"
+"Add to Bookmarks</guilabel> ഓപ്ഷൻ ഉപയോഗിച്ച് ചേർക്കാൻ കഴിയും, കൂടാതെ അവരെ "
+"നീക്കം."
+
+#. 7
+#: src/menus/file/open.xml:149(para)
+msgid ""
+"The contents of the selected folder is displayed here. Change your current "
+"folder by double left clicking on a folder in this panel. Select a file with "
+"a single left click. You can then open the file you have selected by "
+"clicking on the <guibutton>Open</guibutton> button. A double left click "
+"opens the file directly. Please note that you can open image files only."
+msgstr ""
+"തിരഞ്ഞെടുത്ത ഫോൾഡറിൽ ഉളളടക്കം ഇവിടെ പ്രദർശിപ്പിച്ചിരിക്കുന്നു. ഈ പാനലിൽ ഒര"
+"ു ഫോൾഡർ ഡബിൾ ഇടത് ക്ലിക്കുചെയ്തുകൊണ്ട് നിലവിലുള്ള ഫോൾഡർ മാറ്റുക. ഒറ്റ ഇട"
+"ത് ക്ലിക്കിൽ ഒരു ഫയൽ തിരഞ്ഞെടുക്കുക. എന്നിട്ട് നിങ്ങൾ <guibutton>Open</guib"
+"utton> ബട്ടൺ ക്ലിക്കുചെയ്ത് തിരഞ്ഞെടുത്ത ഫയൽ തുറക്കാൻ കഴിയും. ഇരട്ട ഇടത് ക്"
+"ലിക്കിൽ നേരിട്ട് ഫയൽ തുറക്കുന്നു. നിങ്ങൾ ഇമേജ് ഫയലുകൾ മാത്രം തുറക്കാൻ എന്ന്"
+" ഓർക്കുക."
+
+#: src/menus/file/open.xml:158(para)
+msgid "Right-clicking a folder name opens a context menu:"
+msgstr ""
+"ഒരു ഫോൾഡർ നാമം വലതു ബട്ടൺ ഒരു സന്ദർഭ മെനു തുറക്കുന്നു:"
+
+#: src/menus/file/open.xml:168(caption)
+#, fuzzy
+msgid "The folder context menu"
+msgstr ""
+"സന്ദർഭ മെനുകൾ"
+
+#. 8
+#: src/menus/file/open.xml:174(para)
+msgid ""
+"The selected image is displayed in the <guilabel>Preview</guilabel> window. "
+"If it is an image created by <acronym>GIMP</acronym>, file size, resolution "
+"and image composition are displayed below the preview window."
+msgstr ""
+"തിരഞ്ഞെടുത്ത ചിത്രം <guilabel>Preview</guilabel> വിൻഡോയിൽ പ്രദർശിപ്പിച്ചിര"
+"ിക്കുന്നു. അതു <acronym>GIMP</acronym>, പ്രമാണത്തിന്റെ വലിപ്പം സൃഷ്ടിച്ച ഒര"
+"ു ചിത്രമാണെങ്കിൽ ചിത്രം ഇമേജ് രചനയാണ് പ്രിവ്യൂ വിൻഡോ ചുവടെ പ്രദർശിപ്പിച്ചി"
+"രിക്കുന്നു."
+
+#: src/menus/file/open.xml:182(para)
+msgid ""
+"If your image has been modified by another program, click on the Preview "
+"window to update it."
+msgstr ""
+"നിങ്ങളുടെ ചിത്രം മറ്റൊരു പ്രോഗ്രാം മാറ്റിയിട്ടുണ്ടെങ്കിൽ, അത് പുതുക്കുന്ന"
+"തിനായി പ്രിവ്യൂ ജാലകത്തിൽ ക്ലിക്ക് ചെയ്യുക."
+
+#. 9
+#: src/menus/file/open.xml:190(para)
+msgid ""
+"By clicking the <guibutton>Add</guibutton> button, you add the selected "
+"folder to bookmarks."
+msgstr ""
+"<guibutton>Add</guibutton> ബട്ടൺ ക്ലിക്കുചെയ്യുന്നതിലൂടെ, ബുക്ക്മാർക്കുകൾ ത"
+"ിരഞ്ഞെടുത്ത ഫോൾഡർ ചേർക്കുക."
+
+#: src/menus/file/open.xml:194(para)
+msgid ""
+"By clicking the <guibutton>Remove</guibutton>, you remove the selected "
+"bookmark from the list."
+msgstr ""
+"<guibutton>Remove</guibutton> ക്ലിക്കുചെയ്യുന്നതിലൂടെ, പട്ടികയിൽ നിന്നും തി"
+"രഞ്ഞെടുത്ത ബുക്ക്മാർക്ക് നീക്കം."
+
+#. 10
+#: src/menus/file/open.xml:201(para)
+msgid ""
+"You will generally prefer to display the names of <guilabel>All images</"
+"guilabel>. You can also select <guilabel>All files</guilabel>. You can also "
+"limit yourself to a particular type of image (GIF, JPG, PNG ...)."
+msgstr ""
+"സാധാരണ <guilabel>All images</guilabel> പേരുകൾ പ്രദർശിപ്പിക്കാൻ ഇഷ്ടപ്പെടുന്"
+"നത് ചെയ്യും. നിങ്ങൾക്ക് <guilabel>All files</guilabel> തിരഞ്ഞെടുക്കാം. നിങ്"
+"ങൾക്ക് ചിത്രത്തിന്റെ ഒരു പ്രത്യേക തരം (gif, jpg, പി.എൻ.ജി. ...) സ്വയം പരിമി"
+"തപ്പെടുത്തും."
+
+#. 11
+#: src/menus/file/open.xml:210(para)
+msgid ""
+"<guilabel>Select File Type</guilabel>: In most cases you don't need to pay "
+"any attention to this, because <acronym>GIMP</acronym> can determine the "
+"file type automatically. In a few rare situations, neither the file "
+"extension nor internal information in the file are enough to tell "
+"<acronym>GIMP</acronym> the file type. If this happens, you can set it by "
+"selecting it from the list."
+msgstr ""
+"<guilabel>Select File Type</guilabel>: മിക്ക സമയത്തും നിങ്ങൾ <acronym>GIMP<"
+"/acronym> സ്വയം ഫയൽ തരം നിർണ്ണയിക്കാൻ കഴിയും കാരണം, ഈ ഏതെങ്കിലും ശ്രദ്ധ ചെയ"
+"്യരുത് ആവശ്യമില്ല. ഫയലിൽ ഏതാനും അപൂർവ സാഹചര്യങ്ങളിൽ, ഫയൽ എക്സ്റ്റൻഷൻ വേണ്ടാ"
+" ആന്തരിക വിവരങ്ങൾ ആരും ഇല്ല <acronym>GIMP</acronym> ഫയൽ തരം പറയാൻ മാത്രം. ഇ"
+"ങ്ങനെ സംഭവിക്കുകയാണെങ്കിൽ, നിങ്ങൾ ലിസ്റ്റിൽ നിന്ന് തിരഞ്ഞെടുത്ത് ഇത് സജ്ജമാ"
+"ക്കാം."
+
+#: src/menus/file/revert.xml:9(title)
+msgid "Revert"
+msgstr ""
+"തിരിച്ചയയ്ക്കുക"
+
+#: src/menus/file/revert.xml:13(secondary)
+#, fuzzy
+msgid "Reload the image"
+msgstr ""
+"ഡിസ്കിൽ നിന്നും ഇമേജ് ഫയൽ ലോഡുചെയ്യുക"
+
+#: src/menus/file/revert.xml:16(primary)
+#, fuzzy
+msgid "Revert (command)"
+msgstr ""
+"ചിത്രം"
+
+#: src/menus/file/revert.xml:19(para)
+msgid ""
+"The <guimenuitem>Revert</guimenuitem> command reloads the image from disk, "
+"so that it looks just like it did the last time it was saved — unless, that "
+"is, you or some application other than <acronym>GIMP</acronym> have modified "
+"the image file, in which case, the new contents are loaded."
+msgstr ""
+"<guimenuitem>Revert</guimenuitem> കമാൻഡ് അത് കഴിഞ്ഞ തവണ അത് സംരക്ഷിച്ചു ചെയ"
+"്തതുപോലെ പോലെ കാണപ്പെടുന്നു അങ്ങനെ, ഡിസ്ക് നിന്നും ചിത്രം വീണ്ടും - നിങ്ങ"
+"ൾ അല്ലെങ്കിൽ <acronym>GIMP</acronym> പുറമെ അപ്ലിക്കേഷൻ, സാഹചര്യത്തിൽ, ഇമേജ്"
+" ഫയൽ പരിഷ്ക്കരിച്ചു എന്നുവെച്ചാൽ ഏതൊരാവശ്യത്തിനും പുതിയ ഉള്ളടക്കങ്ങൾ ഉണ്ട്"
+" ലോഡുചെയ്യുകയുമായിരുന്നു."
+
+#: src/menus/file/revert.xml:27(para)
+msgid ""
+"When <acronym>GIMP</acronym> reverts a file, it actually closes the existing "
+"image and creates a new image. Because of this, reverting an image is not "
+"undoable, and causes the undo history of the image to be lost. "
+"<acronym>GIMP</acronym> tries to protect you from losing your work in this "
+"way by asking you to confirm that you really want to revert the image."
+msgstr ""
+"<acronym>GIMP</acronym> ഒരു ഫയൽ മടങ്ങിവരുന്നതു, അത് യഥാർത്ഥത്തിൽ നിലവിലുള്ള"
+" ചിത്രം അടയുന്നു ഒരു പുതിയ ഇമേജ് ഉണ്ടാക്കുന്നു. ഇതുകാരണം, ഒരു ഇമേജ്, മതത്തി"
+"ന്റെയും അല്ല പഴയപടിയാക്കാനാവില്ല ആണ് ചിത്രത്തിന്റെ പഴയപടിയാക്കാനുള്ള ചരിത്ര"
+"ം നഷ്ടപ്പെട്ടു കാരണമാകുന്ന. <acronym>GIMP</acronym> നിങ്ങൾക്ക് ശരിക്കും ചിത"
+"്രം താൽപ്പര്യം സ്ഥിരീകരിക്കുന്നതിന് ആവശ്യപ്പെട്ട് ഈ വിധത്തിൽ നിങ്ങളുടെ പ്രവ"
+"ൃത്തി നഷ്ടപ്പെടുന്നത് നിന്ന് നിങ്ങളെ പരിരക്ഷിക്കാൻ ശ്രമിക്കുന്നു."
+
+#: src/menus/file/revert.xml:42(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Revert</guimenuitem></"
+"menuchoice>. There is no default keyboard shortcut."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Recently Closed Docks</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് "
+"ചെയ്യാൻ കഴിയും"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/file/revert.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"
+
+#~ msgid "The <quote>Windows</quote> Menu"
+#~ msgstr "The <quote>Windows</quote> Menu"
+
+#~ msgid "Menus"
+#~ msgstr "Menus"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid "The <quote>Dockable Dialogs</quote> submenu"
+#~ msgstr "The <quote>Dockable Dialogs</quote> submenu"
+
+#~ msgid "Docks"
+#~ msgstr "Docks"
+
+#~ msgid "List of dockable dialogs"
+#~ msgstr "List of dockable dialogs"
+
+#~ msgid "The <quote>Dockable Dialogs</quote> list"
+#~ msgstr "The <quote>Dockable Dialogs</quote> list"
+
+#~ msgid ""
+#~ "This command opens the list of the dialog windows you can open and dock. "
+#~ "Please see <link linkend=\"gimp-concepts-docks\">Dialogs and Docking</"
+#~ "link>."
+#~ msgstr ""
+#~ "This command opens the list of the dialog windows you can open and dock. "
+#~ "Please see <link linkend=\"gimp-concepts-docks\">Dialogs and Docking</"
+#~ "link>."
+
+#~ msgid ""
+#~ "All these dialogs are described in <link linkend=\"gimp-dialogs-"
+#~ "introduction\">Different dialogs description</link>."
+#~ msgstr ""
+#~ "All these dialogs are described in <link linkend=\"gimp-dialogs-"
+#~ "introduction\">Different dialogs description</link>."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/select.png'; md5=e2a02dde8de72d42430b777b89d0ee2a"
+#~ msgstr ""
+#~ "@@image: 'images/menus/select.png'; md5=e2a02dde8de72d42430b777b89d0ee2a"
+
+#~ msgid "Selection"
+#~ msgstr "Selection"
+
+#~ msgid "Introduction to the <quote>Select</quote> Menu"
+#~ msgstr "Introduction to the <quote>Select</quote> Menu"
+
+#~ msgid "The Contents of the <quote>Select</quote> menu"
+#~ msgstr "The Contents of the <quote>Select</quote> menu"
+
+#~ msgid ""
+#~ "This section explains the commands on the <guimenu>Select</guimenu> menu "
+#~ "of the image menubar."
+#~ msgstr ""
+#~ "This section explains the commands on the <guimenu>Select</guimenu> menu "
+#~ "of the image menubar."
+
+#~ msgid ""
+#~ "Besides the commands described here, you may also find other entries in "
+#~ "the menu. They are not part of <acronym>GIMP</acronym> itself, but have "
+#~ "been added by extensions (plug-ins). You can find information about the "
+#~ "functionality of a Plugin by referring to its documentation."
+#~ msgstr ""
+#~ "Besides the commands described here, you may also find other entries in "
+#~ "the menu. They are not part of <acronym>GIMP</acronym> itself, but have "
+#~ "been added by extensions (plug-ins). You can find information about the "
+#~ "functionality of a Plugin by referring to its documentation."
+
+#~ msgid "The <quote>Colors</quote> Menu"
+#~ msgstr "The <quote>Colors</quote> Menu"
+
+#~ msgid "Image window"
+#~ msgstr "Image window"
+
+#~ msgid "The <quote>View</quote> Menu"
+#~ msgstr "The <quote>View</quote> Menu"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+#~ msgstr ""
+#~ "@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#~ msgid "The <quote>Tools</quote> Menu"
+#~ msgstr "The <quote>Tools</quote> Menu"
+
+#~ msgid "Tools"
+#~ msgstr "Tools"
+
+#~ msgid "Introduction to the <quote>Tools</quote> Menu"
+#~ msgstr "Introduction to the <quote>Tools</quote> Menu"
+
+#~ msgid "Contents of the <quote>Tools</quote> menu"
+#~ msgstr "Contents of the <quote>Tools</quote> menu"
+
+#~ msgid ""
+#~ "The menu entries on the <guimenu>Tools</guimenu> menu access the "
+#~ "<acronym>GIMP</acronym> tools. All of the tools available in "
+#~ "<acronym>GIMP</acronym> are extensively described in the <link linkend="
+#~ "\"gimp-tools\">Tools</link> section."
+#~ msgstr ""
+#~ "The menu entries on the <guimenu>Tools</guimenu> menu access the "
+#~ "<acronym>GIMP</acronym> tools. All of the tools available in "
+#~ "<acronym>GIMP</acronym> are extensively described in the <link linkend="
+#~ "\"gimp-tools\">Tools</link> section."
+
+#~ msgid "Edit"
+#~ msgstr "Edit"
+
+#~ msgid "The <quote>Filters</quote> Menu"
+#~ msgstr "The <quote>Filters</quote> Menu"
+
+#~ msgid "Filters"
+#~ msgstr "Filters"
+
+#~ msgid "The <quote>Help</quote> Menu"
+#~ msgstr "The <quote>Help</quote> Menu"
+
+#~ msgid "Introduction to the <quote>Help</quote> Menu"
+#~ msgstr "Introduction to the <quote>Help</quote> Menu"
+
+#~ msgid "Help"
+#~ msgstr "Help"
+
+#~ msgid "Contents of the <quote>Help</quote> menu"
+#~ msgstr "Contents of the <quote>Help</quote> menu"
+
+#~ msgid ""
+#~ "The <guimenu>Help</guimenu> menu contains commands that assist you while "
+#~ "you are working with <application>GIMP</application>."
+#~ msgstr ""
+#~ "The <guimenu>Help</guimenu> menu contains commands that assist you while "
+#~ "you are working with <application>GIMP</application>."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/local-windows-submenu.png'; "
+#~ "md5=57af8745917ae54f989082e320678880"
+#~ msgstr ""
+#~ "@@image: 'images/menus/local-windows-submenu.png'; "
+#~ "md5=57af8745917ae54f989082e320678880"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/tab-menu-button.png'; "
+#~ "md5=a667dbce5e1dabe9abee73ea41859d31"
+#~ msgstr ""
+#~ "@@image: 'images/menus/tab-menu-button.png'; "
+#~ "md5=a667dbce5e1dabe9abee73ea41859d31"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/tab-menu.png'; md5=e3a7977b2570a5f5a3a776e89e884d02"
+#~ msgstr ""
+#~ "@@image: 'images/menus/tab-menu.png'; md5=e3a7977b2570a5f5a3a776e89e884d02"
+
+#~ msgid "Introduction to Menus"
+#~ msgstr "Introduction to Menus"
+
+#~ msgid "Introduction"
+#~ msgstr "Introduction"
+
+#~ msgid ""
+#~ "There are many places in <acronym>GIMP</acronym> where you can find "
+#~ "menus. The aim of this chapter is to explain all the commands that are "
+#~ "accessible from the image menu bar and the image menu you can get by "
+#~ "right clicking in the canvas. All the context menus and the menu entries "
+#~ "for the other dialogs are described elsewhere in the chapters that "
+#~ "describe the dialogs themselves."
+#~ msgstr ""
+#~ "There are many places in <acronym>GIMP</acronym> where you can find "
+#~ "menus. The aim of this chapter is to explain all the commands that are "
+#~ "accessible from the image menu bar and the image menu you can get by "
+#~ "right clicking in the canvas. All the context menus and the menu entries "
+#~ "for the other dialogs are described elsewhere in the chapters that "
+#~ "describe the dialogs themselves."
+
+#~ msgid "Context Menus"
+#~ msgstr "Context Menus"
+
+#~ msgid ""
+#~ "If you right-click on certain parts of the <acronym>GIMP</acronym> "
+#~ "interface, a <quote>context menu</quote> opens, which leads to a variety "
+#~ "of functions. Some places where you can access context menus are:"
+#~ msgstr ""
+#~ "If you right-click on certain parts of the <acronym>GIMP</acronym> "
+#~ "interface, a <quote>context menu</quote> opens, which leads to a variety "
+#~ "of functions. Some places where you can access context menus are:"
+
+#~ msgid ""
+#~ "Clicking on an image window displays the Image menu. This is useful when "
+#~ "you are working in full-screen mode, without a menubar."
+#~ msgstr ""
+#~ "Clicking on an image window displays the Image menu. This is useful when "
+#~ "you are working in full-screen mode, without a menubar."
+
+#~ msgid ""
+#~ "Clicking on a layer in the Layers Dialog or on a channel in the Channels "
+#~ "Dialog displays functions for the selected layer or channel."
+#~ msgstr ""
+#~ "Clicking on a layer in the Layers Dialog or on a channel in the Channels "
+#~ "Dialog displays functions for the selected layer or channel."
+
+#~ msgid ""
+#~ "Right-clicking on the image menubar has the same effect as left-clicking."
+#~ msgstr ""
+#~ "Right-clicking on the image menubar has the same effect as left-clicking."
+
+#~ msgid ""
+#~ "Right-clicking on the title bar displays functions which do not belong to "
+#~ "<acronym>GIMP</acronym>, but to the window manager program on your "
+#~ "computer."
+#~ msgstr ""
+#~ "Right-clicking on the title bar displays functions which do not belong to "
+#~ "<acronym>GIMP</acronym>, but to the window manager program on your "
+#~ "computer."
+
+#~ msgid "Tear-off menus"
+#~ msgstr "Tear-off menus"
+
+#~ msgid "Tear-off line"
+#~ msgstr "Tear-off line"
+
+#~ msgid ""
+#~ "There is an interesting property associated with some of the menus in "
+#~ "<acronym>GIMP</acronym>. These are any of the menus from the Image "
+#~ "context menu you get by right-clicking on the canvas and any of its "
+#~ "submenus. (You can tell that a menu item leads to a submenu because there "
+#~ "is an <guiicon><inlinegraphic fileref=\"images/menus/icon-submenu.png\" "
+#~ "format=\"PNG\"/></guiicon> icon next to it.) When you bring up any of "
+#~ "these menus, there is a dotted line at the top of it (tear-off line). By "
+#~ "clicking on this dotted line, you detach the menu under it and it becomes "
+#~ "a separate window."
+#~ msgstr ""
+#~ "There is an interesting property associated with some of the menus in "
+#~ "<acronym>GIMP</acronym>. These are any of the menus from the Image "
+#~ "context menu you get by right-clicking on the canvas and any of its "
+#~ "submenus. (You can tell that a menu item leads to a submenu because there "
+#~ "is an <guiicon><inlinegraphic fileref=\"images/menus/icon-submenu.png\" "
+#~ "format=\"PNG\"/></guiicon> icon next to it.) When you bring up any of "
+#~ "these menus, there is a dotted line at the top of it (tear-off line). By "
+#~ "clicking on this dotted line, you detach the menu under it and it becomes "
+#~ "a separate window."
+
+#~ msgid "The <quote>windows</quote> submenu and its tear-off submenu"
+#~ msgstr "The <quote>windows</quote> submenu and its tear-off submenu"
+
+#~ msgid ""
+#~ "Tear-off menus are actually independent. They are always visible, their "
+#~ "functions always apply to the current image, and they persist when all of "
+#~ "the images are closed. You can close a tear-off submenu by clicking on "
+#~ "the dotted line again or closing the window from the window manager on "
+#~ "your computer (often by clicking on an X icon in the upper right corner "
+#~ "of the window)."
+#~ msgstr ""
+#~ "Tear-off menus are actually independent. They are always visible, their "
+#~ "functions always apply to the current image, and they persist when all of "
+#~ "the images are closed. You can close a tear-off submenu by clicking on "
+#~ "the dotted line again or closing the window from the window manager on "
+#~ "your computer (often by clicking on an X icon in the upper right corner "
+#~ "of the window)."
+
+#~ msgid "Tab menus"
+#~ msgstr "Tab menus"
+
+#~ msgid ""
+#~ "The following type of menus is not related to the image menu bar, but for "
+#~ "the sake of completeness:"
+#~ msgstr ""
+#~ "The following type of menus is not related to the image menu bar, but for "
+#~ "the sake of completeness:"
+
+#~ msgid ""
+#~ "Every <link linkend=\"gimp-concepts-docks\">dockable</link> dialog "
+#~ "contains a Tab Menu button, as highlighted below. Pressing this Tab Menu "
+#~ "button opens a special menu of tab-related operations, with an entry at "
+#~ "the top that opens into the dialog's context menu."
+#~ msgstr ""
+#~ "Every <link linkend=\"gimp-concepts-docks\">dockable</link> dialog "
+#~ "contains a Tab Menu button, as highlighted below. Pressing this Tab Menu "
+#~ "button opens a special menu of tab-related operations, with an entry at "
+#~ "the top that opens into the dialog's context menu."
+
+#~ msgid "A dockable dialog."
+#~ msgstr "A dockable dialog."
+
+#~ msgid "A dialog window with the Tab menu button highlighted."
+#~ msgstr "A dialog window with the Tab menu button highlighted."
+
+#~ msgid "The Tab menu."
+#~ msgstr "The Tab menu."
+
+#~ msgid ""
+#~ "See <xref linkend=\"gimp-dockable-menu\"/> to learn more about Tab menus."
+#~ msgstr ""
+#~ "See <xref linkend=\"gimp-dockable-menu\"/> to learn more about Tab menus."
+
+#~ msgid "The <quote>File</quote> Menu"
+#~ msgstr "The <quote>File</quote> Menu"
+
+#~ msgid "File menu"
+#~ msgstr "File menu"
+
+#~ msgid "Overview"
+#~ msgstr "Overview"
+
+#~ msgid "File"
+#~ msgstr "File"
+
+#~ msgid "The File menu"
+#~ msgstr "The File menu"
+
+#~ msgid "The <quote>Recently Closed Docks</quote> submenu"
+#~ msgstr "The <quote>Recently Closed Docks</quote> submenu"
+
+#~ msgid "Recently closed"
+#~ msgstr "Recently closed"
+
+#~ msgid ""
+#~ "This command opens the list of the docks you have closed recently. You "
+#~ "can reopen them by clicking on their name. Please note that isolated "
+#~ "windows are not concerned."
+#~ msgstr ""
+#~ "This command opens the list of the docks you have closed recently. You "
+#~ "can reopen them by clicking on their name. Please note that isolated "
+#~ "windows are not concerned."
+
+#~ msgid "The <quote>Layer</quote> Menu"
+#~ msgstr "The <quote>Layer</quote> Menu"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/windows/expanded-menu.png'; "
+#~ "md5=368b926c465b0abf28df35f2cdaaf128"
+#~ msgstr ""
+#~ "@@image: 'images/menus/windows/expanded-menu.png'; "
+#~ "md5=368b926c465b0abf28df35f2cdaaf128"
+
+#~ msgid "<quote>Windows</quote> Menu Entries"
+#~ msgstr "<quote>Windows</quote> Menu Entries"
+
+#~ msgid "Contents of the <quote>Windows</quote> Menu"
+#~ msgstr "Contents of the <quote>Windows</quote> Menu"
+
+#~ msgid "Without open images"
+#~ msgstr "Without open images"
+
+#~ msgid "With open images"
+#~ msgstr "With open images"
+
+#~ msgid ""
+#~ "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs. "
+#~ "With an open image, it is made up of three parts:"
+#~ msgstr ""
+#~ "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs. "
+#~ "With an open image, it is made up of three parts:"
+
+#~ msgid "The list of Recently Closed Docks:"
+#~ msgstr "The list of Recently Closed Docks:"
+
+#~ msgid ""
+#~ "For more information about docks, please see <link linkend=\"gimp-"
+#~ "concepts-docks\">Dialogs and Docking</link>, and <link linkend=\"gimp-"
+#~ "dialogs-introduction\">Different dialogs description</link>."
+#~ msgstr ""
+#~ "For more information about docks, please see <link linkend=\"gimp-"
+#~ "concepts-docks\">Dialogs and Docking</link>, and <link linkend=\"gimp-"
+#~ "dialogs-introduction\">Different dialogs description</link>."
+
+#~ msgid "The list of open image windows."
+#~ msgstr "The list of open image windows."
+
+#~ msgid "The list of open dockable dialogs."
+#~ msgstr "The list of open dockable dialogs."

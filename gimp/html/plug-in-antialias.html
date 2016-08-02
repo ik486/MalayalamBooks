@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.2. Antialias</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-enhance.html" title="3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക" />
+    <link rel="prev" href="filters-enhance.html" title="3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക" />
+    <link rel="next" href="plug-in-deinterlace.html" title="3.3. ഡീഇന്റര്ലെയിസിങ്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.2. Antialias</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="filters-enhance.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-deinterlace.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-antialias"></a>3.2. Antialias</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925521047344" class="indexterm"></a>
+      <a id="idp46925520102560" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925520102688"></a>3.2.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ Scale3X എഡ്ജ് extrapolation അൽഗോരിതം ഉപയോഗിച്ച് (<a class="link" href="">Antialiasing</a> കാണുക) അപരനാമം ഇഫക്റ്റുകൾ കുറയ്ക്കുന്നു.</p>
+        <p>Scale3X ഏത് പിക്സൽ interpolating ചിത്രങ്ങളും ബ്ലറിംഗ് ഇല്ലാതെ കാണാതായ പിക്സൽ ഊഹിക്കാൻ ചെറിയ bitmaps വലിപ്പം കൂട്ടാനുള്ള ഗ്രാഫിക്സ് പ്രഭാവം Scale2X, നിന്നാണ്. PLACEHOLDER,-106223 Scale2X യഥാർത്ഥത്തിൽ ഒരു താഴ്ന്ന വീഡിയോ ചിത്രം പഴയ ആർക്കേഡ്, PC ഗെയിംസ് നിലവാരം മെച്ചപ്പെടുത്താൻ വികസിപ്പിച്ചെടുത്തത് ടിവികൾ, ആർക്കേഡ് മോണിറ്ററുകൾ, പി.സി. മോണിറ്ററുകൾ, LCD സ്ക്രീനുകളും പോലുള്ള വീഡിയോ ഹാർഡ്വെയർ ഉപയോഗിച്ച് കളിച്ചു. PLACEHOLDER,-206224</p>
+        <p>താഴെ Antialias അരിപ്പ പ്രവർത്തിക്കുന്നു:</p>
+        <div class="procedure">
+          <p>ഓരോ പിക്സലിനായുള്ള,</p>
+          <ol class="procedure" type="1">
+            <li class="step">
+              <p>ഫിൽട്ടർ യഥാർത്ഥ പിക്സൽ 9 (3X3) പുതിയ പിക്സലിൽ പിക്സൽ നിറങ്ങൾക്ക് അതിന്റെ 8 സമീപത്തെ പിക്സൽ (extrapolation) ഉപയോഗിച്ച് Scale3X അൽഗോരിതം തക്കവണ്ണം തുറന്നുകൊടുക്കുന്നതാണ്;</p>
+            </li>
+            <li class="step">
+              <p>പിന്നീട് ഫിൽട്ടർ subsamples ശരാശരി പിക്സൽ പുതിയ പിക്സലുകൾ.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925518255152"></a>3.2.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Enhance</span> → <span class="guimenuitem">Antialias</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925517525312"></a>3.2.3. ഉദാഹരണങ്ങൾ</h4>
+            </div>
+          </div>
+        </div>
+        <p>താഴെ പറയുന്ന ഉദാഹരണങ്ങളിൽ ചില പാറ്റേണുകൾ ന് പ്രാബല്യത്തിൽ വിശദീകരിയ്ക്കുന്നു. ചെറിയ സ്ക്വയറുകളുടെ വലുപ്പമുള്ള ഒരു പിക്സൽ (: 1 സൂം 16) ആകുന്നു.</p>
+        <div class="mediaobject">
+          <img src="images/filters/enhance/antialias-orig.png" />
+          <div class="caption">
+            <p>യഥാർത്ഥ ചിത്രം (സൂം 16: 1)</p>
+          </div>
+        </div>
+        <div class="mediaobject">
+          <img src="images/filters/enhance/antialias-applied.png" />
+          <div class="caption">
+            <p><span class="quote">“<span class="quote">Antialias</span>”</span> (: 1 സൂം 16) പ്രയോഗിച്ചു</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="filters-enhance.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-enhance.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-deinterlace.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="filters-enhance.html">3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-deinterlace.html">3.3. ഡീഇന്റര്ലെയിസിങ്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

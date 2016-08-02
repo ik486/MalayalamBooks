@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>8.15. രചിക്കുക</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-colors-menu.html" title="8. “Colors” മെനു" />
+    <link rel="prev" href="plug-in-colors-channel-mixer.html" title="8.14. ചാനൽ ശബ്ദക്രമീകാരി" />
+    <link rel="next" href="plug-in-decompose-registered.html" title="8.16.  വിഘടിപ്പിക്കുന്നു" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">8.15. രചിക്കുക</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-colors-channel-mixer.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">8. <span class="quote">“<span class="quote">Colors</span>”</span> മെനു</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-decompose-registered.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-compose"></a>8.15. രചിക്കുക</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925522803360" class="indexterm"></a>
+      <a id="idp46925522804256" class="indexterm"></a>
+      <a id="idp46925522805152" class="indexterm"></a>
+      <a id="idp46925522806048" class="indexterm"></a>
+      <a id="idp46925522806976" class="indexterm"></a>
+      <a id="idp46925522807872" class="indexterm"></a>
+      <a id="idp46925522809680" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522810592"></a>8.15.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925522811360"></a>
+          <p class="title">
+            <strong>ചിത്രം 16.151. <span class="quote">“<span class="quote">Compose</span>”</span> കമാൻഡ് ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/cosmos-decomposed.png" alt="“Compose” കമാൻഡ് ഉദാഹരണം" />
+              <div class="caption">
+                <p>അഴുകിയ ചിത്രം (ആർജിബി താത്ക്കാലികമായ)</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/cosmos-1.png" alt="“Compose” കമാൻഡ് ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Compose</span>”</span> പ്രയോഗിച്ചു</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ കമാൻഡ് എക്സ്ട്രാക്റ്റുചെയ്ത ആർജിബി, HSV ... ഘടകങ്ങൾ നിന്ന് ഉദാഹരണത്തിന്, നിരവധി ഗ്രേസ്കെയിൽ ചിത്രങ്ങളോ പാളികൾ നിന്നും ഒരു ചിത്രം നിര്മ്മിക്കുന്നുണ്ട്. നിങ്ങൾക്ക് ഗ്രേസ്കെയിലാക്കി ചിത്രങ്ങളോ പാളികൾ സ്വതന്ത്രമായി സൃഷ്ടിച്ച നിന്ന് ഒരു ചിത്രം പണിയും കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522819552"></a>8.15.2. കമാൻഡ് സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>നിങ്ങൾ <span class="guimenu">Colors</span> → <span class="guisubmenu">Components</span> → <span class="guimenuitem">Compose…</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ ഈ കമാൻഡ് കണ്ടെത്താം. നിങ്ങളുടെ ഇമേജ് ഗ്രേസ്കെയിലാക്കി അത് പ്രാപ്തമാക്കി.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522823232"></a>8.15.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925522823984"></a>
+          <p class="title">
+            <strong>ചിത്രം 16.152. <span class="quote">“<span class="quote">Compose</span>”</span> കമാൻഡ് ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/colors/components/compose.png" alt="“Compose” കമാൻഡ് ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ചാനലുകൾ രചിക്കുക</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ അവിടെ ഉപയോഗിയ്ക്കേണ്ട കളർ സ്പേസ് തിരഞ്ഞെടുക്കാം: ആർജിബി, HSV ... ഓപ്ഷനുകൾ താഴെ <a class="link" href="">Decompose</a> കമാൻഡ് വിവരിച്ചിരിക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">ചാനൽ പ്രാതിനിധ്യം</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ ഓരോ ഇമേജ് ചാനലിലേക്ക് ബാധിക്കില്ല ചെയ്യുന്ന ചാനൽ തിരഞ്ഞെടുക്കാൻ അനുവദിക്കുന്നു. ഈ ഓപ്ഷൻ, നിറം ചാനലുകൾ കൈമാറാൻ, ഉദാഹരണത്തിന് ഉപയോഗിക്കും:</p>
+              <div class="figure">
+                <a id="idp46925522831968"></a>
+                <p class="title">
+                  <strong>ചിത്രം 16.153. ചാനൽ പ്രാതിനിധ്യം ഉദാഹരണം: എക്സ്ചേഞ്ച് രണ്ടു ചാനലുകൾ</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/menus/colors/components/compose-channels-ex1.jpg" alt="ചാനൽ പ്രാതിനിധ്യം ഉദാഹരണം: എക്സ്ചേഞ്ച് രണ്ടു ചാനലുകൾ" />
+                    <div class="caption">
+                      <p>യഥാർത്ഥ ചിത്രം</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/menus/colors/components/compose-channels-ex2.png" alt="ചാനൽ പ്രാതിനിധ്യം ഉദാഹരണം: എക്സ്ചേഞ്ച് രണ്ടു ചാനലുകൾ" />
+                    <div class="caption">
+                      <p>ലെയറുകൾ ബാഗിലാക്കിയ</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/menus/colors/components/compose-channels-ex3.png" alt="ചാനൽ പ്രാതിനിധ്യം ഉദാഹരണം: എക്സ്ചേഞ്ച് രണ്ടു ചാനലുകൾ" />
+                    <div class="caption">
+                      <p>അപ്ലൈഡ് ചാനൽ പ്രാതിനിധ്യം</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/menus/colors/components/compose-channels-ex4.jpg" alt="ചാനൽ പ്രാതിനിധ്യം ഉദാഹരണം: എക്സ്ചേഞ്ച് രണ്ടു ചാനലുകൾ" />
+                    <div class="caption">
+                      <p>സംഗീതസംവിധാനം ചിത്രം</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <p><span class="guilabel">Mask Value</span>: പകരം ഒരു പാളി അല്ലെങ്കിൽ ചാനൽ പണിയാൻ ഒരു ചിത്രം തിരഞ്ഞെടുക്കാനുള്ള, നിങ്ങൾക്ക് ചാനൽ ഒരു മൂല്യം നൽകാൻ കഴിയും 0 മുതൽ 255. ലേക്ക് എന്നാൽ കുറഞ്ഞത് ഒരു ചാനലിന് ഒരു പാളി അല്ലെങ്കിൽ ചിത്രം പ്രേതങ്ങൾ ശ്രദ്ധിക്കുക.</p>
+            </dd>
+          </dl>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[സൂചന]" src="images/tip.png" />
+              </td>
+              <th align="left">സൂചന</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>കമ്പോസ് ഓപ്ഷനുകൾ വിഘടിപ്പിക്കുന്നു നിന്നു വ്യത്യസ്തമാണ്, ഉദാഹരണത്തിന് <a class="link" href="glossary.html#glossary-rgb" title="ആർജിബി">RGB</a> ലേക്ക് ബാഗിലാക്കിയ ഒരു ഇമേജ് പിന്നീട് <a class="link" href="glossary.html#glossary-lab" title="ലാബ്*">LAB</a> വീണ്ടും രചിക്കുകയും, രസകരമായ നിറം ഇഫക്റ്റുകൾ ലഭിക്കും. ഇത് പരിശോധിക്കുക!</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-colors-channel-mixer.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-colors-menu.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-decompose-registered.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-colors-channel-mixer.html">8.14. ചാനൽ ശബ്ദക്രമീകാരി</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-decompose-registered.html">8.16. 
+    
+    <span class="phrase">വിഘടിപ്പിക്കുന്നു</span>
+  </a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

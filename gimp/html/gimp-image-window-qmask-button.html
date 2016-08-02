@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3. QuickMask</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-painting.html" title="പാഠം 7. ജിമ്പ് ചിത്രകല" />
+    <link rel="prev" href="gimp-using-selections-add.html" title="2.2. തിരഞ്ഞെടുക്കലുകൾ ചേർക്കുന്നു അല്ലെങ്കിൽ കുറച്ചാണ്" />
+    <link rel="next" href="gimp-image-window-qmask-properties.html" title="3.2. ഗുണഗണങ്ങള്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3. QuickMask</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-using-selections-add.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">പാഠം 7. ജിമ്പ് ചിത്രകല</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-image-window-qmask-properties.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect1">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a id="gimp-image-window-qmask-button"></a>3. QuickMask</h2>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925507517776" class="indexterm"></a>
+      <div class="figure">
+        <a id="idp46925508149472"></a>
+        <p class="title">
+          <strong>ചിത്രം 7.9. പ്രാപ്തമാക്കി QuickMask ഉപയോഗിച്ച് ചിത്രം</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/dialogs/channel-quickmask.png" alt="പ്രാപ്തമാക്കി QuickMask ഉപയോഗിച്ച് ചിത്രം" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>പതിവുപോലെ <a class="link" href="gimp-tools-selection.html" title="2. തിരഞ്ഞെടുക്കൽ ഉപകരണങ്ങൾ">selection tools</a> ചില സങ്കീർണ്ണമായ തിരഞ്ഞെടുപ്പുകളെ നന്നായി പ്രവർത്തിക്കുന്നില്ല, താത്പര്യവുമില്ല പരിസരത്ത് ഒരു രൂപരേഖ കണ്ടെത്തുന്നത് ഇടപെടണം. QuickMask എന്നാൽ, പകരം വെറും രൂപരേഖയിൽ പത്രവാര്ത്ത ഒരു നിര വരയ്ക്കാൻ അനുവദിക്കുന്നു.</p>
+      <div class="sect2">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a id="gimp-image-window-qmask-overview"></a>3.1. പൊതു അവലോകനം</h3>
+            </div>
+          </div>
+        </div>
+        <p>സാധാരണ, <acronym class="acronym">GIMP</acronym> ഒരു നിര നിരക്കു ബാഹ്യരേഖ ഇത്തരത്തിലൊന്ന് ആ <span class="quote">“<span class="quote">marching ants</span>”</span> പ്രതിനിധാനം, പക്ഷേ നടക്കുന്നു ഉറുമ്പു കാണിക്കാൻ അധികം ഒരു നിര കൂടുതൽ ഉണ്ടായിരിക്കാം. ഒരു <acronym class="acronym">GIMP</acronym> നിരക്കു യഥാർത്ഥത്തിൽ ഒരു സമ്പൂർണ ഗ്രേസ്കെയിൽ ചാനൽ, ഇമേജ് മൂടുകയും (പൂർണ്ണമായി തിരഞ്ഞെടുത്തു) 0 (തിരഞ്ഞെടുത്തില്ല) മുതൽ 255 വരെയുള്ള പിക്സൽ മൂല്യങ്ങൾ കൂടെ ആണ്. അര്ഹതയുള്ളത് ഉറുമ്പുകൾ പകുതി തിരഞ്ഞെടുത്ത പിക്സൽ കോണ്ടൂർ സഹിതം വരയ്ക്കും. ഇപ്രകാരം, എന്തു നടക്കുന്നു ഉറുമ്പുകൾ ഉള്ളിലോ പുറത്ത് ഒന്നുകിൽ അതിർത്തിയായി നിങ്ങളെ കാണിക്കും ശരിക്കും ഒരു continuum വഴി വെറും ഒരു സ്ഥലമാണ് ആണ്.</p>
+        <p>QuickMask നിരക്കു നിറഞ്ഞ ഘടന കാണിക്കേണ്ട <acronym class="acronym">GIMP</acronym> ന്റെ വഴി. QuickMask പുതിയ, ഒപ്പം ഗണ്യമായി കൂടുതൽ ശക്തമായ വഴികളിൽ നിരക്കു സംവദിക്കാൻ കഴിവ് നൽകുന്നു. ഓണും QuickMask ടോഗിൾ ചിത്രം വിൻഡോയുടെ താഴെ ഇടത് ചെറിയ ഔട്ട്ലൈൻ ബട്ടൺ ക്ലിക്ക്. QuickMask മോഡ്, അര്ഹതയുള്ളത് ഉറുമ്പുകൾ മോഡ് തമ്മിലുള്ള ബട്ടൺ സ്വിച്ചുകൾ. നിങ്ങൾക്ക് QuickMask ആൻഡ് നടക്കുന്നു ഉറുമ്പുകൾ മോഡ് ടോഗിൾ ചെയ്യുന്നതിന്, <span class="guimenu">Select</span> → <span class="guimenuitem">Toggle QuickMask</span>, അല്ലെങ്കിൽ <span class="keycap"><strong>Shift</strong></span>+<span class="keycap"><strong>Q</strong></span> ഉപയോഗിക്കാൻ കഴിയും.</p>
+        <p>QuickMask മോഡിൽ, നിരക്കു ആരുടെ ഓരോ പിക്സൽ ചെയ്തത് സുതാര്യത ആ പിക്സൽ തിരഞ്ഞെടുത്ത ലേക്ക് ഡിഗ്രി സൂചിപ്പിക്കുന്നു ഒരു അർദ്ധസുതാര്യ സ്ക്രീൻ ഇമേജ് overlying, കാണിക്കുന്നു. സ്വതവേ ചുവന്ന ലെ മാസ്ക് കാണിച്ചിരിക്കുന്നു, എന്നാൽ മറ്റൊരു മാസ്ക് നിറം ബോധ്യപ്പെടുത്തുകയും എങ്കിൽ നിങ്ങൾക്ക് ഇത് മാറ്റാൻ കഴിയും. കുറവ് ഒരു പിക്സൽ, തിരഞ്ഞെടുത്ത കൂടുതൽ അതു മാസ്ക് മൂടപ്പെടാത്ത ആണ്. പൂർണ്ണമായി തിരഞ്ഞെടുത്ത പിക്സൽ പൂർണ്ണമായും വ്യക്തമായ കാണിച്ചിരിക്കുന്നു.</p>
+        <p>QuickMask മോഡിൽ, പല ഇമേജ് മാറ്റങ്ങൾ പകരം ചിത്രത്തിൽ തന്നെ നിരക്കു ചാനലിൽ പ്രവർത്തിക്കാൻ. ഈ ഉൾപ്പെടുന്നു പ്രത്യേകിച്ചും, പെയിന്റ് ഉപകരണങ്ങൾ. വെളുത്ത തിരഞ്ഞെടുക്കുവാനും പിക്സൽ ചിത്രകല, കറുത്ത unselects പിക്സൽ ചിത്രകല. നിങ്ങൾ പെയിന്റ് ഉപകരണങ്ങൾ ഏതെങ്കിലും അതുപോലെ ഈ വഴിയിൽ, ബക്കറ്റ് പൂരിപ്പിക്കുകയും ഗ്രേഡിയന്റ് ഉപയോഗിക്കാം, ഉപകരണങ്ങൾ പൂരിപ്പിക്കുക. <acronym class="acronym">GIMP</acronym> എന്ന നൂതന ഉപയോക്താക്കൾക്ക് <span class="quote">“<span class="quote">painting the selection</span>”</span> ആഡംബരത്തോടെ ചിത്രം കൈകാര്യം ചെയ്യുന്നതിനുള്ള എളുപ്പവും ഏറ്റവും ഫലപ്രദമായ മാർഗം മനസ്സിലാക്കുന്നു.</p>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[സൂചന]" src="images/tip.png" />
+              </td>
+              <th align="left">സൂചന</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>പുതിയ ചാനലിലേക്ക് ഒരു QuickMask നിരക്കു സംരക്ഷിക്കുന്നതിന്; ഒരു നിരക്കു അവിടെ QuickMask മോഡ് ചിത്രം വിൻഡോയിൽ സജീവമല്ല ഉറപ്പാക്കുക. <span class="guimenu">Select</span> → <span class="guimenuitem">Save to Channel</span> ഉപയോഗിക്കുക. ചാനൽ ഡയലോഗിൽ ഒരു പുതിയ ചാനൽ സൃഷ്ടിക്കാൻ (ഈ കമാൻഡിലെ <span class="quote">“<span class="quote">..copy#1</span>”</span>, <span class="quote">“<span class="quote">...copy#2</span>”</span> ഇത്യാദി സൃഷ്ടിക്കുന്നു ...) <span class="quote">“<span class="quote">SelectionMask copy</span>”</span> വിളിച്ചു.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[സൂചന]" src="images/tip.png" />
+              </td>
+              <th align="left">സൂചന</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>QuickMask മോഡിൽ, ഇമേജ് പകരം നിരക്കു പ്രവർത്തിക്കുക മുറിക്കുകയും ഒട്ടിക്കുകയും. നിങ്ങൾ ചിലപ്പോൾ തമ്മിൽ ചിത്ര നിരക്കു മാറ്റുന്ന ഏറ്റവും നല്ല രീതി ഈ ഉപയോഗപ്പെടുത്താനാകും.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>നിങ്ങൾ ചാനൽ ഡയലോഗ് പ്രതിഷ്ഠ വിഭാഗത്തിൽ <a class="link" href="gimp-channel-dialog.html#gimp-channel-mask" title="2.2.3. തിരഞ്ഞെടുക്കൽ മാസ്കുകൾ">Selection masks</a> ന് കൂടുതലറിയാൻ കഴിയും.</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-using-selections-add.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-painting.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-image-window-qmask-properties.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-selections-add.html">2.2. തിരഞ്ഞെടുക്കലുകൾ ചേർക്കുന്നു അല്ലെങ്കിൽ കുറച്ചാണ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-image-window-qmask-properties.html">3.2. ഗുണഗണങ്ങള്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

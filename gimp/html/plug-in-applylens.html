@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>5.10. ലെൻസ് പ്രയോഗിക്കുക</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-light-and-shadow.html" title="5. വെളിച്ചവും ഷാഡോ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="script-fu-xach-effect.html" title="5.9. Xach-പ്രഭാവം" />
+    <link rel="next" href="plug-in-glasstile.html" title="5.11. ഗ്ലാസ് ടൈൽ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">5.10. ലെൻസ് പ്രയോഗിക്കുക</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-xach-effect.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">5. വെളിച്ചവും ഷാഡോ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-glasstile.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-applylens"></a>5.10. ലെൻസ് പ്രയോഗിക്കുക</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925525470160" class="indexterm"></a>
+      <a id="idp46925525472032" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525472960"></a>5.10.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925525473728"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.122. ഒരേ ചിത്രം, മുമ്പും ലെൻസ് പ്രഭാവം പ്രയോഗിച്ച ശേഷം.</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="ഒരേ ചിത്രം, മുമ്പും ലെൻസ് പ്രഭാവം പ്രയോഗിച്ച ശേഷം." />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/glass-taj-apply-lens.jpg" alt="ഒരേ ചിത്രം, മുമ്പും ലെൻസ് പ്രഭാവം പ്രയോഗിച്ച ശേഷം." />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Apply lens</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ അപേക്ഷിക്കുന്ന ശേഷം സജീവ പാളി ഒരു ഭാഗം അവന്തി ലെൻസ് എന്നപോലെ ഉള്ളൂ.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525481184"></a>5.10.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Light and Shadow</span> → <span class="guimenuitem">Apply Lens</span> വഴി ഇമേജ് വിൻഡോ മെനുവിലെ ഈ ഫിൽട്ടർ കണ്ടെത്താനാകും</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525483840"></a>5.10.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925525484592"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.123. <span class="quote">“<span class="quote">Apply Lens</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/light-and-shadow/apply-lens.png" alt="“Apply Lens” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p>പരിശോധിച്ചാൽ, പരാമീറ്റർ ക്രമീകരണം ഫലങ്ങളിൽ ഇന്ററാക്ടീവ് പ്രിവ്യൂ പ്രദർശിപ്പിക്കുന്നു. സ്ക്രോൾ ബാറുകൾ ചിത്രത്തിൽ ചുറ്റും നീക്കാൻ അനുവദിക്കുക.</p>
+            </dd>
+            <dt>
+              <span class="term">യഥാർത്ഥ ചുറ്റുപാടിൽ സൂക്ഷിക്കുക</span>
+            </dt>
+            <dd>
+              <p>ലെൻസ് സജീവ പാളി ഇട്ടു തോന്നുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">പശ്ചാത്തല നിറം ചുറ്റുപാടും സജ്ജമാക്കുക</span>
+            </dt>
+            <dd>
+              <p>ലെൻസ് പുറത്ത് സജീവ പാളി ഭാഗമായി പശ്ചാത്തല നിറം പണിസഞ്ചിയിൽ തിരഞ്ഞെടുത്ത ഉണ്ടായിരിക്കും.</p>
+            </dd>
+            <dt>
+              <span class="term">ചുറ്റുപാടിൽ സുതാര്യമാക്കുക</span>
+            </dt>
+            <dd>
+              <p>ലെൻസ് പുറത്ത് സജീവ പാളി ഭാഗമായി സുതാര്യമായ ആയിരിക്കും. ഈ ഓപ്ഷൻ സജീവ പാളി ഒരു ആല്ഫാ ചാനൽ ഉണ്ടെങ്കിൽ മാത്രമേ നിലവിലുണ്ട്.</p>
+            </dd>
+            <dt>
+              <span class="term">ലെൻസ് സൂചിക</span>
+            </dt>
+            <dd>
+              <p>ലെൻസിന്റെ കൂടുതലോ കുറവോ convergent (1-100) ആയിരിക്കും.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-xach-effect.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-light-and-shadow.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-glasstile.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-xach-effect.html">5.9. Xach-പ്രഭാവം</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-glasstile.html">5.11. ഗ്ലാസ് ടൈൽ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

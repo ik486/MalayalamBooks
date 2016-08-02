@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>16.9. അകലെ ചിപ്പ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-alpha-to-logo.html" title="16. ലോഗോ ഫിൽട്ടറുകൾ ആൽഫ" />
+    <link rel="prev" href="script-fu-chalk-logo-alpha.html" title="16.8. ചോക്ക്" />
+    <link rel="next" href="script-fu-chrome-logo-alpha.html" title="16.10. ക്രോം" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">16.9. അകലെ ചിപ്പ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-chalk-logo-alpha.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">16. ലോഗോ ഫിൽട്ടറുകൾ ആൽഫ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="script-fu-chrome-logo-alpha.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-chip-away-logo-alpha"></a>16.9. അകലെ ചിപ്പ്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925530080944" class="indexterm"></a>
+      <a id="idp46925530082784" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925530083696"></a>16.9.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925530084464"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.388. <span class="quote">“<span class="quote">Chip Away</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/logo-chip-away.jpg" alt="“Chip Away” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Chip Away</span>”</span> ഫിൽട്ടർ</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/chip-away-script-fu.jpg" alt="“Chip Away” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Chip Away</span>”</span> ലോഗോ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ സജീവ പാളി ആൽഫാ ചാനലിലെ ഒരു ഭേദപ്പെട്ട woodcarving പ്രഭാവം ചേർക്കുന്നു. ഐച്ഛികമായി അത് ചിത്രത്തിന്റെ ഒരു ഡ്രോപ്പ് നിഴൽ ചേർക്കുന്നു. സജീവ പാളി ഉള്ളടക്കം പ്രശ്നമല്ല, അതിന്റെ ആൽഫാ ചാനൽ മാത്രം ആകാരം ചെയ്യുന്നു.</p>
+        <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Warning">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[മുന്നറിയിപ്പു്]" src="images/warning.png" />
+              </td>
+              <th align="left">മുന്നറിയിപ്പു്</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>ചിത്രം എല്ലായ്പ്പോഴും സജീവ പാളി വലിപ്പത്തിന് വലുപ്പം മാറ്റും.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>അരിപ്പ മുകളിൽ കാണിച്ചിരിക്കുന്ന പ്രാബല്യത്തോടെ ഒരു ടെക്സ്റ്റ് ലോഗോ സൃഷ്ടിക്കുന്ന <span class="quote">“<span class="quote">Chip Away</span>”</span> സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ് (<span class="guimenu">File</span> → <span class="guisubmenu">Create</span> → <span class="guisubmenu">Logos</span> → <span class="guimenuitem">Chip Away</span>), നിന്നാണ്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925530096416"></a>16.9.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Alpha to Logo</span> → <span class="guimenuitem">Chip Away</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925530099072"></a>16.9.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925530099824"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.389. <span class="quote">“<span class="quote">Chip Away</span>”</span> ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/alpha-to-logo/chip-away-options.png" alt="“Chip Away” ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ചിപ്പ് തുക</span>
+            </dt>
+            <dd>
+              <p>ഈ ഐച്ഛികം പ്രദേശം chipping വലിപ്പം വ്യത്യാസപ്പെട്ടിരിക്കും അനുവദിക്കുന്നു. എന്നാൽ <span class="quote">“<span class="quote">Chip amount</span>”</span> പിക്സൽ ഈ ഭാഗത്തിന്റെ വലിപ്പം കാര്യം ശ്രദ്ധിക്കുക. പരമാവധി തുക പിക്സൽ ക്രമരഹിതമായി കരീനയെ മാപ്പ് പ്രയോഗിച്ചു <a class="link" href="plug-in-spread.html" title="6.7. വിരിക്കുക">Spread</a> അരിപ്പ പ്രചരിച്ചത് ചെയ്യുന്നു ഇതുപയോഗിക്കാം. സാധുവായ ശ്രേണി 0-200 ആണ്.</p>
+              <div class="figure">
+                <a id="idp46925530106384"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.390. <span class="quote">“<span class="quote">Chip amount</span>”</span> ഉദാഹരണങ്ങൾ</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/chip-away-0.jpg" alt="“Chip amount” ഉദാഹരണങ്ങൾ" />
+                    <div class="caption">
+                      <p>0</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/chip-away-30.jpg" alt="“Chip amount” ഉദാഹരണങ്ങൾ" />
+                    <div class="caption">
+                      <p>30</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/chip-away-60.jpg" alt="“Chip amount” ഉദാഹരണങ്ങൾ" />
+                    <div class="caption">
+                      <p>60</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/chip-away-90.jpg" alt="“Chip amount” ഉദാഹരണങ്ങൾ" />
+                    <div class="caption">
+                      <p>90</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">ഇഫക്റ്റ് തുക</span>
+            </dt>
+            <dd>
+              <p>നിശ്ചിത മൂല്യം ഈ തുക കരീനയെ പാളി മങ്ങിക്കും ഏത് <a class="link" href="plug-in-gauss.html" title="2.3. ഗോഷ്യൻ ഇഫക്റ്റ്">Gaussian blur</a> ഫിൽട്ടർ, ലേക്കുള്ള <span class="quote">“<span class="quote">Radius</span>”</span> ഓപ്ഷനായി പാസുചെയ്യും.</p>
+            </dd>
+            <dt>
+              <span class="term">വിപരീതം</span>
+            </dt>
+            <dd>
+              <p>പരിശോധിച്ചാൽ, <a class="link" href="plug-in-bump-map.html" title="12.2. ബംമ്പ് മാപ്പ്">bump map</a> വിപരീതമാക്കപ്പെടും, ഇമേജ് കൊത്തിയെടുത്ത അംലയാണ് തിങ്ങുന്ന പകരം പാലുണ്ണി എന്ന hollows, സൃഷ്ടിക്കും.</p>
+              <div class="figure">
+                <a id="idp46925530124144"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.391. <span class="quote">“<span class="quote">Chip Away</span>”</span> വിപരീതമാക്കപ്പെടും ഉദാഹരണം</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/chip-away-invert.jpg" alt="“Chip Away” വിപരീതമാക്കപ്പെടും ഉദാഹരണം" />
+                    <div class="caption">
+                      <p>വിപരീതദിശയിലാക്കി, (ഡ്രോപ്പ് ഷാഡോ ഇല്ലാതെ)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">ഡ്രോപ്പ് ഷാഡോ</span>
+            </dt>
+            <dd>
+              <p>പരിശോധിച്ചതാണെങ്കിൽ, ഒരു <a class="link" href="script-fu-drop-shadow.html" title="5.7. ഡ്രോപ്പ് ഷാഡോ">Drop shadow</a> സജീവ താഴെയായി ഒരു പുതിയ പാളി ചിത്രം ചേർക്കും.</p>
+            </dd>
+            <dt>
+              <span class="term">ബംമ്പ് പാളി നിലനിർത്തുക</span>
+            </dt>
+            <dd>
+              <p>സ്വതവേ, chipping പ്രാബല്യത്തിൽ സൃഷ്ടിക്കാൻ ഉപയോഗിച്ച <a class="link" href="plug-in-bump-map.html" title="12.2. ബംമ്പ് മാപ്പ്">bump map</a> അരിപ്പ പ്രയോഗിച്ച ശേഷം നീക്കംചെയ്യും. ഈ ഓപ്ഷൻ എപ്പോഴാണ് ചെക്കുചെയ്തിട്ടുണ്ടെന്നും, കരീനയെ മാപ്പ് ഒരു അദൃശ്യ പാളി പോലെ സൂക്ഷിക്കും.</p>
+            </dd>
+            <dt>
+              <span class="term">പാറ്റേൺ ഉപയോഗിച്ച് ബൾഗേറിയ നിറയ്ക്കുക</span>
+            </dt>
+            <dd>
+              <p>പരിശോധിച്ചാൽ, പശ്ചാത്തല പാളി (ഫിൽറ്റർ ചേർത്തു) നിർദ്ദിഷ്ട <span class="guilabel">Pattern</span> നിറയും. അല്ലാത്തപക്ഷം, വെളുത്ത നിറയും.</p>
+            </dd>
+            <dt>
+              <span class="term">പശ്ചാത്തലം നിലനിർത്തുക</span>
+            </dt>
+            <dd>
+              <p>ഇല്ലെങ്കിലും പശ്ചാത്തല പാളി നീക്കം. ഈ ഓപ്ഷൻ സ്ഥിരസ്ഥിതിയായി ചെക്ക്. നിങ്ങൾ, തീർച്ചയായും, പിന്നീട് <a class="link" href="gimp-dialogs-structure.html#gimp-layer-dialog" title="2.1. പാളികൾ സംഭാഷണം">Layers dialog</a> ഈ പാളി നീക്കം (ദൃശ്യപരത മാറ്റുക) കഴിയും.</p>
+            </dd>
+            <dt>
+              <span class="term">മാതൃക</span>
+            </dt>
+            <dd>
+              <p>ഈ ഉപാധി അത് ക്ലിക്ക് ചെയ്ത് മൗസ് ബട്ടൺ, ഒരു <span class="guibutton">Browse</span> ബട്ടൺ പിടിക്കുക ഒരു പോപപ്പ് പ്രിവ്യൂ താനേ ഒരു പ്രിവ്യൂ പ്രദേശം ഉള്ളത്. ബട്ടണില് പാറ്റേണുകൾ തിരഞ്ഞെടുക്കുക കഴിയുന്ന ഒരു ഡയലോഗ് പോപപ്പ് ചെയ്യും.</p>
+              <p>സ്ഥിര പാറ്റേൺ <span class="quote">“<span class="quote">Burlwood</span>”</span> ആണ്. ഞങ്ങളുടെ ആ ഒരു നിന്ന്, പ്ലഗ്-ഇൻ രചയിതാവ് പാറ്റേണുകൾ <span class="quote">“<span class="quote">Dried mud</span>”</span>, <span class="quote">“<span class="quote">3D Green</span>”</span>, ഒപ്പം <span class="quote">“<span class="quote">Slate</span>”</span> നിർദ്ദേശിക്കുന്നു:</p>
+              <div class="figure">
+                <a id="idp46925530144512"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.392. നിർദ്ദേശിച്ച <span class="quote">“<span class="quote">Chip Away</span>”</span> പാറ്റേണുകൾ</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/chip-away-mud.jpg" alt="നിർദ്ദേശിച്ച “Chip Away” പാറ്റേണുകൾ" />
+                    <div class="caption">
+                      <p>ഉണങ്ങിയ ചെളി</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/chip-away-3d.jpg" alt="നിർദ്ദേശിച്ച “Chip Away” പാറ്റേണുകൾ" />
+                    <div class="caption">
+                      <p>3D ഗ്രീൻ</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/chip-away-slate.jpg" alt="നിർദ്ദേശിച്ച “Chip Away” പാറ്റേണുകൾ" />
+                    <div class="caption">
+                      <p>സ്ലേറ്റ്</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925530154528"></a>16.9.4. ഫിൽറ്റർ വിശദാംശങ്ങൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="procedure">
+          <p>ഒരു chipping പ്രഭാവം നേടാനായി, ഫിൽറ്റർ ...</p>
+          <ol class="procedure" type="1">
+            <li class="step">
+              <p>... ഒരു പുതിയ പാളി ഒരു <a class="link" href="gimp-channel-dialog.html#gimp-channel-selection-replace">selection from the alpha channel</a> സൃഷ്ടിക്കുന്നു,</p>
+            </li>
+            <li class="step">
+              <p>വെള്ള നിരക്കു നിറയുന്നു,</p>
+            </li>
+            <li class="step">
+              <p>പിക്സൽ <a class="link" href="plug-in-spread.html" title="6.7. വിരിക്കുക">spreads</a>,</p>
+            </li>
+            <li class="step">
+              <p>, തലം ഒരു <a class="link" href="plug-in-gauss.html" title="2.3. ഗോഷ്യൻ ഇഫക്റ്റ്">Gaussian blur</a> ബാധകമാണ്.</p>
+            </li>
+            <li class="step">
+              <p>പിന്നെ അതു ഈ പാളി ഒരു 3D ഇഫക്റ്റ് സൃഷ്ടിക്കുന്നതിൽ ഒരു <a class="link" href="plug-in-bump-map.html" title="12.2. ബംമ്പ് മാപ്പ്">Bump map</a> ആയി ഉപയോഗിക്കുന്നു.</p>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-chalk-logo-alpha.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-alpha-to-logo.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="script-fu-chrome-logo-alpha.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-chalk-logo-alpha.html">16.8. ചോക്ക്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="script-fu-chrome-logo-alpha.html">16.10. ക്രോം</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

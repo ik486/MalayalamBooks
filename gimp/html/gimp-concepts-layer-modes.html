@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>2. ലെയർ മോഡുകൾ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-image-combining.html" title="പാഠം 8. സംയോജിത ചിത്രങ്ങൾ" />
+    <link rel="prev" href="gimp-image-combining.html" title="പാഠം 8. സംയോജിത ചിത്രങ്ങൾ" />
+    <link rel="next" href="gimp-using-layers.html" title="3. പുതിയ തലങ്ങളെ ഉണ്ടാക്കുന്നു" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">2. ലെയർ മോഡുകൾ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-image-combining.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">പാഠം 8. സംയോജിത ചിത്രങ്ങൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-using-layers.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect1">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a id="gimp-concepts-layer-modes"></a>2. ലെയർ മോഡുകൾ</h2>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925510090192" class="indexterm"></a>
+      <a id="idp46925509998352" class="indexterm"></a>
+      <a id="idp46925509999216" class="indexterm"></a>
+      <p><acronym class="acronym">GIMP</acronym> ഇരുപത്തൊന്നു പാളി മോഡുകൾ ഉണ്ട്. ലെയർ മോഡുകൾ പുറമേ ചിലപ്പോൾ <span class="quote">“<span class="quote">blending modes</span>”</span> വിളിക്കുന്നു. ഒരു പാളി മോഡ് തിരഞ്ഞെടുക്കുന്നത് അതിനു ചുവട്ടിൽ പാളി അല്ലെങ്കിൽ പാളികൾ അടിസ്ഥാനമാക്കി പാളി അല്ലെങ്കിൽ ചിത്രം രൂപം മാറുമ്പോൾ. ഒരേയൊരു പാളി ഉണ്ടെങ്കിൽ, പാളി മോഡ് ഫലപ്രദമാകില്ല. അതുകൊണ്ടു അവിടെ സ്വരൂപത്തിൽ പാളി മോഡുകൾ ഉപയോഗിക്കാൻ കഴിയും രണ്ട് പാളികൾ ആയിരിക്കണം.</p>
+      <p>നിങ്ങൾ പാളികളുടെ ഡയലോഗിൽ <span class="guilabel">Mode</span> മെനുവിൽ പാളി മോഡ് സജ്ജമാക്കാൻ കഴിയും. <acronym class="acronym">GIMP</acronym> എങ്ങനെ താഴെയുള്ള പാളി ഇതേ ലൊക്കേഷനിൽ പിക്സൽ ടോപ് പാളി ഓരോ പിക്സൽ സംയോജിപ്പിച്ച് നിർണ്ണയിക്കാൻ പാളി മോഡ് ഉപയോഗിക്കുന്നു.</p>
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+        <table border="0" summary="Note">
+          <tr>
+            <td rowspan="2" align="center" valign="top" width="25">
+              <img alt="[കുറിപ്പു്]" src="images/note.png" />
+            </td>
+            <th align="left">കുറിപ്പു്</th>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <p>പണിസഞ്ചി ഓപ്ഷനുകൾ ബോക്സിൽ ഒരു ലിസ്റ്റ് ഡ്രോപ്പ്-ഡൌൺ പാളി രീതികളെ സമാനമായ രീതിയിൽ പെയിന്റിംഗ് ഉപകരണങ്ങൾ ബാധിക്കുന്ന മോഡുകൾ അടങ്ങുന്ന ഉണ്ട്. നിങ്ങൾ പാളികൾ ലഭ്യമായ പെയിന്റിംഗിന് ഒരേ മോഡുകൾ എല്ലാ ഉപയോഗിക്കാം, രണ്ടു അധിക മോഡുകൾ വെറും പെയിന്റിംഗ് ടൂളുകൾ ഉണ്ട്. <a class="xref" href="gimp-tools-brush.html" title="3.3. ബ്രഷ് ഉപകരണങ്ങൾ (പെൻസിൽ, അന്തസ്സായിത്തന്നെയാണു, എയർബ്രഷ്)">വിഭാഗം 3.3, “ബ്രഷ് ഉപകരണങ്ങൾ (പെൻസിൽ, അന്തസ്സായിത്തന്നെയാണു, എയർബ്രഷ്)”</a> കാണുക.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <p>ലെയർ മോഡുകൾ ചിത്രം സങ്കീർണ്ണമായ നിറം മാറ്റങ്ങൾ അനുവദിക്കൂ. അവർ പലപ്പോഴും മാസ്ക് ഒരു തരം പ്രവർത്തിക്കുന്ന ഒരു പുതിയ പാളി ഉപയോഗിക്കുന്നു. ഉദാഹരണത്തിന്, നിങ്ങൾ ഒരു ഇമേജ് മേൽ ഒരു ഖരരൂപത്തിലുള്ള വൈറ്റ് പാളി ഇട്ടു <span class="quote">“<span class="quote">Saturation</span>”</span> പുതിയ പാളി പാളി മോഡ് സജ്ജമാക്കാൻ എങ്കിൽ ആസ്പദമായ കാണാവുന്ന പാളികൾ ചാര ഷെയ്ഡുകളിൽ ദൃശ്യമാകും.</p>
+      <div class="figure">
+        <a id="idp46925510008112"></a>
+        <p class="title">
+          <strong>ചിത്രം 8.8. പാളി മോഡ് ഉദാഹരണങ്ങൾ ചിത്രങ്ങൾ (മാസ്കുകൾ)</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/using/layer-mode-mask1.jpg" alt="പാളി മോഡ് ഉദാഹരണങ്ങൾ ചിത്രങ്ങൾ (മാസ്കുകൾ)" />
+            <div class="caption">
+              <p>മാസ്ക് 1</p>
+            </div>
+          </div>
+          <div class="mediaobject">
+            <img src="images/using/layer-mode-mask2.jpg" alt="പാളി മോഡ് ഉദാഹരണങ്ങൾ ചിത്രങ്ങൾ (മാസ്കുകൾ)" />
+            <div class="caption">
+              <p>മാസ്ക് 2</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <div class="figure">
+        <a id="idp46925509869792"></a>
+        <p class="title">
+          <strong>ചിത്രം 8.9. പാളി മോഡ് ഉദാഹരണങ്ങൾ ചിത്രങ്ങൾ (പശ്ചാത്തലങ്ങൾ)</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/using/keyfob_orig.png" alt="പാളി മോഡ് ഉദാഹരണങ്ങൾ ചിത്രങ്ങൾ (പശ്ചാത്തലങ്ങൾ)" />
+            <div class="caption">
+              <p>കീ കമന്റൊക്കെ</p>
+            </div>
+          </div>
+          <div class="mediaobject">
+            <img src="images/using/duck_orig.png" alt="പാളി മോഡ് ഉദാഹരണങ്ങൾ ചിത്രങ്ങൾ (പശ്ചാത്തലങ്ങൾ)" />
+            <div class="caption">
+              <p>ഡക്ക്</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p>താഴെ പാളി മോഡുകൾ വിശദീകരണങ്ങളിലെ, സമവാക്യങ്ങൾ പുറമേ കാണിച്ചിരിക്കുന്നു. ഈ പാളിയിൽ മോഡുകൾ മാത്തമാറ്റിക്സ് ജിജ്ഞാസ പാലിക്കുന്നവർക്ക് ആണ്. എന്നിരുന്നാലും ഫലപ്രദമായി പാളി മോഡുകൾ ഉപയോഗിക്കുന്നതിന് സമവാക്യങ്ങളെ മനസ്സിലാക്കാൻ ആവശ്യമില്ല.</p>
+      <p>സമവാക്യങ്ങൾ ചുരുക്കെഴുത്താണ് നൊട്ടേഷനിൽ ഇരിക്കുന്നു. ഉദാഹരണത്തിന്, സമവാക്യം</p>
+      <div class="equation">
+        <a id="idp46925509877728"></a>
+        <p class="title">
+          <strong>സമവാക്യം 8.1. ഉദാഹരണം</strong>
+        </p>
+        <div class="equation-contents">
+          <div>
+            <img src="images/math/layer-mode-example.png" />
+          </div>
+        </div>
+      </div>
+      <br class="equation-break" />
+      <p>മാർഗ്ഗങ്ങളിലൂടെ, <span class="quote">“<span class="quote"> For each pixel in the upper (<span class="emphasis"><em>M</em></span>ask)and lower (<span class="emphasis"><em>I</em></span>mage) layer, add each of the corresponding color components together to form the <span class="emphasis"><em>E</em></span> resulting pixel's color. </span>”</span> പിക്സൽ നിറം ഘടകങ്ങൾ എപ്പോഴും 0 255 നും ഇടയിലായിരിക്കണം.</p>
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+        <table border="0" summary="Note">
+          <tr>
+            <td rowspan="2" align="center" valign="top" width="25">
+              <img alt="[കുറിപ്പു്]" src="images/note.png" />
+            </td>
+            <th align="left">കുറിപ്പു്</th>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <p>താഴെ വിവരണം പറയുന്നതുപോലെ എങ്കിൽ, ഒരു നെഗറ്റീവ് നിറം ഘടകം 0 സജ്ജമാക്കുകയും 255 വലുതാണ് ഒരു കളർ ഘടകം 255 സജ്ജമാക്കിയിരിക്കുന്നു.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <p>ചുവടെയുള്ള ഉദാഹരണങ്ങൾ മോഡുകൾ ഓരോ ഇഫക്റ്റുകൾ കാണിക്കുക.</p>
+      <p>ഓരോ മോഡ് ഫലങ്ങൾ ഏറ്റവും ലേയറുകളിൽ നിറങ്ങൾ ആശ്രയിച്ചിരിക്കും വ്യത്യാസപ്പെടുന്നതിനാല്, ഈ ചിത്രങ്ങൾ നിങ്ങൾക്ക് മാത്രമേ മോഡുകൾ എങ്ങനെ പ്രവർത്തിക്കുന്നു ഒരു പൊതു ആശയം നൽകാൻ കഴിയും. നിങ്ങൾക്ക് സ്വയം അവരെ പരീക്ഷിക്കാൻ പ്രേരിപ്പിക്കുന്നുണ്ട്. നിങ്ങൾ (മുതലായവ മങ്ങിക്കുന്നതിനുള്ള നൽകി, നീക്കി, െചരികനതിനാണ്, സ്കെയിൽ, നിറം-വിപരീതമാക്കപ്പെടും,) രണ്ടു സമാനമായ പാളികൾ, മറ്റൊരു ഒരു പകർപ്പ് എവിടെ തുടക്കത്തിൽ, എന്നാൽ ചെറുതായി പരിഷ്കരിച്ച പാളി മോഡുകൾക്കുമൊപ്പം എന്താണ് സംഭവിക്കുന്നതെന്ന് കാണുന്നതിനും.</p>
+      <div class="variablelist">
+        <dl class="variablelist">
+          <dt>
+            <span class="term">സാധാരണ</span>
+          </dt>
+          <dd>
+            <a id="idp46925509887872" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925509889232"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.10. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Normal</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-normal-50.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Normal”" />
+                  <div class="caption">
+                    <p>രണ്ട് ചിത്രങ്ങൾ ഒരേ തീവ്രതയോടെ പരസ്പരം കടന്നു ശക്തരോ ചെയ്യുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-normal-100.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Normal”" />
+                  <div class="caption">
+                    <p>100% അതാര്യതയോടെ മാത്രം മുകളിലെ പാളി <span class="quote">“<span class="quote">Normal</span>”</span> കൂടെ മസാലകൾ ദൃശ്യമാകുന്ന.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Normal</span> മോഡ് സ്ഥിര പാളി മോഡ്. മുകളിൽ പാളി താഴെയായി പാളികൾ മൂടുന്നു. നിങ്ങൾ ഈ മോഡ് ഉപയോഗിക്കുമ്പോൾ മുകളിലെ പാളി താഴെ ഒന്നും കാണാൻ ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, പാളി ചില സുതാര്യമായ പ്രദേശങ്ങൾ ഉണ്ടായിരിക്കണം.</p>
+            <p>സമവാക്യം ഇതാണ്:</p>
+            <div class="equation">
+              <a id="idp46925509898000"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.2. ലയർ മോഡ് സമവാക്യം <span class="quote">“<span class="quote">Normal</span>”</span></strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-normal.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+          </dd>
+          <dt>
+            <span class="term">അലിയിക്കുക</span>
+          </dt>
+          <dd>
+            <a id="idp46925510270288" class="indexterm"></a>
+            <a id="idp46925510271664" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510272576"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.11. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Dissolve</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-dissolve-50.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Dissolve”" />
+                  <div class="caption">
+                    <p>രണ്ട് ചിത്രങ്ങൾ ഒരേ തീവ്രതയോടെ പരസ്പരം കടന്നു ശക്തരോ ചെയ്യുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-dissolve-100.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Dissolve”" />
+                  <div class="caption">
+                    <p>100% അതാര്യതയോടെ മാത്രം മുകളിലെ പാളി <span class="quote">“<span class="quote">dissolve</span>”</span> കൂടെ മസാലകൾ ദൃശ്യമാകുന്ന.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Dissolve</span> മോഡിൽ ഭാഗിക സുതാര്യത പ്രദേശങ്ങൾ പിക്സൽ റാൻഡം പാറ്റേൺ വരയ്ക്കുന്നതിലൂടെ അതിനു ചുവട്ടിൽ പാളി കടന്നു മുകളിലെ പാളി അലിഞ്ഞു. ഒരു പാളി മോഡ് ഉപകാരപ്രദമാണ്, അത് പലപ്പോഴും ഒരു പെയിന്റിങ് മോഡ് ഉപകാരപ്രദമാണ്.</p>
+            <p>ഒരു ഇമേജ് ഉള്ളിൽ വേണമങ്കിലും സഹിതം പ്രത്യേകിച്ച് ദൃശ്യമാണ്. ഇത് ഒരു റെസിഡന്റ് സ്ക്രീൻഷോട്ട് കാണുന്ന എളുപ്പമാണെങ്കിലും. ഇടതുവശത്ത് ചിത്രം <span class="quote">“<span class="quote">Normal</span>”</span> പാളി മോഡ് (വികസിക്കും) കീയെക്കാൾ വലതുഭാഗത്തും ഇമേജ് പിക്സലുകൾ പിരിഞ്ഞത് അവ എങ്ങനെ അതു വ്യക്തമായി കാണാൻ കഴിയുന്ന <span class="quote">“<span class="quote">Dissolve</span>”</span> മോഡ്, ഇതേ രണ്ടു പാളികൾ കാണിക്കുന്നു.</p>
+            <div class="figure">
+              <a id="idp46925510283184"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.12. വികസിക്കും സ്ക്രീൻഷോട്ടുകൾ</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-dissolve-nbig.jpg" alt="വികസിക്കും സ്ക്രീൻഷോട്ടുകൾ" />
+                  <div class="caption">
+                    <p>സാധാരണ മോഡ്.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-dissolve-dbig.jpg" alt="വികസിക്കും സ്ക്രീൻഷോട്ടുകൾ" />
+                  <div class="caption">
+                    <p>മോഡ് പിരിച്ചു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+          </dd>
+          <dt>
+            <a id="layer-mode-multiply"></a>
+            <span class="term">പെരുക്കുക</span>
+          </dt>
+          <dd>
+            <a id="idp46925510291136" class="indexterm"></a>
+            <a id="idp46925510292512" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510293424"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.13. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Multiply</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-multiply-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Multiply”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-multiply-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Multiply”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Multiply</span> മോഡ് താഴെയുള്ള പാളി കൂട്ടത്തിൽ ഉപരിതല പാളി പിക്സൽ മൂല്യങ്ങൾ വർദ്ധിപ്പിക്കുന്നു തുടർന്ന് 255. വഴി ഫലം വിഭജിക്കുന്നു ഫലം സാധാരണയായി ഒരു ഇരുണ്ട ചിത്രം. ഒന്നുകിൽ പാളി വെളുത്തതും, ലഭിക്കുന്ന ചിത്രം മറ്റ് പാളി (1 * ഞാൻ = ഞാൻ) തന്നെ ആണ്. ഒന്നുകിൽ പാളി കറുത്ത, ലഭിക്കുന്ന ചിത്രം പൂർണ്ണമായും കറുത്ത (0 * ഞാൻ = 0) ആണ്.</p>
+            <p>സമവാക്യം ഇതാണ്:</p>
+            <div class="equation">
+              <a id="idp46925510302288"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.3. ലയർ മോഡ് സമവാക്യം <span class="quote">“<span class="quote">Multiply</span>”</span></strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-multiply.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+            <p>മോഡ് commutative ആണ്; രണ്ടു പാളികൾ ക്രമം പ്രശ്നമല്ല.</p>
+          </dd>
+          <dt>
+            <span class="term">വീതിക്കുക</span>
+          </dt>
+          <dd>
+            <a id="idp46925510307008" class="indexterm"></a>
+            <a id="idp46925510308384" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510309296"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.14. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Divide</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-divide-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Divide”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-divide-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Divide”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Divide</span> മോഡ് 256 കുറഞ്ഞ് പാളി ഓരോ പിക്സൽ മൂല്യം വർദ്ധിപ്പിക്കുന്നു തുടർന്ന് ഉപരിതല പാളി പ്ലസ് വൺ ഇതേ പിക്സൽ മൂല്യം ആ വിഭജിക്കുന്നു. (ഡിനോമിനെറ്റര് തമ്മിൽ ചേർക്കുന്നു പൂജ്യത്താൽ പടുത്തുയർത്തിയ ഗുണവുമില്ല.) തത്ഫലമായുണ്ടാകുന്ന ചിത്രം പലപ്പോഴും ഭാരം, ചിലപ്പോൾ <span class="quote">“<span class="quote">burned out</span>”</span> തോന്നുന്നു.</p>
+            <p>സമവാക്യം ഇതാണ്:</p>
+            <div class="equation">
+              <a id="idp46925510318512"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.4. ലയർ മോഡ് സമവാക്യം <span class="quote">“<span class="quote">Divide</span>”</span></strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-divide.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+          </dd>
+          <dt>
+            <span class="term">സ്ക്രീൻ</span>
+          </dt>
+          <dd>
+            <a id="idp46925510322656" class="indexterm"></a>
+            <a id="idp46925510324016" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510324912"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.15. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Screen</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-screen-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Screen”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-screen-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Screen”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Screen</span> മോഡ് ചിത്രത്തിന്റെ രണ്ടു പാളികളിൽ കാണാവുന്ന പിക്സൽ ഓരോ മൂല്യങ്ങൾ inverts. അപ്പോൾ അതു ഒന്നിച്ചു വർദ്ധിപ്പിക്കുന്നു (അതായത്, ഇത് 255. നിന്ന് അവരിൽ ഓരോ കുറയ്ക്കുന്ന, ആണ്), 255 പ്രകാരം വിഭജിക്കുന്നു വീണ്ടും ഈ മൂല്യം inverts. തത്ഫലമായുണ്ടാകുന്ന ചിത്രം സാധാരണയായി തിളക്കവും ആണ്, രൂപം ചിലപ്പോൾ <span class="quote">“<span class="quote">washed out</span>”</span>. ഈ ഒഴിവാക്കലുകൾ മറ്റ് പാളി മാറ്റാൻ ഇല്ലാത്ത കറുത്ത പാളി, ഒരു വെളുത്ത ചിത്രം ഫലം ഒരു വെളുത്ത പാളി, ആകുന്നു. സ്വരൂപത്തിൽ കടുത്ത നിറങ്ങളിൽ കൂടുതൽ സുതാര്യമായ തോന്നുന്നില്ല.</p>
+            <p>സമവാക്യം ഇതാണ്:</p>
+            <div class="equation">
+              <a id="idp46925510334624"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.5. ലയർ മോഡ് സമവാക്യം <span class="quote">“<span class="quote">Screen</span>”</span></strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-screen.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+            <p>മോഡ് commutative ആണ്; രണ്ടു പാളികൾ ക്രമം പ്രശ്നമല്ല.</p>
+          </dd>
+          <dt>
+            <a id="layer-mode-overlay"></a>
+            <span class="term">ഓവർലേ</span>
+          </dt>
+          <dd>
+            <a id="idp46925510339344" class="indexterm"></a>
+            <a id="idp46925510340704" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510341600"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.16. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Overlay</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-overlay-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Overlay”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-overlay-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Overlay”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Overlay</span> മോഡ്, താഴത്തെ പാളി പിക്സൽ മൂല്യം inverts ഉപരിതല പാളി രണ്ടു തവണ പിക്സൽ മൂല്യം ഇരട്ടിച്ച്, താഴത്തെ പാളി യഥാർത്ഥ പിക്സൽ മൂല്യമായി, 255 പ്രകാരം വിഭജിക്കുന്നു ചേർക്കുന്നു, തുടർന്ന് യഥാർത്ഥ പിക്സൽ മൂല്യം വർദ്ധിപ്പിക്കുന്നു വീണ്ടും 255 കുറഞ്ഞ് പാളി പകുതി ചെയ്യുന്നു. അത് ചിത്രത്തിന്റെ കരുവാളിച്ചതാകുകയും എന്നാൽ <span class="quote">“<span class="quote">Multiply</span>”</span> മോഡിൽ പോലെ അല്ല.</p>
+            <p>സമവാക്യം ആണ്: PLACEHOLDER,-100969</p>
+            <div class="equation">
+              <a id="idp46925510350944"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.6. ലയർ മോഡ് സമവാക്യം <span class="quote">“<span class="quote">Overlay</span>”</span></strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-overlay.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+          </dd>
+          <dt>
+            <span class="term">ഡോഡ്ജ്</span>
+          </dt>
+          <dd>
+            <a id="idp46925510354864" class="indexterm"></a>
+            <a id="idp46925510356224" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510357120"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.17. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Dodge</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-dodge-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Dodge”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-dodge-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Dodge”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Dodge</span> മോഡ്, 256 കുറഞ്ഞ് പാളി പിക്സൽ മൂല്യം വർദ്ധിപ്പിക്കുന്നു പിന്നെ മുകളിലെ പാളി പിക്സൽ മൂല്യത്തിന്റെ വിപരീത ആ വിഭജിക്കുന്നു. തത്ഫലമായുണ്ടാകുന്ന ചിത്രം സാധാരണയായി ഭാരം, എന്നാൽ ചില നിറങ്ങൾ വിപരീതമാക്കപ്പെടും ചെയ്യാം.</p>
+            <p>ഫോട്ടോഗ്രാഫിയിൽ, ഉപരി ചിത്രത്തിന്റെ പ്രത്യേക മേഖലകളിൽ എക്സ്പോഷർ കുറയ്ക്കാൻ ഒരു ഡാർക്ക്റൂം ഉപയോഗിക്കുന്ന സാങ്കേതികതയെ ആണ്. ഈ നിഴലുകൾ ലെ വിശദാംശങ്ങൾ നൽകുന്നു. ഈ ആവശ്യത്തിനായി ഉപയോഗിക്കുന്ന ചെയ്യുമ്പോൾ, ഡോഡ്ജ് ഗ്രേസ്കെയിൽ ചിത്രങ്ങളും ഒരു പെയിന്റിംഗ് ഉപകരണം ഉപയോഗിച്ച്, പകരം ഒരു പാളി മോഡ് പോലെ മികച്ച പ്രവർത്തിക്കാം.</p>
+            <p>സമവാക്യം ഇതാണ്:</p>
+            <div class="equation">
+              <a id="idp46925510367040"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.7. ലയർ മോഡ് സമവാക്യം <span class="quote">“<span class="quote">Dodge</span>”</span></strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-dodge.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+          </dd>
+          <dt>
+            <span class="term">കത്തിക്കുക</span>
+          </dt>
+          <dd>
+            <a id="idp46925510370944" class="indexterm"></a>
+            <a id="idp46925510372320" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510373232"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.18. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Burn</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-burn-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Burn”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-burn-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Burn”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Burn</span> മോഡ്, താഴത്തെ പാളി പിക്സൽ മൂല്യം inverts 256 പ്രകാരം ഇരട്ടിച്ച് ഒറ്റ പ്ലസ് മുകളിലെ പാളി പിക്സൽ മൂല്യം, പിന്നെ ഫലം inverts എന്ന് വിഭജിക്കുന്നു. ഇത് <span class="quote">“<span class="quote">Multiply</span>”</span> മോഡിലേക്ക് ഏതാണ്ട് ഇതേ, ഇമേജ് ഇരുണ്ടതാക്കാൻ കുറവുമാണ്.</p>
+            <p>ഫോട്ടോഗ്രാഫിയിൽ, കത്തുന്ന ചിത്രത്തിന്റെ പ്രത്യേക മേഖലകളിൽ എക്സ്പോഷർ കൂട്ടാനുള്ള ഡാർക്ക്റൂം ഉപയോഗിക്കുന്ന സാങ്കേതികതയെ ആണ്. ഈ ഹൈലൈറ്റുകളിൽ വിശദാംശങ്ങൾ നൽകുന്നു. ഈ ആവശ്യത്തിനായി ഉപയോഗിക്കുന്ന ചെയ്യുമ്പോൾ, ഗ്രേസ്കെയിലിൽ ചിത്രങ്ങളും ഒരു പെയിന്റിംഗ് ഉപകരണം ഉപയോഗിച്ച്, പകരം ഒരു പാളി മോഡ് മികച്ച ജോലി ചെയ്യാം ചുട്ടുകളയേണം.</p>
+            <p>സമവാക്യം ഇതാണ്:</p>
+            <div class="equation">
+              <a id="idp46925510383552"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.8. ലയർ മോഡ് സമവാക്യം <span class="quote">“<span class="quote">Burn</span>”</span></strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-burn.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+          </dd>
+          <dt>
+            <span class="term">ഹാർഡ് വെളിച്ചം</span>
+          </dt>
+          <dd>
+            <a id="idp46925510387472" class="indexterm"></a>
+            <a id="idp46925510388864" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510389792"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.19. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Hard light</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-hard-light-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Hard light”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-hard-light-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Hard light”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p>സമവാക്യം രണ്ട് ഭാഗങ്ങളായി കടുത്ത നിറങ്ങളിൽ ഒന്നു തിളക്കവും നിറങ്ങൾ ഒന്നു അടങ്ങിയിരിക്കുന്നു കാരണം <span class="guilabel">Hard light</span> മോഡ് പകരം സങ്കീർണ്ണമായ ആണ്. ഉപരിതല പാളി പിക്സൽ നിറം 128 വലിയവൻ എങ്കിൽ പാളികൾ ചുവടെ കാണിച്ചിരിക്കുന്ന ആദ്യ ഫോര്മുല പ്രകാരം സംയോജിപ്പിച്ചു. അല്ലാത്തപക്ഷം താഴെയും മുകളിലുമുള്ള പാളികൾ ഒരുമിച്ചു പെരുകി രണ്ടു പെരുകിയിരിക്കുന്നു, പിന്നെ നിങ്ങൾ രണ്ട് ചിത്രങ്ങളിൽ സംയോജിപ്പിക്കുക നിറങ്ങളില് മൂർച്ചയും അറ്റങ്ങൾ ലഭ്യമാകാൻ ഈ മോഡ് ഉപയോഗിക്കുന്ന 256. ഹരിച്ച് പിക്സൽ മൂല്യങ്ങൾ.</p>
+            <p>സമവാക്യം മൂല്യം &gt; 128 അല്ലെങ്കിൽ  128 പ്രകാരം സങ്കീർണ്ണവും വ്യത്യസ്തമാണ്:</p>
+            <div class="equation">
+              <a id="idp46925510399696"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.9. പാളി മോഡ് <span class="quote">“<span class="quote">Hard light</span>”</span>, എം &gt; 128 സമവാക്യം</strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-hard-light1.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+            <div class="equation">
+              <a id="idp46925510402448"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.10. പാളി മോഡ് <span class="quote">“<span class="quote">Hard light</span>”</span>, എം  128 സമവാക്യം</strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-hard-light2.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+          </dd>
+          <dt>
+            <span class="term">മൃദു വെളിച്ചം</span>
+          </dt>
+          <dd>
+            <a id="idp46925510406816" class="indexterm"></a>
+            <a id="idp46925510408192" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510409104"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.20. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Soft light</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-soft-light-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Soft light”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-soft-light-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Soft light”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Soft light</span> പേര് വല്ലതും <span class="quote">“<span class="quote">Hard light</span>”</span> ബന്ധപ്പെട്ട അല്ല, എന്നാൽ അതു വേണമങ്കിലും മൃദുവായ വർണ്ണങ്ങളും പ്രകാശം ആക്കുന്നില്ല പ്രവണത ഇല്ല. ഇത് <span class="quote">“<span class="quote">Overlay</span>”</span> മോഡ് സമാനമാണ്. <acronym class="acronym">GIMP</acronym> ചില പതിപ്പുകളിൽ, <span class="quote">“<span class="quote">Overlay</span>”</span> മോഡ്, <span class="quote">“<span class="quote">Soft light</span>”</span> മോഡ് തനിപ്പകർപ്പാണോയെന്ന്.</p>
+            <p>സമവാക്യം സങ്കീർണ്ണമായ ആണ്. RS, സ്ക്രീൻ മോഡിൽ ഫലമാണ് ചെയ്യേണ്ടതുണ്ട്:</p>
+            <div class="equation">
+              <a id="idp46925510419952"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.11. ലയർ മോഡ് സമവാക്യം <span class="quote">“<span class="quote">Screen</span>”</span></strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-soft-light1.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+            <div class="equation">
+              <a id="idp46925510422496"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.12. ലയർ മോഡ് സമവാക്യം <span class="quote">“<span class="quote">Soft light</span>”</span></strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-soft-light2.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+          </dd>
+          <dt>
+            <span class="term">ധാന്യം സത്തിൽ</span>
+          </dt>
+          <dd>
+            <a id="idp46925510426400" class="indexterm"></a>
+            <a id="idp46925510427776" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510428688"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.21. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Grain extract</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-grain-extract-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Grain extract”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-grain-extract-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Grain extract”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Grain extract</span> മോഡ് ശുദ്ധമായ ധാന്യം ഒരു പുതിയ പാളി നിർമ്മിക്കാനുള്ള ഒരു പാളി നിന്ന് <span class="quote">“<span class="quote">film grain</span>”</span> പുറത്തെടുക്കുകയും കുറിക്കും, അത് ചിത്രങ്ങൾ ഒരു എംബോസുചെയ്തത് രൂപം ഉപയോഗപ്പെടും. ലോവര് പാളി നിന്നും മുകളിലെ പാളി പിക്സൽ മൂല്യം കുറയ്ക്കുന്ന 128 ചേർക്കുന്നു.</p>
+            <p>സമവാക്യം ഇതാണ്:</p>
+            <div class="equation">
+              <a id="idp46925510437808"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.13. ലയർ മോഡ് സമവാക്യം <span class="quote">“<span class="quote">Grain extract</span>”</span></strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-grainextract.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+          </dd>
+          <dt>
+            <span class="term">ധാന്യം ലയനം</span>
+          </dt>
+          <dd>
+            <a id="idp46925510441680" class="indexterm"></a>
+            <a id="idp46925510443056" class="indexterm"></a>
+            <p>രണ്ടിലേറെ പാളി മോഡുകൾ ഉണ്ട്, എന്നാൽ ഈ മാത്രമേ പെയിന്റിംഗ് ഉപകരണങ്ങൾ ലഭ്യമാണ്. വിശദമായ വിവരങ്ങൾക്ക് <a class="link" href="gimp-tools-paint.html#gimp-tool-painting-modes">Painting Modes</a> കാണുക.</p>
+            <div class="figure">
+              <a id="idp46925510445408"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.22. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Grain merge</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-grain-merge-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Grain merge”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-grain-merge-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Grain merge”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Grain merge</span> മോഡ് യഥാർത്ഥ പാളി ഒരു വീണതും പതിപ്പ് വിട്ടുകൊടുത്തത് നിലവിലെ പാളി ഒരു ധാന്യം പാളി (<span class="quote">“<span class="quote">Grain extract</span>”</span> മോഡ് നിന്നും സൃഷ്ടിച്ച ഒരുപക്ഷേ ഒരു) ലയിപ്പിക്കുന്നു. ഇത് <span class="quote">“<span class="quote">Grain extract</span>”</span> വെറും വിപരീതമാണ് ചെയ്യുന്നു. ഒരുമിച്ച് താഴെയും മുകളിലുമുള്ള പാളികൾ പിക്സൽ മൂല്യങ്ങൾ ചേർക്കുന്നു 128 കുറയ്ക്കുന്ന.</p>
+            <p>സമവാക്യം ഇതാണ്:</p>
+            <div class="equation">
+              <a id="idp46925510455024"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.14. ലയർ മോഡ് സമവാക്യം <span class="quote">“<span class="quote">Grain merge</span>”</span></strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-grainmerge.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+          </dd>
+          <dt>
+            <a id="layer-mode-difference"></a>
+            <span class="term">വ്യത്യാസം</span>
+          </dt>
+          <dd>
+            <a id="idp46925510459168" class="indexterm"></a>
+            <a id="idp46925510460544" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510461456"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.23. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Difference</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-difference-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Difference”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-difference-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Difference”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Difference</span> മോഡ് താഴത്തെ പാളി നിന്നും മുകളിലെ പാളി പിക്സൽ മൂല്യം കുറയ്ക്കുന്ന തുടർന്ന് ഫലം സമ്പൂർണ്ണ മൂല്യം എടുക്കുന്നു. സാരമില്ല യഥാർത്ഥ രണ്ടു പാളികൾ ഏതൊക്കെ, ഫലം പകരം ഒറ്റയായി. ഒരു ചിത്രം ഘടകങ്ങൾ വിപരീത അത് ഉപയോഗിക്കാൻ കഴിയും.</p>
+            <p>സമവാക്യം ഇതാണ്:</p>
+            <div class="equation">
+              <a id="idp46925510470112"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.15. ലയർ മോഡ് സമവാക്യം <span class="quote">“<span class="quote">Difference</span>”</span></strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-difference.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+            <p>മോഡ് commutative ആണ്; രണ്ടു പാളികൾ ക്രമം പ്രശ്നമല്ല.</p>
+          </dd>
+          <dt>
+            <span class="term">ചേർത്ത</span>
+          </dt>
+          <dd>
+            <a id="idp46925510474528" class="indexterm"></a>
+            <a id="idp46925510475888" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510476784"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.24. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Addition</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-addition-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Addition”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-addition-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Addition”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Addition</span> മോഡ് വളരെ ലളിതമാണ്. താഴെയും മുകളിലുമുള്ള പാളികൾ പിക്സൽ മൂല്യങ്ങൾ പരസ്പരം ചേർത്തു. തത്ഫലമായുണ്ടാകുന്ന ചിത്രം സാധാരണയായി ഭാരം. സമവാക്യം 255 ശ്രേഷ്ഠ നിറം മൂല്യങ്ങൾക്ക് കാരണമാകുന്നു, അതിനാൽ പ്രകാശം നിറങ്ങൾ ചില 255 പരമാവധി മൂല്യം സജ്ജീകരിച്ചിരി.</p>
+            <p>സമവാക്യം ഇതാണ്:</p>
+            <div class="equation">
+              <a id="idp46925510485504"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.16. ലയർ മോഡ് സമവാക്യം <span class="quote">“<span class="quote">Addition</span>”</span></strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-addition.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+            <p>മോഡ് commutative ആണ്; രണ്ടു പാളികൾ ക്രമം പ്രശ്നമല്ല.</p>
+          </dd>
+          <dt>
+            <span class="term">കുറയ്ക്കുക</span>
+          </dt>
+          <dd>
+            <a id="idp46925510489952" class="indexterm"></a>
+            <a id="idp46925510491328" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510492240"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.25. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Subtract</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-subtract-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Subtract”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-subtract-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Subtract”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Subtract</span> മോഡ് താഴത്തെ പാളി പിക്സൽ മൂല്യങ്ങൾ നിന്ന് മുകളിലെ പാളി പിക്സൽ മൂല്യങ്ങൾ കുറയ്ക്കുന്ന. തത്ഫലമായുണ്ടാകുന്ന ചിത്രം സാധാരണ ഇരുണ്ട ആണ്. നിങ്ങൾ തത്ഫലമായുണ്ടാകുന്ന ചിത്രം കറുത്ത സമീപത്തും-കറുത്ത ധാരാളം ലഭിക്കും. സമവാക്യം നെഗറ്റീവ് നിറം മൂല്യങ്ങൾക്ക് കാരണമാകുന്നു, അതിനാൽ ഇരുണ്ട നിറങ്ങൾ ചില 0 കുറഞ്ഞ മൂല്യം സജ്ജീകരിച്ചിരി.</p>
+            <p>സമവാക്യം ഇതാണ്:</p>
+            <div class="equation">
+              <a id="idp46925510501168"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.17. ലയർ മോഡ് സമവാക്യം <span class="quote">“<span class="quote">Subtraction</span>”</span></strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-subtract.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+          </dd>
+          <dt>
+            <span class="term">മാത്രം ഇരുണ്ട്</span>
+          </dt>
+          <dd>
+            <a id="idp46925510505072" class="indexterm"></a>
+            <a id="idp46925510506464" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510507392"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.26. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Darken only</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-darken-only-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Darken only”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-darken-only-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Darken only”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guimenuitem">Darken only</span> മോഡ് താഴത്തെ പാളി ഇതേ ഒറ്റ മുകളിലെ പാളി ഓരോ പിക്സൽ ഓരോ ഘടകത്തിന്റേയും താരതമ്യപ്പെടുത്തുന്ന തത്ഫലമായി സ്വരൂപത്തിൽ ചെറിയ മൂല്യം ഉപയോഗിക്കുന്നു. പൂർണ്ണമായും വെള്ള പാളികൾ അന്തിമ ഇമേജ് യാതൊരു വ്യത്യാസവും പൂർണമായി കറുത്ത പാളികൾ ഒരു കറുത്ത ചിത്രം കാരണമാകാം.</p>
+            <p>സമവാക്യം ഇതാണ്:</p>
+            <div class="equation">
+              <a id="idp46925510516160"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.18. ലയർ മോഡ് സമവാക്യം <span class="quote">“<span class="quote">Darken only</span>”</span></strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-darken.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+            <p>മോഡ് commutative ആണ്; രണ്ടു പാളികൾ ക്രമം പ്രശ്നമല്ല.</p>
+          </dd>
+          <dt>
+            <span class="term">Lighten only</span>
+          </dt>
+          <dd>
+            <a id="idp46925510520576" class="indexterm"></a>
+            <a id="idp46925510521936" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510522832"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.27. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Lighten only</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-lighten-only-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Lighten only”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-lighten-only-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Lighten only”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guimenuitem">Lighten only</span> മോഡ് താഴത്തെ പാളി ഇതേ ഒറ്റ മുകളിലെ പാളി ഓരോ പിക്സൽ ഓരോ ഘടകത്തിന്റേയും താരതമ്യപ്പെടുത്തുന്ന ലഭിക്കുന്ന ചിത്രം വലിയ മൂല്യം ഉപയോഗിക്കുന്നു. പൂർണ്ണമായും കറുത്ത പാളികൾ അന്തിമ ഇമേജ് യാതൊരു വ്യത്യാസവും പൂർണമായി വെളുത്ത പാളികൾ ഒരു വെളുത്ത ചിത്രം കാരണമാകാം.</p>
+            <p>സമവാക്യം ഇതാണ്:</p>
+            <div class="equation">
+              <a id="idp46925510531600"></a>
+              <p class="title">
+                <strong>സമവാക്യം 8.19. ലയർ മോഡ് സമവാക്യം <span class="quote">“<span class="quote">Lighten only</span>”</span></strong>
+              </p>
+              <div class="equation-contents">
+                <div>
+                  <img src="images/math/layer-mode-lighten.png" />
+                </div>
+              </div>
+            </div>
+            <br class="equation-break" />
+            <p>മോഡ് commutative ആണ്; രണ്ടു പാളികൾ ക്രമം പ്രശ്നമല്ല.</p>
+          </dd>
+          <dt>
+            <span class="term">ഹ്യൂയേ</span>
+          </dt>
+          <dd>
+            <a id="idp46925510536016" class="indexterm"></a>
+            <a id="idp46925510537376" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510538272"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.28. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Hue</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-hue-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Hue”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-hue-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Hue”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Hue</span> മോഡ് മുകളിലെ പാളി വഴിയുണ്ടാകുന്ന ചിത്രം രൂപം താഴത്തെ പാളി സാച്ചുറേഷനും മൂല്യം ചെഞ്ചായം ഉപയോഗിക്കുന്നു. എന്നാൽ, അപ്പർ പാളി സാച്ചുറേഷൻ പൂജ്യം എങ്കിൽ ചെഞ്ചായം താഴത്തെ പാളി നിന്ന്, വളരെ കൈക്കൊള്ളും.</p>
+          </dd>
+          <dt>
+            <span class="term">സാച്ചുറേഷൻ</span>
+          </dt>
+          <dd>
+            <a id="idp46925510547728" class="indexterm"></a>
+            <a id="idp46925510549104" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510550016"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.29. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Saturation</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-saturation-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Saturation”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-saturation-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Saturation”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Saturation</span> മോഡ് മുകളിലെ പാളി വഴിയുണ്ടാകുന്ന ചിത്രം രൂപം താഴത്തെ പാളി ചെഞ്ചായം മൂല്യവും സാച്ചുറേഷൻ ഉപയോഗിക്കുന്നു.</p>
+          </dd>
+          <dt>
+            <span class="term">നിറം</span>
+          </dt>
+          <dd>
+            <a id="idp46925510559232" class="indexterm"></a>
+            <a id="idp46925510560592" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510561488"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.30. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Color</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-color-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Color”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-color-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Color”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Color</span> മോഡ് മുകളിലെ പാളി വഴിയുണ്ടാകുന്ന ചിത്രം രൂപം താഴത്തെ പാളി മൂല്യം ചെഞ്ചായം ആൻഡ് സാച്ചുറേഷൻ ഉപയോഗിക്കുന്നു.</p>
+          </dd>
+          <dt>
+            <span class="term">വില</span>
+          </dt>
+          <dd>
+            <a id="idp46925510570688" class="indexterm"></a>
+            <a id="idp46925510572048" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510572944"></a>
+              <p class="title">
+                <strong>ചിത്രം 8.31. ലയർ മോഡ് ഉദാഹരണത്തിന് <span class="quote">“<span class="quote">Value</span>”</span></strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-value-mask1.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Value”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 1 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/using/layer-mode-value-mask2.jpg" alt="ലയർ മോഡ് ഉദാഹരണത്തിന് “Value”" />
+                  <div class="caption">
+                    <p>മാസ്ക്കുചെയ്യുക 2 100% അതാര്യതയോടെ മുകളിലെ പാളി ഉപയോഗിക്കുന്നു.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="guilabel">Value</span> മോഡ് മുകളിലെ പാളി വഴിയുണ്ടാകുന്ന ചിത്രം രൂപം താഴത്തെ പാളി സാച്ചുറേഷനും ചായയാണ് മൂല്യം ഉപയോഗിക്കുന്നു. താങ്കൾക്ക് സാച്ചുറേഷൻ മാറ്റുന്നതിൽ ഇല്ലാതെ ഒരു ചിത്രം ഇരുണ്ട നേരിയ മേഖലകളിൽ വിശദാംശങ്ങൾ വെളിപ്പെടുത്താൻ ഈ മോഡ് ഉപയോഗിക്കാം.</p>
+          </dd>
+        </dl>
+      </div>
+      <p>ഒരു ചിത്രം ഓരോ പാളി മറ്റൊരു പാളി മോഡ് കഴിയും. (തീർച്ചയായും, ഒരു ചിത്രത്തിന്റെ താഴെയുള്ള പാളി പാളി മോഡ് ഫലപ്രദമാകില്ല.) ഈ പാളി മോഡുകൾ ഇഫക്റ്റുകൾ സഞ്ചിത ആകുന്നു. താഴെ കാണിച്ചിരിക്കുന്ന ചിത്രം മൂന്നു പാളികൾ ഉണ്ട്. മുകളിലെ പാളി Wilber അടങ്ങിയിരിക്കുന്നു സുതാര്യത വലയം ചെയ്ത് <span class="quote">“<span class="quote">Difference</span>”</span> ഒരു പാളി മോഡ് ഉണ്ട്. രണ്ടാം പാളി ഖര ഇളം നീല ആണ് <span class="quote">“<span class="quote">Addition</span>”</span> ഒരു പാളി മോഡ് ഉണ്ട്. ചുവടെ പാളി <span class="quote">“<span class="quote">Red Cubes</span>”</span> പാറ്റേൺ നിറഞ്ഞു.</p>
+      <div class="figure">
+        <a id="idp46925510584336"></a>
+        <p class="title">
+          <strong>ചിത്രം 8.32. മൾട്ടി ലെയർ ഉദാഹരണം</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/glossary/modes-multilayer.png" alt="മൾട്ടി ലെയർ ഉദാഹരണം" />
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <p><acronym class="acronym">GIMP</acronym> പുറമേ പെയിന്റിംഗ് ഉപകരണങ്ങൾ ഉപയോഗിക്കുന്നു സമാന മോഡുകൾ ഉണ്ട്. ഈ പെയിന്റിംഗ് ഉപകരണങ്ങൾ നിർദിഷ്ട ആയ അധികമായി രണ്ട് മോഡുകൾ പാളി മോഡുകൾ അതേ ഇരുപത്തൊന്നു മോഡുകൾ, പ്ലസ് ആകുന്നു. ടൂൾസ് ഓപ്ഷൻ ഡയലോഗിൽ <span class="guilabel">Mode</span> മെനുവിൽ നിന്നും ഈ മോഡുകൾ സജ്ജമാക്കാൻ കഴിയും. മുകളിൽ കാണിച്ചിരിക്കുന്ന സമവാക്യങ്ങൾ, നിങ്ങൾ ന് ചിത്രകലയെ ചെയ്യുന്നു പാളി <span class="quote">“<span class="quote">lower layer</span>”</span> ആണ് ഉപകരണം ചായം പിക്സലുകൾ <span class="quote">“<span class="quote">upper layer</span>”</span> ആകുന്നു. സ്വാഭാവികമായും, ഒന്നിൽ കൂടുതൽ പാളി ചിത്രം ഈ മോഡുകൾ ഉപയോഗിക്കാൻ മാത്രമാണ് അവർ നിലവിലെ പാളി തിരഞ്ഞെടുത്ത പെയിന്റിംഗ് ഉപകരണം ഓപ്പറേറ്റ് ശേഷം ആവശ്യമില്ല.</p>
+      <p>രണ്ട് അധിക പെയിന്റിംഗ് മോഡുകൾ ഒരു വിവരണം വേണ്ടി <a class="xref" href="gimp-tools-paint.html#gimp-paint-mode-examples" title="3.1.3. Paint Mode Examples">വിഭാഗം 3.1.3, “Paint Mode Examples”</a> കാണുക.</p>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-image-combining.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-image-combining.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-using-layers.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-image-combining.html">പാഠം 8. സംയോജിത ചിത്രങ്ങൾ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-layers.html">3. പുതിയ തലങ്ങളെ ഉണ്ടാക്കുന്നു</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

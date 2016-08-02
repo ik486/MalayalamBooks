@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>13.9. സിഎംഎൽ എക്സ്പ്ലോറർ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-render.html" title="13. റെൻഡർ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-checkerboard.html" title="13.8. ചെക്ക്ബോർഡ്" />
+    <link rel="next" href="plug-in-diffraction.html" title="13.10. diffraction പാറ്റേണുകൾ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">13.9. സിഎംഎൽ എക്സ്പ്ലോറർ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-checkerboard.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">13. റെൻഡർ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-diffraction.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-cml-explorer"></a>13.9. സിഎംഎൽ എക്സ്പ്ലോറർ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925528749968" class="indexterm"></a>
+      <a id="idp46925528751808" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528752736"></a>13.9.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925528753504"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.298. <span class="quote">“<span class="quote">CML Explorer</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/render-taj-cmlexplorer.jpg" alt="“CML Explorer” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">CML Explorer</span>”</span> സ്ഥിരസ്ഥിതി ഓപ്ഷനുകൾ ഉപയോഗിച്ച് ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ ഫിൽറ്ററുകൾ സൃഷ്ടിക്കുന്നു ടെക്സ്ചർ രാജാവു. ഇത് വളരെ കാര്യക്ഷമമായി എന്നാൽ വളരെ സങ്കീർണ്ണമാണ്. ഇത് സെല്ലുലാർ Automata <a class="xref" href="bibliography.html#bibliography-online-wkpd-cellular-automata" title="വിക്കിപീഡിയ - സെല്ലുലാർ Automata">[<abbr class="abbrev">WKPD-അ</abbr>]</a> പേരുള്ള ഒരു ഗണിത രീതി ഉപയോഗിക്കുന്നു.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528759392"></a>13.9.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ ഇമേജ് മെനുവിൽ നിന്ന് <span class="guimenu">Filters</span> → <span class="guisubmenu">Render</span> → <span class="guisubmenu">Pattern</span> → <span class="guimenuitem">CML Explorer</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528762368"></a>13.9.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="simplesect">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925528763120"></a>പൊതു ഓപ്ഷനുകൾ</h5>
+              </div>
+            </div>
+          </div>
+          <p>ഫിൽറ്റർ ഓപ്ഷനുകൾ <span class="guilabel">Hue</span>, <span class="guilabel">Saturation</span>, <span class="guilabel">Value</span>, <span class="guilabel">Advanced</span>, <span class="guilabel">Others</span> ആൻഡ് <span class="guilabel">Misc Ops.</span> ടാബുകൾ ഇടയിൽ വിതരണം ചെയ്യുന്നത്. ചില കൂടുതൽ ഓപ്ഷനുകളും ലഭ്യമാണ്. അവർ വിഭാഗം താഴെ വിവരിച്ച ചെയ്യും.</p>
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">പ്രിവ്യൂ</span>
+              </dt>
+              <dd>
+                <p>ഈ ഫിൽട്ടർ അവർ ചിത്രത്തിലേക്ക് പ്രയോഗിക്കുന്നതിന് മുമ്പ് നിങ്ങളുടെ ക്രമീകരണങ്ങൾ ഫലമാണ് കാണാൻ കഴിയുന്ന പ്രിവ്യൂ വാഗ്ദാനം.</p>
+              </dd>
+              <dt>
+                <span class="term">പുതിയ വിത്ത്, </span>
+                <span class="term">വിത്ത് പരിഹരിക്കുക, </span>
+                <span class="term">ക്രമരഹിത വിത്ത്</span>
+              </dt>
+              <dd>
+                <p>റാൻഡം പാറ്റേണുകൾ സൃഷ്ടിക്കുന്നത് ഒരു വലിയ പങ്കു വഹിക്കുന്നു. ഈ ഓപ്ഷനുകൾ ഉപയോഗിച്ച്, റാൻഡം ഉത്പാദിപ്പിക്കപ്പെടുന്നത് വഴി സ്വാധീനിക്കാൻ കഴിയും. <span class="guibutton">New Seed</span> ബട്ടണ് ക്ലിക്കുചെയ്യുന്നതിലൂടെ, റാൻഡം ഒരു പുതിയ സ്രോതസ്സ് ഉപയോഗിക്കാൻ റാൻഡം നിർബന്ധിതമാക്കാം. തിരനോട്ടം ഫലം കാണിക്കും. <span class="guibutton">Fix Seed</span> നിങ്ങൾ ഒരേ സന്തതി അങ്ങനെ അരിപ്പ ഇതേ അവസ്ഥയാണ് പുനർനിർമ്മിക്കുവാൻ അനുവദിക്കുന്നു. <span class="guibutton">Random Seed</span> ക്രമമില്ലാതെ റാൻഡം സന്തതി സൃഷ്ടിക്കുന്നു.</p>
+              </dd>
+              <dt>
+                <span class="term">തുറക്കുക, </span>
+                <span class="term">രക്ഷിക്കും</span>
+              </dt>
+              <dd>
+                <p>ഈ രണ്ടു കമാൻഡ് ബട്ടണുകൾ നിങ്ങൾ ഒരു ഫയലിൽ പാറ്റേൺ ക്രമീകരണങ്ങൾ സംരക്ഷിക്കാൻ കഴിയും, പിന്നീട് അവരെ തിരികെ നേടുകയും.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="simplesect">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925528777728"></a><span class="quote">“<span class="quote">CML Explorer</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (ഹ്യൂയേ)</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925528778800"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.299. ഹ്യൂയേ ടാബ്</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/render/cmlexplorer1.png" alt="ഹ്യൂയേ ടാബ്" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഈ ഫിൽട്ടർ <a class="link" href="glossary.html#glossary-hsv" title="HSV">HSV</a> നിറം മോഡൽ പ്രവർത്തിക്കുന്നു. ഈ ടാബിൽ, നിങ്ങൾ ഹ്യൂയേ ഓപ്ഷനുകൾ സജ്ജമാക്കാൻ കഴിയും.</p>
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">ഫംഗ്ഷൻ തരം</span>
+              </dt>
+              <dd>
+                <p>ഈ ഡ്രോപ്പ്-ഡൌണ് ലിസ്റ്റ്, നിലവിലുള്ള പാളി ചികിത്സിക്കുന്നതിന് ഉപയോഗിക്കേണ്ട രീതി തിരഞ്ഞെടുക്കാം. ഈ രീതികൾ:</p>
+                <div class="variablelist">
+                  <dl class="variablelist">
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">ചിത്രം മൂല്യങ്ങളും നിലനിർത്തുക</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് ഇമേജ് ചെഞ്ചായം മൂല്യങ്ങൾ സൂക്ഷിക്കും.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">ആദ്യ മൂല്യം നിലനിർത്തുക</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് നിറം തുടങ്ങുന്ന സാധാരണ സിയാൻ ആയിരിക്കും.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">
+                        <span class="guilabel">പാരാമീറ്റർ k നിറക്കുക</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>ശ്രേണി രൂപം നിങ്ങളെ ഓപ്ഷനുകളിൽ പിന്നീട് സ്ഥാപിക്കും ആ <em class="parameter"><code>k</code></em> ആശ്രയിച്ചിരിക്കും.</p>
+                    </dd>
+                    <dt>
+                      <span class="term">മറ്റുള്ളവ എഫ് (K)</span>
+                    </dt>
+                    <dd>
+                      <p>, മുകളിൽ കാണുക <span class="quote">“<span class="quote">Fill with k parameter</span>”</span>.</p>
+                    </dd>
+                    <dt>
+                      <span class="term"><span class="guilabel">ഡെൽറ്റ ചടങ്ങിൽ</span>, </span>
+                      <span class="term">
+                        <span class="guilabel">ഡെൽറ്റ ചടങ്ങിൽ സ്റ്റെപ്പ്ഡ്</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>// ചെയ്യേണ്ടത്</p>
+                    </dd>
+                    <dt>
+                      <span class="term"><span class="guilabel">പാപം ^ പി അധിഷ്ഠിത ചടങ്ങിൽ</span>, </span>
+                      <span class="term">
+                        <span class="guilabel">പാപം ^ പി ഡല്ഹിയില്</span>
+                      </span>
+                    </dt>
+                    <dd>
+                      <p>ഈ ഓപ്ഷനുകൾ നീരാജനം പോലുള്ള പാറ്റേണുകൾ, പ്രഭാതസന്ധ്യ .ഗ്രഹോപരിതലത്തിന്റെ അല്ലെങ്കിൽ കർട്ടൻ മടക്കുകളും പോലെ സൃഷ്ടിക്കുക.</p>
+                    </dd>
+                  </dl>
+                </div>
+              </dd>
+              <dt>
+                <span class="term">രചന</span>
+              </dt>
+              <dd>
+                <p>ഇവിടെ, ഈ ഓപ്ഷനുകൾ ഹ്യൂയേ കാര്യത്തിൽ പ്രധാനമാണ്. നിങ്ങൾ എന്ത് തിരഞ്ഞെടുക്കാൻ കഴിയും ഒരു പുസ്തകത്തിൽ ഈ എല്ലാ നിര്വഹിക്കുന്ന ഫലങ്ങളും നിറയും കഴിഞ്ഞില്ല. ദയവായി, പരീക്ഷണം!</p>
+              </dd>
+              <dt>
+                <span class="term">പലവക. കമീകരിക്കുക</span>
+              </dt>
+              <dd>
+                <p>ഈ ഡ്രോപ്പ്-ഡൌൺ ലിസ്റ്റ് നിരവധി മറ്റ് പാരാമീറ്ററുകൾ പ്രദാനം ചെയ്യുന്നു. പുസ്തകം ഈ പരാമീറ്ററുകൾ സാധ്യതകൾ വിശദീകരിക്കാൻ അത്യാവശ്യമാണ് തന്നെ.</p>
+              </dd>
+              <dt>
+                <span class="term">ചാക്രിക ശ്രേണി ഉപയോഗിക്കുക</span>
+              </dt>
+              <dd>
+                <p>// ചെയ്യേണ്ടത്</p>
+              </dd>
+              <dt>
+                <span class="term">നാട്ടൂകാർ. നിരക്ക്</span>
+              </dt>
+              <dd>
+                <p>ഈ സ്ലൈഡർ ഇൻപുട്ട് ബോക്സിൽ ഉപയോഗിച്ച്, 1.0 0.0 മുതൽ പരിഷ്കരണത്തിന് നിരക്ക് സജ്ജമാക്കാൻ കഴിയും. ഒരു പാകിയ പാറ്റേണിലാണ് മൂല്യം കുറഞ്ഞ ഫലങ്ങൾ.</p>
+              </dd>
+              <dt>
+                <span class="term">ENV. സൂക്ഷ്മസംവേദനശക്തി</span>
+              </dt>
+              <dd>
+                <p>മൂല്യം 0.0 മുതൽ 1.0 ആണ്</p>
+              </dd>
+              <dt>
+                <span class="term">Diffusion ജില്ലാ.</span>
+              </dt>
+              <dd>
+                <p>Diffusion ദൂരം: 2 മുതൽ 10 വരെ.</p>
+              </dd>
+              <dt>
+                <span class="term"># Subranges ന്റെ</span>
+              </dt>
+              <dd>
+                <p>1 മുതൽ 10 വരെ: ഉപ-കുരച്ചതികം എണ്ണം.</p>
+              </dd>
+              <dt>
+                <span class="term">(പവർ ഫാക്ടർ</span>
+              </dt>
+              <dd>
+                <p>ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് നിങ്ങൾക്ക് <em class="parameter"><code>p</code></em> പരാമീറ്റർ ഉപയോഗിച്ച് <span class="guilabel">Function types</span> സ്വാധീനിക്കാൻ കഴിയും. 0.0 മുതൽ 10.0 മൂല്യം.</p>
+              </dd>
+              <dt>
+                <span class="term">പാരാമീറ്റർ k</span>
+              </dt>
+              <dd>
+                <p>ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് നിങ്ങൾക്ക് <em class="parameter"><code>k</code></em> പരാമീറ്റർ ഉപയോഗിച്ച് <span class="guilabel">Function types</span> സ്വാധീനിക്കാൻ കഴിയും. 0.0 മുതൽ 10.0 മൂല്യം.</p>
+              </dd>
+              <dt>
+                <span class="term">കുറഞ്ഞ ശ്രേണി</span>
+              </dt>
+              <dd>
+                <p>കണക്കുകൂട്ടലിൽ ഉപയോഗിക്കേണ്ട ചായയാണ് താഴത്തെ പരിധി സജ്ജീകരിക്കുക. മൂല്യങ്ങൾ 0.0 മുതൽ 1.0 വ്യത്യസ്തമാണ്.</p>
+              </dd>
+              <dt>
+                <span class="term">ശ്രേണി ഉയർന്ന</span>
+              </dt>
+              <dd>
+                <p>കണക്കുകൂട്ടലിൽ ഉപയോഗിക്കേണ്ട ചായയാണ് മുകളിലെ പരിധി സജ്ജീകരിക്കുക. വേരിയേഷൻസ് 0.0 മുതൽ 1.0 ഇരിക്കുന്നു.</p>
+              </dd>
+              <dt>
+                <span class="term">ക്രമീകരണങ്ങൾ ഗ്രാഫ് പ്ലോട്ട്</span>
+              </dt>
+              <dd>
+                <p>ഈ വലിയ ബട്ടണ് ക്ലിക്കുചെയ്യുന്നതിലൂടെ, ചെഞ്ചായം ഇപ്പോഴത്തെ ക്രമീകരണങ്ങൾ ഗ്രാഫ് ലഭ്യമാക്കുന്ന വിൻഡോ തുറക്കാൻ കഴിയും.</p>
+                <div class="figure">
+                  <a id="idp46925528826096"></a>
+                  <p class="title">
+                    <strong>ചിത്രം 17.300. ഇന്നത്തെ ക്രമീകരണങ്ങൾ പ്രവർത്തനം ഗ്രാഫ്</strong>
+                  </p>
+                  <div class="figure-contents">
+                    <div class="mediaobject">
+                      <img src="images/filters/render/cmlexplorer1a.png" alt="ഇന്നത്തെ ക്രമീകരണങ്ങൾ പ്രവർത്തനം ഗ്രാഫ്" />
+                    </div>
+                  </div>
+                </div>
+                <br class="figure-break" />
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="simplesect">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925528829472"></a><span class="quote">“<span class="quote">CML Explorer</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (സാച്ചുറേഷൻ)</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925528830560"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.301. സാച്ചുറേഷൻ ടാബ്</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/render/cmlexplorer2.png" alt="സാച്ചുറേഷൻ ടാബ്" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഈ ടാബിൽ, നിങ്ങൾ HSV നിറം മാതൃകയുടെ സാന്ദ്രീകരണം ഘടകം പാറ്റേൺ കണക്കുകൂട്ടലിൽ ഉപയോഗിക്കും എങ്ങനെ സജ്ജമാക്കാൻ കഴിയും.</p>
+          <p>ഈ ഓപ്ഷനുകൾ ഹ്യൂയേ ടാബ് ഓപ്ഷനുകൾ സമാനമാണ്.</p>
+        </div>
+        <div class="simplesect">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925528834672"></a><span class="quote">“<span class="quote">CML Explorer</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (മൂല്യം)</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925528835744"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.302. മൂല്യം ടാബ്</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/render/cmlexplorer3.png" alt="മൂല്യം ടാബ്" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഈ ടാബിൽ, നിങ്ങൾ HSV നിറം മോഡൽ മൂല്യം (തേജസ്സ്) ഘടകം പാറ്റേൺ കണക്കുകൂട്ടലിൽ ഉപയോഗിക്കും എങ്ങനെ സജ്ജമാക്കാൻ കഴിയും.</p>
+          <p>ഈ ഓപ്ഷനുകൾ ഹ്യൂയേ ടാബ് ഓപ്ഷനുകൾ സമാനമാണ്.</p>
+        </div>
+        <div class="simplesect">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925528839840"></a><span class="quote">“<span class="quote">CML Explorer</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (അഡ്വാൻസ്ഡ്)</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925528840928"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.303. വിപുലമായ ടാബ്</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/render/cmlexplorer4.png" alt="വിപുലമായ ടാബ്" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഈ ടാബ് ക്രമീകരണങ്ങൾ മൂന്ന് HSV ചാനലുകൾ ബാധകമാണ്.</p>
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">ചാനൽ സംവേദനക്ഷമത</span>
+              </dt>
+              <dd>
+                <p>// ചെയ്യേണ്ടത്</p>
+              </dd>
+              <dt>
+                <span class="term">പരിവർത്തന നിരക്ക്</span>
+              </dt>
+              <dd>
+                <p>// ചെയ്യേണ്ടത്</p>
+              </dd>
+              <dt>
+                <span class="term">പരിവർത്തന ദൂരം</span>
+              </dt>
+              <dd>
+                <p>// ചെയ്യേണ്ടത്</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="simplesect">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925528850912"></a><span class="quote">“<span class="quote">CML Explorer</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (മറ്റുള്ളവ)</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925528852000"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.304. മറ്റുള്ളവ ടാബ്</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/render/cmlexplorer5.png" alt="മറ്റുള്ളവ ടാബ്" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഈ ടാബിൽ, ഇമേജ് ഡിസ്പ്ലെ, റാൻഡം ഇടപെടൽ വിവിധ പാരാമീറ്ററുകൾ കണ്ടെത്താനാകും.</p>
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">പ്രാരംഭ മൂല്യം</span>
+              </dt>
+              <dd>
+                <p>// ചെയ്യേണ്ടത്</p>
+              </dd>
+              <dt>
+                <span class="term">സൂം സ്കെയിൽ</span>
+              </dt>
+              <dd>
+                <p>// ചെയ്യേണ്ടത്</p>
+              </dd>
+              <dt>
+                <span class="term">ഓഫ്സെറ്റ് ആരംഭിക്കുക</span>
+              </dt>
+              <dd>
+                <p>// ചെയ്യേണ്ടത്</p>
+              </dd>
+              <dt>
+                <span class="term">റാൻഡം സന്തതി</span>
+              </dt>
+              <dd>
+                <p>// ചെയ്യേണ്ടത്</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="simplesect">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925528863600"></a><span class="quote">“<span class="quote">CML Explorer</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ (പലവക Ops.)</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925528864672"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.305. പലവക ഓപ്ഷനുകൾ ടാബ്</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/render/cmlexplorer6.png" alt="പലവക ഓപ്ഷനുകൾ ടാബ്" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഈ ടാബിൽ നിങ്ങൾ പകർത്തി ലോഡിങ് കുറിച്ച് വിവിധ ഓപ്ഷനുകൾ കണ്ടെത്താം.</p>
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">പകർത്തുക ക്രമീകരണങ്ങൾ</span>
+              </dt>
+              <dd>
+                <p>ഈ ഓപ്ഷനുകൾ മറ്റൊന്നിലേക്ക് HSV ചാനൽ ഒന്നിൽ നിന്ന് വിവരങ്ങൾ കൈമാറാൻ അനുവദിക്കുക.</p>
+              </dd>
+              <dt>
+                <span class="term">സെലക്ടീവ് ലോഡ് ക്രമീകരണങ്ങൾ</span>
+              </dt>
+              <dd>
+                <p>ഈ ഫിൽട്ടർ <span class="guibutton">Open</span> ബട്ടൺ ഉപയോഗിച്ച്, നിങ്ങൾ മുമ്പ് ലോഡുചെയ്ത ക്രമീകരണങ്ങൾ ലോഡ് ചെയ്യാം. നിങ്ങൾ എല്ലാ ലോഡ് ആഗ്രഹിക്കുന്നില്ല, നിങ്ങൾ ഇവിടെ ഒരു സ്രോതസ്സ് ഡെസ്റ്റിനേഷൻ ചാനൽ തിരഞ്ഞെടുക്കാം.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-checkerboard.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-render.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-diffraction.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-checkerboard.html">13.8. ചെക്ക്ബോർഡ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-diffraction.html">13.10. diffraction പാറ്റേണുകൾ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

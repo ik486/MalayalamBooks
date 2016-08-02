@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>16.17. നിയോൺ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-alpha-to-logo.html" title="16. ലോഗോ ഫിൽട്ടറുകൾ ആൽഫ" />
+    <link rel="prev" href="script-fu-gradient-bevel-logo-alpha.html" title="16.16. ഗ്രേഡിയന്റ് ബിവെൽ" />
+    <link rel="next" href="script-fu-t-o-p-logo-alpha.html" title="16.18. കണം ട്രെയ്സ്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">16.17. നിയോൺ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-gradient-bevel-logo-alpha.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">16. ലോഗോ ഫിൽട്ടറുകൾ ആൽഫ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="script-fu-t-o-p-logo-alpha.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-neon-logo-alpha"></a>16.17. നിയോൺ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925530478400" class="indexterm"></a>
+      <a id="idp46925530480224" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925530481120"></a>16.17.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925530481888"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.411. <span class="quote">“<span class="quote">Neon</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/logo-neon-applied.jpg" alt="“Neon” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Neon</span>”</span> ഫിൽട്ടർ</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/neon-script-fu.jpg" alt="“Neon” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Neon</span>”</span> ലോഗോ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ ഒബ്ജക്റ്റ് ഓപ്ഷണലായി പോലുള്ള ഒരു നിയോൺ-അടയാളം സജീവ പാളി ആൽഫ ആക്കാനുള്ള ഒരു നിഴൽ ചേർക്കുന്നു.</p>
+        <p>ഇത് നിയോൺ വിളക്കുകൾ അനുകരിക്കുന്നു ഒരു ടെക്സ്റ്റ് പ്രഭാവം സൃഷ്ടിക്കുന്ന <span class="quote">“<span class="quote">Neon</span>”</span> സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ് (<span class="guimenu">File</span> → <span class="guisubmenu">Create</span> → <span class="guisubmenu">Logos</span> → <span class="guimenuitem">Neon</span>), നിന്നാണ്.</p>
+        <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Warning">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[മുന്നറിയിപ്പു്]" src="images/warning.png" />
+              </td>
+              <th align="left">മുന്നറിയിപ്പു്</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>ചിത്രം എല്ലായ്പ്പോഴും സജീവ പാളി വലിപ്പത്തിന് വലുപ്പം മാറ്റും.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925530493536"></a>16.17.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Alpha to Logo</span> → <span class="guimenuitem">Neon</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ ഈ ഫിൽട്ടർ കണ്ടെത്താം.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925530496176"></a>16.17.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925530496928"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.412. <span class="quote">“<span class="quote">Neon</span>”</span> ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/alpha-to-logo/neon-options.png" alt="“Neon” ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പ്രഭാവം വലുപ്പം (പിക്സൽ * 5)</span>
+            </dt>
+            <dd>
+              <p>ഈ യഥാർത്ഥത്തിൽ നിയോൺ സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ് ഫോണ്ട് വലിപ്പം തീരുമാനം. ചില ആന്തരിക മൂല്യങ്ങൾ ഉദാഹരണത്തിന് ട്യൂബ് വലിപ്പം, നിഴൽ ഓഫ്സെറ്റ്, ഒപ്പം മങ്ങൽ വ്യാസം ഈ ഫോണ്ട് വലുപ്പം ബന്ധപ്പെട്ട് സജ്ജമാക്കും. അതുകൊണ്ട് ഇവിടെ ഒരു ആരംഭമായി നിങ്ങളുടെ വസ്തുക്കളുടെ ഉയരം തിരഞ്ഞെടുക്കുന്നതിന് ഒരു നല്ല ആശയം ആകാം. (<span class="quote">“<span class="quote">pixels * 5</span>”</span> അതിനെ അവഗണിക്കുക, ഇഷ്ടാ.)</p>
+            </dd>
+            <dt>
+              <span class="term">പശ്ചാത്തല നിറം</span>
+            </dt>
+            <dd>
+              <p>ഈ <span class="quote">“<span class="quote">Background</span>”</span> പാളി നിറയ്ക്കാൻ ഉപയോഗിക്കുന്ന നിറം; അതു കറുത്ത സ്ഥിര. നിങ്ങൾക്ക് കളർ Swatch ബട്ടൺ ക്ലിക്ക് ചെയ്യുമ്പോൾ, നിറം സെലക്ടർ ഡയലോഗിൽ മറ്റേതെങ്കിലും നിറം തിരഞ്ഞെടുക്കാം.</p>
+            </dd>
+            <dt>
+              <span class="term">നിറം ജലിക്കുക</span>
+            </dt>
+            <dd>
+              <p>പത്രംപോളെ നിയോൺ കുഴലുകളിൽ നിറം ആണ്. സ്ഥിര ഇളം നീല (38,211,255) ഒരു സാധാരണ neon- ആണ്. വീണ്ടും, വർണ്ണ സ്വാച്ച് ബട്ടണിൽ ക്ലിക്കിൽ കളർ സെലക്ടർ നൽകുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">നിഴൽ സൃഷ്ടിക്കുക</span>
+            </dt>
+            <dd>
+              <p>വേണമെങ്കിൽ, അരിപ്പ, ഒരു തുള്ളി നിഴൽ സൃഷ്ടിക്കാൻ കഴിയുന്ന ആൽഫാ ചാനൽ അതേ ആകാരം ഉണ്ടായിരിക്കും. നിഴൽ നിറം കറുപ്പാണ് ആണ്, പരിഷ്കരിക്കാൻ കഴിയില്ല. പശ്ചാത്തല പാളി നീക്കം ആസൂത്രണം ചെയ്യാത്ത അനുവദിച്ചില്ലെങ്കിൽ, മറ്റൊരു <span class="guilabel">Background color</span> തിരഞ്ഞെടുക്കാവൂ.</p>
+              <div class="mediaobject">
+                <img src="images/filters/examples/neon-shadow.png" />
+                <div class="caption">
+                  <p>നിഴൽ കൂടെ <span class="quote">“<span class="quote">Neon</span>”</span></p>
+                </div>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925530514304"></a>16.17.4. ഫിൽറ്റർ വിശദാംശങ്ങൾ</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഫിൽട്ടർ നിയോൺ പ്രഭാവം നേടാൻ രണ്ടു പാളികൾ ഉപയോഗിക്കുന്നു:</p>
+        <div class="figure">
+          <a id="idp46925530515664"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.413. നിയോൺ പ്രഭാവം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/neon-tubes.png" alt="നിയോൺ പ്രഭാവം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Neon Tubes</span>”</span> പാളി</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/neon-glow.png" alt="നിയോൺ പ്രഭാവം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Neon Glow</span>”</span> പാളി</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>പാളി <span class="quote">“<span class="quote">Neon Tubes</span>”</span> അരിപ്പ പ്രയോഗിക്കുന്നത് സജീവ പാളിയാണ്. ഈ പാളിയുടെ ഉള്ളടക്കം പ്രശ്നമല്ല. മാത്രം ആൽഫാ ചാനൽ പ്രത്യേകിച്ച് അതിൻറെ രൂപം പറയുന്നില്ല.</p>
+        <p>താഴെ <span class="quote">“<span class="quote">Neon Glow</span>”</span> പാളി നിയോൺ വെളിച്ചത്തിന്റെ തിളങ്ങുന്ന അടങ്ങിയിരിക്കുന്നു.</p>
+        <p>ഓപ്ഷണൽ ഒരു <span class="quote">“<span class="quote">Shadow</span>”</span> പാളി സജീവ പാളി ആൽഫാ ചാനൽ അതേ ആകൃതിയിൽ ഒരു തുള്ളി നിഴൽ അടങ്ങുന്ന താഴെ സൃഷ്ടിക്കപ്പെട്ടിരിക്കുന്നത്. ചുവടെ ഒരു പുതിയ <span class="quote">“<span class="quote">Background</span>”</span> പാളി <span class="guilabel">Background color</span> നിറഞ്ഞു സൃഷ്ടിക്കപ്പെട്ടിരിക്കുന്നത്.</p>
+        <p>നിയോൺ അരിപ്പ പാളികൾ പരിശോധന:</p>
+        <div class="mediaobject">
+          <img src="images/filters/examples/neon-4layers.png" />
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-gradient-bevel-logo-alpha.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-alpha-to-logo.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="script-fu-t-o-p-logo-alpha.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-gradient-bevel-logo-alpha.html">16.16. ഗ്രേഡിയന്റ് ബിവെൽ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="script-fu-t-o-p-logo-alpha.html">16.18. കണം ട്രെയ്സ്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

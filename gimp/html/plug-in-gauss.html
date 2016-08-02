@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>2.3. ഗോഷ്യൻ ഇഫക്റ്റ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-blur.html" title="2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-blur.html" title="2.2. ഇഫക്റ്റ്" />
+    <link rel="next" href="plug-in-sel-gauss.html" title="2.4. സെലക്ടീവ് ഗോഷ്യൻ ഇഫക്റ്റ്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">2.3. ഗോഷ്യൻ ഇഫക്റ്റ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-blur.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-sel-gauss.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-gauss"></a>2.3. ഗോഷ്യൻ ഇഫക്റ്റ്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925517384672" class="indexterm"></a>
+      <a id="idp46925517386528" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925517387456"></a>2.3.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925517388224"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.9. <span class="quote">“<span class="quote">Gaussian Blur</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="“Gaussian Blur” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/blur-taj-gauss.jpg" alt="“Gaussian Blur” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>ഇഫക്റ്റ് പ്രയോഗിച്ചു</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>IIR ഗോഷ്യൻ ഇഫക്റ്റ് പ്ലഗ് ഇൻ-സജീവ അല്ലെങ്കിൽ പാളി നിരക്കു ഓരോ പിക്സൽ പ്രവർത്തിക്കുന്നു എല്ലാ പിക്സൽ മൂല്യങ്ങൾ ഡയലോഗിൽ നിഷ്കർഷിച്ച ആരം ഇപ്പോഴത്തെ ശരാശരി അതിന്റെ മൂല്യം ക്രമീകരിക്കുന്നതിൽ. ഉയർന്ന മൂല്യം ഇഫക്റ്റ് ഉയർന്ന ഒരു തുക നൽകും. മങ്ങൽ അതു കേടായി അങ്ങനെ ചെയിൻ ബട്ടൺ ക്ലിക്കുചെയ്ത്, ആരവും പന്തിന്റെ മറ്റ് അധികം ഒരു ദിശയിൽ പ്രവർത്തിക്കാൻ ക്രമീകരിക്കാൻ കഴിയും. ജിമ്പ് ഗോഷ്യൻ ഇഫക്റ്റ് രണ്ടു മൊക്കെ പിന്തുണയ്ക്കുന്നു: IIR G.B. ഒപ്പം RLE G.B. അവർ ഇരുവരും ഒരേ ഫലങ്ങൾ, അവരെല്ലാം ചില സന്ദർഭങ്ങളിൽ വേഗത്തിൽ കഴിയും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925517396496"></a>2.3.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Blur</span> → <span class="guimenuitem">Gaussian Blur</span> കീഴിൽ ഇമേജ് മെനുവിൽ ഈ ഫിൽട്ടർ കണ്ടെത്താനാകും</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925517399136"></a>2.3.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925517399840"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.10. <span class="quote">“<span class="quote">Gaussian</span>”</span> ഫിൽട്ടർ പാരാമീറ്ററുകൾ ക്രമീകരണങ്ങൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/blur/gauss.png" alt="“Gaussian” ഫിൽട്ടർ പാരാമീറ്ററുകൾ ക്രമീകരണങ്ങൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">റേഡിയസ് മങ്ങിക്കുക</span>
+            </dt>
+            <dd>
+              <p>ഇവിടെ നിങ്ങൾക്ക് മങ്ങൽ തീവ്രത സജ്ജമാക്കാൻ കഴിയും. ലംബമായ മങ്ങിക്കലിലേക്ക് തിരശ്ചീന അനുപാതം പന്തിന്റെ, നിങ്ങൾ ഒരു മോഷൻ ഇഫക്റ്റ് പ്രഭാവം നൽകാൻ കഴിയും. ഡ്രോപ് ലിസ്റ്റ് ഉപയോഗിച്ച് യൂണിറ്റ് തിരഞ്ഞെടുക്കാം.</p>
+            </dd>
+            <dt>
+              <span class="term">ഇഫക്റ്റ് രീതി</span>
+            </dt>
+            <dd>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">IIR</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>IIR <span class="quote">“<span class="quote">infinite impulse response</span>”</span> നിലകൊള്ളുന്നു. ഈ മങ്ങൽ വലിയ ആരം മൂല്യങ്ങൾ വേണ്ടിയും സൃഷ്ടിക്കപ്പെടുന്ന കമ്പ്യൂട്ടർ അല്ല ചിത്രങ്ങളെ ഇണങ്ങുന്നത്.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">RLE</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>RLE <span class="quote">“<span class="quote">run-length encoding</span>”</span> നിലകൊള്ളുന്നു. RLE ഗോഷ്യൻ മങ്ങിക്കൽ കമ്പ്യൂട്ടർ തയ്യാറാക്കിയ ചിത്രങ്ങൾ അല്ലെങ്കിൽ നിരന്തരമായ തീവ്രത വലിയ ഭാഗങ്ങൾ ഉപയോഗിച്ച് ആ മികച്ചതായി ഉപയോഗിക്കുന്നത്.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-blur.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-blur.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-sel-gauss.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-blur.html">2.2. ഇഫക്റ്റ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-sel-gauss.html">2.4. സെലക്ടീവ് ഗോഷ്യൻ ഇഫക്റ്റ്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

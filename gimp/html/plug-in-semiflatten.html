@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>14.3. സെമി പരത്തുക</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-web.html" title="14. വെബ് ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-imagemap.html" title="14.2. ImageMap" />
+    <link rel="next" href="python-fu-slice.html" title="14.4. പൂളുക" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">14.3. സെമി പരത്തുക</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-imagemap.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">14. വെബ് ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="python-fu-slice.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-semiflatten"></a>14.3. സെമി പരത്തുക</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925528422224" class="indexterm"></a>
+      <a id="idp46925528424048" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528424960"></a>14.3.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <p>സെമി പരത്തുക ഫിൽട്ടർ സുതാര്യതയോടെ അലിയാസിങ് വിരുദ്ധ ഇൻഡെക്സ്ഡ് ചിത്രങ്ങളെ പരിഹാരം ആവശ്യക്കാരെ സഹായിക്കുന്നു. GIF ഇൻഡെക്സ്ഡ് ഫോർമാറ്റ് പൂർണ്ണമായ സുതാര്യതയും (0 അല്ലെങ്കിൽ 255 ആൽഫാ മൂല്യം) പിന്തുണയ്ക്കുന്നു, പക്ഷെ സെമി സുതാര്യത (1 - 254): സെമി സുതാര്യമായ പിക്സലുകൾ ആന്റി-അലിയാസിങ് ലോഗോയിൽ നിങ്ങൾക്ക് പ്രയോഗിച്ചു നശിപ്പിക്കുന്നു, യാതൊരു സുതാര്യതയും അല്ലെങ്കിൽ പൂർണ്ണമായ സുതാര്യതയും ലേക്ക് ഇളകിമറിയുന്ന ചെയ്യും നിങ്ങളുടെ വെബ് പേജിലേക്ക് ആഗ്രഹിക്കുന്ന.</p>
+        <p>അരിപ്പ അപേക്ഷിക്കുന്ന മുമ്പ്, അതു നിങ്ങളുടെ വെബ് പേജിന്റെ പശ്ചാത്തല നിറം അറിഞ്ഞിരിക്കണം അത്യന്താപേക്ഷിതമാണ്. പണിസഞ്ചി ഫോർഗ്രൗണ്ടിലെ നിറം മാറികിട്ടി ഏത് കൃത്യമായ നിറം നിർണ്ണയിക്കാൻ നിറം-പിക്കർ ഉപയോഗിക്കുക. വിപരീതം FG / ബി.ജി. നിറങ്ങൾ ബി.ജി കളർ വെബ് പശ്ചാത്തല നിറം തന്നെ ആണ് അങ്ങനെ.</p>
+        <p>സെമി പരത്തുക പ്രക്രിയ ആനുപാതികമായി ഇതേ ആൽഫ മൂല്യങ്ങളിൽ, (ലോഗോ) നിറം ലെയറിലേക്ക് FG നിറം സംയോജിപ്പിക്കുന്നതിനിടയാക്കും ശരിയായ സാമാജ്യത്വ അലിയാസിങ് പുനർനിർമിക്കാൻ ചെയ്യും. പൂർണ്ണമായും സുതാര്യമായ പിക്സൽ നിറം എടുക്കില്ല. വളരെ സുതാര്യമായ പിക്സൽ കുറച്ച് നിറം സമയമെടുക്കും, ലഘുവായി സുതാര്യമായ വളരെ നിറം എടുക്കും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528430000"></a>14.3.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Web</span> → <span class="guimenuitem">Semi-Flatten</span> വഴി ഇമേജ് വിൻഡോ മെനുവിലെ ഈ ഫിൽട്ടർ ആക്സസ് ചെയ്യാൻ കഴിയും. നിങ്ങളുടെ ചിത്രം ആൽഫാ ചാനൽ (<a class="xref" href="">???</a> കാണുക) താങ്ങി എങ്കിൽ അതു ലഭ്യമാണ്. അല്ലാത്തപക്ഷം, മറച്ച ആണ്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528433456"></a>14.3.3. ഉദാഹരണം</h4>
+            </div>
+          </div>
+        </div>
+        <p>ചുവടെയുള്ള ഉദാഹരണത്തിൽ, പണിസഞ്ചി പശ്ചാത്തല നിറം പിങ്ക് ആണ്, ചിത്രം സുതാര്യമായ പശ്ചാത്തലത്തിൽ അറ്റങ്ങൾ തൂവലുകളും ചെയ്തു.</p>
+        <div class="figure">
+          <a id="idp46925528434944"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.349. ഉദാഹരണത്തിന് സെമി പരത്തുക</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/BGcolor.png" alt="ഉദാഹരണത്തിന് സെമി പരത്തുക" />
+              <div class="caption">
+                <p>സജീവ പശ്ചാത്തല നിറം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/logo-semi-transp.png" alt="ഉദാഹരണത്തിന് സെമി പരത്തുക" />
+              <div class="caption">
+                <p>800% സൂം നിലയിൽ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>സുതാര്യതയോടെ സൂക്ഷിക്കുന്നതാണ്. സെമി tranparent പിക്സൽ അവരുടെ സുതാര്യത (ആൽഫാ മൂല്യം) പ്രകാരം പിങ്ക് നിറത്തിലും കാണുന്നു. ഈ ചിത്രം നന്നായി പുതിയ പേജിന്റെ പിങ്ക് പശ്ചാത്തലത്തിലേക്ക് ലയിപ്പിക്കും.</p>
+        <div class="figure">
+          <a id="idp46925528442096"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.350. സെമി പരത്തുക പ്രയോഗിച്ച ഫിൽട്ടർ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/logo-semi-flatten.png" alt="സെമി പരത്തുക പ്രയോഗിച്ച ഫിൽട്ടർ" />
+              <div class="caption">
+                <p>ഫലം, GIF ഫോർമാറ്റിൽ, സെമി-പരത്തുക അരിപ്പ പ്രയോഗിച്ച ശേഷം.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-imagemap.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-web.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="python-fu-slice.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-imagemap.html">14.2. ImageMap</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="python-fu-slice.html">14.4. പൂളുക</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>11.7. റൌണ്ട് കോർണറുകൾ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-decor.html" title="11. അലങ്കാര ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="script-fu-old-photo.html" title="11.6. പഴയ ഫോട്ടോ" />
+    <link rel="next" href="script-fu-slide.html" title="11.8. സ്ലൈഡ്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">11.7. റൌണ്ട് കോർണറുകൾ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-old-photo.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">11. അലങ്കാര ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="script-fu-slide.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-round-corners"></a>11.7. റൌണ്ട് കോർണറുകൾ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925526216672" class="indexterm"></a>
+      <a id="idp46925526218512" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925526219440"></a>11.7.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925526220208"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.233. <span class="quote">“<span class="quote">Round Corners</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="“Round Corners” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/decor-taj-round-corners.png" alt="“Round Corners” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Round Corners</span>”</span> പ്രയോഗിച്ചു</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ ഓപ്ഷണലായി ഒരു ഡ്രോപ്പ്-നിഴൽ ഒരു പശ്ചാത്തല പാളി ചേർത്ത് ഒരു രൂപത്തിന്റെ കോണിലും മത്സരക്രമം.</p>
+        <p>അരിപ്പ ആർജിബി മാത്രമാണ് പാളി അടങ്ങിയിരിക്കുന്ന ഗ്രേസ്കെയിലാക്കി ചിത്രങ്ങൾ പ്രവർത്തിക്കുന്നു. ഇത് ചിത്രത്തിന്റെ ഒരു പകർപ്പ് സൃഷ്ടിക്കുന്നു അല്ലെങ്കിൽ യഥാർത്ഥ പണി ഓപ്ഷണലായി. ഒരു പശ്ചാത്തല പാളി സൃഷ്ടിക്കാൻ നിലവിലെ പശ്ചാത്തല നിറം ഉപയോഗിക്കുന്നു.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925526229024"></a>11.7.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Decor</span> → <span class="guimenuitem">Round Corners</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925526231680"></a>11.7.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925526232432"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.234. <span class="quote">“<span class="quote">Round Corners</span>”</span> ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/decor/round-corners.png" alt="“Round Corners” ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">എഡ്ജ് ആരം</span>
+            </dt>
+            <dd>
+              <p>ഓരോ കോണിലും ഒരു സർക്കിളിന്റെ ഒരു പാദത്തിൽ തിരഞ്ഞെടുത്ത് ഈ നിരക്കു ഉൾപ്പെടുന്നില്ല പ്രദേശം നീക്കം ചെയ്ത് മികച്ചതാക്കൽ കോണിലും നടക്കുന്ന. <span class="quote">“<span class="quote">edge radius</span>”</span> നിർമിക്കുന്നതിനുള്ള സർക്കിൾ ആരം ആണ്.</p>
+              <p>താഴെ പറയുന്ന ഉദാഹരണങ്ങളിൽ, അരിപ്പ എഡ്ജ് റേഡിയസ് വ്യത്യസ്ത കൂടെ ഒരു 100x100 പിക്സൽ ഇമേജ് ചലനങ്ങളെ. ആരം = 50 നാലും quadrants വെറും യഥാർത്ഥ ചിത്രം ഔട്ട്ലൈൻ കടന്നു കൃത്യമായി ക്കുള്ളിലുള്ള വ്യാസം = 100, ഒരു സർക്കിൾ നിലകൊള്ളുന്നു. 50 വലുതായ ഒരു ആരം സാധ്യമാണ്, എന്നാൽ എന്ത് സംഭവിച്ചാലും നോക്കൂ ...</p>
+              <div class="figure">
+                <a id="idp46925526239216"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.235. എഡ്ജ് ആരം ഉദാഹരണങ്ങൾ</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/round-corners-rad15.png" alt="എഡ്ജ് ആരം ഉദാഹരണങ്ങൾ" />
+                    <div class="caption">
+                      <p>ഒരു 100x100 പിക്സൽ ചിത്രം, എഡ്ജ് റേഡിയസ്: 15 (സ്ഥിരസ്ഥിതി).</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/round-corners-rad35.png" alt="എഡ്ജ് ആരം ഉദാഹരണങ്ങൾ" />
+                    <div class="caption">
+                      <p>അഗ്രം റേഡിയസ്: 35.</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/round-corners-rad50.png" alt="എഡ്ജ് ആരം ഉദാഹരണങ്ങൾ" />
+                    <div class="caption">
+                      <p>അഗ്രം റേഡിയസ്: 50.</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/round-corners-rad65.png" alt="എഡ്ജ് ആരം ഉദാഹരണങ്ങൾ" />
+                    <div class="caption">
+                      <p>അഗ്രം ആരം: 65. ജീ!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">ഡ്രോപ്പ്-നിഴൽ ചേർക്കുക</span>
+            </dt>
+            <dd>
+              <p>ഈ ഓപ്ഷൻ എപ്പോഴാണ് ചെക്കുചെയ്തിട്ടുണ്ടെന്നും, അരിപ്പ ഇമേജ് കോണിലും റൗണ്ട് ശേഷം നിങ്ങളുടെ ഇമേജ് പിന്നിൽ നിഴൽ തള്ളിക്കളയും.</p>
+            </dd>
+            <dt>
+              <span class="term">ഷാഡോ എക്സ് / Y ഓഫ്സെറ്റ്</span>
+            </dt>
+            <dd>
+              <p>X, Y നിഴൽ ചിത്രം ബന്ധപ്പെട്ട് സ്ഥാപിക്കപ്പെടും എവിടെ നിർണ്ണയിക്കാൻ ഓഫ്സെറ്റ്. ഓഫ്സെറ്റ് പിക്സലിൽ അളക്കുന്നത്. ഉയർന്ന മൂല്യങ്ങൾ അതു ബഹുദൂരം പോലെ നിഴൽ നോക്കി, കുറഞ്ഞ മൂല്യങ്ങൾ അത് ചിത്രത്തിന്റെ ആത്മബന്ധവും ഉണ്ടാക്കാം.</p>
+              <div class="figure">
+                <a id="idp46925526255552"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.236. ഷാഡോ ഉദാഹരണങ്ങൾ ഓഫ്സെറ്റ്</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/round-corners-shadow1.png" alt="ഷാഡോ ഉദാഹരണങ്ങൾ ഓഫ്സെറ്റ്" />
+                    <div class="caption">
+                      <p>ഷാഡോ X ഓഫ്സെറ്റ്: 8, Y ഓഫ്സെറ്റ്: 8 (സ്ഥിരസ്ഥിതി).</p>
+                    </div>
+                  </div>
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/round-corners-shadow2.png" alt="ഷാഡോ ഉദാഹരണങ്ങൾ ഓഫ്സെറ്റ്" />
+                    <div class="caption">
+                      <p>ഷാഡോ X ഓഫ്സെറ്റ്: 16, Y ഓഫ്സെറ്റ്: 4.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <p>നിഴൽ ഓഫ്സെറ്റുകളുടെ അതുപോലെ മങ്ങൽ ആരം പശ്ചാത്തല ഏരിയയിൽ പരിമിതപ്പെടുത്തിയിരിക്കുന്നു ശ്രദ്ധിക്കുക.</p>
+            </dd>
+            <dt>
+              <span class="term">റേഡിയസ് മങ്ങിക്കുക</span>
+            </dt>
+            <dd>
+              <p><span class="guilabel">Add drop-shadow</span> ശരിയടയാളമിട്ടാൽ നിങ്ങൾ <a class="link" href="">Drop Shadow</a> ഫിൽറ്റർ ഉപയോഗിക്കുന്ന ഒരു മങ്ങൽ ആരം തിരഞ്ഞെടുക്കാം. ചിത്രം മങ്ങൽ റേഡിയസ് നിഴലിലും ഓഫ്സെറ്റുകളുടെ അനുസരിച്ച് ഇരു പരിമാണങ്ങൾക്കും വലുതായ ചെയ്യും.</p>
+            </dd>
+            <dt>
+              <span class="term">പശ്ചാത്തലം ചേർക്കുക</span>
+            </dt>
+            <dd>
+              <p>ഈ ഓപ്ഷന്റെ ചെയ്യുമ്പോൾ (അത് സ്ഥിരസ്ഥിതിയായി ചെക്ക്), അരിപ്പ നിലവിലെ പശ്ചാത്തല നിറം നിറഞ്ഞു, നിലവിലുള്ള താഴെയായി ഒരു പശ്ചാത്തല പാളി ചേർക്കും. ഈ പുതിയ പാളി വലിപ്പം മങ്ങൽ ആരം നിഴലിലും ഓഫ്സെറ്റുകളുടെ ആശ്രയിച്ചിരിക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">പകർപ്പിൽ ഔദ്യോഗിക</span>
+            </dt>
+            <dd>
+              <p>പരിശോധിച്ചാൽ, പ്രയോഗിച്ച ഫിൽട്ടർ അരിപ്പ ചിത്രത്തിന്റെ ഒരു പകർപ്പ് അടങ്ങുന്ന ഒരു പുതിയ വിൻഡോ സൃഷ്ടിക്കുന്നു. യഥാർത്ഥ ചിത്രം മാറ്റമില്ല.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-old-photo.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-decor.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="script-fu-slide.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-old-photo.html">11.6. പഴയ ഫോട്ടോ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="script-fu-slide.html">11.8. സ്ലൈഡ്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

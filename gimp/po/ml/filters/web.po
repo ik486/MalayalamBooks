@@ -1,0 +1,1090 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP-Help 2.8.0\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
+"PO-Revision-Date: 2012-06-01 12:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/web/slice.xml:28(None)
+msgid ""
+"@@image: 'images/filters/examples/taj_guides.jpg'; "
+"md5=5cc15e2f6cf58e6a5b03d76b8c491c2c"
+msgstr ""
+"@@image: 'images/filters/examples/taj_guides.jpg'; "
+"md5=5cc15e2f6cf58e6a5b03d76b8c491c2c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/web/slice.xml:37(None)
+msgid ""
+"@@image: 'images/filters/examples/web-taj-slice.jpg'; "
+"md5=beb13db657cb1b63ecbf57c3bf7c0b88"
+msgstr ""
+"@@image: 'images/filters/examples/web-taj-slice.jpg'; "
+"md5=beb13db657cb1b63ecbf57c3bf7c0b88"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/web/slice.xml:130(None)
+msgid ""
+"@@image: 'images/filters/web/slice.png'; md5=8629e6dc222b3fa7782458fd80b002a7"
+msgstr ""
+"@@image: 'images/filters/web/slice.png'; md5=8629e6dc222b3fa7782458fd80b002a7"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/web/slice.xml:208(None)
+msgid ""
+"@@image: 'images/filters/examples/slice-folder.png'; "
+"md5=dc4124039c29edd1ce3cbedfa162d6a2"
+msgstr ""
+"@@image: 'images/filters/examples/slice-folder.png'; "
+"md5=dc4124039c29edd1ce3cbedfa162d6a2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/web/slice.xml:233(None)
+msgid ""
+"@@image: 'images/filters/examples/slice-cellspacing.png'; "
+"md5=8568cbe7a3853f9cb87f7d6eee3f04f2"
+msgstr ""
+"@@image: 'images/filters/examples/slice-cellspacing.png'; "
+"md5=8568cbe7a3853f9cb87f7d6eee3f04f2"
+
+#: src/filters/web/slice.xml:10(title) src/filters/web/slice.xml:15(tertiary)
+#: src/filters/web/slice.xml:18(primary)
+msgid "Slice"
+msgstr ""
+"പൂളുക"
+
+#: src/filters/web/slice.xml:13(primary)
+#: src/filters/web/semiflatten.xml:16(primary)
+#: src/filters/web/imagemap.xml:18(primary)
+msgid "Filters"
+msgstr ""
+"ഫിൽട്ടറുകൾ"
+
+#: src/filters/web/slice.xml:14(secondary)
+#: src/filters/web/semiflatten.xml:17(secondary)
+#: src/filters/web/imagemap.xml:19(secondary)
+msgid "Web"
+msgstr ""
+"വെബ്"
+
+#: src/filters/web/slice.xml:22(title)
+#: src/filters/web/semiflatten.xml:25(title)
+#: src/filters/web/imagemap.xml:37(title)
+msgid "Overview"
+msgstr ""
+"പൊതു അവലോകനം"
+
+#: src/filters/web/slice.xml:24(title)
+msgid "Example for the <quote>Slice</quote> filter"
+msgstr ""
+"<quote>Slice</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/web/slice.xml:31(para)
+msgid "Original image with guides"
+msgstr ""
+"ഗൈഡുകൾ യഥാർത്ഥ ചിത്രം"
+
+#: src/filters/web/slice.xml:40(para)
+msgid "<quote>Slice</quote> applied"
+msgstr ""
+"<quote>Slice</quote> പ്രയോഗിച്ചു"
+
+#: src/filters/web/slice.xml:44(para)
+msgid ""
+"This filter is a simple and easy to use helper for creating sensitive images "
+"to be used in HTML files. The filter slices up the source image (like the "
+"<link linkend=\"plug-in-guillotine\">Guillotine</link> command does) along "
+"its horizontal and vertical guides, and produces a set of sub-images. At the "
+"same time it creates a piece of HTML code for a table saved in a text file. "
+"Every table cell contains one part of the image. The text file should then "
+"be embedded in an HTML document."
+msgstr ""
+"ഈ ഫിൽട്ടർ ഒരു ലളിതമായ HTML ഫയലുകൾ ഉപയോഗിക്കുന്ന സെൻസിറ്റീവ് ചിത്രങ്ങൾ സൃഷ്"
+"ടിക്കാൻ സഹായി ഉപയോഗിക്കാൻ എളുപ്പമാണ്. ഫിൽട്ടർ കഷണങ്ങൾ അപ്പ് സോഴ്സ് ചിത്രം"
+" (<link linkend=\"plug-in-guillotine\">Guillotine</link> കമാൻഡ് പോലെ ൻ) അത"
+"ിന്റെ തിരശ്ചീന, ലംബ ഗൈഡുകൾ സഹിതം, ഉപ-ഒരു കൂട്ടം ചിത്രങ്ങൾ ഉത്പാദിപ്പിക്കുന്"
+"നത്. ഇതേസമയം ഇത് ഒരു ടെക്സ്റ്റ് ഫയലിൽ സംരക്ഷിച്ചു ഒരു മേശ HTML കോഡ് ഒരു കഷ"
+"ണം സൃഷ്ടിക്കുന്നു. ഓരോ പട്ടിക സെൽ ചിത്രം ഒരു ഭാഗത്ത് അടങ്ങിയിരിക്കുന്നു. ട"
+"െക്സ്റ്റ് ഫയൽ പിന്നീട് ഒരു HTML പ്രമാണം ഉൾച്ചേർക്കണോ."
+
+#: src/filters/web/slice.xml:53(para)
+msgid ""
+"Note that this filter is really a very simple helper. A typical HTML code "
+"produced by the filter may be not much more than this:"
+msgstr ""
+"ഈ ഫിൽട്ടർ ശരിക്കും വളരെ ലളിതമായ തുണ ശ്രദ്ധിക്കുക. അരിപ്പ നിർമ്മിക്കുന്ന ഒരു"
+" സാധാരണ HTML കോഡ് അതിനെക്കാൾ എത്ര അധികം ആയിരിക്കാം:"
+
+#: src/filters/web/slice.xml:58(title)
+msgid "Simple <quote>Slice</quote> filter example output"
+msgstr ""
+"ലളിതമായ <quote>Slice</quote> ഫിൽട്ടർ ഉദാഹരണം ഔട്ട്പുട്ട്"
+
+#: src/filters/web/slice.xml:94(para)
+msgid ""
+"Produced HTML code; the <quote>style</quote> attribute has been omitted."
+msgstr ""
+"നിർമ്മാണം HTML കോഡ്; <quote>style</quote> ആട്രിബ്യൂട്ട് ഒഴിവാക്കിയുള്ള ചെയ"
+"്തു."
+
+#: src/filters/web/slice.xml:99(para)
+msgid ""
+"When there are no guides in the image, the filter will no nothing. If, "
+"however, the guides are just hidden, the filter will work."
+msgstr ""
+"ചിത്രം യാതൊരു ഗൈഡുകൾ അവിടെ തന്നെ അരിപ്പ ഒന്നും NO ചെയ്യും. എന്നാൽ, വഴികാട്"
+"ടികൾ വെറും മറച്ചിരിക്കുന്നു, അരിപ്പ പ്രവർത്തിക്കും."
+
+#: src/filters/web/slice.xml:104(para)
+msgid ""
+"The <link linkend=\"plug-in-imagemap\">ImageMap</link> filter is a much more "
+"powerful and sophisticated tool for creating sensitive images. (But it is "
+"also much more complex...)"
+msgstr ""
+"<link linkend=\"plug-in-imagemap\">ImageMap</link> അരിപ്പ സെൻസിറ്റീവ് ചിത്ര"
+"ങ്ങൾ സൃഷ്ടിക്കാൻ കൂടുതൽ ശക്തമാക്കുന്നു പ്രഗല്ഭവുമായ ഉപകരണമാണ്. (ഇത് വളരെ കൂ"
+"ടുതൽ സങ്കീർണമാണ് ...)"
+
+#: src/filters/web/slice.xml:113(title)
+#: src/filters/web/semiflatten.xml:52(title)
+#: src/filters/web/imagemap.xml:55(title)
+msgid "Activate the filter"
+msgstr ""
+"ഫിൽട്ടർ സജീവമാക്കുക"
+
+#: src/filters/web/slice.xml:114(para)
+msgid ""
+"This filter is found in the image window menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Web</"
+"guisubmenu><guimenuitem>Slice</guimenuitem></menuchoice>."
+msgstr ""
+"ഈ ഫിൽട്ടർ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Web</guisubmenu"
+"><guimenuitem>Slice</guimenuitem></menuchoice> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ "
+"കാണപ്പെടുന്നത്."
+
+#: src/filters/web/slice.xml:125(title)
+#: src/filters/web/imagemap.xml:100(title)
+msgid "Options"
+msgstr ""
+"ഓപ്ഷനുകൾ"
+
+#: src/filters/web/slice.xml:127(title)
+msgid "<quote>Slice</quote> options"
+msgstr ""
+"<quote>Slice</quote> ഓപ്ഷനുകൾ"
+
+#: src/filters/web/slice.xml:135(para)
+msgid "Most options are self-explanatory, but nevertheless:"
+msgstr ""
+"ഏറ്റവും ഓപ്ഷനുകൾ സ്വയം വിശദീകരിക്കുന്ന, എന്നാൽ എങ്കിലും:"
+
+#: src/filters/web/slice.xml:139(term)
+msgid "Path for HTML export"
+msgstr ""
+"എച്ച്ടിഎംഎൽ കയറ്റുമതി പാത"
+
+#: src/filters/web/slice.xml:141(para)
+msgid ""
+"Where the HTML file and the image files will be saved. By default these "
+"files will be stored in the current working directory. Clicking on the "
+"button to the right opens a pull-down menu, where you can select a different "
+"location."
+msgstr ""
+"എവിടെ HTML ഫയലിൽ ചിത്ര ഫയലുകളിൽ സംരക്ഷിക്കും. സ്വതവേ ഈ ഫയലുകൾ ഇപ്പോൾ പ്രവർ"
+"ത്തിക്കുന്ന ഡയറക്ടറിയിൽ സംഭരിക്കും. വലതുവശത്ത് ബട്ടൺ ക്ലിക്കുചെയ്താൽ മറ്റൊ"
+"രു ലൊക്കേഷൻ തിരഞ്ഞെടുക്കുക കഴിയുന്ന ഒരു പുൾ-ഡൌൺ മെനു തുറക്കുന്നു."
+
+#: src/filters/web/slice.xml:150(term)
+msgid "Filename for export"
+msgstr ""
+"കയറ്റുമതി ഫയലിന്റെ"
+
+#: src/filters/web/slice.xml:152(para)
+msgid ""
+"The name of the HTML file. You can change the filename using the textbox."
+msgstr ""
+"HTML ഫയലിൽ പേര്. നിങ്ങൾ ടെക്സ്റ്റ്ബോക്സ് ഉപയോഗിച്ച് ഫയൽനാമം മാറ്റാൻ കഴിയു"
+"ം."
+
+#: src/filters/web/slice.xml:159(term)
+msgid "Image name prefix"
+msgstr ""
+"ചിത്രത്തിന്റെ പേര് പ്രിഫിക്സ്"
+
+#: src/filters/web/slice.xml:161(para)
+msgid ""
+"The name of an image file produced by this filter is <filename>prefix_i_k."
+"ext</filename>, where <filename>prefix</filename> is that part of the "
+"filename which you can freely select using the textbox to the right, by "
+"default: <filename>slice</filename>. (<filename>i</filename> and "
+"<filename>k</filename> are the numbers of the row and the column, each "
+"starting with 0; <filename class=\"extension\">.ext</filename> is the "
+"filename extension depending on the selected <guilabel>Image format</"
+"guilabel>.)"
+msgstr ""
+"<filename>slice</filename>: ഈ ഫിൽട്ടർ നിർമ്മിക്കുന്ന ഒരു ഇമേജ് ഫയലിന്റെ പേര"
+"് <filename>prefix_i_k. ext</filename>, <filename>prefix</filename> നിങ്ങൾ "
+"സ്വതന്ത്രമായി സ്വതവേ, വലതുവശത്ത് ടെക്സ്റ്റ്ബോക്സ് ഉപയോഗിച്ച് തെരഞ്ഞെടുക്ക"
+"ാൻ സാധ്യമാകുന്ന ഹലോ ആ ഭാഗമാണ് എവിടെ. (<filename>i</filename> ആൻഡ് <filenam"
+"e>k</filename> വരി നമ്പറുകളും കോളം, ഓരോ 0 തുടങ്ങുന്ന ആകുന്നു; <filename c"
+"lass=\"extension\">.ext</filename> തിരഞ്ഞെടുത്ത <guilabel>Image&#160;format"
+"</guilabel> അനുസരിച്ച് എക്റ്റെൻഷനുള്ള ആണ്.)"
+
+#: src/filters/web/slice.xml:173(para)
+msgid ""
+"This option is particularly useful when you want to create "
+"<guilabel>Javascript for onmouseover and clicked</guilabel> and need "
+"different sets of images."
+msgstr ""
+"നിങ്ങൾ <guilabel>Javascript for onmouseover and clicked</guilabel> സൃഷ്ടിക്"
+"കുന്നതിനും ചിത്രങ്ങൾ വിവിധ സെറ്റുകൾ ആവശ്യമാണ് ഈ ഓപ്ഷൻ ഉപയോഗപ്പെടുന്നു."
+
+#: src/filters/web/slice.xml:181(term)
+msgid "Image format"
+msgstr ""
+"ചിത്രം ഫോർമാറ്റ്"
+
+#: src/filters/web/slice.xml:183(para)
+msgid ""
+"You can choose to create image files in the <link linkend=\"glossary-gif"
+"\">GIF</link>, <link linkend=\"glossary-jpeg\">JPG</link>, or <link linkend="
+"\"glossary-png\">PNG</link><link linkend=\"glossary-fileformat"
+"\">file format</link>."
+msgstr ""
+"നിങ്ങൾ <link linkend=\"glossary-gif \">GIF</link>, <link linkend=\"glossary"
+"-jpeg\">JPG</link>, അല്ലെങ്കിൽ <link linkend=\"glossary-png\">PNG</link> <l"
+"ink linkend=\"glossary-fileformat \">file&#160;format</link> ഇമേജ് ഫയലുകൾ സ"
+"ൃഷ്ടിക്കാൻ തിരഞ്ഞെടുക്കാം."
+
+#: src/filters/web/slice.xml:193(term)
+msgid "Separate image folder"
+msgstr ""
+"പ്രത്യേക ഇമേജ് ഫോൾഡർ"
+
+#: src/filters/web/slice.xml:194(term)
+msgid "Folder for image export"
+msgstr ""
+"ചിത്രം കയറ്റുമതി ഫോൾഡർ"
+
+#: src/filters/web/slice.xml:196(para)
+msgid ""
+"When <guilabel>Separate image folder</guilabel> is enabled, a folder will be "
+"created where the image files will be placed. By default, the name of this "
+"destination folder is <filename class=\"directory\">images</filename>, but "
+"you can change it in the <guilabel>Folder for image export</guilabel> "
+"textbox."
+msgstr ""
+"<guilabel>Separate image folder</guilabel> പ്രാപ്തമാക്കി, ചിത്രം ഫയലുകൾ സ്ഥ"
+"ാപിക്കപ്പെടും അവിടെ ഒരു ഫോൾഡർ സൃഷ്ടിക്കപ്പെടും. സ്വതവേ, ഈ ഡെസ്റ്റിനേഷൻ ഫോ"
+"ൾഡർ പേര് <filename class=\"directory\">images</filename>, നിങ്ങളിൽ <guilabe"
+"l>Folder for image export</guilabel> ടെക്സ്റ്റ്ബോക്സ് ഇത് മാറ്റാം."
+
+#: src/filters/web/slice.xml:204(title)
+msgid "With separate image folder"
+msgstr ""
+"പ്രത്യേക ഇമേജ് ഫോൾഡറിൽ"
+
+#: src/filters/web/slice.xml:211(para)
+msgid "Result of enabled <quote>Separate image folder</quote>"
+msgstr ""
+"പ്രാപ്തമാക്കിയ <quote>Separate image folder</quote> ഫലം"
+
+#: src/filters/web/slice.xml:220(term) src/filters/web/slice.xml:229(title)
+msgid "Space between table elements"
+msgstr ""
+"മേശ ഘടകങ്ങൾ തമ്മിലുള്ള സ്പെയ്സ്"
+
+#: src/filters/web/slice.xml:222(para)
+msgid ""
+"This value (0-15) will be passed as <quote>cellspacing</quote> attribute to "
+"the HTML table. The result is, that horizontal and vertical guides will be "
+"replaced with stripes of the specified width:"
+msgstr ""
+"ഈ വില (0-15) HTML പട്ടിക ലേക്ക് <quote>cellspacing</quote> ആട്രിബ്യൂട്ട് പാ"
+"സുചെയ്യും. ഫലം തിരശ്ചീന, ലംബ വഴികാട്ടികളേ വ്യക്തമാക്കിയ വീതി അടി മാറ്റിസ്ഥാ"
+"പിക്കും എന്നു ആകുന്നു"
+
+#: src/filters/web/slice.xml:236(para)
+msgid "Corresponding HTML code snippet"
+msgstr ""
+"പൊരുത്തപ്പെടുന്ന HTML കോഡ് സ്നിപ്പറ്റ്"
+
+#: src/filters/web/slice.xml:240(para)
+msgid ""
+"Note that the image will not be enlarged by the size of these stripes. "
+"Instead, the resulting HTML image will look like you have drawn the stripes "
+"with the Eraser tool."
+msgstr ""
+"ചിത്രം ഈ അടിക്കു വലിപ്പം വലുതായ ചെയ്യില്ല ശ്രദ്ധിക്കുക. പകരം, ഇറേസർ ടൂൾ ഉപയ"
+"ോഗിച്ച് തല്ലും വരച്ചു പോലെ ഫലമായുണ്ടാകുന്ന എച്ച്ടിഎംഎൽ ചിത്രം കാണപ്പെടും."
+
+#: src/filters/web/slice.xml:248(term)
+msgid "Javascript for onmouseover and clicked"
+msgstr ""
+"onmouseover ജാവാ സ്ക്രിപ്റ്റ് ക്ലിക്കുചെയ്തെന്നുമുള്ളവ"
+
+#: src/filters/web/slice.xml:250(para)
+msgid ""
+"When this option is enabled, the filter will also add some JavaScript code. "
+"Like the HTML code, this code does not work as is, rather it's a good "
+"starting point for adding some dynamic functionality. The JavaScript code "
+"provides a function to handle events like <quote>onmouseover</quote>:"
+msgstr ""
+"ഈ പ്രയോഗം പ്രവർത്തന, അരിപ്പ ചില JavaScript കോഡ് ചേർക്കും. HTML കോഡ് തോന"
+"്നുന്നു, ഈ കോഡ് മറിച്ച് ചില ചലനാത്മക പ്രവർത്തനക്ഷമത ചേർത്ത് ഒരു നല്ല ആരംഭസ"
+"്ഥാനം, അതേ പടി പ്രവർത്തിക്കുന്നില്ല. JavaScript കോഡ് <quote>onmouseover</q"
+"uote> പോലുള്ള ഇവന്റുകൾ കൈകാര്യം ഒരു ചടങ്ങിൽ ലഭ്യമാക്കുന്നു:"
+
+#: src/filters/web/slice.xml:258(title)
+msgid "JavaScript code snippet"
+msgstr ""
+"JavaScript കോഡ് സ്നിപ്പെറ്റ്"
+
+#: src/filters/web/slice.xml:286(term)
+msgid "Skip animation for table caps"
+msgstr ""
+"മേശ ക്യാപ്സ് വേണ്ടി ആനിമേഷൻ ഒഴിവാക്കുക"
+
+#: src/filters/web/slice.xml:288(para)
+msgid ""
+"When disabled, the filter will add a <code language=\"HTML\">&lt;a href=\"#"
+"\"&gt; ... &lt;/a&gt;</code> hyperlink stub to every table cell. When "
+"enabled (this is the default) and there are at least two horizontal or two "
+"vertical guides, the filter will not add a hyperlink stub to the first and "
+"last cell in a column or row. This may be useful when you have an image with "
+"border and you don't want to make the border sensitive."
+msgstr ""
+"പ്രവർത്തനരഹിതമാക്കുമ്പോൾ, അരിപ്പ ഓരോ പട്ടിക സെൽ ഒരു <code language=\"HTML"
+"\">&lt;a&#160;href=\"# \"&gt;&#160;...&#160;&lt;/a&gt;</code> ഹൈപ്പർലിങ്ക് "
+"സ്റ്റബ് ചേർക്കും. പ്രാപ്തമായിരിക്കുമ്പോൾ (ഈ സ്വതവേ), കുറഞ്ഞത് രണ്ടു ലംബമായ"
+" തിരശ്ചീനമായി രണ്ടു ഗൈഡുകൾ ഉണ്ട്, അരിപ്പ ഒരു നിര അല്ലെങ്കിൽ വരി ആദ്യ, അവസാന"
+" സെൽ ഹൈപ്പർലിങ്ക് അപൂർണ്ണമാണ് ചേർക്കില്ല. നിങ്ങൾ അതിർനാടും ചിത്രം ഉണ്ടെങ്കി"
+"ൽ നിങ്ങൾ അതിർത്തി സെൻസിറ്റീവ് വരുത്തുവാൻ ആവശ്യമില്ലാത്തപ്പോൾ ഈ ക്രമീകരണം സ"
+"ഹായിക്കും."
+
+#: src/filters/web/slice.xml:298(title)
+msgid "Skipped animation for table caps (simplified HTML code)"
+msgstr ""
+"മേശ ദിനന്തോറും (ലഘൂകരിച്ച HTML കോഡ്) വേണ്ടി ആനിമേഷൻ ഒഴിവാക്കപ്പെടും"
+
+#: src/filters/web/slice.xml:323(para)
+msgid "Only inner cells have (empty) hyperlinks."
+msgstr ""
+"അകത്തെ സെല്ലുകളെ (ശൂന്യം) ഹൈപ്പർലിങ്കുകൾ ഞങ്ങൾക്കുണ്ട്."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/web/semiflatten.xml:76(None)
+msgid ""
+"@@image: 'images/filters/examples/BGcolor.png'; "
+"md5=1077d10cca3a3da7c4c802db52c003c3"
+msgstr ""
+"@@image: 'images/filters/examples/BGcolor.png'; "
+"md5=1077d10cca3a3da7c4c802db52c003c3"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/web/semiflatten.xml:85(None)
+msgid ""
+"@@image: 'images/filters/examples/logo-semi-transp.png'; "
+"md5=62ce09ee7fbfefee6e425c7caf765b03"
+msgstr ""
+"@@image: 'images/filters/examples/logo-semi-transp.png'; "
+"md5=62ce09ee7fbfefee6e425c7caf765b03"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/web/semiflatten.xml:102(None)
+msgid ""
+"@@image: 'images/filters/examples/logo-semi-flatten.png'; "
+"md5=28544a262be300ef4a0cdfda63dc693d"
+msgstr ""
+"@@image: 'images/filters/examples/logo-semi-flatten.png'; "
+"md5=28544a262be300ef4a0cdfda63dc693d"
+
+#: src/filters/web/semiflatten.xml:13(title)
+#: src/filters/web/semiflatten.xml:18(tertiary)
+#: src/filters/web/semiflatten.xml:21(primary)
+msgid "Semi-Flatten"
+msgstr ""
+"സെമി പരത്തുക"
+
+#: src/filters/web/semiflatten.xml:26(para)
+msgid ""
+"The Semi-flatten filter helps those in need of a solution to anti-aliasing "
+"indexed images with transparency. The GIF indexed format supports complete "
+"transparency (0 or 255 alpha value), but not semi-transparency (1 - 254): "
+"semi-transparent pixels will be transformed to no transparency or complete "
+"transparency, ruining anti-aliasing you applied to the logo you want to put "
+"onto your Web page."
+msgstr ""
+"സെമി പരത്തുക ഫിൽട്ടർ സുതാര്യതയോടെ അലിയാസിങ് വിരുദ്ധ ഇൻഡെക്സ്ഡ് ചിത്രങ്ങളെ "
+"പരിഹാരം ആവശ്യക്കാരെ സഹായിക്കുന്നു. GIF ഇൻഡെക്സ്ഡ് ഫോർമാറ്റ് പൂർണ്ണമായ സുതാ"
+"ര്യതയും (0 അല്ലെങ്കിൽ 255 ആൽഫാ മൂല്യം) പിന്തുണയ്ക്കുന്നു, പക്ഷെ സെമി സുതാര്"
+"യത (1 - 254): സെമി സുതാര്യമായ പിക്സലുകൾ ആന്റി-അലിയാസിങ് ലോഗോയിൽ നിങ്ങൾക്ക"
+"് പ്രയോഗിച്ചു നശിപ്പിക്കുന്നു, യാതൊരു സുതാര്യതയും അല്ലെങ്കിൽ പൂർണ്ണമായ സു"
+"താര്യതയും ലേക്ക് ഇളകിമറിയുന്ന ചെയ്യും നിങ്ങളുടെ വെബ് പേജിലേക്ക് ആഗ്രഹിക്കുന"
+"്ന."
+
+#: src/filters/web/semiflatten.xml:35(para)
+msgid ""
+"Before applying the filter, it's essential that you should know the "
+"background color of your Web page. Use the color-picker to determine the "
+"exact color which pops up as the Foreground color of the Toolbox. Invert FG/"
+"BG colors so that BG color is the same as Web background color."
+msgstr ""
+"അരിപ്പ അപേക്ഷിക്കുന്ന മുമ്പ്, അതു നിങ്ങളുടെ വെബ് പേജിന്റെ പശ്ചാത്തല നിറം അറ"
+"ിഞ്ഞിരിക്കണം അത്യന്താപേക്ഷിതമാണ്. പണിസഞ്ചി ഫോർഗ്രൗണ്ടിലെ നിറം മാറികിട്ടി ഏ"
+"ത് കൃത്യമായ നിറം നിർണ്ണയിക്കാൻ നിറം-പിക്കർ ഉപയോഗിക്കുക. വിപരീതം FG / ബി.ജി"
+". നിറങ്ങൾ ബി.ജി കളർ വെബ് പശ്ചാത്തല നിറം തന്നെ ആണ് അങ്ങനെ."
+
+#: src/filters/web/semiflatten.xml:42(para)
+msgid ""
+"Semi-flatten process will combine FG color to layer (logo) color, "
+"proportionally to corresponding alpha values, and will rebuild correct anti-"
+"aliasing. Completely transparent pixels will not take the color. Very "
+"transparent pixels will take a few color and weakly transparent will take "
+"much color."
+msgstr ""
+"സെമി പരത്തുക പ്രക്രിയ ആനുപാതികമായി ഇതേ ആൽഫ മൂല്യങ്ങളിൽ, (ലോഗോ) നിറം ലെയറി"
+"ലേക്ക് FG നിറം സംയോജിപ്പിക്കുന്നതിനിടയാക്കും ശരിയായ സാമാജ്യത്വ അലിയാസിങ് പ"
+"ുനർനിർമിക്കാൻ ചെയ്യും. പൂർണ്ണമായും സുതാര്യമായ പിക്സൽ നിറം എടുക്കില്ല. വളരെ "
+"സുതാര്യമായ പിക്സൽ കുറച്ച് നിറം സമയമെടുക്കും, ലഘുവായി സുതാര്യമായ വളരെ നിറം എ"
+"ടുക്കും."
+
+#: src/filters/web/semiflatten.xml:53(para)
+msgid ""
+"You can access this filter in the image window menu through "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Web</"
+"guisubmenu><guimenuitem>Semi-Flatten</guimenuitem></menuchoice>. It is "
+"available if your image holds an Alpha channel (see <xref linkend=\"gimp-"
+"layer-alpha-add\"/>). Otherwise, it is greyed out."
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Web</guisubmenu><g"
+"uimenuitem>Semi-Flatten</guimenuitem></menuchoice> വഴി ഇമേജ് വിൻഡോ മെനുവില"
+"െ ഈ ഫിൽട്ടർ ആക്സസ് ചെയ്യാൻ കഴിയും. നിങ്ങളുടെ ചിത്രം ആൽഫാ ചാനൽ (<xref linken"
+"d=\"gimp- layer-alpha-add\" /> കാണുക) താങ്ങി എങ്കിൽ അതു ലഭ്യമാണ്. അല്ലാത്തപ"
+"ക്ഷം, മറച്ച ആണ്."
+
+#: src/filters/web/semiflatten.xml:67(title)
+msgid "Example"
+msgstr ""
+"ഉദാഹരണം"
+
+#: src/filters/web/semiflatten.xml:68(para)
+msgid ""
+"In the example below, the Toolbox Background color is pink, and the image "
+"has feathered edges on a transparent background."
+msgstr ""
+"ചുവടെയുള്ള ഉദാഹരണത്തിൽ, പണിസഞ്ചി പശ്ചാത്തല നിറം പിങ്ക് ആണ്, ചിത്രം സുതാര്യമ"
+"ായ പശ്ചാത്തലത്തിൽ അറ്റങ്ങൾ തൂവലുകളും ചെയ്തു."
+
+#: src/filters/web/semiflatten.xml:73(title)
+msgid "Semi-Flatten example"
+msgstr ""
+"ഉദാഹരണത്തിന് സെമി പരത്തുക"
+
+#: src/filters/web/semiflatten.xml:79(para)
+msgid "Active background color"
+msgstr ""
+"സജീവ പശ്ചാത്തല നിറം"
+
+#: src/filters/web/semiflatten.xml:88(para)
+msgid "At 800% zoom level"
+msgstr ""
+"800% സൂം നിലയിൽ"
+
+#: src/filters/web/semiflatten.xml:92(para)
+msgid ""
+"Full transparency is kept. Semi-tranparent pixels are colored with pink "
+"according to their transparency (Alpha value). This image will well merge "
+"into the pink background of the new page."
+msgstr ""
+"സുതാര്യതയോടെ സൂക്ഷിക്കുന്നതാണ്. സെമി tranparent പിക്സൽ അവരുടെ സുതാര്യത (ആൽ"
+"ഫാ മൂല്യം) പ്രകാരം പിങ്ക് നിറത്തിലും കാണുന്നു. ഈ ചിത്രം നന്നായി പുതിയ പേജിന"
+"്റെ പിങ്ക് പശ്ചാത്തലത്തിലേക്ക് ലയിപ്പിക്കും."
+
+#: src/filters/web/semiflatten.xml:98(title)
+msgid "Semi-Flatten filter applied"
+msgstr ""
+"സെമി പരത്തുക പ്രയോഗിച്ച ഫിൽട്ടർ"
+
+#: src/filters/web/semiflatten.xml:105(para)
+msgid "Result, in GIF format, after applying Semi-flatten filter."
+msgstr ""
+"ഫലം, GIF ഫോർമാറ്റിൽ, സെമി-പരത്തുക അരിപ്പ പ്രയോഗിച്ച ശേഷം."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/web/imagemap.xml:106(None)
+msgid ""
+"@@image: 'images/filters/web/imagemap.png'; "
+"md5=a9a2fd16d5f6b780c9c26f0b3f1b7fd6"
+msgstr ""
+"@@image: 'images/filters/web/imagemap.png'; "
+"md5=a9a2fd16d5f6b780c9c26f0b3f1b7fd6"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/web/imagemap.xml:173(None)
+msgid ""
+"@@image: 'images/filters/web/imagemap-area.png'; "
+"md5=e3d9dc3f816836b2210f3fc05953cdc6"
+msgstr ""
+"@@image: 'images/filters/web/imagemap-area.png'; "
+"md5=e3d9dc3f816836b2210f3fc05953cdc6"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/web/imagemap.xml:270(None)
+msgid ""
+"@@image: 'images/filters/web/imagemap-info.png'; "
+"md5=9ba9496833b57fb19bfc7ea6026f51a7"
+msgstr ""
+"@@image: 'images/filters/web/imagemap-info.png'; "
+"md5=9ba9496833b57fb19bfc7ea6026f51a7"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/web/imagemap.xml:304(None)
+msgid ""
+"@@image: 'images/filters/web/imagemap-grid.png'; "
+"md5=38e4dc57f83b5f8e210b471f8f831c80"
+msgstr ""
+"@@image: 'images/filters/web/imagemap-grid.png'; "
+"md5=38e4dc57f83b5f8e210b471f8f831c80"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/web/imagemap.xml:334(None)
+msgid ""
+"@@image: 'images/filters/web/imagemap-guides-options.png'; "
+"md5=5be977d592696fee8285e9abe77896c9"
+msgstr ""
+"@@image: 'images/filters/web/imagemap-guides-options.png'; "
+"md5=5be977d592696fee8285e9abe77896c9"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/web/imagemap.xml:388(None)
+msgid ""
+"@@image: 'images/filters/web/imagemap-draw.png'; "
+"md5=1430dcf0788f13157c48ca71c5b44a84"
+msgstr ""
+"@@image: 'images/filters/web/imagemap-draw.png'; "
+"md5=1430dcf0788f13157c48ca71c5b44a84"
+
+#: src/filters/web/imagemap.xml:15(title)
+#: src/filters/web/imagemap.xml:23(primary)
+msgid "ImageMap"
+msgstr "ImageMap"
+
+#: src/filters/web/imagemap.xml:20(tertiary)
+msgid "Clickable image"
+msgstr ""
+"ക്ലിക്കുചെയ്യാനാകുന്ന ചിത്രം"
+
+#: src/filters/web/imagemap.xml:26(para)
+msgid ""
+"In Web sensitive images are frequently used to get some effects when defined "
+"areas are enabled by the pointer. Obviously the most used effect is a "
+"dynamic link to another web page when one of the sensitive areas is clicked "
+"on. This <quote>filter</quote> allows you to design easily sensitive areas "
+"within an image. Web site design softwares have this as a standard function. "
+"In <acronym>GIMP</acronym> you can do this in a similar way."
+msgstr ""
+"വെബ് സെൻസിറ്റീവ് ചിത്രങ്ങൾ പതിവായി നിർവചിക്കപ്പെട്ട പ്രദേശങ്ങൾ മിനാരങ്ങൾ പ്"
+"രാപ്തമാക്കി ചില ഇഫക്റ്റുകൾ നേടുകയും ഉപയോഗിക്കുന്നു. വ്യക്തമായും ഏറ്റവും ഉപ"
+"യോഗിച്ച പ്രഭാവം സെൻസിറ്റീവ് പ്രദേശങ്ങൾ ഒന്ന് ക്ലിക്കുചെയ്യപ്പെടുമ്പോൾ മറ്"
+"റൊരു വെബ് പേജ് ഒരു ഡൈനമിക് ലിങ്ക് ആണ്. ഈ <quote>filter</quote> ഒരു ചിത്രം "
+"എളുപ്പത്തിൽ സെൻസിറ്റീവ് പ്രദേശങ്ങൾ രൂപകൽപ്പന അനുവദിക്കുന്നു. വെബ് സൈറ്റ് ഡി"
+"സൈൻ സോഫ്റ്റ്വെയറുകൾ ഒരു സാധാരണ ചടങ്ങിൽ ഈ ഞങ്ങൾക്കുണ്ട്. <acronym>GIMP</acr"
+"onym> നിങ്ങൾ സമാന രീതിയിൽ ചെയ്യാൻ കഴിയും."
+
+#: src/filters/web/imagemap.xml:38(para)
+msgid ""
+"This plug-in lets you design graphically and friendly all areas you want to "
+"delimit over your displayed image. You get the relevant part of html tags "
+"that must be merged into the right place in your page html code. You can "
+"define some actions linked to these areas too."
+msgstr ""
+"ഈ പ്ലഗ്-ഇൻ നിങ്ങളെ ഗ്രാഫിക് രൂപകൽപ്പനയും ഫ്രണ്ട്ലി നിങ്ങളുടെ പ്രദർശിപ്പിച്ച"
+" ചിത്രം മേൽ delimit ആഗ്രഹിക്കുന്ന എല്ലാ പ്രദേശങ്ങൾ അനുവദിക്കുന്നു. നിങ്ങളുട"
+"െ പേജ് HTML കോഡ് ന്യായമോ സ്ഥലത്തു ലയിപ്പിക്കും ചെയ്തിരിയ്ക്കണം HTML ടാഗുക"
+"ൾ പ്രസക്തമായ ഭാഗം നേടുക. നിങ്ങൾ വളരെ ഈ പ്രദേശങ്ങളിൽ ലിങ്കുചെയ്തിരിക്കുന്ന ച"
+"ില പ്രവർത്തനങ്ങൾ നിർവചിക്കാനാകും."
+
+#: src/filters/web/imagemap.xml:44(para)
+msgid ""
+"This is a complex tool which is not completely described here (it works "
+"about like Web page makers offering this function). However we want to "
+"describe here some of the most current handlings. If you want, you can find "
+"a more complete descriptions in Grokking the GIMP with the link <xref "
+"linkend=\"bibliography-online-grokking-gimp-imagemap\"/>."
+msgstr ""
+"ഈ പൂർണ്ണമായും ഇവിടെ വിവരിച്ച ചെയ്യപ്പെടാത്ത (ഈ ഫംഗ്ഷൻ വാഗ്ദാനം വെബ് പേജ് പേ"
+"ാലെ ഏകദേശം പ്രവർത്തിക്കുന്നു) ഒരു സങ്കീർണ്ണമായ ഉപകരണമാണ്. എന്നിരുന്നാലും നാ"
+"ം ഇവിടെ ഏറ്റവും നിലവിലെ handlings ചില വിശദീകരിക്കാൻ ആഗ്രഹിക്കുന്നുവെങ്കിൽ. "
+"നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, എന്ന <xref linkend=\"bibliography-online-gr"
+"okking-gimp-imagemap\" /> കൂടെ ജിമില Grokking ഒരു പൂര്ണ്ണ വിവരണങ്ങൾ കണ്ടെത്"
+"താം."
+
+#: src/filters/web/imagemap.xml:56(para)
+msgid ""
+"From an image window, you can find this filter through "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Web</"
+"guisubmenu><guimenuitem>ImageMap</guimenuitem></menuchoice>"
+msgstr ""
+"ഒരു ഇമേജ് വിൻഡോയിൽ നിന്നും, നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><"
+"guisubmenu>Web</guisubmenu><guimenuitem>ImageMap</guimenuitem></menuchoice>"
+" മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താനാകും"
+
+#: src/filters/web/imagemap.xml:64(para)
+msgid ""
+"The window is a small one, but you can magnify it. The main useful areas are:"
+msgstr ""
+"വിൻഡോ ഒരു ചെറിയ ഒന്നാണ്, നിങ്ങൾ അതു മഹത്വപ്പെടുത്തുകയും കഴിയും. പ്രധാന ഉപയ"
+"ോഗപ്രദമായ പ്രദേശങ്ങൾ ഇവയാണ്:"
+
+#: src/filters/web/imagemap.xml:70(para)
+msgid ""
+"completely on the left are vertically displayed icons, one for pointing, "
+"three for calling tools to generate various shape areas, one to edit zone "
+"properties, and finally one to erase a selected zone; you can call these "
+"functions with the Mapping menu,"
+msgstr ""
+"പൂർണ്ണമായും ഇടതുവശത്ത് ലംബമായി ഒറ്റ മേഖല ഉള്ള എഡിറ്റുചെയ്യാൻ, ഒടുവിൽ ഒരുത്ത"
+"ൻ ഒരു തിരഞ്ഞെടുത്ത മേഖല മായ്ക്കാൻ, വിവിധ ആകാരം പ്രദേശങ്ങൾ ജനറേറ്റ് ഉപകരണങ്ങ"
+"ൾ വിളിച്ചതിന് പ്രദർശിപ്പിച്ച ഐക്കണുകൾ, ചൂണ്ടുന്ന ഒന്നു മൂന്ന്; നിങ്ങൾ മാപ്പ"
+"ിംഗ് മെനു ഉപയോഗിച്ച് ഈ ഫങ്ഷനുകളെ വിളിക്കാൻ കഴിയും,"
+
+#: src/filters/web/imagemap.xml:78(para)
+msgid ""
+"just on the right is your working area where you can draw all the shapes "
+"areas you want with the relevant tools,"
+msgstr ""
+"ശരിയായ നിങ്ങളെ പ്രസക്തമായ ഉപകരണങ്ങൾ ഉപയോഗിച്ച് നിങ്ങൾക്ക് ആവശ്യമുള്ള എല്ലാ"
+" രൂപങ്ങൾ പ്രദേശങ്ങൾ ആകർഷിക്കും കഴിയുന്ന തൊഴിലാളി മേഖലയാണ്,"
+
+#: src/filters/web/imagemap.xml:84(para)
+msgid ""
+"on the right is displayed an icon vertical set; its use is obvious but a "
+"help pop-up gives you some information about each function,"
+msgstr ""
+"വലതുഭാഗത്ത് ഒരു ഐക്കൺ ലംബമായ സെറ്റ് പ്രദർശിപ്പിച്ചിരിക്കുന്നു; അതിന്റെ ഉപയേ"
+"ാഗം വ്യക്തം എന്നാൽ ഒരു സഹായവും പോപ്പ്-അപ്പ് നിങ്ങൾ ഓരോ ചടങ്ങിൽ കുറിച്ചുള്"
+"ള ചില വിവരങ്ങൾ നൽകുന്നു,"
+
+#: src/filters/web/imagemap.xml:90(para)
+msgid ""
+"finally, even on the right is a display area, as a property list of the "
+"created areas. A click on one item of the list selects automatically the "
+"corresponding shape in the working area,"
+msgstr ""
+"ഒടുവിൽ, പോലും വലതുഭാഗത്ത് സൃഷ്ടിച്ച പ്രദേശങ്ങൾ ഒരു പ്രോപ്പർട്ടി ലിസ്റ്റ് "
+"പോലെ ഒരു ഡിസ്പ്ലേ മേഖലയാണ്. ലിസ്റ്റ് ഒന്ന് ഇനത്തിന്റെ ഒരു ക്ലിക്കിൽ, തൊഴി"
+"ലാളി പ്രദേശത്ത് ഇതേ ആകാരം സ്വയം തെരഞ്ഞെടുക്കുന്നു"
+
+#: src/filters/web/imagemap.xml:102(title)
+msgid "Imagemap filter options"
+msgstr ""
+"Imagemap ഫിൽട്ടർ ഓപ്ഷനുകൾ"
+
+#: src/filters/web/imagemap.xml:109(para)
+msgid "Imagemap window"
+msgstr ""
+"Imagemap വിൻഡോ"
+
+#: src/filters/web/imagemap.xml:115(title)
+msgid "The Menu Bar"
+msgstr ""
+"മെനു ബാർ"
+
+#: src/filters/web/imagemap.xml:116(para)
+msgid ""
+"The menu bar is similar to the image window menu bar, only a few menus or "
+"menu entries are different:"
+msgstr ""
+"മെനു ബാർ, ഇമേജ് വിൻഡോ മെനു ബാർ സമാനമാണ് ഏതാനും മെനുകൾ അല്ലെങ്കിൽ മെനു എൻട്"
+"രികൾ മാത്രമേ വ്യത്യസ്തവുമാണ്:"
+
+#: src/filters/web/imagemap.xml:122(term)
+msgid "File"
+msgstr ""
+"ഫയല്"
+
+#: src/filters/web/imagemap.xml:126(term)
+msgid "Save; Save As"
+msgstr ""
+"രക്ഷിക്കും; ഇതായി സംരക്ഷിക്കുക"
+
+#: src/filters/web/imagemap.xml:128(para)
+msgid ""
+"Contrary to other filters, this plug-in doesn't make an image but a text "
+"file. So you must save your work in a text format."
+msgstr ""
+"മറ്റ് ഫിൽട്ടറുകൾ വിപരീതമായി, ഈ പ്ലഗ്-ഇൻ ഒരു ചിത്രം എന്നാൽ ഒരു ടെക്സ്റ്റ് ഫയ"
+"ൽ ഇല്ല. അതിനാൽ നിങ്ങൾ ഒരു ടെക്സ്റ്റ് ഫോർമാറ്റിൽ നിങ്ങളുടെ ജോലി സംരക്ഷിക്ക"
+"ുകയും വേണം."
+
+#: src/filters/web/imagemap.xml:134(para)
+msgid ""
+"With <menuchoice><guimenu>View</guimenu><guimenuitem>Source</guimenuitem></"
+"menuchoice> you can preview this text file content."
+msgstr ""
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Source</guimenuitem></menuc"
+"hoice> ഉപയോഗിച്ച് ഈ ടെക്സ്റ്റ് ഫയൽ ഉള്ളടക്കം തിരനോട്ടം നടത്താം."
+
+#: src/filters/web/imagemap.xml:146(term)
+msgid "Open; Open recent"
+msgstr ""
+"തുറക്കുക; സമീപകാല തുറക്കുക"
+
+#: src/filters/web/imagemap.xml:148(para)
+msgid ""
+"In the plug-in you can open the saved text file. The areas defined in your "
+"file will be loaded and overdisplayed; if the displayed image is not the "
+"original one or not with the same size, <acronym>GIMP</acronym> will ask you "
+"for adapting the scale."
+msgstr ""
+"പ്ലഗ്-ഇൻ നിങ്ങൾ സംരക്ഷിച്ച ടെക്സ്റ്റ് ഫയൽ തുറക്കാൻ കഴിയും. നിങ്ങളുടെ ഫയലിൽ "
+"നിർവചിച്ച പ്രദേശങ്ങൾ കയറ്റി overdisplayed ചെയ്യും; പ്രദർശിപ്പിച്ച ചിത്രം യഥ"
+"ാർത്ഥ ഒന്നോ ഒരേ വലിപ്പം കൂടെ ചെയ്തിട്ടില്ല എങ്കിൽ <acronym>GIMP</acronym> "
+"സ്കെയിൽ ഉപയുക്തമാക്കുന്നതിനും ചോദിക്കും."
+
+#: src/filters/web/imagemap.xml:162(term)
+msgid "Edit"
+msgstr ""
+"തിരുത്തുക"
+
+#: src/filters/web/imagemap.xml:166(term)
+msgid "Edit area info"
+msgstr ""
+"എഡിറ്റ് ഏരിയ വിവരം"
+
+#: src/filters/web/imagemap.xml:169(title)
+msgid "Editing an imagemap area"
+msgstr ""
+"ഒരു imagemap പ്രദേശം എഡിറ്റുചെയ്യുകയെന്നത്"
+
+#: src/filters/web/imagemap.xml:177(para)
+msgid ""
+"In the settings dialog you can edit the area information of a selected area. "
+"This dialog will pop up automatically whenever you create a new area."
+msgstr ""
+"ക്രമീകരണങ്ങളിൽ നിങ്ങൾക്ക് ഒരു തിരഞ്ഞെടുത്ത പ്രദേശത്ത് പ്രദേശത്തെ വിവരങ്ങൾ എ"
+"ഡിറ്റുചെയ്യാനാകും ഡയലോഗ്. നിങ്ങൾ ഒരു പുതിയ പ്രദേശം സൃഷ്ടിക്കാൻ എപ്പോഴൊക്"
+"കെ ഈ ഡയലോഗ് സ്വയം പോപ്പ് അപ്പ് ചെയ്യും."
+
+#: src/filters/web/imagemap.xml:192(term)
+msgid "View"
+msgstr ""
+"കാണുക"
+
+#: src/filters/web/imagemap.xml:194(para)
+msgid "This menu offers you special functions:"
+msgstr ""
+"ഈ മെനു നിങ്ങൾ സവിശേഷ ഫംഗ്ഷനുകൾ വാഗ്ദാനം:"
+
+#: src/filters/web/imagemap.xml:199(term)
+msgid "Area list"
+msgstr ""
+"ഏരിയ ലിസ്റ്റ്"
+
+#: src/filters/web/imagemap.xml:201(para)
+msgid "Here you can hide or show the selection area."
+msgstr ""
+"ഇവിടെ നിങ്ങൾ മറച്ചു കാണിക്കാം നിരക്കു പ്രദേശം."
+
+#: src/filters/web/imagemap.xml:207(term)
+msgid "Source"
+msgstr ""
+"ഉറവിടം"
+
+#: src/filters/web/imagemap.xml:209(para)
+msgid ""
+"Here you see the raw data as you would save it to or read it from a file."
+msgstr ""
+"ഇവിടെ, നിങ്ങൾ അത് സംരക്ഷിക്കാനോ ഒരു ഫയൽ വായിച്ചു എന്നപോലെ അസംസ്കൃത ഡാറ്റ "
+"കാണാൻ."
+
+#: src/filters/web/imagemap.xml:216(term)
+msgid "Color; Grayscale"
+msgstr ""
+"കളർ; ഗ്രേസ്കെയിൽ"
+
+#: src/filters/web/imagemap.xml:218(para)
+msgid "You can select the image mode here and work with a Grayscale display."
+msgstr ""
+"നിങ്ങൾ ഇവിടെ ചിത്രം മോഡ് തിരഞ്ഞെടുത്ത് ഒരു ഗ്രേസ്കെയിൽ ഡിസ്പ്ലേ പ്രവർത്തിക"
+"്കാം."
+
+#: src/filters/web/imagemap.xml:228(term)
+msgid "Mapping"
+msgstr ""
+"മാപ്പിംഗ്"
+
+#: src/filters/web/imagemap.xml:230(para)
+msgid ""
+"You will seldom use this menu, since you can more easily access selection "
+"tools by clicking on icons on the left of the working area."
+msgstr ""
+"നിങ്ങൾ എഴുതാറില്ല കൂടുതൽ എളുപ്പത്തിൽ തൊഴിലാളി പ്രദേശത്തെ ഇടതുഭാഗത്തായി ഐക്"
+"കണുകൾ എന്നിവയിൽ ക്ലിക്കുചെയ്ത് നിരക്കു ഉപകരണങ്ങൾ ആക്സസ് ചെയ്യാൻ കഴിയും ശേഷം"
+", ഈ മെനു ഉപയോഗിക്കും."
+
+#: src/filters/web/imagemap.xml:237(term)
+msgid "Arrow"
+msgstr ""
+"അമ്പടയാളം"
+
+#: src/filters/web/imagemap.xml:239(para)
+msgid ""
+"The arrow here represents the Move tool. When activated tool is selected, "
+"you can select and move an area on the image."
+msgstr ""
+"ഇവിടെ അമ്പ് നീക്കുക ഉപകരണം പ്രതിനിധീകരിക്കുന്നു. സജീവമാക്കി ഉപകരണം തിരഞ്ഞെട"
+"ുത്തു, നിങ്ങൾക്ക് തിരഞ്ഞെടുത്ത് നീക്കാനാകും ചിത്രം ഒരു പ്രദേശം."
+
+#: src/filters/web/imagemap.xml:244(para)
+msgid ""
+"With a polygon, you can use the arrow to move one of the red points. Right-"
+"click on a segment between two red points to open a pop-up menu that offers, "
+"with several others, the possibility to add a new point. If you right-click "
+"on a red point, you can remove it."
+msgstr ""
+"ഒരു പോളിഗണിലെ ഉപയോഗിച്ച്, ചുവന്ന പോയിന്റ് ഒന്ന് നീക്കാൻ ആരോ ഉപയോഗിക്കാ"
+"ൻ കഴിയും. നിരവധി കൂടെ വേറെ വാഗ്ദാനം ചെയ്യുന്ന പുതിയ പോയിന്റ് ചേർക്കാൻ സാധ്"
+"യത ഒരു പോപ്പ്-അപ്പ് മെനു തുറക്കുന്നതിന് രണ്ടു ചുവന്ന പോയിന്റ് തമ്മിലുള്ള "
+"ഒരു സെഗ്മെന്റ് ക്ലിക്ക് കൈവാക്കിന്റെ. നിങ്ങൾ ഒരു ചുവന്ന പോയിന്റ് റൈറ്റ് ക്"
+"ലിക്ക്, നിങ്ങൾക്ക് അത് നീക്കം."
+
+#: src/filters/web/imagemap.xml:254(term)
+msgid "Rectangle; Circle; Polygon"
+msgstr ""
+"ചതുരം; സർക്കിൾ; പോളിഗൺ"
+
+#: src/filters/web/imagemap.xml:256(para)
+msgid ""
+"These tools let you create various shape areas: click on the image, move the "
+"pointer, and click again."
+msgstr ""
+"ഈ ഉപകരണങ്ങൾ നിങ്ങളെ വിവിധ ആകാരം പ്രദേശങ്ങൾ സൃഷ്ടിക്കാനും:, ചിത്രം ക്ലിക്ക് "
+"പോയിന്റർ നീക്കുക, വീണ്ടും ക്ലിക്കുചെയ്യുക."
+
+#: src/filters/web/imagemap.xml:263(term)
+msgid "Edit Map Info"
+msgstr ""
+"മാപ്പ് വിവരം എഡിറ്റ്"
+
+#: src/filters/web/imagemap.xml:266(title)
+msgid "Editing the imagemap data"
+msgstr ""
+"imagemap ഡാറ്റ എഡിറ്റുചെയ്യുകയെന്നത്"
+
+#: src/filters/web/imagemap.xml:274(para)
+msgid ""
+"With this simple dialog you can enter some items, which will be written to "
+"the resulting output file; either as comments (<guilabel>Author</guilabel>, "
+"<guilabel>Description</guilabel>) or as attribute values of the HTML tags "
+"(<guilabel>Image name</guilabel>, <guilabel>Title</guilabel>, "
+"<guilabel>Default URL</guilabel>)."
+msgstr ""
+"ഈ ലളിതമായ ഡയലോഗ് തത്ഫലമായി ഔട്ട്പുട്ട് ഫയൽ എഴുതുന്നു ചില ഇനങ്ങൾ, നൽകാം; അഭ"
+"ിപ്രായങ്ങൾ (<guilabel>Author</guilabel>, <guilabel>Description</guilabel>) "
+"അല്ലെങ്കിൽ HTML ടാഗുകൾ (<guilabel>Image name</guilabel>, <guilabel>Title</g"
+"uilabel>, <guilabel>Default URL</guilabel>) എന്ന ഗുണ മൂല്യങ്ങൾ ആയി ഒന്നുകിൽ"
+"."
+
+#: src/filters/web/imagemap.xml:290(term)
+msgid "Tools"
+msgstr ""
+"ഉപകരണങ്ങൾ"
+
+#: src/filters/web/imagemap.xml:292(para)
+msgid ""
+"With the <quote>Tools</quote> menu you can create guides and even regularly "
+"spaced rectangular areas."
+msgstr ""
+"<quote>Tools</quote> മെനുവിൽ നിങ്ങളെ ഗൈഡുകൾ പോലും പതിവായി അകലത്തിലുള്ള ദീർ"
+"ഘചതുരാകൃതിയിലുള്ള പ്രദേശങ്ങൾ സൃഷ്ടിക്കാൻ കഴിയും."
+
+#: src/filters/web/imagemap.xml:297(term)
+msgid "Grid; Grid settings"
+msgstr ""
+"ഗ്രിഡ്; ഗ്രിഡ് ക്രമീകരണങ്ങൾ"
+
+#: src/filters/web/imagemap.xml:300(title)
+msgid "Grid options"
+msgstr ""
+"ഗ്രിഡ് ഓപ്ഷനുകൾ"
+
+#: src/filters/web/imagemap.xml:308(para)
+msgid ""
+"Here you can enable and disable the image grid or configure some grid "
+"properties."
+msgstr ""
+"ഇവിടെ നിങ്ങൾക്ക് ഇമേജ് ഗ്രിഡ് പ്രാപ്തമാക്കുകായോ അപ്രാപ്തമാക്കുകയോ അല്ലെങ്"
+"കിൽ ചില ഗ്രിഡ് ഉള്ള ക്രമീകരിക്കാം."
+
+#: src/filters/web/imagemap.xml:315(term)
+msgid "Use GIMP guides; Create guides"
+msgstr ""
+"ഉപയോഗിക്കുക ജിമ് ഗൈഡുകൾ; ഗൈഡുകൾ സൃഷ്ടിക്കുക"
+
+#: src/filters/web/imagemap.xml:317(para)
+msgid ""
+"The guide lines are created at the border of the image but can be moved "
+"around by clicking on the red squares on each line something similar to the "
+"GIMP guide lines. By using the guides you are able to create active "
+"rectangles in the image."
+msgstr ""
+"ഗൈഡ് ലൈനുകൾ ചിത്രത്തിന്റെ അതിർത്തിയിൽ സൃഷ്ടിക്കപ്പെടുന്നു എന്നാൽ ജിമ്പ് ഗൈഡ"
+"് ലൈനുകൾ സമാനമായ ഓരോ വരിയും എന്തോ ചുവന്ന സ്ക്വയറിലെ ക്ലിക്കുചെയ്ത് ചുറ്റു"
+"ം നീക്കാൻ കഴിയില്ല. ഗൈഡുകൾ ഉപയോഗിക്കുന്നതിലൂടെ നിങ്ങൾ ചിത്രത്തിൽ സജീവ ദീർഘ"
+"ചതുരങ്ങൾക്കോ സൃഷ്ടിക്കാൻ പ്രാപ്തിയുള്ള."
+
+#: src/filters/web/imagemap.xml:327(term)
+msgid "Create guides"
+msgstr ""
+"ഗൈഡുകൾ സൃഷ്ടിക്കുക"
+
+#: src/filters/web/imagemap.xml:330(title)
+msgid "Guide options"
+msgstr ""
+"ഗൈഡ് ഓപ്ഷനുകൾ"
+
+#: src/filters/web/imagemap.xml:337(para)
+msgid "The guide options"
+msgstr ""
+"ഗൈഡ് ഓപ്ഷനുകൾ"
+
+#: src/filters/web/imagemap.xml:341(para)
+msgid ""
+"Instead of creating geometrical shapes to select the active areas you may "
+"use an array of rectangles, each representing an active area, by clicking on "
+"the <quote>Create guides</quote>. In the menu popping up you set the width "
+"and height of the rectangles, the space between them, the number of rows and "
+"columns, and the upper and left startpoint for the array. All messures are "
+"in pixels. If you are not satisfied with the result you may adjust each "
+"rectangle by moving the red squares as usual."
+msgstr ""
+"പകരം നിങ്ങൾ <quote>Create guides</quote> മാകാം, വരയ്ക്കുന്ന ഒരു അറേ ഉപയോഗി"
+"ച്ചേക്കാം ഓരോ ഒരു മേഖലയാണ് പ്രതിനിധീകരിക്കുന്ന സജീവ പ്രദേശങ്ങൾ തിരഞ്ഞെടുക്"
+"കുന്നതിന് ജ്യാമിതീയ രൂപങ്ങൾ സൃഷ്ടിക്കുന്നതിൻറെ. ആവിർഭവിക്കുന്നതിനാൽ മെനുവിൽ"
+" നിങ്ങൾ വീതി വരയ്ക്കുന്ന ഉയരം അവർക്കിടയിൽ സ്പേസ്, വരികളും നിരകളും എണ്ണം, അറ"
+"േ ഉയർന്ന ഇടത്തോട്ടും startpoint നിർത്തി. എല്ലാ messures പിക്സൽ ഇരിക്കുന്നു"
+". നിങ്ങൾ ഫലം സംതൃപ്തിയില്ലെങ്കിൽ പതിവുപോലെ ചുവന്ന സ്ക്വയറുകളിലൊന്നും നീക്"
+"കുന്നതിലൂടെയോ ഓരോ സമചതുരം ക്രമീകരിക്കുകയോ."
+
+#: src/filters/web/imagemap.xml:362(title)
+msgid "The Tool Bar"
+msgstr ""
+"ടൂൾ ബാർ"
+
+#: src/filters/web/imagemap.xml:363(para)
+msgid ""
+"Most entries here are just shortcuts for some functions already described. "
+"Exceptions:"
+msgstr ""
+"ഇവിടെ ഏറ്റവും എൻട്രികൾ ഇതിനകം വിവരിച്ച ചില പ്രവർത്തനങ്ങൾക്കായി വെറും കുറുക്"
+"കുവഴികൾ. ഒഴിവാക്കലുകൾ:"
+
+#: src/filters/web/imagemap.xml:369(term)
+msgid "Move to Front; Send to Back"
+msgstr ""
+"മുന്നിലേക്ക് നീക്കുക; തിരികെ അയയ്ക്കുക"
+
+#: src/filters/web/imagemap.xml:371(para)
+msgid ""
+"Here you can move an area entry to the bottom (<quote>Move to Front</quote>) "
+"or top (<quote>Send to Back</quote>) of the area list."
+msgstr ""
+"ഇവിടെ നിങ്ങൾ ഏരിയ ലിസ്റ്റ് ചുവടെ (<quote>Move to Front</quote>) അല്ലെങ്കിൽ "
+"മുകളിൽ ഒരു ഏരിയ എൻട്രി (<quote>Send to Back</quote>) നീക്കാൻ കഴിയും."
+
+#: src/filters/web/imagemap.xml:382(title)
+#: src/filters/web/imagemap.xml:384(title)
+msgid "The Working Area"
+msgstr ""
+"ജോലി ഏരിയ"
+
+#: src/filters/web/imagemap.xml:392(para)
+msgid ""
+"In the main area of the imagemap window, on the left side, you will find "
+"your working area where you can draw all the shapes areas you want with the "
+"relevant tools."
+msgstr ""
+"imagemap ജാലകത്തിന്റെ പ്രധാന പരിസരത്ത് ഇടതു വശത്ത്, നിങ്ങൾ പ്രസക്തമായ ഉപകരണ"
+"ങ്ങൾ ഉപയോഗിച്ച് നിങ്ങൾക്ക് ആവശ്യമുള്ള എല്ലാ രൂപങ്ങൾ പ്രദേശങ്ങൾ ആകർഷിക്കും "
+"കഴിയുന്ന അധ്വാനിക്കുന്ന പ്രദേശം കണ്ടെത്തും."
+
+#: src/filters/web/imagemap.xml:397(para)
+msgid ""
+"Beside the working area there are vertically displayed icons, one for "
+"pointing, three for calling tools to generate various shape areas, one to "
+"edit zone properties, and finally one to erase a selected zone; you can call "
+"these functions with the Mapping menu too."
+msgstr ""
+"തൊഴിലാളി പ്രദേശത്ത് പുറമെ ലംബമായി പ്രദർശിപ്പിച്ച ഐക്കണുകൾ, ചൂണ്ടുന്ന ഒന്നു"
+" വിവിധ ആകാരം പ്രദേശങ്ങൾ ജനറേറ്റ് ഉപകരണങ്ങൾ വിളിക്കുന്നു മൂന്നു ഒറ്റ മേഖല ഉള"
+"്ള എഡിറ്റുചെയ്യാൻ, ഒടുവിൽ ഒരുത്തൻ ഒരു തിരഞ്ഞെടുത്ത മേഖല മായ്ക്കാൻ ഉണ്ട്; നി"
+"ങ്ങൾ വളരെ മാപ്പിംഗ് മെനു ഉപയോഗിച്ച് ഈ ഫങ്ഷനുകളെ വിളിക്കാം."
+
+#: src/filters/web/imagemap.xml:404(para)
+msgid "Note that the areas should not overlap."
+msgstr ""
+"പ്രദേശങ്ങൾ ഓവർലാപ് കാര്യം ശ്രദ്ധിക്കുക."
+
+#: src/filters/web/imagemap.xml:411(title)
+msgid "The selection area"
+msgstr ""
+"നിരക്കു ഏരിയ"
+
+#: src/filters/web/imagemap.xml:412(para)
+msgid ""
+"On the right is a display area, as a property list of the created areas. A "
+"click on one item of the list selects automatically the corresponding shape "
+"in the working area, then you can modify it."
+msgstr ""
+"വലത് സൃഷ്ടിച്ച പ്രദേശങ്ങൾ ഒരു പ്രോപ്പർട്ടി ലിസ്റ്റ് പോലെ ഒരു ഡിസ്പ്ലേ മേഖ"
+"ലയാണ്. ലിസ്റ്റ് ഒന്ന് ഇനത്തിന്റെ ഒരു ക്ലിക്കിൽ സ്വയം തൊഴിലാളി പ്രദേശത്ത് ഇ"
+"തേ ആകൃതിയും തിരഞ്ഞെടുക്കുക, പിന്നെ നിങ്ങൾ വരുത്താനും സാധിക്കുന്നതാണ്."
+
+#: src/filters/web/imagemap.xml:417(para)
+msgid ""
+"Beside the display are is an icon vertical set; its use is obvious but a "
+"help pop-up gives you some information about each function,"
+msgstr ""
+"ഡിസ്പ്ലേ ഒഴികെ ഒരു ഐക്കൺ ലംബമായ സജ്ജീകരിച്ചിരിക്കുന്നത് ആകുന്നു; അതിന്റെ ഉപ"
+"യോഗം വ്യക്തം എന്നാൽ ഒരു സഹായവും പോപ്പ്-അപ്പ് നിങ്ങൾ ഓരോ ചടങ്ങിൽ കുറിച്ചു"
+"ള്ള ചില വിവരങ്ങൾ നൽകുന്നു,"
+
+#: src/filters/web/imagemap.xml:421(para)
+msgid ""
+"Unfortunately, the arrow symbols for moving a list entry up or down do not "
+"work here. But of course you carefully avoided to create overlapping areas, "
+"so you do not use these functions at all."
+msgstr ""
+"നിർഭാഗ്യവശാൽ, മുകളിലേക്കും താഴേക്കും ലിസ്റ്റ് എൻട്രി നീക്കുന്നതിനായി അമ്പ് "
+"ചിഹ്നങ്ങൾ ഇവിടെ പ്രവർത്തിക്കുന്നില്ല. പക്ഷേ തീർച്ചയായും നിങ്ങൾ ശ്രദ്ധാപൂർവ്"
+"വം കവിഞ്ഞു പ്രദേശങ്ങൾ സൃഷ്ടിക്കാൻ ഒഴിവാക്കണം, അതിനാൽ നിങ്ങൾ ഒട്ടും ഈ ഫംഗ്ഷന"
+"ുകളും ഉപയോഗിക്കരുത്."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/filters/web/imagemap.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"

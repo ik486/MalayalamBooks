@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>8.4. ഈറോഡ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-generic.html" title="8. സാമാന്യ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-dilate.html" title="8.3. Dilate" />
+    <link rel="next" href="filters-combine.html" title="9. ഫിൽട്ടറുകൾ സംയോജിപ്പിക്കുക" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">8.4. ഈറോഡ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-dilate.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">8. സാമാന്യ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="filters-combine.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-erode"></a>8.4. ഈറോഡ്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925525530880" class="indexterm"></a>
+      <a id="idp46925525532688" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525533584"></a>8.4.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925525534352"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.159. ഈറോഡ് മുഴക്കം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="ഈറോഡ് മുഴക്കം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/generic-taj-erode.jpg" alt="ഈറോഡ് മുഴക്കം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Erode noise</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ വർദ്ധിപ്പിക്കുന്ന സജീവ അല്ലെങ്കിൽ പാളി നിരക്കു ശോഭയുള്ള പ്രദേശങ്ങൾ വർദ്ധിപ്പിക്കുകയും.</p>
+        <p>ഓരോ ഇമേജ് പിക്സൽ, അതു 8 അയൽ പിക്സൽ (3X3 മാട്രിക്സ്) മുകളിലെ മൂല്യം (തിളക്കമുള്ള) കൂടെ വര പിക്സൽ മൂല്യം (തേജസ്സ്) നൽകുന്നു. അതുകൊണ്ട്, ഒരു ശോഭയുള്ള പിക്സൽ മിനുക്കിയ പ്രദേശങ്ങളിലെ ചേർത്തു. ഒരു പകിട്ടാർന്ന പശ്ചാത്തലത്തിൽ ഒറ്റപ്പെട്ട പിക്സൽ ഇല്ലാതാക്കും. ഒരു വലിയ ശോഭയുള്ള പ്രദേശം എല്ലാ ദിക്കുകളിലേക്കും ഒരു പിക്സൽ വഴി dilate ചെയ്യും.</p>
+        <p>സങ്കീർണ്ണമായ ചിത്രങ്ങൾ ന് മിനുക്കിയ പ്രദേശങ്ങൾ വർദ്ധിച്ചിരിക്കുകയാണ്, ഇവ മെച്ചപ്പെടുത്തിയ തന്നേ അല്പമെങ്കിലും pixellated.</p>
+        <p>PLACEHOLDER,-106660: ഒരു സോളിഡ് പശ്ചാത്തലത്തിൽ, ഈ ഫിൽട്ടർ മുഴക്കം ഇല്ലാതാക്കാൻ കഴിയൂ</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525544464"></a>8.4.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Generic</span> → <span class="guimenuitem">Erode</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-dilate.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-generic.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="filters-combine.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-dilate.html">8.3. Dilate</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="filters-combine.html">9. ഫിൽട്ടറുകൾ സംയോജിപ്പിക്കുക</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

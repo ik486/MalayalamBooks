@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3.2. വേര്യബിൾ പ്രവർത്തനങ്ങൾ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-using-script-fu-tutorial.html" title="3. ഒരു സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ" />
+    <link rel="prev" href="gimp-using-script-fu-tutorial.html" title="3. ഒരു സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ" />
+    <link rel="next" href="gimp-using-script-fu-tutorial-lists.html" title="3.3. ലിസ്റ്റുകൾ, ലിസ്റ്റുകൾ, ടിപ്പണി" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3.2. വേര്യബിൾ പ്രവർത്തനങ്ങൾ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-using-script-fu-tutorial.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">3. ഒരു സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-using-script-fu-tutorial-lists.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-using-script-fu-tutorial-identifier"></a>3.2. വേര്യബിൾ പ്രവർത്തനങ്ങൾ</h3>
+          </div>
+        </div>
+      </div>
+      <p>ഇപ്പോൾ ഞങ്ങൾ ഓരോ പദ്ധതി പ്രസ്താവന ബ്രാക്കറ്റിൽ ചുറ്റപ്പെട്ടു ഫങ്ഷൻ പേര് / ഓപ്പറേറ്റർ ആദ്യം ലിസ്റ്റ് ചെയ്തിട്ടുണ്ടോയെന്ന് അറിയുന്നു എന്നു ഞങ്ങൾ സൃഷ്ടിക്കാനും എങ്ങനെ ഉപയോഗിക്കണമെന്ന് വേരിയബിളുകൾ അറിഞ്ഞിരിക്കണം, എങ്ങനെ സൃഷ്ടിക്കാനും ഫംഗ്ഷനുകളും ഉപയോഗിക്കാൻ. നമുക്ക് വേരിയബിളുകള്ക്കായി കൊണ്ട് ആരംഭിക്കും.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512094512"></a>3.2.1. പ്രസ്താവിക്കുന്നു വേരിയബിള്സ്</h4>
+            </div>
+          </div>
+        </div>
+        <p>വിവിധ രീതികൾ ഒരു ദമ്പതികൾ വേരിയബിളുകൾ നിർവചിക്കാൻ ഉണ്ടെങ്കിലും രീതി <span class="command"><strong>let*</strong></span> പരവലയങ്ങൾക്കു് ഉപയോഗിക്കുക എന്നതാണ്. മറ്റ് പ്രോഗ്രാമിങ് ഭാഷകളിൽ മുൻപരിചയം ഉണ്ടെങ്കിൽ, ഈ പരവലയങ്ങൾക്കു് ലോക്കൽ വേരിയബിളുകൾ അന്ന് അവർ സജീവമായി മുൻപരിചയം ഒരു സ്കോപ്പ് ഒരു ലിസ്റ്റ് നിർവ്വചിക്കുമ്പോൾ തുല്യമാണ്. ഉദാഹരണമായി, യഥാക്രമം രണ്ടു ചരങ്ങളുടെ, എ, ബി 1, 2 സമാരംഭിച്ചിട്ടില്ല, പ്രഖ്യാപിക്കാൻ നിങ്ങൾ എഴുതുന്ന ആഗ്രഹിക്കുന്നു:</p>
+        <pre class="programlisting">
+        (let*
+           (
+              (a 1)
+              (b 2)
+           )
+           (+ a b)
+        )
+      </pre>
+        <p>അല്ലെങ്കിൽ, ഒരു വരിയിൽ ആയി:</p>
+        <pre class="programlisting">(* ചെയ്യട്ടെ ((1) (ബി 2)) (+ ഒരു ബി))</pre>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[കുറിപ്പു്]" src="images/note.png" />
+              </td>
+              <th align="left">കുറിപ്പു്</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>നിങ്ങൾ കൺസോൾ വിൻഡോ ഉപയോഗിക്കുകയാണെങ്കിൽ ഇതെല്ലാം ഒരു ലൈനിൽ ഇട്ടു വരും. പൊതുവായി പറഞ്ഞാൽ, നിങ്ങളുടെ സ്ക്രിപ്റ്റുകൾ കൂടുതൽ സൗകര്യമാകും സഹായിക്കുന്നതിന് ഇൻഡെൻറേഷൻ സമാനമായ വഴിക്കു ആഗ്രഹമുണ്ടാകും. നാം വൈറ്റ് സ്പേസ് വിഭാഗത്തിൽ ഈ കുറച്ച് സംസാരിക്കാം കാണാം.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <p>ഈ രണ്ടു ലോക്കൽ വേരിയബിളുകൾ, എ, ബി പ്രഖ്യാപിക്കുന്നു അവരെ അതിനു് പിന്നീട് രണ്ടു ചരങ്ങളുടെ ആകെത്തുകയാണ് പ്രിന്റ് ചെയ്യും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512101136"></a>3.2.2. ഒരു പ്രാദേശിക വേരിയബിൾ എന്താണ്?</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഞങ്ങൾ <code class="code">let*</code> ആവിഷ്കാര പരാന്തിസിസുകൾ ഉള്ളിൽ, അത് ശേഷം സമ്മേഷന്റെ <code class="code">(+ a b)</code> എഴുതി നിങ്ങൾ ശ്രദ്ധിക്കണം.</p>
+        <p><code class="code">let*</code> പ്രസ്താവന ഏത് ഡിക്ലയർ വേരിയബിളുകൾക്ക് കഴിയി നിങ്ങളുടെ സ്ക്രിപ്റ്റിൽ ഒരു പ്രദേശത്തെ നിഷ്കർഷിക്കുന്നു ഇതിൻറെ കാരണം; നിങ്ങൾ <strong class="userinput"><code>(let* ) </code></strong> പ്രസ്താവനയ്ക്ക് ശേഷം <strong class="userinput"><code>(+ a b)</code></strong> പ്രസ്താവന ടൈപ്പ് ചെയ്താൽ, നിങ്ങൾ പ്രഖ്യാപിച്ചു വേരിയബിളുകൾ <code class="code">let*</code> പ്രസ്താവന പശ്ചാത്തലത്തിൽ മാത്രം സാധുവായ കാരണം ഒരു പിശക് ലഭിക്കും; അവർ പ്രോഗ്രാമർമാരുടെ ലോക്കൽ വേരിയബിളുകൾ വിളിക്കുന്ന ആകുന്നു.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512106768"></a>3.2.3. ജനറൽ സിന്റാക്സ് <code class="code">let*</code> ഓഫ്</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഒരു <code class="code">let*</code> പ്രസ്താവന ജനറൽ ഫോമാണ്:</p>
+        <pre class="programlisting">
+        (let* ( <em class="replaceable"><code>variables</code></em> )
+          <em class="replaceable"><code>expressions</code></em> )
+      </pre>
+        <p>എവിടെ വേരിയബിളുകൾ ഉദാ പരാന്തിസിസുകൾ ഉള്ളിൽ പ്രഖ്യാപിക്കുന്നത്, <strong class="userinput"><code>(a 2)</code></strong>, എക്സപ്രഷനുകളും സാധുവായ പദ്ധതി പദപ്രയോഗങ്ങൾ ഉണ്ട്. ഇവിടെ പ്രഖ്യാപിച്ചു വേരിയബിളുകൾ <code class="code">let*</code> പ്രസ്താവന മാത്രം സാധുവായ ആകുന്നു ഓർക്കുക - അവർ ലോക്കൽ വേരിയബിളുകൾ മുൻപരിചയം.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512112352"></a>3.2.4. വൈറ്റ് സ്പേസ്</h4>
+            </div>
+          </div>
+        </div>
+        <p>മുമ്പ്, ഞങ്ങൾ ഒരുപക്ഷേ വ്യക്തമാക്കാം നിങ്ങളുടെ സ്ക്രിപ്റ്റുകൾ ഓർഗനൈസ് സഹായിക്കുന്നതിന് ഇൻഡെൻറേഷൻ ഉപയോഗിക്കാൻ ആഗ്രഹിക്കുന്ന കാണാം വസ്തുത പരാമർശിച്ചു. ഈ ദത്തെടുക്കാൻ ഒരു നല്ല നയം ആണ്, സ്കീം ഒരു പ്രശ്നം അല്ല - വൈറ്റ് സ്പേസ് സ്കീം ദ്വിഭാഷിയായിരുന്ന അവഗണിക്കുകയും, അതുകൊണ്ട് ഉദാരമായി ഒരു സ്ക്രിപ്റ്റ് ഉള്ളിൽ വ്യക്തമാക്കാം കോഡ് ഓർഗനൈസ് സഹായിക്കുന്നതിന് പ്രയോഗിക്കാൻ കഴിയും. എന്നിരുന്നാലും, നിങ്ങൾ Script- ഫു ന്റെ കൺസോൾ ജാലകത്തിൽ പ്രവർത്തിക്കുന്നത് എങ്കിൽ, നിങ്ങൾ ഒരു ലൈനിൽ ഒരു മുഴുവൻ പദപ്രയോഗം നൽകേണ്ടതുണ്ട്; എക്സ്പ്രഷൻ ഉദ്ഘാടന ക്ലോസിങ്ങ് പരാന്തിസിസുകൾ തമ്മിലുള്ള എല്ലാം സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ വിൻഡോയിൽ ഒരു ലൈനിൽ വരണം ആണ്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512115344"></a>3.2.5. ഒരു ചര ഒരു പുതിയ റ്റി.എം</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ ഒരു വേരിയബിൾ സമാരംഭിച്ചിട്ടില്ല കഴിഞ്ഞാൽ നിങ്ങൾക്ക് സ്ക്രിപ്റ്റ് പിന്നീട് അതിന്റെ മൂല്യം മാറ്റാൻ ചെയ്യേണ്ടതുണ്ടു്. വേരിയബിൾ മൂല്യം മാറ്റാൻ <code class="code">set!</code> പ്രസ്താവന ഉപയോഗിക്കുക:</p>
+        <pre class="programlisting">
+        (let* ( (theNum 10) ) (set! theNum (+ theNum theNum)) )
+      </pre>
+        <p>മുന്നോട്ട് പോയി സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ വിൻഡോയിൽ അത് നൽകുക, തുടർന്ന് മുകളിലുള്ള പ്രസ്താവന എന്തു ചെയ്യും ഊഹിക്കാൻ ശ്രമിക്കുക.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[കുറിപ്പു്]" src="images/note.png" />
+              </td>
+              <th align="left">കുറിപ്പു്</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p><span class="quote">“<span class="quote"><code class="code">\</code></span>”</span> യാതൊരു വരി ഇല്ല സൂചിപ്പിക്കുന്നു. അത് അവഗണിക്കുക (നിങ്ങളുടെ സ്ക്രിപ്റ്റ്-ഫു കൺസോളിൽ ടൈപ്പ് ചെയ്ത് <span class="keycap"><strong>Enter</strong></span> ഹിറ്റ് ചെയ്യരുത് ചെയ്യരുത്) അടുത്ത വരിയിൽ തുടരുക.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925512121024"></a>3.2.6. പ്രവർത്തനങ്ങൾ</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഇപ്പോൾ നിങ്ങൾ വേരിയബിളുകളിലൊന്ന് ഹാങ് ലഭിച്ചു ന്റെ ചില പ്രവർത്തനങ്ങൾ പ്രവർത്തിക്കാൻ അനുവദിക്കുക. ഇനിപ്പറയുന്ന വാക്യഘടനയ്ക്കൊപ്പം ചടങ്ങിൽ പ്രസ്താവിക്കും:</p>
+        <pre class="programlisting">
+        (define
+           (
+              <em class="replaceable"><code>name</code></em>
+              <em class="replaceable"><code>param-list</code></em>
+           )
+           <em class="replaceable"><code>expressions</code></em>
+        )
+      </pre>
+        <p><em class="replaceable"><code>name</code></em> ഈ ഫംഗ്ഷൻ നിയോഗിച്ചിട്ടുള്ള പേര് എവിടെ, <em class="replaceable"><code>param-list</code></em> പാരാമീറ്റർ പേരുകളുടെ സ്പേസ്-ഡിലിമിറ്റഡ് ലിസ്റ്റാണ്, <em class="replaceable"><code>expressions</code></em> അതു വിളിച്ച് വരുമ്പോൾ ചടങ്ങിൽ വധശിക്ഷയ്ക്ക് പദപ്രയോഗങ്ങൾ പരമ്പരയാണ്. ഉദാഹരണത്തിന്:</p>
+        <pre class="programlisting">(AddXY വിവിധ INX വിവരിക്കുക () (+ മറ്റൊരു INX))</pre>
+        <p><code class="varname">AddXY</code> ഫങ്ഷൻ പേര് ആണ് <code class="varname">inX</code> ആൻഡ് <code class="varname">inY</code> വേരിയബിളുകൾ ആകുന്നു. ഈ ഫങ്ഷൻ അതിന്റെ രണ്ട് മാനദണ്ഡങ്ങൾ എടുക്കുന്നു അവർ തമ്മിൽ ചേർക്കുന്നു.</p>
+        <p>നിങ്ങൾ (സി / സി ++, ജാവ, പാസ്കൽ തുടങ്ങിയവ പോലുള്ള) മറ്റ് ഒഴിച്ചുകൂടാനാവാത്തതാണ് ഭാഷകളിൽ പ്രോഗ്രാം ചെയ്തെങ്കിൽ, ശ്രദ്ധിച്ചിരിക്കാനിടയുണ്ട് മറ്റ് പ്രോഗ്രാമിങ് ഭാഷകളിൽ താരതമ്യപ്പെടുത്തുമ്പോൾ കാര്യങ്ങൾ ഒരു ദമ്പതികൾ ഈ ഫംഗ്ഷൻ നിർവചനത്തിൽ പരദേശികൾ ആയിരിക്കുന്നു എന്നു.</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>ആദ്യം, പരാമീറ്ററുകൾ ഏതെങ്കിലും <span class="quote">“<span class="quote">types</span>”</span> ഇല്ല അറിയിപ്പ് (എന്നതാണ് നാം അവരെ സ്ട്രിങ്ങുകൾ, അല്ലെങ്കിൽ പൂർണ്ണസംഖ്യകളുടെ മുതലായവ പോലെ വിവരിക്കും ചെയ്തില്ല). സ്കീം ഒരു type- കുറവ് ഭാഷയാണ്. ഈ ഹാൻഡി ആണ് വേഗത്തിൽ സ്ക്രിപ്റ്റ് എഴുത്തു അനുവദിക്കുന്നു.</p>
+            </li>
+            <li class="listitem">
+              <p>രണ്ടാമതായി, നമ്മുടെ ചടങ്ങിൽ ഫലമാണ് <span class="quote">“<span class="quote">return</span>”</span> എങ്ങനെ വിഷമിക്കേണ്ടതില്ല ആവശ്യമില്ലെന്ന് അറിയിപ്പ് - ഈ ഫംഗ്ഷൻ വിളിക്കുമ്പോൾ അവസാന പ്രസ്താവന മൂല്യം <span class="quote">“<span class="quote">returned</span>”</span> ആണ്. പിന്നെ, കൺസോൾ കടന്നു ചടങ്ങിൽ ടൈപ്പ് പോലെ എന്തെങ്കിലും ശ്രമിക്കുക:</p>
+              <pre class="programlisting">(AddXY (AddXY 5 6) 4)</pre>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-using-script-fu-tutorial.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-using-script-fu-tutorial.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-using-script-fu-tutorial-lists.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-script-fu-tutorial.html">3. ഒരു സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-script-fu-tutorial-lists.html">3.3. ലിസ്റ്റുകൾ, ലിസ്റ്റുകൾ, ടിപ്പണി</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

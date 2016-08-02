@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>13.12. jigsaw</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-render.html" title="13. റെൻഡർ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-grid.html" title="13.11. ഗ്രിഡ്" />
+    <link rel="next" href="plug-in-maze.html" title="13.13. സങ്കീർണ്ണമായ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">13.12. jigsaw</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-grid.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">13. റെൻഡർ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-maze.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-jigsaw"></a>13.12. jigsaw</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925528939664" class="indexterm"></a>
+      <a id="idp46925528941472" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528942368"></a>13.12.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925528943136"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.311. Jigsaw ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Jigsaw ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/render-taj-jigsaw.jpg" alt="Jigsaw ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Jigsaw</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ ഒരു പസ്സിൽ നിങ്ങളുടെ ഇമേജ് തിരിക്കും. അറ്റങ്ങൾ അല്ല-അപരത്വമാണ് വിരുദ്ധ അതിനാൽ ഇടയ്ക്കിടെ മൃദുലമാക്കുന്നതിനും ഒരു അല്പം മെച്ചപ്പെട്ട നിറയുന്നു (ഞാൻ. ഇ ആരം 1.0 കൂടെ ഗോഷ്യൻ ഇഫക്റ്റ്.) എന്നിവയാണ്.</p>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[സൂചന]" src="images/tip.png" />
+              </td>
+              <th align="left">സൂചന</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>എളുപ്പത്തിൽ വ്യക്തിഗത പസിൽ-കഷണം പ്രദേശങ്ങൾ തിരഞ്ഞെടുക്കുക കഴിയും ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, ഖരരൂപത്തിലുള്ള വൈറ്റ് നിറഞ്ഞു ഒരു പ്രത്യേക പാളി ന് കലോസ്തവ പാറ്റേൺ റെൻഡർ പെരുകി ലയർ മോഡ് സജ്ജമാക്കാൻ. അതിനുശേഷം, നിങ്ങൾ <a class="link" href="gimp-tool-fuzzy-select.html" title="2.5. അവ്യക്തമായ നിരക്കു (മാന്ത്രികനായാണ്)">magic wand</a> (ഫസി തിരഞ്ഞെടുത്ത) പുതിയ കലോസ്തവ പാളികളുള്ള ഉപകരണം ഉപയോഗിച്ച് പസിൽ കഷണങ്ങൾ തിരഞ്ഞെടുക്കാം.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528953248"></a>13.12.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Render</span> → <span class="guisubmenu">Pattern</span> → <span class="guimenuitem">Jigsaw</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925528956208"></a>13.12.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925528956960"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.312. <span class="quote">“<span class="quote">Jigsaw</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/render/jigsaw.png" alt="“Jigsaw” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ടൈലുകൾ എണ്ണം</span>
+            </dt>
+            <dd>
+              <p>എത്ര ടൈലുകൾ ചിത്രം തിരശ്ചീനമായി ലംബമായും ആണ്.</p>
+            </dd>
+          </dl>
+        </div>
+        <div class="variablelist">
+          <p class="title">
+            <strong>ബിവെൽ അരികുകൾ</strong>
+          </p>
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ബിവെൽ വീതി</span>
+            </dt>
+            <dd>
+              <p>ബിവെൽ വീതി സ്ലൈഡർ പസ്സിൽ കഷണങ്ങൾ അറ്റങ്ങൾ ചരിവ് (ഹാർഡ് തടി പസിൽ കുറഞ്ഞ ബിവെൽ വീതി മൂല്യം വേണ്ടിവരും സോഫ്റ്റ് കടലാസോ പസിൽ ഉയർന്ന മൂല്യം വേണ്ടിവരും) നിയന്ത്രിക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">ഹൈലൈറ്റ്</span>
+            </dt>
+            <dd>
+              <p>ഹൈലൈറ്റ് സ്ലൈഡർ ഓരോ കഷണം അറ്റങ്ങൾ ദൃശ്യമാകുന്ന ഹൈലൈറ്റിന്റെ ബലം നിയന്ത്രിക്കുന്നു. മെറ്റീരിയൽ പസ്സിൽ ഉണ്ടാക്കിയ ഓഫ് "glossiness" അതു താരതമ്യം ചെയ്യാം. ഹൈലൈറ്റ് വീതി ബിവെൽ വീതി അപേക്ഷിച്ചായിരിക്കുമെന്നോർക്കുക. ഏതളവുവരെ ഒരു ഭരണം പോലെ, കൂടുതൽ കഷണങ്ങൾ നിങ്ങൾ പസിൽ ലേക്ക് താഴത്തെ ബിവെൽ തിരിച്ചും ചേർക്കുക, നിങ്ങൾ ഉപയോഗിക്കണം മൂല്യങ്ങൾ പ്രമുഖമാക്കിക്കാട്ടുകയും. മൂല്യത ഒരു 500x500 പിക്സൽ ഇമേജ് അനുയോജ്യമാണ്.</p>
+            </dd>
+          </dl>
+        </div>
+        <div class="variablelist">
+          <p class="title">
+            <strong>jigsaw സ്റ്റൈൽ</strong>
+          </p>
+          <p>നിങ്ങൾ പസിൽ രണ്ടു തരം തമ്മിൽ തിരഞ്ഞെടുക്കാം:</p>
+          <dl class="variablelist">
+            <dt>
+              <span class="term">സമചതുരം</span>
+            </dt>
+            <dd>
+              <p>അപ്പോൾ നിങ്ങൾ രേഖാഖണ്ഡം ഉപയോഗിച്ച് നടത്തിയ നേടുക.</p>
+            </dd>
+            <dt>
+              <span class="term">വക്ര</span>
+            </dt>
+            <dd>
+              <p>അപ്പോൾ നിങ്ങൾ കർവുകൾ ഉപയോഗിച്ച് നടത്തിയ നേടുക.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-grid.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-render.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-maze.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-grid.html">13.11. ഗ്രിഡ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-maze.html">13.13. സങ്കീർണ്ണമായ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

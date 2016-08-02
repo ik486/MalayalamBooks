@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>8.38. Retinex</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-colors-menu.html" title="8. “Colors” മെനു" />
+    <link rel="prev" href="plug-in-max-rgb.html" title="8.37. മാക്സ് ആർജിബി" />
+    <link rel="next" href="gimp-tools-menu.html" title="9. “Tools” മെനു" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">8.38. Retinex</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-max-rgb.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">8. <span class="quote">“<span class="quote">Colors</span>”</span> മെനു</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-tools-menu.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-retinex"></a>8.38. Retinex</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925523524112" class="indexterm"></a>
+      <a id="idp46925523525008" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523525904"></a>8.38.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925523526672"></a>
+          <p class="title">
+            <strong>ചിത്രം 16.198. <span class="quote">“<span class="quote">Retinex</span>”</span> example</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/colors-retinex1.png" alt="“Retinex” example" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/colors-retinex2.png" alt="“Retinex” example" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Retinex</span>”</span> പ്രയോഗിച്ച ഫിൽട്ടർ. മുകളിൽ വലത് മൂലയിൽ പുതിയ വിശദാംശങ്ങൾ ശ്രദ്ധിക്കുക.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>Retinex പ്രകാശവ്യതിയാനങ്ങൾക്കനുസരിച്ച് നന്നല്ല വരുമ്പോൾ ഒരു ചിത്രത്തിന്റെ വിഷ്വൽ റെൻഡറിംഗ് മെച്ചപ്പെടുത്തുന്നു. ഞങ്ങളുടെ കണ്ണു നിറങ്ങൾ ശരിയായി വെളിച്ചം കുറയുമ്പോൾ, ക്യാമറകൾ, വീഡിയോ ക്യമാറകളും ഈ നന്നായി നിയന്ത്രിക്കാൻ കഴിയില്ല കാണാൻ കഴിയും. MSRCR (കളർ പുനരുദ്ധാരണ കൂടെ MultiScale Retinex) അല്ഗോരിഥം Retinex അരിപ്പ അടിസ്ഥാനം, ഈ അവസ്ഥ സ്വയം ചെയ്യൽ കണ്ണ് ജൈവ സംവിധാനം പ്രചോദനം. Retinex റെറ്റിന + കോർട്ടെക്സ് സൂചിപ്പിക്കുന്നു.</p>
+        <p>ഡിജിറ്റൽ ഫോട്ടോഗ്രാഫി പുറമെ Retinex അൽഗോരിതം, വൈദ്യശാസ്ത്രം, ജ്യോതിശാസ്ത്ര ഫോട്ടോകളിൽ വിവരങ്ങൾ ദൃശ്യമാക്കാൻ എക്സ്-കിരണങ്ങൾ അല്ലെങ്കിൽ സ്കാനറുകൾ ലെ മോശമായി കാണാവുന്ന ഘടനകൾ കണ്ടെത്താനായി ആണ്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523536272"></a>8.38.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      This filter is found in the image window menu under
+      <span class="guimenu">Colors</span> → <span class="guimenuitem">Retinex</span>.
+    </p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523539008"></a>8.38.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925523539760"></a>
+          <p class="title">
+            <strong>ചിത്രം 16.199. <span class="quote">“<span class="quote">Retinex</span>”</span> filter options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/menus/colors/retinex.png" alt="“Retinex” filter options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഓപ്ഷനുകൾ മാത്രമേ ഗണിതശാസ്ത്രജ്ഞർക്ക് ബിംബങ്ങളും എൻജിനീയർമാർ മനസ്സിലാകുന്ന സങ്കൽപങ്ങളിൽ വേണ്ടി വിളിക്കും. പ്രാവർത്തിക, ഉപയോക്താവിന് മികച്ച ക്രമീകരണം വേണ്ടി കുറിച്ച് ബെഡ്റൂമിലേക്ക് ഉണ്ട്. എന്നിരുന്നാലും, താഴെ വിശദീകരണങ്ങൾ പരീക്ഷിച്ചിരുന്നു ജിമ്പ് ഉപയോക്താവ് പുറത്തു സഹായിക്കും.</p>
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">Level</span>
+            </dt>
+            <dd>
+              <p>ഇവിടെ എന്താണ് പ്ലഗ്-ഇൻ രചയിതാവ് തന്റെ സൈറ്റിൽ <a class="xref" href="bibliography.html#bibliography-online-plugin-retinex" title="ജിമ്പ് വേണ്ടി Retinex അൽഗോരിതം ലഭിക്കുന്ന ഒരു പ്ലഗിൻ">[<abbr class="abbrev">പ്ലഗിൻ-RETINEX</abbr>]</a> എഴുതി ആണ്: <span class="quote">“<span class="quote">To characterize color variations and the lightor, we make a difference between (gaussian) filters responses at different scales. These parameters allow to specify how to allocate scale values between min scale (sigma 2.0) and max (sigma equal to the image size)</span>”</span> ...</p>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">ഒരേപോലെ</span>
+                  </dt>
+                  <dd>
+                    <p>യൂണിഫോം ഗംഭീരമായി താഴ്ന്ന ഉയർന്ന ഇരുവരും തീവ്രത പ്രദേശങ്ങളെ കുറവുമാണ്.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">ലോ</span>
+                  </dt>
+                  <dd>
+                    <p>ഏതളവുവരെ ഒരു ഭരണം പോലെ, കുറഞ്ഞ ചിത്രത്തിൽ താഴത്തെ തീവ്രത പ്രദേശങ്ങൾ ചെയ്യുന്നവൻ <span class="quote">“<span class="quote">flare up</span>”</span>.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">ഉയർന്ന</span>
+                  </dt>
+                  <dd>
+                    <p>ഹൈ ചിത്രത്തിന്റെ വ്യക്തമാകും പ്രദേശങ്ങൾ ഒരു മികച്ച റെൻഡറിംഗിനായി അനുകൂലിച്ച് താഴത്തെ തീവ്രത പ്രദേശങ്ങൾ <span class="quote">“<span class="quote">bury</span>”</span> കുറവുമാണ്.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">സ്കെയിൽ</span>
+            </dt>
+            <dd>
+              <p>Retinex സ്കെയിലിൽ ആഴം നിർണ്ണയിക്കുന്നു. കുറഞ്ഞ മൂല്യം 16 മൊത്ത, എന്നവണ്ണം ഫിൽട്ടറിംഗ് നൽകുന്നത് മൂല്ല്യം. പരമാവധി മൂല്യം 250. ഉചിതമായ ആണ് സ്ഥിരസ്ഥിതി മൂല്യം 240 ആണ്.</p>
+            </dd>
+            <dt>
+              <span class="term">Scale division</span>
+            </dt>
+            <dd>
+              <p>multiscale Retinex ഫിൽട്ടറിലെ CONCURRENT എന്ന എണ്ണം നിർണ്ണയിക്കുന്നു. മിനിമം ആവശ്യമാണ്, ഒപ്പം ശുപാർശ മൂല്യം മൂന്നു ആണ്. രണ്ടോ ഒരേയൊരു തോതിലുള്ള ഡിവിഷനുകൾ multiscale വശം നീക്കംചെയ്യുന്നു തിരികെ ഒറ്റ സ്കെയിലിൽ Retinex ഫിൽട്ടറിംഗ് കുറഞ്ഞു. ഉയർന്ന ഒരു മൂല്യം ചിത്രത്തിൽ ഘോഷം പരിചയപ്പെടുത്താൻ കുറവുമാണ്.</p>
+            </dd>
+            <dt>
+              <span class="term">Dynamic</span>
+            </dt>
+            <dd>
+              <p>MSR അൽഗോരിതം ചിത്രം ഭാരം എന്നതുകൊണ്ട് ഈ സ്ലൈഡർ പുതിയ ശരാശരി നിറം ചുറ്റും നിറം സാച്ചുറേഷൻ മലിനീകരണം ക്രമീകരിക്കുന്നതിന് അനുവദിക്കുന്നു. ഉയർന്ന മൂല്യം കുറവ് നിറം സാച്ചുറേഷൻ എന്നാണ്. ഈ അതിന്റെ പ്രഭാവം വളരെ image- ആശ്രയിക്കുന്ന കാരണം, തീർച്ചയായും നിങ്ങൾ മികച്ച ഫലം വേണ്ടി കുറ്റമറ്റ ആഗ്രഹിക്കുന്ന പോരേ.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-max-rgb.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-colors-menu.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-tools-menu.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-max-rgb.html">8.37. മാക്സ് ആർജിബി</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tools-menu.html">9. <span class="quote">“<span class="quote">Tools</span>”</span> മെനു</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>8.5. Use GEGL</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-colors-menu.html" title="8. “Colors” മെനു" />
+    <link rel="prev" href="plug-in-vinvert.html" title="8.4. മൂല്യം വിപരീതം" />
+    <link rel="next" href="gimp-colors-auto-menu.html" title="8.6. The “Auto” Submenu" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">8.5. Use GEGL</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-vinvert.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">8. <span class="quote">“<span class="quote">Colors</span>”</span> മെനു</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-colors-auto-menu.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-config-use-gegl"></a>8.5. Use GEGL</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925522516864" class="indexterm"></a>
+      <a id="idp46925522518016" class="indexterm"></a>
+      <p>GEGL (സാമാന്യ ഗ്രാഫിക്സ് ലൈബ്രറി) എല്ലാ ജിമ്പ്-3.0 ഉപയോഗിക്കപ്പെടും ഒരു ഗ്രാഫ് അധിഷ്ഠിത ഇമേജ് പ്രോസസ്സിംഗ് ചട്ടക്കൂടാണ്. GEGL വച്ച് ആന്തരിക പ്രോസസ്സിംഗ് ഫ്ലോട്ടിങ് പോയിന്റ് ലീനിയർ വെളിച്ചം RGBA 32bit ചെയ്യപ്പെടുന്നത്. സ്വതവേ ലെഗസി 8bit കോഡ് പാതകൾ ഇപ്പോഴും ഉപയോഗിക്കുന്നു, എന്നാൽ കൗതുകകരമായ ഉപയോക്താവിന് ഈ ഉപാധി ഉപയോഗിച്ച് നിറം പ്രവർത്തനങ്ങൾക്ക് GEGL ഉപയോഗം ഓൺ ചെയ്യാനാകും.</p>
+      <p>GEGL നിറം പ്രവർത്തനങ്ങൾക്കായുള്ള നു്അനുയോജ്യമാക്കിക്കൊണ്ടിരിയ്ക്കുന്നു പുറമേ, ഒരു പരീക്ഷണാത്മക <a class="link" href="gimp-tool-gegl.html" title="6.7. GEGL ഓപ്പറേഷൻ">GEGL Operation tool</a> ഉപകരണങ്ങൾ മെനുവിലെ കണ്ടു ചേർത്തിരിക്കുന്നു. ഇത് ഒരു ചിത്രത്തിലേക്ക് GEGL ഓപ്പറേഷൻസ് അപേക്ഷിക്കുന്ന പ്രാപ്തമാക്കുന്നു അതു ഫലങ്ങൾ ഓൺ-കാൻവാസ് പ്രിവ്യൂകൾ നൽകുന്നു.</p>
+      <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+        <table border="0" summary="Warning">
+          <tr>
+            <td rowspan="2" align="center" valign="top" width="25">
+              <img alt="[മുന്നറിയിപ്പു്]" src="images/warning.png" />
+            </td>
+            <th align="left">മുന്നറിയിപ്പു്</th>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <p>GEGL മുഴുവൻ അപ്ലിക്കേഷൻ മൂടുന്നു വരെ <acronym class="acronym">GIMP</acronym> 8-ബിറ്റ്സ് നിലനിൽക്കുന്നു ദയവായി ശ്രദ്ധിക്കുക.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522523328"></a>8.5.1. Activating the option</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can access this option from the image menubar through
+      <span class="guimenu">Colors</span> → <span class="guimenuitem">Use GEGL</span>.
+      Clicking on this item toggles the use of GEGL.
+    </p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-vinvert.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-colors-menu.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-colors-auto-menu.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-vinvert.html">8.4. മൂല്യം വിപരീതം</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-colors-auto-menu.html">8.6. The <span class="quote">“<span class="quote">Auto</span>”</span> Submenu</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

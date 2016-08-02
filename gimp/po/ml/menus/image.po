@@ -1,0 +1,3796 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP-Help 2.8.0\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
+"PO-Revision-Date: 2012-06-01 12:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/guides.xml:27(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/guides.png'; "
+"md5=3c4012701ac9a4bdc27fbc9d78283f2a"
+msgstr ""
+"@@image: 'images/menus/windows.png'; md5=13c6b14871d3818165be232dda179015"
+
+#: src/menus/image/guides.xml:11(title) src/menus/image/guides.xml:14(primary)
+#: src/menus/image/guides.xml:18(secondary)
+#: src/menus/image/guides-new-selection.xml:16(primary)
+#: src/menus/image/guides-remove.xml:16(primary)
+msgid "Guides"
+msgstr ""
+"വഴികാട്ടി"
+
+#: src/menus/image/guides.xml:17(primary)
+#: src/menus/image/convert-grayscale.xml:12(primary)
+#: src/menus/image/transform.xml:14(primary)
+#: src/menus/image/convert-indexed.xml:14(primary)
+#: src/menus/image/transform-guillotine.xml:14(primary)
+#: src/menus/image/introduction.xml:13(secondary)
+#: src/menus/image/convert-rgb.xml:16(primary)
+#: src/menus/image/print-size.xml:22(primary)
+#: src/menus/image/canvas-size.xml:16(primary)
+#: src/menus/image/autocrop.xml:13(primary)
+#: src/menus/image/mode.xml:17(primary)
+#: src/menus/image/zealous-crop.xml:15(primary)
+#: src/menus/image/crop.xml:15(primary)
+msgid "Image"
+msgstr ""
+"ചിത്രം"
+
+#: src/menus/image/guides.xml:22(title)
+#, fuzzy
+msgid "The <quote>Guides</quote> options of the <quote>Image</quote> submenu"
+msgstr ""
+"<quote>Select</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/image/guides.xml:31(para)
+msgid ""
+"The <guimenuitem>Guides</guimenuitem> submenu contains various commands for "
+"the creation and removal of guides."
+msgstr ""
+"<guimenuitem>Guides</guimenuitem> ഉപമെനുവുണ്ട് ഗൈഡുകൾ സൃഷ്ടിയും നീക്കം വിവി"
+"ധ ആജ്ഞകൾ ഉൾക്കൊള്ളുന്നു."
+
+#: src/menus/image/guides.xml:37(title)
+#: src/menus/image/transform.xml:38(title) src/menus/image/mode.xml:38(title)
+#, fuzzy
+msgid "Activating the Submenu"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/image/guides.xml:40(para)
+#, fuzzy
+msgid ""
+"You can access this submenu from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Guides</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/guides.xml:52(title)
+#, fuzzy
+msgid "The Contents of the <quote>Guides</quote> Submenu"
+msgstr ""
+"<quote>Select</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/image/guides.xml:53(para)
+msgid ""
+"The <guilabel>Guides</guilabel> submenu contains the following commands:"
+msgstr ""
+"<guilabel>Guides</guilabel> ഉപമെനുവുണ്ട് കമാൻഡുകൾ അടങ്ങിയിരിക്കുന്നു:"
+
+#: src/menus/image/convert-grayscale.xml:9(title)
+#, fuzzy
+msgid "Grayscale mode"
+msgstr "Greyscale"
+
+#: src/menus/image/convert-grayscale.xml:13(secondary)
+#: src/menus/image/convert-indexed.xml:15(secondary)
+#: src/menus/image/convert-rgb.xml:17(secondary)
+msgid "Convert"
+msgstr ""
+"മാറ്റുക"
+
+#: src/menus/image/convert-grayscale.xml:14(tertiary)
+#, fuzzy
+msgid "To grayscale"
+msgstr "greyscale"
+
+#: src/menus/image/convert-grayscale.xml:17(primary)
+#: src/menus/image/convert-grayscale.xml:22(secondary)
+#: src/menus/image/mode.xml:62(link)
+msgid "Grayscale"
+msgstr "Greyscale"
+
+#: src/menus/image/convert-grayscale.xml:18(secondary)
+#, fuzzy
+msgid "Convert to grayscale"
+msgstr ""
+"Greyscale പരിവർത്തനം"
+
+#: src/menus/image/convert-grayscale.xml:21(primary)
+#: src/menus/image/convert-indexed.xml:19(primary)
+#: src/menus/image/convert-rgb.xml:21(primary)
+#, fuzzy
+msgid "Modes (color)"
+msgstr ""
+"സോളിഡ് നിറം"
+
+#: src/menus/image/convert-grayscale.xml:25(para)
+msgid ""
+"You can use the <guimenuitem>Grayscale</guimenuitem> command to convert your "
+"image to grayscale with 256 levels of gray, from 0 (black) to 255 (white)."
+msgstr ""
+"താങ്കൾക്ക് 0 255 (കറുത്ത) (വെള്ള), ചാര 256 തലങ്ങളിൽ ഉപയോഗിച്ച് ഗ്രേസ്കെയിൽ"
+" നിങ്ങളുടെ ചിത്രം പരിവർത്തനം <guimenuitem>Grayscale</guimenuitem> കമാൻഡ് ഉപ"
+"യോഗിക്കാം."
+
+#: src/menus/image/convert-grayscale.xml:32(title)
+#: src/menus/image/convert-indexed.xml:34(title)
+#: src/menus/image/configure-grid.xml:30(title)
+#: src/menus/image/canvas-size.xml:40(title)
+#: src/menus/image/guides-new-selection.xml:28(title)
+#: src/menus/image/duplicate.xml:37(title)
+msgid "Activating the Command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/image/convert-grayscale.xml:35(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Mode</"
+"guisubmenu><guimenuitem>Grayscale</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/align-layers.xml:47(None)
+#: src/menus/image/align-layers.xml:134(None)
+#: src/menus/image/align-layers.xml:162(None)
+#: src/menus/image/align-layers.xml:209(None)
+#: src/menus/image/align-layers.xml:241(None)
+#: src/menus/image/align-layers.xml:275(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/align-demo.png'; "
+"md5=1e87c0ed481e029df3395a50af940869"
+msgstr ""
+"@@image: 'images/menus/windows.png'; md5=13c6b14871d3818165be232dda179015"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/align-layers.xml:92(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/align-layers.png'; "
+"md5=2505bd2bff5ef0a36f5a219b2a5eeeb3"
+msgstr ""
+"@@image: 'images/menus/windows/expanded-menu.png'; "
+"md5=368b926c465b0abf28df35f2cdaaf128"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/align-layers.xml:143(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/alignHCLB-.png'; "
+"md5=77a6d29d54d34408f0da3ae3523aee91"
+msgstr ""
+"@@image: 'images/menus/select.png'; md5=e2a02dde8de72d42430b777b89d0ee2a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/align-layers.xml:172(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/alignHCLB+.png'; "
+"md5=d69e3722bf945455440bc14ec3c2d8a7"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/align-layers.xml:219(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/alignHFLB-.png'; "
+"md5=0992e4e1d3fb559032ae6dc72f0bf37a"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/align-layers.xml:250(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/alignHFLB+.png'; "
+"md5=623ee83be73b978062bea373cc6c2c39"
+msgstr "@@image: 'images/menus/help.png'; md5=166c3b733e8d1c03b26206812c7c44a9"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/align-layers.xml:284(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/alignVFBB+.png'; "
+"md5=79992594a816b16cffef2b3fd0ddf487"
+msgstr ""
+"@@image: 'images/menus/windows.png'; md5=13c6b14871d3818165be232dda179015"
+
+#: src/menus/image/align-layers.xml:12(title)
+msgid "Align Visible Layers"
+msgstr ""
+"ദൃശ്യം ലെയറുകൾ വിന്യസിക്കുക"
+
+#: src/menus/image/align-layers.xml:15(primary)
+#: src/menus/image/merge-layers.xml:14(primary)
+msgid "Layer"
+msgstr ""
+"ലെയർ"
+
+#: src/menus/image/align-layers.xml:16(secondary)
+#: src/menus/image/merge-layers.xml:15(secondary)
+msgid "Stack managing"
+msgstr ""
+"മാനേജിങ് ശേഖരം"
+
+#: src/menus/image/align-layers.xml:17(tertiary)
+#: src/menus/image/align-layers.xml:20(primary)
+#, fuzzy
+msgid "Align visible layers"
+msgstr ""
+"ദൃശ്യം ലെയറുകൾ വിന്യസിക്കുക"
+
+#: src/menus/image/align-layers.xml:23(para)
+msgid ""
+"With the <guimenuitem>Align Visible Layers</guimenuitem> command, you can "
+"very precisely position the visible layers (those marked with the "
+"<quote>eye</quote> icon). This degree of precision is especially useful when "
+"you are working on animations, which typically have many small layers. "
+"Clicking on <guimenuitem>Align Visible Layers</guimenuitem> displays a "
+"dialog which allows you to choose how the layers should be aligned."
+msgstr ""
+"<guimenuitem>Align Visible Layers</guimenuitem> കമാൻഡ് ഉപയോഗിച്ച്, വളരെ കൃ"
+"ത്യമായി കാണാവുന്ന പാളികൾ (<quote>eye</quote> ഐക്കൺ കൊണ്ട് അടയാളപ്പെടുത്തിയ"
+" ആ) സ്ഥാനം കഴിയും. നിങ്ങൾ പ്രത്യേകിച്ച് പല ചെറിയ പാളികൾ ഉണ്ടായിട്ടും ആനിമേഷ"
+"നുകൾ, പ്രവർത്തിക്കുന്നു ചെയ്യുമ്പോൾ കൃത്യത ഈ ബിരുദം പ്രത്യേകിച്ചും ഉപകാരപ്"
+"രദമാണ്. <guimenuitem>Align Visible Layers</guimenuitem> ക്ലിക്കുചെയ്താൽ പാള"
+"ികൾ വിന്യസിച്ചിരിക്കുന്ന എങ്ങനെ തിരഞ്ഞെടുക്കാൻ അനുവദിക്കുന്ന ഒരു ഡയലോഗ് പ്"
+"രദർശിപ്പിക്കുന്നു."
+
+#: src/menus/image/align-layers.xml:33(para)
+msgid ""
+"In <application>GIMP 1.2</application>, the default base for the alignment "
+"was the top visible layer in the stack. In <application>GIMP 2</"
+"application>, the default alignment base is the edge of the canvas. You can "
+"still align the image on the bottom layer of the stack, even if it is "
+"invisible, by checking <guilabel>Use the (invisible) bottom layer as the "
+"base</guilabel> in the dialog."
+msgstr ""
+"<application>GIMP 1.2</application> ൽ, വിന്യാസം സ്വതവേയുള്ള ബേസ് സ്റ്റാക്കി"
+"ലുള്ള മുകളിൽ ദൃശ്യമായ പാളി ആയിരുന്നു. <application>GIMP 2</application> സ്വ"
+"തവേ അലൈൻമെന്റ് ബേസ് കാൻവാസ് വായ്ത്തലയാൽ ആണ്. നിങ്ങൾക്ക് തുടർന്നും ചിത്രം സ്"
+"റ്റാക്ക് ചുവടെ പാളി ന്, ഡയലോഗിൽ <guilabel>Use the (invisible) bottom layer"
+" as the base</guilabel> പരിശോധിച്ചുകൊണ്ട് കഴിയും അദൃശ്യ പോലും."
+
+#: src/menus/image/align-layers.xml:44(title)
+msgid "Example image for layer alignment"
+msgstr ""
+"പാളി വേണ്ടിയുള്ള ഉദാഹരണം ചിത്രം"
+
+#: src/menus/image/align-layers.xml:50(para)
+msgid ""
+"The example image contains four layers on a large (150x150 pixel) canvas. "
+"The red square is 10x10 pixels, the green rectangle is 10x20 pixels and the "
+"yellow rectangle is 20x10 pixels. The background layer (blue, 100x100 "
+"pixels) will not be affected by the command, since the <guilabel>Ignore "
+"lower layer</guilabel> option has been checked on the dialog. Note that the "
+"layers in the image seem to have a different order than their actual order "
+"in the stack because of their positions on the canvas. The yellow layer is "
+"the top layer in the image and the second one in the stack."
+msgstr ""
+"ഉദാഹരണത്തിന് ചിത്രം ഒരു വലിയ (150x150 പിക്സൽ) കാൻവാസിൽ നാലു പാളികൾ അടങ്ങിയി"
+"രിക്കുന്നു. റെഡ് സ്ക്വയർ 10x10 പിക്സൽ ആണ്, പച്ച സമകോണചതുർഭുജം 10x20 പിക്സല"
+"ുകൾ ആണ് മഞ്ഞ സമകോണചതുർഭുജം 20x10 പിക്സലുകൾ ആണ്. <guilabel>Ignore lower lay"
+"er</guilabel> ഓപ്ഷൻ ഡയലോഗും പരിശോധിക്കപ്പെട്ടിട്ടുമില്ല മുതൽ പശ്ചാത്തല പാ"
+"ളി (നീല, 100x100 പിക്സൽ), കൽപന പ്രകാരം ബാധിക്കില്ല. സ്വരൂപത്തിൽ പാളികൾ കാരണ"
+"ം കാൻവാസിൽ അവരുടെ സ്ഥാനം സ്റ്റാക്ക് അവരുടെ യഥാർത്ഥ ഓർഡർ അല്ലാതെ മറ്റൊരു ഓർ"
+"ഡർ തോന്നുന്നു ശ്രദ്ധിക്കുക. മഞ്ഞ പാളി ഇമേജിൽ മുകളിലെ പാളി ലേയറിന് രണ്ടാമത്"
+"തെ ഒന്നാണ്."
+
+#: src/menus/image/align-layers.xml:67(title)
+#: src/menus/image/flatten.xml:38(title)
+#: src/menus/image/properties.xml:22(title)
+#: src/menus/image/transform-guillotine.xml:31(title)
+#: src/menus/image/merge-layers.xml:38(title)
+#: src/menus/image/guides-new.xml:33(title)
+#: src/menus/image/scale.xml:49(title) src/menus/image/autocrop.xml:38(title)
+#: src/menus/image/guides-new-percent.xml:37(title)
+#: src/menus/image/zealous-crop.xml:72(title)
+#: src/menus/image/guides-remove.xml:28(title)
+#, fuzzy
+msgid "Activate the Command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/image/align-layers.xml:70(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Align Visible layers</"
+"guimenuitem></menuchoice>. There is no default keyboard shortcut. The dialog "
+"doesn't show up if the image holds a single layer only."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/align-layers.xml:84(title)
+msgid "Description of the <quote>Align Visible Layers</quote> dialog"
+msgstr ""
+"<quote>Align Visible Layers</quote> ഡയലോഗിന്റെ വിവരണം"
+
+#: src/menus/image/align-layers.xml:88(title)
+#, fuzzy
+msgid "The <quote>Align Visible Layers</quote> dialog"
+msgstr ""
+"<quote>Layer</quote> മെനു"
+
+#: src/menus/image/align-layers.xml:98(term)
+#, fuzzy
+msgid "Horizontal Style; Vertical Style"
+msgstr ""
+"_Horizontal ശൈലി:"
+
+#: src/menus/image/align-layers.xml:100(para)
+msgid ""
+"These options control how the layers should be moved in relationship to each "
+"other. You can choose:"
+msgstr ""
+"ഈ ഓപ്ഷനുകൾ പാളികൾ പരസ്പരം ബന്ധത്തിൽ നീക്കി വേണം നിയന്ത്രിക്കുന്നു. തിരഞ്ഞെട"
+"ുക്കാൻ നിങ്ങൾക്ക് കഴിയും:"
+
+#: src/menus/image/align-layers.xml:106(para)
+msgid ""
+"<guilabel>None</guilabel>: There will be no change in the horizontal or the "
+"vertical position, respectively."
+msgstr ""
+"<guilabel>None</guilabel>: ഉണ്ട് യഥാക്രമം, തിരശ്ചീനമായി മാറ്റമില്ലെന്നും ലം"
+"ബമായതോ സ്ഥാനം ആയിരിക്കും."
+
+#: src/menus/image/align-layers.xml:113(para)
+msgid ""
+"<guilabel>Collect</guilabel>: The visible layers will be aligned on the "
+"canvas, in the way that is determined by the <guilabel>Horizontal base</"
+"guilabel> and <guilabel>Vertical base</guilabel> options. If you select a "
+"<guilabel>Horizontal base</guilabel> of <guilabel>Right edge</guilabel>, "
+"layers may disappear from the canvas. You can recover them by enlarging the "
+"canvas. If you check the <guilabel>Use the (invisible) bottom layer as the "
+"base</guilabel> option, the layers will be aligned on the top left corner of "
+"the bottom layer."
+msgstr ""
+"<guilabel>Collect</guilabel>: കാണാവുന്ന പാളികൾ <guilabel>Horizontal base</g"
+"uilabel> ആൻഡ് <guilabel>Vertical base</guilabel> ഓപ്ഷനുകൾ നിർണ്ണയിച്ചിരിക്ക"
+"ുന്നു എന്നു വഴിയിൽ, ക്യാൻവാസിൽ വിന്യസിച്ചിരിക്കുന്ന ചെയ്യും. നിങ്ങൾ <guilab"
+"el>Right edge</guilabel> ഒരു <guilabel>Horizontal base</guilabel> തെരഞ്ഞെടു"
+"ത്താൽ, പാളികൾ ക്യാൻവാസ് നിന്നും അപ്രത്യക്ഷമാകും ചെയ്യാം. നിങ്ങൾ ക്യാൻവാസ് വ"
+"ിസ്താരം അവരെ വീണ്ടെടുക്കുന്നതിന് കഴിയും. നിങ്ങൾ <guilabel>Use the (invisibl"
+"e) bottom layer as the base</guilabel> ഐച്ഛികം ചെക്ക് ചെയ്താൽ, പാളികൾ ചുവടെ"
+" പാളിയുടെ മുകളിൽ ഇടത് മൂലയിൽ വിന്യസിച്ചിരിക്കുന്ന ചെയ്യും."
+
+#: src/menus/image/align-layers.xml:127(title)
+msgid "Horizontal <quote>Collect</quote> alignment (on the edge of the canvas)"
+msgstr ""
+"തിരശ്ചീന <quote>Collect</quote> അലൈൻമെന്റ് (ക്യാൻവാസ് അറ്റത്തുള്ള)"
+
+#: src/menus/image/align-layers.xml:137(para)
+#: src/menus/image/align-layers.xml:165(para)
+#: src/menus/image/align-layers.xml:212(para)
+#: src/menus/image/align-layers.xml:244(para)
+#: src/menus/image/align-layers.xml:278(para)
+#, fuzzy
+msgid "Original image with the layer stack"
+msgstr ""
+"സ്വയസാദൃശ്യം ഫ്രാക്റ്റലിന് ഉപയോഗിച്ച് ഇമേജ് മാറ്റുക"
+
+#: src/menus/image/align-layers.xml:146(para)
+msgid ""
+"The layers have been moved horizontally so that their left edges are aligned "
+"with the left edge of the canvas."
+msgstr ""
+"അങ്ങനെ ഇടത്തു വേണമങ്കിലും ക്യാൻവാസ് ഇടത്തേയറ്റത്ത് അവസ്ഥയിലാണ് പാളികൾ തിരശ്"
+"ചീനമായി നീക്കി."
+
+#: src/menus/image/align-layers.xml:155(title)
+msgid "Horizontal <quote>Collect</quote> alignment (on the bottom layer)"
+msgstr ""
+"തിരശ്ചീന <quote>Collect</quote> വിന്യാസം (ചുവടെ പാളി ന്)"
+
+#: src/menus/image/align-layers.xml:175(para)
+msgid ""
+"The layers have been moved horizontally so that their left edges align with "
+"the left edge of the bottom layer."
+msgstr ""
+"അങ്ങനെ ഇടത്തു വേണമങ്കിലും ചുവടെ പാളി ഇടത്തേയറ്റത്ത് അനുസൃതമായി പാളികൾ തിരശ്"
+"ചീനമായി നീക്കി."
+
+#: src/menus/image/align-layers.xml:185(para)
+msgid ""
+"<guilabel>Fill (left to right)</guilabel>; <guilabel>Fill (top to bottom)</"
+"guilabel>: The visible layers will be aligned with the canvas according to "
+"the edge you selected with <guilabel>Horizontal base</guilabel> or "
+"<guilabel>Vertical base</guilabel>, respectively. The layers are arranged "
+"regularly, so that they do not overlap each other. The top layer in the "
+"stack is placed on the leftmost (or uppermost) position in the image. The "
+"bottom layer in the stack is placed on the rightmost (or bottommost) "
+"position of the image. The other layers are placed regularly between these "
+"two positions. If the <guilabel>Use the (invisible) bottom layer as the "
+"base</guilabel> option is checked, the layers are aligned with the "
+"corresponding edge of the bottom layer."
+msgstr ""
+"<guilabel>Fill (left to right)</guilabel>; <guilabel>Fill (top to bottom)</"
+"guilabel>: കാണാവുന്ന പാളികൾ നിങ്ങൾ യഥാക്രമം <guilabel>Horizontal base</guil"
+"abel> അല്ലെങ്കിൽ <guilabel>Vertical base</guilabel>, തിരഞ്ഞെടുത്ത എഡ്ജ് തക്"
+"കവണ്ണം കാൻവാസിൽ അവസ്ഥയിലാണ് ചെയ്യും. അങ്ങനെ അവർ പരസ്പരം ഓവർലാപ് ചെയ്യരുത് പ"
+"ാളികൾ, പതിവായി ക്രമീകരിച്ചിരിക്കുന്നത്. സ്റ്റാക്ക് ലെ മുകളിലെ പാളി സ്വരൂപത്"
+"തിൽ ഇടത്തേ (അല്ലെങ്കിൽ സന്ധിക്കു) സ്ഥാനം സ്ഥാപിച്ചിരിക്കുന്നു. സ്റ്റാക്ക് ല"
+"െ ചുവടെ പാളി ചിത്രത്തിന്റെ വലത്തേ (അല്ലെങ്കിൽ താഴെയുളള) സ്ഥാനം സ്ഥാപിച്ചിരി"
+"ക്കുന്നു. മറ്റ് പാളികൾ ഈ രണ്ടു സ്ഥാനങ്ങൾ തമ്മിലുള്ള പതിവായി വയ്ക്കുന്നു. <g"
+"uilabel>Use the (invisible) bottom layer as the base</guilabel> ഓപ്ഷൻ ചെക്ക"
+"് ചെയ്താല്, പാളികൾ ചുവടെ പാളി ഇതേ വായ്ത്തലയാൽ അവസ്ഥയിലാണ്."
+
+#: src/menus/image/align-layers.xml:203(title)
+msgid "Horizontal <quote>Fill</quote> alignment (canvas)"
+msgstr ""
+"തിരശ്ചീന <quote>Fill</quote> വിന്യാസം (ക്യാൻവാസ്)"
+
+#: src/menus/image/align-layers.xml:222(para)
+msgid ""
+"Horizontal filling alignment, Left to Right, with <guilabel>Use the "
+"(invisible) bottom layer as the base</guilabel> option not checked. The top "
+"layer in the stack, the green one, is placed all the way on the left. The "
+"bottom layer in the stack, the red one, is placed is on the right and the "
+"yellow layer is between the other two."
+msgstr ""
+"തിരശ്ചീന പൂരിപ്പിക്കൽ വിന്യാസം, ഇടത്തുനിന്ന് വലത്തേക്ക്, പരിശോധിച്ചില്ല <g"
+"uilabel>Use the (invisible) bottom layer as the base</guilabel> ഓപ്ഷനുള്ള. "
+"സ്റ്റാക്ക് ലെ മുകളിലെ പാളി, പച്ച ഒന്നു ഇടത്തും എല്ലാ വഴി വയ്ക്കുന്നു. സ്റ്റ"
+"ാക്ക് ലെ ചുവടെ പാളി, ചുവന്ന ഒന്നു സ്ഥാപിക്കുന്നു വലതുഭാഗത്ത് ആണ് മഞ്ഞ പാളി "
+"മറ്റ് ഇടയിലാണ്."
+
+#: src/menus/image/align-layers.xml:235(title)
+msgid "Horizontal <quote>Fill</quote> alignment (bottom layer)"
+msgstr ""
+"തിരശ്ചീന <quote>Fill</quote> വിന്യാസം (ചുവടെ പാളി)"
+
+#: src/menus/image/align-layers.xml:253(para)
+msgid ""
+"The same parameters as in the previous example, but with the lowest (blue) "
+"level as the base."
+msgstr ""
+"ഒരേ പാരാമീറ്ററുകൾ മുൻ ഉദാഹരണം പോലെ, പക്ഷേ അടിസ്ഥാനമായി ഏറ്റവും കുറവ് (നീല)"
+" ലെവൽ."
+
+#: src/menus/image/align-layers.xml:262(para)
+msgid ""
+"<guilabel>Fill (right to left)</guilabel>; <guilabel>Fill (bottom to top)</"
+"guilabel>: These settings work similarly to the ones described above, but "
+"the filling occurs in the opposite direction."
+msgstr ""
+"<guilabel>Fill (right to left)</guilabel>; <guilabel>Fill (bottom to top)</"
+"guilabel>: ഈ ക്രമീകരണങ്ങൾ മുകളിൽ വിവരിച്ച പറഞ്ഞവ സമാനമായി പ്രവർത്തിക്കുന്നു"
+", പക്ഷെ നിറയുന്നത് എതിർ ദിശയിൽ സംഭവിക്കുന്നത്."
+
+#: src/menus/image/align-layers.xml:269(title)
+msgid "Vertical <quote>Fill</quote> alignment (bottom layer)"
+msgstr ""
+"ലംബ <quote>Fill</quote> വിന്യാസം (ചുവടെ പാളി)"
+
+#: src/menus/image/align-layers.xml:287(para)
+msgid ""
+"Vertical <quote>Fill</quote> alignment, bottom to top, bottom layer as base"
+msgstr ""
+"ലംബ <quote>Fill</quote> വിന്യാസം, താഴെ നിന്നും മുകളിലേക്കു്, അടിസ്ഥാനമായി ച"
+"ുവടെ പാളി"
+
+#: src/menus/image/align-layers.xml:294(para)
+msgid ""
+"There must be at least three visible layers in the image to use the "
+"<quote>Fill</quote> options."
+msgstr ""
+"<quote>Fill</quote> ഓപ്ഷൻ ഉപയോഗിച്ച് സ്വരൂപത്തിൽ അവിടെ ചുരുങ്ങിയത് മൂന്ന് "
+"പാളികൾ ആയിരിക്കണം."
+
+#: src/menus/image/fit-canvas-to-layers.xml:10(title)
+#, fuzzy
+msgid "Fit Canvas to Layers"
+msgstr ""
+"L_ayers ക്യാൻവാസ് അനുയോജ്യമാക്കുക"
+
+#: src/menus/image/fit-canvas-to-layers.xml:13(primary)
+#: src/menus/image/fit-canvas-to-selection.xml:11(primary)
+#: src/menus/image/canvas-size.xml:20(primary)
+#, fuzzy
+msgid "Canvas"
+msgstr ""
+"കാൻവാസ് വലിപ്പം"
+
+#: src/menus/image/fit-canvas-to-layers.xml:14(secondary)
+#, fuzzy
+msgid "Fit canvas size to layers"
+msgstr ""
+"L_ayers ക്യാൻവാസ് അനുയോജ്യമാക്കുക"
+
+#: src/menus/image/fit-canvas-to-layers.xml:17(primary)
+#, fuzzy
+msgid "Fit canvas to layers"
+msgstr ""
+"L_ayers ക്യാൻവാസ് അനുയോജ്യമാക്കുക"
+
+#: src/menus/image/fit-canvas-to-layers.xml:20(para)
+msgid ""
+"The <guimenuitem>Fit Canvas to Layers</guimenuitem> command adapts the "
+"canvas size to the size of the largest layer in the image, in both width and "
+"height."
+msgstr ""
+"<guimenuitem>Fit Canvas to Layers</guimenuitem> കമാൻഡ് ചിത്രം ഏറ്റവും വലിയ "
+"പാളി, വീതിയും ഉയരവും ലെ വലിപ്പം ക്യാൻവാസ് വലിപ്പം അനുയോജ്യമാകുന്നു."
+
+#: src/menus/image/fit-canvas-to-layers.xml:25(para)
+msgid ""
+"When you create or open an image, the canvas size is defined as the image "
+"size and remains unchanged if you add new layers. If you add a layer larger "
+"than the canvas, only the area limited by the canvas will be visible. To "
+"show the whole layer, use this command."
+msgstr ""
+"സൃഷ്ടിക്കുമ്പോൾ അല്ലെങ്കിൽ ഒരു ഇമേജ് തുറക്കുമ്പോൾ, ക്യാൻവാസ് വലുപ്പം ഇമേജ"
+"് വലുപ്പം നിർവചിക്കപ്പെടും നിങ്ങൾ പുതിയ പാളികൾ ചേർക്കുക എങ്കിൽ മാറ്റമില്ലാത"
+"െ നിലനിൽക്കുന്നു ആണ്. നിങ്ങൾ ക്യാൻവാസ് വലുതാണ് ഒരു പാളി ചേർക്കുകയാണെങ്കിൽ, "
+"ക്യാൻവാസ് പരിമിതിയുളളവനായിരുന്നതെങ്കിൽ മാത്രം പ്രദേശത്തെ ദൃശ്യമാകും. മുഴുവൻ"
+" പാളി കാണിക്കുന്നതിനുള്ള, ഈ കമാൻഡ് ഉപയോഗിക്കുക."
+
+#: src/menus/image/fit-canvas-to-layers.xml:33(title)
+#: src/menus/image/fit-canvas-to-selection.xml:24(title)
+#: src/menus/image/crop.xml:41(title)
+#, fuzzy
+msgid "Activate the command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/image/fit-canvas-to-layers.xml:36(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Fit Canvas to Layers</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Recently Closed Docks</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് "
+"ചെയ്യാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/transform.xml:28(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/transform.png'; "
+"md5=79fb9e2dc305a00f795d004549ebb9eb"
+msgstr ""
+"@@image: 'images/menus/select.png'; md5=e2a02dde8de72d42430b777b89d0ee2a"
+
+#: src/menus/image/transform.xml:11(title)
+#: src/menus/image/transform.xml:15(secondary)
+#: src/menus/image/transform.xml:18(primary)
+#, fuzzy
+msgid "Transform"
+msgstr ""
+"പരിവർത്തനംചെയ്യൂ"
+
+#: src/menus/image/transform.xml:22(title)
+#, fuzzy
+msgid "The <quote>Transform</quote> submenu of the <quote>Image</quote> menu"
+msgstr ""
+"<quote>Select</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/image/transform.xml:32(para)
+msgid ""
+"The items on the <guimenuitem>Transform</guimenuitem> submenu transform the "
+"image by flipping it, rotating it or cropping it."
+msgstr ""
+"<guimenuitem>Transform</guimenuitem> ഉപമെനുവുണ്ട് ഇനങ്ങൾ കറങ്ങുന്ന അല്ലെങ്ക"
+"ിൽ അതു കത്രിക്കൽ അതു ഒന്നല്ല ചിത്രം മാറുന്നു."
+
+#: src/menus/image/transform.xml:41(para)
+#, fuzzy
+msgid ""
+"You can access this submenu from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Transform</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/transform.xml:53(title)
+#, fuzzy
+msgid "The Contents of the <quote>Transform</quote> Submenu"
+msgstr ""
+"<quote>Tools</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/image/transform.xml:54(para)
+msgid ""
+"The <guimenuitem>Transform</guimenuitem> submenu has the following commands:"
+msgstr ""
+"<guimenuitem>Transform</guimenuitem> ഉപമെനുവുണ്ട് കമാൻഡുകൾ ഉണ്ട്:"
+
+#: src/menus/image/transform.xml:61(link)
+#: src/menus/image/transform-flip.xml:11(title)
+#, fuzzy
+msgid "Flip Horizontally; Flip Vertically"
+msgstr ""
+"_Horizontally ഫ്ലിപ്പ്ചെയ്യുക"
+
+#: src/menus/image/transform.xml:67(link)
+#, fuzzy
+msgid "Rotate 90° clockwise / counter-clockwise; Rotate 180°"
+msgstr ""
+"90 ° വിരുദ്ധ-clock_wise തിരിക്കുക"
+
+#: src/menus/image/transform.xml:73(link)
+#: src/menus/image/transform-guillotine.xml:11(title)
+#: src/menus/image/transform-guillotine.xml:18(primary)
+msgid "Guillotine"
+msgstr ""
+"ഗില്ലറ്റിൻ"
+
+#: src/menus/image/fit-canvas-to-selection.xml:8(title)
+#, fuzzy
+msgid "Fit Canvas to Selection"
+msgstr ""
+"തിരഞ്ഞെടുക്കുന്നതിലേക്ക് F_it ക്യാൻവാസ്"
+
+#: src/menus/image/fit-canvas-to-selection.xml:12(secondary)
+#, fuzzy
+msgid "Fit canvas size to selection"
+msgstr ""
+"തിരഞ്ഞെടുക്കുന്നതിലേക്ക് F_it ക്യാൻവാസ്"
+
+#: src/menus/image/fit-canvas-to-selection.xml:15(primary)
+#, fuzzy
+msgid "Fit canvas to selection"
+msgstr ""
+"തിരഞ്ഞെടുക്കുന്നതിലേക്ക് F_it ക്യാൻവാസ്"
+
+#: src/menus/image/fit-canvas-to-selection.xml:18(para)
+msgid ""
+"The <guimenuitem>Fit Canvas to Selection</guimenuitem> command adapts the "
+"canvas size to the size of the selection, in both width and height."
+msgstr ""
+"<guimenuitem>Fit Canvas to Selection</guimenuitem> കമാൻഡ് വീതിയും ഉയരവും ൽ "
+"നിരക്കു വലിപ്പം ക്യാൻവാസ് വലിപ്പം അനുയോജ്യമാകുന്നു."
+
+#: src/menus/image/fit-canvas-to-selection.xml:27(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Fit Canvas to Selection</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/convert-indexed.xml:59(None)
+msgid ""
+"@@image: 'images/dialogs/image-mode-indexed.png'; "
+"md5=58dfaf3a53485abad08eab635cf83d56"
+msgstr ""
+"@@image: 'images/dialogs/image-mode-indexed.png'; "
+"md5=58dfaf3a53485abad08eab635cf83d56"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/convert-indexed.xml:146(None)
+msgid ""
+"@@image: 'images/dialogs/examples/dither1.png'; "
+"md5=3aaae1cf3be24f34b6bafb9af55a4d12"
+msgstr ""
+"@@image: 'images/dialogs/examples/dither1.png'; "
+"md5=3aaae1cf3be24f34b6bafb9af55a4d12"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/convert-indexed.xml:160(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/dialogs/examples/dither2.png'; "
+"md5=916cb30b0170065d2aa881541dec06d1"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/convert-indexed.xml:174(None)
+msgid ""
+"@@image: 'images/dialogs/examples/dither3.png'; "
+"md5=431be1e71044089153529e4e80ca5a93"
+msgstr ""
+"@@image: 'images/dialogs/examples/dither3.png'; "
+"md5=431be1e71044089153529e4e80ca5a93"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/convert-indexed.xml:188(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/dialogs/examples/dither4.png'; "
+"md5=1acd38a97240ccf6cabfa923755fd60c"
+msgstr ""
+"@@image: 'images/menus/windows/expanded-menu.png'; "
+"md5=368b926c465b0abf28df35f2cdaaf128"
+
+#: src/menus/image/convert-indexed.xml:11(title)
+#, fuzzy
+msgid "Indexed mode"
+msgstr ""
+"ഇൻഡെക്സ്"
+
+#: src/menus/image/convert-indexed.xml:16(tertiary)
+#, fuzzy
+msgid "To indexed mode"
+msgstr ""
+"സൂചികപ്പെടുത്തിയിട്ടില്ല"
+
+#: src/menus/image/convert-indexed.xml:20(secondary)
+#: src/menus/image/mode.xml:67(link)
+msgid "Indexed"
+msgstr ""
+"ഇൻഡെക്സ്"
+
+#: src/menus/image/convert-indexed.xml:23(primary)
+#, fuzzy
+msgid "Indexed colors"
+msgstr ""
+"ഇൻഡെക്സ്ഡ് നിറം"
+
+#: src/menus/image/convert-indexed.xml:26(para)
+msgid ""
+"The <guimenuitem>Indexed</guimenuitem> command converts your image to "
+"indexed mode. See <link linkend=\"glossary-colormodel\">indexed colors</"
+"link> in the Glossary for more information about Indexed Color Mode."
+msgstr ""
+"<guimenuitem>Indexed</guimenuitem> കമാൻഡ് ഇൻഡെക്സ്ഡ് മോഡിലേക്ക് നിങ്ങളുടെ "
+"ചിത്രം മാറ്റപ്പെടുന്നു. സൂചികയിലാക്കിയത് കളർ മോഡ് കുറിച്ച് കൂടുതൽ വിവരങ്ങൾ"
+"ക്ക് ഗ്ലോസറിയിൽ <link linkend=\"glossary-colormodel\">indexed colors</link"
+"> കാണുക."
+
+#: src/menus/image/convert-indexed.xml:37(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Mode</"
+"guisubmenu><guimenuitem>Indexed</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/convert-indexed.xml:50(title)
+#: src/menus/image/convert-indexed.xml:56(title)
+#, fuzzy
+msgid "The <quote>Convert Image to Indexed Colors</quote> dialog"
+msgstr ""
+"സൂചികയിലാക്കിയത് കളേഴ്സ് ലേക്ക് ഇമേജ് പരിവർത്തനം"
+
+#: src/menus/image/convert-indexed.xml:51(para)
+msgid ""
+"The <guimenuitem>Indexed</guimenuitem> command opens the <guilabel>Convert "
+"Image to Indexed Colors</guilabel> dialog."
+msgstr ""
+"<guimenuitem>Indexed</guimenuitem> കമാൻഡ് <guilabel>Convert Image to Indexe"
+"d Colors</guilabel> ഡയലോഗ് തുറക്കുന്നു."
+
+#: src/menus/image/convert-indexed.xml:65(term)
+#, fuzzy
+msgid "Colormap Options"
+msgstr ""
+"വർണ്ണ ഓപ്ഷനുകൾ"
+
+#: src/menus/image/convert-indexed.xml:69(para)
+msgid ""
+"<guilabel>Generate optimum palette</guilabel>: This option generates the "
+"best possible palette with a default maximum number of 256 colors (classic "
+"GIF format). You can reduce this <emphasis>Maximum Number of Colors</"
+"emphasis>, although this may create unwanted effects (color banding) on "
+"smooth transitions. You may be able to lessen the unwanted effects by using "
+"dithering, however."
+msgstr ""
+"<guilabel>Generate optimum palette</guilabel>: ഈ ഓപ്ഷൻ 256 നിറങ്ങൾ (ക്ലാസിക"
+"് GIF ഫോർമാറ്റിൽ) ഒരു സ്ഥിര പരമാവധി എണ്ണം സാധ്യതയുള്ള ഏറ്റവും മികച്ച പാലറ്"
+"റ് സൃഷ്ടിക്കുന്നു. ഈ മിനുസമുള്ള സംക്രമണങ്ങളിൽ അനാവശ്യ ഇഫക്റ്റുകൾ (കളർ പരിചയ"
+"വുമായാണ്) സൃഷ്ടിക്കാൻ നേരമ്ം ഈ <emphasis>Maximum Number of Colors</emphasis"
+"> കുറയ്ക്കാൻ കഴിയും. എന്നിരുന്നാലും വി.എസിന്റെ ഉപയോഗിച്ച് ആവശ്യമില്ലാത്ത ഇ"
+"ഫക്റ്റുകൾ കുറഞ്ഞേക്കും കഴിഞ്ഞേക്കാം."
+
+#: src/menus/image/convert-indexed.xml:80(para)
+msgid ""
+"<guilabel>Use web-optimized palette</guilabel>: use a palette that is "
+"optimized for the web."
+msgstr ""
+"<guilabel>Use web-optimized palette</guilabel>: വെബ് അനുരൂപമാക്കിയിരിക്കുന്"
+"നു ഒരു പാലറ്റ് ഉപയോഗിക്കുക."
+
+#: src/menus/image/convert-indexed.xml:85(para)
+msgid ""
+"<guilabel>Use black and white (1-bit) palette</guilabel>: This option "
+"generates an image which uses only two colors, black and white."
+msgstr ""
+"<guilabel>Use black and white (1-bit) palette</guilabel>: ഈ ഓപ്ഷൻ മാത്രമാണ്"
+" രണ്ട് നിറങ്ങൾ, കറുപ്പും വെളുപ്പും ഉപയോഗിയ്ക്കുന്നു ഒരു ഇമേജ് സൃഷ്ടിക്കുന്"
+"നു."
+
+#: src/menus/image/convert-indexed.xml:91(para)
+msgid ""
+"<guilabel>Use custom palette</guilabel>: This button lets you select a "
+"custom palette from a list. The number of colors is indicated for each "
+"palette. The <quote>Web</quote> palette, with 216 colors, is the <quote>web-"
+"safe</quote> palette. It was originally created by Netscape to provide "
+"colors that would look the same on both Macs and PCs, and Internet Explorer "
+"3 could manage it. Since version 4, MSIE handles a 212 color palette. The "
+"problem of color similarity between all platforms has not been solved yet "
+"and it probably never will be. When designing a web page, you should keep "
+"two principles in mind: use light text on a dark background or dark text on "
+"a light background, and never rely on color to convey information."
+msgstr ""
+"<guilabel>Use custom palette</guilabel>: ഈ ബട്ടൺ ലിസ്റ്റിൽ നിന്ന് ഒരു കസ്റ്"
+"റം പാലറ്റ് തിരഞ്ഞെടുക്കുക അനുവദിക്കുന്നു. നിറങ്ങൾ എണ്ണം ഓരോ പാലറ്റ് വേണ്ടി"
+" തെളിവാണ്. <quote>Web</quote> പാലറ്റ്, 216 നിറങ്ങൾ, <quote>web- safe</quote"
+"> പാലറ്റ് ആണ്. ഇത് യഥാർത്ഥത്തിൽ Mac, PC രണ്ടും ഒരേ നോക്കും നിറങ്ങൾ നൽകുന്ന"
+"തിന് നെറ്റ്സ്കേപ്പ് സൃഷ്ടിച്ചിരിക്കുന്നു, Internet Explorer 3 നേടാനായത്. പത"
+"ിപ്പ് 4 മുതൽ, MSIE ഒരു 212 വർണ്ണ പാലറ്റ് കൈകാര്യം. എല്ലാ പ്ലാറ്റ്ഫോമുകളിലു"
+"ം തമ്മിലുള്ള നിറം ഒരളവിൽ പ്രശ്നം ഇതുവരെ പരിഹരിച്ചതായി ഇതുവരെയും അതു ആയിരിക്"
+"കും ഒരുപക്ഷേ ഒരിക്കലും. ഒരു വെബ് പേജ് ഡിസൈനിംഗ് ചെയ്യുമ്പോൾ, മനസ്സിൽ രണ്ടു"
+" തത്ത്വങ്ങളും വേണം: ഒരു ലൈറ്റ് പശ്ചാത്തലത്തിൽ ഇരുണ്ട പശ്ചാത്തലത്തിൽ അല്ലെങ്"
+"കിൽ കടും പാഠം വെളിച്ചം വാചകം ഉപയോഗിക്കുകയും വിവരങ്ങൾ കൈമാറുന്നതിന് നിറം ആശ"
+"്രയിക്കുന്നത് ഒരിക്കലും."
+
+#: src/menus/image/convert-indexed.xml:106(para)
+msgid ""
+"Some colors in the palette may not be used if your image does not have many "
+"colors. They will be removed from the palette if the <guilabel>Remove unused "
+"colors from final palette</guilabel> option is checked."
+msgstr ""
+"നിങ്ങളുടെ ചിത്രം പല നിറങ്ങൾ ഇല്ലെങ്കിലോ പാലറ്റ് ചില നിറങ്ങൾ ഉപയോഗിക്കരുത്"
+". <guilabel>Remove unused colors from final palette</guilabel> ഓപ്ഷൻ എങ്കിൽ"
+" അവർ പാലറ്റ് നിന്നും നീക്കംചെയ്യും."
+
+#: src/menus/image/convert-indexed.xml:117(term)
+#, fuzzy
+msgid "Dithering Options"
+msgstr ""
+"മറ്റു ഓപ്ഷനുകൾ"
+
+#: src/menus/image/convert-indexed.xml:119(para)
+msgid ""
+"Since an indexed image contains 256 colors or less, some colors in the "
+"original image may not be available in the palette. This may result in some "
+"blotchy or solid patches in areas which should have subtle color changes. "
+"The dithering options let you correct the unwanted effects created by the "
+"Palette Options."
+msgstr ""
+"ഗണമാണോയെന്നത് ചിത്രം 256 നിറങ്ങൾ കുറവോ അടങ്ങിയിരിക്കുന്നു മുതൽ, യഥാർത്ഥ ച"
+"ിത്രം ചില നിറങ്ങൾ പാലറ്റ് ലഭ്യമാണ് വന്നേക്കാം. ഈ സൂക്ഷ്മമായ നിറം മാറ്റങ്ങൾ "
+"വേണം പ്രദേശങ്ങളുടെ ചില blotchy അല്ലെങ്കിൽ ഖര പാച്ചുകൾ കാരണമായേക്കാം. വി.എസി"
+"ന്റെ ഓപ്ഷനുകൾ പാലറ്റ് ഓപ്ഷനുകൾ സൃഷ്ടിച്ച ആവശ്യമില്ലാത്ത ഇഫക്റ്റുകൾ തിരുത്താ"
+"ൻ ചെയ്യട്ടെ."
+
+#: src/menus/image/convert-indexed.xml:126(para)
+msgid ""
+"A dithering filter tries to approximate a color which is missing from the "
+"palette by instead using clusters of pixels of similar colors which are in "
+"the palette. When seen from a distance, these pixels give the impression of "
+"a new color. See the Glossary for more information on <link linkend="
+"\"glossary-dithering\">dithering</link>."
+msgstr ""
+"ഒരു വി.എസിന്റെ അരിപ്പ പകരം പാലറ്റ് ആകുന്നു സമാനമായ നിറങ്ങൾ പിക്സൽ ക്ലസ്റ്ററ"
+"ുകൾ ഉപയോഗിച്ച് പാലറ്റ് നിന്ന് കാണുന്നില്ലെങ്കിൽ ഒരു നിറം ഏകദേശം ശ്രമിക്കുന"
+"്നു. അകലെ നിന്നും നോക്കുമ്പോൾ, ഈ പിക്സൽ ഒരു പുതിയ നിറം തോന്നിപ്പോകും. <"
+"link linkend=\"glossary-dithering\">dithering</link> കൂടുതൽ വിവരങ്ങൾക്കായി "
+"സഭകള്ക്കുമറിയില്ല കാണുക."
+
+#: src/menus/image/convert-indexed.xml:134(para)
+msgid ""
+"Three filters (plus <quote>None</quote>) are available. It is not possible "
+"to predict what the result of a particular filter will be on your image, so "
+"you will have to try all of them and see which works best. The "
+"<quote>Positioned Color Dithering</quote> filter is well adapted to "
+"animations."
+msgstr ""
+"മൂന്ന് ഫിൽട്ടറുകൾ (പ്ലസ് <quote>None</quote>) ലഭ്യമാണ്. ഒരു പ്രത്യേക അരിപ്പ"
+" ഫലമായാണ് നിങ്ങളുടെ ചിത്രത്തിൽ ആകും എന്തു പ്രവചിക്കാൻ സാധ്യമല്ല, അതിനാൽ നിങ"
+"്ങൾ എല്ലാ ശ്രമിക്കുക മികച്ച പ്രവർത്തിക്കുന്നു കാണാൻ വരും. <quote>Positioned"
+" Color Dithering</quote> അരിപ്പ നന്നായി ആനിമേഷനുകൾ ലേക്ക് ചേർച്ചപ്പെടുത്തുക"
+"യാണ്."
+
+#: src/menus/image/convert-indexed.xml:143(title)
+#, fuzzy
+msgid "Example: full color, with no dithering"
+msgstr ""
+"അന്യോന്യം നിറം സ്വാപ്പ്"
+
+#: src/menus/image/convert-indexed.xml:149(para)
+msgid "This is an example image with a smooth transition in RGB Mode."
+msgstr ""
+"ഈ ആർജിബി മോഡിൽ ഒരു മിനുസമുള്ള സംക്രമണത്തോടൊപ്പം ഒരു ഉദാഹരണം ചിത്രം."
+
+#: src/menus/image/convert-indexed.xml:157(title)
+#, fuzzy
+msgid "Example: four colors, with no dithering"
+msgstr ""
+"അന്യോന്യം നിറം സ്വാപ്പ്"
+
+#: src/menus/image/convert-indexed.xml:163(para)
+msgid ""
+"The same image, after being transformed to four indexed colors, without "
+"dithering."
+msgstr ""
+"അതേ ചിത്രം, ആലസ്യം ഇല്ലാതെ, നാല് ഇൻഡെക്സ്ഡ് നിറങ്ങൾ രൂപാന്തരപ്പെടുന്നു ശേഷം"
+"."
+
+#: src/menus/image/convert-indexed.xml:171(title)
+#, fuzzy
+msgid "Example: Floyd-Steinberg (normal)"
+msgstr ""
+"ഫ്ലോയ്ഡ്-നാഥന് (സാധാരണ)"
+
+#: src/menus/image/convert-indexed.xml:177(para)
+msgid ""
+"The same image, with four indexed colors and <quote>Floyd-Steinberg (normal)"
+"</quote> dithering."
+msgstr ""
+"നാല് ഇൻഡെക്സ്ഡ് നിറങ്ങൾക്കും <quote>Floyd-Steinberg (normal) </quote> വി.എസ"
+"ിന്റെ ഒരേ ചിത്രം."
+
+#: src/menus/image/convert-indexed.xml:185(title)
+#, fuzzy
+msgid "Example: Floyd-Steinberg (reduced color bleeding)"
+msgstr ""
+"ഫ്ലോയ്ഡ്-നാഥന് (കുറച്ചിട്ടുണ്ട് നിറം രക്തസ്രാവം)"
+
+#: src/menus/image/convert-indexed.xml:191(para)
+msgid ""
+"The same image, with four indexed colors and <quote>Floyd-Steinberg (reduced "
+"color bleeding)</quote> dithering."
+msgstr ""
+"നാല് ഇൻഡെക്സ്ഡ് നിറങ്ങൾക്കും <quote>Floyd-Steinberg (reduced color bleeding"
+")</quote> വി.എസിന്റെ ഒരേ ചിത്രം."
+
+#: src/menus/image/convert-indexed.xml:199(para)
+msgid ""
+"In a GIF image, transparency is encoded in 1 bit: transparent or not "
+"transparent. To give the illusion of partial transparency, you can use the "
+"<guilabel>Enable dithering of transparency</guilabel> option. However, the "
+"<link linkend=\"plug-in-semiflatten\">Semi-flatten</link> plug-in may give "
+"you better results."
+msgstr ""
+"ഒരു GIF ചിത്രം ൽ സുതാര്യത 1 ബിറ്റ് എഴുതപ്പെട്ടിട്ടുണ്ട്: സുതാര്യമായ അല്ലെങ്"
+"കിൽ സുതാര്യമല്ല. ഭാഗിക സുതാര്യത മിഥ്യാബോധം നൽകാൻ, നിങ്ങൾ <guilabel>Enable "
+"dithering of transparency</guilabel> ഐച്ഛികം ഉപയോഗിക്കാം. എന്നാൽ <link lin"
+"kend=\"plug-in-semiflatten\">Semi-flatten</link> പ്ലഗ്-ഇൻ നിങ്ങൾക്ക് മെച്ചപ"
+"്പെട്ട ഫലങ്ങൾ നൽകും."
+
+#: src/menus/image/convert-indexed.xml:211(para)
+msgid ""
+"You can edit the color palette of an indexed image by using the <link "
+"linkend=\"gimp-indexed-palette-dialog\">Colormap Dialog</link>."
+msgstr ""
+"നിങ്ങൾ <link linkend=\"gimp-indexed-palette-dialog\">Colormap Dialog</link>"
+" ഉപയോഗിച്ച് ഗണമാണോയെന്നത് ചിത്രം നിറം പാലറ്റ് എഡിറ്റുചെയ്യാനാകും."
+
+#: src/menus/image/flatten.xml:11(title)
+msgid "Flatten Image"
+msgstr ""
+"ചിത്രം പരത്തുക"
+
+#: src/menus/image/flatten.xml:14(primary)
+#: src/menus/image/canvas-size.xml:145(term)
+msgid "Layers"
+msgstr ""
+"പാളികൾ"
+
+#: src/menus/image/flatten.xml:15(secondary)
+#, fuzzy
+msgid "Merge all layers"
+msgstr ""
+"പാളികൾ ലയിപ്പിക്കുക"
+
+#: src/menus/image/flatten.xml:18(primary)
+#, fuzzy
+msgid "Flatten"
+msgstr ""
+"മാതൃക"
+
+#: src/menus/image/flatten.xml:21(para)
+msgid ""
+"The <guimenuitem>Flatten Image</guimenuitem> command merges all of the "
+"layers of the image into a single layer with no alpha channel. After the "
+"image is flattened, it has the same appearance it had before. The difference "
+"is that all of the image contents are in a single layer without "
+"transparency. If there are any areas which are transparent through all of "
+"the layers of the original image, the background color is visible."
+msgstr ""
+"<guimenuitem>Flatten Image</guimenuitem> കമാൻഡ് ആൽഫ ചാനലുമായി ഒരു ലെയറിലേക്"
+"ക് ചിത്രം പാളികൾ എല്ലാ രാവിലും. ചിത്രം നീട്ടപ്പെടുമ്പോൾ ശേഷം, ഒരേ ഭാവം അതി"
+"ന്റെ മുമ്പിൽ ഉണ്ടായിരുന്നു ഉണ്ട്. വ്യത്യാസം ഇമേജ് എല്ലാ സുതാര്യതയും ഇല്ലാത്"
+"ത ഒരു പാളിയായി എന്നതാണ്. യഥാർത്ഥ ചിത്രത്തിന്റെ പാളികൾ എല്ലാ വഴി സുതാര്യമായ "
+"ഏതെങ്കിലും പ്രദേശങ്ങൾ ഉണ്ട്, പശ്ചാത്തല നിറം ദൃശ്യമാണ്."
+
+#: src/menus/image/flatten.xml:30(para)
+msgid ""
+"This operation makes significant changes to the structure of the image. It "
+"is normally only necessary when you would like to save an image in a format "
+"which does not support levels or transparency (an alpha channel)."
+msgstr ""
+"ഈ പ്രവർത്തനം ചിത്രം ഘടനയിൽ കാര്യമായ മാറ്റങ്ങൾ ചെയ്യുന്നു. അതു നിങ്ങൾ അളവ് അ"
+"ല്ലെങ്കിൽ സുതാര്യതയും (ഒരു ആല്ഫാ ചാനൽ) പിന്തുണയ്ക്കുന്നില്ല ഒരു ഫോർമാറ്റിൽ"
+" ഒരു ചിത്രം സംരക്ഷിക്കുവാൻ ആഗ്രഹിക്കുന്ന സമയത്ത് സാധാരണയായി നൽകേണ്ടതുള്ളൂ."
+
+#: src/menus/image/flatten.xml:41(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Flatten Image</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/properties.xml:53(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/properties.png'; "
+"md5=61b3bf928e9a255ba42c0090a3886c1a"
+msgstr ""
+"@@image: 'images/menus/windows/dockable-dialogs.png'; "
+"md5=6f795d821ab2dc388b7aed62a94a6ad5"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/properties.xml:163(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/properties-profile.png'; "
+"md5=7a626f4ca6f96fccc12b3097fe22c574"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/properties.xml:180(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/properties-comment.png'; "
+"md5=885f70a5eff8b08fddff550cebb7a6c0"
+msgstr ""
+"@@image: 'images/menus/detached-submenu.png'; "
+"md5=8746ad151b99ae854ff6248044c735c2"
+
+#: src/menus/image/properties.xml:10(title)
+#: src/menus/image/properties.xml:13(primary)
+msgid "Image Properties"
+msgstr ""
+"ചിത്രം പ്രോപ്പർട്ടീസ്"
+
+#: src/menus/image/properties.xml:16(para)
+msgid ""
+"The <quote>Image Properties</quote> command opens a window that shows lots "
+"of different information for the image."
+msgstr ""
+"<quote>Image Properties</quote> കമാൻഡ് ചിത്രത്തിനായുള്ള വിവിധ ധാരാളം വിവരങ്"
+"ങൾ കാണിക്കുന്ന ഒരു ജാലകം തുറക്കുന്നു."
+
+#: src/menus/image/properties.xml:25(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Image Properties</"
+"guimenuitem></menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/properties.xml:34(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Alt</"
+"keycap><keycap>Return</keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Alt</keycap><keycap>Retur"
+"n</keycap></keycombo> ഉപയോഗിച്ച്."
+
+#: src/menus/image/properties.xml:43(title)
+msgid "Options"
+msgstr ""
+"ഓപ്ഷനുകൾ"
+
+#: src/menus/image/properties.xml:44(para)
+msgid "The properties window is divided into three tabs."
+msgstr ""
+"ഉള്ള കിളിവാതിൽ മൂന്നു ടാബുകൾ തിരിച്ചിട്ടുണ്ട്."
+
+#: src/menus/image/properties.xml:47(title)
+#: src/menus/image/properties.xml:49(title)
+#, fuzzy
+msgid "<quote>Properties</quote> tab"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/image/properties.xml:59(term)
+#, fuzzy
+msgid "Pixel dimensions"
+msgstr ""
+"പിക്സൽ അളവുകൾ:"
+
+#: src/menus/image/properties.xml:61(para)
+msgid ""
+"Shows the image height and width in pixels, that is, the <emphasis>physical</"
+"emphasis> size of the image."
+msgstr ""
+"പിക്സലിൽ ഇമേജ് ഉയരം വീതി, ആ, ചിത്രത്തിന്റെ <emphasis>physical</emphasis> വ്"
+"യാപ്തി."
+
+#: src/menus/image/properties.xml:68(term)
+#: src/menus/image/print-size.xml:23(secondary)
+#, fuzzy
+msgid "Print size"
+msgstr ""
+"പ്രിന്റ് വലുപ്പം:"
+
+#: src/menus/image/properties.xml:70(para)
+msgid ""
+"Shows the size the image will have when it is printed, in the current units. "
+"This is the <emphasis>logical</emphasis> size of the image. It depends upon "
+"the physical size of the image and the screen resolution."
+msgstr ""
+"ചിത്രം നിലവിലെ യൂണിറ്റുകളിൽ, അച്ചടിക്കാൻ പാകത്തിൽ ഉണ്ടാകും വലുപ്പം കാണിക്കു"
+"ന്നു. ഈ ചിത്രത്തിന്റെ <emphasis>logical</emphasis> വ്യാപ്തി. അത് ചിത്രത്തിന"
+"്റെ സ്ക്രീൻ റെസലൂഷൻ ശാരീരിക വലിപ്പം ആശ്രയിച്ചിരിക്കുന്നു."
+
+#: src/menus/image/properties.xml:79(term)
+#: src/menus/image/print-size.xml:18(primary)
+msgid "Resolution"
+msgstr ""
+"മിഴിവ്"
+
+#: src/menus/image/properties.xml:81(para)
+#, fuzzy
+msgid "Shows the print resolution of the image in pixel per inch."
+msgstr ""
+"ഇഞ്ച് ശണ്ഠകൂടി നമ്പറിലേക്ക് പ്രിന്റ് ആനുപാതികമാക്കുക"
+
+#: src/menus/image/properties.xml:87(term)
+#, fuzzy
+msgid "Color space"
+msgstr ""
+"കളർ സ്പേസ്:"
+
+#: src/menus/image/properties.xml:89(para)
+#, fuzzy
+msgid "Shows the images color space."
+msgstr ""
+"ചിത്രം കളർ സാമ്പിൾ പോയിന്റുകൾ പ്രദർശിപ്പിക്കുക"
+
+#: src/menus/image/properties.xml:93(term)
+msgid "File name"
+msgstr ""
+"ഫയലിന്റെ പേര്"
+
+#: src/menus/image/properties.xml:95(para)
+#, fuzzy
+msgid "Path and name of the file that contains the image."
+msgstr ""
+"പാളി തനിപ്പകർപ്പ് സൃഷ്ടിക്കുക, ഇമേജ് ഇത് ചേർക്കുക"
+
+#: src/menus/image/properties.xml:101(term)
+#, fuzzy
+msgid "File size"
+msgstr ""
+"ഫയൽ വലിപ്പം:"
+
+#: src/menus/image/properties.xml:103(para)
+#, fuzzy
+msgid "Size of the file that contains the image."
+msgstr ""
+"ചിത്രത്തിന്റെ വലുപ്പം ലെയർ വലുപ്പം"
+
+#: src/menus/image/properties.xml:107(term)
+#, fuzzy
+msgid "File type"
+msgstr ""
+"ഫയൽ തരം"
+
+#: src/menus/image/properties.xml:109(para)
+msgid "Format of the file that contains the image."
+msgstr ""
+"ചിത്രം ഉൾപ്പെടുന്ന ഫയൽ ഫോർമാറ്റ്."
+
+#: src/menus/image/properties.xml:113(term)
+#, fuzzy
+msgid "Size in memory"
+msgstr ""
+"മെമ്മറിയിൽ വലിപ്പം:"
+
+#: src/menus/image/properties.xml:115(para)
+msgid ""
+"RAM consumption of the loaded image including the images journal. This "
+"information is also displayed in the image window. The size is quite "
+"different from the size of the file on disk. That is because the displayed "
+"image is decompressed and because <acronym>GIMP</acronym> keeps a copy of "
+"the image in memory for Redo operations."
+msgstr ""
+"ചിത്രങ്ങൾ ജേണൽ ഉൾപ്പെടെയുള്ള കയറ്റികൊണ്ട് ചിത്രത്തിന്റെ റാം ഉപഭോഗം. ഈ വിവ"
+"രം പുറമേ ചിത്രം വിൻഡോയിൽ പ്രദർശിപ്പിച്ചിരിക്കുന്നു. വലുപ്പം ഡിസ്കിലെ ഫയലിന"
+"്റെ വലുപ്പം നിന്ന് തികച്ചും വ്യത്യസ്തമാണ്. പ്രദർശിപ്പിച്ച ചിത്രം റാമിലേക്ക്"
+" കാരണം ആണ് <acronym>GIMP</acronym> വീണ്ടും പ്രക്രിയകൾക്കുള്ള മെമ്മറിയിൽ ചിത"
+"്രത്തിന്റെ ഒരു പകർപ്പ് സൂക്ഷിക്കുന്നു കാരണം."
+
+#: src/menus/image/properties.xml:127(term)
+#, fuzzy
+msgid "Undo steps"
+msgstr ""
+"ഘട്ടങ്ങൾ പഴയപടിയാക്കുക:"
+
+#: src/menus/image/properties.xml:129(para)
+msgid ""
+"Number of actions you have performed on the image, that you can undo. You "
+"can see them in the <link linkend=\"gimp-undo-dialog\">Undo History</link> "
+"dialog."
+msgstr ""
+"നിങ്ങൾ ചിത്രത്തിൽ നിർവഹിച്ച നിങ്ങൾ പഴയപടിയാക്കാനുമാകും പ്രവർത്തനങ്ങൾ എണ്ണം."
+" നിങ്ങൾ <link linkend=\"gimp-undo-dialog\">Undo History</link> ഡയലോഗിൽ അവര"
+"െ കാണാൻ കഴിയും."
+
+#: src/menus/image/properties.xml:137(term)
+#, fuzzy
+msgid "Redo steps"
+msgstr ""
+"ഘട്ടങ്ങൾ വീണ്ടും ചെയ്യുക:"
+
+#: src/menus/image/properties.xml:139(para)
+msgid "Number of actions you have undone, that you can redo."
+msgstr ""
+"നിങ്ങൾ വീണ്ടും കഴിയുന്ന, പൂർവാവസ്ഥയിലാക്കിയ പ്രവർത്തനങ്ങളുണ്ട് എണ്ണം."
+
+#: src/menus/image/properties.xml:145(term)
+msgid "Number of pixels; Number of layers; Number of channels; Number of paths"
+msgstr ""
+"പിക്സൽ എണ്ണം; പാളികൾ എണ്ണം; ചാനലുകളുടെ എണ്ണം; പാതകൾ എണ്ണം"
+
+#: src/menus/image/properties.xml:150(para)
+#, fuzzy
+msgid "Well counted!"
+msgstr ""
+"C_ell ഉള്ളടക്കം:"
+
+#: src/menus/image/properties.xml:157(title)
+#: src/menus/image/properties.xml:159(title)
+#, fuzzy
+msgid "<quote>Color profile</quote> tab"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/image/properties.xml:167(para)
+msgid ""
+"This tab contains the name of the color profile the image is loaded into "
+"GIMP with. Default is the built-in <quote>sRGB</quote> profile."
+msgstr ""
+"ഈ ടാബ് നിറം പ്രൊഫൈൽ ചിത്രം ഉപയോഗിച്ച് ജിമ്പ് ലോഡ് പേര് അടങ്ങിയിരിക്കുന്ന"
+"ു. സ്വതേ ബിൽറ്റ്-ഇൻ <quote>sRGB</quote> പ്രൊഫൈൽ ആണ്."
+
+#: src/menus/image/properties.xml:174(title)
+#: src/menus/image/properties.xml:176(title)
+#, fuzzy
+msgid "<quote>Comments</quote> tab"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/image/properties.xml:184(para)
+msgid "This tab allows you to view and edit a comment for the image."
+msgstr ""
+"ഈ ടാബ് നിങ്ങൾക്ക് കാണാനും ചിത്രത്തിനായി ഒരു അഭിപ്രായം അനുവദിക്കുന്നു."
+
+#: src/menus/image/transform-guillotine.xml:15(secondary)
+msgid "Cut off image according to guides"
+msgstr ""
+"ഗൈഡുകൾ തക്കവണ്ണം ചിത്രം കത്രിച്ചു"
+
+#: src/menus/image/transform-guillotine.xml:21(para)
+msgid ""
+"The <guimenuitem>Guillotine</guimenuitem> command slices up the current "
+"image, based on the image's guides. It cuts the image along each guide, "
+"similar to slicing documents in an office with a guillotine (paper cutter) "
+"and creates new images out of the pieces. For further information on guides, "
+"see <xref linkend=\"gimp-concepts-image-guides\"/>."
+msgstr ""
+"<guimenuitem>Guillotine</guimenuitem> കമാൻഡ് കഷണങ്ങൾ അപ്പ് നിലവിലെ ചിത്രം, "
+"ചിത്രം ഗൈഡുകൾ അടിസ്ഥാനമാക്കി. ഓരോ ഗൈഡ് സഹിതം ചിത്രം ഒരു ഗില്ലറ്റിൻ (പേപ്പർ"
+" മുറിക്കുന്ന) ഉപയോഗിച്ചുള്ള ഒരു ഓഫീസിൽ പ്രമാണങ്ങൾ മുറിക്കൽ സമാനമായ മുറിവു "
+"കഷണങ്ങളായി നിന്നു പുതിയ ഇമേജുകൾ ഉണ്ടാക്കുന്നു. ഗൈഡുകൾ കൂടുതൽ വിവരങ്ങൾക്ക്, "
+"<xref linkend=\"gimp-concepts-image-guides\" /> കാണുക."
+
+#: src/menus/image/transform-guillotine.xml:34(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Transform</"
+"guisubmenu><guimenuitem>Guillotine</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/configure-grid.xml:53(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/configure-grid.png'; "
+"md5=25a79a529c60ef80aafcbfa5eb788a39"
+msgstr ""
+"@@image: 'images/menus/tab-menu.png'; md5=e3a7977b2570a5f5a3a776e89e884d02"
+
+#: src/menus/image/configure-grid.xml:11(title)
+msgid "Configure Grid"
+msgstr ""
+"ഗ്രിഡ് ക്രമീകരിക്കുക"
+
+#: src/menus/image/configure-grid.xml:15(primary)
+msgid "Grid"
+msgstr ""
+"ഗ്രിഡ്"
+
+#: src/menus/image/configure-grid.xml:16(secondary)
+#, fuzzy
+msgid "configure"
+msgstr ""
+"ഗ്രിഡ് ക്രമീകരിക്കുക"
+
+#: src/menus/image/configure-grid.xml:19(para)
+msgid ""
+"The <guimenuitem>Configure Grid</guimenuitem> command lets you set the "
+"properties of the grid which you can display over your image while you are "
+"working on it. The <acronym>GIMP</acronym> provides only Cartesian grids. "
+"You can choose the color of the grid lines, and the spacing and offsets from "
+"the origin of the image, independently for the horizontal and vertical grid "
+"lines. You can choose one of five different grid styles."
+msgstr ""
+"<guimenuitem>Configure Grid</guimenuitem> കമാൻഡ് നിങ്ങൾ അതിൽ പ്രവർത്തിക്കുക"
+"യാണ് സമയത്ത്, നിങ്ങൾ നിങ്ങളുടെ ചിത്രം മേൽ പ്രദർശിപ്പിക്കുകയും കഴിയും ഗ്രിഡ്"
+" സജ്ജമാക്കാൻ അനുവദിക്കുന്നു. <acronym>GIMP</acronym> മാത്രം കാര്ട്ടീഷ്യന്പ്"
+"ലോട്ട് ഗ്രിഡുകൾ നൽകുന്നു. നിങ്ങൾ സ്വതന്ത്രമായി തിരശ്ചീന, ലംബ ഗ്രിഡ് ലൈനുകൾ"
+" വേണ്ടി, ചിത്രം ഉത്ഭവം നിന്ന് ഗ്രിഡ് ലൈനുകൾ നിറവും സ്പേസിംഗ്, ഓഫ്സെറ്റുകളുണ"
+"്ടു് തിരഞ്ഞെടുക്കാം. നിങ്ങൾ അഞ്ചു വ്യത്യസ്ത ഗ്രിഡ് ശൈലികളുടെ തിരഞ്ഞെടുക്കാം"
+"."
+
+#: src/menus/image/configure-grid.xml:33(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Configure Grid</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/configure-grid.xml:45(title)
+msgid "Description of the <quote>Configure Grid</quote> dialog"
+msgstr ""
+"<quote>Configure Grid</quote> ഡയലോഗിന്റെ വിവരണം"
+
+#: src/menus/image/configure-grid.xml:49(title)
+#, fuzzy
+msgid "The <quote>Configure grid</quote> dialog"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/image/configure-grid.xml:58(title)
+msgid "Appearance"
+msgstr ""
+"കാഴ്ച"
+
+#: src/menus/image/configure-grid.xml:59(para)
+msgid ""
+"In the <guimenu>Configure Image Grid</guimenu> dialog, you can set the "
+"properties of the grid which is shown when you turn on the image grid."
+msgstr ""
+"<guimenu>Configure Image Grid</guimenu> ഡയലോഗിൽ, നിങ്ങൾ ഇമേജ് ഗ്രിഡ് ഓൺ ചെ"
+"യ്യുമ്പോൾ ഏത് കാണിച്ചിരിക്കുന്നു ഗ്രിഡ് സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/menus/image/configure-grid.xml:65(term)
+#, fuzzy
+msgid "Line style"
+msgstr ""
+"ലൈൻ _style:"
+
+#: src/menus/image/configure-grid.xml:69(term)
+msgid "Intersections (dots)"
+msgstr ""
+"കവലകളും (ഡോട്ടുകൾ)"
+
+#: src/menus/image/configure-grid.xml:71(para)
+msgid ""
+"This style, the least conspicuous, shows a simple dot at each intersection "
+"of the grid lines."
+msgstr ""
+"ഈ രീതിയിൽ, കുറഞ്ഞത് പാതകൾ, ഗ്രിഡ് ലൈനുകൾ ഓരോ ജംഗ്ഷനിൽ ഒരു ലളിതമായ ഡോട്ട് "
+"കാണിക്കുന്നു."
+
+#: src/menus/image/configure-grid.xml:78(term)
+msgid "Intersections (crosshairs)"
+msgstr ""
+"കവലകളും (crosshairs)"
+
+#: src/menus/image/configure-grid.xml:80(para)
+msgid ""
+"This style, the default, shows a plus-shaped crosshair at each intersection "
+"of the grid lines."
+msgstr ""
+"ഈ രീതിയിൽ, സ്വതവേ, ഗ്രിഡ് ലൈനുകൾ ഓരോ ജംഗ്ഷനിൽ ഒരു പ്ലസ് ആകൃതിയിലുള്ള അടയാള"
+"സൂചി കാണിക്കുന്നു."
+
+#: src/menus/image/configure-grid.xml:87(term)
+msgid "Dashed"
+msgstr ""
+"ഒന്നിടവിട്ട"
+
+#: src/menus/image/configure-grid.xml:89(para)
+msgid ""
+"This style shows dashed lines in the foreground color of the grid. If the "
+"lines are too close together, the grid won't look good."
+msgstr ""
+"ഈ രീതിയിൽ ഗ്രിഡിന്റെ മുന്ഭാഗത്തെ തകർത്തുകളഞ്ഞു വരികൾ കാണിക്കുന്നു. വരികൾ ഒര"
+"ുമിച്ചു വളരെ അടുത്താണ് എങ്കിൽ, ഗ്രിഡ് മനോഹരമായിരിക്കും ചെയ്യില്ല."
+
+#: src/menus/image/configure-grid.xml:97(term)
+msgid "Double dashed"
+msgstr ""
+"ഇരട്ട ഡാഷ്ഡ്"
+
+#: src/menus/image/configure-grid.xml:99(para)
+#, fuzzy
+msgid ""
+"This style shows dashed lines, where the foreground and background colors of "
+"the grid alternate."
+msgstr ""
+"പണിസഞ്ചിയിൽ നിലവിലെ മുന്നിലും പശ്ചാത്തലത്തിലും വർണ്ണങ്ങളും കാണിക്കുക."
+
+#: src/menus/image/configure-grid.xml:106(term)
+msgid "Solid"
+msgstr ""
+"സോളിഡ്"
+
+#: src/menus/image/configure-grid.xml:108(para)
+#, fuzzy
+msgid "This style shows solid grid lines in the foreground color of the grid."
+msgstr ""
+"ഗ്രിഡിന്റെ മുൻഭാഗത്തെ."
+
+#: src/menus/image/configure-grid.xml:118(term)
+#, fuzzy
+msgid "Foreground and Background colors"
+msgstr ""
+"മുൻവശം / പശ്ചാത്തല വർണ്ണങ്ങൾ"
+
+#: src/menus/image/configure-grid.xml:120(para)
+msgid "Click on the color dwell to select a new color for the grid."
+msgstr ""
+"ഗ്രിഡ് ഒരു പുതിയ നിറം തിരഞ്ഞെടുക്കുന്നതിന് നിറം പാർക്കയില്ല ക്ലിക്കുചെയ്യുക"
+"."
+
+#: src/menus/image/configure-grid.xml:127(title)
+msgid "Spacing"
+msgstr ""
+"അകലം"
+
+#: src/menus/image/configure-grid.xml:129(term)
+#: src/menus/image/configure-grid.xml:141(term)
+#, fuzzy
+msgid "Width and Height"
+msgstr ""
+"ഭൂമി ഉയരം"
+
+#: src/menus/image/configure-grid.xml:131(para)
+msgid "You can select the cell size of the grid and the unit of measurement."
+msgstr ""
+"നിങ്ങൾ ഗ്രിഡിന്റെ സെൽ വലിപ്പം, അളക്കാനുള്ള യൂണിറ്റ് തിരഞ്ഞെടുക്കാം."
+
+#: src/menus/image/configure-grid.xml:139(title)
+#: src/menus/image/canvas-size.xml:95(title)
+msgid "Offset"
+msgstr ""
+"ഓഫ്സെറ്റ്"
+
+#: src/menus/image/configure-grid.xml:143(para)
+msgid ""
+"You can set the offset of the first cell. The coordinate origin is the upper "
+"left corner of the image. By default, the grid begins at the coordinate "
+"origin, (0,0)."
+msgstr ""
+"നിങ്ങൾ ആദ്യം സെല്ലിന്റെ ഓഫ്സെറ്റ് സജ്ജമാക്കാൻ കഴിയും. കോർഡിനേറ്റ് വംശജനായ "
+"ചിത്രം മുകളിലെ ഇടത് കോണിൽ ആണ്. സ്വതവേ, ഗ്രിഡ് കോർഡിനേറ്റ് ഉത്ഭവം തുടങ്ങുന"
+"്നത്, (0,0)."
+
+#: src/menus/image/transform-rotate.xml:11(title)
+#: src/menus/image/transform-rotate.xml:16(primary)
+msgid "Rotation"
+msgstr ""
+"റൊട്ടേഷൻ"
+
+#: src/menus/image/transform-rotate.xml:19(para)
+msgid ""
+"You can rotate the image 90° clockwise or counter-clockwise, or rotate it "
+"180°, by using the rotation commands on the <guimenuitem>Transform</"
+"guimenuitem> submenu of the <guimenu>Image</guimenu> menu. These commands "
+"can be used to change between Portrait and Landscape orientation. They work "
+"on the whole image. If you want to rotate the image at a different angle, "
+"rotate a selection or rotate a layer, use the <link linkend=\"gimp-tool-"
+"rotate\">Rotate Tool</link>. You can also rotate a layer by using the <link "
+"linkend=\"gimp-layer-transform-menu\">Layer Transform</link> menu."
+msgstr ""
+"നിങ്ങൾ <guimenu>Image</guimenu> മെനുവിന്റെ <guimenuitem>Transform</guimenui"
+"tem> സബ്മെനു ന് റൊട്ടേഷൻ ആജ്ഞകൾ ഉപയോഗിച്ച്, ഇമേജ് 90 ° ഘടികാരദിശയിൽ അല്ലെ"
+"ങ്കിൽ എതിർഘടികാരദിശയിൽ തിരിക്കുക, അല്ലെങ്കിൽ അതു 180 ° തിരിക്കുകയോ കഴിയും."
+" ഈ കമാൻഡുകൾ അർദ്ധകായ ലാൻഡ്സ്കേപ്പ് ഓറിയന്റേഷൻ മാറാൻ ഉപയോഗിക്കാൻ കഴിയും. അവ"
+"ർ മുഴുവൻ ചിത്രം പ്രവർത്തിക്കാം. നിങ്ങൾ മറ്റൊരു കോണിൽ ചിത്രം തിരിക്കുന്നതി"
+"ന് ആഗ്രഹിക്കുന്ന ഒരു നിര തിരിക്കുന്നതിനോ ഒരു പാളി തിരിക്കുന്നതിന് എങ്കിൽ <"
+"link linkend=\"gimp-tool- rotate\">Rotate Tool</link> ഉപയോഗിക്കുക. നിങ്ങൾക"
+"്ക് <link linkend=\"gimp-layer-transform-menu\">Layer Transform</link> മെനു"
+" ഉപയോഗിച്ച് ഒരു പാളി തിരിക്കാനോ കഴിയും."
+
+#: src/menus/image/transform-rotate.xml:33(title)
+#: src/menus/image/transform-flip.xml:34(title)
+#, fuzzy
+msgid "Activate the Commands"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/image/transform-rotate.xml:34(para)
+msgid "You can access these three commands from the image menubar through"
+msgstr ""
+"നിങ്ങൾ വഴി ഇമേജ് മെനുബാർ നിന്ന് ഈ മൂന്നു കമാൻഡുകൾ ആക്സസ് ചെയ്യാൻ കഴിയും"
+
+#: src/menus/image/transform-rotate.xml:39(para)
+#, fuzzy
+msgid ""
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Transform</"
+"guisubmenu><guimenuitem>Rotate 90 degrees CW</guimenuitem></menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/transform-rotate.xml:47(para)
+msgid ""
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Transform</"
+"guisubmenu><guimenuitem>Rotate 90 degrees CCW</guimenuitem></menuchoice> and"
+msgstr ""
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Transform</guisubmenu><guim"
+"enuitem>Rotate 90 degrees CCW</guimenuitem></menuchoice> ആൻഡ്"
+
+#: src/menus/image/transform-rotate.xml:56(para)
+#, fuzzy
+msgid ""
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Transform</"
+"guisubmenu><guimenuitem>Rotate 180°</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/merge-layers.xml:69(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/merge-visible.png'; "
+"md5=b759280b40e6f8efb61dde9e609bb460"
+msgstr ""
+"@@image: 'images/menus/tab-menu.png'; md5=e3a7977b2570a5f5a3a776e89e884d02"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/merge-layers.xml:124(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/merge-visible-ex1.png'; "
+"md5=b00e2b465a01a3b41988ff1486125d60"
+msgstr ""
+"@@image: 'images/menus/tab-menu.png'; md5=e3a7977b2570a5f5a3a776e89e884d02"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/merge-layers.xml:133(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/merge-visible-ex2.png'; "
+"md5=8c66ec83471118f2b08124802efaea9b"
+msgstr "@@image: 'images/menus/help.png'; md5=166c3b733e8d1c03b26206812c7c44a9"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/merge-layers.xml:144(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/merge-visible-ex3.png'; "
+"md5=402ceee61292585717828684f4378415"
+msgstr ""
+"@@image: 'images/menus/detached-submenu.png'; "
+"md5=8746ad151b99ae854ff6248044c735c2"
+
+#: src/menus/image/merge-layers.xml:11(title)
+#: src/menus/image/merge-layers.xml:19(primary)
+msgid "Merge Visible Layers"
+msgstr ""
+"ദൃശ്യം ലെയറുകൾ ലയിപ്പിക്കുക"
+
+#: src/menus/image/merge-layers.xml:16(tertiary)
+#, fuzzy
+msgid "Merge visible layers"
+msgstr ""
+"ദൃശ്യം ലെയറുകൾ ലയിപ്പിക്കുക"
+
+#: src/menus/image/merge-layers.xml:22(para)
+msgid ""
+"The <guimenuitem>Merge Visible Layers</guimenuitem> command merges the "
+"layers which are visible into a single layer. Visible layers are those which "
+"are indicated on the Layers dialog with an <quote>eye</quote> icon."
+msgstr ""
+"<guimenuitem>Merge Visible Layers</guimenuitem> കമാൻഡ് ഒരു ലെയറിലേക്ക് ദൃശ്"
+"യമാണ് ഏത് പാളികൾ ലയിപ്പിക്കുന്നു. ദൃശ്യം പാളികൾ ഒരു <quote>eye</quote> ഐക്ക"
+"ൺ ഡയലോഗ് ലേയറുകളിൽ കാണിക്കേണ്ടതാണ് ഏത് ഭാഗ്യവാന്മാർ."
+
+#: src/menus/image/merge-layers.xml:29(para)
+msgid ""
+"With this command, the original visible layers disappear. With the <link "
+"linkend=\"gimp-layer-new-from-visible\">New From Visible</link> command, a "
+"new layer is created at top of the stack and original visible layers persist."
+msgstr ""
+"ഈ കമാൻഡ് ഉപയോഗിച്ച്, യഥാർത്ഥ കാണാവുന്ന പാളികൾ അപ്രത്യക്ഷമാകും. <link linke"
+"nd=\"gimp-layer-new-from-visible\">New From Visible</link> കമാൻഡ് ഉപയോഗിച്"
+"ച്, ഒരു പുതിയ പാളി സ്റ്റാക്ക് മുകളിലുള്ള തയ്യാറാക്കി, യഥാർത്ഥ കാണാവുന്ന പാള"
+"ികൾ നിലനിൽക്കുകയുള്ളൂ."
+
+#: src/menus/image/merge-layers.xml:41(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Merge Visible Layers</"
+"guimenuitem></menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/merge-layers.xml:50(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>M</"
+"keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>M</k"
+"eycap></keycombo> ഉപയോഗിച്ച്."
+
+#. dialog title differs from command name (GIMP-2.6.7)
+#: src/menus/image/merge-layers.xml:60(title)
+#, fuzzy
+msgid "Description of the <quote>Merge Layers</quote> Dialog"
+msgstr ""
+"<quote>Select</quote> മെനു ആമുഖം"
+
+#: src/menus/image/merge-layers.xml:64(title)
+#, fuzzy
+msgid "The <quote>Merge Layers</quote> Dialog"
+msgstr ""
+"<quote>Layer</quote> മെനു"
+
+#: src/menus/image/merge-layers.xml:75(term)
+msgid "Final, Merged Layer should be:"
+msgstr ""
+"ഫൈനൽ ലയിപ്പിച്ചു ലെയർ ആയിരിക്കണം:"
+
+#: src/menus/image/merge-layers.xml:77(para)
+msgid ""
+"Visible layers are the layers which are marked with an <quote>eye</quote> "
+"icon in the Layers dialog."
+msgstr ""
+"ദൃശ്യം പാളികൾ പാളികളുടെ ഡയലോഗിൽ ഒരു <quote>eye</quote> ഐക്കൺ ഉപയോഗിച്ച് അ"
+"ടയാളപ്പെടുത്തിയിരിക്കും ഏത് പാളികൾ ആകുന്നു."
+
+#: src/menus/image/merge-layers.xml:83(para)
+msgid ""
+"<emphasis>Expanded as necessary</emphasis>: The final layer is large enough "
+"to contain all of the merged layers. Please note that a layer in "
+"<acronym>GIMP</acronym> can be larger than the image."
+msgstr ""
+"<emphasis>Expanded as necessary</emphasis>: അന്തിമ പാളി ലയിപ്പിച്ച പാളികൾ എ"
+"ല്ലാ ഉൾക്കൊള്ളാൻ മാത്രം വലുതാണ്. <acronym>GIMP</acronym> ഒരു പാളി ഇമേജ് കൂ"
+"ടുതലായിരിക്കണം എന്ന് ഓർക്കുക."
+
+#: src/menus/image/merge-layers.xml:92(para)
+msgid ""
+"<emphasis>Clipped to image</emphasis>: The final layer is the same size as "
+"the image. Remember that layers in <acronym>GIMP</acronym> can be larger "
+"than the image itself. Any layers in the image that are larger than the "
+"image are clipped by this option."
+msgstr ""
+"<emphasis>Clipped to image</emphasis>: അന്തിമ പാളി ഇമേജ് അതേ വലുപ്പം ആണ്. <"
+"acronym>GIMP</acronym> ലെ പാളികൾ ചിത്രത്തിൽ തന്നെ കൂടുതലായിരിക്കണം കഴിയുമെന"
+"്ന് ഓർമിക്കുക. ചിത്രം വലുതാണ് ആ സ്വരൂപത്തിൽ ഏതെങ്കിലും പാളികൾ ഈ ഓപ്ഷൻ വഴി ച"
+"െത്തിയെടുത്തത് ചെയ്യുന്നു."
+
+#: src/menus/image/merge-layers.xml:101(para)
+msgid ""
+"<emphasis>Clipped to bottom layer</emphasis>: The final layer is the same "
+"size as the bottom layer. If the bottom layer is smaller than some of the "
+"visible layers, the final layer is clipped and trimmed to the size and "
+"position of the bottom layer."
+msgstr ""
+"<emphasis>Clipped to bottom layer</emphasis>: അന്തിമ പാളി ചുവടെ പാളി അതേ വല"
+"ുപ്പം ആണ്. ചുവടെ പാളി ദൃശ്യമായ പാളികൾ ചില ചെറുതാണ് എങ്കിൽ, അവസാന പാളി ചുവടെ"
+" പാളി വലുപ്പവും സ്ഥാനത്തേക്ക് ചെത്തിയെടുത്തത് ചെയ്ത് കസവുകൊണ്ടുള്ളതു."
+
+#: src/menus/image/merge-layers.xml:113(term)
+#, fuzzy
+msgid "Discard invisible layers"
+msgstr ""
+"_Discard അദൃശ്യ പാളികൾ"
+
+#: src/menus/image/merge-layers.xml:115(para)
+msgid ""
+"When this option is checked, non visible layers are removed from the layer "
+"stack."
+msgstr ""
+"ഈ ഓപ്ഷൻ എപ്പോഴാണ് ചെക്കുചെയ്തിട്ടുണ്ടെന്നും, നോൺ ദൃശ്യമായ പാളികൾ പാളി സ്റ"
+"്റാക്ക് നിന്നും നീക്കംചെയ്തു."
+
+#: src/menus/image/merge-layers.xml:120(title)
+#, fuzzy
+msgid "<quote>Merge visible layers</quote> example"
+msgstr ""
+"പാളി കയറി ദൃശ്യമായ എല്ലാ പാളികൾ ലയിപ്പിക്കുക"
+
+#: src/menus/image/merge-layers.xml:127(para)
+msgid "Three layers; two are visible"
+msgstr ""
+"മൂന്ന് പാളികൾ; രണ്ട് ദൃശ്യമാണ്"
+
+#: src/menus/image/merge-layers.xml:136(para)
+#, fuzzy
+msgid "<quote>Discard invisible layers</quote> unchecked"
+msgstr ""
+"_Discard അദൃശ്യ പാളികൾ"
+
+#: src/menus/image/merge-layers.xml:147(para)
+#, fuzzy
+msgid "<quote>Discard invisible layers</quote> checked"
+msgstr ""
+"_Discard അദൃശ്യ പാളികൾ"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/introduction.xml:20(None)
+#, fuzzy
+msgid "@@image: 'images/menus/image.png'; md5=508ee5021e43eeb7e94b8b88dce204fa"
+msgstr ""
+"@@image: 'images/menus/select.png'; md5=e2a02dde8de72d42430b777b89d0ee2a"
+
+#: src/menus/image/introduction.xml:10(title)
+msgid "Overview"
+msgstr ""
+"പൊതു അവലോകനം"
+
+#: src/menus/image/introduction.xml:13(primary)
+msgid "Menus"
+msgstr ""
+"വിഭവസൂചികകള്"
+
+#: src/menus/image/introduction.xml:17(title)
+#, fuzzy
+msgid "The Contents of the <quote>Image</quote> Menu"
+msgstr ""
+"<quote>Select</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/image/introduction.xml:24(para)
+msgid ""
+"The <guimenuitem>Image</guimenuitem> menu contains commands which use or "
+"affect the entire image in some way, not just the active layer or some other "
+"specific part of the image."
+msgstr ""
+"<guimenuitem>Image</guimenuitem> മെനു ചില വിധത്തിൽ ചിത്രം മുഴുവനായും ഉപയോഗ"
+"ിക്കാൻ അല്ലെങ്കിൽ ബാധിക്കുന്ന കമാൻഡുകൾ, വെറും സജീവ പാളി അല്ലെങ്കിൽ ചിത്രം മ"
+"റ്റെന്തെങ്കിലും പ്രത്യേക ഭാഗം അടങ്ങിയിരിക്കുന്നു."
+
+#: src/menus/image/convert-rgb.xml:10(title)
+#, fuzzy
+msgid "RGB mode"
+msgstr ""
+"_RGB നിറം മോഡൽ"
+
+#: src/menus/image/convert-rgb.xml:13(primary)
+#: src/menus/image/convert-rgb.xml:22(secondary)
+#: src/menus/image/mode.xml:57(link)
+#, fuzzy
+msgid "RGB"
+msgstr ""
+"ആർജിബി"
+
+#: src/menus/image/convert-rgb.xml:18(tertiary)
+msgid "To RGB mode"
+msgstr ""
+"ആർജിബി മോഡിലേക്ക്"
+
+#: src/menus/image/convert-rgb.xml:25(para)
+msgid ""
+"The <guimenuitem>RGB</guimenuitem> command converts your image to RGB mode. "
+"See the <link linkend=\"glossary-rgb\">RGB</link> description in the "
+"Glossary for more information. Normally, you work in this mode, which is "
+"well-adapted to the screen. It is possible to convert an RGB image to "
+"Grayscale or Indexed mode, but be careful: once you have saved the image, "
+"you can no longer retrieve the RGB colors, so you should work on a copy of "
+"your image."
+msgstr ""
+"<guimenuitem>RGB</guimenuitem> കമാൻഡ് ആർജിബി മോഡിലേക്ക് നിങ്ങളുടെ ചിത്രം മ"
+"ാറ്റപ്പെടുന്നു. കൂടുതൽ വിവരങ്ങൾക്ക് ഗ്ലോസറിയിൽ <link linkend=\"glossary-rg"
+"b\">RGB</link> വിവരണം കാണുക. സാധാരണ, ഈ മോഡിൽ പ്രവർത്തിക്കുന്നു സ്ക്രീനിലേക"
+"്ക് നന്നായി ചേർച്ചപ്പെടുത്തുകയാണ് ഏത്. ഇത് ഗ്രേസ്കെയിൽ അല്ലെങ്കിൽ ഇൻഡെക്സ്ഡ"
+"് മോഡ് ഒരു ആർജിബി ചിത്രം പരിവർത്തനം സാധ്യമാണ്, പക്ഷേ ശ്രദ്ധിക്കുക: നിങ്ങൾ "
+"ചിത്രം സംരക്ഷിച്ചു ചെയ്തുകഴിഞ്ഞാൽ, ഇനി ആർജിബി നിറങ്ങൾ, അതുവഴി നിങ്ങളുടെ ചിത"
+"്രത്തിന്റെ ഒരു പകർപ്പ് പ്രവർത്തിക്കും എന്നോർക്കുക വീണ്ടെടുക്കാനും കഴിയും."
+
+#: src/menus/image/convert-rgb.xml:36(title)
+#, fuzzy
+msgid "Activating the command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/image/convert-rgb.xml:39(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menu bar through "
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Mode</"
+"guisubmenu><guimenuitem>RGB</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/print-size.xml:60(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/print-size.png'; "
+"md5=5586f708f5f46b043bbeab776f0b4f22"
+msgstr ""
+"@@image: 'images/menus/tab-menu.png'; md5=e3a7977b2570a5f5a3a776e89e884d02"
+
+#: src/menus/image/print-size.xml:11(title)
+#: src/menus/image/print-size.xml:26(primary)
+msgid "Print Size"
+msgstr ""
+"പ്രിന്റ് വലിപ്പം"
+
+#: src/menus/image/print-size.xml:14(primary)
+#: src/menus/image/print-size.xml:19(secondary)
+msgid "Printing"
+msgstr ""
+"അച്ചടി"
+
+#: src/menus/image/print-size.xml:15(secondary)
+#, fuzzy
+msgid "Size and resolution"
+msgstr ""
+"ചിത്രം സംരക്ഷിക്കുക"
+
+#: src/menus/image/print-size.xml:29(para)
+msgid ""
+"You can use the <guimenuitem>Print Size</guimenuitem> dialog to change the "
+"<emphasis>dimensions of a printed image</emphasis> and its "
+"<emphasis>resolution</emphasis>. This command does not change the number of "
+"pixels in the image and it does not resample the image. (If you want to "
+"change the size of an image by resampling it, use the <link linkend=\"gimp-"
+"image-scale\">Scale Image</link> command.)"
+msgstr ""
+"നിങ്ങൾ <emphasis>dimensions of a printed image</emphasis> അതിന്റെ <emphasis"
+">resolution</emphasis> മാറ്റാൻ <guimenuitem>Print Size</guimenuitem> ഡയലോഗ"
+"് ഉപയോഗിക്കാൻ കഴിയും. ഈ കമാൻഡ് ഇമേജിൽ പിക്സലുകളുടെ എണ്ണം മാറ്റാൻ ഇല്ല അത് "
+"ചിത്രത്തിന്റെ റീസാമ്പിൾ ഇല്ല. (അത് റീസാമ്പിൾ ഒരു ചിത്രത്തിന്റെ വലുപ്പം മാറ്"
+"റണമെങ്കിൽ, <link linkend=\"gimp- image-scale\">Scale Image</link> കമാൻഡ് ഉപ"
+"യോഗിക്കുക.)"
+
+#: src/menus/image/print-size.xml:39(title)
+#, fuzzy
+msgid "Activating the Dialog"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/image/print-size.xml:42(para)
+#, fuzzy
+msgid ""
+"You can access this dialog from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Print Size</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/print-size.xml:54(title)
+#, fuzzy
+msgid "Options in the <quote>Print Size</quote> Dialog"
+msgstr ""
+"<quote>Select</quote> മെനു ആമുഖം"
+
+#: src/menus/image/print-size.xml:56(title)
+#, fuzzy
+msgid "The <quote>Print Size</quote> dialog"
+msgstr ""
+"<quote>File</quote> മെനു"
+
+#: src/menus/image/print-size.xml:64(para)
+msgid ""
+"The output resolution determines the number of pixels used per unit length "
+"for the printed image. Do not confuse the output resolution with the printer "
+"resolution, which is expressed in dpi (dots per inch); several dots are used "
+"to print a pixel."
+msgstr ""
+"ഔട്ട്പുട്ട് ചിത്രം അച്ചടിച്ച ചിത്രത്തിനായുള്ള യൂണിറ്റും ഓരോ ഉപയോഗിക്കുന്ന"
+" പിക്സൽ നിർണ്ണയിക്കുന്നു. dpi ഉപയോഗിച്ച (ഇഞ്ച് per inch) പ്രകടിപ്പിച്ച ഏത്"
+" പ്രിന്റർ റെസലൂഷൻ, ഉൽപാദനവും റെസലൂഷൻ ആശയക്കുഴപ്പമുണ്ടാക്കരുത്; നിരവധി കുത്ത"
+"ുകൾ ഒരു പിക്സൽ പ്രിന്റ് ഉപയോഗിക്കുന്നു."
+
+#: src/menus/image/print-size.xml:70(para)
+msgid ""
+"When the dialog is displayed, the resolution shown in the boxes is the "
+"resolution of the original image. If you increase the output resolution, the "
+"printed page will be smaller, since more pixels are used per unit of length. "
+"Conversely, and for the same reason, resizing the image modifies the "
+"resolution."
+msgstr ""
+"ഡയലോഗ് പ്രദർശിപ്പിക്കുമ്പോൾ, പെട്ടികളിൽ കാണിച്ചിരിക്കുന്ന ചിത്രം യഥാർത്ഥ "
+"ചിത്രത്തിന്റെ ചിത്രം ആണ്. നിങ്ങൾക്ക് ഔട്ട്പുട്ട് ചിത്രം വർദ്ധിപ്പിക്കാൻ എങ്"
+"കിൽ അച്ചടിച്ച പേജ് കൂടുതൽ പിക്സൽ നീളം യൂണിറ്റ് ഉപയോഗിക്കുന്ന ശേഷം, ചെറിയ ആ"
+"യിരിക്കും. അതുപോലെ, ഒരേ കാരണത്താൽ, ഇമേജ് വലിപ്പംമാറ്റിക്കൊണ്ടിരിക്കുന്നജാ"
+"ലകങ്ങളിലുള്ളവകാണിയ്ക്കുക ചിത്രം മാറ്റം."
+
+#: src/menus/image/print-size.xml:77(para)
+msgid ""
+"Increasing the resolution results in increasing the sharpness of the printed "
+"page. This is quite different from simply reducing the image size by scaling "
+"it, since no pixels (and no image information) are removed."
+msgstr ""
+"അച്ചടിച്ച പേജിന്റെ മൂര്ച്ച വർദ്ധിപ്പിക്കാൻ ചിത്രം ഫലങ്ങളിൽ വർദ്ധിക്കുന്നത്."
+" യാതൊരു പിക്സൽ (ആരും ഇമേജ് വിവരങ്ങൾ) നീക്കം സ്ഥിതിക്ക് ഇത് അത് ഞെട്ടിപ്പോ"
+"കും ഇമേജ് വലുപ്പം കുറച്ചുകൊണ്ട് നിന്ന് തികച്ചും വ്യത്യസ്തമാണ്."
+
+#: src/menus/image/print-size.xml:85(term) src/menus/image/scale.xml:122(term)
+#: src/menus/image/canvas-size.xml:68(term)
+#, fuzzy
+msgid "Width; Height"
+msgstr ""
+"പൊക്കം"
+
+#: src/menus/image/print-size.xml:87(para)
+msgid ""
+"You can set the printing Width and Height by using the text boxes. You can "
+"also choose the units for these values from the dropdown list."
+msgstr ""
+"ടെക്സ്റ്റ് ബോക്സുകൾ ഉപയോഗിച്ച് അച്ചടി വീതിയും ഉയരവും സജ്ജമാക്കാൻ കഴിയും. "
+"ഡ്രോപ്പ്ഡൗൺ ലിസ്റ്റിൽ നിന്ന് ഈ മൂല്യങ്ങൾ വേണ്ടി യൂണിറ്റുകൾ തിരഞ്ഞെടുക്കാം."
+
+#: src/menus/image/print-size.xml:92(para)
+msgid ""
+"As soon as you change the Width or the Height, the X and/or Y resolution "
+"values automatically change accordingly. If the two resolution values remain "
+"linked, the relationship of the width to the height of the image is also "
+"automatically maintained. If you would like to set these values "
+"independently of each other, simply click on the chain symbol to break the "
+"link."
+msgstr ""
+"ഉടൻ വീതി അല്ലെങ്കിൽ ഉയരം മാറ്റാൻ പോലെ എക്സ് ഒപ്പം / അല്ലെങ്കിൽ Y നൽകുന്ന മ"
+"ൂല്യങ്ങൾ സ്വയം അതിനനുസരിച്ച് മാറ്റുക. രണ്ടു റെസലൂഷൻ മൂല്യങ്ങൾ ലിങ്ക്ഡ് നിലന"
+"ില്ക്കുന്നു എങ്കിൽ ചിത്രത്തിന്റെ ഉയരം വീതിയുടെ ബന്ധവും സ്വയം പരിപാലിക്കുന്ന"
+"ത്. നിങ്ങൾ സ്വതന്ത്രമായി പരസ്പരം ഈ മൂല്യങ്ങൾ സജ്ജമാക്കാൻ ആഗ്രഹിക്കുന്നുവെങ്"
+"കിൽ, കേവലം ലിങ്ക് തകർക്കാൻ ചെയിൻ ചിഹ്നം ക്ലിക്ക് ചെയ്യുക."
+
+#: src/menus/image/print-size.xml:104(term)
+#: src/menus/image/scale.xml:150(term)
+#, fuzzy
+msgid "X resolution; Y resolution"
+msgstr ""
+"അസാധുവായ Y നൽകുന്ന."
+
+#: src/menus/image/print-size.xml:106(para)
+msgid ""
+"You can set the resolution used to calculate the printed width and height "
+"from the physical size of the image, that is, the number of pixels in it."
+msgstr ""
+"നിങ്ങൾ എന്നു അതിൽ പിക്സലുകളുടെ എണ്ണം ചിത്രത്തിന്റെ ഫിസിക്കൽ വലിപ്പം, നിന്ന്"
+" അച്ചടിച്ച വീതിയും ഉയരവും കണക്കുകൂട്ടാൻ ഉപയോഗിക്കുന്ന ചിത്രം സജ്ജമാക്കാൻ ക"
+"ഴിയും."
+
+#: src/menus/image/print-size.xml:111(para)
+msgid ""
+"Use the text boxes to change these resolution values. They can be linked to "
+"keep their relationship constant. The closed chain symbol between the two "
+"boxes indicates that the values are linked together. If you break the link "
+"by clicking on the chain symbol, you will be able to set the values "
+"independently of each other."
+msgstr ""
+"ഈ ചിത്രം മൂല്യങ്ങൾ മാറ്റാൻ ടെക്സ്റ്റ് ബോക്സുകൾ ഉപയോഗിക്കുക. അവർ തങ്ങളുടെ "
+"ബന്ധം നിരന്തരമായ നിലനിർത്താൻ ലിങ്കുചെയ്യാനാകൂ. രണ്ട് ബോക്സുകൾ തമ്മിലുള്ള അ"
+"ടച്ച ചെയിൻ ചിഹ്നം മൂല്യങ്ങൾ ഒരുമിച്ചു പോകുന്നു സൂചിപ്പിക്കുന്നു. ചെയിന് ചി"
+"ഹ്നം ക്ലിക്കുചെയ്ത് കണ്ണി പൊട്ടി, നിങ്ങൾക്ക് സ്വതന്ത്രമായി പരസ്പരം മൂല്യങ്"
+"ങൾ സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/menus/image/transform-flip.xml:15(primary)
+msgid "Flip"
+msgstr ""
+"ഫ്ലിപ്"
+
+#: src/menus/image/transform-flip.xml:18(para)
+msgid ""
+"You can flip the image, or turn it over like a card, by using the "
+"<guimenuitem>Flip Horizontally</guimenuitem> or <guimenuitem>Flip "
+"Vertically</guimenuitem> commands. These commands work on the whole image. "
+"To flip a selection, use the <link linkend=\"gimp-tool-flip\">Flip Tool</"
+"link>. To flip a layer, use the functions of the <menuchoice><guimenu>Layer</"
+"guimenu><guisubmenu>Transform</guisubmenu></menuchoice> menu or the <link "
+"linkend=\"gimp-tool-flip\">Flip Tool</link>."
+msgstr ""
+"നിങ്ങൾ ചിത്രം കൃത്യമായി, അല്ലെങ്കിൽ <guimenuitem>Flip Horizontally</guimenu"
+"item> അല്ലെങ്കിൽ <guimenuitem>Flip Vertically</guimenuitem> ​​ആജ്ഞകൾ ഉപയോഗ"
+"ിച്ച്, ഒരു കാർഡ് പോലെ തിരിഞ്ഞ് കഴിയും. ഈ കമാൻഡുകൾ മുഴുവൻ ചിത്രം പ്രവർത്തിക"
+"്കാം. ഒരു നിരക്കു കൃത്യമായി, <link linkend=\"gimp-tool-flip\">Flip Tool</li"
+"nk> ഉപയോഗിക്കുക. ഒരു പാളി കൃത്യമായി, <menuchoice><guimenu>Layer</guimenu><"
+"guisubmenu>Transform</guisubmenu></menuchoice> മെനു അല്ലെങ്കിൽ <link linken"
+"d=\"gimp-tool-flip\">Flip Tool</link> പ്രവർത്തനങ്ങൾ ഉപയോഗിക്കുക."
+
+#: src/menus/image/transform-flip.xml:37(para)
+#, fuzzy
+msgid ""
+"You can access the horizontal flip command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Transform</"
+"guisubmenu><guimenuitem>Flip Horizontally</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/transform-flip.xml:48(para)
+#, fuzzy
+msgid ""
+"You can access the vertical flip command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Transform</"
+"guisubmenu><guimenuitem>Flip Vertically</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/guides-new.xml:57(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/new-guide.png'; "
+"md5=b85013ac139465ab490553b4ec85e860"
+msgstr ""
+"@@image: 'images/menus/tab-menu.png'; md5=e3a7977b2570a5f5a3a776e89e884d02"
+
+#: src/menus/image/guides-new.xml:13(title)
+#, fuzzy
+msgid "New Guide"
+msgstr ""
+"ന്യൂ _Guide ..."
+
+#: src/menus/image/guides-new.xml:16(primary)
+#: src/menus/image/guides-new-percent.xml:18(primary)
+#, fuzzy
+msgid "Guide"
+msgstr ""
+"വഴികാട്ടി"
+
+#: src/menus/image/guides-new.xml:17(secondary)
+msgid "Add"
+msgstr ""
+"ചേർക്കുക"
+
+#: src/menus/image/guides-new.xml:20(para)
+msgid ""
+"The <guimenuitem>New Guide</guimenuitem> command adds a guide to the image."
+msgstr ""
+"<guimenuitem>New Guide</guimenuitem> കമാൻഡ് ചിത്രം ഒരു ഗൈഡ് ചേർക്കുന്നു."
+
+#: src/menus/image/guides-new.xml:25(para)
+msgid ""
+"You can add guides to the image more quickly, but less accurately, by simply "
+"clicking and dragging guides from the image rulers and positioning them "
+"where you would like."
+msgstr ""
+"നിങ്ങൾക്ക് വഴി ചിത്രത്തിലേക്ക് കേവലം ഇമേജ് ഭരണാധികാരികൾ നിന്ന് വഴികാട്ടികളേ"
+" ക്ലിക്കുചെയ്ത് ചെയ്തോ നിങ്ങൾക്ക് ആഗ്രഹിക്കുന്ന അവരെ പൊസിഷനിങ് വഴി, കൂടുത"
+"ൽ വേഗത്തിൽ ചേർക്കാൻ കഴിയും, പക്ഷേ കുറവ് കൃത്യമായി."
+
+#: src/menus/image/guides-new.xml:34(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Guides</"
+"guisubmenu><guimenuitem>New Guide</guimenuitem></menuchoice>"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/guides-new.xml:45(title)
+#, fuzzy
+msgid "<quote>New Guide</quote> Options"
+msgstr ""
+"<quote>File</quote> മെനു"
+
+#: src/menus/image/guides-new.xml:46(para)
+msgid ""
+"When you select <guimenuitem>New Guide</guimenuitem>, a dialog opens, which "
+"allows you to set the <guilabel>Direction</guilabel> and <guilabel>Position</"
+"guilabel>, in pixels, of the new guide more precisely than by using click-"
+"and-drag."
+msgstr ""
+"നിങ്ങൾ <guimenuitem>New Guide</guimenuitem> തിരഞ്ഞെടുക്കുക, ഒരു ഡയലോഗ് തുറ"
+"ക്കുന്നു, നിങ്ങൾ <guilabel>Direction</guilabel> ആൻഡ് <guilabel>Position</gu"
+"ilabel>, പിക്സലിൽ, പുതിയ ഗൈഡ് കൂടുതൽ കൃത്യമായി click- ആൻഡ്-വലിച്ചു ഉപയോഗിച"
+"്ച് അധികം സജ്ജമാക്കാൻ അനുവദിക്കുന്ന."
+
+#: src/menus/image/guides-new.xml:53(title)
+#, fuzzy
+msgid "The <quote>New Guide</quote> Dialog"
+msgstr ""
+"<quote>File</quote> മെനു"
+
+#: src/menus/image/guides-new.xml:63(term)
+#: src/menus/image/guides-new-percent.xml:66(term)
+msgid "Direction"
+msgstr ""
+"സംവിധാനം"
+
+#: src/menus/image/guides-new.xml:65(para)
+#: src/menus/image/guides-new-percent.xml:68(para)
+msgid ""
+"You can choose the <guilabel>Direction</guilabel> of the guide, either "
+"<guilabel>Horizontal</guilabel> or <guilabel>Vertical</guilabel>, by using "
+"the drop-down list."
+msgstr ""
+"ഡ്രോപ്-ഡൌണ് ലിസ്റ്റ് ഉപയോഗിച്ച്, ഗൈഡിന്റെ <guilabel>Direction</guilabel>"
+" തിരഞ്ഞെടുക്കാം <guilabel>Horizontal</guilabel> അല്ലെങ്കിൽ <guilabel>Vertic"
+"al</guilabel> ഒന്നുകിൽ."
+
+#: src/menus/image/guides-new.xml:73(term)
+#: src/menus/image/guides-new-percent.xml:76(term)
+msgid "Position"
+msgstr ""
+"സ്ഥാനം"
+
+#: src/menus/image/guides-new.xml:75(para)
+msgid ""
+"The coordinate origin for the <guilabel>Position</guilabel> is the upper "
+"left corner of the canvas."
+msgstr ""
+"<guilabel>Position</guilabel> ഉറവിട കോർഡിനേറ്റ് ക്യാൻവാസ് മുകളിലെ ഇടത് കോ"
+"ണിൽ ആണ്."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/scale.xml:70(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/scale-image.png'; "
+"md5=2fe36174e3a2145e2d46d0a61f86c8ab"
+msgstr ""
+"@@image: 'images/menus/windows.png'; md5=13c6b14871d3818165be232dda179015"
+
+#: src/menus/image/scale.xml:11(title) src/menus/image/scale.xml:14(primary)
+msgid "Scale Image"
+msgstr ""
+"സ്കെയിൽ ചിത്രം"
+
+#: src/menus/image/scale.xml:17(para)
+msgid ""
+"The <guimenuitem>Scale Image</guimenuitem> command enlarges or reduces the "
+"physical size of the image by changing the number of pixels it contains. It "
+"changes the size of the contents of the image and resizes the canvas "
+"accordingly."
+msgstr ""
+"<guimenuitem>Scale Image</guimenuitem> കമാൻഡ് ഇത് അടങ്ങുന്ന പിക്സലുകളുടെ എണ"
+"്ണം മാറ്റുന്നതിലൂടെ ശക്തന്മാരായ ചിത്രത്തിന്റെ ശാരീരിക വലുപ്പം കുറയ്ക്കുന്നു"
+". അത് ചിത്രത്തിന്റെ ഉള്ളടക്കങ്ങളുടെ വലിപ്പ മാറ്റങ്ങള് അതിനനുസരിച്ച് ക്യാൻവാ"
+"സ് മാറ്റുന്നു."
+
+#: src/menus/image/scale.xml:23(para)
+msgid ""
+"It operates on the entire image. If your image has layers of different "
+"sizes, making the image smaller could shrink some of them down to nothing, "
+"since a layer cannot be less than one pixel wide or high. If this happens, "
+"you will be warned before the operation is performed."
+msgstr ""
+"മുഴുവൻ ചിത്രത്തിൽ പ്രവർത്തിക്കുന്നു. നിങ്ങളുടെ ഇമേജ് വ്യത്യസ്ത വലിപ്പത്തിലു"
+"ള്ള പാളികൾ ഉണ്ടെങ്കിൽ, ഇമേജ് ചെറിയ making അവരിൽ ചിലർ ഒന്നും ഇറങ്ങി, ഒരു പാള"
+"ി ഒരു പിക്സൽ വൈഡ് അല്ലെങ്കിൽ ഉയർന്ന കുറവായി കഴിയാത്ത സ്ഥിതിക്ക് അകലുകയും കഴ"
+"ിഞ്ഞില്ല. ഇങ്ങനെ സംഭവിക്കുകയാണെങ്കിൽ, നിങ്ങൾ ഓപ്പറേഷൻ മുമ്പുള്ള മുന്നറിയിപ്"
+"പ് ചെയ്യും."
+
+#: src/menus/image/scale.xml:29(para)
+msgid ""
+"If you only want to scale a particular layer, use the <link linkend=\"gimp-"
+"layer-scale\">Scale Layer</link> command."
+msgstr ""
+"നിങ്ങൾ ഒരു പ്രത്യേക പാളി സ്കെയിൽ ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, <link linkend=\"g"
+"imp- layer-scale\">Scale Layer</link> കമാൻഡ് ഉപയോഗിക്കുക."
+
+#: src/menus/image/scale.xml:35(para)
+msgid ""
+"If scaling would produce an image larger than the <quote>Maximum new image "
+"size</quote> set in the <link linkend=\"gimp-prefs-environment"
+"\">Environment</link> page of the Preferences dialog (which has a default of "
+"64Mb), you are warned and asked to confirm the operation before it is "
+"performed. You may not experience any problems if you confirm the operation, "
+"but you should be aware that very large images consume a lot of resources "
+"and extremely large images may take more resources than you have, causing "
+"<acronym>GIMP</acronym> to crash or not perform well."
+msgstr ""
+"കുറയുകയാണെങ്കിൽ (64Mb ഒരു സ്ഥിര ഉണ്ട്) മുൻഗണനകൾ ഡയലോഗ് <link linkend=\"gim"
+"p-prefs-environment \">Environment</link> പേജ് വെച്ചിരിക്കുന്നതും <quote>Ma"
+"ximum new image size</quote> വലുതാണ് ഒരു ചിത്രം ഉളവാക്കുമെന്ന്, നിങ്ങൾക്ക് "
+"മുന്നറിയിപ്പ് നിവർത്തിച്ചുമിരിക്കുന്നു മുമ്പുള്ള പ്രക്രിയ സ്ഥിരീകരിക്കാൻ ആവ"
+"ശ്യപ്പെട്ടു. നിങ്ങൾ ഓപ്പറേഷൻ സ്ഥിരീകരിച്ചാൽ നിങ്ങൾ എന്തെങ്കിലും പ്രശ്നങ്ങൾ "
+"നേരിടുകയാണെങ്കിൽ, എന്നാൽ നിങ്ങൾ വളരെ വലിയ ചിത്രങ്ങൾ വിഭവങ്ങൾ ധാരാളം ഉപയോഗി"
+"ക്കുന്നവരാണ് വലിയ ചിത്രങ്ങൾ <acronym>GIMP</acronym> ക്രാഷാകുകയോ നന്നായി പ്"
+"രവർത്തിക്കണമെന്നില്ല ഉളവാക്കുമാറ് നിങ്ങൾക്കുള്ള കൂടുതൽ വിഭവങ്ങൾ എടുത്തേക്കാ"
+"ം അറിഞ്ഞിരിക്കുക വേണം."
+
+#: src/menus/image/scale.xml:52(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Scale Image</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/scale.xml:64(title)
+#, fuzzy
+msgid "The <quote>Scale Image</quote> Dialog"
+msgstr ""
+"<quote>Image</quote> മെനു"
+
+#: src/menus/image/scale.xml:66(title)
+#, fuzzy
+msgid "The <quote>Scale Image</quote> dialog"
+msgstr ""
+"<quote>Image</quote> മെനു"
+
+#: src/menus/image/scale.xml:77(term)
+msgid "Image Size"
+msgstr ""
+"ചിത്രം വലിപ്പം"
+
+#: src/menus/image/scale.xml:79(para)
+msgid ""
+"You should keep in mind that an image can be located in one of four places: "
+"in the image file, in RAM after it has been loaded, on your screen when it "
+"is displayed, or on paper after it has been printed. Scaling the image "
+"changes the number of pixels (the amount of information) the image contains, "
+"so it directly affects the amount of memory the image needs (in RAM or in a "
+"file)."
+msgstr ""
+"അതു നിങ്ങളുടെ സ്ക്രീനിൽ ലോഡ് ചെയ്യുകയും ചെയ്ത ശേഷം, റാം, ഇമേജ് ഫയലിൽ പ്രദർ"
+"ശിപ്പിക്കുമ്പോഴല്ല, അല്ലെങ്കിൽ കടലാസിൽ അതു അച്ചടിച്ച ശേഷം: നിങ്ങൾ ഒരു ഇമേജ"
+"് നാലു സ്ഥലങ്ങളിൽ ഒന്നാണ് സ്ഥിതി കഴിയും ഓർക്കണം. അതു നേരിട്ട് ചിത്രം (റാം അ"
+"ല്ലെങ്കിൽ ഒരു ഫയലിൽ) ആവശ്യമാണ് മെമ്മറി അളവ് ബാധിക്കുന്നു അങ്ങനെ ചിത്രം ചെയറ"
+"ിന്, പിക്സലുകളുടെ എണ്ണം (വിവരങ്ങൾ തുക) ചിത്രവും അടങ്ങിയിരിക്കുന്നു."
+
+#: src/menus/image/scale.xml:87(para)
+msgid ""
+"However printing size also depends upon the resolution of the image, which "
+"essentially determines how many pixels there will be on each inch of paper. "
+"If you want to change the printing size without scaling the image and "
+"changing the number of pixels in it, you should use the <link linkend=\"gimp-"
+"image-print-size\">Print Size</link> dialog. The screen size depends not "
+"only on the number of pixels, but also on the screen resolution, the zoom "
+"factor and the setting of the <link linkend=\"gimp-view-dot-for-dot\">Dot "
+"for Dot</link> option."
+msgstr ""
+"എന്നിരുന്നാലും പ്രിന്റിംഗ് വലുപ്പം പുറമേ അടിസ്ഥാനപരമായി എത്ര പിക്സൽ കടലാസ് "
+"ഓരോ ഇഞ്ച് ന് ഉണ്ടാകും നിശ്ചയിക്കുന്നത് ചിത്രം, പ്രമേയത്തിലെ ആശ്രയിച്ചിരിക്"
+"കുന്നു. നിങ്ങൾ ചിത്രം കയറലും അതിൽ പിക്സലുകളുടെ എണ്ണം മാറ്റാതെ തന്നെ അച്ചടി "
+"വലിപ്പം മാറ്റാൻ ആഗ്രഹിക്കുന്നുവെങ്കിൽ നിങ്ങൾക്ക് <link linkend=\"gimp- imag"
+"e-print-size\">Print Size</link> ഡയലോഗ് ഉപയോഗിക്കണം. സ്ക്രീൻ വലുപ്പം പിക്"
+"സൽ എണ്ണത്തിലുള്ള, മാത്രമല്ല സ്ക്രീൻ റെസലൂഷൻ, സൂം ഫാക്റ്റർ ആൻഡ് <link linken"
+"d=\"gimp-view-dot-for-dot\">Dot for Dot</link> ഓപ്ഷൻ ക്രമീകരണം മാത്രമല്ല ആശ"
+"്രയിച്ചിരിക്കുന്നു."
+
+#: src/menus/image/scale.xml:99(para)
+msgid ""
+"If you enlarge an image beyond its original size, <acronym>GIMP</acronym> "
+"calculates the missing pixels by interpolation, but it does not add any new "
+"detail. The more you enlarge an image, the more blurred it becomes. The "
+"appearance of an enlarged image depends upon the interpolation method you "
+"choose. You may improve the appearance by using the <link linkend=\"plug-in-"
+"sharpen\">Sharpen</link> filter after you have scaled an image, but it is "
+"best to use high resolution when you scan, take digital photographs or "
+"produce digital images by other means. Raster images inherently do not scale "
+"up well."
+msgstr ""
+"നിങ്ങൾ അതിന്റെ യഥാർത്ഥ വലുപ്പത്തിൽ അപ്പുറം ഒരു ചിത്രം വലുതാക്കുന്നു എങ്കിൽ "
+"<acronym>GIMP</acronym> interpolation നഷ്ടപ്പെടുന്നുണ്ട് പിക്സൽ കണക്കാക്കുന"
+"്നു, പക്ഷേ ഏതെങ്കിലും പുതിയ വിശദാംശങ്ങൾ ചേർക്കുക ഇല്ല. കൂടുതൽ നിങ്ങൾക്ക് ഒര"
+"ു ഇമേജ് വലുതാക്കുന്നു കൂടുതൽ മങ്ങിയ അതു മാറുന്നു. ഒരു റെസിഡന്റ് ചിത്രം രൂപം"
+" നിങ്ങൾ തിരഞ്ഞെടുക്കുന്ന interpolation രീതി ആശ്രയിച്ചിരിക്കുന്നു. നിങ്ങൾ ഒര"
+"ു ഇമേജ് സ്കെയിൽ ശേഷം <link linkend=\"plug-in- sharpen\">Sharpen</link> അരിപ"
+"്പ ഉപയോഗിച്ച് ഭാവം മെച്ചപ്പെടുത്താൻ എങ്കിലും അതു നിങ്ങളെ സ്കാൻ ഉയർന്ന റെസല"
+"ൂഷൻ ഉപയോഗിക്കുക, ഡിജിറ്റൽ ഫോട്ടോകളെടുക്കാനുള്ള അല്ലെങ്കിൽ മറ്റ് മാർഗ്ഗങ്"
+"ങളിലൂടെ ഡിജിറ്റൽ ചിത്രങ്ങൾ നല്ലത്. റാസ്റ്റർ ചിത്രങ്ങൾ അന്തർലീനമായിട്ടുള്ള ന"
+"ന്നായി സ്കെയിൽ ചെയ്യരുത്."
+
+#: src/menus/image/scale.xml:111(para)
+msgid ""
+"You may need to reduce your image if you intend to use it on a web page. You "
+"have to consider that most internet users have relatively small screens "
+"which cannot completely display a large image. Many screens have a "
+"resolution of 1024x768 or even less."
+msgstr ""
+"നിങ്ങൾക്ക് ഒരു വെബ് പേജിൽ അത് ഉപയോഗിക്കാൻ ഉദ്ദേശിക്കുന്നുവെങ്കിൽ നിങ്ങളുടെ"
+" ചിത്രം കുറയ്ക്കാൻ വരാം. നിങ്ങൾക്ക് മിക്ക ഇന്റർനെറ്റ് ഉപയോക്താക്കളെ പൂർണ്ണ"
+"മായും ഒരു വലിയ ചിത്രം പ്രദർശിപ്പിക്കാൻ കഴിയില്ല താരതമ്യേന ചെറിയ സ്ക്രീനുകൾ "
+"ഉണ്ടെന്ന് പരിഗണിക്കണം. പല സ്ക്രീനുകൾ 1024x768 അല്ലെങ്കിൽ അതിലും കുറവ് ഒരു ച"
+"ിത്രം ഉണ്ട്."
+
+#: src/menus/image/scale.xml:117(para)
+msgid "Adding or removing pixels is called <quote>Resampling</quote>."
+msgstr ""
+"പിക്സൽ ചേർത്തുകൊണ്ടോ നീക്കംചെയ്ത് <quote>Resampling</quote> വിളിക്കുന്നു."
+
+#: src/menus/image/scale.xml:124(para)
+msgid ""
+"When you click on the <guimenuitem>Scale</guimenuitem> command, the dialog "
+"displays the dimensions of the original image in pixels. You can set the "
+"<guilabel>Width</guilabel> and the <guilabel>Height</guilabel> you want to "
+"give to your image by adding or removing pixels. If the chain icon next to "
+"the Width and Height boxes is unbroken, the Width and Height will stay in "
+"the same proportion to each other. If you break the chain by clicking on it, "
+"you can set them independently, but this will distort the image."
+msgstr ""
+"നിങ്ങൾ <guimenuitem>Scale</guimenuitem> കമാൻഡ് ക്ലിക്ക് ചെയ്യുമ്പോൾ, ഡയലോ"
+"ഗ് പിക്സലിൽ യഥാർത്ഥ ചിത്രത്തിന്റെ തലങ്ങളും പ്രദർശിപ്പിക്കുന്നു. നിങ്ങൾ <gui"
+"label>Width</guilabel> നിങ്ങൾ പിക്സൽ ചേർത്തുകൊണ്ടോ നീക്കംചെയ്ത് നിങ്ങളുടെ"
+" ഇമേജ് നൽകാൻ ആഗ്രഹിക്കുന്ന <guilabel>Height</guilabel> സജ്ജമാക്കാൻ കഴിയും. "
+"വീതിയും ഉയരവും ബോക്സുകൾ അടുത്ത ചെയിൻ ഐക്കൺ പിരിയാത്ത ആണെങ്കിൽ, വീതിയും ഉയര"
+"വും പരസ്പരം അതേ അനുപാതത്തിൽ താമസിക്കും. നിങ്ങൾ അത് ക്ലിക്കുചെയ്ത് ചെയിൻ പൊ"
+"ട്ടി, നിങ്ങൾക്ക് സ്വതന്ത്രമായി അവർക്ക് കഴിയും, എന്നാൽ ഈ ചിത്രം വളച്ചൊടിക്ക"
+"ാൻ ചെയ്യും."
+
+#: src/menus/image/scale.xml:136(para)
+msgid ""
+"However, you do not have to set the dimensions in pixels. You can choose "
+"different units from the drop-down menu. If you choose percent as the units, "
+"you can set the image size relative to its original size. You can also use "
+"physical units, such as inches or millimeters. If you do that, you should "
+"set the <guilabel>X resolution</guilabel> and <guilabel>Y resolution</"
+"guilabel> fields to appropriate values, because they are used to convert "
+"between physical units and image dimensions in pixels."
+msgstr ""
+"എന്നിരുന്നാലും, നിങ്ങൾ പിക്സലിൽ അളവുകൾ സജ്ജമാക്കാൻ ഇല്ല. ഡ്രോപ്-ഡൗൺ മെനുവി"
+"ൽ നിന്നും വിവിധ യൂണിറ്റുകൾ തിരഞ്ഞെടുക്കാം. നിങ്ങൾ യൂണിറ്റ് ശതമാനം തിരഞ്ഞെടു"
+"ക്കുകയാണെങ്കിൽ, നിങ്ങൾ അതിന്റെ യഥാർത്ഥ വലുപ്പത്തിൽ ആപേക്ഷിക ഇമേജ് വലുപ്പം സ"
+"ജ്ജമാക്കാൻ കഴിയും. നിങ്ങൾക്ക് പോലുള്ള ഇഞ്ച് അല്ലെങ്കിൽ മില്ലിമീറ്റർ ഫിസിക്"
+"കൽ യൂണിറ്റുകൾ, ഉപയോഗിക്കാം. ആ ചെയ്യുകയാണെങ്കിൽ, <guilabel>X resolution</gu"
+"ilabel> ആൻഡ് <guilabel>Y resolution</guilabel> നിലങ്ങൾ ഉചിതമായ മൂല്യങ്ങൾ അവ"
+"ർ പിക്സൽ ഫിസിക്കല് ​​യൂണിറ്റുകൾ, ഇമേജ് തലങ്ങളും തമ്മിലുള്ള പരിവർത്തനം ഉപയോ"
+"ഗിക്കുന്ന കാരണം സജ്ജമാക്കണം."
+
+#: src/menus/image/scale.xml:152(para)
+msgid ""
+"You can set the printing resolution for the image in the <guilabel>X "
+"resolution</guilabel> and <guilabel>Y resolution</guilabel> fields. You can "
+"also change the units of measurement by using the drop-down menu."
+msgstr ""
+"നിങ്ങൾ <guilabel>X resolution</guilabel> ആൻഡ് <guilabel>Y resolution</guila"
+"bel> മേഖലകളിലെ ചിത്രത്തിനായുള്ള അച്ചടി റെസലൂഷൻ സജ്ജമാക്കാൻ കഴിയും. ഡ്രോപ്പ"
+"്-ഡൌൺ മെനു ഉപയോഗിച്ച് അളവിന്റെ യൂണിറ്റുകൾ മാറ്റാൻ കഴിയും."
+
+#: src/menus/image/scale.xml:165(term)
+msgid "Quality"
+msgstr ""
+"ഗുണമേന്മയുള്ള"
+
+#: src/menus/image/scale.xml:167(para)
+msgid ""
+"To change the image size, either some pixels have to be removed or new "
+"pixels must be added. The process you use determines the quality of the "
+"result. The <guilabel>Interpolation</guilabel> drop down list provides a "
+"selection of available methods of interpolating the color of pixels in a "
+"scaled image:"
+msgstr ""
+"ഇമേജ് വലുപ്പം മാറ്റാൻ, ഒന്നുകിൽ ചില പിക്സൽ നീക്കംചെയ്യും ചെയ്യണം അല്ലെങ്കിൽ"
+" പുതിയ പിക്സൽ ചേർക്കണം. നിങ്ങൾ ഉപയോഗിക്കുന്ന പ്രക്രിയ ഫലം ഗുണമേന്മ നിർണ്ണയ"
+"ിക്കുന്നു. <guilabel>Interpolation</guilabel> ഡ്രോപ്പ് ഡൗൺ ലിസ്റ്റ് ഒരു സ്"
+"കെയിൽ സ്വരൂപത്തിൽ പിക്സൽ നിറം interpolating ലഭ്യമായ രീതികൾ നിരക്കു നൽകുന്നു"
+":"
+
+#: src/menus/image/scale.xml:176(term)
+msgid "Interpolation"
+msgstr "Interpolation"
+
+#: src/menus/image/scale.xml:180(para)
+msgid ""
+"<guilabel>None</guilabel>: No interpolation is used. Pixels are simply "
+"enlarged or removed, as they are when zooming. This method is low quality, "
+"but very fast."
+msgstr ""
+"<guilabel>None</guilabel>: ഇല്ല interpolation ഉപയോഗിക്കുന്നു. അവർ ഔട്ടും ച"
+"െയ്യുമ്പോൾ പോലെ പിക്സൽ, ലളിതമായി വികസിക്കും അല്ലെങ്കിൽ നീക്കം ചെയ്യുന്നു."
+" ഈ രീതി വളരെ ഫാസ്റ്റ് നിലവാരം കുറഞ്ഞ, എന്നാൽ."
+
+#: src/menus/image/scale.xml:187(para)
+msgid ""
+"<guilabel>Linear</guilabel>: This method is relatively fast, but still "
+"provides fairly good results."
+msgstr ""
+"<guilabel>Linear</guilabel>: ഈ രീതി താരതമ്യേന ഫാസ്റ്റ്, എന്നാൽ ഇപ്പോഴും ഗം"
+"ഭീരമായി നല്ല ഫലങ്ങൾ നൽകുന്നു."
+
+#: src/menus/image/scale.xml:192(para)
+msgid ""
+"<guilabel>Cubic</guilabel>: The method that produces the best results, but "
+"also the slowest method."
+msgstr ""
+"<guilabel>Cubic</guilabel>: മികച്ച ഫലങ്ങൾ ഉത്പാദിപ്പിക്കുന്നത് രീതി, മറിച്ച"
+"് പതുക്കെയുള്ള രീതി."
+
+#: src/menus/image/scale.xml:198(para)
+msgid ""
+"<guilabel>Sinc (Lanczos 3)</guilabel>: New with GIMP-2.4, this method gives "
+"less blur in important resizings."
+msgstr ""
+"<guilabel>Sinc (Lanczos 3)</guilabel>: ജിമ്പ്-2.4 പുതിയ ഈ രീതി പ്രധാനപ്പെട്"
+"ട resizings കുറവാണ് മങ്ങൽ നൽകുന്നു."
+
+#: src/menus/image/scale.xml:211(para)
+msgid ""
+"See also the <link linkend=\"gimp-tool-scale\">Scale tool</link>, which lets "
+"you scale a layer, a selection or a path."
+msgstr ""
+"ഇതും കാണുക നിങ്ങൾ ഒരു പാളി, ഒരു നിര അല്ലെങ്കിൽ ഒരു പാത്ത് സ്കെയിൽ അനുവദിക്ക"
+"ുന്നു <link linkend=\"gimp-tool-scale\">Scale tool</link>."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/canvas-size.xml:61(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/canvas-size.png'; "
+"md5=5f4f3f0d42e573d4229d7c6bca813102"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/canvas-size.xml:160(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/canvas-size-list.png'; "
+"md5=905ef66630106a1a914428981da7fa1d"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/canvas-size.xml:252(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/canvas-size-ex1.png'; "
+"md5=559f2f64da560a98ab17ee9b34c29fab"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/canvas-size.xml:271(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/canvas-size-ex2.png'; "
+"md5=5c965a03aaaa40a352e759251f1913a3"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/canvas-size.xml:287(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/canvas-size-ex3.png'; "
+"md5=1fbf828cba9b59fd059f5f6fbd0b9f12"
+msgstr ""
+"@@image: 'images/menus/windows/expanded-menu.png'; "
+"md5=368b926c465b0abf28df35f2cdaaf128"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/canvas-size.xml:309(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/canvas-size-ex4.png'; "
+"md5=9f6d98883e41848510ad04b284999c26"
+msgstr ""
+"@@image: 'images/menus/detached-submenu.png'; "
+"md5=8746ad151b99ae854ff6248044c735c2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/canvas-size.xml:324(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/canvas-size-ex5.png'; "
+"md5=ea89ab944513d03214f85e750ded5334"
+msgstr ""
+"@@image: 'images/menus/windows.png'; md5=13c6b14871d3818165be232dda179015"
+
+#: src/menus/image/canvas-size.xml:13(title)
+#: src/menus/image/canvas-size.xml:66(title)
+msgid "Canvas Size"
+msgstr ""
+"കാൻവാസ് വലിപ്പം"
+
+#: src/menus/image/canvas-size.xml:17(secondary)
+#, fuzzy
+msgid "Canvas size"
+msgstr ""
+"കാൻവാസ് വലിപ്പം"
+
+#: src/menus/image/canvas-size.xml:21(secondary)
+msgid "Size"
+msgstr ""
+"വലുപ്പം"
+
+#: src/menus/image/canvas-size.xml:24(para)
+msgid ""
+"The <quote>canvas</quote> is the visible area of the image. By default the "
+"size of the canvas coincides with the size of the layers. The "
+"<guimenuitem>Canvas Size</guimenuitem> command lets you enlarge or reduce "
+"the canvas size. You can, if you want, modify the size of the layers. When "
+"you enlarge the canvas, you create free space around the contents of the "
+"image. When you reduce it, the visible area is cropped, however the layers "
+"still extend beyond the canvas border."
+msgstr ""
+"<quote>canvas</quote> ചിത്രം ദൃശ്യമായ ആണ്. സ്വതവേ ക്യാൻവാസ് വലിപ്പം പാളികൾ "
+"വലിപ്പം അവധികാലത്തിനായുള്ള. <guimenuitem>Canvas Size</guimenuitem> കമാൻഡ് വ"
+"ലുതാക്കുന്നു അല്ലെങ്കിൽ ക്യാൻവാസ് വലിപ്പം കുറയ്ക്കാൻ അനുവദിക്കുന്നു. നിങ്ങൾ"
+", നിങ്ങൾ ആഗ്രഹിക്കുന്ന പക്ഷം പാളികൾ വലിപ്പം പരിഷ്കരിക്കാനും കഴിയും. നിങ്ങൾ "
+"ക്യാൻവാസ് വിശാലമാക്കുമ്പോൾ, ഇമേജിൽ ഉളളടക്കം ചുറ്റും ഇടം. നിങ്ങൾ അത് കുറയ്ക"
+"്കാൻ ചെയ്യുമ്പോൾ, ദൃശ്യമായ വലുപ്പം എന്നാൽ പാളികൾ ഇപ്പോഴും ക്യാൻവാസ് അതിർത"
+"്തിയിൽ അപ്പുറം ദീർഘിപ്പിക്കും."
+
+#: src/menus/image/canvas-size.xml:33(para)
+msgid ""
+"When you reduce the canvas size, the new canvas appears surrounded with a "
+"thin negative border in the preview. The mouse pointer is a moving cross: "
+"click and drag to move the image against this frame."
+msgstr ""
+"നിങ്ങൾ ക്യാൻവാസ് വലിപ്പം കുറയ്ക്കാനും, പുതിയ ക്യാൻവാസ് പ്രിവ്യൂ ഒരു നേർത്ത "
+"നെഗറ്റീവ് അതിർത്തിയിൽ ചുറ്റും ലഭ്യമാകുന്നു. മൗസ് സൂചികയെ ഓടിക്കൊണ്ടിരുന്ന "
+"ക്രോസ്; ഈ ഫ്രെയിം നേരെ ഇമേജ് നീക്കാൻ ക്ലിക്ക് ചെയ്ത് ഡ്രാഗ്."
+
+#: src/menus/image/canvas-size.xml:43(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Canvas Size</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/canvas-size.xml:55(title)
+#, fuzzy
+msgid "Description of the <quote>Canvas Size</quote> dialog"
+msgstr ""
+"<quote>Select</quote> മെനു ആമുഖം"
+
+#: src/menus/image/canvas-size.xml:57(title)
+#, fuzzy
+msgid "The <quote>Canvas Size</quote> dialog"
+msgstr ""
+"<quote>File</quote> മെനു"
+
+#: src/menus/image/canvas-size.xml:70(para)
+msgid ""
+"You can set the <guilabel>Width</guilabel> and the <guilabel>Height</"
+"guilabel> of the canvas. The default units are pixels but you can choose "
+"different units, e.g. percent, if you want to set the new dimensions "
+"relative to the current dimensions. If the Chain to the right of the Width "
+"and Height is not broken, both Width and Height keep the same relative size "
+"to each other. That is, if you change one of the values, the other one also "
+"changes a corresponding amount. If you break the Chain by clicking on it, "
+"you can set Width and Height separately."
+msgstr ""
+"നിങ്ങൾ <guilabel>Width</guilabel> ക്യാൻവാസ് എന്ന <guilabel>Height</guilabel"
+"> സജ്ജമാക്കാൻ കഴിയും. സ്ഥിര യൂണിറ്റുകൾ ഉദാ പിക്സൽ പക്ഷേ വ്യത്യസ്ത യൂണിറ്റുക"
+"ൾ തിരഞ്ഞെടുക്കാം, ശതമാനം, നിലവിലെ അളവുകളിലേക്ക് ആപേക്ഷിക പുതിയ അളവുകൾ സജ്ജീ"
+"കരിക്കണമെങ്കിൽ. വീതിയും ഉയരവും വലത് ചെയിൻ തകർത്തു ചെയ്തിട്ടില്ലെങ്കിൽ, വീതി"
+"യും ഉയരവും പരസ്പരം ഒരേ താരതമ്യേന വലിപ്പമുള്ള പ്രമാണിച്ചു. ആ മറ്റൊരാളും ഒരു"
+" ഇതേ തുക മാറുമ്പോൾ, നിങ്ങൾ മൂല്യങ്ങളിൽ ഒന്ന് മാറ്റാൻ എങ്കിൽ ആണ്. നിങ്ങൾ അത"
+"് ക്ലിക്കുചെയ്ത് ചെയിൻ ലംഘിക്കുകയും, പ്രത്യേകമായി വീതിയും ഉയരവും സജ്ജമാക്കാ"
+"ൻ കഴിയും."
+
+#: src/menus/image/canvas-size.xml:82(para)
+msgid ""
+"Whatever units you use, information about the size in pixels and the current "
+"resolution are always displayed below the <emphasis>Width</emphasis> and "
+"<emphasis>Height</emphasis> fields. You cannot change the resolution in the "
+"<guimenu>Canvas Size</guimenu> dialog; if you want to do that, use the <link "
+"linkend=\"gimp-image-print-size\">Print Size dialog</link>."
+msgstr ""
+"എന്തുതന്നെ നിങ്ങൾ ഉപയോഗിക്കുന്ന യൂണിറ്റുകൾ, പിക്സൽ വലുപ്പം, നിലവിലെ ചിത്രം"
+" കുറിച്ചുള്ള വിവരങ്ങൾ എപ്പോഴും <emphasis>Width</emphasis> ആൻഡ് <emphasis>H"
+"eight</emphasis> നിലങ്ങളും ചുവടെ പ്രദർശിപ്പിച്ചിരിക്കുന്നു. നിങ്ങൾ <guimenu"
+">Canvas Size</guimenu> ഡയലോഗിൽ റെസലൂഷൻ മാറ്റാൻ കഴിയില്ല; അത് ചെയ്യാൻ ആഗ്രഹ"
+"ിക്കുന്നുവെങ്കിൽ, <link linkend=\"gimp-image-print-size\">Print Size dialog"
+"</link> ഉപയോഗിക്കുക."
+
+#: src/menus/image/canvas-size.xml:96(para)
+msgid ""
+"The <guilabel>Offset</guilabel> values are used to place the image (the "
+"image, not the active layer) on the canvas. You can see the size and the "
+"content of the canvas in the preview of the dialog window. When the canvas "
+"is smaller than the image, the preview window shows it in a frame with a "
+"thin negative border."
+msgstr ""
+"<guilabel>Offset</guilabel> മൂല്യങ്ങൾ കാൻവാസിൽ ചിത്രം (ചിത്രം, സജീവ പാളി) സ"
+"്ഥാപിക്കുക ഉപയോഗിക്കുന്നു. വലുപ്പമുള്ള ഡയലോഗ് ജാലകത്തിന്റെ പ്രിവ്യൂ ക്യാൻ"
+"വാസ് ഉള്ളടക്കങ്ങൾ കാണാൻ കഴിയും. ക്യാൻവാസ് ചിത്രം ചെറുതാണ് ചെയ്യുമ്പോൾ, പ്ര"
+"ിവ്യൂ വിൻഡോ നേർത്ത നെഗറ്റീവ് അതിർത്തിയിൽ ഒരു ഫ്രെയിം അത് കാണിക്കുന്നു."
+
+#: src/menus/image/canvas-size.xml:104(term)
+msgid "X ; Y"
+msgstr ""
+"എക്സ്; പിന്നെ"
+
+#: src/menus/image/canvas-size.xml:115(para)
+msgid "by click-and-dragging the image,"
+msgstr ""
+"ക്ലിക്ക്-ആൻഡ്-വലിച്ചോ ചിത്രം,"
+
+#: src/menus/image/canvas-size.xml:120(para)
+msgid ""
+"by entering values in the <guilabel>X</guilabel> and <guilabel>Y</guilabel> "
+"text boxes,"
+msgstr ""
+"<guilabel>X</guilabel> ആൻഡ് <guilabel>Y</guilabel> ടെക്സ്റ്റ് ബോക്സുകളിൽ മ"
+"ൂല്യങ്ങൾ,"
+
+#: src/menus/image/canvas-size.xml:126(para)
+msgid ""
+"by clicking on the small arrow-heads. This increments the value by one pixel "
+"(unit)."
+msgstr ""
+"ചെറിയ അമ്പ്-തല ക്ലിക്കുചെയ്ത്. ഈ ഒരു പിക്സൽ (യൂണിറ്റ്) പ്രകാരം മൂല്യം വർദ്ധ"
+"നവിൽ."
+
+#: src/menus/image/canvas-size.xml:132(para)
+msgid ""
+"And when the focus is on a text box, you can use the keyboard arrow keys, "
+"<keycap>Up</keycap> and <keycap>Down</keycap> to change by one pixel (unit), "
+"or <keycap>PageUp</keycap> and <keycap>PageDown</keycap> to change the value "
+"by 10 pixels (units)."
+msgstr ""
+"ഫോക്കസ് ഒരു ടെക്സ്റ്റ് ബോക്സ് വരുമ്പോൾ നിങ്ങൾക്ക് 10 പിക്സൽ (യൂണിറ്റ്) പ"
+"്രകാരം മൂല്യം മാറ്റാൻ ഒരു പിക്സൽ (യൂണിറ്റ്), അല്ലെങ്കിൽ <keycap>PageUp</key"
+"cap> ആൻഡ് <keycap>PageDown</keycap> വഴി മാറ്റാൻ കീബോർഡ് ആരോ കീ, <keycap>U"
+"p</keycap> ആൻഡ് <keycap>Down</keycap> ഉപയോഗിക്കാം."
+
+#: src/menus/image/canvas-size.xml:106(para)
+msgid ""
+"The <guilabel>X</guilabel> and <guilabel>Y</guilabel> specify the "
+"coordinates of the upper left corner of the image relative to the upper left "
+"corner of the canvas. They are negative when the canvas is smaller than the "
+"image. You can place the image in different ways (of course, the coordinates "
+"can't exceed the canvas borders): <placeholder-1/>"
+msgstr ""
+"<guilabel>X</guilabel> ആൻഡ് <guilabel>Y</guilabel> ക്യാൻവാസ് മുകളിലെ ഇടത് ക"
+"ോണിൽ ആപേക്ഷിക ചിത്രം മുകളിലെ ഇടത് കോണിൽ കോർഡിനേറ്ററുകൾ വ്യക്തമാക്കുക. ക്"
+"യാൻവാസ് ചിത്രം ചെറുതാണ് അവർ നെഗറ്റീവ്. PLACEHOLDER,-103828: വ്യത്യസ്ത വഴികൾ"
+" (തീർച്ചയായും, നിർദ്ദേശാങ്കങ്ങൾ കാൻവാസ് അതിരുകൾ കവിയരുത്) ഇമേജ് പതിക്കാൻ കഴ"
+"ിയും"
+
+#: src/menus/image/canvas-size.xml:147(para)
+msgid ""
+"Before the GIMP-2.4 version, <quote>Canvas Size</quote> had no influence on "
+"layer size. To change it, you had to use the <link linkend=\"gimp-layer-"
+"resize\">Layer Boundary Size</link> command. The <quote>Layers</quote> "
+"option now allows you to specify how, possibly, layers will be resized. The "
+"drop-down list offers you several possibilities:"
+msgstr ""
+"ജിമ്പ്-2.4 പതിപ്പ് മുമ്പ്, <quote>Canvas Size</quote> പാളി വലുപ്പം യാതൊരു "
+"സ്വാധീനവും. അതു മാറ്റാൻ, നിങ്ങൾ <link linkend=\"gimp-layer- resize\">Layer "
+"Boundary Size</link> കമാൻഡ് ഉപയോഗിക്കാൻ ഉണ്ടായിരുന്നു. <quote>Layers</quot"
+"e> ഐച്ഛികം ഇപ്പോൾ എങ്ങനെ ഒരുപക്ഷേ, പാളികൾ വലുപ്പം ചെയ്യും വ്യക്തമാക്കാൻ നി"
+"ങ്ങളെ അനുവദിക്കുന്നു. ഡ്രോപ്പ്-ഡൌൺ ലിസ്റ്റ് നിരവധി സാധ്യതകൾ പ്രദാനം:"
+
+#: src/menus/image/canvas-size.xml:156(title)
+#, fuzzy
+msgid "The Resize layers list"
+msgstr ""
+"_layers വലുപ്പം:"
+
+#: src/menus/image/canvas-size.xml:166(para)
+msgid ""
+"<guilabel>None</guilabel>: default option. No layer is resized, only the "
+"canvas is."
+msgstr ""
+"<guilabel>None</guilabel>: സ്ഥിര ഓപ്ഷൻ. ഇല്ല പാളി വലുപ്പം, മാത്രമല്ല ക്യാൻവ"
+"ാസ് ആണ്."
+
+#: src/menus/image/canvas-size.xml:172(para)
+msgid "<guilabel>All Layers</guilabel>: all layers are resized to canvas size."
+msgstr ""
+"<guilabel>All Layers</guilabel>: എല്ലാ പാളികളും ക്യാൻവാസ് വലിപ്പം വലുപ്പം ച"
+"െയ്യുന്നു."
+
+#: src/menus/image/canvas-size.xml:178(para)
+msgid ""
+"<guilabel>Image-sized layers</guilabel>: only layers with the same size as "
+"the image are sized to canvas size."
+msgstr ""
+"<guilabel>Image-sized layers</guilabel>: മാത്രമേ ഇമേജ് അതേ വലിപ്പമുള്ള പാളി"
+"കൾ ക്യാൻവാസ് വലുപ്പം വലുപ്പത്തിലാണെന്ന്."
+
+#: src/menus/image/canvas-size.xml:184(para)
+msgid ""
+"<guilabel>All visible layers</guilabel>: only visible layers, marked with a "
+"<guiicon><inlinegraphic fileref=\"images/dialogs/stock-eye-20.png\"/></"
+"guiicon> icon, in the Layer Dialog, are sized to canvas size."
+msgstr ""
+"<guilabel>All visible layers</guilabel>: മാത്രം കാണാവുന്ന പാളികൾ ഒരു <guiic"
+"on><inlinegraphic fileref=\"images/dialogs/stock-eye-20.png\" /></guiicon> "
+"ഐക്കൺ അടയാളപ്പെടുത്തിയിട്ടുള്ള, ലെയർ ഡയലോഗിൽ, ക്യാൻവാസ് വലുപ്പം വലുപ്പത്തി"
+"ലാണെന്ന്."
+
+#: src/menus/image/canvas-size.xml:194(para)
+msgid ""
+"<guilabel>All linked layers</guilabel>: only linked layers, marked with a "
+"<guiicon><inlinegraphic fileref=\"images/dialogs/stock-vchain-24.png\"/></"
+"guiicon> in the Layer Dialog, are sized to canvas size."
+msgstr ""
+"<guilabel>All linked layers</guilabel>: ലെയർ ഡയലോഗ് ഒരു <guiicon><inlinegr"
+"aphic fileref=\"images/dialogs/stock-vchain-24.png\" /></guiicon> അടയാളപ്പെ"
+"ടുത്തിയിട്ടുള്ള മാത്രം ലിങ്ക്ഡ് പാളികൾ, ക്യാൻവാസ് വലുപ്പം വലുപ്പത്തിലാണെന്ന"
+"്."
+
+#: src/menus/image/canvas-size.xml:208(term)
+msgid "Center"
+msgstr ""
+"കേന്ദ്രം"
+
+#: src/menus/image/canvas-size.xml:210(para)
+msgid ""
+"The <guilabel>Center</guilabel> button allows you to center the image on the "
+"canvas. When you click on the Center button, the offset values are "
+"automatically calculated and displayed in the text boxes."
+msgstr ""
+"<guilabel>Center</guilabel> ബട്ടൺ നിങ്ങൾ കാൻവാസിൽ ചിത്രം മധ്യഭാഗത്താക്കാൻ അ"
+"നുവദിക്കുന്നു. നിങ്ങൾ കേന്ദ്രം ബട്ടൺ ക്ലിക്ക് ചെയ്യുമ്പോൾ, ഓഫ്സെറ്റ് മൂല്യ"
+"ങ്ങൾ സ്വയം കണക്കാക്കി ടെക്സ്റ്റ് ബോക്സുകൾ പ്രദർശിപ്പിക്കുന്നു."
+
+#: src/menus/image/canvas-size.xml:220(para)
+msgid ""
+"When you click on the <guilabel>Resize</guilabel> button, the canvas is "
+"resized, but the pixel information and the drawing scale of the image are "
+"unchanged."
+msgstr ""
+"നിങ്ങൾ <guilabel>Resize</guilabel> ബട്ടണില് ക്ലിക്ക് ചെയ്യുമ്പോൾ, ക്യാൻവാസ"
+"് വലുപ്പം, പക്ഷേ പിക്സൽ വിവരങ്ങൾ ചിത്രത്തിന്റെ ഡ്രോയിംഗ് സ്കെയിൽ മാറ്റമില്"
+"ല ആകുന്നു."
+
+#: src/menus/image/canvas-size.xml:225(para)
+msgid ""
+"If the layers of the image did not extend beyond the borders of the canvas "
+"before you changed its size, there are no layers on the part of the canvas "
+"that was added by resizing it. Therefore, this part of the canvas is "
+"transparent and displayed with a checkered pattern, and it is not "
+"immediately available for painting. You can either <link linkend=\"gimp-"
+"image-flatten\">flatten</link> the image, in which case you will get an "
+"image with a single layer that fits the canvas exactly, or you can use the "
+"<link linkend=\"gimp-layer-resize-to-image\">Layer to Image Size</link> "
+"command to resize only the active layer, without changing any other layers. "
+"You can also create a new layer and fill it with the background you want. By "
+"doing this, you create a digital <quote>passe-partout</quote> (a kind of "
+"glass mount with a removable back for slipping in a photograph)."
+msgstr ""
+"നിങ്ങൾ അതിന്റെ വലിപ്പം മാറ്റി മുമ്പ് ചിത്രത്തിന്റെ പാളികൾ ക്യാൻവാസ് അതിരുകള"
+"െ കഴിയാത്തതു, അത് വ്യാപ്തിയിൽ ചേർത്തതാണ് ആ ക്യാൻവാസ് ഭാഗത്തുനിന്നു പാളികളില"
+"്ല. അതുകൊണ്ടു, ക്യാൻവാസ് ഈ ഭാഗം സുതാര്യമായ ഒരു ശൂരനാടിന് പാറ്റേൺ ഉപയോഗിച്"
+"ച് പ്രദർശിപ്പിക്കും, അതു ഉടനടി പെയിന്റിംഗിന് ലഭ്യമല്ല. നിങ്ങൾ <link linkend"
+"=\"gimp- image-flatten\">flatten</link> നിങ്ങൾ കൃത്യമായി ക്യാൻവാസ് പാകമാകുന"
+"്ന ഒരൊറ്റ പാളി ഒരു ചിത്രം ലഭിക്കും അല്ലെങ്കിൽ നിങ്ങൾ മറ്റെന്തെങ്കിലും പാളി"
+"കൾ മാറ്റുന്നതിൽ ഇല്ലാതെ സജീവ പാളി വലുപ്പം <link linkend=\"gimp-layer-resize"
+"-to-image\">Layer to Image Size</link> കമാൻഡ് ഉപയോഗിക്കാം സാഹചര്യത്തിൽ ചിത"
+"്രം, ഒന്നുകില്. നിങ്ങൾക്ക് ഒരു പുതിയ ലയർ ഉണ്ടാക്കുക നിങ്ങൾ ആഗ്രഹിക്കുന്ന പശ"
+"്ചാത്തലവും പൂരിപ്പിക്കാൻ കഴിയും. അതിലൂടെ, നിങ്ങൾ ഒരു ഡിജിറ്റൽ <quote>passe-"
+"partout</quote> (ഗ്ലാസ് ഒരു തരത്തിലുള്ള ഒരു ഫോട്ടോഗ്രാഫിൽ വഴുതുന്നു വേണ്ട"
+"ി ഒരു നീക്കം തിരികെ മൌണ്ട്) സൃഷ്ടിക്കുക."
+
+#: src/menus/image/canvas-size.xml:246(title)
+#: src/menus/image/autocrop.xml:53(title)
+#: src/menus/image/zealous-crop.xml:39(title)
+#, fuzzy
+msgid "Example"
+msgstr ""
+"സാമ്പിൾ:"
+
+#: src/menus/image/canvas-size.xml:248(title)
+#: src/menus/image/zealous-crop.xml:47(para)
+#, fuzzy
+msgid "Original image"
+msgstr ""
+"യഥാർത്ഥ"
+
+#: src/menus/image/canvas-size.xml:255(para)
+msgid ""
+"We started with a green background layer 100x100 pixels, which defines a "
+"default canvas with the same size. Then we added a new red layer 80x80 "
+"pixels. The active layer limits are marked with a black and yellow dotted "
+"line. The red layer does not fill the canvas completely: the unoccupied part "
+"is transparent. The background color in the Toolbox is yellow."
+msgstr ""
+"നാം ഒരേ വലിപ്പം ഒരു സ്ഥിര ക്യാൻവാസ് നിർവചിക്കുന്ന 100x100 പിക്സൽ ഒരു പച്ച പ"
+"ശ്ചാത്തല പാളി ആരംഭിച്ചു. പിന്നീട് ഞങ്ങൾ ഒരു പുതിയ ചുവന്ന പാളി 80x80 പിക്സലു"
+"കൾ ചേർത്തു. സജീവ പാളി പരിധികൾ ഒരു കറുപ്പും മഞ്ഞയും അതിനെക്കുറിച്ച് ഉപയോഗിച"
+"്ച് അടയാളപ്പെടുത്തിയിരിക്കുന്നു. ചുവന്ന പാളി പൂർണ്ണമായും ക്യാൻവാസ് പൂരിപ്പി"
+"ക്കുക ഇല്ല: ആളൊഴിഞ്ഞ ഭാഗം സുതാര്യമാണ്. പണിസഞ്ചിയിൽ പശ്ചാത്തല നിറം മഞ്ഞ ആണ്"
+"."
+
+#: src/menus/image/canvas-size.xml:267(title)
+msgid "Canvas enlarged (layers unchanged)"
+msgstr ""
+"കാൻവാസ് വികസിക്കും (പാളികൾ മാറ്റമില്ല)"
+
+#: src/menus/image/canvas-size.xml:274(para)
+msgid ""
+"The canvas has been enlarged to 120x120 pixels. The layers size remained "
+"unchanged. The unoccupied part of the canvas is transparent."
+msgstr ""
+"ക്യാൻവാസ് 120x120 പിക്സൽ വിശാലമാകുന്നു ചെയ്തു. പാളികൾ വലുപ്പം മാറ്റമില്ലാതെ"
+" തുടർന്നു. ക്യാൻവാസു ആളൊഴിഞ്ഞ ഭാഗം സുതാര്യമാണ്."
+
+#: src/menus/image/canvas-size.xml:283(title)
+msgid "Canvas enlarged (all layers changed)"
+msgstr ""
+"കാൻവാസ് വികസിക്കും (എല്ലാ പാളികൾ മാറ്റി)"
+
+#: src/menus/image/canvas-size.xml:290(para)
+msgid ""
+"The canvas has been enlarged to 120x120 pixels. All layers have been "
+"enlarged to the canvas size. The undrawn part is transparent in the red "
+"layer and yellow (background color in Toolbox) in the green background layer."
+msgstr ""
+"ക്യാൻവാസ് 120x120 പിക്സൽ വിശാലമാകുന്നു ചെയ്തു. എല്ലാ പാളികൾ ക്യാൻവാസ് വലുപ്"
+"പം വിശാലമായിരിക്കുന്നു ചെയ്തിരിക്കുന്നു. undrawn ഭാഗം പച്ച പശ്ചാത്തല പാളിയാ"
+"യി ചുവന്ന പാളി, മഞ്ഞ (പണിസഞ്ചി പശ്ചാത്തലത്തിൽ കളർ) ൽ സുതാര്യമാണു്."
+
+#: src/menus/image/canvas-size.xml:302(title)
+msgid "What's Canvas Size useful for?"
+msgstr ""
+"ഉപകാരപ്രദമായ കാൻവാസ് വലിപ്പം എന്താണ്?"
+
+#: src/menus/image/canvas-size.xml:303(para)
+msgid "You can use this command to crop an image:"
+msgstr ""
+"നിങ്ങൾ ഒരു ഇമേജ് കത്രിക്കുന്നതിനായി ഈ കമാൻഡ് ഉപയോഗിക്കാം:"
+
+#: src/menus/image/canvas-size.xml:305(title)
+#, fuzzy
+msgid "Resizing canvas"
+msgstr ""
+"വലുപ്പം"
+
+#: src/menus/image/canvas-size.xml:313(para)
+msgid ""
+"Click on the chain next to Width and Height entries to unlink dimensions. By "
+"modifying these dimensions and moving image against canvas, by trial and "
+"error, you can crop the part of the image you want. Click on the Center "
+"button and then on the Resize button."
+msgstr ""
+"അളവുകൾ അൺലിങ്കുചെയ്യുന്നതിനുള്ള അടുത്ത വീതി ചങ്ങല ഉയരവും എൻട്രികൾ ക്ലിക്കുച"
+"െയ്യുക. ഈ തലങ്ങളും പരിഷ്ക്കരിക്കുന്നതും ക്യാൻവാസ് നേരെ ചിത്രം നീക്കി, വിചാര"
+"ണ, പിശകിന്, നിങ്ങൾ ആഗ്രഹിക്കുന്ന ചിത്രത്തിൻറെ ഭാഗത്ത് മുറിക്കാൻ കഴിയും. വലി"
+"പ്പംമാറ്റുന്നത് ബട്ടണിൽ കേന്ദ്രം ബട്ടണിൽ ക്ലിക്ക് തുടർന്ന്."
+
+#: src/menus/image/canvas-size.xml:320(title)
+#, fuzzy
+msgid "Cropped image"
+msgstr ""
+"ചിത്രം ക്രോപ്"
+
+#: src/menus/image/canvas-size.xml:329(para)
+msgid "The <link linkend=\"gimp-tool-crop\">Crop tool</link> is easier to use."
+msgstr ""
+"<link linkend=\"gimp-tool-crop\">Crop tool</link> ഉപയോഗിക്കാൻ എളുപ്പം."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/autocrop.xml:59(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/autocrop-1.png'; "
+"md5=830605c6b6332ff5b4c21d71fde6f442"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/autocrop.xml:72(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/autocrop-2.png'; "
+"md5=bf28a4a165d37f1a40b2058465352dfe"
+msgstr ""
+"@@image: 'images/menus/detached-submenu.png'; "
+"md5=8746ad151b99ae854ff6248044c735c2"
+
+#: src/menus/image/autocrop.xml:10(title)
+#, fuzzy
+msgid "Autocrop Image"
+msgstr "Autocrop Imag_e"
+
+#: src/menus/image/autocrop.xml:14(secondary)
+#: src/menus/image/zealous-crop.xml:16(secondary)
+#: src/menus/image/crop.xml:16(secondary)
+msgid "Crop"
+msgstr ""
+"വിള"
+
+#: src/menus/image/autocrop.xml:15(tertiary)
+#: src/menus/image/autocrop.xml:18(primary)
+msgid "Autocrop"
+msgstr "Autocrop"
+
+#: src/menus/image/autocrop.xml:21(para)
+msgid ""
+"The <guimenuitem>Autocrop Image</guimenuitem> command removes the borders "
+"from an image. It searches the active layer for the largest possible border "
+"area that is all the same color, and then crops this area from the image, as "
+"if you had used the <link linkend=\"gimp-tool-crop\">Crop</link> tool."
+msgstr ""
+"<guimenuitem>Autocrop Image</guimenuitem> കമാൻഡ് ഒരു ചിത്രത്തിൽ നിന്ന് അതിര"
+"ുകൾ നീക്കംചെയ്യുന്നു. നിങ്ങൾ <link linkend=\"gimp-tool-crop\">Crop</link> ഉ"
+"പകരണം ഉപയോഗിച്ച പോലെ അത് എല്ലാം ഒരേ നിറം ഏറ്റവും വലിയ സാധ്യത അതിർത്തി സജീ"
+"വ പാളി പരിശോധിക്കയും തുടർന്ന് ഇമേജ് നിന്ന് ഈ പ്രദേശം കൃഷിചെയ്യുക."
+
+#: src/menus/image/autocrop.xml:29(para)
+msgid ""
+"Note carefully that this command only uses the <emphasis>active layer</"
+"emphasis> of the image to find borders. Other layers are cropped according "
+"to the same limits as limits in the active layer."
+msgstr ""
+"ഈ കമാൻഡ് മാത്രം അതിരുകൾ കണ്ടെത്താൻ ചിത്രത്തിന്റെ <emphasis>active layer</em"
+"phasis> ഉപയോഗിക്കുന്ന ശ്രദ്ധാപൂർവ്വം ശ്രദ്ധിക്കുക. മറ്റു പാളികൾ സജീവ പാളിയ"
+"ായി പരിധികൾ അതേ പരിധികൾ പ്രകാരം വലുപ്പം ചെയ്യുന്നു."
+
+#: src/menus/image/autocrop.xml:41(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Autocrop Image</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/autocrop.xml:55(title)
+#, fuzzy
+msgid "<quote>Autocrop</quote> example"
+msgstr ""
+"<quote>Tools</quote> മെനു"
+
+#: src/menus/image/autocrop.xml:62(para)
+msgid ""
+"This image is made of three layers. One with a red square, another with a "
+"green square; both on a yellow semi-transparent background. The green layer "
+"is active."
+msgstr ""
+"ഈ ചിത്രം വരക്കുക ഉണ്ടാക്കിയ. ഒരു ചുവന്ന സ്ക്വയർ ഉപയോഗിച്ച് ഒരു, ഒരു പച്ച സ"
+"്ക്വയർ ഉപയോഗിച്ച് മറ്റൊരു; ഒരു മഞ്ഞ അർദ്ധസുതാര്യം പശ്ചാത്തലത്തിൽ ഇരുവരും."
+" പച്ച പാളി സജീവമാണ്."
+
+#: src/menus/image/autocrop.xml:75(para)
+msgid ""
+"<quote>Autocrop</quote> has cropped the green square and made a layer from "
+"it. The other layers have been cropped to the same size as the green one. "
+"Only a small part of the red square has been kept."
+msgstr ""
+"<quote>Autocrop</quote> പച്ച സ്ക്വയർ വലുപ്പം അതിൽ നിന്ന് ഒരു പാളി ചെയ്തിരിക"
+"്കുന്നു. മറ്റ് പാളികൾ പച്ച അതേ വലുപ്പം ക്രോപ്പുചെയ്യും ചെയ്തു. ചുവന്ന സ്ക്"
+"വയറിന്റെ ഒരു ചെറിയ ഭാഗം മാത്രമേ സൂക്ഷിച്ചിരിക്കുകയാണ്."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/guides-new-percent.xml:60(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/new-guide-percent.png'; "
+"md5=43b3421e1ad202319fcb74cabc22089b"
+msgstr "@@image: 'images/menus/help.png'; md5=166c3b733e8d1c03b26206812c7c44a9"
+
+#: src/menus/image/guides-new-percent.xml:15(title)
+#, fuzzy
+msgid "New Guide (by Percent)"
+msgstr ""
+"പുതിയ ഗൈഡ് (_Percent വഴി) ..."
+
+#: src/menus/image/guides-new-percent.xml:19(secondary)
+#, fuzzy
+msgid "Add by percent"
+msgstr ""
+"ശതമാനം"
+
+#: src/menus/image/guides-new-percent.xml:22(para)
+msgid ""
+"The <guimenuitem>New Guide (by Percent)</guimenuitem> command adds a guide "
+"to the image. The position of the guide is specified as a percentage of the "
+"canvas Height and Width."
+msgstr ""
+"<guimenuitem>New Guide (by Percent)</guimenuitem> കമാൻഡ് ചിത്രം ഒരു ഗൈഡ് ചേ"
+"ർക്കുന്നു. ഗൈഡ് സ്ഥാനം കാൻവാസ് ഉയരവും വീതി ശതമാനമായി വ്യക്തമാക്കുന്നത്."
+
+#: src/menus/image/guides-new-percent.xml:28(para)
+msgid ""
+"You can add guides to the image more quickly by simply clicking and dragging "
+"guides from the image rulers and positioning them where you would like. "
+"Guides you draw with click-and-drag are not as precisely positioned as those "
+"you draw with this command, however."
+msgstr ""
+"നിങ്ങൾക്ക് ഈ ഇമേജ് ഭരണാധികാരികൾ നിന്ന് വഴികാട്ടികളേ ക്ലിക്കുചെയ്ത് ചെയ്തോ "
+"നിങ്ങൾക്ക് ആഗ്രഹിക്കുന്ന അവരെ പൊസിഷനിങ് വഴി കൂടുതൽ വേഗത്തിൽ ചിത്രത്തിലേക്ക"
+"് ഗൈഡുകൾ ചേർക്കാൻ കഴിയും. നിങ്ങൾ ക്ലിക്കിൽ-ആൻഡ്-വലിച്ചു കോരുവാൻ വഴികാട്ടി "
+"എന്നിരുന്നാലും, പോലെ തലമുറകള്ക്ക് കമാൻഡ് ഉപയോഗിച്ച് പിടിക്കുകയും പോലെ സ്"
+"ഥാനങ്ങളിലാണ്."
+
+#: src/menus/image/guides-new-percent.xml:38(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Guides</"
+"guisubmenu><guimenuitem>New Guide (by Percent)</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Recently Closed Docks</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് "
+"ചെയ്യാൻ കഴിയും"
+
+#: src/menus/image/guides-new-percent.xml:49(title)
+#, fuzzy
+msgid "<quote>New Guide (by Percent)</quote> Options"
+msgstr ""
+"പുതിയ ഗൈഡ് (_Percent വഴി) ..."
+
+#: src/menus/image/guides-new-percent.xml:50(para)
+msgid ""
+"When you select this menu item, a dialog opens, which allows you to set the "
+"<guilabel>Direction</guilabel> and <guilabel>Position</guilabel>, by "
+"percent, of the new guide."
+msgstr ""
+"ഈ മെനു ഇനം തിരഞ്ഞെടുക്കുക, ഒരു ഡയലോഗ് തുറക്കുന്നു, പുതിയ ഗൈഡിന്റെ ശതമാനം ന"
+"ിങ്ങളെ <guilabel>Direction</guilabel> ആൻഡ് <guilabel>Position</guilabel>, സ"
+"ജ്ജമാക്കാൻ അനുവദിക്കുന്ന."
+
+#: src/menus/image/guides-new-percent.xml:56(title)
+#, fuzzy
+msgid "The <quote>New Guide (by Percent)</quote> Dialog"
+msgstr ""
+"<quote>Select</quote> മെനു"
+
+#: src/menus/image/guides-new-percent.xml:78(para)
+msgid ""
+"You can also choose the <guilabel>Position</guilabel> of the new guide. The "
+"coordinate origin is in the upper left corner of the canvas."
+msgstr ""
+"പുതിയ ഗൈഡിന്റെ <guilabel>Position</guilabel> തിരഞ്ഞെടുക്കാം. കോർഡിനേറ്റ് വ"
+"ംശജനായ കാൻവാസ് മുകളിലെ ഇടത് മൂലയിൽ ആണ്."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/mode.xml:28(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/image/mode.png'; md5=d658bfd619ff1c1c774ceba79e7b5017"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#: src/menus/image/mode.xml:10(title)
+msgid "Mode"
+msgstr ""
+"മോഡ്"
+
+#: src/menus/image/mode.xml:13(primary)
+#, fuzzy
+msgid "Modes (Colors)"
+msgstr ""
+"തിരിക്കുക നിറങ്ങൾ"
+
+#: src/menus/image/mode.xml:14(secondary)
+#, fuzzy
+msgid "Submenu"
+msgstr ""
+"ടാബ് മെനുകൾ"
+
+#: src/menus/image/mode.xml:18(secondary)
+#, fuzzy
+msgid "Color modes"
+msgstr ""
+"വർണ്ണ _model"
+
+#: src/menus/image/mode.xml:19(tertiary)
+msgid "Menu"
+msgstr ""
+"മെനു"
+
+#: src/menus/image/mode.xml:23(title)
+#, fuzzy
+msgid "The <quote>Mode</quote> submenu of the <quote>Image</quote> menu"
+msgstr ""
+"<quote>Select</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/image/mode.xml:32(para)
+msgid ""
+"The <guimenuitem>Mode</guimenuitem> submenu contains commands which let you "
+"change the color mode of the image. There are three modes."
+msgstr ""
+"<guimenuitem>Mode</guimenuitem> ഉപമെനുവുണ്ട് ചിത്രത്തിൽ നിറം മോഡ് മാറ്റാൻ "
+"അനുവദിക്കുന്ന ആജ്ഞകൾ ഉൾക്കൊള്ളുന്നു. മൂന്നു രൂപങ്ങൾ ഉണ്ട്."
+
+#: src/menus/image/mode.xml:41(para)
+#, fuzzy
+msgid ""
+"You can access this submenu from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Mode</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/mode.xml:53(title)
+#, fuzzy
+msgid "The Contents of the <quote>Mode</quote> Submenu"
+msgstr ""
+"<quote>Select</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/image/mode.xml:71(para)
+msgid ""
+"Assign Color Profile (see <link linkend=\"plug-in-icc-profile-set"
+"\">Color management</link>)"
+msgstr ""
+"നിർണ്ണയിക്കുക കളർ പ്രൊഫൈൽ (<link linkend=\"plug-in-icc-profile-set \">Colo"
+"r&#160;management</link> കാണുക)"
+
+#: src/menus/image/mode.xml:77(para)
+msgid ""
+"Convert to Color Profile (see <link linkend=\"plug-in-icc-profile-apply"
+"\">Color management</link>)"
+msgstr ""
+"(<link linkend=\"plug-in-icc-profile-apply \">Color&#160;management</link> "
+"കാണുക) വർണ്ണ പ്രൊഫൈൽ പരിവർത്തനം"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/zealous-crop.xml:44(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/using/crop-orig.png'; md5=907566831ae7973604b7bfd102f8b12b"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/zealous-crop.xml:52(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/using/crop-auto.png'; md5=bd48475d6b748c3a5a9d3bba64a61799"
+msgstr ""
+"@@image: 'images/menus/windows.png'; md5=13c6b14871d3818165be232dda179015"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/zealous-crop.xml:61(None)
+msgid ""
+"@@image: 'images/using/crop-zealous.png'; "
+"md5=6fae2f2f2835961cc9653d993b8f16f6"
+msgstr ""
+"@@image: 'images/using/crop-zealous.png'; "
+"md5=6fae2f2f2835961cc9653d993b8f16f6"
+
+#: src/menus/image/zealous-crop.xml:12(title)
+#: src/menus/image/zealous-crop.xml:20(primary)
+#, fuzzy
+msgid "Zealous Crop"
+msgstr ""
+"_Zealous വിള"
+
+#: src/menus/image/zealous-crop.xml:17(tertiary)
+#, fuzzy
+msgid "According to color"
+msgstr ""
+"നിറങ്ങൾ തിരിക്കുന്നു"
+
+#: src/menus/image/zealous-crop.xml:23(para)
+msgid ""
+"The <guimenuitem>Zealous Crop</guimenuitem> command crops an image using a "
+"single solid color as a guide. It crops the edges, as with the <link linkend="
+"\"gimp-image-crop\">Autocrop</link> command, but it also crops the areas in "
+"the middle of the image which have the same color (at least, in principle)."
+msgstr ""
+"<guimenuitem>Zealous Crop</guimenuitem> കമാൻഡ് ഒരു ഗൈഡ് പോലെ ഒരൊറ്റ നിറം "
+"ഉപയോഗിച്ച് ഒരു ചിത്രം കൃഷിചെയ്യുക. അതു <link linkend=\"gimp-image-crop\">A"
+"utocrop</link> കമാൻഡ് എന്നപോലെ, വേണമങ്കിലും കൃഷിചെയ്യുക, അത് ഒരേ നിറം (കുറ"
+"ഞ്ഞപക്ഷം താത്വികമായി) ബിംബത്തെ മധ്യത്തിൽ പ്രദേശങ്ങൾ കൃഷിചെയ്യുക."
+
+#: src/menus/image/zealous-crop.xml:31(para)
+msgid ""
+"Please note that <guimenuitem>Zealous Crop</guimenuitem> crops all of the "
+"layers, although it only analyzes the active layer. This may lead to a loss "
+"of information from the other layers."
+msgstr ""
+"അതു മാത്രം സജീവ പാളി വിശകലനം ആണെങ്കിലും <guimenuitem>Zealous Crop</guimenui"
+"tem>, പാളികൾ എല്ലാ വിളകളും ദയവായി ശ്രദ്ധിക്കുക. ഇത് മറ്റ് പാളികൾ നിന്നുള്ള "
+"വിവരം നഷ്ടപ്പെട്ടതിനാൽ നയിച്ചേക്കാം."
+
+#: src/menus/image/zealous-crop.xml:41(title)
+#, fuzzy
+msgid "<quote>Zealous Crop</quote> Example"
+msgstr ""
+"<quote>Help</quote> മെനു"
+
+#: src/menus/image/zealous-crop.xml:55(para)
+#, fuzzy
+msgid "<quote>Autocrop</quote> applied"
+msgstr ""
+"<quote>Tools</quote> മെനു"
+
+#: src/menus/image/zealous-crop.xml:64(para)
+#, fuzzy
+msgid "<quote>Zealous Crop</quote> applied"
+msgstr ""
+"<quote>Help</quote> മെനു"
+
+#: src/menus/image/zealous-crop.xml:75(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menu bar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Zealous Crop</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/guides-new-selection.xml:13(title)
+#, fuzzy
+msgid "New Guides from Selection"
+msgstr ""
+"_Selection നിന്നുള്ള പുതിയ മാർഗ്ഗനിർദ്ദേശങ്ങൾ"
+
+#: src/menus/image/guides-new-selection.xml:17(secondary)
+#, fuzzy
+msgid "Add from selection"
+msgstr ""
+"നിരക്കു നിന്നും"
+
+#: src/menus/image/guides-new-selection.xml:20(para)
+msgid ""
+"The <guimenuitem>New Guides from Selection</guimenuitem> command adds four "
+"guide lines, one for each of the upper, lower, left and right edges of the "
+"current selection. If there is no selection in the current image, no guides "
+"are drawn."
+msgstr ""
+"<guimenuitem>New Guides from Selection</guimenuitem> കമാൻഡ് നാലു ഗൈഡ് ലൈനുക"
+"ൾ, അപ്പർ, ലോവർ, ഇടത്, വലത് നിലവിലെ നിരക്കു അറ്റങ്ങൾ ഓരോ ഒന്നു ചേർക്കുന്നു"
+". നിലവിലെ ചിത്രം യാതൊരു നിരക്കു ഉണ്ടെങ്കിൽ, ആരും ഗൈഡുകൾ നിറയ്ക്കും."
+
+#: src/menus/image/guides-new-selection.xml:29(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Guides</"
+"guisubmenu><guimenuitem>New Guides from Selection</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/crop.xml:12(title)
+#, fuzzy
+msgid "Crop to Selection"
+msgstr ""
+"തിരഞ്ഞെടുക്കുന്നതിലേക്ക് _Crop"
+
+#: src/menus/image/crop.xml:17(tertiary)
+#, fuzzy
+msgid "To selection"
+msgstr ""
+"ഇല്ല നിരക്കു"
+
+#: src/menus/image/crop.xml:20(primary)
+#, fuzzy
+msgid "Crop to selection"
+msgstr ""
+"തിരഞ്ഞെടുക്കുന്നതിലേക്ക് _Crop"
+
+#: src/menus/image/crop.xml:23(para)
+msgid ""
+"The <guimenuitem>Crop to Selection</guimenuitem> command crops the image to "
+"the boundary of the selection by removing any strips at the edges whose "
+"contents are all completely unselected. Areas which are partially selected "
+"(for example, by feathering) are not cropped. If the selection has been "
+"feathered, cropping is performed on the external limit of the feathered "
+"area. If there is no selection for the image, the menu entry is disabled and "
+"grayed out."
+msgstr ""
+"<guimenuitem>Crop to Selection</guimenuitem> കമാൻഡ് ആരുടെ ഉള്ളടക്കങ്ങൾ എല്ല"
+"ാ പൂർണ്ണമായും തിരഞ്ഞെടുത്തത് ആകുന്നു നാനാഭാഗങ്ങളിലുമുണ്ടായിരിക്കും ഏതെങ്കില"
+"ും സ്ട്രിപ്പുകൾ നീക്കം ചെയ്ത് നിരക്കു അതിർത്തി ഇമേജ് കൃഷിചെയ്യുക. ഏത് ഭാഗിക"
+"മായും (ഭദ്രമാക്കുന്ന വഴി, ഉദാഹരണത്തിന്) തിരഞ്ഞെടുക്കുന്നതും മേഖലകൾ വെട്ടിച്"
+"ചെറുതാക്കാനോ അല്ല. നിരക്കു തൂവലുകളും ചെയ്തിട്ടുണ്ടെങ്കിൽ, പലവിധത്തിലുള്ള ക"
+"ടൽപുറത്തെ ഏരിയയുടെ ബാഹ്യ പരിധി ന് നടപ്പാകും. ചിത്രം യാതൊരു നിരക്കു ഉണ്ടെങ്"
+"കിൽ, മെനു എൻട്രി പ്രവർത്തനരഹിതമാക്കി, ആവശ്യം തന്നെയാണ്."
+
+#: src/menus/image/crop.xml:33(para)
+msgid ""
+"This command crops all of the image layers. To crop just the active layer, "
+"use the <link linkend=\"gimp-layer-crop\">Crop Layer</link> command."
+msgstr ""
+"ഈ കമാൻഡ് ചിത്രം പാളികൾ എല്ലാ വിളകളും. വെറും സജീവ പാളി മുറിക്കുന്നതിന്, <lin"
+"k linkend=\"gimp-layer-crop\">Crop Layer</link> കമാൻഡ് ഉപയോഗിക്കുക."
+
+#: src/menus/image/crop.xml:44(para)
+#, fuzzy
+msgid ""
+"You can access this command on the image menu bar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Crop to Selection</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/guides-remove.xml:13(title)
+#, fuzzy
+msgid "Remove all guides"
+msgstr ""
+"_Remove എല്ലാ വഴികാട്ടി"
+
+#: src/menus/image/guides-remove.xml:17(secondary)
+#, fuzzy
+msgid "Remove"
+msgstr "_Remove"
+
+#: src/menus/image/guides-remove.xml:20(para)
+msgid ""
+"The <guilabel>Remove all Guides</guilabel> command removes all guides from "
+"the image. Clicking-and-dragging one or two guides onto a ruler is a quicker "
+"way to remove them. This command is useful if you have positioned several "
+"guides."
+msgstr ""
+"<guilabel>Remove all Guides</guilabel> കമാൻഡ് ഇമേജിൽ നിന്നും എല്ലാ ഗൈഡുകൾ ന"
+"ീക്കം. ക്ലിക്കുചെയ്യുന്നത്-ആൻഡ്-വലിച്ചിടുമ്പോൾ ഒരു പ്രമാണി ലേക്കായി ഒന്നോ"
+" രണ്ടോ വഴികാട്ടികളേ അവരെ നീക്കം ദ്രുതഗതിയിലുള്ള വഴി. നിരവധി ഗൈഡുകൾ സ്ഥാനങ്"
+"ങളിലാണ് എങ്കിൽ ഈ കമാൻഡ് ഉപയോഗപ്പെടുന്നു."
+
+#: src/menus/image/guides-remove.xml:29(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Guides</"
+"guisubmenu><guimenuitem>Remove all guides</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/duplicate.xml:12(title)
+#: src/menus/image/duplicate.xml:15(primary)
+#, fuzzy
+msgid "Duplicate"
+msgstr "_Duplicate"
+
+#: src/menus/image/duplicate.xml:18(para)
+msgid ""
+"The <guimenuitem>Duplicate</guimenuitem> command creates a new image which "
+"is an exact copy of the current one, with all of its layers, channels and "
+"paths. The <acronym>GIMP</acronym> Clipboard and the History are not "
+"affected."
+msgstr ""
+"<guimenuitem>Duplicate</guimenuitem> കമാൻഡ് അതിന്റെ പാളികൾ ചാനലുകളും പാതകൾ "
+"എല്ലാ ഏത് നിലവിലെ കൃത്യമായ പകർപ്പാണ് ഒരു പുതിയ ഇമേജ് ഉണ്ടാക്കുന്നു. <acrony"
+"m>GIMP</acronym> ക്ലിപ്ബോർഡും ചരിത്രം ബാധകമാകില്ല."
+
+#: src/menus/image/duplicate.xml:26(para)
+msgid ""
+"Don't mistake a duplicated image for a new view of this image. In a "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>New View</guimenuitem></"
+"menuchoice>, all changes are passed on the original image."
+msgstr ""
+"ഈ ചിത്രത്തിന്റെ ഒരു പുതിയ കാഴ്ച ഒരു ഡ്യൂപ്ലിക്കേറ്റ് ചിത്രം തെറ്റിദ്ധരിക്കാ"
+"തിരിക്കുക. ഒരു <menuchoice><guimenu>View</guimenu><guimenuitem>New View</gu"
+"imenuitem></menuchoice>, എല്ലാ മാറ്റങ്ങളും യഥാർത്ഥ ചിത്രം കടന്നു ചെയ്യുന്നു"
+"."
+
+#: src/menus/image/duplicate.xml:40(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Duplicate</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/image/duplicate.xml:49(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>D</"
+"keycap></keycombo>."
+msgstr ""
+"അല്ലെങ്കിൽ കീബോർഡ് കുറുക്കുവഴി <keycombo><keycap>Ctrl</keycap><keycap>D</k"
+"eycap></keycombo> ഉപയോഗിച്ച്."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/image/duplicate.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"
+
+#~ msgid "The <quote>Windows</quote> Menu"
+#~ msgstr "The <quote>Windows</quote> Menu"
+
+#~ msgid "Windows"
+#~ msgstr "Windows"
+
+#~ msgid "The <quote>Dockable Dialogs</quote> submenu"
+#~ msgstr "The <quote>Dockable Dialogs</quote> submenu"
+
+#~ msgid "Docks"
+#~ msgstr "Docks"
+
+#~ msgid "List of dockable dialogs"
+#~ msgstr "List of dockable dialogs"
+
+#~ msgid "The <quote>Dockable Dialogs</quote> list"
+#~ msgstr "The <quote>Dockable Dialogs</quote> list"
+
+#~ msgid ""
+#~ "This command opens the list of the dialog windows you can open and dock. "
+#~ "Please see <link linkend=\"gimp-concepts-docks\">Dialogs and Docking</"
+#~ "link>."
+#~ msgstr ""
+#~ "This command opens the list of the dialog windows you can open and dock. "
+#~ "Please see <link linkend=\"gimp-concepts-docks\">Dialogs and Docking</"
+#~ "link>."
+
+#~ msgid ""
+#~ "All these dialogs are described in <link linkend=\"gimp-dialogs-"
+#~ "introduction\">Different dialogs description</link>."
+#~ msgstr ""
+#~ "All these dialogs are described in <link linkend=\"gimp-dialogs-"
+#~ "introduction\">Different dialogs description</link>."
+
+#~ msgid "Selection"
+#~ msgstr "Selection"
+
+#~ msgid ""
+#~ "This section explains the commands on the <guimenu>Select</guimenu> menu "
+#~ "of the image menubar."
+#~ msgstr ""
+#~ "This section explains the commands on the <guimenu>Select</guimenu> menu "
+#~ "of the image menubar."
+
+#~ msgid ""
+#~ "Besides the commands described here, you may also find other entries in "
+#~ "the menu. They are not part of <acronym>GIMP</acronym> itself, but have "
+#~ "been added by extensions (plug-ins). You can find information about the "
+#~ "functionality of a Plugin by referring to its documentation."
+#~ msgstr ""
+#~ "Besides the commands described here, you may also find other entries in "
+#~ "the menu. They are not part of <acronym>GIMP</acronym> itself, but have "
+#~ "been added by extensions (plug-ins). You can find information about the "
+#~ "functionality of a Plugin by referring to its documentation."
+
+#~ msgid "Image window"
+#~ msgstr "Image window"
+
+#~ msgid "The <quote>View</quote> Menu"
+#~ msgstr "The <quote>View</quote> Menu"
+
+#~ msgid "Tools"
+#~ msgstr "Tools"
+
+#~ msgid "Introduction to the <quote>Tools</quote> Menu"
+#~ msgstr "Introduction to the <quote>Tools</quote> Menu"
+
+#~ msgid ""
+#~ "The menu entries on the <guimenu>Tools</guimenu> menu access the "
+#~ "<acronym>GIMP</acronym> tools. All of the tools available in "
+#~ "<acronym>GIMP</acronym> are extensively described in the <link linkend="
+#~ "\"gimp-tools\">Tools</link> section."
+#~ msgstr ""
+#~ "The menu entries on the <guimenu>Tools</guimenu> menu access the "
+#~ "<acronym>GIMP</acronym> tools. All of the tools available in "
+#~ "<acronym>GIMP</acronym> are extensively described in the <link linkend="
+#~ "\"gimp-tools\">Tools</link> section."
+
+#~ msgid "The <quote>Edit</quote> Menu"
+#~ msgstr "The <quote>Edit</quote> Menu"
+
+#~ msgid "Edit"
+#~ msgstr "Edit"
+
+#~ msgid "The <quote>Filters</quote> Menu"
+#~ msgstr "The <quote>Filters</quote> Menu"
+
+#~ msgid "Filters"
+#~ msgstr "Filters"
+
+#~ msgid "Introduction to the <quote>Help</quote> Menu"
+#~ msgstr "Introduction to the <quote>Help</quote> Menu"
+
+#~ msgid "Help"
+#~ msgstr "Help"
+
+#~ msgid "Contents of the <quote>Help</quote> menu"
+#~ msgstr "Contents of the <quote>Help</quote> menu"
+
+#~ msgid ""
+#~ "The <guimenu>Help</guimenu> menu contains commands that assist you while "
+#~ "you are working with <application>GIMP</application>."
+#~ msgstr ""
+#~ "The <guimenu>Help</guimenu> menu contains commands that assist you while "
+#~ "you are working with <application>GIMP</application>."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/local-windows-submenu.png'; "
+#~ "md5=57af8745917ae54f989082e320678880"
+#~ msgstr ""
+#~ "@@image: 'images/menus/local-windows-submenu.png'; "
+#~ "md5=57af8745917ae54f989082e320678880"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/tab-menu-button.png'; "
+#~ "md5=a667dbce5e1dabe9abee73ea41859d31"
+#~ msgstr ""
+#~ "@@image: 'images/menus/tab-menu-button.png'; "
+#~ "md5=a667dbce5e1dabe9abee73ea41859d31"
+
+#~ msgid "Introduction to Menus"
+#~ msgstr "Introduction to Menus"
+
+#~ msgid "Introduction"
+#~ msgstr "Introduction"
+
+#~ msgid ""
+#~ "There are many places in <acronym>GIMP</acronym> where you can find "
+#~ "menus. The aim of this chapter is to explain all the commands that are "
+#~ "accessible from the image menu bar and the image menu you can get by "
+#~ "right clicking in the canvas. All the context menus and the menu entries "
+#~ "for the other dialogs are described elsewhere in the chapters that "
+#~ "describe the dialogs themselves."
+#~ msgstr ""
+#~ "There are many places in <acronym>GIMP</acronym> where you can find "
+#~ "menus. The aim of this chapter is to explain all the commands that are "
+#~ "accessible from the image menu bar and the image menu you can get by "
+#~ "right clicking in the canvas. All the context menus and the menu entries "
+#~ "for the other dialogs are described elsewhere in the chapters that "
+#~ "describe the dialogs themselves."
+
+#~ msgid "Context Menus"
+#~ msgstr "Context Menus"
+
+#~ msgid "Context menus"
+#~ msgstr "Context menus"
+
+#~ msgid ""
+#~ "If you right-click on certain parts of the <acronym>GIMP</acronym> "
+#~ "interface, a <quote>context menu</quote> opens, which leads to a variety "
+#~ "of functions. Some places where you can access context menus are:"
+#~ msgstr ""
+#~ "If you right-click on certain parts of the <acronym>GIMP</acronym> "
+#~ "interface, a <quote>context menu</quote> opens, which leads to a variety "
+#~ "of functions. Some places where you can access context menus are:"
+
+#~ msgid ""
+#~ "Clicking on an image window displays the Image menu. This is useful when "
+#~ "you are working in full-screen mode, without a menubar."
+#~ msgstr ""
+#~ "Clicking on an image window displays the Image menu. This is useful when "
+#~ "you are working in full-screen mode, without a menubar."
+
+#~ msgid ""
+#~ "Clicking on a layer in the Layers Dialog or on a channel in the Channels "
+#~ "Dialog displays functions for the selected layer or channel."
+#~ msgstr ""
+#~ "Clicking on a layer in the Layers Dialog or on a channel in the Channels "
+#~ "Dialog displays functions for the selected layer or channel."
+
+#~ msgid ""
+#~ "Right-clicking on the image menubar has the same effect as left-clicking."
+#~ msgstr ""
+#~ "Right-clicking on the image menubar has the same effect as left-clicking."
+
+#~ msgid ""
+#~ "Right-clicking on the title bar displays functions which do not belong to "
+#~ "<acronym>GIMP</acronym>, but to the window manager program on your "
+#~ "computer."
+#~ msgstr ""
+#~ "Right-clicking on the title bar displays functions which do not belong to "
+#~ "<acronym>GIMP</acronym>, but to the window manager program on your "
+#~ "computer."
+
+#~ msgid "Tear-off menus"
+#~ msgstr "Tear-off menus"
+
+#~ msgid "Tear-off line"
+#~ msgstr "Tear-off line"
+
+#~ msgid ""
+#~ "There is an interesting property associated with some of the menus in "
+#~ "<acronym>GIMP</acronym>. These are any of the menus from the Image "
+#~ "context menu you get by right-clicking on the canvas and any of its "
+#~ "submenus. (You can tell that a menu item leads to a submenu because there "
+#~ "is an <guiicon><inlinegraphic fileref=\"images/menus/icon-submenu.png\" "
+#~ "format=\"PNG\"/></guiicon> icon next to it.) When you bring up any of "
+#~ "these menus, there is a dotted line at the top of it (tear-off line). By "
+#~ "clicking on this dotted line, you detach the menu under it and it becomes "
+#~ "a separate window."
+#~ msgstr ""
+#~ "There is an interesting property associated with some of the menus in "
+#~ "<acronym>GIMP</acronym>. These are any of the menus from the Image "
+#~ "context menu you get by right-clicking on the canvas and any of its "
+#~ "submenus. (You can tell that a menu item leads to a submenu because there "
+#~ "is an <guiicon><inlinegraphic fileref=\"images/menus/icon-submenu.png\" "
+#~ "format=\"PNG\"/></guiicon> icon next to it.) When you bring up any of "
+#~ "these menus, there is a dotted line at the top of it (tear-off line). By "
+#~ "clicking on this dotted line, you detach the menu under it and it becomes "
+#~ "a separate window."
+
+#~ msgid "The <quote>windows</quote> submenu and its tear-off submenu"
+#~ msgstr "The <quote>windows</quote> submenu and its tear-off submenu"
+
+#~ msgid ""
+#~ "Tear-off menus are actually independent. They are always visible, their "
+#~ "functions always apply to the current image, and they persist when all of "
+#~ "the images are closed. You can close a tear-off submenu by clicking on "
+#~ "the dotted line again or closing the window from the window manager on "
+#~ "your computer (often by clicking on an X icon in the upper right corner "
+#~ "of the window)."
+#~ msgstr ""
+#~ "Tear-off menus are actually independent. They are always visible, their "
+#~ "functions always apply to the current image, and they persist when all of "
+#~ "the images are closed. You can close a tear-off submenu by clicking on "
+#~ "the dotted line again or closing the window from the window manager on "
+#~ "your computer (often by clicking on an X icon in the upper right corner "
+#~ "of the window)."
+
+#~ msgid ""
+#~ "The following type of menus is not related to the image menu bar, but for "
+#~ "the sake of completeness:"
+#~ msgstr ""
+#~ "The following type of menus is not related to the image menu bar, but for "
+#~ "the sake of completeness:"
+
+#~ msgid ""
+#~ "Every <link linkend=\"gimp-concepts-docks\">dockable</link> dialog "
+#~ "contains a Tab Menu button, as highlighted below. Pressing this Tab Menu "
+#~ "button opens a special menu of tab-related operations, with an entry at "
+#~ "the top that opens into the dialog's context menu."
+#~ msgstr ""
+#~ "Every <link linkend=\"gimp-concepts-docks\">dockable</link> dialog "
+#~ "contains a Tab Menu button, as highlighted below. Pressing this Tab Menu "
+#~ "button opens a special menu of tab-related operations, with an entry at "
+#~ "the top that opens into the dialog's context menu."
+
+#~ msgid "A dockable dialog."
+#~ msgstr "A dockable dialog."
+
+#~ msgid "A dialog window with the Tab menu button highlighted."
+#~ msgstr "A dialog window with the Tab menu button highlighted."
+
+#~ msgid "The Tab menu."
+#~ msgstr "The Tab menu."
+
+#~ msgid ""
+#~ "See <xref linkend=\"gimp-dockable-menu\"/> to learn more about Tab menus."
+#~ msgstr ""
+#~ "See <xref linkend=\"gimp-dockable-menu\"/> to learn more about Tab menus."
+
+#~ msgid "File menu"
+#~ msgstr "File menu"
+
+#~ msgid "File"
+#~ msgstr "File"
+
+#~ msgid "The File menu"
+#~ msgstr "The File menu"
+
+#~ msgid "The <quote>Recently Closed Docks</quote> submenu"
+#~ msgstr "The <quote>Recently Closed Docks</quote> submenu"
+
+#~ msgid "Recently closed"
+#~ msgstr "Recently closed"
+
+#~ msgid ""
+#~ "This command opens the list of the docks you have closed recently. You "
+#~ "can reopen them by clicking on their name. Please note that isolated "
+#~ "windows are not concerned."
+#~ msgstr ""
+#~ "This command opens the list of the docks you have closed recently. You "
+#~ "can reopen them by clicking on their name. Please note that isolated "
+#~ "windows are not concerned."
+
+#~ msgid "<quote>Windows</quote> Menu Entries"
+#~ msgstr "<quote>Windows</quote> Menu Entries"
+
+#~ msgid "Contents of the <quote>Windows</quote> Menu"
+#~ msgstr "Contents of the <quote>Windows</quote> Menu"
+
+#~ msgid "Without open images"
+#~ msgstr "Without open images"
+
+#~ msgid "With open images"
+#~ msgstr "With open images"
+
+#~ msgid ""
+#~ "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs. "
+#~ "With an open image, it is made up of three parts:"
+#~ msgstr ""
+#~ "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs. "
+#~ "With an open image, it is made up of three parts:"
+
+#~ msgid "The list of Recently Closed Docks:"
+#~ msgstr "The list of Recently Closed Docks:"
+
+#~ msgid ""
+#~ "For more information about docks, please see <link linkend=\"gimp-"
+#~ "concepts-docks\">Dialogs and Docking</link>, and <link linkend=\"gimp-"
+#~ "dialogs-introduction\">Different dialogs description</link>."
+#~ msgstr ""
+#~ "For more information about docks, please see <link linkend=\"gimp-"
+#~ "concepts-docks\">Dialogs and Docking</link>, and <link linkend=\"gimp-"
+#~ "dialogs-introduction\">Different dialogs description</link>."
+
+#~ msgid "The list of open image windows."
+#~ msgstr "The list of open image windows."
+
+#~ msgid "The list of open dockable dialogs."
+#~ msgstr "The list of open dockable dialogs."

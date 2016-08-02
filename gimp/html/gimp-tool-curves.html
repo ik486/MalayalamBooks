@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>5.8. കർവ്സ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-tools-color.html" title="5. വർണ്ണ ഉപകരണങ്ങൾ" />
+    <link rel="prev" href="gimp-tool-levels.html" title="5.7. ലെവലുകൾ" />
+    <link rel="next" href="gimp-tool-posterize.html" title="5.9. Posterise" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">5.8. കർവ്സ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-tool-levels.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">5. വർണ്ണ ഉപകരണങ്ങൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-tool-posterize.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-tool-curves"></a>5.8. കർവ്സ്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925515619264" class="indexterm"></a>
+      <a id="idp46925515620624" class="indexterm"></a>
+      <p>കർവ്സ് ഉപകരണം സജീവ പാളി അല്ലെങ്കിൽ ഒരു നിര നിറം, തെളിച്ചം, തീവ്രത അല്ലെങ്കിൽ സുതാര്യത മാറ്റുന്നതിൽ ഏറ്റവും പരിഷ്കൃതമായ ഉപകരണമാണ്. ലെവലുകൾ ഉപകരണം നിങ്ങളെ ഷാഡോകളിലും ഹൈലൈറ്റുകളിലും ജോലിക്ക് അനുവദിക്കുന്നു അതേസമയം, കർവ്സ് ഉപകരണം നിങ്ങളെ ഏതെങ്കിലും ടോണൽ ശ്രേണി ജോലിക്ക് അനുവദിക്കുന്നു. ഇത് ആർജിബി ചിത്രങ്ങൾ പ്രവർത്തിക്കുന്നു.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925515622848"></a>5.8.1. ടൂൾ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>You can get to this tool in several ways:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+          In the image menu through
+          <span class="guimenu">Tools</span> → <span class="guisubmenu">Color Tools</span> → <span class="guimenuitem">Curves</span> or
+          <span class="guimenu">Colors</span> → <span class="guimenuitem">Curves</span>.
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          By clicking on the tool icon
+          <span class="guiicon">
+            <img src="images/toolbox/stock-tool-curves-22.png" />
+          </span>
+          in Toolbox, if this tool has been installed there. For this, please
+          refer to <a class="xref" href="gimp-pimping.html#gimp-prefs-toolbox" title="1.7. പണിസഞ്ചി">വിഭാഗം 1.7, “പണിസഞ്ചി”</a>.
+        </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925515631360"></a>5.8.2. <span class="quote">“<span class="quote">Adjust Color Curves</span>”</span> options</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925515632384"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.168. <span class="quote">“<span class="quote">Adjust Color Curves</span>”</span> ഡയലോഗ്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/tools-curves.png" alt="“Adjust Color Curves” ഡയലോഗ്" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">Presets</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങൾ <span class="guibutton">Add settings to favourites</span> ബട്ടൺ <span class="guiicon"><img src="images/toolbox/save-color-settings.png" /></span> ക്ലിക്കുചെയ്ത് നിങ്ങളുടെ ചിത്രം നിറം ക്രമീകരണങ്ങൾ സംരക്ഷിക്കാൻ കഴിയും</p>
+              <p>
+            The
+            <span class="guiicon">
+              <img src="images/toolbox/presets-menu-icon.png" />
+            </span>
+            button opens a menu:
+          </p>
+              <div class="figure">
+                <a id="idp46925515639936"></a>
+                <p class="title">
+                  <strong>ചിത്രം 14.169. Preset Menu</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/toolbox/presets-menu.png" alt="Preset Menu" />
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+              <p>ഏത് നിങ്ങൾ <span class="guilabel">Import Settings from File</span> അല്ലെങ്കിൽ <span class="guilabel">Export Settings to File</span> അനുവദിക്കുന്നു, നിങ്ങൾ നിയന്ത്രിക്കുന്ന ക്രമീകരണങ്ങൾ സംരക്ഷിക്കുക ഡയലോഗ് ആക്സസ് നൽകുന്നു:</p>
+              <div class="figure">
+                <a id="idp46925515644208"></a>
+                <p class="title">
+                  <strong>ചിത്രം 14.170. Manage saved Settings Dialog</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/toolbox/manage-saved-settings.png" alt="Manage saved Settings Dialog" />
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">ചാനൽ</span>
+            </dt>
+            <dd>
+              <div class="variablelist">
+                <p>There are five options:</p>
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">വില</span>
+                  </dt>
+                  <dd>
+                    <p>നിങ്ങൾ സംയുക്ത ചിത്രം അവരെ കാണാം കർവ് മൂല്യം, പിക്സൽ അതായത് തെളിച്ചം പ്രതിനിധീകരിക്കുന്നു.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">റെഡ്; ഗ്രീൻ; ബ്ലൂ</span>
+                  </dt>
+                  <dd>
+                    <p>കർവ് മൂന്ന് ആർജിബി ചാനലുകൾ ഓരോ നിറം അളവ് പ്രതിനിധീകരിക്കുന്നു. ഇവിടെ, <span class="emphasis"><em>dark</em></span> നിറം <span class="emphasis"><em>little</em></span> എന്നാണ്. <span class="emphasis"><em>Light</em></span> നിറം <span class="emphasis"><em>a lot</em></span> എന്നാണ്.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">ആൽഫ</span>
+                  </dt>
+                  <dd>
+                    <p>കർവ് പിക്സൽ അതാര്യത പ്രതിനിധീകരിക്കുന്നു. <span class="emphasis"><em>Dark</em></span> <span class="emphasis"><em>very transparent</em></span> എന്നാണ്. <span class="emphasis"><em>Light</em></span> <span class="emphasis"><em>very opaque</em></span> എന്നാണ്. നിങ്ങളുടെ ചിത്രം അല്ലെങ്കിൽ സജീവ പാളി പ്രാപ്തമാക്കും ഈ ഓപ്ഷനായി ആൽഫാ ചാനൽ ഉണ്ടായിരിക്കണം.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">Reset Channel</span>
+            </dt>
+            <dd>
+              <p>
+            This button deletes all changes made to the selected channel and
+            returns to default values.
+          </p>
+            </dd>
+            <dt>
+              <span class="term">ലീനിയർ ആൻഡ് ലോഗരിതമിക് ബട്ടണുകൾ</span>
+            </dt>
+            <dd>
+              <p>ഈ ബട്ടണുകൾ ലീനിയർ അല്ലെങ്കിൽ ഹിസ്റ്റോഗ്രാം എന്ന െപരുമാറാതിരിക്കുകൈ തരം തിരഞ്ഞെടുക്കാൻ അനുവദിക്കും. നിങ്ങൾക്ക് ടൂൾ ഓപ്ഷനുകൾ ഡയലോഗിൽ അതേ ഓപ്ഷനുകൾ ഉപയോഗിക്കാം. ഈ ആമി സ്വതവേ പ്രദർശിപ്പിക്കില്ല ചാരനിറത്തിലായിത്തീരുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">മെയിൻ എഡിറ്റിംഗ് ഏരിയ</span>
+            </dt>
+            <dd>
+              <div class="itemizedlist">
+                <ul class="itemizedlist" style="list-style-type: disc; ">
+                  <li class="listitem">
+                    <p><span class="emphasis"><em>The horizontal gradient</em></span>: അതു ഇൻപുട്ട് ടോണൽ സ്കെയിൽ പ്രതിനിധീകരിക്കുന്നു. ഇത് വളരെ നിന്ന് 0 255 (കറുത്ത) (വെള്ള), ഷാഡോസ് നിന്നുള്ള ഹൈലൈറ്റുകൾ വരെയാണ്. നിങ്ങൾ കർവ് ക്രമീകരിക്കാൻ, അത് രണ്ട് ഭാഗങ്ങളായി കയറി വേറ്തിരിക്കുന്നു; മുകളിലെ ഭാഗം തുടർന്ന് പാളി അല്ലെങ്കിൽ തിരഞ്ഞെടുപ്പിന്റെ <span class="emphasis"><em>tonal balance</em></span> പ്രതിനിധീകരിക്കുന്നു.</p>
+                  </li>
+                  <li class="listitem">
+                    <p><span class="emphasis"><em>The vertical gradient</em></span>: അതു ലക്ഷ്യസ്ഥാനം, ഔട്ട്പുട്ട് ടോണൽ സ്കെയിൽ പ്രതിനിധീകരിക്കുന്നു. ഇത് ഷാഡോസ് നിന്ന് ഹൈലൈറ്റുചെയ്തവയിലേക്ക്, നിന്ന് 0 255 (കറുത്ത) (വെള്ള) വരെയാണ്.</p>
+                  </li>
+                  <li class="listitem">
+                    <p><span class="emphasis"><em>The chart</em></span>: കർവ് ഒരു ഗ്രിഡ് പാത്രമായി ചുവടെ ഇടത് മൂലയിൽ നിന്നും മുകളിൽ വലത് കോണിലുള്ള പോകുന്നു ആണ്. പോയിന്റർ X / Y സ്ഥാനം ഗ്രിഡ് മുകളിൽ ഇടത് ഭാഗത്ത് സ്ഥിരമായി പ്രദർശിപ്പിച്ചിരിക്കുന്നു. സ്വതവേ, ഈ കർവ് ഓരോ ഇൻപുട്ട് തലത്തിൽ ഒരേ ouput ടോൺ യോജിക്കുന്നുവോ കാരണം, നേരായ. ജിമ്പ് സ്വയം ഒരു ആങ്കർ കറുത്ത (0), വൈറ്റ് (255) വേണ്ടി, വഞ്ചിപ്പിക്കുന്നവയിൽ രണ്ടറ്റവും മതിയാവില്ല.</p>
+                    <p>നിങ്ങൾ കർവ് ക്ലിക്ക്, ഒരു പുതിയ <span class="emphasis"><em>anchor</em></span> സൃഷ്ടിക്കപ്പെടുന്നു. മൗസ് സൂചികയെ ഒരു നങ്കൂരം അടിക്കുമ്പോൾ, അത് ഒരു ചെറിയ കൈ രൂപത്തിൽ. നിങ്ങൾ ക്ലിക്ക്-ആൻഡ്-വലിച്ചിടാനാകും കർവ് പേറി ആങ്കർ. നിങ്ങൾ കർവ് പുറത്ത് ക്ലിക്ക് എങ്കിൽ ഒരു ആങ്കർ പുറമേ സൃഷ്ടിച്ചത് കര്വ് സ്വയം അത് ഉൾപ്പെടുന്നു.</p>
+                    <p>Unactive നങ്കൂരം കറുത്തും ഇരിക്കുന്നു. സജീവ ആങ്കർ വെളുത്ത. താങ്കൾക്ക് ക്ലിക്കുചെയ്ത് ഒരു നങ്കൂരം പ്രവർത്തനസജ്ജമാകും. നിങ്ങളുടെ കീബോർഡ് ഇടതും വലതും ആരോ കീകൾ ഉപയോഗിച്ച് ആങ്കർ സജീവമാക്കൽ സ്വാപ്പ് കഴിയും. നിങ്ങൾ Up, Down ആരോ കീകൾ ഉപയോഗിച്ച് ലംബമായി ആങ്കർ നീക്കാൻ കഴിയൂ. ഇത് നിങ്ങൾ ട്യൂൺ ആങ്കർ സ്ഥാനം പിഴ അനുവദിക്കുന്നു. <span class="keycap"><strong>Shift</strong></span> താഴേയ്ക്കാക്കുമ്പോൾ നിങ്ങൾ 15 പിക്സൽ ഇന്ക്രിമെന്റ് അതിനെ നീക്കാൻ അനുവദിക്കുന്നു.</p>
+                    <p>രണ്ട് നങ്കൂരം ഏത് പാളി ഒരു ടോണൽ റേഞ്ച് സൂചിപ്പിയ്ക്കുന്ന ഒരു <span class="emphasis"><em>curve segment</em></span> റോഡിലാണ്. നിങ്ങൾ ക്ലിക്ക്-ആൻഡ്-വലിച്ചു കഴിയും ഈ സെഗ്മെന്റ് (ഇത് ഒരു പുതിയ ആങ്കർ തയ്യാറാക്കുന്നു). തീർച്ചയായും, അവസാനം അവതാരകർ അപ്പുറം ഡ്രാഗ് കഴിയില്ല.</p>
+                    <p>എല്ലാ നങ്കൂരം (പുറമെ രണ്ടറ്റവും നിന്ന്) ഇല്ലാതാക്കണമെന്ന്, <span class="guilabel">Reset Channel</span> ബട്ടൺ ക്ലിക്ക് ചെയ്യുക. ഒരേയൊരു ആങ്കർ ഇല്ലാതാക്കാൻ, തിരശ്ചീന അക്ഷത്തിൽ സമീപ ആങ്കർ പോകാനുള്ള.</p>
+                    <p>അതേസമയം, ക്യാൻവാസിൽ, മൌസ് പോയിന്റർ കണ്ണ്-dropper രൂപത്തിൽ ഉണ്ട്. നിങ്ങൾ ഒരു പിക്സൽ ക്ലിക്ക് എങ്കിൽ, ഒരു ലംബമായ രേഖ ചാർട്ട്, തിരഞ്ഞെടുത്ത ചാനലിനെ ഈ പിക്സൽ ഉറവിടം മൂല്യത്തിന് പരിസരത്തിൽ ദൃശ്യമാകുന്നു. നിങ്ങൾ -click <span class="keycap"><strong>Shift</strong></span> എങ്കിൽ നിങ്ങൾ തിരഞ്ഞെടുത്ത ചാനൽ ഒരു ആങ്കർ സൃഷ്ടിക്കുക. നിങ്ങൾ -click <span class="keycap"><strong>Ctrl</strong></span>, നിങ്ങൾക്ക് ഒരു നങ്കൂരം എല്ലാ ചാനലുകളിലും ഒരുപക്ഷേ ആൽഫാ ചാനൽ ഉൾപ്പെടെ സൃഷ്ടിക്കുക. നിങ്ങൾക്ക് <span class="keycap"><strong>Shift</strong></span> ചെയ്യാനാകും - വലിച്ചിടുക <span class="keycap"><strong>Ctrl</strong></span> -drag: ഈ ലംബരേഖ നീക്കും, മൗസ് അവശേഷിക്കുന്നു ബട്ടൺ പുറത്തുവിടുകയും സമയത്ത് ആങ്കർ കാണിക്കും.</p>
+                    <p>തിരഞ്ഞെടുത്ത ചാനലിനെ സജീവ അല്ലെങ്കിൽ പാളി നിരക്കു ഹിസ്റ്റോഗ്രാം ചാർട്ടിൽ ഗ്രേ ഔട്ട് പ്രതിനിധീകരിക്കുന്നു. വെറും ഒരു റഫറൻസ് തുടർന്ന്.</p>
+                  </li>
+                </ul>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">Curve type</span>
+            </dt>
+            <dd>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">സുഗമമായ</span>
+                  </dt>
+                  <dd>
+                    <p>ഇത് ഡീഫോൾട്ട് മോഡ്. ഇക്കൊല്ലം അത് മിനുസമുള്ള ഒരു വരിയിൽ കർവ് തരം നിർബ്ബന്ധിക്കുന്നു. ഇത് ഇനിപ്പറയുന്ന കൂടുതൽ റിയലിസ്റ്റിക് റെൻഡർ നൽകുന്നു.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">Free Hand</span>
+                  </dt>
+                  <dd>
+                    <p>ഈ മോഡിൽ ഉപയോഗിച്ച്, നിങ്ങൾ വീണ്ടും <span class="guibutton">Curve Type</span> ബട്ടൺ ഉപയോഗിച്ച്് സ്മൂത് കഴിയുന്ന തകർന്ന ലൈൻ വരയ്ക്കാൻ കഴിയും.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p>പ്രിവ്യൂ ബട്ടൺ പുതിയ തലത്തിലേക്ക് ക്രമീകരണങ്ങൾ ഉടനെ കാണാൻ കഴിയുന്ന ചലനാത്മകമായി അങ്ങനെ തലങ്ങളിൽ എല്ലാ മാറ്റങ്ങളും ചെയ്യുന്നു.</p>
+            </dd>
+          </dl>
+        </div>
+        <div class="variablelist">
+          <p class="title">
+            <strong>Tool Options dialog</strong>
+          </p>
+          <p>ഈ ഉപകരണം (ഇത് ചേർക്കാൻ ചെയ്യണമെങ്കിൽ ഇതിന് <a class="xref" href="gimp-pimping.html#gimp-prefs-toolbox" title="1.7. പണിസഞ്ചി">വിഭാഗം 1.7, “പണിസഞ്ചി”</a> കാണുക ദയവായി) സ്ഥിരമായി പണിസഞ്ചിയിൽ ഹാജരാകാതിരുന്നത് ആണെങ്കിലും, എങ്കിലും അതു പണിസഞ്ചി കീഴിൽ ഒരു ടൂൾ ഐച്ഛിക ഡയലോഗ് ഉണ്ട്. ഈ ഓപ്ഷനുകൾ ഇവിടെ വിവരിക്കുന്നു:</p>
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ഹിസ്റ്റോഗ്രാം സ്കെയിൽ</span>
+            </dt>
+            <dd>
+              <p>ഈ രണ്ട് ഓപ്ഷനുകൾ കർവ്സ് ഡയലോഗിൽ െപരുമാറാതിരിക്കുകൈ <span class="guiicon"><img src="images/dialogs/stock-histogram- logarithmic-16.png" /></span> ആൻഡ് ലീനിയർ <span class="guiicon"><img src="images/dialogs/stock-histogram-linear-16.png" /></span> ബട്ടണുകൾ അതേ നടപടി ഞങ്ങൾക്കുണ്ട്.</p>
+            </dd>
+            <dt>
+              <span class="term">സാമ്പിൾ ശരാശരി</span>
+            </dt>
+            <dd>
+              <p>ഈ സ്ലൈഡർ നിറം-സാഹസമാണ് പ്രദേശത്തെ <span class="quote">“<span class="quote">radius</span>”</span> സജ്ജമാക്കുന്നു. ഈ പ്രദേശം നിങ്ങൾ ഒരു പിക്സൽ ന് ക്ലിക്കിൽ നിലനിർത്താൻ ഒരു കൂടുതലോ കുറവോ വിശാലമായിരിക്കുന്നു ചതുരശ്ര ദൃശ്യമാകുന്നു. ഇവിടെ, കണ്ണ്-dropper ഒരു പിക്സൽ കണ്ടെത്താൻ ഉപയോഗിക്കുന്നു: ആരം = 1 മികച്ച തോന്നുന്നു.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925515699632"></a>5.8.3. Using the <span class="quote">“<span class="quote">Curves</span>”</span> tool</h4>
+            </div>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925515700816"></a>5.8.3.1. ചുരുക്കം അടിസ്ഥാന രൂപങ്ങൾ</h5>
+              </div>
+            </div>
+          </div>
+          <p>നാം കർവ് ന് ആൻക്കറുകളും സെഗ്മെന്റുകൾ സൃഷ്ടിക്കുക, ഞങ്ങൾ കർവ് രൂപീകരണത്തിലും നീക്കുക. ഈ കർവ് <span class="quote">“<span class="quote">output</span>”</span> ടൺ ലേക്ക് സജീവ അല്ലെങ്കിൽ പാളി തിരഞ്ഞെടുപ്പിന്റെ <span class="quote">“<span class="quote">input</span>”</span> ടൺ മാപ്പുചെയ്യുന്നു.</p>
+          <div class="simplesect">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h6 class="title"><a id="idp46925515703360"></a>എങ്ങനെ കർവ്സ് ഉപകരണം പ്രവൃത്തികൾ</h6>
+                </div>
+              </div>
+            </div>
+            <p>.ഒമ്പതംഗങ്ങളില് ഒരു പിക്സൽ ആങ്കർ നീക്കുന്നത് ഈ പിക്സൽ പ്രഭയേറിയ ചെയ്യുന്നു.</p>
+            <div class="mediaobject">
+              <img src="images/toolbox/curves-work.png" />
+              <div class="caption">
+                <p xml:lang="en" lang="en">മുകളിലും ആങ്കർ നീക്കുന്നു</p>
+              </div>
+            </div>
+          </div>
+          <div class="simplesect">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h6 class="title"><a id="idp46925515708208"></a>കർവ് കൂടുതൽ തിരശ്ചീനമായി ഉണ്ടാക്കുന്നു</h6>
+                </div>
+              </div>
+            </div>
+            <p>കർവ് കൂടുതൽ തിരശ്ചീനമായ സൈന്യം ചുരുക്കിയതും ഔട്ട്പുട്ട് ടോണൽ ശ്രേണി അളന്ന് എല്ലാ ഇൻപുട്ട് ടോണൽ ശ്രേണി ഉണ്ടാക്കുന്നു.</p>
+            <p>ആമി ഔട്ട്പുട്ട് ശ്രേണിയിലേക്ക് പിക്സൽ കംപ്രഷൻ കാണിക്കുന്നു. കടുത്ത പ്രഗല്ഭരായ പിക്സൽ അപ്രത്യക്ഷമായി: തീവ്രത കുറയുന്നു.</p>
+            <div class="figure">
+              <a id="idp46925515710816"></a>
+              <p class="title">
+                <strong>ചിത്രം 14.171. കർവ് കൂടുതൽ തിരശ്ചീനമായി ഉണ്ടാക്കുന്നു</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/toolbox/curves-horiz-1.png" alt="കർവ് കൂടുതൽ തിരശ്ചീനമായി ഉണ്ടാക്കുന്നു" />
+                  <div class="caption">
+                    <p>Make the curve more horizontal</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/toolbox/curves-horiz-2.png" alt="കർവ് കൂടുതൽ തിരശ്ചീനമായി ഉണ്ടാക്കുന്നു" />
+                  <div class="caption">
+                    <p>The resulting histogram</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+          </div>
+          <div class="simplesect">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h6 class="title"><a id="idp46925515717264"></a>കർവ് കൂടുതൽ ലംബമായ ഉണ്ടാക്കുന്നു</h6>
+                </div>
+              </div>
+            </div>
+            <p>ഇടത് താഴ്ന്ന അവസാന പോയിന്റ് വലതുവശത്ത് ലേക്ക് മുകളിലെ അവസാന പോയിന്റ് നീക്കുന്നത് തോത് ഉപകരണം ഇടത് കറുത്ത സ്ലൈഡർ വലതുവശത്ത് വൈറ്റ് സ്ലൈഡർ ചലിക്കുന്ന തന്നെയാണ് മൂല്യം വൈറ്റ് പോയിൻറ് കൂടുതൽ ആണ് എല്ലാ പിക്സൽ ( കർവ് പരന്ന ഭാഗം) തിരഞ്ഞെടുത്ത ചാനലിനെ പ്രകാരം നിറമുള്ള / കൂടുതൽ ഇരുണ്ട) വെളുത്ത (കൂടുതൽ നിർമ്മിച്ചിരിക്കുന്നത്. ആരുടെ മൂല്യം കറുത്ത പോയിന്റ് (താഴ്ന്ന നിവർത്തിയ കർവ്) കുറവാണ് എല്ലാ പിക്സലുകൾ കറുത്ത (കറുത്ത / പൂർണ്ണമായും സുതാര്യമായ) നിർമ്മിച്ചിരിക്കുന്നത്. ഉയർച്ചയുണ്ടായി എന്നു വഞ്ചിപ്പിക്കുന്നവയിൽ പോയിന്റ് പൊരുത്തപ്പെടുന്ന പിക്സൽ ലൈറ്റർ നിർമ്മിച്ചിരിക്കുന്നത്. താഴേക്ക് നീക്കി എന്നു വഞ്ചിപ്പിക്കുന്നവയിൽ പോയിന്റ് പൊരുത്തപ്പെടുന്ന പിക്സൽ ഇരുണ്ട (പച്ച അമ്പു) നിർമ്മിച്ചിരിക്കുന്നത്. ഇത്തരം എല്ലാ പിക്സൽ മുഴുവൻ ഔട്ട്പുട്ട് ടോണൽ ശ്രേണി വ്യാപിപ്പിക്കും.</p>
+            <p>ആമി കറുത്ത (0) നിന്ന് വൈറ്റ് (255) ലേക്ക്, മൂല്യങ്ങളുടെ വിപുലീകരണം കാണിക്കുന്നു: വിപരീതമായി വർദ്ധിപ്പിക്കുന്നു. മൂല്യം ചാനൽ തിരഞ്ഞെടുത്ത എന്നതിനാല്, മാറ്റങ്ങൾ എല്ലാ നിറം ചാനലുകളും നിറങ്ങൾ വർധന ബാധിക്കും.</p>
+            <div class="figure">
+              <a id="idp46925515721856"></a>
+              <p class="title">
+                <strong>ചിത്രം 14.172. കർവ് കൂടുതൽ ലംബമായ ഉണ്ടാക്കുന്നു</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/toolbox/curves-vert-1.png" alt="കർവ് കൂടുതൽ ലംബമായ ഉണ്ടാക്കുന്നു" />
+                  <div class="caption">
+                    <p>Make the curve more vertical</p>
+                  </div>
+                </div>
+                <div class="mediaobject">
+                  <img src="images/toolbox/curves-vert-2.png" alt="കർവ് കൂടുതൽ ലംബമായ ഉണ്ടാക്കുന്നു" />
+                  <div class="caption">
+                    <p>Result and its histogram</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="idp46925515728464"></a>5.8.3.2. Practical cases</h5>
+              </div>
+            </div>
+          </div>
+          <div class="simplesect">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h6 class="title"><a id="idp46925515729200"></a>Invert colors</h6>
+                </div>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/toolbox/curves-invert.png" />
+              <div class="caption">
+                <p>Inverted curve</p>
+              </div>
+            </div>
+            <p>ബ്ലാക്ക് വൈറ്റ് (പൂർണ്ണമായി / നിറമുള്ള പൂർണ്ണമായി ആഗിരണം ചെയ്യും) ഉണ്ടാക്കിയ. വൈറ്റ് (പൂർണ്ണമായി സുതാര്യമായ, കറുത്ത) കറുത്ത ഉണ്ടാക്കിയ. എല്ലാ പിക്സൽ പരസ്പരപൂരകങ്ങളാണ് നിറം സ്വീകരിക്കാം. അതെന്തുകൊണ്ട്? 255 മുതൽ ചാനൽ മൂല്യങ്ങൾ കുറച്ചാണ് തീർക്കുന്ന നിറം നൽകുന്നു കാരണം. ഉദാഹരണത്തിന്: 19; 197; 248 ഒരു ആകാശ നീല 255-19 നല്കുന്നു; 255-197; 255-248 = 236; 58 7, തെളിച്ചമുള്ള ഒരു ചുവന്ന.</p>
+          </div>
+          <div class="simplesect">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h6 class="title"><a id="idp46925515734368"></a>തീവ്രത മെച്ചപ്പെടുത്തുക</h6>
+                </div>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/toolbox/curves-H-S.png" />
+              <div class="caption">
+                <p>Contrast enhanced</p>
+              </div>
+            </div>
+            <p>തീവ്രത മിഡ് ടോണുകൾ പെരുകിയിരിക്കുന്നു അനുഭവപ്പെടുന്നതല്ല പണത്തിന്റെ കാരണം. ഹൈലൈറ്റുകൾ ആൻഡ് ഷാഡോസ് പെരുകി എന്നാൽ കർവ് പുകഴ്ത്തുക കാരണം തീവ്രത ഈ പ്രദേശങ്ങളിൽ ചെറുതായി കുറവാണ്.</p>
+          </div>
+          <div class="simplesect">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h6 class="title"><a id="idp46925515739136"></a>നിറം ചാനലുകളിൽ പ്രവർത്തനം</h6>
+                </div>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/toolbox/curves-lighten-1.png" />
+            </div>
+            <p>ഓരോ ചാനലിന്റെയും ഞങ്ങൾ വൈറ്റ് പോയിൻറ് തിരശ്ചീനമായി ഇടത്തോട്ടോ, ആദ്യം ഹൈലൈറ്റുകൾ നീക്കി. ഈ ഹൈലൈറ്റുകൾ പ്രദീപ്തമാക്കുന്നു. പിന്നെ ഞങ്ങൾ കറുത്ത നിലനിർത്തിക്കൊണ്ടുതന്നെ മിഡ് ടൺ ആൻഡ് ഷാഡോസ് ലഘൂകരിച്ചു കർവ് ആകൃതിയിലുള്ള.</p>
+            <div class="mediaobject">
+              <img src="images/toolbox/curves-lighten-2.png" />
+              <div class="caption">
+                <p>The original image and the result</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-tool-levels.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-tools-color.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-tool-posterize.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-tool-levels.html">5.7. ലെവലുകൾ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tool-posterize.html">5.9. Posterise</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

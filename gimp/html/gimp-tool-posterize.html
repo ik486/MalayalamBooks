@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>5.9. Posterise</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-tools-color.html" title="5. വർണ്ണ ഉപകരണങ്ങൾ" />
+    <link rel="prev" href="gimp-tool-curves.html" title="5.8. കർവ്സ്" />
+    <link rel="next" href="gimp-tool-desaturate.html" title="5.10. Desaturate" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">5.9. Posterise</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-tool-curves.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">5. വർണ്ണ ഉപകരണങ്ങൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-tool-desaturate.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="gimp-tool-posterize"></a>5.9. Posterise</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925515748288" class="indexterm"></a>
+      <a id="idp46925515749648" class="indexterm"></a>
+      <p>ഈ ഉപകരണം ബുദ്ധിപരമായി നിരക്കു അല്ലെങ്കിൽ സജീവ പാളി പിക്സൽ നിറങ്ങൾ ഭാരവും യഥാർത്ഥ ചിത്രത്തിന്റെ സ്വഭാവസവിശേഷതകൾ ഒരു മരീചിക നിലനിർത്തിക്കൊണ്ടുതന്നെ നിറങ്ങള് കുറയ്ക്കും രൂപകല്പന.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925515751472"></a>5.9.1. ടൂൾ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>You can get to this tool in several ways:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+          In the image menu through
+          <span class="guimenu">Tools</span> → <span class="guisubmenu">Color Tools</span> → <span class="guimenuitem">Posterize</span> or
+          <span class="guimenu">Colors</span> → <span class="guimenuitem">Posterize</span>.
+        </p>
+            </li>
+            <li class="listitem">
+              <p>
+          By clicking on the tool icon
+          <span class="guiicon">
+            <img src="images/toolbox/stock-tool-posterize-22.png" />
+          </span>
+          in Toolbox, if this tool has been installed there. For this, please
+          refer to <a class="xref" href="gimp-pimping.html#gimp-prefs-toolbox" title="1.7. പണിസഞ്ചി">വിഭാഗം 1.7, “പണിസഞ്ചി”</a>.
+        </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925515760000"></a>5.9.2. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925515760752"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.173. Posterize tool options</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/tools-posterize.png" alt="Posterize tool options" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">Posterize Levels</span>
+            </dt>
+            <dd>
+              <p>അമ്പ്-തല ഈ സ്ലൈഡർ ഇൻപുട്ട് ബോക്സുകൾ നിങ്ങൾ ഉപകരണം സജീവ പാളി വിശദീകരിക്കാനുള്ള ഉപയോഗിക്കുന്ന ഓരോ ആർജിബി ചാനലിൽ അളവ് എണ്ണം (2-256) സജ്ജമാക്കാൻ അനുവദിക്കുന്നു. നിറങ്ങൾ എണ്ണം ഈ നിലകൾ സംയോജനമാണ്. 3 എ ലെവൽ 2 <sup>3</sup> = 8 നിറങ്ങൾ തരും.</p>
+            </dd>
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p>പ്രിവ്യൂ ചെക്ക്-ബോക്സ് അവർ ഉടനെ കാണാവുന്നതാണ് അങ്ങനെ ചലനാത്മകമായി എല്ലാ മാറ്റങ്ങളും ചെയ്യുന്നു.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925515768864"></a>5.9.3. Example</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925515769600"></a>
+          <p class="title">
+            <strong>ചിത്രം 14.174. <span class="quote">“<span class="quote">Posterize</span>”</span> ടൂളിനായി ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/toolbox/posterize-ex.png" alt="“Posterize” ടൂളിനായി ഉദാഹരണം" />
+              <div class="caption">
+                <p>ചിത്രം 4 നിലകളിലും ഉള്ള പോസ്റ്ററൈസ്. ആമി പുറമേ കറുപ്പും വെളുപ്പും കൗണ്ടിംഗ്, 4 നിലവാരവും 10 നിറങ്ങൾ കാണിക്കുന്നു.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-tool-curves.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-tools-color.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-tool-desaturate.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-tool-curves.html">5.8. കർവ്സ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tool-desaturate.html">5.10. Desaturate</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

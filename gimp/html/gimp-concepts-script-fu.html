@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>2. സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റുകൾ ഉപയോഗിക്കുന്നതിന്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-scripting.html" title="പാഠം 13. സ്ക്രിപ്റ്റിങ്" />
+    <link rel="prev" href="gimp-scripting.html" title="പാഠം 13. സ്ക്രിപ്റ്റിങ്" />
+    <link rel="next" href="install-script-fu.html" title="2.2. സ്ക്രിപ്റ്റ്-Fus ഇൻസ്റ്റോൾ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">2. സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റുകൾ ഉപയോഗിക്കുന്നതിന്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-scripting.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">പാഠം 13. സ്ക്രിപ്റ്റിങ്</th>
+          <td width="20%" align="right"> <a accesskey="n" href="install-script-fu.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect1">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a id="gimp-concepts-script-fu"></a>2. സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റുകൾ ഉപയോഗിക്കുന്നതിന്</h2>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925510916480" class="indexterm"></a>
+      <div class="sect2">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a id="idp46925510769824"></a>2.1. സ്ക്രിപ്റ്റ്-ഫു?</h3>
+            </div>
+          </div>
+        </div>
+        <p>സ്ക്രിപ്റ്റ്-ഫു വിൻഡോസ് ലോകം "മാക്രോകൾ" എന്തു പേരിടുമെന്നു എന്നാൽ സ്ക്രിപ്റ്റ്-ഫു അതിനെക്കാൾ ശക്തമാണ് ആണ്. സ്ക്രിപ്റ്റ്-ഫു പദ്ധതി വിളിച്ചു ഒരു വിശദീകരിക്കുന്നു ഭാഷ അടിസ്ഥാനമാക്കി <acronym class="acronym">GIMP</acronym> ഡാറ്റാബേസ് ലേക്ക് ചോദിച്ചറിഞ്ഞ ഫംഗ്ഷനുകളും ഉപയോഗിച്ച് പ്രവർത്തിക്കുന്നത്. നിങ്ങൾ ചെയ്യാൻ സ്ക്രിപ്റ്റ്-ഫു കൂടെ എല്ലാ വസ്തുക്കളും, എന്നാൽ ഒരു സാധാരണ <acronym class="acronym">GIMP</acronym> ഉപയോക്താവ് ഒരുപക്ഷേ കാര്യങ്ങൾ ഓട്ടോമേറ്റ് ഉപയോഗിക്കുന്ന കഴിയും:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>നിങ്ങൾ പതിവായി ചെയ്യാൻ ആഗ്രഹിക്കുന്ന.</p>
+            </li>
+            <li class="listitem">
+              <p>ശരിക്കും ചെയ്യാൻ സങ്കീർണ്ണമായിരുന്നു ഓർത്തുകൊൾവിൻ പ്രയാസമാണ്.</p>
+            </li>
+          </ul>
+        </div>
+        <p>നിങ്ങൾക്ക് സ്ക്രിപ്റ്റ്-ഫു ഒരു മുഴുവന് ചെയ്യാൻ കഴിയുമെന്ന് ഓർമിക്കുക. <acronym class="acronym">GIMP</acronym> വരും സ്ക്രിപ്റ്റുകൾ വളരെ ഉപയോഗപ്പെടും, എന്നാൽ നിങ്ങളുടെ സ്വന്തം സ്ക്രിപ്റ്റ് നടത്തുമ്പോൾ അവർ സ്ക്രിപ്റ്റ്-ഫു പഠന വേണ്ടി, അല്ലെങ്കിൽ കുറഞ്ഞത് പരിഷ്കരണത്തിന് ഒരു ചട്ടക്കൂട് ആ സ്രോതസ്സ് മോഡലുകൾ സേവിക്കുന്നു കഴിയും. നിങ്ങൾ സ്ക്രിപ്റ്റുകൾ എങ്ങനെ കുറിച്ച് കൂടുതൽ അറിയാനും അടുത്ത വിഭാഗത്തിൽ സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ വായിക്കുക.</p>
+        <p>ഈ അധ്യായത്തിൽ നാം ഏറ്റവും ഉപയോഗപ്രദമായ സ്ക്രിപ്റ്റുകൾ ചില വിവരിക്കുക, പക്ഷെ ഞങ്ങൾ അവരെ മുഴുവൻ ഇല്ല. വളരെയധികം സ്ക്രിപ്റ്റുകൾ ലളിതമായി ഉണ്ട്. സ്ക്രിപ്റ്റുകൾ ചില വളരെ ലളിതമാണ് നിങ്ങൾ ഒരുപക്ഷേ അവരെ ഉപയോഗിക്കാൻ കഴിയും ഏതെങ്കിലും ഡോക്യുമെന്റേഷൻ ആവശ്യമില്ല.</p>
+        <p>സ്ക്രിപ്റ്റ്-ഫു (സ്കീം ഒരു വകഭേദമാണ്) മാത്രം സ്ക്രിപ്റ്റിങ് ഭാഷ <acronym class="acronym">GIMP</acronym> ലഭ്യമല്ല. എന്നാൽ സ്ക്രിപ്റ്റ്-ഫു സ്വതവേ ഇൻസ്റ്റോൾ മാത്രം സ്ക്രിപ്റ്റിംഗ് ഭാഷയാണ്. മറ്റു ലഭ്യമാണ് സ്ക്രിപ്റ്റിംഗ് വിപുലീകരണങ്ങൾ പേൾ ആൻഡ് ടിസിഎൽ ആകുന്നു. നിങ്ങൾ <acronym class="acronym">GIMP</acronym> പ്ലഗിൻ രജിസ്ട്രി <a class="xref" href="">???</a> ഡൗൺലോഡ് ചെയ്ത് ഇൻസ്റ്റാൾ ചെയ്യാം ഇരുവരും വിപുലീകരണങ്ങൾ.</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-scripting.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-scripting.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="install-script-fu.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-scripting.html">പാഠം 13. സ്ക്രിപ്റ്റിങ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="install-script-fu.html">2.2. സ്ക്രിപ്റ്റ്-Fus ഇൻസ്റ്റോൾ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

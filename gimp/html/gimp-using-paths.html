@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>5.  പാഥുകൾ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-painting.html" title="പാഠം 7. ജിമ്പ് ചിത്രകല" />
+    <link rel="prev" href="gimp-using-quickmask.html" title="4. QuickMask മോഡ് ഉപയോഗിച്ച്" />
+    <link rel="next" href="gimp-using-paths-properties.html" title="5.2. പാത പ്രോപ്പർട്ടീസ്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">5. 
+    
+    <span class="phrase">പാഥുകൾ</span>
+  </th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-using-quickmask.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">പാഠം 7. ജിമ്പ് ചിത്രകല</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-using-paths-properties.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect1">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a id="gimp-using-paths"></a>5. 
+    <a id="gimp-concepts-paths"></a>
+    <span class="phrase">പാഥുകൾ</span>
+  </h2>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925509135664" class="indexterm"></a>
+      <a id="idp46925509136976" class="indexterm"></a>
+      <p>ഗോപനെ കർവുകൾ (അര്ധവൃത്തമാക്കുക-കർവുകൾ അറിയപ്പെടുന്നു) ആകുന്നു. ഗോപനെ പഠിക്കാനും <acronym class="acronym">GIMP</acronym> ഇൻ ഉപയോഗിക്കാൻ എളുപ്പമാണ്. അവരുടെ ആശയങ്ങളും മെക്കാനിസം മനസ്സിലാക്കാൻ, ഗ്ലോസറി <a class="link" href="glossary.html#glossary-bezier-curve" title="ബി zier കർവ്">Bézier-curve</a> വിക്കിപീഡിയ <a class="xref" href="bibliography.html#bibliography-online-wkpd-bezier" title="വിക്കിപീഡിയ - ബി zier കർവ്">[<abbr class="abbrev">WKPD-അര്ധവൃത്തമാക്കുക</abbr>]</a> നോക്കൂ. വഴികളിലേക്ക് ഉപകരണം നിങ്ങളെ ഡ്രീംലൈനറിന്റെ ഫോമുകൾ ഡിസൈനും അനുവദിച്ചുകൊണ്ട് വളരെ ശക്തമാണ്. <acronym class="acronym">GIMP</acronym> ൽ വഴികളിലേക്ക് ഉപകരണം ഉപയോഗിക്കാൻ, ആദ്യം ഒരു പാത സ്ട്രോക്ക് വഴി സൃഷ്ടിക്കുന്നതിന്, തുടർന്ന് വേണം.</p>
+      <p><acronym class="acronym">GIMP</acronym>, സമാനപദം <span class="quote">“<span class="quote">Stroke path</span>”</span> പാത്ത് (നിറം, വീതി, പാറ്റേൺ ...) ഒരു പ്രത്യേക രീതിയിൽ പ്രയോഗിക്കാൻ എന്നാണ്.</p>
+      <p>ഒരു പാത്ത് രണ്ട് പ്രധാന ആവശ്യങ്ങൾക്കായി ഉണ്ട്:</p>
+      <div class="itemizedlist">
+        <ul class="itemizedlist" style="list-style-type: disc; ">
+          <li class="listitem">
+            <p>നിങ്ങൾക്ക് ഒരു നിര ഒരു അടച്ച പാത പരിവർത്തനം ചെയ്യാനാകും.</p>
+          </li>
+          <li class="listitem">
+            <p>ഏതെങ്കിലും പാത, ഓപ്പൺ അല്ലെങ്കിൽ അടച്ച, <span class="emphasis"><em>stroked</em></span> കഴിയും; ആ വഴികൾ വിവിധങ്ങളായ ഇമേജിൽ ചായം, ആണ്.</p>
+          </li>
+        </ul>
+      </div>
+      <div class="figure">
+        <a id="idp46925509146736"></a>
+        <p class="title">
+          <strong>ചിത്രം 7.10. സൃഷ്ടിക്കുന്നത് നാല് വ്യത്യസ്ത പാതയുടെ ചിത്രീകരണവും</strong>
+        </p>
+        <div class="figure-contents">
+          <div class="mediaobject">
+            <img src="images/using/path-examples.png" alt="സൃഷ്ടിക്കുന്നത് നാല് വ്യത്യസ്ത പാതയുടെ ചിത്രീകരണവും" />
+            <div class="caption">
+              <p>ജിമ്പ് പാതകൾ നാല് ഉദാഹരണങ്ങൾ: അടച്ചിരുന്നു ആൻഡ് ബഹുഭുജചിഹ്നം; തുറന്ന് ബഹുഭുജചിഹ്നം; ഒറ്റ പൂട്ടിയിട്ട് വളഞ്ഞ്; നേരായ വളഞ്ഞ നിയോജകമണ്ഡലങ്ങളിലും ഒരു മിശ്രിതം ഒരു.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br class="figure-break" />
+      <div class="sect2">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a id="gimp-using-paths-creating"></a>5.1. പാത ക്രിയേഷൻ</h3>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങളുടെ പാതയിലേക്ക് വേണ്ടി രൂപരേഖയിൽ വരയ്ക്കുന്നതിലൂടെ ആരംഭിക്കുക; രൂപരേഖയിൽ പിന്നീട് പരിഷ്കരിക്കാൻ കഴിയും (കാണാൻ <a class="link" href="gimp-tool-path.html" title="6.2. പാഥുകൾ">Paths</a> ഉപകരണം). ആരംഭിക്കുന്നതിന്, ഇനിപ്പറയുന്ന രീതികളിൽ ഒന്ന് ഉപയോഗിച്ച് വഴികളിലേക്ക് ഉപകരണം തിരഞ്ഞെടുക്കാൻ:</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>ചിത്രം മെനുവിൽ നിന്ന് <span class="guimenu">Tools</span> → <span class="guimenuitem">Path</span> ഉപയോഗിക്കുക.</p>
+            </li>
+            <li class="listitem">
+              <p>പണിസഞ്ചിയിൽ പ്രസക്തമായ ഐക്കൺ <span class="guiicon"><img src="images/toolbox/stock- tool-path-22.png" /></span> ഉപയോഗിക്കുക.</p>
+            </li>
+            <li class="listitem">
+              <p>എഴുപ്പവഴിയിലൂടെ <span class="keycap"><strong>B</strong></span> ഉപയോഗിക്കുക.</p>
+            </li>
+          </ul>
+        </div>
+        <p>വഴികളിലേക്ക് ഉപകരണം തിരഞ്ഞെടുത്തിരിക്കുകയാണെങ്കിലും, മൌസ് കഴ്സർ ഒരു കർവ് ഒരു പോയിന്റർ (അമ്പ്) മാറ്റങ്ങൾ. പാതയിലൂടെ ആദ്യ പോയിന്റ് സൃഷ്ടിക്കുന്നതിനായി സ്വരൂപത്തിൽ ക്ലിക്ക് ഇടത്. ഒരു പുതിയ പോയിന്റ് മൌസ് നീക്കുക മുൻ പോയിന്റിലേക്ക് ലിങ്ക്ഡ് മറ്റൊരു സ്ഥലം സൃഷ്ടിക്കാൻ മൗസ് ക്ലിക്ക് അവശേഷിക്കുന്നു. നിങ്ങൾ കൊതിക്കുന്ന നിന്നെ പോയിന്റുകളുടെ സൃഷ്ടിക്കാൻ കഴിയും എങ്കിലും, നിങ്ങൾക്ക് പാത മാത്രം കുറിച്ച് അറിയുന്നതിന് രണ്ടു പോയിന്റ് വേണം. പോയന്റ് സമയത്ത്, മൌസ് കഴ്സർ ക്ളിക്ക് ഒരു പുതിയ പോയിന്റ് ചേർക്കും സൂചിപ്പിക്കുന്നു കർവ്, അടുത്ത അല്പം <span class="quote">“<span class="quote">+</span>”</span> ഉണ്ട്. മൌസ് കഴ്സർ ഒരു ലൈൻ സെഗ്മെന്റ് അടുത്ത് എപ്പോഴാണ്, <span class="quote">“<span class="quote">+</span>”</span> അമ്പും കുരിശിൽ മാറ്റങ്ങൾ; നീക്കുന്ന ഉപകരണം പോലെ.</p>
+        <p>ഒരു ലൈൻ സെഗ്മെന്റ്, വരി സെഗ്മെന്റ് വലിച്ച് ക്ലിക്ക് അവശേഷിക്കുന്നു അടുത്ത് മൗസ് കഴ്സർ നീക്കുക. രണ്ട് സംഭവങ്ങൾ നടന്നാൽ.</p>
+        <div class="itemizedlist">
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>ലൈൻ സെഗ്മെന്റ് വളവുകളിൽ കടപ്പുറം അതു കടിച്ചുകീറി പോലെ.</p>
+            </li>
+            <li class="listitem">
+              <p>ഓരോ വരിയും സെഗ്മെന്റ് ആരംഭ പോയിന്റ്, വ്യക്തമായി ലേബൽ എന്ന് അന്തിമ പോയിന്റ് ഉണ്ട്. ഒരു <span class="quote">“<span class="quote">direction line</span>”</span> ഇപ്പോൾ ഇളകി വരി സെഗ്മെന്റിനായി ഓരോ അന്തിമ പോയിന്റ് നിന്ന് പ്രതീക്ഷിക്കുന്നത്.</p>
+            </li>
+          </ul>
+        </div>
+        <p>വളഞ്ഞ ലൈൻ സെഗ്മെന്റ് <span class="quote">“<span class="quote">direction line</span>”</span> അവസാന പോയിന്റ് വിടുന്നതോടെ അതേ ദിശയിൽ അന്തിമ പോയിന്റ് വിടുന്നു. <span class="quote">“<span class="quote">direction line</span>”</span> നീളം മറ്റ് അന്തിമ പോയിന്റ് നേരെ വളഞ്ഞുമാണ് മുമ്പ് <span class="quote">“<span class="quote">direction line</span>”</span> സഹിതം എത്രമാത്രം ലൈൻ സെഗ്മെന്റ് പദ്ധതികൾ നിയന്ത്രിക്കുന്നു. ഓരോ <span class="quote">“<span class="quote">direction line</span>”</span> ഒരു അറ്റത്തും ശൂന്യമായ സ്ക്വയർ ബോക്സ് (ഒരു ഹാൻഡിൽ വിളിച്ചു) ഉണ്ട്. ഒരു <span class="quote">“<span class="quote">direction line</span>”</span> ദിശയിൽ നീളവും മാറ്റുന്നതിന് ഒരു ഹാൻഡിൽ ക്ലിക്ക് ചെയ്ത് ഡ്രാഗ്.</p>
+        <div class="figure">
+          <a id="idp46925509226048"></a>
+          <p class="title">
+            <strong>ചിത്രം 7.11. ഒരു പാതയുടെ രൂപഭാവം അതു വ്യാജമായി സമയത്ത്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/using/path-with-anchors.png" alt="ഒരു പാതയുടെ രൂപഭാവം അതു വ്യാജമായി സമയത്ത്" />
+              <div class="caption">
+                <p>അതു പാത ഉപകരണം ഉപയോഗിച്ച് കൃത്രിമം സമയത്ത് ഒരു പാതയുടെ രൂപഭാവം.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>പാത നേരായ വളഞ്ഞ ഇരുവരും മേഖലകളെ രണ്ടു ഘടകങ്ങൾ അടങ്ങിയത്. കറുത്ത സ്ക്വയറുകളുടെ ആങ്കർ പോയിൻറുകൾ, തുറന്ന സർക്കിൾ തിരഞ്ഞെടുത്ത ആങ്കർ സൂചിപ്പിക്കുന്നു, രണ്ട് തുറക്കുക പുറവുമുള്ള തിരഞ്ഞെടുത്ത ആങ്കർ ബന്ധപ്പെട്ട ഹാൻഡിലുകൾ ഉണ്ട്.</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-using-quickmask.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-painting.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-using-paths-properties.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-quickmask.html">4. QuickMask മോഡ് ഉപയോഗിച്ച്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-paths-properties.html">5.2. പാത പ്രോപ്പർട്ടീസ്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

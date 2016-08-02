@@ -1,0 +1,723 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP-Help 2.8.0\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
+"PO-Revision-Date: 2012-06-01 12:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:44(None)
+msgid ""
+"@@image: 'images/using/single-window-mode.png'; "
+"md5=82e57a9e20d445cbe32869b839d4f593"
+msgstr ""
+"@@image: 'images/using/single-window-mode.png'; "
+"md5=82e57a9e20d445cbe32869b839d4f593"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:66(None)
+msgid ""
+"@@image: 'images/using/save-image-overwrite.png'; "
+"md5=a2743829b41b88ae33e59879fb4efb1d"
+msgstr ""
+"@@image: 'images/using/save-image-overwrite.png'; "
+"md5=a2743829b41b88ae33e59879fb4efb1d"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:86(None)
+msgid ""
+"@@image: 'images/using/multiple-image-tabs.png'; "
+"md5=086f8fed25381fb814a719946e815124"
+msgstr ""
+"@@image: 'images/using/multiple-image-tabs.png'; "
+"md5=086f8fed25381fb814a719946e815124"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:107(None)
+msgid ""
+"@@image: 'images/using/multi-column-docks.png'; "
+"md5=79c7cc3a2a2f1f71fecb35ac76abc5c2"
+msgstr ""
+"@@image: 'images/using/multi-column-docks.png'; "
+"md5=79c7cc3a2a2f1f71fecb35ac76abc5c2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:132(None)
+msgid ""
+"@@image: 'images/using/painting-resources-tags.png'; "
+"md5=a0443fefdea5f5317eb71357deed44f7"
+msgstr ""
+"@@image: 'images/using/painting-resources-tags.png'; "
+"md5=a0443fefdea5f5317eb71357deed44f7"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:156(None)
+msgid ""
+"@@image: 'images/using/math-size-entries.png'; "
+"md5=4ce9e532152be44edb52273821f911ae"
+msgstr ""
+"@@image: 'images/using/math-size-entries.png'; "
+"md5=4ce9e532152be44edb52273821f911ae"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:179(None)
+msgid ""
+"@@image: 'images/using/image-lock-pixels.png'; "
+"md5=0206d1bd806ad5a48246a6ab720d0a84"
+msgstr ""
+"@@image: 'images/using/image-lock-pixels.png'; "
+"md5=0206d1bd806ad5a48246a6ab720d0a84"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:292(None)
+msgid ""
+"@@image: 'images/using/new-cage-tool.png'; "
+"md5=23cae1a9a3d30a3e9101d04304d16310"
+msgstr ""
+"@@image: 'images/using/new-cage-tool.png'; "
+"md5=23cae1a9a3d30a3e9101d04304d16310"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:311(None)
+msgid ""
+"@@image: 'images/using/improved-text-tool.png'; "
+"md5=a1d5954af454b21279bb61001bc2ecf9"
+msgstr ""
+"@@image: 'images/using/improved-text-tool.png'; "
+"md5=a1d5954af454b21279bb61001bc2ecf9"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:337(None)
+msgid ""
+"@@image: 'images/using/image-layer-groups.png'; "
+"md5=61933aff7119149db45383dcb7de7d74"
+msgstr ""
+"@@image: 'images/using/image-layer-groups.png'; "
+"md5=61933aff7119149db45383dcb7de7d74"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:356(None)
+msgid ""
+"@@image: 'images/using/rotating-brushes.png'; "
+"md5=986621e1d6f2a92ce8fed584d1e9c01a"
+msgstr ""
+"@@image: 'images/using/rotating-brushes.png'; "
+"md5=986621e1d6f2a92ce8fed584d1e9c01a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:479(None)
+msgid ""
+"@@image: 'images/using/experimental-gegl-tool.png'; "
+"md5=32d24252343fa19d00cbf9cd2304c238"
+msgstr ""
+"@@image: 'images/using/experimental-gegl-tool.png'; "
+"md5=32d24252343fa19d00cbf9cd2304c238"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:505(None)
+msgid ""
+"@@image: 'images/using/cairo-progress-indicator.png'; "
+"md5=6cd0af0e7c54dc3c20312a8c3dc29f8e"
+msgstr ""
+"@@image: 'images/using/cairo-progress-indicator.png'; "
+"md5=6cd0af0e7c54dc3c20312a8c3dc29f8e"
+
+#: src/introduction/whats-new.xml:10(title)
+msgid "What's New in GIMP 2.8?"
+msgstr ""
+"ജിമ്പ് 2.8 പുതുതായി എന്താണുള്ളത്?"
+
+#: src/introduction/whats-new.xml:12(para)
+msgid ""
+"<acronym>GIMP</acronym> 2.8 is an another important release from a "
+"development point of view, even more that it was for 2.6. It features a big "
+"change to the user interface addressing one of the most often received "
+"complain: the lack of a single window mode. Moreover the integration effort "
+"of GEGL library had taken a big step forward, reaching more than 90% of the "
+"<acronym>GIMP</acronym> core, a new powerful transformation tool, layer "
+"groups, new common options, new brushes, improved text tool, and more."
+msgstr ""
+"<acronym>GIMP</acronym> 2.8 അതു 2.6 വേണ്ടി ആയിരുന്നു, ഇനി, കാഴ്ച ഒരു വികസന "
+"കാഴ്ചപ്പാടിൽ നിന്ന് ഒരു മറ്റൊരു പ്രധാന റിലീസാണ്. ഒരു സിംഗിൾ വിൻഡോ മോഡ് അ"
+"ഭാവം: അതു ഏറ്റവും പലപ്പോഴും പരാതി ലഭിച്ച ഒന്നാണ് അഭിസംബോധന യൂസർ ഇന്റർഫേസ്"
+" ഒരു വലിയ മാറ്റം സവിശേഷതകൾ. എന്നുതന്നെയല്ല GEGL ലൈബ്രറിയുടെ സംയോജനം ശ്രമം,"
+" ഒരു പുതിയ ശക്തമായ രൂപാന്തരം ഉപകരണം, പാളി ഗ്രൂപ്പുകൾ, പുതിയ ഉപയോഗിക്കുന്ന "
+"ഉപാധികൾ, പുതിയ നയപ്രഖ്യാപന, മെച്ചപ്പെട്ട പാഠം ഉപകരണം, കൂടുതൽ മുന്നോട്ടു വല"
+"ിയൊരു ഘട്ടത്തിൽ തികച്ചതിനു <acronym>GIMP</acronym> കോർ 90% ചെയ്തിരുന്നു."
+
+#: src/introduction/whats-new.xml:25(title)
+msgid "User Interface"
+msgstr ""
+"ഉപയോക്തൃ ഇന്റർഫേസ്"
+
+#: src/introduction/whats-new.xml:28(term)
+msgid "New single window mode"
+msgstr ""
+"പുതിയ സിംഗിൾ വിൻഡോ മോഡ്"
+
+#: src/introduction/whats-new.xml:30(para)
+msgid ""
+"With this new feature it will be possible to work with all the "
+"<acronym>GIMP</acronym> dialogs inside one big window, usually with the image"
+"(s) centered inside. No more floating panels or toolbox but the dialogs "
+"could be arranged inside this single window. This mode could be enabled or "
+"disabled all the time, even while working, and the option will be remembered "
+"through the sessions."
+msgstr ""
+"ഈ പുതിയ സവിശേഷത അതു ചിത്രത്തിന് (ങ്ങൾ) അകം മധ്യത്തിലാകും സാധാരണയായി ഒന്നിച്"
+"ചു ഒരു വലിയ വിൻഡോയിൽ എല്ലാ <acronym>GIMP</acronym> ഡയലോഗുകൾ പ്രവർത്തിക്കാ"
+"ൻ ആയിരിക്കും. കൂടുതൽ ഫ്ലോട്ടിങ് പാനലുകൾ അല്ലെങ്കിൽ പണിസഞ്ചി എന്നാൽ ഡയലോഗു"
+"കൾ ഈ സിംഗിൾ വിൻഡോ അകത്ത് മതിയാകും കഴിഞ്ഞില്ല. ഈ മോഡ്, പ്രവർത്തനക്ഷമമാക്കി"
+" കഴിഞ്ഞില്ല അല്ലെങ്കിൽ അപ്രാപ്തമാക്കി എല്ലാ തവണ പോലും സമയം, ഓപ്ഷൻ സെഷനുകൾ "
+"വഴി കൂടിയാണ്."
+
+#: src/introduction/whats-new.xml:40(title)
+msgid "The new look of the single window mode"
+msgstr ""
+"സിംഗിൾ വിൻഡോ മോഡ് പുതിയ രൂപഭാവം"
+
+#: src/introduction/whats-new.xml:52(term)
+msgid "New file save workflow"
+msgstr ""
+"വർക്ക്ഫ്ലോയെക്കുറിച്ച് സംരക്ഷിക്കുക പുതിയ ഫയൽ"
+
+#: src/introduction/whats-new.xml:54(para)
+msgid ""
+"Now Save and Save as work only with xcf formats. If you want to export an "
+"image in another format, say jpg or png, you have to explicitly Export it. "
+"This enhances the workflow and lets you simply overwrite the original file "
+"or export to various other formats."
+msgstr ""
+"ഇപ്പോൾ സംരക്ഷിക്കുക മാത്രം െചയാനള ഫോർമാറ്റുകളിൽ പണി സംരക്ഷിക്കുക. നിങ്ങൾ "
+"മറ്റൊരു ഫോർമാറ്റിൽ ഒരു ചിത്രം എക്സ്പോർട്ട് ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, jpg "
+"അല്ലെങ്കിൽ png പറയുന്നു, കീഴ്വഴക്കമായി കയറ്റുമതി ചെയ്യാൻ ഞങ്ങൾക്കുണ്ട്. ഈ പ"
+"്രവർത്തന വർദ്ധിപ്പിക്കുകയും നിങ്ങൾ കേവലം വിവിധ ഫോർമാറ്റുകളിൽ യഥാർത്ഥ ഫയൽ അ"
+"ല്ലെങ്കിൽ കയറ്റുമതി തിരുത്തിയെഴുതുന്നു അനുവദിക്കുന്നു."
+
+#: src/introduction/whats-new.xml:62(title)
+msgid "The new image workflow"
+msgstr ""
+"പുതിയ ഇമേജ് വർക്ക്ഫ്ലോ"
+
+#: src/introduction/whats-new.xml:74(term)
+msgid "New image bar"
+msgstr ""
+"പുതിയ ഇമേജ് ബാർ"
+
+#: src/introduction/whats-new.xml:76(para)
+msgid ""
+"A new useful image bar comes with the single window mode, which lets you "
+"switch easily between open images through the means of a tab bar with image "
+"thumbnails."
+msgstr ""
+"ഒരു പുതിയ ഉപയോഗപ്രദമായ ചിത്രം ബാർ ഇമേജ് ലഘുചിത്രങ്ങൾ അടങ്ങിയ ഒരു ടാബ് ബാർ "
+"മാർഗങ്ങളിലൂടെ ഇമേജുകൾ തുറക്കുക എളുപ്പത്തിൽ മാറുക അനുവദിക്കുന്ന സിംഗിൾ വിൻഡേ"
+"ാ മോഡ്, കൂടെ വരുന്നു."
+
+#: src/introduction/whats-new.xml:82(title)
+msgid "The new image bar"
+msgstr ""
+"പുതിയ ഇമേജ് ബാർ"
+
+#: src/introduction/whats-new.xml:94(term)
+msgid "New arrangement options"
+msgstr ""
+"പുതിയ ഇടപാടുകളിലൂടെ ഓപ്ഷനുകൾ"
+
+#: src/introduction/whats-new.xml:96(para)
+msgid ""
+"<acronym>GIMP</acronym> will make users working with two screens (one for "
+"dialogs, the other for images) happy: now it is possible to arrange the "
+"dialogs one over the other, in tabs and in columns too."
+msgstr ""
+"<acronym>GIMP</acronym> സന്തുഷ്ട രണ്ട് സ്ക്രീനുകൾ (ഡയലോഗുകൾ ഒന്നു ചിത്രങ്ങ"
+"ൾക്കുള്ള മറ്റ്) പ്രവർത്തിച്ചും ഉപയോക്താക്കളെ ആക്കും; ഇപ്പോൾ അതു സാധ്യമാണ്"
+" ടാബുകളിൽ അതും നിരകളിലെ, ഡയലോഗുകൾ മറ്റ് ഒരു ഓവര് ഒരുക്കണമെന്നും ആണ്."
+
+#: src/introduction/whats-new.xml:103(title)
+msgid "Multi column docks"
+msgstr ""
+"ഒന്നിലധികം നിരകളുടെ തുറയിൽ"
+
+#: src/introduction/whats-new.xml:115(term)
+msgid "New resources tags"
+msgstr ""
+"പുതിയ വിഭവങ്ങൾ ടാഗുകൾ"
+
+#: src/introduction/whats-new.xml:117(para)
+msgid ""
+"<acronym>GIMP</acronym> Brushes, Gradients, Pattern and Palettes can be "
+"filtered and searched via tags. Tags are text labels that the user can "
+"assign to resources. With Tags the user can easily find the resources by "
+"means of an input text box. Tags can be manually assigned by the user with "
+"the same input box used for searching tags, or they can be automatically "
+"tagged using the directory name of the imported items."
+msgstr ""
+"<acronym>GIMP</acronym> Brushes, ഘനമായ, മാതൃക പാലറ്റുകൾ ഫിൽറ്റർ ടാഗുകളും വഴ"
+"ി തിരയാൻ കഴിയും. ടാഗുകൾ ഉപയോക്തൃ വിഭവങ്ങൾ നിയോഗിക്കുകയോ കഴിയുന്ന ടെക്സ്റ"
+"്റ് ലേബലുകൾ ആകുന്നു. ടാഗുകൾ ഉപയോഗിച്ച് ഉപയോക്തൃ എളുപ്പത്തിൽ ഒരു ഇൻപുട്ട് "
+"ടെക്സ്റ്റ് ബോക്സിൽ മുഖാന്തരം ഉറവിടങ്ങൾ കണ്ടെത്താൻ കഴിയും. ടാഗുകൾ സ്വമേധയാ "
+"ടാഗുകൾ തിരയുന്നത് ഉപയോഗിച്ച അതേ ഇൻപുട്ട് ബോക്സിൽ ഉപയോഗിച്ച് ഉപയോക്തൃ നി"
+"ശ്ചയിച്ച കഴിയും, അല്ലെങ്കിൽ അവർ സ്വയം ഇറക്കുമതി ചെയ്ത ഇനങ്ങളുടെ ഡയറക്ടറി പേ"
+"ര് ഉപയോഗിച്ച് ടാഗ് ചെയ്യാവുന്നതാണ്."
+
+#: src/introduction/whats-new.xml:128(title)
+msgid "Resource tags"
+msgstr ""
+"വിഭവ ടാഗുകൾ"
+
+#: src/introduction/whats-new.xml:140(term)
+msgid "Simple math in size entries"
+msgstr ""
+"വലുപ്പം എൻട്രികളിൽ ലഘു ഗണിത"
+
+#: src/introduction/whats-new.xml:142(para)
+msgid ""
+"Enhancements have also been made to the size entry widget, which is used for "
+"inputting most of the x, y, width, height parameters. For example, in the "
+"scale dialog it is now possible to write <quote>50%</quote> in the Width "
+"field to scale the image to 50% of the width. Expressions such as "
+"<quote>30in + 40px</quote> and <quote>4 * 5.4in</quote> work, too."
+msgstr ""
+"മെച്ചപ്പെടുത്തലുകൾ പുറമേ X, Y, വീതി, ഉയരം പരാമീറ്ററുകൾ ഏറ്റവും നൽകുന്നതിൽ ഉ"
+"പയോഗിക്കുന്ന വലിപ്പം എൻട്രി വിഡ്ജറ്റ് ചെയ്തിരിക്കുന്നു. ഉദാഹരണത്തിന്, സ്കെ"
+"യിൽ ഡയലോഗിൽ അത് സാധ്യമായ വീതി 50% വരെ ചിത്രം സ്കെയിൽ വീതി വയലിൽ <quote>50%"
+"</quote> ശരിയാകണമെന്നില്ല. ഇത്തരം <quote>30in + 40px</quote> ആൻഡ് <quote>4 "
+"* 5.4in</quote> പ്രവൃത്തി പ്രസ്താവനകൾ."
+
+#: src/introduction/whats-new.xml:152(title)
+msgid "Math size entries"
+msgstr ""
+"മഠം വലുപ്പം എൻട്രികൾ"
+
+#: src/introduction/whats-new.xml:164(term)
+#: src/introduction/whats-new.xml:364(term)
+msgid "Minor changes"
+msgstr ""
+"ചെറിയ മാറ്റങ്ങൾ"
+
+#: src/introduction/whats-new.xml:169(para)
+msgid ""
+"The new <quote>Lock Pixels</quote> option in the layers dialog can avoid "
+"undesired painting on a layer when working with several layers."
+msgstr ""
+"നിരവധി പാളികൾ കൊണ്ട് പ്രവർത്തിക്കുമ്പോൾ പാളികൾ ഡയലോഗിൽ പുതിയ <quote>Lock"
+" Pixels</quote> ഓപ്ഷൻ ഒരു പാളി ന് താൽപ്പര്യമില്ലാത്ത പെയിന്റിംഗ് ഒഴിവാക്കാൻ"
+" കഴിയും."
+
+#: src/introduction/whats-new.xml:175(title)
+msgid "The new Lock Pixels option"
+msgstr ""
+"പുതിയ ലോക്ക് പിക്സലുകള് ഓപ്ഷൻ"
+
+#: src/introduction/whats-new.xml:186(para)
+msgid ""
+"Now you can move between images in single and multi window mode using the "
+"shortcuts <keycombo><keycap>Ctrl</keycap><keycap>PageUp/PageDown</keycap></"
+"keycombo> or <keycombo><keycap>Alt</keycap><keycap>Number</keycap></"
+"keycombo>."
+msgstr ""
+"ഇപ്പോൾ നിങ്ങൾ കുറുക്കുവഴികൾ <keycombo><keycap>Ctrl</keycap><keycap>PageUp/"
+"PageDown</keycap></keycombo> അല്ലെങ്കിൽ <keycombo><keycap>Alt</keycap><keyc"
+"ap>Number</keycap></keycombo> ഉപയോഗിച്ച് സിംഗിൾ ബഹു വിൻഡോ മോഡിൽ ചിത്രങ്ങ"
+"ൾ തമ്മിൽ നീക്കാം."
+
+#: src/introduction/whats-new.xml:196(para)
+msgid "Add support for F2 to rename items in lists."
+msgstr ""
+"ലിസ്റ്റിൽ ഇനങ്ങൾ പേരുമാറ്റാൻ F2 പിന്തുണ ചേർക്കുക."
+
+#: src/introduction/whats-new.xml:202(para)
+msgid ""
+"You can now <keycombo><keycap>Alt</keycap><keycap>Click</keycap></keycombo> "
+"on layers in the Layers dialog to create a selection from it. Add, subtract "
+"and intersect modifiers <keycap>Click</keycap>, <keycap>Shift</keycap> and "
+"<keycombo><keycap>Ctrl</keycap><keycap>Shift</keycap></keycombo> keys work "
+"too. This makes it easy to compose contents of a layer based on the contents "
+"of other layers, without detours."
+msgstr ""
+"നിങ്ങൾ ഇപ്പോൾ അതിൽ നിന്ന് ഒരു നിര സൃഷ്ടിക്കാൻ ഡയലോഗ് പാളികളിൽ ലേയറുകളിൽ <"
+"keycombo><keycap>Alt</keycap><keycap>Click</keycap></keycombo> കഴിയും. , ചേ"
+"ർക്കുക കുറയ്ക്കേണ്ട ഒപ്പം മോഡിഫയറുകൾ <keycap>Click</keycap> കൂട്ടിമുട്ടുന്"
+"ന, <keycap>Shift</keycap> ആൻഡ് <keycombo><keycap>Ctrl</keycap><keycap>Shift"
+"</keycap></keycombo> കീകൾ വളരെ ജോലി. ഈ വഴിമാറുക ഇല്ലാതെ മറ്റ് പാളികൾ ഉള്ളട"
+"ക്കത്തെ അടിസ്ഥാനമാക്കിയുള്ള ഒരു പാളി ഉളളടക്കം രചിക്കുന്നതിന് എളുപ്പമാക്കുന്"
+"നു."
+
+#: src/introduction/whats-new.xml:216(para)
+msgid ""
+"Since the keyboard shortcuts <keycombo><keycap>Ctrl</keycap><keycap>E</"
+"keycap></keycombo> and <keycombo><keycap>Ctrl</keycap><keycap>Shift</"
+"keycap><keycap>E</keycap></keycombo> have been redirected to image export "
+"mechanisms, new keyboard shortcuts have been setup for <quote>Shrink Wrap</"
+"quote> and <quote>Fit in Window</quote>, namely <keycombo><keycap>Ctrl</"
+"keycap><keycap>J</keycap></keycombo> and <keycombo><keycap>Ctrl</"
+"keycap><keycap>Shift</keycap><keycap>J</keycap></keycombo> respectively."
+msgstr ""
+"കീബോർഡ് കുറുക്കുവഴികൾ <keycombo><keycap>Ctrl</keycap><keycap>E</keycap></k"
+"eycombo> ആൻഡ് <keycombo><keycap>Ctrl</keycap><keycap>Shift</keycap><keycap>"
+"E</keycap></keycombo> ഇമേജ് കയറ്റുമതി മെക്കാനിസങ്ങളിലേക്കും വഴിതിരിച്ചുവിടു"
+"ം മുതൽ, പുതിയ കീബോർഡ് കുറുക്കുവഴികൾ യഥാക്രമം <quote>Shrink Wrap</quote> ആൻ"
+"ഡ് <quote>Fit in Window</quote>, അതായത് <keycombo><keycap>Ctrl</keycap><key"
+"cap>J</keycap></keycombo> ആൻഡ് <keycombo><keycap>Ctrl</keycap><keycap>Shift"
+"</keycap><keycap>J</keycap></keycombo> വിവരത്തിനു ചെയ്തിരിക്കുന്നു."
+
+#: src/introduction/whats-new.xml:232(para)
+msgid ""
+"Added <menuchoice><guimenu>Windows</guimenu><guimenuitem>Hide docks</"
+"guimenuitem></menuchoice> menu item that does what <quote>Tab</quote> does "
+"and also displays its state, which is now persistent across sessions, too."
+msgstr ""
+"<quote>Tab</quote> ചെയ്യുകയും ഇപ്പോൾ വളരെ, സെഷനുകളിലുടനീളം സ്ഥിരമല്ല അതിന്"
+"റെ സംസ്ഥാന പ്രദർശിപ്പിക്കുന്നു കരുതുകയും ചേർത്തു <menuchoice><guimenu>Windo"
+"ws</guimenu><guimenuitem>Hide docks</guimenuitem></menuchoice> മെനു ഇനം."
+
+#: src/introduction/whats-new.xml:242(para)
+msgid ""
+"The layer modes have been rearranged into more logical and useful groups "
+"based on the effect they have on layers. Layer modes that make the layer "
+"lighter are in one group, layer modes that make the layer darker in another "
+"group, and so forth."
+msgstr ""
+"പാളി മോഡുകൾ അവർ പാളികൾ ന് പ്രാബല്യത്തിൽ അടിസ്ഥാനമാക്കി കൂടുതൽ ലോജിക്കൽ ഉപ"
+"യോഗപ്രദവുമായ ഗ്രൂപ്പുകളായി ചിലപ്പോൾ ചെയ്തിരിക്കുന്നു. പാളി ഭാരം ആ പാളി മേ"
+"ാഡുകൾ പുറത്ത് മറ്റൊരു ഗ്രൂപ്പിൽ പാളി ഇരുണ്ടതാക്കാൻ ആ പാളി മോഡുകൾ, ഒരു ഗ്ര"
+"ൂപ്പിൽ ആകുന്നു."
+
+#: src/introduction/whats-new.xml:251(para)
+msgid ""
+"In multi-window mode, you can now close the Toolbox without quitting GIMP."
+msgstr ""
+"മൾട്ടി വിൻഡോ മോഡ്, ഇപ്പോൾ ജിമ്പ് അവസാനിപ്പിക്കുന്ന ഇല്ലാതെ പണിസഞ്ചി അടയ്"
+"ക്കാം."
+
+#: src/introduction/whats-new.xml:258(para)
+msgid "Allow binding arbitrary actions to extra mouse buttons."
+msgstr ""
+"അധിക മൌസ് ബട്ടണുകൾ ലേക്ക് ബാധ്യത ഏകപക്ഷീയമായ പ്രവർത്തനങ്ങളും അനുവദിക്കുക."
+
+#: src/introduction/whats-new.xml:264(para)
+msgid ""
+"Now it is possible to change the application language directly from the "
+"preference menu."
+msgstr ""
+"ഇപ്പോൾ മുൻഗണന മെനുവിൽ നിന്ന് നേരിട്ട് അപേക്ഷ ഭാഷ മാറ്റാൻ സാധ്യമാണ്."
+
+#: src/introduction/whats-new.xml:276(title)
+msgid "Tools, Filters and Plug-ins"
+msgstr ""
+"ഉപകരണങ്ങൾ, ഫിൽട്ടറുകൾ പ്ലഗ്-ഇന്നുകൾ"
+
+#: src/introduction/whats-new.xml:279(term)
+msgid "A new tool: Cage Transform"
+msgstr ""
+"ഒരു പുതിയ ടൂൾ: കേജ് മാറ്റുക"
+
+#: src/introduction/whats-new.xml:281(para)
+msgid ""
+"With this new tool is now possible to create custom bending of a selection "
+"just moving control points. This is the result of one of our Google Summer "
+"of Code 2010 students."
+msgstr ""
+"ഈ പുതിയ ഉപകരണം ഉപയോഗിച്ച് മാത്രം നിയന്ത്രണം പോയിന്റുകൾ നീക്കി ഒരു നിര ആചാ"
+"രം ദ്വൈതസ്വഭാവം സൃഷ്ടിക്കാൻ ഇപ്പോൾ സാധ്യമാകുന്നു. ഇത് ഞങ്ങളുടെ കോഡ് ഗൂഗിൾ"
+" സമ്മർ 2010 വിദ്യാർത്ഥികളിൽ ഒരാൾ ഫലമാണ്."
+
+#: src/introduction/whats-new.xml:288(title)
+msgid "Cage Transform"
+msgstr ""
+"കേജ് മാറ്റുക"
+
+#: src/introduction/whats-new.xml:300(term)
+msgid "Improved Text Tool"
+msgstr ""
+"മെച്ചപ്പെടുത്തിയ ടെക്സ്റ്റ് ടൂൾ"
+
+#: src/introduction/whats-new.xml:302(para)
+msgid ""
+"The text tool has been enhanced to support on canvas text writing and make "
+"possible changing the attributes of a single char."
+msgstr ""
+"ടെക്സ്റ്റ് ടൂൾ കാൻവാസ് ടെക്സ്റ്റ് എഴുതിത്തള്ളുന്നത് താങ്ങുകയും ഒരൊറ്റ ചാർ "
+"എന്നീ ഗുണങ്ങൾ മാറ്റുന്നതിൽ സാധ്യമാക്കാൻ മെച്ചപ്പെടുത്തി."
+
+#: src/introduction/whats-new.xml:307(title)
+msgid "Improved text tool"
+msgstr ""
+"മെച്ചപ്പെടുത്തിയ ടെക്സ്റ്റ് ഉപകരണം"
+
+#: src/introduction/whats-new.xml:319(term)
+#: src/introduction/whats-new.xml:333(title)
+msgid "New layer groups"
+msgstr ""
+"പുതിയ ലെയർ ഗ്രൂപ്പുകൾ"
+
+#: src/introduction/whats-new.xml:321(para)
+msgid ""
+"It is now possible to group set of layers and treat them like an entity. It "
+"is possible to switch a group on or off and to move the group in the layers "
+"dialog. It is easy to add / remove existing layers to a group or to create / "
+"delete a layer inside the group and it is even possible to create embedded "
+"groups of groups. It is possible to apply a layer mode to a group as you do "
+"with a single layer. All this greatly improves the workflow with complex "
+"multilayer images making them easier to manage."
+msgstr ""
+"ഇത് പാളികൾ ഗ്രൂപ്പ് സെറ്റ് സാധ്യമാകുന്നു ഒരു എന്റിറ്റി അവരെ കൈകാര്യം. ഇത് അ"
+"ല്ലെങ്കിൽ ഓഫ് ഒരു ഗ്രൂപ്പ് സ്വിച്ച് ലെയറുകൾക്കുമായുള്ള ഡയലോഗിൽ ഗ്രൂപ്പ് നീ"
+"ക്കാൻ സാധ്യമാണ്. ഇത് / ചേർക്കാൻ ഒരു ഗ്രൂപ്പിലേക്ക് നിലവിലുള്ള പാളികൾ നീക്കം"
+" സൃഷ്ടിക്കുകയോ / ഗ്രൂപ്പ് ഉള്ളിൽ ഒരു പാളി ഇല്ലാതാക്കാൻ എളുപ്പമാണ് അത് ഗ്രൂ"
+"പ്പുകളുടെ ഉൾപ്പെടുത്തിയ ഗ്രൂപ്പുകൾ സൃഷ്ടിക്കാൻ പോലും സാധ്യമാണ്. നിങ്ങൾ ഒരു"
+" പാളി ചെയ്യുന്നതുപോലെ ഒരു ഗ്രൂപ്പിലേക്ക് ഒരു പാളി മോഡ് അപേക്ഷിക്കാൻ സാധ്യ"
+"മാണ്. ഇതെല്ലാം ഏറ്റവും സങ്കീർണ്ണമായ മൾട്ടിലെയർ ചിത്രങ്ങൾ നിയന്ത്രിക്കാൻ അവര"
+"െ ലളിതമാക്കി മാറ്റുന്നതിനാണ് കൂടെ വർക്ക്ഫ്ലോ മെച്ചപ്പെടുത്തുന്നു."
+
+#: src/introduction/whats-new.xml:345(term)
+#: src/introduction/whats-new.xml:352(title)
+msgid "Rotating brushes"
+msgstr ""
+"തിരിക്കുന്നു നയപ്രഖ്യാപന"
+
+#: src/introduction/whats-new.xml:347(para)
+msgid ""
+"Brushes can now be rotated at will, acting on the brush option <quote>Angle</"
+"quote>."
+msgstr ""
+"നയപ്രഖ്യാപന ഇപ്പോൾ ബ്രഷ് ഓപ്ഷൻ <quote>Angle</quote> പ്രവർത്തിക്കുന്ന, തോന"
+"്നിയ െചരികനതിനാണ് കഴിയും."
+
+#: src/introduction/whats-new.xml:368(para)
+msgid "The default Quick Mask color is now configurable."
+msgstr ""
+"സ്ഥിര പെട്ടെന്ന് മാസ്ക്കുചെയ്യുക നിറം ഇപ്പോൾ ക്രമീകരിയ്ക്കുവാൻ."
+
+#: src/introduction/whats-new.xml:374(para)
+msgid ""
+"The RTL mode (right to left writing) has been improved in the Text tool."
+msgstr ""
+"ഇവരുടെ മോഡ് (ഇടത് എഴുത്തു അവകാശം) ടെക്സ്റ്റ് ടൂൾ മെച്ചപ്പെടുത്തി."
+
+#: src/introduction/whats-new.xml:381(para)
+msgid ""
+"You can specify the written language in the Text Tool. This helps choosing "
+"an appropriate font, or appropriate glyphs for the selected language."
+msgstr ""
+"നിങ്ങൾ ടെക്സ്റ്റ് ടൂൾ എഴുതിയിരിക്കുന്ന ഭാഷ വ്യക്തമാക്കാൻ കഴിയും. ഈ ഉചിതമായ "
+"ഫോണ്ട്, അല്ലെങ്കിൽ തിരഞ്ഞെടുത്ത ഭാഷയ്ക്ക് അനുയോജ്യമായ ഗ്ലിഫ് ശേഷമേ സഹായിക"
+"്കുന്നു."
+
+#: src/introduction/whats-new.xml:389(para)
+msgid "Added optional diagonal guides to the crop tool."
+msgstr ""
+"ക്രോപ്പ് ഉപകരണം ഓപ്ഷണൽ രചനയാണ് ഗൈഡുകൾ ചേർത്തു."
+
+#: src/introduction/whats-new.xml:395(para)
+msgid "Added <quote>Rule of fifths</quote> crop guide overlay."
+msgstr ""
+"<quote>Rule of fifths</quote> വിള ഗൈഡ് ഓവർലേ ചേർത്തു."
+
+#: src/introduction/whats-new.xml:401(para)
+msgid ""
+"A Cairo based PDF exporter has been implemented. Although being somewhat "
+"simplistic, the exporter saves text, embedding fonts into the final PDF "
+"file, and attempts to convert bitmaps to vector objects."
+msgstr ""
+"ഒരു കൈരോ അടിസ്ഥാനത്തിലുള്ള പീഡിയെഫ് കയറ്റുമതി നല്കിയിരിക്കുന്നു. മുന്ന ഒരാ"
+"ളായി ആണെങ്കിലും, കയറ്റുമതി വാചകം, അവസാന പിഡിഎഫ് ഫയൽ കടന്നു ഫോണ്ടുകൾ ഉൾച്ചേ"
+"ർത്തുകൊണ്ടും വെക്റ്റർ വസ്തുക്കളേയും bitmaps പരിവർത്തനം ശ്രമങ്ങൾ സംരക്ഷിക്ക"
+"ുന്നു."
+
+#: src/introduction/whats-new.xml:410(para)
+msgid "Brush dynamics improved."
+msgstr ""
+"ബ്രഷ് ഡൈനാമിക്സ് മെച്ചപ്പെട്ടു."
+
+#: src/introduction/whats-new.xml:416(para)
+msgid "Added plug-in for loading JPEG2000 images."
+msgstr ""
+"JPEG2000 ചിത്രങ്ങൾ ലോഡുചെയ്യുന്നു വേണ്ടി പ്ലഗ്-ഇൻ ചേർത്തു."
+
+#: src/introduction/whats-new.xml:422(para)
+msgid "Added plug-ins for X11 Mouse Cursor import and export support."
+msgstr ""
+"എക്സ് 11 മൗസ് കഴ്സർ ഇറക്കുമതിയും കയറ്റുമതി പിന്തുണ വേണ്ടി പ്ലഗ്-ഇന്നുകൾ ചേർ"
+"ത്തു."
+
+#: src/introduction/whats-new.xml:429(para)
+msgid "Added fundamental OpenRaster (.ora) import and export support."
+msgstr ""
+"ചേർത്തു അടിസ്ഥാനപരമായ ഓപ്പൺറാസ്റ്റർ (.ora) ഇറക്കുമതിയും കയറ്റുമതി പിന്തുണ."
+
+#: src/introduction/whats-new.xml:436(para)
+msgid "Added RGB565 support to the csource plug-in."
+msgstr ""
+"csource പ്ലഗ്-ഇൻ ലേക്ക് RGB565 പിന്തുണ ചേർത്തു."
+
+#: src/introduction/whats-new.xml:442(para)
+msgid ""
+"Added a new <quote>Create</quote> command that allows loading a Web page "
+"directly into GIMP using Webkit."
+msgstr ""
+"WebKit ഉപയോഗിച്ച് ജിമ്പ് നേരിട്ട് ഒരു വെബ് പേജ് ലോഡ് അനുവദിക്കുന്ന പുതിയ "
+"<quote>Create</quote> കമാൻഡ് ചേർത്തിരിക്കുന്നു."
+
+#: src/introduction/whats-new.xml:455(title)
+msgid "Under the Hood"
+msgstr ""
+"മേൽക്കുര്യുടെ അടിയിൽ"
+
+#: src/introduction/whats-new.xml:458(acronym)
+msgid "GEGL"
+msgstr "GEGL"
+
+#: src/introduction/whats-new.xml:460(para)
+msgid ""
+"The porting of the <acronym>GIMP</acronym> core towards the new high bit-"
+"depth and non-destructive editing GEGL <xref linkend=\"bibliography-online-"
+"gegl\"/> library has taken big steps and now more than 90% of the task is "
+"already finished."
+msgstr ""
+"പുതിയ ഉയർന്ന bit- ആഴം നേരെ <acronym>GIMP</acronym> കോർ നോൺ-വിനാശകരമായ എഡി"
+"റ്റിംഗ് GEGL <xref linkend=\"bibliography-online- gegl\" /> ലൈബ്രറിയുടെ നു്"
+"അനുയോജ്യമാക്കിക്കൊണ്ടിരിയ്ക്കുന്നു വലിയ നടപടികൾ സ്വീകരിച്ചു ഇപ്പോൾ ടാസ്ക"
+"് 90% ഇതിനകം പൂർത്തിയായി ചെയ്യുകയാണ്."
+
+#: src/introduction/whats-new.xml:466(para)
+msgid ""
+"In addition to porting color operations to <acronym>GEGL</acronym>, an "
+"experimental GEGL Operation tool has been added, found in the Tools menu. It "
+"enables applying <acronym>GEGL</acronym> operations to an image and it gives "
+"on-canvas previews of the results. The screenshot below shows this for a "
+"Gaussian Blur."
+msgstr ""
+"<acronym>GEGL</acronym> നിറം പ്രവർത്തനങ്ങൾക്കായുള്ള നു്അനുയോജ്യമാക്കിക്കൊ"
+"ണ്ടിരിയ്ക്കുന്നു പുറമേ, ഒരു പരീക്ഷണാത്മക GEGL ഓപ്പറേഷൻ ഉപകരണം ഉപകരണങ്ങൾ മെന"
+"ുവിലെ കണ്ടു ചേർത്തിരിക്കുന്നു. ഇത് ഒരു ചിത്രത്തിലേക്ക് <acronym>GEGL</acron"
+"ym> ഓപ്പറേഷൻസ് അപേക്ഷിക്കുന്ന പ്രാപ്തമാക്കുന്നു അതു ഫലങ്ങൾ ഓൺ-കാൻവാസ് പ്രിവ"
+"്യൂകൾ നൽകുന്നു. താഴെ ചിത്രത്തിലേ ഒരു ഗോഷ്യൻ ഇഫക്റ്റ് ഈ കാണിക്കുന്നു."
+
+#: src/introduction/whats-new.xml:475(title)
+msgid "<acronym>GEGL</acronym> operation"
+msgstr ""
+"<acronym>GEGL</acronym> ഓപ്പറേഷൻ"
+
+#: src/introduction/whats-new.xml:489(term)
+msgid "Cairo porting"
+msgstr ""
+"കെയ്റോ നു്അനുയോജ്യമാക്കിക്കൊണ്ടിരിയ്ക്കുന്നു"
+
+#: src/introduction/whats-new.xml:491(para)
+msgid ""
+"Started with <acronym>GIMP</acronym> version 2.6, all tools rendering on "
+"canvas is now completely ported to <xref linkend=\"bibliography-online-cairo"
+"\"/>. It provides smooth antialiased graphics and improves <acronym>GIMP</"
+"acronym> look. Some plug-ins have been upgraded to Cairo as well. "
+"Additionally all tools now use an on-canvas progress indicator instead of "
+"the one in the statusbar."
+msgstr ""
+"<acronym>GIMP</acronym> പതിപ്പ് 2.6 നൊപ്പം ആരംഭിക്കുക, ക്യാൻവാസിൽ എല്ലാ ഉപ"
+"കരണങ്ങൾ റെൻഡറിംഗ് ഇപ്പോൾ <xref linkend=\"bibliography-online-cairo \" /> പ"
+"ൂർണമായും പി.സിയിലെ ആണ്. ഇത് മിനുസമുള്ള antialiased ഗ്രാഫിക്സ് പ്രദാനം <acro"
+"nym>GIMP</acronym> ലുക്ക് മെച്ചപ്പെടുത്തുന്നു. ചില പ്ലഗ്-ഇന്നുകൾ നന്നായി കൈ"
+"രോ പരിഷ്കരിച്ചിരിക്കുന്നു. കൂടാതെ എല്ലാ ഉപകരണങ്ങൾ ഇപ്പോൾ ഒരു ഓൺ-ക്യാൻവാസ്"
+" പുരോഗതി സൂചകം പകരം സ്ഥിതിത്തട്ട് ലെ ഉപയോഗിക്കുക."
+
+#: src/introduction/whats-new.xml:501(title)
+msgid "Progress indicator"
+msgstr ""
+"പ്രോഗ്രസ് ഇൻഡിക്കേറ്റർ"
+
+#: src/introduction/whats-new.xml:517(title)
+msgid "Miscellaneous"
+msgstr ""
+"കലര്പ്പായ"
+
+#: src/introduction/whats-new.xml:520(term)
+msgid "License change"
+msgstr ""
+"ലൈസൻസ് മാറ്റം"
+
+#: src/introduction/whats-new.xml:522(para)
+msgid "The GIMP license has been changed to (L)GPLv3+."
+msgstr ""
+"ജിമ്പ് ലൈസൻസ് (എൽ) GPLv3 + ലേക്ക് മാറ്റി."
+
+#: src/introduction/whats-new.xml:529(term)
+msgid "New script API"
+msgstr ""
+"പുതിയ സ്ക്രിപ്റ്റ് API"
+
+#: src/introduction/whats-new.xml:534(para)
+msgid ""
+"A lot of GIMP APIs have been rebuilt to simplify developing new scripts."
+msgstr ""
+"ജിമ്പ് API- കൾ ഒരുപാട് പുതിയ സ്ക്രിപ്റ്റുകൾ വികസ്വര ലളിതമാക്കാൻ അടിമുടി ചെയ"
+"്തു."
+
+#: src/introduction/whats-new.xml:540(para)
+msgid ""
+"To further enhances scripting abilities, API changes to support layer groups "
+"have been made."
+msgstr ""
+"കഴിവുകൾ തിരക്കഥയൊരുക്കുമ്പോൾ കൂടുതൽ മെച്ചപ്പെടുത്തൽ ലേക്കുള്ള, പാളി ഗ്രൂപ"
+"്പുകൾ പിന്തുണയ്ക്കാൻ എപിഐ മാറ്റങ്ങൾ വരുത്തിയ."
+
+#: src/introduction/whats-new.xml:550(term)
+msgid "Backwards Compatibility"
+msgstr ""
+"പുറകോട്ട്കണ്ടുപിടിക്കുക അനുയോജ്യത"
+
+#: src/introduction/whats-new.xml:552(para)
+msgid ""
+"To allow migrating from the old tools presets system to the new one, there "
+"is a Python <ulink url=\"http://wiki.gimp.org/index.php/Mindstorm:"
+"Preset_converter\">script</ulink>, which you can download from the "
+"<acronym>GIMP</acronym> wiki site. However, the old tools presets are not "
+"100% convertible to the new tool presets. For instance, brush scale from 2.6 "
+"can't be converted to brush size in 2.8."
+msgstr ""
+"പഴയ ഉപകരണങ്ങൾ പ്രീസെറ്റുകൾ സിസ്റ്റത്തിൽ നിന്നും പുതിയ ഒറ്റ മൈഗ്രേറ്റുചെയ്യു"
+"ന്ന അനുവദിക്കുന്നതിന്, <acronym>GIMP</acronym> വിക്കി സൈറ്റിൽ നിന്ന് ഡൗൺലോ"
+"ഡ് ചെയ്യാവുന്നതാണ് ഒരു പൈഥൺ <ulink url=\"http://wiki.gimp.org/index.php/Min"
+"dstorm: Preset_converter\">script</ulink>, ഇല്ല. എന്നാൽ, പഴയ ഉപകരണങ്ങൾ പ്രീ"
+"സെറ്റുകൾ പുതിയ ഉപകരണം പ്രീസെറ്റുകൾ 100% മാറ്റിയെടുക്കാവുന്ന അല്ല. ഉദാഹരണത്ത"
+"ിന്, 2.6 മുതൽ ബ്രഷ് സ്കെയിൽ 2.8 ൽ ബ്രഷ് സൈസ് പരിവർത്തനം ചെയ്യാൻ കഴിയില്ല."
+
+#: src/introduction/whats-new.xml:565(term)
+msgid "Known Problems"
+msgstr ""
+"പ്രശ്നങ്ങൾ"
+
+#: src/introduction/whats-new.xml:567(para)
+msgid ""
+"Working with graphics tablets could be problematic due to the GTK+2 library "
+"in use. If in this case either use the older version 2.6 or wait for the up "
+"coming version 3.0 for the full GTK+3 support."
+msgstr ""
+"ഗ്രാഫിക്സ് ടാബ്ലെറ്റുകൾ പ്രവർത്തനം മൂലം ഉപയോഗത്തിലുള്ള GTK + 2 ലൈബ്രറിയിൽ "
+"പ്രശ്നക്കാരായ ആകാം. ഈ കേസിൽ പഴയ പതിപ്പ് 2.6 ഉപയോഗിക്കുക അല്ലെങ്കിൽ പൂർണ്ണ "
+"GTK + 3 പിന്തുണ വേണ്ടി കയറിയ പതിപ്പ് 3.0 കാത്തിരിക്കുക ഒന്നുകിൽ."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/introduction/whats-new.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"

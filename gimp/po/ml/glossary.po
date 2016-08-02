@@ -1,0 +1,2998 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP-Help 2.8.0\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
+"PO-Revision-Date: 2012-06-01 12:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/glossary/glossary.xml:88(None)
+msgid ""
+"@@image: 'images/glossary/alias.png'; md5=fd1573da4400e93a34b6afa1a0444587"
+msgstr ""
+"@@image: 'images/glossary/alias.png'; md5=fd1573da4400e93a34b6afa1a0444587"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/glossary/glossary.xml:93(None)
+msgid ""
+"@@image: 'images/glossary/antialias.png'; "
+"md5=9fd24e3f5be6ee0a73b530fec9fcb107"
+msgstr ""
+"@@image: 'images/glossary/antialias.png'; "
+"md5=9fd24e3f5be6ee0a73b530fec9fcb107"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/glossary/glossary.xml:135(None)
+msgid ""
+"@@image: 'images/glossary/bezier-curve.png'; "
+"md5=3ea3ced43dcef398114c493a037aae6b"
+msgstr ""
+"@@image: 'images/glossary/bezier-curve.png'; "
+"md5=3ea3ced43dcef398114c493a037aae6b"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/glossary/glossary.xml:336(None)
+msgid ""
+"@@image: 'images/glossary/color-model-subtractive.png'; "
+"md5=b28a8bfbda939acb39b82883b8be422b"
+msgstr ""
+"@@image: 'images/glossary/color-model-subtractive.png'; "
+"md5=b28a8bfbda939acb39b82883b8be422b"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/glossary/glossary.xml:538(None)
+msgid ""
+"@@image: 'images/glossary/feather.png'; md5=5d5183c1292e6e5f69308c85df8e062d"
+msgstr ""
+"@@image: 'images/glossary/feather.png'; md5=5d5183c1292e6e5f69308c85df8e062d"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/glossary/glossary.xml:1036(None)
+msgid ""
+"@@image: 'images/glossary/tool-opt-increment.png'; "
+"md5=4c547067fff4381c7235bb57d01052fe"
+msgstr ""
+"@@image: 'images/glossary/tool-opt-increment.png'; "
+"md5=4c547067fff4381c7235bb57d01052fe"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/glossary/glossary.xml:1042(None)
+msgid ""
+"@@image: 'images/glossary/tool-opt-nonincrement.png'; "
+"md5=3c9e1fc6a3ebe89e93d52a083dc133ed"
+msgstr ""
+"@@image: 'images/glossary/tool-opt-nonincrement.png'; "
+"md5=3c9e1fc6a3ebe89e93d52a083dc133ed"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/glossary/glossary.xml:1219(None)
+msgid ""
+"@@image: 'images/dialogs/layers_overview.png'; "
+"md5=cefd0cd52b7eadcc36aeabc98d5710b8"
+msgstr ""
+"@@image: 'images/dialogs/layers_overview.png'; "
+"md5=cefd0cd52b7eadcc36aeabc98d5710b8"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/glossary/glossary.xml:1228(None)
+msgid ""
+"@@image: 'images/dialogs/layers_example.png'; "
+"md5=854b75800e7991d8d68cda14e25d02a4"
+msgstr ""
+"@@image: 'images/dialogs/layers_example.png'; "
+"md5=854b75800e7991d8d68cda14e25d02a4"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/glossary/glossary.xml:1665(None)
+msgid ""
+"@@image: 'images/glossary/color-model-additive.png'; "
+"md5=768bb4d50d1b49aaf5ec7ce7af7ac693"
+msgstr ""
+"@@image: 'images/glossary/color-model-additive.png'; "
+"md5=768bb4d50d1b49aaf5ec7ce7af7ac693"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/glossary/glossary.xml:1715(None)
+msgid ""
+"@@image: 'images/glossary/colorcircle.png'; "
+"md5=ba1114612c901d79309ddb908c5640d0"
+msgstr ""
+"@@image: 'images/glossary/colorcircle.png'; "
+"md5=ba1114612c901d79309ddb908c5640d0"
+
+#: src/glossary/glossary.xml:5(title) src/glossary/glossary.xml:8(primary)
+msgid "Glossary"
+msgstr ""
+"നിഘണ്ടു"
+
+#: src/glossary/glossary.xml:13(phrase) src/glossary/glossary.xml:16(primary)
+msgid "Alpha"
+msgstr ""
+"ആൽഫ"
+
+#: src/glossary/glossary.xml:19(para)
+msgid ""
+"An Alpha value indicates the transparency of a pixel. Besides its Red, Green "
+"and Blue values, a pixel has an alpha value. The smaller the alpha value of "
+"a pixel, the more visible the colors below it. A pixel with an alpha value "
+"of 0 is completely transparent. A pixel with an alpha value of 255 is fully "
+"opaque."
+msgstr ""
+"ആൽഫാ മൂല്യം ഒരു പിക്സൽ സുതാര്യത സൂചിപ്പിക്കുന്നു. അതിന്റെ റെഡ്, പച്ച, നീല മ"
+"ൂല്യങ്ങൾ പുറമെ ഒരു പിക്സൽ ഒരു ആല്ഫാ മൂല്യമുണ്ട്. ചെറിയ ഒരു പിക്സൽ ആൽഫാ മൂല്"
+"യം കൂടുതൽ ദൃശ്യമാകും അതു താഴെ നിറങ്ങൾ. 0 ഒരു ആൽഫ മൂല്യമുള്ള ഒരു പിക്സൽ പൂർണ"
+"്ണമായും സുതാര്യമാണ്. 255 ന്റെ ഒരു ആല്ഫാ മൂല്യമുള്ള ഒരു പിക്സൽ പൂർണ്ണമായി അത"
+"ാര്യവുമാണ്."
+
+#: src/glossary/glossary.xml:26(para)
+msgid ""
+"With some image <link linkend=\"glossary-fileformat\">file formats</link>, "
+"you can only specify that a pixel is completely transparent or completely "
+"opaque. Other file formats allow a variable level of transparency."
+msgstr ""
+"ചില ഇമേജ് <link linkend=\"glossary-fileformat\">file formats</link> ഉപയോഗി"
+"ച്ച്, മാത്രം ഒരു പിക്സൽ പൂർണ്ണമായും സുതാര്യമായ അല്ലെങ്കിൽ പൂർണ്ണമായും അതാര്"
+"യവുമാണ് വ്യക്തമാക്കാം. മറ്റു ഫയൽ ഫോർമാറ്റുകൾ സുതാര്യത ഒരു വേരിയബിൾ ലെവൽ അന"
+"ുവദിക്കുക."
+
+#: src/glossary/glossary.xml:37(phrase)
+msgid "Alpha Channel"
+msgstr ""
+"ആൽഫ ചാനൽ"
+
+#: src/glossary/glossary.xml:41(primary)
+msgid "Transparency"
+msgstr ""
+"സുതാര്യത"
+
+#: src/glossary/glossary.xml:42(secondary)
+#: src/glossary/glossary.xml:45(primary)
+msgid "Alpha channel"
+msgstr ""
+"ആൽഫ ചാനൽ"
+
+#: src/glossary/glossary.xml:47(para)
+msgid ""
+"An alpha <link linkend=\"glossary-channels\">channel</link> of a layer is a "
+"grayscale image of the same size as the layer representing its transparency. "
+"For each pixel the gray level (a value between 0 and 255) represents the "
+"pixels's <link linkend=\"glossary-alpha\">Alpha</link> value. An alpha "
+"channel can make areas of the layer to appear partially transparent. That's "
+"why the background layer has no alpha channel by default."
+msgstr ""
+"ഒരു പാളി ന്റെ ഒരു ആല്ഫാ <link linkend=\"glossary-channels\">channel</link> "
+"അതിന്റെ സുതാര്യത പ്രതിനിധീകരിക്കുന്ന പാളി അതേ വലുപ്പത്തിലുള്ള ഗ്രേസ്കെയിലാക"
+"്കി ചിത്രം. ഓരോ പിക്സലിനായുള്ള ചാര നില (0 255 നും ഒരു മൂല്യം) പിക്സൽ ന്റെ "
+"<link linkend=\"glossary-alpha\">Alpha</link> മൂല്യം പ്രതിനിധീകരിക്കുന്നു. "
+"ഒരു ആല്ഫാ ചാനൽ പാളി പ്രദേശങ്ങൾ ഭാഗികമായും സുതാര്യമായ ദൃശ്യമാകാൻ കഴിയും. പശ്"
+"ചാത്തല പാളി സ്വതവേ ആൽഫ ചാനൽ ഉണ്ട് കൊണ്ടുവന്നിട്ടുള്ളത്."
+
+#: src/glossary/glossary.xml:56(para)
+msgid ""
+"The image alpha channel, which is displayed in the channels dialog, can be "
+"considered as the alpha channel of the final layer when all layers have been "
+"merged."
+msgstr ""
+"ചാനലുകൾ ഡയലോഗ് പ്രദർശിപ്പിച്ചിരിക്കുന്നു ചിത്രത്തിന്റെ ആൽഫാ ചാനൽ, എല്ലാ പാ"
+"ളികൾ ലയിപ്പിച്ചു അവസാനത്തെ പാളി ആൽഫാ ചാനൽ കണക്കാക്കും കഴിയും."
+
+#: src/glossary/glossary.xml:61(para)
+msgid "See also <xref linkend=\"alpha-channel-example\"/>."
+msgstr ""
+"ഇതും <xref linkend=\"alpha-channel-example\" /> കാണുക."
+
+#: src/glossary/glossary.xml:69(phrase) src/glossary/glossary.xml:72(primary)
+msgid "Antialiasing"
+msgstr ""
+"ആന്റിഎലിയാസിംഗ്"
+
+#: src/glossary/glossary.xml:73(secondary)
+msgid "Explanation"
+msgstr ""
+"വിശദീകരണം"
+
+#: src/glossary/glossary.xml:76(para)
+msgid ""
+"Antialiasing is the process of reversing an alias, that is, reducing the "
+"<quote>jaggies</quote>. Antialiasing produces smoother curves by adjusting "
+"the boundary between the background and the pixel region that is being "
+"antialiased. Generally, pixel intensities or opacities are changed so that a "
+"smoother transition to the background is achieved. With selections, the "
+"opacity of the edge of the selection is appropriately reduced."
+msgstr ""
+"ആന്റിഎലിയാസിംഗ്, അപരനാമമായോ തിരിച്ച് പ്രക്രിയ എന്ന് <quote>jaggies</quote>"
+" കുറയ്ക്കുക, ആണ്. ആന്റിഎലിയാസിംഗ് പശ്ചാത്തലവും antialiased ചെയ്യുകയാണ് ആ പി"
+"ക്സൽ മേഖലക്കും അതിർത്തി ക്രമീകരിച്ചുകൊണ്ട് പ്രശാന്തമായിരിക്കുന്നു കടപ്പുറം"
+" ഉത്പാദിപ്പിക്കുന്നത്. സാധാരണയായി, അങ്ങനെ പശ്ചാത്തലത്തിലേക്ക് സുഗമമായ സംക്ര"
+"മണം കൈവരിക്കുന്നു പിക്സൽ തീവ്രത അല്ലെങ്കിൽ opacities രൂപാന്തരപ്പെടുന്നു. തി"
+"രഞ്ഞെടുക്കലുകളിൽ, നിരക്കു വായ്ത്തലയാൽ ഒപാസിറ്റി ഉചിതമായി കുറയുന്നു."
+
+#: src/glossary/glossary.xml:102(phrase)
+msgid "B&eacute;zier curve"
+msgstr ""
+"ബി &eacute; zier കർവ്"
+
+#: src/glossary/glossary.xml:105(para)
+msgid ""
+"A spline is a curve which is defined mathematically and has a set of control "
+"points. A B&eacute;zier spline is a cubic spline which has four control "
+"points, where the first and last control points (knots or anchors) are the "
+"endpoints of the curve and the inner two control points (handles) determine "
+"the direction of the curve at the endpoints."
+msgstr ""
+"ഒരു spline ഗണിതശാസ്ത്രത്തിൽ നിർവചിക്കപ്പെടും കൺട്രോൾ പോയിന്റുകൾ ഒരുകൂട്ടം"
+" ഏത് ഒരു കർവ് ആണ്. എബി &eacute; zier spline നാല് കൺട്രോൾ പോയിന്റുകൾ ഉണ്ട്"
+" ഒരു ക്യുബിക് spline, ആദ്യ, അവസാന കൺട്രോൾ പോയിന്റുകൾ (ഊ അല്ലെങ്കിൽ അവതാരക"
+"ർ) കർവ് റോഡിൻറെ അവ അകത്തെ രണ്ട് കൺട്രോൾ പോയിന്റുകൾ (കൈപ്പിടികൾ) റോഡിൻറെ"
+" ചെയ്തത് കർവ് ദിശ നിർണ്ണയിക്കാൻ എവിടെ ."
+
+#: src/glossary/glossary.xml:113(para)
+msgid ""
+"In the non-mathematical sense, a spline is a flexible strip of wood or metal "
+"used for drawing curves. Using this type of spline for drawing curves dates "
+"back to shipbuilding, where weights were hung on splines to bend them. The "
+"outer control points of a B&eacute;zier spline are similar to the places "
+"where the splines are fastened down and the inner control points are where "
+"weights are attached to modify the curve."
+msgstr ""
+"നോൺ-ഗണിതശാസ്ത്ര അർഥത്തിൽ, ഒരു spline കർവുകൾ ഡ്രോയിംഗ് ഉപയോഗിക്കുന്ന മരം,"
+" ലോഹം ഒരു ഇഷ്ടാനുസരണം സ്ട്രിപ്പ് ആണ്. കർവുകൾ വരയ്ക്കുന്നതിന് spline ഈ തരം "
+"ഉപയോഗിച്ച് മടങ്ങി എവിടെ തൂക്കവും അവരെ പേറി splines ന് കെട്ടി കപ്പൽ, തിയതിക"
+"ളും. ഒരു ബി &eacute; zier spline പുറം കൺട്രോൾ പോയിന്റുകൾ എവിടെ splines ഇറ"
+"ങ്ങി ബന്ധിച്ചിരിക്കുന്നു ചെയ്യുന്നു അകത്തെ കൺട്രോൾ പോയിന്റുകൾ എവിടെ തൂക്ക"
+"വും കർവ് പരിഷ്ക്കരിക്കാൻ അറ്റാച്ച് സ്ഥലങ്ങളുടെയും സമാനമാണ്."
+
+#: src/glossary/glossary.xml:122(para)
+msgid ""
+"B&eacute;zier splines are only one way of mathematically representing "
+"curves. They were developed in the 1960s by Pierre B&eacute;zier, who worked "
+"for Renault."
+msgstr ""
+"ബി &eacute; zier splines ഗണിതശാസ്ത്രത്തിൽ കർവുകൾ പ്രതിനിധീകരിക്കുന്ന ഒരേയൊ"
+"രു മാർഗമാണ്. അവർ റിനോ പ്രവർത്തിച്ചിരുന്ന പിയറി ബി &eacute; zier, 1960, വിക"
+"സിപ്പിച്ചു."
+
+#: src/glossary/glossary.xml:127(para)
+msgid ""
+"B&eacute;zier curves are used in <acronym>GIMP</acronym> as component parts "
+"of <link linkend=\"glossary-path\">Paths</link>."
+msgstr ""
+"ബി &eacute; zier കർവുകൾ <link linkend=\"glossary-path\">Paths</link> എന്ന ഘ"
+"ടകം ഭാഗങ്ങളിൽ ആയി <acronym>GIMP</acronym> ഉപയോഗിക്കുന്നു."
+
+#: src/glossary/glossary.xml:139(para)
+msgid ""
+"The image above shows a B&eacute;zier curve. Points P0 and P3 are points on "
+"the Path, which are created by clicking with the mouse. Points P1 and P2 are "
+"handles, which are automatically created by <acronym>GIMP</acronym> when you "
+"stretch the line."
+msgstr ""
+"മുകളിലുള്ള ചിത്രം ഒരു ബി &eacute; zier കർവ് കാണിക്കുന്നു. പോയിന്റുകൾ P0 ആൻ"
+"ഡ് P3 മൌസ് കൊണ്ട് ക്ലിക്കുചെയ്ത് സൃഷ്ടിക്കപ്പെടുന്നു കരിക്കണമെന്ന് പോയിന"
+"്റുകൾ, ആകുന്നു. പോയിന്റുകൾ P1 ആൻഡ് P2 വരിയിൽ നീട്ടി <acronym>GIMP</acronym"
+"> വഴി സ്വയം സൃഷ്ടിക്കപ്പെട്ടിരിക്കുന്നു ഏത് ഹാൻഡിലുകൾ ആകുന്നു."
+
+#: src/glossary/glossary.xml:150(phrase)
+msgid "Bitmap"
+msgstr ""
+"ബിറ്റ്മാപ്പ്നിര്മ്മാതാവു്"
+
+#: src/glossary/glossary.xml:158(para)
+msgid ""
+"bitmap &mdash; A data file or structure which corresponds bit for bit with "
+"an image displayed on a screen, probably in the same format as it would be "
+"stored in the display's video memory or maybe as a device independent "
+"bitmap. A bitmap is characterised by the width and height of the image in "
+"pixels and the number of bits per pixel which determines the number of "
+"shades of grey or colors it can represent. A bitmap representing a colored "
+"image (a <quote>pixmap</quote>) will usually have pixels with between one "
+"and eight bits for each of the red, green, and blue components, though other "
+"color encodings are also used. The green component sometimes has more bits "
+"than the other two to cater for the human eye's greater discrimination in "
+"this component."
+msgstr ""
+"ബിറ്റ്മാപ്പ് - ഒരു ഡാറ്റ ഫയൽ അല്ലെങ്കിൽ ഒരു സ്ക്രീനിൽ പ്രദർശിപ്പിച്ചിരിക്കു"
+"ന്ന ഒരു ചിത്രം ഉപയോഗിച്ച് ബിറ്റ് വേണ്ടി ബിറ്റ് വന്ന ഘടന, സ്കാനറോ പ്രദർശനത"
+"്തിൻറെ വീഡിയോ സ്മരണയ്ക്കായി അല്ലെങ്കിൽ ഒരുപക്ഷെ ഒരു ഉപകരണം സ്വതന്ത്ര ബിറ്റ"
+"്മാപ്പ് ആയി സംഭരിക്കുകയുള്ളൂ അതേ ഫോർമാറ്റിൽ. ഒരു ബിറ്റ്മാപ്പ് പിക്സലിൽ ഇമേ"
+"ജും ചാര ഷേഡുകൾ, നിറങ്ങൾ എണ്ണം കണ്ണായി കഴിയും നിശ്ചയിക്കുന്നത് പിക്സൽ ബിറ്റു"
+"കൾ എണ്ണം വീതിയും ഉയരവും സ്വഭാവത്തിന് ആണ്. ഒരു നിറമുള്ള ചിത്രമോ (<quote>pix"
+"map</quote>) പ്രതിനിധീകരിക്കുന്ന ബിറ്റ്മാപ്പ് സാധാരണയായി മറ്റ് നിറം എന്കോഡ"
+"ിംഗുകള് ഉപയോഗിക്കുന്നത് ആയാലും ഒന്നു എട്ടു തമ്മിലുള്ള, ചുവപ്പ്, പച്ച, നീല "
+"ഘടകങ്ങൾ ഓരോ ബൈറ്റിൽ പിക്സലുകൾ ഉണ്ടായിരിക്കും. പച്ച ഘടകം ചിലപ്പോൾ ഈ ഘടകം മ"
+"നുഷ്യാവകാശ കണ്ണ് ഉപരി വിവേചനം നിറവേറ്റുന്ന മറ്റ് രണ്ട് അധികം ബിറ്റുകൾ ഉണ്ട്"
+"."
+
+#: src/glossary/glossary.xml:153(para)
+msgid ""
+"From <emphasis> The Free Online Dictionary of Computing (13 Mar 01) </"
+"emphasis>: <placeholder-1/>"
+msgstr ""
+"PLACEHOLDER,-102433: <emphasis> The Free Online Dictionary of Computing (13"
+" Mar 01) </emphasis> നിന്നും"
+
+#: src/glossary/glossary.xml:178(anchor:xreflabel)
+#: src/glossary/glossary.xml:179(anchor:xreflabel)
+#: src/glossary/glossary.xml:180(phrase)
+#: src/glossary/glossary.xml:183(primary)
+#: src/glossary/glossary.xml:187(secondary)
+msgid "BMP"
+msgstr ""
+"ബിഎംപി"
+
+#: src/glossary/glossary.xml:186(primary)
+#: src/glossary/glossary.xml:1419(primary)
+#: src/glossary/glossary.xml:1501(primary)
+#: src/glossary/glossary.xml:1534(primary)
+#: src/glossary/glossary.xml:1852(primary)
+#: src/glossary/glossary.xml:1876(primary)
+#: src/glossary/glossary.xml:2020(primary)
+msgid "Formats"
+msgstr ""
+"ഫോർമാറ്റുകൾ"
+
+#: src/glossary/glossary.xml:190(para)
+msgid ""
+"BMP is an uncompressed image <link linkend=\"glossary-fileformat\">file "
+"format</link> designed by Microsoft and mainly used in Windows. Colors are "
+"typically represented in 1, 4 or 8 bits, although the format also supports "
+"more. Because it is not compressed and the files are large, it is not very "
+"well suited for use in the internet."
+msgstr ""
+"ബിഎംപി മൈക്രോസോഫ്റ്റ് രൂപകൽപ്പന പ്രധാനമായും വിൻഡോസ് ഉപയോഗിക്കുന്ന ഒരു u"
+"ncompressed ചിത്രം <link linkend=\"glossary-fileformat\">file format</link>"
+" ആണ്. നിറങ്ങൾ സാധാരണയായി 1, 4 അല്ലെങ്കിൽ 8 ബിറ്റുകൾ പ്രതിനിധീകരിക്കുന്നത് ഫ"
+"ോർമാറ്റ് കൂടുതൽ പിന്തുണയ്ക്കുന്നു ആണെങ്കിലും. അതു ഉൾക്കൊള്ളിക്കുന്നു കാരണ"
+"ം ഫയലുകളും വലുതാണ്, അതു ഇന്റർനെറ്റ് ഉപയോഗത്തിനായി വളരെ നന്നായി ഉചിതമല്ല."
+
+#: src/glossary/glossary.xml:203(phrase)
+msgid "Bump mapping"
+msgstr ""
+"മാപ്പിംഗ് പിൻഭാഗം"
+
+#: src/glossary/glossary.xml:206(para)
+msgid ""
+"Bump mapping is a technique for displaying extremely detailed objects "
+"without increasing the geometrical complexity of the objects. It is "
+"especially used in 3-dimensional visualization programs. The trick is to put "
+"all the necessary information into a texture, with which shadowing is shown "
+"on the surface of the object."
+msgstr ""
+"കരീനയെ മാപ്പിംഗ് വസ്തുക്കളുടെ ജ്യാമിതീയ സങ്കീർണ്ണത വർദ്ധിച്ചുവരുന്ന ഇല്ലാതെ"
+" വളരെ വിശദമായ വസ്തുക്കൾ പ്രദർശിപ്പിക്കുന്നത് ഒരു ചെയ്യപ്പെട്ടിട്ടുണ്ട്. ഇത്"
+" പ്രത്യേകിച്ച് 3-ദ്വിമാന ചിത്രീകരണ പരിപാടികൾ ഉപയോഗിക്കുന്നു. ഹാട്രിക് ഏതൊ"
+"രു തണലുള്ള ഒബ്ജക്റ്റ് ഉപരിതലത്തിൽ കാണിച്ചിരിക്കുന്നു ഒരു ടെക്സ്ചർ, എല്ലാ ആവ"
+"ശ്യമായ വിവരങ്ങൾ എന്നതാണ്."
+
+#: src/glossary/glossary.xml:213(para)
+msgid ""
+"Bump mapping is only one (very effective) way of simulating surface "
+"irregularities which are not actually contained in the geometry of the model."
+msgstr ""
+"മാപ്പിങ് യഥാർത്ഥത്തിൽ മോഡൽ ജ്യാമിതിയെ അടങ്ങിയിരിക്കുന്ന അല്ല പ്രതലങ്ങളിൽ ക"
+"്രമക്കേട് സിമുലേറ്റ് മാത്രമാണെങ്കിലും (വളരെ ഫലപ്രദമാണ്) മാർഗമാണ് പിൻഭാഗം."
+
+#: src/glossary/glossary.xml:223(phrase)
+msgid "Channel Mask"
+msgstr ""
+"ചാനൽ മാസ്ക്"
+
+#: src/glossary/glossary.xml:226(para)
+msgid ""
+"A channel masks is a special type of mask which determines the transparency "
+"of a selection. See <xref linkend=\"glossary-masks\"/> for a detailed "
+"description."
+msgstr ""
+"ഒരു ചാനൽ മാസ്കുകൾ ഒരു നിര സുതാര്യത നിശ്ചയിക്കുന്നത് മാസ്ക് ഒരു പ്രത്യേക തരം"
+". ഒരു വിശദമായ വിവരണം വേണ്ടി <xref linkend=\"glossary-masks\" /> കാണുക."
+
+#: src/glossary/glossary.xml:236(phrase)
+#: src/glossary/glossary.xml:239(primary)
+msgid "Channel"
+msgstr ""
+"ചാനൽ"
+
+#. TRANSLATORS: this is the modified text from concepts.xml, so
+#.       you should check po/LANG/concepts.po for an old translation
+#: src/glossary/glossary.xml:244(para)
+msgid ""
+"A channel refers to a certain component of an image. For instance, the "
+"components of an <link linkend=\"glossary-rgb\">RGB</link> image are the "
+"three primary colors red, green, blue, and sometimes transparency (alpha)."
+msgstr ""
+"ഒരു ചാനൽ ഒരു ചിത്രം ഒരു ചില ഘടകം പരാമർശിക്കുന്നു. ഉദാഹരണത്തിന്, ഒരു <link l"
+"inkend=\"glossary-rgb\">RGB</link> ചിത്രം ഘടകങ്ങൾ നീല മൂന്ന് പ്രാഥമിക ചുവപ്"
+"പ് പച്ച നിറത്തിനു, ചിലപ്പോൾ സുതാര്യത (ആൽഫ) എന്നിവയാണ്."
+
+#: src/glossary/glossary.xml:250(para)
+msgid ""
+"Every channel is a grayscale image of exactly the same size as the image "
+"and, consequently, consists of the same number of pixels. Every pixel of "
+"this grayscale image can be regarded as a container which can be filled with "
+"a value ranging from 0 to 255. The exact meaning of this value depends on "
+"the type of channel, e.g. in the <acronym>RGB</acronym> color model the "
+"value in the <emphasis>R</emphasis>-channel means the amount of red which is "
+"added to the color of the different pixels; in the selection channel, the "
+"value denotes how strongly the pixels are selected; and in the alpha channel "
+"the values denote how opaque the corresponding pixels are. See also <xref "
+"linkend=\"gimp-concepts-channels\"/>."
+msgstr ""
+"ഓരോ ചാനൽ ചിത്രം പോലെ കൃത്യമായി ഒരേ വലിപ്പം ഒരു ഗ്രേസ്കെയിലാക്കി ചിത്രം ആണ"
+"്, അനന്തരഫലമായി പിക്സൽ അതേ എണ്ണം അടങ്ങിയിരിക്കുന്നു. ഈ ഗ്രേസ്കെയിലാക്കി ചിത"
+"്രത്തിന്റെ ഓരോ പിക്സൽ ഈ മൂല്യം കൃത്യമായ അർഥം ഉദാ ചാനലിന്റെ തരം ആശ്രയിച്ചിര"
+"ിക്കുന്നു 0 മുതൽ 255. വരെയാണു മൂല്യം നിറയും കഴിയുന്ന ഒരു കണ്ടെയ്നർ കണക്കാക്"
+"കപ്പെടുന്നു കഴിയും <acronym>RGB</acronym> നിറം മോഡൽ <emphasis>R</emphasis>"
+" -channel മൂല്യം വിവിധ പിക്സൽ നിറം ചേർത്തു ചുവന്ന തുക മാർഗങ്ങൾ; നിരക്കു ചാന"
+"ൽ, മൂല്യ പിക്സൽ തിരഞ്ഞെടുക്കപ്പെടുന്നത് എങ്ങനെയെന്ന് ശക്തമായി അധ്യാത്മജ്ഞാന"
+"മെന്നാണ്; ആൽഫ ചാനൽ മൂല്യങ്ങൾ സദൃശ്യമായ പിക്സൽ എത്ര സുതാര്യമല്ല എസില്. ഇതും "
+"<xref linkend=\"gimp-concepts-channels\" /> കാണുക."
+
+#: src/glossary/glossary.xml:268(phrase)
+msgid "Clipboard"
+msgstr ""
+"ക്ലിപ്ബോർഡ്"
+
+#: src/glossary/glossary.xml:271(para)
+msgid ""
+"The Clipboard is a temporary area of memory which is used to transfer data "
+"between applications or documents. It is used when you Cut, Copy or Paste "
+"data in <acronym>GIMP</acronym>."
+msgstr ""
+"ക്ലിപ്ബോർഡ് പ്രയോഗങ്ങൾ അല്ലെങ്കിൽ പ്രമാണങ്ങൾ വിവരം കൈമാറുന്നതിന് ഉപയോഗിക"
+"്കുന്ന മെമ്മറി ഒരു താൽക്കാലിക മേഖലയാണ്. അതു നിങ്ങൾ, മുറിച്ചാൽ പകർത്തുക അല്ല"
+"െങ്കിൽ <acronym>GIMP</acronym> ൽ ഒട്ടിക്കുക ഡാറ്റ ഉപയോഗിക്കുന്നു."
+
+#: src/glossary/glossary.xml:276(para)
+msgid ""
+"The clipboard is implemented slightly differently under different operating "
+"systems. Under Linux/XFree, <acronym>GIMP</acronym> uses the XFree clipboard "
+"for text and the <acronym>GIMP</acronym> internal image clipboard for "
+"transferring images between image documents. Under other operating systems, "
+"the clipboard may work somewhat differently. See the <acronym>GIMP</acronym> "
+"documentation for your operating system for further information."
+msgstr ""
+"ക്ലിപ്ബോർഡ് ഓപ്പറേറ്റിങ് സിസ്റ്റങ്ങൾ കീഴിൽ അൽപ്പം വ്യത്യസ്തമായി നടപ്പിലാക്"
+"കുന്നത്. ലിനക്സ് / എക്സ്ഫ്രീ കീഴിൽ <acronym>GIMP</acronym> പാഠ, പ്രമാണങ്ങൾ "
+"തമ്മിലുള്ള ചിത്രങ്ങൾ മാറ്റിക്കൊണ്ടിരിക്കുന്ന <acronym>GIMP</acronym> ആന്തര"
+"ിക ചിത്രം ക്ലിപ്ബോർഡ് വേണ്ടി എക്സ്ഫ്രീ ക്ലിപ്ബോർഡ് ഉപയോഗിക്കുന്നു. മറ്റ്"
+" ഓപ്പറേറ്റിങ് സിസ്റ്റങ്ങൾ കീഴിൽ ക്ലിപ്ബോർഡ് അല്പമെങ്കിലും വ്യത്യസ്തമായ രീത"
+"ിയിലാണ് പ്രവർത്തിക്കുക. കൂടുതൽ വിവരങ്ങൾക്ക് നിങ്ങളുടെ ഓപ്പറേറ്റിംഗ് സിസ്റ്റ"
+"ം വേണ്ടി <acronym>GIMP</acronym> ഡോക്യുമെന്റേഷൻ കാണുക."
+
+#. TODO: this para should go to concepts/using
+#: src/glossary/glossary.xml:286(para)
+msgid ""
+"The basic operations provided by the clipboard are <quote>Cut</quote>, "
+"<quote>Copy</quote>, and <quote>Paste</quote>. Cut means that the item is "
+"removed from the document and copied to the clipboard. Copy leaves the item "
+"in the document and copies it to the clipboard. Paste copies the contents of "
+"the clipboard to the document. The <acronym>GIMP</acronym> makes an "
+"intelligent decision about what to paste depending upon the target. If the "
+"target is a canvas, the Paste operation uses the image clipboard. If the "
+"target is a text entry box, the paste operation uses the text clipboard."
+msgstr ""
+"ക്ലിപ്ബോർഡ് നൽകിയ അടിസ്ഥാന ഓപ്പറേഷൻസ് <quote>Cut</quote>, <quote>Copy</quo"
+"te>, ഒപ്പം <quote>Paste</quote> ആകുന്നു. മുറിക്കുക ഇനം പ്രമാണത്തിൽ നിന്ന് ന"
+"ീക്കം ക്ലിപ്ബോർഡിലേക്ക് പകർത്തി എന്നാണ്. പകർത്തുക പ്രമാണം ക്ലിപ്ബോർഡിലേക്"
+"ക് പകർപ്പുകൾ അതിൽ ഇനം വിടുന്നു. പ്രമാണത്തിൽ പകർപ്പുകൾ ക്ലിപ്ബോർഡിലെ ഉളളടക്"
+"കം ഒട്ടിക്കുക. <acronym>GIMP</acronym> ടാർഗെറ്റ് അനുസരിച്ച് ഒട്ടിക്കാൻ എന്ത"
+"ാണ് ഇന്റലിജന്റ് തീരുമാനം. ടാർഗെറ്റ് ഒരു ക്യാൻവാസ് എങ്കിൽ, ഒട്ടിക്കുക ഓപ്പറേ"
+"ഷൻ ഇമേജ് ക്ലിപ്ബോർഡ് ഉപയോഗിക്കുന്നു. ടാർഗറ്റ് ഒരു ടെക്സ്റ്റ് എൻട്രി ബോക്"
+"സിൽ എങ്കിൽ, പേസ്റ്റ് ഓപ്പറേഷൻ ടെക്സ്റ്റ് ക്ലിപ്ബോർഡ് ഉപയോഗിക്കുന്നു."
+
+#: src/glossary/glossary.xml:302(phrase)
+msgid "CMY, CMYK"
+msgstr "CMY, CMYK"
+
+#: src/glossary/glossary.xml:305(primary)
+msgid "CMYK"
+msgstr "CMYK"
+
+#: src/glossary/glossary.xml:308(primary)
+#: src/glossary/glossary.xml:458(primary)
+#: src/glossary/glossary.xml:966(primary)
+#: src/glossary/glossary.xml:1069(primary)
+#: src/glossary/glossary.xml:1654(primary)
+#: src/glossary/glossary.xml:1794(primary)
+#: src/glossary/glossary.xml:1993(primary)
+msgid "Color"
+msgstr ""
+"നിറം"
+
+#: src/glossary/glossary.xml:309(secondary)
+msgid "Subtractive color synthesis"
+msgstr ""
+"ഭ്രാന്താശുപത്രികളില് നിറം സിന്തസിസ്"
+
+#: src/glossary/glossary.xml:312(para)
+msgid ""
+"CMYK is a <link linkend=\"glossary-colormodel\">color model</link> which has "
+"components for Cyan, Magenta, Yellow and Black. It is a subtractive color "
+"model, and that fact is important when an image is printed. It is "
+"complementary to the <link linkend=\"glossary-rgb\">RGB</link> color model."
+msgstr ""
+"CMYK സിയാൻ, മജന്ത, മഞ്ഞ, ബ്ലാക്ക് വേണ്ടി ഘടകങ്ങൾ ഉണ്ട് ഒരു <link linkend=\""
+"glossary-colormodel\">color model</link> ആണ്. ഒരു പ്രവണത കളർ മോഡൽ ആണ്, ഒരു"
+" ചിത്രം പ്രിന്റ് ചെയ്യുമ്പോൾ വസ്തുത പ്രധാനമാണ്. ഇത് <link linkend=\"glossa"
+"ry-rgb\">RGB</link> കളർ മോഡൽ തീർക്കുന്ന ആണ്."
+
+#: src/glossary/glossary.xml:319(para)
+msgid ""
+"The values of the individual colors vary between 0% and 100%, where 0% "
+"corresponds to an unprinted color, and 100% corresponds to a completely "
+"printed area of color. Colors are formed by mixing the three basic colors."
+msgstr ""
+"വ്യക്തിഗത നിറങ്ങൾ മൂല്യങ്ങൾ 0% എവിടെ 0% ഒരു unprinted നിറം യോജിക്കുന്നുവോ"
+", 100% നിറം ഒരു പൂർണ്ണമായും അച്ചടിച്ച പ്രദേശത്ത് യോജിക്കുന്നുവോ 100%, തമ്"
+"മിലുള്ള വ്യത്യാസപ്പെട്ടിരിക്കും. നിറങ്ങൾ മൂന്ന് അടിസ്ഥാന നിറങ്ങൾ ധനത്തോട് "
+"രൂപപ്പെടുത്തിയിരിക്കുന്നത്."
+
+#: src/glossary/glossary.xml:325(para)
+msgid ""
+"The last of these values, K (Black), doesn't contribute to the color, but "
+"merely serves to darken the other colors. The letter K is used for Black to "
+"prevent confusion, since B usually stands for Blue."
+msgstr ""
+"ഈ മൂല്യങ്ങൾ അവസാനത്തെ കെ (കറുപ്പ്), നിറം അനുഗുണമല്ല, മറിച്ച് മറ്റ് നിറങ്ങൾ "
+"ഇരുണ്ട് ഉപകരിക്കുന്നു. കത്ത് കെ ബി സാധാരണയായി ബ്ലൂ നിലകൊള്ളുന്നു ശേഷം, ആശയ"
+"ക്കുഴപ്പം തടയാൻ ബ്ലാക്ക് ഉപയോഗിക്കുന്നു."
+
+#: src/glossary/glossary.xml:332(title)
+msgid "Subtractive color model"
+msgstr ""
+"ഭ്രാന്താശുപത്രികളില് നിറം മോഡൽ"
+
+#: src/glossary/glossary.xml:340(para)
+msgid ""
+"<acronym>GIMP</acronym> does not currently support the CMYK model. (An "
+"experimental plug-in providing rudimentary CMYK support can be found <xref "
+"linkend=\"bibliography-online-plugin-separate\"/>.)"
+msgstr ""
+"<acronym>GIMP</acronym> നിലവിൽ CMYK മോഡൽ പിന്തുണയ്ക്കുന്നില്ല. (ഒരു പരീക്ഷ"
+"ണാത്മക പ്ലഗ്-ഇൻ ബേസികിലേക്കായിരുന്നതിനാൽ CMYK പിന്തുണ നൽകുന്നത് <xref linke"
+"nd=\"bibliography-online-plugin-separate\" /> കണ്ടെത്താൻ കഴിയും.)"
+
+#: src/glossary/glossary.xml:345(para)
+msgid ""
+"This is the mode used in printing. These are the colors in the ink "
+"cartridges in your printer. It is the mode used in painting and in all the "
+"objects around us, where light is reflected, not emmitted. Objects absorb "
+"part of the light waves and we see only the reflected part. Note that the "
+"cones in our eyes see this reflected light in RGB mode. An object appears "
+"Red because Green and Blue have been absorbed. Since the combination of "
+"Green and Blue is Cyan, Cyan is absorbed when you add Red. Conversely, if "
+"you add Cyan, its complementary color, Red, is absorbed. This system is "
+"<emphasis>subtractive</emphasis>. If you add Yellow, you decrease Blue, and "
+"if you add Magenta, you decrease Green."
+msgstr ""
+"ഈ പ്രിന്റിംഗ് ഉപയോഗിക്കുന്ന മോഡ്. ഈ നിങ്ങളുടെ പ്രിന്റർ മഷികൊണ്ടു വെടിയുണ"
+"്ടകളിൽ നിറങ്ങൾ ആകുന്നു. ഇത് എവിടെ പ്രതിഫലനം മാത്രമാണെന്ന് ചിത്രത്തിൽ നമ്മുട"
+"െ ചുറ്റുമുളളവരുടെയും വസ്തുക്കൾ ഉപയോഗിക്കുന്ന മോഡ്, emmitted അല്ല. തെളിഞ്ഞ"
+"ുവരും തിരകൾ ഭാഗമായി ആഗിരണം മാത്രമേ ഞങ്ങൾ പ്രതിഫലിക്കും ചിലത്. നമ്മുടെ ദൃഷ്ട"
+"ിയിൽ അതോടൊപ്പം ഈ പ്രതിഫലിക്കുന്നുണ്ട് ആർജിബി മോഡിൽ വെളിച്ചം കാണുന്നു ശ്ര"
+"ദ്ധിക്കുക. പച്ച, നീല ആഗിരണം ചെയ്തു കാരണം ഒരു വസ്തു റെഡ് തോന്നുന്നു. പച്ച, "
+"നീല സംയോജനമാണ് സിയാൻ ആയതിനാൽ, Red ചേർക്കുമ്പോൾ സിയാൻ ആഗിരണം. അതുപോലെ തന്"
+"നെ, സിയാൻ, അതിന്റെ തീർക്കുന്ന നിറം ചേർത്താൽ, റെഡ്, ആഗിരണം. ഈ സിസ്റ്റം <emph"
+"asis>subtractive</emphasis> ആണ്. നിങ്ങൾ മഞ്ഞ ചേർക്കാൻ, നിങ്ങൾക്ക് ബ്ലൂ കുറക"
+"്കാനോ, നിങ്ങൾ മജന്ത ചേർത്താൽ, ഗ്രീൻ കുറക്കാനോ."
+
+#: src/glossary/glossary.xml:358(para)
+msgid ""
+"It would be logical to think that by mixing Cyan, Magenta and Yellow, you "
+"would subtract Red, Green and Blue, and the eye would see no light at all, "
+"that is, Black. But the question is more complex. In fact, you would see a "
+"dark brown. That is why this mode also has a Black value, and why your "
+"printer has a Black cartridge. It is less expensive that way. The printer "
+"doesn't have to mix the other three colors to create an imperfect Black, it "
+"just has to add Black."
+msgstr ""
+"ഇത് സിയാൻ, മജന്ത, മഞ്ഞ ധനത്തോട്, Red, പച്ച, നീല കുറയ്ക്കേണ്ട എന്ന് കരുതുന്"
+"നു ലോജിക്കൽ തന്നെ, കണ്ണ്, യാതൊരു വെളിച്ചം കാണും എന്നു ബ്ലാക്ക് ആണ്. എന്നാ"
+"ൽ ചോദ്യം കൂടുതൽ സങ്കീർണമാണ്. സത്യത്തിൽ, ഒരു ഇരുണ്ട തവിട്ട് കാണും. ഈ മോഡിൽ"
+" ഒരു ബ്ലാക്ക് മൂല്യം അതുകൊണ്ടാണ്, എന്തുകൊണ്ട് നിങ്ങളുടെ പ്രിന്റർ ഒരു ബ്ലാ"
+"ക്ക് വെടിയുണ്ടക്കൂട് സാധ്യത ഉണ്ട്. ആ വഴി ചിലവ് കുറവാണ്. പ്രിന്റർ അതു വെറും "
+"കറുത്ത ചേർക്കാൻ ഉണ്ട്, ഒരു അപൂർണ ബ്ലാക്ക് സൃഷ്ടിക്കാൻ മറ്റ് മൂന്ന് നിറങ്ങൾ "
+"ഇളക്കുക ഇല്ല."
+
+#: src/glossary/glossary.xml:372(phrase)
+#: src/glossary/glossary.xml:375(primary)
+msgid "Color depth"
+msgstr ""
+"വർണ്ണ ആഴത്തിൽ"
+
+#: src/glossary/glossary.xml:378(primary)
+msgid "bpp"
+msgstr "bpp"
+
+#: src/glossary/glossary.xml:381(para)
+msgid ""
+"Color depth is simply the number of bits used to represent a color (bits per "
+"pixel : bpp). There are 3 channels for a pixel (for Red, Green and Blue). "
+"<acronym>GIMP</acronym> can support 8 bits per channel, referred as "
+"<emphasis>eight-bit color</emphasis>. So, <acronym>GIMP</acronym> color "
+"depth is 8&nbsp;*&nbsp;3&nbsp;=&nbsp;24, which allows 256&nbsp;"
+"*&nbsp;256&nbsp;*&nbsp;256&nbsp;=&nbsp;16,777,216 possible colors (8 bits "
+"allow 256 colors)."
+msgstr ""
+"കളർ ആഴത്തിൽ കേവലം ഒരു നിറം (: bpp .പിക്സലില് ബിറ്റുകൾ) പ്രതിനിധീകരിക്കാൻ ഉപ"
+"യോഗിക്കുന്ന ബിറ്റുകൾ എണ്ണം. (ചുവപ്പ്, പച്ച, നീല) ഒരു പിക്സൽ 3 ചാനലുകൾ ഉണ്ട"
+"്. <acronym>GIMP</acronym> ചാനൽ ശതമാനം 8 കഷണം <emphasis>eight-bit color</em"
+"phasis> എന്നാണ് വിളിക്കുന്നത് പിന്തുണയ്ക്കാൻ കഴിയില്ല. അതുകൊണ്ട്, <acronym"
+">GIMP</acronym> നിറം ആഴത്തിൽ 256 * 256 * 256 = 16.777.216 സാധ്യത നിറങ്ങൾ (8"
+" ബിറ്റുകൾ 256 നിറങ്ങൾ അനുവദിക്കുക) അനുവദിക്കുന്ന 8 * 3 = 24 ആണ്."
+
+#: src/glossary/glossary.xml:396(phrase)
+#: src/glossary/glossary.xml:399(primary)
+msgid "Color model"
+msgstr ""
+"കളർ മോഡൽ"
+
+#: src/glossary/glossary.xml:402(para)
+msgid ""
+"A color model is a way of describing and specifying a color. The term is "
+"often used loosely to refer to both a color space system and the color space "
+"on which it is based."
+msgstr ""
+"ഒരു നിറം മോഡൽ വിവരിക്കുന്ന ഒരു നിറവും ഒരു വഴി. കാലാവധി പലപ്പോഴും ഒരു കളർ "
+"സ്പേസ് സിസ്റ്റം എന്നിവ അതു അടിസ്ഥാനമാക്കിയാണ് കളർ സ്പേസ് ഇരുവരും കുറിക്കുവാ"
+"ൻ പണത്തെയും ഉപയോഗിക്കുന്നു."
+
+#: src/glossary/glossary.xml:408(para)
+msgid ""
+"A color space is a set of colors which can be displayed or recognized by an "
+"input or output device (such as a scanner, monitor, printer, etc.). The "
+"colors of a color space are specified as values in a color space system, "
+"which is a coordinate system in which the individual colors are described by "
+"coordinate values on various axes. Because of the structure of the human "
+"eye, there are three axes in color spaces which are intended for human "
+"observers. The practical application of that is that colors are specified "
+"with three components (with a few exceptions). There are about 30 to 40 "
+"color space systems in use. Some important examples are:"
+msgstr ""
+"ഒരു നിറം ഇടം ഒരു ഇൻപുട്ട് അല്ലെങ്കിൽ ഔട്ട്പുട്ട് ഡിവൈസ് (പോലുള്ള സ്കാനർ, മ"
+"ോണിറ്റർ, പ്രിന്റർ മുതലായവ) പ്രദർശിപ്പിക്കുന്ന അല്ലെങ്കിൽ അംഗീകൃത കഴിയുന്ന "
+"ഒരു കൂട്ടം വർണങ്ങൾ ആണ്. ഒരു കളർ സ്പേസ് നിറങ്ങൾക്ക് ഏത് വ്യക്തിയുടെ നിറങ്ങൾ "
+"ഏകോപിപ്പിക്കുകയും വിവിധ മഴു ന് മൂല്യങ്ങൾ വിശേഷിപ്പിച്ചത് ഒരു കോഓർഡിനേറ്റ്"
+" സിസ്റ്റം ആണ് ഒരു കളർ സ്പേസ് സിസ്റ്റം, മൂല്യങ്ങൾ വ്യക്തമാക്കിയിരിക്കുന്നു. "
+"കാരണം മനുഷ്യ കണ്ണ് ഘടന, മനുഷ്യ നിരീക്ഷകർ ലക്ഷ്യം നിറം സ്ഥലങ്ങളിലും മൂന്നു മ"
+"ഴു ഉണ്ട്. ആ പ്രയോഗത്തിൽ നിറങ്ങൾ മൂന്നു ഘടകങ്ങൾ (കുറച്ച് ഒഴിവാക്കലുകളോടുകൂ"
+"ടി) ഉപയോഗിച്ച് വ്യക്തമാക്കിയ എന്നതാണ്. ഉപയോഗം 30 മുതൽ 40 വരെ കളർ സ്പേസ് സ"
+"ംവിധാനങ്ങൾ. ചില സുപ്രധാന ഉദാഹരണങ്ങൾ:"
+
+#: src/glossary/glossary.xml:423(link) src/glossary/glossary.xml:1648(phrase)
+#: src/glossary/glossary.xml:1651(primary)
+msgid "RGB"
+msgstr ""
+"ആർജിബി"
+
+#: src/glossary/glossary.xml:428(link) src/glossary/glossary.xml:891(phrase)
+msgid "HSV"
+msgstr "HSV"
+
+#: src/glossary/glossary.xml:433(link)
+msgid "CMY(K)"
+msgstr ""
+"CMY (കെ)"
+
+#: src/glossary/glossary.xml:438(link) src/glossary/glossary.xml:2122(phrase)
+#: src/glossary/glossary.xml:2125(primary)
+msgid "YUV"
+msgstr ""
+"താഴത്തെ നിരക്കുകൾ"
+
+#: src/glossary/glossary.xml:443(link) src/glossary/glossary.xml:2068(phrase)
+#: src/glossary/glossary.xml:2071(primary)
+msgid "YCbCr"
+msgstr "YCbCr"
+
+#: src/glossary/glossary.xml:452(phrase)
+#: src/glossary/glossary.xml:455(primary)
+#: src/glossary/glossary.xml:459(secondary)
+msgid "Dithering"
+msgstr ""
+"വി.എസിന്റെ"
+
+#: src/glossary/glossary.xml:462(para)
+msgid ""
+"Dithering is a technique used in computer graphics to create the illusion of "
+"more colors when displaying an image which has a low <link linkend="
+"\"glossary-colordepth\">color depth</link>. In a dithered image, the missing "
+"colors are reproduced by a certain arrangement of pixels in the available "
+"colors. The human eye perceives this as a mixture of the individual colors."
+msgstr ""
+"വി.എസിന്റെ കുറഞ്ഞ <link linkend=\"glossary-colordepth\">color depth</link> "
+"ഉണ്ട് ഒരു ചിത്രം പ്രദർശിപ്പിക്കുമ്പോളും കൂടുതൽ നിറങ്ങൾ മിഥ്യാബോധം സൃഷ്ടിക"
+"്കാൻ കമ്പ്യൂട്ടർ ഗ്രാഫിക്സ് ഉപയോഗിക്കുന്ന സാങ്കേതികതയെ ആണ്. ഒരു മടിച്ചുനിന"
+"്നപ്പോൾ സ്വരൂപത്തിൽ കാണാതായ നിറങ്ങൾ ലഭ്യമായ നിറങ്ങൾ പിക്സൽ ചില ഇടപാടുകളിലൂ"
+"ടെ പുനർനിർമ്മിക്കാവുന്നതാണ് ചെയ്യുന്നു. മനുഷ്യ കണ്ണ് വ്യക്തിഗത നിറങ്ങൾ ഒരു "
+"മിശ്രിതം ഈ ഗ്രഹിക്കുന്നതുമില്ല."
+
+#: src/glossary/glossary.xml:470(para)
+msgid ""
+"The <link linkend=\"gimp-tool-blend\">Gradient</link> tool uses dithering. "
+"You may also choose to use dithering when you convert an image to <link "
+"linkend=\"gimp-image-convert-indexed\">Indexed</link> format. If you are "
+"working on an image with indexed colors, some tools (such as the pattern "
+"fill tool) may also use dithering, if the correct color is not available in "
+"the colormap."
+msgstr ""
+"<link linkend=\"gimp-tool-blend\">Gradient</link> ഉപകരണം വി.എസിന്റെ ഉപയോഗി"
+"ക്കുന്നു. നിങ്ങൾക്ക് <link linkend=\"gimp-image-convert-indexed\">Indexed</"
+"link> ഫോർമാറ്റിലേക്ക് ഒരു ചിത്രം പരിവർത്തനം ചെയ്യുമ്പോൾ വി.എസിന്റെ ഉപയോഗ"
+"പ്പെടുത്താം. നിങ്ങൾ ഇൻഡെക്സ്ഡ് നിറങ്ങൾ ഒരു ഇമേജ് പ്രവർത്തിക്കുന്നു എങ്കിൽ, "
+"ചില ഉപകരണങ്ങൾ (പോലുള്ള പാറ്റേൺ ഫിൽ ടൂൾ) പുറമേ വി.എസിന്റെ, ശരിയായ വർണ്ണ col"
+"ormap ലഭ്യമല്ല എങ്കിൽ ഉപയോഗിച്ചേക്കാം."
+
+#: src/glossary/glossary.xml:478(para)
+msgid ""
+"The <link linkend=\"plug-in-newsprint\">Newsprint</link> filter uses "
+"dithering as well. You can use the <link linkend=\"plug-in-nlfilt\">NL "
+"Filter</link> (Non Linear filter) to remove unwanted dithering noise from "
+"your image."
+msgstr ""
+"<link linkend=\"plug-in-newsprint\">Newsprint</link> അരിപ്പ പോലെ വി.എസിന്റ"
+"െ ഉപയോഗിക്കുന്നു. നിങ്ങളുടെ ചിത്രവും ആവശ്യമില്ലാത്ത വി.എസിന്റെ ഘോഷം നീക്ക"
+"ം <link linkend=\"plug-in-nlfilt\">NL Filter</link> (നോൺ ലീനിയർ ഫിൽട്ടർ) ഉ"
+"പയോഗിക്കാനാകും."
+
+#: src/glossary/glossary.xml:484(para)
+msgid ""
+"Also note that although <acronym>GIMP</acronym> itself uses 24-bit colors, "
+"your system may not actually be able to display that many colors. If it "
+"doesn't, then the software in between <acronym>GIMP</acronym> and your "
+"system may also dither colors while displaying them."
+msgstr ""
+"എതിരെ <acronym>GIMP</acronym> സ്വയം 24-ബിറ്റ് നിറങ്ങൾ ഉപയോഗിക്കുന്നു ആണെങ്"
+"കിലും, നിങ്ങളുടെ സിസ്റ്റം യഥാർത്ഥത്തിൽ പല നിറങ്ങൾ പ്രദർശിപ്പിക്കാൻ കഴിയില്ല"
+" ശ്രദ്ധിക്കുക. ഇല്ലെങ്കിൽ, പിന്നെ <acronym>GIMP</acronym> നിങ്ങളുടെ സിസ്റ്റ"
+"ം തമ്മിലുള്ള സോഫ്റ്റ്വെയർ നിറങ്ങൾക്കു അവരെ പ്രദർശിപ്പിക്കുന്ന സമയത്ത് dith"
+"er ചെയ്യാം."
+
+#: src/glossary/glossary.xml:491(para)
+msgid ""
+"See also the glossary entry on <link linkend=\"glossary-floyd-steinberg-"
+"dithering\">Floyd-Steinberg dithering</link>, which is used in "
+"<acronym>GIMP</acronym>."
+msgstr ""
+"ഇതും കാണുക <acronym>GIMP</acronym> ഉപയോഗിക്കുന്ന <link linkend=\"glossary-"
+"floyd-steinberg- dithering\">Floyd-Steinberg dithering</link>, ഓൺ ഗ്ലോസ്സറ"
+"ി."
+
+#: src/glossary/glossary.xml:501(phrase)
+#: src/glossary/glossary.xml:504(primary)
+msgid "EXIF"
+msgstr ""
+"എക്സിഫ്"
+
+#: src/glossary/glossary.xml:507(para)
+msgid ""
+"Exchangeable image file format (official abbreviation Exif, not EXIF) is a "
+"specification for the image file format used by digital cameras. It was "
+"created by the Japan Electronic Industry Development Association (JEIDA). "
+"The specification uses the existing JPEG, TIFF Rev. 6.0, and RIFF WAVE file "
+"formats, with the addition of specific metadata tags. It is not supported in "
+"JPEG 2000 or PNG. Version 2.1 of the specification is dated June 12, 1998 "
+"and version 2.2 is dated April 2002. The Exif tag structure is taken from "
+"that of TIFF files. There is a large overlap between the tags defined in the "
+"TIFF, Exif, TIFF/EP and DCF standards <xref linkend=\"bibliography-online-"
+"wkpd-exif\"/>."
+msgstr ""
+"Exchangeable ഇമേജ് ഫയൽ ഫോർമാറ്റ് (ഔദ്യോഗിക ചുരുക്കെഴുത്ത് എക്സിഫ്, എക്സിഫ"
+"്) ഡിജിറ്റൽ ക്യാമറകൾ ഉപയോഗിക്കുന്ന ഇമേജ് ഫയൽ ഫോർമാറ്റ് ഒരു സ്പെസിഫിക്കേഷൻ"
+" ആണ്. ഇത് ജപ്പാൻ ഇലക്ട്രോണിക് ഇൻഡസ്ട്രി ഡെവലപ്മെന്റ് അസോസിയേഷന്റെ (JEIDA)"
+" സൃഷ്ടിച്ചിരിക്കുന്നത്. സ്പെസിഫിക്കേഷൻ നിർദ്ദിഷ്ട മെറ്റാഡാറ്റ ടാഗുകൾ അധിക ന"
+"ിലവിലുള്ള ജെപിഇജി, ടിഐഎഫ്എഫ് റവ 6.0, ഒപ്പം ഒന്പതില് WAVE ഫയൽ ഫോർമാറ്റുകൾ ഉ"
+"പയോഗിക്കുന്നു. ഇത് ജെപ്പെഗ് 2000 അല്ലെങ്കിൽ PNG ൽ പിന്തുണയ്ക്കുന്നില്ല. പത"
+"ിപ്പ് 2.1 സ്പെസിഫിക്കേഷൻ ജൂൺ 12, 1998 dated, പതിപ്പ് 2.2 ഏപ്രിൽ 2002 dated "
+"എക്സിഫ് ടാഗ് ഘടന TIFF ഫയലുകൾ നിന്നും നടത്തും. ടിഐഎഫ്എഫ്, എക്സിഫ്, ടിഐഎഫ്എഫ്"
+" / ഇ.പി. ആൻഡ് DCF നിലവാരങ്ങൾ <xref linkend=\"bibliography-online- wkpd-exif"
+"\" /> നിർവചിച്ചിരിക്കുന്ന ടാഗുകൾ തമ്മിലുള്ള ഒരു വലിയ ഓവർലാപ്പും ഉണ്ട്."
+
+#: src/glossary/glossary.xml:525(phrase)
+#: src/glossary/glossary.xml:528(primary)
+msgid "Feathering"
+msgstr ""
+"ഭദ്രമാക്കുന്ന"
+
+#: src/glossary/glossary.xml:531(para)
+msgid ""
+"The process of Feathering makes a smooth transition between a region and the "
+"background by softly blending the edges of the region."
+msgstr ""
+"ഭദ്രമാക്കുന്ന പ്രക്രിയ ഒരു പ്രദേശം തടിമിടുക്കു മേഖലയിലെ അറ്റങ്ങൾ യോജിപ്പിച"
+"്ച് പശ്ചാത്തലത്തിൽ തമ്മിലുള്ള ഒരു സുഗമമായ സംക്രമണം ചെയ്യുന്നു."
+
+#: src/glossary/glossary.xml:542(para)
+msgid ""
+"In <acronym>GIMP</acronym>, you can feather the edges of a selection. "
+"Brushes can also have feathered edges."
+msgstr ""
+"<acronym>GIMP</acronym>, ഒരു നിരക്കു അറ്റങ്ങൾ തൂവല് കഴിയും. നയപ്രഖ്യാപന പുറ"
+"മേ അറ്റങ്ങൾ തൂവലുകളും ചെയ്തിരിക്കുന്നു കഴിയും."
+
+#: src/glossary/glossary.xml:551(phrase)
+msgid "File Format"
+msgstr ""
+"ഫയൽ ഫോർമാറ്റ്"
+
+#: src/glossary/glossary.xml:554(primary)
+msgid "File format"
+msgstr ""
+"ഫയൽ ഫോർമാറ്റ്"
+
+#: src/glossary/glossary.xml:557(para)
+msgid ""
+"A file format or file type is the form in which computer data is stored. "
+"Since a file is stored by an operating system as a linear series of bytes, "
+"which cannot describe many kinds of real data in an obvious way, conventions "
+"have been developed for interpreting the information as representations of "
+"complex data. All of the conventions for a particular <quote>kind</quote> of "
+"file constitute a file format."
+msgstr ""
+"ഒരു ഫയൽ ഫോർമാറ്റ് അല്ലെങ്കിൽ ഫയൽ തരം ഏത് കമ്പ്യൂട്ടർ ഡാറ്റ സൂക്ഷിച്ചിരിക്ക"
+"ുന്ന രൂപമാണ്. ഒരു ഫയൽ ഒരു വ്യക്തമായ വഴി യഥാർത്ഥ ഡാറ്റ പലതരത്തിലുള്ള വിവരിക്"
+"കുന്ന കഴിയില്ല ഏത് ബൈറ്റുകൾ ലീനിയർ പരമ്പര, പോലെ ഒരു ഓപ്പറേറ്റിംഗ് സിസ്റ്റം"
+" സംഭരിച്ചിരിക്കുന്നതിനാൽ കൺവെൻഷനുകൾ സങ്കീർണ്ണമായ ഡാറ്റ പ്രാതിനിധ്യങ്ങളും വി"
+"വരങ്ങൾ വ്യാഖ്യാനിക്കുന്നതിൽ പേരിൽ രൂപപ്പെട്ടിട്ടുണ്ട്. ഫയൽ ഒരു പ്രത്യേക <qu"
+"ote>kind</quote> കൺവെൻഷനുകൾ എല്ലാ ഒരു ഫയൽ ഫോർമാറ്റ് സ്ത്രീകളുമാണ്."
+
+#: src/glossary/glossary.xml:566(para)
+msgid ""
+"Some typical file formats for saving images are JPEG, TIFF, PNG and GIF. The "
+"best file format for saving an image depends upon how the image is intended "
+"to be used. For example, if the image is intended for the internet, file "
+"size is a very important factor, and if the image is intended to be printed, "
+"high resolution and quality have greater significance. See <link linkend="
+"\"gimp-using-fileformats\">Format types</link>."
+msgstr ""
+"ചിത്രങ്ങൾ സംരക്ഷിക്കുന്നതിന് ചില സാധാരണ ഫയൽ ഫോർമാറ്റുകൾ JPEG, TIFF പിഎൻജി,"
+" GIF ആകുന്നു. ഒരു ചിത്രം സംരക്ഷിക്കുന്നത് മികച്ച ഫയൽ ഫോർമാറ്റ് എങ്ങനെ ചിത്"
+"രം ഉപയോഗിക്കാൻ ഉദ്ദേശിച്ചുള്ളതാണ് ആശ്രയിച്ചിരിക്കുന്നു. ഉദാഹരണത്തിന്, ഇമേജ"
+"് ഇന്റർനെറ്റ് ഉദ്ദേശിച്ചിട്ടുള്ള എങ്കിൽ, പ്രമാണത്തിന്റെ വലിപ്പം വളരെ പ്രധാന"
+"പ്പെട്ട ഘടകമാണ്, ചിത്രം അച്ചടിച്ച ഉദ്ദേശ്യം, ഉയർന്ന റെസലൂഷൻ ഗുണനിലവാരവും പ്"
+"രസക്തി ഉണ്ട്. <link linkend=\"gimp-using-fileformats\">Format types</link> "
+"കാണുക."
+
+#: src/glossary/glossary.xml:579(glossterm)
+msgid "Floating Selection"
+msgstr ""
+"ഫ്ളോട്ടിങ് തിരഞ്ഞെടുക്കൽ"
+
+#: src/glossary/glossary.xml:581(primary)
+msgid "Selection"
+msgstr ""
+"തിരഞ്ഞെടുക്കൽ"
+
+#: src/glossary/glossary.xml:582(secondary)
+msgid "Floating selection"
+msgstr ""
+"ഫ്ളോട്ടിങ് നിരക്കു"
+
+#: src/glossary/glossary.xml:585(para)
+msgid ""
+"A floating selection (sometimes called a <quote>floating layer</quote>) is a "
+"type of temporary layer which is similar in function to a normal layer, "
+"except that a floating selection must be <link linkend=\"gimp-layer-anchor"
+"\">anchored</link> before you can resume working on any other layers in the "
+"image."
+msgstr ""
+"ഒരു ഫ്ലോട്ടിംഗ് നിരക്കു (ചിലപ്പോൾ <quote>floating layer</quote> വിളിച്ചു)"
+" താൽക്കാലിക പാളി ഒരു തരം ഇമേജിൽ മറ്റേതെങ്കിലും പാളികൾ പ്രവർത്തിക്കുന്നു പുന"
+"രാരംഭിക്കും മുമ്പായി ഒരു ഫ്ലോട്ടിംഗ് നിരക്കു <link linkend=\"gimp-layer-an"
+"chor \">anchored</link> ആയിരിക്കണം അല്ലാതെ ഒരു സാധാരണ പാളി ചടങ്ങിൽ സമാനമായ "
+"ആണ്."
+
+#: src/glossary/glossary.xml:592(para)
+msgid ""
+"In early versions of <acronym>GIMP</acronym>, when <acronym>GIMP</acronym> "
+"did not use layers, floating selections were used for performing operations "
+"on a limited part of an image (you can do that more easily now with layers). "
+"Now floating selections have no practical use, but you must know what you "
+"have to do with them."
+msgstr ""
+"<acronym>GIMP</acronym> പാളികൾ ഉപയോഗിക്കരുത് സമയത്ത് <acronym>GIMP</acrony"
+"m> ആദ്യകാല പതിപ്പുകൾ ൽ, ഫ്ലോട്ടിംഗ് തിരഞ്ഞെടുപ്പുകളെയോ (നിങ്ങൾ പാളികൾ ഇപ്"
+"പോൾ കൂടുതൽ എളുപ്പത്തിൽ ആ ചെയ്യാൻ കഴിയും) ഒരു ചിത്രം പരിമിത ഭാഗത്ത് ഓപ്പറേഷ"
+"ൻസ് നടപ്പിലാക്കുമ്പോൾ കൂടി ഉപയോഗിച്ചു. ഇപ്പോൾ ഒഴുകിനടക്കുന്ന തിരഞ്ഞെടുക്"
+"കലുകളും പ്രായോഗികമായ ഉപയോഗം, നിങ്ങൾ അവരുമായി എന്തു അറിയുകയും വേണം."
+
+#: src/glossary/glossary.xml:604(phrase)
+msgid "Floyd-Steinberg Dithering"
+msgstr ""
+"ഫ്ലോയ്ഡ്-നാഥന് വി.എസിന്റെ"
+
+#: src/glossary/glossary.xml:607(primary)
+msgid "Floyd-Steinberg"
+msgstr ""
+"ഫ്ലോയ്ഡ്-നാഥന്"
+
+#: src/glossary/glossary.xml:610(para)
+msgid ""
+"Floyd-Steinberg dithering is a method of <link linkend=\"glossary-dithering"
+"\">dithering</link> which was first published in 1976 by Robert W. Floyd and "
+"Louis Steinberg. The dithering process begins in the upper left corner of "
+"the image. For each pixel, the closest available color in the palette is "
+"chosen and the difference between that color and the original color is "
+"computed in each RGB channel. Then specific fractions of these differences "
+"are dispersed among several adjacent pixels which haven't yet been visited "
+"(below and to the right of the original pixel). Because of the order of "
+"processing, the procedure can be done in a single pass over the image."
+msgstr ""
+"ഫ്ലോയ്ഡ്-നാഥന് വി.എസിന്റെ റോബർട്ട് ഡബ്ല്യൂ ഫ്ലോയ്ഡ് ലൂയിസ് നാഥന് 1976 ൽ "
+"ആദ്യം ഉണ്ടായ <link linkend=\"glossary-dithering \">dithering</link> ഒരു രീത"
+"ിയാണ്. വി.എസിന്റെ പ്രക്രിയ ചിത്രം മുകളിലെ ഇടത് കോണിൽ രൂപപ്പെട്ടുവരുന്നു. ഓ"
+"രോ പിക്സലിനായുള്ള പാലറ്റ് അടുത്ത ലഭ്യമായ നിറം തിരഞ്ഞെടുക്കുന്ന ആ നിറം യഥാർ"
+"ത്ഥ നിറം തമ്മിലുള്ള വ്യത്യാസം ഓരോ ആർജിബി ചാനലിൽ കണക്കുകൂട്ടുന്നത്. അപ്പോൾ"
+" ഈ വ്യത്യാസങ്ങൾ നിർദ്ദിഷ്ട ഘടകാംശങ്ങൾ ഇതുവരെ (താഴെയും യഥാർത്ഥ പിക്സൽ വലത്തു"
+") സന്ദർശിച്ചു ചെയ്തിട്ടില്ല ഏത് പല സമീപത്തെ പിക്സൽ ഇടയിൽ പിരിഞ്ഞത് ചെയ്യുന്"
+"നു. കാരണം പ്രോസസ്സിംഗ് ഉത്തരവിൻറെ, നടപടിക്രമം ചിത്രം ഒരൊറ്റ പാസ് ചെയ്യാവു"
+"ന്നതാണ്."
+
+#: src/glossary/glossary.xml:623(para)
+msgid ""
+"When you convert an image to <link linkend=\"gimp-image-convert-indexed"
+"\">Indexed</link> mode, you can choose between two variants of Floyd-"
+"Steinberg dithering."
+msgstr ""
+"നിങ്ങൾ <link linkend=\"gimp-image-convert-indexed \">Indexed</link> മോഡിലേ"
+"ക്ക് ഒരു ചിത്രം പരിവർത്തനം ചെയ്യുമ്പോൾ, നിങ്ങൾ വി.എസിന്റെ Floyd- നാഥന് രണ്"
+"ടു വകഭേദങ്ങളും തമ്മിൽ തിരഞ്ഞെടുക്കാം."
+
+#: src/glossary/glossary.xml:634(phrase)
+#: src/glossary/glossary.xml:637(primary)
+msgid "Gamma"
+msgstr ""
+"ഗാമാ"
+
+#: src/glossary/glossary.xml:640(para)
+msgid ""
+"Gamma or gamma correction is a non-linear operation which is used to encode "
+"and decode luminance or color values in video or still image systems. It is "
+"used in many types of imaging systems to straighten out a curved signal-to-"
+"light or intensity-to-signal response. For example, the light emitted by a "
+"CRT is not linear with regard to its input voltage, and the voltage from an "
+"electric camera is not linear with regard to the intensity (power) of the "
+"light in the scene. Gamma encoding helps to map the data into a perceptually "
+"linear domain, so that the limited signal range (the limited number of bits "
+"in each RGB signal) is better optimized perceptually."
+msgstr ""
+"ഗാമ അല്ലെങ്കിൽ ഗാമാ തിരുത്തൽ അല്ലെങ്കിൽ ഇപ്പോഴും ചിത്ര സിസ്റ്റങ്ങൾ വീഡിയോ"
+"യിൽ luminance അല്ലെങ്കിൽ നിറം മൂല്യങ്ങൾ എൻകോഡ് ചെയ്ത് ഡീകോഡ് ഉപയോഗിക്കുന"
+"്ന ഒരു നോൺ-ലീനിയർ ഓപ്പറേഷൻ ആണ്. ഒരു വളഞ്ഞ സിഗ്നൽ-കൈവശമോ വെളിച്ചം അല്ലെങ്ക"
+"ിൽ തീവ്രത-ടു-സിഗ്നൽ പ്രതികരണ ഔട്ട് നേരെയാക്കാൻ ഇമേജിംഗ് സിസ്റ്റങ്ങൾ പല ഉപയേ"
+"ാഗിക്കുന്നു. ഉദാഹരണത്തിന്, ഒരു CRT പുറത്തുവിടുന്ന വെളിച്ചം അതിന്റെ ഇൻപുട്ട്"
+" വോൾട്ടേജ് സംബന്ധിച്ചു രേഖീയ അല്ല, ഒരു വൈദ്യുത ക്യാമറയിൽ നിന്നുള്ള വോൾട്ട"
+"േജ് രംഗത്തിൽ പ്രകാശത്തിന്റെ തീവ്രത (ശക്തി) കാര്യത്തിൽ രേഖീയ ചെയ്തിട്ടില്ല. "
+"ഗാമാ എൻകോഡിംഗ്, ഒരു perceptually ലീനിയർ ഡൊമെയ്ൻ ഡാറ്റ മാപ്പുണ്ടാക്കാൻ അങ്"
+"ങനെ പരിമിതമായ സിഗ്നൽ ശ്രേണി (ഓരോ ആർജിബി സിഗ്നൽ ലെ കഷണങ്ങൾ പരിമിതമായ എണ്ണം)"
+" നല്ലത് perceptually പരമാവധിയിലാക്കിയിട്ടുണ്ട് സഹായിക്കുന്നു."
+
+#: src/glossary/glossary.xml:652(para)
+msgid ""
+"Gamma is used as an exponent (power) in the correction equation. Gamma "
+"compression (where gamma &lt; 1) is used to encode linear luminance or RGB "
+"values into color signals or digital file values, and gamma expansion (where "
+"gamma &gt; 1) is the decoding process, and usually occurs where the current-"
+"to-voltage function for a CRT is non-linear."
+msgstr ""
+"ഗാമ തിരുത്തൽ സമവാക്യം ഒരു ഘാതാംഗമോ (പവർ) ഉപയോഗിക്കുന്നു. ഗാമ കംപ്രഷൻ (എവി"
+"ടെ ഗാമ &lt; 1) നിറം സിഗ്നലുകൾ അല്ലെങ്കിൽ ഡിജിറ്റൽ ഫയൽ മൂല്യങ്ങൾ കടന്നു ലീനി"
+"യർ luminance അല്ലെങ്കിൽ rgb മൂല്യങ്ങൾ എൻകോഡ് ഉപയോഗിക്കുന്നു,, ഗാമ വികാസം "
+"(എവിടെ ഗാമ &gt; 1) ഡീകോഡ് പ്രക്രിയ ആണ്, സാധാരണയായി എവിടെ current- ലേക്കുള്"
+"ള-വോൾട്ടേജ് ഫംഗ്ഷൻ സംഭവിക്കുന്നത് ഒരു CRT നോൺ-ലീനിയർ ആണ്."
+
+#: src/glossary/glossary.xml:659(para)
+msgid ""
+"For PC video, images are encoded with a gamma of about 0.45 and decoded with "
+"a gamma of 2.2. For Mac systems, images are typically encoded with a gamma "
+"of about 0.55 and decoded with a gamma of 1.8. The sRGB color space standard "
+"used for most cameras, PCs and printers does not use a simple exponential "
+"equation, but has a decoding gamma value near 2.2 over much of its range."
+msgstr ""
+"പിസി വീഡിയോ, ചിത്രങ്ങളോ ഏകദേശം 0.45 ഒരു ഗാമാ ഉപയോഗിച്ച് എൻകോഡ്, 2.2 ഒരു"
+" ഗാമാ കൂടെ ഡീകോഡുചെയ്യരുത് ചെയ്യുന്നു. മാക് സിസ്റ്റങ്ങൾ, ചിത്രങ്ങളോ സാധാര"
+"ണ 0.55 ഗാമാ ഉപയോഗിച്ച് എൻകോഡ് 1.8 ഒരു ഗാമാ കൂടെ ഡീകോഡുചെയ്യരുത് ചെയ്യുന്"
+"നു. ഏറ്റവും ക്യാമറകൾ, കമ്പ്യൂട്ടറുകളിലും, പ്രിന്ററുകൾ ഉപയോഗിക്കുന്ന രീതി ക"
+"ളർ സ്പേസ് സാധാരണ ലളിതമായ എക്സ്പോണൻഷ്യൽ സമവാക്യം ഉപയോഗിക്കുക, മറിച്ച് അതിന"
+"്റെ ശ്രേണിയുടെ എത്രമാത്രം 2.2 സമീപമുള്ള ഒരു ഡീകോഡ് ഗാമാ മൂല്യമുണ്ട്."
+
+#: src/glossary/glossary.xml:667(para)
+msgid ""
+"In <acronym>GIMP</acronym>, gamma is an option used in the brush tab of the "
+"<link linkend=\"plug-in-gimpressionist\">GIMPressionist</link> filter and in "
+"the <link linkend=\"plug-in-flame\">Flame</link> filter. The <link linkend="
+"\"gimp-display-filter-dialog\">display filters</link> also include a Gamma "
+"filter. Also see the <link linkend=\"gimp-tool-levels\">Levels Tool</link>, "
+"where you can use the middle slider to change the gamma value."
+msgstr ""
+"<acronym>GIMP</acronym> ൽ ഗാമാ <link linkend=\"plug-in-gimpressionist\">GIM"
+"Pressionist</link> ഫിൽട്ടറിൻറെ ബ്രഷ് ടാബിലും <link linkend=\"plug-in-flame"
+"\">Flame</link> അരിപ്പ ഉപയോഗിച്ച ഒരു തീരുമാനം. <link linkend=\"gimp-displa"
+"y-filter-dialog\">display filters</link> ഒരു ഗാമ ഫിൽട്ടർ ഉൾപ്പെടുന്നു. നിങ്"
+"ങൾ ഗാമാ മൂല്യം മാറ്റാൻ മിഡിൽ സ്ലൈഡർ ഉപയോഗിക്കുക കഴിയുന്ന <link linkend=\"g"
+"imp-tool-levels\">Levels Tool</link>, കാണുക."
+
+#: src/glossary/glossary.xml:681(phrase)
+#: src/glossary/glossary.xml:684(primary)
+msgid "Gamut"
+msgstr ""
+"പൂർണ്ണവ്യാപ്തി"
+
+#: src/glossary/glossary.xml:687(para)
+msgid ""
+"In color reproduction, including computer graphics and photography, the "
+"gamut, or color gamut (pronounced /ˈgæmət/), is a certain complete subset of "
+"colors. The most common usage refers to the subset of colors which can be "
+"accurately represented in a given circumstance, such as within a given color "
+"space or by a certain output device. Another sense, less frequently used but "
+"not less correct, refers to the complete set of colors found within an image "
+"at a given time. In this context, digitizing a photograph, converting a "
+"digitized image to a different color space, or outputting it to a given "
+"medium using a certain output device generally alters its gamut, in the "
+"sense that some of the colors in the original are lost in the process. <xref "
+"linkend=\"bibliography-online-wkpd-gamut\"/>"
+msgstr ""
+"കമ്പ്യൂട്ടർ ഗ്രാഫിക്സ്, ഫോട്ടോഗ്രാഫി, പൂർണ്ണവ്യാപ്തി, അല്ലെങ്കിൽ നിറം പൂർ"
+"ണ്ണവ്യാപ്തി (pronounced / gæmət /) ഉൾപ്പെടെ വർണ്ണ പുനർനിർമാണം, ൽ, നിറങ്ങൾ ച"
+"ില പൂർണ്ണമായ മാരിബ്. ഏറ്റവും സാധാരണമായ ഉപയോഗം അത്തരം ഒരു നൽകിയ കളർ സ്പേസ് "
+"ഉള്ളിൽ ഒരു പ്രത്യേക ഔട്ട്പുട്ട് ഉപകരണം പോലെ ഒരു തന്നിരിക്കുന്ന സാഹചര്യങ്ങള"
+"ിലെ കൃത്യമായി പ്രതിനിധാനം കഴിയുന്ന വർണങ്ങളുള്ള ഉപവിഭാഗത്തിന് പരാമർശിക്കുന്ന"
+"ു. മറ്റൊരു അർത്ഥത്തിൽ, അധികമായി ഉപയോഗിക്കുന്ന എന്നാൽ കുറവ് ശരിയല്ല നൽകിയി"
+"രിക്കുന്ന സമയം ഒരു ചിത്രം കണ്ടെത്തിയ നിറങ്ങൾ സമ്പൂർണ്ണ പരാമർശിക്കുന്നു. ഈ പ"
+"ശ്ചാത്തലത്തിൽ, ഒരു ഫോട്ടോ ഡിജിറ്റൈസ് മറ്റൊരു കളർ സ്പേസ് ഒരു ഡിജിറ്റൽ ഇമേ"
+"ജ് സര്വകലാശാല, അല്ലെങ്കിൽ ഒരു പ്രത്യേക ഔട്ട്പുട്ട് ഉപാധി ഉപയോഗിച്ച് ഒരു തന"
+"്നിരിക്കുന്ന ഇടത്തരം അതു ഔട്പുട്ടിംഗ് സാധാരണയായി അതിന്റെ പൂർണ്ണവ്യാപ്തി, അർ"
+"ത്ഥത്തിൽ യഥാർത്ഥ വർണ്ണങ്ങൾ ചില നഷ്ടപ്പെട്ടു എന്ന് മാറ്റിമറിക്കുന്നു പ്രക്രി"
+"യ. <xref linkend=\"bibliography-online-wkpd-gamut\" />"
+
+#: src/glossary/glossary.xml:706(phrase)
+#: src/glossary/glossary.xml:709(primary)
+msgid "GIF"
+msgstr ""
+"ജിഫ്"
+
+#: src/glossary/glossary.xml:712(para)
+msgid ""
+"<trademark class=\"trade\">GIF</trademark> stands for Graphics Interchange "
+"Format. It is a <link linkend=\"glossary-fileformat\">file format</link> "
+"with good, lossless compression for images with low <link linkend=\"glossary-"
+"colordepth\">color depth</link> (up to 256 different colors per image). "
+"Since GIF was developed, a new format called <link linkend=\"file-png-save-"
+"defaults\">Portable Network Graphics (PNG)</link> has been developed, which "
+"is better than GIF in all respects, with the exception of animations and "
+"some rarely-used features."
+msgstr ""
+"<trademark class=\"trade\">GIF</trademark> ഗ്രാഫിക്സ് ഇൻറർ ഫോർമാറ്റ് സൂചിപ"
+"്പിക്കുന്നു. കുറഞ്ഞ <link linkend=\"glossary- colordepth\">color depth</lin"
+"k> ചിത്രങ്ങളുള്ള നല്ല, നഷ്ടമാകാത്ത കംപ്രഷൻ (ചിത്രം ശതമാനം 256 വ്യത്യസ്ത നിറ"
+"ങ്ങൾ വരെ) ഒരു <link linkend=\"glossary-fileformat\">file format</link> ആണ്."
+" GIF വികസിപ്പിച്ചെടുത്ത മുതൽ, <link linkend=\"file-png-save- defaults\">Por"
+"table Network Graphics (PNG)</link> എന്ന ഒരു പുതിയ ഫോർമാറ്റ് ആനിമേഷനുകൾ ചി"
+"ല അപൂർവമായി-ഉപയോഗിച്ച സവിശേഷതകൾ ഒഴികെയുള്ള വികസിപ്പിച്ചെടുത്ത എല്ലാ അർത്ഥത"
+"്തിലും ജിഫ് നല്ലതു ഏത്."
+
+#: src/glossary/glossary.xml:724(para)
+msgid ""
+"GIF was introduced by CompuServe in 1987. It became popular mostly because "
+"of its efficient, LZW compression. The size of the image files required "
+"clearly less disk space than other usual graphics formats of the time, such "
+"as PCX or MacPaint. Even large images could be transmitted in a reasonable "
+"time, even with slow modems. In addition, the open licensing policy of "
+"CompuServe made it possible for any programmer to implement the GIF format "
+"for his own applications free of charge, as long as the CompuServe copyright "
+"notice was attached to them."
+msgstr ""
+"ജിഫ് 1987 .കാമ്പുസെര്വ് അവതരിപ്പിച്ച അത് കൂടുതലും കാരണം അതിന്റെ കാര്യക്ഷമമാ"
+"യ, LZW കംപ്രഷൻ പ്രശസ്തമായ മാറി. ഇമേജ് ഫയലുകൾ ആവശ്യമായ അത്തരം പിസിഎക്സ് അല്ല"
+"െങ്കിൽ MacPaint സമയം മറ്റ് പതിവുപോലെ ഗ്രാഫിക്സ് ഫോർമാറ്റുകൾ, അധികം വ്യക്ത"
+"മായി കുറവ് ഡിസ്ക് സ്പേസ് വലുപ്പം. പോലും വലിയ ചിത്രങ്ങൾ പോലും സ്ലോ മോഡമു"
+"കൾ കൂടെ ന്യായമായ സമയം പകരാം കഴിഞ്ഞില്ല. കൂടാതെ, .കാമ്പുസെര്വ് തുറന്ന അനുമതി"
+" പോളിസി പ്രോഗ്രാമർ കാലത്തോളം .കാമ്പുസെര്വ് പകർപ്പവകാശ അറിയിപ്പ് അവരെ അറ്"
+"റാച്ച് പ്രകടമായത് സൗജന്യമായി സ്വന്തം പ്രയോഗങ്ങൾ വേണ്ടി GIF ഫോർമാറ്റിൽ നടപ"
+"്പാക്കാൻ സാധ്യമാക്കി."
+
+#: src/glossary/glossary.xml:735(para)
+msgid ""
+"Colors in GIF are stored in a color table which can hold up to 256 different "
+"entries, chosen from 16.7 million different color values. When the image "
+"format was introduced, this was not a much of a limitation, since only a few "
+"people had hardware which could display more colors than that. For typical "
+"drawings, cartoons, black-and-white photographs and similar uses, 256 colors "
+"are quite sufficient as a rule, even today. For more complex images, such as "
+"color photographs, however, a huge loss of quality is apparent, which is why "
+"the format is not considered to be suitable for those purposes."
+msgstr ""
+"ജിഫ് ലെ നിറങ്ങൾ 16.7 കോടി വ്യത്യസ്ത വർണ്ണ മൂല്യങ്ങൾ നിന്ന് തിരഞ്ഞെടുത്ത 25"
+"6 വ്യത്യസ്ത എൻട്രികൾ, വരെ കയറി ഉൾക്കൊള്ളാൻ കഴിയുന്ന ഒരു കളർ മേശ സൂക്ഷിക്കു"
+"ന്നു. ചിത്ര ഫോർമാറ്റ് നിലവിൽ വന്നപ്പോൾ, ഇതൊരു പരിമിതി വളരെ ഏതാനും ആളുകൾ "
+"അതിനെക്കാൾ കൂടുതൽ നിറങ്ങൾ പ്രദർശിപ്പിക്കാൻ കഴിയാത്ത ഹാർഡ്വെയർ ശേഷം ആയിരുന്ന"
+"ു. സാധാരണ ഡ്രോയിംഗുകൾ, കാർട്ടൂണുകൾ, ബ്ലാക്ക് ആന്റ് വൈറ്റ് ചിത്രങ്ങളും അതുപ"
+"ോലുള്ള ഉപയോഗങ്ങൾക്കായി, 256 നിറങ്ങൾ ഒരു ഭരണം പോലും ഇന്ന് വളരെ മതി. പോലു"
+"ള്ള നിറം ഫോട്ടോഗ്രാഫുകൾ കൂടുതൽ സങ്കീർണ്ണമായ ചിത്രങ്ങൾ, അതേസമയം ഗുണമേന്മയു"
+"ള്ള ഒരു വലിയ നഷ്ടം പ്രകടമാണ്, ഫോർമാറ്റ് ആ ആവശ്യങ്ങൾക്കായി യോജിച്ചതാണ് പരി"
+"ഗണിക്കില്ല അതിനാലാണ് ആണ്."
+
+#: src/glossary/glossary.xml:746(para)
+msgid ""
+"One color entry in the palette can be defined to be transparent. With "
+"transparency, the GIF image can look like it is non-rectangular in shape. "
+"However, semi-transparency, as in <link linkend=\"file-png-save-defaults"
+"\">PNG</link>, is not possible. A pixel can only be either entirely visible "
+"or completely transparent."
+msgstr ""
+"പാലറ്റ് ഒറ്റ കളർ എൻട്രി സുതാര്യമാക്കുക എന്നതാണ് നിർവചിക്കാം. അതു രൂപമുള്ള ച"
+"തുരമല്ലാത്ത പോലെ സുതാര്യതയോടെ, GIF ചിത്രം നോക്കാൻ കഴിയും. എന്നാൽ, സെമി-സ"
+"ുതാര്യത, <link linkend=\"file-png-save-defaults \">PNG</link> എന്നപോലെ സാധ"
+"്യമല്ല. ഒരു പിക്സൽ മാത്രം പൂർണ്ണമായും കാണാവുന്ന അല്ലെങ്കിൽ പൂർണ്ണമായും സുതാ"
+"ര്യമായ ആകാം."
+
+#: src/glossary/glossary.xml:754(para)
+msgid ""
+"The first version of GIF was 87a. In 1989, CompuServe published an expanded "
+"version, called 89a. Among other things, this made it possible to save "
+"several images in one GIF file, which is especially used for simple "
+"animation. The version number can be distinguished from the first six bytes "
+"of a GIF file. Interpreted as ASCII symbols, they are <quote>GIF87a</quote> "
+"or <quote>GIF89a</quote>."
+msgstr ""
+"ജിഫ് ആദ്യ പതിപ്പ് 87a ആയിരുന്നു. 1989-ൽ .കാമ്പുസെര്വ് 89a വിളിച്ചു വിപുലീകൃ"
+"ത പതിപ്പാണ്, പ്രസിദ്ധീകരിച്ചു. മറ്റു കാര്യങ്ങളുടെ കൂട്ടത്തിൽ, ഈ പ്രത്യേകിച്"
+"ച് ലളിതമായ ആനിമേഷൻ ഉപയോഗിക്കുന്ന ഒറ്റ GIF ഫയൽ, നിരവധി ചിത്രങ്ങൾ സംരക്ഷിക്ക"
+"ാൻ സാധ്യമായ. പതിപ്പ് നമ്പർ ഒരു GIF ഫയൽ ആദ്യത്തെ ആറ് ബൈറ്റുകൾ നിന്ന് വ്യത്യസ"
+"്തമാക്കുന്നത് കഴിയും. ആസ്കി പ്രതീകങ്ങളാണ് വ്യാഖ്യാനിച്ചു അവർ <quote>GIF87a<"
+"/quote> അല്ലെങ്കിൽ <quote>GIF89a</quote> ആകുന്നു."
+
+#: src/glossary/glossary.xml:767(phrase)
+msgid "GNU"
+msgstr ""
+"ഗ്നു"
+
+#: src/glossary/glossary.xml:770(para)
+msgid ""
+"The GNU project was started in 1983 by Richard Stallman with the goal of "
+"developing a completely free operating system. It is especially well-known "
+"from the GNU General Public License (GPL) and GNU/Linux, a GNU-variant with "
+"a Linux kernel."
+msgstr ""
+"ഗ്നു പദ്ധതി ഒരു സ്വതന്ത്ര പ്രവർത്തക സംവിധാനം വികസ്വര ലക്ഷ്യത്തോടെ റിച്ചാർഡ"
+"് സ്റ്റാൾമാൻ 1983 ആരംഭിച്ചത്. ഇത് ഗ്നു പൊതു അനുമതി (സമ്മതപത്രം) ഗ്നു / ലിന"
+"ക്സ്, ലിനക്സ് കെർണൽ ഒരു ഗ്നു-വേരിയന്റ് നിന്ന് പ്രത്യേകിച്ച് അറിയപ്പെടുന്നത്"
+"."
+
+#: src/glossary/glossary.xml:776(para)
+msgid ""
+"The name came about from the naming conventions which were in practice at "
+"MIT, where Stallman worked at the time. For programs which were similar to "
+"other programs, recursive acronyms were chosen as names. Since the new "
+"system was to be based on the widespread operating system, Unix, Stallman "
+"looked for that kind of name and came up with GNU, which stands for "
+"<quote>GNU is not Unix</quote>. In order to avoid confusion, the name should "
+"be pronounced with the <quote>G</quote>, not like <quote>new</quote>. There "
+"were several reasons for making GNU Unix-compatible. For one thing, Stallman "
+"was convinced that most companies would refuse a completely new operating "
+"system, if the programs they used wouldn't run on it. In addition, the "
+"architecture of Unix made quick, easy and distributed development possible, "
+"since Unix consists of many small programs that can be developed "
+"independently of each other, for the most part. Also, many parts of a Unix "
+"system were freely available to anyone and could therefore be directly "
+"integrated into GNU, for example, the typesetting system, TeX, or the X "
+"Window System. The missing parts were newly written from the ground up."
+msgstr ""
+"പേര് സ്റ്റാൾമാൻ സമയത്ത് ജോലി എംഐടി, ഭൂതകാല പ്രാക്ടീസ് ഉണ്ടായിരുന്ന നാമകരണ "
+"കൺവെൻഷനുകളിൽ നിന്ന് വന്നു. മറ്റ് പരിപാടികൾ സമാനമായ ഉണ്ടായിരുന്ന പരിപാടികൾക്"
+"കായി അനവധി ചുരുക്കെഴുത്തുകളും പേരുകൾ എന്നിവ തിരഞ്ഞെടുത്തു. പുതിയ സിസ്റ്റം വ"
+"്യാപകമായ ഓപ്പറേറ്റിങ് സിസ്റ്റം അധിഷ്ഠിതവും ശേഷം, യുണിക്സ്, സ്റ്റാൾമാൻ പേര് "
+"ആ തരത്തിലുള്ള വേണ്ടി നോക്കി <quote>GNU is not Unix</quote> സൂചിപ്പിക്കുന്ന"
+" ഗ്നു കൂടെ വന്നു. ആശയക്കുഴപ്പം ഒഴിവാക്കാൻ വേണ്ടി, പേര് <quote>G</quote> അത്"
+"രേ <quote>new</quote> പോലെ ഉച്ചരിക്കുന്നത് വേണം. ഗ്നു യുണിക്സ്-അനുയോജ്യമാ"
+"യ നടത്തുന്നതിനുള്ള പല കാരണങ്ങൾ ഉണ്ടായിരുന്നു. ഒരു സംഗതി, സ്റ്റാൾമാൻ അവർ ഉപയ"
+"ോഗിച്ച പ്രോഗ്രാമുകൾ ഓടുന്നില്ല എങ്കിൽ മിക്ക കമ്പനികളും, പൂർണ്ണമായും ഒരു പ"
+"ുതിയ ഓപ്പറേറ്റിംഗ് സിസ്റ്റം വിസമ്മതിച്ചു ബോധ്യപ്പെടാൻ. കൂടാതെ യുണിക്സ് വാസ"
+"്തുവിദ്യ യുണിക്സ് ഏറ്റവും ഭാഗമായി വേണ്ടി സ്വതന്ത്രമായി പരസ്പരം വികസിപ്പിച്ച"
+" കഴിയുന്ന നിരവധി ചെറിയ പ്രോഗ്രാമുകൾ അടങ്ങിയിരിക്കുന്നു ശേഷം സാധ്യത, പെട്ടെ"
+"ന്നുള്ള എളുപ്പവും വിതരണം വികസനം ഉണ്ടാക്കി. എതിരെ യുണിക്സിനു സിസ്റ്റത്തിന്റെ"
+" പല ഭാഗങ്ങളിലും ആർക്കും സൌജന്യമായി ലഭ്യമാണ്, അതുകൊണ്ടുതന്നെ നേരിട്ട് ഗ്നു"
+" ഉദാഹരണത്തിന്, സെറ്റിംഗ് സിസ്റ്റത്തിൽ, ടെക്, അല്ലെങ്കിൽ X Window സിസ്റ്റം സ"
+"ംയോജിപ്പിക്കാൻ കഴിഞ്ഞില്ല. കാണാതായ ഭാഗങ്ങൾ പുതുതായി തറനില മുതൽ എഴുതിയിരിക്"
+"കുന്നു."
+
+#: src/glossary/glossary.xml:797(para)
+msgid ""
+"<acronym>GIMP</acronym> (GNU Image Manipulation Program) is an official GNU "
+"application <xref linkend=\"bibliography-online-wkpd-gnu\"/>."
+msgstr ""
+"<acronym>GIMP</acronym> (ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം) ഒരു ഔദ്യോഗിക ഗ്നു "
+"ആപ്ലിക്കേഷൻ <xref linkend=\"bibliography-online-wkpd-gnu\" /> ആണ്."
+
+#: src/glossary/glossary.xml:807(anchor:xreflabel)
+#: src/glossary/glossary.xml:808(phrase)
+#: src/glossary/glossary.xml:811(primary)
+msgid "Grayscale"
+msgstr ""
+"ഗ്രേസ്കെയിൽ"
+
+#: src/glossary/glossary.xml:812(secondary)
+#: src/glossary/glossary.xml:1255(secondary)
+msgid "Overview"
+msgstr ""
+"പൊതു അവലോകനം"
+
+#: src/glossary/glossary.xml:815(para)
+msgid ""
+"Grayscale is a mode for encoding the colors of an image which contains only "
+"black, white and shades of gray."
+msgstr ""
+"ഗ്രേസ്കെയിൽ ചാര കറുത്ത വെള്ള ഷേഡുകൾ മാത്രം അടങ്ങുന്ന ഒരു ചിത്രത്തിന്റെ നിറങ"
+"്ങൾ എൻകോഡുചെയ്യുന്നതിനായുള്ള ഒരു മോഡ്."
+
+#: src/glossary/glossary.xml:819(para)
+msgid ""
+"When you create a new image, you can choose to create it in Grayscale mode "
+"(which you can colorize later, by changing it to RGB mode). You can also "
+"change an existing image to grayscale by using the <link linkend=\"gimp-"
+"image-convert-grayscale\">Grayscale</link>, <link linkend=\"gimp-tool-"
+"desaturate\">Desaturate</link>, <link linkend=\"plug-in-decompose-registered"
+"\">Decompose</link>, <link linkend=\"plug-in-colors-channel-mixer\">Channel "
+"Mixer</link>, although not all formats will accept these changes. Although "
+"you can create images in Grayscale mode and convert images to it, it is not "
+"a color model, in the true sense of the word."
+msgstr ""
+"ഒരു പുതിയ ഇമേജ് സൃഷ്ടിക്കുമ്പോൾ, ഗ്രേസ്കെയിൽ മോഡ് (നിങ്ങൾ ആർജിബി മോഡിലേക"
+"്ക് അതു മാറ്റിക്കൊണ്ട്, പിന്നീട് വർണ്ണാഭമാക്കുക കഴിയും) അത് സൃഷ്ടിക്കാൻ തി"
+"രഞ്ഞെടുക്കാം. നിങ്ങൾക്ക് <link linkend=\"gimp- image-convert-grayscale\">Gr"
+"ayscale</link> ഉപയോഗിച്ച് ഗ്രേസ്കെയിലാക്കി നിലവിലുള്ള ചിത്രം എല്ലാ ഫോർമാറ"
+"്റുകളും ഈ മാറ്റങ്ങൾ സ്വീകരിക്കും ആണെങ്കിലും, മാറ്റാം <link linkend=\"gimp-t"
+"ool- desaturate\">Desaturate</link>, <link linkend=\"plug-in-decompose-regi"
+"stered \">Decompose</link> <link linkend=\"plug-in-colors-channel-mixer\">C"
+"hannel Mixer</link>. നിങ്ങൾ ഗ്രേസ്കെയിൽ മോഡിൽ ചിത്രങ്ങൾ സൃഷ്ടിക്കുക, അത് ഇ"
+"മേജുകൾ പരിവർത്തനം ചെയ്യാനാകും ആണെങ്കിലും അത് ഒരു നിറം മോഡൽ വചനം യഥാർഥ അർഥത"
+"്തിൽ ആണ്."
+
+#: src/glossary/glossary.xml:831(para)
+msgid ""
+"As explained in <link linkend=\"glossary-rgb\">RGB mode</link>, 24-bit "
+"<acronym>GIMP</acronym> images can have up to 256 levels of gray. If you "
+"change from Grayscale to RGB mode, your image will have an RGB structure "
+"with three color channels, but of course, it will still be gray."
+msgstr ""
+"<link linkend=\"glossary-rgb\">RGB mode</link> വിവരിച്ചിരിക്കുന്നപോലെ 24-ബ"
+"ിറ്റ് <acronym>GIMP</acronym> ചിത്രങ്ങൾ ചാര വരെ 256 അളവ് കഴിയും. നിങ്ങൾ ഗ്ര"
+"േസ്കെയിൽ നിന്ന് ആർജിബി മോഡിലേക്ക് മാറ്റുകയാണെങ്കിൽ, നിങ്ങളുടെ ഇമേജ് മൂന്ന്"
+" കളർ ചാനലുകളുമായി ഒരു ആർജിബി ഘടനയുണ്ട്, എന്നാൽ തീർച്ചയായും, ഇപ്പോഴും ചാര ച"
+"െയ്യും."
+
+#: src/glossary/glossary.xml:838(para)
+msgid "Grayscale image files (8-bit) are smaller than RGB files."
+msgstr ""
+"ഗ്രേസ്കെയിൽ ഇമേജ് ഫയലുകൾ (8-ബിറ്റ്) ആർജിബി ഫയലുകൾ കുറവായിരിക്കും."
+
+#: src/glossary/glossary.xml:846(phrase)
+#: src/glossary/glossary.xml:849(primary)
+msgid "Guides"
+msgstr ""
+"വഴികാട്ടി"
+
+#: src/glossary/glossary.xml:850(secondary)
+msgid "Using"
+msgstr ""
+"ഉപയോഗിക്കുന്നു"
+
+#: src/glossary/glossary.xml:853(para)
+msgid ""
+"Guides are lines you can temporarily display on an image while you are "
+"working on it. You can display as many guides as you would like, in either "
+"the horizontal or the vertical direction. These lines help you position a "
+"selection or a layer on the image. They do not appear when the image is "
+"printed."
+msgstr ""
+"വഴികാട്ടി ഇത് കോവക്ക സമയത്ത്, നിങ്ങൾ താൽക്കാലികമായി ഒരു ഇമേജ് പ്രദർശിപ്പിക"
+"്കാൻ കഴിയും രേഖകളുണ്ട്. നിങ്ങൾ തിരശ്ചീനമായി അല്ലെങ്കിൽ ലംബമായ ദിശയിൽ ഒന്നുക"
+"ിൽ, നിങ്ങൾ ഇഷ്ടപ്പെടുന്ന എന്നാണ് ഗൈഡുകൾ പ്രദർശിപ്പിക്കാൻ കഴിയും. ഈ വരികൾ നി"
+"ങ്ങൾ ഒരു നിര ചിത്രത്തേയോ ഒരു പാളി സ്ഥാനം സഹായിക്കും. ചിത്രം പ്രിന്റ് അവർ ദ"
+"ൃശ്യമാകില്ല."
+
+#: src/glossary/glossary.xml:860(para)
+msgid ""
+"For more information see <xref linkend=\"gimp-concepts-image-guides\"/>."
+msgstr ""
+"കൂടുതൽ വിവരങ്ങൾക്ക് <xref linkend=\"gimp-concepts-image-guides\" /> കാണുക."
+
+#: src/glossary/glossary.xml:869(phrase)
+#: src/glossary/glossary.xml:872(primary)
+msgid "Histogram"
+msgstr ""
+"ഹിസ്റ്റോഗ്രാം"
+
+#: src/glossary/glossary.xml:875(para)
+msgid ""
+"In digital image processing, a histogram is a graph representing the "
+"statistical frequency of the gray values or the color values in an image. "
+"The histogram of an image tells you about the occurrence of gray values or "
+"color values, as well as the contrast range and the brightness of the image. "
+"In a color image, you can create one histogram with information about all "
+"possible colors, or three histograms for the individual color channels. The "
+"latter makes the most sense, since most procedures are based on grayscale "
+"images and therefore further processing is immediately possible."
+msgstr ""
+"ഡിജിറ്റൽ ഇമേജ് പ്രോസസിങ്, ഒരു ഹിസ്റ്റോഗ്രാം ചാര മൂല്യങ്ങൾ അല്ലെങ്കിൽ ഒരു "
+"ചിത്രം നിറം മൂല്യങ്ങളുടെ സ്ഥിതിവിവര ആവൃത്തി പ്രതിനിധീകരിക്കുന്ന ഒരു ഗ്രാഫ് "
+"ആണ്. ഒരു ചിത്രത്തിന്റെ ഹിസ്റ്റോഗ്രാം ചാര മൂല്യങ്ങൾ അല്ലെങ്കിൽ വർണ്ണ മൂല്യങ"
+"്ങൾ ഉണ്ടാകുന്നതിനെ, അതുപോലെ തീവ്രത പരിധി ചിത്രത്തിന്റെ തെളിച്ചം എന്നിവയെക്"
+"കുറിച്ച് പറയുന്നു. ഒരു കളർ ചിത്രം, നിങ്ങൾ വ്യക്തിഗത നിറം ചാനലുകൾ സാധ്യതയുള്"
+"ള എല്ലാ നിറങ്ങൾ, മൂന്നോ histograms കുറിച്ചുള്ള വിവരങ്ങൾ ഒറ്റ ഹിസ്റ്റോഗ്രാ"
+"ം സൃഷ്ടിക്കാൻ കഴിയും. ഏറ്റവും നടപടിക്രമങ്ങൾ ഗ്രേസ്കെയിലാക്കി ചിത്രങ്ങളെ അടി"
+"സ്ഥാനമാക്കി സ്ഥിതിക്ക് ഭാവികാലത്തു, ഏറ്റവും അർത്ഥത്തിൽ അതിനാൽ കൂടുതൽ പ്രോസ"
+"സ്സിംഗ് ഉടനെ സാധ്യമാണ്."
+
+#: src/glossary/glossary.xml:894(para)
+msgid ""
+"HSV is a <link linkend=\"glossary-colormodel\">color model</link> which has "
+"components for Hue (the color, such as blue or red), Saturation (how strong "
+"the color is) and Value (the brightness)."
+msgstr ""
+"HSV ഹ്യൂയേ (നീല, ചുവപ്പ് പോലെ നിറം,), സാച്ചുറേഷൻ (നിറം എത്ര ശക്തമായ) ഉം മൂ"
+"ല്യം (തെളിച്ചം) വേണ്ടി ഘടകങ്ങൾ ഉണ്ട് ഒരു <link linkend=\"glossary-colormode"
+"l\">color model</link> ആണ്."
+
+#: src/glossary/glossary.xml:899(para)
+msgid ""
+"The RGB mode is very well suited to computer screens, but it doesn't let us "
+"describe what we see in everyday life; a light green, a pale pink, a "
+"dazzling red, etc. The HSV model takes these characteristics into account. "
+"HSV and RGB are not completely independent of each other. You can see that "
+"with the Color Picker tool; when you change a color in one of the color "
+"models, the other one also changes. Brave souls can read <emphasis>Grokking "
+"the GIMP</emphasis>, which explains their interrelationship."
+msgstr ""
+"ആർജിബി മോഡിൽ കമ്പ്യൂട്ടർ സ്ക്രീനുകൾ വളരെ ഉചിതമാകുന്നു, എന്നാൽ നമുക്ക് നിത്"
+"യ ജീവിതത്തിൽ കാണുന്ന വിവരിക്കുന്ന അനുവദിക്കാറില്ല; ഒരു ഇളം പച്ച, ഇളം പിങ്ക്"
+", നടത്തരുത് ചുവന്ന മുതലായവ HSV മോഡൽ അക്കൗണ്ടിലേക്ക് ഈ സ്വഭാവസവിശേഷതകൾ എടുക"
+"്കും. HSV ആൻഡ് ആർജിബി പരസ്പരം പൂർണമായും സ്വതന്ത്ര അല്ല. നിങ്ങൾക്ക് കളർ പിക്"
+"കർ ഉപകരണം ഉപയോഗിച്ച് നമുക്ക് കാണാം; നിങ്ങൾക്ക് കളർ മോഡലുകൾ ഒന്നിൽ ഒരു നിറ"
+"ം മാറ്റം വരുമ്പോള്, മറ്റ് ഒരു ലും മാറ്റമുണ്ടാകും. ധൈര്യമുള്ള അവരുടെ interr"
+"elationship വിശദീകരിക്കുന്ന <emphasis>Grokking the GIMP</emphasis>, വായിക്ക"
+"ാൻ കഴിയും."
+
+#: src/glossary/glossary.xml:911(para)
+msgid "Brief description of the HSV components:"
+msgstr ""
+"HSV ഘടകങ്ങളുടെ സംക്ഷിപ്ത വിവരണം:"
+
+#: src/glossary/glossary.xml:913(term)
+msgid "Hue"
+msgstr ""
+"ഹ്യൂയേ"
+
+#: src/glossary/glossary.xml:915(para)
+msgid ""
+"This is the color itself, which results from the combination of primary "
+"colors. All shades (except for the gray levels) are represented in a "
+"<emphasis>chromatic circle</emphasis>: yellow, blue, and also purple, "
+"orange, etc. The chromatic circle (or <quote>color wheel</quote>) values "
+"range between 0° and 360°. (The term <quote>color</quote> is often used "
+"instead of <quote>Hue</quote>. The RGB colors are <quote>primary colors</"
+"quote>.)"
+msgstr ""
+"ഈ പ്രാഥമിക നിറങ്ങൾ കോമ്പിനേഷൻ നിന്നുള്ള ഫലങ്ങൾ നിറം തന്നെ ആണ്. എല്ലാ ഷേഡുക"
+"ൾ (ചാര തലങ്ങളിൽ ഒഴികെ) ഒരു <emphasis>chromatic circle</emphasis> പ്രതിനിധീക"
+"രിക്കുന്നത്:, മഞ്ഞ നീല, കൂടാതെ ധൂമ്രനൂൽ, ഓറഞ്ച്, മുതലായവ ക്രോമാറ്റിക് സർക്"
+"കിൾ (അല്ലെങ്കിൽ <quote>color wheel</quote>) മൂല്യങ്ങൾ 0 ° 360 ° തമ്മിലുള്ള "
+"കൂടുന്നു. (കാലാവധി <quote>color</quote> പലപ്പോഴും പകരം <quote>Hue</quote> "
+"എന്ന ഉപയോഗിക്കുന്നു. ആർജിബി നിറങ്ങൾ <quote>primary colors</quote> ആകുന്നു."
+")"
+
+#: src/glossary/glossary.xml:928(term) src/glossary/glossary.xml:1625(term)
+#: src/glossary/glossary.xml:1788(phrase)
+#: src/glossary/glossary.xml:1791(primary)
+#: src/glossary/glossary.xml:1795(secondary)
+msgid "Saturation"
+msgstr ""
+"സാച്ചുറേഷൻ"
+
+#: src/glossary/glossary.xml:930(para)
+msgid ""
+"This value describes how pale the color is. A completely unsaturated color "
+"is a shade of gray. As the saturation increases, the color becomes a pastel "
+"shade. A completely saturated color is pure. Saturation values go from 0 to "
+"100, from white to the purest color."
+msgstr ""
+"ഈ വില നിറം എത്ര ഇളം വിവരിക്കുന്നു. ഒരു പൂർണ്ണമായും അപൂരിത നിറം ചാര ഒരു തണൽ."
+" സാച്ചുറേഷൻ കൂടുകയും നിറം ഒരു IS @ തണൽ മാറുന്നു. ഒരു പൂർണ്ണമായും പൂരിത നിറം"
+" ശുദ്ധമല്ല. സാച്ചുറേഷൻ മൂല്യങ്ങൾ വെളുത്ത നിന്ന് പക്കലാണ് നിറം ലേക്ക്, 0 മുത"
+"ൽ 100 ​​പോകുക."
+
+#: src/glossary/glossary.xml:940(term) src/glossary/glossary.xml:1987(phrase)
+#: src/glossary/glossary.xml:1990(primary)
+#: src/glossary/glossary.xml:1994(secondary)
+msgid "Value"
+msgstr ""
+"വില"
+
+#: src/glossary/glossary.xml:942(para)
+msgid ""
+"This value describes the luminosity, the luminous intensity. It is the "
+"amount of light emitted by a color. You can see a change of luminosity when "
+"a colored object is moved from being in the shadow to being in the sun, or "
+"when you increase the luminosity of your screen. Values go from 0 to 100. "
+"Pixel values in the three channels are also luminosities: <quote>Value</"
+"quote> in the HSV color model is the maximum of these elementary values in "
+"the RGB space (scaled to 0-100)."
+msgstr ""
+"ഈ മൂല്യം തേജസ്സ്, ഗോളമാണ് തീവ്രത വിവരിക്കുന്നു. ഒരു നിറം പുറത്തുവിടുന്ന പ്"
+"രകാശം തുക. ഒരു നിറമുള്ള ഒബ്ജക്റ്റ് വെയിലത്ത് എന്നതിന് നിഴലിൽ നിലയിൽ നിന്നും"
+" വഴുതുമ്പോൾ നീ തിളക്കം ഒരു മാറ്റം കാണാൻ കഴിയും, അല്ലെങ്കിൽ നിങ്ങളുടെ സ്ക്ര"
+"ീനിന്റെ പ്രതല പെരുകുമ്പോള്. മൂല്യങ്ങൾ പോയി മൂന്നു ചാനലുകളിൽ 0 നിന്ന് 100 "
+"പിക്സൽ ബക്കറ്റ് പുറമേ luminosities: HSV നിറം മാതൃകയിൽ <quote>Value</quote> "
+"ആർജിബി ബഹിരാകാശത്ത് ഈ പ്രാഥമിക മൂല്യങ്ങൾ (0-100 സ്കെയിൽ) പരമാവധി ആണ്."
+
+#: src/glossary/glossary.xml:960(phrase)
+#: src/glossary/glossary.xml:963(primary)
+#: src/glossary/glossary.xml:967(secondary)
+msgid "HTML notation"
+msgstr ""
+"എച്ച്ടിഎംഎൽ നൊട്ടേഷനാണോ"
+
+#: src/glossary/glossary.xml:970(para)
+msgid ""
+"A hex triplet is a way of encoding a color for a computer. The <quote>#</"
+"quote> symbol indicates that the numbers which follow it are encoded in "
+"hexadecimal. Each color is specified in two hexadecimal digits which make up "
+"a triplet (three pairs) of hexadecimal values in the form <quote>#rrggbb</"
+"quote>, where <quote>rr</quote> represents red, <quote>gg</quote> represents "
+"green and <quote>bb</quote> represents blue."
+msgstr ""
+"ഒരു ഹെക്സ് triplet ഒരു കമ്പ്യൂട്ടർ വേണ്ടി ഒരു നിറം എൻകോഡുചെയ്യുന്നതിനായുള്"
+"ള ഒരു വഴിയാണ്. <quote>#</quote> ചിഹ്നം അതു പിന്തുടരുന്ന നമ്പറുകൾ ഹെക്സാഡെസി"
+"മൽ ലെ എൻകോഡ് സൂചിപ്പിക്കുന്നു. ഓരോ നിറം <quote>rr</quote> ചുവന്ന പ്രതിനിധ"
+"ാനം എവിടെ ഫോം <quote>#rrggbb</quote>, ലെ ഹെക്സാഡെസിമൽ മൂല്യങ്ങളുടെ ഒരു tri"
+"plet (മൂന്ന് ജോഡി) ഉണ്ടാക്കുന്നത് രണ്ടു ഹെക്സാഡെസിമൽ അക്കങ്ങൾ വ്യക്തമാക്കു"
+"ന്നത്, <quote>gg</quote> പച്ച പ്രതിനിധീകരിക്കുന്നത് <quote>bb</quote> നീല പ"
+"്രതിനിധീകരിക്കുന്നു."
+
+#: src/glossary/glossary.xml:984(phrase)
+#: src/glossary/glossary.xml:987(primary)
+msgid "Image Hose"
+msgstr ""
+"ചിത്രം ഹോസ്"
+
+#: src/glossary/glossary.xml:990(para)
+msgid ""
+"An image hose in <acronym>GIMP</acronym> is a special type of brush which "
+"consists of several images. For example, you could have a brush with "
+"footprints, which consists of two images, one for the left footprint and one "
+"for the right. While painting with this brush, a left footprint would appear "
+"first, then a right footprint, then a left one, etc. This type of brush is "
+"very powerful."
+msgstr ""
+"<acronym>GIMP</acronym> ഒരു ചിത്രം ഹോസ് നിരവധി ചിത്രങ്ങൾ അടങ്ങുന്ന ബ്രഷ് ഒ"
+"രു പ്രത്യേക തരം. ഉദാഹരണത്തിന്, നിങ്ങൾ രണ്ടു ചിത്രങ്ങൾ, ഇടത് കാൽപ്പാടുകൾ ഒന്"
+"നു വലത്തെ ഒന്നു ദ്വയാങ്കസംക്രിയയായ കാൽപ്പാടുകൾ ഒരു ബ്രഷ്, ഉണ്ടാകും. പിന്നെ "
+"ഇടത് ഒരു ബ്രഷ് ഈ തരം വളരെ ശക്തമാണ് ഈ ബ്രഷ് ചിത്രകല പറയുമ്പോൾ ഒരു ഇടത് കാൽപ"
+"്പാടുകൾ ആദ്യം, പിന്നീട് നേരാംവണ്ണം കാൽപ്പാടുകൾ വെളിപ്പെടും മുതലായവ."
+
+#: src/glossary/glossary.xml:998(para)
+msgid ""
+"An image hose is also sometimes called an <quote>image pipe</quote> or "
+"<quote>animated brush</quote>. An image hose is indicated in the Brushes "
+"dialog by a small red triangle in the lower right corner of the brush's "
+"symbol."
+msgstr ""
+"ഒരു ഇമേജ് ഹോസ് പുറമേ ചിലപ്പോൾ <quote>image pipe</quote> അല്ലെങ്കിൽ <quote"
+">animated brush</quote> വിളിക്കുന്നു. ഒരു ചിത്രം ഹോസ് ബ്രഷ് ചിഹ്നം താഴത്തെ"
+" വലതുഭാഗത്ത് ഒരു ചെറിയ ചുവന്ന ത്രികോണം വഴി Brushes ഡയലോഗിൽ തെളിവാണ്."
+
+#: src/glossary/glossary.xml:1004(para)
+msgid ""
+"For information concerning creating an image hose, please see the <xref "
+"linkend=\"gimp-using-animated-brushes\"/> and <xref linkend=\"gimp-using-"
+"brushes\"/>."
+msgstr ""
+"ഒരു ഇമേജ് ഹോസ് സൃഷ്ടിക്കുന്നത് കാര്യത്തിൽ വിവരങ്ങൾക്ക്, <xref linkend=\"gi"
+"mp-using-animated-brushes\" /> ആൻഡ് <xref linkend=\"gimp-using- brushes\" /"
+"> കാണുക."
+
+#: src/glossary/glossary.xml:1014(phrase)
+msgid "Incremental, paint mode"
+msgstr ""
+"ലളിതമായ പെയിന്റ് മോഡ്"
+
+#: src/glossary/glossary.xml:1017(primary)
+msgid "Incremental"
+msgstr ""
+"കൂടുതലായുള്ള"
+
+#: src/glossary/glossary.xml:1020(para)
+msgid ""
+"Incremental mode is a paint mode where each brush stroke is drawn directly "
+"on the active layer. When it is set, each additional stroke of the brush "
+"increases the effect of the brush, up to the maximum opacity for the brush."
+msgstr ""
+"ഒന്നൊന്നായി മോഡ് ഓരോ ബ്രഷ് സ്ട്രോക്ക് സജീവ പാളി നേരിട്ട് വരച്ചതാണ് ഒരു "
+"പെയിന്റ് മോഡ്. അത് സജ്ജീകരിച്ച ചെയ്യുമ്പോൾ, ബ്രഷ് ഓരോ അധിക സ്ട്രോക്ക് ബ"
+"്രഷ് പരമാവധി അതാര്യതയിലോ വരെ, ബ്രഷ് പ്രാബല്യത്തിൽ വർദ്ധിപ്പിക്കുന്നു."
+
+#: src/glossary/glossary.xml:1026(para)
+msgid ""
+"If incremental mode is not set, brush strokes are drawn on a canvas buffer, "
+"which is then combined with the active layer. The maximum effect of a brush "
+"is then determined by the opacity, and stroking with the brush repeatedly "
+"does not increase the effect beyond this limit."
+msgstr ""
+"ഒന്നൊന്നായി മോഡ് സജ്ജമാക്കാൻ എങ്കിൽ, ബ്രഷ് സ്ട്രോക്കുകൾ തുടർന്ന് സജീവ പാ"
+"ളി കൂടിച്ചേർന്ന് ഒരു ക്യാൻവാസ് ബഫർ, വരയ്ക്കും. ഒരു ബ്രഷ് പരമാവധി പ്രഭാവം പി"
+"ന്നീട് അതാര്യതയിലോ നിശ്ചയിക്കുന്നത് തുടർച്ചയായി ബ്രഷ് ഉപയോഗിച്ച് അതാണെന്ന"
+"് ഈ പരിധി പ്രാബല്യത്തിൽ വർദ്ധിപ്പിക്കുകയില്ല."
+
+#: src/glossary/glossary.xml:1046(para)
+msgid ""
+"The two images above were created using a brush with spacing set to 60 "
+"percent. The image on the left shows non-incremental painting and the image "
+"on the right shows the difference with incremental painting."
+msgstr ""
+"മുകളിൽ രണ്ട് ചിത്രങ്ങൾ 60 ശതമാനമായി സജ്ജീകരിച്ചു സ്പേസിംഗ് ഒരു ബ്രഷ് ഉപയോഗ"
+"ിച്ച് സൃഷ്ടിച്ചത്. ഇടതുവശത്ത് ചിത്രം നോൺ-കാലവര്ഷം പെയിന്റിംഗ് കാണിക്കുന്നു"
+" വലതുഭാഗത്തും ചിത്രം കാലവര്ഷം പെയിന്റിംഗ് വ്യത്യാസം കാണിക്കുന്നു."
+
+#: src/glossary/glossary.xml:1051(para)
+msgid ""
+"Incremental mode is a tool option that is shared by several brush tools, "
+"except those which have a <quote>rate</quote> control, which automatically "
+"implies an incremental effect. You can set it by checking the <guilabel "
+"moreinfo=\"none\">Incremental</guilabel> checkbox in the tool option dialog "
+"for the tool (Paintbrush, Pencil and Eraser)."
+msgstr ""
+"ഒന്നൊന്നായി മോഡ് സ്വയമേവ ഒരു കാലവര്ഷം പ്രഭാവം ധ്വനിപ്പിക്കുന്നു ഒരു <quot"
+"e>rate</quote> നിയന്ത്രണമുണ്ട്, ആ ഒഴികെ നിരവധി ബ്രഷ് ഉപകരണങ്ങൾ പങ്കിട്ട ഒരു"
+" ഉപകരണം തീരുമാനം. നിങ്ങൾ ഉപകരണം (അന്തസ്സായിത്തന്നെയാണു, പെൻസിൽ ആൻഡ് എറേസർ) "
+"വേണ്ടി ഉപകരണം ഓപ്ഷൻ ഡയലോഗിൽ <guilabel moreinfo=\"none\">Incremental</guila"
+"bel> ചെക്ക്ബോക്സ് അരികെ വെച്ചു കഴിയും."
+
+#: src/glossary/glossary.xml:1063(phrase)
+#: src/glossary/glossary.xml:1066(primary)
+msgid "Indexed Colors"
+msgstr ""
+"ഇൻഡെക്സ് നിറങ്ങൾ"
+
+#: src/glossary/glossary.xml:1070(secondary)
+msgid "Indexed colors"
+msgstr ""
+"ഇൻഡെക്സ് നിറങ്ങൾ"
+
+#: src/glossary/glossary.xml:1073(para)
+msgid ""
+"Indexed color mode is a mode for encoding colors in an image where each "
+"pixel in the image is assigned an 8-bit color number. The color which "
+"corresponds to this number is then put in a table (the palette). Changing a "
+"color in the palette changes all the pixels which refer to this palette "
+"color. Although you can create images in <emphasis>Indexed Color</emphasis> "
+"mode and can transform images to it, it is, strictly speaking, not a <link "
+"linkend=\"glossary-colormodel\">color model</link>."
+msgstr ""
+"ഇൻഡെക്സ്ഡ് നിറം മോഡ് എവിടെ ചിത്രം ഓരോ പിക്സൽ ഒരു 8-ബിറ്റ് നിറം നമ്പർ നൽകി"
+"യിരിക്കുന്നു ഒരു ചിത്രം വർണ്ണങ്ങൾ എൻകോഡുചെയ്യുന്നതിനായുള്ള ഒരു മോഡ്. ഈ നമ"
+"്പർ യോജിക്കുന്ന നിറം പിന്നീട് ഒരു മേശ (പാലറ്റ്) ഇടുന്നു. പാലറ്റ് ഒരു നിറം "
+"മാറ്റുന്നത് ഈ പാലറ്റ് നിറം യെയാണ് എല്ലാ പിക്സലുകൾ മാറ്റങ്ങള്. നിങ്ങൾ <empha"
+"sis>Indexed Color</emphasis> മോഡിൽ ചിത്രങ്ങൾ സൃഷ്ടിക്കാൻ കഴിയും അതു ഇമേജുക"
+"ൾ മാറ്റാൻ കഴിയുന്ന ആണെങ്കിലും, അതു കർശനമായി, സംസാരിക്കുന്ന ഒരു <link linken"
+"d=\"glossary-colormodel\">color model</link> ആണ്."
+
+#: src/glossary/glossary.xml:1083(para)
+msgid ""
+"See also the <link linkend=\"gimp-indexed-palette-dialog\">Indexed Palette</"
+"link> section and the <link linkend=\"gimp-image-convert-indexed\">Convert "
+"Image to Indexed Colors</link> command."
+msgstr ""
+"ഇതും കാണുക <link linkend=\"gimp-indexed-palette-dialog\">Indexed Palette</l"
+"ink> വിഭാഗം <link linkend=\"gimp-image-convert-indexed\">Convert Image to I"
+"ndexed Colors</link> കമാൻഡ്."
+
+#: src/glossary/glossary.xml:1094(phrase)
+msgid "Interpolation"
+msgstr "Interpolation"
+
+#: src/glossary/glossary.xml:1097(para)
+msgid ""
+"Interpolation means calculating intermediate values. When you enlarge "
+"(<quote>digitally zoom</quote>) or otherwise transform (rotate, shear or "
+"give perspective to) a digital image, interpolation procedures are used to "
+"compute the colors of the pixels in the transformed image. <acronym>GIMP</"
+"acronym> offers three interpolation methods, which differ in quality and "
+"speed. In general, the better the quality, the more time the interpolation "
+"takes (see <link linkend=\"gimp-tool-interpolation-methods\">Interpolation "
+"methods</link>)."
+msgstr ""
+"Interpolation ഇന്റർമീഡിയറ്റ് മൂല്യങ്ങൾ കണക്കുകളുടെ എന്നാണ്. നിങ്ങൾ (<quote>"
+"digitally zoom</quote>) വലുതാക്കുന്നു മറ്റുവിധത്തിൽ രൂപാന്തരപ്പെടുത്തിയോ ("
+", റൊട്ടേറ്റ് അറുക്കുക അല്ലെങ്കിൽ കാഴ്ചപ്പാട് നൽകുക) ഡിജിറ്റൽ ചിത്രം ചെയ്യു"
+"മ്പോൾ, interpolation നടപടിക്രമങ്ങൾ രൂപാന്തരപ്പെടുന്നു സ്വരൂപത്തിൽ പിക്സൽ ന"
+"ിറങ്ങൾ കണക്കാക്കാൻ ഉപയോഗിക്കുന്ന. <acronym>GIMP</acronym> ഗുണമേന്മയും വേഗത"
+" വ്യത്യാസമുള്ള മൂന്നു interpolation രീതികൾ നല്കുന്നു. പൊതുവെ, മെച്ചപ്പെട്ട"
+", interpolation എടുക്കും കൂടുതൽ സമയം (<link linkend=\"gimp-tool-interpolati"
+"on-methods\">Interpolation methods</link> കാണുക)."
+
+#: src/glossary/glossary.xml:1109(para)
+msgid ""
+"<acronym>GIMP</acronym> uses interpolation when you <link linkend=\"gimp-"
+"image-scale\">Scale</link> an image, <link linkend=\"gimp-layer-scale"
+"\">Scale</link> a layer, and when you <link linkend=\"gimp-tools-transform"
+"\">Transform</link> an image."
+msgstr ""
+"<acronym>GIMP</acronym>, നിങ്ങൾ ഒരു ഇമേജ് <link linkend=\"gimp- image-scale"
+"\">Scale</link> വരുമ്പോൾ interpolation ഉപയോഗിക്കുന്നു ഒരു പാളി <link link"
+"end=\"gimp-layer-scale \">Scale</link>, നിങ്ങൾ ഒരു ഇമേജ് <link linkend=\"gi"
+"mp-tools-transform \">Transform</link> വരുമ്പോൾ."
+
+#: src/glossary/glossary.xml:1120(phrase)
+#: src/glossary/glossary.xml:1123(primary)
+msgid "JPEG"
+msgstr ""
+"ജെപ്പെഗ്"
+
+#: src/glossary/glossary.xml:1126(para)
+msgid ""
+"JPEG is a <link linkend=\"glossary-fileformat\">file format</link> which "
+"supports compression and works at all color depths. The image compression is "
+"adjustable, but beware: Too high a compression could severely reduce image "
+"quality, since JPEG compression is lossy."
+msgstr ""
+"ജെപെഗ് കംപ്രഷൻ പിന്തുണയ്ക്കുന്നു എല്ലാ നിറം ആഴത്തിൽ പ്രവർത്തിക്കുന്നു ഒരു <"
+"link linkend=\"glossary-fileformat\">file format</link> ആണ്. ചിത്രം ക്രമീകര"
+"ിക്കാവുന്ന ആണ്, പക്ഷേ സൂക്ഷിച്ചു: വളരെ ഉയർന്ന കംപ്രഷൻ കഠിനമായി ജെപെഗ് കംപ്ര"
+"ഷൻ ലോസ്സി കാരണം, ചിത്രത്തിന്റെ നിലവാരം കുറയ്ക്കുകയാണ്."
+
+#: src/glossary/glossary.xml:1132(para)
+msgid ""
+"Use JPEG to create web graphics or if you don't want your image to take up a "
+"lot of space. JPEG is a good format for photographs and for computer-"
+"generated images (CGI). It is not well suited for:"
+msgstr ""
+"വെബ് ഗ്രാഫിക്സ് സൃഷ്ടിക്കാൻ അല്ലെങ്കിൽ നിങ്ങളുടെ ഇമേജ് ധാരാളം ഇടം എടുത്തു ആ"
+"ഗ്രഹിക്കുന്നില്ല എങ്കിൽ ജെപ്പെഗ് ഉപയോഗിക്കുക. ജെപ്പെഗ് ഫോട്ടോഗ്രാഫുകൾ നല"
+"്ല ഫോർമാറ്റ് ആണ് computer- ചിത്രങ്ങളിലേക്ക് (സിജിഐ) സൃഷ്ടിച്ചു. ഇത് അനുയോ"
+"ജ്യമല്ല ആണ്:"
+
+#: src/glossary/glossary.xml:1140(para)
+msgid ""
+"digital line drawings (for example, screenshots or vector graphics), in "
+"which there are many neighboring pixels with the same color values, few "
+"colors and hard edges,"
+msgstr ""
+"ഡിജിറ്റൽ ലൈൻ ചിത്രങ്ങൾ (ഉദാഹരണത്തിന്, സ്ക്രീൻഷോട്ടുകളോ വെക്റ്റർ ഗ്രാഫിക്സ"
+"്), അതേ നിറം മൂല്യങ്ങൾ, ഏതാനും നിറങ്ങളും ഹാർഡ് അരികുകളുള്ള പല അയൽ പിക്സൽ ഉണ"
+"്ട്,"
+
+#: src/glossary/glossary.xml:1147(para)
+msgid "Black and white images (only black and white, one bit per pixel) or"
+msgstr ""
+"കറുപ്പും വെള്ളയും ചിത്രങ്ങൾ (മാത്രം കറുപ്പും വെളുപ്പും, .പിക്സലില് ഒന്ന് ബി"
+"റ്റ്) അല്ലെങ്കിൽ"
+
+#: src/glossary/glossary.xml:1153(para)
+msgid "half-toned images (newsprint)."
+msgstr ""
+"പകുതി നറിഷിംഗ് ചിത്രങ്ങൾ (newsprint)."
+
+#: src/glossary/glossary.xml:1156(para)
+msgid ""
+"Other formats, such as GIF, PNG or JBIG, are far better for these kinds of "
+"images."
+msgstr ""
+"അത്തരം GIF, PNG അല്ലെങ്കിൽ JBIG പോലെ മറ്റു ഫോർമാറ്റുകൾ, ഇത്തരം ചിത്രങ്ങളി"
+"ൽ വേണ്ടി ഗുണകരമായിട്ടുള്ളത്."
+
+#: src/glossary/glossary.xml:1160(para)
+msgid ""
+"In general, JPEG transformations are not reversible. Opening and then saving "
+"a JPEG file causes a new, lossy compression. Increasing the quality factor "
+"later will not bring back the image information which was lost."
+msgstr ""
+"പൊതുവേ, ജെപിഇജി രൂപാന്തരണങ്ങളെ അല്ല വിപരീതഫലം ആകുന്നു. പിന്നീട് തുറന്ന് ഒര"
+"ു JPEG ഫയൽ സംരക്ഷിക്കുന്നതിൽ ഒരു പുതിയ ലോസ്സി കംപ്രഷൻ കാരണമാകുന്നു. പിന്നീ"
+"ട് ഗുണമേന്മയുള്ള ഘടകം വർദ്ധിപ്പിക്കുക കാണാതെ ചിത്രം വിവരങ്ങൾ തിരികെ കൊണ്ടു"
+"വരികയില്ല."
+
+#: src/glossary/glossary.xml:1171(phrase)
+msgid "L*a*b*"
+msgstr ""
+"ലാബ്*"
+
+#: src/glossary/glossary.xml:1174(para)
+msgid ""
+"The Lab color space (also called the L*a*b* color space) is a <link linkend="
+"\"glossary-colormodel\">color model</link> developed in the beginning of the "
+"1930s by the Commission Internationale d`Eclairage (CIE). It includes all "
+"the colors that the human eye can perceive. That contains the colors of the "
+"RGB and the CMYK color spaces, among others. In Lab, a color is indicated by "
+"three values: L, a and b. Here, the L stands for the luminance component — "
+"corresponding to the gray value — and a and b represent the red-green and "
+"blue-yellow parts of the color, respectively."
+msgstr ""
+"ലാബ് നിറം സ്പേസ് (പുറമേ * എൽ എന്ന ഒരു * ബി * കളർ സ്പേസ്) കമ്മീഷൻ ഇന്റെർനാഷ്"
+"നാലെ d`Eclairage (സി.ഐ.ഇ.) 1930 ആരംഭത്തിൽ വികസിപ്പിച്ചെടുത്ത ഒരു <link link"
+"end=\"glossary-colormodel\">color model</link> ആണ്. മനുഷ്യ കണ്ണ് കാണുന്നു ക"
+"ഴിയുന്ന എല്ലാ നിറങ്ങളെയും ഉൾപ്പെടുന്നു. മറ്റുള്ളവരുടെ ഇടയിൽ ആർജിബി എന്ന വർണ"
+"്ണങ്ങളും CMYK നിറം ഇടങ്ങൾ അടങ്ങിയിരിക്കുന്നു. എൽ, എ, ബി: ലാബ്, ഒരു നിറം മൂന"
+"്നു മൂല്യങ്ങൾ തന്നെ തെളിവാണ്. ഇവിടെ, എൽ luminance ഘടകം നിലകൊള്ളുന്നു - ചാര"
+" മൂല്യം പൊരുത്തപ്പെടുന്ന - ഒരു, b യഥാക്രമം നിറം ചുവപ്പ്-പച്ച, നീല-മഞ്ഞ ഭാഗ"
+"ങ്ങൾ പ്രതിനിധാനം."
+
+#: src/glossary/glossary.xml:1186(para)
+msgid ""
+"In contrast to RGB or CMYK, Lab is not dependent upon the various input and "
+"output devices. For that reason, it is used as an exchange format between "
+"devices. Lab is also the internal color model of PostScript Level II."
+msgstr ""
+"ആർജിബി അല്ലെങ്കിൽ CMYK വ്യത്യസ്തരായിരുന്നു ലാബ് അല്ല വിവിധ ഇൻപുട്ട്, ഔട്ട്പ"
+"ുട്ട് ഉപകരണങ്ങൾ മേൽ ആശ്രയിച്ചാണ്. അക്കാരണത്താൽ, ഉപകരണങ്ങൾ തമ്മിലുള്ള എക്സ്ച"
+"േഞ്ച് ഫോർമാറ്റ് ഉപയോഗിക്കുന്നു. ലാബ് പുറമേ പോസ്റ്റ്സ്ക്രിപ്റ്റ്ദര്ശിനി ല"
+"െവൽ II ന്റെ ആന്തരിക നിറം മാതൃകയാണ്."
+
+#: src/glossary/glossary.xml:1197(phrase)
+#: src/glossary/glossary.xml:1200(primary)
+msgid "Layer"
+msgstr ""
+"ലെയർ"
+
+#: src/glossary/glossary.xml:1203(para)
+msgid ""
+"You can think of layers as being a stack of slides which are more or less "
+"transparent. Each layer represents an aspect of the image and the image is "
+"the sum of all of these aspects. The layer at the bottom of the stack is the "
+"background layer. The layers above it are the components of the foreground."
+msgstr ""
+"കൂടുതലോ കുറവോ സുതാര്യമായ ആയ സ്ലൈഡുകൾ ഒരു സ്റ്റാക്ക് നിലയിൽ പാളികൾ തോന്നു"
+"ന്നുവോ. ഓരോ പാളി ചിത്രത്തിന്റെ വശം പ്രതിനിധീകരിക്കുന്നത് ചിത്രം ഈ വശങ്ങൾ "
+"എല്ലാ ആകെത്തുകയാണ്. സ്റ്റാക്ക് താഴെയുള്ള പാളി പശ്ചാത്തല പാളിയാണ്. മുകളിൽ പാ"
+"ളികൾ മുൻഭാഗത്തെ ഘടകങ്ങൾ ഉണ്ട്."
+
+#: src/glossary/glossary.xml:1210(para)
+msgid ""
+"You can view and manage the layers of the image through the <link linkend="
+"\"gimp-layer-dialog\">Layers dialog</link>."
+msgstr ""
+"നിങ്ങൾ <link linkend=\"gimp-layer-dialog\">Layers dialog</link> വഴി ചിത്രം "
+"പാളികൾ കാണാനും നിയന്ത്രിക്കാനും കഴിയും."
+
+#: src/glossary/glossary.xml:1215(title)
+msgid "Example image with layers"
+msgstr ""
+"പാളികൾ കൊണ്ട് ഉദാഹരണം ചിത്രം"
+
+#: src/glossary/glossary.xml:1222(para)
+msgid "Representation of an image with layers"
+msgstr ""
+"പാളികൾ ഒരു ഇമേജ് ജനപ്രാതിനിധ്യ"
+
+#: src/glossary/glossary.xml:1230(para)
+msgid "The final image"
+msgstr ""
+"അന്തിമ ഇമേജ്"
+
+#: src/glossary/glossary.xml:1238(phrase)
+msgid "Marching Ants"
+msgstr ""
+"ഉറുമ്പു മാർച്ചിംഗ്"
+
+#: src/glossary/glossary.xml:1241(para)
+msgid ""
+"Marching ants is a term which describes the dotted line which surrounds a "
+"selection. The line is animated, so it looks as if little ants are running "
+"around behind each other."
+msgstr ""
+"മാർച്ചിംഗ് ഉറുമ്പു ഒരു നിര ചുറ്റുമുള്ള അതിനെക്കുറിച്ച് വിവരിക്കുന്ന ഒരു പദമ"
+"ാണ്. ലൈൻ ആനിമേറ്റഡ്, അങ്ങനെ ചെറിയ ഉറുമ്പുകൾ പരസ്പരം പിന്നിൽ ചുറ്റും ലിന്റെ "
+"തോന്നുന്നു."
+
+#: src/glossary/glossary.xml:1251(phrase)
+#: src/glossary/glossary.xml:1254(primary)
+msgid "Masks"
+msgstr ""
+"മാസ്കുകൾ"
+
+#: src/glossary/glossary.xml:1258(para)
+msgid ""
+"A mask is like a veil put over a layer (layer mask) or all the layers of an "
+"image (selection mask). You can remove this mask by painting with white "
+"color, and you can complete it by painting with black color. When the mask "
+"is <quote>applied</quote>, non masked pixels will remain visible (the others "
+"will be transparent) or will be selected, according to the type of mask."
+msgstr ""
+"ഒരു മാസ്ക് ഒരു പാളി (ലെയർ മാസ്ക്) അല്ലെങ്കിൽ ഒരു ചിത്രം (നിരക്കു മാസ്ക്) എല"
+"്ലാ പാളികൾ മേൽ ഒരു മൂടുപടം പോലെയാണ്. നിങ്ങൾ വെളുത്ത നിറം ചിത്രകല വഴി ഈ മാസ"
+"്ക് നീക്കം കഴിയും ഒപ്പം കറുത്ത നിറം ചിത്രകല അതിനെ പൂർത്തിയാക്കാൻ കഴിയും. മാ"
+"സ്ക് <quote>applied</quote> എപ്പോഴാണ്, നോൺ അരേയിൽ പിക്സലുകൾ ദൃശ്യമായി തുട"
+"രും (മറ്റുള്ളവരെ സുതാര്യമായ ആയിരിക്കും) അല്ലെങ്കിൽ മാസ്ക് തരം തക്കവണ്ണം തിര"
+"ഞ്ഞെടുക്കും."
+
+#: src/glossary/glossary.xml:1266(para)
+msgid "There are two types of masks:"
+msgstr ""
+"മാസ്ക് രണ്ടു തരം ഉണ്ട്:"
+
+#: src/glossary/glossary.xml:1269(para)
+msgid ""
+"<emphasis>Layer Mask</emphasis>: Every layer can have its own mask. The "
+"layer mask represents the Alpha channel of the layer and allows you to "
+"manage its transparency. By painting on the layer mask, you can make parts "
+"of the layer opaque or transparent: painting with black makes the layer "
+"transparent, painting with white makes the layer opaque and painting with "
+"shades of gray makes the layer semi-transparent. You can use all paint tools "
+"to paint on the mask. You can also apply a filter or copy-paste. You can use "
+"the Layer mask for transition effects, volume effects, merging elements from "
+"another image, etc. See the <link linkend=\"gimp-layer-mask\">Layer Mask</"
+"link> section for more details."
+msgstr ""
+"<emphasis>Layer Mask</emphasis>: ഓരോ പാളി സ്വന്തം മാസ്ക് ഞങ്ങൾക്കുണ്ട് കഴി"
+"യും. ലെയർ മാസ്ക് പാളി ആൽഫ ചാനൽ പ്രതിനിധീകരിക്കുന്നത് നിങ്ങൾ അതിന്റെ സുതാര്യ"
+"ത നിയന്ത്രിക്കുന്നതിന് അനുവദിക്കുന്നു. ലെയർ മാസ്ക് ന് ചിത്രകാരന്റെ, നിങ്ങൾ "
+"പാളി ഭാഗങ്ങൾ ആഗിരണം ചെയ്യും അല്ലെങ്കിൽ സുതാര്യമായ കഴിയും: കറുത്ത ചിത്രകല പാ"
+"ളി സുതാര്യമായ ആക്കുന്നു, വെള്ള പെയിന്റിംഗ് പാളി ആഗിരണം ചെയ്യും ചെയ്യുന്നു ച"
+"ാര ഷേഡുകൾ ചിത്രകല പാളി അർദ്ധസുതാര്യം ചെയ്യുന്നു. നിങ്ങൾ മാസ്ക് ന് പെയിന്റ് "
+"എല്ലാ പെയിന്റ് ഉപകരണങ്ങൾ ഉപയോഗിക്കാനാകും. നിങ്ങൾക്ക് ഒരു ഫിൽട്ടർ പകർത്തി-പ"
+"േസ്റ്റ് അപേക്ഷിക്കാം. നിങ്ങൾ ലെയർ മാസ്ക് സംക്രമണ ഇഫക്റ്റുകൾ, വോള്യം ഇഫക്റ്"
+"റുകൾ മറ്റൊരു ചിത്രം നിന്നുള്ള ഘടകങ്ങൾ സംയോജിപ്പിച്ചുകൊണ്ട് ഉപയോഗിക്കുക "
+"മുതലായവ കൂടുതൽ വിവരങ്ങൾക്ക് <link linkend=\"gimp-layer-mask\">Layer Mask</l"
+"ink> വിഭാഗം കാണാൻ കഴിയും."
+
+#: src/glossary/glossary.xml:1285(para)
+msgid ""
+"<emphasis>Channel Mask</emphasis>, also called <emphasis>Selection Mask</"
+"emphasis>: Channel Masks determine the transparency of a selection. By "
+"painting on a Channel Mask with white, you remove the mask and increase the "
+"selection; with black, you reduce the selection. This procedure lets you "
+"create a selection very precisely. You can also save your selections to a "
+"Channel Mask with the <link linkend=\"gimp-selection-to-channel\">Save to "
+"Channel</link> command. You can retrieve it later by using the "
+"<quote>Channel to selection</quote> command from the <link linkend=\"gimp-"
+"channel-menu\">Channel menu</link>. Channel masks are so important in "
+"<acronym>GIMP</acronym> that a special type has been implemented: the <link "
+"linkend=\"gimp-qmask\">Quick&nbsp;mask</link>. See the <link linkend=\"gimp-"
+"channel-mask\">Selection&nbsp;mask</link> section for more details."
+msgstr ""
+"<emphasis>Channel Mask</emphasis>, പുറമേ <emphasis>Selection Mask</emphasis"
+"> വിളിച്ചു: ചാനൽ മാസ്കുകൾ ഒരു നിര സുതാര്യത നിർണ്ണയിക്കാൻ. ചാനലിൽ ചിത്രകല വെ"
+"ള്ള മാസ്ക്, നിങ്ങൾ മാസ്ക് നീക്കംചെയ്ത് നിരക്കു വർദ്ധിപ്പിക്കുക; കറുത്ത ഉപയേ"
+"ാഗിച്ച്, നിരക്കു കുറയ്ക്കാൻ. ഈ നടപടിക്രമം നിങ്ങൾ വളരെ കൃത്യമായി ഒരു നിര സൃഷ"
+"്ടിക്കാൻ അനുവദിക്കുന്നു. നിങ്ങൾക്ക് <link linkend=\"gimp-selection-to-chann"
+"el\">Save to Channel</link> കമാൻഡ് ഒരു ചാനൽ മാസ്ക് തിരഞ്ഞെടുത്ത സംരക്ഷിക്കാ"
+"ൻ കഴിയും. നിങ്ങൾ <link linkend=\"gimp- channel-menu\">Channel menu</link> ന"
+"ിന്ന് <quote>Channel to selection</quote> കമാൻഡ് ഉപയോഗിച്ച് പിന്നീട് വീണ്ട"
+"െടുക്കാനും കഴിയും. <link linkend=\"gimp-qmask\">Quick mask</link>: ചാനൽ മാസ"
+"്കുകൾ <acronym>GIMP</acronym> ഇത്ര പ്രധാനപ്പെട്ട ഒരു പ്രത്യേക തരം ഉണ്ട് നടപ"
+"്പിലാക്കി ആകുന്നു. കൂടുതൽ വിവരങ്ങൾക്ക് <link linkend=\"gimp- channel-mask\""
+">Selection mask</link> വിഭാഗം കാണുക."
+
+#: src/glossary/glossary.xml:1310(phrase)
+msgid "Moir&eacute; Effect"
+msgstr ""
+"Moir &eacute; പ്രഭാവം"
+
+#: src/glossary/glossary.xml:1313(primary)
+msgid "Moir&eacute;"
+msgstr "Moir&eacute;"
+
+#: src/glossary/glossary.xml:1316(para)
+msgid ""
+"The moir&eacute; effect (pronounce <quote>Moa-ray</quote>) is an unintended "
+"pattern which appears when a regular pattern of grids or lines interferes "
+"with another regular pattern placed over it. This can happen, for example, "
+"when you are scanning an image with a periodic structure (such as a "
+"checkered shirt or a half-toned image), scanning a digital image, taking a "
+"digital photograph of a periodic pattern, or even when silkscreening."
+msgstr ""
+"moir &eacute; പ്രഭാവം (<quote>Moa-ray</quote> ഉച്ചരിക്കാൻ) ഗ്രിഡുകൾ അല്ലെങ്"
+"കിൽ വരികൾ ഒരു സാധാരണ പാറ്റേൺ അതു വയ്ക്കുക മറ്റൊരു സാധാരണ പാറ്റേൺ ഇടപെടുന്ന"
+" ദൃശ്യമാകുന്ന എന്ന ഉദ്ദേശിക്കാത്ത മാതൃക. ഇത് നിങ്ങൾ, ഒരു ആനുകാലിക ഘടന (തിരി"
+"ച്ചറിയാനുള്ള ഒരു ഷർട്ടും അല്ലെങ്കിൽ ഒന്നര-നറിഷിംഗ് ചിത്രം) ഒരു ഇമേജ് സ്കാൻ "
+"ചെയ്യുമ്പോൾ ഒരു ഡിജിറ്റൽ ഇമേജ് സ്കാൻ ഒരു ആനുകാലിക പാറ്റേൺ ഒരു ഡിജിറ്റൽ ഫോ"
+"ട്ടോ എടുക്കുക, അല്ലെങ്കിൽ silkscreening പോലും ഉദാഹരണത്തിന്, സംഭവിക്കാം."
+
+#: src/glossary/glossary.xml:1325(para)
+msgid ""
+"If you discover the problem in time, the best solution is to move the "
+"original image a little bit in the scanner or to change the camera angle "
+"slightly."
+msgstr ""
+"നിനക്ക് സമയത്ത് പ്രശ്നം തിരിച്ചറിയുമ്പോൾ, മികച്ച പരിഹാരം സ്കാനർ യഥാർത്ഥ ചി"
+"ത്രം ഒരു അല്പം നീക്കാൻ ചെറുതായി ക്യാമറ ആംഗിൾ മാറ്റാൻ സാധ്യമല്ല."
+
+#: src/glossary/glossary.xml:1330(para)
+msgid ""
+"If you cannot re-create the image file, <acronym>GIMP</acronym> offers some "
+"filters which may help you with the problem. For more information, see the "
+"<link linkend=\"plug-in-despeckle\">Despeckle</link> and <link linkend="
+"\"plug-in-nlfilt\">NL Filter</link> (Non-Linear) filters."
+msgstr ""
+"നിങ്ങൾ കഴിയില്ല എങ്കിൽ ഇമേജ് ഫയൽ വീണ്ടും സൃഷ്ടിക്കാൻ, <acronym>GIMP</acrony"
+"m> പ്രശ്നം നിങ്ങളെ സഹായിച്ചേക്കാം ചില ഫിൽട്ടറുകൾ പ്രദാനം ചെയ്യുന്നു. കൂടുതൽ"
+" വിവരങ്ങൾക്ക്, <link linkend=\"plug-in-despeckle\">Despeckle</link> ആൻഡ് <l"
+"ink linkend=\"plug-in-nlfilt\">NL Filter</link> (നോൺ-ലീനിയർ) ഫിൽട്ടറുകൾ കാ"
+"ണുക."
+
+#: src/glossary/glossary.xml:1343(phrase)
+#: src/glossary/glossary.xml:1352(primary)
+msgid "Parasite"
+msgstr ""
+"പരോപജീവി"
+
+#: src/glossary/glossary.xml:1346(primary)
+#: src/glossary/glossary.xml:2006(phrase)
+#: src/glossary/glossary.xml:2011(primary)
+#: src/glossary/glossary.xml:2021(secondary)
+msgid "XCF"
+msgstr ""
+"എക്സ്.സി.എഫ്"
+
+#: src/glossary/glossary.xml:1349(primary)
+#: src/glossary/glossary.xml:2014(primary)
+msgid ".xcf"
+msgstr ".xcf"
+
+#: src/glossary/glossary.xml:1355(para)
+msgid ""
+"A Parasite is additional data which may be written to an XCF file. A "
+"parasite is identified by a name, and can be thought of as an extension to "
+"the other information in an XCF file."
+msgstr ""
+"ഒരു പരാദം ഒരു എക്സ്.സി.എഫ് ഫയലിൽ എഴുതുന്നു ഏത് അധിക ഡാറ്റയാണ്. ഒരു പരാദം ഒര"
+"ു പേര് തിരിച്ചറിയുന്നു, ഒരു എക്സ്.സി.എഫ് ഫയലിലെ മറ്റ് വിവരങ്ങൾ ഒരു വിപുലീകര"
+"ണം കരുതിയിരുന്നത് കഴിയും."
+
+#: src/glossary/glossary.xml:1360(para)
+msgid ""
+"Parasites of an image component may be read by <acronym>GIMP</acronym> plug-"
+"ins. Plug-ins may also define their own parasite names, which are ignored by "
+"other plug-ins. Examples of parasites are comments, the save options for the "
+"TIFF, JPEG and PNG file formats, the gamma value the image was created with "
+"and EXIF data."
+msgstr ""
+"ഒരു ഇമേജ് ഘടകത്തിന്റേയും പരാന്നഭോജികൾ <acronym>GIMP</acronym> plug- ഇന്നുക"
+"ളെ റീഡ് ചെയ്തേക്കാവുന്ന. പ്ലഗിനുകളും മറ്റ് പ്ലഗ്-ഇന്നുകളെ അവഗണിക്കുകയും സ്വ"
+"ന്തം പരോപജീവി പേരുകൾ, define ചെയ്യാം. പരാന്നഭോജികൾ ഉദാഹരണങ്ങൾ അഭിപ്രായങ്ങ"
+"ൾ ആകുന്നു, ടിഐഎഫ്എഫ് ഓപ്ഷനുകൾ സംരക്ഷിക്കുക, JPEG, PNG ഫയൽ ഫോർമാറ്റുകൾ, ഗാമ"
+"ാ മൂല്യം ചിത്രം സൃഷ്ടിച്ചത് ആൻഡ് എക്സിഫ്."
+
+#: src/glossary/glossary.xml:1373(phrase)
+msgid "Path"
+msgstr ""
+"പാത"
+
+#: src/glossary/glossary.xml:1376(para)
+msgid ""
+"A Path is a contour composed of straight lines, curves, or both. In "
+"<acronym>GIMP</acronym>, it is used to form the boundary of a selection, or "
+"to be <emphasis>stroked</emphasis> to create visible marks on an image. "
+"Unless a path is stroked, it is not visible when the image is printed and it "
+"is not saved when the image is written to a file (unless you use XCF format)."
+msgstr ""
+"ഒരു നേരായ വരികൾ, കർവുകൾ, അല്ലെങ്കിൽ രണ്ടിന്റേയും നിർമ്മിതമായ ഒരു കോണ്ടൂർ ആ"
+"ണ്. <acronym>GIMP</acronym>, അത് ഒരു ഇമേജ് ദൃശ്യമാകുന്ന മാർക്ക് സൃഷ്ടിക്കാൻ"
+" ഒരു നിര അതിർത്തി രൂപം, അല്ലെങ്കിൽ <emphasis>stroked</emphasis> ആയിരിക്കും "
+"ഉപയോഗിക്കുന്നു. ഒരു പാത ഇന്നും മായാതെ സാധ്യമല്ലെങ്കിൽ, ഇമേജ് പ്രിന്റ് (നിങ"
+"്ങൾ എക്സ്.സി.എഫ് ഫോർമാറ്റ് ഉപയോഗിക്കുക പക്ഷം) ചിത്രം ഒരു ചിത്രം എഴുതിയിരി"
+"ക്കുന്നു എപ്പോൾ സംരക്ഷിക്കില്ല അതു അവയെ ദൃശ്യമാണ്."
+
+#: src/glossary/glossary.xml:1384(para)
+msgid ""
+"See the <link linkend=\"gimp-concepts-paths\">Paths Concepts</link> and "
+"<link linkend=\"gimp-using-paths\">Using Paths</link> sections for basic "
+"information on paths, and the <link linkend=\"gimp-tool-path\">Path Tool</"
+"link> section for information on how to create and edit paths. You can "
+"manage the paths in your image with the <link linkend=\"gimp-path-dialog"
+"\">Paths dialog</link>."
+msgstr ""
+"പാതകളെ അടിസ്ഥാന വിവരങ്ങൾ പാഥുകൾ സൃഷ്ടിക്കാനും മാറ്റങ്ങൾ വരുത്തുന്നത് എങ്ങനെ"
+" വിവരങ്ങൾക്ക് <link linkend=\"gimp-tool-path\">Path Tool</link> വിഭാഗത്തിനാ"
+"യി <link linkend=\"gimp-concepts-paths\">Paths Concepts</link> ആൻഡ് <link l"
+"inkend=\"gimp-using-paths\">Using Paths</link> ഭാഗങ്ങൾ കാണുക. നിങ്ങൾ <link "
+"linkend=\"gimp-path-dialog \">Paths dialog</link> ഉപയോഗിച്ച് നിങ്ങളുടെ സ്വ"
+"രൂപത്തിൽ പാതകളെ നിയന്ത്രിക്കാനാകും."
+
+#: src/glossary/glossary.xml:1398(phrase)
+msgid "PDB"
+msgstr ""
+"പലവക"
+
+#: src/glossary/glossary.xml:1401(para)
+msgid ""
+"All of the functions which <acronym>GIMP</acronym> and its extensions make "
+"available are registered in the Procedure Database (PDB). Developers can "
+"look up useful programming information about these functions in the PDB by "
+"using the <link linkend=\"plug-in-dbbrowser\">Procedure Browser</link>."
+msgstr ""
+"ഫംഗ്ഷനുകളും <acronym>GIMP</acronym> അതിന്റെ വിപുലീകരണങ്ങൾ ലഭ്യമാക്കാൻ ഇതിൽ "
+"മദാമ്മ ഡാറ്റാബേസ് (പലവക) ൽ രജിസ്റ്റർ ചെയ്തിട്ടുണ്ട്. ഡെവലപ്പര്മാര് <link li"
+"nkend=\"plug-in-dbbrowser\">Procedure Browser</link> ഉപയോഗിച്ച് പലവക ഈ പ്ര"
+"വർത്തനങ്ങളെക്കുറിച്ച് ഉപയോഗപ്രദമായ പ്രോഗ്രാമിങ് വിവരം പരിശോധിക്കും കഴിയു"
+"ം."
+
+#: src/glossary/glossary.xml:1413(phrase)
+#: src/glossary/glossary.xml:1416(primary)
+#: src/glossary/glossary.xml:1420(secondary)
+msgid "PDF"
+msgstr ""
+"പീഡിയെഫ്"
+
+#: src/glossary/glossary.xml:1423(para)
+msgid ""
+"PDF (Portable Document Format) is a <link linkend=\"glossary-fileformat"
+"\">file format</link> which was developed by Adobe to address some of the "
+"deficiencies of PostScript. Most importantly, PDF files tend to be much "
+"smaller than equivalent PostScript files. As with PostScript, <acronym>GIMP</"
+"acronym>'s support of the PDF format is through the free Ghostscript "
+"libraries."
+msgstr ""
+"പീഡിയെഫ് (പോർട്ടബിൾ ഡോക്യുമെന്റ് ഫോർമാറ്റ്) ഏത് പോസ്റ്റ്സ്ക്രിപ്റ്റ്ദര്"
+"ശിനി എന്ന അപര്യാപ്തതകൾ ചില അഭിസംബോധന അഡോബി വികസിപ്പിച്ചതാണ് ഒരു <link lin"
+"kend=\"glossary-fileformat \">file format</link> ആണ്. ഏറ്റവും പ്രധാനമായി, P"
+"DF ഫയലുകൾ സമമായ PostScript ഫയലുകൾ വളരെ സാദ്ധ്യത. പോസ്റ്റ്സ്ക്രിപ്റ്റ്ദര്ശി"
+"നി പോലെ, പിഡിഎഫ് ഫോർമാറ്റ് <acronym>GIMP</acronym> ന്റെ പിന്തുണ സ്വതന്ത്ര"
+" GhostScript ലൈബ്രറികൾ വഴിയാണ്."
+
+#: src/glossary/glossary.xml:1437(phrase)
+#: src/glossary/glossary.xml:1440(primary)
+msgid "Pixel"
+msgstr ""
+"പിക്സൽ"
+
+#: src/glossary/glossary.xml:1443(para)
+msgid ""
+"A pixel is a single dot, or <quote>picture element</quote>, of an image. A "
+"rectangular image may be composed of thousands of pixels, each representing "
+"the color of the image at a given location. The value of a pixel typically "
+"consists of several <link linkend=\"glossary-channels\">Channels</link>, "
+"such as the Red, Green and Blue components of its color, and sometimes its "
+"Alpha (transparency)."
+msgstr ""
+"ഒരു പിക്സൽ ഒരൊറ്റ ഡോട്ട്, അല്ലെങ്കിൽ <quote>picture element</quote>, ഒരു "
+"ചിത്രത്തിന്റെ ആണ്. ചതുരാകൃതിയിലുള്ള ചിത്രം, പിക്സൽ ആയിരക്കണക്കിന് വിന്യസിക്"
+"കപ്പെട്ട ചെയ്യാം ഓരോ നൽകിയിരിക്കുന്ന ഒരു ലൊക്കേഷനിൽ ചിത്രത്തിന്റെ നിറം പ്"
+"രതിനിധീകരിക്കുന്ന. ഒരു പിക്സൽ മൂല്യം സാധാരണ പോലുള്ള അതിന്റെ നിറം റെഡ്, പച്"
+"ച, നീല ഘടകങ്ങൾ നിരവധി <link linkend=\"glossary-channels\">Channels</link>, "
+"ചിലപ്പോൾ അതിന്റെ ആൽഫ (സുതാര്യത) അടങ്ങിയിരിക്കുന്നു."
+
+#: src/glossary/glossary.xml:1457(anchor:xreflabel)
+#: src/glossary/glossary.xml:1458(phrase)
+msgid "Plugin"
+msgstr ""
+"പ്ലഗിൻ"
+
+#: src/glossary/glossary.xml:1461(primary)
+msgid "Plugins"
+msgstr ""
+"പ്ലഗിനുകള്തെരയുക"
+
+#: src/glossary/glossary.xml:1462(secondary)
+msgid "Definition"
+msgstr ""
+"നിര്വചനം"
+
+#: src/glossary/glossary.xml:1465(para)
+msgid ""
+"Optional extensions for the <acronym>GIMP</acronym>. Plugins are external "
+"programs that run under the control of the main GIMP application and provide "
+"specific functions on-demand. See <xref linkend=\"gimp-concepts-plugins\"/> "
+"for further information."
+msgstr ""
+"<acronym>GIMP</acronym> ഓപ്ഷണൽ വിപുലീകരണങ്ങൾ. സംയോജകങ്ങള് പ്രധാന ജിമ്പ് അപ"
+"േക്ഷയുടെ നിയന്ത്രണത്തിൽ നടത്തിപ്പുകാരും ആവശ്യാനുസരണം നിർദ്ദിഷ്ട പ്രവർത്തനങ്"
+"ങൾ നൽകുന്നതിനായി ആ ബാഹ്യ പ്രോഗ്രാമുകളാണ്. കൂടുതൽ വിവരങ്ങൾക്ക് <xref linken"
+"d=\"gimp-concepts-plugins\" /> കാണുക."
+
+#: src/glossary/glossary.xml:1476(phrase)
+#: src/glossary/glossary.xml:1479(primary)
+msgid "PNG"
+msgstr ""
+"പിഎന്ജി"
+
+#: src/glossary/glossary.xml:1482(primary)
+msgid ".png"
+msgstr ".png"
+
+#: src/glossary/glossary.xml:1485(para)
+msgid ""
+"PNG is the acronym of <quote>Portable Network Graphic</quote> (pronounce "
+"<quote>ping</quote>. This recent format offers many advantages and a few "
+"drawbacks: it is not lossy and gives files more heavy than the JPEG format, "
+"but it is perfect for saving your images because you can save them several "
+"times without losing data each time (it is used for this Help). It supports "
+"True Colors (several millions of colors), indexed images (256 colors like "
+"GIF), and 256 transparency levels (while GIF supports only two levels)."
+msgstr ""
+"പിഎൻജി <quote>Portable Network Graphic</quote> എന്ന ചുരുക്കപ്പേരാണ് (<quote"
+">ping</quote> ഉച്ചരിക്കാൻ ഈ സമീപകാല ഫോർമാറ്റ് പല ഗുണങ്ങളും ഏതാനും ദോഷങ്ങള"
+"ുമുണ്ട് പ്രദാനം:. അതു ലോസ്സി അല്ല ഫയലുകളും JPEG ഫോർമാറ്റിൽ അധികം കനത്ത നൽ"
+"കുന്നു, എന്നാൽ നിങ്ങൾ അവരെ നിരവധി തവണ രക്ഷിക്കാൻ കഴിയും കാരണം അതു നിങ്ങളുടെ"
+" ചിത്രങ്ങൾ സംരക്ഷിക്കുന്നത് അത്യുത്തമം ഡാറ്റ ഓരോ തവണയും നഷ്ടപ്പെടാതെ (ഈ സഹ"
+"ായം ഉപയോഗിക്കുന്നു). അത് (GIF മാത്രം രണ്ട് ലെവലുകൾ പിന്തുണയ്ക്കുന്നു സമയത്"
+"ത്) ശരി നിറങ്ങൾ (പല നിറങ്ങൾ ദശലക്ഷക്കണക്കിന്), ഇൻഡെക്സ്ഡ് ചിത്രങ്ങൾ (ജിഫ് പ"
+"ോലെ 256 നിറങ്ങൾ), 256 സുതാര്യത അളവ് പിന്തുണയ്ക്കുന്നു."
+
+#: src/glossary/glossary.xml:1499(glossterm)
+#: src/glossary/glossary.xml:1502(secondary)
+msgid "PostScript"
+msgstr ""
+"പോസ്റ്റ്സ്ക്രിപ്റ്റ്"
+
+#: src/glossary/glossary.xml:1505(para)
+msgid ""
+"Created by Adobe, PostScript is a page description language mainly used by "
+"printers and other output devices. It's also an excellent way to distribute "
+"documents. <acronym>GIMP</acronym> does not support PostScript directly: it "
+"depends on a powerful free software program called Ghostscript."
+msgstr ""
+"അഡോബി സൃഷ്ടിച്ചത്, പോസ്റ്റ്സ്ക്രിപ്റ്റ് പ്രധാനമായും പ്രിന്ററുകൾ മറ്റ് ഔട്"
+"ട്പുട്ട് ഉപകരണങ്ങൾ ഉപയോഗിക്കുന്ന ഒരു പേജ് വിവരണം ഭാഷ. ഇത് പ്രമാണങ്ങൾ വിതരണ"
+"ം നല്ല മാർഗ്ഗമാണ്. <acronym>GIMP</acronym> നേരിട്ട് പോസ്റ്റ്സ്ക്രിപ്റ്റ്ദര"
+"്ശിനി പിന്തുണയ്ക്കുന്നില്ല: അതു GhostScript എന്ന ഒരു ശക്തമായ സ്വതന്ത്ര സോഫ"
+"്റ്റ്വെയർ പ്രോഗ്രാം ആശ്രയിച്ചിരിക്കുന്നു."
+
+#: src/glossary/glossary.xml:1512(para)
+msgid ""
+"The great power of PostScript is its ability to represent vector graphics—"
+"lines, curves, text, paths, etc.—in a resolution-independent way. PostScript "
+"is not very efficient, though, when it comes to representing pixel-based "
+"raster graphics. For this reason, PostScript is not a good format to use for "
+"saving images that are later going to be edited using <acronym>GIMP</"
+"acronym> or another graphics program."
+msgstr ""
+"പോസ്റ്റ്സ്ക്രിപ്റ്റ്ദര്ശിനി വലിയ ശക്തി മുതലായവ-ഇൻ വെക്റ്റർ graphics- ലൈനുക"
+"ൾ പ്രതിനിധാനം കഴിവ്, കർവുകൾ, ടെക്സ്റ്റ്, പാതകൾ, ഒരു ചിത്രം-സ്വതന്ത്ര വഴി. പ"
+"ോസ്റ്റ്സ്ക്രിപ്റ്റ് വളരെ കാര്യക്ഷമമായ എന്നാൽ അത് പിക്സൽ അധിഷ്ഠിത റാസ്റ്റർ "
+"ഗ്രാഫിക്സ് പ്രതിനിധീകരിക്കുന്ന വരുമ്പോൾ ആണ്. ഇക്കാരണത്താൽ, പോസ്റ്റ്സ്ക്രി"
+"പ്റ്റ് ചിത്രങ്ങൾ പിന്നീട് <acronym>GIMP</acronym> അല്ലെങ്കിൽ മറ്റൊരു ഗ്രാഫ"
+"ിക്സ് പ്രോഗ്രാം ഉപയോഗിച്ച് ഇത് എഡിറ്റ് പോകുന്ന സംരക്ഷിക്കുന്നതിൽ ഉപയോഗി"
+"ക്കാൻ ഒരു നല്ല ഫോർമാറ്റിൽ അല്ല."
+
+#: src/glossary/glossary.xml:1525(phrase)
+#: src/glossary/glossary.xml:1528(primary)
+#: src/glossary/glossary.xml:1535(secondary)
+msgid "PSD"
+msgstr ""
+"പിഎസ്ഡി"
+
+#: src/glossary/glossary.xml:1531(primary)
+msgid ".psd"
+msgstr ".psd"
+
+#: src/glossary/glossary.xml:1538(para)
+msgid ""
+"PSD is Adobe Photoshop's native <link linkend=\"glossary-fileformat\">file "
+"format</link>, and it is therefore comparable to <link linkend=\"glossary-xcf"
+"\">XCF</link> in complexity. <acronym>GIMP</acronym>'s ability to handle PSD "
+"files is sophisticated but limited: some features of PSD files are not "
+"loaded, and only older versions of PSD are supported. Unfortunately, Adobe "
+"has now made the Photoshop Software Development Kit — which includes their "
+"file format specifications — proprietary, and only available to a limited "
+"set of developers approved by Adobe. This does not include the "
+"<acronym>GIMP</acronym> development team, and the lack of information makes "
+"it very difficult to maintain up-to-date support for PSD files."
+msgstr ""
+"പിഎസ്ഡി അഡോബി ഫോട്ടോഷോപ്പ് സ്വദേശികളായ <link linkend=\"glossary-filefor"
+"mat\">file format</link>, അത് സങ്കീർണ്ണത അതുകൊണ്ട് <link linkend=\"glossar"
+"y-xcf \">XCF</link> താരതമ്യപ്പെടുത്താവുന്നതേയുള്ളൂ. <acronym>GIMP</acronym>"
+" ന്റെ പിഎസ്ഡി ഫയലുകൾ കൈകാര്യം കഴിവ് പരിഷ്കൃതമായ എന്നാൽ പരിമിതമാണ്: പിഎസ്ഡി "
+"ഫയലുകൾ ചില സവിശേഷതകൾ ലോഡ് ചെയ്തില്ല, ഒപ്പം പിഎസ്ഡി മാത്രം പഴയ പതിപ്പുകൾ പി"
+"ന്തുണയ്ക്കുന്നു. അവരുടെ ഫയൽ ഫോർമാറ്റ് പ്രത്യേകതകൾ ഉൾപ്പെടുന്നു - - നിർഭാഗ്"
+"യവശാൽ, അഡോബി ഇപ്പോൾ ഫോട്ടോഷോപ്പ് സോഫ്റ്റ്വെയർ ഡെവലപ്മെന്റ് കിറ്റ് ചെയ"
+"്തിരിക്കുന്നു കുത്തക,, അഡോബ് അംഗീകരിച്ച ഡെവലപ്പർമാർ പരിമിതമായ ഒരു കൂട്ടം മ"
+"ാത്രമേ ലഭ്യമല്ല. ഈ <acronym>GIMP</acronym> വികസന ടീം ഉൾപ്പെടുന്നില്ല, വിവര "
+"അഭാവം പ്രയാസമാണെന്ന് പിഎസ്ഡി ഫയലുകൾ അപ്പ്-റ്റു-ഡേറ്റ് പിന്തുണ നിലനിർത്താൻ ച"
+"െയ്യുന്നു."
+
+#: src/glossary/glossary.xml:1558(phrase)
+#: src/glossary/glossary.xml:1561(primary)
+msgid "Quantization"
+msgstr ""
+"ക്വാണ്ടൈസേഷൻ"
+
+#: src/glossary/glossary.xml:1564(para)
+msgid ""
+"Quantization is the process of reducing the color of a pixel into one of a "
+"number of fixed values by matching the color to the nearest color in the "
+"colormap. Actual pixel values may have far more precision than the discrete "
+"levels which can be displayed by a digital display. If the display range is "
+"too small, then abrupt changes in colors (false contours, or banding) may "
+"appear where the color intensity changes from one level to another. This is "
+"especially noticeable in Indexed images, which have 256 or fewer discrete "
+"colors."
+msgstr ""
+"ക്വാണ്ടൈസേഷൻ നിറം ചേരുന്ന colormap അടുത്തുള്ള നിറം ലേക്ക് നിശ്ചയിച്ച മൂല്യങ"
+"്ങളുടെ ഒരു എണ്ണം ഒന്നിലേക്ക് ഒരു പിക്സൽ നിറം കുറയ്ക്കുക എന്ന പ്രക്രിയയാണ്. "
+"യഥാർത്ഥ പിക്സൽ മൂല്യങ്ങൾ ഒരു ഡിജിറ്റൽ ഡിസ്പ്ലേ പ്രകടമാക്കും കഴിയുന്ന ഒറു തല"
+"ങ്ങളിൽ എത്രയോ കൂടുതൽ കൃത്യത ഉണ്ടായിരിക്കാം. ഡിസ്പ്ലേ പരിധി വളരെ ചെറുതാണ് എ"
+"ങ്കിൽ, നിറങ്ങൾ വിചിത്രശൈലികൾ (കള്ള ഭഗവനേന്, അല്ലെങ്കിൽ പരിചയവുമായാണ്) നിറം "
+"തീവ്രത ഒരു തലത്തിൽ നിന്ന് മറ്റൊന്നിലേക്ക് മാറുമ്പോൾ എവിടെ അനുഭവപ്പെടാം. ഈ"
+" 256 കുറവോ ഒറു നിറങ്ങൾ ഉണ്ടായിട്ടും ഇൻഡെക്സ്ഡ് ചിത്രങ്ങൾ, പ്രത്യേകിച്ച് ശ്"
+"രദ്ധേയമാണ്."
+
+#: src/glossary/glossary.xml:1574(para)
+msgid ""
+"One way to reduce quantization effects is to use <link linkend=\"glossary-"
+"dithering\">Dithering</link>. The operations in <acronym>GIMP</acronym> "
+"which perform dithering are the <link linkend=\"gimp-tool-blend\">Blend "
+"tool</link> (if you have enabled the dithering option) and the <link linkend="
+"\"gimp-image-convert-indexed\">Convert to Indexed</link> command. However, "
+"they only work on RGB images and not on Indexed images."
+msgstr ""
+"ക്വാണ്ടൈസേഷൻ പ്രഭാവം കുറയ്ക്കുകയും ഒരു വഴി <link linkend=\"glossary- dither"
+"ing\">Dithering</link> ഉപയോഗിക്കുക എന്നതാണ്. വി.എസിന്റെ അനുഷ്ഠിച്ചു <acron"
+"ym>GIMP</acronym> പ്രവർത്തനം <link linkend=\"gimp-tool-blend\">Blend tool</"
+"link> (നിങ്ങൾ വി.എസിന്റെ ഓപ്ഷൻ പ്രാപ്തമാക്കിയിട്ടുണ്ടെങ്കിൽ) ഉം <link linke"
+"nd=\"gimp-image-convert-indexed\">Convert to Indexed</link> കമാൻഡ് ആകുന്നു."
+" എന്നാൽ അവർ മാത്രമേ ആർജിബി ചിത്രങ്ങളും അല്ല ഇൻഡെക്സ്ഡ് ചിത്രങ്ങൾ പ്രവർത്തിക"
+"്കാം."
+
+#: src/glossary/glossary.xml:1590(phrase)
+msgid "Rendering Intent"
+msgstr ""
+"ഇൻഡന്റ് റെൻഡർ"
+
+#: src/glossary/glossary.xml:1593(primary)
+msgid "Color Management"
+msgstr ""
+"വർണ്ണ മാനേജ്മെന്റ്"
+
+#: src/glossary/glossary.xml:1596(para)
+msgid ""
+"Rendering intents are ways of dealing with colors that are out-of-<xref "
+"linkend=\"glossary-gamut\"/> colors present in the source space that the "
+"destination space is incapable of producing. There are four rendering "
+"intents defined by the ICC:"
+msgstr ""
+"റെൻഡറിംഗ് ഇൻഡന്റുകൾ ഔട്ട്-ഫിലിമിലെ സ്രോതസ്സ് ബഹിരാകാശത്ത് ഇപ്പോഴത്തെ ഡെസ്"
+"റ്റിനേഷൻ സ്പേസ് ഉത്പാദക കഴിവ് ആ <xref linkend=\"glossary-gamut\" /> നിറങ്ങൾ"
+" ആകുന്നു നിറങ്ങൾ ഇടപെടുമ്പോൾ വഴികളും. ഐസിസി നിർവചിക്കുന്ന നാലു തർജ്ജമ ഇൻഡന"
+"്റുകൾ ഉണ്ട്:"
+
+#: src/glossary/glossary.xml:1604(term)
+msgid "Perceptual"
+msgstr ""
+"എന്നീ"
+
+#: src/glossary/glossary.xml:1606(para)
+msgid ""
+"This rendering intent is typically used for photographic content. It scales "
+"one gamut to fit into the other while maintaining the relative position of "
+"colors."
+msgstr ""
+"ഈ തർജ്ജമ ഇന്റന്റ് സാധാരണ ഫോട്ടോഗ്രാഫിക് ഉള്ളടക്കം ഉപയോഗിക്കുന്നു. ഇത് നി"
+"റങ്ങൾ ആപേക്ഷിക സ്ഥാനം നിലനിർത്തിക്കൊണ്ടുതന്നെ മറ്റ് ഫയലിലുണ്ട് തമ്മിൽ പൂർണ"
+"്ണവ്യാപ്തി കയറുകയും."
+
+#: src/glossary/glossary.xml:1614(term)
+msgid "Relative colorimetric"
+msgstr ""
+"ആപേക്ഷിക colorimetric"
+
+#: src/glossary/glossary.xml:1616(para)
+msgid ""
+"This rendering intent is typically used for spot colors. Colors that are not "
+"out of gamut are left unchanged. Colors outside the gamut are converted to "
+"colors with the same lightness, but different saturation, at the edge of the "
+"gamut."
+msgstr ""
+"ഈ തർജ്ജമ ഇന്റന്റ് സാധാരണ സ്പോട്ട് നിറങ്ങൾ ഉപയോഗിക്കുന്നു. പൂർണ്ണവ്യാപ്തി "
+"നിന്നു അല്ല എന്നു നിറങ്ങൾ മാറ്റമില്ലാതെ അവശേഷിക്കുന്നു. പൂർണ്ണവ്യാപ്തി പുറത"
+"്തുള്ള കളേഴ്സ് പൂർണ്ണവ്യാപ്തി വക്കിൽ, അതേ ചാപല്യം വ്യത്യസ്ത സാച്ചുറേഷൻ ഉപയേ"
+"ാഗിച്ച് വർണ്ണങ്ങൾ പരിവർത്തനം ചെയ്യപ്പെടുന്നു."
+
+#: src/glossary/glossary.xml:1627(para)
+msgid ""
+"This method is typically used for business graphics. The relative saturation "
+"of colors is mostly maintained, but lightning is usually changed."
+msgstr ""
+"ഈ രീതി സാധാരണ ബിസിനസ്സ് ഗ്രാഫിക്സ് ഉപയോഗിക്കുന്നു. നിറങ്ങൾ ആപേക്ഷിക സാച്ചു"
+"റേഷൻ കൂടുതലും പരിപാലിക്കുന്ന, പക്ഷേ മിന്നൽ സാധാരണയായി മാറുന്നു."
+
+#: src/glossary/glossary.xml:1635(term)
+msgid "Absolute colorimetric"
+msgstr ""
+"സമ്പൂർണ്ണ colorimetric"
+
+#: src/glossary/glossary.xml:1637(para)
+msgid ""
+"This rendering intent is most often used in proofing. It preserves the "
+"native device white point of the source image."
+msgstr ""
+"ഈ തർജ്ജമ ഇന്റന്റ് ഏറ്റവും പലപ്പോഴും നിവാരണരീതികള് ഉപയോഗിക്കുന്നു. സ്രോതസ"
+"്സ് ചിത്രത്തിന്റെ നേറ്റീവ് ഉപകരണം വൈറ്റ് പോയിൻറ് പാലിക്കുന്നു."
+
+#: src/glossary/glossary.xml:1655(secondary)
+#: src/glossary/glossary.xml:1660(phrase)
+msgid "Additive color model"
+msgstr ""
+"ഉപയോഗിക്കില്ല നിറം മോഡൽ"
+
+#: src/glossary/glossary.xml:1669(para)
+msgid ""
+"RGB is a <link linkend=\"glossary-colormodel\">color model</link> which has "
+"components for Red, Green and Blue. These colors are emitted by screen "
+"elements and not reflected as they are with paint. The resulting color is a "
+"combination of the three primary RGB colors, with different degrees of "
+"lightness. If you look closely at your television screen, whose pitch is "
+"less than that of a computer screen, you can see the red, green and blue "
+"elements lit with different intensities. The RGB color model is "
+"<emphasis>additive</emphasis>."
+msgstr ""
+"RGB RED, പച്ച, നീല വേണ്ടി ഘടകങ്ങൾ ഉണ്ട് ഒരു <link linkend=\"glossary-colorm"
+"odel\">color model</link> ആണ്. ഈ നിറങ്ങൾ സ്ക്രീൻ ഘടകങ്ങൾ അവർ പെയിന്റ് ഉപയോ"
+"ഗിച്ച് ഉള്ളതിൽ ബാധകമാകുന്നില്ല പുറത്തുവിടുന്ന ചെയ്യുന്നു. തത്ഫലമായുണ്ടാകുന്"
+"ന നിറം ചാപല്യം വ്യത്യസ്ത മൂന്നു പ്രാഥമിക ആർജിബി നിറങ്ങൾ സംയോജനമാണ്. നിങ്ങൾ"
+" ആരുടെ പിച്ച് ഒരു കമ്പ്യൂട്ടർ സ്ക്രീനിന്റെ ആ കുറവാണ് നിങ്ങളുടെ ടെലിവിഷൻ സ്ക"
+"്രീനിൽ, പഠനവിഷയമായി നോക്കുകയാണെങ്കിൽ, വിവിധ തീവ്ര കത്തിക്കാം, ചുവപ്പ്, പച്"
+"ച, നീല ഘടകങ്ങൾ കാണാൻ കഴിയും. ആർജിബി നിറങ്ങളുടെ മോഡൽ <emphasis>additive</em"
+"phasis> ആണ്."
+
+#: src/glossary/glossary.xml:1680(para)
+msgid ""
+"<acronym>GIMP</acronym> uses eight bits per channel for each primary color. "
+"That means there are 256 intensities (Values) available, resulting in "
+"256×256×256 = 16,777,216 colors."
+msgstr ""
+"<acronym>GIMP</acronym> ഓരോ പ്രാഥമിക നിറം ചാനൽ എട്ട് ബിറ്റുകൾ ഉപയോഗിക്കുന"
+"്നു. അത് 256 തീവ്രത (മൂല്യങ്ങൾ) ലഭ്യമാണ്, 256 × 256 × 256 = 16,777,216 നിറങ"
+"്ങളിൽ ഫലമായുണ്ടാകുന്ന ഉണ്ട് എന്നാണ്."
+
+#: src/glossary/glossary.xml:1684(para)
+msgid ""
+"It is not obvious why a given combination of primary colors produces a "
+"particular color. Why, for instance, does 229R+205G+229B give a shade of "
+"pink? This depends upon the human eye and brain. There is no color in "
+"nature, only a continuous spectrum of wavelengths of light. There are three "
+"kinds of cones in the retina. The same wavelength of light acting upon the "
+"three types of cones stimulates each of them differently, and the mind has "
+"learned, after several million years of evolution, how to recognize a color "
+"from these differences."
+msgstr ""
+"പ്രാഥമിക നിറങ്ങൾ തന്നിരിക്കുന്ന കോമ്പിനേഷൻ ഒരു പ്രത്യേക നിറം ഉത്പാദിപ്പിക്"
+"കുന്നത് എന്തുകൊണ്ട് അത് വ്യക്തമല്ലേ. എന്തുകൊണ്ട് ഉദാഹരണത്തിന്, 229R + 205"
+"G + 229B പിങ്ക് ഒരു തണൽ നൽകുന്നത് എങ്ങനെ? ഈ മനുഷ്യ കണ്ണ്, തലച്ചോറ് ആശ്രയിച"
+"്ചിരിക്കുന്നു. പ്രകൃതിയിൽ യാതൊരു നിറം, പ്രകാശത്തിന്റെ തരംഗദൈർഘ്യം മാത്രമേ "
+"തുടർച്ചയായി സ്പെക്ട്രം ഉണ്ട്. റെറ്റിന ലെ അതോടൊപ്പം മൂന്നു തരം ഉണ്ട്. അതോ"
+"ടൊപ്പം മൂന്നു തരം മേൽ പ്രകാശം അഭിനയം ഒരേ തരംഗദൈർഘ്യം വ്യത്യസ്തമായി അവരിൽ ഓ"
+"രോ ഉത്തേജിപ്പിക്കുന്നു, മനസ്സ് ഈ വ്യത്യാസങ്ങൾ നിന്ന് ഒരു നിറം തിരിച്ചറിയാൻ"
+" എങ്ങനെ, പരിണാമ ചില ദശലക്ഷം വർഷങ്ങൾ ശേഷം അഭ്യസിച്ചിട്ടുള്ള."
+
+#: src/glossary/glossary.xml:1694(para)
+msgid ""
+"It is easy to see that no light (0R+0G+0B) produces complete darkness, "
+"black, and that full light (255R+255G+255B) produces white. Equal intensity "
+"on all color channels produces a level of gray. That is why there can only "
+"be 256 gray levels in <acronym>GIMP</acronym>."
+msgstr ""
+"ഇത് പ്രകാശം (0R + 0G + 0B) പൂർണ്ണമായ ഇരുട്ടിൽ കറുത്ത ഉത്പാദിപ്പിക്കുന്നത് ആ"
+" പൂർണ്ണ വെളിച്ചം (255R + 255G + 255B) വെള്ള ഉത്പാദിപ്പിക്കുന്നത് കാണാൻ എളുപ"
+"്പമാണ്. എല്ലാ നിറം ചാനലുകളിലെ തുല്യ തീവ്രത ചാര ഒരു ലെവൽ ഉത്പാദിപ്പിക്കുന്നത"
+"്. മാത്രം <acronym>GIMP</acronym> ലെ 256 ചാര തലങ്ങളിൽ പാടുള്ളൂ അതുകൊണ്ടാണ്"
+"."
+
+#: src/glossary/glossary.xml:1700(para)
+msgid ""
+"Mixing two <emphasis>Primary colors</emphasis> in RGB mode gives a "
+"<emphasis>Secondary color</emphasis>, that is, a color in the CMY model. "
+"Thus combining Red and Green gives Yellow, Green and Blue give Cyan, Blue "
+"and Red give Magenta. Don't confuse secondary colors with "
+"<emphasis>Complementary colors</emphasis> which are directly opposite a "
+"primary color in the chromatic circle:"
+msgstr ""
+"ആർജിബി മോഡിൽ രണ്ടു <emphasis>Primary colors</emphasis> ലയിപ്പിക്കുന്നതിന് "
+"ഒരു <emphasis>Secondary color</emphasis> നൽകുന്ന, CMY മോഡൽ ഒരു നിറം ആണ്. ഇ"
+"ങ്ങനെ ചുവപ്പും പച്ചയും ഉള്ള മഞ്ഞ, പച്ച, നീല, എന്താടാ നീലയും ചുവപ്പും തരും മ"
+"ജന്ത തരും നൽകുന്നു. ക്രോമാറ്റിക് സർക്കിളിൽ ഒരു പ്രാഥമിക നിറം സമ്മുഖ നേരിട്"
+"ട് ആയ <emphasis>Complementary colors</emphasis> സെക്കണ്ടറി നിറങ്ങൾ ആശയക്കുഴ"
+"പ്പമുണ്ടാക്കരുത്:"
+
+#: src/glossary/glossary.xml:1711(title)
+msgid "Colorcircle"
+msgstr "Colorcircle"
+
+#: src/glossary/glossary.xml:1718(para)
+msgid ""
+"Mixing a primary color with its complementary color gives gray (a neutral "
+"color)."
+msgstr ""
+"അതിന്റെ പരസ്പരപൂരകങ്ങളാണ് നിറം ഒരു പ്രാഥമിക നിറം ലയിപ്പിക്കുന്നതിന് ചാര (ഒര"
+"ു നിഷ്പക്ഷ കളർ) നൽകുന്നു."
+
+#: src/glossary/glossary.xml:1725(para)
+msgid ""
+"It is important to know what happens when you are dealing with colors in "
+"<acronym>GIMP</acronym>. The most important rule to remember is that "
+"decreasing the intensity of a primary color results in increasing the "
+"intensity of the complementary color (and vice versa). This is because when "
+"you decrease the value of a channel, for instance Green, you automatically "
+"increase the relative importance of the other two, here Red and Blue. The "
+"combination of these two channels gives the secondary color, Magenta, which "
+"is the complementary color of Green."
+msgstr ""
+"അതു നിങ്ങൾ <acronym>GIMP</acronym> നിറങ്ങളെ അഭിമുഖീകരിക്കുന്നതെന്നു എന്തു സ"
+"ംഭവിക്കുന്നു അറിയാൻ പ്രധാനമാണ്. ഓർക്കുക ഏറ്റവും പ്രധാനപ്പെട്ട ഭരണം തീർക്കുന"
+"്ന നിറം (തിരിച്ചും) തീവ്രത വർദ്ധിപ്പിക്കാൻ ഒരു പ്രാഥമിക നിറം ഫലങ്ങളുടെ തീവ്"
+"രത കുറയ്ക്കുന്നു എന്നതാണ്. നിങ്ങൾ ഒരു ചാനൽ മൂല്യം കുറക്കാനോ വരുമ്പോൾ ഉദാഹ"
+"രണത്തിന് പച്ച നിങ്ങൾ യാന്ത്രികമായി മറ്റ് രണ്ട്, ഇവിടെ ചുവപ്പ്, നീല പ്രാധാന്"
+"യമനുസരിച്ചു് വർദ്ധിപ്പിക്കുക ഇതിന് കാരണം. ഈ രണ്ടു ചാനലുകളുടെ കോമ്പിനേഷൻ ഏത"
+"് ഗ്രീൻ കോംപ്ലിമെന്ററി നിറം ദ്വിതീയ നിറം, മജന്ത, നൽകുന്നു."
+
+#. probably this is off-topic too...
+#: src/glossary/glossary.xml:1756(para)
+msgid ""
+"The <link linkend=\"gimp-tool-color-picker\">Color Picker</link> tool lets "
+"you find out the RGB values of a pixel and the <link linkend=\"glossary-html-"
+"notation\">hextriplet</link> for the color."
+msgstr ""
+"<link linkend=\"gimp-tool-color-picker\">Color Picker</link> ഉപകരണം നിങ്ങളെ"
+" ഒരു പിക്സൽ ആർജിബി മൂല്യങ്ങളും നിറം വേണ്ടി <link linkend=\"glossary-html- n"
+"otation\">hextriplet</link> കണ്ടെത്താൻ അനുവദിക്കുന്നു."
+
+#: src/glossary/glossary.xml:1767(phrase)
+msgid "Sample Merge"
+msgstr ""
+"സാമ്പിൾ ലയനം"
+
+#: src/glossary/glossary.xml:1770(para)
+msgid ""
+"Sample Merged is an option you can set when you use the <link linkend=\"gimp-"
+"tool-bucket-fill\">Bucket Fill</link> tool, the <link linkend=\"gimp-tool-"
+"color-picker\">Color Picker</link> tool and various selection tools. It is "
+"useful when you are working on an image with several layers and the active "
+"layer is either semi-transparent or has a <link linkend=\"gimp-concepts-"
+"layer-modes\">Layer Mode</link> which is not set to Normal. When you check "
+"the Sample Merged option, the color which is used for the operation is the "
+"composite color of all the visible layers. When the Sample Merged option is "
+"not checked, the color used is the color of the active layer itself."
+msgstr ""
+"സാമ്പിൾ ലയിപ്പിച്ച നിങ്ങൾ <link linkend=\"gimp- tool-bucket-fill\">Bucket F"
+"ill</link> ഉപകരണം, <link linkend=\"gimp-tool- color-picker\">Color Picker</"
+"link> ഉപകരണം വിവിധ നിരക്കു ഉപകരണങ്ങൾ ഉപയോഗിക്കുമ്പോൾ നിങ്ങളെ സജ്ജമാക്കാൻ "
+"കഴിയും ഒരു തീരുമാനം. നിരവധി പാളികൾ ഒരു ഇമേജ് പ്രവർത്തിക്കുകയാണ് സജീവ പാളി ഒ"
+"ന്നുകിൽ അർദ്ധസുതാര്യം അല്ലെങ്കിൽ സാധാരണ സജ്ജമാക്കിയിട്ടില്ല ഒരു <link linke"
+"nd=\"gimp-concepts- layer-modes\">Layer Mode</link> ഇല്ലെങ്കിലും ഇത് ഉപയോഗ"
+"പ്രദമാണ്. നിങ്ങൾ സാമ്പിൾ ലയിച്ച ഓപ്ഷന്റെ ചെയ്യുമ്പോൾ, ഓപ്പറേഷൻ വേണ്ടി ഉപയേ"
+"ാഗിക്കുന്ന നിറം ദൃശ്യമായ എല്ലാ പാളികൾ സംയുക്ത നിറം. സാമ്പിൾ ലയിച്ച ഓപ്ഷൻ ചെ"
+"യ്യാത്തപ്പോൾ, നിറം സജീവ പാളി സ്വയം നിറം ആണ്."
+
+#: src/glossary/glossary.xml:1798(para)
+msgid ""
+"This term refers to color purity. Imagine you add pigment to white paint. "
+"Saturation varies from 0 (white, fully toned down, fully diluted) to 100 "
+"(pure color)."
+msgstr ""
+"ഈ പദം നിറം ശുദ്ധിയ്ക്ക് പരാമർശിക്കുന്നു. നിങ്ങൾ വെളുത്ത പെയിന്റ് ലേക്ക് ചായ"
+"ക്കൂട്ട് ചേർക്കുക സങ്കൽപ്പിക്കുക. സാച്ചുറേഷൻ മുതൽ 0 (വെള്ള, പൂർണ്ണമായി ഇറങ്"
+"ങി നറിഷിംഗ്, പൂർണ്ണമായി ആണയിടുമ്പോഴും) 100 (ശുദ്ധമായ കളർ) ലേക്ക് വ്യത്യാസപ"
+"്പെടുന്നു."
+
+#: src/glossary/glossary.xml:1808(phrase)
+#: src/glossary/glossary.xml:1811(primary)
+msgid "Supersampling"
+msgstr "Supersampling"
+
+#: src/glossary/glossary.xml:1814(para)
+msgid ""
+"Supersampling is a more sophisticated antialiasing technique, that is, a "
+"method of reducing jagged and stair-stepped edges along a slanted or curved "
+"line. Samples are taken at several locations <emphasis>within</emphasis> "
+"each pixel, not just at the center, and an average color is calculated. This "
+"is done by rendering the image at a much higher resolution than the one "
+"being displayed and then shrinking it to the desired size, using the extra "
+"pixels for calculation. The result is a smoother transition from one line of "
+"pixels to another along the edges of objects."
+msgstr ""
+"Supersampling, ഒരു വഴക്കങ്ങൾ ആന്റിഎലിയാസിംഗ് സാങ്കേതികതയെ എന്ന് ഒരു ചരിഞ്ഞ "
+"അല്ലെങ്കിൽ വളഞ്ഞ ലൈനിലാണ് പല്ലുള്ള ആൻഡ് കോണികളും വരുകയായിരുന്നു വേണമങ്കിലു"
+"ം കുറയ്ക്കുക എന്ന ഒരു രീതിയാണ്. സാമ്പിളുകൾ വെറും കേന്ദ്രത്തിൽ അല്ല, പല സ്ഥല"
+"ങ്ങളും <emphasis>within</emphasis> ഓരോ പിക്സൽ സ്വീകരിച്ചതായും, ശരാശരി നിറം"
+" കണക്കുകൂട്ടി. ഈ പ്രദർശിപ്പിക്കില്ല ഒറ്റ വളരെ കൂടുതൽ ചിത്രം ചിത്ര തർജ്ജമ തു"
+"ടർന്ന് ഇഷ്ടമുള്ള വലുപ്പത്തിലേക്ക് അത് കുറയുക, കണക്കുകൂട്ടൽ അധിക പിക്സൽ ഉപയേ"
+"ാഗിച്ചാണ് ഇത് ചെയ്തത്. ഫലം സുഗമമായ വസ്തുക്കൾ അറ്റങ്ങൾ സഹിതം തമ്മിൽ പിക്സൽ ന"
+"്റെ ഒരു വരി മാറ്റം ആണ്."
+
+#: src/glossary/glossary.xml:1825(para)
+msgid ""
+"The quality of the result depends on the number of samples. Supersampling is "
+"often performed at a range of 2× to 16× the original size. It greatly "
+"increases the amount of time needed to draw the image and also the amount of "
+"space needed to store the image in memory."
+msgstr ""
+"ഫലം ഗുണമേന്മ സാമ്പിളുകളുടെ എണ്ണം ആശ്രയിച്ചിരിക്കുന്നു. Supersampling പലപ്പേ"
+"ാഴും × യഥാർത്ഥ വലിപ്പം 2 × 16 ഒരു പരിധിയിൽ നടപ്പാകും. ഇത് ഏറ്റവും ചിത്രം കൂ"
+"ടാതെ സ്ഥലത്തിന്റെ അളവ് മെമ്മറിയിൽ ചിത്രം സംഭരിക്കാൻ ആവശ്യമായ കോരുവാൻ ആവശ്യ"
+"മായ സമയം കൂടും."
+
+#: src/glossary/glossary.xml:1831(para)
+msgid ""
+"One way to reduce the space and time requirement is to use Adaptive "
+"Supersampling. This method takes advantage of the fact that very few pixels "
+"are actually on an object boundary, so only those pixels need to be "
+"supersampled. At first, only a few samples are taken within a pixel. If the "
+"colors are very similar to each other, only those samples are used to "
+"calculate the final color. If not, more samples are used. This means that "
+"the higher number of samples is calculated only where necessary, which "
+"improves performance."
+msgstr ""
+"സ്ഥലവും സമയവും ആവശ്യകത കുറയ്ക്കാനും ഒരു വഴി അഡാപ്റ്റീവ് Supersampling ഉപയോ"
+"ഗിക്കുക എന്നതാണ്. ഈ രീതി വളരെ കുറച്ച് പിക്സലുകൾ മാത്രമേ പിക്സൽ supersampled"
+" ചെയ്യേണ്ടതുണ്ട് അങ്ങനെ ഒരു വസ്തു അതിർത്തിവരയ്ക്കടുത്തായാണ് യഥാർത്ഥത്തിൽ വസ"
+"്തുത പ്രയോജനപ്പെടുത്തുകയും ചെയ്യും. ആദ്യം ഏതാനും സാമ്പിളുകൾ ഒരു പിക്സൽ ഉള്"
+"ളിൽ കൊണ്ടുപോയിരുന്നു. നിറങ്ങൾ പരസ്പരം വളരെ സാദൃശ്യമുള്ള എങ്കിൽ മാത്രമേ ആ "
+"സാമ്പിളുകൾ അവസാന നിറം കണക്കുകൂട്ടാൻ ഉപയോഗിക്കുന്നു. ഇല്ലെങ്കിൽ, കൂടുതൽ സാമ"
+"്പിളുകൾ ഉപയോഗിക്കുന്നു. ഈ പ്രവർത്തനം മെച്ചപ്പെടുത്തുന്നതിനുള്ള സാമ്പിളുകൾ "
+"ഉയർന്ന നമ്പറിൽ മാത്രം ആവശ്യമെങ്കിൽ കണക്കു എന്നാണ്."
+
+#: src/glossary/glossary.xml:1846(phrase)
+#: src/glossary/glossary.xml:1849(primary)
+#: src/glossary/glossary.xml:1853(secondary)
+msgid "SVG"
+msgstr ""
+"എസ്.വി.ജി."
+
+#: src/glossary/glossary.xml:1856(para)
+msgid ""
+"SVG stands for Scalable Vector Graphics. It is a format for two-dimensional "
+"vector graphics, both static and animated. You can export GIMP paths to SVG "
+"and you can import SVG documents into GIMP from a vector graphic software. "
+"See <xref linkend=\"bibliography-online-wkpd-svg\"/> for more details."
+msgstr ""
+"എസ്.വി.ജി. സ്കെയിലബിൾ വെക്റ്റർ ഗ്രാഫിക്സ് നിലകൊള്ളുന്നു. ഇത് ദ്വിമാന വെക്റ"
+"്റർ ഗ്രാഫിക്സ്, സ്റ്റാറ്റിക് കർത്ടുൻ ഇരുവരും ഒരു ഫോർമാറ്റാണ്. നിങ്ങൾ എസ്.വ"
+"ി.ജി.യിലേയ്ക്കുള്ള ജിമ്പ് പാതകളെ കയറ്റുമതി ചെയ്യാൻ കഴിയും നിങ്ങൾ ഒരു വെക്റ്"
+"റർ ഗ്രാഫിക് സോഫ്റ്റ്വെയർ നിന്ന് കടന്നു ജിമ്പ് എസ്.വി.ജി. പ്രമാണങ്ങൾ ഇറക്കു"
+"മതി ചെയ്യാൻ കഴിയും. കൂടുതൽ വിവരങ്ങൾക്ക് <xref linkend=\"bibliography-online"
+"-wkpd-svg\" /> കാണുക."
+
+#: src/glossary/glossary.xml:1867(phrase)
+#: src/glossary/glossary.xml:1870(primary)
+#: src/glossary/glossary.xml:1877(secondary)
+msgid "TGA"
+msgstr ""
+"ടിജിഎ"
+
+#: src/glossary/glossary.xml:1873(primary)
+msgid "TARGA"
+msgstr "TARGA"
+
+#: src/glossary/glossary.xml:1880(para)
+msgid ""
+"TGA (TARGA Image File) is a <link linkend=\"glossary-fileformat\">file "
+"format</link> which supports 8, 16, 24 or 32 bits per pixel and optional RLE "
+"compression. It was originally developed by the Truevision company. "
+"<quote>TGA</quote> stands for Truevision Graphics Adapter and <quote>TARGA</"
+"quote> stands for Truevision Advanced Raster Graphics Adapter."
+msgstr ""
+"ടിജിഎ (TARGA ഇമേജ് ഫയൽ) പിക്സൽ, ഓപ്ഷണൽ RLE കമ്പ്രഷൻ ശതമാനം 8, 16, 24 അല്ലെങ"
+"്കിൽ 32 ബിറ്റുകൾ പിന്തുണയ്ക്കുന്ന <link linkend=\"glossary-fileformat\">fil"
+"e format</link> ആണ്. ഇത് യഥാർത്ഥത്തിൽ Truevision കമ്പനി വികസിപ്പിച്ചത്. Tru"
+"evision ഗ്രാഫിക്സ് അഡാപ്റ്ററും <quote>TARGA</quote> Truevision വിപുലമായ റാസ"
+"്റ്റർ ഗ്രാഫിക്സ് അഡാപ്റ്റർ നിലകൊള്ളുന്ന വേണ്ടി <quote>TGA</quote> നിലകൊള്"
+"ളുന്നു."
+
+#: src/glossary/glossary.xml:1894(phrase)
+#: src/glossary/glossary.xml:1897(primary)
+msgid "TIFF"
+msgstr ""
+"ടിഫ്"
+
+#: src/glossary/glossary.xml:1900(para)
+msgid ""
+"TIFF (Tagged Image File Format) is a <link linkend=\"glossary-fileformat"
+"\">file format</link> which was developed primarily for scanned raster "
+"graphics for color separation. Six different encoding routines are "
+"supported, each with one of three different image modes: black and white, "
+"grayscale and color. Uncompressed TIFF images may be 1, 4, 8 or 24 bits per "
+"pixel. TIFF images compressed using the LZW algorithm may be 6, 8 or 24 bits "
+"per pixel. Besides Postscript format, TIFF is one of the most important "
+"formats for preliminary stages of printing. It is a high quality file "
+"format, which is perfect for images you want to import to other programs "
+"like FrameMaker or CorelDRAW."
+msgstr ""
+"ടിഫ് (ടാഗ് ചിത്ര ഫയൽ ഫോർമാറ്റ്) നിറം വേർപിരിയാൻ സ്കാൻ റാസ്റ്റർ ഗ്രാഫിക്സ് "
+"പ്രാഥമികമായി വികസിപ്പിച്ചെടുത്ത ഒരു <link linkend=\"glossary-fileformat \">"
+"file format</link> ആണ്. ആറ് വ്യത്യസ്ഥ എൻകോഡിംഗ് റൂട്ടീനുകളിലൂടെ, പിന്തുണയ്"
+"ക്കുന്ന മൂന്ന് വ്യത്യസ്ത ഇമേജ് മോഡുകൾ ഒറ്റ ഓരോ ചെയ്യുന്നു: കറുപ്പും വെള്ള"
+"യും ഗ്രേസ്കെയിൽ നിറവും. Uncompressed ടിഫ് ചിത്രങ്ങൾ .പിക്സലില് 1, 4, 8 അല്ല"
+"െങ്കിൽ 24 ബിറ്റുകൾ ആയിരിക്കാം. ടിഫ് ചിത്രങ്ങൾ ഉപയോഗിച്ച് LZW അൽഗോരിതം .പി"
+"ക്സലില് 6, 8 അല്ലെങ്കിൽ 24 ബിറ്റുകൾ ആയിരിക്കാം പരന്നതാണ്. ഉപസംഹാര ഫോർമാറ്റ"
+"് പുറമെ, ടിഐഎഫ്എഫ് പ്രിന്റിംഗ് പ്രാഥമിക ഘട്ടങ്ങൾ ഏറ്റവും പ്രധാനപ്പെട്ട ഫോർ"
+"മാറ്റുകൾ ഒന്നാണ്. ഒരു ഉയർന്ന നിലവാരമുള്ള ഫയൽ ഫോർമാറ്റ്, നിങ്ങൾ FrameMaker "
+"അല്ലെങ്കിൽ .ടോ പോലുള്ള മറ്റ് പരിപാടികൾ ഇംപോർട്ട് ചെയ്യണോ ചിത്രങ്ങൾ തികഞ"
+"്ഞ ആണ്."
+
+#: src/glossary/glossary.xml:1918(phrase)
+msgid "Tile"
+msgstr ""
+"ടൈൽ"
+
+#: src/glossary/glossary.xml:1921(para)
+msgid ""
+"A Tile is a part of an image which <acronym>GIMP</acronym> currently has "
+"open. In order to avoid having to store an entire image in memory at the "
+"same time, <acronym>GIMP</acronym> divides it into smaller pieces. A tile is "
+"usually a square of 64 x 64 pixels, although tiles at the edges of an image "
+"may be smaller than that."
+msgstr ""
+"ഒരു ടൈൽ ഏത് <acronym>GIMP</acronym> നിലവിൽ തുറന്നിരിക്കുന്ന ഒരു ചിത്രം ഭാഗമ"
+"ാണ്. അതേ സമയം മെമ്മറി ഒരു മുഴുവൻ ചിത്രം സംഭരിക്കാൻ ഒഴിവാക്കാൻ വേണ്ടി, <acro"
+"nym>GIMP</acronym> ചെറിയ കഷണങ്ങളാക്കി അത് വിഭജിക്കുന്നു. ഒരു ടൈൽ ഒരു ഇമേജ് "
+"അറ്റങ്ങളിൽ ടൈലുകൾ ആ ചെറുതാക്കാൻ എന്നിരുന്നാലും, സാധാരണയായി 64 X 64 പിക്സൽ ക"
+"ള്ളി."
+
+#: src/glossary/glossary.xml:1929(para)
+msgid ""
+"At any time, a tile may be in main memory, in the tile cache in RAM, or on "
+"disk. Tiles which are currently being worked on are in main memory. Tiles "
+"which have been used recently are in RAM. When the tile cache in RAM is "
+"full, tiles which have been used least recently are written to disk. "
+"<acronym>GIMP</acronym> can retrieve the tiles from RAM or disk when they "
+"are needed."
+msgstr ""
+"ഏത് സമയത്തും, ഒരു ഇഷ്ടിക റാം ലെ ടൈൽ കാഷെ അല്ലെങ്കിൽ ഡിസ്കിൽ, പ്രധാന മെമ്മറി"
+" ഉണ്ടായിരിക്കാം. നിലവിൽ ജോലിചെയ്യുന്ന നൽകപ്പെടുന്ന ടൈലുകൾ പ്രധാന മെമ്മറി ഇ"
+"രിക്കുന്നു. സമീപകാലത്ത് ഉപയോഗിച്ച ചെയ്തിട്ടുള്ള ടൈലുകൾ റാം ഇരിക്കുന്നു. റാ"
+"ം ടൈൽ കാഷ് നിറഞ്ഞിരിക്കുന്നു എപ്പോഴാണ്, സമീപകാലത്ത് ഉപയോഗിക്കാതിരുന്ന ചെയ"
+"്തിട്ടുള്ള ടൈലുകൾ ഡിസ്കിൽ എഴുതിയിരിക്കുന്നു. അവർ ആവശ്യമായ ചെയ്യുമ്പോൾ <acr"
+"onym>GIMP</acronym> റാം അല്ലെങ്കിൽ ഡിസ്കിൽ നിന്നും ടൈലുകൾ വീണ്ടെടുക്കാനും ക"
+"ഴിയും."
+
+#: src/glossary/glossary.xml:1937(para)
+msgid ""
+"Do not confuse these tiles with those in the <link linkend=\"plug-in-tile"
+"\">Tile Filter</link>"
+msgstr ""
+"<link linkend=\"plug-in-tile \">Tile Filter</link> ആ കൂടെ ഈ ടൈലുകൾ ആശയക്കുഴ"
+"പ്പമുണ്ടാക്കരുത്"
+
+#: src/glossary/glossary.xml:1946(phrase)
+#: src/glossary/glossary.xml:1949(primary)
+msgid "URI"
+msgstr ""
+"യൂആര്ഐ"
+
+#: src/glossary/glossary.xml:1952(para)
+msgid ""
+"A Uniform Resource Identifier (URI) is a string of characters that serves to "
+"identify an abstract or a physical resource. URIs are used for the "
+"identification of resources in the Internet (such as web pages, "
+"miscellaneous files, calling up web services, and for receivers of e-mail) "
+"and they are especially used in the Worldwide Web."
+msgstr ""
+"യൂണിഫോം റിസോഴ്സ് ഐഡന്റിഫയർ (യുആർഐ) ഒരു അമൂർത്തമായ അല്ലെങ്കിൽ ഒരു ശാരീരിക "
+"തിരിച്ചറിയാൻ ലെ പ്രതീകങ്ങൾ ഒരു സ്ട്രിങ്. കളായി വിഭവങ്ങൾ തിരിച്ചറിയാൻ ഇൻറർനെ"
+"റ്റിൽ (പോലുള്ള വെബ് പേജുകൾ, പലവക ഫയലുകൾ, വെബ് സേവനങ്ങൾ വിളിക്കുന്നു, ഇ-മെയ"
+"ിൽ സ്വീകരിച്ചവർ വേണ്ടി) ഉപയോഗിക്കുകയും അവർ പ്രത്യേകിച്ച് വേൾഡ്വൈഡ് വെബ് ഉപ"
+"യോഗിക്കുന്നു."
+
+#: src/glossary/glossary.xml:1964(phrase)
+#: src/glossary/glossary.xml:1967(primary)
+msgid "URL"
+msgstr ""
+"യുആർഎൽ"
+
+#: src/glossary/glossary.xml:1970(para)
+msgid ""
+"URLs (Uniform Resource Locators) are one type of Uniform Resource "
+"Identifiers (URIs). URLs identify a resource by its primary access mechanism "
+"(commonly http or ftp) and the location of the resource in the computer "
+"network. The name of the URI scheme is therefore generally derived from the "
+"network protocol used for it. Examples of network protocols are http, ftp "
+"and mailto."
+msgstr ""
+"URL കൾ (യൂണിഫോം അപ്പ്) യൂണിഫോം റിസോഴ്സ് ഐഡന്റിഫയറുകൾ (കളായി) ഒരു തരം ആകു"
+"ന്നു. URL കൾ അതിന്റെ പ്രാഥമിക ആക്സസ് മെക്കാനിസം (സാധാരണയായി http അല്ലെങ്കിൽ"
+" FTP) കമ്പ്യൂട്ടർ ശൃംഖലയിൽ റിസോഴ്സ് ലൊക്കേഷൻ ഒരു തിരിച്ചറിയാൻ. യുആര്ഐയില്"
+"തെറ്റ് സ്കീമിന്റെ പേര് അതുകൊണ്ടു സാധാരണയായി അതു ഉപയോഗിക്കുന്ന നെറ്റ്വർക്ക"
+"് പ്രോട്ടോക്കോൾ കഥകളിയുടെ. നെറ്റ്വർക്ക് പ്രോട്ടോക്കോളുകൾ ഉദാഹരണങ്ങൾ H"
+"TTP, FTP, എങ്ങോട്ടു്യുആര്എല് ആകുന്നു."
+
+#: src/glossary/glossary.xml:1978(para)
+msgid ""
+"Since URLs are the first and most common kinds of URIs, the terms are often "
+"used synonymously."
+msgstr ""
+"URL- കൾ കളായി പ്രഥമവും ഏറ്റവും സാധാരണമായ ദുരനുഭവങ്ങൾ മുതൽ, മിക്കപ്പോഴും sy"
+"nonymously ഉപയോഗിക്കുന്നു."
+
+#: src/glossary/glossary.xml:1997(para)
+msgid ""
+"This term often refers to the light intensity, the luminosity of a color. It "
+"varies from 0 (black) to 100 (full light)."
+msgstr ""
+"ഈ പദം പലപ്പോഴും ഒരു നിറം പ്രതല നേരിയ തീവ്രത പരാമർശിക്കുന്നു. ഇത് 0 (കറുത്ത"
+") നിന്ന് 100 (പൂർണ്ണ പ്രകാശം) ലേക്ക് വ്യത്യാസപ്പെടുന്നു."
+
+#: src/glossary/glossary.xml:2017(primary)
+msgid ".xcf.gz"
+msgstr ".xcf.gz"
+
+#: src/glossary/glossary.xml:2024(para)
+msgid ""
+"XCF is a <link linkend=\"glossary-fileformat\">file format</link> which is "
+"special because it is <acronym>GIMP</acronym>'s native file format: that is, "
+"it was designed specifically to store all of the data that goes to make up a "
+"<acronym>GIMP</acronym> image. Because of this, XCF files may be quite "
+"complicated, and there are few programs other than <acronym>GIMP</acronym> "
+"that can read them."
+msgstr ""
+"എക്സ്.സി.എഫ് അതു <acronym>GIMP</acronym> ന്റെ നേറ്റീവ് ഫയൽ ഫോർമാറ്റ് കാരണം"
+" പ്രത്യേക ആണ് ഒരു <link linkend=\"glossary-fileformat\">file format</link> "
+"ആകുന്നു അതായത് അതിന്റെ പ്രത്യേകമായി ഒരു <acronym>GIMP</acronym> ചിത്രം നിർമ"
+"്മിക്കാനായി പോകുന്നു ആ ഡാറ്റ എല്ലാ സംഭരിക്കാൻ രൂപകല്പന. ഇതുകാരണം, എക്സ്.സി"
+".എഫ് ഫയലുകൾ വളരെ സങ്കീർണ്ണമായ വരാം അവ വായിക്കാൻ കഴിയുന്ന <acronym>GIMP</acr"
+"onym> പുറമെ ഏതാനും പരിപാടികൾ ഉണ്ട്."
+
+#: src/glossary/glossary.xml:2032(para)
+msgid ""
+"When an image is stored as an XCF file, the file encodes nearly everything "
+"there is to know about the image: the pixel data for each of the layers, the "
+"current selection, additional channels if there are any, paths if there are "
+"any, and guides. The most important thing that is <emphasis>not</emphasis> "
+"saved in an XCF file is the undo history."
+msgstr ""
+"ഒരു ഇമേജ് ഒരു എക്സ്.സി.എഫ് ഫയലായി സൂക്ഷിച്ചിരിക്കുന്ന ചെയ്യുമ്പോൾ, ഫയൽ ചിത"
+"്രം കുറിച്ച് അറിയേണ്ടതെല്ലാം ഏതാണ്ട് എല്ലാം encodes: ഉണ്ടെങ്കിൽ പാളികൾ ഓരോ"
+" പിക്സൽ ഡാറ്റ, നിലവിലെ നിരക്കു, അധിക ചാനലുകൾ, പാതകൾ ഉണ്ടെങ്കിൽ, ഒപ്പം ഗൈഡുക"
+"ൾ. <emphasis>not</emphasis> ഒരു എക്സ്.സി.എഫ് ഫയലിൽ സംരക്ഷിക്കപ്പെടും ഏറ്റവു"
+"ം പ്രധാനപ്പെട്ട കാര്യം പഴയപടിയാക്കാനുള്ള ചരിത്രം."
+
+#: src/glossary/glossary.xml:2039(para)
+msgid ""
+"The pixel data in an XCF file is represented in a lossless compressed form: "
+"the image byte blocks are compressed using the lossless RLE algorithm. This "
+"means that no matter how many times you load and save an image using this "
+"format, not a single pixel or other image data is lost or modified because "
+"of this format. XCF files can become very large, however <acronym>GIMP</"
+"acronym> allows you to compress the files themselves, using either the gzip "
+"or bzip2 compression methods, both of which are fast, efficient, and freely "
+"available. Compressing an XCF file will often shrink it by a factor of 10 or "
+"more."
+msgstr ""
+"ഒരു എക്സ്.സി.എഫ് ഫയലിൽ പിക്സൽ ഡാറ്റ ഒരു നഷ്ടമാകാത്ത ഉൾക്കൊള്ളിച്ച രൂപത്തിൽ"
+" ചിത്രീകരിക്കുന്നു: ഇമേജ് ബൈറ്റ് ബ്ലോക്കുകൾ നഷ്ടമാകാത്ത RLE അൽഗോരിതം ഉപയേ"
+"ാഗിച്ച് ഉൾക്കൊള്ളിക്കുന്നു ചെയ്യുന്നു. ഇത് നിങ്ങൾ ലോഡ് ചെയ്ത് ഈ ഫോർമാറ്റ"
+"ിലുള്ള ഒരു ഇമേജ് സംരക്ഷിക്കാൻ എത്ര തവണ സാരമില്ല, ഒരൊറ്റ പിക്സൽ അല്ലെങ്കിൽ "
+"മറ്റ് ഇമേജ് ഡാറ്റ കാരണം ഈ ഫോർമാറ്റ് നഷ്ടപ്പെടുകയോ പുതുക്കപ്പെട്ടത് എന്നാണ"
+"്. എക്സ്.സി.എഫ് ഫയലുകൾ വളരെ വലിയ ബാധിക്കാം എന്നാൽ <acronym>GIMP</acronym> ഫ"
+"യലുകൾ തങ്ങളെ കംപ്രസ്സ്, രണ്ടും, ഫാസ്റ്റ് കാര്യക്ഷമവും സ്വതന്ത്രമായി ലഭ്യമാണ"
+"് gzip അല്ലെങ്കിൽ Bzip2 കമ്പ്രഷൻ രീതികൾ ഒന്നുകിൽ, ഉപയോഗിച്ച് അനുവദിക്കുന്ന"
+"ു. ഒരു എക്സ്.സി.എഫ് ഫയൽ കംപ്രസ്സുചെയ്യുന്നു പലപ്പോഴും 10 അതിലധികമോ ഘടകവുമ"
+"ായി അത് ചുരുക്കി ചെയ്യും."
+
+#: src/glossary/glossary.xml:2051(para)
+msgid ""
+"The <acronym>GIMP</acronym> developers have made a great effort to keep the "
+"XCF file format compatible across versions. If you create a file using "
+"<acronym>GIMP</acronym> 2.0, it ought to be possible to open the file in "
+"<acronym>GIMP</acronym> 1.2. However, some of the information in the file "
+"may not be usable: for example, <acronym>GIMP</acronym> 2.0 has a much more "
+"sophisticated way of handling text than <acronym>GIMP</acronym> 1.2, so a "
+"text layer from a <acronym>GIMP</acronym> 2.0 XCF file will appear as an "
+"ordinary image layer if the file is opened in <acronym>GIMP</acronym> 1.2."
+msgstr ""
+"<acronym>GIMP</acronym> ഡെവലപ്പർമാർ പതിപ്പുകളിൽ അനുയോജ്യമായ എക്സ്.സി.എഫ് ഫ"
+"യൽ ഫോർമാറ്റ് നിലനിർത്തുന്നതിന് ഒരു വലിയ ശ്രമം നടത്തിയിട്ടുണ്ടെങ്കിൽ. നിങ്ങ"
+"ൾ <acronym>GIMP</acronym> 2.0 ഉപയോഗിച്ച് ഫയൽ സൃഷ്ടിക്കാനും, അത് <acronym>G"
+"IMP</acronym> 1.2 ഫയൽ തുറക്കാൻ സാധ്യമാണെന്ന് യോഗ്യമല്ല. എന്നാൽ ഫയലിൽ ചില വ"
+"ിവരങ്ങൾ ഉപയോഗപ്രദമായേക്കില്ല ഉദാഹരണമായി, <acronym>GIMP</acronym> 2.0 <acro"
+"nym>GIMP</acronym> 1.2 അധികം ടെക്സ്റ്റ് കൈകാര്യം വളരെ കൂടുതൽ പരിഷ്കൃതമായ വഴ"
+"ി ഉണ്ട്, ഒരു <acronym>GIMP</acronym> 2.0 എക്സ്.സി.എഫ് ഫയൽ ഒരു സാധാരണ ചിത്രം"
+" പാളി ദൃശ്യമാകും നിന്ന് അങ്ങനെ ഒരു വാചക പാളി ഫയൽ <acronym>GIMP</acronym> 1."
+"2 തുറക്കുകയാണെങ്കിൽ."
+
+#: src/glossary/glossary.xml:2074(para)
+msgid ""
+"YCbCr is a <link linkend=\"glossary-colormodel\">color model</link> which "
+"was developed for the PAL television standard as a simple modification to "
+"the YUV color model. In the meantime, it has become the CCIR-601 standard "
+"for image and video recording. For example, it is used for JPEG pictures and "
+"MPEG videos, and therefore also on DVDs, video CDs and for most other "
+"widespread digital video standards. Note that a color model is still not a "
+"color space, since it doesn't determine which colors are actually meant by "
+"<quote>red</quote>, <quote>green</quote> and <quote>blue</quote>. For a "
+"color space, there must still be a reference to a specific absolute color "
+"value."
+msgstr ""
+"YCbCr YUV നിറം മോഡൽ ഒരു ലളിതമായ പരിഷ്കരണത്തിന് ആയി പാൽ ടെലിവിഷൻ സാധാരണ വിക"
+"സിപ്പിക്കപ്പെട്ടിരുന്നു ഒരു <link linkend=\"glossary-colormodel\">color mod"
+"el</link> ആണ്. അതിനിടയിൽ, അത് ചിത്രത്തിന്റെ വീഡിയോ റെക്കോർഡിംഗ് വേണ്ടി CC"
+"IR-601 സ്റ്റാൻഡേർഡ് മാറിയിരിക്കുന്നു. ഉദാഹരണത്തിന്, ഡിവിഡികൾ, വീഡിയോ സിഡിക"
+"ളും മറ്റ് മിക്ക വ്യാപകമായി ഡിജിറ്റൽ വീഡിയോ സ്റ്റാൻഡേർഡുകൾക്കായുള്ള ന് പുറമ"
+"േ ജെപെഗ് ചിത്രങ്ങളും എംപെഗ്പ്ലെയര് വീഡിയോകൾ ഉപയോഗിക്കുന്ന, അതിനാൽ ആണ്. അത"
+"് യഥാർത്ഥത്തിൽ <quote>red</quote>, <quote>green</quote> ആൻഡ് <quote>blue</q"
+"uote> ഉദ്ദേശിച്ചത് ഏത് നിറങ്ങൾ നിർണയിക്കാൻ ഇല്ല ശേഷം, ഒരു കളർ മോഡൽ ഇപ്പോഴ"
+"ും ഒരു കളർ സ്പേസ് എന്നത് മനസിലാക്കുക. ഒരു കളർ സ്പേസ് വേണ്ടി ഇനിയും ഒരു പ്രത"
+"്യേക കേവല വർണ്ണ മൂല്യം ഒരു റഫറൻസ് ആയിരിക്കണം."
+
+#: src/glossary/glossary.xml:2087(para)
+msgid ""
+"There are color models which do not express a color by the additive basic "
+"colors, red, green and blue (RGB), but by other properties, for example, the "
+"brightness-color model. Here, the criteria are the basic brightness of the "
+"colors (from black, through gray, to white), the colors with the largest "
+"portion (red, orange, yellow, green, blue, violet, or other pure colors that "
+"lie between them) and the saturation of the colors (<quote>gaudy</quote> to "
+"pale). This color model is based on the ability of the eye to recognize "
+"small differences in luminosity better than small color differences, and to "
+"recognize those better than small differences in saturation. That makes gray "
+"text written on a black background easy to read, but blue text on a red "
+"background very hard to read, even with the same basic brightness. Such "
+"color models are called brightness-color models."
+msgstr ""
+", തെളിച്ചം-നിറം മോഡൽ ഉദാഹരണത്തിന് ഒരു നിറം, ചുവപ്പ്, പച്ച, നീല വര്ദ്ധിക്കു"
+"ന്ന അടിസ്ഥാന നിറങ്ങൾ, (ആർജിബി) പ്രകാരം, പ്രകടിപ്പിക്കാൻ ഏത്, എന്നാൽ മറ്റ് ഉ"
+"ള്ള വഴി നിറം മോഡലുകൾ ഉണ്ട്. ഇവിടെ, മാനദണ്ഡം അടിസ്ഥാന നിറങ്ങൾ (ചാര വഴി വെളു"
+"ത്ത കറുത്ത നിന്നുള്ള) പ്രകാശതീവ്രത വലിയ ഭാഗം (ചുവപ്പ്, ഓറഞ്ച്, മഞ്ഞ, പച്ച, "
+"നീല, വയലറ്റ്, അല്ലെങ്കിൽ അവയ്ക്കിടയിൽ കിടക്കുന്ന മറ്റ് ശുദ്ധമായ നിറങ്ങൾ) ഉപ"
+"യോഗിച്ച് വർണ്ണങ്ങൾ ആകുന്നു വർണങ്ങളും (വിളറിയ ലേക്ക് <quote>gaudy</quote>) "
+"എന്ന സാച്ചുറേഷൻ. ഈ നിറം മോഡൽ മെച്ചപ്പെട്ട ചെറിയ നിറം വ്യത്യസ്തമാണെന്ന് തേജ"
+"സ്സിനേക്കാൾ ചെറിയ വ്യത്യാസങ്ങൾ മാനിച്ചും, സാച്ചുറേഷൻ ചെറിയ വ്യത്യാസങ്ങൾ നല്"
+"ലതു ആ തിരിച്ചറിയാൻ കണ്ണിന് കഴിവ് അടിസ്ഥാനമാക്കിയുള്ളതാണ്. പോലും അതേ അടിസ്ഥ"
+"ാന പ്രഭാവത്താൽ ഒരു കറുത്ത പശ്ചാത്തലം വായിക്കാൻ എളുപ്പമാണ് എഴുതിയ ചാര പാഠം, "
+"പക്ഷേ ചുവപ്പ് പശ്ചാത്തലത്തിൽ വായിക്കാൻ വളരെ ഹാർഡ് നീല ടെക്സ്റ്റ് ചെയ്യുന്നു"
+". അത്തരം നിറം മോഡലുകൾ തെളിച്ചം-നിറം മോഡലുകൾ വിളിക്കുന്നു."
+
+#: src/glossary/glossary.xml:2103(para)
+msgid ""
+"The YCbCr model is a slight adaptation of such a brightness-color model. An "
+"RGB color value is divided into a basic brightness, Y, and two components, "
+"Cb and Cr, where Cb is a measurement of the deviation from gray in the blue "
+"direction, or if it is less than 0.5, in the direction of yellow. Cr is the "
+"corresponding measurement for the difference in the direction of red or "
+"turquoise. This representation uses the peculiarity of the eye of being "
+"especially sensitive to green light. That is why most of the information "
+"about the proportion of green is in the basic brightness, Y, an only the "
+"deviations for the red and blue portions need to be represented. The Y "
+"values have twice the resolution of the other two values, Cb and Cr, in most "
+"practical applications, such as on DVDs."
+msgstr ""
+"YCbCr മോഡൽ അത്തരം ഒരു പ്രകാശവും-നിറം മാതൃകയുടെ ഒരു ചെറിയ വകഭേദം ആണ്. ഒരു ആ"
+"ർജിബി നിറങ്ങളുടെ മൂല്യം അല്ലെങ്കിൽ നീല ദിശയിൽ ചാര നിന്ന് ഒരു അടിസ്ഥാന തെളിച"
+"്ചം, Y, രണ്ടു ഘടകങ്ങൾ, സി ആൻഡ് കോടി, സി വ്യതിയാനം അളക്കുന്നവഴിയാണ് എവിടെ ത"
+"ിരിച്ചിരിക്കുന്നു, അത് 0.5 താഴെയാണെങ്കിൽ, മഞ്ഞ ദിശയിൽ. കോടിയുടെ ചുവന്ന അല്"
+"ലെങ്കിൽ ടര്കോയിസ് ദിശയിൽ വ്യത്യാസം സദൃശ്യമായ അളക്കുക എന്നത്. ഈ പ്രാതിനിധ്യ"
+"ം പച്ച വെളിച്ചം പ്രത്യേകിച്ച് സെൻസിറ്റീവ് ഒരാളായി കണ്ണിൽ ഇല്യ ഉപയോഗിക്കുന്"
+"നു. പച്ച അനുപാതം കുറിച്ച് മിക്ക വിവരങ്ങളും, അടിസ്ഥാന പ്രകാശതീവ്രത Y- യിലെ എ"
+"ന്തുകൊണ്ട് ചുവപ്പ്, നീല പകർച്ച ഒരു സംഭവിക്കുന്നവ പ്രാതിനിധ്യം എന്നതാണ്. വൈ"
+" മൂല്യങ്ങൾ അത്തരം ഡി.വി.ഡികൾ എന്നപോലെ ഏറ്റവും പ്രായോഗികമായ അപേക്ഷകൾ, മറ്റ"
+"് രണ്ടു മൂല്യങ്ങൾ, സി ആൻഡ് കോടി ഇരട്ടി ചിത്രം, ഞങ്ങൾക്കുണ്ട്."
+
+#: src/glossary/glossary.xml:2128(para)
+msgid ""
+"YUV is a <link linkend=\"glossary-colormodel\">color model</link> which uses "
+"two components to represent the color information, luma (the strength of the "
+"light per area) and the chrominance, or proportion of color (chroma), where "
+"the chrominance again consists of two components. The development of the YUV "
+"color model also goes back to the development of color television (PAL), "
+"where ways were sought for transmitting the color information along with the "
+"black-and-white signal, in order to achieve backwards compatibility with old "
+"black and white televisions without having to increase the available "
+"transmission bandwidth. From the YUV color model of the analog television "
+"techiques, the YCrCb color model was developed, which is used for most kinds "
+"of digital image and video compression. Erroneously, the YUV color model is "
+"also often spoken about in those fields, although the YCbCr model is "
+"actually used. This often causes confusion."
+msgstr ""
+"YUV chrominance വീണ്ടും രണ്ടു ഘടകങ്ങളാണ് എവിടെ നിറം വിവരങ്ങൾ പ്രതിനിധീകരിക്"
+"കാൻ രണ്ട് ഘടകങ്ങൾ ഉപയോഗിക്കുന്നു <link linkend=\"glossary-colormodel\">col"
+"or model</link>, luma (പ്രദേശത്ത് വെളിച്ചം ശക്തി) ഉം chrominance, അല്ലെങ്കി"
+"ൽ നിറം അനുപാതം (chroma) ആണ്. YUV നിറം മോഡൽ വികസനം തിരികെ എവിടെ വഴികൾ പഴയ ബ"
+"്ലാക്ക് ആൻഡ് വൈറ്റ് പൊരുത്ത പുറകോട്ടു്തെരയുക കിട്ടാൻവേണ്ടി, ബ്ലാക്ക് ആന്റ"
+"് വൈറ്റ് സിഗ്നൽ സഹിതം നിറം വല്വരങ്ങൾ അനേഷിച്ചപ്പോൾ നിറം ടെലിവിഷൻ (പാൽ) വിക"
+"സനം, പോകുന്നു ലഭ്യമായ ട്രാൻസ്മിഷൻ ബാൻഡ്വിഡ്ത്ത് വർദ്ധിപ്പിക്കാൻ ഇല്ലാതെ ടെ"
+"ലിവിഷനുകൾ. അനലോഗ് ടെലിവിഷൻ techiques ഓഫ് YUV നിറം മോഡൽ നിന്നും, YCrCb നിറ"
+"ം മോഡൽ ഡിജിറ്റൽ ഇമേജ്, വീഡിയോ കംപ്രഷൻ ഏറ്റവും തരത്തിലുള്ള ഉപയോഗിക്കുന്ന "
+"വികസിപ്പിച്ചെടുത്തു. തെറ്റായി, YUV നിറം മോഡൽ പലപ്പോഴും കുറിച്ച് ആ മേഖലകളി"
+"ലെ, YCbCr മോഡൽ യഥാർത്ഥത്തിൽ ഉപയോഗിക്കുന്നു ആണെങ്കിലും സംസാരിക്കപെടുന്നു. "
+"ഇത് പലപ്പോഴും ആശയക്കുഴപ്പം കാരണമാകുന്നു."
+
+#: src/glossary/glossary.xml:2145(para)
+msgid ""
+"For the calculation of the luma signals, the underlying RGB data is first "
+"adjusted with the <link linkend=\"glossary-gamma\">gamma</link> value of the "
+"output device, and an R'G'B' signal is obtained. The three individual "
+"components are added together with different weights, to form the brightness "
+"information, which also functions as the VBS signal (Video Baseband Signal, "
+"the black-and-white signal) for the old black and white televisions."
+msgstr ""
+"luma സിഗ്നലുകൾ കണക്കുകൂട്ടലിൽ, അന്തർലീനമായിട്ടുള്ള ആർജിബി ഡാറ്റ ആദ്യം ഔട്ട്"
+"പുട്ട് ഉപകരണത്തിന്റെ <link linkend=\"glossary-gamma\">gamma</link> മൂല്യം ക"
+"ൊണ്ട് മാറ്റുവാനായി ഒരു R'G'B 'സിഗ്നൽ ലഭ്യമാക്കുന്നു. മൂന്ന് വ്യക്തിഗത ഘടകങ"
+"്ങൾ പഴയ ബ്ലാക്ക് ആൻഡ് വൈറ്റ് ടെലിവിഷനുകൾ തെളിച്ചനില വിവരങ്ങൾ, പുറമേ VBS സിഗ"
+"്നൽ (വീഡിയോ ബെയിസ്ബാൻഡ് സിഗ്നൽ, ബ്ലാക്ക് ആന്റ് വൈറ്റ് സിഗ്നൽ) ആയി പ്രവർത്ത"
+"ിക്കുന്നു രൂപം, തൂക്കം ഒന്നിച്ചു ചേർത്തു."
+
+#: src/glossary/glossary.xml:2154(para)
+msgid "Y=R+G+B"
+msgstr ""
+"Y = ആർ + G + ൽ ബി"
+
+#: src/glossary/glossary.xml:2155(para)
+msgid ""
+"The exact calculation is more complicated, however, since some aspects of "
+"the color perception of the human eye have to be taken into account. For "
+"example, green is perceived to be lighter than red, and this is perceived to "
+"be lighter than blue. Furthermore, in some systems gamma correction of the "
+"basic color is first performed."
+msgstr ""
+"കൃത്യമായ കണക്കുകൂട്ടൽ കൂടുതൽ സങ്കീർണ്ണമായ, മനുഷ്യ കണ്ണിന്റെ നിറം പറച്ചിലിന്"
+" ചില വശങ്ങൾ പരിഗണിക്കേണ്ടതുണ്ട് ഞങ്ങൾക്കുണ്ട് ശേഷം യാണ്. ഉദാഹരണത്തിന്, പച്ച"
+" ചുവപ്പ് ഭാരം ആയിരിക്കുമെന്ന് അറിഞ്ഞു അവന് ഈ നീല ഭാരം ആയിരിക്കുമെന്ന് അറിഞ്"
+"ഞു ആണ്. കൂടാതെ, അടിസ്ഥാന നിറം ആദ്യം നടപ്പാകും ചില സിസ്റ്റങ്ങളിൽ ഗാമാ തിരുത്"
+"തുന്നതിലും."
+
+#: src/glossary/glossary.xml:2162(para)
+msgid ""
+"The chrominance signals, and the color difference signals also, contain the "
+"color information. They are formed by the difference of blue minus luma or "
+"red minus luma."
+msgstr ""
+"പുറമേ chrominance സിഗ്നലുകൾ, നിറം വ്യത്യാസം സിഗ്നലുകൾ, നിറം വിവരങ്ങൾ അടങ്ങി"
+"യിട്ടുണ്ട്. അവർ നീല മൈനസ് luma അല്ലെങ്കിൽ ചുവന്ന മൈനസ് luma എന്ന വ്യത്യാസം "
+"വഴി രൂപപ്പെടുത്തിയിരിക്കുന്നത്."
+
+#: src/glossary/glossary.xml:2167(para)
+msgid "U=B-Y"
+msgstr ""
+"U = ബി-വൈ"
+
+#: src/glossary/glossary.xml:2168(para)
+msgid "V=R-Y"
+msgstr ""
+"വി = r-വൈ"
+
+#: src/glossary/glossary.xml:2169(para)
+msgid ""
+"From the three generated components, Y, U and V, the individual color "
+"proportions of the basic color can be calculated again later:"
+msgstr ""
+"മൂന്നു സൃഷ്ടിക്കപ്പെടുന്ന ഘടകങ്ങൾ, Y യു, വി നിന്നും, അടിസ്ഥാന നിറം വ്യക്തിഗ"
+"ത നിറം അനുപാതങ്ങൾ പിന്നീട് വീണ്ടും കണക്കാക്കാനായിട്ടുണ്ട്:"
+
+#: src/glossary/glossary.xml:2173(para)
+msgid "Y + U = Y + ( B - Y ) = Y - Y + B = B"
+msgstr ""
+"വൈ = y + U + (ബി - വൈ) = y - വൈ + b = b"
+
+#: src/glossary/glossary.xml:2174(para)
+msgid "Y + V = Y + ( R - Y ) = Y - Y + R = R"
+msgstr ""
+"വൈ + = y + V (റ - Y) = y - വൈ + r = r"
+
+#: src/glossary/glossary.xml:2175(para)
+msgid "Y - B - R = ( R + G + B ) - B - R = G"
+msgstr ""
+"വൈ - ബി - ആർ = (റ + G + R) - ബി - ആർ = ജി"
+
+#: src/glossary/glossary.xml:2176(para)
+msgid ""
+"Furthermore, because of the structure of the retina of the human eye, it "
+"turns out that the brightness information is perceived at a higher "
+"resolution than the color, so that many formats based on the YUV color model "
+"compress the chrominance to save bandwidth during transmission."
+msgstr ""
+"മാത്രവുമല്ല, കാരണം മനുഷ്യ കണ്ണിന്റെ റെറ്റിനയിൽ ഘടന, അത് തെളിച്ച വിവരങ്ങൾ നി"
+"റം ഉയർന്ന റെസലൂഷൻ ന് അറിഞ്ഞു എന്ന്, YUV നിറം മോഡൽ അടിസ്ഥാനമാക്കി പല ഫോർമാ"
+"റ്റുകൾ ട്രാൻസ്മിഷൻ സമയത്ത് ബാൻഡ്വിഡ്ത്ത് സംരക്ഷിക്കാൻ chrominance ചുരുക്കാന"
+"് അങ്ങനെ മാറുകയാണെങ്കിൽ."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/glossary/glossary.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"

@@ -1,0 +1,2068 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP-Help 2.8.0\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
+"PO-Revision-Date: 2012-06-01 12:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/components.xml:16(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/components.png'; "
+"md5=38ebc27c68d86711c9e3fae63d7949fd"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#: src/menus/colors/components.xml:9(title)
+#, fuzzy
+msgid "The <quote>Components</quote> Submenu"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/colors/components.xml:11(para) src/menus/colors/map.xml:15(para)
+#: src/menus/colors/info.xml:11(para)
+msgid "This command leads to the following submenu"
+msgstr ""
+"ഈ കമാൻഡ് താഴെ ഉപമെനു നയിക്കുന്നു"
+
+#: src/menus/colors/components.xml:13(title)
+#, fuzzy
+msgid "The <quote>Components</quote> submenu"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/colors/components.xml:46(title)
+#, fuzzy
+msgid "Activating the command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/colors/components.xml:47(para)
+#, fuzzy
+msgid ""
+"This command is found in the image window menu under "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Components</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/filterpack.xml:33(None)
+#: src/menus/colors/max_rgb.xml:30(None) src/menus/colors/vinvert.xml:31(None)
+#: src/menus/colors/colortoalpha.xml:25(None)
+#: src/menus/colors/colorify.xml:33(None)
+msgid ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
+msgstr ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/filterpack.xml:42(None)
+msgid ""
+"@@image: 'images/filters/examples/color-taj-filterpack.jpg'; "
+"md5=fc938f231739cb27a16424bb92f4ec5a"
+msgstr ""
+"@@image: 'images/filters/examples/color-taj-filterpack.jpg'; "
+"md5=fc938f231739cb27a16424bb92f4ec5a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/filterpack.xml:77(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/filterpack.png'; "
+"md5=f1dc319495cb142d487d6d1f68b96bc6"
+msgstr ""
+"@@image: 'images/menus/windows.png'; md5=13c6b14871d3818165be232dda179015"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/filterpack.xml:139(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/filterpack-hue.png'; "
+"md5=d8ab2af84ac2be6ab67b4f87c96fb978"
+msgstr ""
+"@@image: 'images/menus/tab-menu.png'; md5=e3a7977b2570a5f5a3a776e89e884d02"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/filterpack.xml:157(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/filterpack-saturation.png'; "
+"md5=d4bdffa108b292c4439e7909733ff8ac"
+msgstr ""
+"@@image: 'images/menus/select.png'; md5=e2a02dde8de72d42430b777b89d0ee2a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/filterpack.xml:174(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/filterpack-value.png'; "
+"md5=41e3dfe20d782bf50d41930dd8bcb5f0"
+msgstr ""
+"@@image: 'images/menus/select.png'; md5=e2a02dde8de72d42430b777b89d0ee2a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/filterpack.xml:255(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/filterpack-advanced.png'; "
+"md5=04b8755b09eba2828b4a8a61c8831acf"
+msgstr ""
+"@@image: 'images/menus/windows/expanded-menu.png'; "
+"md5=368b926c465b0abf28df35f2cdaaf128"
+
+#: src/menus/colors/filterpack.xml:15(title)
+#: src/menus/colors/filterpack.xml:19(secondary)
+#: src/menus/colors/filterpack.xml:22(primary)
+#, fuzzy
+msgid "Filter Pack"
+msgstr ""
+"_Filter പാക്ക് ..."
+
+#: src/menus/colors/filterpack.xml:18(primary)
+#: src/menus/colors/retinex.xml:17(primary)
+#: src/menus/colors/tools.xml:12(primary)
+#: src/menus/colors/tools.xml:17(secondary)
+#: src/menus/colors/use-gegl.xml:12(primary)
+#: src/menus/colors/hot.xml:16(primary)
+#: src/menus/colors/max_rgb.xml:16(primary)
+#: src/menus/colors/vinvert.xml:17(primary)
+#: src/menus/colors/colorify.xml:19(primary)
+#: src/menus/colors/auto.xml:15(primary) src/menus/colors/auto.xml:52(primary)
+#: src/menus/colors/invert.xml:15(primary)
+msgid "Colors"
+msgstr ""
+"നിറങ്ങൾ"
+
+#: src/menus/colors/filterpack.xml:26(title)
+#: src/menus/colors/retinex.xml:24(title) src/menus/colors/hot.xml:24(title)
+#: src/menus/colors/max_rgb.xml:24(title)
+#: src/menus/colors/vinvert.xml:25(title)
+#: src/menus/colors/colortoalpha.xml:19(title)
+#: src/menus/colors/colorify.xml:27(title)
+msgid "Overview"
+msgstr ""
+"പൊതു അവലോകനം"
+
+#: src/menus/colors/filterpack.xml:29(title)
+#, fuzzy
+msgid "Example for the <quote>Filter Pack</quote> filter"
+msgstr ""
+"<quote>Filters</quote> മെനു"
+
+#: src/menus/colors/filterpack.xml:36(para)
+#: src/menus/colors/retinex.xml:33(para) src/menus/colors/max_rgb.xml:33(para)
+#: src/menus/colors/vinvert.xml:34(para) src/menus/colors/vinvert.xml:73(para)
+#: src/menus/colors/colortoalpha.xml:28(para)
+#: src/menus/colors/colorify.xml:36(para) src/menus/colors/invert.xml:64(para)
+#, fuzzy
+msgid "Original image"
+msgstr ""
+"യഥാർത്ഥ"
+
+#: src/menus/colors/filterpack.xml:45(para)
+msgid "Filter <quote>FilterPack</quote> applied (more Blue, more Saturation)"
+msgstr ""
+"ഫില്റ്റര് <quote>FilterPack</quote> (കൂടുതൽ ബ്ലൂ, കൂടുതൽ സാച്ചുറേഷൻ) പ്രയോ"
+"ഗിച്ചു"
+
+#: src/menus/colors/filterpack.xml:52(para)
+msgid ""
+"This tool offers you a collection of unified filters to treat the image. Of "
+"course, same functions can be performed by particular filters, but you have "
+"here an interesting, intuitive, overview."
+msgstr ""
+"ഈ ഉപകരണം നിങ്ങളെ ചിത്രം കൈകാര്യം ലേക്കുള്ള ഏകീകൃത ഫിൽറ്ററുകൾ ശേഖരം പ്രദാനം "
+"ചെയ്യുന്നു. ഗതി, ഒരേ ഫങ്ഷനുകളെ പ്രത്യേക ഫിൽട്ടറുകൾ നടത്താൻ കഴിയൂ, എന്നാൽ ഇവ"
+"ിടെ ഒരു രസകരമായ അവബോധജന്യവും അവലോകനം ഞങ്ങൾക്കുണ്ട്."
+
+#: src/menus/colors/filterpack.xml:60(title)
+#: src/menus/colors/retinex.xml:65(title)
+#: src/menus/colors/max_rgb.xml:54(title)
+#: src/menus/colors/vinvert.xml:101(title)
+#: src/menus/colors/colortoalpha.xml:54(title)
+#: src/menus/colors/colorify.xml:67(title)
+#, fuzzy
+msgid "Activate the filter"
+msgstr ""
+"സജീവ ഫിൽട്ടറുകൾ"
+
+#: src/menus/colors/filterpack.xml:61(para)
+#, fuzzy
+msgid ""
+"You can find this filter in the image window menu under "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Filter Pack</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/colors/filterpack.xml:71(title)
+#: src/menus/colors/retinex.xml:76(title) src/menus/colors/hot.xml:48(title)
+#: src/menus/colors/max_rgb.xml:65(title)
+#: src/menus/colors/colortoalpha.xml:65(title)
+#: src/menus/colors/colorify.xml:78(title)
+msgid "Options"
+msgstr ""
+"ഓപ്ഷനുകൾ"
+
+#: src/menus/colors/filterpack.xml:73(title)
+#, fuzzy
+msgid "All the options for filter <quote>Filter Pack</quote>"
+msgstr ""
+"<quote>Select</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/colors/filterpack.xml:83(term)
+msgid "Original and Current previews"
+msgstr ""
+"യഥാർത്ഥ കറന്റ് തിരനോട്ടങ്ങൾ"
+
+#: src/menus/colors/filterpack.xml:85(para)
+msgid ""
+"Two previews display respectively before treatment and after treatment "
+"images."
+msgstr ""
+"രണ്ട് പ്രിവ്യൂകൾ ചികിത്സ മുമ്പും ചികിത്സ ചിത്രങ്ങൾ ശേഷം യഥാക്രമം പ്രദർശിപ്പ"
+"ിക്കാൻ."
+
+#: src/menus/colors/filterpack.xml:92(term)
+msgid "Show"
+msgstr ""
+"കാണിക്കുക"
+
+#: src/menus/colors/filterpack.xml:94(para)
+#, fuzzy
+msgid "Sets what you want to preview:"
+msgstr ""
+"നിങ്ങൾ ചെയ്യാൻ താൽപ്പര്യപ്പെടുന്നത് എന്നത്?"
+
+#: src/menus/colors/filterpack.xml:100(guilabel)
+#, fuzzy
+msgid "Entire image"
+msgstr ""
+"_Entire ചിത്രം"
+
+#: src/menus/colors/filterpack.xml:104(para)
+msgid ""
+"<guilabel>Selection only</guilabel>: if a selection exists (default is the "
+"whole image)."
+msgstr ""
+"<guilabel>Selection only</guilabel>: ഒരു നിര (സ്വതേ മുഴുവൻ ചിത്രം ആണ്) നിലന"
+"ിൽക്കുന്നുണ്ടെങ്കിൽ."
+
+#: src/menus/colors/filterpack.xml:110(para)
+msgid ""
+"<guilabel>Selection in context</guilabel>: the selection within the image."
+msgstr ""
+"<guilabel>Selection in context</guilabel>: ചിത്രം ഉള്ളിൽ നിരക്കു."
+
+#: src/menus/colors/filterpack.xml:119(term)
+msgid "Windows"
+msgstr ""
+"വിൻഡോസ്"
+
+#: src/menus/colors/filterpack.xml:121(para)
+msgid "You can choose between:"
+msgstr ""
+"നിങ്ങൾ തമ്മിലുള്ള തിരഞ്ഞെടുക്കാം:"
+
+#: src/menus/colors/filterpack.xml:124(para)
+msgid ""
+"<guilabel>Hue</guilabel> makes one preview for each of the three primary "
+"colors and the three complementary colors of the RGB color model. By "
+"clicking successively on a color, you add to this color into the affected "
+"range, according to Roughness. To subtract color, click on the opposite "
+"color, the complementary color."
+msgstr ""
+"<guilabel>Hue</guilabel> മൂന്ന് പ്രാഥമിക നിറങ്ങൾ ആർജിബി നിറങ്ങളുടെ മോഡൽ മൂ"
+"ന്നു തീർക്കുന്ന നിറങ്ങൾ ഓരോ ഒറ്റ പ്രിവ്യൂ ചെയ്യുന്നു. ഒരു നിറം തുടർച്ചയായി"
+" ക്ലിക്കുചെയ്യുന്നതിലൂടെ, ഈ നിറം ബാധിതമായ ശ്രേണിയിലേക്ക്, Roughness തക്കവണ്"
+"ണം ചേർക്കുക. നിറം കുറയ്ക്കേണ്ട, തീർക്കുന്ന നിറം സമ്മുഖ നിറം ക്ലിക്ക് ചെയ്യു"
+"ക."
+
+#: src/menus/colors/filterpack.xml:133(title)
+#, fuzzy
+msgid "Hue option of the <quote>Filterpack</quote> filter"
+msgstr ""
+"<quote>Select</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/colors/filterpack.xml:145(para)
+msgid ""
+"<guilabel>Saturation</guilabel>: Three previews for more or less saturation."
+msgstr ""
+"<guilabel>Saturation</guilabel>: കൂടുതലോ കുറവോ സാച്ചുറേഷൻ വേണ്ടി മൂന്ന് പ"
+"്രിവ്യൂകൾ."
+
+#: src/menus/colors/filterpack.xml:150(title)
+#, fuzzy
+msgid "The saturation option of the <quote>Filterpack</quote> filter"
+msgstr ""
+"<quote>Select</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/colors/filterpack.xml:163(para)
+msgid "<guilabel>Value</guilabel>: Three previews for more or less luminosity."
+msgstr ""
+"<guilabel>Value</guilabel>: കൂടുതലോ കുറവോ പ്രതല വേണ്ടി മൂന്ന് പ്രിവ്യൂകൾ."
+
+#: src/menus/colors/filterpack.xml:168(title)
+#, fuzzy
+msgid "Value option of the <quote>Filterpack</quote> filter"
+msgstr ""
+"<quote>Select</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/colors/filterpack.xml:180(para)
+msgid "<guilabel>Advanced</guilabel>: developed later."
+msgstr ""
+"<guilabel>Advanced</guilabel>: പിന്നീട് വികസിപ്പിച്ച."
+
+#: src/menus/colors/filterpack.xml:188(term)
+#: src/menus/colors/filterpack.xml:281(term)
+#, fuzzy
+msgid "Affected range"
+msgstr ""
+"ബാധിക്കപ്പെട്ട ശ്രേണി"
+
+#: src/menus/colors/filterpack.xml:190(para)
+msgid "Allows you to set which brightness you want to work with."
+msgstr ""
+"നിങ്ങൾ പ്രവർത്തിക്കാൻ ആഗ്രഹിക്കുന്ന മിഴിവ് ഏത് സജ്ജമാക്കാൻ നിങ്ങളെ അനുവദിക്"
+"കുന്നു."
+
+#: src/menus/colors/filterpack.xml:195(para)
+msgid "<guilabel>Shadows</guilabel>: dark tones."
+msgstr ""
+"<guilabel>Shadows</guilabel>: ഇരുണ്ട ടൺ."
+
+#: src/menus/colors/filterpack.xml:200(guilabel)
+msgid "Midtones"
+msgstr ""
+"മിഡ്ടോണുകൾ"
+
+#: src/menus/colors/filterpack.xml:204(para)
+msgid "<guilabel>Highlights</guilabel>: bright tones"
+msgstr ""
+"<guilabel>Highlights</guilabel>: മിനുക്കിയ ടൺ"
+
+#: src/menus/colors/filterpack.xml:211(term)
+#, fuzzy
+msgid "Select pixels by"
+msgstr ""
+"പിക്സൽ തിരഞ്ഞെടുക്കുക"
+
+#: src/menus/colors/filterpack.xml:213(para)
+msgid ""
+"Determines what HSV channel the selected range will affect. You can choose "
+"between:"
+msgstr ""
+"HSV ചാനൽ എന്താണ് തിരഞ്ഞെടുത്ത പരിധിയിൽ ബാധിക്കും നിർണ്ണയിക്കുന്നു. നിങ്ങൾ ത"
+"മ്മിലുള്ള തിരഞ്ഞെടുക്കാം:"
+
+#: src/menus/colors/filterpack.xml:220(guilabel)
+msgid "Hue"
+msgstr ""
+"ഹ്യൂയേ"
+
+#: src/menus/colors/filterpack.xml:225(guilabel)
+msgid "Saturation"
+msgstr ""
+"സാച്ചുറേഷൻ"
+
+#: src/menus/colors/filterpack.xml:230(guilabel)
+msgid "Value"
+msgstr ""
+"വില"
+
+#: src/menus/colors/filterpack.xml:237(term)
+msgid "Roughness"
+msgstr "Roughness"
+
+#: src/menus/colors/filterpack.xml:239(para)
+msgid ""
+"This slider sets how image will change when you click on a window: taking a "
+"short step or a large one (0 - 1)."
+msgstr ""
+"ഒരു ഹ്രസ്വ ഘട്ടം അല്ലെങ്കിൽ ഒരു വലിയ ഒറ്റ (- 1 0) എടുക്കൽ: നിങ്ങൾ ഒരു ജാലകം"
+" ക്ലിക്ക് ചെയ്യുമ്പോൾ ചിത്രം മാറ്റാൻ എങ്ങനെ ഈ സ്ലൈഡർ സെറ്റുകൾ."
+
+#: src/menus/colors/filterpack.xml:246(term)
+msgid "Advanced Options"
+msgstr ""
+"വിപുലമായ ഓപ്ഷനുകൾ"
+
+#: src/menus/colors/filterpack.xml:249(title)
+#, fuzzy
+msgid "Advanced options of the <quote>Filterpack</quote> filter"
+msgstr ""
+"<quote>Select</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/colors/filterpack.xml:259(para)
+msgid ""
+"These advanced options let you work more precisely on the changes applied to "
+"the image and on the preview size."
+msgstr ""
+"ഈ വിപുലമായ ഓപ്ഷനുകൾ നിങ്ങൾക്ക് ചിത്രത്തിലേക്ക് പ്രിവ്യൂ വലിപ്പം ബാധകമാകുന്ന"
+" മാറ്റങ്ങൾ സംബന്ധിച്ചുള്ള കൂടുതൽ കൃത്യമായി പ്രവർത്തിക്കുന്നത്."
+
+#: src/menus/colors/filterpack.xml:265(term)
+msgid "Preview Size"
+msgstr ""
+"പ്രിവ്യൂ വലിപ്പം"
+
+#: src/menus/colors/filterpack.xml:267(para)
+msgid "Something like a zoom on previews. Normal size is 80."
+msgstr ""
+"പ്രിവ്യൂ സംബന്ധിച്ചുള്ള ഒരു സൂം അരിച്ചെടുക്കുക. സാധാരണ വലുപ്പം 80 ആണ്."
+
+#: src/menus/colors/filterpack.xml:271(para)
+msgid ""
+"In spite of Preview Size option, this size is often too small. You can "
+"compensate this by working on an enlarged selection, for instance a face on "
+"a photo. Then, you invert selection to work on the other part of the image."
+msgstr ""
+"പ്രിവ്യൂ വലിപ്പം ഓപ്ഷൻ വകവയ്ക്കാതെ ഈ വലിപ്പം പലപ്പോഴും വളരെ ചെറുതാണ്. നിങ്"
+"ങൾ ഒരു ഫോട്ടോയിലെ മുഖം ഉദാഹരണത്തിന്, ഒരു റെസിഡന്റ് നിരക്കു പ്രവർത്തിക്കുന"
+"്നു വഴി ഈ നഷ്ടപരിഹാരം കഴിയും. തുടർന്ന്, ചിത്രത്തിൻറെ മറ്റു ഭാഗത്ത് പ്രവർത്ത"
+"ിക്കാൻ നിരക്കു വിപരീത."
+
+#: src/menus/colors/filterpack.xml:283(para)
+msgid "Here, you can set the tone range that the filter will affect."
+msgstr ""
+"ഇവിടെ നിങ്ങൾ ഫിൽട്ടർ ബാധിക്കുമെന്ന് ടോൺ പരിധി സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/menus/colors/filterpack.xml:287(para)
+msgid ""
+"The curve in this window represents the importance of the changes applied to "
+"the image. The aspect of this curve depends on the Affected range you have "
+"selected: Shadows, Midtons or Highlights. You can set the curve amplitude by "
+"using the <guilabel>Roughness</guilabel> slider in the main window of the "
+"filter."
+msgstr ""
+"ഈ ജാലകത്തിൽ കർവ് ചിത്രം പ്രയോഗിച്ചു മാറ്റങ്ങൾ പ്രാധാന്യം പ്രതിനിധീകരിക്കുന"
+"്നു. ഷാഡോസ്, Midtons അല്ലെങ്കിൽ ഉയർത്തിക്കാട്ടുന്നു: ഈ വഞ്ചിപ്പിക്കുന്നവയി"
+"ൽ വശം നിങ്ങൾ തിരഞ്ഞെടുത്ത ബാധിക്കപ്പെട്ട റേഞ്ച് ആശ്രയിച്ചിരിക്കുന്നു. നിങ്ങ"
+"ൾ അരിപ്പ പ്രധാന വിൻഡോയിൽ <guilabel>Roughness</guilabel> സ്ലൈഡർ ഉപയോഗിച്ച്"
+" കർവ് കഴിവുമുള്ളവർ സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/menus/colors/filterpack.xml:300(para)
+msgid ""
+"By using the available controls (slider and triangles), you can precisely "
+"set the form of this action curve."
+msgstr ""
+"ലഭ്യമായ നിയന്ത്രണങ്ങൾ (സ്ലൈഡർ ആൻഡ് ത്രികോണങ്ങൾ) ഉപയോഗിക്കുന്നതിലൂടെ, കൃത്"
+"യമായും പ്രവർത്തനം കർവ് രൂപത്തിൽ സജ്ജമാക്കാൻ കഴിയും."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/map.xml:20(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/map.png'; md5=9a7a1aff4ea0714d800d14f1988a652e"
+msgstr ""
+"@@image: 'images/menus/local-windows-submenu.png'; "
+"md5=57af8745917ae54f989082e320678880"
+
+#: src/menus/colors/map.xml:13(title)
+#, fuzzy
+msgid "The <quote>Map</quote> Submenu"
+msgstr ""
+"<quote>Help</quote> മെനു"
+
+#: src/menus/colors/map.xml:17(title)
+#, fuzzy
+msgid "The <quote>Map</quote> submenu"
+msgstr ""
+"<quote>Help</quote> മെനു"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/retinex.xml:30(None)
+msgid ""
+"@@image: 'images/filters/examples/colors-retinex1.png'; "
+"md5=25f4bc072d9614e58d5cb74fd9a7f70e"
+msgstr ""
+"@@image: 'images/filters/examples/colors-retinex1.png'; "
+"md5=25f4bc072d9614e58d5cb74fd9a7f70e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/retinex.xml:39(None)
+msgid ""
+"@@image: 'images/filters/examples/colors-retinex2.png'; "
+"md5=239358a7b963e67f1eac7fbebb89fb73"
+msgstr ""
+"@@image: 'images/filters/examples/colors-retinex2.png'; "
+"md5=239358a7b963e67f1eac7fbebb89fb73"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/retinex.xml:82(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/retinex.png'; "
+"md5=94377a51b24152a3cd9a0f290de9ca40"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#: src/menus/colors/retinex.xml:14(title)
+#: src/menus/colors/retinex.xml:20(primary)
+msgid "Retinex"
+msgstr "Retinex"
+
+#: src/menus/colors/retinex.xml:26(title)
+#, fuzzy
+msgid "<quote>Retinex</quote> example"
+msgstr ""
+"<quote>View</quote> മെനു"
+
+#: src/menus/colors/retinex.xml:42(para)
+msgid ""
+"<quote>Retinex</quote> filter applied. Note new details in the upper right "
+"corner."
+msgstr ""
+"<quote>Retinex</quote> പ്രയോഗിച്ച ഫിൽട്ടർ. മുകളിൽ വലത് മൂലയിൽ പുതിയ വിശദാം"
+"ശങ്ങൾ ശ്രദ്ധിക്കുക."
+
+#: src/menus/colors/retinex.xml:49(para)
+msgid ""
+"Retinex improves visual rendering of an image when lighting conditions are "
+"not good. While our eye can see colors correctly when light is low, cameras "
+"and video cams can't manage this well. The MSRCR (MultiScale Retinex with "
+"Color Restoration) algorithm, which is at the root of the Retinex filter, is "
+"inspired by the eye biological mechanisms to adapt itself to these "
+"conditions. Retinex stands for Retina + cortex."
+msgstr ""
+"Retinex പ്രകാശവ്യതിയാനങ്ങൾക്കനുസരിച്ച് നന്നല്ല വരുമ്പോൾ ഒരു ചിത്രത്തിന്റെ "
+"വിഷ്വൽ റെൻഡറിംഗ് മെച്ചപ്പെടുത്തുന്നു. ഞങ്ങളുടെ കണ്ണു നിറങ്ങൾ ശരിയായി വെളിച്"
+"ചം കുറയുമ്പോൾ, ക്യാമറകൾ, വീഡിയോ ക്യമാറകളും ഈ നന്നായി നിയന്ത്രിക്കാൻ കഴിയി"
+"ല്ല കാണാൻ കഴിയും. MSRCR (കളർ പുനരുദ്ധാരണ കൂടെ MultiScale Retinex) അല്ഗോരിഥ"
+"ം Retinex അരിപ്പ അടിസ്ഥാനം, ഈ അവസ്ഥ സ്വയം ചെയ്യൽ കണ്ണ് ജൈവ സംവിധാനം പ്രചോദ"
+"നം. Retinex റെറ്റിന + കോർട്ടെക്സ് സൂചിപ്പിക്കുന്നു."
+
+#: src/menus/colors/retinex.xml:57(para)
+msgid ""
+"Besides digital photography, Retinex algorithm is used to make the "
+"information in astronomical photos visible and detect, in medicine, poorly "
+"visible structures in X-rays or scanners."
+msgstr ""
+"ഡിജിറ്റൽ ഫോട്ടോഗ്രാഫി പുറമെ Retinex അൽഗോരിതം, വൈദ്യശാസ്ത്രം, ജ്യോതിശാസ്"
+"ത്ര ഫോട്ടോകളിൽ വിവരങ്ങൾ ദൃശ്യമാക്കാൻ എക്സ്-കിരണങ്ങൾ അല്ലെങ്കിൽ സ്കാനറുകൾ "
+"ലെ മോശമായി കാണാവുന്ന ഘടനകൾ കണ്ടെത്താനായി ആണ്."
+
+#: src/menus/colors/retinex.xml:66(para)
+#, fuzzy
+msgid ""
+"This filter is found in the image window menu under "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Retinex</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Recently Closed Docks</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് "
+"ചെയ്യാൻ കഴിയും"
+
+#: src/menus/colors/retinex.xml:78(title)
+#, fuzzy
+msgid "<quote>Retinex</quote> filter options"
+msgstr ""
+"<quote>Windows</quote> മെനു എൻട്രികൾ"
+
+#: src/menus/colors/retinex.xml:86(para)
+msgid ""
+"These options call for notions that only mathematicians and imagery "
+"engineers can understand. In actual practice, the user has to grope about "
+"for the best setting. However, the following explanations should help out "
+"the experimented GIMP user."
+msgstr ""
+"ഈ ഓപ്ഷനുകൾ മാത്രമേ ഗണിതശാസ്ത്രജ്ഞർക്ക് ബിംബങ്ങളും എൻജിനീയർമാർ മനസ്സിലാകുന്ന"
+" സങ്കൽപങ്ങളിൽ വേണ്ടി വിളിക്കും. പ്രാവർത്തിക, ഉപയോക്താവിന് മികച്ച ക്രമീകരണം"
+" വേണ്ടി കുറിച്ച് ബെഡ്റൂമിലേക്ക് ഉണ്ട്. എന്നിരുന്നാലും, താഴെ വിശദീകരണങ്ങൾ പര"
+"ീക്ഷിച്ചിരുന്നു ജിമ്പ് ഉപയോക്താവ് പുറത്തു സഹായിക്കും."
+
+#: src/menus/colors/retinex.xml:94(term)
+#, fuzzy
+msgid "Level"
+msgstr ""
+"ലെവലുകൾ"
+
+#: src/menus/colors/retinex.xml:96(para)
+msgid ""
+"Here is what the plug-in author writes on his site <xref linkend="
+"\"bibliography-online-plugin-retinex\"/>: <quote>To characterize color "
+"variations and the lightor, we make a difference between (gaussian) filters "
+"responses at different scales. These parameters allow to specify how to "
+"allocate scale values between min scale (sigma 2.0) and max (sigma equal to "
+"the image size)</quote>..."
+msgstr ""
+"ഇവിടെ എന്താണ് പ്ലഗ്-ഇൻ രചയിതാവ് തന്റെ സൈറ്റിൽ <xref linkend=\"bibliography-"
+"online-plugin-retinex\" /> എഴുതി ആണ്: <quote>To characterize color variatio"
+"ns and the lightor, we make a difference between (gaussian) filters respons"
+"es at different scales. These parameters allow to specify how to allocate s"
+"cale values between min scale (sigma 2.0) and max (sigma equal to the image"
+" size)</quote> ..."
+
+#: src/menus/colors/retinex.xml:107(term)
+msgid "Uniform"
+msgstr ""
+"ഒരേപോലെ"
+
+#: src/menus/colors/retinex.xml:109(para)
+msgid "Uniform tends to treat both low and high intensity areas fairly."
+msgstr ""
+"യൂണിഫോം ഗംഭീരമായി താഴ്ന്ന ഉയർന്ന ഇരുവരും തീവ്രത പ്രദേശങ്ങളെ കുറവുമാണ്."
+
+#: src/menus/colors/retinex.xml:116(term)
+msgid "Low"
+msgstr ""
+"ലോ"
+
+#: src/menus/colors/retinex.xml:118(para)
+msgid ""
+"As a rule of thumb, low does <quote>flare up</quote> the lower intensity "
+"areas on the image."
+msgstr ""
+"ഏതളവുവരെ ഒരു ഭരണം പോലെ, കുറഞ്ഞ ചിത്രത്തിൽ താഴത്തെ തീവ്രത പ്രദേശങ്ങൾ ചെയ്യു"
+"ന്നവൻ <quote>flare up</quote>."
+
+#: src/menus/colors/retinex.xml:125(term)
+msgid "High"
+msgstr ""
+"ഉയർന്ന"
+
+#: src/menus/colors/retinex.xml:127(para)
+msgid ""
+"High tends to <quote>bury</quote> the lower intensity areas in favor of a "
+"better rendering of the clearer areas of the image."
+msgstr ""
+"ഹൈ ചിത്രത്തിന്റെ വ്യക്തമാകും പ്രദേശങ്ങൾ ഒരു മികച്ച റെൻഡറിംഗിനായി അനുകൂലിച്ച"
+"് താഴത്തെ തീവ്രത പ്രദേശങ്ങൾ <quote>bury</quote> കുറവുമാണ്."
+
+#: src/menus/colors/retinex.xml:138(term)
+msgid "Scale"
+msgstr ""
+"സ്കെയിൽ"
+
+#: src/menus/colors/retinex.xml:140(para)
+msgid ""
+"Determines the depth of the Retinex scale. Minimum value is 16, a value "
+"providing gross, unrefined filtering. Maximum value is 250. Optimal and "
+"default value is 240."
+msgstr ""
+"Retinex സ്കെയിലിൽ ആഴം നിർണ്ണയിക്കുന്നു. കുറഞ്ഞ മൂല്യം 16 മൊത്ത, എന്നവണ്ണം "
+"ഫിൽട്ടറിംഗ് നൽകുന്നത് മൂല്ല്യം. പരമാവധി മൂല്യം 250. ഉചിതമായ ആണ് സ്ഥിരസ്ഥിതി"
+" മൂല്യം 240 ആണ്."
+
+#: src/menus/colors/retinex.xml:148(term)
+#, fuzzy
+msgid "Scale division"
+msgstr ""
+"സ്കെയിൽ _division:"
+
+#: src/menus/colors/retinex.xml:150(para)
+msgid ""
+"Determines the number of iterations in the multiscale Retinex filter. The "
+"minimum required, and the recommended value is three. Only one or two scale "
+"divisions removes the multiscale aspect and falls back to a single scale "
+"Retinex filtering. A value that is too high tends to introduce noise in the "
+"picture."
+msgstr ""
+"multiscale Retinex ഫിൽട്ടറിലെ CONCURRENT എന്ന എണ്ണം നിർണ്ണയിക്കുന്നു. മിനിമ"
+"ം ആവശ്യമാണ്, ഒപ്പം ശുപാർശ മൂല്യം മൂന്നു ആണ്. രണ്ടോ ഒരേയൊരു തോതിലുള്ള ഡിവ"
+"ിഷനുകൾ multiscale വശം നീക്കംചെയ്യുന്നു തിരികെ ഒറ്റ സ്കെയിലിൽ Retinex ഫിൽട്ട"
+"റിംഗ് കുറഞ്ഞു. ഉയർന്ന ഒരു മൂല്യം ചിത്രത്തിൽ ഘോഷം പരിചയപ്പെടുത്താൻ കുറവുമാണ"
+"്."
+
+#: src/menus/colors/retinex.xml:160(term)
+#, fuzzy
+msgid "Dynamic"
+msgstr ""
+"ഡൈനാമിക്"
+
+#: src/menus/colors/retinex.xml:162(para)
+msgid ""
+"As the MSR algorithm tends to make the image lighter, this slider allows you "
+"to adjust color saturation contamination around the new average color. A "
+"higher value means less color saturation. This is definitely the parameter "
+"you want to tweak for optimal results, because its effect is extremely image-"
+"dependent."
+msgstr ""
+"MSR അൽഗോരിതം ചിത്രം ഭാരം എന്നതുകൊണ്ട് ഈ സ്ലൈഡർ പുതിയ ശരാശരി നിറം ചുറ്റും "
+"നിറം സാച്ചുറേഷൻ മലിനീകരണം ക്രമീകരിക്കുന്നതിന് അനുവദിക്കുന്നു. ഉയർന്ന മൂല്യം"
+" കുറവ് നിറം സാച്ചുറേഷൻ എന്നാണ്. ഈ അതിന്റെ പ്രഭാവം വളരെ image- ആശ്രയിക്കുന്ന"
+" കാരണം, തീർച്ചയായും നിങ്ങൾ മികച്ച ഫലം വേണ്ടി കുറ്റമറ്റ ആഗ്രഹിക്കുന്ന പോരേ."
+
+#: src/menus/colors/tools.xml:9(title)
+#, fuzzy
+msgid "Colors Tools"
+msgstr ""
+"_Colour ഉപകരണങ്ങൾ"
+
+#: src/menus/colors/tools.xml:13(secondary)
+#: src/menus/colors/tools.xml:16(primary)
+msgid "Tools"
+msgstr ""
+"ഉപകരണങ്ങൾ"
+
+#: src/menus/colors/tools.xml:20(para)
+msgid ""
+"All of the <guimenu>Colors</guimenu> tools are extensively described in the "
+"toolbox chapter, <xref linkend=\"gimp-tools-color\"/>:"
+msgstr ""
+"<guimenu>Colors</guimenu> ഉപകരണങ്ങൾ എല്ലാ വ്യാപകമായി പണിസഞ്ചി അധ്യായം, <xre"
+"f linkend=\"gimp-tools-color\" /> പ്രതിപാദിച്ചിരിക്കുന്നു:"
+
+#: src/menus/colors/filters.xml:9(title)
+#, fuzzy
+msgid "The Color Filters"
+msgstr ""
+"വർണ്ണ പ്രദർശിപ്പിക്കുക ഫിൽട്ടറുകൾ"
+
+#: src/menus/colors/filters.xml:11(para)
+msgid ""
+"The following color filters group contains miscellaneous filters to modify "
+"colors in an image, a layer or a selection. You can find some nice effects "
+"here."
+msgstr ""
+"താഴെ നിറം ഫിൽട്ടറുകൾ ഗ്രൂപ്പ് ഒരു ഇമേജ്, ഒരു പാളി അല്ലെങ്കിൽ ഒരു നിര വർണ്ണങ"
+"്ങൾ പരിഷ്കരിക്കുന്നതിന് പലവക ഫിൽട്ടറുകൾ ഉണ്ട്. നിങ്ങൾക്ക് ഇവിടെ ചില നല്ല ഇഫ"
+"ക്റ്റുകൾ കണ്ടെത്താൻ കഴിയും."
+
+#: src/menus/colors/use-gegl.xml:9(title)
+#: src/menus/colors/use-gegl.xml:13(secondary)
+#, fuzzy
+msgid "Use GEGL"
+msgstr ""
+"ഉപയോഗിക്കുക GEGL"
+
+#: src/menus/colors/use-gegl.xml:16(primary)
+#, fuzzy
+msgid "GEGL"
+msgstr ""
+"ഉപയോഗിക്കുക GEGL"
+
+#: src/menus/colors/use-gegl.xml:19(para)
+msgid ""
+"GEGL (Generic Graphics Library) is a graph based image processing framework "
+"that will be used in all GIMP-3.0. With GEGL, the internal processing is "
+"being done in 32bit floating point linear light RGBA. By default the legacy "
+"8bit code paths are still used, but a curious user can turn on the use of "
+"GEGL for the color operations with this option."
+msgstr ""
+"GEGL (സാമാന്യ ഗ്രാഫിക്സ് ലൈബ്രറി) എല്ലാ ജിമ്പ്-3.0 ഉപയോഗിക്കപ്പെടും ഒരു ഗ്"
+"രാഫ് അധിഷ്ഠിത ഇമേജ് പ്രോസസ്സിംഗ് ചട്ടക്കൂടാണ്. GEGL വച്ച് ആന്തരിക പ്രോസസ്"
+"സിംഗ് ഫ്ലോട്ടിങ് പോയിന്റ് ലീനിയർ വെളിച്ചം RGBA 32bit ചെയ്യപ്പെടുന്നത്. സ്"
+"വതവേ ലെഗസി 8bit കോഡ് പാതകൾ ഇപ്പോഴും ഉപയോഗിക്കുന്നു, എന്നാൽ കൗതുകകരമായ ഉപ"
+"യോക്താവിന് ഈ ഉപാധി ഉപയോഗിച്ച് നിറം പ്രവർത്തനങ്ങൾക്ക് GEGL ഉപയോഗം ഓൺ ചെയ്"
+"യാനാകും."
+
+#: src/menus/colors/use-gegl.xml:26(para)
+msgid ""
+"In addition to porting color operations to GEGL, an experimental <link "
+"linkend=\"gimp-tool-gegl\">GEGL Operation tool</link> has been added, found "
+"in the Tools menu. It enables applying GEGL operations to an image and it "
+"gives on-canvas previews of the results."
+msgstr ""
+"GEGL നിറം പ്രവർത്തനങ്ങൾക്കായുള്ള നു്അനുയോജ്യമാക്കിക്കൊണ്ടിരിയ്ക്കുന്നു പു"
+"റമേ, ഒരു പരീക്ഷണാത്മക <link linkend=\"gimp-tool-gegl\">GEGL Operation tool<"
+"/link> ഉപകരണങ്ങൾ മെനുവിലെ കണ്ടു ചേർത്തിരിക്കുന്നു. ഇത് ഒരു ചിത്രത്തിലേക്ക് "
+"GEGL ഓപ്പറേഷൻസ് അപേക്ഷിക്കുന്ന പ്രാപ്തമാക്കുന്നു അതു ഫലങ്ങൾ ഓൺ-കാൻവാസ് പ്രി"
+"വ്യൂകൾ നൽകുന്നു."
+
+#: src/menus/colors/use-gegl.xml:34(para)
+msgid ""
+"Please note that <acronym>GIMP</acronym> remains 8-bits until GEGL covers "
+"the whole application."
+msgstr ""
+"GEGL മുഴുവൻ അപ്ലിക്കേഷൻ മൂടുന്നു വരെ <acronym>GIMP</acronym> 8-ബിറ്റ്സ് നില"
+"നിൽക്കുന്നു ദയവായി ശ്രദ്ധിക്കുക."
+
+#: src/menus/colors/use-gegl.xml:41(title)
+#, fuzzy
+msgid "Activating the option"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/colors/use-gegl.xml:42(para)
+#, fuzzy
+msgid ""
+"You can access this option from the image menubar through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Use GEGL</guimenuitem></"
+"menuchoice>. Clicking on this item toggles the use of GEGL."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/hot.xml:53(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/hot.png'; md5=984484be105aaa084b50a95b77b7913b"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#: src/menus/colors/hot.xml:13(title) src/menus/colors/hot.xml:17(secondary)
+#: src/menus/colors/hot.xml:20(primary)
+msgid "Hot"
+msgstr ""
+"ചൂടുള്ള"
+
+#: src/menus/colors/hot.xml:25(para)
+msgid ""
+"This command identifies and modifies pixels which might cause problem when "
+"displayed onto PAL or NTSC TV screen."
+msgstr ""
+"ഈ കമാൻഡ് തിരിച്ചറിയുകയും പാൽ അല്ലെങ്കിൽ NTSC ടിവി സ്ക്രീനിൽ പ്രദർശിപ്പിക്കാ"
+"ൻ പ്രശ്നങ്ങൾ കാരണമായേക്കും ഏത് പിക്സലുകൾ മാറ്റം."
+
+#: src/menus/colors/hot.xml:32(title)
+#, fuzzy
+msgid "Activate the command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/colors/hot.xml:33(para)
+#, fuzzy
+msgid ""
+"You can access the command from the image menu bar through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Hot</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/colors/hot.xml:40(para)
+msgid ""
+"This command only works on images in RGB mode, and only if the active layer "
+"does not have an alpha channel. Otherwise the menu entry is insensitive and "
+"grayed out."
+msgstr ""
+"ഈ കമാൻഡ് മാത്രം ആർജിബി മോഡിൽ ചിത്രങ്ങൾ പ്രവർത്തിക്കുന്നു, സജീവവും പാളി ഒരു"
+" ആല്ഫാ ചാനൽ ഇല്ല മാത്രമേ. അല്ലാത്തപക്ഷം മെനു എൻട്രി കൈമാറ്റം ചെയ്ത് ആവശ്യം "
+"തന്നെയാണ്."
+
+#: src/menus/colors/hot.xml:50(title)
+#, fuzzy
+msgid "<quote>Hot</quote> options"
+msgstr ""
+"<quote>Edit</quote> മെനു"
+
+#: src/menus/colors/hot.xml:59(term)
+msgid "Mode"
+msgstr ""
+"മോഡ്"
+
+#: src/menus/colors/hot.xml:61(para)
+msgid "You have to select the TV mode: PAL or NTSC."
+msgstr ""
+"പാൽ അല്ലെങ്കിൽ NTSC: ടിവിയിലേക്ക് മോഡ് തിരഞ്ഞെടുക്കേണ്ടി."
+
+#: src/menus/colors/hot.xml:67(term)
+msgid "Action"
+msgstr ""
+"ആക്ഷൻ"
+
+#: src/menus/colors/hot.xml:69(para)
+msgid "You can select:"
+msgstr ""
+"നിങ്ങൾ തിരഞ്ഞെടുക്കാം:"
+
+#: src/menus/colors/hot.xml:75(guilabel)
+#, fuzzy
+msgid "Reduce Luminency"
+msgstr ""
+"_Luminance കുറയ്ക്കുക"
+
+#: src/menus/colors/hot.xml:80(guilabel)
+#, fuzzy
+msgid "Reduce Saturation"
+msgstr ""
+"_Saturation കുറയ്ക്കുക"
+
+#: src/menus/colors/hot.xml:84(para)
+msgid "<guilabel>Blacken</guilabel>: this will turn hot pixels to black."
+msgstr ""
+"<guilabel>Blacken</guilabel>: ഈ കറുത്ത ഹോട്ട് പിക്സലുകൾ തിരിക്കും."
+
+#: src/menus/colors/hot.xml:93(term)
+#, fuzzy
+msgid "Create a new layer"
+msgstr ""
+"പുതിയ ലെയർ സൃഷ്ടിക്കുക"
+
+#: src/menus/colors/hot.xml:95(para)
+msgid ""
+"With this option, work will be performed on a new layer instead of the "
+"image. This will give you peace of mind!"
+msgstr ""
+"ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് പ്രവൃത്തി പകരം ചിത്രത്തിന്റെ ഒരു പുതിയ പാളി നടപ്പിലാക്ക"
+"ും. ഈ നിങ്ങൾക്ക് സമാധാനവും നൽകുന്നതാണ്"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/max_rgb.xml:39(None)
+msgid ""
+"@@image: 'images/filters/examples/color-taj-maxrgb.jpg'; "
+"md5=2e5601b29bddfb38ae308979b88d8d4a"
+msgstr ""
+"@@image: 'images/filters/examples/color-taj-maxrgb.jpg'; "
+"md5=2e5601b29bddfb38ae308979b88d8d4a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/max_rgb.xml:70(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/maxRGB.png'; "
+"md5=dc56a7f33f473c8ea3914705deebb6c5"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#: src/menus/colors/max_rgb.xml:13(title)
+#: src/menus/colors/max_rgb.xml:17(secondary)
+#: src/menus/colors/max_rgb.xml:20(primary)
+msgid "Max RGB"
+msgstr ""
+"മാക്സ് ആർജിബി"
+
+#: src/menus/colors/max_rgb.xml:26(title)
+msgid "Example for the filter <quote>Max RGB</quote>"
+msgstr ""
+"ഫിൽട്ടർ ഉദാഹരണം <quote>Max RGB</quote>"
+
+#: src/menus/colors/max_rgb.xml:42(para)
+#, fuzzy
+msgid "Filter <quote>Max RGB</quote> applied"
+msgstr ""
+"<quote>Image</quote> മെനു"
+
+#: src/menus/colors/max_rgb.xml:46(para)
+msgid ""
+"For every pixel of the image, this filter holds the channel with the maximal/"
+"minimal intensity. The result is an image with only three colors, red, green "
+"and blue, and possibly pure gray."
+msgstr ""
+"ചിത്രത്തിന്റെ ഓരോ പിക്സൽ, ഈ ഫിൽട്ടർ ചുരുങ്ങിയ പരമാവധി / തീവ്രതയോടെ ചാനൽ ത"
+"ാങ്ങി. ഫലം മാത്രം മൂന്നു നിറങ്ങൾ, ചുവപ്പ്, പച്ച, നീല, ഒരുപക്ഷേ ശുദ്ധമായ ചാര"
+" ഒരു ഇമേജ് ആണ്."
+
+#: src/menus/colors/max_rgb.xml:55(para)
+#, fuzzy
+msgid ""
+"This filter is found in the image window menu under "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Max RGB</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/colors/max_rgb.xml:67(title)
+#, fuzzy
+msgid "<quote>Max RGB</quote> options"
+msgstr ""
+"<quote>Image</quote> മെനു"
+
+#: src/menus/colors/max_rgb.xml:76(term)
+msgid "Preview"
+msgstr ""
+"പ്രിവ്യൂ"
+
+#: src/menus/colors/max_rgb.xml:78(para)
+msgid ""
+"This preview displays, in real time, the resulting image after treatment by "
+"filter."
+msgstr ""
+"ഈ പ്രിവ്യൂ ഡിസ്പ്ലേകൾ തത്സമയം, ഫിൽറ്റർ ചികിത്സ ശേഷം ഫലമായുണ്ടാകുന്ന ചിത്രം."
+
+#: src/menus/colors/max_rgb.xml:85(term)
+#, fuzzy
+msgid "Parameter Settings"
+msgstr ""
+"പ്രിന്റർ ക്രമീകരണങ്ങൾ"
+
+#: src/menus/colors/max_rgb.xml:87(para)
+msgid ""
+"<guilabel>Hold the maximal channels</guilabel>: For every pixel, the filter "
+"keeps intensity of the RGB color channel which has the maximal intensity and "
+"reduces other both to zero. For example: 220, 158, 175 max--&gt; 220, 0, 0. "
+"If two channels have same intensity, both are held: 210, 54, 210 max--&gt; "
+"210, 0, 210."
+msgstr ""
+"<guilabel>Hold the maximal channels</guilabel>: ഓരോ പിക്സലിനായുള്ള, അരിപ്പ"
+" പരമാവധി തീവ്രത ഉണ്ട് പൂജ്യമായി രണ്ടും മറ്റ് കുറയുന്നു ആർജിബി നിറങ്ങളുടെ ചാ"
+"നൽ തീവ്രത സൂക്ഷിക്കുന്നു. ഉദാഹരണത്തിന്: 220, 158, 175 max-- &gt; 220, 0, 0 "
+"രണ്ട് ചാനലുകൾ ഒരേ തീവ്രത ഉണ്ടെങ്കിൽ, രണ്ടും നടക്കാറുണ്ട്: 210, 54, 210 max-"
+"- &gt; 210, 0, 210."
+
+#: src/menus/colors/max_rgb.xml:94(para)
+msgid ""
+"<guilabel>Hold the minimal channels</guilabel>: For every pixel, the filter "
+"keeps intensity of the RGB color channel which has the minimal intensity and "
+"reduce both others to zero. For example: 220, 158, 175 min--&gt; 0, 158, 0. "
+"If two minimal channels have same intensity, both are held: 210, 54, 54 min--"
+"&gt; 0, 54, 54."
+msgstr ""
+"<guilabel>Hold the minimal channels</guilabel>: ഓരോ പിക്സലിനായുള്ള, അരിപ്പ"
+" മിനിമൽ തീവ്രത ഉണ്ട് പൂജ്യമായി രണ്ടും മറ്റുള്ളവരെ കുറയ്ക്കുക ആർജിബി നിറങ്ങള"
+"ുടെ ചാനൽ തീവ്രത സൂക്ഷിക്കുന്നു. ഉദാഹരണത്തിന്: 210, 54, 54 min-- &gt; 0, 54,"
+" 54: 220, 158, 175 min-- &gt; 0 158, 0. രണ്ടു വൈകല്യം ചാനലുകൾ രണ്ടും നടക്കാ"
+"റുണ്ട്, ഒരേ തീവ്രത ഞങ്ങൾക്കുണ്ട്."
+
+#: src/menus/colors/max_rgb.xml:102(para)
+msgid ""
+"Grey levels are not changed since light intensity is the same in all three "
+"channels."
+msgstr ""
+"നേരിയ തീവ്രത മൂന്ന് ചാനലുകളിൽ ഒരേ മുതൽ ഗ്രേ അളവ് മാറില്ല."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/vinvert.xml:40(None)
+msgid ""
+"@@image: 'images/filters/examples/color-taj-vinvert.jpg'; "
+"md5=3e9b3262d1fa3cf82bfbb184e749fdd2"
+msgstr ""
+"@@image: 'images/filters/examples/color-taj-vinvert.jpg'; "
+"md5=3e9b3262d1fa3cf82bfbb184e749fdd2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/vinvert.xml:70(None)
+msgid ""
+"@@image: 'images/filters/examples/cosmos-1.png'; "
+"md5=e4c5e9491e1f5e54b90617e72188df0d"
+msgstr ""
+"@@image: 'images/filters/examples/cosmos-1.png'; "
+"md5=e4c5e9491e1f5e54b90617e72188df0d"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/vinvert.xml:79(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/filters/examples/invert.png'; "
+"md5=373a21f80c3481623de19c105e2f9440"
+msgstr ""
+"@@image: 'images/menus/windows.png'; md5=13c6b14871d3818165be232dda179015"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/vinvert.xml:88(None)
+msgid ""
+"@@image: 'images/filters/examples/invertx2.png'; "
+"md5=1f4a91861cd5fe98d86237440242dfb8"
+msgstr ""
+"@@image: 'images/filters/examples/invertx2.png'; "
+"md5=1f4a91861cd5fe98d86237440242dfb8"
+
+#: src/menus/colors/vinvert.xml:14(title)
+#: src/menus/colors/vinvert.xml:18(secondary)
+#: src/menus/colors/vinvert.xml:21(primary)
+msgid "Value Invert"
+msgstr ""
+"മൂല്യം വിപരീതം"
+
+#: src/menus/colors/vinvert.xml:27(title)
+msgid "Example for the <quote>Value invert</quote> filter"
+msgstr ""
+"<quote>Value invert</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/menus/colors/vinvert.xml:43(para)
+#, fuzzy
+msgid "<quote>Value Invert</quote> applied"
+msgstr ""
+"<quote>Layer</quote> മെനു"
+
+#: src/menus/colors/vinvert.xml:47(para)
+msgid ""
+"This filter inverts Value (luminosity) of the active layer or selection. Hue "
+"and Saturation will not be affected, although the color will sometimes be "
+"slightly different because of round-off error. If you want to invert Hue and "
+"Saturation also, use <menuchoice><guimenu>Colors</"
+"guimenu><guimenuitem>Invert</guimenuitem></menuchoice>."
+msgstr ""
+"ഈ ഫിൽട്ടർ inverts മൂല്യം സജീവ അല്ലെങ്കിൽ പാളി തിരഞ്ഞെടുപ്പിന്റെ (തേജസ്സ്). "
+"നിറം ചിലപ്പോൾ കാരണം ചുറ്റും ഓഫ് പിശക് ചെറുതായി വ്യത്യസ്തമായിരിക്കും ആണെങ്ക"
+"ിലും ഹ്യൂയേ ആൻഡ് സാച്ചുറേഷൻ, ബാധിക്കില്ല. നിങ്ങൾക്ക് ഹ്യൂയേ ആൻഡ് സാന്ദ്രീകര"
+"ണം വിപരീത ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, <menuchoice><guimenu>Colors</guimenu><gu"
+"imenuitem>Invert</guimenuitem></menuchoice> ഉപയോഗിക്കുക."
+
+#: src/menus/colors/vinvert.xml:57(para)
+msgid ""
+"Note that hue and saturation can be distorted quite a bit when applying "
+"twice this filter for colors with a high luminosity (for instance, HSV "
+"102°,100%, 98%, a bright green, gives HSV 96°, 100%, 2% after a first "
+"application of the filter , and 96°, 100%, 98% after a second application). "
+"Thus, you should not expect to be able to apply this filter twice in a row "
+"and get back the image you started with."
+msgstr ""
+"100%, 98%, ഒരു ശോഭയുള്ള പച്ച, HSV 96 ° നൽകുന്നു, ഉയർന്ന പ്രതല (ഉദാഹരണത്തിന"
+"്, HSV 102 ° ഉപയോഗിച്ച് വർണ്ണങ്ങൾ രണ്ടുതവണ ഈ ഫിൽട്ടർ പ്രയോഗിക്കുമ്പോൾ ആ "
+"ചെഞ്ചായം ആൻഡ് സാച്ചുറേഷൻ അൽപ്പം രൂപഭേദം കഴിയും കുറിപ്പ് 100% 2% അരിപ്പ ഒരു "
+"ആദ്യ അപ്ലിക്കേഷൻ, 96 °, 100% രണ്ടാം പ്രയോഗം ശേഷം 98%) ശേഷം. അതിനാൽ, നിങ്ങൾ"
+" തുടർച്ചയായി ഈ ഫിൽട്ടർ അപേക്ഷിക്കാൻ കഴിയില്ല നിങ്ങളുമായി ആരംഭിച്ചു ചിത്രം ത"
+"ിരികെ നേടുകയും പ്രതീക്ഷിക്കാൻ പാടില്ല."
+
+#: src/menus/colors/vinvert.xml:66(title)
+msgid "Example of using this filter twice"
+msgstr ""
+"രണ്ടുവട്ടം ഈ ഫിൽട്ടർ ഉപയോഗിച്ച് ഉദാഹരണം"
+
+#: src/menus/colors/vinvert.xml:82(para)
+#, fuzzy
+msgid "First application of the filter"
+msgstr ""
+"ഈ ചിത്രത്തിന്റെ തനിപ്പകർപ്പ് സൃഷ്ടിക്കുക"
+
+#: src/menus/colors/vinvert.xml:91(para)
+msgid ""
+"Second application: the image is not exactly the same as the original one."
+msgstr ""
+"രണ്ടാമത്തേത് അപ്ലിക്കേഷൻ: ചിത്രം ഒറിജിനലിനെ പോലെ കൃത്യമായി ഒരേ അല്ല."
+
+#: src/menus/colors/vinvert.xml:102(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menu bar through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Value Invert</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/colortoalpha.xml:34(None)
+msgid ""
+"@@image: 'images/filters/examples/color-taj-colortoalpha.jpg'; "
+"md5=4dfa8d777feeb8a44efae75ef8c83dad"
+msgstr ""
+"@@image: 'images/filters/examples/color-taj-colortoalpha.jpg'; "
+"md5=4dfa8d777feeb8a44efae75ef8c83dad"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/colortoalpha.xml:71(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/colortoalpha.png'; "
+"md5=b3de7edeea44ec4730f78ff3c33f3bc6"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#: src/menus/colors/colortoalpha.xml:16(title)
+msgid "Color to Alpha"
+msgstr ""
+"ആൽഫയിലേക്ക് വർണ്ണം"
+
+#: src/menus/colors/colortoalpha.xml:21(title)
+#, fuzzy
+msgid "Example for <quote>Color to Alpha</quote>"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/colors/colortoalpha.xml:37(para)
+msgid "<quote>Color to Alpha</quote> applied on blue areas"
+msgstr ""
+"<quote>Color to Alpha</quote> നീല ഭാഗങ്ങൾ ന് പ്രയോഗിച്ചു"
+
+#: src/menus/colors/colortoalpha.xml:42(para)
+msgid ""
+"The Color to Alpha command makes transparent all pixels of the active layer "
+"that have a selected color. An Alpha channel is created. It will attempt to "
+"preserve anti-aliasing information by using a partially intelligent routine "
+"that replaces weak color information with weak alpha information. In this "
+"way, areas that contain an element of the selected color will maintain a "
+"blended appearance with their surrounding pixels."
+msgstr ""
+"ആൽഫാ കമാൻഡ് നിറം ഒരു തിരഞ്ഞെടുത്ത ലഭിച്ചുവോ എന്ന് സജീവ പാളി സുതാര്യ എല്ലാ "
+"പിക്സലുകൾ ചെയ്യുന്നു. ആൽഫാ ചാനൽ സൃഷ്ടിക്കപ്പെട്ടാൽ. ഇത് ദുർബലമായ ആൽഫ വിവരങ്"
+"ങൾ ഉപയോഗിച്ച് ദുർബലമായ നിറം വിവരങ്ങൾ പകരം ഒരു ഭാഗികമായും ബുദ്ധിയുള്ള പതിവ്"
+" ഉപയോഗിച്ച് ആന്റി-അലിയാസിങ് വിവരങ്ങൾ പരിപാലിക്കും ശ്രമിക്കും. ഈ രീതിയിൽ, ത"
+"ിരഞ്ഞെടുത്ത നിറം ഒരു ഘടകത്തെ അടങ്ങിയിരിക്കുന്ന പ്രദേശങ്ങൾ അവരുടെ ചുറ്റുമുള്"
+"ള പിക്സൽ ഒരു സവാളും ഭാവം തെളിയിക്കും."
+
+#: src/menus/colors/colortoalpha.xml:55(para)
+#, fuzzy
+msgid ""
+"This filter is found in the image window menu under "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Color to Alpha</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/colors/colortoalpha.xml:67(title)
+msgid "<quote>Color to Alfa</quote> command options"
+msgstr ""
+"<quote>Color to Alfa</quote> കമാൻഡ് ഓപ്ഷനുകൾ"
+
+#: src/menus/colors/colortoalpha.xml:77(term)
+msgid "Color"
+msgstr ""
+"വർണ്ണ"
+
+#: src/menus/colors/colortoalpha.xml:79(para)
+msgid ""
+"Clicking on the <guilabel>From</guilabel> color swatch provides a color "
+"selection dialog where you can select a color. If selection of a precise "
+"color is required, use the Color Picker then drag and drop the selected "
+"color from the color picker to the From color swatch. Right clicking on the "
+"color will display a menu where you can select Foreground or Background "
+"colors, White or Black."
+msgstr ""
+"<guilabel>From</guilabel> നിറം Swatch ക്ലിക്കുചെയ്താൽ ഒരു വർണ്ണം തിരഞ്ഞെടുക"
+"്കുക കഴിയുന്ന ഒരു കളർ നിരക്കു ഡയലോഗ് ലഭ്യമാക്കുന്നു. എങ്കിൽ ഒരു കൃത്യമായ ന"
+"ിറം നിരക്കു ആവശ്യമാണ്, കളർ പിക്കറിലെ തുടർന്ന് നിന്ന് വർണ്ണം Swatch നിറം പിക"
+"്കറിൽ നിന്ന് ഡ്രാഗ് തിരഞ്ഞെടുത്ത വർണ്ണ ഡ്രോപ്പ് ഉപയോഗിക്കുക. വലത് നിറം മേ"
+"ലെ ക്ലിക്ക് മുൻവശം അല്ലെങ്കിൽ പശ്ചാത്തല വർണങ്ങൾ, വൈറ്റ് അല്ലെങ്കിൽ ബ്ലാക്ക്"
+" തിരഞ്ഞെടുക്കുക കഴിയുന്ന ഒരു മെനു പ്രദർശിപ്പിക്കും."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/introduction.xml:14(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors.png'; md5=287a7ff33290afedacbeb003ee2a2c6a"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#: src/menus/colors/introduction.xml:8(title)
+#, fuzzy
+msgid "Introduction to the <quote>Colors</quote> Menu"
+msgstr ""
+"<quote>Tools</quote> മെനു ആമുഖം"
+
+#: src/menus/colors/introduction.xml:11(title)
+#, fuzzy
+msgid "Contents of the <quote>Colors</quote> Menu"
+msgstr ""
+"<quote>Tools</quote> മെനു ഉള്ളടക്കം"
+
+#: src/menus/colors/introduction.xml:18(para)
+msgid ""
+"This section describes the <menuchoice><guimenu>Colors</guimenu></"
+"menuchoice> menu, which contains commands that affect the color of the image."
+msgstr ""
+"ഈ ഭാഗത്ത് ചിത്രം നിറം ബാധിക്കുന്ന കമാൻഡുകൾ അടങ്ങുന്ന <menuchoice><guimenu>C"
+"olors</guimenu></menuchoice> മെനു, വിവരിക്കുന്നു."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/colorify.xml:42(None)
+msgid ""
+"@@image: 'images/filters/examples/color-taj-colorify.jpg'; "
+"md5=f2873685c68b432f097eeaadb557c2ac"
+msgstr ""
+"@@image: 'images/filters/examples/color-taj-colorify.jpg'; "
+"md5=f2873685c68b432f097eeaadb557c2ac"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/colorify.xml:83(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/colorify.png'; "
+"md5=60d13bdbe4c2aba0dd14c6c084b3fd05"
+msgstr ""
+"@@image: 'images/menus/windows.png'; md5=13c6b14871d3818165be232dda179015"
+
+#: src/menus/colors/colorify.xml:16(title)
+#: src/menus/colors/colorify.xml:20(secondary)
+#: src/menus/colors/colorify.xml:23(primary)
+msgid "Colorify"
+msgstr "Colourify"
+
+#: src/menus/colors/colorify.xml:29(title)
+#, fuzzy
+msgid "Example for the <quote>Colorify</quote> filter"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/colors/colorify.xml:45(para)
+#, fuzzy
+msgid "Filter <quote>Colorify</quote> applied"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/colors/colorify.xml:49(para)
+msgid ""
+"This filter renders a greyscaled image like it is seen through a colored "
+"glass."
+msgstr ""
+"ഈ ഫിൽട്ടർ അത് ഒരു നിറമുള്ള ഗ്ലാസ് വഴി കാണുന്ന പോലെ ഒരു greyscaled ചിത്രം റ"
+"െൻഡർ."
+
+#: src/menus/colors/colorify.xml:53(para)
+msgid ""
+"For every pixel, the filter computes a weighted average value of the RGB "
+"channels (this is equivalent to <link linkend=\"gimp-tool-desaturate"
+"\">desaturating</link> the image based on <link linkend=\"gimp-tool-"
+"desaturate-luminosity\">Luminosity</link>). The resulted color is the "
+"product of this average value and the <quote>colorify color</quote>."
+msgstr ""
+"ഓരോ പിക്സലിനായുള്ള, അരിപ്പ RGB ചാനലുകൾ ശരാശരി മൂല്യം കണക്കാക്കുന്നു (ഈ <li"
+"nk linkend=\"gimp-tool- desaturate-luminosity\">Luminosity</link> അടിസ്ഥാനമ"
+"ാക്കി ചിത്രം <link linkend=\"gimp-tool-desaturate \">desaturating</link> തു"
+"ല്യമാണ്). കാരണമായി നിറം ഈ ശരാശരി മൂല്യം <quote>colorify color</quote> ഗുണിച"
+"്ചു."
+
+#: src/menus/colors/colorify.xml:61(para)
+msgid "Hence, this filter works only on images in RGB mode."
+msgstr ""
+"അതുകൊണ്ട് ഈ ഫിൽട്ടർ മാത്രം ആർജിബി മോഡിൽ ചിത്രങ്ങൾ പ്രവർത്തിക്കുന്നു."
+
+#: src/menus/colors/colorify.xml:68(para)
+#, fuzzy
+msgid ""
+"This filter is found in the image window menu under "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Colorify</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/colors/colorify.xml:80(title)
+#, fuzzy
+msgid "<quote>Colorify</quote> filter options"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/colors/colorify.xml:87(para)
+msgid ""
+"A color palette is available containing especially the <link linkend="
+"\"glossary-rgb\">RGB</link> colors Red, Green, Blue and the <link linkend="
+"\"glossary-cmyk\">CMY</link> colors Cyan, Magenta, Yellow."
+msgstr ""
+"ഒരു നിറം പാലറ്റ് പ്രത്യേകിച്ച് <link linkend=\"glossary-rgb\">RGB</link> നി"
+"റങ്ങൾ റെഡ്, ഗ്രീൻ, ബ്ലൂ, <link linkend=\"glossary-cmyk\">CMY</link> നിറങ്ങൾ"
+" സിയാൻ, മജന്ത, മഞ്ഞ അടങ്ങുന്ന ലഭ്യമാണ്."
+
+#: src/menus/colors/colorify.xml:92(para)
+msgid ""
+"You can select your own color by clicking on the <guilabel>Custom Color</"
+"guilabel> swatch."
+msgstr ""
+"നിങ്ങൾ <guilabel>Custom Color</guilabel> Swatch ക്ലിക്കുചെയ്ത് നിങ്ങളുടേതായ"
+" നിറങ്ങളും തിരഞ്ഞെടുക്കാം."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/info.xml:16(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/info.png'; md5=42a4ab20877563d4eff25054bf845e46"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#: src/menus/colors/info.xml:9(title)
+#, fuzzy
+msgid "The <quote>Info</quote> Submenu"
+msgstr ""
+"<quote>Windows</quote> മെനു"
+
+#: src/menus/colors/info.xml:13(title)
+#, fuzzy
+msgid "The <quote>Info</quote> submenu"
+msgstr ""
+"<quote>Windows</quote> മെനു"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/auto.xml:23(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/auto.png'; md5=f18ce5a80b05eadb3e8116a4b8e19392"
+msgstr ""
+"@@image: 'images/menus/tab-menu-button.png'; "
+"md5=a667dbce5e1dabe9abee73ea41859d31"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/auto.xml:88(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/auto/alice.png'; "
+"md5=a33d190d14dbff2cc22559afe586614b"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/auto.xml:107(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/auto/equalize.png'; "
+"md5=2000746549b6f65af80e17d64ff69021"
+msgstr ""
+"@@image: 'images/menus/detached-submenu.png'; "
+"md5=8746ad151b99ae854ff6248044c735c2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/auto.xml:124(None)
+msgid ""
+"@@image: 'images/menus/colors/auto/white-balance.png'; "
+"md5=047e4fec700babd6f8a2f9a3be6b8c6f"
+msgstr ""
+"@@image: 'images/menus/colors/auto/white-balance.png'; "
+"md5=047e4fec700babd6f8a2f9a3be6b8c6f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/auto.xml:143(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/auto/color-enhance.png'; "
+"md5=2f419878c979c9438078646bd21d8f53"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/auto.xml:161(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/auto/normalize.png'; "
+"md5=4465af0091f3e4475ac0ee38959197cb"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/auto.xml:180(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/auto/c-stretch.png'; "
+"md5=7af9a55590071580eef4731b51cef312"
+msgstr ""
+"@@image: 'images/menus/tools.png'; md5=4555937272c30673b479bfe34a5a8267"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/auto.xml:199(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/auto/stretch-hsv.png'; "
+"md5=fb016a380256c6bbf3a302281a432904"
+msgstr "@@image: 'images/menus/help.png'; md5=166c3b733e8d1c03b26206812c7c44a9"
+
+#: src/menus/colors/auto.xml:12(title)
+#, fuzzy
+msgid "The <quote>Auto</quote> Submenu"
+msgstr ""
+"<quote>Edit</quote> മെനു"
+
+#: src/menus/colors/auto.xml:16(secondary)
+msgid "Auto"
+msgstr ""
+"ഓട്ടോ"
+
+#: src/menus/colors/auto.xml:20(title)
+#, fuzzy
+msgid "The <quote>Colors/Auto</quote> submenu"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/colors/auto.xml:27(para)
+msgid ""
+"The <guimenuitem>Auto</guimenuitem> submenu contains operations which "
+"automatically adjust the distribution of colors in the active layer, without "
+"requiring any input from the user. Several of these operations are actually "
+"implemented as plugins."
+msgstr ""
+"<guimenuitem>Auto</guimenuitem> ഉപമെനുവുണ്ട് സ്വയം ഉപയോക്താവിൽ നിന്ന് യാതെ"
+"ാരു ഇൻപുട്ട് ആവശ്യമില്ലാതെ, സജീവ പാളിയായി നിറങ്ങൾ വിതരണം ക്രമീകരിക്കാൻ ഏത് "
+"ഓപ്പറേഷൻസ് അടങ്ങിയിരിക്കുന്നു. ഈ പ്രവർത്തനങ്ങൾ പല യഥാർത്ഥത്തിൽ പ്ലഗിന്നുകളാ"
+"യി പ്രാവർത്തികമാക്കിയാൽ."
+
+#: src/menus/colors/auto.xml:35(title)
+msgid "Activate submenu"
+msgstr ""
+"ഉപമെനുവുണ്ട് സജീവമാക്കുക"
+
+#: src/menus/colors/auto.xml:38(para)
+#, fuzzy
+msgid ""
+"You can access this submenu from the image window through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Auto</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/colors/auto.xml:50(title)
+#, fuzzy
+msgid "Automatic Color-Stretching"
+msgstr ""
+"ഓട്ടോ-കിടക്കുന്നു HSV"
+
+#: src/menus/colors/auto.xml:53(secondary)
+#, fuzzy
+msgid "Stretching"
+msgstr ""
+"പരത്തുക"
+
+#: src/menus/colors/auto.xml:56(para)
+msgid ""
+"<acronym>GIMP</acronym> has several automatic commands for stretching the "
+"columns of the histogram for the color channels of the active layer. By "
+"pushing bright pixels to the right and dark pixels to the left, they make "
+"bright pixels brighter and dark pixels darker, which enhances the contrast "
+"in the layer."
+msgstr ""
+"<acronym>GIMP</acronym> സജീവ പാളി നിറം ചാനലുകൾക്കായി ഹിസ്റ്റോഗ്രാം നിരകൾ ന"
+"ീട്ടിവെച്ചിരിക്കുകയാണ് നിരവധി ഓട്ടോമാറ്റിക്ക് ആജ്ഞകൾ ഉണ്ട്. ഇടത് അവകാശം ഇര"
+"ുണ്ട പിക്സൽ ശോഭയുള്ള പിക്സൽ അമർത്തി അവർ പാളി തീവ്രത വർദ്ധിപ്പിക്കുകയും ശോ"
+"ഭിക്കുന്നതു പിക്സൽ തുനിയാതെ ഇരുണ്ട പിക്സൽ ഇരുണ്ട ഉണ്ടാക്കുക."
+
+#: src/menus/colors/auto.xml:63(para)
+msgid ""
+"Some of the commands stretch the three color channels equally, so that the "
+"hues are not changed. Other commands stretch each of the color channels "
+"separately, which changes the hues."
+msgstr ""
+"ചിലത് അങ്ങനെ വർണങ്ങളിൽ മാറ്റിയിട്ടില്ല, തുല്യ മൂന്ന് നിറം ചാനലുകൾ നീട്ടി. മ"
+"റ്റു കമാൻഡുകൾ വർണങ്ങളുള്ള മാറ്റുന്ന ഏത് വെവ്വേറെ നിറം ചാനലുകൾ ഓരോ നീട്ടി."
+
+#: src/menus/colors/auto.xml:68(para)
+msgid ""
+"The way the stretching is done varies with the different commands and the "
+"results look different. It is not easy to predict exactly what each command "
+"will do. If you know exactly what you are doing, you can get the same "
+"results, and even more, with the <link linkend=\"gimp-tool-levels\">Levels</"
+"link> tool."
+msgstr ""
+"നീട്ടിവെച്ചിരിക്കുകയാണ് നടക്കുന്ന വഴി വിവിധ വ്യത്യാസപ്പെടുന്നു ഫലങ്ങളും വിവ"
+"ിധ നോക്കി. ഓരോ കമാൻഡ് ചെയ്യും കൃത്യമായി പ്രവചിക്കാൻ എളുപ്പമല്ല. നിങ്ങൾ ചെ"
+"യ്യുന്നതെന്ന് കൃത്യമായി അറിയാമെങ്കിൽ, അതേ ഫലങ്ങള് കൂടുതൽ, <link linkend=\"g"
+"imp-tool-levels\">Levels</link> ഉപകരണം ഉപയോഗിച്ച് നേടുക, കഴിയും."
+
+#: src/menus/colors/auto.xml:75(para)
+msgid ""
+"Here are examples of the results of these commands, all together on one "
+"page, so you can compare them more easily. The most appropriate command "
+"depends upon your image, so you should try each of them to see which command "
+"works best on it."
+msgstr ""
+"ഇവിടെ ഒറ്റ പേജിൽ ഒന്നിച്ച്, ഈ കമാൻഡുകൾ ഫലങ്ങൾ ഉദാഹരണങ്ങളാണ്, അതിനാൽ നിങ്ങൾ "
+"കൂടുതൽ എളുപ്പത്തിൽ താരതമ്യം ചെയ്യാം. ഏറ്റവും ഉചിതമായ കമാൻഡ് നിങ്ങളുടെ ചിത്ര"
+"ം ആശ്രയിച്ചിരിക്കുന്നു, അതിനാൽ എന്താണ് കൽപിച്ചരുളേണ്ടതെന്ന് അത് മികച്ച പ്രവ"
+"ർത്തിക്കുന്നു കാണാൻ അവരിൽ ഓരോ ശ്രമിക്കണം."
+
+#: src/menus/colors/auto.xml:84(title)
+msgid "The original layer and its histograms"
+msgstr ""
+"യഥാർത്ഥ പാളി അതിന്റെ histograms"
+
+#: src/menus/colors/auto.xml:91(para)
+msgid ""
+"This layer doesn't have any very bright or very dark pixels, so it works "
+"well with these commands."
+msgstr ""
+"ഈ പാളിയിൽ ഏതെങ്കിലും വളരെ ശോഭയുള്ള അല്ലെങ്കിൽ വളരെ ഇരുണ്ട പിക്സൽ ഇല്ല, അങ്"
+"ങനെ അത് ഈ കമാൻഡുകൾ നല്ലവണ്ണം പ്രവർത്തിക്കുന്നു."
+
+#: src/menus/colors/auto.xml:101(title)
+msgid "The <link linkend=\"gimp-layer-equalize\">Equalize</link> command"
+msgstr ""
+"<link linkend=\"gimp-layer-equalize\">Equalize</link> കമാൻഡ്"
+
+#: src/menus/colors/auto.xml:110(para)
+#, fuzzy
+msgid "<quote>Equalize</quote> example"
+msgstr ""
+"<quote>Edit</quote> മെനു"
+
+#: src/menus/colors/auto.xml:117(title)
+msgid ""
+"The <link linkend=\"gimp-layer-white-balance\">White Balance</link> command"
+msgstr ""
+"<link linkend=\"gimp-layer-white-balance\">White Balance</link> കമാൻഡ്"
+
+#: src/menus/colors/auto.xml:127(para)
+#, fuzzy
+msgid "<quote>White Balance</quote> example"
+msgstr ""
+"<quote>File</quote> മെനു"
+
+#: src/menus/colors/auto.xml:136(title)
+msgid ""
+"The <link linkend=\"plug-in-color-enhance\">Color Enhance</link> command"
+msgstr ""
+"<link linkend=\"plug-in-color-enhance\">Color Enhance</link> കമാൻഡ്"
+
+#: src/menus/colors/auto.xml:146(para)
+#, fuzzy
+msgid "<quote>Color Enhance</quote> example"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/colors/auto.xml:155(title)
+msgid "The <link linkend=\"plug-in-normalize\">Normalize</link> command"
+msgstr ""
+"<link linkend=\"plug-in-normalize\">Normalize</link> കമാൻഡ്"
+
+#: src/menus/colors/auto.xml:164(para)
+#, fuzzy
+msgid "<quote>Normalize</quote> example"
+msgstr ""
+"<quote>Image</quote> മെനു"
+
+#: src/menus/colors/auto.xml:173(title)
+msgid ""
+"The <link linkend=\"plug-in-c-astretch\">Stretch Contrast</link> command"
+msgstr ""
+"<link linkend=\"plug-in-c-astretch\">Stretch Contrast</link> കമാൻഡ്"
+
+#: src/menus/colors/auto.xml:183(para)
+#, fuzzy
+msgid "<quote>Stretch Contrast</quote> example"
+msgstr ""
+"<quote>Select</quote> മെനു"
+
+#: src/menus/colors/auto.xml:192(title)
+msgid ""
+"The <link linkend=\"plug-in-autostretch-hsv\">Stretch HSV</link> command"
+msgstr ""
+"<link linkend=\"plug-in-autostretch-hsv\">Stretch HSV</link> കമാൻഡ്"
+
+#: src/menus/colors/auto.xml:202(para)
+#, fuzzy
+msgid "<quote>Stretch HSV</quote> example"
+msgstr ""
+"<quote>Select</quote> മെനു"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/invert.xml:61(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/invert-1.png'; "
+"md5=d7aff6f9d44746ad586a8848ee630f22"
+msgstr "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/colors/invert.xml:69(None)
+#, fuzzy
+msgid ""
+"@@image: 'images/menus/colors/invert-2.png'; "
+"md5=633e816d667a71710ef2a8bf7c964d49"
+msgstr "@@image: 'images/menus/help.png'; md5=166c3b733e8d1c03b26206812c7c44a9"
+
+#: src/menus/colors/invert.xml:12(title)
+#: src/menus/colors/invert.xml:16(secondary)
+msgid "Invert"
+msgstr ""
+"വിപരീതം"
+
+#: src/menus/colors/invert.xml:19(primary)
+#, fuzzy
+msgid "Invert colors"
+msgstr ""
+"നിറങ്ങൾ വിപരീതം"
+
+#: src/menus/colors/invert.xml:22(para)
+msgid ""
+"The <guimenuitem>Invert</guimenuitem> command inverts all the pixel colors "
+"and brightness values in the current layer, as if the image were converted "
+"into a negative. Dark areas become bright and bright areas become dark. Hues "
+"are replaced by their complementary colors. For more information about "
+"colors, see the Glossary entry about <link linkend=\"glossary-colormodel"
+"\">Color Model</link>."
+msgstr ""
+"<guimenuitem>Invert</guimenuitem> കമാൻഡ് ചിത്രം ഒരു നെഗറ്റീവ് പരിവർത്തനം പേ"
+"ാലെ, നിലവിലെ പാളി എല്ലാ പിക്സൽ നിറങ്ങളും തെളിച്ചം മൂല്യങ്ങൾ inverts. ഇരുണ്ട"
+" പ്രദേശങ്ങൾ ശോഭയുള്ള ചുറ്റിത്തിരിയുന്ന പ്രദേശങ്ങൾ ഇരുണ്ടുപോകും തീർന്നിരിക"
+"്കുന്നു. ഹ്യൂസ് അവരുടെ പരസ്പരപൂരകങ്ങളാണ് നിറങ്ങൾ പകരം. നിറങ്ങൾ കുറിച്ച് കൂട"
+"ുതൽ വിവരങ്ങൾക്ക്, <link linkend=\"glossary-colormodel \">Color Model</link>"
+" കുറിച്ച് ഗ്ലോസ്സറി കാണും."
+
+#: src/menus/colors/invert.xml:32(para)
+msgid ""
+"This command only works on layers of RGB and Grayscale images. If the "
+"current image is Indexed, the menu entry is insensitive and grayed out."
+msgstr ""
+"ഈ കമാൻഡ് മാത്രമേ ആർജിബി ആൻഡ് ഗ്രേസ്കെയിൽ ചിത്രങ്ങൾ പാളികൾ പ്രവർത്തിക്കുന്നു"
+". നിലവിലെ ചിത്രം ഇൻഡെക്സ് എങ്കിൽ, മെനു എൻട്രി കൈമാറ്റം ചെയ്ത് ആവശ്യം തന്നെയ"
+"ാണ്."
+
+#: src/menus/colors/invert.xml:38(para)
+msgid ""
+"Do not confuse this command with the <link linkend=\"gimp-selection-invert"
+"\">Invert Selection</link> command."
+msgstr ""
+"<link linkend=\"gimp-selection-invert \">Invert Selection</link> കമാൻഡ് ഉപയ"
+"ോഗിച്ച് ഇത് കമാൻഡ് ആശയക്കുഴപ്പമുണ്ടാക്കരുത്."
+
+#: src/menus/colors/invert.xml:45(title)
+#, fuzzy
+msgid "Activate the Command"
+msgstr ""
+"കമാൻഡ് സജീവമാക്കുന്നു"
+
+#: src/menus/colors/invert.xml:46(para)
+#, fuzzy
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Invert</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"നിങ്ങൾ ഇമേജ് മെനുബാർ നിന്ന് <menuchoice><guimenu>Windows</guimenu><guimenui"
+"tem>Dockable Dialogs</guimenuitem></menuchoice> മുഖേന ഈ കമാൻഡ് ആക്സസ് ചെയ്യ"
+"ാൻ കഴിയും"
+
+#: src/menus/colors/invert.xml:56(title)
+#, fuzzy
+msgid "Example"
+msgstr ""
+"സാമ്പിൾ:"
+
+#: src/menus/colors/invert.xml:58(title)
+#, fuzzy
+msgid "Applying <quote>Invert colors</quote>"
+msgstr ""
+"<quote>Colors</quote> മെനു"
+
+#: src/menus/colors/invert.xml:72(para)
+#, fuzzy
+msgid "After the colors were inverted"
+msgstr ""
+"ഒരു പാലറ്റ് വർണ്ണങ്ങൾ ഓഫ്സെറ്റ്"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/colors/invert.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"
+
+#~ msgid "Menus"
+#~ msgstr "Menus"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/windows/dockable-dialogs.png'; "
+#~ "md5=6f795d821ab2dc388b7aed62a94a6ad5"
+#~ msgstr ""
+#~ "@@image: 'images/menus/windows/dockable-dialogs.png'; "
+#~ "md5=6f795d821ab2dc388b7aed62a94a6ad5"
+
+#~ msgid "The <quote>Dockable Dialogs</quote> submenu"
+#~ msgstr "The <quote>Dockable Dialogs</quote> submenu"
+
+#~ msgid "Docks"
+#~ msgstr "Docks"
+
+#~ msgid "List of dockable dialogs"
+#~ msgstr "List of dockable dialogs"
+
+#~ msgid "The <quote>Dockable Dialogs</quote> list"
+#~ msgstr "The <quote>Dockable Dialogs</quote> list"
+
+#~ msgid ""
+#~ "This command opens the list of the dialog windows you can open and dock. "
+#~ "Please see <link linkend=\"gimp-concepts-docks\">Dialogs and Docking</"
+#~ "link>."
+#~ msgstr ""
+#~ "This command opens the list of the dialog windows you can open and dock. "
+#~ "Please see <link linkend=\"gimp-concepts-docks\">Dialogs and Docking</"
+#~ "link>."
+
+#~ msgid ""
+#~ "All these dialogs are described in <link linkend=\"gimp-dialogs-"
+#~ "introduction\">Different dialogs description</link>."
+#~ msgstr ""
+#~ "All these dialogs are described in <link linkend=\"gimp-dialogs-"
+#~ "introduction\">Different dialogs description</link>."
+
+#~ msgid "Selection"
+#~ msgstr "Selection"
+
+#~ msgid "Introduction to the <quote>Select</quote> Menu"
+#~ msgstr "Introduction to the <quote>Select</quote> Menu"
+
+#~ msgid ""
+#~ "This section explains the commands on the <guimenu>Select</guimenu> menu "
+#~ "of the image menubar."
+#~ msgstr ""
+#~ "This section explains the commands on the <guimenu>Select</guimenu> menu "
+#~ "of the image menubar."
+
+#~ msgid ""
+#~ "Besides the commands described here, you may also find other entries in "
+#~ "the menu. They are not part of <acronym>GIMP</acronym> itself, but have "
+#~ "been added by extensions (plug-ins). You can find information about the "
+#~ "functionality of a Plugin by referring to its documentation."
+#~ msgstr ""
+#~ "Besides the commands described here, you may also find other entries in "
+#~ "the menu. They are not part of <acronym>GIMP</acronym> itself, but have "
+#~ "been added by extensions (plug-ins). You can find information about the "
+#~ "functionality of a Plugin by referring to its documentation."
+
+#~ msgid "Image window"
+#~ msgstr "Image window"
+
+#~ msgid "The <quote>Tools</quote> Menu"
+#~ msgstr "The <quote>Tools</quote> Menu"
+
+#~ msgid ""
+#~ "The menu entries on the <guimenu>Tools</guimenu> menu access the "
+#~ "<acronym>GIMP</acronym> tools. All of the tools available in "
+#~ "<acronym>GIMP</acronym> are extensively described in the <link linkend="
+#~ "\"gimp-tools\">Tools</link> section."
+#~ msgstr ""
+#~ "The menu entries on the <guimenu>Tools</guimenu> menu access the "
+#~ "<acronym>GIMP</acronym> tools. All of the tools available in "
+#~ "<acronym>GIMP</acronym> are extensively described in the <link linkend="
+#~ "\"gimp-tools\">Tools</link> section."
+
+#~ msgid "Edit"
+#~ msgstr "Edit"
+
+#~ msgid "Filters"
+#~ msgstr "Filters"
+
+#~ msgid "Introduction to the <quote>Help</quote> Menu"
+#~ msgstr "Introduction to the <quote>Help</quote> Menu"
+
+#~ msgid "Menu"
+#~ msgstr "Menu"
+
+#~ msgid "Help"
+#~ msgstr "Help"
+
+#~ msgid "Contents of the <quote>Help</quote> menu"
+#~ msgstr "Contents of the <quote>Help</quote> menu"
+
+#~ msgid ""
+#~ "The <guimenu>Help</guimenu> menu contains commands that assist you while "
+#~ "you are working with <application>GIMP</application>."
+#~ msgstr ""
+#~ "The <guimenu>Help</guimenu> menu contains commands that assist you while "
+#~ "you are working with <application>GIMP</application>."
+
+#~ msgid "Introduction to Menus"
+#~ msgstr "Introduction to Menus"
+
+#~ msgid "Introduction"
+#~ msgstr "Introduction"
+
+#~ msgid ""
+#~ "There are many places in <acronym>GIMP</acronym> where you can find "
+#~ "menus. The aim of this chapter is to explain all the commands that are "
+#~ "accessible from the image menu bar and the image menu you can get by "
+#~ "right clicking in the canvas. All the context menus and the menu entries "
+#~ "for the other dialogs are described elsewhere in the chapters that "
+#~ "describe the dialogs themselves."
+#~ msgstr ""
+#~ "There are many places in <acronym>GIMP</acronym> where you can find "
+#~ "menus. The aim of this chapter is to explain all the commands that are "
+#~ "accessible from the image menu bar and the image menu you can get by "
+#~ "right clicking in the canvas. All the context menus and the menu entries "
+#~ "for the other dialogs are described elsewhere in the chapters that "
+#~ "describe the dialogs themselves."
+
+#~ msgid "Context Menus"
+#~ msgstr "Context Menus"
+
+#~ msgid "Context menus"
+#~ msgstr "Context menus"
+
+#~ msgid ""
+#~ "If you right-click on certain parts of the <acronym>GIMP</acronym> "
+#~ "interface, a <quote>context menu</quote> opens, which leads to a variety "
+#~ "of functions. Some places where you can access context menus are:"
+#~ msgstr ""
+#~ "If you right-click on certain parts of the <acronym>GIMP</acronym> "
+#~ "interface, a <quote>context menu</quote> opens, which leads to a variety "
+#~ "of functions. Some places where you can access context menus are:"
+
+#~ msgid ""
+#~ "Clicking on an image window displays the Image menu. This is useful when "
+#~ "you are working in full-screen mode, without a menubar."
+#~ msgstr ""
+#~ "Clicking on an image window displays the Image menu. This is useful when "
+#~ "you are working in full-screen mode, without a menubar."
+
+#~ msgid ""
+#~ "Clicking on a layer in the Layers Dialog or on a channel in the Channels "
+#~ "Dialog displays functions for the selected layer or channel."
+#~ msgstr ""
+#~ "Clicking on a layer in the Layers Dialog or on a channel in the Channels "
+#~ "Dialog displays functions for the selected layer or channel."
+
+#~ msgid ""
+#~ "Right-clicking on the image menubar has the same effect as left-clicking."
+#~ msgstr ""
+#~ "Right-clicking on the image menubar has the same effect as left-clicking."
+
+#~ msgid ""
+#~ "Right-clicking on the title bar displays functions which do not belong to "
+#~ "<acronym>GIMP</acronym>, but to the window manager program on your "
+#~ "computer."
+#~ msgstr ""
+#~ "Right-clicking on the title bar displays functions which do not belong to "
+#~ "<acronym>GIMP</acronym>, but to the window manager program on your "
+#~ "computer."
+
+#~ msgid "Tear-off menus"
+#~ msgstr "Tear-off menus"
+
+#~ msgid "Tear-off line"
+#~ msgstr "Tear-off line"
+
+#~ msgid ""
+#~ "There is an interesting property associated with some of the menus in "
+#~ "<acronym>GIMP</acronym>. These are any of the menus from the Image "
+#~ "context menu you get by right-clicking on the canvas and any of its "
+#~ "submenus. (You can tell that a menu item leads to a submenu because there "
+#~ "is an <guiicon><inlinegraphic fileref=\"images/menus/icon-submenu.png\" "
+#~ "format=\"PNG\"/></guiicon> icon next to it.) When you bring up any of "
+#~ "these menus, there is a dotted line at the top of it (tear-off line). By "
+#~ "clicking on this dotted line, you detach the menu under it and it becomes "
+#~ "a separate window."
+#~ msgstr ""
+#~ "There is an interesting property associated with some of the menus in "
+#~ "<acronym>GIMP</acronym>. These are any of the menus from the Image "
+#~ "context menu you get by right-clicking on the canvas and any of its "
+#~ "submenus. (You can tell that a menu item leads to a submenu because there "
+#~ "is an <guiicon><inlinegraphic fileref=\"images/menus/icon-submenu.png\" "
+#~ "format=\"PNG\"/></guiicon> icon next to it.) When you bring up any of "
+#~ "these menus, there is a dotted line at the top of it (tear-off line). By "
+#~ "clicking on this dotted line, you detach the menu under it and it becomes "
+#~ "a separate window."
+
+#~ msgid "The <quote>windows</quote> submenu and its tear-off submenu"
+#~ msgstr "The <quote>windows</quote> submenu and its tear-off submenu"
+
+#~ msgid ""
+#~ "Tear-off menus are actually independent. They are always visible, their "
+#~ "functions always apply to the current image, and they persist when all of "
+#~ "the images are closed. You can close a tear-off submenu by clicking on "
+#~ "the dotted line again or closing the window from the window manager on "
+#~ "your computer (often by clicking on an X icon in the upper right corner "
+#~ "of the window)."
+#~ msgstr ""
+#~ "Tear-off menus are actually independent. They are always visible, their "
+#~ "functions always apply to the current image, and they persist when all of "
+#~ "the images are closed. You can close a tear-off submenu by clicking on "
+#~ "the dotted line again or closing the window from the window manager on "
+#~ "your computer (often by clicking on an X icon in the upper right corner "
+#~ "of the window)."
+
+#~ msgid "Tab menus"
+#~ msgstr "Tab menus"
+
+#~ msgid ""
+#~ "The following type of menus is not related to the image menu bar, but for "
+#~ "the sake of completeness:"
+#~ msgstr ""
+#~ "The following type of menus is not related to the image menu bar, but for "
+#~ "the sake of completeness:"
+
+#~ msgid ""
+#~ "Every <link linkend=\"gimp-concepts-docks\">dockable</link> dialog "
+#~ "contains a Tab Menu button, as highlighted below. Pressing this Tab Menu "
+#~ "button opens a special menu of tab-related operations, with an entry at "
+#~ "the top that opens into the dialog's context menu."
+#~ msgstr ""
+#~ "Every <link linkend=\"gimp-concepts-docks\">dockable</link> dialog "
+#~ "contains a Tab Menu button, as highlighted below. Pressing this Tab Menu "
+#~ "button opens a special menu of tab-related operations, with an entry at "
+#~ "the top that opens into the dialog's context menu."
+
+#~ msgid "A dockable dialog."
+#~ msgstr "A dockable dialog."
+
+#~ msgid "A dialog window with the Tab menu button highlighted."
+#~ msgstr "A dialog window with the Tab menu button highlighted."
+
+#~ msgid "The Tab menu."
+#~ msgstr "The Tab menu."
+
+#~ msgid ""
+#~ "See <xref linkend=\"gimp-dockable-menu\"/> to learn more about Tab menus."
+#~ msgstr ""
+#~ "See <xref linkend=\"gimp-dockable-menu\"/> to learn more about Tab menus."
+
+#~ msgid "File menu"
+#~ msgstr "File menu"
+
+#~ msgid "File"
+#~ msgstr "File"
+
+#~ msgid "The File menu"
+#~ msgstr "The File menu"
+
+#~ msgid "The <quote>Recently Closed Docks</quote> submenu"
+#~ msgstr "The <quote>Recently Closed Docks</quote> submenu"
+
+#~ msgid "Recently closed"
+#~ msgstr "Recently closed"
+
+#~ msgid ""
+#~ "This command opens the list of the docks you have closed recently. You "
+#~ "can reopen them by clicking on their name. Please note that isolated "
+#~ "windows are not concerned."
+#~ msgstr ""
+#~ "This command opens the list of the docks you have closed recently. You "
+#~ "can reopen them by clicking on their name. Please note that isolated "
+#~ "windows are not concerned."
+
+#~ msgid "Contents of the <quote>Windows</quote> Menu"
+#~ msgstr "Contents of the <quote>Windows</quote> Menu"
+
+#~ msgid "Without open images"
+#~ msgstr "Without open images"
+
+#~ msgid "With open images"
+#~ msgstr "With open images"
+
+#~ msgid ""
+#~ "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs. "
+#~ "With an open image, it is made up of three parts:"
+#~ msgstr ""
+#~ "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs. "
+#~ "With an open image, it is made up of three parts:"
+
+#~ msgid "The list of Recently Closed Docks:"
+#~ msgstr "The list of Recently Closed Docks:"
+
+#~ msgid ""
+#~ "For more information about docks, please see <link linkend=\"gimp-"
+#~ "concepts-docks\">Dialogs and Docking</link>, and <link linkend=\"gimp-"
+#~ "dialogs-introduction\">Different dialogs description</link>."
+#~ msgstr ""
+#~ "For more information about docks, please see <link linkend=\"gimp-"
+#~ "concepts-docks\">Dialogs and Docking</link>, and <link linkend=\"gimp-"
+#~ "dialogs-introduction\">Different dialogs description</link>."
+
+#~ msgid "The list of open image windows."
+#~ msgstr "The list of open image windows."
+
+#~ msgid "The list of open dockable dialogs."
+#~ msgstr "The list of open dockable dialogs."

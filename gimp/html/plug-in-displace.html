@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>12.3. സ്ഥാനം മാറ്റുക</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-map.html" title="12. മാപ്പ് ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-bump-map.html" title="12.2. ബംമ്പ് മാപ്പ്" />
+    <link rel="next" href="plug-in-fractal-trace.html" title="12.4. ഫ്രാക്റ്റലിന് ട്രെയ്സ്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">12.3. സ്ഥാനം മാറ്റുക</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-bump-map.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">12. മാപ്പ് ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-fractal-trace.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-displace"></a>12.3. സ്ഥാനം മാറ്റുക</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925524233424" class="indexterm"></a>
+      <a id="idp46925521271824" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525856512"></a>12.3.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925526045168"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.247. displacement ഉദാഹരണങ്ങൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/map-displace7a.png" alt="displacement ഉദാഹരണങ്ങൾ" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/map-displace7b.png" alt="displacement ഉദാഹരണങ്ങൾ" />
+              <div class="caption">
+                <p>കുടിയൊഴിപ്പിക്കലിന് മാപ്പ് യഥാക്രമം എന്ന 210, 160, 110, 60 മൂല്യങ്ങൾ നാല് ചാര തല്ലും ഉണ്ട്.</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/map-displace7c.png" alt="displacement ഉദാഹരണങ്ങൾ" />
+              <div class="caption">
+                <p>എക്സ് കുടിയൊഴിപ്പിക്കലിന് ഗുണക 30. വെക്കേറ്റുചെയ്തു പിക്സൽ കറുത്ത ആണ്. ലൈറ്റ് ഗ്രേ (128) പൊരുത്തപ്പെടുന്ന ചിത്രം പ്രദേശങ്ങൾ ഇടത്തോട്ടും 19 8 പിക്സൽ കിടപ്പാടം ചെയ്തു. ഇരുണ്ട ചാരനിറം (127) പൊരുത്തപ്പെടുന്ന ചിത്രം പ്രദേശങ്ങൾ വലതുവശത്ത് 4 15 പിക്സൽ കിടപ്പാടം ചെയ്തു.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ ചിത്രത്തിന്റെ പൊരുത്തപ്പെടുന്ന പിക്സൽ കുടിയിറക്കി ഒരു <span class="quote">“<span class="quote">displace-map</span>”</span> ഉപയോഗിക്കുന്നു. ഈ ഫിൽട്ടർ X, Y displacement 'displace മാപ്പ്' ഡ്രോയബിൾ ഇതേ പിക്സൽ തീവ്രത ഗുണിച്ചാൽ വ്യക്തമാക്കിയ അളവിൽ വ്യക്തമാക്കിയിട്ടുള്ള വരയ്ക്കാനാകുന്നത് (സജീവമായ അല്ലെങ്കിൽ പാളി നിരക്കു) ഉള്ളടക്കങ്ങൾ ആദേശം. <span class="emphasis"><em> Both X and Y displace maps should be gray-scale images and have the same size as the drawable </em></span>. ഈ ഫിൽട്ടർ രസകരമായ കാരണക്കാരനാവണം ഇഫക്റ്റുകൾ അനുവദിക്കുന്നു.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525579808"></a>12.3.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Map</span> → <span class="guimenuitem">Displace</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താനാകും</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="plug-in-displace-general-options"></a>12.3.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925525714528"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.248. ഫിൽട്ടർ ഓപ്ഷനുകൾ കുടിയിറക്കി</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/map/displace.png" alt="ഫിൽട്ടർ ഓപ്ഷനുകൾ കുടിയിറക്കി" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">പ്രിവ്യൂ</span>
+            </dt>
+            <dd>
+              <p>നിങ്ങളുടെ പ്രോസസ്സർ സ്ലോ ഈ ഓപ്ഷൻ പരിശോധിക്കാതിരിക്കുക.</p>
+            </dd>
+            <dt>
+              <span class="term">displacement മോഡ്</span>
+            </dt>
+            <dd>
+              <p>എവിടെ പിക്സൽ X അല്ലെങ്കിൽ Y ദിശയിൽ കിടപ്പാടം, അല്ലെങ്കിൽ എവിടെ ചിത്രം റേഡിയൽ അല്ലെങ്കിൽ ടാൻജെന്റ് ദിശയിൽ പിക്സൽ കുടിയൊഴിപ്പിക്കപ്പെട്ടത് വഴി നുള്ളിയെടുക്കപ്പെട്ട് ഒപ്പം കേളുവിന്റെ ആണ് <a class="link" href="plug-in-displace.html#plug-in-displace-polar" title="12.3.3.2. പോളാർ displacement മോഡ്">Polar</a> ഏകോപിപ്പിക്കുകയും ജോലി <a class="link" href="">Cartesian</a> ഏകോപിപ്പിക്കുകയും, അധ്വാനിക്കുന്ന തിരഞ്ഞെടുക്കാം.</p>
+              <p>ഈ ഓപ്ഷനുകൾ കുറിച്ച് വിവരങ്ങൾക്കായി അടുത്ത വിഭാഗങ്ങൾ കാണുക.</p>
+            </dd>
+            <dt>
+              <span class="term">എഡ്ജ് സ്വഭാവം</span>
+            </dt>
+            <dd>
+              <p>ഈ ഓപ്ഷനുകൾ സജീവ അല്ലെങ്കിൽ പാളി നിരക്കു വേണമങ്കിലും കുടിയൊഴിപ്പിക്കലിന് പെരുമാറ്റം സജ്ജമാക്കാൻ അനുവദിക്കുന്നു:</p>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">പൊതിയുക</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് എന്തു വായ്ത്തല ന് മുങ്ങി സമ്മുഖ വിളുമ്പിൽ ശ്രാദ്ധമൂട്ടാൻ.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">പൂശുക</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് കുടിയൊഴിപ്പിക്കലോ കാലിയാക്കിയ പിക്സൽ ചിത്രത്തിന്റെ സമീപമുള്ള ഭാഗത്തുനിന്നും നീട്ടി പിക്സൽ ഉപയോഗിച്ച് മാറ്റിസ്ഥാപിക്കുന്നു.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">
+                      <span class="guilabel">കറുത്ത</span>
+                    </span>
+                  </dt>
+                  <dd>
+                    <p>ഈ ഓപ്ഷൻ ഉപയോഗിച്ച് കുടിയൊഴിപ്പിക്കലോ കാലിയാക്കിയ പിക്സൽ കറുത്ത ഉപയോഗിച്ച് മാറ്റിസ്ഥാപിക്കുന്നു.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+          </dl>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="plug-in-displace-cartesian"></a>12.3.3.1. കാര്ട്ടീഷ്യന്പ്ലോട്ട് displacement മോഡ്</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925527427152"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.249. ഫിൽട്ടർ ഓപ്ഷനുകൾ കുടിയിറക്കി (കാര്ട്ടീഷ്യന്പ്ലോട്ട്)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/map/displace-cartesian.png" alt="ഫിൽട്ടർ ഓപ്ഷനുകൾ കുടിയിറക്കി (കാര്ട്ടീഷ്യന്പ്ലോട്ട്)" />
+                <div class="caption">
+                  <p>Displacement മോഡ്: കാര്ട്ടീഷ്യന്പ്ലോട്ട്</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഇരുവരും മോഡുകളിൽ കുടിയൊഴിപ്പിക്കലോ ദിശ തുക കുടിയൊഴിപ്പിക്കലിന് മാപ്പ് ഇതേ പിക്സൽ തീവ്രത ആശ്രയിച്ചിരിക്കുന്നു.</p>
+          <p>ഒരു ഗ്രേസ്കെയിലാക്കി ഇമേജ് ആയിരിക്കും എന്നു ഭൂപടം, 256 ചാര അളവ് (0-255) ഉണ്ട്, (സൈദ്ധാന്തിക) ശരാശരി മൂല്യം 127.5 ആണ്. ഫിൽട്ടർ 128 മുതൽ 255 എതിർ ദിശയിൽ മൂല്യങ്ങൾ ഉപയോഗിച്ച് പിക്സൽ പ്രാചലമാണ് ഒരു ദിശയിൽ മാപ്പിൽ കുറവ് 127.5 (0 127 വരെ) അധികം മൂല്യങ്ങൾ കൊണ്ട് പിക്സൽ അനുബന്ധമായ ചിത്രം പിക്സലുകൾ ആദേശം.</p>
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">എക്സ് കുടിയൊഴിപ്പിക്കലിന്, </span>
+                <span class="term">വൈ കുടിയൊഴിപ്പിക്കലിന്</span>
+              </dt>
+              <dd>
+                <p>ബന്ധപ്പെട്ട ഓപ്ഷൻ പ്രവർത്തനക്ഷമമാക്കുമെങ്കിൽ, 0 മുതൽ 127 പിക്സലുകൾ പൊരുത്തപ്പെടുന്ന ചിത്രം പിക്സൽ വലതുവശത്ത് എക്സ് വേണ്ടി, താഴേക്ക് y, കിടപ്പാടം ചെയ്യും, 128 മുതൽ 255 പിക്സൽ പൊരുത്തപ്പെടുന്ന ചിത്രം പിക്സൽ ഇടത്തോട്ടോ എക്സ് വേണ്ടി, മുകളിലും y, കിടപ്പാടം ചെയ്യും .</p>
+                <p>നിങ്ങൾ ഇൻപുട്ട് ബോക്സുകളിൽ നൽകുക എന്തു നേരിട്ടോ അമ്പ്-തല ബട്ടണുകൾ ഉപയോഗിച്ച്, അല്ല യഥാർത്ഥ കുടിയൊഴിപ്പിക്കലിന് ആണ്. പരസ്യചിത്രങ്ങളുടെ തീവ്രതയിലുള്ള PLACEHOLDER,-106596 മാപ്പ് ഇതേ പിക്സൽ തക്കവണ്ണം പിക്സൽ യഥാർത്ഥ കുടിയൊഴിപ്പിക്കലിന് ഗുണനഘടകം നിങ്ങൾ നൽകുക മോഡുലേറ്റ് നൽകുന്ന ഒരു <span><img src="images/math/displace0.png" /></span> ഫോർമുല, ഉപയോഗിക്കുന്ന ഗുണകമായ തുടർന്ന്. ഫോർമുല കടന്നു തീവ്രത അവതരിപ്പിക്കുന്നു പ്രധാനപ്പെട്ടതാണ്: ഇത് ഒരു ഗ്രേഡിയന്റ് മാപ്പ് ഉപയോഗിച്ച് പുരോഗമന കുടിയൊഴിപ്പിക്കലിന് അനുവദിക്കുന്നു.</p>
+                <p>ഈ മൂല്യം അനുകൂലമോ പ്രതികൂലമോ ആകാം. ഒരു നെഗറ്റീവ് കുടിയൊഴിപ്പിക്കലിന് ഒരു നല്ല ഒന്നു റിവേഴ്സ് ആണ്. മൂല്യം ഇമേജ് അളവുകൾ ഇരട്ടി തുല്യമാണ് പരിധികൾ വ്യത്യാസപ്പെടുന്നു.</p>
+                <p>ഡ്രോപ്-ഡൗൺ ലിസ്റ്റ് ബട്ടൺ ക്ലിക്ക് ചെയ്യുമ്പോൾ, ഒരു ലിസ്റ്റ് നിങ്ങൾ ഒരു കുടിയൊഴിപ്പിക്കലിന് മാപ്പ് തിരഞ്ഞെടുക്കുക കഴിയുന്ന തോന്നുന്നു. ഈ ലിസ്റ്റിലെ അടുക്കൽ ഒരു ഇമേജ് രണ്ടു അവസ്ഥ ഭയപ്പെടേണം. ആദ്യം, ഈ ചിത്രം ഫിൽട്ടർ വിളിക്കുമ്പോൾ നിങ്ങളുടെ സ്ക്രീനിൽ ഉണ്ടായിരിക്കണം. പിന്നെ, ഈ ചിത്രം യഥാർത്ഥ ചിത്രം അതേ തലങ്ങളും ഉണ്ടായിരിക്കണം. പലപ്പോഴും, അതു ചാര സ്കെയിലിൽ രൂപാന്തരപ്പെടുന്നു ഒരു ഗ്രേഡിയന്റ് കൂടെ ഉചിതമായി പുതുക്കപ്പെട്ടത് ഒരു തനിപ്പകർപ്പ് യഥാർത്ഥ ചിത്രം, ആയിരിക്കും. ഇത് ആർജിബി ചിത്രങ്ങൾ ഉപയോഗിക്കാൻ സാധ്യതയുണ്ട്, എന്നാൽ നിറം തേജസ്സ് ഫലം ക്ളാസെടുക്കാനും ബുദ്ധിമുട്ടാണ് making ഉപയോഗിക്കുന്നു. മാപ്പ് തിരശ്ചീന, ലംബ ദിശകളിൽ വ്യത്യസ്തമായിരിക്കും.</p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+        <div class="sect4">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h5 class="title"><a id="plug-in-displace-polar"></a>12.3.3.2. പോളാർ displacement മോഡ്</h5>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925527443312"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.250. ഫിൽട്ടർ ഓപ്ഷനുകൾ കുടിയിറക്കി (ധ്രുവ)</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/map/displace-polar.png" alt="ഫിൽട്ടർ ഓപ്ഷനുകൾ കുടിയിറക്കി (ധ്രുവ)" />
+                <div class="caption">
+                  <p>Displacement മോഡ്: ധ്രുവ</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">നുള്ളുക</span>
+              </dt>
+              <dd>
+                <p>ഈ ഓപ്ഷൻ പ്രവർത്തനക്ഷമമാക്കുമെങ്കിൽ, പിക്സൽ റേഡിയൽ നിർദ്ദേശാങ്കങ്ങൾ (ചിത്രം ന്റെ ലേഖനമാണ്, <span class="quote">“<span class="quote">pole</span>”</span> അതായത് അകലം) മാറ്റും. 0 മുതൽ 127 ലേക്ക് പിക്സൽ മാപ്പുണ്ടാക്കാൻ പൊരുത്തപ്പെടുന്ന ചിത്രം പിക്സൽ 128 മുതൽ 255 പിക്സൽ പൊരുത്തപ്പെടുന്ന ചിത്രം പിക്സൽ സെന്റര് നേരെ കിടപ്പാടം ചെയ്യും പുറത്തേക്ക് നാടുവിട്ടുപോയ ചെയ്യും.</p>
+                <p>മൂല്യങ്ങളും കുടിയൊഴിപ്പിക്കലിന് മാപ്പ് മുകളിൽ (<span class="quote">“<span class="quote">X/Y displacement</span>”</span>).</p>
+                <p>കുടിയൊഴിപ്പിക്കലിന് എല്ലാ പിക്സൽ ഒരേ തുക കിടപ്പാടം ചെയ്യുന്നു, ധ്രുവീയ ദൂരം നിന്ന് സ്വതന്ത്രമാണ്. അതിനാൽ ചിത്രം മാത്രമല്ല നീട്ടി ചെയ്യും അല്ലെങ്കിൽ ഉൾക്കൊള്ളിച്ച, മാത്രമല്ല രൂപഭേദം:</p>
+                <div class="mediaobject">
+                  <img src="images/filters/examples/map-displace-pinch.png" />
+                  <div class="caption">
+                    <p>പിഞ്ചുചെയ്യുന്നത് ഓപ്ഷൻ വഴി ഇമേജ് വളച്ചൊടിക്കൽ</p>
+                  </div>
+                </div>
+                <p>ഒരു 160x120 പിക്സൽ ചിത്രം, പ്ലെയിൻ വെളുത്ത കുടിയൊഴിപ്പിക്കലോ ഭൂപടം, ഒപ്പം കുടിയൊഴിപ്പിക്കലിന് ഗുണനഘടകം 20,0: ഈ കേന്ദ്രം നേരെ ഒരു 20 പിക്സൽ കുടിയൊഴിപ്പിക്കലിന് കാരണമാകുന്നുണ്ട്. ഈ 25% വലുപ്പമുള്ള ഒരു തിരശ്ചീന കുറയ്ക്കുന്ന, 33% ലംബമായ, ഒപ്പം 20% രചനയാണ്, അതിനാൽ ചിത്രം രൂപഭേദം ചെയ്യും.</p>
+              </dd>
+              <dt>
+                <span class="term">മടിയും</span>
+              </dt>
+              <dd>
+                <p>ഈ ഓപ്ഷൻ ആക്റ്റിവേറ്റ്, ചിത്രം പിക്സൽ കോണീയ നിർദ്ദേശാങ്കങ്ങൾ ഒരു മാപ്പ് പിക്സൽ ആശ്രിത തുക <span class="quote">“<span class="quote">displaced</span>”</span> ചെയ്യും. ഒരു പ്ലെയിൻ displacement മാപ്പ്, ചിത്രം, കറക്കണോ അല്ലെങ്കിൽ ഇത് വെന്തതുമെല്ലാം ചെയ്യും.</p>
+                <p>മാപ്പിലെ 0 നിന്ന് 127 ലേക്ക് പിക്സൽ പൊരുത്തപ്പെടുന്ന ചിത്രം പിക്സൽ ഘടികാര നാടുവിട്ടുപോയ ചെയ്യും, 128 മുതൽ 255 പിക്സൽ പൊരുത്തപ്പെടുന്ന ചിത്രം പിക്സൽ ഘടികാരദിശയിൽ നാടുവിട്ടുപോയ ചെയ്യും.</p>
+                <p>മൂല്യങ്ങളും കുടിയൊഴിപ്പിക്കലിന് മാപ്പ് മുകളിൽ കാണുന്ന.</p>
+              </dd>
+            </dl>
+          </div>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                </td>
+                <th align="left">കുറിപ്പു്</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>ഒരു പ്ലെയിൻ, നോൺ നിഷ്പക്ഷ മാപ്പ് സ്ഥാനഭ്രഷ്ടരാക്കിയില്ല മോഡ് <span class="quote">“<span class="quote">Polar</span>”</span> പ്രാപ്തമാക്കിയിട്ടുണ്ടെങ്കിൽ, ഈ ഫിൽട്ടർ <a class="link" href="plug-in-whirl-pinch.html" title="4.18. അദ്ദേഹവും ആൻഡ് പിഞ്ചുചെയ്യുന്നത്">Whirl and Pinch</a> പോലെ പ്രവർത്തിക്കുന്നു.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925527463184"></a>12.3.4. ഒരു ടെക്സ്റ്റ് പേറി ഗ്രേഡിയന്റ് ഉപയോഗിയ്ക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഇനിപ്പറയുന്ന ഘട്ടങ്ങൾ പിന്തുടരുക:</p>
+        <div class="procedure">
+          <ol class="procedure" type="1">
+            <li class="step">
+              <p>നിങ്ങളുടെ ഇമേജ് തുറക്കുന്നത് ആരംഭിക്കുക.</p>
+            </li>
+            <li class="step">
+              <p>ഈ ചിത്രത്തിന്റെ തനിപ്പകർപ്പ്. ഈ തനിപ്പകർപ്പ് സജീവമാക്കുക അതു ചാര-സ്കെയിൽ (<span class="guimenu">Image</span> → <span class="guisubmenu">Mode</span> → <span class="guimenuitem">GrayScale</span>) ഉണ്ടാക്കേണം. പിടികൂടാനുള്ള ഗ്രേഡിയന്റ് ഫിൽ. ഈ ചിത്രം യഥാർത്ഥ ചിത്രത്തിന്റെ തലങ്ങളും നിങ്ങളുടെ <span class="emphasis"><em>Displacement map</em></span> ആയിരിക്കും.</p>
+              <div class="mediaobject">
+                <img src="images/filters/examples/2zinnias-c.png" />
+              </div>
+            </li>
+            <li class="step">
+              <p>യഥാർത്ഥ ചിത്രം സജീവമാക്കുക. നിങ്ങളുടെ വാചക ഒരു <span class="emphasis"><em>Text Layer</em></span> സൃഷ്ടിക്കുക. ചിത്രത്തിന്റെ വലുപ്പം പാളി സജ്ജമാക്കുക: റൈറ്റ് ക്ലിക്ക് പാളി പാളി ഡയലോഗിൽ ഒപ്പം, പോപ്പ്-മെനുവിൽ, <span class="quote">“<span class="quote">Layer to image size</span>”</span> ക്ലിക്ക് ചെയ്യുക. ശ്രദ്ധിക്കുക സുതാര്യമായ പശ്ചാത്തലത്തിൽ ടെക്സ്റ്റ് പാളി കള്ളം അക്ഷരങ്ങൾ; ഇപ്പോൾ ഈ ഫിൽട്ടർ സുതാര്യമായ പിക്സൽ ഭൂരഹിതരാക്കിക്കൊണ്ടും ഇല്ല. അക്ഷരങ്ങൾ മാത്രം നാടുവിട്ടുപോയ ചെയ്യും.</p>
+              <div class="mediaobject">
+                <img src="images/filters/examples/2zinnias-i.png" />
+              </div>
+            </li>
+            <li class="step">
+              <p>ടെക്സ്റ്റ് പാളി സജീവമാക്കുക. കുടിയിറക്കി ഫിൽട്ടർ വിൻഡോ തുറക്കുക. പ്രിവ്യൂ കാരണമാകാം തക്കവണ്ണം പരാമീറ്ററുകൾ, പ്രത്യേകിച്ച് displacement ഗുണകമായ സജ്ജമാക്കുക. <span class="guilabel">OK</span> ക്ലിക്ക്.</p>
+            </li>
+          </ol>
+        </div>
+        <div class="mediaobject">
+          <img src="images/filters/examples/map-displace5.png" />
+        </div>
+        <p>ഈ രീതി പുറമേ സാധാരണ പാളികൾ ബാധകമാണ്:</p>
+        <div class="mediaobject">
+          <img src="images/filters/examples/map-displace6.png" />
+        </div>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[സൂചന]" src="images/tip.png" />
+              </td>
+              <th align="left">സൂചന</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>പിടികൂടാനുള്ള ഗ്രേഡിയന്റ് ലഭിക്കാൻ, ആദ്യം വെള്ള ഗ്രേഡിയന്റ് ഒരു കറുത്ത ആകർഷിക്കും. അപ്പോൾ ഗ്രേഡിയന്റ് കർവ് പരിഷ്കരിക്കുന്നതിന് <a class="link" href="gimp-tool-curves.html" title="5.8. കർവ്സ്">Curves</a> ടൂൾ ഉപയോഗിക്കുക.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="plug-in-displace-calculation"></a>12.3.5. displacement കണക്കുകൂട്ടല്</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഇനിപ്പറയുന്ന വിഭാഗം, നിങ്ങൾ ഈ വിശദാംശങ്ങൾ താല്പര്യം ഉണ്ടെങ്കിൽ കുടിയൊഴിപ്പിക്കലോ തുക എങ്ങനെ കാണിക്കും. നിങ്ങൾ അതു അറിയുന്നില്ലയോ ആഗ്രഹിക്കുന്നില്ല, സുരക്ഷിതമായി ഈ വിഭാഗം ജപം.</p>
+        <p>കുടിയൊഴിപ്പിക്കലിന് മാപ്പ് ന്റെ നിറം ചാര തലത്തിൽ അനുസരിച്ച്, 19, 8, 4, അല്ലെങ്കിൽ 15 പിക്സൽ: പരിശോധന ഉദാഹരണത്തിന് 30.0 ഒരു ഗുണനഘടകം ഉപയോഗിച്ച് X കുടിയൊഴിപ്പിക്കലിന് കാണിച്ചു.</p>
+        <p>എന്തുകൊണ്ട് ഈ തുകകൾ? അത് എളുപ്പമാണ്:</p>
+        <p>
+      </p>
+        <div class="informalequation">
+          <div>
+            <img src="images/math/displace1.png" />
+          </div>
+        </div>
+        <p>
+    </p>
+        <p>
+      </p>
+        <div class="informalequation">
+          <div>
+            <img src="images/math/displace2.png" />
+          </div>
+        </div>
+        <p>
+    </p>
+        <p>
+      </p>
+        <div class="informalequation">
+          <div>
+            <img src="images/math/displace3.png" />
+          </div>
+        </div>
+        <p>
+    </p>
+        <p>
+      </p>
+        <div class="informalequation">
+          <div>
+            <img src="images/math/displace4.png" />
+          </div>
+        </div>
+        <p>
+    </p>
+        <p>
+      </p>
+        <div class="informalequation">
+          <div>
+            <img src="images/math/displace5.png" />
+          </div>
+        </div>
+        <p>
+    </p>
+        <p>നിങ്ങൾ ഈ സമവാക്യങ്ങൾ പരിശോധിക്കുക, അവ തരും മൂല്യങ്ങൾ ഞങ്ങൾ ഉദാഹരണത്തിൽ നിലനിർത്തി കൃത്യമായി ഫലങ്ങളിൽ ഇല്ല എന്ന് ശ്രദ്ധിക്കുക (നോൺ-പൂർണ്ണസംഖ്യകളുടെ ഉപയോഗിച്ച് അസ്വാഭാവികതയൊന്നും അല്ല). അതുകൊണ്ട്, ഫലങ്ങളുടെ ഗുണിതത്തിലേക്ക് വൃത്താകാരംതൊട്ട് ചെയ്തു തുടർന്ന് പിക്സൽ ഒരു മുഴുവൻ-എണ്ണി തുക ഇവരെ? നമ്പർ ഓരോ പിക്സൽ കൃത്യമായി കണക്കാക്കിയ തുക കിടപ്പാടം ആണ്; ഒരു <span class="quote">“<span class="quote">displacement by a fractional amount</span>”</span> interpolation സാധിക്കുകയുള്ളൂ. ഉദാഹരണത്തിന് ചിത്രം അടുത്തറിയൽ കാണിക്കും:</p>
+        <div class="figure">
+          <a id="idp46925527500992"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.251. കുടിയൊഴിപ്പിക്കലോ ഉദാഹരണത്തിന് അടുത്തറിയൽ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/map-displace8.png" alt="കുടിയൊഴിപ്പിക്കലോ ഉദാഹരണത്തിന് അടുത്തറിയൽ" />
+              <div class="caption">
+                <p>800 ശതമാനം സൂം ഒരു ചെറിയ പ്രദേശത്തെ.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>കുടിയൊഴിപ്പിക്കലിന് പ്ലെയിൻ നിറം പ്രദേശങ്ങൾ അറ്റങ്ങളിൽ ഇൻറർമീഡിയറ്റ് നിറങ്ങൾ ചെറിയ (ഒരു പിക്സൽ വൈഡ്) പ്രദേശങ്ങൾ കാരണമാകുന്നു. ഉദാ കറുത്ത പ്രദേശം (ചിത്രം സൂം) -4.12 ഒരു കുടിയൊഴിപ്പിക്കലിന് സംഭവിക്കുന്നത് അങ്ങനെ ഇന്റർമീഡിയറ്റ് നിറം 12% കറുത്ത 88% തങ്കം.</p>
+        <p>അങ്ങനെ നിങ്ങൾ പകരം 30.00 എന്ന 30,01 ഒരു displacement ഗുണനഘടകം തിരഞ്ഞെടുക്കുക എങ്കിൽ നിങ്ങൾ മറ്റൊരു ചിത്രം, നിങ്ങൾ വ്യത്യാസം കാണും, എന്നിരുന്നാലും കോഴ്സ് ലഭിക്കും.</p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-bump-map.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-map.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-fractal-trace.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-bump-map.html">12.2. ബംമ്പ് മാപ്പ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-fractal-trace.html">12.4. ഫ്രാക്റ്റലിന് ട്രെയ്സ്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

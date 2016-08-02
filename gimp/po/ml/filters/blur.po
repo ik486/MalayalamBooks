@@ -1,0 +1,1061 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP-Help 2.8.0\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
+"PO-Revision-Date: 2012-06-01 12:23+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/pixelise.xml:32(None) src/filters/blur/gauss.xml:33(None)
+#: src/filters/blur/tileable.xml:31(None) src/filters/blur/blur.xml:32(None)
+#: src/filters/blur/gauss_select.xml:31(None)
+#: src/filters/blur/mblur.xml:31(None)
+msgid ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
+msgstr ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/pixelise.xml:41(None)
+msgid ""
+"@@image: 'images/filters/examples/blur-taj-pixelise.jpg'; "
+"md5=3a624ae1bcb7fa3ac25649f5b931e91e"
+msgstr ""
+"@@image: 'images/filters/examples/blur-taj-pixelise.jpg'; "
+"md5=3a624ae1bcb7fa3ac25649f5b931e91e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/pixelise.xml:75(None)
+msgid ""
+"@@image: 'images/filters/blur/pixelize.png'; "
+"md5=f3d45ed11018144d236aaba636f65680"
+msgstr ""
+"@@image: 'images/filters/blur/pixelize.png'; "
+"md5=f3d45ed11018144d236aaba636f65680"
+
+#: src/filters/blur/pixelise.xml:14(title)
+#: src/filters/blur/pixelise.xml:19(tertiary)
+#: src/filters/blur/pixelise.xml:22(primary)
+msgid "Pixelise"
+msgstr ""
+"പിക്സൽ"
+
+#: src/filters/blur/pixelise.xml:17(primary)
+#: src/filters/blur/gauss.xml:18(primary)
+#: src/filters/blur/tileable.xml:16(primary)
+#: src/filters/blur/blur.xml:17(primary)
+#: src/filters/blur/gauss_select.xml:16(primary)
+#: src/filters/blur/introduction.xml:13(primary)
+#: src/filters/blur/mblur.xml:16(primary)
+msgid "Filters"
+msgstr ""
+"ഫിൽട്ടറുകൾ"
+
+#: src/filters/blur/pixelise.xml:18(secondary)
+#: src/filters/blur/gauss.xml:19(secondary)
+#: src/filters/blur/tileable.xml:17(secondary)
+#: src/filters/blur/blur.xml:14(title) src/filters/blur/blur.xml:18(secondary)
+#: src/filters/blur/blur.xml:19(tertiary)
+#: src/filters/blur/blur.xml:22(primary)
+#: src/filters/blur/gauss_select.xml:17(secondary)
+#: src/filters/blur/introduction.xml:14(secondary)
+#: src/filters/blur/mblur.xml:17(secondary)
+msgid "Blur"
+msgstr ""
+"ഇഫക്റ്റ്"
+
+#: src/filters/blur/pixelise.xml:26(title)
+#: src/filters/blur/gauss.xml:27(title)
+#: src/filters/blur/tileable.xml:25(title) src/filters/blur/blur.xml:26(title)
+#: src/filters/blur/gauss_select.xml:25(title)
+#: src/filters/blur/mblur.xml:25(title)
+msgid "Overview"
+msgstr ""
+"പൊതു അവലോകനം"
+
+#: src/filters/blur/pixelise.xml:28(title)
+msgid "Example for the <quote>Pixelize</quote> filter"
+msgstr ""
+"<quote>Pixelize</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/blur/pixelise.xml:35(para) src/filters/blur/gauss.xml:36(para)
+#: src/filters/blur/tileable.xml:34(para) src/filters/blur/blur.xml:35(para)
+#: src/filters/blur/gauss_select.xml:34(para)
+msgid "Original"
+msgstr ""
+"യഥാർത്ഥ"
+
+#: src/filters/blur/pixelise.xml:44(para)
+msgid "<quote>Pixelize</quote> applied"
+msgstr ""
+"<quote>Pixelize</quote> പ്രയോഗിച്ചു"
+
+#: src/filters/blur/pixelise.xml:48(para)
+msgid ""
+"The Pixelize filter renders the image using large color blocks. It is very "
+"similar to the effect seen on television when obscuring a criminal during "
+"trial. It is used for the <quote>Abraham Lincoln effect</quote>: see <xref "
+"linkend=\"bibliography-online-bach\"/>."
+msgstr ""
+"Pixelize അരിപ്പ വലിയ നിറം ഉപയോഗിച്ച് ചിത്രം റെൻഡർ. ട്രയൽ വേളയിൽ ഒരു ക്രിമി"
+"നൽ അടയാൻ ചെയ്യുമ്പോൾ ടെലിവിഷനിൽ കണ്ടിട്ടില്ല പ്രഭാവം വളരെ സാമ്യമുള്ളതാണ്. "
+"<xref linkend=\"bibliography-online-bach\" /> കാണുക: ഇത് <quote>Abraham Lin"
+"coln effect</quote> ഉപയോഗിക്കുന്നു."
+
+#: src/filters/blur/pixelise.xml:57(title)
+#: src/filters/blur/gauss.xml:62(title)
+#: src/filters/blur/tileable.xml:116(title)
+#: src/filters/blur/blur.xml:64(title)
+#: src/filters/blur/gauss_select.xml:59(title)
+#: src/filters/blur/mblur.xml:76(title)
+msgid "Activate the filter"
+msgstr ""
+"ഫിൽട്ടർ സജീവമാക്കുക"
+
+#: src/filters/blur/pixelise.xml:58(para)
+msgid ""
+"You can find this filter in the image menu through "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</"
+"guisubmenu><guimenuitem>Pixelise</guimenuitem></menuchoice>"
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><"
+"guimenuitem>Pixelise</guimenuitem></menuchoice> വഴി ഇമേജ് മെനുവിൽ ഈ ഫിൽട്ടർ"
+" കണ്ടെത്താനാകും"
+
+#: src/filters/blur/pixelise.xml:69(title)
+#: src/filters/blur/gauss.xml:74(title)
+#: src/filters/blur/tileable.xml:128(title)
+#: src/filters/blur/gauss_select.xml:71(title)
+#: src/filters/blur/mblur.xml:88(title)
+msgid "Options"
+msgstr ""
+"ഓപ്ഷനുകൾ"
+
+#: src/filters/blur/pixelise.xml:71(title)
+msgid "<quote>Pixelize</quote> filter options"
+msgstr ""
+"<quote>Pixelize</quote> ഫിൽട്ടർ ഓപ്ഷനുകൾ"
+
+#: src/filters/blur/pixelise.xml:81(term)
+msgid "Pixel width"
+msgstr ""
+"പിക്സൽ വീതി"
+
+#: src/filters/blur/pixelise.xml:82(term)
+msgid "Pixel height"
+msgstr ""
+"പിക്സൽ ഉയരം"
+
+#: src/filters/blur/pixelise.xml:84(para)
+msgid "Here you can set the desired width and height of the blocks."
+msgstr ""
+"ഇവിടെ നിങ്ങൾ ബ്ലോക്കുകളിൽ ആവശ്യമുള്ള വീതിയും ഉയരവും സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/filters/blur/pixelise.xml:87(para)
+msgid ""
+"By default, width and height are linked, indicated by the chain symbol next "
+"to the input boxes. If you want to set width and height separately, click on "
+"that chain symbol to unlink them."
+msgstr ""
+"സ്വതവേ, വീതിയും ഉയരവും ഇൻപുട്ട് ബോക്സുകൾ അടുത്ത ചെയിൻ ചിഹ്നം പ്രവചിച്ചു; ല"
+"ിങ്കു. പ്രത്യേകമായി വീതിയും ഉയരവും സജ്ജമാക്കാൻ ചെയ്യണമെങ്കിൽ, അവരെ അൺലിങ്കു"
+"ചെയ്യുന്നതിനുള്ള പനിയുടെ ചിഹ്നം ക്ലിക്ക് ചെയ്യുക."
+
+#: src/filters/blur/pixelise.xml:92(para)
+msgid ""
+"Using the unit selection box you can select the unit of measure for height "
+"and width."
+msgstr ""
+"യൂണിറ്റ് നിരക്കു ബോക്സ് ഉപയോഗിച്ച് നിങ്ങൾക്ക് ഉയരവും വീതിയും അളവ് യൂണിറ്റ"
+"് തിരഞ്ഞെടുക്കാം."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/gauss.xml:42(None)
+msgid ""
+"@@image: 'images/filters/examples/blur-taj-gauss.jpg'; "
+"md5=2dcbafec4e011abd8d1d5c4c6066ffcd"
+msgstr ""
+"@@image: 'images/filters/examples/blur-taj-gauss.jpg'; "
+"md5=2dcbafec4e011abd8d1d5c4c6066ffcd"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/gauss.xml:80(None)
+msgid ""
+"@@image: 'images/filters/blur/gauss.png'; "
+"md5=b03cb5dd4a38c07326e11cadb332c2cb"
+msgstr ""
+"@@image: 'images/filters/blur/gauss.png'; "
+"md5=b03cb5dd4a38c07326e11cadb332c2cb"
+
+#: src/filters/blur/gauss.xml:15(title)
+#: src/filters/blur/gauss.xml:20(tertiary)
+#: src/filters/blur/gauss.xml:23(primary)
+msgid "Gaussian Blur"
+msgstr ""
+"ഗോഷ്യൻ ഇഫക്റ്റ്"
+
+#: src/filters/blur/gauss.xml:29(title)
+msgid "Example for the <quote>Gaussian Blur</quote> filter"
+msgstr ""
+"<quote>Gaussian Blur</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/blur/gauss.xml:45(para) src/filters/blur/blur.xml:44(para)
+#: src/filters/blur/gauss_select.xml:43(para)
+msgid "Blur applied"
+msgstr ""
+"ഇഫക്റ്റ് പ്രയോഗിച്ചു"
+
+#: src/filters/blur/gauss.xml:49(para)
+msgid ""
+"The IIR Gaussian Blur plug-in acts on each pixel of the active layer or "
+"selection, setting its Value to the average of all pixel Values present in a "
+"radius defined in the dialog. A higher Value will produce a higher amount of "
+"blur. The blur can be set to act in one direction more than the other by "
+"clicking the Chain Button so that it is broken, and altering the radius. "
+"GIMP supports two implementations of Gaussian Blur: IIR G.B. and RLE G.B. "
+"They both produce the same results, but each one can be faster in some cases."
+msgstr ""
+"IIR ഗോഷ്യൻ ഇഫക്റ്റ് പ്ലഗ് ഇൻ-സജീവ അല്ലെങ്കിൽ പാളി നിരക്കു ഓരോ പിക്സൽ പ്രവ"
+"ർത്തിക്കുന്നു എല്ലാ പിക്സൽ മൂല്യങ്ങൾ ഡയലോഗിൽ നിഷ്കർഷിച്ച ആരം ഇപ്പോഴത്തെ ശ"
+"രാശരി അതിന്റെ മൂല്യം ക്രമീകരിക്കുന്നതിൽ. ഉയർന്ന മൂല്യം ഇഫക്റ്റ് ഉയർന്ന ഒരു "
+"തുക നൽകും. മങ്ങൽ അതു കേടായി അങ്ങനെ ചെയിൻ ബട്ടൺ ക്ലിക്കുചെയ്ത്, ആരവും പന്തിന"
+"്റെ മറ്റ് അധികം ഒരു ദിശയിൽ പ്രവർത്തിക്കാൻ ക്രമീകരിക്കാൻ കഴിയും. ജിമ്പ് ഗോഷ"
+"്യൻ ഇഫക്റ്റ് രണ്ടു മൊക്കെ പിന്തുണയ്ക്കുന്നു: IIR G.B. ഒപ്പം RLE G.B. അവർ ഇ"
+"രുവരും ഒരേ ഫലങ്ങൾ, അവരെല്ലാം ചില സന്ദർഭങ്ങളിൽ വേഗത്തിൽ കഴിയും."
+
+#: src/filters/blur/gauss.xml:63(para)
+msgid ""
+"You can find this filter in the image menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</"
+"guisubmenu><guimenuitem>Gaussian Blur</guimenuitem></menuchoice>"
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><"
+"guimenuitem>Gaussian Blur</guimenuitem></menuchoice> കീഴിൽ ഇമേജ് മെനുവിൽ ഈ "
+"ഫിൽട്ടർ കണ്ടെത്താനാകും"
+
+#: src/filters/blur/gauss.xml:76(title)
+msgid "<quote>Gaussian</quote> filter parameters settings"
+msgstr ""
+"<quote>Gaussian</quote> ഫിൽട്ടർ പാരാമീറ്ററുകൾ ക്രമീകരണങ്ങൾ"
+
+#: src/filters/blur/gauss.xml:86(term)
+msgid "Blur Radius"
+msgstr ""
+"റേഡിയസ് മങ്ങിക്കുക"
+
+#: src/filters/blur/gauss.xml:88(para)
+msgid ""
+"Here you can set the blur intensity. By altering the ratio of horizontal to "
+"vertical blur, you can give the effect of a motion blur. You can choose the "
+"unit with the drop list."
+msgstr ""
+"ഇവിടെ നിങ്ങൾക്ക് മങ്ങൽ തീവ്രത സജ്ജമാക്കാൻ കഴിയും. ലംബമായ മങ്ങിക്കലിലേക്ക് ത"
+"ിരശ്ചീന അനുപാതം പന്തിന്റെ, നിങ്ങൾ ഒരു മോഷൻ ഇഫക്റ്റ് പ്രഭാവം നൽകാൻ കഴിയും. "
+"ഡ്രോപ് ലിസ്റ്റ് ഉപയോഗിച്ച് യൂണിറ്റ് തിരഞ്ഞെടുക്കാം."
+
+#: src/filters/blur/gauss.xml:96(term)
+msgid "Blur Method"
+msgstr ""
+"ഇഫക്റ്റ് രീതി"
+
+#: src/filters/blur/gauss.xml:100(guilabel)
+#: src/filters/blur/tileable.xml:164(term)
+msgid "IIR"
+msgstr "IIR"
+
+#: src/filters/blur/gauss.xml:102(para)
+msgid ""
+"IIR stands for <quote>infinite impulse response</quote>. This blur works "
+"best for large radius values and for images which are not computer generated."
+msgstr ""
+"IIR <quote>infinite impulse response</quote> നിലകൊള്ളുന്നു. ഈ മങ്ങൽ വലിയ ആ"
+"രം മൂല്യങ്ങൾ വേണ്ടിയും സൃഷ്ടിക്കപ്പെടുന്ന കമ്പ്യൂട്ടർ അല്ല ചിത്രങ്ങളെ ഇണങ്ങ"
+"ുന്നത്."
+
+#: src/filters/blur/gauss.xml:110(guilabel)
+#: src/filters/blur/tileable.xml:170(term)
+msgid "RLE"
+msgstr "RLE"
+
+#: src/filters/blur/gauss.xml:112(para)
+msgid ""
+"RLE stands for <quote>run-length encoding</quote>. RLE Gaussian Blur is best "
+"used on computer-generated images or those with large areas of constant "
+"intensity."
+msgstr ""
+"RLE <quote>run-length encoding</quote> നിലകൊള്ളുന്നു. RLE ഗോഷ്യൻ മങ്ങിക്ക"
+"ൽ കമ്പ്യൂട്ടർ തയ്യാറാക്കിയ ചിത്രങ്ങൾ അല്ലെങ്കിൽ നിരന്തരമായ തീവ്രത വലിയ ഭാഗങ"
+"്ങൾ ഉപയോഗിച്ച് ആ മികച്ചതായി ഉപയോഗിക്കുന്നത്."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/tileable.xml:40(None)
+msgid ""
+"@@image: 'images/filters/examples/blur-taj-tblur.jpg'; "
+"md5=f29dc0106640ba234b0d21ac3a6faa19"
+msgstr ""
+"@@image: 'images/filters/examples/blur-taj-tblur.jpg'; "
+"md5=f29dc0106640ba234b0d21ac3a6faa19"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/tileable.xml:134(None)
+msgid ""
+"@@image: 'images/filters/blur/tileable.png'; "
+"md5=4f7a9ddaeab433463fd656b04d68b074"
+msgstr ""
+"@@image: 'images/filters/blur/tileable.png'; "
+"md5=4f7a9ddaeab433463fd656b04d68b074"
+
+#: src/filters/blur/tileable.xml:13(title)
+#: src/filters/blur/tileable.xml:18(tertiary)
+#: src/filters/blur/tileable.xml:21(primary)
+msgid "Tileable Blur"
+msgstr ""
+"Tileable ഇഫക്റ്റ്"
+
+#: src/filters/blur/tileable.xml:27(title)
+msgid "Example for the <quote>Tileable</quote> filter"
+msgstr ""
+"<quote>Tileable</quote> ഫിൽട്ടർ ഉദാഹരണം"
+
+#: src/filters/blur/tileable.xml:43(para)
+msgid "Filter <quote>Tileable Blur</quote> applied"
+msgstr ""
+"<quote>Tileable Blur</quote> ഫിൽട്ടറിന്"
+
+#: src/filters/blur/tileable.xml:47(para)
+msgid ""
+"This tool is used to soften tile seams in images used in tiled backgrounds. "
+"It does this by blending and blurring the boundary between images that will "
+"be next to each other after tiling."
+msgstr ""
+"ഈ ഉപകരണം ടൈൽ പശ്ചാത്തലങ്ങളിൽ ഉപയോഗിക്കുന്ന ചിത്രങ്ങളിൽ ടൈൽ ഉള്പെടുത്തുക വി"
+"നീതമാവുകയും ഉപയോഗിക്കുന്നു. ഇത് പരസ്പരം അടുത്ത ടൈലിങ്ങിനുമേൽ ശേഷം എന്ന് യേ"
+"ാജിപ്പിച്ച് ചിത്രങ്ങളും തമ്മിലുള്ള അതിർത്തി ബ്ലറിംഗ് ചെയ്യുന്നു."
+
+#: src/filters/blur/tileable.xml:53(para)
+msgid ""
+"If you want to treat only images borders, you can't apply filter to the "
+"whole image. The solution to get the wanted effect is as follows:"
+msgstr ""
+"നിങ്ങൾ ഇമേജുകൾ മാത്രം അതിരുകൾ പെരുമാറണം ആഗ്രഹിക്കുന്നുവെങ്കിൽ നിങ്ങൾക്ക് മു"
+"ഴുവൻ ചിത്രം ഫിൽട്ടർ പ്രയോഗിക്കാൻ കഴിയില്ല. താഴെ പിടികൂടാനുള്ള പ്രതീതി ലഭിക"
+"്കാൻ പരിഹാരമാണ്:"
+
+#: src/filters/blur/tileable.xml:60(para)
+msgid ""
+"Duplicate layer (<menuchoice><guimenu>Layer</guimenu><guimenuitem>Duplicate "
+"Layer</guimenuitem></menuchoice>) and select it to work on it."
+msgstr ""
+"പാളി (<menuchoice><guimenu>Layer</guimenu><guimenuitem>Duplicate Layer</gui"
+"menuitem></menuchoice>) മാറ്റങ്ങള് അതിൽ പ്രവർത്തിക്കാൻ അത് തിരഞ്ഞെടുക്കുക."
+
+#: src/filters/blur/tileable.xml:70(para)
+msgid ""
+"Apply <quote>Tileable Blur</quote> filter with a 20 pixels radius to this "
+"layer."
+msgstr ""
+"ഈ പാളി ഒരു 20 പിക്സൽ വ്യാസാർദ്ധം <quote>Tileable Blur</quote> ഫിൽട്ടർ പ്രയേ"
+"ാഗിക്കുക."
+
+#: src/filters/blur/tileable.xml:76(para)
+msgid ""
+"Select all (<keycombo><keycap>Ctrl</keycap><keycap>A</keycap></keycombo>) "
+"and reduce selection (<menuchoice><guimenu>Selection</"
+"guimenu><guimenuitem>Shrink</guimenuitem></menuchoice>) to create a border "
+"with the wanted width."
+msgstr ""
+"എല്ലാം (<keycombo><keycap>Ctrl</keycap><keycap>A</keycap></keycombo>) തിരഞ്"
+"ഞെടുത്ത് പിടികൂടാനുള്ള വീതി അതിർത്തി സൃഷ്ടിക്കാൻ നിരക്കു (<menuchoice><guim"
+"enu>Selection</guimenu><guimenuitem>Shrink</guimenuitem></menuchoice>) കുറയ"
+"്ക്കും."
+
+#: src/filters/blur/tileable.xml:88(para)
+msgid ""
+"Give a feathered border to the selection by using "
+"<menuchoice><guimenu>Selection</guimenu><guimenuitem>Feather</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"<menuchoice><guimenu>Selection</guimenu><guimenuitem>Feather</guimenuitem><"
+"/menuchoice> ഉപയോഗിച്ച് നിരക്കു ഒരു കടൽപുറത്തെ ബോർഡർ തരിക."
+
+#: src/filters/blur/tileable.xml:97(para)
+msgid ""
+"Delete selection with <keycombo><keycap>Ctrl</keycap><keycap>K</keycap></"
+"keycombo>."
+msgstr ""
+"<keycombo><keycap>Ctrl</keycap><keycap>K</keycap></keycombo> ഉപയോഗിച്ച് തി"
+"രഞ്ഞെടുപ്പ് ഇല്ലാതാക്കുക."
+
+#: src/filters/blur/tileable.xml:103(para)
+msgid ""
+"Merge layers with <menuchoice><guimenu>Layer</guimenu><guimenuitem>Merge "
+"down</guimenuitem></menuchoice>."
+msgstr ""
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>Merge down</guimenuitem></"
+"menuchoice> ലെയറുകൾ ലയിപ്പിക്കുക."
+
+#: src/filters/blur/tileable.xml:117(para)
+msgid ""
+"You can find this filter in the image menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</"
+"guisubmenu><guimenuitem>Tileable Blur</guimenuitem></menuchoice>."
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><"
+"guimenuitem>Tileable Blur</guimenuitem></menuchoice> കീഴിൽ ഇമേജ് മെനുവിൽ ഈ "
+"ഫിൽട്ടർ കണ്ടെത്താം."
+
+#: src/filters/blur/tileable.xml:130(title)
+msgid "<quote>Tileable Blur</quote> filter options"
+msgstr ""
+"<quote>Tileable Blur</quote> ഫിൽട്ടർ ഓപ്ഷനുകൾ"
+
+#: src/filters/blur/tileable.xml:140(term)
+msgid "Radius"
+msgstr ""
+"വാസാര്ദ്ധം"
+
+#: src/filters/blur/tileable.xml:142(para)
+msgid ""
+"The bigger the radius, the more marked is the blur. By selecting "
+"<guilabel>Horizontal</guilabel> and <guilabel>Vertical</guilabel>, you can "
+"make the horizontal and vertical borders tileable."
+msgstr ""
+"വലിയ ആരം കൂടുതൽ അടയാളപ്പെടുത്തിയ മങ്ങൽ ആണ്. <guilabel>Horizontal</guilabel>"
+" ആൻഡ് <guilabel>Vertical</guilabel> തിരഞ്ഞെടുക്കുന്നതിലൂടെ, തിരശ്ചീന, ലംബ അ"
+"തിരുകൾ tileable കഴിയും."
+
+#: src/filters/blur/tileable.xml:150(term)
+msgid "Blur vertically"
+msgstr ""
+"ലംബമായി മങ്ങിക്കുന്നത്"
+
+#: src/filters/blur/tileable.xml:151(term)
+msgid "Blur horizontally"
+msgstr ""
+"തിരശ്ചീനമായി മങ്ങിക്കുന്നത്"
+
+#: src/filters/blur/tileable.xml:153(para)
+msgid "These options are self-explanatory."
+msgstr ""
+"ഈ ഓപ്ഷനുകൾ സ്വയം വിശദീകരിക്കുന്ന ആകുന്നു."
+
+#: src/filters/blur/tileable.xml:159(term)
+msgid "Blur type"
+msgstr ""
+"ഇഫക്റ്റ് തരം"
+
+#: src/filters/blur/tileable.xml:161(para)
+msgid "Choose the algorithm to be applied:"
+msgstr ""
+"പ്രയോഗിക്കപ്പെടുന്ന അൽഗോരിതം തിരഞ്ഞെടുക്കുക:"
+
+#: src/filters/blur/tileable.xml:166(para)
+msgid "for photographic or scanned images."
+msgstr ""
+"ഫോട്ടോഗ്രാഫിക് അല്ലെങ്കിൽ സ്കാൻ ചിത്രങ്ങൾ വേണ്ടി."
+
+#: src/filters/blur/tileable.xml:172(para)
+msgid "for computer-generated images."
+msgstr ""
+"കമ്പ്യൂട്ടർ തയ്യാറാക്കിയ ചിത്രങ്ങൾ വേണ്ടി."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/blur.xml:41(None)
+msgid ""
+"@@image: 'images/filters/examples/blur-taj-blur.jpg'; "
+"md5=89fcc5032d7c0ade9a1494affd35727d"
+msgstr ""
+"@@image: 'images/filters/examples/blur-taj-blur.jpg'; "
+"md5=89fcc5032d7c0ade9a1494affd35727d"
+
+#: src/filters/blur/blur.xml:28(title)
+msgid "The Blur filter applied to a photograph"
+msgstr ""
+"ഒരു ഫോട്ടോഗ്രാഫ് പ്രയോഗിച്ചു ഇഫക്റ്റ് അരിപ്പ"
+
+#: src/filters/blur/blur.xml:48(para)
+msgid ""
+"The simple Blur filter produces an effect similar to that of an out of focus "
+"camera shot. To produce this blur effect, the filter takes the average of "
+"the present pixel value and the value of adjacent pixels and sets the "
+"present pixel to that average value."
+msgstr ""
+"ലളിതമായ ഇഫക്റ്റ് അരിപ്പ ഫോക്കസ് ക്യാമറ ഷോട്ട് പുറത്തുള്ള സമാനമായ ഒരു ഇഫക്"
+"റ്റ് ഉത്പാദിപ്പിക്കുന്നത്. ഈ മങ്ങൽ പ്രഭാവം ഹാജരാക്കണം, അരിപ്പ ഇപ്പോഴത്തെ പ"
+"ിക്സൽ മൂല്യം അടുത്ത പിക്സൽ മൂല്യം ശരാശരി എടുക്കും ആ ശരാശരി മൂല്യം ഇപ്പോഴത്"
+"തെ പിക്സൽ സജ്ജമാക്കുന്നു."
+
+#: src/filters/blur/blur.xml:54(para)
+msgid "Filter advantage is its calculation speed. It suits big images."
+msgstr ""
+"ഫിൽറ്റർ മെച്ചം അതിന്റെ കണക്കുകൂട്ടൽ വേഗത. വലിയ ചിത്രങ്ങൾ അനുയോജ്യമായ."
+
+#: src/filters/blur/blur.xml:57(para)
+msgid ""
+"Filter disadvantage is that its action is hardly perceptible on big images, "
+"but very strong on small images."
+msgstr ""
+"ഫിൽറ്റർ നിരാശരാക്കി അതിന്റെ പ്രവർത്തനം വലിയ ചിത്രങ്ങളും പ്രയാസം പതക്ഷമായ, പ"
+"ക്ഷേ ചെറിയ ചിത്രങ്ങളും വളരെ ശക്തമാണ് എന്നതാണ്."
+
+#: src/filters/blur/blur.xml:65(para)
+msgid ""
+"You can find this filter through: <menuchoice><guimenu>Filters</"
+"guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Blur</guimenuitem></"
+"menuchoice>"
+msgstr ""
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><guimenu"
+"item>Blur</guimenuitem></menuchoice>: നിങ്ങൾ മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താനാകും"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/gauss_select.xml:40(None)
+msgid ""
+"@@image: 'images/filters/examples/blur-taj-selective.jpg'; "
+"md5=4523a312059a7a79b2f409a8a2fcec89"
+msgstr ""
+"@@image: 'images/filters/examples/blur-taj-selective.jpg'; "
+"md5=4523a312059a7a79b2f409a8a2fcec89"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/gauss_select.xml:79(None)
+msgid ""
+"@@image: 'images/filters/blur/sel-gauss.png'; "
+"md5=d01f9043bdb56d8edecc6c4e7b880e74"
+msgstr ""
+"@@image: 'images/filters/blur/sel-gauss.png'; "
+"md5=d01f9043bdb56d8edecc6c4e7b880e74"
+
+#: src/filters/blur/gauss_select.xml:13(title)
+#: src/filters/blur/gauss_select.xml:21(primary)
+msgid "Selective Gaussian Blur"
+msgstr ""
+"സെലക്ടീവ് ഗോഷ്യൻ ഇഫക്റ്റ്"
+
+#: src/filters/blur/gauss_select.xml:18(tertiary)
+msgid "Selective Gaussian"
+msgstr ""
+"സെലക്ടീവ് ഗോഷ്യൻ"
+
+#: src/filters/blur/gauss_select.xml:27(title)
+msgid "The Selective Gaussian Blur filter"
+msgstr ""
+"സെലക്ടീവ് ഗോഷ്യൻ അതിനായി filter"
+
+#: src/filters/blur/gauss_select.xml:47(para)
+msgid ""
+"Contrary to the other blur plug-ins, the Selective Gaussian Blur plug-in "
+"doesn't act on all pixels: blur is applied only if the difference between "
+"its value and the value of the surrounding pixels is less than a defined "
+"Delta value. So, contrasts are preserved because difference is high on "
+"contrast limits. It is used to blur a background so that the foreground "
+"subject will stand out better. This add a sense of depth to the image with "
+"only a single operation."
+msgstr ""
+"മറ്റ് മങ്ങൽ പ്ലഗ്-ഇന്നുകളെ വിരുദ്ധമായി സെലക്ടീവ് ഗോഷ്യൻ ഇഫക്റ്റ് പ്ലഗ്-ഇൻ "
+"എല്ലാ പിക്സൽ പ്രവർത്തിക്കാൻ ഇല്ല: ഇഫക്റ്റ് ഇതിന്റെ മൂല്യം ചുറ്റുമുള്ള പിക്സ"
+"ൽ മൂല്യം തമ്മിലുള്ള വ്യത്യാസം ഒരു നിർവചിക്കപ്പെട്ട ഡെൽറ്റ മൂല്യം കുറവാണ് മാ"
+"ത്രമേ പ്രയോഗിക്കുന്നു. വ്യത്യാസം തീവ്രത പരിധികൾ ഉയർന്ന കാരണം അങ്ങനെ, അതിന്"
+" ഭദ്രമായിരിക്കും. ഇത് അങ്ങനെ മുൻവശത്തുള്ള വിഷയം മെച്ചപ്പെട്ട ഔട്ട് നിലക്കും"
+" ഒരു പശ്ചാത്തല ബ്ലർ ഉപയോഗിക്കുന്നു. ഇത് മാത്രം സിംഗിൾ ഓപ്പറേഷൻ ഉപയോഗിച്ച്"
+" ഇമേജ് .ബൗളിങില് പ്രതീതി ചേർക്കുക."
+
+#: src/filters/blur/gauss_select.xml:60(para)
+msgid ""
+"You can find this filter in the image menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</"
+"guisubmenu><guimenuitem>Selective Gaussian Blur</guimenuitem></menuchoice>"
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><"
+"guimenuitem>Selective Gaussian Blur</guimenuitem></menuchoice> കീഴിൽ ഇമേജ് "
+"മെനുവിൽ ഈ ഫിൽട്ടർ കണ്ടെത്താനാകും"
+
+#: src/filters/blur/gauss_select.xml:73(title)
+msgid "<quote>Selective Gaussian</quote> filter parameters settings"
+msgstr ""
+"<quote>Selective Gaussian</quote> ഫിൽട്ടർ പാരാമീറ്ററുകൾ ക്രമീകരണങ്ങൾ"
+
+#: src/filters/blur/gauss_select.xml:85(term)
+msgid "Blur radius"
+msgstr ""
+"റേഡിയസ് മങ്ങിക്കുക"
+
+#: src/filters/blur/gauss_select.xml:87(para)
+msgid "Here you can set the blur intensity, in pixels."
+msgstr ""
+"ഇവിടെ നിങ്ങൾ പിക്സലിൽ, മങ്ങൽ തീവ്രത സജ്ജമാക്കാൻ കഴിയും."
+
+#: src/filters/blur/gauss_select.xml:93(term)
+msgid "Max. delta"
+msgstr ""
+"മാക്സ്. ഡെൽറ്റാ"
+
+#: src/filters/blur/gauss_select.xml:95(para)
+msgid ""
+"Here you can set the maximum difference (0-255) between the pixel value and "
+"the surrounding pixel values. Above this Delta, blur will not be applied to "
+"that pixel."
+msgstr ""
+"ഇവിടെ നിങ്ങൾ പരമാവധി വ്യത്യാസത്തിൽ (0-255) പിക്സൽ മൂല്യം ചുറ്റുമുള്ള പിക്സൽ"
+" മൂല്യങ്ങൾ തമ്മിലുള്ള സജ്ജമാക്കാൻ കഴിയും. ഈ ഡെൽറ്റ മുകളിൽ, മങ്ങൽ ആ പിക്സൽ പ"
+"്രയോഗിക്കാൻ ചെയ്യില്ല."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/introduction.xml:22(None)
+msgid ""
+"@@image: 'images/filters/examples/blur-demo-orig.png'; "
+"md5=f7cad92ff08d8a410ab6988f09b30f21"
+msgstr ""
+"@@image: 'images/filters/examples/blur-demo-orig.png'; "
+"md5=f7cad92ff08d8a410ab6988f09b30f21"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/introduction.xml:42(None)
+msgid ""
+"@@image: 'images/filters/examples/blur-demo-gauss10.png'; "
+"md5=eab465ad7182d587c9a3c80383a36407"
+msgstr ""
+"@@image: 'images/filters/examples/blur-demo-gauss10.png'; "
+"md5=eab465ad7182d587c9a3c80383a36407"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/introduction.xml:59(None)
+msgid ""
+"@@image: 'images/filters/examples/blur-demo-blur.png'; "
+"md5=627b57b1b5b36981c7e7edda0aa52d81"
+msgstr ""
+"@@image: 'images/filters/examples/blur-demo-blur.png'; "
+"md5=627b57b1b5b36981c7e7edda0aa52d81"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/introduction.xml:78(None)
+msgid ""
+"@@image: 'images/filters/examples/blur-demo-selective.png'; "
+"md5=2cbe4f2f06c874743b65ca5fbe5ffda8"
+msgstr ""
+"@@image: 'images/filters/examples/blur-demo-selective.png'; "
+"md5=2cbe4f2f06c874743b65ca5fbe5ffda8"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/introduction.xml:98(None)
+msgid ""
+"@@image: 'images/filters/examples/blur-demo-pixelize.png'; "
+"md5=2c18c51882017961c08562d42fdb0e91"
+msgstr ""
+"@@image: 'images/filters/examples/blur-demo-pixelize.png'; "
+"md5=2c18c51882017961c08562d42fdb0e91"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/introduction.xml:124(None)
+msgid ""
+"@@image: 'images/filters/examples/blur-demo-mblur.png'; "
+"md5=dcde73c9e4987f7533d247793bf6a15d"
+msgstr ""
+"@@image: 'images/filters/examples/blur-demo-mblur.png'; "
+"md5=dcde73c9e4987f7533d247793bf6a15d"
+
+#: src/filters/blur/introduction.xml:10(title)
+msgid "Introduction"
+msgstr ""
+"അവതാരിക"
+
+#: src/filters/blur/introduction.xml:18(title)
+msgid "Original for demo"
+msgstr ""
+"ഡെമോ അസൽ"
+
+#: src/filters/blur/introduction.xml:26(para)
+msgid ""
+"This is a set of filters that blur images, or parts of them, in various "
+"ways. If there is a selection, only the selected parts of an image will be "
+"blurred. There may, however, be some leakage of colors from the unblurred "
+"area into the blurred area. To help you pick the one you want, we will "
+"illustrate what each does when applied to the image shown at right. These "
+"are, of course, only examples: most of the filters have parameter settings "
+"that allow you to vary the magnitude or type of blurring."
+msgstr ""
+"ഈ വിവിധ വഴികളിൽ, ചിത്രങ്ങൾ ബ്ലർ ഫിൽട്ടറുകൾ, അവയുടെ ഭാഗങ്ങളായ ഒരു കൂട്ടം. ഒര"
+"ു നിരക്കു അവിടെ ഉണ്ടെങ്കിൽ, ഒരു ചിത്രത്തിന്റെ മാത്രമേ തിരഞ്ഞെടുത്ത ഭാഗങ്ങൾ "
+"മങ്ങിക്കപ്പെടും. അവിടെ എന്നിരുന്നാലും, മങ്ങിയ പ്രദേശത്ത് unblurred പ്രദേശത്"
+"ത് നിന്ന് നിറങ്ങൾ ചില ചോർച്ച ആയിരിക്കും. നിങ്ങൾ ആഗ്രഹിക്കുന്ന തിരഞ്ഞെടുക്ക"
+"ുക സഹായിക്കുന്നതിന്, വലതുഭാഗത്ത് കൊടുത്തിരിക്കുന്നു ചിത്രം പ്രയോഗിക്കാൻ ഓ"
+"രോ ചെയ്യുന്നതു എന്തു വിശദീകരിയ്ക്കുന്നു ചെയ്യും. ഈ കോഴ്സ്, ആകുന്നു മാത്രം"
+" ഉദാഹരണങ്ങൾ: ഫിൽറ്ററുകൾ ഏറ്റവും മങ്ങൽ വസ്തുവിൽ അല്ലെങ്കിൽ തരം വ്യത്യാസപ്പെട"
+"ാം അനുവദിക്കുന്ന പാരാമീറ്റർ ക്രമീകരണങ്ങൾ ഉണ്ട്."
+
+#: src/filters/blur/introduction.xml:38(title)
+msgid "Gaussian blur (radius 10)"
+msgstr ""
+"ഗോഷ്യൻ മങ്ങൽ (ആരം 10)"
+
+#: src/filters/blur/introduction.xml:46(para)
+msgid ""
+"The most broadly useful of these is the Gaussian blur. (Don't let the word "
+"\"Gaussian\" throw you: this filter makes an image blurry in the most basic "
+"way.) It has an efficient implementation that allows it to create a very "
+"blurry blur in a relatively short time."
+msgstr ""
+"ഏറ്റവും വീതിയേറിയ ഈ ഉപയോഗപ്രദമായ ഗോഷ്യൻ മങ്ങൽ ആണ്. (പറയരുതേ; വചനം \"ഗോഷ്"
+"യൻ\" നീ ഇടുക: ഈ ഫിൽട്ടർ ഏറ്റവും അടിസ്ഥാന വഴി തമാശയായി ഒരു ഇമേജ് ചെയ്യുന്നു."
+") അത് താരതമ്യേന ചെറിയ സമയം വളരെ മങ്ങിയതും മങ്ങൽ സൃഷ്ടിക്കാൻ അനുവദിക്കുന്ന ഒ"
+"രു കാര്യക്ഷമമായ നടപ്പിലാക്കൽ ഉണ്ട്."
+
+#: src/filters/blur/introduction.xml:55(title)
+msgid "Simple blur"
+msgstr ""
+"ലളിത മങ്ങൽ"
+
+#: src/filters/blur/introduction.xml:63(para)
+msgid ""
+"If you only want to blur the image a little bit — to soften it, as it were — "
+"you might use the simple \"Blur\" filter. This filter runs automatically, "
+"without creating a dialog. The effect is subtle enough that you might not "
+"even notice it, but you can get a stronger effect by repeating it. In GIMP "
+"2.0 the filter shows a dialog that allows you to set a \"repeat count\". If "
+"you want a strong blurring effect, this filter is too slow to be a good "
+"choice: use a Gaussian blur instead."
+msgstr ""
+"നിങ്ങൾ മാത്രം ഇമേജ് ഒരു അല്പം ബ്ലർ ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ - അതു ഹാർഡ്നെസ്സ"
+"്, അതു പോലെ - നിങ്ങൾ ലളിതമായ \"ഇഫക്റ്റ്\" ഫിൽറ്റർ ഉപയോഗിച്ചേക്കാം. ഈ ഫിൽട"
+"്ടർ ഒരു ഡയലോഗ് ഉണ്ടാക്കാതെ, സ്വയം പ്രവർത്തിപ്പിക്കുന്നു. പ്രഭാവം നിങ്ങൾ പേ"
+"ാലും ഇതിനെ ശ്രദ്ധിച്ചിരിക്കാനിടയുണ്ട് എന്നല്ല, നിങ്ങൾ അത് ആവര്ത്തിക്കുന്നു "
+"ശക്തമായ പ്രഭാവം ലഭിക്കും മതി തന്ത്രപൂർവം ആണ്. ജിമ്പ് 2.0 ഫിൽട്ടർ നിങ്ങൾ ഒരു"
+" \"ആവർത്തിക്കുക എണ്ണം\" സജ്ജമാക്കാൻ അനുവദിക്കുന്ന ഒരു ഡയലോഗ് കാണിക്കുന്നു."
+" നിങ്ങൾ ഒരു ശക്തമായ ബ്ലറിംഗ് പ്രഭാവം ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, ഈ ഫിൽട്ടർ ഒരു"
+" നല്ല ആയിരിക്കും വളരെ സാവധാനത്തിലാണ്: പകരമായി ഒരു ഗോഷ്യൻ മങ്ങൽ ഉപയോഗിക്കു"
+"ക."
+
+#: src/filters/blur/introduction.xml:74(title)
+msgid "Selective blur"
+msgstr ""
+"സെലക്ടീവ് മങ്ങൽ"
+
+#: src/filters/blur/introduction.xml:82(para)
+msgid ""
+"The Selective Blur filter allows you to set a threshold so that only pixels "
+"that are similar to each other are blurred together. It is often useful as a "
+"tool for reducing graininess in photos without blurring sharp edges. (In the "
+"example, note that the graininess of the background has been reduced.) The "
+"implementation is much slower than a Gaussian blur, though, so you should "
+"not use it unless you really need the selectivity."
+msgstr ""
+"സെലക്ടീവ് മങ്ങിക്കൽ അരിപ്പ അങ്ങനെ പരസ്പരം സമാനമായ മാത്രമേ പിക്സലുകൾ ഒരുമിച്"
+"ചു മങ്ങിയിരിക്കും നിങ്ങൾ ഒരു ഉമ്മരപ്പടി സജ്ജീകരിക്കാൻ അനുവദിക്കുന്നു. പലപ്പ"
+"ോഴും മൂർച്ചയുള്ള അരികുകളും ബ്ലറിംഗ് ഇല്ലാതെ ഫോട്ടോകളിൽ graininess കുറയ്ക"
+"്കാൻ ഉപകരണമായി ഉപകാരപ്രദമാണ്. (ഉദാഹരണത്തിന്, പശ്ചാത്തല എന്ന graininess കുറഞ"
+"്ഞു ശ്രദ്ധിക്കുക.) നടപ്പിലാക്കൽ എങ്കിലും, ഒരു ഗോഷ്യൻ ഇഫക്റ്റ് അധികം പ്രതലപ"
+"്രവർത്തനവുമായിരുക്കും, അതിനാൽ നിങ്ങൾ ശരിക്കും selectivity വേണമെങ്കിൽ പോരാൻ"
+" അത് ഉപയോഗിക്കാൻ പാടില്ല."
+
+#: src/filters/blur/introduction.xml:94(title)
+msgid "Pixelize"
+msgstr "Pixelize"
+
+#: src/filters/blur/introduction.xml:102(para)
+msgid ""
+"The Pixelize filter produces the well-known \"Abraham Lincoln\" effect by "
+"turning the image into a set of large square pixels. (The <link linkend="
+"\"plug-in-oilify\">Oilify</link> filter, in the Artistic Filters group, has "
+"a similar effect, but with irregular blobs instead of perfectly square "
+"pixels.)"
+msgstr ""
+"Pixelize അരിപ്പ വലിയ ചതുരം പിക്സൽ ഒരു കൂട്ടം ചിത്രം തിരിഞ്ഞ് അറിയപ്പെടുന്ന "
+"\"എബ്രഹാം ലിങ്കൺ\" ഇഫക്ട് ഉത്പാദിപ്പിക്കുന്നത്. (<link linkend=\"plug-in-oi"
+"lify\">Oilify</link> ഫിൽട്ടർ, കലാസൃഷ്ടികൾ അരിപ്പകൾ സംഘത്തിൽ ഇതേ പ്രതീതി ഉണ്"
+"ട്, എന്നാൽ അനിയത കളേയും പകരം തികച്ചും ചതുരശ്ര പിക്സലുകൾ ഉള്ള.)"
+
+#: src/filters/blur/introduction.xml:110(para)
+msgid ""
+"You can find a nice explanation of the Abraham Lincoln effect at <xref "
+"linkend=\"bibliography-online-bach\"/>. You will see the Salvador Dali's "
+"painting <quote>Gala Contemplating the Mediterranean Sea</quote> turning to "
+"an Abraham Lincoln's portrait when looking at it from a distance."
+msgstr ""
+"നിങ്ങൾ <xref linkend=\"bibliography-online-bach\" /> ന് എബ്രഹാം ലിങ്കൺ പ്രഭ"
+"ാവമുള്ള ഒരു നല്ല വിശദീകരണവും കണ്ടെത്താൻ കഴിയും. നിങ്ങൾ അകലെ നിന്ന് അതു നോക"
+"്കി സമയത്ത് സാൽവഡോർ ടാലി ന്റെ പെയിന്റിംഗ് <quote>Gala Contemplating the Me"
+"diterranean Sea</quote> ഒരു എബ്രഹാം ലിങ്കൺ ഛായാചിത്രം തിരിയുന്ന കാണും."
+
+#: src/filters/blur/introduction.xml:120(title)
+msgid "Motion blur"
+msgstr ""
+"മോഷൻ മങ്ങൽ"
+
+#: src/filters/blur/introduction.xml:128(para)
+msgid ""
+"The Motion Blur filter blurs in a specific direction at each point, which "
+"allows you to create a sense of motion: either linear, radial, or rotational."
+msgstr ""
+"ലീനിയർ, റേഡിയൽ, അല്ലെങ്കിൽ പരിക്രമണസമമിതിയായി ഒന്നുകിൽ: മോഷൻ ബ്ലർ ഫിൽട്ടർ "
+"നിങ്ങൾ മോഷൻ പ്രതീതി സൃഷ്ടിക്കാൻ അനുവദിക്കുന്ന ഓരോ പോയിന്റിലും ഒരു പ്രത്യ"
+"േക ദിശയിൽ, ലെ മങ്ങിച്ചാൽ."
+
+#: src/filters/blur/introduction.xml:134(para)
+msgid ""
+"Finally, the Tileable Blur filter is really the same thing as a Gaussian "
+"blur, except that it wraps around the edges of an image to help you reduce "
+"edge effects when you create a pattern by tiling multiple copies of the "
+"image side by side."
+msgstr ""
+"ഒടുവിൽ Tileable ഇഫക്റ്റ് അരിപ്പ ശരിക്കും ഒരു ഗോഷ്യൻ മങ്ങൽ അതേ കാര്യം, അതു "
+"നിങ്ങൾ അരികെ ചിത്രം വശത്തു ഒന്നിലധികം പകർപ്പുകൾ ടൈലിംഗ് ഒരു പാറ്റേൺ സൃഷ്ടിക"
+"്കുമ്പോൾ നിങ്ങൾ എഡ്ജ് ഇഫക്റ്റുകൾ കുറയ്ക്കുന്നതിന് ഒരു ചിത്രം അറ്റങ്ങൾ റാപ്"
+" ഒഴികെ ആണ്."
+
+#: src/filters/blur/introduction.xml:141(para)
+msgid ""
+"Tileable Blur is actually implemented by a Script-Fu script that invokes the "
+"Gaussian blur plug-in."
+msgstr ""
+"Tileable ഇഫക്റ്റ് യഥാർത്ഥത്തിൽ ഗോഷ്യൻ മങ്ങൽ പ്ലഗ്-ഇൻ ഭവിക്കട്ടെ എന്ന് ഒരു "
+"സ്ക്രിപ്റ്റ്-ഫു സ്ക്രിപ്റ്റ് നടപ്പാക്കുന്നത്."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/mblur.xml:40(None)
+msgid ""
+"@@image: 'images/filters/examples/blur-taj-mblur-linear.jpg'; "
+"md5=c9c7b4a899969e90dbbfe78aa019b93c"
+msgstr ""
+"@@image: 'images/filters/examples/blur-taj-mblur-linear.jpg'; "
+"md5=c9c7b4a899969e90dbbfe78aa019b93c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/mblur.xml:52(None)
+msgid ""
+"@@image: 'images/filters/examples/blur-taj-mblur-radial.jpg'; "
+"md5=221b5cce7d3f3b9f5ecb9b36750242f5"
+msgstr ""
+"@@image: 'images/filters/examples/blur-taj-mblur-radial.jpg'; "
+"md5=221b5cce7d3f3b9f5ecb9b36750242f5"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/mblur.xml:61(None)
+msgid ""
+"@@image: 'images/filters/examples/blur-taj-mblur-zoom.jpg'; "
+"md5=7ab237b8f78f1f8e445c9e36288cb105"
+msgstr ""
+"@@image: 'images/filters/examples/blur-taj-mblur-zoom.jpg'; "
+"md5=7ab237b8f78f1f8e445c9e36288cb105"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/blur/mblur.xml:94(None)
+msgid ""
+"@@image: 'images/filters/blur/mblur.png'; "
+"md5=3868c11354ee8d31374ef9274047d00c"
+msgstr ""
+"@@image: 'images/filters/blur/mblur.png'; "
+"md5=3868c11354ee8d31374ef9274047d00c"
+
+#: src/filters/blur/mblur.xml:13(title)
+#: src/filters/blur/mblur.xml:18(tertiary)
+#: src/filters/blur/mblur.xml:21(primary)
+msgid "Motion Blur"
+msgstr ""
+"മോഷൻ ബ്ലർ"
+
+#: src/filters/blur/mblur.xml:27(title)
+msgid "Starting example for Motion Blur filter"
+msgstr ""
+"മോഷൻ മങ്ങിക്കൽ ഫിൽട്ടർ മാതൃക ആരംഭിക്കുന്നു"
+
+#: src/filters/blur/mblur.xml:34(para)
+msgid "Original image"
+msgstr ""
+"യഥാർത്ഥ ചിത്രം"
+
+#: src/filters/blur/mblur.xml:43(para)
+msgid "Linear blur"
+msgstr ""
+"ലീനിയർ മങ്ങൽ"
+
+#: src/filters/blur/mblur.xml:48(title)
+msgid "Using example for Motion Blur filter"
+msgstr ""
+"മോഷൻ മങ്ങിക്കൽ ഫിൽട്ടർ മാതൃക ഉപയോഗിക്കുന്നു"
+
+#: src/filters/blur/mblur.xml:55(para)
+msgid "Radial blur"
+msgstr ""
+"ലയര്"
+
+#: src/filters/blur/mblur.xml:64(para)
+msgid "Zoom blur"
+msgstr ""
+"സൂം മങ്ങൽ"
+
+#: src/filters/blur/mblur.xml:68(para)
+msgid ""
+"The Motion Blur filter creates a movement blur. The filter is capable of "
+"Linear, Radial, and Zoom movements. Each of these movements can be further "
+"adjusted, with Length, or Angle settings available."
+msgstr ""
+"മോഷൻ അതിനായി filter ഒരു പ്രസ്ഥാനം മങ്ങൽ സൃഷ്ടിക്കുന്നു. അരിപ്പ ലീനിയർ, റേഡ"
+"ിയൽ, സൂം പ്രസ്ഥാനങ്ങൾ കഴിവുള്ള. ഈ പ്രസ്ഥാനങ്ങളുടെ ഓരോ കൂടുതൽ ലഭ്യമായ ദൈർഘ്"
+"യം, അല്ലെങ്കിൽ ആംഗിൾ ക്രമീകരണങ്ങൾ ഉപയോഗിച്ച്, അഡ്ജസ്റ്റു ചെയ്യാം."
+
+#: src/filters/blur/mblur.xml:77(para)
+msgid ""
+"You can find this filter in the image menu under "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</"
+"guisubmenu><guimenuitem>Motion Blur</guimenuitem></menuchoice>"
+msgstr ""
+"നിങ്ങൾ <menuchoice><guimenu>Filters</guimenu><guisubmenu>Blur</guisubmenu><"
+"guimenuitem>Motion Blur</guimenuitem></menuchoice> ​​കീഴിൽ ഇമേജ് മെനുവിൽ ഈ "
+"ഫിൽട്ടർ കണ്ടെത്താനാകും"
+
+#: src/filters/blur/mblur.xml:90(title)
+msgid "<quote>Motion Blur</quote> filter options"
+msgstr ""
+"<quote>Motion Blur</quote> ഫിൽട്ടർ ഓപ്ഷനുകൾ"
+
+#: src/filters/blur/mblur.xml:100(term)
+msgid "Blur Type"
+msgstr ""
+"ഇഫക്റ്റ് ഇനം"
+
+#: src/filters/blur/mblur.xml:104(term)
+msgid "Linear"
+msgstr ""
+"ലീനിയർ"
+
+#: src/filters/blur/mblur.xml:106(para)
+msgid ""
+"Is a blur that travels in a single direction, horizontally, for example. In "
+"this case, Length means as Radius in other filters:it represents the blur "
+"intensity. More Length will result in more blurring. Angle describes the "
+"actual angle of the movement. Thus, a setting of 90 will produce a vertical "
+"blur, and a setting of 0 will produce a horizontal blur."
+msgstr ""
+"ഒരു ഏക ദിശയിലെ ഉദാഹരണത്തിന്, തിരശ്ചീനമായി സഞ്ചരിക്കുന്നത് ഒരു മങ്ങൽ ആണോ. ഈ"
+" സാഹചര്യത്തിൽ, നീളം മറ്റ് ഫിൽട്ടറുകൾ ലെ റേഡിയസ് ആയി മാർഗങ്ങൾ: അതു മങ്ങൽ തീവ"
+"്രത പ്രതിനിധീകരിക്കുന്നു. കൂടുതൽ ദൈർഘ്യം കൂടുതൽ മങ്ങിക്കുന്നത് പരിണമിക്കും."
+" ആംഗിൾ പ്രസ്ഥാനത്തിന്റെ യഥാർത്ഥ കോൺ വിവരിക്കുന്നു. ഇപ്രകാരം, 90 ഒരു ക്രമീക"
+"രണം ഒരു ലംബമായ മങ്ങൽ താനേ, 0 ഒരു ക്രമീകരണം ഒരു തിരശ്ചീന ബ്ലർ താനേ വന്നുകൊള"
+"്ളും."
+
+#: src/filters/blur/mblur.xml:120(term)
+msgid "Radial"
+msgstr ""
+"റേഡിയൽ"
+
+#: src/filters/blur/mblur.xml:122(para)
+msgid ""
+"motion blur that creates a circular blur. The Length slider is not important "
+"with this type of blur. Angle on the other hand, is the primary setting that "
+"will affect the blur. More Angle will result in more blurring in a circular "
+"direction. The Radial motion blur is similar to the effect of a spinning "
+"object. The center of the spin in this case, is the center of the image."
+msgstr ""
+"വൃത്താകൃതിയിലുള്ള മങ്ങൽ സൃഷ്ടിക്കുന്ന ചലനം മങ്ങൽ. ദൈർഘ്യം സ്ലൈഡർ മങ്ങൽ ഈ തര"
+"ം പ്രാധാന്യമുള്ള കാര്യമല്ല. മറുവശത്ത് ആങ്കിൾ, ഇഫക്റ്റ് ബാധിക്കുമെന്ന് പ്രാഥ"
+"മിക ക്രമീകരണമാണ്. കൂടുതൽ ആംഗിൾ വൃത്താകൃതിയിലുള്ള ദിശയിൽ കൂടുതൽ മങ്ങിക്കുന്ന"
+"ത് പരിണമിക്കും. റേഡിയൽ മോഷൻ മങ്ങൽ ഒരു സ്പിന്നിങ് ഒബ്ജക്റ്റ് പ്രഭാവം സമാനമാ"
+"ണ്. ഈ കേസിൽ സ്പിൻ കേന്ദ്രത്തിൽ, ചിത്രത്തിന്റെ കേന്ദ്രമാണ്."
+
+#: src/filters/blur/mblur.xml:136(term)
+msgid "Zoom"
+msgstr ""
+"സൂം"
+
+#: src/filters/blur/mblur.xml:138(para)
+msgid ""
+"Produces a blur that radiates out from the center of the image. The center "
+"of the image remains relatively calm, whilst the outer areas become blurred "
+"toward the center. This filter option produces a perceived forward movement, "
+"into the image. Length is the main setting here, and affects the amount of "
+"speed, as it were, toward the center of the image."
+msgstr ""
+"ചിത്രം കേന്ദ്രത്തിൽ നിന്ന് പുറത്തു വികിരണം പന്തളവര്മ്മയുടെ ഉത്പാദിപ്പിക്കുന"
+"്നത്. പുറത്തെ പ്രദേശങ്ങൾ മധ്യത്തിലേക്ക് മങ്ങിയ തീർന്നിരിക്കുന്നു പടർത്തുകയു"
+"ം ചിത്രത്തിന്റെ കേന്ദ്രം, താരതമ്യേന ശാന്തമായ തുടരുന്നു. ഈ ഫിൽറ്റർ ഓപ്ഷൻ പ്ര"
+"തിമയായി ഒരു മുമ്പോട്ടു അറിഞ്ഞു പ്രസ്ഥാനം ഉത്പാദിപ്പിക്കുന്നത്. അത് ചിത്രത്"
+"തിന്റെ മധ്യത്തിലേക്ക്, പോലെ നീളവും ഇവിടെ പ്രധാന ക്രമീകരണം, വേഗത തുക ബാധിക്"
+"കുന്നു."
+
+#: src/filters/blur/mblur.xml:153(term)
+msgid "Blur Parameters"
+msgstr ""
+"ഇഫക്റ്റ് പരാമീറ്ററുകൾ"
+
+#: src/filters/blur/mblur.xml:157(term)
+msgid "Length"
+msgstr ""
+"ദൈർഘ്യം"
+
+#: src/filters/blur/mblur.xml:159(para)
+msgid "This slider controls the distance pixels are moved (1 - 256)"
+msgstr ""
+"ഈ സ്ലൈഡർ ദൂരം പിക്സൽ പ്രേരിതരായിത്തീരുന്നു നിയന്ത്രിക്കുന്നു (1 - 256)"
+
+#: src/filters/blur/mblur.xml:166(term)
+msgid "Angle"
+msgstr ""
+"കോൺ"
+
+#: src/filters/blur/mblur.xml:168(para)
+msgid "As seen above, Angle slider effect depends on Blur type (0 - 360)."
+msgstr ""
+"മുകളിൽ നോക്കുമ്പോൾ ആംഗിൾ സ്ലൈഡർ പ്രഭാവം ഇഫക്റ്റ് തരം (- 360 0) ആശ്രയിച്ചി"
+"രിക്കുന്നു."
+
+#: src/filters/blur/mblur.xml:178(term)
+msgid "Blur Center"
+msgstr ""
+"ഇഫക്റ്റ് കേന്ദ്രം"
+
+#: src/filters/blur/mblur.xml:180(para)
+msgid ""
+"With this option, you can set the starting point of movement. Effect is "
+"different according to the Blur Type you have selected. With Radial Type for "
+"instance, you set rotation center. With Zoom Type, vanishing point. This "
+"option is greyed out with Linear type."
+msgstr ""
+"ഈ ഓപ്ഷൻ ഉപയോഗിച്ച്, നിങ്ങൾക്ക് പ്രസ്ഥാനത്തിന്റെ തുടക്കം സജ്ജമാക്കാൻ കഴിയും"
+". പ്രഭാവം നിങ്ങൾ തിരഞ്ഞെടുത്ത ഇഫക്റ്റ് ഇനം തക്കവണ്ണം വ്യത്യസ്തമാണ്. ഉദാഹരണത"
+"്തിന് റേഡിയൽ ഇനം ഉപയോഗിച്ച്, ഭ്രമണം കേന്ദ്രം. സൂം ഇനം, അപ്രത്യക്ഷമായി പോയ"
+"ിന്റ് കൂടി. ഈ ഓപ്ഷൻ ലീനിയർ തരം മറച്ച ആണ്."
+
+#: src/filters/blur/mblur.xml:187(para)
+msgid ""
+"You have to set the blur center coordinates. Unfortunately, you can't do "
+"that by clicking on the image. But, by moving mouse pointer on the image, "
+"you can see its coordinates in the lower left corner of the image window. "
+"Only copy them out into the input boxes."
+msgstr ""
+"നിങ്ങൾ മങ്ങൽ കേന്ദ്രം നിർദ്ദേശാങ്കങ്ങൾ സജ്ജമാക്കേണ്ടതുണ്ട്. നിർഭാഗ്യവശാൽ, ച"
+"ിത്രത്തിൽ ക്ലിക്കുചെയ്തുകൊണ്ട് അത് ചെയ്യാനാവില്ല. എന്നാൽ, ചിത്രത്തിൽ മൌസ്"
+" പോയിന്റർ നീക്കി, നിങ്ങൾ അതിന്റെ നിർദ്ദേശാങ്കങ്ങൾ ഇമേജ് വിൻഡോയുടെ താഴെ ഇട"
+"ത് മൂലയിൽ കാണാൻ കഴിയും. എഴുത്ത് ബോക്സുകൾ അവരെ പുറത്തു പകർത്തുക."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/filters/blur/mblur.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"പരിഭാഷകൻ-ക്രെഡിറ്റുകൾ"

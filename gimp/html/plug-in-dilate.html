@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>8.3. Dilate</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-generic.html" title="8. സാമാന്യ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-convmatrix.html" title="8.2. കോൺവൊല്യൂഷൻ മാട്രിക്സ്" />
+    <link rel="next" href="plug-in-erode.html" title="8.4. ഈറോഡ്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">8.3. Dilate</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-convmatrix.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">8. സാമാന്യ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-erode.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-dilate"></a>8.3. Dilate</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925524194672" class="indexterm"></a>
+      <a id="idp46925524196480" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524197376"></a>8.3.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925524198144"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.156. Dilate ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="Dilate ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/generic-taj-dilate.jpg" alt="Dilate ഫിൽട്ടർ മാതൃക ബാധകമാക്കുന്നത്" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Dilate</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ വർദ്ധിപ്പിക്കുന്ന സജീവ അല്ലെങ്കിൽ പാളി നിരക്കു ഇരുണ്ട പ്രദേശങ്ങൾ വർദ്ധിപ്പിക്കുകയും.</p>
+        <p>ഓരോ ഇമേജ് പിക്സൽ, അതു 8 അയൽ പിക്സൽ (3X3 മാട്രിക്സ്) ഏറ്റവും കുറവ് മൂല്യം (ഇരുട്ടിലും) കൂടെ വര പിക്സൽ മൂല്യം (തേജസ്സ്) നൽകുന്നു. അതുകൊണ്ട്, ഒരു ഇരുണ്ട പിക്സൽ ഇരുണ്ട പ്രദേശങ്ങളിലെ ചേർത്തു. ഒരു പകിട്ടാർന്ന പശ്ചാത്തലത്തിൽ ഒറ്റപ്പെട്ട പിക്സൽ, ഒരു വലിയ <span class="quote">“<span class="quote">pixel</span>”</span> ലേക്ക് മാറ്റി ചെയ്യും 9 പിക്സൽ വിന്യസിക്കപ്പെട്ട ആ ചിത്രം ചില മുഴക്കം സൃഷ്ടിക്കും.</p>
+        <div class="mediaobject">
+          <img src="images/filters/generic/dilate-pixel.png" />
+        </div>
+        <p>ഈ ചിത്രത്തിൽ പഠിച്ചു പിക്സൽ ഒരു ചുവന്ന അതിർത്തി ഉണ്ട് പഠിച്ച് മാട്രിക്സ് ഒരു പച്ച ബോർഡർ ഉണ്ട്. പഠിച്ചു പിക്സൽ കറുത്ത പശ്ചാത്താപം, <span class="quote">“<span class="quote">I</span>”</span> പിക്സൽ പച്ച ബോർഡർ അകത്ത് വരുമ്പോൾ: ഞാൻ നിങ്ങൾക്ക് പ്രക്രിയ കൂടെ പോയി ഒരു 3X3 പിക്സൽ തടയൽ നേടുകയും എങ്ങനെ മനസ്സിലാക്കി പ്രതീക്ഷിക്കുന്നു.</p>
+        <p>ഒരു വലിയ ഇരുണ്ട പ്രദേശത്ത് എല്ലാ ദിക്കുകളിലേക്കും ഒരു പിക്സൽ വഴി dilate ചെയ്യും:</p>
+        <div class="mediaobject">
+          <img src="images/filters/generic/dilate-zone.png" />
+        </div>
+        <p>ഫിൽട്ടർ 3 തവണ പ്രയോഗിച്ചു.</p>
+        <p>കൂടുതൽ സങ്കീർണ്ണമായ ചിത്രങ്ങൾ ന് ഇരുണ്ട പ്രദേശങ്ങൾ വർദ്ധിച്ചിരിക്കുകയാണ്, ഇവ മെച്ചപ്പെടുത്തിയ തന്നേ അല്പമെങ്കിലും pixellated. ഇവിടെ, അരിപ്പ പ്രയോഗിച്ചു 3 തവണ:</p>
+        <div class="mediaobject">
+          <img src="images/filters/generic/dilate-milord.png" />
+        </div>
+        <p>ഗതി, പശ്ചാത്തല മുൻഭാഗത്തെ ഇരുണ്ട് എങ്കിൽ അതു മുഴുവനും ചിത്രം മൂടും.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524216768"></a>8.3.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Generic</span> → <span class="guimenuitem">Dilate</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524219440"></a>8.3.3. ഉദാഹരണങ്ങൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925524220192"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.157. ടെക്സ്റ്റ് Dilate</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/dilate-text.png" alt="ടെക്സ്റ്റ് Dilate" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="figure">
+          <a id="idp46925525526432"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.158. നിയോൺ ഇഫക്റ്റ് Dilate</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/dilate-neon.png" alt="നിയോൺ ഇഫക്റ്റ് Dilate" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-convmatrix.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-generic.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-erode.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-convmatrix.html">8.2. കോൺവൊല്യൂഷൻ മാട്രിക്സ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-erode.html">8.4. ഈറോഡ്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

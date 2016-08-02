@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>6.3. എറിയുന്നു</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-noise.html" title="6. നോയ്സ് ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-hsv-noise.html" title="6.2. HSV നോയ്സ്" />
+    <link rel="next" href="plug-in-randomize-pick.html" title="6.4. തിരഞ്ഞെടുത്തത്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">6.3. എറിയുന്നു</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-hsv-noise.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">6. നോയ്സ് ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-randomize-pick.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-randomize-hurl"></a>6.3. എറിയുന്നു</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925523974080" class="indexterm"></a>
+      <a id="idp46925523975808" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523976672"></a>6.3.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925524076720"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.128. <span class="quote">“<span class="quote">Hurl</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="“Hurl” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/noise-taj-hurl.jpg" alt="“Hurl” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Hurl</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Noise</span> → <span class="guimenuitem">Hurl</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താൻ കഴിയും.</p>
+        <p>എറിയുന്നു ഫിൽട്ടർ ക്രമരഹിത നിറം ഓരോ ബാധിത പിക്സൽ മാറുന്നതിനാൽ ഇത് യഥാർത്ഥ <span class="emphasis"><em>random noise</em></span> ഉത്പാദിപ്പിക്കുന്നത്. ഒരു ആല്ഫാ ചാനൽ ഉൾപ്പെടെ എല്ലാ നിറം ചാനലുകൾ, (അതു നിലവിലുണ്ട് എങ്കിൽ) ക്രമരഹിതമായ ആകുന്നു. എല്ലാ സാധ്യമായ വിലകൾ ഒരേ സംഭാവ്യത കൂടെ നിർണ്ണയിക്കുന്നത്. യഥാർത്ഥ മൂല്യങ്ങൾ അക്കൗണ്ടിലേക്ക് മാറ്റുകയില്ല. ഒരു സജീവ അല്ലെങ്കിൽ പാളി നിരക്കു മാത്രം ചില പിക്സൽ ബാധിക്കുന്നത് എല്ലാ അല്ലെങ്കിൽ, ബാധിത പിക്സൽ ശതമാനം <span class="guilabel">Randomization (%)</span> ഓപ്ഷൻ നിർണ്ണയിക്കുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925524087680"></a>6.3.2. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925524088384"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.129. <span class="quote">“<span class="quote">Hurl</span>”</span> ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/noise/hurl.png" alt="“Hurl” ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ക്രമരഹിത സന്തതി</span>
+            </dt>
+            <dd>
+              <p>എറിയുന്നു എന്ന നിയന്ത്രണങ്ങൾ റാൻഡമ്നെസ്സ്. ഒരേ സാഹചര്യത്തിൽ ഒരേ റാൻഡം സന്തതി ഉപയോഗിക്കുന്നു എങ്കിൽ, അരിപ്പ കൃത്യമായി ഒരേ ഫലങ്ങള് ഉത്പാദിപ്പിക്കുന്നത്. ഒരു വ്യത്യസ്ത റാൻഡം സന്തതി വ്യത്യസ്ത ഫലങ്ങൾ ഉത്പാദിപ്പിക്കുന്നത്. ക്രമരഹിത സന്തതി മാനുവലായി അല്ലെങ്കിൽ <span class="guibutton">New Seed</span> ബട്ടൺ അമർത്തി ക്രമരഹിതമായി സൃഷ്ടിക്കാൻ കഴിയും.</p>
+              <p><span class="guilabel">Randomize</span> ഓപ്ഷൻ ശരിയടയാളമിട്ടാൽ റാൻഡം സന്തതി മാനുവലായി കഴിയില്ല, എന്നാൽ ക്രമരഹിതമായി ഓരോ തവണയും അരിപ്പ പ്രവർത്തിപ്പിക്കാൻ ജനറേറ്റ്. അതു ചെക്കുചെയ്തിട്ടില്ലെങ്കിൽ, അരിപ്പ അവസാനമായി ഉപയോഗിച്ച റാൻഡം വിത്തു ഓർക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">റാൻഡമൈസേഷനും (%)</span>
+            </dt>
+            <dd>
+              <p>ഈ സ്ലൈഡർ ബോംബേറ് ചെയ്യുന്ന സജീവ അല്ലെങ്കിൽ പാളി തിരഞ്ഞെടുപ്പിന്റെ പിക്സൽ ശതമാനം പ്രതിനിധീകരിക്കുന്നു. ഉന്നത മൂല്യം, കൂടുതൽ പിക്സലുകൾ എറിഞ്ഞ്.</p>
+            </dd>
+            <dt>
+              <span class="term">ആവർത്തിച്ച്</span>
+            </dt>
+            <dd>
+              <p>ഇത് അരിപ്പ പ്രയോഗിക്കും തവണ എണ്ണം പ്രതിനിധീകരിക്കുന്നു. എറിയുന്നു കാര്യത്തിൽ അത് ഒരേ ഫലങ്ങൾ ഒരു ഉയർന്ന <span class="guilabel">Randomization (%)</span> മൂല്യം ഉപയോഗിക്കുന്നതിലൂടെ വേഗത്തിൽ മാത്രം ലഭിക്കും കാരണം, വളരെ ഉപകാരപ്രദമായ ഒന്നാണ് ഫിൽട്ടർ.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-hsv-noise.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-noise.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-randomize-pick.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-hsv-noise.html">6.2. HSV നോയ്സ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-randomize-pick.html">6.4. തിരഞ്ഞെടുത്തത്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

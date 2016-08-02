@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>5.7. ഡ്രോപ്പ് ഷാഡോ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-light-and-shadow.html" title="5. വെളിച്ചവും ഷാഡോ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-nova.html" title="5.6. സൂപ്പർനോവ" />
+    <link rel="next" href="script-fu-perspective-shadow.html" title="5.8. കാഴ്ചപ്പാട്" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">5.7. ഡ്രോപ്പ് ഷാഡോ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-nova.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">5. വെളിച്ചവും ഷാഡോ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="script-fu-perspective-shadow.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-drop-shadow"></a>5.7. ഡ്രോപ്പ് ഷാഡോ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925525290480" class="indexterm"></a>
+      <a id="idp46925525292352" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525293280"></a>5.7.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925525294048"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.110. <span class="quote">“<span class="quote">Drop Shadow</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="“Drop Shadow” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/light-taj-drop-shadow.jpg" alt="“Drop Shadow” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Drop Shadow</span>”</span> പ്രയോഗിച്ചു (വെള്ള പശ്ചാത്തല പാളി സ്വമേധയാ ചേർത്തു)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ നിലവിലുള്ള തെരഞ്ഞെടുപ്പ് അല്ലെങ്കിൽ സജീവ നിരക്കു ഉള്ളതെങ്കിൽ ചിത്രം ഒരു ഡ്രോപ്പ്-നിഴൽ ചേർക്കുന്നു. ആ നിഴൽ പ്രദർശിപ്പിക്കുന്നതിനായി അത്യാവശ്യമാണ് ഓപ്ഷണൽ ഫിൽട്ടർ ചിത്രം മാറ്റുന്നു.</p>
+        <p>നിങ്ങൾക്ക് കളർ, സ്ഥാനം, നിഴൽ വലുപ്പം നിങ്ങൾക്ക് തിരഞ്ഞെടുക്കാം.</p>
+        <p>ഫിൽട്ടർ നിഴൽ കാണുന്നതിനായി ഒരു പശ്ചാത്തല പാളി ചേർക്കാൻ ശ്രദ്ധിക്കുക. നിഴൽ പശ്ചാത്തല സുതാര്യമാണ്. മുകളിൽ ഉദാഹരണം വെളുത്ത പശ്ചാത്തല അരിപ്പ സൃഷ്ടിച്ചത് ചെയ്തിട്ടില്ല, പകരം അത് നിങ്ങൾ നിഴൽ നോക്കാം പിന്നീട് ചേർത്തിട്ടുണ്ട്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525303776"></a>5.7.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Light and Shadow</span> → <span class="guimenuitem">Drop Shadow</span> വഴി ഇമേജ് മെനുവിൽ മെനുവിൽ ഈ ഫിൽട്ടർ കണ്ടെത്താം.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925525306416"></a>5.7.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925525307168"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.111. <span class="quote">“<span class="quote">Drop Shadow</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/light-and-shadow/drop-shadow.png" alt="“Drop Shadow” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">X ഓഫ്സെറ്റ്, </span>
+              <span class="term">Y ഓഫ്സെറ്റ്</span>
+            </dt>
+            <dd>
+              <p>ഡ്രോപ്പ് ഷാഡോ അടങ്ങുന്ന പാളി ലംബമായി വൈ പിക്സൽ, എക്സ് പിക്സൽ തിരശ്ചീനമായി നീക്കും. അതിനാൽ, X, Y നിഴൽ ചിത്രം ബന്ധപ്പെട്ട് സ്ഥാപിക്കപ്പെടും എവിടെ നിർണ്ണയിക്കാൻ ഓഫ്സെറ്റ്. അതു തിരശ്ചീനമായി ലംബമായതോ ദിശയിൽ ദൂരത്തു പോലെ ഉയർന്ന മൂല്യങ്ങൾ നേരിയ രൂപത്തിലേക്ക് സാങ്കല്പികമായ ഉറവിടം ഉണ്ടാക്കി, കുറഞ്ഞ മൂല്യങ്ങൾ അത് ചിത്രത്തിന്റെ ആത്മബന്ധവും ഉണ്ടാക്കാം.</p>
+              <p>ഓഫ്സെറ്റുകളുണ്ടു് വൈ &lt; 0 ഓഫ്സെറ്റ് എങ്കിൽ എക്സ് &lt; 0, അല്ലെങ്കിൽ നിരക്കു മുകളിൽ ഓഫ്സെറ്റ് എങ്കിൽ നിരക്കു ഇടതുഭാഗത്തായി ഒരു നിഴൽ വഴിതെളിക്കുന്നു നെഗറ്റീവ് വരാം.</p>
+              <p>സജീവ നിരക്കു ഉണ്ടെങ്കിൽ, നിങ്ങൾ <span class="guilabel">Allow resizing</span> സ്വാധീനം കാണാൻ പ്രാപ്തമാക്കിയ ഉണ്ടായിരിക്കണം.</p>
+            </dd>
+            <dt>
+              <span class="term">റേഡിയസ് മങ്ങിക്കുക</span>
+            </dt>
+            <dd>
+              <p>നിഴൽ ഉണ്ടാക്കിയ ശേഷം വ്യക്തമാക്കിയ റേഡിയസ് ഒരു <a class="link" href="plug-in-gauss.html" title="2.3. ഗോഷ്യൻ ഇഫക്റ്റ്">Gaussian blur</a> ഡ്രോപ്പ് ഷാഡോ യഥാതഥ ഭാവം കാരണമാകുന്നു നിഴൽ പാളി പ്രയോഗിക്കുന്നത്. ഇത് മങ്ങിക്കുന്നതിനോ നിഴലിനെ നീട്ടിയത് ശേഷം, <span class="guilabel">Allow resizing</span> പ്രാപ്തമാക്കാൻ വന്നേക്കാം.</p>
+            </dd>
+            <dt>
+              <span class="term">നിറം</span>
+            </dt>
+            <dd>
+              <p>നിഴൽ ഏതെങ്കിലും നിറം ഉണ്ടായിരിക്കാം. വെറും ബട്ടൺ ക്ലിക്ക്, നിറം സെലക്ടർ മാറികിട്ടി ഒരു വർണ്ണം തിരഞ്ഞെടുക്കുക.</p>
+              <div class="figure">
+                <a id="idp46925525320784"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.112. <span class="quote">“<span class="quote">Drop Shadow</span>”</span> നിറം ഉദാഹരണം</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/drop-shadow-color.png" alt="“Drop Shadow” നിറം ഉദാഹരണം" />
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">അതാര്യത</span>
+            </dt>
+            <dd>
+              <p>നിഴൽ ന്റെ അതാര്യത നിഴൽ അടങ്ങുന്ന പുതിയ പാളി വെറും അതാര്യത (<a class="xref" href="gimp-image-combining.html#gimp-layer-properties" title="1.1. ലെയർ പ്രോപ്പർട്ടീസ്">വിഭാഗം 1.1, “ലെയർ പ്രോപ്പർട്ടീസ്”</a> കാണുക). 80% ആയി സഹജമായി, എന്നാൽ നിങ്ങൾ 0 (സുതാര്യതയോടെ) മുതൽ 100 ​​(ഫുൾ ഒപാസിറ്റിയിൽ) ഇവിടെ മറ്റേതെങ്കിലും മൂല്യം തിരഞ്ഞെടുക്കാം. ഒരു ചിത്രം ഫിൽട്ടർ പ്രയോഗിച്ച ശേഷം നിങ്ങൾ <a class="link" href="gimp-dialogs-structure.html#gimp-layer-dialog" title="2.1. പാളികൾ സംഭാഷണം">layers dialog</a> ഒപാസിറ്റി മാറ്റാനാകും.</p>
+            </dd>
+            <dt>
+              <span class="term">വലിപ്പംമാറ്റിക്കൊണ്ടിരിക്കുന്നജാലകങ്ങളിലുള്ളവകാണിയ്ക്കുക അനുവദിക്കുക</span>
+            </dt>
+            <dd>
+              <p>പ്രവർത്തനക്ഷമമാക്കിയിട്ടുണ്ടെങ്കിൽ, അരിപ്പ ആ നിഴൽ വേണ്ടി ഇടമാക്കുന്നതിനും ആവശ്യമാണോ എന്ന് ചിത്രം വലുപ്പം ചെയ്യും. പുതിയ വലുപ്പം നിരക്കു വലിപ്പം, മങ്ങൽ ആരം നിഴൽ ഓഫ്സെറ്റുകളുടെ ആശ്രയിച്ചിരിക്കുന്നു.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-nova.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-light-and-shadow.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="script-fu-perspective-shadow.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-nova.html">5.6. സൂപ്പർനോവ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="script-fu-perspective-shadow.html">5.8. കാഴ്ചപ്പാട്</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

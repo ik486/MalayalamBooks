@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>പാഠം 17. ഫിൽട്ടറുകൾ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-function-reference.html" title="ഭാഗം III. ഫംഗ്ഷൻ റഫറൻസ്" />
+    <link rel="prev" href="gimp-help-online.html" title="12.8. GIMP online" />
+    <link rel="next" href="filters-blur.html" title="2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">പാഠം 17. ഫിൽട്ടറുകൾ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-help-online.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">ഭാഗം III. ഫംഗ്ഷൻ റഫറൻസ്</th>
+          <td width="20%" align="right"> <a accesskey="n" href="filters-blur.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="chapter">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a id="filters"></a>പാഠം 17. ഫിൽട്ടറുകൾ</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>ഉള്ളടക്കത്തിന്റെ പട്ടിക</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="sect1">
+              <a href="filters.html#filter-introduction">1. അവതാരിക</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters.html#idp46925518263632">1.1. പ്രിവ്യൂ</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-blur.html">2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-blur.html#filters-blur-introduction">2.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-blur.html">2.2. ഇഫക്റ്റ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-gauss.html">2.3. ഗോഷ്യൻ ഇഫക്റ്റ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-sel-gauss.html">2.4. സെലക്ടീവ് ഗോഷ്യൻ ഇഫക്റ്റ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-mblur.html">2.5. മോഷൻ ബ്ലർ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-pixelize.html">2.6. പിക്സൽ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-tile-blur.html">2.7. Tileable ഇഫക്റ്റ്</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-enhance.html">3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-enhance.html#filters-enhance-introduction">3.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-antialias.html">3.2. Antialias</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-deinterlace.html">3.3. ഡീഇന്റര്ലെയിസിങ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-despeckle.html">3.4. Despeckle</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-destripe.html">3.5. Destripe</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-nlfilt.html">3.6. ഹോളണ്ട് ഫിൽറ്റർ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-red-eye-removal.html">3.7. റെഡ് ഐ നീക്കംചെയ്യൽ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-sharpen.html">3.8. മൂര്ച്ചവരുത്തുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-unsharp-mask.html">3.9. അൺഷാർപ്പ് മാസ്ക്</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-distort.html">4. ഫിൽട്ടറുകൾ വളച്ചൊടിച്ച്</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-distort.html#filters-distort-introduction">4.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-blinds.html">4.2. മറച്ചുവയ്ക്കുന്നു</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-curve-bend.html">4.3. കർവ് ബെംഡ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-emboss.html">4.4. എംബോസ്സ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-engrave.html">4.5. കൊത്തുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-erase-rows.html">4.6. മറ്റെല്ലാ വരി മായ്ക്കുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-iwarp.html">4.7. IWarp</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-lens-distortion.html">4.8. ലെൻസ് വക്രീകരിക്കൽ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-mosaic.html">4.9. മൊസൈക്ക്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-newsprint.html">4.10. Newsprint</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-pagecurl.html">4.11. പേജ് കേൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-polar-coords.html">4.12. പോളാർ Coords</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-ripple.html">4.13. റിപ്പിൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-shift.html">4.14. മാറ്റം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-vpropagate.html">4.15. മൂല്യം പ്രചരിപ്പിക്കാൻ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-video.html">4.16. വീഡിയോ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-waves.html">4.17. വേവ്സ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-whirl-pinch.html">4.18. അദ്ദേഹവും ആൻഡ് പിഞ്ചുചെയ്യുന്നത്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-wind.html">4.19. കാറ്റ്</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-light-and-shadow.html">5. വെളിച്ചവും ഷാഡോ ഫിൽട്ടറുകൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-light-and-shadow.html#filters-light-and-shadow-introduction">5.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-gflare.html">5.2. ഗ്രേഡിയന്റ് .അൽപ്പസമയംകാത്തിരിക്കൂ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-flarefx.html">5.3. ലെൻസ് വിദൂരസ്ഥമായ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-lighting.html">5.4. ലൈറ്റിംഗ് ഇഫക്ട്സ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-sparkle.html">5.5. തിളക്കവും</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-nova.html">5.6. സൂപ്പർനോവ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-drop-shadow.html">5.7. ഡ്രോപ്പ് ഷാഡോ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-perspective-shadow.html">5.8. കാഴ്ചപ്പാട്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-xach-effect.html">5.9. Xach-പ്രഭാവം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-applylens.html">5.10. ലെൻസ് പ്രയോഗിക്കുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-glasstile.html">5.11. ഗ്ലാസ് ടൈൽ</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-noise.html">6. നോയ്സ് ഫിൽട്ടറുകൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-noise.html#filters-noise-introduction">6.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-hsv-noise.html">6.2. HSV നോയ്സ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-randomize-hurl.html">6.3. എറിയുന്നു</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-randomize-pick.html">6.4. തിരഞ്ഞെടുത്തത്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-rgb-noise.html">6.5. ആർജിബി നോയ്സ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-randomize-slur.html">6.6. ബിഗിൻ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-spread.html">6.7. വിരിക്കുക</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-edge.html">7. അഗ്രം-തിരിച്ചറിയൽ ഫിൽട്ടറുകൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-edge.html#filters-edges-introduction">7.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-dog.html">7.2. Gaussians എന്ന വ്യത്യാസം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-edge.html">7.3. അറ്റം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-laplace.html">7.4. .പരിപൂർണ്ണ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-neon.html">7.5. നിയോൺ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-sobel.html">7.6. സോബൽ</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-generic.html">8. സാമാന്യ ഫിൽട്ടറുകൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-generic.html#filters-generic-introduction">8.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-convmatrix.html">8.2. കോൺവൊല്യൂഷൻ മാട്രിക്സ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-dilate.html">8.3. Dilate</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-erode.html">8.4. ഈറോഡ്</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-combine.html">9. ഫിൽട്ടറുകൾ സംയോജിപ്പിക്കുക</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-combine.html#filters-combine-introduction">9.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-depth-merge.html">9.2. ആഴത്തിൽ ലയനം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-film.html">9.3. ഫിലിം</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-artistic.html">10. കലാപരമായ ഫിൽട്ടറുകൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-artistic.html#filters-artistic-introduction">10.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-apply-canvas.html">10.2. കാൻവാസ് പ്രയോഗിക്കുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-cartoon.html">10.3. ഹാസചിതം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-clothify.html">10.4. Clothify</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-cubism.html">10.5. ക്യൂബിസം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-gimpressionist.html">10.6. GIMPressionist</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-oilify.html">10.7. Oilify</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-photocopy.html">10.8. പകർപ്പുകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-predator.html">10.9. മെയ്വഴക്കത്തോടെ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-softglow.html">10.10. Softglow</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-lic.html">10.11. വാൻ ഗോഗ് (എൽഐസി)</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-weave.html">10.12. നെയ്യുക</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-decor.html">11. അലങ്കാര ഫിൽട്ടറുകൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-decor.html#filters-decor-introduction">11.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-add-bevel.html">11.2. ബിവെൽ ചേർക്കുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-addborder.html">11.3. ബോർഡർ ചേർക്കുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-coffee-stain.html">11.4. കോഫി കറ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-fuzzy-border.html">11.5. അവ്യക്തമായ ബോർഡർ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-old-photo.html">11.6. പഴയ ഫോട്ടോ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-round-corners.html">11.7. റൌണ്ട് കോർണറുകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-slide.html">11.8. സ്ലൈഡ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-carve-it.html">11.9. സീരിയോലിത്തോഗ്രാഫ് രൂപംകൊള്ളുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-sota-chrome-it.html">11.10. സീരിയോലിത്തോഗ്രാഫ് ക്രോം</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-map.html">12. മാപ്പ് ഫിൽട്ടറുകൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-map.html#filters-map-introduction">12.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-bump-map.html">12.2. ബംമ്പ് മാപ്പ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-displace.html">12.3. സ്ഥാനം മാറ്റുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-fractal-trace.html">12.4. ഫ്രാക്റ്റലിന് ട്രെയ്സ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-illusion.html">12.5. മിഥാബോധം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-make-seamless.html">12.6. അനന്തമായ നടത്തുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-map-object.html">12.7. മാപ്പ് ഒബ്ജക്റ്റ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-papertile.html">12.8. പേപ്പർ ടൈൽ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-small-tiles.html">12.9. ചെറിയ ടൈലുകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-tile.html">12.10. ടൈൽ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-warp.html">12.11. റാപ്പ്</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-render.html">13. റെൻഡർ ഫിൽട്ടറുകൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-render.html#filters-render-introduction">13.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-difference-clouds.html">13.2. വ്യത്യാസം മേഘങ്ങൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="python-fu-foggify.html">13.3. പല്ല്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-plasma.html">13.4. പ്ലാസ്മ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-solid-noise.html">13.5. സോളിഡ് നോയ്സ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-flame.html">13.6. തീനാളം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-ifscompose.html">13.7. ഐ.എഫ്.എസ് ഫ്രാക്റ്റലിന്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-checkerboard.html">13.8. ചെക്ക്ബോർഡ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-cml-explorer.html">13.9. സിഎംഎൽ എക്സ്പ്ലോറർ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-diffraction.html">13.10. diffraction പാറ്റേണുകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-grid.html">13.11. ഗ്രിഡ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-jigsaw.html">13.12. jigsaw</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-maze.html">13.13. സങ്കീർണ്ണമായ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-qbist.html">13.14. മിസ്ഡ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-sinus.html">13.15. എല്ലിന്റെ ഉള്ളിലെ സുഷിരം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-circuit.html">13.16. സർക്യൂട്ട്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-fractalexplorer.html">13.17. ഫ്രാക്റ്റലിന് എക്സ്പ്ലോറർ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-gfig.html">13.18. Gfig</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-lava.html">13.19. ദവശില</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-line-nova.html">13.20. ലൈൻ നോവ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-spheredesigner.html">13.21. പനോരമ ഡിസൈനർ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-spyrogimp.html">13.22. Spyrogimp</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-web.html">14. വെബ് ഫിൽട്ടറുകൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-web.html#filters-web-introduction">14.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-imagemap.html">14.2. ImageMap</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-semiflatten.html">14.3. സെമി പരത്തുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="python-fu-slice.html">14.4. പൂളുക</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-animation.html">15. ആനിമേഷൻ ഫിൽട്ടറുകൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-animation.html#filters-animation-introduction">15.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-blend-anim.html">15.2. കൂട്ടിക്കലര്ത്തുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-burn-in-anim.html">15.3. ബേൺ ഇൻ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-ripply-anim.html">15.4. ഓളമിളകുന്ന</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-spinning-globe.html">15.5. സ്പിന്നിംഗ് ഗ്ലോബ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-waves-anim.html">15.6. വേവ്സ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-optimize.html">15.7. ഒപ്റ്റിമൈസുചെയ്യുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="plug-in-animationplay.html">15.8. പ്ലേബാക്ക്</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="filters-alpha-to-logo.html">16. ലോഗോ ഫിൽട്ടറുകൾ ആൽഫ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="filters-alpha-to-logo.html#filters-alpha-to-logo-introduction">16.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-3d-outline-logo-alpha.html">16.2. 3D ഔട്ട്ലൈൻ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-alien-glow-logo-alpha.html">16.3. ഏലിയൻ ഗ്ലോ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-alien-neon-logo-alpha.html">16.4. ഏലിയൻ നിയോൺ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-basic-logo-alpha.html">16.5. അടിസ്ഥാന ഞാൻ &amp; രണ്ടാമൻ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-blended-logo-alpha.html">16.6. സവാളും</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-bovinated-logo-alpha.html">16.7. Bovination</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-chalk-logo-alpha.html">16.8. ചോക്ക്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-chip-away-logo-alpha.html">16.9. അകലെ ചിപ്പ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-chrome-logo-alpha.html">16.10. ക്രോം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-comic-logo-alpha.html">16.11. കോമിക് ബുക്ക്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-cool-metal-logo-alpha.html">16.12. കൂൾ ലോഹ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-frosty-logo-alpha.html">16.13. മരവിച്ച</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-glossy-logo-alpha.html">16.14. മിനുക്കമുള്ള</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-glowing-logo-alpha.html">16.15. ഹോട്ട് തിളങ്ങുന്ന</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-gradient-bevel-logo-alpha.html">16.16. ഗ്രേഡിയന്റ് ബിവെൽ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-neon-logo-alpha.html">16.17. നിയോൺ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-t-o-p-logo-alpha.html">16.18. കണം ട്രെയ്സ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="script-fu-textured-logo-alpha.html">16.19. ടെക്സ്ചർ</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+      <div class="sect1">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="filter-introduction"></a>1. അവതാരിക</h2>
+            </div>
+          </div>
+        </div>
+        <a id="idp46925518281856" class="indexterm"></a>
+        <a id="idp46925516374448" class="indexterm"></a>
+        <p>ഒരു ഫിൽട്ടർ ഒരു എഴുത്ത് പാളി അല്ലെങ്കിൽ ചിത്രം എടുത്തു അതിലേക്ക് ഒരു ഗണിത അൽഗോരിതത്തെ പ്രയോഗിക്കും, പരിഷ്കരിച്ച ഒരു ഫോർമാറ്റിൽ ഇൻപുട്ട് പാളി അല്ലെങ്കിൽ ചിത്രം മടങ്ങാൻ രൂപകൽപ്പന ഉപകരണം ഒരു പ്രത്യേക തരം ആണ്. <acronym class="acronym">GIMP</acronym> ഇഫക്റ്റുകൾ പലതരം നേടാൻ ഫിൽട്ടറുകൾ ഉപയോഗിക്കുന്നു ആ ഇഫക്റ്റുകൾ ഇവിടെ ചർച്ച ചെയ്യുന്നു.</p>
+        <div class="itemizedlist">
+          <p>ഫിൽട്ടറുകൾ പല വിഭാഗങ്ങളായി തിരിച്ചിട്ടുണ്ട്:</p>
+          <ul class="itemizedlist" style="list-style-type: disc; ">
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-blur.html" title="2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ">വിഭാഗം 2, “ഇഫക്റ്റ് ഫിൽട്ടറുകൾ”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-enhance.html" title="3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക">വിഭാഗം 3, “ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-distort.html" title="4. ഫിൽട്ടറുകൾ വളച്ചൊടിച്ച്">വിഭാഗം 4, “ഫിൽട്ടറുകൾ വളച്ചൊടിച്ച്”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-light-and-shadow.html" title="5. വെളിച്ചവും ഷാഡോ ഫിൽട്ടറുകൾ">വിഭാഗം 5, “വെളിച്ചവും ഷാഡോ ഫിൽട്ടറുകൾ”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-noise.html" title="6. നോയ്സ് ഫിൽട്ടറുകൾ">വിഭാഗം 6, “നോയ്സ് ഫിൽട്ടറുകൾ”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-edge.html" title="7. അഗ്രം-തിരിച്ചറിയൽ ഫിൽട്ടറുകൾ">വിഭാഗം 7, “അഗ്രം-തിരിച്ചറിയൽ ഫിൽട്ടറുകൾ”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-generic.html" title="8. സാമാന്യ ഫിൽട്ടറുകൾ">വിഭാഗം 8, “സാമാന്യ ഫിൽട്ടറുകൾ”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-combine.html" title="9. ഫിൽട്ടറുകൾ സംയോജിപ്പിക്കുക">വിഭാഗം 9, “ഫിൽട്ടറുകൾ സംയോജിപ്പിക്കുക”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-artistic.html" title="10. കലാപരമായ ഫിൽട്ടറുകൾ">വിഭാഗം 10, “കലാപരമായ ഫിൽട്ടറുകൾ”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-decor.html" title="11. അലങ്കാര ഫിൽട്ടറുകൾ">വിഭാഗം 11, “അലങ്കാര ഫിൽട്ടറുകൾ”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-map.html" title="12. മാപ്പ് ഫിൽട്ടറുകൾ">വിഭാഗം 12, “മാപ്പ് ഫിൽട്ടറുകൾ”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-render.html" title="13. റെൻഡർ ഫിൽട്ടറുകൾ">വിഭാഗം 13, “റെൻഡർ ഫിൽട്ടറുകൾ”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-web.html" title="14. വെബ് ഫിൽട്ടറുകൾ">വിഭാഗം 14, “വെബ് ഫിൽട്ടറുകൾ”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-animation.html" title="15. ആനിമേഷൻ ഫിൽട്ടറുകൾ">വിഭാഗം 15, “ആനിമേഷൻ ഫിൽട്ടറുകൾ”</a>
+              </p>
+            </li>
+            <li class="listitem">
+              <p>
+                <a class="xref" href="filters-alpha-to-logo.html" title="16. ലോഗോ ഫിൽട്ടറുകൾ ആൽഫ">വിഭാഗം 16, “ലോഗോ ഫിൽട്ടറുകൾ ആൽഫ”</a>
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="idp46925518263632"></a>1.1. പ്രിവ്യൂ</h3>
+              </div>
+            </div>
+          </div>
+          <p>ഏറ്റവും ഫിൽട്ടറുകൾ എവിടെ ചിത്രം മാറ്റങ്ങൾ തത്സമയം (<span class="quote">“<span class="quote">Preview</span>”</span> ഓപ്ഷൻ വേണമെങ്കിൽ), ഇമേജ് പ്രയോഗിക്കുന്നു മുമ്പിൽ പ്രദർശിപ്പിക്കപ്പെട്ട ഒരു പ്രിവ്യൂ ഞങ്ങൾക്കുണ്ട്.</p>
+          <div class="figure">
+            <a id="idp46925521284768"></a>
+            <p class="title">
+              <strong>ചിത്രം 17.1. പ്രിവ്യൂ ഉപമെനുവുണ്ട്</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/filters/preview-submenu.png" alt="പ്രിവ്യൂ ഉപമെനുവുണ്ട്" />
+                <div class="caption">
+                  <p>റൈറ്റ് പ്രിവ്യൂ ജാലകത്തിനു് മേലെ ക്ലിക്ക് സ്റ്റൈൽ സുതാര്യത പ്രതിനിധീകരിച്ച് പരിശോധനകൾ വ്യാപ്തി സജ്ജമാക്കുക അനുവദിക്കുന്ന ഒരു ഉപമെനുവുണ്ട് തുറക്കുന്നു.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-help-online.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-function-reference.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="filters-blur.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-help-online.html">12.8. GIMP online</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="filters-blur.html">2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

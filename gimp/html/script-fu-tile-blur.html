@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>2.7. Tileable ഇഫക്റ്റ്</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-blur.html" title="2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-pixelize.html" title="2.6. പിക്സൽ" />
+    <link rel="next" href="filters-enhance.html" title="3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">2.7. Tileable ഇഫക്റ്റ്</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-pixelize.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="filters-enhance.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-tile-blur"></a>2.7. Tileable ഇഫക്റ്റ്</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925520142208" class="indexterm"></a>
+      <a id="idp46925520144048" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925520144960"></a>2.7.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925520145728"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.18. <span class="quote">“<span class="quote">Tileable</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="“Tileable” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/blur-taj-tblur.jpg" alt="“Tileable” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Tileable Blur</span>”</span> ഫിൽട്ടറിന്</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഉപകരണം ടൈൽ പശ്ചാത്തലങ്ങളിൽ ഉപയോഗിക്കുന്ന ചിത്രങ്ങളിൽ ടൈൽ ഉള്പെടുത്തുക വിനീതമാവുകയും ഉപയോഗിക്കുന്നു. ഇത് പരസ്പരം അടുത്ത ടൈലിങ്ങിനുമേൽ ശേഷം എന്ന് യോജിപ്പിച്ച് ചിത്രങ്ങളും തമ്മിലുള്ള അതിർത്തി ബ്ലറിംഗ് ചെയ്യുന്നു.</p>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[സൂചന]" src="images/tip.png" />
+              </td>
+              <th align="left">സൂചന</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>നിങ്ങൾ ഇമേജുകൾ മാത്രം അതിരുകൾ പെരുമാറണം ആഗ്രഹിക്കുന്നുവെങ്കിൽ നിങ്ങൾക്ക് മുഴുവൻ ചിത്രം ഫിൽട്ടർ പ്രയോഗിക്കാൻ കഴിയില്ല. താഴെ പിടികൂടാനുള്ള പ്രതീതി ലഭിക്കാൻ പരിഹാരമാണ്:</p>
+                <div class="procedure">
+                  <ol class="procedure" type="1">
+                    <li class="step">
+                      <p>പാളി (<span class="guimenu">Layer</span> → <span class="guimenuitem">Duplicate Layer</span>) മാറ്റങ്ങള് അതിൽ പ്രവർത്തിക്കാൻ അത് തിരഞ്ഞെടുക്കുക.</p>
+                    </li>
+                    <li class="step">
+                      <p>ഈ പാളി ഒരു 20 പിക്സൽ വ്യാസാർദ്ധം <span class="quote">“<span class="quote">Tileable Blur</span>”</span> ഫിൽട്ടർ പ്രയോഗിക്കുക.</p>
+                    </li>
+                    <li class="step">
+                      <p>എല്ലാം (<span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>A</strong></span>) തിരഞ്ഞെടുത്ത് പിടികൂടാനുള്ള വീതി അതിർത്തി സൃഷ്ടിക്കാൻ നിരക്കു (<span class="guimenu">Selection</span> → <span class="guimenuitem">Shrink</span>) കുറയ്ക്കും.</p>
+                    </li>
+                    <li class="step">
+                      <p><span class="guimenu">Selection</span> → <span class="guimenuitem">Feather</span> ഉപയോഗിച്ച് നിരക്കു ഒരു കടൽപുറത്തെ ബോർഡർ തരിക.</p>
+                    </li>
+                    <li class="step">
+                      <p><span class="keycap"><strong>Ctrl</strong></span>+<span class="keycap"><strong>K</strong></span> ഉപയോഗിച്ച് തിരഞ്ഞെടുപ്പ് ഇല്ലാതാക്കുക.</p>
+                    </li>
+                    <li class="step">
+                      <p><span class="guimenu">Layer</span> → <span class="guimenuitem">Merge down</span> ലെയറുകൾ ലയിപ്പിക്കുക.</p>
+                    </li>
+                  </ol>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925519549456"></a>2.7.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Blur</span> → <span class="guimenuitem">Tileable Blur</span> കീഴിൽ ഇമേജ് മെനുവിൽ ഈ ഫിൽട്ടർ കണ്ടെത്താം.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925519552080"></a>2.7.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925519552784"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.19. <span class="quote">“<span class="quote">Tileable Blur</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/blur/tileable.png" alt="“Tileable Blur” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">വാസാര്ദ്ധം</span>
+            </dt>
+            <dd>
+              <p>വലിയ ആരം കൂടുതൽ അടയാളപ്പെടുത്തിയ മങ്ങൽ ആണ്. <span class="guilabel">Horizontal</span> ആൻഡ് <span class="guilabel">Vertical</span> തിരഞ്ഞെടുക്കുന്നതിലൂടെ, തിരശ്ചീന, ലംബ അതിരുകൾ tileable കഴിയും.</p>
+            </dd>
+            <dt>
+              <span class="term">ലംബമായി മങ്ങിക്കുന്നത്, </span>
+              <span class="term">തിരശ്ചീനമായി മങ്ങിക്കുന്നത്</span>
+            </dt>
+            <dd>
+              <p>ഈ ഓപ്ഷനുകൾ സ്വയം വിശദീകരിക്കുന്ന ആകുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">ഇഫക്റ്റ് തരം</span>
+            </dt>
+            <dd>
+              <p>പ്രയോഗിക്കപ്പെടുന്ന അൽഗോരിതം തിരഞ്ഞെടുക്കുക:</p>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">IIR</span>
+                  </dt>
+                  <dd>
+                    <p>ഫോട്ടോഗ്രാഫിക് അല്ലെങ്കിൽ സ്കാൻ ചിത്രങ്ങൾ വേണ്ടി.</p>
+                  </dd>
+                  <dt>
+                    <span class="term">RLE</span>
+                  </dt>
+                  <dd>
+                    <p>കമ്പ്യൂട്ടർ തയ്യാറാക്കിയ ചിത്രങ്ങൾ വേണ്ടി.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-pixelize.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-blur.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="filters-enhance.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-pixelize.html">2.6. പിക്സൽ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="filters-enhance.html">3. ഫിൽട്ടറുകൾ മെച്ചപ്പെടുത്തുക</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

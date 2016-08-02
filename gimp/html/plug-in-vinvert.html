@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>8.4. മൂല്യം വിപരീതം</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-colors-menu.html" title="8. “Colors” മെനു" />
+    <link rel="prev" href="gimp-layer-invert.html" title="8.3. വിപരീതം" />
+    <link rel="next" href="gimp-config-use-gegl.html" title="8.5. Use GEGL" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">8.4. മൂല്യം വിപരീതം</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-layer-invert.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">8. <span class="quote">“<span class="quote">Colors</span>”</span> മെനു</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-config-use-gegl.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-vinvert"></a>8.4. മൂല്യം വിപരീതം</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925522493216" class="indexterm"></a>
+      <a id="idp46925522494528" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522495392"></a>8.4.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925522496096"></a>
+          <p class="title">
+            <strong>ചിത്രം 16.122. <span class="quote">“<span class="quote">Value invert</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="“Value invert” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/color-taj-vinvert.jpg" alt="“Value invert” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Value Invert</span>”</span> applied</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഈ ഫിൽട്ടർ inverts മൂല്യം സജീവ അല്ലെങ്കിൽ പാളി തിരഞ്ഞെടുപ്പിന്റെ (തേജസ്സ്). നിറം ചിലപ്പോൾ കാരണം ചുറ്റും ഓഫ് പിശക് ചെറുതായി വ്യത്യസ്തമായിരിക്കും ആണെങ്കിലും ഹ്യൂയേ ആൻഡ് സാച്ചുറേഷൻ, ബാധിക്കില്ല. നിങ്ങൾക്ക് ഹ്യൂയേ ആൻഡ് സാന്ദ്രീകരണം വിപരീത ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, <span class="guimenu">Colors</span> → <span class="guimenuitem">Invert</span> ഉപയോഗിക്കുക.</p>
+        <p>100%, 98%, ഒരു ശോഭയുള്ള പച്ച, HSV 96 ° നൽകുന്നു, ഉയർന്ന പ്രതല (ഉദാഹരണത്തിന്, HSV 102 ° ഉപയോഗിച്ച് വർണ്ണങ്ങൾ രണ്ടുതവണ ഈ ഫിൽട്ടർ പ്രയോഗിക്കുമ്പോൾ ആ ചെഞ്ചായം ആൻഡ് സാച്ചുറേഷൻ അൽപ്പം രൂപഭേദം കഴിയും കുറിപ്പ് 100% 2% അരിപ്പ ഒരു ആദ്യ അപ്ലിക്കേഷൻ, 96 °, 100% രണ്ടാം പ്രയോഗം ശേഷം 98%) ശേഷം. അതിനാൽ, നിങ്ങൾ തുടർച്ചയായി ഈ ഫിൽട്ടർ അപേക്ഷിക്കാൻ കഴിയില്ല നിങ്ങളുമായി ആരംഭിച്ചു ചിത്രം തിരികെ നേടുകയും പ്രതീക്ഷിക്കാൻ പാടില്ല.</p>
+        <div class="figure">
+          <a id="idp46925521117680"></a>
+          <p class="title">
+            <strong>ചിത്രം 16.123. രണ്ടുവട്ടം ഈ ഫിൽട്ടർ ഉപയോഗിച്ച് ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/cosmos-1.png" alt="രണ്ടുവട്ടം ഈ ഫിൽട്ടർ ഉപയോഗിച്ച് ഉദാഹരണം" />
+              <div class="caption">
+                <p>Original image</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/invert.png" alt="രണ്ടുവട്ടം ഈ ഫിൽട്ടർ ഉപയോഗിച്ച് ഉദാഹരണം" />
+              <div class="caption">
+                <p>First application of the filter</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/invertx2.png" alt="രണ്ടുവട്ടം ഈ ഫിൽട്ടർ ഉപയോഗിച്ച് ഉദാഹരണം" />
+              <div class="caption">
+                <p>രണ്ടാമത്തേത് അപ്ലിക്കേഷൻ: ചിത്രം ഒറിജിനലിനെ പോലെ കൃത്യമായി ഒരേ അല്ല.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522512928"></a>8.4.2. Activate the filter</h4>
+            </div>
+          </div>
+        </div>
+        <p>
+      You can access this command from the image menu bar through
+      <span class="guimenu">Colors</span> → <span class="guimenuitem">Value Invert</span>.
+    </p>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-layer-invert.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-colors-menu.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-config-use-gegl.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-layer-invert.html">8.3. വിപരീതം</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-config-use-gegl.html">8.5. Use GEGL</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

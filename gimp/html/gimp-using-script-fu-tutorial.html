@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>3. ഒരു സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-scripting.html" title="പാഠം 13. സ്ക്രിപ്റ്റിങ്" />
+    <link rel="prev" href="image-independent-script-fu.html" title="2.6. ചിത്രം-ആശ്രിത സ്ക്രിപ്റ്റുകൾ" />
+    <link rel="next" href="gimp-using-script-fu-tutorial-identifier.html" title="3.2. വേര്യബിൾ പ്രവർത്തനങ്ങൾ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">3. ഒരു സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="image-independent-script-fu.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">പാഠം 13. സ്ക്രിപ്റ്റിങ്</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-using-script-fu-tutorial-identifier.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect1">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title" style="clear: both"><a id="gimp-using-script-fu-tutorial"></a>3. ഒരു സ്ക്രിപ്റ്റ്-ഫു ട്യൂട്ടോറിയൽ</h2>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925512131632" class="indexterm"></a>
+      <p>ഈ പരിശീലന കോഴ്സ്, ഞങ്ങൾ പദ്ധതി തത്വങ്ങളിൽ സ്ക്രിപ്റ്റ്-ഫു ഉപയോഗിക്കാൻ ആവശ്യമായ പരിചയപ്പെടുത്തട്ടെ, തുടർന്ന് സ്ക്രിപ്റ്റുകൾ നിങ്ങളുടെ ഉപകരണബോക്സിലേക്ക് ചേർക്കാൻ കഴിയുന്ന ഒരു ഹാൻഡി സ്ക്രിപ്റ്റ് സൃഷ്ടിക്കുന്നതാണ്. സ്ക്രിപ്റ്റ് ചില ടെക്സ്റ്റ് വേണ്ടി ഉപയോക്താവ് ആവശ്യപ്പെടുന്നു പിന്നെ ടെക്സ്റ്റ് പൂർണമായും വലിപ്പമുള്ള ഒരു പുതിയ ഇമേജ് ഉണ്ടാക്കുന്നു. അപ്പോൾ പാഠം ബഹിരാകാശ ഒരു വാദവും അനുവദിക്കുന്നതിന് സ്ക്രിപ്റ്റ് പരിപോഷിപ്പിക്കുകയും. നാം സ്ക്രിപ്റ്റ്-ഫു നിങ്ങളുടെ അറിവ് ശക്തിപ്പെടുത്തുക വഴികൾ ഏതാനും നിർദ്ദേശങ്ങൾ ഉപയോഗിച്ച് തികയും.</p>
+      <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+        <table border="0" summary="Note">
+          <tr>
+            <td rowspan="2" align="center" valign="top" width="25">
+              <img alt="[കുറിപ്പു്]" src="images/note.png" />
+            </td>
+            <th align="left">കുറിപ്പു്</th>
+          </tr>
+          <tr>
+            <td align="left" valign="top">
+              <p>മൈക്ക് ടെറി വഴി <span class="application"><acronym class="acronym">GIMP</acronym> 1</span> ഉപയോക്തൃ മാനുവൽ വേണ്ടി എഴുതിയ ഒരു ട്യൂട്ടോറിയൽ നിന്ന് സ്വാംശീകരിച്ച ഈ വിഭാഗത്തിന്.</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="sect2">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h3 class="title"><a id="gimp-using-script-fu-tutorial-scheme"></a>3.1. പദ്ധതി സൂക്ഷ്മമായി Getting</h3>
+            </div>
+          </div>
+        </div>
+        <div class="sect3">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h4 class="title"><a id="idp46925512127856"></a>3.1.1. ന്റെ Scheme'ing ആരംഭിക്കുക</h4>
+              </div>
+            </div>
+          </div>
+          <p>പഠിക്കാൻ കാര്യം ആദ്യം എന്നതാണ്:</p>
+          <div class="blockquote">
+            <blockquote class="blockquote">
+              <p>പദ്ധതിയിൽ ഓരോ പ്രസ്താവന (ബ്രാക്കറ്റിൽ ചുറ്റപ്പെട്ട).</p>
+            </blockquote>
+          </div>
+          <p>നിങ്ങൾ അറിയേണ്ട രണ്ടാമത്തെ കാര്യം ഇതാണ്:</p>
+          <div class="blockquote">
+            <blockquote class="blockquote">
+              <p>ഫംഗ്ഷൻ നാമം / ഓപ്പറേറ്റർ എപ്പോഴും ബ്രാക്കറ്റിൽ ആദ്യ ഇനം ആണ്, ബാക്കി ഇനങ്ങൾ ചടങ്ങിൽ ലേക്കുള്ള പരാമീറ്ററുകളാകുന്ന.</p>
+            </blockquote>
+          </div>
+          <p>എന്നാൽ, ബ്രാക്കറ്റിൽ ഇടതൂർന്നു എല്ലാം ചടങ്ങിൽ - അവർ ഒരു ലിസ്റ്റിൽ ഇനങ്ങൾ കഴിയും - പിന്നീട് ഞങ്ങൾ ബന്ധപ്പെടും. ഈ നൊട്ടേഷനിലോ ചടങ്ങിൽ മറ്റുള്ളതെല്ലാം പ്രീഫിക്സുകൾ കാരണം, പ്രിഫിക്സ് നൊട്ടേഷനാണോ അറിയപ്പെടുന്നത്. നിങ്ങൾ postfix നൊട്ടേഷനാണോ മുൻപരിചയം, അല്ലെങ്കിൽ തിരിച്ചുള്ള പോളിഷ് നൊട്ടേഷൻ (പോലുള്ള ഏറ്റവും എച്ച്പി കാൽക്കുലേറ്ററുകൾ) ഉപയോഗിക്കുന്ന ഒരു കാൽക്കുലേറ്റർ സ്വന്തമല്ല, നിങ്ങൾക്ക് പദ്ധതിയിൽ പദപ്രയോഗങ്ങൾ വികസിപ്പിക്കുവാൻ ഇണങ്ങിച്ചേരണം യാതൊരു പ്രശ്നവുമില്ല വേണം.</p>
+          <p>മനസ്സിലാക്കാൻ മൂന്നാം കാര്യം ആണ്:</p>
+          <div class="blockquote">
+            <blockquote class="blockquote">
+              <p>ഗണിത പുറമേ ഫംഗ്ഷനുകളും അടങ്ങിയിരിക്കുന്നത്, ഗണിതശാസ്ത്ര എഴുതുമ്പോൾ ഇങ്ങനെ ആദ്യം ലിസ്റ്റ് ചെയ്യുന്നു.</p>
+            </blockquote>
+          </div>
+          <p>ഇതാണ് ഞങ്ങൾ പറഞ്ഞ ആ പ്രിഫിക്സ് വയമ്പും യുക്തിപരമായി പിന്തുടരുകയും.</p>
+        </div>
+        <div class="sect3">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h4 class="title"><a id="idp46925511171104"></a>3.1.2. ഉപസർഗ്ഗം, Infix, പിന്നെ postfix ചിഹ്നങ്ങൾ ഉദാഹരണങ്ങൾ</h4>
+              </div>
+            </div>
+          </div>
+          <p>ഇവിടെ ചില പെട്ടെന്നുള്ള ഉദാഹരണങ്ങൾ <span class="emphasis"><em>prefix</em></span>, <span class="emphasis"><em>infix</em></span>, ഒപ്പം <span class="emphasis"><em>postfix</em></span> ചിഹ്നങ്ങൾ തമ്മിലുള്ള വ്യത്യാസങ്ങൾ ചിത്രീകരിച്ച് ആകുന്നു. നാം ഒരു 1 23 ഒന്നിച്ച് ഞങ്ങൾ ചേർക്കും:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>ഉപസർഗ്ഗം നൊട്ടേഷനിലോ: <strong class="userinput"><code>+ 1 23</code></strong> (വഴി പദ്ധതി അത് വേണം ചെയ്യും)</p>
+              </li>
+              <li class="listitem">
+                <p>Infix നൊട്ടേഷനിലോ: <strong class="userinput"><code>1 + 23</code></strong> (ഞങ്ങൾ അതു എഴുതുക <span class="quote">“<span class="quote">normally</span>”</span> വഴി)</p>
+              </li>
+              <li class="listitem">
+                <p>Postfix നൊട്ടേഷനിലോ: <strong class="userinput"><code>1 23 +</code></strong> (പല <acronym class="acronym">HP</acronym> കാൽക്കുലേറ്ററുകൾ അതു നല്ലതായിരിക്കും വഴി)</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="sect3">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h4 class="title"><a id="idp46925512079680"></a>3.1.3. പദ്ധതി പ്രാക്ടീസ്</h4>
+              </div>
+            </div>
+          </div>
+          <p>ഇപ്പോൾ ഞങ്ങൾ വെറും പഠിച്ച കാര്യങ്ങൾ നമുക്ക്. നിങ്ങൾ ഇതിനകം അങ്ങനെ ചെയ്തിട്ടില്ലെങ്കിൽ, <acronym class="acronym">GIMP</acronym> ആരംഭിക്കുക, ഒപ്പം <span class="guimenu">Filters</span> → <span class="guisubmenu">Script-Fu</span> → <span class="guimenuitem">Console</span> തിരഞ്ഞെടുക്കുക. ഇതു നമ്മെ പദ്ധതിയിൽ ഇന്ററാക്ടീവ് പ്രവർത്തിക്കാൻ അനുവദിക്കുന്ന സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ വിൻഡോ, ആരംഭിക്കും. നിമിഷങ്ങളിൽ ഒരു കാര്യം, സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ ദൃശ്യമാകും:</p>
+        </div>
+        <div class="sect3">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h4 class="title"><a id="gimp-using-script-fu-tutorial-console"></a>3.1.4. സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ വിൻഡോ</h4>
+              </div>
+            </div>
+          </div>
+          <p>ഈ വിൻഡോ ചുവടെ ഒരു എൻട്രി ഫീൽഡ് എന്ന തലക്കെട്ടിൽ <span class="guilabel">Current Command</span> ആയിരിക്കേണ്ടുന്ന ആണ്. ഇവിടെ നാം ലളിതമായ പദ്ധതി ഇന്ററാക്ടീവ് കല്പിക്കുന്നു പരീക്ഷിച്ചറിയാം. എളുപ്പമുള്ള ഔട്ട് ആരംഭിക്കുക, ചില നമ്പറുകൾ ചേർക്കുക:</p>
+          <pre class="programlisting">(+ 3 5)</pre>
+          <p>ഈ ടൈപ്പുചെയ്ത് <span class="keycap"><strong>Enter</strong></span> അടിക്കാൻ സെന്റര് വിൻഡോയിൽ 8 പ്രതീക്ഷിക്കുന്ന ഉത്തരം ലഭിക്കും.</p>
+          <div class="figure">
+            <a id="idp46925512087264"></a>
+            <p class="title">
+              <strong>ചിത്രം 13.3. സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ ഉപയോഗിക്കുക.</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/using/script-fu-console.png" alt="സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ ഉപയോഗിക്കുക." />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഇപ്പോൾ ഞങ്ങൾ എന്തു ഒറ്റ നമ്പർ അധികം ചേർക്കാൻ ആഗ്രഹം? <span class="quote">“<span class="quote">+</span>”</span> ഫംഗ്ഷൻ രണ്ടോ അതിലധികമോ വാദങ്ങൾ എടുക്കാം, അതിനാൽ ഈ ഒരു പ്രശ്നം ആണ്:</p>
+          <pre class="programlisting">(+ 3 5 6)</pre>
+          <p>ഇത് 14 പ്രതീക്ഷിക്കുന്ന ഉത്തരം ലഭിക്കും.</p>
+          <p>ഇതുവരെ വളരെ നല്ല - ഞങ്ങൾ ഒരു പദ്ധതി പ്രസ്താവനയിൽ ടൈപ്പ് അതു സ്ക്രിപ്റ്റ്-ഫു കൺസോൾ വിൻഡോയിൽ ക്രമസംഖ്യയിടാത്ത പറ്റി. ഇപ്പോൾ ഒരു മുന്നറിയിപ്പു വേണ്ടി </p>
+        </div>
+        <div class="sect3">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h4 class="title"><a id="idp46925510990128"></a>3.1.5. അധിക ബ്രാക്കറ്റിൽ കരുതിയിരിക്കുക</h4>
+              </div>
+            </div>
+          </div>
+          <p>നിങ്ങൾ എന്നെ പോലെ ആണെങ്കിൽ, നിങ്ങൾ ആഗ്രഹിക്കുന്ന സമയത്തെല്ലാം അധിക ബ്രാക്കറ്റിൽ ഉപയോഗിക്കാൻ കഴിയാത്തതിൽ ഉപയോഗിക്കുന്നത് - നിങ്ങൾ ഒരു സങ്കീർണ്ണമായ ഗണിതശാസ്ത്ര സമവാക്യം ടൈപ്പുചെയ്യുമ്പോഴോ പോലെ അത് നിങ്ങളുടെ വായിക്കുമ്പോൾ അത് വ്യക്തമാകും വരുത്തുവാൻ ബ്രാക്കറ്റിൽ വഴി ഭാഗങ്ങൾ വേർതിരിക്കാൻ ആഗ്രഹിക്കുന്ന . സ്കീം, നിങ്ങൾ ശ്രദ്ധിക്കേണ്ടതാണ് ഒപ്പം തെറ്റായി ഈ അധിക ബ്രാക്കറ്റിൽ ഉൾപ്പെടുത്താൻ ഞങ്ങൾക്കുണ്ട്. ഉദാഹരണത്തിന്, 5, 6 ഒന്നിച്ചു ചേർത്ത് ഫലവുമായി 3 ചേർക്കാൻ ആഗ്രഹിച്ചു പറയുന്നു:</p>
+          <pre class="programlisting">3 + (5 + 6) + 7 =?</pre>
+          <p>+ ഓപ്പറേറ്ററെ ചേർക്കാൻ നമ്പറുകൾ ഒരു ലിസ്റ്റ് എടുക്കാം മനസ്സിലാക്കിയ നിങ്ങൾ താഴെ മുകളിൽ പരിവർത്തനം പരീക്ഷിച്ചു ചെയ്യാം:</p>
+          <pre class="programlisting">(+ 3 (5 6) 7)</pre>
+          <p>എന്നാൽ, ഈ തെറ്റാണ് - പദ്ധതി ഓരോ പ്രസ്താവന ആരംഭിക്കുന്ന പരാന്തിസിസുകൾ അവസാനിക്കുന്നത്, അതിനാൽ പദ്ധതി ദ്വിഭാഷിയായിരുന്ന നിങ്ങൾ ചേർക്കുന്നതിനുമുമ്പ് ആ നമ്പറുകൾ സമ്മിംഗ്, പരാന്തിസിസുകൾ രണ്ടാം ഗ്രൂപ്പിൽ <span class="quote">“<span class="quote">5</span>”</span> എന്ന ഫംഗ്ഷൻ വിളിക്കാൻ ശ്രമിക്കുന്ന പകരം വിചാരിക്കുന്ന, ഓർക്കുക 3.</p>
+          <p>മുകളിലുള്ള പ്രസ്താവന എഴുതാൻ ശരിയായ വഴി ആയിരിക്കും:</p>
+          <pre class="programlisting">(+ 3 (+ 5 6) 7)</pre>
+        </div>
+        <div class="sect3">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h4 class="title"><a id="idp46925510997104"></a>3.1.6. അതും ഉറപ്പാണോ ശരിയായ അകലം ഉറപ്പുവരുത്തി</h4>
+              </div>
+            </div>
+          </div>
+          <p>മറ്റ് പ്രോഗ്രാമിങ് ഭാഷകളിൽ പരിചിതമാണെങ്കിൽ, c / സി ++, പേൾ അല്ലെങ്കിൽ ജാവ പോലെ നിങ്ങൾ ശരിയായി ഒരു പദപ്രയോഗം രൂപം ഗണിത ചുറ്റും വൈറ്റ് സ്പേസ് ആവശ്യമില്ല അറിയുന്നു:</p>
+          <pre class="programlisting">
+        <code class="literal">3 + 5, 3 +5, 3+ 5</code>
+      </pre>
+          <p>ഈ എല്ലാ സി / സി ++, പേൾ, ജാവ കമ്പൈലറുകളിൽ സ്വീകരിക്കപ്പെടുന്നു. എന്നാൽ, ഈ പദ്ധതിക്കായി ശരിയല്ല. നിങ്ങൾ തന്ത്രം ഒരു ഗണിതശാസ്ത്ര ഓപ്പറേറ്റർ (അല്ലെങ്കിൽ മറ്റേതെങ്കിലും ഫംഗ്ഷൻ നാമം അല്ലെങ്കിൽ ഓപ്പറേറ്റർ) അത് ശരിയായി സ്കീം ദ്വിഭാഷിയായിരുന്ന വഴി വ്യാഖ്യാനിക്കുകയും ശേഷമുള്ള ഒരു സ്ഥലം ഉണ്ടായിരിക്കണം.</p>
+          <p>നിങ്ങൾ ഈ പ്രാരംഭ സങ്കൽപ്പങ്ങൾ മൊത്തത്തിൽ സുഖപ്രദമായ മുൻപരിചയം വരെ സ്ക്രിപ്റ്റ്-ഫു കൺസോളിൽ ലളിതമായ ഗണിതശാസ്ത്ര സമവാക്യങ്ങളുടെ ഒരു ബിറ്റ് ഐ.</p>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="image-independent-script-fu.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-scripting.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-using-script-fu-tutorial-identifier.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="image-independent-script-fu.html">2.6. ചിത്രം-ആശ്രിത സ്ക്രിപ്റ്റുകൾ</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-script-fu-tutorial-identifier.html">3.2. വേര്യബിൾ പ്രവർത്തനങ്ങൾ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

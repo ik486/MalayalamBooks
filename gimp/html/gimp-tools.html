@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>പാഠം 14. ഉപകരണങ്ങൾ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="gimp-function-reference.html" title="ഭാഗം III. ഫംഗ്ഷൻ റഫറൻസ്" />
+    <link rel="prev" href="gimp-function-reference.html" title="ഭാഗം III. ഫംഗ്ഷൻ റഫറൻസ്" />
+    <link rel="next" href="gimp-tools-selection.html" title="2. തിരഞ്ഞെടുക്കൽ ഉപകരണങ്ങൾ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">പാഠം 14. ഉപകരണങ്ങൾ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-function-reference.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">ഭാഗം III. ഫംഗ്ഷൻ റഫറൻസ്</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-tools-selection.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="chapter">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a id="gimp-tools"></a>പാഠം 14. ഉപകരണങ്ങൾ</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>ഉള്ളടക്കത്തിന്റെ പട്ടിക</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="sect1">
+              <a href="gimp-tools.html#gimp-toolbox">1. പണിസഞ്ചി</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tools.html#gimp-toolbox-introduction">1.1. അവതാരിക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tools.html#gimp-toolbox-icons">1.2. ടൂൾ ഐക്കണുകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tools.html#gimp-toolbox-areas">1.3. നിറത്തിലും സൂചകം ഏരിയ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tools.html#gimp-tool-options-dialog">1.4. ടൂൾ ഓപ്ഷനുകൾ</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-tools-selection.html">2. തിരഞ്ഞെടുക്കൽ ഉപകരണങ്ങൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tools-selection.html#gimp-tool-select">2.1. സാധാരണ സവിശേഷതകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-rect-select.html">2.2. Rectangle Selection</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-ellipse-select.html">2.3. Ellipse Selection</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-free-select.html">2.4. Free Selection (Lasso)</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-fuzzy-select.html">2.5. അവ്യക്തമായ നിരക്കു (മാന്ത്രികനായാണ്)</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-by-color-select.html">2.6. വർണ്ണ മാർഗം തിരഞ്ഞെടുക്കുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-iscissors.html">2.7. Intelligent Scissors</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-foreground-select.html">2.8. മുൻവശം തിരഞ്ഞെടുക്കുക</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-tools-paint.html">3. പെയിന്റ് ഉപകരണങ്ങൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tools-paint.html#gimp-tool-brush">3.1. സാധാരണ സവിശേഷതകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-dynamics.html">3.2. Dynamics</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tools-brush.html">3.3. ബ്രഷ് ഉപകരണങ്ങൾ (പെൻസിൽ, അന്തസ്സായിത്തന്നെയാണു, എയർബ്രഷ്)</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-bucket-fill.html">3.4. ബക്കറ്റ് നിറയാൻ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-blend.html">3.5. കൂട്ടിക്കലര്ത്തുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-pencil.html">3.6. പെന്സില്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-paintbrush.html">3.7. അന്തസ്സായിത്തന്നെയാണു</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-eraser.html">3.8. തുടച്ചുമാറ്റുന്നവന്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-airbrush.html">3.9. എയർബ്രഷ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-ink.html">3.10. മച്ചി</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-clone.html">3.11. ക്ലോൺ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-heal.html">3.12. സൌഖ്യമാക്കേണമേ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-perspective-clone.html">3.13. കാഴ്ചപ്പാട് ക്ലോൺ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-convolve.html">3.14. Blur/Sharpen</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-smudge.html">3.15. സ്മഡ്ജ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-dodge-burn.html">3.16. ഡോഡ്ജ് / ബേൺ</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-tools-transform.html">4. ഉപകരണങ്ങൾ പരിവർത്തനംചെയ്യൂ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tools-transform.html#gimp-tool-transform">4.1. സാധാരണ സവിശേഷതകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-align.html">4.2. അണിനിരത്തുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-move.html">4.3. നീങ്ങുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-crop.html">4.4. വിള</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-rotate.html">4.5. തിരിക്കുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-scale.html">4.6. സ്കെയിൽ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-shear.html">4.7. അറുക്കുക</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-perspective.html">4.8. കാഴ്ചപ്പാട്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-flip.html">4.9. ഫ്ലിപ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-cage.html">4.10. The Cage Tool</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-tools-color.html">5. വർണ്ണ ഉപകരണങ്ങൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tools-color.html#gimp-tools-color-overview">5.1. പൊതു അവലോകനം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-color-balance.html">5.2. കളർ ബാലൻസ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-hue-saturation.html">5.3. ഹ്യൂയേ-സാച്ചുറേഷൻ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-colorize.html">5.4. Colourise</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-brightness-contrast.html">5.5. മിഴിവ്-തീവ്രത</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-threshold.html">5.6. ഉമ്മറം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-levels.html">5.7. ലെവലുകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-curves.html">5.8. കർവ്സ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-posterize.html">5.9. Posterise</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-desaturate.html">5.10. Desaturate</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-tools-other.html">6. മറ്റു</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tools-other.html#gimp-tools-other-overview">6.1. പൊതു അവലോകനം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-path.html">6.2. പാഥുകൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-color-picker.html">6.3. വർണ്ണം പിക്കർ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-zoom.html">6.4. സൂം</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-measure.html">6.5. അളവ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-text.html">6.6. ടെക്സ്റ്റ്</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-tool-gegl.html">6.7. GEGL ഓപ്പറേഷൻ</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+      <div class="sect1">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="gimp-toolbox"></a>1. പണിസഞ്ചി</h2>
+            </div>
+          </div>
+        </div>
+        <a id="idp46925511005280" class="indexterm"></a>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-toolbox-introduction"></a>1.1. അവതാരിക</h3>
+              </div>
+            </div>
+          </div>
+          <p><acronym class="acronym">GIMP</acronym> വേഗത്തിൽ പോലുള്ള തിരഞ്ഞെടുക്കൽ നടത്തുന്നതിലൂടെ അല്ലെങ്കിൽ പാതയിൽ ഡ്രോയിംഗ് അടിസ്ഥാന വേറേ വേണ്ടി ഒരു സമഗ്രമായ പണിസഞ്ചി നൽകുന്നു. <acronym class="acronym">GIMP</acronym> ന്റെ ഉപകരണബോക്സിലേക്ക് അടങ്ങിയിരിക്കുന്ന അനേകം ഉപകരണങ്ങൾ ഇവിടെ വിശദമായി ചർച്ച ചെയ്യുന്നുണ്ട്.</p>
+          <p>(, നിങ്ങൾ ജിജ്ഞാസുവാണെങ്കിൽ കേസിൽ <acronym class="acronym">GIMP</acronym> ലെ പോവാം ഒരു "ടൂൾ" ഡിസ്പ്ലേ ആക്സസ് ആവശ്യമാണ് എന്ന് ഒരു ഇമേജിൽ അഭിനയം ഒരു മാർഗമാണ്, ഒന്നുകിൽ നിങ്ങൾ ഡിസ്പ്ലേ അകത്ത് ചുറ്റും പോയിന്റർ നീക്കി എന്തു ചെയ്യണമെന്ന് സൂചിപ്പിക്കുന്നു അനുവദിക്കുന്നതിന്, അല്ലെങ്കിൽ ഇന്ററാക്ടീവ് നിങ്ങൾ നടത്തിയ മാറ്റങ്ങൾ ഫലങ്ങൾ നിങ്ങളെ കാണിക്കാൻ. എന്നാൽ ഒരു കണ്ടതുപോലെ ഒരു ഉപകരണം ചിന്തിക്കുന്നത് ചെയ്യണമെങ്കിൽ, മരം ഒരു കഷണം പോലെ ഒരു ഇമേജ്, അതു ഒരുപക്ഷേ നിങ്ങൾക്ക് ഉപദ്രവം ഒരു വലിയ ചെയ്യില്ല.)</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                </td>
+                <th align="left">കുറിപ്പു്</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>ടൂൾബോക്സ് അതിന്റെ ഘടകങ്ങളും ഒരു അവലോകനം വേണ്ടി <a class="link" href="gimp-concepts-main-windows.html#gimp-concepts-toolbox" title="2.1. പണിസഞ്ചി">Main Windows: The Toolbox</a> കാണുക.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p><acronym class="acronym">GIMP</acronym> നിങ്ങൾ ചുമതലകൾ ഒരു വലിയ മുറികൾ നടപ്പിലാക്കുന്നതിനുള്ള അനുവദിക്കുന്ന ഉപകരണങ്ങൾ വൈവിധ്യമാർന്ന പാൻജനസിസ് ഉണ്ട്. ഉപകരണങ്ങൾ അഞ്ച് വിഭാഗമായി വീഴുന്ന കരുതിയിരുന്നത് കഴിയും:</p>
+          <div class="itemizedlist">
+            <ul class="itemizedlist" style="list-style-type: disc; ">
+              <li class="listitem">
+                <p>വ്യക്തമാക്കുകയും അല്ലെങ്കിൽ പരിഷ്ക്കരിക്കുക തുടർന്നുള്ള പ്രവർത്തനങ്ങൾ ബാധിക്കും ആ ചിത്രം പങ്കു <span class="emphasis"><em>Selection tools</em></span>;</p>
+              </li>
+              <li class="listitem">
+                <p><span class="emphasis"><em>Paint tools</em></span>, ചിത്രത്തിന്റെ ചില ഭാഗത്ത് നിറങ്ങൾ മാറ്റംവരുത്തിയോ ഏത്;</p>
+              </li>
+              <li class="listitem">
+                <p>ചിത്രം ജ്യാമിതിയെ മാറ്റംവരുത്തിയോ ഏത് <span class="emphasis"><em>Transform tools</em></span>;</p>
+              </li>
+              <li class="listitem">
+                <p>ചിത്രം മുഴുവനായും ഉടനീളം നിറങ്ങൾ വിതരണം മാറ്റംവരുത്തിയോ ഏത് <span class="emphasis"><em>Color tools</em></span>;</p>
+              </li>
+              <li class="listitem">
+                <p><span class="emphasis"><em>Other tools</em></span> മറ്റ് നാല് വിഭാഗങ്ങളായി വീഴും ചെയ്യാൻ ഏത്.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-toolbox-icons"></a>1.2. ടൂൾ ഐക്കണുകൾ</h3>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925511216912"></a>
+            <p class="title">
+              <strong>ചിത്രം 14.1. പണിസഞ്ചിയിൽ ടൂൾ ഐക്കണുകൾ</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/toolbox/toolbox-icons.png" alt="പണിസഞ്ചിയിൽ ടൂൾ ഐക്കണുകൾ" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>ഏറ്റവും ഉപകരണങ്ങൾ പണിസഞ്ചി ഒരു ഐക്കണിൽ ക്ലിക്കുചെയ്ത് സജീവമാക്കാം. സ്വതവേ, ചില ഉപകരണങ്ങൾ മാത്രമേ മെനുകൾ (അതായത് കളർ ഉപകരണങ്ങൾ ഒന്നുകിൽ <span class="guimenu">Colors</span> മാത്രം അല്ലെങ്കിൽ <span class="guimenu">Tools</span> → <span class="guisubmenu">Colors</span> ആയി ആക്സസ്സുചെയ്യാനാവുന്ന) വഴി കഴിയുന്നു. ഓരോ ഉപകരണം, വാസ്തവത്തിൽ, <span class="emphasis"><em>Tools</em></span> മെനുവിൽ നിന്നും സജീവമാക്കാം; കൂടാതെ, ഓരോ ഉപകരണം ആക്സിലറേറ്റർ കീ ഉപയോഗിച്ച് കീബോർഡിൽ നിന്നും സജീവമാക്കാം.</p>
+          <p>സഹജമായി, <acronym class="acronym">GIMP</acronym> ആദ്യം ഇൻസ്റ്റാൾ സൃഷ്ടിച്ചു ൽ, എല്ലാ ഉപകരണങ്ങൾ പണിസഞ്ചി ഐക്കണുകൾ കാണിക്കാൻ: കളർ ഉപകരണങ്ങൾ ഒഴിവാക്കിയിരിക്കുന്നു. നിങ്ങൾ <span class="guimenu">Edit</span> → <span class="guisubmenu">Preferences</span> → <span class="guimenuitem">Toolbox</span> വഴി പണിസഞ്ചി കാണിച്ചിരിക്കുന്ന ഉപകരണങ്ങളുടെ കസ്റ്റമൈസ് ചെയ്യാം. ഇത് ചെയ്യാൻ താൽപ്പര്യപ്പെട്ടേക്കാവുന്ന രണ്ടു കാരണങ്ങൾ ഉണ്ട്: ആദ്യം, നിങ്ങൾ വിരളമായേ ഒരു ഉപകരണം ഉപയോഗിച്ച് എങ്കിൽ ലളിതമാക്കി നിങ്ങൾ ആഗ്രഹിക്കുന്ന ഉപകരണങ്ങൾ കണ്ടെത്താൻ തെറ്റിദ്ധരിപ്പിക്കുന്നതും ഐക്കൺ നീക്കം ആകേണ്ടതിന്നു; രണ്ടാമതായി, കളർ ഉപകരണങ്ങൾ ധാരാളം ഉപയോഗിക്കുകയാണെങ്കിൽ നിങ്ങൾക്ക് ഉള്ളിടത്തോളം എളുപ്പം ലഭ്യമായ അവർക്ക് ഐക്കണുകൾ ഞങ്ങൾക്കുണ്ട് കണ്ടെത്തിയേക്കാം. ഏതെങ്കിലും സാഹചര്യത്തിൽ, പരിഗണിക്കാതെ പണിസഞ്ചി, നിങ്ങൾക്ക് എപ്പോഴും ഉപാധികളൊന്നും ഏത് സമയത്തും ഒരു ചിത്രം മെനുബാർ നിന്ന് <span class="guimenu">Tools</span> മെനു ഉപയോഗിച്ച് ആക്സസ് ചെയ്യാൻ കഴിയും.</p>
+          <p>കഴ്സർ ആകൃതി (എങ്കിൽ <span class="guimenu">Preferences</span> നിങ്ങളെ <span class="guimenu">Image Windows</span> → <span class="guisubmenu">Mouse Pointers</span> → <span class="guimenuitem">Pointer mode</span> → <span class="guimenuitem">Tool icon</span> സജ്ജമാക്കി) സജീവമാണ് ഉപകരണം സൂചിപ്പിക്കുന്ന ഒന്നു ലേക്ക് അതു ഒരു ഇമേജ് അകത്ത് മാറ്റങ്ങൾ.</p>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-toolbox-areas"></a>1.3. നിറത്തിലും സൂചകം ഏരിയ</h3>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925510650096"></a>
+            <p class="title">
+              <strong>ചിത്രം 14.2. പണിസഞ്ചിയിൽ നിറങ്ങളും സൂചകം ഏരിയ</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/toolbox/toolbox-show-area.png" alt="പണിസഞ്ചിയിൽ നിറങ്ങളും സൂചകം ഏരിയ" />
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="gimp-toolbox-color-area"></a>1.3.1. കളർ ഏരിയ</h4>
+                </div>
+              </div>
+            </div>
+            <a id="idp46925510653824" class="indexterm"></a>
+            <a id="idp46925510655184" class="indexterm"></a>
+            <a id="idp46925510656080" class="indexterm"></a>
+            <a id="idp46925510971472" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925510972400"></a>
+              <p class="title">
+                <strong>ചിത്രം 14.3. പണിസഞ്ചിയിൽ സജീവ നിറങ്ങൾ</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/toolbox/toolbox-active-colors.png" alt="പണിസഞ്ചിയിൽ സജീവ നിറങ്ങൾ" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <div class="variablelist">
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">കളർ ഏരിയ</span>
+                </dt>
+                <dd>
+                  <p>ഈ പ്രദേശത്ത് രണ്ടു നിറങ്ങൾ, മുന്നിലും പശ്ചാത്തലത്തിലും, പെയിന്റിംഗ്, നിറയുന്നത് മറ്റു പല ഓപ്പറേഷൻസ് ഉപയോഗിക്കുന്ന അടങ്ങുന്ന ജിമ്പ് അടിസ്ഥാന പാലറ്റ് കാണിക്കുന്നു. നിറം പ്രദർശനങ്ങളുടെ ഒന്നുകിൽ ക്ലിക്കുചെയ്യുന്നത് ഇത് മാറ്റാൻ അനുവദിക്കുന്നു ഒരു കളർ എഡിറ്റർ ഡയലോഗ്, ചെയ്യുന്നു.</p>
+                </dd>
+                <dt>
+                  <a id="gimp-toolbox-default-colors"></a>
+                  <span class="term">സ്വതേ നിറങ്ങൾ</span>
+                </dt>
+                <dd>
+                  <p>ഈ ചെറിയ ചിഹ്നത്തിൽ ക്ലിക്കുചെയ്തുകൊണ്ട് യഥാക്രമം കറുപ്പും വെളുപ്പും ഫോർഗ്രൌണ്ട്, പശ്ചാത്തല വർണ്ണങ്ങൾ പുനഃസജ്ജമാക്കുന്നു. <span class="keycap"><strong>D</strong></span> കീ അമർത്തിയാൽ അതേ പ്രതീതി ഉണ്ട്.</p>
+                </dd>
+                <dt>
+                  <a id="gimp-toolbox-swap-colors"></a>
+                  <span class="term">സ്വാപ്പ് FG / ബി.ജി. നിറങ്ങൾ</span>
+                </dt>
+                <dd>
+                  <p>രണ്ടു arrowheads ചെറിയ വളഞ്ഞ ലൈനിൽ ക്ളിക്കു മുൻവശം കാരണമാകുന്നു, പശ്ചാത്തല വർണ്ണങ്ങൾ മാറ്റി ലേക്ക്. <span class="keycap"><strong>X</strong></span> കീ അമർത്തിയാൽ അതേ പ്രതീതി ഉണ്ട്.</p>
+                  <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+                    <table border="0" summary="Tip">
+                      <tr>
+                        <td rowspan="2" align="center" valign="top" width="25">
+                          <img alt="[സൂചന]" src="images/tip.png" />
+                        </td>
+                        <th align="left">സൂചന</th>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top">
+                          <p>നിങ്ങൾ ക്ലിക്ക്-ആൻഡ്-വലിച്ചു കഴിയും ഈ നിറം നേരിട്ട് ഒരു പാളി കടന്നു; അതു മുഴുവനും പാളി നിറെക്കും.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="gimp-toolbox-indicator-area"></a>1.3.2. ഉപകരണങ്ങൾ സൂചകം ഏരിയ</h4>
+                </div>
+              </div>
+            </div>
+            <a id="idp46925511019680" class="indexterm"></a>
+            <a id="idp46925511021056" class="indexterm"></a>
+            <a id="idp46925511022448" class="indexterm"></a>
+            <a id="idp46925511023840" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925511025232"></a>
+              <p class="title">
+                <strong>ചിത്രം 14.4. സജീവ ബ്രഷ്, മാതൃക ഗ്രേഡിയന്റ് പണിസഞ്ചിയിൽ</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/toolbox/toolbox-active-bpg.png" alt="സജീവ ബ്രഷ്, മാതൃക ഗ്രേഡിയന്റ് പണിസഞ്ചിയിൽ" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p>പണിസഞ്ചി ഈ ഭാഗം നിലവിൽ തിരഞ്ഞെടുത്ത ബ്രഷ്, പാറ്റേൺ ആൻഡ് ഗ്രേഡിയന്റ് കാണിക്കുന്നു. അവരിൽ ഏതെങ്കിലും ക്ലിക്കുചെയ്താൽ ഇത് മാറ്റാൻ അനുവദിക്കുന്ന ഒരു ഡയലോഗ് ചെയ്യുന്നു.</p>
+          </div>
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="gimp-toolbox-image-area"></a>1.3.3. സജീവ ഇമേജ് ഏരിയ</h4>
+                </div>
+              </div>
+            </div>
+            <a id="idp46925511030048" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925511031440"></a>
+              <p class="title">
+                <strong>ചിത്രം 14.5. പണിസഞ്ചിയിൽ സജീവ ചിത്രം</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/toolbox/toolbox-active-image.png" alt="പണിസഞ്ചിയിൽ സജീവ ചിത്രം" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p><span class="quote">“<span class="quote">Display Active Image</span>”</span> ഓപ്ഷൻ മുൻഗണനകൾ / പണിസഞ്ചി ചെക്കുചെയ്തിട്ടുണ്ടെന്നതും സജീവ ചിത്രം ഒരു ലഘുചിത്രം ഈ പ്രദേശത്ത് പ്രദർശിപ്പിച്ച്. ഈ ലഘുചിത്രത്തിൽ ക്ലിക്ക് ചെയ്താൽ, <span class="quote">“<span class="quote">Images</span>”</span> ഡയലോഗ് നിങ്ങളുടെ സ്ക്രീനിൽ നിരവധി ചിത്രങ്ങൾ ഉണ്ടെങ്കിൽ തുറന്നു ഉപകാരപ്രദമാണ്. നിങ്ങൾക്ക് നേരിട്ടും ഇതേ ചിത്രം സംരക്ഷിക്കാൻ ഒരു പ്രാപ്തമാക്കിയ XDS PLACEHOLDER,-101694 ഫയൽ മാനേജർ ക്ലിക്കുചെയ്യുക വലിച്ചിടാനാകും ഈ ലഘുചിത്രം.</p>
+          </div>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-tool-options-dialog"></a>1.4. ടൂൾ ഓപ്ഷനുകൾ</h3>
+              </div>
+            </div>
+          </div>
+          <div class="figure">
+            <a id="idp46925510622816"></a>
+            <p class="title">
+              <strong>ചിത്രം 14.6. ടൂൾ ഓപ്ഷനുകൾ ഡയലോഗ്</strong>
+            </p>
+            <div class="figure-contents">
+              <div class="mediaobject">
+                <img src="images/toolbox/toolbox-tool-options.png" alt="ടൂൾ ഓപ്ഷനുകൾ ഡയലോഗ്" />
+                <div class="caption">
+                  <p>എയർബ്രഷ് ഉപകരണത്തിൻറെ ടൂൾ ഓപ്ഷനുകൾ ഡയലോഗ്.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br class="figure-break" />
+          <p>നിങ്ങൾ സജ്ജീകരിക്കാൻ അധികപേരും ചെയ്യാൻ പോലുള്ള കാര്യങ്ങൾ ഉണ്ടെങ്കിൽ, ഒരു ഉപകരണം സജീവമാക്കുന്നു അതിന്റെ ടൂൾ ഓപ്ഷനുകൾ ഡയലോഗ് പണിസഞ്ചി താഴെ ദൃശ്യമാകാൻ കാരണമാകുന്നു. കാര്യങ്ങൾ സജ്ജീകരിക്കാൻ ഈ വഴി ഇല്ലെങ്കിൽ, നിങ്ങൾ ഒരുപക്ഷേ ഇതായിരിക്കണം: അതു വളരെ പ്രയാസമുള്ള അവരുടെ ഓപ്ഷനുകൾ കൃത്രിമം കഴിയാത്തതിൽ ഇല്ലാതെ ഫലപ്രദമായി ഉപകരണങ്ങൾ ഉപയോഗിക്കുക എന്നതാണ്.</p>
+          <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Tip">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[സൂചന]" src="images/tip.png" />
+                </td>
+                <th align="left">സൂചന</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>ടൂൾ ഓപ്ഷനുകൾ സഹജമായി ലെ പണിസഞ്ചി കീഴെ ദൃശ്യമാകും. നിങ്ങൾ ഏതെങ്കിലും തരത്തിൽ അതു നഷ്ടപ്പെട്ടാൽ, പണിസഞ്ചി താഴെ ഡോക്ക് പിന്നീട് <span class="guimenu">Windows</span> → <span class="guisubmenu">Dockable Dialogs</span> → <span class="guimenuitem">Tool Options</span> ഉപയോഗിച്ച് ഒരു പുതിയ ടൂൾ ഓപ്ഷനുകൾ ഡയലോഗ് സൃഷ്ടിച്ചും വഴി തിരികെ ലഭിക്കും. നിങ്ങൾക്ക് സഹായം ആവശ്യമുണ്ടെങ്കിൽ <a class="link" href="">Dialogs and Docking</a> വിഭാഗം കാണുക.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p>ഓരോ ഉപകരണം ഓപ്ഷനുകൾ സ്വന്തം കൂട്ടം പ്രത്യേക ഉണ്ട്. നിങ്ങൾ അവരെ മാറ്റാൻ വരെ നിങ്ങൾ അവർക്ക് വേണ്ടി തിരഞ്ഞെടുപ്പുകൾ, സെഷനിൽ മുഴുവൻ സൂക്ഷിക്കണം. സത്യത്തിൽ, പ്രയോഗം ഓപ്ഷനുകൾ സെഷനിൽ നിന്ന് സെഷനിൽ പരിപാലിക്കുന്നത്. സെഷനുകളിലുടനീളം ഉപകരണം ഓപ്ഷനുകളിൽ നിര്ബന്ധം ചിലപ്പോൾ വിളിയ്ക്കാം പൊതുശല്യം കഴിയും: ഒരു ഉപകരണം വളരെ അപരിചിതമായ പെരുമാറുന്ന, നിങ്ങൾ രണ്ടാഴ്ച മുമ്പ്, അസ്വാഭാവികമായ ചില ഓപ്ഷൻ നിങ്ങൾ അവസാനം അത് പ്രവർത്തിച്ചിട്ടുണ്ട് ഉപയോഗിച്ച ഓർക്കുക വരെ നിങ്ങൾ എന്തുകൊണ്ട് മനസിലാക്കാൻ കഴിയുന്നില്ല.</p>
+          <p>ടൂൾ ഓപ്ഷനുകൾ ഡയലോഗ് ചുവടെ, നാല് ബട്ടണുകൾ ദൃശ്യമാകും:</p>
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">
+          <span class="guiicon">
+            <span class="inlinemediaobject"><img src="images/toolbox/reg-button.png" /></span>
+          </span>
+          <span class="phrase">ഉപാധികൾ സംരക്ഷിക്കുക</span>
+        </span>
+              </dt>
+              <dd>
+                <p>ഈ ബട്ടൺ ആ അതുവഴി അവയെ പുനഃസ്ഥാപിക്കാൻ കഴിയും, നിലവിലെ ടൂളിനായി ക്രമീകരണങ്ങൾ സംരക്ഷിക്കാൻ നിങ്ങളെ അനുവദിക്കുന്നു. അതു നിങ്ങൾ പുതിയ പ്രീസെറ്റ് ഒരു പേര് നൽകാൻ അനുവദിക്കുന്നത് <a class="xref" href="">???</a> ചെയ്യുന്നു. നിങ്ങൾ ഓപ്ഷനുകൾ പുനഃസ്ഥാപിക്കുക, സജീവമായ ഉപകരണം മാത്രം സംരക്ഷിച്ച പ്രീസെറ്റുകൾ കാണിച്ചിരിക്കുന്നു, അതിനാൽ നിങ്ങൾ ഇവിടെ ഒരു പേര് നൽകുന്നതു് ഉപകരണം പേര് ഉൾപ്പെടെ വിഷമിക്കേണ്ട ആവശ്യമില്ല.</p>
+              </dd>
+              <dt>
+                <span class="term">
+          <span class="guiicon">
+            <span class="inlinemediaobject"><img src="images/toolbox/resto-button.png" /></span>
+          </span>
+          <span class="phrase">ഓപ്ഷനുകൾ പുനഃസ്ഥാപിക്കുക</span>
+        </span>
+              </dt>
+              <dd>
+                <p>ഈ ബട്ടൺ സജീവമായ ടൂളിനായി ഓപ്ഷനുകൾ ഒരു മുമ്പ് സംരക്ഷിച്ച പ്രീസെറ്റ് പുനഃസ്ഥാപിക്കാൻ അനുവദിക്കുന്നു. യാതൊരു പ്രീസെറ്റുകൾ എന്നേക്കും സജീവ ടൂളിനായി സംരക്ഷിച്ചു, ബട്ടൺ സംവേദനക്ഷമരഹിത ആയിരിക്കും. അല്ലാത്തപക്ഷം, എല്ലാ സംരക്ഷിച്ച ഓപ്ഷൻ സെറ്റുകളിൽ പേരുകൾ കാണിക്കുന്ന ഒരു മെനു വരുത്തും ക്ളിക്ക്: ഒരു മെനു എൻട്രി ശേഷമേ ആ ക്രമീകരണങ്ങൾ ബാധകമാക്കും.</p>
+              </dd>
+              <dt>
+                <span class="term">
+          <span class="guiicon">
+            <span class="inlinemediaobject"><img src="images/toolbox/del-button.png" /></span>
+          </span>
+          <span class="phrase">ഓപ്ഷനുകൾ ഇല്ലാതാക്കുക</span>
+        </span>
+              </dt>
+              <dd>
+                <p>ഈ ബട്ടൺ സജീവമായ ടൂളിനായി ഓപ്ഷനുകൾ ഒരു മുമ്പ് സംരക്ഷിച്ച സെറ്റ് ഇല്ലാതാക്കുന്നത് അനുവദിക്കുന്നു. യാതൊരു ഓപ്ഷൻ-സെറ്റുകൾക്ക് എന്നേക്കും സജീവ ടൂളിനായി സംരക്ഷിച്ചു, ബട്ടൺ ലളിതമായി ഉപകരണം പേര് ആവർത്തിക്കുക ചെയ്യും. അല്ലെങ്കിൽ, ക്ളിക്ക് അത് എല്ലാ സംരക്ഷിച്ച പ്രീസെറ്റുകളിൽ പേരുകൾ കാണിക്കുന്ന ഒരു മെനു വരുത്തും: തിരഞ്ഞെടുത്ത പ്രീസെറ്റ് ഇല്ലാതാക്കും.</p>
+              </dd>
+              <dt>
+                <span class="term">
+          <span class="guiicon">
+            <span class="inlinemediaobject"><img src="images/toolbox/reset-button.png" /></span>
+          </span>
+          <span class="phrase">പഴയഐച്ഛീകങ്ങളിലേക്കു്മാറ്റുക</span>
+        </span>
+              </dt>
+              <dd>
+                <p>ഈ ബട്ടൺ സ്ഥിര മൂല്യങ്ങളിൽ സജീവ പ്രയോഗം ഓപ്ഷനുകൾ പുനഃസജ്ജമാക്കുന്നു.</p>
+              </dd>
+            </dl>
+          </div>
+          <div class="variablelist">
+            <dl class="variablelist">
+              <dt>
+                <span class="term">New sliders</span>
+              </dt>
+              <dd>
+                <a id="idp46925512143088" class="indexterm"></a>
+                <p>
+            Option sliders have changed with GIMP-2.8: it is not visible, but
+            the slider area is now divided into upper and lower parts.
+          </p>
+                <div class="figure">
+                  <a id="idp46925512144576"></a>
+                  <p class="title">
+                    <strong>ചിത്രം 14.7. The new sliders of tool options dialogs</strong>
+                  </p>
+                  <div class="figure-contents">
+                    <div class="mediaobject">
+                      <img src="images/toolbox/slider-fast.png" alt="The new sliders of tool options dialogs" />
+                      <div class="caption">
+                        <p>
+                  The upwards arrow pointer in the top half of the slider area
+                </p>
+                      </div>
+                    </div>
+                    <div class="mediaobject">
+                      <img src="images/toolbox/slider-slow.png" alt="The new sliders of tool options dialogs" />
+                      <div class="caption">
+                        <p>
+                  The horizontal two-way arrow pointer in the lower half of
+                  the slider area
+                </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br class="figure-break" />
+                <div class="itemizedlist">
+                  <ul class="itemizedlist" style="list-style-type: disc; ">
+                    <li class="listitem">
+                      <p><strong>In the top half of the slider area: </strong>
+                  Clicking with the up arrow pointer sets slider to a value that
+                  depends on the position of the pointer (no reference,
+                  imprecise).
+                  Clicking and dragging the up arrow pointer sets the value by
+                  large amounts.
+                </p>
+                    </li>
+                    <li class="listitem">
+                      <p><strong>In the lower half of the slider area: </strong>
+                  Clicking with the two-way arrow pointer has no effect.
+                  Clicking and dragging the two-way arrow pointer sets the value
+                  by small amounts.
+                </p>
+                    </li>
+                  </ul>
+                </div>
+                <p>
+            Once you have set the value approximately, you can tune it precisely
+            using the two small arrow buttons at the right of the slider.
+          </p>
+                <p>
+            The value area in the slider area works as a text editor: there, you
+            can edit the value or enter a new value directly.
+          </p>
+                <p>
+            For some options, you can drag the pointer outside the tool dialog.
+            For example with the size slider, whose maximum value is 10,000, 
+            you can drag the mouse pointer up to the right side of your screen.
+          </p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-function-reference.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="gimp-function-reference.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-tools-selection.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-function-reference.html">ഭാഗം III. ഫംഗ്ഷൻ റഫറൻസ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-tools-selection.html">2. തിരഞ്ഞെടുക്കൽ ഉപകരണങ്ങൾ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

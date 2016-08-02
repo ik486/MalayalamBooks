@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>9.2. ആഴത്തിൽ ലയനം</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-combine.html" title="9. ഫിൽട്ടറുകൾ സംയോജിപ്പിക്കുക" />
+    <link rel="prev" href="filters-combine.html" title="9. ഫിൽട്ടറുകൾ സംയോജിപ്പിക്കുക" />
+    <link rel="next" href="plug-in-film.html" title="9.3. ഫിലിം" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">9.2. ആഴത്തിൽ ലയനം</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="filters-combine.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">9. ഫിൽട്ടറുകൾ സംയോജിപ്പിക്കുക</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-film.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-depth-merge"></a>9.2. ആഴത്തിൽ ലയനം</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925516085712" class="indexterm"></a>
+      <a id="idp46925516096304" class="indexterm"></a>
+      <p>ആഴത്തിൽ ലയനം രണ്ട് വ്യത്യസ്ത ചിത്രങ്ങൾ അല്ലെങ്കിൽ പാളികൾ സംയോജിപ്പിച്ച് ഉപയോഗപ്രദമായിരിക്കും ഒരു സംയോജിപ്പിക്കുക അരിപ്പയാണ്. ഓരോ ചിത്രം അല്ലെങ്കിൽ പാളി ഭാഗങ്ങൾ തുടർന്നും കാണാനാകും തീരുമാനിക്കാം.</p>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925516094912"></a>9.2.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925516094400"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.160. ഉദാഹരണത്തിന് ഫിൽട്ടർചെയ്യുക</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="ഉദാഹരണത്തിന് ഫിൽട്ടർചെയ്യുക" />
+              <div class="caption">
+                <p>യഥാർത്ഥ</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/combine-taj-depthmerge.jpg" alt="ഉദാഹരണത്തിന് ഫിൽട്ടർചെയ്യുക" />
+              <div class="caption">
+                <p>ഫിൽറ്റർ പ്രയോഗിച്ചു</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ഓരോ ചിത്രം ഒരു മാസ്ക് പ്രവർത്തിക്കുന്നു ഒരു ഭൂപടം ബന്ധപ്പെട്ടിരിക്കുന്നു. ലളിതമായി ഒരു ഗ്രേസ്കെയിലാക്കി ചെരിവുമാനം ഈ മാപ്പ് സൃഷ്ടിക്കുന്നതിന്: ചിത്രം പേജിലൂടെ പ്രയോഗിച്ചു വരുമ്പോൾ മാസ്ക് ഇരുണ്ട പ്രദേശങ്ങൾ മുൻവശത്തെ ചിത്രം ശുഭ്രമായ പ്രദേശങ്ങൾ ചിത്ര മാസ്ക് ചെയ്യും കാണിക്കും.</p>
+        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Note">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[കുറിപ്പു്]" src="images/note.png" />
+              </td>
+              <th align="left">കുറിപ്പു്</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>ഈ ഫിൽട്ടർ ഉപയോഗിച്ച് പ്രവർത്തിക്കുന്നതിന്, ചിത്രങ്ങളും മാപ്പുകളും ഒരേ വലിപ്പം ഉണ്ടായിരിക്കണം. തെരഞ്ഞെടുക്കുന്ന എല്ലാ ചിത്രങ്ങളും സ്ക്രീനിൽ ഉണ്ടായിരിക്കണം.</p>
+                <p>നിങ്ങൾക്ക് നിരവധി പാളികൾ കൊണ്ട് ഒരു ഇമേജിൽ ഈ ഫിൽട്ടർ ഉപയോഗിക്കാം. എല്ലാ പാളികൾ ചിത്രങ്ങൾ തിരഞ്ഞെടുക്കുന്നതിനായി ഉപയോഗിച്ച ഡ്രോപ്പ്-ഡൌൺ ലിസ്റ്റുകൾ ദൃശ്യമാകും. ഈ പാളികൾ ഒരേ വലിപ്പം ഉണ്ടായിരിക്കണം.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523891456"></a>9.2.2. ഈ ഫിൽറ്റർ ആക്സസ്സുചെയ്യുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Combine</span> → <span class="guimenuitem">Depth Merge</span> മുഖേന ഈ ഫിൽട്ടർ കണ്ടെത്താനാകും</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925523897168"></a>9.2.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925523897872"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.161. <span class="quote">“<span class="quote">Depth Merge</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/combine/depthmerge.png" alt="“Depth Merge” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ഉറവിടം 1, </span>
+              <span class="term">ഉറവിടം 2</span>
+            </dt>
+            <dd>
+              <p>നീതീകൽ വേണ്ടി ഉപയോഗിക്കാൻ ഉറവിട ചിത്രങ്ങൾ നിർവചിക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">ആഴത്തിൽ മാപ്പ്</span>
+            </dt>
+            <dd>
+              <p>സ്രോതസ്സുകളിൽ രൂപാന്തരം മാപ്പുകൾ ഉപയോഗിക്കാൻ ചിത്രം നിർവചിക്കുക.</p>
+            </dd>
+            <dt>
+              <span class="term">ഓവർലാപ്പ്</span>
+            </dt>
+            <dd>
+              <p>ചിത്രങ്ങൾ തമ്മിലുള്ള സോഫ്റ്റ് സംക്രമണം സൃഷ്ടിക്കുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">ഓഫ്സെറ്റ്</span>
+            </dt>
+            <dd>
+              <p>ഈ ഓപ്ഷൻ മറ്റ് നേരെ ഒരു ചിത്രത്തിലേക്ക് കൂടുതലോ കുറവോ പ്രാധാന്യം നൽകുന്ന ലയിപ്പിക്കുന്നത് പരിധി മാറ്റുകയും ചെയ്യുന്നു.</p>
+            </dd>
+            <dt>
+              <span class="term">സ്കെയിൽ 1, </span>
+              <span class="term">സ്കെയിൽ 2</span>
+            </dt>
+            <dd>
+              <p>മുകളിലുള്ള സമാനം ഓഫ്സെറ്റ്, പക്ഷേ കൂടുതൽ സെൻസിറ്റീവ് പ്രത്യേകം ഓരോ മാപ്പ് പ്രയോഗിച്ചു. താഴത്തെയും മൂല്യമായി സ്കെയിൽ, അത് ഇരുണ്ട മാറ്റുന്നതിനാണ് ചിത്രം മാപ്പ് മൂല്യം ബാധിക്കും. അതുകൊണ്ട്, കറുത്ത ലയനം കൂടുതൽ ആധിപത്യം നിങ്ങൾ ചിത്രത്തിന്റെ കൂടുതൽ കാണും.</p>
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925516099072"></a>9.2.4. ഉദാഹരണത്തിന് ഉപയോഗിക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>മാപ്സ് ഗ്രേസ്കെയിലാക്കി ഘനമായ <a class="link" href="">Blend tool</a> കൂടെ സൃഷ്ടിക്കുകയും <a class="link" href="">Curve tool</a> കൂടെ പരിഷ്കരിച്ചു.</p>
+        <div class="figure">
+          <a id="idp46925518758256"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.162. ഉറവിടം ചിത്രങ്ങൾ അവരുടെ മാപ്പുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/depthmerge-source-image1.png" alt="ഉറവിടം ചിത്രങ്ങൾ അവരുടെ മാപ്പുകൾ" />
+              <div class="caption">
+                <p>ഉറവിട ഇമേജ് 1</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/depthmerge-source-image2.png" alt="ഉറവിടം ചിത്രങ്ങൾ അവരുടെ മാപ്പുകൾ" />
+              <div class="caption">
+                <p>ഉറവിട ഇമേജ് 2</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/depthmerge-source-map1.png" alt="ഉറവിടം ചിത്രങ്ങൾ അവരുടെ മാപ്പുകൾ" />
+              <div class="caption">
+                <p>മാപ്പ് 1</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/depthmerge-source-map2.png" alt="ഉറവിടം ചിത്രങ്ങൾ അവരുടെ മാപ്പുകൾ" />
+              <div class="caption">
+                <p>മാപ്പ് 2</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>നിങ്ങൾ എന്താണ് നടക്കുന്നതെന്ന് മനസ്സിലാക്കാൻ കഴിയും. ചിത്രം-1 മാപ്പ്-1 ചികിത്സ: ചുവന്ന സ്ക്വയർ അണിഞ്ഞതുമാണ്, മഞ്ഞ സ്ക്വയർ ദൃശ്യമാകും ആണ്. ചിത്രം-2 മാപ്പ്-2 ചികിത്സ: ചുവന്ന സർക്കിൾ അണിഞ്ഞതുമാണ് പച്ച സർക്കിൾ ദൃശ്യമാകും ആണ്. മൊത്തം, പച്ച സർക്കിൾ, മഞ്ഞ സ്ക്വയർ തുടർന്നും കാണാനാകും.</p>
+        <div class="figure">
+          <a id="idp46925511243328"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.163. ഫലം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/depthmerge-results-none.png" alt="ഫലം" />
+              <div class="caption">
+                <p><span class="emphasis"><em>No offset and no overlap</em></span>. ഇരു ചിത്രങ്ങളും തമ്മിലുള്ള പരിധി മൂർച്ചയുള്ള ആണ് മാസ്ക് ഗ്രേഡിയന്റ് മധ്യത്തിലാണ് സ്ഥിതി ചെയ്യുന്നത്.</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/depthmerge-results-offset.png" alt="ഫലം" />
+              <div class="caption">
+                <p><span class="emphasis"><em>Offset</em></span> = 0,980: പരിധി, മൂർച്ചയുള്ള, അങ്ങനെ image2 പ്രദേശം വർദ്ധിപ്പിക്കുന്നു ബോര്ഡിന്.</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/depthmerge-results-overlap.png" alt="ഫലം" />
+              <div class="caption">
+                <p><span class="emphasis"><em>Overlap</em></span>: പരിധി മങ്ങിക്കുന്നതിനുള്ള ആണ്.</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/depthmerge-results-scale.png" alt="ഫലം" />
+              <div class="caption">
+                <p>0,056 ആയി കുറച്ചു <span class="emphasis"><em>Scale 1</em></span>: ഓഫ്സെറ്റ് എന്നപോലെ, പരിധി ബോര്ഡിന്. ചിത്രം-1 പ്രദേശം വർദ്ധിപ്പിക്കുന്നു.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="filters-combine.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-combine.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-film.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="filters-combine.html">9. ഫിൽട്ടറുകൾ സംയോജിപ്പിക്കുക</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-film.html">9.3. ഫിലിം</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

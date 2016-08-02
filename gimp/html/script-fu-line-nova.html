@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>13.20. ലൈൻ നോവ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-render.html" title="13. റെൻഡർ ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="script-fu-lava.html" title="13.19. ദവശില" />
+    <link rel="next" href="plug-in-spheredesigner.html" title="13.21. പനോരമ ഡിസൈനർ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">13.20. ലൈൻ നോവ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="script-fu-lava.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">13. റെൻഡർ ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-spheredesigner.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="script-fu-line-nova"></a>13.20. ലൈൻ നോവ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925529360656" class="indexterm"></a>
+      <a id="idp46925529362464" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925529363040"></a>13.20.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925529363808"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.333. <span class="quote">“<span class="quote">Line Nova</span>”</span> ഫിൽട്ടർ ഉദാഹരണം</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="“Line Nova” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/render/taj-line-nova.jpg" alt="“Line Nova” ഫിൽട്ടർ ഉദാഹരണം" />
+              <div class="caption">
+                <p><span class="quote">“<span class="quote">Line Nova</span>”</span> പ്രയോഗിച്ചു</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>ലൈൻ നോവ ഫിൽട്ടർ പുരോതല നിറം പണിസഞ്ചി കാണിച്ചിരിക്കുന്ന ഉപയോഗിച്ച് പാളി കേന്ദ്രത്തിൽ നിന്ന് പുറമെയുള്ള കഥതുടങ്ങുമ്പോള് കിരണങ്ങൾ ഒരു പാളി നിറയുന്നു. കിരണങ്ങൾ ഒരു പിക്സൽ ആയി ആരംഭിച്ച് പാളി അറ്റങ്ങൾ നേരെ വിശാലമായ വളർന്നു.</p>
+        <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+          <table border="0" summary="Tip">
+            <tr>
+              <td rowspan="2" align="center" valign="top" width="25">
+                <img alt="[സൂചന]" src="images/tip.png" />
+              </td>
+              <th align="left">സൂചന</th>
+            </tr>
+            <tr>
+              <td align="left" valign="top">
+                <p>ഈ ഫിൽട്ടർ നിങ്ങൾ വരികൾ സെന്റര് പോയിന്റ് സജ്ജമാക്കാൻ അനുവദിക്കുന്ന ഏതെങ്കിലും ഓപ്ഷൻ ലഭ്യമാക്കുന്നില്ല. , എവിടെ വേണമെങ്കിലും റേഡിയൽ വരികൾ സ്ഥലം ക്രമീകരിക്കുന്നതിന് നിങ്ങൾ വേണമെങ്കിൽ മറ്റൊരു സുതാര്യം സൃഷ്ടിക്കുക, അത് ഈ ഫിൽട്ടർ പ്രയോഗിക്കാൻ, തുടർന്ന് നിങ്ങളുടെ ചിത്രത്തിൽ ചേർക്കുക. പുതിയ നോവ ചിത്രത്തിനായുള്ള വലിയ വലുപ്പം ക്രമീകരിക്കുന്നു നിങ്ങളുടെ ചിത്രത്തിന്റെ അകം ബ്രേക്ക് ലൈനുകൾ നിങ്ങളെ സഹായിക്കും.</p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925529373840"></a>13.20.2. ഫിൽട്ടർ സജീവമാക്കുന്നു</h4>
+            </div>
+          </div>
+        </div>
+        <p>ഈ ഫിൽട്ടർ <span class="guimenu">Filters</span> → <span class="guisubmenu">Render</span> → <span class="guimenuitem">Line Nova</span> കീഴിൽ ഇമേജ് വിൻഡോ മെനുവിലെ കാണപ്പെടുന്നത്.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925529376512"></a>13.20.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925529377264"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.334. <span class="quote">“<span class="quote">Line Nova</span>”</span> ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/render/line-nova.png" alt="“Line Nova” ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ലൈനുകളുടെ എണ്ണം</span>
+            </dt>
+            <dd>
+              <p>ഈ ഓപ്ഷൻ ഉപയോഗിക്കുന്നതിലൂടെ നിങ്ങൾ 1000 40 നും ലൈനുകളുടെ എണ്ണം സജ്ജമാക്കാൻ കഴിയും സ്വതവേ 200 ആണ്.</p>
+            </dd>
+            <dt>
+              <span class="term">ഷാർപ്നെസ് (ഡിഗ്രി)</span>
+            </dt>
+            <dd>
+              <p>ഈ സ്ലൈഡർ കിരണങ്ങൾ വേണമങ്കിലും നേരെ വർദ്ധിപ്പിക്കുകയും ചെയ്യും എത്ര നിർണ്ണയിക്കുന്നു. പരിധി 0.0 മുതൽ 10.0 പോകുന്നു. 0.0 ലേക്ക് സജ്ജമാക്കിയാൽ, ഒന്നും വരച്ച ചെയ്യും. 10.0 ലേക്ക് സജ്ജമാക്കിയാൽ, പാളിയുടെ അരികുകളിൽ പ്രദേശത്തെ ഏറ്റവും ചായം ചെയ്യും.</p>
+              <div class="figure">
+                <a id="idp46925529384672"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.335. <span class="quote">“<span class="quote">Line Nova</span>”</span> മൂര്ച്ച ഓപ്ഷൻ</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/render/line-nova-sharp.png" alt="“Line Nova” മൂര്ച്ച ഓപ്ഷൻ" />
+                    <div class="caption">
+                      <p>ഇടതു നിന്നും വലത്തോട്ട്: മൂര്ച്ച = 1; മൂര്ച്ച = 5; മൂര്ച്ച = 10</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">ആരം ഓഫ്സെറ്റ്</span>
+            </dt>
+            <dd>
+              <p>ഇവിടെ നിങ്ങൾക്ക് ദൂരം പിക്സലിൽ മധ്യത്തിൽ നിന്ന് രശ്മികൾ തുടക്കം തിരഞ്ഞെടുക്കാം. 0.0 ലേക്ക് സജ്ജമാക്കിയാൽ രശ്മികൾ സെന്റര് നിന്നാണ് തുടങ്ങുന്നത്. മറ്റൊരു മൂല്യമായി ആരംഭ പോയിന്റുകൾ കേന്ദ്രത്തിൽ നിന്നും തിരഞ്ഞെടുത്ത അകലെ ഒരു സർക്കിൾ ന് വിടുകയില്ല. പരമാവധി ദൂരം 2000 പിക്സലുകളാണ്. സ്ഥിരസ്ഥിതി മൂല്യം 100 പിക്സൽ ആണ്.</p>
+              <div class="figure">
+                <a id="idp46925529391280"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.336. <span class="quote">“<span class="quote">Line Nova</span>”</span> ഓഫ്സെറ്റ് ആരം ഓപ്ഷൻ</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/render/line-nova-radius.png" alt="“Line Nova” ഓഫ്സെറ്റ് ആരം ഓപ്ഷൻ" />
+                    <div class="caption">
+                      <p>ആരം = 0 ഓഫ്സെറ്റ്; ഇടതു നിന്നും വലത്തോട്ട് ഓഫ്സെറ്റ് ആരം = 50</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+            <dt>
+              <span class="term">ക്രമരഹിതമായ</span>
+            </dt>
+            <dd>
+              <p>ഈ സ്ലൈഡർ ഒരു മൂല്യം 1 ഉയർന്ന സജ്ജമാക്കിയാൽ, ഓരോ റേ ആരംഭ പോയിന്റ് ആവറേജ് ആരംഭ പോയിന്റിൽ മുകളിൽ ഓഫ്സെറ്റ് ആരം സജ്ജമാക്കിയിട്ടുള്ള നിന്ന് കൂടുതലോ കുറവോ ക്രമരഹിതമായി വ്യത്യസ്തമായിരിക്കും. മൂല്യം 1 വരെ സെറ്റ്, എല്ലാ കിരണങ്ങൾ ഓഫ്സെറ്റ് ആരം നിർണയിക്കപ്പെടുന്ന സർക്കിൾ ആരംഭിക്കും. പരമാവധി മൂല്യം 2000 ആണ് സ്ഥിരസ്ഥിതി മൂല്യം 30 ആണ്.</p>
+              <div class="figure">
+                <a id="idp46925529397968"></a>
+                <p class="title">
+                  <strong>ചിത്രം 17.337. <span class="quote">“<span class="quote">Line Nova</span>”</span> റാൻഡമ്നെസ്സ് ഓപ്ഷൻ</strong>
+                </p>
+                <div class="figure-contents">
+                  <div class="mediaobject">
+                    <img src="images/filters/examples/render/line-nova-rand.png" alt="“Line Nova” റാൻഡമ്നെസ്സ് ഓപ്ഷൻ" />
+                    <div class="caption">
+                      <p>ഇടതു നിന്നും വലത്തോട്ട്: റാൻഡമ്നെസ്സ് = 1; റാൻഡമ്നെസ്സ് = 50</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br class="figure-break" />
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="script-fu-lava.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-render.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-spheredesigner.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="script-fu-lava.html">13.19. ദവശില</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-spheredesigner.html">13.21. പനോരമ ഡിസൈനർ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

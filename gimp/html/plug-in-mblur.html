@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>2.5. മോഷൻ ബ്ലർ</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="filters-blur.html" title="2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ" />
+    <link rel="prev" href="plug-in-sel-gauss.html" title="2.4. സെലക്ടീവ് ഗോഷ്യൻ ഇഫക്റ്റ്" />
+    <link rel="next" href="plug-in-pixelize.html" title="2.6. പിക്സൽ" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">2.5. മോഷൻ ബ്ലർ</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="plug-in-sel-gauss.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">2. ഇഫക്റ്റ് ഫിൽട്ടറുകൾ</th>
+          <td width="20%" align="right"> <a accesskey="n" href="plug-in-pixelize.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="sect2">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h3 class="title"><a id="plug-in-mblur"></a>2.5. മോഷൻ ബ്ലർ</h3>
+          </div>
+        </div>
+      </div>
+      <a id="idp46925522389088" class="indexterm"></a>
+      <a id="idp46925522390928" class="indexterm"></a>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522391840"></a>2.5.1. പൊതു അവലോകനം</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925522392608"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.13. മോഷൻ മങ്ങിക്കൽ ഫിൽട്ടർ മാതൃക ആരംഭിക്കുന്നു</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/taj_orig.jpg" alt="മോഷൻ മങ്ങിക്കൽ ഫിൽട്ടർ മാതൃക ആരംഭിക്കുന്നു" />
+              <div class="caption">
+                <p>യഥാർത്ഥ ചിത്രം</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/blur-taj-mblur-linear.jpg" alt="മോഷൻ മങ്ങിക്കൽ ഫിൽട്ടർ മാതൃക ആരംഭിക്കുന്നു" />
+              <div class="caption">
+                <p>ലീനിയർ മങ്ങൽ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="figure">
+          <a id="idp46925522398960"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.14. മോഷൻ മങ്ങിക്കൽ ഫിൽട്ടർ മാതൃക ഉപയോഗിക്കുന്നു</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/examples/blur-taj-mblur-radial.jpg" alt="മോഷൻ മങ്ങിക്കൽ ഫിൽട്ടർ മാതൃക ഉപയോഗിക്കുന്നു" />
+              <div class="caption">
+                <p>ലയര്</p>
+              </div>
+            </div>
+            <div class="mediaobject">
+              <img src="images/filters/examples/blur-taj-mblur-zoom.jpg" alt="മോഷൻ മങ്ങിക്കൽ ഫിൽട്ടർ മാതൃക ഉപയോഗിക്കുന്നു" />
+              <div class="caption">
+                <p>സൂം മങ്ങൽ</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <p>മോഷൻ അതിനായി filter ഒരു പ്രസ്ഥാനം മങ്ങൽ സൃഷ്ടിക്കുന്നു. അരിപ്പ ലീനിയർ, റേഡിയൽ, സൂം പ്രസ്ഥാനങ്ങൾ കഴിവുള്ള. ഈ പ്രസ്ഥാനങ്ങളുടെ ഓരോ കൂടുതൽ ലഭ്യമായ ദൈർഘ്യം, അല്ലെങ്കിൽ ആംഗിൾ ക്രമീകരണങ്ങൾ ഉപയോഗിച്ച്, അഡ്ജസ്റ്റു ചെയ്യാം.</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522406464"></a>2.5.2. ഫിൽട്ടർ സജീവമാക്കുക</h4>
+            </div>
+          </div>
+        </div>
+        <p>നിങ്ങൾ <span class="guimenu">Filters</span> → <span class="guisubmenu">Blur</span> → <span class="guimenuitem">Motion Blur</span> ​​കീഴിൽ ഇമേജ് മെനുവിൽ ഈ ഫിൽട്ടർ കണ്ടെത്താനാകും</p>
+      </div>
+      <div class="sect3">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h4 class="title"><a id="idp46925522409104"></a>2.5.3. ഓപ്ഷനുകൾ</h4>
+            </div>
+          </div>
+        </div>
+        <div class="figure">
+          <a id="idp46925522409856"></a>
+          <p class="title">
+            <strong>ചിത്രം 17.15. <span class="quote">“<span class="quote">Motion Blur</span>”</span> ഫിൽട്ടർ ഓപ്ഷനുകൾ</strong>
+          </p>
+          <div class="figure-contents">
+            <div class="mediaobject">
+              <img src="images/filters/blur/mblur.png" alt="“Motion Blur” ഫിൽട്ടർ ഓപ്ഷനുകൾ" />
+            </div>
+          </div>
+        </div>
+        <br class="figure-break" />
+        <div class="variablelist">
+          <dl class="variablelist">
+            <dt>
+              <span class="term">ഇഫക്റ്റ് ഇനം</span>
+            </dt>
+            <dd>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">ലീനിയർ</span>
+                  </dt>
+                  <dd>
+                    <p>ഒരു ഏക ദിശയിലെ ഉദാഹരണത്തിന്, തിരശ്ചീനമായി സഞ്ചരിക്കുന്നത് ഒരു മങ്ങൽ ആണോ. ഈ സാഹചര്യത്തിൽ, നീളം മറ്റ് ഫിൽട്ടറുകൾ ലെ റേഡിയസ് ആയി മാർഗങ്ങൾ: അതു മങ്ങൽ തീവ്രത പ്രതിനിധീകരിക്കുന്നു. കൂടുതൽ ദൈർഘ്യം കൂടുതൽ മങ്ങിക്കുന്നത് പരിണമിക്കും. ആംഗിൾ പ്രസ്ഥാനത്തിന്റെ യഥാർത്ഥ കോൺ വിവരിക്കുന്നു. ഇപ്രകാരം, 90 ഒരു ക്രമീകരണം ഒരു ലംബമായ മങ്ങൽ താനേ, 0 ഒരു ക്രമീകരണം ഒരു തിരശ്ചീന ബ്ലർ താനേ വന്നുകൊള്ളും.</p>
+                  </dd>
+                </dl>
+              </div>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">റേഡിയൽ</span>
+                  </dt>
+                  <dd>
+                    <p>വൃത്താകൃതിയിലുള്ള മങ്ങൽ സൃഷ്ടിക്കുന്ന ചലനം മങ്ങൽ. ദൈർഘ്യം സ്ലൈഡർ മങ്ങൽ ഈ തരം പ്രാധാന്യമുള്ള കാര്യമല്ല. മറുവശത്ത് ആങ്കിൾ, ഇഫക്റ്റ് ബാധിക്കുമെന്ന് പ്രാഥമിക ക്രമീകരണമാണ്. കൂടുതൽ ആംഗിൾ വൃത്താകൃതിയിലുള്ള ദിശയിൽ കൂടുതൽ മങ്ങിക്കുന്നത് പരിണമിക്കും. റേഡിയൽ മോഷൻ മങ്ങൽ ഒരു സ്പിന്നിങ് ഒബ്ജക്റ്റ് പ്രഭാവം സമാനമാണ്. ഈ കേസിൽ സ്പിൻ കേന്ദ്രത്തിൽ, ചിത്രത്തിന്റെ കേന്ദ്രമാണ്.</p>
+                  </dd>
+                </dl>
+              </div>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">സൂം</span>
+                  </dt>
+                  <dd>
+                    <p>ചിത്രം കേന്ദ്രത്തിൽ നിന്ന് പുറത്തു വികിരണം പന്തളവര്മ്മയുടെ ഉത്പാദിപ്പിക്കുന്നത്. പുറത്തെ പ്രദേശങ്ങൾ മധ്യത്തിലേക്ക് മങ്ങിയ തീർന്നിരിക്കുന്നു പടർത്തുകയും ചിത്രത്തിന്റെ കേന്ദ്രം, താരതമ്യേന ശാന്തമായ തുടരുന്നു. ഈ ഫിൽറ്റർ ഓപ്ഷൻ പ്രതിമയായി ഒരു മുമ്പോട്ടു അറിഞ്ഞു പ്രസ്ഥാനം ഉത്പാദിപ്പിക്കുന്നത്. അത് ചിത്രത്തിന്റെ മധ്യത്തിലേക്ക്, പോലെ നീളവും ഇവിടെ പ്രധാന ക്രമീകരണം, വേഗത തുക ബാധിക്കുന്നു.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">ഇഫക്റ്റ് പരാമീറ്ററുകൾ</span>
+            </dt>
+            <dd>
+              <div class="variablelist">
+                <dl class="variablelist">
+                  <dt>
+                    <span class="term">ദൈർഘ്യം</span>
+                  </dt>
+                  <dd>
+                    <p>ഈ സ്ലൈഡർ ദൂരം പിക്സൽ പ്രേരിതരായിത്തീരുന്നു നിയന്ത്രിക്കുന്നു (1 - 256)</p>
+                  </dd>
+                  <dt>
+                    <span class="term">കോൺ</span>
+                  </dt>
+                  <dd>
+                    <p>മുകളിൽ നോക്കുമ്പോൾ ആംഗിൾ സ്ലൈഡർ പ്രഭാവം ഇഫക്റ്റ് തരം (- 360 0) ആശ്രയിച്ചിരിക്കുന്നു.</p>
+                  </dd>
+                </dl>
+              </div>
+            </dd>
+            <dt>
+              <span class="term">ഇഫക്റ്റ് കേന്ദ്രം</span>
+            </dt>
+            <dd>
+              <p>ഈ ഓപ്ഷൻ ഉപയോഗിച്ച്, നിങ്ങൾക്ക് പ്രസ്ഥാനത്തിന്റെ തുടക്കം സജ്ജമാക്കാൻ കഴിയും. പ്രഭാവം നിങ്ങൾ തിരഞ്ഞെടുത്ത ഇഫക്റ്റ് ഇനം തക്കവണ്ണം വ്യത്യസ്തമാണ്. ഉദാഹരണത്തിന് റേഡിയൽ ഇനം ഉപയോഗിച്ച്, ഭ്രമണം കേന്ദ്രം. സൂം ഇനം, അപ്രത്യക്ഷമായി പോയിന്റ് കൂടി. ഈ ഓപ്ഷൻ ലീനിയർ തരം മറച്ച ആണ്.</p>
+              <div class="tip" style="margin-left: 0.5in; margin-right: 0.5in;">
+                <table border="0" summary="Tip">
+                  <tr>
+                    <td rowspan="2" align="center" valign="top" width="25">
+                      <img alt="[സൂചന]" src="images/tip.png" />
+                    </td>
+                    <th align="left">സൂചന</th>
+                  </tr>
+                  <tr>
+                    <td align="left" valign="top">
+                      <p>നിങ്ങൾ മങ്ങൽ കേന്ദ്രം നിർദ്ദേശാങ്കങ്ങൾ സജ്ജമാക്കേണ്ടതുണ്ട്. നിർഭാഗ്യവശാൽ, ചിത്രത്തിൽ ക്ലിക്കുചെയ്തുകൊണ്ട് അത് ചെയ്യാനാവില്ല. എന്നാൽ, ചിത്രത്തിൽ മൌസ് പോയിന്റർ നീക്കി, നിങ്ങൾ അതിന്റെ നിർദ്ദേശാങ്കങ്ങൾ ഇമേജ് വിൻഡോയുടെ താഴെ ഇടത് മൂലയിൽ കാണാൻ കഴിയും. എഴുത്ത് ബോക്സുകൾ അവരെ പുറത്തു പകർത്തുക.</p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="plug-in-sel-gauss.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="filters-blur.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="plug-in-pixelize.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="plug-in-sel-gauss.html">2.4. സെലക്ടീവ് ഗോഷ്യൻ ഇഫക്റ്റ്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="plug-in-pixelize.html">2.6. പിക്സൽ</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>പാഠം 6. ജിമ് നിന്നു ചിത്രങ്ങൾ നേടുന്നു</title>
+    <link rel="stylesheet" href="gimp-help-plain.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-screen.css" type="text/css" />
+    <link rel="stylesheet" href="gimp-help-custom.css" type="text/css" />
+    <link rel="alternate stylesheet" href="gimp22.css" type="text/css" title="gimp22" />
+    <meta name="generator" content="DocBook XSL Stylesheets V1.79.1" />
+    <link rel="home" href="index.html" title="ഇമേജ് മാനിപ്പുലേഷൻ പ്രോഗ്രാം" />
+    <link rel="up" href="become-a-gimp-wizard.html" title="ഭാഗം II. ഞാൻ എങ്ങനെയാണ് ഒരു GIMP വിസാര്ഡ് ആകാൻ കഴിയും?" />
+    <link rel="prev" href="gimp-using-image-browser.html" title="3.8. ഇമേജ്ബ്രൌസര്" />
+    <link rel="next" href="gimp-using-web.html" title="2. വെബ് നിങ്ങളുടെ ചിത്രങ്ങൾ തയ്യാറെടുക്കുന്നു" />
+  </head>
+  <body>
+    <div class="navheader">
+      <table width="100%" summary="Navigation header">
+        <tr>
+          <th colspan="3" align="center">പാഠം 6. ജിമ് നിന്നു ചിത്രങ്ങൾ നേടുന്നു</th>
+        </tr>
+        <tr>
+          <td width="20%" align="left">
+            <a accesskey="p" href="gimp-using-image-browser.html">
+              <img src="images/prev.png" alt="മുമ്പുള്ളതു്" />
+            </a>
+          </td>
+          <th width="60%" align="center">ഭാഗം II. ഞാൻ എങ്ങനെയാണ് ഒരു <acronym class="acronym">GIMP</acronym> വിസാര്ഡ് ആകാൻ കഴിയും?</th>
+          <td width="20%" align="right"> <a accesskey="n" href="gimp-using-web.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+      </table>
+      <hr />
+    </div>
+    <div class="chapter">
+      <div class="titlepage">
+        <div>
+          <div>
+            <h2 class="title"><a id="gimp-images-out"></a>പാഠം 6. ജിമ് നിന്നു ചിത്രങ്ങൾ നേടുന്നു</h2>
+          </div>
+        </div>
+      </div>
+      <div class="toc">
+        <p>
+          <strong>ഉള്ളടക്കത്തിന്റെ പട്ടിക</strong>
+        </p>
+        <dl class="toc">
+          <dt>
+            <span class="sect1">
+              <a href="gimp-images-out.html#gimp-using-fileformats">1. ഫയലുകൾ</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-images-out.html#save-export-image">1.1. സംരക്ഷിക്കുക / കയറ്റുമതി ചിത്രങ്ങൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-images-out.html#gimp-using-fileformats-export-dialog">1.2. ഫയൽ ഫോർമാറ്റുകൾ</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+          <dt>
+            <span class="sect1">
+              <a href="gimp-using-web.html">2. വെബ് നിങ്ങളുടെ ചിത്രങ്ങൾ തയ്യാറെടുക്കുന്നു</a>
+            </span>
+          </dt>
+          <dd>
+            <dl>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-web.html#gimp-using-web-size-vs-quality">2.1. ഒരു തലോടല് വലിപ്പം / ക്വാളിറ്റി അനുപാതത്തിൽ ചിത്രങ്ങൾ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-web-reducing-file-size.html">2.2. ഇനിയും കൂടുതൽ ഫയൽ വലിപ്പം കുറയ്ക്കൽ</a>
+                </span>
+              </dt>
+              <dt>
+                <span class="sect2">
+                  <a href="gimp-using-web-transparency.html">2.3. സുതാര്യതയോടെ സംരക്ഷിക്കുന്നു ചിത്രങ്ങൾ</a>
+                </span>
+              </dt>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+      <div class="sect1">
+        <div class="titlepage">
+          <div>
+            <div>
+              <h2 class="title" style="clear: both"><a id="gimp-using-fileformats"></a>1. ഫയലുകൾ</h2>
+            </div>
+          </div>
+        </div>
+        <a id="idp46925507567568" class="indexterm"></a>
+        <p><acronym class="acronym">GIMP</acronym> വായിക്കുന്നതും എഴുതുന്നതും ഗ്രാഫിക്സ് ഫയൽ ഫോർമാറ്റുകൾ ഒരു വലിയ മുറികൾ കഴിവുള്ള. <acronym class="acronym">GIMP</acronym> ന്റെ നേറ്റീവ് എക്സ്.സി.എഫ് ഫയൽ തരത്തിലുള്ള ഒഴികെ ഫയൽ കൈകാര്യം പ്ലഗിനുകളും ഇത് ചെയ്തത്. അങ്ങനെ അത് ആവശ്യം വന്നാല് പുതിയ ഫയൽ ഇനങ്ങള് പിന്തുണയ്ക്കാൻ <acronym class="acronym">GIMP</acronym> വ്യാപിപ്പിക്കാൻ താരതമ്യേന എളുപ്പമാണ്.</p>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="save-export-image"></a>1.1. സംരക്ഷിക്കുക / കയറ്റുമതി ചിത്രങ്ങൾ</h3>
+              </div>
+            </div>
+          </div>
+          <a id="idp46925508707824" class="indexterm"></a>
+          <a id="idp46925508708800" class="indexterm"></a>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                </td>
+                <th align="left">കുറിപ്പു്</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>മുൻ <acronym class="acronym">GIMP</acronym> പതിപ്പിൽ നിങ്ങൾ ചില ഫോർമാറ്റിൽ ഒരു ചിത്രം ലോഡുചെയ്യാൻ നീട്ടി നമുക്ക് JPG അല്ലെങ്കിൽ PNG പറയട്ടെ, ചിത്രം ഇതിന്റെ ഫോർമാറ്റ് സൂക്ഷിക്കുവാനും <span class="command"><strong>Save</strong></span> അതേ ഫോർമാറ്റിൽ സംരക്ഷിച്ചു. <acronym class="acronym">GIMP</acronym> -2,8 ഉപയോഗിച്ച്, ചിത്രങ്ങൾ ഒരു പുതിയ പ്രോജക്റ്റ് ആയി എക്സ്.സി.എഫ് ഫോർമാറ്റിൽ ലോഡുചെയ്തുവെന്ന ഇറക്കുമതി ചെയ്യുന്നു. ഉദാഹരണത്തിന്, ഒരു <span class="quote">“<span class="quote">sunflower.png</span>”</span> ഇമേജ് <span class="quote">“<span class="quote">*[sunflower] (imported)-1.0 (indexed color, 1 layer)</span>”</span> ആയി ലോഡ് ചെയ്യും. പ്രമുഖ ആസ്റ്റെറിസ്ക് ഈ ഫയൽ മാറ്റി സൂചിപ്പിക്കുന്നു. ഈ ചിത്രം <span class="command"><strong>Save</strong></span> വഴി <span class="quote">“<span class="quote">sunflower.xcf</span>”</span> സംരക്ഷിക്കും. എക്സ്.സി.എഫ് പുറമെ ഒരു ഫോർമാറ്റിൽ ഈ ചിത്രം സംരക്ഷിക്കാൻ, നിങ്ങൾ <span class="command"><strong>Export</strong></span> ഉപയോഗിക്കണം.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <p>നിങ്ങൾ ഒരു ഇമേജ് പ്രവർത്തിച്ചും പൂർത്തിയാക്കിയാൽ നിങ്ങൾക്ക് ഫലങ്ങള്സൂക്ഷിക്കുവാന്സാധ്യമായില്ല ആഗ്രഹിക്കുന്നത്. (സത്യത്തിൽ, പലപ്പോഴും ഒരു നല്ല ആശയം വളരെ ഇന്റർമീഡിയറ്റ് ഘട്ടങ്ങളിൽ സംരക്ഷിക്കാൻ ആണ്:. <acronym class="acronym">GIMP</acronym> ഒരു സാമാന്യം കരുത്തുറ്റ പ്രോഗ്രാം ആണ്, എന്നാൽ കിംവദന്തികൾ, ഒരുപക്ഷേ ഐതിഹ്യപ്രകാരം, അതു തുടരേ അപൂർവ നിഗൂഢമായ സന്ദർഭങ്ങളിൽ അറിയപ്പെടുന്നു വേണ്ടി കേട്ടിരിക്കുന്നു) ഒട്ടുമിക്ക <acronym class="acronym">GIMP</acronym> തുറക്കാൻ കഴിയുന്ന ഫയൽ ഫോർമാറ്റുകൾ, പുറമേ സംരക്ഷിക്കുന്നത് ഉപയോഗിക്കാൻ കഴിയും. പ്രത്യേക എന്ന് ഒരു ഫയൽ ഫോർമാറ്റ് എങ്കിലും ഉണ്ട്: എക്സ്.സി.എഫ് <acronym class="acronym">GIMP</acronym> ന്റെ നേറ്റീവ് ഫോർമാറ്റ് ആണ്, (നന്നായി, മിക്കവാറും എല്ലാം അതു <span class="quote">“<span class="quote">undo</span>”</span> വിവരങ്ങൾ സംഭരിച്ചുവെക്കില്ല) അത് ഒരു ഇമേജ് കുറിച്ച് <span class="emphasis"><em>everything</em></span> സംഭരിക്കുന്നു കാരണം ഉപകാരപ്രദമാണ്. ഇപ്രകാരം, എക്സ്.സി.എഫ് ഫോർമാറ്റ് പ്രത്യേകിച്ച് ഇടത്തരം ഫലങ്ങൾ സംരക്ഷിക്കുന്നതിന്, ഒപ്പം <acronym class="acronym">GIMP</acronym> പിന്നീട് വീണ്ടും തുറക്കും ഇമേജുകൾ സംരക്ഷിക്കുന്നത് അനുയോജ്യമാണ്. എക്സ്.സി.എഫ് ഫയലുകൾ അത്തരം JPEG, PNG ടിഐഎഫ്എഫ്, മുതലായവ നിങ്ങളെന്ന പൂർത്തിയാക്കിയാൽ ഉടൻ, നിങ്ങൾ ഒരുപക്ഷേ ഒരു കൂടുതൽ ഉപയോഗിക്കപ്പെടുന്നത് ഫോർമാറ്റിൽ ചിത്രം കയറ്റുമതി ചെയ്യേണ്ടത് അതിനാൽ, ചിത്രങ്ങൾ പ്രദർശിപ്പിക്കാൻ മറ്റു മിക്ക പരിപാടികൾ, റീഡുചെയ്യാനാകുന്ന അല്ല</p>
+        </div>
+        <div class="sect2">
+          <div class="titlepage">
+            <div>
+              <div>
+                <h3 class="title"><a id="gimp-using-fileformats-export-dialog"></a>1.2. ഫയൽ ഫോർമാറ്റുകൾ</h3>
+              </div>
+            </div>
+          </div>
+          <p><span class="emphasis"><em>saving</em></span> ചിത്രങ്ങൾ നിരവധി കമാൻഡുകൾ ഉണ്ട്. ഒരു ലിസ്റ്റ്, അവരെ ഉപയോഗിക്കാൻ എങ്ങനെ വിവരങ്ങൾ, <a class="link" href="gimp-file-menu.html" title="2. “File” മെനു">File Menu</a> മൂടുകയും വിഭാഗത്തിൽ കണ്ടെത്താനാകും.</p>
+          <p><acronym class="acronym">GIMP</acronym> നിങ്ങൾ ഫോർമാറ്റുകൾ വൈവിധ്യമാർന്ന സൃഷ്ടിക്കാൻ ചിത്രങ്ങൾ <span class="emphasis"><em>export</em></span> അനുവദിക്കുന്നു. ഇത് പാളികൾ, സുതാര്യത മുതലായവ ഉൾപ്പെടെ ഒരു ഇമേജ് വിവരങ്ങൾ ഓഫ് <span class="emphasis"><em>all</em></span> സംരക്ഷിക്കുന്നതിൽ ഏകജീവിയെന്ന ഫോർമാറ്റ് ജിമ്പ് സ്വദേശികളായ എക്സ്.സി.എഫ് ഫോർമാറ്റ് തിരിച്ചറിയാൻ പ്രധാനമാണ്. ഓരോ മറ്റ് ഫോർമാറ്റ് ചില ഇമേജ് ഉള്ള കാക്കുന്നു മറ്റുള്ളവരെ നഷ്ടപ്പെടുത്തുന്നു. അതു നിങ്ങൾ തിരഞ്ഞെടുക്കുന്ന ഫോർമാറ്റ് ശേഷികൾ മനസിലാക്കാൻ നിങ്ങളെ വരെ ആകുന്നു.</p>
+          <p>അതിനാൽ നിങ്ങൾ കയറ്റുമതി ചെയ്തതിലൂടെ ഒന്നും നഷ്ടമാകില്ല ഒരു എക്സ്പോർട്ട്, ചിത്രത്തിൽ തന്നെ പരിഷ്ക്കരിക്കുക ഇല്ല. <a class="link" href="gimp-export-dialog.html" title="5.6. കയറ്റുമതി ഫയൽ">Export file</a> കാണുക.</p>
+          <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+            <table border="0" summary="Note">
+              <tr>
+                <td rowspan="2" align="center" valign="top" width="25">
+                  <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                </td>
+                <th align="left">കുറിപ്പു്</th>
+              </tr>
+              <tr>
+                <td align="left" valign="top">
+                  <p>നിങ്ങൾ ഒരു ഇമേജ് (ഒരുപക്ഷേ ജിമ്പ് അവസാനിപ്പിക്കുന്ന വഴി) അടച്ച് ചെയ്യുമ്പോൾ, ഇമേജ് "വൃത്തികെട്ട" എങ്കിൽ താക്കീത്; അതു (ആസ്ട്രിക്സ് ചിത്രത്തിന്റെ പേര് മുന്നിൽ ആണ്) പിന്നീട് സംരക്ഷിച്ചു നൽകാതെ മാറി എങ്കിൽ ആകുന്നു.</p>
+                  <div class="figure">
+                    <a id="idp46925508770416"></a>
+                    <p class="title">
+                      <strong>ചിത്രം 6.1. അടയ്ക്കുന്നു മുന്നറിയിപ്പ്</strong>
+                    </p>
+                    <div class="figure-contents">
+                      <div class="mediaobject">
+                        <img src="images/using/close-warning.png" alt="അടയ്ക്കുന്നു മുന്നറിയിപ്പ്" />
+                      </div>
+                    </div>
+                  </div>
+                  <br class="figure-break" />
+                  <p>ഏതെങ്കിലും ഫയൽ ഫോർമാറ്റിൽ ഒരു ഇമേജ് സംരക്ഷിക്കുന്നു ഫയൽ ഫോർമാറ്റ് ഇമേജിൽ നിന്നും എല്ലാ വിവരങ്ങളും പ്രതിനിധീകരിക്കുന്നില്ല പോലും, "വൃത്തികെട്ട അല്ല" പരിഗണിക്കപ്പെടേണ്ട ചിത്രം ഇടയാക്കും.</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="file-gif-save"></a>1.2.1. ജിഫ് ആയിലഭ്യമാക്കുക ചിത്രം</h4>
+                </div>
+              </div>
+            </div>
+            <a id="file-gif-load"></a>
+            <a id="idp46925508775936" class="indexterm"></a>
+            <a id="idp46925508776832" class="indexterm"></a>
+            <a id="idp46925508823360" class="indexterm"></a>
+            <a id="idp46925508824224" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925508825584"></a>
+              <p class="title">
+                <strong>ചിത്രം 6.2. ജിഫ് കയറ്റുമതി ഡയലോഗ്</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/export-gif-dialog.png" alt="ജിഫ് കയറ്റുമതി ഡയലോഗ്" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+              <table border="0" summary="Warning">
+                <tr>
+                  <td rowspan="2" align="center" valign="top" width="25">
+                    <img alt="[മുന്നറിയിപ്പു്]" src="images/warning.png" />
+                  </td>
+                  <th align="left">മുന്നറിയിപ്പു്</th>
+                </tr>
+                <tr>
+                  <td align="left" valign="top">
+                    <p>GIF ഫയൽ ഫോർമാറ്റ് പോലുള്ള <span class="emphasis"><em>print resolution</em></span> ചില അടിസ്ഥാന ഇമേജ് ഉള്ള പിന്തുണയ്ക്കുന്നില്ല. നിങ്ങൾ ഈ ഉള്ള പരിപാലിക്കാൻ എങ്കിൽ, പിഎൻജി പോലുള്ള വ്യത്യസ്ത ഫയൽ ഫോർമാറ്റ് ഉപയോഗിക്കുക.</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <div class="variablelist">
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">ജിഫ് ഓപ്ഷനുകൾ</span>
+                </dt>
+                <dd>
+                  <div class="variablelist">
+                    <dl class="variablelist">
+                      <dt>
+                        <span class="term">കൂടിച്ചേരൽ</span>
+                      </dt>
+                      <dd>
+                        <p>കൂടിച്ചേരൽ പരിശോധിക്കുന്നു പോലെ ഡൌൺലോഡ്ചെയ്ത ഒരു വെബ് പേജിൽ ഒരു ഇമേജ് ക്രമേണ പ്രദർശിപ്പിക്കാൻ അനുവദിക്കുന്നു. നിന്നെ ഇനി പലിശ ഒരു ഇമേജ് നിർത്താൻ കഴിയും കാരണം പുരോഗമന ചിത്രം ഡിസ്പ്ലേ, സ്ലോ കണക്ഷൻ വേഗതകളെ കൂടെ ഉപയോഗപ്രദമാണ്; കൂടിച്ചേരൽ ഞങ്ങളുടെ വേഗത്തിൽ കണക്ഷൻ വേഗതകളെ ഉള്ളയത്രയും ഉപയോഗ ഇന്ന്.</p>
+                      </dd>
+                      <dt>
+                        <span class="term">ജിഫ് അഭിപ്രായം</span>
+                      </dt>
+                      <dd>
+                        <p>ജിഫ് അഭിപ്രായങ്ങൾ മാത്രം 7-ബിറ്റ് ASCII പ്രതീകങ്ങൾ പിന്തുണയ്ക്കുന്നില്ല. നിങ്ങൾ 7-ബിറ്റ് ആസ്കി സെറ്റ് പുറത്തുള്ള ഒരു കഥാപാത്രം ഉപയോഗിക്കുകയാണെങ്കിൽ, <acronym class="acronym">GIMP</acronym> ഒരു അഭിപ്രായം ഇല്ലാതെ ചിത്രം കയറ്റുമതി ചെയ്യും, തുടർന്ന് അഭിപ്രായം സംരക്ഷിച്ചില്ല അറിയിക്കുകയാണ്.</p>
+                      </dd>
+                    </dl>
+                  </div>
+                </dd>
+                <dt>
+                  <span class="term">അനിമേറ്റുചെയ്ത GIF ഓപ്ഷനുകൾ</span>
+                </dt>
+                <dd>
+                  <a id="idp46925508838704" class="indexterm"></a>
+                  <div class="variablelist">
+                    <dl class="variablelist">
+                      <dt>
+                        <span class="term">ലൂപ്പ് എന്നേക്കും</span>
+                      </dt>
+                      <dd>
+                        <p>ഈ ഓപ്ഷൻ എപ്പോഴാണ് ചെക്കുചെയ്തിട്ടുണ്ടെന്നും, നിങ്ങൾ നിർത്തും വരെ ആനിമേഷൻ ആവർത്തിച്ച് പ്ലേ ചെയ്യും.</p>
+                      </dd>
+                      <dt>
+                        <span class="term">എവിടെ വ്യക്തമാക്കാതെ ഫ്രെയിമുകൾ തമ്മിലുള്ള കാലതാമസം</span>
+                      </dt>
+                      <dd>
+                        <p>നിങ്ങൾ കാലതാമസം മില്ലിസെക്കൻഡിൽ, ഫ്രെയിമുകൾ തമ്മിൽ അതു മുമ്പിൽ വെച്ചിരിക്കുന്ന ചെയ്തിട്ടില്ലെങ്കിൽ സജ്ജമാക്കാൻ കഴിയും. ഈ സാഹചര്യത്തിൽ, ലെയർ സംഭാഷണം ഓരോ കാലതാമസം പരിഷ്കരിക്കാനും കഴിയും.</p>
+                      </dd>
+                      <dt>
+                        <span class="term">ഫ്രെയിം തീർപ്പ് എവിടെ വ്യക്തമാക്കാതെ</span>
+                      </dt>
+                      <dd>
+                        <p>ഇതിന് മുമ്പ് സജ്ജമാക്കിയിട്ടില്ല, നിങ്ങൾക്ക് ഫ്രെയിമുകൾ സ്വഭവാമുള്ളതോ എങ്ങനെ സജ്ജമാക്കാൻ കഴിയും. നിങ്ങൾക്ക് മൂന്ന് ഓപ്ഷനുകൾ ഇടയിൽ തെരഞ്ഞെടുക്കാം:</p>
+                        <div class="itemizedlist">
+                          <ul class="itemizedlist" style="list-style-type: opencircle; ">
+                            <li class="listitem" style="list-style-type: circle">
+                              <p><span class="guilabel">I don't care</span>: നിങ്ങളുടെ എല്ലാ പാളികൾ സുതാര്യമല്ല എങ്കിൽ നിങ്ങൾ ഈ ഓപ്ഷൻ ഉപയോഗിക്കാം. ലെയറുകൾ കീഴെ എന്താണെന്ന് ഓവർറൈറ്റ് ചെയ്യും.</p>
+                            </li>
+                            <li class="listitem" style="list-style-type: circle">
+                              <p><span class="guilabel">Cumulative Layers (combine)</span>: പുതിയ ഒരെണ്ണം പ്രദർശിപ്പിക്കുമ്പോഴല്ല മുൻ ഫ്രെയിമുകൾ ഇല്ലാതാകില്ല.</p>
+                            </li>
+                            <li class="listitem" style="list-style-type: circle">
+                              <p><span class="guilabel">One frame per layer (replace)</span>: മുൻ ഫ്രെയിമുകൾ പുതിയ ഫ്രെയിം പ്രദർശിപ്പിക്കുന്നതിന് മുമ്പ് ഇല്ലാതാക്കും.</p>
+                            </li>
+                          </ul>
+                        </div>
+                      </dd>
+                      <dt>
+                        <span class="term">കാലതാമസം ഉപയോഗിക്കുന്ന എല്ലാ ഫ്രെയിമുകൾ മുകളിലുള്ള നൽകിയ</span>
+                      </dt>
+                      <dd>
+                        <p>സ്വയം വിശദീകരിക്കുന്ന.</p>
+                      </dd>
+                      <dt>
+                        <span class="term">ഡിസ്പോസൽ ഉപയോഗിക്കുന്ന എല്ലാ ഫ്രെയിമുകൾ മുകളിലുള്ള നൽകിയ</span>
+                      </dt>
+                      <dd>
+                        <p>സ്വയം വിശദീകരിക്കുന്ന.</p>
+                      </dd>
+                    </dl>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="file-jpeg-save"></a>1.2.2. ജെപിഇജി കയറ്റുമതി ചിത്രം</h4>
+                </div>
+              </div>
+            </div>
+            <a id="file-jpeg-load"></a>
+            <a id="idp46925508970624" class="indexterm"></a>
+            <a id="idp46925508971536" class="indexterm"></a>
+            <a id="idp46925508972432" class="indexterm"></a>
+            <a id="idp46925508973328" class="indexterm"></a>
+            <a id="idp46925508974272" class="indexterm"></a>
+            <p>JPEG ഫയൽ സാധാരണയായി ഒരു വിപുലീകരണം .jpg, .JPG, അല്ലെങ്കിൽ .jpeg ഞങ്ങൾക്കുണ്ട്. അത് ചിത്രത്തിന്റെ നിലവാരം നഷ്ടം കുറയ്ക്കുന്നതിന് സമയത്ത്, വളരെ കാര്യക്ഷമതയോടെ ചിത്രങ്ങൾ compresses കാരണം, വളരെ വ്യാപകമായി ഉപയോഗിക്കപ്പെട്ട ഫോർമാറ്റ് ആണ്. മറ്റ് ഫോർമാറ്റില്ല കംപ്രഷൻ ഒരേ നേടുന്നതിൽ സീമയും. എന്നാല്, സുതാര്യതയും അല്ലെങ്കിൽ ഒന്നിലധികം പാളികൾ അനുവദിക്കുന്നില്ല.</p>
+            <div class="figure">
+              <a id="idp46925508976992"></a>
+              <p class="title">
+                <strong>ചിത്രം 6.3. ജെപ്പെഗ് കയറ്റുമതി ഡയലോഗ്</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/export-jpeg-dialog.png" alt="ജെപ്പെഗ് കയറ്റുമതി ഡയലോഗ്" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p>ജെപെഗ് അൽഗോരിതം വളരെ സങ്കീർണ്ണമാണ്, ഉപാധികളും പരിഭ്രമിച്ചുപോയിരുന്നു എണ്ണം, ആരുടെ അർഥം ഈ ഡോക്യുമെന്റേഷൻ സാദ്ധ്യതകൾക്കും അപ്പുറത്താണ് ഉൾപ്പെടുന്നു. നിങ്ങൾ ഒരു JPEG വിദഗ്ദ്ധ ആയിരിക്കുമ്പോൾ അല്ലാതെ ക്വാളിറ്റി പരാമീറ്റർ ഒരുപക്ഷേ മാറ്റേണ്ടി വരും മാത്രമാണ്.</p>
+            <div class="variablelist">
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">ഗുണമേന്മയുള്ള</span>
+                </dt>
+                <dd>
+                  <p>നിങ്ങൾ JPEG ഫോർമാറ്റിൽ സേവ്, ഒരു ഡയലോഗ് 95 മീതെ 0 മുതൽ 100 ​​മൂല്യങ്ങൾ വരെയാണ് ഏത് നിങ്ങൾ ക്വാളിറ്റി നില സജ്ജീകരിക്കാൻ അനുവദിക്കുന്ന പ്രദർശിപ്പിച്ചിരിക്കുന്നു പൊതുവെ വന്നിട്ടും ഉപയോഗപ്രദമാണ്. 85 സ്ഥിര ഗുണമേന്മയുള്ള സാധാരണയായി നല്ല ഫലം ഉളവാക്കുന്നു, പക്ഷേ പല കേസുകളിലും അതു പ്രകടമാകും ചിത്രം അപമാനകരമായ ഇല്ലാതെ എത്രയോ താഴെ ഗുണമേന്മയുള്ള സജ്ജമാക്കാൻ സാധ്യമാണ്. നിങ്ങൾ ജെപെഗ് ഡയലോഗിൽ <span class="guilabel">Show Preview in image window</span> പരിശോധിച്ചുകൊണ്ട് വിവിധ ഗുണമേന്മയുള്ള ക്രമീകരണങ്ങൾ പ്രഭാവം പരിശോധിക്കാൻ കഴിയും.</p>
+                  <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+                    <table border="0" summary="Note">
+                      <tr>
+                        <td rowspan="2" align="center" valign="top" width="25">
+                          <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                        </td>
+                        <th align="left">കുറിപ്പു്</th>
+                      </tr>
+                      <tr>
+                        <td align="left" valign="top">
+                          <p>ജെപെഗ് ഗുണമേന്മ നില നമ്പറുകൾ പല പ്രയോഗങ്ങളെ ഒരു വ്യത്യസ്തമായ അർത്ഥം എന്നു ശ്രദ്ധിക്കുക. ജിമ് 80 എന്ന ഗുണമേന്മയുള്ള ലെവൽ സംരക്ഷിക്കുന്നു അവശ്യം ഒരു വ്യത്യസ്ത അപേക്ഷ 80 എന്ന ഗുണമേന്മയുള്ള ലെവൽ മുഖംരക്ഷിക്കാനുള്ള താരതമ്യപ്പെടുത്താവുന്ന അല്ല.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </dd>
+                <dt>
+                  <span class="term">ചിത്രം വിൻഡോയിൽ പ്രിവ്യൂ</span>
+                </dt>
+                <dd>
+                  <p>ഈ ഓപ്ഷൻ പരിശോധിക്കുന്നു നിലവാരം (അല്ലെങ്കിൽ മറ്റേതെങ്കിലും ജെപെഗ് പാരാമീറ്റർ) ഓരോ മാറ്റം ഇമേജ് ഡിസ്പ്ലേ കാണിച്ചിരിക്കുന്ന കാരണമാകുന്ന. (ഈ ചിത്രം ഭേദം ഇല്ല: ചിത്രം മടങ്ങിവരുന്നതു തിരികെ അതിന്റെ യഥാർത്ഥ നിലയിലേക്ക് ജെപെഗ് ഡയലോഗ് അടയ്ക്കുമ്പോൾ.)</p>
+                </dd>
+                <dt>
+                  <span class="term">വിപുലമായ ക്രമീകരണങ്ങൾ</span>
+                </dt>
+                <dd>
+                  <p>വിപുലമായ ക്രമീകരണം കുറിച്ച് ചില വിവരങ്ങൾ:</p>
+                  <div class="variablelist">
+                    <dl class="variablelist">
+                      <dt>
+                        <span class="term">ഒപ്റ്റിമൈസുചെയ്യുക</span>
+                      </dt>
+                      <dd>
+                        <p>നിങ്ങൾ ഈ ഐച്ഛികം ചെക്ക് ചെയ്താല് എൻട്രോപി എൻകോഡിംഗ് മാനദണ്ഡങ്ങളുടെ ഒപ്റ്റിമൈസേഷൻ ഉപയോഗിക്കും. ഫലം സാധാരണഗതിയിൽ ഒരു ചെറിയ ഫയൽ ആണ്, പക്ഷേ അത് സൃഷ്ടിക്കും കൂടുതൽ സമയം എടുക്കും.</p>
+                      </dd>
+                      <dt>
+                        <span class="term">മുന്നേറുന്ന</span>
+                      </dt>
+                      <dd>
+                        <p>ഈ ഓപ്ഷൻ പ്രാപ്തമാക്കി, ഇമേജ് കഷണങ്ങള് സ്ലോ കണക്ഷൻ വെബ് ഡൗൺലോഡുചെയ്യുന്നതിനിടെ പുരോഗമന ചിത്രം ഉന്നമനത്തിനും അനുവദിക്കുന്ന ഒരു ക്രമത്തിൽ ഫയൽ സൂക്ഷിക്കുന്നു. JPG വേണ്ടി പുരോഗമന ഓപ്ഷൻ ജിഫ് വേണ്ടി കൂടിച്ചേരൽ ഓപ്ഷൻ അതേ ഉപയോഗമാണ് ഉണ്ട്. നിർഭാഗ്യവശാൽ, പുരോഗമന ഓപ്ഷൻ അല്പം വലിയ JPG ഫയലുകൾ (പുരോഗമന ഓപ്ഷൻ ഇല്ലാതെ അധികം) ഉത്പാദിപ്പിക്കുന്നത്.</p>
+                      </dd>
+                      <dt>
+                        <span class="term">സംരക്ഷിക്കുക എക്സിഫ്</span>
+                      </dt>
+                      <dd>
+                        <a id="idp46925508996640" class="indexterm"></a>
+                        <p>പല ഡിജിറ്റൽ ക്യാമറകൾ നിന്ന് JPEG ഫയൽ എക്സിഫ് വിളിച്ചു അധിക വിവരങ്ങൾ അടങ്ങിയിരിക്കും. എക്സിഫ് ജിമ് എക്സിഫ് എഴുതാനും വായിക്കാനും <span class="quote">“<span class="quote">libexif</span>”</span> ലൈബ്രറി ഉപയോഗിക്കുന്നു ആണെങ്കിലും, ലൈബ്രറി സ്വയം ജിമ്പ് പാക്കേജായി അല്ല പോലുള്ള ക്യാമറ മെയ്ക്ക് മാതൃകയാണെന്നും ഇമേജ് വലുപ്പം, ഇമേജ് തീയതി മുതലായവ ചിത്രം സംബന്ധിച്ച വിവരങ്ങൾ നൽകുന്നു. ജിമ്പ് libexif പിന്തുണ നിർമിച്ചത്, പിന്നെ നിങ്ങൾ ഒരു JPEG ഫയൽ, ലഭിക്കുന്ന ചിത്രം ഉപയോഗിച്ച് പ്രവൃത്തി തുറന്നു തുടർന്ന് ജെപിഇജി കയറ്റുമതി എങ്കിൽ എക്സിഫ് സംരക്ഷിക്കപ്പെട്ടിരിക്കുന്നു. എക്സിഫ് ഇത് ചെയ്യുമ്പോൾ ഏതെങ്കിലും വിധത്തിൽ വരുത്തിയിട്ടുണ്ടെന്നാണ് ചെയ്തിട്ടില്ല. എക്സിഫ് മേലിൽ, ശരിയായ വരാം പോലുള്ള ഇമേജ് സൃഷ്ടിക്കൽ സമയവും ഫയൽ നാമം കാര്യങ്ങൾ ആകാം. ജിമ്പ് ഡിജിറ്റൽ പിന്തുണ നിർമിക്കപ്പെട്ട അല്ല, നിങ്ങൾക്ക് ഉപേക്ഷിക്കുന്നു എക്സിഫ് അടങ്ങുന്ന ഇപ്പോഴും തുറന്ന JPG ഫയലുകൾ എക്സിഫ് കഴിയില്ലെന്ന്, പക്ഷെ, തത്ഫലമായി ചിത്രം പിന്നീട് എക്സ്പോർട്ട് ചെയ്യുമ്പോൾ സംരക്ഷിക്കില്ല.</p>
+                      </dd>
+                      <dt>
+                        <span class="term">ലഘുചിത്രം സംരക്ഷിക്കുക</span>
+                      </dt>
+                      <dd>
+                        <p>ഈ ഓപ്ഷൻ ചിത്രത്തിൽ ഒരു ലഘുചിത്രം അനുവദിക്കുന്നു. പല പ്രയോഗങ്ങളും ഒരു വേഗം ചെറിയ പ്രിവ്യൂ ചിത്രമായും ചെറിയ ലഘുചിത്ര ഇമേജ് ഉപയോഗിക്കുന്നു.</p>
+                        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+                          <table border="0" summary="Note">
+                            <tr>
+                              <td rowspan="2" align="center" valign="top" width="25">
+                                <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                              </td>
+                              <th align="left">കുറിപ്പു്</th>
+                            </tr>
+                            <tr>
+                              <td align="left" valign="top">
+                                <p>ഈ ഓപ്ഷൻ <acronym class="acronym">GIMP</acronym> ഡിജിറ്റൽ പിന്തുണ നിർമിച്ചത് മാത്രമേ അതില്ല.</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </dd>
+                      <dt>
+                        <span class="term">സംരക്ഷിക്കുക XMP ഡാറ്റ</span>
+                      </dt>
+                      <dd>
+                        <p>XMP ഡാറ്റ ചിത്രം കുറിച്ച് <span class="quote">“<span class="quote">meta</span>”</span> ഡാറ്റയാണ്; അതു ഡിജിറ്റൽ ഒരു മത്സരിച്ച് ഫോർമാറ്റാണ്. നിങ്ങൾ ഈ ഐച്ഛികം ചെക്ക് ചെയ്താല്, ചിത്രം മെറ്റാ ഡേറ്റാ ഫയൽ ഉള്ളിൽ ഒരു <acronym class="acronym">XMP</acronym> -structure സംരക്ഷിക്കപ്പെടും.</p>
+                      </dd>
+                      <dt>
+                        <span class="term">യഥാർത്ഥ ചിത്രം നിന്ന് നിലവാരമുള്ള ക്രമീകരണങ്ങൾ ഉപയോഗിക്കുക</span>
+                      </dt>
+                      <dd>
+                        <p>ഒരു പ്രത്യേക ഗുണമേന്മയുള്ള ക്രമീകരണം (അല്ലെങ്കിൽ <span class="quote">“<span class="quote">quantization table</span>”</span>) എങ്കിൽ ചിത്രം അറ്റാച്ച് ചെയ്തു ലോഡ് അന്ന് ഈ ഓപ്ഷൻ സാധാരണ കൂട്ടത്തിൽ പകരം അവരെ ഉപയോഗിക്കാൻ അനുവദിക്കുന്നു.</p>
+                        <p>നിങ്ങൾ മാത്രം ചിത്രത്തിലേക്ക് കുറച്ച് മാറ്റങ്ങൾ വരുത്തിയിട്ടുണ്ടെങ്കിൽ, പിന്നീട് ഇതേ ഗുണമേന്മയുള്ള ക്രമീകരണം വീണ്ടും ഉപയോഗിച്ച് നിങ്ങൾ യഥാർത്ഥ ചിത്രം ഏതാണ്ട് ഒരേ നിലവാരം ഫയൽ വലുപ്പം തരും. നിങ്ങൾക്ക് വ്യത്യസ്ത നിലവാര ക്രമീകരണം ഉപയോഗിച്ച എന്തായിരിക്കും സംഭവിക്കുക അപേക്ഷിച്ച് ക്വാണ്ടൈസേഷൻ ഘട്ടം മൂലമുണ്ടാകുന്ന നഷ്ടം ചെറുതാകും.</p>
+                        <p>യഥാർത്ഥ ഫയലിൽ കണ്ടെത്തിയ ഗുണമേന്മയുള്ള ക്രമീകരണം നിങ്ങളുടെ സ്ഥിര ഗുണമേന്മയുള്ള ക്രമീകരണങ്ങൾ നല്ലതു അല്ല എങ്കിൽ, ഓപ്ഷൻ <span class="quote">“<span class="quote">Use quality settings from original image</span>”</span> ലഭ്യമാകും പക്ഷെ പ്രാപ്തമല്ല. ഇത് നിങ്ങൾ എപ്പോഴും നേടാനുള്ള കുറഞ്ഞപക്ഷം നിങ്ങളുടെ സ്വതവേയുള്ളതു് മിനിമം ഗുണമേന്മയുള്ള വ്യക്തമാക്കിയ ഉറപ്പുവരുത്തുകയും. ചിത്രത്തിൽ പ്രധാന മാറ്റങ്ങൾ വരുത്താൻ എങ്കിൽ നിങ്ങൾ യഥാർത്ഥ അതേ ഗുണമേന്മയുള്ള ഉപയോഗിച്ച് സംരക്ഷിക്കേണ്ടതോ, പിന്നെ നിങ്ങൾ ഈ ഓപ്ഷൻ പ്രാപ്തമാക്കുന്നത് വഴി ചെയ്യാൻ കഴിയും.</p>
+                      </dd>
+                      <dt>
+                        <span class="term">മാർദ്ദവപ്പെടുത്തൽ</span>
+                      </dt>
+                      <dd>
+                        <p>JPG കംപ്രഷൻ ആർട്ടിഫാക്റ്റുകൾ സൃഷ്ടിക്കുന്നു. ഈ ഓപ്ഷൻ ഉപയോഗിക്കുന്നതിലൂടെ, ഇമേജ് സംരക്ഷിക്കുമ്പോൾ, അവരെ കുറയ്ക്കുന്നതിനുള്ള സ്മൂത് കഴിയും. എന്നാൽ നിങ്ങളുടെ ചിത്രം അല്പമെങ്കിലും മങ്ങിയതും.</p>
+                      </dd>
+                      <dt>
+                        <span class="term">പുനരാരംഭിക്കുക മാർക്കറുകൾക്ക്</span>
+                      </dt>
+                      <dd>
+                        <p>ഇമേജ് ഫയൽ ഇമേജ് വിഭാഗങ്ങളായി ലോഡ് അനുവദിക്കുന്ന മാർക്കറുകളെ ഉൾപ്പെടുത്താൻ കഴിയും. ഒരു വെബ് പേജിൽ ഇമേജ് ലോഡ് ചെയ്യുന്നതിനിടയിൽ ഒരു കണക്ഷൻ തകർന്നുപോയി എങ്കിൽ, ലോഡിങ് അടുത്ത മാർക്കർ നിന്നും പുനരാരംഭിക്കുക കഴിയും.</p>
+                      </dd>
+                      <dt>
+                        <span class="term">ദ്ിവസം</span>
+                      </dt>
+                      <dd>
+                        <p>മനുഷ്യ കണ്ണ് മുഴുവൻ നിറം സ്പെക്ട്രം ഒരേ വഴിയിൽ സെൻസിറ്റീവ് അല്ല. കംപ്രഷൻ ഒരേപോലുള്ള നിറങ്ങൾ പോലെ, കണ്ണ് പോലെ വളരെ അടുത്താണ് അറിയുകയില്ല എന്ന് ചെറുതായി വ്യത്യസ്ത നിറങ്ങൾ പെരുമാറണം ഇത് ഉപയോഗിക്കാം. മൂന്ന് രീതികൾ ലഭ്യമാണ്:</p>
+                        <div class="itemizedlist">
+                          <ul class="itemizedlist" style="list-style-type: disc; ">
+                            <li class="listitem">
+                              <p><span class="guilabel">1x1,1x1,1x1 (best quality)</span>: സാധാരണ തുടങ്ങിയ വിശേഷണങ്ങളും (: 4: 4 4), ഇതു മികച്ച ഗുണമേന്മയുള്ള ഉത്പാദിപ്പിക്കുന്നത് അതിർത്തികൾ സൂക്ഷിക്കുന്നത് വർണ്ണങ്ങളും വ്യത്യസ്ഥമാക്കുന്നു, പക്ഷേ കംപ്രഷൻ കുറവാണ്.</p>
+                            </li>
+                            <li class="listitem">
+                              <p><span class="guilabel">2x1,1x1,1x1 (4:2:2)</span>: ഈ സാധാരണ ദ്ിവസം, ഏത് സാധാരണയായി ചിത്രത്തിന്റെ നിലവാരം, ഫയൽ വലുപ്പം തമ്മിലുള്ള നല്ല അനുപാതം പ്രദാനം ചെയ്യുന്നു. യാതൊരു ദ്ിവസം ഉപയോഗിച്ച് ഏത് എന്നാൽ സാഹചര്യങ്ങൾ, (: 4: 4 4) ഉണ്ട് ഇമേജ് ഗുണമേന്മയുള്ള ആരോപണങ്ങളില് വർദ്ധനവ് ലഭ്യമാക്കുന്നു; ഉദാഹരണത്തിന്, ഇമേജ് പോലുള്ള ഒരു യൂണിഫോം പശ്ചാത്തലത്തിൽ മേൽ വാചകം, ഏതാണ്ട്-ഫ്ലാറ്റ് നിറങ്ങളിലുള്ള ചിത്രങ്ങൾ പിഴ വിവരങ്ങൾ അടങ്ങിയിരിക്കുന്നു.</p>
+                            </li>
+                            <li class="listitem">
+                              <p><span class="guilabel">1x2,1x1,1x1</span> ഈ വിമാനങ്ങൾ (2x1,1x1,1x1) സമാനമായിരിക്കുമെങ്കിലും chroma ഒരുപറ്റം പകരം ലംബമായ ദിശയിൽ തിരശ്ചീനമായി ദിശയിൽ ആണ്; ഒരാൾ ചിത്രം ഘടികാര പോലെ.</p>
+                            </li>
+                            <li class="listitem">
+                              <p><span class="guilabel">2x2,1x1,1x1 (smallest file)</span>: സാധാരണ തുടങ്ങിയ വിശേഷണങ്ങളും (: 1 1: 4) ഈ ചെറിയ ഫയലുകൾ ഉത്പാദിപ്പിക്കുന്നത്. ഈ ദുർബല അതിരുകളിലും ചിത്രങ്ങൾ അനുയോജ്യമായ എന്നാൽ നിറങ്ങൾ denature കുറവുമാണ്.</p>
+                            </li>
+                          </ul>
+                        </div>
+                      </dd>
+                      <dt>
+                        <span class="term">DCT രീതി</span>
+                      </dt>
+                      <dd>
+                        <p>DCT <span class="quote">“<span class="quote">discrete cosine transform</span>”</span>, അത് സ്പേഷ്യൽ നിന്ന് ആവൃത്തി ഡൊമെയ്ൻ പോകുന്നു ജെപെഗ് അൽഗോരിതത്ത് ആദ്യപടി. തിരഞ്ഞെടുപ്പുകൾ <span class="quote">“<span class="quote">float</span>”</span>, <span class="quote">“<span class="quote">integer</span>”</span> (സ്വതവേ), ഒപ്പം <span class="quote">“<span class="quote">fast integer</span>”</span> ആകുന്നു.</p>
+                        <div class="itemizedlist">
+                          <ul class="itemizedlist" style="list-style-type: disc; ">
+                            <li class="listitem">
+                              <p><span class="guilabel">float</span>: ഫ്ലോട്ട് രീതി വളരെ ചെറുതായി കൂടുതൽ കൃത്യമായ പൂർണ്ണസംഖ്യ രീതി അധികം, എന്നാൽ നിങ്ങളുടെ മെഷീൻ വളരെ വേഗത്തിൽ ഫ്ലോട്ടിങ് പോയിന്റ് ഹാർഡ്വെയർ ഉണ്ടാകുന്നതുവരെ പ്രതലപ്രവർത്തനവുമായിരുക്കും ആണ്. എതിരെ floating- പോയിന്റ് രീതി ഫലങ്ങൾ ഇന്റിജർ രീതികൾ എല്ലായിടത്തും ഒരേ ഫലങ്ങൾ നൽകുന്ന അതേ സമയം, യന്ത്രങ്ങൾ ഉടനീളം മാറ്റമുണ്ടാവാം ശ്രദ്ധിക്കുക.</p>
+                            </li>
+                            <li class="listitem">
+                              <p><span class="guilabel">integer</span> (സ്ഥിരം): ഈ രീതി <span class="quote">“<span class="quote">float</span>”</span> വേഗത്തിൽ, പക്ഷേ കൃത്യമല്ല.</p>
+                            </li>
+                            <li class="listitem">
+                              <p><span class="guilabel">fast integer</span>: ഫാസ്റ്റ് പൂർണ്ണസംഖ്യ രീതി വളരെ കൃത്യത കുറഞ്ഞ മറ്റു രണ്ടു നല്ലതു.</p>
+                            </li>
+                          </ul>
+                        </div>
+                      </dd>
+                      <dt>
+                        <span class="term">ചിത്രം അഭിപ്രായങ്ങൾ</span>
+                      </dt>
+                      <dd>
+                        <p>ഈ ടെക്സ്റ്റ് ബോക്സിൽ നിങ്ങൾക്ക് ചിത്രം ഉപയോഗിച്ച് സംരക്ഷിച്ചു ഒരു അഭിപ്രായമുണ്ട് നൽകാം.</p>
+                      </dd>
+                    </dl>
+                  </div>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="file-png-save"></a>1.2.3. പിഎൻജി ആയിലഭ്യമാക്കുക ചിത്രം</h4>
+                </div>
+              </div>
+            </div>
+            <a id="file-png-load"></a>
+            <a id="file-png-save-defaults"></a>
+            <a id="idp46925509043632" class="indexterm"></a>
+            <a id="idp46925509044592" class="indexterm"></a>
+            <a id="idp46925509045488" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925509046848"></a>
+              <p class="title">
+                <strong>ചിത്രം 6.4. <span class="quote">“<span class="quote">Export Image as PNG</span>”</span> ഡയലോഗ്</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/export-png-dialog.png" alt="“Export Image as PNG” ഡയലോഗ്" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <div class="variablelist">
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">ഇന്റർലേസിംഗുണ്ട്</span>
+                </dt>
+                <dd>
+                  <p>കൂടിച്ചേരൽ പരിശോധിക്കുന്നു പോലെ ഡൌൺലോഡ്ചെയ്ത ഒരു വെബ് പേജിൽ ഒരു ഇമേജ് ക്രമേണ പ്രദർശിപ്പിക്കാൻ അനുവദിക്കുന്നു. നിന്നെ ഇനി പലിശ ഒരു ഇമേജ് നിർത്താൻ കഴിയും കാരണം പുരോഗമന ചിത്രം ഡിസ്പ്ലേ, സ്ലോ കണക്ഷൻ വേഗതകളെ കൂടെ ഉപയോഗപ്രദമാണ്; കൂടിച്ചേരൽ ഞങ്ങളുടെ വേഗത്തിൽ കണക്ഷൻ വേഗതകളെ ഉള്ളയത്രയും ഉപയോഗ ഇന്ന്.</p>
+                </dd>
+                <dt>
+                  <span class="term">പശ്ചാത്തല വർണ്ണം സംരക്ഷിക്കുക</span>
+                </dt>
+                <dd>
+                  <p>നിങ്ങളുടെ ചിത്രം പല സുതാര്യത അളവ് ഉണ്ടെങ്കിൽ മാത്രമേ രണ്ട് ലെവലുകൾ തിരിച്ചറിയാൻ ഇന്റർനെറ്റ് ബ്രൗസറുകൾ, പകരം നിങ്ങളുടെ പണിസഞ്ചി പശ്ചാത്തലം നിറം ഉപയോഗിക്കും. പതിപ്പ് 6 വരെ ഇന്റർനെറ്റ് എക്സ്പ്ലോറർ ഈ വിവരം ഉപയോഗിച്ചില്ല.</p>
+                </dd>
+                <dt>
+                  <span class="term">ഗാമാ സംരക്ഷിക്കുക</span>
+                </dt>
+                <dd>
+                  <p>ഗാമ വിവ കമ്പ്യൂട്ടറുകൾ വർണ്ണ മൂല്യങ്ങൾ വ്യാഖ്യാനിക്കാൻ എങ്ങനെ വ്യത്യാസങ്ങൾ ശരിയായ കഴിവ്. ഇത് നിങ്ങളുടെ ഡിസ്പ്ലേ നിലവിലെ ഗാമ ഘടകം പ്രതിഫലനമാണ് പി.എൻ.ജി. ഗാമാ വിവരങ്ങൾ സംരക്ഷിക്കുന്നു. മറ്റ് കമ്പ്യൂട്ടറുകളിൽ കാഴ്ചക്കാർ തുടർന്ന് ഇമേജ് വളരെയധികം ഇരുണ്ടതോ ശോഭയുള്ള അല്ല ഉറപ്പാക്കാൻ നഷ്ടപരിഹാരം കഴിയും.</p>
+                </dd>
+                <dt>
+                  <span class="term">ഓഫ്സെറ്റ് പാളി സംരക്ഷിക്കുക</span>
+                </dt>
+                <dd>
+                  <p>പിഎൻജി സ്ഥാനം ഡാറ്റ നൽകുന്ന <span class="quote">“<span class="quote">oFFs chunk</span>”</span>, വിളിച്ചു ഒരു ഓഫ്സെറ്റ് മൂല്യം പിന്തുണയ്ക്കുന്നു. നിർഭാഗ്യവശാൽ, പിഎൻജി <acronym class="acronym">GIMP</acronym> ലെ ഓഫ്സെറ്റ് കോൽ ഒടിച്ചു, അല്ലെങ്കിൽ കുറഞ്ഞത്, മറ്റ് അപ്ലിക്കേഷനുകൾ അനുയോജ്യമല്ല ഏറിയ കാലം അന്വേഷിക്കുന്നു. , ഓഫ്സെറ്റുകളുണ്ടു് പ്രാപ്തമാക്കാൻ പോകരുത് <acronym class="acronym">GIMP</acronym> സംരക്ഷിക്കുന്നതിന് മുമ്പ് പാളികൾ പരത്തുക; നീ പ്രശ്നങ്ങളൊന്നും ഉണ്ടാകുന്നതല്ല.</p>
+                </dd>
+                <dt>
+                  <span class="term">മിഴിവ് സംരക്ഷിക്കുക</span>
+                </dt>
+                <dd>
+                  <p>Save the image resolution, in ppi (pixels per inch).</p>
+                </dd>
+                <dt>
+                  <span class="term">സൃഷ്ടി സമയം ലാഭിക്കുക</span>
+                </dt>
+                <dd>
+                  <p>തീയതി ഫയൽ സംരക്ഷിച്ചു.</p>
+                </dd>
+                <dt>
+                  <span class="term">അഭിപ്രായം സംരക്ഷിക്കുക</span>
+                </dt>
+                <dd>
+                  <p>നിങ്ങൾ <a class="link" href="">Image Properties</a> ഈ അഭിപ്രായം വായിക്കാൻ കഴിയും.</p>
+                </dd>
+                <dt>
+                  <span class="term">സുതാര്യമായ പിക്സലുകൾ മുതൽ വർണ്ണ മൂല്യങ്ങൾ സംരക്ഷിക്കുക</span>
+                </dt>
+                <dd>
+                  <p>ഉപയോഗിച്ച് ഈ ഓപ്ഷൻ ചെക്കുചെയ്തിട്ടുണ്ടെന്നും, വർണ്ണ മൂല്യങ്ങൾ പിക്സൽ പൂർണ്ണമായും സുതാര്യമായ പോലും സംരക്ഷിച്ചു.</p>
+                </dd>
+                <dt>
+                  <span class="term">സംക്ഷേപണ ലെവൽ</span>
+                </dt>
+                <dd>
+                  <p>കംപ്രഷൻ ലോസ്സി സ്ഥിതിക്ക്, കുറവ് 9 ​​അതിനെക്കാൾ കംപ്രഷൻ ലെവൽ ഉപയോഗിക്കാൻ മാത്രമാണ് കാരണം, ഒരു സ്ലോ കമ്പ്യൂട്ടറിൽ ഒരു ഫയൽ കംപ്രസ്സ് ദൈർഘ്യമേറിയതാണ് എടുക്കൂ ആണ്. ഡീകംപ്രഷന് നിന്ന് യാതൊന്നും ഭയപ്പെടേണ്ടതില്ല: അതു പോലെ പെട്ടെന്നുള്ള ഏതൊരു കംപ്രഷൻ തലം.</p>
+                </dd>
+                <dt>
+                  <span class="term">സ്ഥിരസ്ഥിതികൾ സംരക്ഷിക്കുക</span>
+                </dt>
+                <dd>
+                  <p>നിലവിലെ ക്രമീകരണങ്ങൾ സംരക്ഷിക്കുന്നതിന് ക്ലിക്കുചെയ്യുക. ലറ്റർ, നിങ്ങൾക്ക് സംരക്ഷിച്ച ക്രമീകരണങ്ങൾ ലോഡുചെയ്യാൻ <span class="guibutton">Load Defaults</span> ഉപയോഗിക്കാം.</p>
+                </dd>
+              </dl>
+            </div>
+            <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+              <table border="0" summary="Note">
+                <tr>
+                  <td rowspan="2" align="center" valign="top" width="25">
+                    <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                  </td>
+                  <th align="left">കുറിപ്പു്</th>
+                </tr>
+                <tr>
+                  <td align="left" valign="top">
+                    <p>PNG ഫോർമാറ്റിൽ ഇൻഡെക്സ്ഡ് ചിത്രങ്ങൾ പിന്തുണയ്ക്കുന്നു. കുറച്ച് നിറങ്ങൾ അതുകൊണ്ട്, ഒരു ചെറിയ ഫയൽ കാരണമാകുന്നുണ്ട്; ഈ വെബ് ചിത്രങ്ങൾ സൃഷ്ടിക്കുന്നത് പ്രത്യേകിച്ചും ഉപകാരപ്രദമാണ്; <a class="xref" href="gimp-image-convert-indexed.html" title="6.6. Indexed mode">വിഭാഗം 6.6, “Indexed mode”</a> കാണുക.</p>
+                    <p>കംപ്യൂട്ടർ <span class="quote">“<span class="quote">Byte</span>”</span> പേരുള്ള 8 ബിറ്റുകൾ ബ്ലോക്കുകൾ പ്രവർത്തിക്കാം. ഒരു ബൈറ്റ് 256 നിറങ്ങൾ അനുവദിക്കുന്നു. 256 താഴെ നിറങ്ങൾ എണ്ണം കുറയ്ക്കുക ഉപയോഗപ്രദമല്ല: ഒരു ബൈറ്റ് ഏതുവിധേനയും ഉപയോഗിക്കുന്ന, ഫയൽ വലുപ്പം കുറവ് കഴിയില്ല ചെയ്യും. കൂടുതൽ ഈ <span class="quote">“<span class="quote">PNG8</span>”</span> ഫോർമാറ്റ്, ജിഫ് പോലെ മാത്രമേ ബിറ്റ് സുതാര്യത വേണ്ടി ഉപയോഗിക്കുന്നു; രണ്ടു സുതാര്യത അളവ് സാധ്യത സുതാര്യമായ അല്ലെങ്കിൽ സുതാര്യമല്ല.</p>
+                    <p>നിങ്ങൾ പിഎൻജി സുതാര്യത പൂർണ്ണമായി ഇന്റർനെറ്റ് എക്സ്പ്ലോറർ പ്രകടമാക്കും ആഗ്രഹിക്കുന്നുണ്ടെങ്കിൽ, നിങ്ങളുടെ വെബ് പേജിന്റെ കോഡിൽ AlphaImageLoader ന് DirectX ഫിൽട്ടർ ഉപയോഗിക്കാം. മൈക്രോസോഫ്റ്റ് നോളേജ് <a class="xref" href="">???</a> കാണുക. ശ്രദ്ധിക്കുക ഈ InternetExplorer 7-നും മുകളിൽ ആവശ്യമില്ല എന്നും.</p>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="file-tiff-save"></a>1.2.4. ടിഫ് ആയി കയറ്റുമതി ചിത്രം</h4>
+                </div>
+              </div>
+            </div>
+            <a id="idp46925509083216" class="indexterm"></a>
+            <a id="idp46925509084160" class="indexterm"></a>
+            <a id="idp46925509085056" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925509086416"></a>
+              <p class="title">
+                <strong>ചിത്രം 6.5. ടിഐഎഫ്എഫ് കയറ്റുമതി ഡയലോഗ്</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/export-tiff-dialog.png" alt="ടിഐഎഫ്എഫ് കയറ്റുമതി ഡയലോഗ്" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <div class="variablelist">
+              <dl class="variablelist">
+                <dt>
+                  <span class="term">കംപ്രഷൻ</span>
+                </dt>
+                <dd>
+                  <p>ഈ ഓപ്ഷൻ ചിത്രം കംപ്രസ്സ് ഉപയോഗിക്കുന്ന അൽഗോരിതം വ്യക്തമാക്കാൻ നിങ്ങളെ അനുവദിക്കുന്നു.</p>
+                  <div class="itemizedlist">
+                    <ul class="itemizedlist" style="list-style-type: disc; ">
+                      <li class="listitem">
+                        <p><span class="guilabel">None</span>: വേഗതയേറിയതും നഷ്ടമാകാത്ത ആണ്, പക്ഷേ കാരണമാകുന്നു ഫയൽ വളരെ വലുതാണ്.</p>
+                      </li>
+                      <li class="listitem">
+                        <p><span class="guilabel">LZW</span>: ചിത്രം <span class="quote">“<span class="quote">Lempel- Ziv-Welch</span>”</span> അല്ഗോരിഥം ഒരു നഷ്ടമാകാത്ത കംപ്രഷൻ സാങ്കേതികവിദ്യ ഉപയോഗിച്ച് ഉൾക്കൊള്ളിക്കുന്നു. ഈ പഴയ, എന്നാൽ കാര്യക്ഷമമായ ഫാസ്റ്റ് ആണ്. <a class="xref" href="">???</a> കൂടുതൽ വിവരങ്ങൾ.</p>
+                      </li>
+                      <li class="listitem">
+                        <p><span class="guilabel">Pack Bits</span>: ഡാറ്റ run- ദൂരം എൻകോഡിംഗിനായുള്ള ഒരു ഉപവാസം, ലളിതമായ കംപ്രഷൻ സ്കീം. ആപ്പിൾ മാക്കിന്റോഷ് കമ്പ്യൂട്ടറിൽ MacPaint പുറത്തിറക്കിയിരുന്നു PackBits ഫോർമാറ്റ് അവതരിപ്പിച്ചു. ഒരു PackBits ഡാറ്റ സ്ട്രീം ഹെഡ്ഡർ ഒന്ന് ബൈറ്റ് എന്ന പാക്കറ്റുകൾ ഡാറ്റ പിന്നാലെ അടങ്ങിയിരിക്കുന്നു. (അവലംബം: <a class="xref" href="bibliography.html#bibliography-online-wkpd-packbits" title="വിക്കിപീഡിയ - PackBits">[<abbr class="abbrev">WKPD-PACKBITS</abbr>]</a>)</p>
+                      </li>
+                      <li class="listitem">
+                        <p><span class="guilabel">Deflate</span>: LZ77 അൽഗോരിതം ഒരു കോമ്പിനേഷൻ ഉപയോഗിക്കുന്നതിനാൽ Huffman കോഡിങ് ഒരു നഷ്ടമാകാത്ത ഡേറ്റാ കമ്പ്രഷൻ അൽഗോരിതം ആണ്. അത് സിപ്പുചെയ്യുക Gzip, PNG ഫയൽ ഫോർമാറ്റുകളിൽ ഉപയോഗിക്കുന്നു. അവലംബം: <a class="xref" href="">???</a>.</p>
+                      </li>
+                      <li class="listitem">
+                        <p><span class="guilabel">JPEG</span>: വളരെ നല്ല കംപ്രഷൻ അൽഗോരിതം എന്നാൽ ലോസ്സി ആണ്.</p>
+                      </li>
+                      <li class="listitem">
+                        <p><span class="guilabel">CCITT Group 3 fax</span>; <span class="guilabel">CCITT Group 4 fax</span> ഫാക്സ് വഴി ചിത്രങ്ങൾ കൈമാറാൻ വികസിപ്പിച്ചെടുത്ത ഒരു ബ്ലാക്ക് ആൻഡ് വൈറ്റ് ഫോർമാറ്റ് ആണ്.</p>
+                        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+                          <table border="0" summary="Note">
+                            <tr>
+                              <td rowspan="2" align="center" valign="top" width="25">
+                                <img alt="[കുറിപ്പു്]" src="images/note.png" />
+                              </td>
+                              <th align="left">കുറിപ്പു്</th>
+                            </tr>
+                            <tr>
+                              <td align="left" valign="top">
+                                <p>ചിത്രം ഇൻഡെക്സ്ഡ് മോഡിൽ എങ്കിൽ ഈ ഓപ്ഷനുകൾ, തിരഞ്ഞെടുത്ത രണ്ടു നിറങ്ങളിൽ കുറയും കഴിയും. ഇൻഡെക്സ്ഡ് ഇമേജ് പരിവർത്തനം <span class="guimenu">Image</span> → <span class="guisubmenu">Mode</span> → <span class="guimenuitem">Indexed</span> ഉപയോഗിക്കുക. <span class="quote">“<span class="quote">Use black and white (1-bit) palette</span>”</span> പരിശോധിക്കാൻ എന്നറിവിൻ.</p>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </dd>
+                <dt>
+                  <span class="term">സുതാര്യമായ പിക്സലുകൾ മുതൽ വർണ്ണ മൂല്യങ്ങൾ സംരക്ഷിക്കുക</span>
+                </dt>
+                <dd>
+                  <p>ഈ ഓപ്ഷൻ നിറം മൂല്യങ്ങൾ പിക്സൽ പൂർണ്ണമായും സുതാര്യമായ പോലും സംരക്ഷിച്ചു.</p>
+                </dd>
+                <dt>
+                  <span class="term">അഭിപ്രായം</span>
+                </dt>
+                <dd>
+                  <p>ഈ ടെക്സ്റ്റ് ബോക്സിൽ നിങ്ങൾക്ക് ചിത്രം ബന്ധപ്പെട്ടിരിക്കുന്ന ഒരു അഭിപ്രായം നൽകാം.</p>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="sect3">
+            <div class="titlepage">
+              <div>
+                <div>
+                  <h4 class="title"><a id="file-mng-export"></a>1.2.5. എഎന്ജി ആയിലഭ്യമാക്കുക ചിത്രം</h4>
+                </div>
+              </div>
+            </div>
+            <a id="idp46925509112000" class="indexterm"></a>
+            <a id="idp46925509112960" class="indexterm"></a>
+            <a id="idp46925509113856" class="indexterm"></a>
+            <div class="figure">
+              <a id="idp46925509115216"></a>
+              <p class="title">
+                <strong>ചിത്രം 6.6. കയറ്റുമതി എഎന്ജി ഫയൽ ഡയലോഗ്</strong>
+              </p>
+              <div class="figure-contents">
+                <div class="mediaobject">
+                  <img src="images/using/export-mng-dialog.png" alt="കയറ്റുമതി എഎന്ജി ഫയൽ ഡയലോഗ്" />
+                </div>
+              </div>
+            </div>
+            <br class="figure-break" />
+            <p>എഎന്ജി <span class="quote">“<span class="quote">Multiple-Image Network Graphics</span>”</span> വേണ്ടി ചുരുക്കപ്പേരാണ്.</p>
+            <p>പ്രധാന പ്രശ്നം കോൺക്വറർ എഎന്ജി ആനിമേഷൻ ഫോർമാറ്റ് തിരിച്ചറിയുമ്പോൾ മാത്രമേ വെബ് നാവിഗേറ്റർ ആണ്. ദയവായി <a class="ulink" href="http://en.wikipedia.org/ wiki/Multiple-image_Network_Graphics" target="_top">http://en.wikipedia.org/ wiki/Multiple-image_Network_Graphics</a> കാണുക.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navfooter">
+      <hr />
+      <table width="100%" summary="Navigation footer">
+        <tr>
+          <td width="40%" align="left"><a accesskey="p" href="gimp-using-image-browser.html"><img src="images/prev.png" alt="മുമ്പുള്ളതു്" /></a> </td>
+          <td width="20%" align="center">
+            <a accesskey="u" href="become-a-gimp-wizard.html">
+              <img src="images/up.png" alt="മുകളിലേക്ക്" />
+            </a>
+          </td>
+          <td width="40%" align="right"> <a accesskey="n" href="gimp-using-web.html"><img src="images/next.png" alt="അടുത്തതു്" /></a></td>
+        </tr>
+        <tr>
+          <td width="40%" align="left" valign="top"><a accesskey="p" href="gimp-using-image-browser.html">3.8. ഇമേജ്ബ്രൌസര്</a> </td>
+          <td width="20%" align="center">
+            <a accesskey="h" href="index.html">
+              <img src="images/home.png" alt="ആസ്ഥാനം" />
+            </a>
+          </td>
+          <td width="40%" align="right" valign="top"> <a accesskey="n" href="gimp-using-web.html">2. വെബ് നിങ്ങളുടെ ചിത്രങ്ങൾ തയ്യാറെടുക്കുന്നു</a></td>
+        </tr>
+      </table>
+      <a href="https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual" class="reportbug">
+      Report an error in Bugzilla
+    </a>
+    </div>
+  </body>
+</html>
