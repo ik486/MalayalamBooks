@@ -9,4 +9,4 @@ For creating large number of Malayalam books, first use the machine power to  tr
 
 I have translated GIMP Book using machine power. Output is provided in ODT, PDF and PO files. ODT format can be converted to your favorite format such as DOC, DOCX etc. using LibreOffice 
 
-
+Use Google Noto Malayalam Fonts for the best result
